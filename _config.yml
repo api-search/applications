@@ -1,0 +1,30 @@
+name: APIs.io Applications
+description: What the leading apps in 90 categories are built on — reference apps and the providers they ship or declare, joined to the catalog.
+image: https://apis.io/assets/branding/apisio-social-card.png
+url: https://apis.io
+
+node: website
+nav_active: applications
+
+keywords:
+  - APIs
+  - Search
+  - Discovery
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "scripts"]
+include: [".well-known"]
+
+github_org: api-search
+github_repo: applications
+
+collections:
+  applications:
+    output: true
+    permalink: /applications/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: applications
+    values:
+      layout: application

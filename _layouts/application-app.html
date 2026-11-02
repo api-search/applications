@@ -1,0 +1,72 @@
+---
+layout: default
+---
+{%- comment -%}
+  One reference app: /applications/<category>/<app-slug>/ (Kin, 2026-10-26).
+  Same honesty rules as application.html: tier on every row, raw notes never rendered, queued
+  providers never linked, MCP linked only for verified/documented, every evidence link nofollow.
+  An app with no integration rows says why and is noindex until it has rows. The robots meta is emitted in <head> by default.html.
+{%- endcomment -%}
+<style>
+  .ap-box { background:#fff; border:1px solid #e3e7ee; border-radius:12px; padding:1rem 1.25rem; margin:1rem 0; }
+  .ap-attr { background:#fbfbfd; border-left:4px solid #6b7280; font-size:.88rem; color:#4b5563; }
+  table.ap { width:100%; border-collapse:collapse; font-size:.88rem; }
+  table.ap th, table.ap td { text-align:left; padding:.35rem .5rem; border-bottom:1px solid #eef0f4; vertical-align:top; }
+  .tier { border-radius:999px; padding:.05rem .5rem; font-size:.75rem; }
+  .tier-observed { background:#dcfce7; color:#166534; }
+  .tier-declared { background:#e0e7ff; color:#3730a3; }
+  .queued { color:#6b7280; font-style:italic; }
+  @media (max-width:640px){ table.ap .hide-sm { display:none; } }
+</style>
+
+<p><a href="/applications/">Applications</a> &rsaquo; <a href="{{ page.category.url }}">{{ page.category.name }}</a> &rsaquo; {{ page.app }}</p>
+<h1>{{ page.app }}</h1>
+<p>A {{ page.kind }} reference app in <a href="{{ page.category.url }}">{{ page.category.name }}</a>.
+<a href="{{ page.app_url }}" rel="nofollow">{{ page.app_url }}</a></p>
+<p>{{ page.counts.observed }} observed · {{ page.counts.declared }} declared.
+Read from: {% for e in page.evidence %}<a href="{{ e.url }}" rel="nofollow">{{ e.route }}</a>{% unless forloop.last %}, {% endunless %}{% else %}nothing yet{% endfor %}.</p>
+
+{% if page.no_rows_reason %}
+<div class="ap-box"><strong>No integrations listed.</strong> {{ page.no_rows_reason | capitalize }}.</div>
+{% else %}
+<h2>Integrations</h2>
+<table class="ap">
+  <tr><th>Provider</th><th>Evidence</th><th>Capability</th><th class="hide-sm">Layer</th></tr>
+  {% for i in page.integrations %}
+  <tr>
+    <td>{% if i.facts.in_catalog %}<a href="{{ i.facts.url }}">{{ i.name }}</a>{% else %}{{ i.name }} <span class="queued">queued for profiling</span>{% endif %}</td>
+    <td><span class="tier tier-{{ i.tier }}">{{ i.tier }}</span> {{ i.says }}{% if i.source %} <a href="{{ i.source }}" rel="nofollow">source</a>{% endif %}{% if i.credit %} <small>({{ i.credit }})</small>{% endif %}</td>
+    <td>{% if i.capability.url %}<a href="{{ i.capability.url }}">{{ i.capability.name }}</a>{% else %}{{ i.capability.name }}{% endif %}</td>
+    <td class="hide-sm">{{ i.layer }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<h2>Capabilities it touches</h2>
+<ul>{% for c in page.capabilities %}<li>{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}
+  <small>{{ c.layer }} · {{ c.id }} · {{ c.attribution }}</small>: {{ c.providers | join: ", " }}</li>{% endfor %}</ul>
+
+<h2>Providers in the catalog</h2>
+<table class="ap">
+  <tr><th>Provider</th><th>Kin Score</th><th class="hide-sm">Agent readiness</th><th>MCP</th></tr>
+  {% for p in page.providers %}
+  <tr>
+    <td>{% if p.in_catalog %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }} <span class="queued">queued for profiling</span>{% endif %}</td>
+    <td>{% if p.kin_score %}{{ p.kin_score }} <small>{{ p.band }}</small>{% else %}&mdash;{% endif %}</td>
+    <td class="hide-sm">{% if p.agent_readiness %}{{ p.agent_readiness }} <small>{{ p.agent_band }}</small>{% else %}&mdash;{% endif %}</td>
+    <td>{% if p.mcp.source %}<a href="{{ p.mcp.source }}" rel="nofollow">{{ p.mcp.status }}</a>{% elsif p.mcp.status == 'none' %}none found{% elsif p.mcp.status == 'unchecked' %}&mdash;{% else %}{{ p.mcp.status }}{% endif %}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endif %}
+
+<div class="ap-box ap-attr">
+  <span class="tier tier-observed">observed</span> ships in the app's code or build.
+  <span class="tier tier-declared">declared</span> named by the app itself.
+  {% for cr in page.credits %}Android build analysis: {{ cr }}. {% endfor %}
+  Blueprint by API Evangelist, {{ page.license }}. Turbo EA capabilities: CC BY 4.0 (<a href="/capabilities/notice/">notice</a>).
+</div>
+
+<h2>Other {{ page.category.name }} apps</h2>
+<ul>{% for s in page.siblings %}<li><a href="{{ s.url }}">{{ s.name }}</a>{% if s.rows == 0 %} <small>(integrations not yet read)</small>{% endif %}</li>{% endfor %}</ul>
+<p><a href="{{ page.category.url }}">Back to {{ page.category.name }}</a> · <a href="/applications/shared-layer/">the shared layer</a></p>

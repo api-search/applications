@@ -1,0 +1,123 @@
+---
+layout: default
+---
+{%- comment -%}
+  Application blueprint page, one per category. Proposed home: network/_layouts/application.html,
+  copied one-way to the applications site by bootstrap-sites.py like every section layout.
+
+  HONESTY RULES (DESIGN.md):
+  - every provider row carries its evidence tier; observed and declared are shown apart, and
+    inferred rows appear ONLY in the "candidates" block, never under an app.
+  - a provider not in the catalog is plain text "queued for profiling", never a link.
+  - MCP "verified" links to the source it was verified from; nothing else is called verified.
+  - the raw evidence note is never rendered (some are tracker inventories). Rows say
+    "ships the X SDK" / "lists X as an integration", nothing more.
+  - BC capabilities credit Turbo EA (CC BY 4.0); AE capabilities credit the API Evangelist
+    extension (CC BY-NC-SA 4.0). The blueprint itself is API Evangelist, CC BY-NC-SA 4.0.
+{%- endcomment -%}
+<style>
+  .ap-stats { display:flex; flex-wrap:wrap; gap:.6rem; margin:.8rem 0 1.2rem; }
+  .ap-stat { background:#fff; border:1px solid #e3e7ee; border-radius:8px; padding:.5rem .9rem; font-size:.85rem; }
+  .ap-stat strong { color:#1d4ed8; font-size:1.05rem; }
+  .ap-box { background:#fff; border:1px solid #e3e7ee; border-radius:12px; padding:1rem 1.25rem; margin:1rem 0; }
+  .ap-attr { background:#fbfbfd; border-left:4px solid #6b7280; font-size:.88rem; color:#4b5563; }
+  .ap-layer h2 { text-transform:capitalize; }
+  .ap-cap { margin:1rem 0 .3rem; font-size:1rem; }
+  .ap-cap small { color:#6b7280; font-weight:400; }
+  table.ap { width:100%; border-collapse:collapse; font-size:.88rem; }
+  table.ap th, table.ap td { text-align:left; padding:.35rem .5rem; border-bottom:1px solid #eef0f4; vertical-align:top; }
+  .tier { border-radius:999px; padding:.05rem .5rem; font-size:.75rem; }
+  .tier-observed { background:#dcfce7; color:#166534; }
+  .tier-declared { background:#e0e7ff; color:#3730a3; }
+  .tier-candidate { background:#fef3c7; color:#92400e; }
+  .queued { color:#6b7280; font-style:italic; }
+  .ap-apps { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:.9rem; }
+  .ap-app h3 { margin:0 0 .3rem; font-size:1rem; }
+  .ap-app ul { margin:.4rem 0 0 1rem; padding:0; font-size:.85rem; }
+  details.ap-layer > summary h2, details.ap-group > summary { display:inline; cursor:pointer; }
+  details.ap-layer { margin:1rem 0; } details.ap-group { margin:.4rem 0 .4rem 1rem; }
+  .ap-caplink { margin:.2rem 0; font-size:.85rem; }
+  @media (max-width:640px){ table.ap .hide-sm { display:none; } }
+</style>
+
+<p><a href="/applications/">Applications</a> &rsaquo; {{ page.name }}</p>
+<h1>{{ page.name }}</h1>
+<p>What {{ page.summary.reference_apps }} leading {{ page.name }} apps are built on: the providers each one
+ships in its code or lists as an integration, grouped by layer and capability, and joined to the catalog.</p>
+<div class="ap-stats">
+  <span class="ap-stat"><strong>{{ page.summary.reference_apps }}</strong> reference apps</span>
+  <span class="ap-stat"><strong>{{ page.summary.distinct_providers }}</strong> providers</span>
+  <span class="ap-stat"><strong>{{ page.summary.observed }}</strong> observed in code</span>
+  <span class="ap-stat"><strong>{{ page.summary.declared_only }}</strong> declared only</span>
+  <span class="ap-stat"><strong>{{ page.summary.coverage_pct }}%</strong> in the catalog</span>
+  {% if page.summary.mean_kin_score %}<span class="ap-stat"><strong>{{ page.summary.mean_kin_score }}</strong> mean Kin Score</span>{% endif %}
+  <span class="ap-stat"><strong>{{ page.summary.mcp_verified }}</strong> with a verified MCP server</span>
+</div>
+
+<div class="ap-box ap-attr">
+  <strong>How to read this.</strong>
+  <span class="tier tier-observed">observed</span> the integration ships in the app (SDK in a dependency file, source code, or an Android build analysis).
+  <span class="tier tier-declared">declared</span> the app names the integration itself (README, integrations page, store listing).
+  Every row links the source it was read from. Providers not yet in the catalog are marked <span class="queued">queued for profiling</span>.
+  Blueprint by API Evangelist, {{ page.license }}. Capabilities marked <em>Turbo EA</em> come from Turbo EA Capabilities by Vincent Verdet, CC BY 4.0
+  (<a href="/capabilities/notice/">notice</a>); those marked <em>API Evangelist extension</em> are CC BY-NC-SA 4.0.
+  {% for cr in page.credits %}Android build analyses: {{ cr }}. {% endfor %}
+</div>
+
+{%- comment -%} Kin, 2026-10-26: layers and capability groups collapse. Native <details>, no JS:
+  the first layer is open, the rest closed; every group is closed. Without CSS/JS support the
+  content is still in the HTML and expands on click. {%- endcomment -%}
+{% for L in page.stack %}
+<details class="ap-layer"{% if forloop.first %} open{% endif %}>
+  <summary><h2>{{ L.layer }} layer <small>{{ L.capabilities.size }} capabilities</small></h2></summary>
+  {% for c in L.capabilities %}
+  <details class="ap-group">
+  <summary class="ap-cap">
+    {{ c.capability.name }} <small>{{ c.providers.size }} providers · {{ c.capability.id }} · {{ c.capability.attribution }}</small>
+  </summary>
+  {% if c.capability.url %}<p class="ap-caplink"><a href="{{ c.capability.url }}">{{ c.capability.name }} capability</a></p>{% endif %}
+  <table class="ap">
+    <tr><th>Provider</th><th>Evidence</th><th>Apps</th><th>Kin Score</th><th class="hide-sm">Agent readiness</th><th class="hide-sm">MCP</th></tr>
+    {% for p in c.providers %}
+    <tr>
+      <td>{% if p.in_catalog %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }} <span class="queued">queued for profiling</span>{% endif %}</td>
+      <td><span class="tier tier-{{ p.tier }}">{{ p.tier }}</span>{% for s in p.sources %} <a href="{{ s }}" rel="nofollow">[{{ forloop.index }}]</a>{% endfor %}</td>
+      <td>{{ p.apps | join: ", " }}</td>
+      <td>{% if p.kin_score %}{{ p.kin_score }} <small>{{ p.band }}</small>{% else %}&mdash;{% endif %}</td>
+      <td class="hide-sm">{% if p.agent_readiness %}{{ p.agent_readiness }} <small>{{ p.agent_band }}</small>{% else %}&mdash;{% endif %}</td>
+      <td class="hide-sm">{% if p.mcp.source %}<a href="{{ p.mcp.source }}" rel="nofollow">{{ p.mcp.status }}</a>{% elsif p.mcp.status == 'none' %}none found{% elsif p.mcp.status == 'unchecked' %}&mdash;{% else %}{{ p.mcp.status }}{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  </details>
+  {% endfor %}
+</details>
+{% endfor %}
+
+<h2>Reference apps</h2>
+<div class="ap-apps">
+{% for a in page.apps %}
+  <div class="ap-box ap-app" id="{{ a.anchor }}">
+    <h3><a href="{{ a.page }}">{{ a.name }}</a> <small>{{ a.kind }}</small></h3>
+    <p><small><a href="{{ a.url }}" rel="nofollow">{{ a.url }}</a></small></p>
+    <div>{{ a.counts.observed }} observed · {{ a.counts.declared }} declared</div>
+    <ul>{% for i in a.integrations %}<li><span class="tier tier-{{ i.tier }}">{{ i.tier }}</span> {{ i.says }}{% if i.source %} <a href="{{ i.source }}" rel="nofollow">source</a>{% endif %}</li>{% endfor %}</ul>
+    <p><small>Read from: {% for e in a.evidence %}<a href="{{ e.url }}" rel="nofollow">{{ e.route }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</small></p>
+  </div>
+{% endfor %}
+</div>
+
+{% if page.agent_layer.size > 0 %}
+<h2>What these apps expose to agents</h2>
+<ul>{% for g in page.agent_layer %}<li><strong>{{ g.app }}</strong>: {{ g.finding }} <span class="tier tier-{{ g.tier }}">{{ g.tier }}</span> <a href="{{ g.source }}" rel="nofollow">source</a></li>{% endfor %}</ul>
+{% endif %}
+
+{% if page.candidates.size > 0 %}
+<h2>Catalog candidates</h2>
+<p>Providers that fit a capability this category needs. <strong>No app here is claimed to use them.</strong></p>
+<ul>{% for c in page.candidates %}<li><span class="tier tier-candidate">candidate</span> {% if c.in_catalog %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }} <span class="queued">queued for profiling</span>{% endif %} for {{ c.capability.name }}</li>{% endfor %}</ul>
+{% endif %}
+
+<h2>Where these apps are listed</h2>
+<ul>{% for m in page.marketplaces %}<li><a href="{{ m.url }}" rel="nofollow">{{ m.store }}</a>: {{ m.category }}</li>{% endfor %}</ul>
+<p>See also <a href="/applications/shared-layer/">the shared layer under every category</a>.</p>

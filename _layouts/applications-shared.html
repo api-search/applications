@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<style>
+  table.ap { width:100%; border-collapse:collapse; font-size:.9rem; }
+  table.ap th, table.ap td { text-align:left; padding:.4rem .5rem; border-bottom:1px solid #eef0f4; vertical-align:top; }
+  .bar { display:inline-block; height:.6rem; background:#1d4ed8; border-radius:3px; vertical-align:middle; }
+  .queued { color:#6b7280; font-style:italic; }
+  @media (max-width:640px){ table.ap .hide-sm { display:none; } }
+</style>
+<p><a href="/applications/">Applications</a> &rsaquo; Shared layer</p>
+<h1>The shared layer under every application</h1>
+<p>Across {{ page.total_categories }} application categories, a short list of providers turns up again and again,
+whatever the app does. These are the providers observed in code or declared by the most categories.
+Counts include only observed and declared integrations; inferred candidates never count.</p>
+<table class="ap">
+  <tr><th>#</th><th>Provider</th><th>Categories</th><th class="hide-sm">Apps</th><th>Kin Score</th><th class="hide-sm">Agent readiness</th><th class="hide-sm">MCP</th><th class="hide-sm">Used for</th></tr>
+  {% for p in page.providers %}
+  <tr>
+    <td>{{ forloop.index }}</td>
+    <td>{% if p.in_catalog %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }} <span class="queued">queued for profiling</span>{% endif %}</td>
+    <td>{{ p.categories }} <span class="bar" style="width:{{ p.categories | times: 100 | divided_by: page.total_categories }}px"></span></td>
+    <td class="hide-sm">{{ p.apps }}</td>
+    <td>{% if p.kin_score %}{{ p.kin_score }} <small>{{ p.band }}</small>{% else %}&mdash;{% endif %}</td>
+    <td class="hide-sm">{% if p.agent_readiness %}{{ p.agent_readiness }} <small>{{ p.agent_band }}</small>{% else %}&mdash;{% endif %}</td>
+    <td class="hide-sm">{% if p.mcp.source %}<a href="{{ p.mcp.source }}" rel="nofollow">{{ p.mcp.status }}</a>{% else %}{{ p.mcp.status }}{% endif %}</td>
+    <td class="hide-sm">{% for c in p.capabilities %}{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</td>
+  </tr>
+  {% endfor %}
+</table>
+<p>Blueprints by API Evangelist, CC BY-NC-SA 4.0.</p>

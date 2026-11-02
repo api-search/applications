@@ -1,0 +1,31 @@
+---
+layout: default
+title: Applications
+canonical: https://apis.io/applications/
+description: What the leading apps in 90 categories are built on, joined to the APIs.io catalog.
+---
+<style>
+  .ap-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:.9rem; }
+  .ap-card { display:block; background:#fff; border:1px solid #e3e7ee; border-left:3px solid #1d4ed8; border-radius:10px;
+             padding:1rem 1.2rem; text-decoration:none; color:inherit; }
+  .ap-card h3 { margin:0 0 .3rem; font-size:1rem; }
+  .ap-card p { margin:0; font-size:.82rem; color:#6b7280; }
+  .ap-shared { background:#fbfbfd; border:1px solid #e3e7ee; border-radius:12px; padding:1rem 1.25rem; margin:1rem 0 1.5rem; }
+</style>
+<h1>Applications</h1>
+<p>Pick a kind of application and see what the leading ones are built on: the providers each reference app ships in its
+code or lists as an integration, by layer and capability, with every provider's Kin Score, agent readiness and MCP status.
+Blueprints by API Evangelist, CC BY-NC-SA 4.0.</p>
+<div class="ap-shared">
+  <strong>The headline:</strong> every category sits on the same shared layer.
+  {% for p in site.data.applications.shared_top limit:6 %}{{ p.name }} ({{ p.categories }}){% unless forloop.last %}, {% endunless %}{% endfor %}.
+  <a href="/applications/shared-layer/">See the shared layer</a>.
+</div>
+<div class="ap-grid">
+{% for c in site.data.applications.categories %}
+  <a class="ap-card" href="/applications/{{ c.id }}/">
+    <h3>{{ c.name }}</h3>
+    <p>{{ c.reference_apps }} apps · {{ c.distinct_providers }} providers · {{ c.coverage_pct }}% in catalog{% if c.mean_kin_score %} · mean Kin {{ c.mean_kin_score }}{% endif %}</p>
+  </a>
+{% endfor %}
+</div>
