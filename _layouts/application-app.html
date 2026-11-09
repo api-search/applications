@@ -36,7 +36,7 @@ Read from: {% for e in page.evidence %}<a href="{{ e.url }}" rel="nofollow">{{ e
   <tr>
     <td>{% if i.facts.in_catalog %}<a href="{{ i.facts.url }}">{{ i.name }}</a>{% else %}{{ i.name }} <span class="queued">queued for profiling</span>{% endif %}</td>
     <td><span class="tier tier-{{ i.tier }}">{{ i.tier }}</span> {{ i.says }}{% if i.source %} <a href="{{ i.source }}" rel="nofollow">source</a>{% endif %}{% if i.credit %} <small>({{ i.credit }})</small>{% endif %}</td>
-    <td>{% if i.capability.url %}<a href="{{ i.capability.url }}">{{ i.capability.name }}</a>{% else %}{{ i.capability.name }}{% endif %}</td>
+    <td>{% if i.capability.url %}<a href="{{ i.capability.url }}"{% if i.capability.via_parent %} title="Part of {{ i.capability.via_parent }}"{% endif %}>{{ i.capability.name }}</a>{% else %}{{ i.capability.name }}{% endif %}</td>
     <td class="hide-sm">{{ i.layer }}</td>
   </tr>
   {% endfor %}

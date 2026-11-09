@@ -121,3 +121,4 @@ ships in its code or lists as an integration, grouped by layer and capability, a
 <h2>Where these apps are listed</h2>
 <ul>{% for m in page.marketplaces %}<li><a href="{{ m.url }}" rel="nofollow">{{ m.store }}</a>: {{ m.category }}</li>{% endfor %}</ul>
 <p>See also <a href="/applications/shared-layer/">the shared layer under every category</a>.</p>
+<p>Machine-readable: <a href="/api/v1/applications/{{ page.id | split: '/' | last }}" rel="nofollow">this blueprint as JSON</a> (Understanding plan), or the <a href="/applications/api/applications.json">free category index</a>.</p>

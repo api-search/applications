@@ -1,0 +1,562 @@
+{
+ "industry:payments": [
+  {
+   "url": "/compare/cohorts/payments-vs-banking/",
+   "vs": "Banking & Open Banking",
+   "title": "Payments vs Banking: the money movers publish better contracts than the banks"
+  }
+ ],
+ "industry:banking": [
+  {
+   "url": "/compare/cohorts/payments-vs-banking/",
+   "vs": "Payments & Money Movement",
+   "title": "Payments vs Banking: the money movers publish better contracts than the banks"
+  }
+ ],
+ "region:north-america": [
+  {
+   "url": "/compare/cohorts/north-america-vs-europe/",
+   "vs": "Europe",
+   "title": "North America vs Europe: Europe publishes the cleaner API estate"
+  }
+ ],
+ "region:europe": [
+  {
+   "url": "/compare/cohorts/north-america-vs-europe/",
+   "vs": "North America",
+   "title": "North America vs Europe: Europe publishes the cleaner API estate"
+  }
+ ],
+ "vc:y-combinator": [
+  {
+   "url": "/compare/cohorts/y-combinator-vs-a16z/",
+   "vs": "Andreessen Horowitz",
+   "title": "Y Combinator vs Andreessen Horowitz: whose portfolio ships the better APIs?"
+  }
+ ],
+ "vc:a16z": [
+  {
+   "url": "/compare/cohorts/y-combinator-vs-a16z/",
+   "vs": "Y Combinator",
+   "title": "Y Combinator vs Andreessen Horowitz: whose portfolio ships the better APIs?"
+  }
+ ],
+ "industry:healthcare": [
+  {
+   "url": "/compare/cohorts/healthcare-vs-insurance/",
+   "vs": "Insurance",
+   "title": "Healthcare vs Insurance: two regulated markets, and healthcare trails"
+  }
+ ],
+ "industry:insurance": [
+  {
+   "url": "/compare/cohorts/healthcare-vs-insurance/",
+   "vs": "Healthcare",
+   "title": "Healthcare vs Insurance: two regulated markets, and healthcare trails"
+  }
+ ],
+ "tag:artificial-intelligence": [
+  {
+   "url": "/compare/cohorts/artificial-intelligence-vs-machine-learning/",
+   "vs": "Machine Learning",
+   "title": "AI vs Machine Learning: the newer label scores lower"
+  }
+ ],
+ "tag:machine-learning": [
+  {
+   "url": "/compare/cohorts/artificial-intelligence-vs-machine-learning/",
+   "vs": "Artificial Intelligence",
+   "title": "AI vs Machine Learning: the newer label scores lower"
+  }
+ ],
+ "industry:cybersecurity": [
+  {
+   "url": "/compare/cohorts/cybersecurity-vs-developer-tools/",
+   "vs": "Developer Tools & DevOps",
+   "title": "Cybersecurity vs Developer Tools: who governs their own APIs better?"
+  }
+ ],
+ "industry:developer-tools": [
+  {
+   "url": "/compare/cohorts/cybersecurity-vs-developer-tools/",
+   "vs": "Cybersecurity & Identity",
+   "title": "Cybersecurity vs Developer Tools: who governs their own APIs better?"
+  }
+ ],
+ "tag:mcp": [
+  {
+   "url": "/compare/cohorts/mcp-vs-ai-agents/",
+   "vs": "AI Agents",
+   "title": "MCP vs AI Agents: building for agents beats talking about them"
+  }
+ ],
+ "tag:ai-agents": [
+  {
+   "url": "/compare/cohorts/mcp-vs-ai-agents/",
+   "vs": "MCP",
+   "title": "MCP vs AI Agents: building for agents beats talking about them"
+  }
+ ],
+ "industry:e-commerce-platform": [
+  {
+   "url": "/compare/cohorts/e-commerce-platform-vs-retail/",
+   "vs": "Retail",
+   "title": "E-commerce platforms vs Retail: the platforms beat the stores"
+  }
+ ],
+ "industry:retail": [
+  {
+   "url": "/compare/cohorts/e-commerce-platform-vs-retail/",
+   "vs": "E-Commerce Platform",
+   "title": "E-commerce platforms vs Retail: the platforms beat the stores"
+  }
+ ],
+ "region:united-kingdom-ireland": [
+  {
+   "url": "/compare/cohorts/united-kingdom-ireland-vs-greater-china/",
+   "vs": "Greater China",
+   "title": "UK & Ireland vs Greater China: the widest regional gap in the catalog"
+  }
+ ],
+ "region:greater-china": [
+  {
+   "url": "/compare/cohorts/united-kingdom-ireland-vs-greater-china/",
+   "vs": "United Kingdom & Ireland",
+   "title": "UK & Ireland vs Greater China: the widest regional gap in the catalog"
+  }
+ ],
+ "industry:blockchain-crypto": [
+  {
+   "url": "/compare/cohorts/blockchain-crypto-vs-financial-services/",
+   "vs": "Financial Services",
+   "title": "Crypto vs Financial Services: Web3 outscores traditional finance"
+  }
+ ],
+ "industry:financial-services": [
+  {
+   "url": "/compare/cohorts/blockchain-crypto-vs-financial-services/",
+   "vs": "Blockchain, Crypto & Web3",
+   "title": "Crypto vs Financial Services: Web3 outscores traditional finance"
+  }
+ ],
+ "industry:telecommunications": [
+  {
+   "url": "/compare/cohorts/telecommunications-vs-iot/",
+   "vs": "IoT & Connected Devices",
+   "title": "Telecom vs IoT: the networks publish far better APIs than the devices on them"
+  }
+ ],
+ "industry:iot": [
+  {
+   "url": "/compare/cohorts/telecommunications-vs-iot/",
+   "vs": "Telecommunications & Connectivity",
+   "title": "Telecom vs IoT: the networks publish far better APIs than the devices on them"
+  }
+ ],
+ "industry:logistics": [
+  {
+   "url": "/compare/cohorts/logistics-vs-supply-chain/",
+   "vs": "Supply Chain & Procurement",
+   "title": "Logistics vs Supply Chain: a dead heat, and a clean one"
+  }
+ ],
+ "industry:supply-chain": [
+  {
+   "url": "/compare/cohorts/logistics-vs-supply-chain/",
+   "vs": "Logistics",
+   "title": "Logistics vs Supply Chain: a dead heat, and a clean one"
+  }
+ ],
+ "vc:techstars": [
+  {
+   "url": "/compare/cohorts/techstars-vs-500-global/",
+   "vs": "500 Global",
+   "title": "Techstars vs 500 Global: two accelerators, one clear gap"
+  }
+ ],
+ "vc:500-global": [
+  {
+   "url": "/compare/cohorts/techstars-vs-500-global/",
+   "vs": "Techstars",
+   "title": "Techstars vs 500 Global: two accelerators, one clear gap"
+  }
+ ],
+ "vc:accel": [
+  {
+   "url": "/compare/cohorts/accel-vs-insight-partners/",
+   "vs": "Insight Partners",
+   "title": "Accel vs Insight Partners: growth-stage portfolios, almost level"
+  }
+ ],
+ "vc:insight-partners": [
+  {
+   "url": "/compare/cohorts/accel-vs-insight-partners/",
+   "vs": "Accel",
+   "title": "Accel vs Insight Partners: growth-stage portfolios, almost level"
+  }
+ ],
+ "industry:accounting-finance-ops": [
+  {
+   "url": "/compare/cohorts/accounting-finance-ops-vs-human-capital-management/",
+   "vs": "Human Resources & Payroll",
+   "title": "Accounting vs HR & Payroll: the back office, compared"
+  }
+ ],
+ "industry:human-capital-management": [
+  {
+   "url": "/compare/cohorts/accounting-finance-ops-vs-human-capital-management/",
+   "vs": "Accounting & Finance Operations",
+   "title": "Accounting vs HR & Payroll: the back office, compared"
+  }
+ ],
+ "tag:open-source": [
+  {
+   "url": "/compare/cohorts/open-source-vs-enterprise/",
+   "vs": "Enterprise",
+   "title": "Open Source vs Enterprise: governance from the community, clarity from the sales team"
+  }
+ ],
+ "tag:enterprise": [
+  {
+   "url": "/compare/cohorts/open-source-vs-enterprise/",
+   "vs": "Open Source",
+   "title": "Open Source vs Enterprise: governance from the community, clarity from the sales team"
+  }
+ ],
+ "industry:education": [
+  {
+   "url": "/compare/cohorts/education-vs-government/",
+   "vs": "Government & Public Sector",
+   "title": "Education vs Government: public-sector APIs trail the classroom"
+  }
+ ],
+ "industry:government": [
+  {
+   "url": "/compare/cohorts/education-vs-government/",
+   "vs": "Education & EdTech",
+   "title": "Education vs Government: public-sector APIs trail the classroom"
+  }
+ ],
+ "industry:media": [
+  {
+   "url": "/compare/cohorts/media-vs-gaming/",
+   "vs": "Gaming & Interactive",
+   "title": "Media vs Gaming: the publishers beat the game studios"
+  }
+ ],
+ "industry:gaming": [
+  {
+   "url": "/compare/cohorts/media-vs-gaming/",
+   "vs": "Media",
+   "title": "Media vs Gaming: the publishers beat the game studios"
+  }
+ ],
+ "industry:energy": [
+  {
+   "url": "/compare/cohorts/energy-vs-climate-sustainability/",
+   "vs": "Climate & Sustainability",
+   "title": "Energy vs Climate & Sustainability: the incumbents lead, narrowly"
+  }
+ ],
+ "industry:climate-sustainability": [
+  {
+   "url": "/compare/cohorts/energy-vs-climate-sustainability/",
+   "vs": "Energy",
+   "title": "Energy vs Climate & Sustainability: the incumbents lead, narrowly"
+  }
+ ],
+ "industry:biotechnology": [
+  {
+   "url": "/compare/cohorts/biotechnology-vs-pharmaceutical/",
+   "vs": "Pharmaceutical",
+   "title": "Biotech vs Pharma: two of the least API-ready markets in the catalog"
+  }
+ ],
+ "industry:pharmaceutical": [
+  {
+   "url": "/compare/cohorts/biotechnology-vs-pharmaceutical/",
+   "vs": "Biotechnology & Drug Discovery",
+   "title": "Biotech vs Pharma: two of the least API-ready markets in the catalog"
+  }
+ ],
+ "provider:stripe": [
+  {
+   "url": "/compare/providers/stripe-vs-adyen/",
+   "vs": "Adyen",
+   "title": "Stripe vs Adyen: the payment API benchmark, scored"
+  }
+ ],
+ "provider:adyen": [
+  {
+   "url": "/compare/providers/stripe-vs-adyen/",
+   "vs": "Stripe",
+   "title": "Stripe vs Adyen: the payment API benchmark, scored"
+  }
+ ],
+ "provider:twilio": [
+  {
+   "url": "/compare/providers/twilio-vs-vonage/",
+   "vs": "Vonage",
+   "title": "Twilio vs Vonage: the CPaaS rivalry, facet by facet"
+  }
+ ],
+ "provider:vonage": [
+  {
+   "url": "/compare/providers/twilio-vs-vonage/",
+   "vs": "Twilio",
+   "title": "Twilio vs Vonage: the CPaaS rivalry, facet by facet"
+  }
+ ],
+ "provider:openai": [
+  {
+   "url": "/compare/providers/openai-vs-anthropic/",
+   "vs": "Anthropic",
+   "title": "OpenAI vs Anthropic: the frontier labs as API providers"
+  }
+ ],
+ "provider:anthropic": [
+  {
+   "url": "/compare/providers/openai-vs-anthropic/",
+   "vs": "OpenAI",
+   "title": "OpenAI vs Anthropic: the frontier labs as API providers"
+  }
+ ],
+ "provider:plaid": [
+  {
+   "url": "/compare/providers/plaid-vs-mx-technologies/",
+   "vs": "MX Technologies",
+   "title": "Plaid vs MX: two financial data networks, 20 points apart"
+  }
+ ],
+ "provider:mx-technologies": [
+  {
+   "url": "/compare/providers/plaid-vs-mx-technologies/",
+   "vs": "Plaid",
+   "title": "Plaid vs MX: two financial data networks, 20 points apart"
+  }
+ ],
+ "provider:github": [
+  {
+   "url": "/compare/providers/github-vs-gitlab/",
+   "vs": "GitLab",
+   "title": "GitHub vs GitLab: the code platforms, scored"
+  }
+ ],
+ "provider:gitlab": [
+  {
+   "url": "/compare/providers/github-vs-gitlab/",
+   "vs": "GitHub",
+   "title": "GitHub vs GitLab: the code platforms, scored"
+  }
+ ],
+ "provider:shopify": [
+  {
+   "url": "/compare/providers/shopify-vs-bigcommerce/",
+   "vs": "BigCommerce",
+   "title": "Shopify vs BigCommerce: commerce platforms half a point apart"
+  }
+ ],
+ "provider:bigcommerce": [
+  {
+   "url": "/compare/providers/shopify-vs-bigcommerce/",
+   "vs": "Shopify",
+   "title": "Shopify vs BigCommerce: commerce platforms half a point apart"
+  }
+ ],
+ "provider:hubspot": [
+  {
+   "url": "/compare/providers/hubspot-vs-salesforce/",
+   "vs": "Salesforce",
+   "title": "HubSpot vs Salesforce: the CRM giants, side by side"
+  }
+ ],
+ "provider:salesforce": [
+  {
+   "url": "/compare/providers/hubspot-vs-salesforce/",
+   "vs": "HubSpot",
+   "title": "HubSpot vs Salesforce: the CRM giants, side by side"
+  }
+ ],
+ "provider:cloudflare": [
+  {
+   "url": "/compare/providers/cloudflare-vs-fastly/",
+   "vs": "Fastly",
+   "title": "Cloudflare vs Fastly: the edge networks, measured"
+  }
+ ],
+ "provider:fastly": [
+  {
+   "url": "/compare/providers/cloudflare-vs-fastly/",
+   "vs": "Cloudflare",
+   "title": "Cloudflare vs Fastly: the edge networks, measured"
+  }
+ ],
+ "provider:sendgrid": [
+  {
+   "url": "/compare/providers/sendgrid-vs-mailgun/",
+   "vs": "Mailgun",
+   "title": "SendGrid vs Mailgun: the email APIs, 55 points apart"
+  }
+ ],
+ "provider:mailgun": [
+  {
+   "url": "/compare/providers/sendgrid-vs-mailgun/",
+   "vs": "SendGrid",
+   "title": "SendGrid vs Mailgun: the email APIs, 55 points apart"
+  }
+ ],
+ "provider:datadog": [
+  {
+   "url": "/compare/providers/datadog-vs-new-relic/",
+   "vs": "New Relic",
+   "title": "Datadog vs New Relic: observability, observed"
+  }
+ ],
+ "provider:new-relic": [
+  {
+   "url": "/compare/providers/datadog-vs-new-relic/",
+   "vs": "Datadog",
+   "title": "Datadog vs New Relic: observability, observed"
+  }
+ ],
+ "provider:paypal": [
+  {
+   "url": "/compare/providers/paypal-vs-square/",
+   "vs": "Square",
+   "title": "PayPal vs Square: Square leads by 27 points"
+  }
+ ],
+ "provider:square": [
+  {
+   "url": "/compare/providers/paypal-vs-square/",
+   "vs": "PayPal",
+   "title": "PayPal vs Square: Square leads by 27 points"
+  }
+ ],
+ "provider:okta": [
+  {
+   "url": "/compare/providers/okta-vs-auth0/",
+   "vs": "Auth0",
+   "title": "Okta vs Auth0: one company, two identity APIs"
+  }
+ ],
+ "provider:auth0": [
+  {
+   "url": "/compare/providers/okta-vs-auth0/",
+   "vs": "Okta",
+   "title": "Okta vs Auth0: one company, two identity APIs"
+  }
+ ],
+ "provider:zendesk": [
+  {
+   "url": "/compare/providers/zendesk-vs-intercom/",
+   "vs": "Intercom",
+   "title": "Zendesk vs Intercom: support platforms, 20 points apart"
+  }
+ ],
+ "provider:intercom": [
+  {
+   "url": "/compare/providers/zendesk-vs-intercom/",
+   "vs": "Zendesk",
+   "title": "Zendesk vs Intercom: support platforms, 20 points apart"
+  }
+ ],
+ "provider:mailchimp": [
+  {
+   "url": "/compare/providers/mailchimp-vs-klaviyo/",
+   "vs": "Klaviyo",
+   "title": "Mailchimp vs Klaviyo: email marketing APIs, scored"
+  }
+ ],
+ "provider:klaviyo": [
+  {
+   "url": "/compare/providers/mailchimp-vs-klaviyo/",
+   "vs": "Mailchimp",
+   "title": "Mailchimp vs Klaviyo: email marketing APIs, scored"
+  }
+ ],
+ "provider:algolia": [
+  {
+   "url": "/compare/providers/algolia-vs-elastic/",
+   "vs": "Elastic",
+   "title": "Algolia vs Elastic: search APIs, two different strengths"
+  }
+ ],
+ "provider:elastic": [
+  {
+   "url": "/compare/providers/algolia-vs-elastic/",
+   "vs": "Algolia",
+   "title": "Algolia vs Elastic: search APIs, two different strengths"
+  }
+ ],
+ "provider:netlify": [
+  {
+   "url": "/compare/providers/netlify-vs-vercel/",
+   "vs": "Vercel",
+   "title": "Netlify vs Vercel: the frontend clouds, compared"
+  }
+ ],
+ "provider:vercel": [
+  {
+   "url": "/compare/providers/netlify-vs-vercel/",
+   "vs": "Netlify",
+   "title": "Netlify vs Vercel: the frontend clouds, compared"
+  }
+ ],
+ "provider:box": [
+  {
+   "url": "/compare/providers/box-vs-dropbox/",
+   "vs": "Dropbox",
+   "title": "Box vs Dropbox: the file platforms, 18 points apart"
+  }
+ ],
+ "provider:dropbox": [
+  {
+   "url": "/compare/providers/box-vs-dropbox/",
+   "vs": "Box",
+   "title": "Box vs Dropbox: the file platforms, 18 points apart"
+  }
+ ],
+ "provider:supabase": [
+  {
+   "url": "/compare/providers/supabase-vs-firebase/",
+   "vs": "Firebase",
+   "title": "Supabase vs Firebase: open contracts against a polished SDK"
+  }
+ ],
+ "provider:firebase": [
+  {
+   "url": "/compare/providers/supabase-vs-firebase/",
+   "vs": "Supabase",
+   "title": "Supabase vs Firebase: open contracts against a polished SDK"
+  }
+ ],
+ "provider:ramp": [
+  {
+   "url": "/compare/providers/ramp-vs-brex/",
+   "vs": "Brex",
+   "title": "Ramp vs Brex: the score and agent readiness disagree"
+  }
+ ],
+ "provider:brex": [
+  {
+   "url": "/compare/providers/ramp-vs-brex/",
+   "vs": "Ramp",
+   "title": "Ramp vs Brex: the score and agent readiness disagree"
+  }
+ ],
+ "provider:gusto": [
+  {
+   "url": "/compare/providers/gusto-vs-rippling/",
+   "vs": "Rippling",
+   "title": "Gusto vs Rippling: two HR platforms, both thin"
+  }
+ ],
+ "provider:rippling": [
+  {
+   "url": "/compare/providers/gusto-vs-rippling/",
+   "vs": "Gusto",
+   "title": "Gusto vs Rippling: two HR platforms, both thin"
+  }
+ ]
+}

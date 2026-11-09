@@ -7,10 +7,10 @@ layout: none
     <loc>{{ site.url }}/</loc>
     <priority>1.0</priority>
   </url>
-  {% for item in site.applications %}
+  {% for item in site.applications %}{% unless item.sitemap == false or item.layout == 'redirect' %}
   {% unless item.noindex %}<url>
     <loc>{{ site.url }}{{ item.url }}</loc>
     <priority>0.7</priority>
   </url>{% endunless %}
-  {% endfor %}
+  {% endunless %}{% endfor %}
 </urlset>

@@ -1,0 +1,2162 @@
+{
+ "access": "free",
+ "author": "API Evangelist",
+ "categories": [
+  {
+   "coverage_pct": 98.9,
+   "declared_only": 6,
+   "distinct_providers": 88,
+   "id": "accounting-invoicing",
+   "in_catalog": 87,
+   "mcp": {
+    "documented": 0,
+    "none": 41,
+    "unchecked": 1,
+    "verified": 45
+   },
+   "mcp_verified": 45,
+   "mean_kin_score": 52.9,
+   "name": "Accounting & Invoicing",
+   "observed": 82,
+   "queued": 1,
+   "reference_apps": 9,
+   "top": [
+    "Stripe",
+    "PayPal",
+    "Authorize.net"
+   ]
+  },
+  {
+   "coverage_pct": 96.8,
+   "declared_only": 0,
+   "distinct_providers": 93,
+   "id": "ai-assistant-chat",
+   "in_catalog": 90,
+   "mcp": {
+    "documented": 0,
+    "none": 27,
+    "unchecked": 4,
+    "verified": 61
+   },
+   "mcp_verified": 61,
+   "mean_kin_score": 51.1,
+   "name": "AI Assistant & Chat",
+   "observed": 93,
+   "queued": 3,
+   "reference_apps": 8,
+   "top": [
+    "Anthropic",
+    "OpenAI",
+    "Perplexity"
+   ]
+  },
+  {
+   "coverage_pct": 99.1,
+   "declared_only": 44,
+   "distinct_providers": 116,
+   "id": "api-management-gateway",
+   "in_catalog": 115,
+   "mcp": {
+    "documented": 4,
+    "none": 47,
+    "unchecked": 2,
+    "verified": 63
+   },
+   "mcp_verified": 63,
+   "mean_kin_score": 51.7,
+   "name": "API Management & Gateways",
+   "observed": 72,
+   "queued": 1,
+   "reference_apps": 8,
+   "top": [
+    "Keycloak",
+    "Casdoor",
+    "Okta"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 18,
+   "distinct_providers": 60,
+   "id": "backup",
+   "in_catalog": 60,
+   "mcp": {
+    "documented": 0,
+    "none": 26,
+    "unchecked": 0,
+    "verified": 32
+   },
+   "mcp_verified": 32,
+   "mean_kin_score": 43.8,
+   "name": "Backup & Device Restore",
+   "observed": 42,
+   "queued": 0,
+   "reference_apps": 9,
+   "top": [
+    "Google Cloud Storage",
+    "Amazon S3",
+    "Azure Blob Storage"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 46,
+   "distinct_providers": 130,
+   "id": "booking-scheduling",
+   "in_catalog": 130,
+   "mcp": {
+    "documented": 7,
+    "none": 66,
+    "unchecked": 0,
+    "verified": 55
+   },
+   "mcp_verified": 55,
+   "mean_kin_score": 56.9,
+   "name": "Appointment Booking & Scheduling",
+   "observed": 84,
+   "queued": 0,
+   "reference_apps": 7,
+   "top": [
+    "Zoom",
+    "Webex",
+    "Google Meet"
+   ]
+  },
+  {
+   "coverage_pct": 98.0,
+   "declared_only": 32,
+   "distinct_providers": 49,
+   "id": "calendar-contacts",
+   "in_catalog": 48,
+   "mcp": {
+    "documented": 0,
+    "none": 27,
+    "unchecked": 1,
+    "verified": 19
+   },
+   "mcp_verified": 19,
+   "mean_kin_score": 44.2,
+   "name": "Calendar & Contacts",
+   "observed": 17,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Google Calendar",
+    "iCloud / FaceTime",
+    "Zoho (CalDAV)"
+   ]
+  },
+  {
+   "coverage_pct": 86.8,
+   "declared_only": 74,
+   "distinct_providers": 129,
+   "id": "ci-cd-devops",
+   "in_catalog": 112,
+   "mcp": {
+    "documented": 1,
+    "none": 39,
+    "unchecked": 17,
+    "verified": 69
+   },
+   "mcp_verified": 69,
+   "mean_kin_score": 50.4,
+   "name": "Code Hosting, CI/CD & DevOps",
+   "observed": 55,
+   "queued": 17,
+   "reference_apps": 6,
+   "top": [
+    "GitGuardian",
+    "Snyk",
+    "WhiteSource (now Mend)"
+   ]
+  },
+  {
+   "coverage_pct": 96.9,
+   "declared_only": 49,
+   "distinct_providers": 129,
+   "id": "cloud-storage-file-sync",
+   "in_catalog": 125,
+   "mcp": {
+    "documented": 3,
+    "none": 52,
+    "unchecked": 4,
+    "verified": 62
+   },
+   "mcp_verified": 62,
+   "mean_kin_score": 43.9,
+   "name": "Cloud Storage & File Sync",
+   "observed": 80,
+   "queued": 4,
+   "reference_apps": 8,
+   "top": [
+    "Amazon S3",
+    "Azure Blob Storage",
+    "OpenStack Swift"
+   ]
+  },
+  {
+   "coverage_pct": 97.8,
+   "declared_only": 33,
+   "distinct_providers": 92,
+   "id": "community-forums",
+   "in_catalog": 90,
+   "mcp": {
+    "documented": 4,
+    "none": 43,
+    "unchecked": 2,
+    "verified": 38
+   },
+   "mcp_verified": 38,
+   "mean_kin_score": 51.1,
+   "name": "Community & Forums",
+   "observed": 59,
+   "queued": 2,
+   "reference_apps": 6,
+   "top": [
+    "Slack",
+    "Webex",
+    "Microsoft Teams"
+   ]
+  },
+  {
+   "coverage_pct": 94.2,
+   "declared_only": 8,
+   "distinct_providers": 104,
+   "id": "connected-car-ev-charging",
+   "in_catalog": 98,
+   "mcp": {
+    "documented": 1,
+    "none": 51,
+    "unchecked": 6,
+    "verified": 10
+   },
+   "mcp_verified": 10,
+   "mean_kin_score": 21.7,
+   "name": "Connected Car & EV Charging",
+   "observed": 96,
+   "queued": 6,
+   "reference_apps": 7,
+   "top": [
+    "Tesla",
+    "Volkswagen Group",
+    "Porsche"
+   ]
+  },
+  {
+   "coverage_pct": 91.7,
+   "declared_only": 59,
+   "distinct_providers": 60,
+   "id": "construction-management",
+   "in_catalog": 55,
+   "mcp": {
+    "documented": 2,
+    "none": 20,
+    "unchecked": 5,
+    "verified": 18
+   },
+   "mcp_verified": 18,
+   "mean_kin_score": 38.1,
+   "name": "Construction Management",
+   "observed": 1,
+   "queued": 5,
+   "reference_apps": 7,
+   "top": [
+    "HighLevel",
+    "AccuLynx",
+    "Leap"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 18,
+   "distinct_providers": 54,
+   "id": "crm-sales",
+   "in_catalog": 54,
+   "mcp": {
+    "documented": 2,
+    "none": 18,
+    "unchecked": 0,
+    "verified": 32
+   },
+   "mcp_verified": 32,
+   "mean_kin_score": 60.2,
+   "name": "CRM & Sales Pipeline",
+   "observed": 36,
+   "queued": 0,
+   "reference_apps": 8,
+   "top": [
+    "Gmail",
+    "Google Calendar",
+    "Microsoft Outlook"
+   ]
+  },
+  {
+   "coverage_pct": 96.4,
+   "declared_only": 47,
+   "distinct_providers": 83,
+   "id": "dating",
+   "in_catalog": 80,
+   "mcp": {
+    "documented": 2,
+    "none": 37,
+    "unchecked": 5,
+    "verified": 33
+   },
+   "mcp_verified": 33,
+   "mean_kin_score": 45.0,
+   "name": "Dating",
+   "observed": 36,
+   "queued": 3,
+   "reference_apps": 7,
+   "top": [
+    "Instagram",
+    "LinkedIn"
+   ]
+  },
+  {
+   "coverage_pct": 98.2,
+   "declared_only": 34,
+   "distinct_providers": 57,
+   "id": "document-management",
+   "in_catalog": 56,
+   "mcp": {
+    "documented": 0,
+    "none": 24,
+    "unchecked": 1,
+    "verified": 32
+   },
+   "mcp_verified": 32,
+   "mean_kin_score": 51.0,
+   "name": "Document Management & OCR",
+   "observed": 23,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Google Drive",
+    "Box",
+    "Microsoft 365"
+   ]
+  },
+  {
+   "coverage_pct": 92.3,
+   "declared_only": 94,
+   "distinct_providers": 117,
+   "id": "donations-crowdfunding",
+   "in_catalog": 108,
+   "mcp": {
+    "documented": 2,
+    "none": 43,
+    "unchecked": 9,
+    "verified": 46
+   },
+   "mcp_verified": 46,
+   "mean_kin_score": 46.8,
+   "name": "Donations & Crowdfunding",
+   "observed": 23,
+   "queued": 9,
+   "reference_apps": 7,
+   "top": [
+    "Raiser's Edge NXT (Blackbaud)",
+    "Bloomerang",
+    "Little Green Light"
+   ]
+  },
+  {
+   "coverage_pct": 98.5,
+   "declared_only": 40,
+   "distinct_providers": 66,
+   "id": "e-signature-contracts",
+   "in_catalog": 65,
+   "mcp": {
+    "documented": 2,
+    "none": 27,
+    "unchecked": 1,
+    "verified": 33
+   },
+   "mcp_verified": 33,
+   "mean_kin_score": 54.8,
+   "name": "E-signature & Contract Management",
+   "observed": 26,
+   "queued": 1,
+   "reference_apps": 6,
+   "top": [
+    "eID Easy",
+    "Signicat",
+    "InfoCert"
+   ]
+  },
+  {
+   "coverage_pct": 93.9,
+   "declared_only": 0,
+   "distinct_providers": 33,
+   "id": "ebooks-reading",
+   "in_catalog": 31,
+   "mcp": {
+    "documented": 0,
+    "none": 16,
+    "unchecked": 2,
+    "verified": 13
+   },
+   "mcp_verified": 13,
+   "mean_kin_score": 46.5,
+   "name": "E-books, Reading & Comics",
+   "observed": 33,
+   "queued": 2,
+   "reference_apps": 7,
+   "top": [
+    "Rakuten Kobo",
+    "Amazon",
+    "Google Books"
+   ]
+  },
+  {
+   "coverage_pct": 97.8,
+   "declared_only": 16,
+   "distinct_providers": 45,
+   "id": "ecommerce-storefront",
+   "in_catalog": 44,
+   "mcp": {
+    "documented": 1,
+    "none": 18,
+    "unchecked": 1,
+    "verified": 23
+   },
+   "mcp_verified": 23,
+   "mean_kin_score": 52.8,
+   "name": "E-commerce Storefront",
+   "observed": 29,
+   "queued": 1,
+   "reference_apps": 9,
+   "top": [
+    "FedEx",
+    "USPS",
+    "UPS"
+   ]
+  },
+  {
+   "coverage_pct": 98.3,
+   "declared_only": 0,
+   "distinct_providers": 58,
+   "id": "email-client",
+   "in_catalog": 57,
+   "mcp": {
+    "documented": 0,
+    "none": 29,
+    "unchecked": 1,
+    "verified": 23
+   },
+   "mcp_verified": 23,
+   "mean_kin_score": 39.9,
+   "name": "Email Client & Hosting",
+   "observed": 58,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Outlook.com",
+    "Gmail",
+    "AOL Mail"
+   ]
+  },
+  {
+   "coverage_pct": 98.8,
+   "declared_only": 47,
+   "distinct_providers": 84,
+   "id": "email-marketing-newsletter",
+   "in_catalog": 83,
+   "mcp": {
+    "documented": 2,
+    "none": 41,
+    "unchecked": 0,
+    "verified": 41
+   },
+   "mcp_verified": 41,
+   "mean_kin_score": 55.5,
+   "name": "Email Marketing & Newsletters",
+   "observed": 37,
+   "queued": 1,
+   "reference_apps": 8,
+   "top": [
+    "SendGrid",
+    "Amazon SES",
+    "Postmark"
+   ]
+  },
+  {
+   "coverage_pct": 95.0,
+   "declared_only": 45,
+   "distinct_providers": 120,
+   "id": "erp-operations",
+   "in_catalog": 114,
+   "mcp": {
+    "documented": 1,
+    "none": 57,
+    "unchecked": 6,
+    "verified": 43
+   },
+   "mcp_verified": 43,
+   "mean_kin_score": 42.7,
+   "name": "ERP & Business Operations",
+   "observed": 75,
+   "queued": 6,
+   "reference_apps": 6,
+   "top": [
+    "Stripe",
+    "PayPal",
+    "Paymob"
+   ]
+  },
+  {
+   "coverage_pct": 96.1,
+   "declared_only": 22,
+   "distinct_providers": 51,
+   "id": "event-ticketing",
+   "in_catalog": 49,
+   "mcp": {
+    "documented": 1,
+    "none": 22,
+    "unchecked": 2,
+    "verified": 26
+   },
+   "mcp_verified": 26,
+   "mean_kin_score": 54.0,
+   "name": "Events & Ticketing",
+   "observed": 29,
+   "queued": 2,
+   "reference_apps": 8,
+   "top": [
+    "Apple Wallet (Passbook)",
+    "Google Wallet"
+   ]
+  },
+  {
+   "coverage_pct": 95.0,
+   "declared_only": 146,
+   "distinct_providers": 161,
+   "id": "expense-management",
+   "in_catalog": 153,
+   "mcp": {
+    "documented": 8,
+    "none": 94,
+    "unchecked": 8,
+    "verified": 38
+   },
+   "mcp_verified": 38,
+   "mean_kin_score": 40.4,
+   "name": "Expense & Spend Management",
+   "observed": 15,
+   "queued": 8,
+   "reference_apps": 7,
+   "top": [
+    "Workday",
+    "Justworks",
+    "ADP"
+   ]
+  },
+  {
+   "coverage_pct": 88.9,
+   "declared_only": 57,
+   "distinct_providers": 72,
+   "id": "farm-agriculture",
+   "in_catalog": 64,
+   "mcp": {
+    "documented": 0,
+    "none": 14,
+    "unchecked": 8,
+    "verified": 21
+   },
+   "mcp_verified": 21,
+   "mean_kin_score": 36.2,
+   "name": "Farm & Agriculture Management",
+   "observed": 15,
+   "queued": 8,
+   "reference_apps": 7,
+   "top": [
+    "Agvance (SSI)",
+    "FarmReady (Bolt, Cart, Shed)",
+    "AgVend"
+   ]
+  },
+  {
+   "coverage_pct": 96.6,
+   "declared_only": 82,
+   "distinct_providers": 119,
+   "id": "feature-flags-experimentation",
+   "in_catalog": 115,
+   "mcp": {
+    "documented": 4,
+    "none": 25,
+    "unchecked": 4,
+    "verified": 78
+   },
+   "mcp_verified": 78,
+   "mean_kin_score": 58.1,
+   "name": "Feature Flags & Experimentation",
+   "observed": 37,
+   "queued": 4,
+   "reference_apps": 7,
+   "top": [
+    "Amplitude",
+    "Mixpanel",
+    "Google Analytics"
+   ]
+  },
+  {
+   "coverage_pct": 96.4,
+   "declared_only": 48,
+   "distinct_providers": 56,
+   "id": "field-service",
+   "in_catalog": 54,
+   "mcp": {
+    "documented": 1,
+    "none": 26,
+    "unchecked": 2,
+    "verified": 18
+   },
+   "mcp_verified": 18,
+   "mean_kin_score": 42.5,
+   "name": "Field Service & Dispatch",
+   "observed": 8,
+   "queued": 2,
+   "reference_apps": 7,
+   "top": [
+    "Thumbtack",
+    "Angi",
+    "Google Local Services Ads"
+   ]
+  },
+  {
+   "coverage_pct": 96.7,
+   "declared_only": 37,
+   "distinct_providers": 61,
+   "id": "fitness-nutrition",
+   "in_catalog": 59,
+   "mcp": {
+    "documented": 0,
+    "none": 39,
+    "unchecked": 2,
+    "verified": 15
+   },
+   "mcp_verified": 15,
+   "mean_kin_score": 40.5,
+   "name": "Fitness & Nutrition Tracking",
+   "observed": 24,
+   "queued": 2,
+   "reference_apps": 10,
+   "top": [
+    "garmin",
+    "fitbit",
+    "polar"
+   ]
+  },
+  {
+   "coverage_pct": 90.9,
+   "declared_only": 75,
+   "distinct_providers": 88,
+   "id": "food-delivery-ordering",
+   "in_catalog": 80,
+   "mcp": {
+    "documented": 1,
+    "none": 50,
+    "unchecked": 8,
+    "verified": 25
+   },
+   "mcp_verified": 25,
+   "mean_kin_score": 42.9,
+   "name": "Food Delivery & Restaurant Ordering",
+   "observed": 13,
+   "queued": 8,
+   "reference_apps": 6,
+   "top": [
+    "Square POS",
+    "Toast",
+    "Lightspeed"
+   ]
+  },
+  {
+   "coverage_pct": 98.7,
+   "declared_only": 31,
+   "distinct_providers": 78,
+   "id": "forms-surveys",
+   "in_catalog": 77,
+   "mcp": {
+    "documented": 3,
+    "none": 28,
+    "unchecked": 1,
+    "verified": 46
+   },
+   "mcp_verified": 46,
+   "mean_kin_score": 59.9,
+   "name": "Forms & Surveys",
+   "observed": 47,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "salesforce",
+    "hubspot",
+    "keap"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 6,
+   "distinct_providers": 34,
+   "id": "genealogy",
+   "in_catalog": 34,
+   "mcp": {
+    "documented": 0,
+    "none": 20,
+    "unchecked": 0,
+    "verified": 14
+   },
+   "mcp_verified": 14,
+   "mean_kin_score": 45.6,
+   "name": "Genealogy & Family History",
+   "observed": 28,
+   "queued": 0,
+   "reference_apps": 6,
+   "top": [
+    "FamilySearch Family Tree download + WebHints",
+    "Ancestry TreeShare download + WebHints",
+    "CompGen DES / domus.genealogy.net historical building map"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 21,
+   "distinct_providers": 70,
+   "id": "helpdesk-ticketing",
+   "in_catalog": 70,
+   "mcp": {
+    "documented": 2,
+    "none": 30,
+    "unchecked": 0,
+    "verified": 36
+   },
+   "mcp_verified": 36,
+   "mean_kin_score": 57.8,
+   "name": "Help Desk & Customer Support",
+   "observed": 49,
+   "queued": 0,
+   "reference_apps": 7,
+   "top": [
+    "Facebook (omniauth-facebook, koala)",
+    "WhatsApp (whatsapp_sdk)",
+    "X / Twitter (twitty)"
+   ]
+  },
+  {
+   "coverage_pct": 90.5,
+   "declared_only": 50,
+   "distinct_providers": 63,
+   "id": "hospitality-restaurant-ops",
+   "in_catalog": 57,
+   "mcp": {
+    "documented": 1,
+    "none": 27,
+    "unchecked": 6,
+    "verified": 13
+   },
+   "mcp_verified": 13,
+   "mean_kin_score": 35.3,
+   "name": "Hotel & Restaurant Operations",
+   "observed": 13,
+   "queued": 6,
+   "reference_apps": 7,
+   "top": [
+    "Lightspeed",
+    "Square",
+    "Oracle MICROS 3700"
+   ]
+  },
+  {
+   "coverage_pct": 95.2,
+   "declared_only": 11,
+   "distinct_providers": 83,
+   "id": "identity-access",
+   "in_catalog": 79,
+   "mcp": {
+    "documented": 0,
+    "none": 31,
+    "unchecked": 4,
+    "verified": 40
+   },
+   "mcp_verified": 40,
+   "mean_kin_score": 45.8,
+   "name": "Identity, SSO & Access Management",
+   "observed": 72,
+   "queued": 4,
+   "reference_apps": 8,
+   "top": [
+    "GitHub",
+    "GitLab",
+    "Google sign-in"
+   ]
+  },
+  {
+   "coverage_pct": 96.8,
+   "declared_only": 30,
+   "distinct_providers": 63,
+   "id": "inventory-warehouse",
+   "in_catalog": 61,
+   "mcp": {
+    "documented": 0,
+    "none": 27,
+    "unchecked": 2,
+    "verified": 26
+   },
+   "mcp_verified": 26,
+   "mean_kin_score": 42.3,
+   "name": "Inventory & Warehouse Management",
+   "observed": 33,
+   "queued": 2,
+   "reference_apps": 8,
+   "top": [
+    "Digi-Key",
+    "TME (Transfer Multisort Elektronik)",
+    "LCSC Electronics"
+   ]
+  },
+  {
+   "coverage_pct": 97.0,
+   "declared_only": 13,
+   "distinct_providers": 100,
+   "id": "investing-trading",
+   "in_catalog": 97,
+   "mcp": {
+    "documented": 3,
+    "none": 54,
+    "unchecked": 3,
+    "verified": 36
+   },
+   "mcp_verified": 36,
+   "mean_kin_score": 40.9,
+   "name": "Investing & Trading",
+   "observed": 87,
+   "queued": 3,
+   "reference_apps": 7,
+   "top": [
+    "Kraken",
+    "Binance",
+    "Crypto.com"
+   ]
+  },
+  {
+   "coverage_pct": 97.1,
+   "declared_only": 5,
+   "distinct_providers": 34,
+   "id": "kids-family-parenting",
+   "in_catalog": 33,
+   "mcp": {
+    "documented": 0,
+    "none": 15,
+    "unchecked": 2,
+    "verified": 16
+   },
+   "mcp_verified": 16,
+   "mean_kin_score": 44.8,
+   "name": "Kids, Family & Parenting",
+   "observed": 29,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Outlook",
+    "Apple Calendar",
+    "Google Calendar"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 0,
+   "distinct_providers": 15,
+   "id": "language-learning",
+   "in_catalog": 15,
+   "mcp": {
+    "documented": 0,
+    "none": 7,
+    "unchecked": 0,
+    "verified": 3
+   },
+   "mcp_verified": 3,
+   "mean_kin_score": 23.3,
+   "name": "Language Learning",
+   "observed": 15,
+   "queued": 0,
+   "reference_apps": 6,
+   "top": [
+    "Wiktionary",
+    "Glosbe",
+    "Jisho.org"
+   ]
+  },
+  {
+   "coverage_pct": 93.0,
+   "declared_only": 63,
+   "distinct_providers": 71,
+   "id": "legal-practice",
+   "in_catalog": 66,
+   "mcp": {
+    "documented": 5,
+    "none": 22,
+    "unchecked": 5,
+    "verified": 18
+   },
+   "mcp_verified": 18,
+   "mean_kin_score": 39.0,
+   "name": "Legal Practice Management",
+   "observed": 8,
+   "queued": 5,
+   "reference_apps": 8,
+   "top": [
+    "Rocket Matter",
+    "Docketwise",
+    "Clio"
+   ]
+  },
+  {
+   "coverage_pct": 97.2,
+   "declared_only": 17,
+   "distinct_providers": 107,
+   "id": "low-code-internal-tools",
+   "in_catalog": 104,
+   "mcp": {
+    "documented": 2,
+    "none": 30,
+    "unchecked": 3,
+    "verified": 71
+   },
+   "mcp_verified": 71,
+   "mean_kin_score": 57.5,
+   "name": "Low-code & Internal Tools",
+   "observed": 90,
+   "queued": 3,
+   "reference_apps": 6,
+   "top": [
+    "Amazon DynamoDB",
+    "MongoDB",
+    "Microsoft SQL Server"
+   ]
+  },
+  {
+   "coverage_pct": 93.5,
+   "declared_only": 42,
+   "distinct_providers": 62,
+   "id": "loyalty-rewards",
+   "in_catalog": 58,
+   "mcp": {
+    "documented": 2,
+    "none": 31,
+    "unchecked": 5,
+    "verified": 21
+   },
+   "mcp_verified": 21,
+   "mean_kin_score": 53.2,
+   "name": "Loyalty, Rewards & Coupons",
+   "observed": 20,
+   "queued": 4,
+   "reference_apps": 8,
+   "top": [
+    "Mailchimp",
+    "Klaviyo",
+    "Omnisend"
+   ]
+  },
+  {
+   "coverage_pct": 90.2,
+   "declared_only": 7,
+   "distinct_providers": 51,
+   "id": "maps-navigation",
+   "in_catalog": 46,
+   "mcp": {
+    "documented": 0,
+    "none": 31,
+    "unchecked": 5,
+    "verified": 12
+   },
+   "mcp_verified": 12,
+   "mean_kin_score": 37.5,
+   "name": "Maps, Navigation & GPS",
+   "observed": 44,
+   "queued": 5,
+   "reference_apps": 8,
+   "top": [
+    "Geoapify",
+    "Nominatim",
+    "LocationIQ"
+   ]
+  },
+  {
+   "coverage_pct": 98.8,
+   "declared_only": 34,
+   "distinct_providers": 84,
+   "id": "marketing-automation",
+   "in_catalog": 83,
+   "mcp": {
+    "documented": 4,
+    "none": 39,
+    "unchecked": 1,
+    "verified": 38
+   },
+   "mcp_verified": 38,
+   "mean_kin_score": 59.0,
+   "name": "Marketing Automation & Ads",
+   "observed": 50,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Google Ads",
+    "Meta Ads",
+    "TikTok Ads"
+   ]
+  },
+  {
+   "coverage_pct": 96.8,
+   "declared_only": 14,
+   "distinct_providers": 31,
+   "id": "mental-health-meditation",
+   "in_catalog": 30,
+   "mcp": {
+    "documented": 0,
+    "none": 15,
+    "unchecked": 1,
+    "verified": 13
+   },
+   "mcp_verified": 13,
+   "mean_kin_score": 42.7,
+   "name": "Mental Health, Meditation & Sleep",
+   "observed": 17,
+   "queued": 1,
+   "reference_apps": 8,
+   "top": [
+    "Apple HealthKit",
+    "Google Health Connect",
+    "Google Home / Wear OS"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 43,
+   "distinct_providers": 79,
+   "id": "messaging-chat",
+   "in_catalog": 79,
+   "mcp": {
+    "documented": 0,
+    "none": 38,
+    "unchecked": 0,
+    "verified": 41
+   },
+   "mcp_verified": 41,
+   "mean_kin_score": 56.0,
+   "name": "Messaging & Team Chat",
+   "observed": 36,
+   "queued": 0,
+   "reference_apps": 7,
+   "top": [
+    "X (Twitter)",
+    "GitHub",
+    "Reddit"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 15,
+   "distinct_providers": 27,
+   "id": "mobile-banking-wallet",
+   "in_catalog": 27,
+   "mcp": {
+    "documented": 1,
+    "none": 15,
+    "unchecked": 0,
+    "verified": 10
+   },
+   "mcp_verified": 10,
+   "mean_kin_score": 44.5,
+   "name": "Mobile Banking & Payments Wallet",
+   "observed": 12,
+   "queued": 0,
+   "reference_apps": 6,
+   "top": [
+    "Xero",
+    "Microsoft Dynamics 365 Business Central",
+    "QuickBooks"
+   ]
+  },
+  {
+   "coverage_pct": 84.4,
+   "declared_only": 42,
+   "distinct_providers": 77,
+   "id": "mobile-games",
+   "in_catalog": 65,
+   "mcp": {
+    "documented": 0,
+    "none": 44,
+    "unchecked": 14,
+    "verified": 17
+   },
+   "mcp_verified": 17,
+   "mean_kin_score": 39.5,
+   "name": "Mobile & Casual Games (live-ops backend)",
+   "observed": 35,
+   "queued": 12,
+   "reference_apps": 8,
+   "top": [
+    "Twitter",
+    "Moloco",
+    "Snap"
+   ]
+  },
+  {
+   "coverage_pct": 96.3,
+   "declared_only": 7,
+   "distinct_providers": 82,
+   "id": "music-streaming",
+   "in_catalog": 79,
+   "mcp": {
+    "documented": 1,
+    "none": 44,
+    "unchecked": 3,
+    "verified": 22
+   },
+   "mcp_verified": 22,
+   "mean_kin_score": 35.9,
+   "name": "Music & Audio Streaming",
+   "observed": 75,
+   "queued": 3,
+   "reference_apps": 7,
+   "top": [
+    "MusicBrainz",
+    "Last.fm",
+    "Spotify"
+   ]
+  },
+  {
+   "coverage_pct": 96.3,
+   "declared_only": 10,
+   "distinct_providers": 109,
+   "id": "news-feed-reader",
+   "in_catalog": 105,
+   "mcp": {
+    "documented": 1,
+    "none": 55,
+    "unchecked": 4,
+    "verified": 44
+   },
+   "mcp_verified": 44,
+   "mean_kin_score": 45.7,
+   "name": "News, Feeds & Read-Later",
+   "observed": 99,
+   "queued": 4,
+   "reference_apps": 8,
+   "top": [
+    "Shaarli",
+    "Instapaper",
+    "Pinboard"
+   ]
+  },
+  {
+   "coverage_pct": 94.8,
+   "declared_only": 106,
+   "distinct_providers": 116,
+   "id": "nonprofit-crm-fundraising",
+   "in_catalog": 110,
+   "mcp": {
+    "documented": 1,
+    "none": 56,
+    "unchecked": 6,
+    "verified": 28
+   },
+   "mcp_verified": 28,
+   "mean_kin_score": 39.3,
+   "name": "Nonprofit CRM & Fundraising",
+   "observed": 10,
+   "queued": 6,
+   "reference_apps": 6,
+   "top": [
+    "Givebutter",
+    "Donorbox",
+    "Givecloud"
+   ]
+  },
+  {
+   "coverage_pct": 98.4,
+   "declared_only": 11,
+   "distinct_providers": 63,
+   "id": "notes-knowledge",
+   "in_catalog": 62,
+   "mcp": {
+    "documented": 0,
+    "none": 22,
+    "unchecked": 1,
+    "verified": 39
+   },
+   "mcp_verified": 39,
+   "mean_kin_score": 57.0,
+   "name": "Notes & Personal Knowledge Management",
+   "observed": 52,
+   "queued": 1,
+   "reference_apps": 8,
+   "top": [
+    "Google sign-in",
+    "GitHub",
+    "Discord"
+   ]
+  },
+  {
+   "coverage_pct": 99.1,
+   "declared_only": 9,
+   "distinct_providers": 113,
+   "id": "observability-monitoring",
+   "in_catalog": 112,
+   "mcp": {
+    "documented": 1,
+    "none": 38,
+    "unchecked": 2,
+    "verified": 69
+   },
+   "mcp_verified": 69,
+   "mean_kin_score": 50.1,
+   "name": "Observability, Monitoring & Status Pages",
+   "observed": 104,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Slack",
+    "Microsoft Teams",
+    "Discord"
+   ]
+  },
+  {
+   "coverage_pct": 94.8,
+   "declared_only": 55,
+   "distinct_providers": 116,
+   "id": "online-courses-lms",
+   "in_catalog": 110,
+   "mcp": {
+    "documented": 7,
+    "none": 57,
+    "unchecked": 6,
+    "verified": 41
+   },
+   "mcp_verified": 41,
+   "mean_kin_score": 51.6,
+   "name": "Online Courses & Learning Management",
+   "observed": 61,
+   "queued": 6,
+   "reference_apps": 8,
+   "top": [
+    "Webex",
+    "BigBlueButton",
+    "Zoom"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 23,
+   "distinct_providers": 54,
+   "id": "password-manager",
+   "in_catalog": 54,
+   "mcp": {
+    "documented": 1,
+    "none": 19,
+    "unchecked": 0,
+    "verified": 32
+   },
+   "mcp_verified": 32,
+   "mean_kin_score": 59.0,
+   "name": "Password Manager",
+   "observed": 31,
+   "queued": 0,
+   "reference_apps": 6,
+   "top": [
+    "Datadog",
+    "Elastic",
+    "Splunk"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 4,
+   "distinct_providers": 14,
+   "id": "pastebin-file-drop",
+   "in_catalog": 14,
+   "mcp": {
+    "documented": 0,
+    "none": 8,
+    "unchecked": 0,
+    "verified": 5
+   },
+   "mcp_verified": 5,
+   "mean_kin_score": 47.9,
+   "name": "Pastebin, File Drop & Quick Share",
+   "observed": 10,
+   "queued": 0,
+   "reference_apps": 7,
+   "top": [
+    "Amazon S3",
+    "Google Cloud Storage"
+   ]
+  },
+  {
+   "coverage_pct": 95.5,
+   "declared_only": 47,
+   "distinct_providers": 66,
+   "id": "payroll-hr",
+   "in_catalog": 63,
+   "mcp": {
+    "documented": 1,
+    "none": 33,
+    "unchecked": 3,
+    "verified": 26
+   },
+   "mcp_verified": 26,
+   "mean_kin_score": 46.8,
+   "name": "HR, Payroll & People Ops",
+   "observed": 19,
+   "queued": 3,
+   "reference_apps": 9,
+   "top": [
+    "Lightspeed",
+    "Shopify POS",
+    "Square (POS + Square Payroll)"
+   ]
+  },
+  {
+   "coverage_pct": 86.4,
+   "declared_only": 12,
+   "distinct_providers": 22,
+   "id": "period-fertility-tracking",
+   "in_catalog": 19,
+   "mcp": {
+    "documented": 0,
+    "none": 12,
+    "unchecked": 3,
+    "verified": 6
+   },
+   "mcp_verified": 6,
+   "mean_kin_score": 52.0,
+   "name": "Period, Fertility & Pregnancy Tracking",
+   "observed": 10,
+   "queued": 3,
+   "reference_apps": 7,
+   "top": [
+    "Apple",
+    "Oura",
+    "WHOOP"
+   ]
+  },
+  {
+   "coverage_pct": 97.1,
+   "declared_only": 0,
+   "distinct_providers": 139,
+   "id": "personal-dashboard-homelab",
+   "in_catalog": 135,
+   "mcp": {
+    "documented": 2,
+    "none": 85,
+    "unchecked": 4,
+    "verified": 29
+   },
+   "mcp_verified": 29,
+   "mean_kin_score": 27.4,
+   "name": "Personal Dashboard & Homelab",
+   "observed": 139,
+   "queued": 4,
+   "reference_apps": 6,
+   "top": [
+    "Plex",
+    "Sonarr",
+    "Emby"
+   ]
+  },
+  {
+   "coverage_pct": 97.8,
+   "declared_only": 4,
+   "distinct_providers": 45,
+   "id": "personal-finance-budgeting",
+   "in_catalog": 44,
+   "mcp": {
+    "documented": 2,
+    "none": 18,
+    "unchecked": 1,
+    "verified": 23
+   },
+   "mcp_verified": 23,
+   "mean_kin_score": 52.7,
+   "name": "Personal Finance & Budgeting",
+   "observed": 41,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Plaid",
+    "Akahu",
+    "Enable Banking"
+   ]
+  },
+  {
+   "coverage_pct": 89.5,
+   "declared_only": 20,
+   "distinct_providers": 38,
+   "id": "pet-care",
+   "in_catalog": 34,
+   "mcp": {
+    "documented": 1,
+    "none": 19,
+    "unchecked": 4,
+    "verified": 11
+   },
+   "mcp_verified": 11,
+   "mean_kin_score": 50.7,
+   "name": "Pet Care",
+   "observed": 18,
+   "queued": 4,
+   "reference_apps": 8,
+   "top": [
+    "Shepherd Veterinary Software",
+    "ezyVet",
+    "Provet Cloud"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 5,
+   "distinct_providers": 33,
+   "id": "photo-management",
+   "in_catalog": 33,
+   "mcp": {
+    "documented": 0,
+    "none": 21,
+    "unchecked": 0,
+    "verified": 12
+   },
+   "mcp_verified": 12,
+   "mean_kin_score": 44.6,
+   "name": "Photo & Video Library Management",
+   "observed": 28,
+   "queued": 0,
+   "reference_apps": 11,
+   "top": [
+    "mapbox",
+    "tomtom",
+    "nominatim"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 0,
+   "distinct_providers": 26,
+   "id": "podcasts-audiobooks",
+   "in_catalog": 26,
+   "mcp": {
+    "documented": 0,
+    "none": 14,
+    "unchecked": 0,
+    "verified": 9
+   },
+   "mcp_verified": 9,
+   "mean_kin_score": 40.0,
+   "name": "Podcasts & Audiobooks",
+   "observed": 26,
+   "queued": 0,
+   "reference_apps": 6,
+   "top": [
+    "Apple (iTunes Search API)",
+    "PodcastIndex",
+    "fyyd"
+   ]
+  },
+  {
+   "coverage_pct": 96.5,
+   "declared_only": 59,
+   "distinct_providers": 86,
+   "id": "point-of-sale",
+   "in_catalog": 83,
+   "mcp": {
+    "documented": 2,
+    "none": 36,
+    "unchecked": 3,
+    "verified": 32
+   },
+   "mcp_verified": 32,
+   "mean_kin_score": 40.5,
+   "name": "Point of Sale & In-Person Payments",
+   "observed": 27,
+   "queued": 3,
+   "reference_apps": 6,
+   "top": [
+    "BigCommerce",
+    "WooCommerce",
+    "Wix"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 16,
+   "distinct_providers": 62,
+   "id": "project-management",
+   "in_catalog": 62,
+   "mcp": {
+    "documented": 0,
+    "none": 20,
+    "unchecked": 0,
+    "verified": 42
+   },
+   "mcp_verified": 42,
+   "mean_kin_score": 58.2,
+   "name": "Project & Work Management",
+   "observed": 46,
+   "queued": 0,
+   "reference_apps": 9,
+   "top": [
+    "GitHub",
+    "GitLab",
+    "Gitea"
+   ]
+  },
+  {
+   "coverage_pct": 81.2,
+   "declared_only": 51,
+   "distinct_providers": 69,
+   "id": "property-management",
+   "in_catalog": 56,
+   "mcp": {
+    "documented": 4,
+    "none": 21,
+    "unchecked": 13,
+    "verified": 14
+   },
+   "mcp_verified": 14,
+   "mean_kin_score": 39.7,
+   "name": "Property & Rental Management",
+   "observed": 18,
+   "queued": 13,
+   "reference_apps": 6,
+   "top": [
+    "Zillow",
+    "Trulia",
+    "HotPads"
+   ]
+  },
+  {
+   "coverage_pct": 96.0,
+   "declared_only": 14,
+   "distinct_providers": 50,
+   "id": "real-estate-home-search",
+   "in_catalog": 48,
+   "mcp": {
+    "documented": 2,
+    "none": 17,
+    "unchecked": 3,
+    "verified": 16
+   },
+   "mcp_verified": 16,
+   "mean_kin_score": 40.7,
+   "name": "Real Estate & Home Search",
+   "observed": 36,
+   "queued": 2,
+   "reference_apps": 7,
+   "top": [
+    "ImmobilienScout24",
+    "Immowelt",
+    "Kleinanzeigen"
+   ]
+  },
+  {
+   "coverage_pct": 94.4,
+   "declared_only": 8,
+   "distinct_providers": 18,
+   "id": "recipe-meal-planning",
+   "in_catalog": 17,
+   "mcp": {
+    "documented": 0,
+    "none": 10,
+    "unchecked": 1,
+    "verified": 7
+   },
+   "mcp_verified": 7,
+   "mean_kin_score": 54.2,
+   "name": "Recipes & Meal Planning",
+   "observed": 10,
+   "queued": 1,
+   "reference_apps": 6,
+   "top": [
+    "open-food-facts",
+    "usda"
+   ]
+  },
+  {
+   "coverage_pct": 94.3,
+   "declared_only": 67,
+   "distinct_providers": 70,
+   "id": "recruiting-ats",
+   "in_catalog": 66,
+   "mcp": {
+    "documented": 2,
+    "none": 47,
+    "unchecked": 4,
+    "verified": 11
+   },
+   "mcp_verified": 11,
+   "mean_kin_score": 37.2,
+   "name": "Recruiting & Applicant Tracking",
+   "observed": 3,
+   "queued": 4,
+   "reference_apps": 7,
+   "top": [
+    "BambooHR",
+    "Deel",
+    "Workday"
+   ]
+  },
+  {
+   "coverage_pct": 91.5,
+   "declared_only": 1,
+   "distinct_providers": 59,
+   "id": "ride-hailing-mobility",
+   "in_catalog": 54,
+   "mcp": {
+    "documented": 3,
+    "none": 20,
+    "unchecked": 5,
+    "verified": 22
+   },
+   "mcp_verified": 22,
+   "mean_kin_score": 47.6,
+   "name": "Ride-Hailing & Micromobility",
+   "observed": 58,
+   "queued": 5,
+   "reference_apps": 8,
+   "top": [
+    "Gridline",
+    "HyperVerge",
+    "DigiLocker"
+   ]
+  },
+  {
+   "coverage_pct": 97.9,
+   "declared_only": 12,
+   "distinct_providers": 97,
+   "id": "search-engine",
+   "in_catalog": 95,
+   "mcp": {
+    "documented": 1,
+    "none": 54,
+    "unchecked": 2,
+    "verified": 40
+   },
+   "mcp_verified": 40,
+   "mean_kin_score": 44.3,
+   "name": "Site & App Search",
+   "observed": 85,
+   "queued": 2,
+   "reference_apps": 7,
+   "top": [
+    "OpenAI",
+    "Google Cloud Vertex AI",
+    "Hugging Face"
+   ]
+  },
+  {
+   "coverage_pct": 97.6,
+   "declared_only": 59,
+   "distinct_providers": 85,
+   "id": "shipping-fulfillment",
+   "in_catalog": 83,
+   "mcp": {
+    "documented": 0,
+    "none": 51,
+    "unchecked": 2,
+    "verified": 17
+   },
+   "mcp_verified": 17,
+   "mean_kin_score": 34.8,
+   "name": "Shipping, Fulfillment & Returns",
+   "observed": 26,
+   "queued": 2,
+   "reference_apps": 6,
+   "top": [
+    "UPS",
+    "FedEx",
+    "USPS"
+   ]
+  },
+  {
+   "coverage_pct": 97.5,
+   "declared_only": 14,
+   "distinct_providers": 79,
+   "id": "smart-home-iot",
+   "in_catalog": 77,
+   "mcp": {
+    "documented": 1,
+    "none": 34,
+    "unchecked": 2,
+    "verified": 15
+   },
+   "mcp_verified": 15,
+   "mean_kin_score": 31.3,
+   "name": "Smart Home & Home Automation",
+   "observed": 65,
+   "queued": 2,
+   "reference_apps": 6,
+   "top": [
+    "Signify (Philips Hue, WiZ)",
+    "Google Nest (Smart Device Management)",
+    "LIFX"
+   ]
+  },
+  {
+   "coverage_pct": 97.9,
+   "declared_only": 59,
+   "distinct_providers": 144,
+   "id": "social-media-management",
+   "in_catalog": 141,
+   "mcp": {
+    "documented": 4,
+    "none": 69,
+    "unchecked": 3,
+    "verified": 58
+   },
+   "mcp_verified": 58,
+   "mean_kin_score": 47.2,
+   "name": "Social Media Management & Scheduling",
+   "observed": 85,
+   "queued": 3,
+   "reference_apps": 7,
+   "top": [
+    "Facebook",
+    "X (Twitter)",
+    "LinkedIn"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 0,
+   "distinct_providers": 44,
+   "id": "social-network",
+   "in_catalog": 44,
+   "mcp": {
+    "documented": 0,
+    "none": 17,
+    "unchecked": 0,
+    "verified": 24
+   },
+   "mcp_verified": 24,
+   "mean_kin_score": 41.2,
+   "name": "Social Networking & Microblogging",
+   "observed": 44,
+   "queued": 0,
+   "reference_apps": 7,
+   "top": [
+    "X (Twitter)",
+    "Bluesky",
+    "pnut.io"
+   ]
+  },
+  {
+   "coverage_pct": 94.0,
+   "declared_only": 0,
+   "distinct_providers": 50,
+   "id": "sports-fantasy",
+   "in_catalog": 47,
+   "mcp": {
+    "documented": 1,
+    "none": 26,
+    "unchecked": 3,
+    "verified": 15
+   },
+   "mcp_verified": 15,
+   "mean_kin_score": 38.1,
+   "name": "Sports Scores & Fantasy",
+   "observed": 50,
+   "queued": 3,
+   "reference_apps": 8,
+   "top": [
+    "ESPN site API scoreboards (site.api.espn.com)",
+    "MLB Stats API (statsapi.mlb.com)",
+    "nflverse data via nflreadr"
+   ]
+  },
+  {
+   "coverage_pct": 98.4,
+   "declared_only": 60,
+   "distinct_providers": 122,
+   "id": "subscription-billing",
+   "in_catalog": 120,
+   "mcp": {
+    "documented": 1,
+    "none": 59,
+    "unchecked": 2,
+    "verified": 56
+   },
+   "mcp_verified": 56,
+   "mean_kin_score": 50.1,
+   "name": "Subscription Billing & Payments Ops",
+   "observed": 62,
+   "queued": 2,
+   "reference_apps": 7,
+   "top": [
+    "QuickBooks",
+    "Xero",
+    "NetSuite"
+   ]
+  },
+  {
+   "coverage_pct": 98.4,
+   "declared_only": 29,
+   "distinct_providers": 64,
+   "id": "task-todo",
+   "in_catalog": 63,
+   "mcp": {
+    "documented": 1,
+    "none": 27,
+    "unchecked": 1,
+    "verified": 35
+   },
+   "mcp_verified": 35,
+   "mean_kin_score": 53.6,
+   "name": "Tasks & To-do Lists",
+   "observed": 35,
+   "queued": 1,
+   "reference_apps": 6,
+   "top": [
+    "Trello",
+    "Jira",
+    "GitHub"
+   ]
+  },
+  {
+   "coverage_pct": 94.9,
+   "declared_only": 10,
+   "distinct_providers": 59,
+   "id": "telehealth-patient",
+   "in_catalog": 56,
+   "mcp": {
+    "documented": 3,
+    "none": 31,
+    "unchecked": 0,
+    "verified": 23
+   },
+   "mcp_verified": 23,
+   "mean_kin_score": 56.8,
+   "name": "Telehealth & Patient Apps",
+   "observed": 49,
+   "queued": 3,
+   "reference_apps": 9,
+   "top": [
+    "DORN lab network",
+    "Health Gorilla",
+    "Labcorp"
+   ]
+  },
+  {
+   "coverage_pct": 98.3,
+   "declared_only": 38,
+   "distinct_providers": 60,
+   "id": "time-tracking",
+   "in_catalog": 59,
+   "mcp": {
+    "documented": 2,
+    "none": 15,
+    "unchecked": 1,
+    "verified": 41
+   },
+   "mcp_verified": 41,
+   "mean_kin_score": 56.9,
+   "name": "Time Tracking & Timesheets",
+   "observed": 22,
+   "queued": 1,
+   "reference_apps": 6,
+   "top": [
+    "Jira",
+    "Trello",
+    "ClickUp"
+   ]
+  },
+  {
+   "coverage_pct": 98.8,
+   "declared_only": 34,
+   "distinct_providers": 80,
+   "id": "translation",
+   "in_catalog": 79,
+   "mcp": {
+    "documented": 0,
+    "none": 25,
+    "unchecked": 1,
+    "verified": 50
+   },
+   "mcp_verified": 50,
+   "mean_kin_score": 52.6,
+   "name": "Translation & Localization",
+   "observed": 46,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Google Cloud Translation",
+    "Azure AI Translator",
+    "Amazon Translate"
+   ]
+  },
+  {
+   "coverage_pct": 93.3,
+   "declared_only": 3,
+   "distinct_providers": 30,
+   "id": "travel-booking",
+   "in_catalog": 28,
+   "mcp": {
+    "documented": 0,
+    "none": 16,
+    "unchecked": 2,
+    "verified": 10
+   },
+   "mcp_verified": 10,
+   "mean_kin_score": 52.6,
+   "name": "Travel Booking & Trip Planning",
+   "observed": 27,
+   "queued": 2,
+   "reference_apps": 6,
+   "top": [
+    "Google Places (New)",
+    "Overpass API"
+   ]
+  },
+  {
+   "coverage_pct": 98.8,
+   "declared_only": 52,
+   "distinct_providers": 84,
+   "id": "url-shortener-links",
+   "in_catalog": 83,
+   "mcp": {
+    "documented": 3,
+    "none": 32,
+    "unchecked": 2,
+    "verified": 46
+   },
+   "mcp_verified": 46,
+   "mean_kin_score": 59.7,
+   "name": "Link Management & URL Shorteners",
+   "observed": 32,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "SendGrid",
+    "ActiveCampaign",
+    "Kit"
+   ]
+  },
+  {
+   "coverage_pct": 93.9,
+   "declared_only": 8,
+   "distinct_providers": 33,
+   "id": "video-conferencing",
+   "in_catalog": 31,
+   "mcp": {
+    "documented": 0,
+    "none": 11,
+    "unchecked": 2,
+    "verified": 20
+   },
+   "mcp_verified": 20,
+   "mean_kin_score": 55.8,
+   "name": "Video Conferencing & Webinars",
+   "observed": 25,
+   "queued": 2,
+   "reference_apps": 7,
+   "top": [
+    "Slack",
+    "Microsoft Teams",
+    "Telegram"
+   ]
+  },
+  {
+   "coverage_pct": 98.2,
+   "declared_only": 30,
+   "distinct_providers": 57,
+   "id": "video-editing-creation",
+   "in_catalog": 56,
+   "mcp": {
+    "documented": 1,
+    "none": 22,
+    "unchecked": 1,
+    "verified": 24
+   },
+   "mcp_verified": 24,
+   "mean_kin_score": 46.3,
+   "name": "Video & Photo Editing / Creator Tools",
+   "observed": 27,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Rive",
+    "Adobe Audition",
+    "Adobe Premiere"
+   ]
+  },
+  {
+   "coverage_pct": 96.2,
+   "declared_only": 11,
+   "distinct_providers": 26,
+   "id": "video-streaming-media-server",
+   "in_catalog": 25,
+   "mcp": {
+    "documented": 0,
+    "none": 13,
+    "unchecked": 1,
+    "verified": 5
+   },
+   "mcp_verified": 5,
+   "mean_kin_score": 33.2,
+   "name": "Video Streaming & Media Server",
+   "observed": 15,
+   "queued": 1,
+   "reference_apps": 6,
+   "top": [
+    "The Movie Database",
+    "TheTVDB",
+    "AniList"
+   ]
+  },
+  {
+   "coverage_pct": 98.9,
+   "declared_only": 56,
+   "distinct_providers": 95,
+   "id": "voip-call-center",
+   "in_catalog": 94,
+   "mcp": {
+    "documented": 5,
+    "none": 48,
+    "unchecked": 1,
+    "verified": 40
+   },
+   "mcp_verified": 40,
+   "mean_kin_score": 51.6,
+   "name": "VoIP, Phone & Contact Center",
+   "observed": 39,
+   "queued": 1,
+   "reference_apps": 6,
+   "top": [
+    "HubSpot",
+    "Salesforce",
+    "Zoho CRM"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 34,
+   "distinct_providers": 37,
+   "id": "vpn-privacy",
+   "in_catalog": 37,
+   "mcp": {
+    "documented": 1,
+    "none": 21,
+    "unchecked": 1,
+    "verified": 14
+   },
+   "mcp_verified": 14,
+   "mean_kin_score": 51.6,
+   "name": "VPN & Privacy Tools",
+   "observed": 3,
+   "queued": 0,
+   "reference_apps": 7,
+   "top": [
+    "Okta",
+    "Microsoft Entra ID",
+    "Authentik"
+   ]
+  },
+  {
+   "coverage_pct": 95.9,
+   "declared_only": 5,
+   "distinct_providers": 74,
+   "id": "weather",
+   "in_catalog": 71,
+   "mcp": {
+    "documented": 1,
+    "none": 27,
+    "unchecked": 3,
+    "verified": 6
+   },
+   "mcp_verified": 6,
+   "mean_kin_score": 18.0,
+   "name": "Weather & Environmental Alerts",
+   "observed": 69,
+   "queued": 3,
+   "reference_apps": 7,
+   "top": [
+    "OpenWeather",
+    "Met Office",
+    "AccuWeather"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 52,
+   "distinct_providers": 102,
+   "id": "web-analytics",
+   "in_catalog": 102,
+   "mcp": {
+    "documented": 5,
+    "none": 43,
+    "unchecked": 0,
+    "verified": 52
+   },
+   "mcp_verified": 52,
+   "mean_kin_score": 60.1,
+   "name": "Web & Product Analytics",
+   "observed": 50,
+   "queued": 0,
+   "reference_apps": 7,
+   "top": [
+    "Google Ads",
+    "Facebook / Meta Ads",
+    "Snapchat Ads"
+   ]
+  },
+  {
+   "coverage_pct": 95.9,
+   "declared_only": 74,
+   "distinct_providers": 123,
+   "id": "website-builder-cms",
+   "in_catalog": 118,
+   "mcp": {
+    "documented": 6,
+    "none": 54,
+    "unchecked": 5,
+    "verified": 54
+   },
+   "mcp_verified": 54,
+   "mean_kin_score": 49.6,
+   "name": "Website Builder, CMS & Blogging",
+   "observed": 49,
+   "queued": 5,
+   "reference_apps": 6,
+   "top": [
+    "X (Twitter)",
+    "Pinterest",
+    "Reddit"
+   ]
+  },
+  {
+   "coverage_pct": 98.5,
+   "declared_only": 0,
+   "distinct_providers": 136,
+   "id": "workflow-automation",
+   "in_catalog": 134,
+   "mcp": {
+    "documented": 5,
+    "none": 47,
+    "unchecked": 2,
+    "verified": 81
+   },
+   "mcp_verified": 81,
+   "mean_kin_score": 51.2,
+   "name": "Workflow Automation & iPaaS",
+   "observed": 136,
+   "queued": 2,
+   "reference_apps": 7,
+   "top": [
+    "Jira",
+    "Trello",
+    "Asana"
+   ]
+  }
+ ],
+ "license": "CC BY-NC-SA 4.0"
+}
