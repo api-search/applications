@@ -124,10 +124,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.7
+    agent_readiness: 51.0
     band: exemplar
     in_catalog: true
-    kin_score: 82.0
+    kin_score: 81.1
     mcp: &id001
       source: https://developers.activecampaign.com/page/mcp
       status: documented
@@ -154,11 +154,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.7
+    agent_band: agent-ready
+    agent_readiness: 30.5
     band: developing
     in_catalog: true
-    kin_score: 47.1
+    kin_score: 45.5
     mcp: &id003
       status: none
     slug: coda
@@ -185,10 +185,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.4
+    agent_readiness: 40.3
     band: exemplar
     in_catalog: true
-    kin_score: 67.0
+    kin_score: 67.2
     mcp: &id005
       source: https://docs.cloud.google.com/mcp/supported-products
       status: verified
@@ -216,10 +216,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.3
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 67.1
+    kin_score: 73.2
     mcp: &id007
       source: https://github.com/google/mcp
       status: verified
@@ -247,10 +247,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.9
+    agent_readiness: 43.0
     band: exemplar
     in_catalog: true
-    kin_score: 68.6
+    kin_score: 70.7
     mcp: &id009
       source: https://github.com/gemini-cli-extensions/workspace
       status: verified
@@ -278,10 +278,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 58.8
+    agent_readiness: 60.3
     band: exemplar
     in_catalog: true
-    kin_score: 79.7
+    kin_score: 77.9
     mcp: &id011
       status: none
     slug: greenhouse
@@ -308,10 +308,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id013
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -339,10 +339,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.3
+    agent_readiness: 35.0
     band: developing
     in_catalog: true
-    kin_score: 53.5
+    kin_score: 52.3
     mcp: &id015
       status: none
     slug: ironclad
@@ -369,10 +369,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.1
-    band: strong
+    agent_readiness: 37.6
+    band: exemplar
     in_catalog: true
-    kin_score: 63.9
+    kin_score: 67.7
     mcp: &id017
       source: https://github.com/microsoft/Dataverse-MCP
       status: verified
@@ -400,10 +400,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.2
+    agent_readiness: 25.9
     band: developing
     in_catalog: true
-    kin_score: 48.3
+    kin_score: 50.9
     mcp: &id019
       status: none
     slug: microsoft-onedrive
@@ -430,10 +430,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.8
+    agent_readiness: 40.3
     band: strong
     in_catalog: true
-    kin_score: 65.7
+    kin_score: 65.9
     mcp: &id021
       source: https://learn.microsoft.com/en-us/microsoft-agent-365/mcp-server-reference/word
       status: verified
@@ -487,10 +487,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.3
-    band: strong
+    agent_readiness: 36.1
+    band: exemplar
     in_catalog: true
-    kin_score: 62.2
+    kin_score: 68.5
     mcp: &id025
       status: none
     slug: procore
@@ -520,7 +520,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 10.8
+    kin_score: 9.7
     mcp: &id027
       status: none
     slug: vertafore
@@ -547,10 +547,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.5
-    band: developing
+    agent_readiness: 22.1
+    band: strong
     in_catalog: true
-    kin_score: 50.8
+    kin_score: 56.0
     mcp: &id029
       status: none
     slug: recruitee
@@ -577,10 +577,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.7
+    agent_readiness: 53.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.6
+    kin_score: 88.0
     mcp: &id031
       source: https://github.com/salesforcecli/mcp
       status: verified
@@ -608,10 +608,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id033
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -639,10 +639,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id035
       source: https://zapier.com/mcp
       status: verified
@@ -668,21 +668,21 @@ noindex: false
 permalink: /applications/e-signature-contracts/dropbox-sign/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 53.7
+  agent_readiness: 51.0
   band: exemplar
   in_catalog: true
-  kin_score: 82.0
+  kin_score: 81.1
   mcp: *id001
   name: ActiveCampaign
   slug: activecampaign
   status: profiled
   tags: *id002
   url: /providers/activecampaign/
-- agent_band: agent-aware
-  agent_readiness: 25.7
+- agent_band: agent-ready
+  agent_readiness: 30.5
   band: developing
   in_catalog: true
-  kin_score: 47.1
+  kin_score: 45.5
   mcp: *id003
   name: Coda
   slug: coda
@@ -690,10 +690,10 @@ providers:
   tags: *id004
   url: /providers/coda/
 - agent_band: agent-ready
-  agent_readiness: 44.4
+  agent_readiness: 40.3
   band: exemplar
   in_catalog: true
-  kin_score: 67.0
+  kin_score: 67.2
   mcp: *id005
   name: Google Docs
   slug: google-docs
@@ -701,10 +701,10 @@ providers:
   tags: *id006
   url: /providers/google-docs/
 - agent_band: agent-ready
-  agent_readiness: 44.3
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 67.1
+  kin_score: 73.2
   mcp: *id007
   name: Google Drive
   slug: google-drive
@@ -712,10 +712,10 @@ providers:
   tags: *id008
   url: /providers/google-drive/
 - agent_band: agent-ready
-  agent_readiness: 37.9
+  agent_readiness: 43.0
   band: exemplar
   in_catalog: true
-  kin_score: 68.6
+  kin_score: 70.7
   mcp: *id009
   name: Google Workspace
   slug: google-workspace
@@ -723,10 +723,10 @@ providers:
   tags: *id010
   url: /providers/google-workspace/
 - agent_band: agent-ready
-  agent_readiness: 58.8
+  agent_readiness: 60.3
   band: exemplar
   in_catalog: true
-  kin_score: 79.7
+  kin_score: 77.9
   mcp: *id011
   name: Greenhouse
   slug: greenhouse
@@ -734,10 +734,10 @@ providers:
   tags: *id012
   url: /providers/greenhouse/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id013
   name: HubSpot
   slug: hubspot
@@ -745,10 +745,10 @@ providers:
   tags: *id014
   url: /providers/hubspot/
 - agent_band: agent-ready
-  agent_readiness: 35.3
+  agent_readiness: 35.0
   band: developing
   in_catalog: true
-  kin_score: 53.5
+  kin_score: 52.3
   mcp: *id015
   name: Ironclad
   slug: ironclad
@@ -756,10 +756,10 @@ providers:
   tags: *id016
   url: /providers/ironclad/
 - agent_band: agent-ready
-  agent_readiness: 33.1
-  band: strong
+  agent_readiness: 37.6
+  band: exemplar
   in_catalog: true
-  kin_score: 63.9
+  kin_score: 67.7
   mcp: *id017
   name: Microsoft Dynamics 365
   slug: microsoft-dynamics-365
@@ -767,10 +767,10 @@ providers:
   tags: *id018
   url: /providers/microsoft-dynamics-365/
 - agent_band: agent-aware
-  agent_readiness: 25.2
+  agent_readiness: 25.9
   band: developing
   in_catalog: true
-  kin_score: 48.3
+  kin_score: 50.9
   mcp: *id019
   name: Microsoft OneDrive
   slug: microsoft-onedrive
@@ -778,10 +778,10 @@ providers:
   tags: *id020
   url: /providers/microsoft-onedrive/
 - agent_band: agent-ready
-  agent_readiness: 40.8
+  agent_readiness: 40.3
   band: strong
   in_catalog: true
-  kin_score: 65.7
+  kin_score: 65.9
   mcp: *id021
   name: Microsoft Word
   slug: microsoft-word
@@ -800,10 +800,10 @@ providers:
   tags: *id024
   url: null
 - agent_band: agent-ready
-  agent_readiness: 41.3
-  band: strong
+  agent_readiness: 36.1
+  band: exemplar
   in_catalog: true
-  kin_score: 62.2
+  kin_score: 68.5
   mcp: *id025
   name: Procore
   slug: procore
@@ -814,7 +814,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 10.8
+  kin_score: 9.7
   mcp: *id027
   name: QQ Catalyst (Vertafore)
   slug: vertafore
@@ -822,10 +822,10 @@ providers:
   tags: *id028
   url: /providers/vertafore/
 - agent_band: agent-aware
-  agent_readiness: 22.5
-  band: developing
+  agent_readiness: 22.1
+  band: strong
   in_catalog: true
-  kin_score: 50.8
+  kin_score: 56.0
   mcp: *id029
   name: Recruitee
   slug: recruitee
@@ -833,10 +833,10 @@ providers:
   tags: *id030
   url: /providers/recruitee/
 - agent_band: agent-ready
-  agent_readiness: 54.7
+  agent_readiness: 53.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.6
+  kin_score: 88.0
   mcp: *id031
   name: Salesforce
   slug: salesforce
@@ -844,10 +844,10 @@ providers:
   tags: *id032
   url: /providers/salesforce/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id033
   name: Slack
   slug: slack
@@ -855,10 +855,10 @@ providers:
   tags: *id034
   url: /providers/slack/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id035
   name: Zapier
   slug: zapier

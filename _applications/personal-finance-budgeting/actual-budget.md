@@ -43,10 +43,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.8
-    band: developing
+    agent_readiness: 33.1
+    band: strong
     in_catalog: true
-    kin_score: 47.6
+    kin_score: 56.0
     mcp: &id001
       status: none
     slug: akahu
@@ -73,10 +73,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.5
-    band: developing
+    agent_readiness: 25.9
+    band: thin
     in_catalog: true
-    kin_score: 39.9
+    kin_score: 39.1
     mcp: &id003
       status: none
     slug: enable-banking
@@ -106,7 +106,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.1
+    kin_score: 4.2
     mcp: &id005
       source: https://github.com/gocardless/gc-mcp
       status: verified
@@ -132,10 +132,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 59.4
-    band: strong
+    agent_readiness: 60.9
+    band: exemplar
     in_catalog: true
-    kin_score: 61.7
+    kin_score: 75.3
     mcp: &id007
       source: https://github.com/pluggyai/pluggy-mcp
       status: verified
@@ -163,10 +163,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 9.9
+    kin_score: 14.7
     mcp: &id009
       status: none
     slug: simplefin
@@ -191,10 +191,10 @@ noindex: false
 permalink: /applications/personal-finance-budgeting/actual-budget/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 33.8
-  band: developing
+  agent_readiness: 33.1
+  band: strong
   in_catalog: true
-  kin_score: 47.6
+  kin_score: 56.0
   mcp: *id001
   name: Akahu
   slug: akahu
@@ -202,10 +202,10 @@ providers:
   tags: *id002
   url: /providers/akahu/
 - agent_band: agent-aware
-  agent_readiness: 26.5
-  band: developing
+  agent_readiness: 25.9
+  band: thin
   in_catalog: true
-  kin_score: 39.9
+  kin_score: 39.1
   mcp: *id003
   name: Enable Banking
   slug: enable-banking
@@ -216,7 +216,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.1
+  kin_score: 4.2
   mcp: *id005
   name: GoCardless Bank Account Data
   slug: nordigen
@@ -224,10 +224,10 @@ providers:
   tags: *id006
   url: /providers/nordigen/
 - agent_band: agent-ready
-  agent_readiness: 59.4
-  band: strong
+  agent_readiness: 60.9
+  band: exemplar
   in_catalog: true
-  kin_score: 61.7
+  kin_score: 75.3
   mcp: *id007
   name: Pluggy
   slug: pluggy
@@ -235,10 +235,10 @@ providers:
   tags: *id008
   url: /providers/pluggy/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 9.9
+  kin_score: 14.7
   mcp: *id009
   name: SimpleFIN Bridge
   slug: simplefin

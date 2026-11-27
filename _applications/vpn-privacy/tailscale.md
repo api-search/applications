@@ -103,11 +103,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -135,12 +135,13 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 45.7
     band: thin
     in_catalog: true
-    kin_score: 37.7
+    kin_score: 37.3
     mcp: &id003
-      status: unchecked
+      source: https://github.com/axiomhq/mcp-server-axiom
+      status: verified
     slug: axiom-co
     status: profiled
     tags: &id004
@@ -165,10 +166,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id005
       source: https://github.com/microsoft/mcp
       status: verified
@@ -196,10 +197,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.6
+    agent_readiness: 20.2
     band: developing
     in_catalog: true
-    kin_score: 49.5
+    kin_score: 51.6
     mcp: &id007
       status: none
     slug: cribl
@@ -226,10 +227,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.6
+    agent_readiness: 48.6
     band: exemplar
     in_catalog: true
-    kin_score: 79.2
+    kin_score: 80.0
     mcp: &id009
       source: https://github.com/datadog-labs/mcp-server
       status: verified
@@ -260,7 +261,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 22.4
+    kin_score: 22.0
     mcp: &id011
       source: https://github.com/Sentinel-One/purple-mcp
       status: verified
@@ -287,11 +288,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.6
+    agent_band: agent-aware
+    agent_readiness: 28.5
     band: exemplar
     in_catalog: true
-    kin_score: 70.2
+    kin_score: 78.4
     mcp: &id013
       source: https://www.elastic.co/docs/solutions/search/mcp
       status: verified
@@ -319,10 +320,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id015
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -349,11 +350,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id017
       status: none
     slug: google-identity-platform
@@ -380,10 +381,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id019
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -411,10 +412,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.2
+    agent_readiness: 36.9
     band: strong
     in_catalog: true
-    kin_score: 65.4
+    kin_score: 65.2
     mcp: &id021
       source: https://docs.iru.com/en/endpoint/integrations/ai-assistants/iru-mcp
       status: verified
@@ -442,10 +443,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.8
+    agent_readiness: 24.3
     band: strong
     in_catalog: true
-    kin_score: 62.2
+    kin_score: 60.5
     mcp: &id023
       status: none
     slug: jamf
@@ -472,10 +473,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id025
       status: none
     slug: microsoft-entra
@@ -502,10 +503,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.4
+    agent_readiness: 29.1
     band: exemplar
     in_catalog: true
-    kin_score: 69.4
+    kin_score: 68.1
     mcp: &id027
       status: none
     slug: microsoft-intune
@@ -532,10 +533,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.8
+    agent_readiness: 47.1
     band: exemplar
     in_catalog: true
-    kin_score: 78.0
+    kin_score: 81.8
     mcp: &id029
       source: https://developer.okta.com/docs/concepts/mcp-server/
       status: verified
@@ -563,10 +564,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.7
+    agent_readiness: 24.3
     band: thin
     in_catalog: true
-    kin_score: 30.5
+    kin_score: 29.5
     mcp: &id031
       source: https://github.com/onelogin/onelogin-mcp
       status: verified
@@ -594,10 +595,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.5
+    agent_readiness: 34.8
     band: strong
     in_catalog: true
-    kin_score: 57.1
+    kin_score: 56.9
     mcp: &id033
       source: https://github.com/panther-labs/mcp-panther
       status: verified
@@ -625,10 +626,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id035
       status: none
     slug: apple
@@ -655,10 +656,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.9
-    band: thin
+    agent_readiness: 12.7
+    band: developing
     in_catalog: true
-    kin_score: 31.4
+    kin_score: 41.9
     mcp: &id037
       status: none
     slug: simplemdm
@@ -685,10 +686,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.5
+    agent_readiness: 54.4
     band: strong
     in_catalog: true
-    kin_score: 61.4
+    kin_score: 63.1
     mcp: &id039
       status: none
     slug: splunk
@@ -718,7 +719,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.5
+    kin_score: 5.7
     mcp: &id041
       status: none
     slug: storj
@@ -745,10 +746,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.5
+    agent_readiness: 24.9
     band: emerging
     in_catalog: true
-    kin_score: 24.3
+    kin_score: 23.1
     mcp: &id043
       status: none
     slug: vector
@@ -778,7 +779,7 @@ integrations:
     agent_readiness: 3.1
     band: emerging
     in_catalog: true
-    kin_score: 24.0
+    kin_score: 23.4
     mcp: &id045
       status: none
     slug: wasabi
@@ -802,11 +803,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/vpn-privacy/tailscale/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -814,10 +815,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 45.7
   band: thin
   in_catalog: true
-  kin_score: 37.7
+  kin_score: 37.3
   mcp: *id003
   name: Axiom
   slug: axiom-co
@@ -825,10 +826,10 @@ providers:
   tags: *id004
   url: /providers/axiom-co/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id005
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -836,10 +837,10 @@ providers:
   tags: *id006
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: agent-aware
-  agent_readiness: 20.6
+  agent_readiness: 20.2
   band: developing
   in_catalog: true
-  kin_score: 49.5
+  kin_score: 51.6
   mcp: *id007
   name: Cribl
   slug: cribl
@@ -847,10 +848,10 @@ providers:
   tags: *id008
   url: /providers/cribl/
 - agent_band: agent-ready
-  agent_readiness: 49.6
+  agent_readiness: 48.6
   band: exemplar
   in_catalog: true
-  kin_score: 79.2
+  kin_score: 80.0
   mcp: *id009
   name: Datadog
   slug: datadog
@@ -861,18 +862,18 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 22.4
+  kin_score: 22.0
   mcp: *id011
   name: DataSet by SentinelOne
   slug: sentinelone
   status: profiled
   tags: *id012
   url: /providers/sentinelone/
-- agent_band: agent-ready
-  agent_readiness: 28.6
+- agent_band: agent-aware
+  agent_readiness: 28.5
   band: exemplar
   in_catalog: true
-  kin_score: 70.2
+  kin_score: 78.4
   mcp: *id013
   name: Elasticsearch / Logstash
   slug: elastic
@@ -880,21 +881,21 @@ providers:
   tags: *id014
   url: /providers/elastic/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id015
   name: GitHub sign-in
   slug: github
   status: profiled
   tags: *id016
   url: /providers/github/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id017
   name: Google / Google Workspace sign-in
   slug: google-identity-platform
@@ -902,10 +903,10 @@ providers:
   tags: *id018
   url: /providers/google-identity-platform/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id019
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -913,10 +914,10 @@ providers:
   tags: *id020
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-ready
-  agent_readiness: 37.2
+  agent_readiness: 36.9
   band: strong
   in_catalog: true
-  kin_score: 65.4
+  kin_score: 65.2
   mcp: *id021
   name: Iru (formerly Kandji)
   slug: kandji
@@ -924,10 +925,10 @@ providers:
   tags: *id022
   url: /providers/kandji/
 - agent_band: agent-aware
-  agent_readiness: 24.8
+  agent_readiness: 24.3
   band: strong
   in_catalog: true
-  kin_score: 62.2
+  kin_score: 60.5
   mcp: *id023
   name: Jamf Pro
   slug: jamf
@@ -935,10 +936,10 @@ providers:
   tags: *id024
   url: /providers/jamf/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id025
   name: Microsoft Entra ID
   slug: microsoft-entra
@@ -946,10 +947,10 @@ providers:
   tags: *id026
   url: /providers/microsoft-entra/
 - agent_band: agent-ready
-  agent_readiness: 31.4
+  agent_readiness: 29.1
   band: exemplar
   in_catalog: true
-  kin_score: 69.4
+  kin_score: 68.1
   mcp: *id027
   name: Microsoft Intune
   slug: microsoft-intune
@@ -957,10 +958,10 @@ providers:
   tags: *id028
   url: /providers/microsoft-intune/
 - agent_band: agent-ready
-  agent_readiness: 53.8
+  agent_readiness: 47.1
   band: exemplar
   in_catalog: true
-  kin_score: 78.0
+  kin_score: 81.8
   mcp: *id029
   name: Okta
   slug: okta
@@ -968,10 +969,10 @@ providers:
   tags: *id030
   url: /providers/okta/
 - agent_band: agent-aware
-  agent_readiness: 24.7
+  agent_readiness: 24.3
   band: thin
   in_catalog: true
-  kin_score: 30.5
+  kin_score: 29.5
   mcp: *id031
   name: OneLogin
   slug: onelogin
@@ -979,10 +980,10 @@ providers:
   tags: *id032
   url: /providers/onelogin/
 - agent_band: agent-ready
-  agent_readiness: 34.5
+  agent_readiness: 34.8
   band: strong
   in_catalog: true
-  kin_score: 57.1
+  kin_score: 56.9
   mcp: *id033
   name: Panther
   slug: panther
@@ -990,10 +991,10 @@ providers:
   tags: *id034
   url: /providers/panther/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id035
   name: Sign in with Apple
   slug: apple
@@ -1001,10 +1002,10 @@ providers:
   tags: *id036
   url: /providers/apple/
 - agent_band: agent-aware
-  agent_readiness: 12.9
-  band: thin
+  agent_readiness: 12.7
+  band: developing
   in_catalog: true
-  kin_score: 31.4
+  kin_score: 41.9
   mcp: *id037
   name: SimpleMDM
   slug: simplemdm
@@ -1012,10 +1013,10 @@ providers:
   tags: *id038
   url: /providers/simplemdm/
 - agent_band: agent-ready
-  agent_readiness: 53.5
+  agent_readiness: 54.4
   band: strong
   in_catalog: true
-  kin_score: 61.4
+  kin_score: 63.1
   mcp: *id039
   name: Splunk (HEC)
   slug: splunk
@@ -1026,7 +1027,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.5
+  kin_score: 5.7
   mcp: *id041
   name: Storj
   slug: storj
@@ -1034,10 +1035,10 @@ providers:
   tags: *id042
   url: /providers/storj/
 - agent_band: agent-aware
-  agent_readiness: 25.5
+  agent_readiness: 24.9
   band: emerging
   in_catalog: true
-  kin_score: 24.3
+  kin_score: 23.1
   mcp: *id043
   name: Vector
   slug: vector
@@ -1048,7 +1049,7 @@ providers:
   agent_readiness: 3.1
   band: emerging
   in_catalog: true
-  kin_score: 24.0
+  kin_score: 23.4
   mcp: *id045
   name: Wasabi
   slug: wasabi

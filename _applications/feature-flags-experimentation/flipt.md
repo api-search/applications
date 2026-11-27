@@ -74,11 +74,11 @@ integrations:
     via_parent: Package Registries & Distribution
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.7
-    band: strong
+    agent_band: agent-ready
+    agent_readiness: 29.5
+    band: exemplar
     in_catalog: true
-    kin_score: 65.8
+    kin_score: 75.2
     mcp: &id002
       source: https://github.com/awslabs/mcp
       status: verified
@@ -105,11 +105,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id004
       source: https://github.com/awslabs/mcp
       status: verified
@@ -137,10 +137,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id006
       source: https://github.com/microsoft/mcp
       status: verified
@@ -168,10 +168,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id008
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -214,10 +214,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id010
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -245,10 +245,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id012
       status: none
     slug: segment
@@ -272,22 +272,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/feature-flags-experimentation/flipt/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 27.7
-  band: strong
+- agent_band: agent-ready
+  agent_readiness: 29.5
+  band: exemplar
   in_catalog: true
-  kin_score: 65.8
+  kin_score: 75.2
   mcp: *id002
   name: Amazon ECR
   slug: amazon-ecr
   status: profiled
   tags: *id003
   url: /providers/amazon-ecr/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id004
   name: Amazon S3
   slug: amazon-s3
@@ -295,10 +295,10 @@ providers:
   tags: *id005
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id006
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -306,10 +306,10 @@ providers:
   tags: *id007
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id008
   name: GitHub
   slug: github
@@ -317,10 +317,10 @@ providers:
   tags: *id009
   url: /providers/github/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id010
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -328,10 +328,10 @@ providers:
   tags: *id011
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id012
   name: Twilio Segment
   slug: segment

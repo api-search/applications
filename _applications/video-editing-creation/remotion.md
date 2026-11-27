@@ -91,11 +91,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -126,7 +126,7 @@ integrations:
     agent_readiness: 45.6
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 74.9
     mcp: &id003
       source: https://github.com/awslabs/mcp/tree/main/src/lambda-tool-mcp-server
       status: verified
@@ -154,10 +154,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 60.4
     band: exemplar
     in_catalog: true
-    kin_score: 83.0
+    kin_score: 83.2
     mcp: &id005
       source: https://github.com/elevenlabs/elevenlabs-mcp
       status: verified
@@ -184,11 +184,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 38.9
+    band: exemplar
     in_catalog: true
-    kin_score: 53.2
+    kin_score: 67.0
     mcp: &id007
       source: https://github.com/GoogleCloudPlatform/cloud-run-mcp
       status: verified
@@ -216,10 +216,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id009
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -246,11 +246,11 @@ integrations:
     via_parent: Design & Creative Editing
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_band: agent-ready
+    agent_readiness: 29.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 54.2
     mcp: &id011
       status: none
     slug: google-fonts
@@ -276,11 +276,11 @@ integrations:
     via_parent: Maps & Tiles
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 26.5
+    agent_band: agent-ready
+    agent_readiness: 32.5
     band: developing
     in_catalog: true
-    kin_score: 40.3
+    kin_score: 41.0
     mcp: &id013
       status: none
     slug: maptiler
@@ -307,10 +307,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id015
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -338,10 +338,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 0.7
     band: emerging
     in_catalog: true
-    kin_score: 22.5
+    kin_score: 23.6
     mcp: &id017
       status: none
     slug: rive
@@ -368,10 +368,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.2
+    agent_readiness: 50.0
     band: strong
     in_catalog: true
-    kin_score: 63.8
+    kin_score: 63.1
     mcp: &id019
       source: https://vercel.com/docs/mcp/vercel-mcp
       status: verified
@@ -396,11 +396,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/video-editing-creation/remotion/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -411,7 +411,7 @@ providers:
   agent_readiness: 45.6
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 74.9
   mcp: *id003
   name: AWS Lambda
   slug: aws-lambda
@@ -419,21 +419,21 @@ providers:
   tags: *id004
   url: /providers/aws-lambda/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 60.4
   band: exemplar
   in_catalog: true
-  kin_score: 83.0
+  kin_score: 83.2
   mcp: *id005
   name: ElevenLabs
   slug: elevenlabs
   status: profiled
   tags: *id006
   url: /providers/elevenlabs/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 38.9
+  band: exemplar
   in_catalog: true
-  kin_score: 53.2
+  kin_score: 67.0
   mcp: *id007
   name: Google Cloud Run
   slug: google-cloud-run
@@ -441,32 +441,32 @@ providers:
   tags: *id008
   url: /providers/google-cloud-run/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id009
   name: Google Cloud Storage
   slug: gcp-cloud-storage
   status: profiled
   tags: *id010
   url: /providers/gcp-cloud-storage/
-- agent_band: agent-aware
-  agent_readiness: 19.9
+- agent_band: agent-ready
+  agent_readiness: 29.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 54.2
   mcp: *id011
   name: Google Fonts
   slug: google-fonts
   status: profiled
   tags: *id012
   url: /providers/google-fonts/
-- agent_band: agent-aware
-  agent_readiness: 26.5
+- agent_band: agent-ready
+  agent_readiness: 32.5
   band: developing
   in_catalog: true
-  kin_score: 40.3
+  kin_score: 41.0
   mcp: *id013
   name: MapTiler
   slug: maptiler
@@ -474,10 +474,10 @@ providers:
   tags: *id014
   url: /providers/maptiler/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id015
   name: OpenAI
   slug: openai
@@ -485,10 +485,10 @@ providers:
   tags: *id016
   url: /providers/openai/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 0.7
   band: emerging
   in_catalog: true
-  kin_score: 22.5
+  kin_score: 23.6
   mcp: *id017
   name: Rive
   slug: rive
@@ -496,10 +496,10 @@ providers:
   tags: *id018
   url: /providers/rive/
 - agent_band: agent-ready
-  agent_readiness: 45.2
+  agent_readiness: 50.0
   band: strong
   in_catalog: true
-  kin_score: 63.8
+  kin_score: 63.1
   mcp: *id019
   name: Vercel
   slug: vercel

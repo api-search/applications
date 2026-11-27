@@ -85,22 +85,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id010
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id011
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics / Crashlytics
   provider: firebase
@@ -117,10 +117,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: exemplar
     in_catalog: true
-    kin_score: 76.5
+    kin_score: 74.4
     mcp: &id018
       source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
       status: verified
@@ -148,10 +148,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.6
     band: thin
     in_catalog: true
-    kin_score: 34.2
+    kin_score: 32.4
     mcp: &id024
       status: none
     slug: wootric
@@ -178,10 +178,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id004
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -209,10 +209,10 @@ integrations:
   credit: null
   facts: &id002
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id006
       status: none
     slug: facebook
@@ -239,10 +239,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.7
+    agent_readiness: 42.1
     band: exemplar
     in_catalog: true
-    kin_score: 73.1
+    kin_score: 73.4
     mcp: &id008
       source: https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server
       status: verified
@@ -270,10 +270,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.9
+    agent_readiness: 38.6
     band: exemplar
     in_catalog: true
-    kin_score: 69.0
+    kin_score: 67.8
     mcp: &id012
       status: none
     slug: instagram
@@ -300,10 +300,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-ready
-    agent_readiness: 47.4
+    agent_readiness: 46.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.4
+    kin_score: 77.8
     mcp: &id014
       status: none
     slug: linkedin
@@ -360,10 +360,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 10.8
+    agent_readiness: 11.7
     band: developing
     in_catalog: true
-    kin_score: 42.5
+    kin_score: 47.4
     mcp: &id016
       status: none
     slug: microsoft-advertising
@@ -390,10 +390,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.1
+    agent_readiness: 43.0
     band: strong
     in_catalog: true
-    kin_score: 63.0
+    kin_score: 64.4
     mcp: &id020
       source: https://github.com/reddit/devvit-mcp
       status: verified
@@ -421,10 +421,10 @@ integrations:
   credit: null
   facts: &id003
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: developing
     in_catalog: true
-    kin_score: 41.0
+    kin_score: 40.5
     mcp: &id022
       status: none
     slug: tiktok
@@ -466,10 +466,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id026
       status: none
     slug: youtube
@@ -494,10 +494,10 @@ noindex: false
 permalink: /applications/marketing-automation/hubspot-marketing-hub/
 providers:
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id004
   name: ChatGPT ads
   slug: openai
@@ -505,10 +505,10 @@ providers:
   tags: *id005
   url: /providers/openai/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id006
   name: Facebook
   slug: facebook
@@ -516,32 +516,32 @@ providers:
   tags: *id007
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 47.7
+  agent_readiness: 42.1
   band: exemplar
   in_catalog: true
-  kin_score: 73.1
+  kin_score: 73.4
   mcp: *id008
   name: Google Ads
   slug: google-ads
   status: profiled
   tags: *id009
   url: /providers/google-ads/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id010
   name: Google Firebase Analytics / Crashlytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id011
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 38.9
+  agent_readiness: 38.6
   band: exemplar
   in_catalog: true
-  kin_score: 69.0
+  kin_score: 67.8
   mcp: *id012
   name: Instagram
   slug: instagram
@@ -549,10 +549,10 @@ providers:
   tags: *id013
   url: /providers/instagram/
 - agent_band: agent-ready
-  agent_readiness: 47.4
+  agent_readiness: 46.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.4
+  kin_score: 77.8
   mcp: *id014
   name: LinkedIn
   slug: linkedin
@@ -560,10 +560,10 @@ providers:
   tags: *id015
   url: /providers/linkedin/
 - agent_band: agent-aware
-  agent_readiness: 10.8
+  agent_readiness: 11.7
   band: developing
   in_catalog: true
-  kin_score: 42.5
+  kin_score: 47.4
   mcp: *id016
   name: Microsoft Ads
   slug: microsoft-advertising
@@ -571,10 +571,10 @@ providers:
   tags: *id017
   url: /providers/microsoft-advertising/
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 44.8
   band: exemplar
   in_catalog: true
-  kin_score: 76.5
+  kin_score: 74.4
   mcp: *id018
   name: New Relic
   slug: new-relic
@@ -582,10 +582,10 @@ providers:
   tags: *id019
   url: /providers/new-relic/
 - agent_band: agent-ready
-  agent_readiness: 39.1
+  agent_readiness: 43.0
   band: strong
   in_catalog: true
-  kin_score: 63.0
+  kin_score: 64.4
   mcp: *id020
   name: Reddit Ads
   slug: reddit
@@ -593,10 +593,10 @@ providers:
   tags: *id021
   url: /providers/reddit/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: developing
   in_catalog: true
-  kin_score: 41.0
+  kin_score: 40.5
   mcp: *id022
   name: TikTok
   slug: tiktok
@@ -604,10 +604,10 @@ providers:
   tags: *id023
   url: /providers/tiktok/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.6
   band: thin
   in_catalog: true
-  kin_score: 34.2
+  kin_score: 32.4
   mcp: *id024
   name: Wootric
   slug: wootric
@@ -615,10 +615,10 @@ providers:
   tags: *id025
   url: /providers/wootric/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id026
   name: YouTube
   slug: youtube

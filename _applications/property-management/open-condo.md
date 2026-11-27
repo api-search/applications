@@ -123,11 +123,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -155,10 +155,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id003
       status: none
     slug: apple
@@ -185,10 +185,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.5
+    agent_readiness: 19.3
     band: thin
     in_catalog: true
-    kin_score: 28.6
+    kin_score: 38.1
     mcp: &id005
       source: https://dadata.ru/mcp/
       status: verified
@@ -215,22 +215,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id007
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id008
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Cloud Messaging
   provider: firebase
@@ -247,10 +247,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 20.9
     band: thin
     in_catalog: true
-    kin_score: 37.1
+    kin_score: 36.2
     mcp: &id009
       status: none
     slug: flowise
@@ -277,10 +277,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.3
-    band: developing
+    agent_readiness: 40.3
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 62.4
     mcp: &id011
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -308,10 +308,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id013
       status: none
     slug: google-tag-manager
@@ -364,10 +364,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.1
-    band: developing
+    agent_readiness: 46.1
+    band: strong
     in_catalog: true
-    kin_score: 49.5
+    kin_score: 60.6
     mcp: &id017
       source: https://docs.instasent.com/a2p-messaging-api/http/reference/
       status: documented
@@ -395,10 +395,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.4
+    agent_readiness: 35.7
     band: exemplar
     in_catalog: true
-    kin_score: 71.3
+    kin_score: 67.7
     mcp: &id019
       source: https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server/
       status: verified
@@ -426,10 +426,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 71.3
+    agent_readiness: 70.1
     band: exemplar
     in_catalog: true
-    kin_score: 78.0
+    kin_score: 76.8
     mcp: &id021
       source: https://github.com/OneSignal/onesignal-ai-skills
       status: documented
@@ -483,10 +483,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.8
+    agent_readiness: 19.7
     band: thin
     in_catalog: true
-    kin_score: 28.0
+    kin_score: 35.9
     mcp: &id025
       status: unknown
     slug: sber
@@ -513,10 +513,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.8
+    agent_readiness: 19.3
     band: emerging
     in_catalog: true
-    kin_score: 17.8
+    kin_score: 24.0
     mcp: &id027
       status: unknown
     slug: sms-ru
@@ -546,7 +546,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 5.8
+    kin_score: 6.0
     mcp: &id029
       status: none
     slug: smsc
@@ -573,10 +573,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id031
       status: none
     slug: telegram
@@ -603,10 +603,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id033
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -635,9 +635,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.6
+    kin_score: 14.8
     mcp: &id035
       status: none
     slug: yandex-metrica
@@ -661,11 +661,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/property-management/open-condo/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -673,10 +673,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id003
   name: Apple Push / Sign in with Apple
   slug: apple
@@ -684,32 +684,32 @@ providers:
   tags: *id004
   url: /providers/apple/
 - agent_band: agent-aware
-  agent_readiness: 22.5
+  agent_readiness: 19.3
   band: thin
   in_catalog: true
-  kin_score: 28.6
+  kin_score: 38.1
   mcp: *id005
   name: DaData
   slug: dadata
   status: profiled
   tags: *id006
   url: /providers/dadata/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id007
   name: Firebase Cloud Messaging
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id008
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 20.9
   band: thin
   in_catalog: true
-  kin_score: 37.1
+  kin_score: 36.2
   mcp: *id009
   name: Flowise
   slug: flowise
@@ -717,10 +717,10 @@ providers:
   tags: *id010
   url: /providers/flowise/
 - agent_band: agent-ready
-  agent_readiness: 32.3
-  band: developing
+  agent_readiness: 40.3
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 62.4
   mcp: *id011
   name: Google Places
   slug: google-places
@@ -728,10 +728,10 @@ providers:
   tags: *id012
   url: /providers/google-places/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 35.8
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 65.8
   mcp: *id013
   name: Google Tag Manager
   slug: google-tag-manager
@@ -750,10 +750,10 @@ providers:
   tags: *id016
   url: null
 - agent_band: agent-ready
-  agent_readiness: 47.1
-  band: developing
+  agent_readiness: 46.1
+  band: strong
   in_catalog: true
-  kin_score: 49.5
+  kin_score: 60.6
   mcp: *id017
   name: Instasent
   slug: instasent
@@ -761,10 +761,10 @@ providers:
   tags: *id018
   url: /providers/instasent/
 - agent_band: agent-ready
-  agent_readiness: 36.4
+  agent_readiness: 35.7
   band: exemplar
   in_catalog: true
-  kin_score: 71.3
+  kin_score: 67.7
   mcp: *id019
   name: n8n
   slug: n8n
@@ -772,10 +772,10 @@ providers:
   tags: *id020
   url: /providers/n8n/
 - agent_band: agent-native
-  agent_readiness: 71.3
+  agent_readiness: 70.1
   band: exemplar
   in_catalog: true
-  kin_score: 78.0
+  kin_score: 76.8
   mcp: *id021
   name: OneSignal
   slug: onesignal
@@ -794,10 +794,10 @@ providers:
   tags: *id024
   url: null
 - agent_band: agent-aware
-  agent_readiness: 22.8
+  agent_readiness: 19.7
   band: thin
   in_catalog: true
-  kin_score: 28.0
+  kin_score: 35.9
   mcp: *id025
   name: Sber ID / SberCloud
   slug: sber
@@ -805,10 +805,10 @@ providers:
   tags: *id026
   url: /providers/sber/
 - agent_band: agent-aware
-  agent_readiness: 22.8
+  agent_readiness: 19.3
   band: emerging
   in_catalog: true
-  kin_score: 17.8
+  kin_score: 24.0
   mcp: *id027
   name: SMS.ru
   slug: sms-ru
@@ -819,7 +819,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 5.8
+  kin_score: 6.0
   mcp: *id029
   name: SMSC.ru
   slug: smsc
@@ -827,10 +827,10 @@ providers:
   tags: *id030
   url: /providers/smsc/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id031
   name: Telegram
   slug: telegram
@@ -838,10 +838,10 @@ providers:
   tags: *id032
   url: /providers/telegram/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id033
   name: Twilio
   slug: twilio
@@ -850,9 +850,9 @@ providers:
   url: /providers/twilio/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.6
+  kin_score: 14.8
   mcp: *id035
   name: Yandex Metrica
   slug: yandex-metrica

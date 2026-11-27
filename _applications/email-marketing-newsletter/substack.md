@@ -55,10 +55,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id001
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -86,10 +86,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id003
       status: none
     slug: facebook
@@ -115,22 +115,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id005
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id006
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Analytics
   provider: firebase
@@ -150,7 +150,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id007
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -176,10 +176,10 @@ noindex: false
 permalink: /applications/email-marketing-newsletter/substack/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id001
   name: AppsFlyer
   slug: appsflyer
@@ -187,32 +187,32 @@ providers:
   tags: *id002
   url: /providers/appsflyer/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id003
   name: Facebook (Analytics, Login, Share)
   slug: facebook
   status: profiled
   tags: *id004
   url: /providers/facebook/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id005
   name: Firebase Analytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id006
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id007
   name: Sentry
   slug: sentry-system

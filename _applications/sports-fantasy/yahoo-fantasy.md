@@ -67,10 +67,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.2
+    agent_readiness: 12.0
     band: emerging
     in_catalog: true
-    kin_score: 16.9
+    kin_score: 17.9
     mcp: &id001
       status: none
     slug: comscore
@@ -100,7 +100,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 20.6
+    kin_score: 18.6
     mcp: &id003
       status: none
     slug: flurry
@@ -127,10 +127,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id005
       status: none
     slug: google-admob
@@ -157,10 +157,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id007
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -187,22 +187,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id009
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id010
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics
   provider: firebase
@@ -219,10 +219,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id011
       status: none
     slug: google-tag-manager
@@ -249,10 +249,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.9
     band: strong
     in_catalog: true
-    kin_score: 56.1
+    kin_score: 55.6
     mcp: &id013
       source: https://github.com/IABTechLab/agentic-real-time-framework
       status: verified
@@ -280,10 +280,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 30.7
     band: exemplar
     in_catalog: true
-    kin_score: 71.3
+    kin_score: 69.5
     mcp: &id015
       source: https://github.com/taboola/realize-mcp
       status: verified
@@ -309,10 +309,10 @@ noindex: false
 permalink: /applications/sports-fantasy/yahoo-fantasy/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 12.2
+  agent_readiness: 12.0
   band: emerging
   in_catalog: true
-  kin_score: 16.9
+  kin_score: 17.9
   mcp: *id001
   name: Comscore
   slug: comscore
@@ -323,7 +323,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 20.6
+  kin_score: 18.6
   mcp: *id003
   name: Flurry
   slug: flurry
@@ -331,10 +331,10 @@ providers:
   tags: *id004
   url: /providers/flurry/
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 35.3
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 65.2
   mcp: *id005
   name: Google AdMob
   slug: google-admob
@@ -342,32 +342,32 @@ providers:
   tags: *id006
   url: /providers/google-admob/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id007
   name: Google Analytics
   slug: google-analytics
   status: profiled
   tags: *id008
   url: /providers/google-analytics/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id009
-  name: Google Firebase Analytics
-  slug: firebase
-  status: profiled
-  tags: *id010
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 62.0
+  mcp: *id009
+  name: Google Firebase Analytics
+  slug: google-firebase
+  status: profiled
+  tags: *id010
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 35.8
+  band: strong
+  in_catalog: true
+  kin_score: 65.8
   mcp: *id011
   name: Google Tag Manager
   slug: google-tag-manager
@@ -375,10 +375,10 @@ providers:
   tags: *id012
   url: /providers/google-tag-manager/
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 36.9
   band: strong
   in_catalog: true
-  kin_score: 56.1
+  kin_score: 55.6
   mcp: *id013
   name: IAB Open Measurement
   slug: iab-tech-lab
@@ -386,10 +386,10 @@ providers:
   tags: *id014
   url: /providers/iab-tech-lab/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 30.7
   band: exemplar
   in_catalog: true
-  kin_score: 71.3
+  kin_score: 69.5
   mcp: *id015
   name: Taboola
   slug: taboola

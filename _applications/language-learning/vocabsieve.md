@@ -64,10 +64,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 0.7
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 7.3
     mcp: &id001
       status: unknown
     slug: ankiweb
@@ -94,7 +94,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 9.0
+    kin_score: 6.9
     mcp: &id003
       status: unknown
     slug: forvo
@@ -117,11 +117,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.9
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 33.9
+    band: exemplar
     in_catalog: true
-    kin_score: 51.6
+    kin_score: 68.0
     mcp: &id005
       status: none
     slug: google-translate
@@ -148,10 +148,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 29.7
     band: developing
     in_catalog: true
-    kin_score: 47.8
+    kin_score: 48.9
     mcp: &id007
       status: none
     slug: wiktionary
@@ -176,10 +176,10 @@ noindex: false
 permalink: /applications/language-learning/vocabsieve/
 providers:
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 0.7
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 7.3
   mcp: *id001
   name: AnkiWeb (Ankitects)
   slug: ankiweb
@@ -190,18 +190,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 9.0
+  kin_score: 6.9
   mcp: *id003
   name: Forvo
   slug: forvo
   status: profiled
   tags: *id004
   url: /providers/forvo/
-- agent_band: agent-aware
-  agent_readiness: 17.9
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 33.9
+  band: exemplar
   in_catalog: true
-  kin_score: 51.6
+  kin_score: 68.0
   mcp: *id005
   name: Google Translate
   slug: google-translate
@@ -209,10 +209,10 @@ providers:
   tags: *id006
   url: /providers/google-translate/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 29.7
   band: developing
   in_catalog: true
-  kin_score: 47.8
+  kin_score: 48.9
   mcp: *id007
   name: Wiktionary
   slug: wiktionary

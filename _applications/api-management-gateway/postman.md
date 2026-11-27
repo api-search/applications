@@ -118,10 +118,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.7
+    agent_readiness: 33.8
     band: exemplar
     in_catalog: true
-    kin_score: 69.6
+    kin_score: 67.6
     mcp: &id001
       source: https://cloud.google.com/apigee/docs/api-platform/apigee-mcp/apigee-mcp-overview
       status: documented
@@ -149,7 +149,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.9
+    agent_readiness: 44.4
     band: strong
     in_catalog: true
     kin_score: 63.2
@@ -179,11 +179,11 @@ integrations:
     via_parent: API Consumption Governance
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.1
+    agent_band: agent-ready
+    agent_readiness: 42.0
     band: exemplar
     in_catalog: true
-    kin_score: 76.0
+    kin_score: 77.4
     mcp: &id005
       status: none
     slug: aws-api-gateway
@@ -210,10 +210,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 31.6
     band: exemplar
     in_catalog: true
-    kin_score: 80.3
+    kin_score: 78.5
     mcp: &id007
       source: https://learn.microsoft.com/en-us/azure/api-management/export-rest-mcp-server
       status: verified
@@ -241,10 +241,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
+    agent_readiness: 37.7
     band: exemplar
     in_catalog: true
-    kin_score: 76.8
+    kin_score: 81.9
     mcp: &id009
       source: https://github.com/microsoft/azure-devops-mcp
       status: verified
@@ -272,10 +272,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 35.3
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 71.9
     mcp: &id011
       source: https://github.com/atlassian/atlassian-mcp-server
       status: verified
@@ -303,10 +303,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.1
+    agent_readiness: 56.3
     band: exemplar
     in_catalog: true
-    kin_score: 69.1
+    kin_score: 73.5
     mcp: &id013
       source: https://github.com/CircleCI-Public/mcp-server-circleci
       status: verified
@@ -334,10 +334,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.6
+    agent_readiness: 48.6
     band: exemplar
     in_catalog: true
-    kin_score: 79.2
+    kin_score: 80.0
     mcp: &id015
       source: https://github.com/datadog-labs/mcp-server
       status: verified
@@ -365,10 +365,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id017
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -396,10 +396,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id019
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -427,10 +427,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.0
+    agent_readiness: 22.5
     band: thin
     in_catalog: true
-    kin_score: 38.1
+    kin_score: 39.0
     mcp: &id021
       source: https://github.com/jenkinsci/mcp-server-plugin
       status: verified
@@ -458,10 +458,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 65.7
+    agent_readiness: 64.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.6
+    kin_score: 82.4
     mcp: &id023
       source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
       status: verified
@@ -489,10 +489,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id025
       status: none
     slug: microsoft-teams
@@ -519,10 +519,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: exemplar
     in_catalog: true
-    kin_score: 76.5
+    kin_score: 74.4
     mcp: &id027
       source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
       status: verified
@@ -550,10 +550,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.9
+    agent_readiness: 54.4
     band: developing
     in_catalog: true
-    kin_score: 51.2
+    kin_score: 52.1
     mcp: &id029
       source: https://github.com/PagerDuty/pagerduty-mcp-server
       status: verified
@@ -581,10 +581,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id031
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -612,10 +612,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.5
+    agent_readiness: 54.4
     band: strong
     in_catalog: true
-    kin_score: 61.4
+    kin_score: 63.1
     mcp: &id033
       status: none
     slug: splunk
@@ -645,7 +645,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 17.8
+    kin_score: 18.1
     mcp: &id035
       status: none
     slug: victorops
@@ -672,10 +672,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.1
+    agent_readiness: 19.7
     band: thin
     in_catalog: true
-    kin_score: 35.1
+    kin_score: 36.0
     mcp: &id037
       status: none
     slug: statuspage
@@ -702,10 +702,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.2
+    agent_readiness: 18.8
     band: thin
     in_catalog: true
-    kin_score: 32.1
+    kin_score: 29.9
     mcp: &id039
       status: none
     slug: travis-ci
@@ -730,10 +730,10 @@ noindex: false
 permalink: /applications/api-management-gateway/postman/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.7
+  agent_readiness: 33.8
   band: exemplar
   in_catalog: true
-  kin_score: 69.6
+  kin_score: 67.6
   mcp: *id001
   name: Apigee
   slug: apigee
@@ -741,7 +741,7 @@ providers:
   tags: *id002
   url: /providers/apigee/
 - agent_band: agent-ready
-  agent_readiness: 49.9
+  agent_readiness: 44.4
   band: strong
   in_catalog: true
   kin_score: 63.2
@@ -751,11 +751,11 @@ providers:
   status: profiled
   tags: *id004
   url: /providers/apimatic/
-- agent_band: agent-aware
-  agent_readiness: 23.1
+- agent_band: agent-ready
+  agent_readiness: 42.0
   band: exemplar
   in_catalog: true
-  kin_score: 76.0
+  kin_score: 77.4
   mcp: *id005
   name: AWS API Gateway
   slug: aws-api-gateway
@@ -763,10 +763,10 @@ providers:
   tags: *id006
   url: /providers/aws-api-gateway/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 31.6
   band: exemplar
   in_catalog: true
-  kin_score: 80.3
+  kin_score: 78.5
   mcp: *id007
   name: Azure API Management
   slug: microsoft-azure-api-management
@@ -774,10 +774,10 @@ providers:
   tags: *id008
   url: /providers/microsoft-azure-api-management/
 - agent_band: agent-ready
-  agent_readiness: 31.9
+  agent_readiness: 37.7
   band: exemplar
   in_catalog: true
-  kin_score: 76.8
+  kin_score: 81.9
   mcp: *id009
   name: Azure DevOps
   slug: microsoft-azure-devops
@@ -785,10 +785,10 @@ providers:
   tags: *id010
   url: /providers/microsoft-azure-devops/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 35.3
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 71.9
   mcp: *id011
   name: Bitbucket
   slug: bitbucket
@@ -796,10 +796,10 @@ providers:
   tags: *id012
   url: /providers/bitbucket/
 - agent_band: agent-ready
-  agent_readiness: 56.1
+  agent_readiness: 56.3
   band: exemplar
   in_catalog: true
-  kin_score: 69.1
+  kin_score: 73.5
   mcp: *id013
   name: CircleCI
   slug: circleci
@@ -807,10 +807,10 @@ providers:
   tags: *id014
   url: /providers/circleci/
 - agent_band: agent-ready
-  agent_readiness: 49.6
+  agent_readiness: 48.6
   band: exemplar
   in_catalog: true
-  kin_score: 79.2
+  kin_score: 80.0
   mcp: *id015
   name: Datadog
   slug: datadog
@@ -818,10 +818,10 @@ providers:
   tags: *id016
   url: /providers/datadog/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id017
   name: GitHub
   slug: github
@@ -829,10 +829,10 @@ providers:
   tags: *id018
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id019
   name: GitLab
   slug: gitlab
@@ -840,10 +840,10 @@ providers:
   tags: *id020
   url: /providers/gitlab/
 - agent_band: agent-aware
-  agent_readiness: 23.0
+  agent_readiness: 22.5
   band: thin
   in_catalog: true
-  kin_score: 38.1
+  kin_score: 39.0
   mcp: *id021
   name: Jenkins
   slug: jenkins
@@ -851,10 +851,10 @@ providers:
   tags: *id022
   url: /providers/jenkins/
 - agent_band: agent-ready
-  agent_readiness: 65.7
+  agent_readiness: 64.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.6
+  kin_score: 82.4
   mcp: *id023
   name: Jira
   slug: jira
@@ -862,10 +862,10 @@ providers:
   tags: *id024
   url: /providers/jira/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 65.1
   mcp: *id025
   name: Microsoft Teams
   slug: microsoft-teams
@@ -873,10 +873,10 @@ providers:
   tags: *id026
   url: /providers/microsoft-teams/
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 44.8
   band: exemplar
   in_catalog: true
-  kin_score: 76.5
+  kin_score: 74.4
   mcp: *id027
   name: New Relic
   slug: new-relic
@@ -884,10 +884,10 @@ providers:
   tags: *id028
   url: /providers/new-relic/
 - agent_band: agent-ready
-  agent_readiness: 48.9
+  agent_readiness: 54.4
   band: developing
   in_catalog: true
-  kin_score: 51.2
+  kin_score: 52.1
   mcp: *id029
   name: PagerDuty
   slug: pagerduty
@@ -895,10 +895,10 @@ providers:
   tags: *id030
   url: /providers/pagerduty/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id031
   name: Slack
   slug: slack
@@ -906,10 +906,10 @@ providers:
   tags: *id032
   url: /providers/slack/
 - agent_band: agent-ready
-  agent_readiness: 53.5
+  agent_readiness: 54.4
   band: strong
   in_catalog: true
-  kin_score: 61.4
+  kin_score: 63.1
   mcp: *id033
   name: Splunk
   slug: splunk
@@ -920,7 +920,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 17.8
+  kin_score: 18.1
   mcp: *id035
   name: Splunk On-Call (VictorOps)
   slug: victorops
@@ -928,10 +928,10 @@ providers:
   tags: *id036
   url: /providers/victorops/
 - agent_band: agent-aware
-  agent_readiness: 20.1
+  agent_readiness: 19.7
   band: thin
   in_catalog: true
-  kin_score: 35.1
+  kin_score: 36.0
   mcp: *id037
   name: Statuspage
   slug: statuspage
@@ -939,10 +939,10 @@ providers:
   tags: *id038
   url: /providers/statuspage/
 - agent_band: agent-aware
-  agent_readiness: 19.2
+  agent_readiness: 18.8
   band: thin
   in_catalog: true
-  kin_score: 32.1
+  kin_score: 29.9
   mcp: *id039
   name: Travis CI
   slug: travis-ci

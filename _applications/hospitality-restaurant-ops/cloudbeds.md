@@ -39,10 +39,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_readiness: 30.4
     band: developing
     in_catalog: true
-    kin_score: 44.8
+    kin_score: 44.1
     mcp: &id001
       status: none
     slug: airbnb
@@ -69,10 +69,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
-    band: strong
+    agent_readiness: 44.9
+    band: exemplar
     in_catalog: true
-    kin_score: 64.8
+    kin_score: 66.6
     mcp: &id003
       status: none
     slug: booking-com
@@ -99,10 +99,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.8
+    agent_readiness: 30.2
     band: thin
     in_catalog: true
-    kin_score: 34.8
+    kin_score: 33.8
     mcp: &id005
       source: https://github.com/ExpediaGroup/expedia-travel-recommendations-mcp
       status: verified
@@ -128,10 +128,10 @@ noindex: false
 permalink: /applications/hospitality-restaurant-ops/cloudbeds/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.1
+  agent_readiness: 30.4
   band: developing
   in_catalog: true
-  kin_score: 44.8
+  kin_score: 44.1
   mcp: *id001
   name: Airbnb
   slug: airbnb
@@ -139,10 +139,10 @@ providers:
   tags: *id002
   url: /providers/airbnb/
 - agent_band: agent-ready
-  agent_readiness: 45.8
-  band: strong
+  agent_readiness: 44.9
+  band: exemplar
   in_catalog: true
-  kin_score: 64.8
+  kin_score: 66.6
   mcp: *id003
   name: Booking.com
   slug: booking-com
@@ -150,10 +150,10 @@ providers:
   tags: *id004
   url: /providers/booking-com/
 - agent_band: agent-ready
-  agent_readiness: 30.8
+  agent_readiness: 30.2
   band: thin
   in_catalog: true
-  kin_score: 34.8
+  kin_score: 33.8
   mcp: *id005
   name: Expedia
   slug: expedia-group

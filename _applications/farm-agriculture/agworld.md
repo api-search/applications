@@ -128,7 +128,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 7.2
+    kin_score: 8.9
     mcp: &id001
       status: unknown
     slug: agvance
@@ -155,7 +155,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.0
+    kin_score: 6.1
     mcp: &id003
       status: none
     slug: agvantage
@@ -185,7 +185,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 9.2
+    kin_score: 9.4
     mcp: &id005
       status: unknown
     slug: agvend
@@ -238,10 +238,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
+    agent_readiness: 23.3
     band: thin
     in_catalog: true
-    kin_score: 37.4
+    kin_score: 35.7
     mcp: &id009
       status: unknown
     slug: cnh
@@ -268,10 +268,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 7.9
-    band: minimal
+    agent_readiness: 7.8
+    band: emerging
     in_catalog: true
-    kin_score: 7.9
+    kin_score: 12.7
     mcp: &id011
       status: unknown
     slug: davis-instruments
@@ -298,10 +298,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.7
     band: thin
     in_catalog: true
-    kin_score: 26.4
+    kin_score: 32.7
     mcp: &id013
       status: none
     slug: farmready
@@ -328,10 +328,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.2
-    band: thin
+    agent_readiness: 20.8
+    band: developing
     in_catalog: true
-    kin_score: 29.7
+    kin_score: 40.7
     mcp: &id015
       status: unknown
     slug: figured
@@ -361,7 +361,7 @@ integrations:
     agent_readiness: 0.6
     band: minimal
     in_catalog: true
-    kin_score: 10.8
+    kin_score: 9.9
     mcp: &id017
       status: none
     slug: john-deere
@@ -391,7 +391,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 7.4
+    kin_score: 9.1
     mcp: &id019
       status: unknown
     slug: kingman-ag
@@ -418,10 +418,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 45.2
     band: developing
     in_catalog: true
-    kin_score: 49.3
+    kin_score: 50.7
     mcp: &id021
       source: https://github.com/mapbox/mcp-server
       status: verified
@@ -448,11 +448,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_band: agent-aware
+    agent_readiness: 28.3
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 76.0
     mcp: &id023
       source: https://github.com/microsoft/powerbi-modeling-mcp
       status: verified
@@ -479,11 +479,11 @@ integrations:
     via_parent: Maps & Tiles
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.3
     band: developing
     in_catalog: true
-    kin_score: 44.4
+    kin_score: 45.5
     mcp: &id025
       status: none
     slug: openstreetmap
@@ -510,10 +510,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.4
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 7.7
+    kin_score: 12.0
     mcp: &id027
       status: unknown
     slug: pinion
@@ -566,10 +566,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.4
+    kin_score: 19.2
     mcp: &id031
       status: unknown
     slug: satamap
@@ -599,7 +599,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 7.7
+    kin_score: 7.1
     mcp: &id033
       status: unknown
     slug: semios
@@ -627,7 +627,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 7.2
+  kin_score: 8.9
   mcp: *id001
   name: Agvance (SSI)
   slug: agvance
@@ -638,7 +638,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.0
+  kin_score: 6.1
   mcp: *id003
   name: AgVantage
   slug: agvantage
@@ -649,7 +649,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 9.2
+  kin_score: 9.4
   mcp: *id005
   name: AgVend
   slug: agvend
@@ -668,10 +668,10 @@ providers:
   tags: *id008
   url: null
 - agent_band: agent-aware
-  agent_readiness: 23.7
+  agent_readiness: 23.3
   band: thin
   in_catalog: true
-  kin_score: 37.4
+  kin_score: 35.7
   mcp: *id009
   name: CNH FieldOps
   slug: cnh
@@ -679,10 +679,10 @@ providers:
   tags: *id010
   url: /providers/cnh/
 - agent_band: agent-aware
-  agent_readiness: 7.9
-  band: minimal
+  agent_readiness: 7.8
+  band: emerging
   in_catalog: true
-  kin_score: 7.9
+  kin_score: 12.7
   mcp: *id011
   name: Davis Instruments
   slug: davis-instruments
@@ -690,10 +690,10 @@ providers:
   tags: *id012
   url: /providers/davis-instruments/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.7
   band: thin
   in_catalog: true
-  kin_score: 26.4
+  kin_score: 32.7
   mcp: *id013
   name: FarmReady (Bolt, Cart, Shed)
   slug: farmready
@@ -701,10 +701,10 @@ providers:
   tags: *id014
   url: /providers/farmready/
 - agent_band: agent-aware
-  agent_readiness: 21.2
-  band: thin
+  agent_readiness: 20.8
+  band: developing
   in_catalog: true
-  kin_score: 29.7
+  kin_score: 40.7
   mcp: *id015
   name: Figured
   slug: figured
@@ -715,7 +715,7 @@ providers:
   agent_readiness: 0.6
   band: minimal
   in_catalog: true
-  kin_score: 10.8
+  kin_score: 9.9
   mcp: *id017
   name: John Deere Operations Center
   slug: john-deere
@@ -726,7 +726,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 7.4
+  kin_score: 9.1
   mcp: *id019
   name: Kingman Ag
   slug: kingman-ag
@@ -734,32 +734,32 @@ providers:
   tags: *id020
   url: /providers/kingman-ag/
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 45.2
   band: developing
   in_catalog: true
-  kin_score: 49.3
+  kin_score: 50.7
   mcp: *id021
   name: Mapbox
   slug: mapbox
   status: profiled
   tags: *id022
   url: /providers/mapbox/
-- agent_band: agent-ready
-  agent_readiness: 30.6
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 76.0
   mcp: *id023
   name: Microsoft Power BI
   slug: power-bi
   status: profiled
   tags: *id024
   url: /providers/power-bi/
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: developing
   in_catalog: true
-  kin_score: 44.4
+  kin_score: 45.5
   mcp: *id025
   name: OpenStreetMap
   slug: openstreetmap
@@ -767,10 +767,10 @@ providers:
   tags: *id026
   url: /providers/openstreetmap/
 - agent_band: agent-aware
-  agent_readiness: 14.4
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 7.7
+  kin_score: 12.0
   mcp: *id027
   name: Pinion
   slug: pinion
@@ -789,10 +789,10 @@ providers:
   tags: *id030
   url: null
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.4
+  kin_score: 19.2
   mcp: *id031
   name: Satamap
   slug: satamap
@@ -803,7 +803,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 7.7
+  kin_score: 7.1
   mcp: *id033
   name: Semios
   slug: semios

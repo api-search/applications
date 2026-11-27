@@ -53,22 +53,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id001
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id002
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Cloud Messaging
   provider: firebase
@@ -85,10 +85,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.0
+    agent_readiness: 21.6
     band: thin
     in_catalog: true
-    kin_score: 29.2
+    kin_score: 28.1
     mcp: &id003
       status: none
     slug: pushover
@@ -115,10 +115,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id005
       source: https://docs.stripe.com/mcp
       status: verified
@@ -146,10 +146,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id007
       status: none
     slug: telegram
@@ -173,22 +173,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/task-todo/donetick/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id001
   name: Firebase Cloud Messaging
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id002
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-aware
-  agent_readiness: 22.0
+  agent_readiness: 21.6
   band: thin
   in_catalog: true
-  kin_score: 29.2
+  kin_score: 28.1
   mcp: *id003
   name: Pushover
   slug: pushover
@@ -196,10 +196,10 @@ providers:
   tags: *id004
   url: /providers/pushover/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id005
   name: Stripe
   slug: stripe
@@ -207,10 +207,10 @@ providers:
   tags: *id006
   url: /providers/stripe/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id007
   name: Telegram
   slug: telegram

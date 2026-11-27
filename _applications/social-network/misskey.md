@@ -100,11 +100,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -132,10 +132,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.1
+    agent_readiness: 24.2
     band: thin
     in_catalog: true
-    kin_score: 28.9
+    kin_score: 28.8
     mcp: &id003
       source: https://github.com/cloudflare/mcp
       status: verified
@@ -163,10 +163,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.4
+    agent_readiness: 36.1
     band: strong
     in_catalog: true
-    kin_score: 60.8
+    kin_score: 61.4
     mcp: &id005
       source: https://github.com/DeepL/deepl-mcp-server
       status: verified
@@ -194,10 +194,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id007
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -224,11 +224,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: strong
     in_catalog: true
-    kin_score: 48.1
+    kin_score: 65.1
     mcp: &id009
       status: none
     slug: google-recaptcha
@@ -255,10 +255,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 31.5
+    kin_score: 31.1
     mcp: &id011
       status: none
     slug: hcaptcha
@@ -285,10 +285,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.8
-    band: emerging
+    agent_readiness: 12.7
+    band: thin
     in_catalog: true
-    kin_score: 23.0
+    kin_score: 30.1
     mcp: &id013
       status: none
     slug: mcaptcha
@@ -318,7 +318,7 @@ integrations:
     agent_readiness: 24.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 52.5
     mcp: &id015
       source: https://github.com/meilisearch/meilisearch-mcp
       status: verified
@@ -349,7 +349,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 12.2
+    kin_score: 11.6
     mcp: &id017
       status: none
     slug: postgresql
@@ -375,11 +375,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 49.8
+    agent_band: agent-ready
+    agent_readiness: 41.5
     band: developing
     in_catalog: true
-    kin_score: 47.4
+    kin_score: 46.5
     mcp: &id019
       source: https://github.com/redis/mcp-redis
       status: verified
@@ -410,7 +410,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id021
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -435,11 +435,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/social-network/misskey/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -447,10 +447,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-aware
-  agent_readiness: 23.1
+  agent_readiness: 24.2
   band: thin
   in_catalog: true
-  kin_score: 28.9
+  kin_score: 28.8
   mcp: *id003
   name: Cloudflare Turnstile
   slug: cloudflare-turnstile
@@ -458,10 +458,10 @@ providers:
   tags: *id004
   url: /providers/cloudflare-turnstile/
 - agent_band: agent-ready
-  agent_readiness: 36.4
+  agent_readiness: 36.1
   band: strong
   in_catalog: true
-  kin_score: 60.8
+  kin_score: 61.4
   mcp: *id005
   name: DeepL
   slug: deepl
@@ -469,21 +469,21 @@ providers:
   tags: *id006
   url: /providers/deepl/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id007
   name: Google Analytics
   slug: google-analytics
   status: profiled
   tags: *id008
   url: /providers/google-analytics/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: strong
   in_catalog: true
-  kin_score: 48.1
+  kin_score: 65.1
   mcp: *id009
   name: Google reCAPTCHA
   slug: google-recaptcha
@@ -491,10 +491,10 @@ providers:
   tags: *id010
   url: /providers/google-recaptcha/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 31.5
+  kin_score: 31.1
   mcp: *id011
   name: hCaptcha
   slug: hcaptcha
@@ -502,10 +502,10 @@ providers:
   tags: *id012
   url: /providers/hcaptcha/
 - agent_band: agent-aware
-  agent_readiness: 15.8
-  band: emerging
+  agent_readiness: 12.7
+  band: thin
   in_catalog: true
-  kin_score: 23.0
+  kin_score: 30.1
   mcp: *id013
   name: mCaptcha
   slug: mcaptcha
@@ -516,7 +516,7 @@ providers:
   agent_readiness: 24.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 52.5
   mcp: *id015
   name: Meilisearch
   slug: meilisearch
@@ -527,18 +527,18 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 12.2
+  kin_score: 11.6
   mcp: *id017
   name: PostgreSQL
   slug: postgresql
   status: profiled
   tags: *id018
   url: /providers/postgresql/
-- agent_band: agent-native
-  agent_readiness: 49.8
+- agent_band: agent-ready
+  agent_readiness: 41.5
   band: developing
   in_catalog: true
-  kin_score: 47.4
+  kin_score: 46.5
   mcp: *id019
   name: Redis
   slug: redis
@@ -549,7 +549,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id021
   name: Sentry
   slug: sentry-system

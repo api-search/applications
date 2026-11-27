@@ -86,10 +86,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id001
       status: none
     slug: apple
@@ -116,10 +116,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.0
+    agent_readiness: 55.8
     band: exemplar
     in_catalog: true
-    kin_score: 73.7
+    kin_score: 72.6
     mcp: &id003
       source: https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server
       status: verified
@@ -147,10 +147,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 17.3
+    band: developing
     in_catalog: true
-    kin_score: 28.8
+    kin_score: 39.5
     mcp: &id005
       status: none
     slug: fastmail
@@ -178,9 +178,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 20.5
+    kin_score: 27.9
     mcp: &id007
       status: none
     slug: fruux
@@ -206,11 +206,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id009
       source: https://github.com/google/mcp
       status: verified
@@ -237,11 +237,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.2
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: developing
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 52.2
     mcp: &id011
       status: none
     slug: google-meet
@@ -267,11 +267,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.1
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 47.0
+    kin_score: 59.8
     mcp: &id013
       status: none
     slug: google-tasks
@@ -298,10 +298,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.5
-    band: thin
+    agent_readiness: 35.2
+    band: developing
     in_catalog: true
-    kin_score: 38.1
+    kin_score: 39.6
     mcp: &id015
       source: https://linear.app/docs/mcp
       status: verified
@@ -329,10 +329,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id017
       status: none
     slug: microsoft-teams
@@ -360,9 +360,9 @@ integrations:
   facts:
     agent_band: agent-aware
     agent_readiness: 25.9
-    band: developing
+    band: strong
     in_catalog: true
-    kin_score: 52.8
+    kin_score: 58.2
     mcp: &id019
       status: none
     slug: microsoft-to-do
@@ -389,10 +389,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id021
       status: none
     slug: nextcloud
@@ -419,10 +419,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.9
-    band: exemplar
+    agent_readiness: 56.8
+    band: strong
     in_catalog: true
-    kin_score: 67.2
+    kin_score: 65.3
     mcp: &id023
       source: https://developers.notion.com/docs/mcp
       status: verified
@@ -450,10 +450,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.2
+    agent_readiness: 29.6
     band: thin
     in_catalog: true
-    kin_score: 35.9
+    kin_score: 34.9
     mcp: &id025
       status: none
     slug: obsidian
@@ -480,10 +480,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.5
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 70.6
+    kin_score: 70.8
     mcp: &id027
       source: https://github.com/microsoft/mcp
       status: verified
@@ -511,10 +511,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.6
-    band: strong
+    agent_readiness: 22.2
+    band: developing
     in_catalog: true
-    kin_score: 55.7
+    kin_score: 53.8
     mcp: &id029
       source: https://developer.todoist.com/api/v1/#tag/MCP
       status: verified
@@ -542,10 +542,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 61.1
+    agent_readiness: 61.8
     band: strong
     in_catalog: true
-    kin_score: 64.2
+    kin_score: 66.1
     mcp: &id031
       source: https://github.com/WebexSamples/webex-messaging-mcp-server
       status: verified
@@ -573,10 +573,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.2
+    agent_readiness: 15.8
     band: developing
     in_catalog: true
-    kin_score: 41.4
+    kin_score: 42.6
     mcp: &id033
       status: none
     slug: yahoo
@@ -603,10 +603,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id035
       source: https://zapier.com/mcp
       status: verified
@@ -634,10 +634,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.0
+    agent_readiness: 32.4
     band: strong
     in_catalog: true
-    kin_score: 63.5
+    kin_score: 64.4
     mcp: &id037
       source: https://www.zoho.com/mcp/
       status: verified
@@ -665,10 +665,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 55.2
+    agent_readiness: 56.8
     band: strong
     in_catalog: true
-    kin_score: 56.2
+    kin_score: 57.1
     mcp: &id039
       source: https://developers.zoom.us/docs/mcp/
       status: verified
@@ -694,10 +694,10 @@ noindex: false
 permalink: /applications/calendar-contacts/morgen/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id001
   name: Apple Calendar / iCloud / Apple Reminders
   slug: apple
@@ -705,10 +705,10 @@ providers:
   tags: *id002
   url: /providers/apple/
 - agent_band: agent-ready
-  agent_readiness: 57.0
+  agent_readiness: 55.8
   band: exemplar
   in_catalog: true
-  kin_score: 73.7
+  kin_score: 72.6
   mcp: *id003
   name: ClickUp
   slug: clickup
@@ -716,10 +716,10 @@ providers:
   tags: *id004
   url: /providers/clickup/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 17.3
+  band: developing
   in_catalog: true
-  kin_score: 28.8
+  kin_score: 39.5
   mcp: *id005
   name: Fastmail
   slug: fastmail
@@ -728,42 +728,42 @@ providers:
   url: /providers/fastmail/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 20.5
+  kin_score: 27.9
   mcp: *id007
   name: fruux (CalDAV)
   slug: fruux
   status: profiled
   tags: *id008
   url: /providers/fruux/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id009
   name: Google Calendar
   slug: google-calendar
   status: profiled
   tags: *id010
   url: /providers/google-calendar/
-- agent_band: agent-aware
-  agent_readiness: 17.2
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: developing
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 52.2
   mcp: *id011
   name: Google Meet
   slug: google-meet
   status: profiled
   tags: *id012
   url: /providers/google-meet/
-- agent_band: agent-aware
-  agent_readiness: 27.1
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 47.0
+  kin_score: 59.8
   mcp: *id013
   name: Google Tasks
   slug: google-tasks
@@ -771,10 +771,10 @@ providers:
   tags: *id014
   url: /providers/google-tasks/
 - agent_band: agent-ready
-  agent_readiness: 35.5
-  band: thin
+  agent_readiness: 35.2
+  band: developing
   in_catalog: true
-  kin_score: 38.1
+  kin_score: 39.6
   mcp: *id015
   name: Linear
   slug: linear-app
@@ -782,10 +782,10 @@ providers:
   tags: *id016
   url: /providers/linear-app/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 65.1
   mcp: *id017
   name: Microsoft Teams
   slug: microsoft-teams
@@ -794,9 +794,9 @@ providers:
   url: /providers/microsoft-teams/
 - agent_band: agent-aware
   agent_readiness: 25.9
-  band: developing
+  band: strong
   in_catalog: true
-  kin_score: 52.8
+  kin_score: 58.2
   mcp: *id019
   name: Microsoft To Do
   slug: microsoft-to-do
@@ -804,10 +804,10 @@ providers:
   tags: *id020
   url: /providers/microsoft-to-do/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id021
   name: Nextcloud (CalDAV)
   slug: nextcloud
@@ -815,10 +815,10 @@ providers:
   tags: *id022
   url: /providers/nextcloud/
 - agent_band: agent-ready
-  agent_readiness: 54.9
-  band: exemplar
+  agent_readiness: 56.8
+  band: strong
   in_catalog: true
-  kin_score: 67.2
+  kin_score: 65.3
   mcp: *id023
   name: Notion
   slug: notion
@@ -826,10 +826,10 @@ providers:
   tags: *id024
   url: /providers/notion/
 - agent_band: agent-ready
-  agent_readiness: 30.2
+  agent_readiness: 29.6
   band: thin
   in_catalog: true
-  kin_score: 35.9
+  kin_score: 34.9
   mcp: *id025
   name: Obsidian
   slug: obsidian
@@ -837,10 +837,10 @@ providers:
   tags: *id026
   url: /providers/obsidian/
 - agent_band: agent-ready
-  agent_readiness: 49.5
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 70.6
+  kin_score: 70.8
   mcp: *id027
   name: Outlook Calendar / Outlook Email
   slug: microsoft-outlook
@@ -848,10 +848,10 @@ providers:
   tags: *id028
   url: /providers/microsoft-outlook/
 - agent_band: agent-aware
-  agent_readiness: 22.6
-  band: strong
+  agent_readiness: 22.2
+  band: developing
   in_catalog: true
-  kin_score: 55.7
+  kin_score: 53.8
   mcp: *id029
   name: Todoist
   slug: todoist
@@ -859,10 +859,10 @@ providers:
   tags: *id030
   url: /providers/todoist/
 - agent_band: agent-ready
-  agent_readiness: 61.1
+  agent_readiness: 61.8
   band: strong
   in_catalog: true
-  kin_score: 64.2
+  kin_score: 66.1
   mcp: *id031
   name: Webex
   slug: webex
@@ -870,10 +870,10 @@ providers:
   tags: *id032
   url: /providers/webex/
 - agent_band: agent-aware
-  agent_readiness: 16.2
+  agent_readiness: 15.8
   band: developing
   in_catalog: true
-  kin_score: 41.4
+  kin_score: 42.6
   mcp: *id033
   name: Yahoo (CalDAV)
   slug: yahoo
@@ -881,10 +881,10 @@ providers:
   tags: *id034
   url: /providers/yahoo/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id035
   name: Zapier
   slug: zapier
@@ -892,10 +892,10 @@ providers:
   tags: *id036
   url: /providers/zapier/
 - agent_band: agent-ready
-  agent_readiness: 33.0
+  agent_readiness: 32.4
   band: strong
   in_catalog: true
-  kin_score: 63.5
+  kin_score: 64.4
   mcp: *id037
   name: Zoho (CalDAV)
   slug: zoho
@@ -903,10 +903,10 @@ providers:
   tags: *id038
   url: /providers/zoho/
 - agent_band: agent-ready
-  agent_readiness: 55.2
+  agent_readiness: 56.8
   band: strong
   in_catalog: true
-  kin_score: 56.2
+  kin_score: 57.1
   mcp: *id039
   name: Zoom
   slug: zoom

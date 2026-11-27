@@ -46,11 +46,11 @@ integrations:
     via_parent: Email
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id001
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -77,11 +77,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.9
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 33.9
+    band: exemplar
     in_catalog: true
-    kin_score: 51.6
+    kin_score: 68.0
     mcp: &id003
       status: none
     slug: google-translate
@@ -108,10 +108,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.4
+    agent_readiness: 36.0
     band: strong
     in_catalog: true
-    kin_score: 62.7
+    kin_score: 64.9
     mcp: &id005
       status: none
     slug: microsoft-exchange
@@ -135,22 +135,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/forms-surveys/limesurvey/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id001
   name: Gmail SMTP (OAuth)
   slug: google-gmail
   status: profiled
   tags: *id002
   url: /providers/google-gmail/
-- agent_band: agent-aware
-  agent_readiness: 17.9
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 33.9
+  band: exemplar
   in_catalog: true
-  kin_score: 51.6
+  kin_score: 68.0
   mcp: *id003
   name: google-translate
   slug: google-translate
@@ -158,10 +158,10 @@ providers:
   tags: *id004
   url: /providers/google-translate/
 - agent_band: agent-ready
-  agent_readiness: 31.4
+  agent_readiness: 36.0
   band: strong
   in_catalog: true
-  kin_score: 62.7
+  kin_score: 64.9
   mcp: *id005
   name: Microsoft 365 / Exchange Online SMTP
   slug: microsoft-exchange

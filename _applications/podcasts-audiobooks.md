@@ -723,13 +723,13 @@ stack:
       via_parent: Audio & Music
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - AntennaPod
       - Audiobookshelf
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple (iTunes Search API)
@@ -746,13 +746,13 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 24.9
       apps:
       - AntennaPod
       - Podverse
       band: thin
       in_catalog: true
-      kin_score: 27.8
+      kin_score: 28.0
       mcp:
         status: none
       name: PodcastIndex
@@ -774,7 +774,7 @@ stack:
       - AntennaPod
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.9
       mcp:
         status: unknown
       name: fyyd
@@ -798,12 +798,12 @@ stack:
       via_parent: Audio & Music
     providers:
     - agent_band: agent-aware
-      agent_readiness: 15.8
+      agent_readiness: 12.7
       apps:
       - Audiobookshelf
       band: emerging
       in_catalog: true
-      kin_score: 15.9
+      kin_score: 15.8
       mcp:
         status: none
       name: Audnexus
@@ -824,7 +824,7 @@ stack:
       - Audiobookshelf
       band: minimal
       in_catalog: true
-      kin_score: 10.3
+      kin_score: 10.2
       mcp:
         status: unknown
       name: Audible
@@ -845,7 +845,7 @@ stack:
       - Audiobookshelf
       band: minimal
       in_catalog: true
-      kin_score: 7.4
+      kin_score: 9.6
       mcp:
         status: none
       name: AudiobookCovers
@@ -868,13 +868,13 @@ stack:
       url: /capabilities/news-publishing/
       via_parent: News & Publishing
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 25.4
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Audiobookshelf
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 34.1
+      kin_score: 54.5
       mcp:
         status: none
       name: Google Books
@@ -890,12 +890,12 @@ stack:
       tier: observed
       url: /providers/google-books/
     - agent_band: agent-aware
-      agent_readiness: 19.8
+      agent_readiness: 19.3
       apps:
       - Audiobookshelf
       band: emerging
       in_catalog: true
-      kin_score: 23.9
+      kin_score: 22.4
       mcp:
         status: unknown
       name: Open Library
@@ -916,7 +916,7 @@ stack:
       - Audiobookshelf
       band: minimal
       in_catalog: true
-      kin_score: 5.1
+      kin_score: 6.8
       mcp:
         status: none
       name: FantLab
@@ -940,12 +940,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - AntennaPod
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp:
         status: none
       name: Nextcloud (gpodder sync app)
@@ -961,12 +961,12 @@ stack:
       tier: observed
       url: /providers/nextcloud/
     - agent_band: agent-aware
-      agent_readiness: 12.7
+      agent_readiness: 13.0
       apps:
       - AntennaPod
       band: emerging
       in_catalog: true
-      kin_score: 16.5
+      kin_score: 18.8
       mcp:
         status: none
       name: gpodder.net
@@ -989,13 +989,13 @@ stack:
       url: /capabilities/audio-music/
       via_parent: Audio & Music
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 31.3
+    - agent_band: agent-aware
+      agent_readiness: 27.2
       apps:
       - Audiobookshelf
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 38.2
       mcp:
         status: none
       name: MusicBrainz
@@ -1026,7 +1026,7 @@ stack:
       - Pocket Casts
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1043,12 +1043,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Audible
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -1064,28 +1064,28 @@ stack:
       - Observability
       tier: observed
       url: /providers/bugsnag/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Audible
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.audible.application/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-4280.30
@@ -1095,12 +1095,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Audible
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -1117,12 +1117,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 37.4
+      agent_readiness: 41.3
       apps:
       - Podverse
       band: exemplar
       in_catalog: true
-      kin_score: 72.2
+      kin_score: 70.7
       mcp:
         source: https://github.com/matomo-org/plugin-McpServer
         status: verified
@@ -1138,22 +1138,22 @@ stack:
       - Web Analytics
       tier: observed
       url: /providers/matomo/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Pocket Casts
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/Automattic/pocket-casts-android/blob/main/gradle/libs.versions.toml
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-3740.20
@@ -1163,13 +1163,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - AntennaPod
       - Pocket Casts
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1195,12 +1195,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Podverse
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -1217,12 +1217,12 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-ready
-      agent_readiness: 36.6
+      agent_readiness: 35.9
       apps:
       - Podverse
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 33.9
       mcp:
         status: none
       name: BitPay
@@ -1246,12 +1246,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 23.7
       apps:
       - Castopod
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 31.5
       mcp:
         status: none
       name: MaxMind GeoIP2
@@ -1274,13 +1274,13 @@ stack:
       url: /capabilities/in-app-purchases-app-store-billing/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Pocket Casts
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: Google Play Billing
@@ -1303,22 +1303,22 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Podverse
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/podverse/podverse-api/blob/develop/src/config/index.ts
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-830.20.30
@@ -1333,7 +1333,7 @@ stack:
       - Podverse
       band: thin
       in_catalog: true
-      kin_score: 29.2
+      kin_score: 28.2
       mcp:
         source: https://github.com/manticoresoftware/mcp-manticore
         status: verified
@@ -1357,13 +1357,13 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Pocket Casts
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Sign in with Google
@@ -1387,12 +1387,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Podverse
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -1417,12 +1417,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Audible
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -1449,7 +1449,7 @@ summary:
     unchecked: 0
     verified: 9
   mcp_verified: 9
-  mean_kin_score: 40.0
+  mean_kin_score: 43.2
   observed: 26
   queued: 0
   reference_apps: 6

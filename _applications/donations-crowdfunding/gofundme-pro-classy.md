@@ -192,11 +192,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 36.1
-    band: strong
+    agent_band: agent-native
+    agent_readiness: 44.5
+    band: exemplar
     in_catalog: true
-    kin_score: 63.6
+    kin_score: 75.1
     mcp: &id001
       source: https://github.com/awslabs/mcp/tree/main/src/redshift-mcp-server
       status: verified
@@ -224,10 +224,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.2
-    band: developing
+    agent_readiness: 31.6
+    band: strong
     in_catalog: true
-    kin_score: 39.3
+    kin_score: 55.3
     mcp: &id003
       status: none
     slug: blackbaud
@@ -254,10 +254,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.6
+    agent_readiness: 22.7
     band: thin
     in_catalog: true
-    kin_score: 30.6
+    kin_score: 30.0
     mcp: &id005
       status: none
     slug: bloomerang
@@ -284,10 +284,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
-    band: emerging
+    agent_readiness: 1.1
+    band: thin
     in_catalog: true
-    kin_score: 19.5
+    kin_score: 27.8
     mcp: &id007
       status: unknown
     slug: bonfire
@@ -340,10 +340,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.1
+    kin_score: 10.6
     mcp: &id011
       status: unknown
     slug: bytespree
@@ -370,10 +370,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.3
-    band: minimal
+    agent_readiness: 19.2
+    band: emerging
     in_catalog: true
-    kin_score: 9.4
+    kin_score: 14.5
     mcp: &id013
       status: unknown
     slug: charity-miles
@@ -400,10 +400,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
+    agent_readiness: 14.5
     band: emerging
     in_catalog: true
-    kin_score: 18.1
+    kin_score: 21.8
     mcp: &id015
       source: https://docs.civicrm.org/
       status: verified
@@ -431,10 +431,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.1
+    agent_readiness: 31.4
     band: exemplar
     in_catalog: true
-    kin_score: 70.9
+    kin_score: 67.7
     mcp: &id017
       status: none
     slug: constant-contact
@@ -461,10 +461,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.0
+    agent_readiness: 14.8
     band: emerging
     in_catalog: true
-    kin_score: 13.5
+    kin_score: 18.2
     mcp: &id019
       status: none
     slug: daxko
@@ -494,7 +494,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 14.5
+    kin_score: 20.0
     mcp: &id021
       source: https://www.donordock.com/mcp
       status: verified
@@ -523,9 +523,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 3.2
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.5
+    kin_score: 11.6
     mcp: &id023
       status: none
     slug: donordrive
@@ -555,7 +555,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 14.1
+    kin_score: 24.4
     mcp: &id025
       status: unknown
     slug: donorperfect
@@ -582,10 +582,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 15.8
+    kin_score: 25.6
     mcp: &id027
       status: unknown
     slug: double-the-donation
@@ -612,10 +612,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 14.5
+    band: developing
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 42.3
     mcp: &id029
       status: unknown
     slug: evergiving
@@ -668,10 +668,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id033
       status: none
     slug: facebook
@@ -697,11 +697,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 29.3
+    agent_band: agent-aware
+    agent_readiness: 26.0
     band: thin
     in_catalog: true
-    kin_score: 28.2
+    kin_score: 36.7
     mcp: &id035
       status: none
     slug: feathr
@@ -729,9 +729,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.1
+    kin_score: 11.0
     mcp: &id037
       status: unknown
     slug: givingiq
@@ -758,10 +758,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 19.5
+    kin_score: 25.0
     mcp: &id039
       status: none
     slug: goodunited
@@ -788,10 +788,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id041
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -819,10 +819,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id043
       status: none
     slug: google-tag-manager
@@ -852,7 +852,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.6
+    kin_score: 6.2
     mcp: &id045
       status: none
     slug: grassroots-unwired
@@ -879,10 +879,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id047
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -913,7 +913,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 13.4
+    kin_score: 14.1
     mcp: &id049
       status: none
     slug: humanitru
@@ -940,10 +940,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.9
+    agent_readiness: 38.6
     band: exemplar
     in_catalog: true
-    kin_score: 69.0
+    kin_score: 67.8
     mcp: &id051
       status: none
     slug: instagram
@@ -996,10 +996,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 54.9
+    agent_readiness: 58.7
     band: exemplar
     in_catalog: true
-    kin_score: 77.6
+    kin_score: 78.1
     mcp: &id055
       source: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
       status: verified
@@ -1028,9 +1028,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 20.5
+    kin_score: 28.6
     mcp: &id057
       status: unknown
     slug: little-green-light
@@ -1057,10 +1057,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id059
       status: none
     slug: mailchimp
@@ -1087,10 +1087,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.1
-    band: strong
+    agent_readiness: 37.6
+    band: exemplar
     in_catalog: true
-    kin_score: 63.9
+    kin_score: 67.7
     mcp: &id061
       source: https://github.com/microsoft/Dataverse-MCP
       status: verified
@@ -1144,10 +1144,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.6
+    agent_readiness: 25.5
     band: thin
     in_catalog: true
-    kin_score: 31.1
+    kin_score: 30.5
     mcp: &id065
       status: none
     slug: neonone
@@ -1201,9 +1201,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.6
+    kin_score: 15.8
     mcp: &id069
       status: unknown
     slug: nuclavis
@@ -1255,11 +1255,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id073
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -1287,10 +1287,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.5
+    agent_readiness: 15.1
     band: thin
     in_catalog: true
-    kin_score: 26.3
+    kin_score: 26.5
     mcp: &id075
       status: none
     slug: sage-intacct
@@ -1317,10 +1317,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.7
+    agent_readiness: 53.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.6
+    kin_score: 88.0
     mcp: &id077
       source: https://github.com/salesforcecli/mcp
       status: verified
@@ -1374,10 +1374,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 45.8
+    agent_readiness: 44.9
     band: exemplar
     in_catalog: true
-    kin_score: 81.1
+    kin_score: 82.3
     mcp: &id081
       source: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
       status: verified
@@ -1408,7 +1408,7 @@ integrations:
     agent_readiness: 3.2
     band: emerging
     in_catalog: true
-    kin_score: 12.0
+    kin_score: 17.6
     mcp: &id083
       status: unknown
     slug: syncsmart
@@ -1435,10 +1435,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.8
-    band: thin
+    agent_readiness: 19.4
+    band: developing
     in_catalog: true
-    kin_score: 37.0
+    kin_score: 48.4
     mcp: &id085
       status: none
     slug: tatango
@@ -1465,10 +1465,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.6
-    band: strong
+    agent_readiness: 34.9
+    band: exemplar
     in_catalog: true
-    kin_score: 66.3
+    kin_score: 66.5
     mcp: &id087
       source: https://docs.tealium.com/server-side/config-mcp/about-config-mcp/
       status: documented
@@ -1499,7 +1499,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.9
+    kin_score: 22.9
     mcp: &id089
       status: unknown
     slug: tessitura
@@ -1526,10 +1526,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 14.7
     band: emerging
     in_catalog: true
-    kin_score: 13.8
+    kin_score: 22.2
     mcp: &id091
       status: unknown
     slug: virtuous
@@ -1556,10 +1556,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id093
       source: https://zapier.com/mcp
       status: verified
@@ -1584,11 +1584,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/donations-crowdfunding/gofundme-pro-classy/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 36.1
-  band: strong
+- agent_band: agent-native
+  agent_readiness: 44.5
+  band: exemplar
   in_catalog: true
-  kin_score: 63.6
+  kin_score: 75.1
   mcp: *id001
   name: Amazon Redshift
   slug: amazon-redshift
@@ -1596,10 +1596,10 @@ providers:
   tags: *id002
   url: /providers/amazon-redshift/
 - agent_band: agent-ready
-  agent_readiness: 32.2
-  band: developing
+  agent_readiness: 31.6
+  band: strong
   in_catalog: true
-  kin_score: 39.3
+  kin_score: 55.3
   mcp: *id003
   name: Blackbaud CRM / Raiser's Edge NXT
   slug: blackbaud
@@ -1607,10 +1607,10 @@ providers:
   tags: *id004
   url: /providers/blackbaud/
 - agent_band: agent-aware
-  agent_readiness: 22.6
+  agent_readiness: 22.7
   band: thin
   in_catalog: true
-  kin_score: 30.6
+  kin_score: 30.0
   mcp: *id005
   name: Bloomerang
   slug: bloomerang
@@ -1618,10 +1618,10 @@ providers:
   tags: *id006
   url: /providers/bloomerang/
 - agent_band: human-only
-  agent_readiness: 0.0
-  band: emerging
+  agent_readiness: 1.1
+  band: thin
   in_catalog: true
-  kin_score: 19.5
+  kin_score: 27.8
   mcp: *id007
   name: Bonfire
   slug: bonfire
@@ -1640,10 +1640,10 @@ providers:
   tags: *id010
   url: null
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.1
+  kin_score: 10.6
   mcp: *id011
   name: Bytespree
   slug: bytespree
@@ -1651,10 +1651,10 @@ providers:
   tags: *id012
   url: /providers/bytespree/
 - agent_band: agent-aware
-  agent_readiness: 15.3
-  band: minimal
+  agent_readiness: 19.2
+  band: emerging
   in_catalog: true
-  kin_score: 9.4
+  kin_score: 14.5
   mcp: *id013
   name: Charity Miles
   slug: charity-miles
@@ -1662,10 +1662,10 @@ providers:
   tags: *id014
   url: /providers/charity-miles/
 - agent_band: agent-aware
-  agent_readiness: 17.6
+  agent_readiness: 14.5
   band: emerging
   in_catalog: true
-  kin_score: 18.1
+  kin_score: 21.8
   mcp: *id015
   name: CiviCRM
   slug: civicrm
@@ -1673,10 +1673,10 @@ providers:
   tags: *id016
   url: /providers/civicrm/
 - agent_band: agent-ready
-  agent_readiness: 32.1
+  agent_readiness: 31.4
   band: exemplar
   in_catalog: true
-  kin_score: 70.9
+  kin_score: 67.7
   mcp: *id017
   name: Constant Contact
   slug: constant-contact
@@ -1684,10 +1684,10 @@ providers:
   tags: *id018
   url: /providers/constant-contact/
 - agent_band: agent-aware
-  agent_readiness: 18.0
+  agent_readiness: 14.8
   band: emerging
   in_catalog: true
-  kin_score: 13.5
+  kin_score: 18.2
   mcp: *id019
   name: Daxko
   slug: daxko
@@ -1698,7 +1698,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 14.5
+  kin_score: 20.0
   mcp: *id021
   name: DonorDock
   slug: donordock
@@ -1707,9 +1707,9 @@ providers:
   url: /providers/donordock/
 - agent_band: human-only
   agent_readiness: 3.2
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.5
+  kin_score: 11.6
   mcp: *id023
   name: DonorDrive
   slug: donordrive
@@ -1720,7 +1720,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 14.1
+  kin_score: 24.4
   mcp: *id025
   name: DonorPerfect
   slug: donorperfect
@@ -1728,10 +1728,10 @@ providers:
   tags: *id026
   url: /providers/donorperfect/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 15.8
+  kin_score: 25.6
   mcp: *id027
   name: Double the Donation
   slug: double-the-donation
@@ -1739,10 +1739,10 @@ providers:
   tags: *id028
   url: /providers/double-the-donation/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 14.5
+  band: developing
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 42.3
   mcp: *id029
   name: EverGiving
   slug: evergiving
@@ -1761,21 +1761,21 @@ providers:
   tags: *id032
   url: null
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id033
   name: Facebook / Meta Pixel / Meta CAPI
   slug: facebook
   status: profiled
   tags: *id034
   url: /providers/facebook/
-- agent_band: agent-ready
-  agent_readiness: 29.3
+- agent_band: agent-aware
+  agent_readiness: 26.0
   band: thin
   in_catalog: true
-  kin_score: 28.2
+  kin_score: 36.7
   mcp: *id035
   name: Feathr
   slug: feathr
@@ -1784,9 +1784,9 @@ providers:
   url: /providers/feathr/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.1
+  kin_score: 11.0
   mcp: *id037
   name: GivingIQ (formerly DonateStock)
   slug: givingiq
@@ -1794,10 +1794,10 @@ providers:
   tags: *id038
   url: /providers/givingiq/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 19.5
+  kin_score: 25.0
   mcp: *id039
   name: GoodUnited
   slug: goodunited
@@ -1805,10 +1805,10 @@ providers:
   tags: *id040
   url: /providers/goodunited/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id041
   name: Google Analytics
   slug: google-analytics
@@ -1816,10 +1816,10 @@ providers:
   tags: *id042
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 35.8
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 65.8
   mcp: *id043
   name: Google Tag Manager
   slug: google-tag-manager
@@ -1830,7 +1830,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.6
+  kin_score: 6.2
   mcp: *id045
   name: Grassroots Unwired
   slug: grassroots-unwired
@@ -1838,10 +1838,10 @@ providers:
   tags: *id046
   url: /providers/grassroots-unwired/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id047
   name: HubSpot
   slug: hubspot
@@ -1852,7 +1852,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 13.4
+  kin_score: 14.1
   mcp: *id049
   name: Humanitru
   slug: humanitru
@@ -1860,10 +1860,10 @@ providers:
   tags: *id050
   url: /providers/humanitru/
 - agent_band: agent-ready
-  agent_readiness: 38.9
+  agent_readiness: 38.6
   band: exemplar
   in_catalog: true
-  kin_score: 69.0
+  kin_score: 67.8
   mcp: *id051
   name: Instagram
   slug: instagram
@@ -1882,10 +1882,10 @@ providers:
   tags: *id054
   url: null
 - agent_band: agent-native
-  agent_readiness: 54.9
+  agent_readiness: 58.7
   band: exemplar
   in_catalog: true
-  kin_score: 77.6
+  kin_score: 78.1
   mcp: *id055
   name: Klaviyo
   slug: klaviyo
@@ -1894,9 +1894,9 @@ providers:
   url: /providers/klaviyo/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 20.5
+  kin_score: 28.6
   mcp: *id057
   name: Little Green Light
   slug: little-green-light
@@ -1904,10 +1904,10 @@ providers:
   tags: *id058
   url: /providers/little-green-light/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id059
   name: Mailchimp
   slug: mailchimp
@@ -1915,10 +1915,10 @@ providers:
   tags: *id060
   url: /providers/mailchimp/
 - agent_band: agent-ready
-  agent_readiness: 33.1
-  band: strong
+  agent_readiness: 37.6
+  band: exemplar
   in_catalog: true
-  kin_score: 63.9
+  kin_score: 67.7
   mcp: *id061
   name: Microsoft Dynamics
   slug: microsoft-dynamics-365
@@ -1937,10 +1937,10 @@ providers:
   tags: *id064
   url: null
 - agent_band: agent-aware
-  agent_readiness: 20.6
+  agent_readiness: 25.5
   band: thin
   in_catalog: true
-  kin_score: 31.1
+  kin_score: 30.5
   mcp: *id065
   name: Neon One
   slug: neonone
@@ -1960,9 +1960,9 @@ providers:
   url: null
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.6
+  kin_score: 15.8
   mcp: *id069
   name: Nuclavis
   slug: nuclavis
@@ -1980,11 +1980,11 @@ providers:
   status: queued for profiling
   tags: *id072
   url: null
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id073
   name: QuickBooks Online
   slug: quickbooks
@@ -1992,10 +1992,10 @@ providers:
   tags: *id074
   url: /providers/quickbooks/
 - agent_band: agent-aware
-  agent_readiness: 15.5
+  agent_readiness: 15.1
   band: thin
   in_catalog: true
-  kin_score: 26.3
+  kin_score: 26.5
   mcp: *id075
   name: Sage Intacct
   slug: sage-intacct
@@ -2003,10 +2003,10 @@ providers:
   tags: *id076
   url: /providers/sage-intacct/
 - agent_band: agent-ready
-  agent_readiness: 54.7
+  agent_readiness: 53.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.6
+  kin_score: 88.0
   mcp: *id077
   name: Salesforce (NPSP, Nonprofit Cloud)
   slug: salesforce
@@ -2025,10 +2025,10 @@ providers:
   tags: *id080
   url: null
 - agent_band: agent-native
-  agent_readiness: 45.8
+  agent_readiness: 44.9
   band: exemplar
   in_catalog: true
-  kin_score: 81.1
+  kin_score: 82.3
   mcp: *id081
   name: Snowflake
   slug: snowflake
@@ -2039,7 +2039,7 @@ providers:
   agent_readiness: 3.2
   band: emerging
   in_catalog: true
-  kin_score: 12.0
+  kin_score: 17.6
   mcp: *id083
   name: SyncSmart
   slug: syncsmart
@@ -2047,10 +2047,10 @@ providers:
   tags: *id084
   url: /providers/syncsmart/
 - agent_band: agent-aware
-  agent_readiness: 19.8
-  band: thin
+  agent_readiness: 19.4
+  band: developing
   in_catalog: true
-  kin_score: 37.0
+  kin_score: 48.4
   mcp: *id085
   name: Tatango
   slug: tatango
@@ -2058,10 +2058,10 @@ providers:
   tags: *id086
   url: /providers/tatango/
 - agent_band: agent-ready
-  agent_readiness: 35.6
-  band: strong
+  agent_readiness: 34.9
+  band: exemplar
   in_catalog: true
-  kin_score: 66.3
+  kin_score: 66.5
   mcp: *id087
   name: Tealium
   slug: tealium
@@ -2072,7 +2072,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.9
+  kin_score: 22.9
   mcp: *id089
   name: Tessitura
   slug: tessitura
@@ -2080,10 +2080,10 @@ providers:
   tags: *id090
   url: /providers/tessitura/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 14.7
   band: emerging
   in_catalog: true
-  kin_score: 13.8
+  kin_score: 22.2
   mcp: *id091
   name: Virtuous
   slug: virtuous
@@ -2091,10 +2091,10 @@ providers:
   tags: *id092
   url: /providers/virtuous/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id093
   name: Zapier
   slug: zapier

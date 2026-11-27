@@ -64,22 +64,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id001
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id002
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase
   provider: firebase
@@ -96,10 +96,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.9
     band: strong
     in_catalog: true
-    kin_score: 56.1
+    kin_score: 55.6
     mcp: &id003
       source: https://github.com/IABTechLab/agentic-real-time-framework
       status: verified
@@ -130,7 +130,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id005
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -158,10 +158,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 50.0
-    band: exemplar
+    agent_readiness: 48.9
+    band: strong
     in_catalog: true
-    kin_score: 67.4
+    kin_score: 65.9
     mcp: &id007
       status: none
     slug: singular
@@ -185,22 +185,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/ride-hailing-mobility/lyft/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id001
-  name: Firebase
-  slug: firebase
-  status: profiled
-  tags: *id002
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 56.1
+  kin_score: 62.0
+  mcp: *id001
+  name: Firebase
+  slug: google-firebase
+  status: profiled
+  tags: *id002
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 36.9
+  band: strong
+  in_catalog: true
+  kin_score: 55.6
   mcp: *id003
   name: IAB Tech Lab
   slug: iab-tech-lab
@@ -211,7 +211,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id005
   name: Sentry
   slug: sentry-system
@@ -219,10 +219,10 @@ providers:
   tags: *id006
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 50.0
-  band: exemplar
+  agent_readiness: 48.9
+  band: strong
   in_catalog: true
-  kin_score: 67.4
+  kin_score: 65.9
   mcp: *id007
   name: Singular
   slug: singular

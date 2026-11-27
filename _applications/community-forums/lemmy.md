@@ -44,10 +44,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.9
+    agent_readiness: 17.9
     band: emerging
     in_catalog: true
-    kin_score: 25.6
+    kin_score: 25.4
     mcp: &id001
       status: unknown
     slug: pict-rs
@@ -77,7 +77,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 12.2
+    kin_score: 11.6
     mcp: &id003
       status: none
     slug: postgresql
@@ -102,10 +102,10 @@ noindex: false
 permalink: /applications/community-forums/lemmy/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 21.9
+  agent_readiness: 17.9
   band: emerging
   in_catalog: true
-  kin_score: 25.6
+  kin_score: 25.4
   mcp: *id001
   name: pict-rs
   slug: pict-rs
@@ -116,7 +116,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 12.2
+  kin_score: 11.6
   mcp: *id003
   name: PostgreSQL
   slug: postgresql

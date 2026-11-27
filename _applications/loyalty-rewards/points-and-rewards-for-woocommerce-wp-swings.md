@@ -55,10 +55,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id001
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -86,10 +86,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.0
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 72.3
     mcp: &id003
       status: none
     slug: whatsapp
@@ -116,10 +116,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.4
-    band: developing
+    agent_readiness: 34.7
+    band: strong
     in_catalog: true
-    kin_score: 50.4
+    kin_score: 54.6
     mcp: &id005
       source: https://developer.woocommerce.com/docs/features/mcp/
       status: verified
@@ -145,10 +145,10 @@ noindex: false
 permalink: /applications/loyalty-rewards/points-and-rewards-for-woocommerce-wp-swings/
 providers:
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id001
   name: Twilio
   slug: twilio
@@ -156,10 +156,10 @@ providers:
   tags: *id002
   url: /providers/twilio/
 - agent_band: agent-ready
-  agent_readiness: 48.0
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 72.3
   mcp: *id003
   name: WhatsApp
   slug: whatsapp
@@ -167,10 +167,10 @@ providers:
   tags: *id004
   url: /providers/whatsapp/
 - agent_band: agent-ready
-  agent_readiness: 35.4
-  band: developing
+  agent_readiness: 34.7
+  band: strong
   in_catalog: true
-  kin_score: 50.4
+  kin_score: 54.6
   mcp: *id005
   name: WooCommerce
   slug: woocommerce

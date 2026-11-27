@@ -1826,7 +1826,7 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Chatwoot
       - FreeScout
@@ -1834,7 +1834,7 @@ stack:
       - Zammad
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook (omniauth-facebook, koala)
@@ -1852,14 +1852,14 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - FreeScout
       - Help Scout
       - Zammad
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp (whatsapp_sdk)
@@ -1877,13 +1877,13 @@ stack:
       tier: observed
       url: /providers/whatsapp/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Chatwoot
       - FreeScout
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp: &id005
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -1901,13 +1901,13 @@ stack:
       tier: observed
       url: /providers/x/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - FreeScout
       - Zammad
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram (telegram-bot-ruby)
@@ -1924,12 +1924,12 @@ stack:
       tier: observed
       url: /providers/telegram/
     - agent_band: agent-native
-      agent_readiness: 47.9
+      agent_readiness: 47.0
       apps:
       - Chatwoot
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 71.3
       mcp:
         source: https://github.com/line/line-bot-mcp-server
         status: verified
@@ -1946,12 +1946,12 @@ stack:
       tier: observed
       url: /providers/line/
     - agent_band: agent-ready
-      agent_readiness: 38.9
+      agent_readiness: 38.6
       apps:
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 69.0
+      kin_score: 67.8
       mcp:
         status: none
       name: Instagram
@@ -1975,14 +1975,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - FreeScout
       - Freshdesk
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp:
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -2001,13 +2001,13 @@ stack:
       tier: declared
       url: /providers/jira/
     - agent_band: agent-ready
-      agent_readiness: 35.5
+      agent_readiness: 35.2
       apps:
       - Chatwoot
       - Help Scout
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.1
+      kin_score: 39.6
       mcp:
         source: https://linear.app/docs/mcp
         status: verified
@@ -2025,12 +2025,12 @@ stack:
       tier: observed
       url: /providers/linear-app/
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: &id003
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -2047,12 +2047,12 @@ stack:
       tier: declared
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 28.7
+      agent_readiness: 30.8
       apps:
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 75.6
+      kin_score: 74.8
       mcp:
         source: https://github.com/atlassian/trello-mcp-server
         status: verified
@@ -2069,12 +2069,12 @@ stack:
       tier: declared
       url: /providers/trello/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.3
       apps:
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 72.5
       mcp:
         source: https://developers.asana.com/docs/using-asanas-mcp-server
         status: verified
@@ -2099,12 +2099,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Chatwoot
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: &id001
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -2120,13 +2120,13 @@ stack:
       - Email
       tier: observed
       url: /providers/twilio/
-    - agent_band: agent-aware
-      agent_readiness: 14.0
+    - agent_band: agent-native
+      agent_readiness: 53.8
       apps:
       - Help Scout
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 30.5
+      kin_score: 64.1
       mcp:
         status: none
       name: Talkdesk
@@ -2147,7 +2147,7 @@ stack:
       - Help Scout
       band: thin
       in_catalog: true
-      kin_score: 30.3
+      kin_score: 30.0
       mcp:
         status: none
       name: Aircall
@@ -2163,12 +2163,12 @@ stack:
       tier: declared
       url: /providers/aircall/
     - agent_band: agent-aware
-      agent_readiness: 9.3
+      agent_readiness: 6.3
       apps:
       - Zammad
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.4
+      kin_score: 27.1
       mcp:
         source: https://github.com/sipgate/sipgate-ai-demo-auth-mcp-server
         status: documented
@@ -2185,12 +2185,12 @@ stack:
       tier: declared
       url: /providers/sipgate/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - Zammad
       band: emerging
       in_catalog: true
-      kin_score: 12.1
+      kin_score: 15.5
       mcp:
         status: none
       name: Placetel CTI
@@ -2214,13 +2214,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Help Scout
       - Zendesk
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -2237,12 +2237,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 36.0
       apps:
       - Zammad
       band: strong
       in_catalog: true
-      kin_score: 62.7
+      kin_score: 64.9
       mcp:
         status: none
       name: Microsoft Exchange (viewpoint EWS, importer)
@@ -2258,12 +2258,12 @@ stack:
       tier: observed
       url: /providers/microsoft-exchange/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 24.6
       apps:
       - Zammad
       band: strong
       in_catalog: true
-      kin_score: 57.9
+      kin_score: 59.3
       mcp:
         status: none
       name: Clearbit
@@ -2287,12 +2287,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.9
+      agent_readiness: 35.2
       apps:
       - Chatwoot
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 56.0
       mcp:
         status: none
       name: LeadSquared
@@ -2308,12 +2308,12 @@ stack:
       tier: observed
       url: /providers/leadsquared/
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -2330,12 +2330,12 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2352,12 +2352,12 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 29.3
+      agent_readiness: 28.7
       apps:
       - Help Scout
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 55.3
       mcp:
         status: none
       name: Pipedrive
@@ -2381,13 +2381,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - FreeScout
       - Zammad
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: *id001
       name: Twilio (twilio-ruby, SMS driver)
       slug: twilio
@@ -2398,13 +2398,13 @@ stack:
       tags: *id002
       tier: observed
       url: /providers/twilio/
-    - agent_band: agent-ready
-      agent_readiness: 65.2
+    - agent_band: agent-native
+      agent_readiness: 70.3
       apps:
       - Zammad
       band: developing
       in_catalog: true
-      kin_score: 48.6
+      kin_score: 50.0
       mcp: &id009
         source: https://github.com/messagebird/bird-ai
         status: verified
@@ -2424,9 +2424,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Zammad
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.2
+      kin_score: 15.3
       mcp:
         status: unknown
       name: Massenversand (SMS driver)
@@ -2450,12 +2450,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Zammad
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk (zendesk_api importer)
@@ -2471,12 +2471,12 @@ stack:
       tier: observed
       url: /providers/zendesk/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 35.0
       apps:
       - Zammad
       band: thin
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 29.7
       mcp:
         status: none
       name: Freshdesk (importer)
@@ -2497,7 +2497,7 @@ stack:
       - Zammad
       band: emerging
       in_catalog: true
-      kin_score: 12.6
+      kin_score: 23.4
       mcp:
         status: none
       name: Kayako (importer)
@@ -2526,7 +2526,7 @@ stack:
       - Help Scout
       band: thin
       in_catalog: true
-      kin_score: 35.4
+      kin_score: 34.9
       mcp:
         source: https://www.surveymonkey.com/apps/
         status: documented
@@ -2551,12 +2551,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 56.8
       apps:
       - Chatwoot
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.3
       mcp:
         source: https://developers.notion.com/docs/mcp
         status: verified
@@ -2580,13 +2580,13 @@ stack:
       url: /capabilities/knowledge-curation-taxonomy-management/
       via_parent: Knowledge Curation & Taxonomy Management
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Zammad
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 78.4
       mcp: &id007
         source: https://www.elastic.co/docs/solutions/search/mcp
         status: verified
@@ -2611,12 +2611,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 23.9
       apps:
       - Chatwoot
       band: thin
       in_catalog: true
-      kin_score: 28.4
+      kin_score: 27.4
       mcp:
         status: none
       name: Dyte
@@ -2640,12 +2640,12 @@ stack:
       via_parent: Web Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Chatwoot
       band: developing
       in_catalog: true
-      kin_score: 49.5
+      kin_score: 50.6
       mcp:
         source: https://docs.firecrawl.dev/mcp-server
         status: verified
@@ -2671,15 +2671,15 @@ stack:
       url: /capabilities/tenant-identity-federation/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Chatwoot
       - FreeScout
       - Zammad
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in (omniauth-google-oauth2)
@@ -2697,13 +2697,13 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - FreeScout
       - Zammad
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft (omniauth-microsoft-office365)
@@ -2719,29 +2719,13 @@ stack:
       - Identity and Access Management
       tier: observed
       url: /providers/microsoft-entra/
-    - agent_band: agent-ready
-      agent_readiness: 63.4
-      apps:
-      - Zammad
-      band: exemplar
-      in_catalog: true
-      kin_score: 85.4
-      mcp: *id003
-      name: GitHub (omniauth-github)
-      slug: github
-      sources:
-      - https://raw.githubusercontent.com/zammad/zammad/develop/Gemfile
-      status: profiled
-      tags: *id004
-      tier: observed
-      url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Zammad
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -2758,12 +2742,28 @@ stack:
       tier: observed
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 62.4
       apps:
       - Zammad
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 85.0
+      mcp: *id003
+      name: GitHub (omniauth-github)
+      slug: github
+      sources:
+      - https://raw.githubusercontent.com/zammad/zammad/develop/Gemfile
+      status: profiled
+      tags: *id004
+      tier: observed
+      url: /providers/github/
+    - agent_band: agent-ready
+      agent_readiness: 46.5
+      apps:
+      - Zammad
+      band: exemplar
+      in_catalog: true
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn (omniauth-linkedin-oauth2)
@@ -2779,12 +2779,12 @@ stack:
       tier: observed
       url: /providers/linkedin/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Zammad
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp: *id005
       name: X / Twitter (omniauth-twitter)
       slug: x
@@ -2795,12 +2795,12 @@ stack:
       tier: observed
       url: /providers/x/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 1.1
       apps:
       - Zammad
       band: minimal
       in_catalog: true
-      kin_score: 6.2
+      kin_score: 8.0
       mcp:
         status: none
       name: Weibo (omniauth-weibo-oauth2)
@@ -2830,7 +2830,7 @@ stack:
       - Intercom
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2848,12 +2848,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 48.6
       apps:
       - Chatwoot
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -2869,35 +2869,29 @@ stack:
       - Visualization
       tier: observed
       url: /providers/datadog/
-    - agent_band: agent-ready
-      agent_readiness: 45.7
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Chatwoot
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
-      mcp:
-        source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
-        status: verified
-      name: New Relic (newrelic_rpm)
-      slug: new-relic
+      kin_score: 78.4
+      mcp: *id007
+      name: Elastic APM (elastic-apm)
+      slug: elastic
       sources:
       - https://raw.githubusercontent.com/chatwoot/chatwoot/develop/Gemfile
       status: profiled
-      tags:
-      - APM
-      - Analysis
-      - Analytics
-      - DevOps
+      tags: *id008
       tier: observed
-      url: /providers/new-relic/
-    - agent_band: agent-aware
-      agent_readiness: 28.0
+      url: /providers/elastic/
+    - agent_band: agent-native
+      agent_readiness: 43.4
       apps:
       - Chatwoot
       band: exemplar
       in_catalog: true
-      kin_score: 71.0
+      kin_score: 77.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2914,28 +2908,34 @@ stack:
       tier: observed
       url: /providers/amazon-cloudwatch/
     - agent_band: agent-ready
-      agent_readiness: 28.6
+      agent_readiness: 44.8
       apps:
       - Chatwoot
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
-      mcp: *id007
-      name: Elastic APM (elastic-apm)
-      slug: elastic
+      kin_score: 74.4
+      mcp:
+        source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
+        status: verified
+      name: New Relic (newrelic_rpm)
+      slug: new-relic
       sources:
       - https://raw.githubusercontent.com/chatwoot/chatwoot/develop/Gemfile
       status: profiled
-      tags: *id008
+      tags:
+      - APM
+      - Analysis
+      - Analytics
+      - DevOps
       tier: observed
-      url: /providers/elastic/
+      url: /providers/new-relic/
     - agent_band: agent-aware
-      agent_readiness: 22.2
+      agent_readiness: 21.7
       apps:
       - Chatwoot
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.9
+      kin_score: 41.8
       mcp:
         source: https://github.com/scoutapp/scout-mcp-local
         status: verified
@@ -2960,7 +2960,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Chatwoot
       - FreeScout
@@ -2968,7 +2968,7 @@ stack:
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2987,12 +2987,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Freshdesk
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -3007,13 +3007,13 @@ stack:
       - Microsoft Teams
       tier: declared
       url: /providers/microsoft-teams/
-    - agent_band: agent-ready
-      agent_readiness: 65.2
+    - agent_band: agent-native
+      agent_readiness: 70.3
       apps:
       - FreeScout
       band: developing
       in_catalog: true
-      kin_score: 48.6
+      kin_score: 50.0
       mcp: *id009
       name: SMS notifications via MessageBird
       slug: bird
@@ -3032,13 +3032,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - Chatwoot
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -3056,13 +3056,13 @@ stack:
       tier: observed
       url: /providers/shopify/
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Chatwoot
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3080,13 +3080,13 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - FreeScout
       - Help Scout
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 54.6
       mcp:
         source: https://developer.woocommerce.com/docs/features/mcp/
         status: verified
@@ -3111,37 +3111,37 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Freshdesk
       - Zendesk
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id011
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics / Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.freshdesk.helpdesk/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.zendesk.android/latest/
       status: profiled
       tags: &id012
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Chatwoot
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -3158,12 +3158,12 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 47.7
       apps:
       - Help Scout
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -3187,14 +3187,14 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Chatwoot
       - Zammad
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3212,12 +3212,12 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Chatwoot
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -3234,12 +3234,12 @@ stack:
       tier: observed
       url: /providers/gcp-cloud-storage/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Chatwoot
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3263,14 +3263,14 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Chatwoot
       - Help Scout
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -3288,12 +3288,12 @@ stack:
       tier: observed
       url: /providers/google-gmail/
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 39.0
       apps:
       - Zammad
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 69.7
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3318,12 +3318,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - Chatwoot
       band: thin
       in_catalog: true
-      kin_score: 31.5
+      kin_score: 31.1
       mcp:
         status: none
       name: hCaptcha (@hcaptcha/vue3-hcaptcha)
@@ -3338,13 +3338,13 @@ stack:
       - hCaptcha
       tier: observed
       url: /providers/hcaptcha/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - FreeScout
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Extra Security Module (reCAPTCHA)
@@ -3367,34 +3367,13 @@ stack:
       url: /capabilities/digital-marketing-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 42.3
-      apps:
-      - Help Scout
-      band: exemplar
-      in_catalog: true
-      kin_score: 78.3
-      mcp:
-        status: none
-      name: Mailchimp
-      slug: mailchimp
-      sources:
-      - https://www.helpscout.com/apps/
-      status: profiled
-      tags:
-      - Campaigns
-      - Email Marketing
-      - Marketing Automation
-      - Newsletters
-      tier: declared
-      url: /providers/mailchimp/
     - agent_band: agent-native
-      agent_readiness: 54.9
+      agent_readiness: 58.7
       apps:
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 77.6
+      kin_score: 78.1
       mcp:
         source: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
         status: verified
@@ -3410,6 +3389,27 @@ stack:
       - SMS
       tier: declared
       url: /providers/klaviyo/
+    - agent_band: agent-ready
+      agent_readiness: 41.9
+      apps:
+      - Help Scout
+      band: exemplar
+      in_catalog: true
+      kin_score: 77.7
+      mcp:
+        status: none
+      name: Mailchimp
+      slug: mailchimp
+      sources:
+      - https://www.helpscout.com/apps/
+      status: profiled
+      tags:
+      - Campaigns
+      - Email Marketing
+      - Marketing Automation
+      - Newsletters
+      tier: declared
+      url: /providers/mailchimp/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.30
@@ -3419,12 +3419,28 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 39.9
       apps:
       - Chatwoot
       band: strong
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 62.0
+      mcp: *id011
+      name: Firebase Cloud Messaging (fcm)
+      slug: google-firebase
+      sources:
+      - https://raw.githubusercontent.com/chatwoot/chatwoot/develop/Gemfile
+      status: profiled
+      tags: *id012
+      tier: observed
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 36.5
+      apps:
+      - Chatwoot
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple Push Notification service (apnotic)
@@ -3439,22 +3455,6 @@ stack:
       - macOS
       tier: observed
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - Chatwoot
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp: *id011
-      name: Firebase Cloud Messaging (fcm)
-      slug: firebase
-      sources:
-      - https://raw.githubusercontent.com/chatwoot/chatwoot/develop/Gemfile
-      status: profiled
-      tags: *id012
-      tier: observed
-      url: /providers/firebase/
   - capability:
       attribution: Turbo EA
       id: BC-4220.50.20
@@ -3463,13 +3463,13 @@ stack:
       url: /capabilities/capacity-performance-management-bc-4220-50/
       via_parent: Capacity & Performance Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 3.1
       apps:
       - Chatwoot
       band: emerging
       in_catalog: true
-      kin_score: 17.3
+      kin_score: 25.1
       mcp:
         status: unknown
       name: Judoscale (production group)
@@ -3493,12 +3493,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 23.7
       apps:
       - Chatwoot
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 31.5
       mcp:
         status: none
       name: MaxMind (maxminddb)
@@ -3521,13 +3521,13 @@ stack:
       url: /capabilities/language-document-understanding/
       via_parent: Language & Document Understanding
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 17.9
+    - agent_band: agent-ready
+      agent_readiness: 33.9
       apps:
       - Chatwoot
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 51.6
+      kin_score: 68.0
       mcp:
         status: none
       name: Google Cloud Translation
@@ -3551,12 +3551,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Freshdesk
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -3576,13 +3576,13 @@ stack:
       url: /capabilities/scheduling-appointment-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Freshdesk
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -3607,12 +3607,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - Chatwoot
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES (aws-sdk-sesv2, aws-actionmailbox-ses)
@@ -3636,12 +3636,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Help Scout
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -3668,12 +3668,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Chatwoot
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -3690,12 +3690,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.4
       apps:
       - Chatwoot
       band: exemplar
       in_catalog: true
-      kin_score: 73.1
+      kin_score: 74.7
       mcp:
         status: none
       name: Dialogflow
@@ -3722,7 +3722,7 @@ summary:
     unchecked: 0
     verified: 36
   mcp_verified: 36
-  mean_kin_score: 57.8
+  mean_kin_score: 61.0
   observed: 49
   queued: 0
   reference_apps: 7

@@ -96,11 +96,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -128,10 +128,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.9
+    agent_readiness: 39.5
     band: exemplar
     in_catalog: true
-    kin_score: 72.1
+    kin_score: 71.8
     mcp: &id003
       source: https://auth0.com/docs/get-started/auth0-mcp-server
       status: verified
@@ -159,10 +159,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.2
+    agent_readiness: 37.2
     band: exemplar
     in_catalog: true
-    kin_score: 74.5
+    kin_score: 73.1
     mcp: &id005
       status: none
     slug: authentik
@@ -189,10 +189,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.0
-    band: thin
+    agent_readiness: 29.4
+    band: emerging
     in_catalog: true
-    kin_score: 27.1
+    kin_score: 26.1
     mcp: &id007
       status: none
     slug: crisp
@@ -219,10 +219,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 35.0
     band: exemplar
     in_catalog: true
-    kin_score: 69.8
+    kin_score: 68.1
     mcp: &id009
       source: https://gitea.com/gitea/gitea-mcp
       status: verified
@@ -250,10 +250,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id011
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -281,10 +281,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id013
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -311,11 +311,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id015
       status: none
     slug: google-identity-platform
@@ -342,7 +342,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
+    agent_readiness: 17.3
     band: thin
     in_catalog: true
     kin_score: 35.3
@@ -372,10 +372,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id019
       status: none
     slug: microsoft-entra
@@ -402,10 +402,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.8
+    agent_readiness: 47.1
     band: exemplar
     in_catalog: true
-    kin_score: 78.0
+    kin_score: 81.8
     mcp: &id021
       source: https://developer.okta.com/docs/concepts/mcp-server/
       status: verified
@@ -433,10 +433,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.1
+    agent_readiness: 27.2
     band: strong
     in_catalog: true
-    kin_score: 61.2
+    kin_score: 58.7
     mcp: &id023
       status: none
     slug: propelauth
@@ -463,10 +463,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 30.6
     band: thin
     in_catalog: true
-    kin_score: 38.8
+    kin_score: 36.6
     mcp: &id025
       source: https://github.com/qdrant/mcp-server-qdrant
       status: verified
@@ -496,7 +496,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id027
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -524,10 +524,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id029
       source: https://docs.stripe.com/mcp
       status: verified
@@ -552,11 +552,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/project-management/leantime/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -564,10 +564,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 39.9
+  agent_readiness: 39.5
   band: exemplar
   in_catalog: true
-  kin_score: 72.1
+  kin_score: 71.8
   mcp: *id003
   name: Auth0
   slug: auth0
@@ -575,10 +575,10 @@ providers:
   tags: *id004
   url: /providers/auth0/
 - agent_band: agent-ready
-  agent_readiness: 33.2
+  agent_readiness: 37.2
   band: exemplar
   in_catalog: true
-  kin_score: 74.5
+  kin_score: 73.1
   mcp: *id005
   name: authentik
   slug: authentik
@@ -586,10 +586,10 @@ providers:
   tags: *id006
   url: /providers/authentik/
 - agent_band: agent-ready
-  agent_readiness: 30.0
-  band: thin
+  agent_readiness: 29.4
+  band: emerging
   in_catalog: true
-  kin_score: 27.1
+  kin_score: 26.1
   mcp: *id007
   name: Crisp
   slug: crisp
@@ -597,10 +597,10 @@ providers:
   tags: *id008
   url: /providers/crisp/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 35.0
   band: exemplar
   in_catalog: true
-  kin_score: 69.8
+  kin_score: 68.1
   mcp: *id009
   name: Gitea
   slug: gitea
@@ -608,10 +608,10 @@ providers:
   tags: *id010
   url: /providers/gitea/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id011
   name: GitHub
   slug: github
@@ -619,21 +619,21 @@ providers:
   tags: *id012
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id013
   name: GitLab
   slug: gitlab
   status: profiled
   tags: *id014
   url: /providers/gitlab/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id015
   name: Google sign-in
   slug: google-identity-platform
@@ -641,7 +641,7 @@ providers:
   tags: *id016
   url: /providers/google-identity-platform/
 - agent_band: agent-aware
-  agent_readiness: 17.6
+  agent_readiness: 17.3
   band: thin
   in_catalog: true
   kin_score: 35.3
@@ -652,10 +652,10 @@ providers:
   tags: *id018
   url: /providers/keycloak/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id019
   name: Microsoft Entra ID
   slug: microsoft-entra
@@ -663,10 +663,10 @@ providers:
   tags: *id020
   url: /providers/microsoft-entra/
 - agent_band: agent-ready
-  agent_readiness: 53.8
+  agent_readiness: 47.1
   band: exemplar
   in_catalog: true
-  kin_score: 78.0
+  kin_score: 81.8
   mcp: *id021
   name: Okta
   slug: okta
@@ -674,10 +674,10 @@ providers:
   tags: *id022
   url: /providers/okta/
 - agent_band: agent-aware
-  agent_readiness: 22.1
+  agent_readiness: 27.2
   band: strong
   in_catalog: true
-  kin_score: 61.2
+  kin_score: 58.7
   mcp: *id023
   name: PropelAuth
   slug: propelauth
@@ -685,10 +685,10 @@ providers:
   tags: *id024
   url: /providers/propelauth/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 30.6
   band: thin
   in_catalog: true
-  kin_score: 38.8
+  kin_score: 36.6
   mcp: *id025
   name: Qdrant
   slug: qdrant
@@ -699,7 +699,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id027
   name: Sentry
   slug: sentry-system
@@ -707,10 +707,10 @@ providers:
   tags: *id028
   url: /providers/sentry-system/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id029
   name: Stripe
   slug: stripe

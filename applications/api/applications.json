@@ -15,7 +15,7 @@
     "verified": 45
    },
    "mcp_verified": 45,
-   "mean_kin_score": 52.9,
+   "mean_kin_score": 55.3,
    "name": "Accounting & Invoicing",
    "observed": 82,
    "queued": 1,
@@ -35,11 +35,11 @@
    "mcp": {
     "documented": 0,
     "none": 27,
-    "unchecked": 4,
-    "verified": 61
+    "unchecked": 3,
+    "verified": 62
    },
-   "mcp_verified": 61,
-   "mean_kin_score": 51.1,
+   "mcp_verified": 62,
+   "mean_kin_score": 53.2,
    "name": "AI Assistant & Chat",
    "observed": 93,
    "queued": 3,
@@ -59,11 +59,11 @@
    "mcp": {
     "documented": 4,
     "none": 47,
-    "unchecked": 2,
-    "verified": 63
+    "unchecked": 1,
+    "verified": 64
    },
-   "mcp_verified": 63,
-   "mean_kin_score": 51.7,
+   "mcp_verified": 64,
+   "mean_kin_score": 54.2,
    "name": "API Management & Gateways",
    "observed": 72,
    "queued": 1,
@@ -72,6 +72,30 @@
     "Keycloak",
     "Casdoor",
     "Okta"
+   ]
+  },
+  {
+   "coverage_pct": 96.5,
+   "declared_only": 85,
+   "distinct_providers": 85,
+   "id": "auto-dealership",
+   "in_catalog": 82,
+   "mcp": {
+    "documented": 1,
+    "none": 19,
+    "unchecked": 42,
+    "verified": 6
+   },
+   "mcp_verified": 6,
+   "mean_kin_score": 20.3,
+   "name": "Auto Dealership Management",
+   "observed": 0,
+   "queued": 3,
+   "reference_apps": 8,
+   "top": [
+    "Dealertrack",
+    "RouteOne",
+    "CUDL"
    ]
   },
   {
@@ -87,15 +111,39 @@
     "verified": 32
    },
    "mcp_verified": 32,
-   "mean_kin_score": 43.8,
+   "mean_kin_score": 46.5,
    "name": "Backup & Device Restore",
    "observed": 42,
    "queued": 0,
    "reference_apps": 9,
    "top": [
-    "Google Cloud Storage",
     "Amazon S3",
+    "Google Cloud Storage",
     "Azure Blob Storage"
+   ]
+  },
+  {
+   "coverage_pct": 94.4,
+   "declared_only": 33,
+   "distinct_providers": 143,
+   "id": "bi-dashboards",
+   "in_catalog": 135,
+   "mcp": {
+    "documented": 3,
+    "none": 38,
+    "unchecked": 25,
+    "verified": 73
+   },
+   "mcp_verified": 73,
+   "mean_kin_score": 47.9,
+   "name": "BI & Dashboards",
+   "observed": 110,
+   "queued": 8,
+   "reference_apps": 7,
+   "top": [
+    "Snowflake",
+    "ClickHouse",
+    "Amazon Athena"
    ]
   },
   {
@@ -111,7 +159,7 @@
     "verified": 55
    },
    "mcp_verified": 55,
-   "mean_kin_score": 56.9,
+   "mean_kin_score": 57.9,
    "name": "Appointment Booking & Scheduling",
    "observed": 84,
    "queued": 0,
@@ -135,7 +183,7 @@
     "verified": 19
    },
    "mcp_verified": 19,
-   "mean_kin_score": 44.2,
+   "mean_kin_score": 47.4,
    "name": "Calendar & Contacts",
    "observed": 17,
    "queued": 1,
@@ -144,6 +192,30 @@
     "Google Calendar",
     "iCloud / FaceTime",
     "Zoho (CalDAV)"
+   ]
+  },
+  {
+   "coverage_pct": 98.5,
+   "declared_only": 27,
+   "distinct_providers": 65,
+   "id": "church-faith-management",
+   "in_catalog": 64,
+   "mcp": {
+    "documented": 0,
+    "none": 15,
+    "unchecked": 24,
+    "verified": 25
+   },
+   "mcp_verified": 25,
+   "mean_kin_score": 44.1,
+   "name": "Church & Faith Community Management",
+   "observed": 38,
+   "queued": 1,
+   "reference_apps": 6,
+   "top": [
+    "Checkr",
+    "MinistrySafe",
+    "Protect My Ministry"
    ]
   },
   {
@@ -159,7 +231,7 @@
     "verified": 69
    },
    "mcp_verified": 69,
-   "mean_kin_score": 50.4,
+   "mean_kin_score": 53.3,
    "name": "Code Hosting, CI/CD & DevOps",
    "observed": 55,
    "queued": 17,
@@ -168,6 +240,30 @@
     "GitGuardian",
     "Snyk",
     "WhiteSource (now Mend)"
+   ]
+  },
+  {
+   "coverage_pct": 93.2,
+   "declared_only": 27,
+   "distinct_providers": 44,
+   "id": "civic-government-services",
+   "in_catalog": 41,
+   "mcp": {
+    "documented": 0,
+    "none": 15,
+    "unchecked": 10,
+    "verified": 18
+   },
+   "mcp_verified": 18,
+   "mean_kin_score": 50.1,
+   "name": "Civic & Government Services",
+   "observed": 17,
+   "queued": 3,
+   "reference_apps": 8,
+   "top": [
+    "Infor",
+    "IBM (Maximo)",
+    "OpenGov"
    ]
   },
   {
@@ -183,7 +279,7 @@
     "verified": 62
    },
    "mcp_verified": 62,
-   "mean_kin_score": 43.9,
+   "mean_kin_score": 46.7,
    "name": "Cloud Storage & File Sync",
    "observed": 80,
    "queued": 4,
@@ -207,15 +303,15 @@
     "verified": 38
    },
    "mcp_verified": 38,
-   "mean_kin_score": 51.1,
+   "mean_kin_score": 52.5,
    "name": "Community & Forums",
    "observed": 59,
    "queued": 2,
    "reference_apps": 6,
    "top": [
     "Slack",
-    "Webex",
-    "Microsoft Teams"
+    "Google Chat",
+    "Webex"
    ]
   },
   {
@@ -231,7 +327,7 @@
     "verified": 10
    },
    "mcp_verified": 10,
-   "mean_kin_score": 21.7,
+   "mean_kin_score": 23.9,
    "name": "Connected Car & EV Charging",
    "observed": 96,
    "queued": 6,
@@ -255,7 +351,7 @@
     "verified": 18
    },
    "mcp_verified": 18,
-   "mean_kin_score": 38.1,
+   "mean_kin_score": 41.6,
    "name": "Construction Management",
    "observed": 1,
    "queued": 5,
@@ -263,7 +359,7 @@
    "top": [
     "HighLevel",
     "AccuLynx",
-    "Leap"
+    "Aspire (Powered by MindCloud)"
    ]
   },
   {
@@ -279,7 +375,7 @@
     "verified": 32
    },
    "mcp_verified": 32,
-   "mean_kin_score": 60.2,
+   "mean_kin_score": 64.0,
    "name": "CRM & Sales Pipeline",
    "observed": 36,
    "queued": 0,
@@ -291,6 +387,78 @@
    ]
   },
   {
+   "coverage_pct": 95.0,
+   "declared_only": 2,
+   "distinct_providers": 80,
+   "id": "crypto-wallet-exchange",
+   "in_catalog": 76,
+   "mcp": {
+    "documented": 3,
+    "none": 20,
+    "unchecked": 26,
+    "verified": 23
+   },
+   "mcp_verified": 23,
+   "mean_kin_score": 35.0,
+   "name": "Crypto Wallets & Exchanges",
+   "observed": 78,
+   "queued": 4,
+   "reference_apps": 8,
+   "top": [
+    "Kraken",
+    "Coinbase",
+    "BitPay"
+   ]
+  },
+  {
+   "coverage_pct": 98.7,
+   "declared_only": 39,
+   "distinct_providers": 77,
+   "id": "customer-feedback-nps",
+   "in_catalog": 76,
+   "mcp": {
+    "documented": 2,
+    "none": 25,
+    "unchecked": 4,
+    "verified": 46
+   },
+   "mcp_verified": 46,
+   "mean_kin_score": 60.8,
+   "name": "Customer Feedback & NPS",
+   "observed": 38,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Zendesk",
+    "Intercom",
+    "Gladly"
+   ]
+  },
+  {
+   "coverage_pct": 99.4,
+   "declared_only": 2,
+   "distinct_providers": 162,
+   "id": "data-integration-etl",
+   "in_catalog": 161,
+   "mcp": {
+    "documented": 3,
+    "none": 47,
+    "unchecked": 7,
+    "verified": 101
+   },
+   "mcp_verified": 101,
+   "mean_kin_score": 56.2,
+   "name": "Data Integration & ETL",
+   "observed": 160,
+   "queued": 1,
+   "reference_apps": 6,
+   "top": [
+    "MongoDB",
+    "Amazon DynamoDB",
+    "PostgreSQL"
+   ]
+  },
+  {
    "coverage_pct": 96.4,
    "declared_only": 47,
    "distinct_providers": 83,
@@ -298,12 +466,12 @@
    "in_catalog": 80,
    "mcp": {
     "documented": 2,
-    "none": 37,
-    "unchecked": 5,
+    "none": 38,
+    "unchecked": 3,
     "verified": 33
    },
    "mcp_verified": 33,
-   "mean_kin_score": 45.0,
+   "mean_kin_score": 47.7,
    "name": "Dating",
    "observed": 36,
    "queued": 3,
@@ -311,6 +479,54 @@
    "top": [
     "Instagram",
     "LinkedIn"
+   ]
+  },
+  {
+   "coverage_pct": 96.7,
+   "declared_only": 37,
+   "distinct_providers": 122,
+   "id": "developer-docs-portal",
+   "in_catalog": 118,
+   "mcp": {
+    "documented": 5,
+    "none": 36,
+    "unchecked": 11,
+    "verified": 68
+   },
+   "mcp_verified": 68,
+   "mean_kin_score": 61.2,
+   "name": "Developer Docs & API Portals",
+   "observed": 85,
+   "queued": 4,
+   "reference_apps": 7,
+   "top": [
+    "GitLab",
+    "GitHub",
+    "Bitbucket"
+   ]
+  },
+  {
+   "coverage_pct": 99.2,
+   "declared_only": 113,
+   "distinct_providers": 123,
+   "id": "digital-asset-management",
+   "in_catalog": 122,
+   "mcp": {
+    "documented": 6,
+    "none": 35,
+    "unchecked": 11,
+    "verified": 63
+   },
+   "mcp_verified": 63,
+   "mean_kin_score": 53.8,
+   "name": "Digital Asset Management",
+   "observed": 10,
+   "queued": 1,
+   "reference_apps": 6,
+   "top": [
+    "WordPress",
+    "Contentstack",
+    "Drupal"
    ]
   },
   {
@@ -326,15 +542,15 @@
     "verified": 32
    },
    "mcp_verified": 32,
-   "mean_kin_score": 51.0,
+   "mean_kin_score": 53.5,
    "name": "Document Management & OCR",
    "observed": 23,
    "queued": 1,
    "reference_apps": 7,
    "top": [
     "Google Drive",
-    "Box",
-    "Microsoft 365"
+    "Microsoft 365",
+    "Box"
    ]
   },
   {
@@ -350,7 +566,7 @@
     "verified": 46
    },
    "mcp_verified": 46,
-   "mean_kin_score": 46.8,
+   "mean_kin_score": 49.8,
    "name": "Donations & Crowdfunding",
    "observed": 23,
    "queued": 9,
@@ -374,7 +590,7 @@
     "verified": 33
    },
    "mcp_verified": 33,
-   "mean_kin_score": 54.8,
+   "mean_kin_score": 57.8,
    "name": "E-signature & Contract Management",
    "observed": 26,
    "queued": 1,
@@ -398,7 +614,7 @@
     "verified": 13
    },
    "mcp_verified": 13,
-   "mean_kin_score": 46.5,
+   "mean_kin_score": 50.2,
    "name": "E-books, Reading & Comics",
    "observed": 33,
    "queued": 2,
@@ -422,15 +638,39 @@
     "verified": 23
    },
    "mcp_verified": 23,
-   "mean_kin_score": 52.8,
+   "mean_kin_score": 55.0,
    "name": "E-commerce Storefront",
    "observed": 29,
    "queued": 1,
    "reference_apps": 9,
    "top": [
     "FedEx",
-    "USPS",
-    "UPS"
+    "DHL",
+    "USPS"
+   ]
+  },
+  {
+   "coverage_pct": 95.5,
+   "declared_only": 60,
+   "distinct_providers": 88,
+   "id": "ehr-clinical",
+   "in_catalog": 84,
+   "mcp": {
+    "documented": 3,
+    "none": 32,
+    "unchecked": 28,
+    "verified": 17
+   },
+   "mcp_verified": 17,
+   "mean_kin_score": 45.0,
+   "name": "EHR & Clinical Practice",
+   "observed": 28,
+   "queued": 4,
+   "reference_apps": 6,
+   "top": [
+    "DoseSpot",
+    "Fullscript",
+    "Weno Exchange"
    ]
   },
   {
@@ -446,7 +686,7 @@
     "verified": 23
    },
    "mcp_verified": 23,
-   "mean_kin_score": 39.9,
+   "mean_kin_score": 43.4,
    "name": "Email Client & Hosting",
    "observed": 58,
    "queued": 1,
@@ -458,22 +698,22 @@
    ]
   },
   {
-   "coverage_pct": 98.8,
+   "coverage_pct": 100.0,
    "declared_only": 47,
    "distinct_providers": 84,
    "id": "email-marketing-newsletter",
-   "in_catalog": 83,
+   "in_catalog": 84,
    "mcp": {
     "documented": 2,
-    "none": 41,
+    "none": 40,
     "unchecked": 0,
-    "verified": 41
+    "verified": 42
    },
-   "mcp_verified": 41,
-   "mean_kin_score": 55.5,
+   "mcp_verified": 42,
+   "mean_kin_score": 56.4,
    "name": "Email Marketing & Newsletters",
    "observed": 37,
-   "queued": 1,
+   "queued": 0,
    "reference_apps": 8,
    "top": [
     "SendGrid",
@@ -494,7 +734,7 @@
     "verified": 43
    },
    "mcp_verified": 43,
-   "mean_kin_score": 42.7,
+   "mean_kin_score": 45.6,
    "name": "ERP & Business Operations",
    "observed": 75,
    "queued": 6,
@@ -518,7 +758,7 @@
     "verified": 26
    },
    "mcp_verified": 26,
-   "mean_kin_score": 54.0,
+   "mean_kin_score": 56.1,
    "name": "Events & Ticketing",
    "observed": 29,
    "queued": 2,
@@ -541,7 +781,7 @@
     "verified": 38
    },
    "mcp_verified": 38,
-   "mean_kin_score": 40.4,
+   "mean_kin_score": 42.2,
    "name": "Expense & Spend Management",
    "observed": 15,
    "queued": 8,
@@ -565,7 +805,7 @@
     "verified": 21
    },
    "mcp_verified": 21,
-   "mean_kin_score": 36.2,
+   "mean_kin_score": 39.1,
    "name": "Farm & Agriculture Management",
    "observed": 15,
    "queued": 8,
@@ -589,7 +829,7 @@
     "verified": 78
    },
    "mcp_verified": 78,
-   "mean_kin_score": 58.1,
+   "mean_kin_score": 60.4,
    "name": "Feature Flags & Experimentation",
    "observed": 37,
    "queued": 4,
@@ -613,7 +853,7 @@
     "verified": 18
    },
    "mcp_verified": 18,
-   "mean_kin_score": 42.5,
+   "mean_kin_score": 45.5,
    "name": "Field Service & Dispatch",
    "observed": 8,
    "queued": 2,
@@ -637,7 +877,7 @@
     "verified": 15
    },
    "mcp_verified": 15,
-   "mean_kin_score": 40.5,
+   "mean_kin_score": 42.0,
    "name": "Fitness & Nutrition Tracking",
    "observed": 24,
    "queued": 2,
@@ -646,6 +886,30 @@
     "garmin",
     "fitbit",
     "polar"
+   ]
+  },
+  {
+   "coverage_pct": 96.5,
+   "declared_only": 39,
+   "distinct_providers": 86,
+   "id": "fleet-telematics",
+   "in_catalog": 83,
+   "mcp": {
+    "documented": 2,
+    "none": 29,
+    "unchecked": 29,
+    "verified": 17
+   },
+   "mcp_verified": 17,
+   "mean_kin_score": 30.0,
+   "name": "Fleet Management & Telematics",
+   "observed": 47,
+   "queued": 3,
+   "reference_apps": 6,
+   "top": [
+    "HERE",
+    "Google Maps",
+    "Geoapify"
    ]
   },
   {
@@ -661,7 +925,7 @@
     "verified": 25
    },
    "mcp_verified": 25,
-   "mean_kin_score": 42.9,
+   "mean_kin_score": 43.6,
    "name": "Food Delivery & Restaurant Ordering",
    "observed": 13,
    "queued": 8,
@@ -685,7 +949,7 @@
     "verified": 46
    },
    "mcp_verified": 46,
-   "mean_kin_score": 59.9,
+   "mean_kin_score": 61.4,
    "name": "Forms & Surveys",
    "observed": 47,
    "queued": 1,
@@ -697,6 +961,30 @@
    ]
   },
   {
+   "coverage_pct": 91.9,
+   "declared_only": 46,
+   "distinct_providers": 62,
+   "id": "freight-tms",
+   "in_catalog": 57,
+   "mcp": {
+    "documented": 3,
+    "none": 8,
+    "unchecked": 30,
+    "verified": 17
+   },
+   "mcp_verified": 17,
+   "mean_kin_score": 39.3,
+   "name": "Freight & Transportation Management",
+   "observed": 16,
+   "queued": 5,
+   "reference_apps": 5,
+   "top": [
+    "Geotab",
+    "flespi",
+    "Samsara"
+   ]
+  },
+  {
    "coverage_pct": 100.0,
    "declared_only": 6,
    "distinct_providers": 34,
@@ -704,12 +992,12 @@
    "in_catalog": 34,
    "mcp": {
     "documented": 0,
-    "none": 20,
+    "none": 19,
     "unchecked": 0,
-    "verified": 14
+    "verified": 15
    },
-   "mcp_verified": 14,
-   "mean_kin_score": 45.6,
+   "mcp_verified": 15,
+   "mean_kin_score": 49.5,
    "name": "Genealogy & Family History",
    "observed": 28,
    "queued": 0,
@@ -718,6 +1006,52 @@
     "FamilySearch Family Tree download + WebHints",
     "Ancestry TreeShare download + WebHints",
     "CompGen DES / domus.genealogy.net historical building map"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 0,
+   "distinct_providers": 26,
+   "id": "grocery-delivery",
+   "in_catalog": 26,
+   "mcp": {
+    "documented": 1,
+    "none": 7,
+    "unchecked": 1,
+    "verified": 16
+   },
+   "mcp_verified": 16,
+   "mean_kin_score": 54.8,
+   "name": "Grocery Delivery",
+   "observed": 26,
+   "queued": 0,
+   "reference_apps": 7,
+   "top": [
+    "Google Maps"
+   ]
+  },
+  {
+   "coverage_pct": 91.2,
+   "declared_only": 42,
+   "distinct_providers": 57,
+   "id": "gym-studio-management",
+   "in_catalog": 52,
+   "mcp": {
+    "documented": 4,
+    "none": 17,
+    "unchecked": 15,
+    "verified": 19
+   },
+   "mcp_verified": 19,
+   "mean_kin_score": 53.0,
+   "name": "Gym & Fitness Studio Management",
+   "observed": 15,
+   "queued": 5,
+   "reference_apps": 6,
+   "top": [
+    "ClassPass",
+    "Wellhub",
+    "Optum"
    ]
   },
   {
@@ -733,7 +1067,7 @@
     "verified": 36
    },
    "mcp_verified": 36,
-   "mean_kin_score": 57.8,
+   "mean_kin_score": 61.0,
    "name": "Help Desk & Customer Support",
    "observed": 49,
    "queued": 0,
@@ -745,11 +1079,35 @@
    ]
   },
   {
-   "coverage_pct": 90.5,
+   "coverage_pct": 95.0,
+   "declared_only": 16,
+   "distinct_providers": 40,
+   "id": "home-services-marketplace",
+   "in_catalog": 38,
+   "mcp": {
+    "documented": 0,
+    "none": 20,
+    "unchecked": 4,
+    "verified": 16
+   },
+   "mcp_verified": 16,
+   "mean_kin_score": 51.5,
+   "name": "Home Services Marketplaces",
+   "observed": 24,
+   "queued": 2,
+   "reference_apps": 7,
+   "top": [
+    "Yelp",
+    "Thumbtack",
+    "Angi"
+   ]
+  },
+  {
+   "coverage_pct": 92.1,
    "declared_only": 50,
    "distinct_providers": 63,
    "id": "hospitality-restaurant-ops",
-   "in_catalog": 57,
+   "in_catalog": 58,
    "mcp": {
     "documented": 1,
     "none": 27,
@@ -757,15 +1115,39 @@
     "verified": 13
    },
    "mcp_verified": 13,
-   "mean_kin_score": 35.3,
+   "mean_kin_score": 36.3,
    "name": "Hotel & Restaurant Operations",
    "observed": 13,
-   "queued": 6,
+   "queued": 5,
    "reference_apps": 7,
    "top": [
     "Lightspeed",
     "Square",
     "Oracle MICROS 3700"
+   ]
+  },
+  {
+   "coverage_pct": 88.9,
+   "declared_only": 69,
+   "distinct_providers": 72,
+   "id": "hotel-pms",
+   "in_catalog": 64,
+   "mcp": {
+    "documented": 3,
+    "none": 17,
+    "unchecked": 25,
+    "verified": 16
+   },
+   "mcp_verified": 16,
+   "mean_kin_score": 34.6,
+   "name": "Hotel Property Management",
+   "observed": 3,
+   "queued": 8,
+   "reference_apps": 6,
+   "top": [
+    "Booking.com",
+    "Expedia",
+    "Airbnb"
    ]
   },
   {
@@ -781,15 +1163,63 @@
     "verified": 40
    },
    "mcp_verified": 40,
-   "mean_kin_score": 45.8,
+   "mean_kin_score": 47.2,
    "name": "Identity, SSO & Access Management",
    "observed": 72,
    "queued": 4,
    "reference_apps": 8,
    "top": [
-    "GitHub",
     "GitLab",
+    "GitHub",
     "Google sign-in"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 39,
+   "distinct_providers": 73,
+   "id": "incident-status-pages",
+   "in_catalog": 73,
+   "mcp": {
+    "documented": 3,
+    "none": 17,
+    "unchecked": 4,
+    "verified": 47
+   },
+   "mcp_verified": 47,
+   "mean_kin_score": 58.0,
+   "name": "Incident Management & Status Pages",
+   "observed": 34,
+   "queued": 0,
+   "reference_apps": 8,
+   "top": [
+    "Alertmanager",
+    "Datadog",
+    "AWS"
+   ]
+  },
+  {
+   "coverage_pct": 92.3,
+   "declared_only": 46,
+   "distinct_providers": 52,
+   "id": "insurance-policy-claims",
+   "in_catalog": 48,
+   "mcp": {
+    "documented": 3,
+    "none": 10,
+    "unchecked": 19,
+    "verified": 8
+   },
+   "mcp_verified": 8,
+   "mean_kin_score": 32.7,
+   "name": "Insurance Policy & Claims",
+   "observed": 6,
+   "queued": 4,
+   "reference_apps": 6,
+   "top": [
+    "CCC Intelligent Solutions",
+    "CLARA Analytics",
+    "Reserv"
    ]
   },
   {
@@ -805,7 +1235,7 @@
     "verified": 26
    },
    "mcp_verified": 26,
-   "mean_kin_score": 42.3,
+   "mean_kin_score": 44.6,
    "name": "Inventory & Warehouse Management",
    "observed": 33,
    "queued": 2,
@@ -829,7 +1259,7 @@
     "verified": 36
    },
    "mcp_verified": 36,
-   "mean_kin_score": 40.9,
+   "mean_kin_score": 42.7,
    "name": "Investing & Trading",
    "observed": 87,
    "queued": 3,
@@ -841,6 +1271,30 @@
    ]
   },
   {
+   "coverage_pct": 95.9,
+   "declared_only": 3,
+   "distinct_providers": 49,
+   "id": "job-search",
+   "in_catalog": 47,
+   "mcp": {
+    "documented": 0,
+    "none": 17,
+    "unchecked": 7,
+    "verified": 22
+   },
+   "mcp_verified": 22,
+   "mean_kin_score": 47.3,
+   "name": "Job Search",
+   "observed": 46,
+   "queued": 2,
+   "reference_apps": 7,
+   "top": [
+    "LinkedIn Jobs",
+    "Google Jobs",
+    "Indeed"
+   ]
+  },
+  {
    "coverage_pct": 97.1,
    "declared_only": 5,
    "distinct_providers": 34,
@@ -849,19 +1303,19 @@
    "mcp": {
     "documented": 0,
     "none": 15,
-    "unchecked": 2,
-    "verified": 16
+    "unchecked": 1,
+    "verified": 17
    },
-   "mcp_verified": 16,
-   "mean_kin_score": 44.8,
+   "mcp_verified": 17,
+   "mean_kin_score": 48.0,
    "name": "Kids, Family & Parenting",
    "observed": 29,
    "queued": 1,
    "reference_apps": 7,
    "top": [
     "Outlook",
-    "Apple Calendar",
-    "Google Calendar"
+    "Google Calendar",
+    "Apple Calendar"
    ]
   },
   {
@@ -872,12 +1326,12 @@
    "in_catalog": 15,
    "mcp": {
     "documented": 0,
-    "none": 7,
+    "none": 6,
     "unchecked": 0,
-    "verified": 3
+    "verified": 4
    },
-   "mcp_verified": 3,
-   "mean_kin_score": 23.3,
+   "mcp_verified": 4,
+   "mean_kin_score": 30.1,
    "name": "Language Learning",
    "observed": 15,
    "queued": 0,
@@ -901,7 +1355,7 @@
     "verified": 18
    },
    "mcp_verified": 18,
-   "mean_kin_score": 39.0,
+   "mean_kin_score": 42.6,
    "name": "Legal Practice Management",
    "observed": 8,
    "queued": 5,
@@ -909,15 +1363,15 @@
    "top": [
     "Rocket Matter",
     "Docketwise",
-    "Clio"
+    "Filevine"
    ]
   },
   {
-   "coverage_pct": 97.2,
+   "coverage_pct": 98.1,
    "declared_only": 17,
    "distinct_providers": 107,
    "id": "low-code-internal-tools",
-   "in_catalog": 104,
+   "in_catalog": 105,
    "mcp": {
     "documented": 2,
     "none": 30,
@@ -925,10 +1379,10 @@
     "verified": 71
    },
    "mcp_verified": 71,
-   "mean_kin_score": 57.5,
+   "mean_kin_score": 60.3,
    "name": "Low-code & Internal Tools",
    "observed": 90,
-   "queued": 3,
+   "queued": 2,
    "reference_apps": 6,
    "top": [
     "Amazon DynamoDB",
@@ -945,27 +1399,27 @@
    "mcp": {
     "documented": 2,
     "none": 31,
-    "unchecked": 5,
-    "verified": 21
+    "unchecked": 4,
+    "verified": 22
    },
-   "mcp_verified": 21,
-   "mean_kin_score": 53.2,
+   "mcp_verified": 22,
+   "mean_kin_score": 54.8,
    "name": "Loyalty, Rewards & Coupons",
    "observed": 20,
    "queued": 4,
    "reference_apps": 8,
    "top": [
-    "Mailchimp",
     "Klaviyo",
+    "Mailchimp",
     "Omnisend"
    ]
   },
   {
-   "coverage_pct": 90.2,
+   "coverage_pct": 92.2,
    "declared_only": 7,
    "distinct_providers": 51,
    "id": "maps-navigation",
-   "in_catalog": 46,
+   "in_catalog": 47,
    "mcp": {
     "documented": 0,
     "none": 31,
@@ -973,10 +1427,10 @@
     "verified": 12
    },
    "mcp_verified": 12,
-   "mean_kin_score": 37.5,
+   "mean_kin_score": 39.6,
    "name": "Maps, Navigation & GPS",
    "observed": 44,
-   "queued": 5,
+   "queued": 4,
    "reference_apps": 8,
    "top": [
     "Geoapify",
@@ -997,7 +1451,7 @@
     "verified": 38
    },
    "mcp_verified": 38,
-   "mean_kin_score": 59.0,
+   "mean_kin_score": 60.3,
    "name": "Marketing Automation & Ads",
    "observed": 50,
    "queued": 1,
@@ -1006,6 +1460,30 @@
     "Google Ads",
     "Meta Ads",
     "TikTok Ads"
+   ]
+  },
+  {
+   "coverage_pct": 97.6,
+   "declared_only": 66,
+   "distinct_providers": 83,
+   "id": "membership-associations",
+   "in_catalog": 81,
+   "mcp": {
+    "documented": 4,
+    "none": 26,
+    "unchecked": 16,
+    "verified": 35
+   },
+   "mcp_verified": 35,
+   "mean_kin_score": 54.1,
+   "name": "Membership & Association Management",
+   "observed": 17,
+   "queued": 2,
+   "reference_apps": 6,
+   "top": [
+    "Stripe",
+    "Paypal",
+    "Braintree"
    ]
   },
   {
@@ -1021,7 +1499,7 @@
     "verified": 13
    },
    "mcp_verified": 13,
-   "mean_kin_score": 42.7,
+   "mean_kin_score": 48.1,
    "name": "Mental Health, Meditation & Sleep",
    "observed": 17,
    "queued": 1,
@@ -1045,7 +1523,7 @@
     "verified": 41
    },
    "mcp_verified": 41,
-   "mean_kin_score": 56.0,
+   "mean_kin_score": 59.1,
    "name": "Messaging & Team Chat",
    "observed": 36,
    "queued": 0,
@@ -1053,7 +1531,7 @@
    "top": [
     "X (Twitter)",
     "GitHub",
-    "Reddit"
+    "YouTube"
    ]
   },
   {
@@ -1069,7 +1547,7 @@
     "verified": 10
    },
    "mcp_verified": 10,
-   "mean_kin_score": 44.5,
+   "mean_kin_score": 47.0,
    "name": "Mobile Banking & Payments Wallet",
    "observed": 12,
    "queued": 0,
@@ -1088,12 +1566,12 @@
    "in_catalog": 65,
    "mcp": {
     "documented": 0,
-    "none": 44,
-    "unchecked": 14,
+    "none": 45,
+    "unchecked": 12,
     "verified": 17
    },
    "mcp_verified": 17,
-   "mean_kin_score": 39.5,
+   "mean_kin_score": 42.4,
    "name": "Mobile & Casual Games (live-ops backend)",
    "observed": 35,
    "queued": 12,
@@ -1117,7 +1595,7 @@
     "verified": 22
    },
    "mcp_verified": 22,
-   "mean_kin_score": 35.9,
+   "mean_kin_score": 38.2,
    "name": "Music & Audio Streaming",
    "observed": 75,
    "queued": 3,
@@ -1141,15 +1619,15 @@
     "verified": 44
    },
    "mcp_verified": 44,
-   "mean_kin_score": 45.7,
+   "mean_kin_score": 47.8,
    "name": "News, Feeds & Read-Later",
    "observed": 99,
    "queued": 4,
    "reference_apps": 8,
    "top": [
-    "Shaarli",
     "Instapaper",
-    "Pinboard"
+    "Pinboard",
+    "Shaarli"
    ]
   },
   {
@@ -1165,15 +1643,15 @@
     "verified": 28
    },
    "mcp_verified": 28,
-   "mean_kin_score": 39.3,
+   "mean_kin_score": 42.5,
    "name": "Nonprofit CRM & Fundraising",
    "observed": 10,
    "queued": 6,
    "reference_apps": 6,
    "top": [
     "Givebutter",
-    "Donorbox",
-    "Givecloud"
+    "Givecloud",
+    "Give Lively"
    ]
   },
   {
@@ -1189,7 +1667,7 @@
     "verified": 39
    },
    "mcp_verified": 39,
-   "mean_kin_score": 57.0,
+   "mean_kin_score": 59.9,
    "name": "Notes & Personal Knowledge Management",
    "observed": 52,
    "queued": 1,
@@ -1209,11 +1687,11 @@
    "mcp": {
     "documented": 1,
     "none": 38,
-    "unchecked": 2,
-    "verified": 69
+    "unchecked": 1,
+    "verified": 70
    },
-   "mcp_verified": 69,
-   "mean_kin_score": 50.1,
+   "mcp_verified": 70,
+   "mean_kin_score": 53.1,
    "name": "Observability, Monitoring & Status Pages",
    "observed": 104,
    "queued": 1,
@@ -1237,7 +1715,7 @@
     "verified": 41
    },
    "mcp_verified": 41,
-   "mean_kin_score": 51.6,
+   "mean_kin_score": 53.7,
    "name": "Online Courses & Learning Management",
    "observed": 61,
    "queued": 6,
@@ -1261,7 +1739,7 @@
     "verified": 32
    },
    "mcp_verified": 32,
-   "mean_kin_score": 59.0,
+   "mean_kin_score": 61.2,
    "name": "Password Manager",
    "observed": 31,
    "queued": 0,
@@ -1269,7 +1747,7 @@
    "top": [
     "Datadog",
     "Elastic",
-    "Splunk"
+    "Microsoft Sentinel"
    ]
   },
   {
@@ -1285,7 +1763,7 @@
     "verified": 5
    },
    "mcp_verified": 5,
-   "mean_kin_score": 47.9,
+   "mean_kin_score": 52.7,
    "name": "Pastebin, File Drop & Quick Share",
    "observed": 10,
    "queued": 0,
@@ -1308,7 +1786,7 @@
     "verified": 26
    },
    "mcp_verified": 26,
-   "mean_kin_score": 46.8,
+   "mean_kin_score": 48.8,
    "name": "HR, Payroll & People Ops",
    "observed": 19,
    "queued": 3,
@@ -1332,7 +1810,7 @@
     "verified": 6
    },
    "mcp_verified": 6,
-   "mean_kin_score": 52.0,
+   "mean_kin_score": 54.1,
    "name": "Period, Fertility & Pregnancy Tracking",
    "observed": 10,
    "queued": 3,
@@ -1356,7 +1834,7 @@
     "verified": 29
    },
    "mcp_verified": 29,
-   "mean_kin_score": 27.4,
+   "mean_kin_score": 30.1,
    "name": "Personal Dashboard & Homelab",
    "observed": 139,
    "queued": 4,
@@ -1380,7 +1858,7 @@
     "verified": 23
    },
    "mcp_verified": 23,
-   "mean_kin_score": 52.7,
+   "mean_kin_score": 54.4,
    "name": "Personal Finance & Budgeting",
    "observed": 41,
    "queued": 1,
@@ -1404,7 +1882,7 @@
     "verified": 11
    },
    "mcp_verified": 11,
-   "mean_kin_score": 50.7,
+   "mean_kin_score": 52.6,
    "name": "Pet Care",
    "observed": 18,
    "queued": 4,
@@ -1412,7 +1890,31 @@
    "top": [
     "Shepherd Veterinary Software",
     "ezyVet",
-    "Provet Cloud"
+    "DaySmart Vet"
+   ]
+  },
+  {
+   "coverage_pct": 95.0,
+   "declared_only": 5,
+   "distinct_providers": 40,
+   "id": "pharmacy-prescriptions",
+   "in_catalog": 38,
+   "mcp": {
+    "documented": 2,
+    "none": 18,
+    "unchecked": 3,
+    "verified": 15
+   },
+   "mcp_verified": 15,
+   "mean_kin_score": 59.8,
+   "name": "Pharmacy & Prescriptions",
+   "observed": 35,
+   "queued": 2,
+   "reference_apps": 6,
+   "top": [
+    "DoseSpot",
+    "Weno Exchange (eRx)",
+    "ScriptSure"
    ]
   },
   {
@@ -1428,7 +1930,7 @@
     "verified": 12
    },
    "mcp_verified": 12,
-   "mean_kin_score": 44.6,
+   "mean_kin_score": 47.2,
    "name": "Photo & Video Library Management",
    "observed": 28,
    "queued": 0,
@@ -1452,7 +1954,7 @@
     "verified": 9
    },
    "mcp_verified": 9,
-   "mean_kin_score": 40.0,
+   "mean_kin_score": 43.2,
    "name": "Podcasts & Audiobooks",
    "observed": 26,
    "queued": 0,
@@ -1476,7 +1978,7 @@
     "verified": 32
    },
    "mcp_verified": 32,
-   "mean_kin_score": 40.5,
+   "mean_kin_score": 42.6,
    "name": "Point of Sale & In-Person Payments",
    "observed": 27,
    "queued": 3,
@@ -1485,6 +1987,30 @@
     "BigCommerce",
     "WooCommerce",
     "Wix"
+   ]
+  },
+  {
+   "coverage_pct": 97.6,
+   "declared_only": 79,
+   "distinct_providers": 85,
+   "id": "procurement-spend",
+   "in_catalog": 83,
+   "mcp": {
+    "documented": 2,
+    "none": 27,
+    "unchecked": 7,
+    "verified": 45
+   },
+   "mcp_verified": 45,
+   "mean_kin_score": 51.6,
+   "name": "Procurement & Spend Management",
+   "observed": 6,
+   "queued": 2,
+   "reference_apps": 7,
+   "top": [
+    "Amazon Business",
+    "Staples Advantage",
+    "Grainger"
    ]
   },
   {
@@ -1500,23 +2026,23 @@
     "verified": 42
    },
    "mcp_verified": 42,
-   "mean_kin_score": 58.2,
+   "mean_kin_score": 60.7,
    "name": "Project & Work Management",
    "observed": 46,
    "queued": 0,
    "reference_apps": 9,
    "top": [
-    "GitHub",
     "GitLab",
+    "GitHub",
     "Gitea"
    ]
   },
   {
-   "coverage_pct": 81.2,
+   "coverage_pct": 82.6,
    "declared_only": 51,
    "distinct_providers": 69,
    "id": "property-management",
-   "in_catalog": 56,
+   "in_catalog": 57,
    "mcp": {
     "documented": 4,
     "none": 21,
@@ -1524,10 +2050,10 @@
     "verified": 14
    },
    "mcp_verified": 14,
-   "mean_kin_score": 39.7,
+   "mean_kin_score": 42.4,
    "name": "Property & Rental Management",
    "observed": 18,
-   "queued": 13,
+   "queued": 12,
    "reference_apps": 6,
    "top": [
     "Zillow",
@@ -1536,27 +2062,51 @@
    ]
   },
   {
-   "coverage_pct": 96.0,
+   "coverage_pct": 95.9,
+   "declared_only": 17,
+   "distinct_providers": 49,
+   "id": "public-transit",
+   "in_catalog": 47,
+   "mcp": {
+    "documented": 0,
+    "none": 17,
+    "unchecked": 15,
+    "verified": 11
+   },
+   "mcp_verified": 11,
+   "mean_kin_score": 38.9,
+   "name": "Public Transit",
+   "observed": 32,
+   "queued": 2,
+   "reference_apps": 6,
+   "top": [
+    "Uber",
+    "Lyft",
+    "Ola"
+   ]
+  },
+  {
+   "coverage_pct": 95.8,
    "declared_only": 14,
-   "distinct_providers": 50,
+   "distinct_providers": 48,
    "id": "real-estate-home-search",
-   "in_catalog": 48,
+   "in_catalog": 46,
    "mcp": {
     "documented": 2,
     "none": 17,
-    "unchecked": 3,
-    "verified": 16
+    "unchecked": 2,
+    "verified": 15
    },
-   "mcp_verified": 16,
-   "mean_kin_score": 40.7,
+   "mcp_verified": 15,
+   "mean_kin_score": 44.0,
    "name": "Real Estate & Home Search",
-   "observed": 36,
+   "observed": 34,
    "queued": 2,
    "reference_apps": 7,
    "top": [
     "ImmobilienScout24",
-    "Immowelt",
-    "Kleinanzeigen"
+    "Kleinanzeigen",
+    "Immowelt"
    ]
   },
   {
@@ -1572,7 +2122,7 @@
     "verified": 7
    },
    "mcp_verified": 7,
-   "mean_kin_score": 54.2,
+   "mean_kin_score": 56.0,
    "name": "Recipes & Meal Planning",
    "observed": 10,
    "queued": 1,
@@ -1595,7 +2145,7 @@
     "verified": 11
    },
    "mcp_verified": 11,
-   "mean_kin_score": 37.2,
+   "mean_kin_score": 38.4,
    "name": "Recruiting & Applicant Tracking",
    "observed": 3,
    "queued": 4,
@@ -1604,6 +2154,30 @@
     "BambooHR",
     "Deel",
     "Workday"
+   ]
+  },
+  {
+   "coverage_pct": 91.8,
+   "declared_only": 7,
+   "distinct_providers": 49,
+   "id": "resale-marketplace",
+   "in_catalog": 45,
+   "mcp": {
+    "documented": 0,
+    "none": 24,
+    "unchecked": 4,
+    "verified": 19
+   },
+   "mcp_verified": 19,
+   "mean_kin_score": 52.1,
+   "name": "Resale & Second-hand Marketplaces",
+   "observed": 42,
+   "queued": 4,
+   "reference_apps": 8,
+   "top": [
+    "Stripe",
+    "PayPal",
+    "Mangopay"
    ]
   },
   {
@@ -1619,7 +2193,7 @@
     "verified": 22
    },
    "mcp_verified": 22,
-   "mean_kin_score": 47.6,
+   "mean_kin_score": 49.9,
    "name": "Ride-Hailing & Micromobility",
    "observed": 58,
    "queued": 5,
@@ -1631,6 +2205,78 @@
    ]
   },
   {
+   "coverage_pct": 99.1,
+   "declared_only": 111,
+   "distinct_providers": 113,
+   "id": "sales-engagement",
+   "in_catalog": 112,
+   "mcp": {
+    "documented": 6,
+    "none": 36,
+    "unchecked": 12,
+    "verified": 57
+   },
+   "mcp_verified": 57,
+   "mean_kin_score": 58.4,
+   "name": "Sales Engagement & Dialers",
+   "observed": 2,
+   "queued": 1,
+   "reference_apps": 6,
+   "top": [
+    "HubSpot",
+    "Salesforce",
+    "Zoho CRM"
+   ]
+  },
+  {
+   "coverage_pct": 95.4,
+   "declared_only": 97,
+   "distinct_providers": 109,
+   "id": "salon-spa-management",
+   "in_catalog": 104,
+   "mcp": {
+    "documented": 1,
+    "none": 33,
+    "unchecked": 33,
+    "verified": 32
+   },
+   "mcp_verified": 32,
+   "mean_kin_score": 44.0,
+   "name": "Salon & Spa Management",
+   "observed": 12,
+   "queued": 5,
+   "reference_apps": 8,
+   "top": [
+    "Reserve with Google",
+    "Instagram (Book Now)",
+    "Facebook (Book Now)"
+   ]
+  },
+  {
+   "coverage_pct": 100.0,
+   "declared_only": 44,
+   "distinct_providers": 55,
+   "id": "school-admin-sis",
+   "in_catalog": 55,
+   "mcp": {
+    "documented": 1,
+    "none": 13,
+    "unchecked": 10,
+    "verified": 25
+   },
+   "mcp_verified": 25,
+   "mean_kin_score": 49.5,
+   "name": "School Administration & SIS",
+   "observed": 11,
+   "queued": 0,
+   "reference_apps": 9,
+   "top": [
+    "Google Classroom",
+    "Moodle",
+    "Canvas LMS"
+   ]
+  },
+  {
    "coverage_pct": 97.9,
    "declared_only": 12,
    "distinct_providers": 97,
@@ -1638,12 +2284,12 @@
    "in_catalog": 95,
    "mcp": {
     "documented": 1,
-    "none": 54,
+    "none": 53,
     "unchecked": 2,
-    "verified": 40
+    "verified": 41
    },
-   "mcp_verified": 40,
-   "mean_kin_score": 44.3,
+   "mcp_verified": 41,
+   "mean_kin_score": 47.5,
    "name": "Site & App Search",
    "observed": 85,
    "queued": 2,
@@ -1655,11 +2301,35 @@
    ]
   },
   {
-   "coverage_pct": 97.6,
+   "coverage_pct": 96.4,
+   "declared_only": 55,
+   "distinct_providers": 112,
+   "id": "security-scanning",
+   "in_catalog": 108,
+   "mcp": {
+    "documented": 10,
+    "none": 12,
+    "unchecked": 18,
+    "verified": 63
+   },
+   "mcp_verified": 63,
+   "mean_kin_score": 50.0,
+   "name": "Security Scanning & Vulnerability Management",
+   "observed": 57,
+   "queued": 4,
+   "reference_apps": 7,
+   "top": [
+    "Google Cloud",
+    "AWS CloudTrail",
+    "Microsoft Azure"
+   ]
+  },
+  {
+   "coverage_pct": 98.8,
    "declared_only": 59,
    "distinct_providers": 85,
    "id": "shipping-fulfillment",
-   "in_catalog": 83,
+   "in_catalog": 84,
    "mcp": {
     "documented": 0,
     "none": 51,
@@ -1667,15 +2337,15 @@
     "verified": 17
    },
    "mcp_verified": 17,
-   "mean_kin_score": 34.8,
+   "mean_kin_score": 37.2,
    "name": "Shipping, Fulfillment & Returns",
    "observed": 26,
-   "queued": 2,
+   "queued": 1,
    "reference_apps": 6,
    "top": [
     "UPS",
     "FedEx",
-    "USPS"
+    "DHL"
    ]
   },
   {
@@ -1691,7 +2361,7 @@
     "verified": 15
    },
    "mcp_verified": 15,
-   "mean_kin_score": 31.3,
+   "mean_kin_score": 34.8,
    "name": "Smart Home & Home Automation",
    "observed": 65,
    "queued": 2,
@@ -1715,7 +2385,7 @@
     "verified": 58
    },
    "mcp_verified": 58,
-   "mean_kin_score": 47.2,
+   "mean_kin_score": 49.3,
    "name": "Social Media Management & Scheduling",
    "observed": 85,
    "queued": 3,
@@ -1739,7 +2409,7 @@
     "verified": 24
    },
    "mcp_verified": 24,
-   "mean_kin_score": 41.2,
+   "mean_kin_score": 42.9,
    "name": "Social Networking & Microblogging",
    "observed": 44,
    "queued": 0,
@@ -1748,6 +2418,30 @@
     "X (Twitter)",
     "Bluesky",
     "pnut.io"
+   ]
+  },
+  {
+   "coverage_pct": 98.8,
+   "declared_only": 14,
+   "distinct_providers": 81,
+   "id": "solar-energy-monitoring",
+   "in_catalog": 80,
+   "mcp": {
+    "documented": 1,
+    "none": 17,
+    "unchecked": 42,
+    "verified": 9
+   },
+   "mcp_verified": 9,
+   "mean_kin_score": 24.5,
+   "name": "Home Energy & Solar Monitoring",
+   "observed": 67,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Tesla Powerwall",
+    "SMA Solar Technology",
+    "Enphase Energy"
    ]
   },
   {
@@ -1763,7 +2457,7 @@
     "verified": 15
    },
    "mcp_verified": 15,
-   "mean_kin_score": 38.1,
+   "mean_kin_score": 40.0,
    "name": "Sports Scores & Fantasy",
    "observed": 50,
    "queued": 3,
@@ -1787,7 +2481,7 @@
     "verified": 56
    },
    "mcp_verified": 56,
-   "mean_kin_score": 50.1,
+   "mean_kin_score": 51.9,
    "name": "Subscription Billing & Payments Ops",
    "observed": 62,
    "queued": 2,
@@ -1811,7 +2505,7 @@
     "verified": 35
    },
    "mcp_verified": 35,
-   "mean_kin_score": 53.6,
+   "mean_kin_score": 55.4,
    "name": "Tasks & To-do Lists",
    "observed": 35,
    "queued": 1,
@@ -1819,7 +2513,7 @@
    "top": [
     "Trello",
     "Jira",
-    "GitHub"
+    "GitLab"
    ]
   },
   {
@@ -1835,7 +2529,7 @@
     "verified": 23
    },
    "mcp_verified": 23,
-   "mean_kin_score": 56.8,
+   "mean_kin_score": 59.9,
    "name": "Telehealth & Patient Apps",
    "observed": 49,
    "queued": 3,
@@ -1859,7 +2553,7 @@
     "verified": 41
    },
    "mcp_verified": 41,
-   "mean_kin_score": 56.9,
+   "mean_kin_score": 58.0,
    "name": "Time Tracking & Timesheets",
    "observed": 22,
    "queued": 1,
@@ -1878,12 +2572,12 @@
    "in_catalog": 79,
    "mcp": {
     "documented": 0,
-    "none": 25,
+    "none": 24,
     "unchecked": 1,
-    "verified": 50
+    "verified": 51
    },
-   "mcp_verified": 50,
-   "mean_kin_score": 52.6,
+   "mcp_verified": 51,
+   "mean_kin_score": 55.3,
    "name": "Translation & Localization",
    "observed": 46,
    "queued": 1,
@@ -1907,7 +2601,7 @@
     "verified": 10
    },
    "mcp_verified": 10,
-   "mean_kin_score": 52.6,
+   "mean_kin_score": 54.2,
    "name": "Travel Booking & Trip Planning",
    "observed": 27,
    "queued": 2,
@@ -1926,11 +2620,11 @@
    "mcp": {
     "documented": 3,
     "none": 32,
-    "unchecked": 2,
-    "verified": 46
+    "unchecked": 1,
+    "verified": 47
    },
-   "mcp_verified": 46,
-   "mean_kin_score": 59.7,
+   "mcp_verified": 47,
+   "mean_kin_score": 60.0,
    "name": "Link Management & URL Shorteners",
    "observed": 32,
    "queued": 1,
@@ -1954,7 +2648,7 @@
     "verified": 20
    },
    "mcp_verified": 20,
-   "mean_kin_score": 55.8,
+   "mean_kin_score": 58.1,
    "name": "Video Conferencing & Webinars",
    "observed": 25,
    "queued": 2,
@@ -1978,7 +2672,7 @@
     "verified": 24
    },
    "mcp_verified": 24,
-   "mean_kin_score": 46.3,
+   "mean_kin_score": 49.2,
    "name": "Video & Photo Editing / Creator Tools",
    "observed": 27,
    "queued": 1,
@@ -2002,7 +2696,7 @@
     "verified": 5
    },
    "mcp_verified": 5,
-   "mean_kin_score": 33.2,
+   "mean_kin_score": 34.3,
    "name": "Video Streaming & Media Server",
    "observed": 15,
    "queued": 1,
@@ -2026,7 +2720,7 @@
     "verified": 40
    },
    "mcp_verified": 40,
-   "mean_kin_score": 51.6,
+   "mean_kin_score": 53.6,
    "name": "VoIP, Phone & Contact Center",
    "observed": 39,
    "queued": 1,
@@ -2046,11 +2740,11 @@
    "mcp": {
     "documented": 1,
     "none": 21,
-    "unchecked": 1,
-    "verified": 14
+    "unchecked": 0,
+    "verified": 15
    },
-   "mcp_verified": 14,
-   "mean_kin_score": 51.6,
+   "mcp_verified": 15,
+   "mean_kin_score": 53.6,
    "name": "VPN & Privacy Tools",
    "observed": 3,
    "queued": 0,
@@ -2074,14 +2768,14 @@
     "verified": 6
    },
    "mcp_verified": 6,
-   "mean_kin_score": 18.0,
+   "mean_kin_score": 18.8,
    "name": "Weather & Environmental Alerts",
    "observed": 69,
    "queued": 3,
    "reference_apps": 7,
    "top": [
-    "OpenWeather",
     "Met Office",
+    "OpenWeather",
     "AccuWeather"
    ]
   },
@@ -2098,7 +2792,7 @@
     "verified": 52
    },
    "mcp_verified": 52,
-   "mean_kin_score": 60.1,
+   "mean_kin_score": 61.4,
    "name": "Web & Product Analytics",
    "observed": 50,
    "queued": 0,
@@ -2122,7 +2816,7 @@
     "verified": 54
    },
    "mcp_verified": 54,
-   "mean_kin_score": 49.6,
+   "mean_kin_score": 50.7,
    "name": "Website Builder, CMS & Blogging",
    "observed": 49,
    "queued": 5,
@@ -2131,6 +2825,29 @@
     "X (Twitter)",
     "Pinterest",
     "Reddit"
+   ]
+  },
+  {
+   "coverage_pct": 98.8,
+   "declared_only": 57,
+   "distinct_providers": 80,
+   "id": "wedding-event-planning",
+   "in_catalog": 79,
+   "mcp": {
+    "documented": 4,
+    "none": 24,
+    "unchecked": 5,
+    "verified": 47
+   },
+   "mcp_verified": 47,
+   "mean_kin_score": 59.7,
+   "name": "Wedding & Event Planning",
+   "observed": 23,
+   "queued": 1,
+   "reference_apps": 7,
+   "top": [
+    "Squarespace",
+    "Wix"
    ]
   },
   {
@@ -2146,7 +2863,7 @@
     "verified": 81
    },
    "mcp_verified": 81,
-   "mean_kin_score": 51.2,
+   "mean_kin_score": 53.9,
    "name": "Workflow Automation & iPaaS",
    "observed": 136,
    "queued": 2,
@@ -2154,7 +2871,7 @@
    "top": [
     "Jira",
     "Trello",
-    "Asana"
+    "ClickUp"
    ]
   }
  ],

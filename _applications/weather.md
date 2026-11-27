@@ -1439,14 +1439,37 @@ stack:
       url: /capabilities/weather-environment/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 22.5
+    - agent_band: agent-ready
+      agent_readiness: 33.4
       apps:
       - Breezy Weather
       - MagicMirror2 weather module
       band: strong
       in_catalog: true
-      kin_score: 60.4
+      kin_score: 64.3
+      mcp: &id001
+        status: none
+      name: Met Office
+      slug: met-office
+      sources:
+      - https://github.com/MagicMirrorOrg/MagicMirror/tree/master/defaultmodules/weather/providers
+      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
+      status: profiled
+      tags: &id002
+      - Climate
+      - Company
+      - Forecast
+      - Weather
+      tier: observed
+      url: /providers/met-office/
+    - agent_band: agent-ready
+      agent_readiness: 30.0
+      apps:
+      - Breezy Weather
+      - MagicMirror2 weather module
+      band: strong
+      in_catalog: true
+      kin_score: 59.1
       mcp:
         source: https://mcp.openweathermap.org/
         status: verified
@@ -1463,37 +1486,14 @@ stack:
       - Weather
       tier: observed
       url: /providers/openweathermap/
-    - agent_band: agent-ready
-      agent_readiness: 34.2
-      apps:
-      - Breezy Weather
-      - MagicMirror2 weather module
-      band: developing
-      in_catalog: true
-      kin_score: 52.9
-      mcp: &id001
-        status: none
-      name: Met Office
-      slug: met-office
-      sources:
-      - https://github.com/MagicMirrorOrg/MagicMirror/tree/master/defaultmodules/weather/providers
-      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
-      status: profiled
-      tags: &id002
-      - Climate
-      - Company
-      - Forecast
-      - Weather
-      tier: observed
-      url: /providers/met-office/
     - agent_band: agent-aware
-      agent_readiness: 25.5
+      agent_readiness: 24.9
       apps:
       - Breezy Weather
       - Carrot Weather
       band: developing
       in_catalog: true
-      kin_score: 42.6
+      kin_score: 39.8
       mcp:
         status: none
       name: AccuWeather
@@ -1509,14 +1509,14 @@ stack:
       - Weather
       tier: observed
       url: /providers/accuweather/
-    - agent_band: agent-aware
-      agent_readiness: 26.6
+    - agent_band: agent-ready
+      agent_readiness: 32.1
       apps:
       - Breezy Weather
       - Windy
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 40.5
+      kin_score: 38.9
       mcp:
         status: unknown
       name: NOAA NCEI
@@ -1533,13 +1533,13 @@ stack:
       tier: observed
       url: /providers/noaa-gov/
     - agent_band: agent-aware
-      agent_readiness: 23.3
+      agent_readiness: 22.8
       apps:
       - Breezy Weather
       - MagicMirror2 weather module
       band: thin
       in_catalog: true
-      kin_score: 36.6
+      kin_score: 35.6
       mcp:
         status: none
       name: National Weather Service
@@ -1556,13 +1556,13 @@ stack:
       tier: observed
       url: /providers/weather-gov/
     - agent_band: agent-aware
-      agent_readiness: 17.8
+      agent_readiness: 17.4
       apps:
       - Breezy Weather
       - MagicMirror2 weather module
       band: thin
       in_catalog: true
-      kin_score: 29.6
+      kin_score: 28.3
       mcp:
         status: none
       name: Open-Meteo
@@ -1583,9 +1583,9 @@ stack:
       apps:
       - Breezy Weather
       - MagicMirror2 weather module
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.4
+      kin_score: 12.5
       mcp:
         status: none
       name: SMHI
@@ -1608,7 +1608,7 @@ stack:
       - MagicMirror2 weather module
       band: minimal
       in_catalog: true
-      kin_score: 7.4
+      kin_score: 7.3
       mcp:
         status: none
       name: MET Norway
@@ -1675,7 +1675,7 @@ stack:
       - MagicMirror2 weather module
       band: minimal
       in_catalog: true
-      kin_score: 3.3
+      kin_score: 2.4
       mcp:
         source: https://pirateweather.net/
         status: documented
@@ -1691,12 +1691,12 @@ stack:
       tier: observed
       url: /providers/pirate-weather/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 23.9
       apps:
       - MagicMirror2 weather module
       band: strong
       in_catalog: true
-      kin_score: 55.6
+      kin_score: 56.5
       mcp:
         status: unknown
       name: WeatherAPI.com
@@ -1711,13 +1711,13 @@ stack:
       - Weather
       tier: observed
       url: /providers/weatherapi/
-    - agent_band: agent-native
-      agent_readiness: 38.7
+    - agent_band: agent-ready
+      agent_readiness: 37.7
       apps:
       - Breezy Weather
       band: developing
       in_catalog: true
-      kin_score: 44.0
+      kin_score: 50.6
       mcp:
         status: none
       name: Infoplaza
@@ -1733,12 +1733,12 @@ stack:
       tier: observed
       url: /providers/infoplaza/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.2
       apps:
       - MagicMirror2 weather module
       band: thin
       in_catalog: true
-      kin_score: 39.1
+      kin_score: 38.8
       mcp:
         status: none
       name: Weatherbit
@@ -1754,12 +1754,12 @@ stack:
       tier: observed
       url: /providers/weatherbit/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 26.9
       apps:
       - Breezy Weather
       band: thin
       in_catalog: true
-      kin_score: 31.3
+      kin_score: 31.8
       mcp:
         status: unknown
       name: WMO Severe Weather
@@ -1775,12 +1775,12 @@ stack:
       tier: observed
       url: /providers/wmo/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - Breezy Weather
       band: thin
       in_catalog: true
-      kin_score: 29.8
+      kin_score: 29.5
       mcp:
         status: none
       name: DMI
@@ -1796,12 +1796,12 @@ stack:
       tier: observed
       url: /providers/danish-meteorological-institutes/
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 25.0
       apps:
       - Breezy Weather
       band: thin
       in_catalog: true
-      kin_score: 26.4
+      kin_score: 28.4
       mcp:
         status: unknown
       name: Bright Sky (DWD open data)
@@ -1817,12 +1817,12 @@ stack:
       tier: observed
       url: /providers/bright-sky/
     - agent_band: agent-aware
-      agent_readiness: 15.5
+      agent_readiness: 15.1
       apps:
       - Breezy Weather
       band: emerging
       in_catalog: true
-      kin_score: 17.9
+      kin_score: 19.4
       mcp:
         status: unknown
       name: FOSS Public Alert Server
@@ -1838,12 +1838,12 @@ stack:
       tier: observed
       url: /providers/foss-public-alert-server/
     - agent_band: agent-aware
-      agent_readiness: 7.9
+      agent_readiness: 7.7
       apps:
       - Breezy Weather
       band: emerging
       in_catalog: true
-      kin_score: 14.7
+      kin_score: 17.7
       mcp:
         status: unknown
       name: IMD
@@ -1859,12 +1859,12 @@ stack:
       tier: observed
       url: /providers/india-meteorological-department/
     - agent_band: agent-aware
-      agent_readiness: 14.6
+      agent_readiness: 12.4
       apps:
       - Breezy Weather
       band: emerging
       in_catalog: true
-      kin_score: 13.9
+      kin_score: 13.0
       mcp:
         status: unknown
       name: LHMT (Lithuania)
@@ -1883,9 +1883,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Breezy Weather
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.0
+      kin_score: 12.1
       mcp:
         status: unknown
       name: Servizio Meteo AM
@@ -1906,7 +1906,7 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 8.0
+      kin_score: 10.6
       mcp:
         status: unknown
       name: MeteoLux
@@ -1927,7 +1927,7 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 7.7
+      kin_score: 9.5
       mcp:
         status: unknown
       name: Met Eireann
@@ -1948,7 +1948,7 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 7.5
+      kin_score: 6.7
       mcp:
         status: unknown
       name: Ilmateenistus (Estonia)
@@ -1964,12 +1964,12 @@ stack:
       tier: observed
       url: /providers/ilmateenistus/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 5.8
+      kin_score: 5.9
       mcp:
         status: unknown
       name: BMKG
@@ -1990,85 +1990,7 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 5.2
-      mcp:
-        status: unknown
-      name: AEMET
-      slug: aemet
-      sources:
-      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
-      status: profiled
-      tags:
-      - Public APIs
-      - Weather
-      tier: observed
-      url: /providers/aemet/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Breezy Weather
-      band: minimal
-      in_catalog: true
-      kin_score: 5.2
-      mcp:
-        status: unknown
-      name: Hong Kong Observatory
-      slug: hong-kong-obervatory
-      sources:
-      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
-      status: profiled
-      tags:
-      - Public APIs
-      - Weather
-      tier: observed
-      url: /providers/hong-kong-obervatory/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Breezy Weather
-      band: minimal
-      in_catalog: true
-      kin_score: 5.2
-      mcp:
-        status: unknown
-      name: IPMA
-      slug: ipma
-      sources:
-      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
-      status: profiled
-      tags:
-      - Public APIs
-      - Weather
-      tier: observed
-      url: /providers/ipma/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
-      apps:
-      - Breezy Weather
-      band: minimal
-      in_catalog: true
-      kin_score: 5.2
-      mcp:
-        status: unknown
-      name: IMS
-      slug: israel-meteorological-service
-      sources:
-      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
-      status: profiled
-      tags:
-      - Government
-      - Israel
-      - Meteorology
-      - Weather
-      tier: observed
-      url: /providers/israel-meteorological-service/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Breezy Weather
-      band: minimal
-      in_catalog: true
-      kin_score: 5.1
+      kin_score: 5.7
       mcp:
         status: unknown
       name: BMD
@@ -2089,7 +2011,49 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 5.1
+      kin_score: 5.6
+      mcp:
+        status: unknown
+      name: PAGASA
+      slug: pagasa
+      sources:
+      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
+      status: profiled
+      tags:
+      - Company
+      - Meteorology
+      - Philippines
+      - Weather
+      tier: observed
+      url: /providers/pagasa/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Breezy Weather
+      band: minimal
+      in_catalog: true
+      kin_score: 4.7
+      mcp:
+        status: none
+      name: Meteo-France
+      slug: meteo-france
+      sources:
+      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
+      status: profiled
+      tags:
+      - Climate
+      - Company
+      - Forecast
+      - Weather
+      tier: observed
+      url: /providers/meteo-france/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Breezy Weather
+      band: minimal
+      in_catalog: true
+      kin_score: 4.4
       mcp:
         status: unknown
       name: GeoSphere Austria
@@ -2110,63 +2074,78 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 4.7
+      kin_score: 4.3
       mcp:
         status: unknown
-      name: PAGASA
-      slug: pagasa
+      name: AEMET
+      slug: aemet
       sources:
       - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
       status: profiled
       tags:
-      - Company
-      - Meteorology
-      - Philippines
+      - Public APIs
       - Weather
       tier: observed
-      url: /providers/pagasa/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - MagicMirror2 weather module
-      band: minimal
-      in_catalog: true
-      kin_score: 4.5
-      mcp:
-        status: unknown
-      name: Buienradar
-      slug: buienradar
-      sources:
-      - https://github.com/MagicMirrorOrg/MagicMirror/tree/master/defaultmodules/weather/providers
-      status: profiled
-      tags:
-      - Company
-      - Forecast
-      - Radar
-      - Weather
-      tier: observed
-      url: /providers/buienradar/
+      url: /providers/aemet/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 4.4
+      kin_score: 4.3
       mcp:
-        status: none
-      name: Meteo-France
-      slug: meteo-france
+        status: unknown
+      name: Hong Kong Observatory
+      slug: hong-kong-obervatory
       sources:
       - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
       status: profiled
       tags:
-      - Climate
-      - Company
-      - Forecast
+      - Public APIs
       - Weather
       tier: observed
-      url: /providers/meteo-france/
+      url: /providers/hong-kong-obervatory/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Breezy Weather
+      band: minimal
+      in_catalog: true
+      kin_score: 4.3
+      mcp:
+        status: unknown
+      name: IPMA
+      slug: ipma
+      sources:
+      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
+      status: profiled
+      tags:
+      - Public APIs
+      - Weather
+      tier: observed
+      url: /providers/ipma/
+    - agent_band: human-only
+      agent_readiness: 2.5
+      apps:
+      - Breezy Weather
+      band: minimal
+      in_catalog: true
+      kin_score: 4.3
+      mcp:
+        status: unknown
+      name: IMS
+      slug: israel-meteorological-service
+      sources:
+      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
+      status: profiled
+      tags:
+      - Government
+      - Israel
+      - Meteorology
+      - Weather
+      tier: observed
+      url: /providers/israel-meteorological-service/
     - agent_band: human-only
       agent_readiness: 2.5
       apps:
@@ -2191,10 +2170,31 @@ stack:
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
+      - MagicMirror2 weather module
+      band: minimal
+      in_catalog: true
+      kin_score: 3.6
+      mcp:
+        status: unknown
+      name: Buienradar
+      slug: buienradar
+      sources:
+      - https://github.com/MagicMirrorOrg/MagicMirror/tree/master/defaultmodules/weather/providers
+      status: profiled
+      tags:
+      - Company
+      - Forecast
+      - Radar
+      - Weather
+      tier: observed
+      url: /providers/buienradar/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 4.0
+      kin_score: 3.6
       mcp:
         status: none
       name: Polleninfo (EAN)
@@ -2215,7 +2215,7 @@ stack:
       - MagicMirror2 weather module
       band: minimal
       in_catalog: true
-      kin_score: 3.5
+      kin_score: 3.6
       mcp:
         status: none
       name: WeatherFlow (Tempest)
@@ -2231,96 +2231,12 @@ stack:
       tier: observed
       url: /providers/weatherflow/
     - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Breezy Weather
-      band: minimal
-      in_catalog: true
-      kin_score: 3.4
-      mcp:
-        status: none
-      name: Atmo France
-      slug: atmo-france
-      sources:
-      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
-      status: profiled
-      tags:
-      - Air Quality
-      - Company
-      - Environment
-      - Public Service
-      tier: observed
-      url: /providers/atmo-france/
-    - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 3.4
-      mcp:
-        status: unknown
-      name: Meteoroloji Genel Mudurlugu
-      slug: mgm
-      sources:
-      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
-      status: profiled
-      tags:
-      - Climate
-      - Company
-      - Forecast
-      - Weather
-      tier: observed
-      url: /providers/mgm/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Breezy Weather
-      band: minimal
-      in_catalog: true
-      kin_score: 3.4
-      mcp:
-        status: unknown
-      name: NAMEM (Mongolia)
-      slug: namem
-      sources:
-      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
-      status: profiled
-      tags:
-      - Company
-      - Government
-      - Mongolia
-      - Weather
-      tier: observed
-      url: /providers/namem/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Breezy Weather
-      band: minimal
-      in_catalog: true
-      kin_score: 3.4
-      mcp:
-        status: unknown
-      name: NCDR (Taiwan)
-      slug: ncdr
-      sources:
-      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
-      status: profiled
-      tags:
-      - Disaster Management
-      - Government
-      - Public Safety
-      - Taiwan
-      tier: observed
-      url: /providers/ncdr/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Breezy Weather
-      band: minimal
-      in_catalog: true
-      kin_score: 3.4
+      kin_score: 2.9
       mcp:
         status: unknown
       name: Vedurstofa Islands
@@ -2341,42 +2257,42 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.8
       mcp:
-        status: unknown
-      name: ClimWeb (WMO NMHS sites)
-      slug: climweb
+        status: none
+      name: Atmo France
+      slug: atmo-france
       sources:
       - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
       status: profiled
       tags:
-      - Climate Data
+      - Air Quality
       - Company
-      - Meteorology
-      - Open Source
+      - Environment
+      - Public Service
       tier: observed
-      url: /providers/climweb/
+      url: /providers/atmo-france/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.6
       mcp:
         status: unknown
-      name: EKUK (Estonia)
-      slug: ekuk
+      name: Meteoroloji Genel Mudurlugu
+      slug: mgm
       sources:
       - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
       status: profiled
       tags:
+      - Climate
       - Company
-      - Corporate
-      - Estonia
-      - Technology
+      - Forecast
+      - Weather
       tier: observed
-      url: /providers/ekuk/
+      url: /providers/mgm/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
@@ -2404,7 +2320,91 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
+      kin_score: 2.5
+      mcp:
+        status: unknown
+      name: NAMEM (Mongolia)
+      slug: namem
+      sources:
+      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
+      status: profiled
+      tags:
+      - Company
+      - Government
+      - Mongolia
+      - Weather
+      tier: observed
+      url: /providers/namem/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Breezy Weather
+      band: minimal
+      in_catalog: true
+      kin_score: 2.5
+      mcp:
+        status: unknown
+      name: NCDR (Taiwan)
+      slug: ncdr
+      sources:
+      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
+      status: profiled
+      tags:
+      - Disaster Management
+      - Government
+      - Public Safety
+      - Taiwan
+      tier: observed
+      url: /providers/ncdr/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Breezy Weather
+      band: minimal
+      in_catalog: true
       kin_score: 2.2
+      mcp:
+        status: unknown
+      name: ClimWeb (WMO NMHS sites)
+      slug: climweb
+      sources:
+      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
+      status: profiled
+      tags:
+      - Climate Data
+      - Company
+      - Meteorology
+      - Open Source
+      tier: observed
+      url: /providers/climweb/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Breezy Weather
+      band: minimal
+      in_catalog: true
+      kin_score: 2.2
+      mcp:
+        status: unknown
+      name: EKUK (Estonia)
+      slug: ekuk
+      sources:
+      - https://github.com/breezy-weather/breezy-weather/tree/main/app/src/main/java/org/breezyweather/sources
+      status: profiled
+      tags:
+      - Company
+      - Corporate
+      - Estonia
+      - Technology
+      tier: observed
+      url: /providers/ekuk/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Breezy Weather
+      band: minimal
+      in_catalog: true
+      kin_score: 1.3
       mcp:
         status: unknown
       name: SMG (Macao)
@@ -2422,7 +2422,7 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: CWA (Taiwan)
@@ -2440,7 +2440,7 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: LVGMC (Latvia)
@@ -2504,12 +2504,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Carrot Weather
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple Weather (WeatherKit)
@@ -2525,12 +2525,12 @@ stack:
       tier: declared
       url: /providers/apple/
     - agent_band: agent-ready
-      agent_readiness: 38.5
+      agent_readiness: 34.9
       apps:
       - Windy
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 50.2
       mcp:
         status: none
       name: ECMWF
@@ -2546,12 +2546,12 @@ stack:
       tier: declared
       url: /providers/ecmwf/
     - agent_band: agent-aware
-      agent_readiness: 15.6
+      agent_readiness: 15.9
       apps:
       - Windy
       band: emerging
       in_catalog: true
-      kin_score: 19.5
+      kin_score: 24.6
       mcp:
         status: none
       name: Meteoblue (NEMS)
@@ -2567,12 +2567,12 @@ stack:
       tier: declared
       url: /providers/meteoblue/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.1
       apps:
       - Carrot Weather
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 5.5
       mcp:
         status: unknown
       name: Foreca
@@ -2615,12 +2615,12 @@ stack:
       via_parent: Weather & Environment
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 33.4
       apps:
       - WeeWX
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 52.9
+      kin_score: 64.3
       mcp: *id001
       name: Met Office WOW
       slug: met-office
@@ -2630,13 +2630,13 @@ stack:
       tags: *id002
       tier: observed
       url: /providers/met-office/
-    - agent_band: agent-aware
-      agent_readiness: 25.5
+    - agent_band: agent-ready
+      agent_readiness: 31.3
       apps:
       - WeeWX
       band: thin
       in_catalog: true
-      kin_score: 35.3
+      kin_score: 34.9
       mcp:
         status: none
       name: Weather Underground
@@ -2652,12 +2652,12 @@ stack:
       tier: observed
       url: /providers/wunderground/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - WeeWX
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.7
+      kin_score: 17.2
       mcp:
         status: none
       name: AWEKAS
@@ -2676,9 +2676,9 @@ stack:
       agent_readiness: 2.5
       apps:
       - WeeWX
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.9
+      kin_score: 13.3
       mcp:
         status: unknown
       name: PWSweather
@@ -2693,13 +2693,13 @@ stack:
       - Weather
       tier: observed
       url: /providers/pwsweather/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - WeeWX
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.3
+      kin_score: 12.4
       mcp:
         status: unknown
       name: RMI Belgium WOW-BE
@@ -2720,7 +2720,7 @@ stack:
       - WeeWX
       band: minimal
       in_catalog: true
-      kin_score: 4.3
+      kin_score: 4.6
       mcp:
         status: unknown
       name: Citizen Weather Observer Program
@@ -2744,12 +2744,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 18.0
       apps:
       - Breezy Weather
       band: thin
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 30.6
       mcp:
         status: unknown
       name: IP.SB
@@ -2765,12 +2765,12 @@ stack:
       tier: observed
       url: /providers/ip-sb/
     - agent_band: agent-aware
-      agent_readiness: 6.0
+      agent_readiness: 5.8
       apps:
       - Breezy Weather
       band: emerging
       in_catalog: true
-      kin_score: 18.5
+      kin_score: 17.4
       mcp:
         source: https://github.com/baidu-maps/mcp
         status: verified
@@ -2795,12 +2795,12 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 25.7
       apps:
       - Breezy Weather
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.7
       mcp: &id003
         status: none
       name: Nominatim
@@ -2821,7 +2821,7 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: NLSC (Taiwan)
@@ -2847,7 +2847,7 @@ stack:
       - Breezy Weather
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 4.3
       mcp:
         status: none
       name: GeoNames
@@ -2871,12 +2871,12 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 25.7
       apps:
       - wttr.in
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.7
       mcp: *id003
       name: Nominatim
       slug: nominatim
@@ -2887,12 +2887,12 @@ stack:
       tier: observed
       url: /providers/nominatim/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.7
       apps:
       - wttr.in
       band: minimal
       in_catalog: true
-      kin_score: 7.9
+      kin_score: 8.5
       mcp:
         source: https://github.com/OpenCageData/opencage-geocoding-mcp
         status: verified
@@ -2913,7 +2913,7 @@ stack:
       - wttr.in
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: none
       name: LocationIQ
@@ -2936,12 +2936,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 23.7
       apps:
       - wttr.in
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 31.5
       mcp:
         status: none
       name: MaxMind GeoLite2
@@ -2965,12 +2965,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - AccuWeather
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -2994,12 +2994,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Windy
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3023,28 +3023,28 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - AccuWeather
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics / Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.accuweather.android/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.30
@@ -3054,12 +3054,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - AccuWeather
       band: thin
       in_catalog: true
-      kin_score: 27.9
+      kin_score: 28.3
       mcp:
         source: https://github.com/urbanairship/agent-tools
         status: verified
@@ -3084,12 +3084,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Windy
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook Analytics / Login / Share
@@ -3116,7 +3116,7 @@ summary:
     unchecked: 3
     verified: 6
   mcp_verified: 6
-  mean_kin_score: 18.0
+  mean_kin_score: 18.8
   observed: 69
   queued: 3
   reference_apps: 7

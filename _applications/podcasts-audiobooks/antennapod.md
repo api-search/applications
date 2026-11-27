@@ -60,10 +60,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id001
       status: none
     slug: apple
@@ -93,7 +93,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 2.9
     mcp: &id003
       status: unknown
     slug: fyyd
@@ -120,10 +120,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id005
       source: https://github.com/google/mcp
       status: verified
@@ -151,10 +151,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.7
+    agent_readiness: 13.0
     band: emerging
     in_catalog: true
-    kin_score: 16.5
+    kin_score: 18.8
     mcp: &id007
       status: none
     slug: gpodder
@@ -181,10 +181,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id009
       status: none
     slug: nextcloud
@@ -211,10 +211,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 24.9
     band: thin
     in_catalog: true
-    kin_score: 27.8
+    kin_score: 28.0
     mcp: &id011
       status: none
     slug: podcastindex
@@ -239,10 +239,10 @@ noindex: false
 permalink: /applications/podcasts-audiobooks/antennapod/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id001
   name: Apple (iTunes Search API)
   slug: apple
@@ -253,7 +253,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 2.9
   mcp: *id003
   name: fyyd
   slug: fyyd
@@ -261,10 +261,10 @@ providers:
   tags: *id004
   url: /providers/fyyd/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id005
   name: Google Cast
   slug: google
@@ -272,10 +272,10 @@ providers:
   tags: *id006
   url: /providers/google/
 - agent_band: agent-aware
-  agent_readiness: 12.7
+  agent_readiness: 13.0
   band: emerging
   in_catalog: true
-  kin_score: 16.5
+  kin_score: 18.8
   mcp: *id007
   name: gpodder.net
   slug: gpodder
@@ -283,10 +283,10 @@ providers:
   tags: *id008
   url: /providers/gpodder/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id009
   name: Nextcloud (gpodder sync app)
   slug: nextcloud
@@ -294,10 +294,10 @@ providers:
   tags: *id010
   url: /providers/nextcloud/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 24.9
   band: thin
   in_catalog: true
-  kin_score: 27.8
+  kin_score: 28.0
   mcp: *id011
   name: PodcastIndex
   slug: podcastindex

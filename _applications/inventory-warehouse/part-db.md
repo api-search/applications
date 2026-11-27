@@ -101,7 +101,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 18.8
+    kin_score: 19.3
     mcp: &id003
       status: none
     slug: bambu-lab
@@ -131,7 +131,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.4
     mcp: &id005
       status: unknown
     slug: buerklin
@@ -181,10 +181,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.4
+    kin_score: 4.5
     mcp: &id009
       status: unknown
     slug: conrad
@@ -211,10 +211,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.1
+    agent_readiness: 27.5
     band: developing
     in_catalog: true
-    kin_score: 47.2
+    kin_score: 53.9
     mcp: &id011
       status: none
     slug: digi-key
@@ -244,7 +244,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.1
+    kin_score: 3.5
     mcp: &id013
       status: none
     slug: element14
@@ -274,7 +274,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.7
+    kin_score: 3.8
     mcp: &id015
       status: unknown
     slug: lcsc
@@ -301,10 +301,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.2
+    agent_readiness: 22.5
     band: thin
     in_catalog: true
-    kin_score: 30.1
+    kin_score: 32.2
     mcp: &id017
       status: none
     slug: lm-studio
@@ -334,7 +334,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 2.7
+    kin_score: 1.8
     mcp: &id019
       status: none
     slug: mouser
@@ -361,7 +361,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.8
+    kin_score: 7.2
     mcp: &id021
       status: none
     slug: octopart
@@ -386,10 +386,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 1.1
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.4
     mcp: &id023
       status: unknown
     slug: oemsecrets
@@ -416,7 +416,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id025
       status: none
     slug: ollama
@@ -443,10 +443,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 46.4
     band: strong
     in_catalog: true
-    kin_score: 55.4
+    kin_score: 54.8
     mcp: &id027
       source: https://openrouter.ai/docs/guides/overview/mcp-server
       status: verified
@@ -475,9 +475,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 2.5
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.4
+    kin_score: 13.8
     mcp: &id029
       status: unknown
     slug: pollin
@@ -507,7 +507,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.9
+    kin_score: 7.9
     mcp: &id031
       status: none
     slug: pololu
@@ -537,7 +537,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 2.2
     mcp: &id033
       status: unknown
     slug: reichelt
@@ -565,9 +565,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.4
+    kin_score: 14.6
     mcp: &id035
       status: none
     slug: sparkfun
@@ -594,10 +594,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 21.7
     band: emerging
     in_catalog: true
-    kin_score: 15.2
+    kin_score: 17.0
     mcp: &id037
       status: unknown
     slug: tme
@@ -621,10 +621,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.4
+    agent_readiness: 14.1
     band: minimal
     in_catalog: true
-    kin_score: 4.3
+    kin_score: 3.7
     mcp: &id039
       status: none
     slug: trustedparts
@@ -663,7 +663,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 18.8
+  kin_score: 19.3
   mcp: *id003
   name: Bambu Lab
   slug: bambu-lab
@@ -674,7 +674,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.4
   mcp: *id005
   name: Buerklin
   slug: buerklin
@@ -693,10 +693,10 @@ providers:
   tags: *id008
   url: null
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.4
+  kin_score: 4.5
   mcp: *id009
   name: Conrad Electronic
   slug: conrad
@@ -704,10 +704,10 @@ providers:
   tags: *id010
   url: /providers/conrad/
 - agent_band: agent-aware
-  agent_readiness: 28.1
+  agent_readiness: 27.5
   band: developing
   in_catalog: true
-  kin_score: 47.2
+  kin_score: 53.9
   mcp: *id011
   name: Digi-Key
   slug: digi-key
@@ -718,7 +718,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.1
+  kin_score: 3.5
   mcp: *id013
   name: element14 / Farnell
   slug: element14
@@ -729,7 +729,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.7
+  kin_score: 3.8
   mcp: *id015
   name: LCSC Electronics
   slug: lcsc
@@ -737,10 +737,10 @@ providers:
   tags: *id016
   url: /providers/lcsc/
 - agent_band: agent-aware
-  agent_readiness: 18.2
+  agent_readiness: 22.5
   band: thin
   in_catalog: true
-  kin_score: 30.1
+  kin_score: 32.2
   mcp: *id017
   name: LM Studio
   slug: lm-studio
@@ -751,7 +751,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 2.7
+  kin_score: 1.8
   mcp: *id019
   name: Mouser Electronics
   slug: mouser
@@ -762,7 +762,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.8
+  kin_score: 7.2
   mcp: *id021
   name: Octopart
   slug: octopart
@@ -770,10 +770,10 @@ providers:
   tags: *id022
   url: /providers/octopart/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 1.1
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.4
   mcp: *id023
   name: OEMsecrets
   slug: oemsecrets
@@ -784,7 +784,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id025
   name: Ollama
   slug: ollama
@@ -792,10 +792,10 @@ providers:
   tags: *id026
   url: /providers/ollama/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 46.4
   band: strong
   in_catalog: true
-  kin_score: 55.4
+  kin_score: 54.8
   mcp: *id027
   name: OpenRouter
   slug: openrouter
@@ -804,9 +804,9 @@ providers:
   url: /providers/openrouter/
 - agent_band: human-only
   agent_readiness: 2.5
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.4
+  kin_score: 13.8
   mcp: *id029
   name: Pollin Electronic
   slug: pollin
@@ -817,7 +817,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.9
+  kin_score: 7.9
   mcp: *id031
   name: Pololu
   slug: pololu
@@ -828,7 +828,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 2.2
   mcp: *id033
   name: Reichelt Elektronik
   slug: reichelt
@@ -837,9 +837,9 @@ providers:
   url: /providers/reichelt/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.4
+  kin_score: 14.6
   mcp: *id035
   name: SparkFun Electronics
   slug: sparkfun
@@ -847,10 +847,10 @@ providers:
   tags: *id036
   url: /providers/sparkfun/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 21.7
   band: emerging
   in_catalog: true
-  kin_score: 15.2
+  kin_score: 17.0
   mcp: *id037
   name: TME (Transfer Multisort Elektronik)
   slug: tme
@@ -858,10 +858,10 @@ providers:
   tags: *id038
   url: /providers/tme/
 - agent_band: agent-aware
-  agent_readiness: 14.4
+  agent_readiness: 14.1
   band: minimal
   in_catalog: true
-  kin_score: 4.3
+  kin_score: 3.7
   mcp: *id039
   name: TrustedParts
   slug: trustedparts

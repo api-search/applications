@@ -1485,12 +1485,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.0
+      agent_readiness: 42.1
       apps:
       - Homebase
       band: exemplar
       in_catalog: true
-      kin_score: 86.5
+      kin_score: 84.5
       mcp:
         status: none
       name: Lightspeed
@@ -1506,12 +1506,12 @@ stack:
       tier: declared
       url: /providers/lightspeed/
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - Homebase
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -1528,12 +1528,12 @@ stack:
       tier: declared
       url: /providers/shopify/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - Homebase
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp:
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -1550,12 +1550,12 @@ stack:
       tier: declared
       url: /providers/square/
     - agent_band: agent-ready
-      agent_readiness: 39.6
+      agent_readiness: 38.8
       apps:
       - Homebase
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 68.3
       mcp:
         status: none
       name: Toast
@@ -1571,12 +1571,12 @@ stack:
       tier: declared
       url: /providers/toast/
     - agent_band: agent-ready
-      agent_readiness: 36.5
+      agent_readiness: 33.1
       apps:
       - Homebase
       band: developing
       in_catalog: true
-      kin_score: 39.9
+      kin_score: 41.3
       mcp:
         status: none
       name: Clover
@@ -1592,12 +1592,12 @@ stack:
       tier: declared
       url: /providers/clover/
     - agent_band: agent-ready
-      agent_readiness: 41.5
+      agent_readiness: 37.6
       apps:
       - Homebase
       band: thin
       in_catalog: true
-      kin_score: 35.3
+      kin_score: 38.6
       mcp:
         status: none
       name: PAR
@@ -1613,12 +1613,12 @@ stack:
       tier: declared
       url: /providers/par-technology/
     - agent_band: agent-ready
-      agent_readiness: 36.7
+      agent_readiness: 36.4
       apps:
       - Homebase
       band: thin
       in_catalog: true
-      kin_score: 31.7
+      kin_score: 30.4
       mcp:
         source: https://developer.godaddy.com/mcp
         status: verified
@@ -1640,7 +1640,7 @@ stack:
       - Homebase
       band: emerging
       in_catalog: true
-      kin_score: 16.1
+      kin_score: 15.0
       mcp:
         source: https://github.com/globalpayments/mcp-server
         status: verified
@@ -1664,13 +1664,13 @@ stack:
       url: /capabilities/hr-operations-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Homebase
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp: &id001
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -1687,12 +1687,12 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-ready
-      agent_readiness: 35.7
+      agent_readiness: 39.8
       apps:
       - Homebase
       band: developing
       in_catalog: true
-      kin_score: 43.7
+      kin_score: 45.6
       mcp:
         status: none
       name: ADP
@@ -1708,12 +1708,12 @@ stack:
       tier: declared
       url: /providers/adp/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 31.7
       apps:
       - Homebase
       band: developing
       in_catalog: true
-      kin_score: 42.0
+      kin_score: 44.9
       mcp:
         status: none
       name: Gusto
@@ -1728,13 +1728,13 @@ stack:
       - Payroll
       tier: declared
       url: /providers/gusto/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
+    - agent_band: agent-ready
+      agent_readiness: 29.3
       apps:
       - Homebase
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 37.8
       mcp:
         status: none
       name: Paychex
@@ -1750,12 +1750,12 @@ stack:
       tier: declared
       url: /providers/paychex-developer/
     - agent_band: agent-aware
-      agent_readiness: 18.0
+      agent_readiness: 14.8
       apps:
       - Homebase
       band: emerging
       in_catalog: true
-      kin_score: 15.5
+      kin_score: 19.9
       mcp:
         status: none
       name: SurePayroll
@@ -1813,12 +1813,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 38.3
       apps:
       - Deel
       band: strong
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 54.7
       mcp:
         status: none
       name: Workday
@@ -1834,12 +1834,12 @@ stack:
       tier: declared
       url: /providers/workday/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 26.3
       apps:
       - Deel
       band: developing
       in_catalog: true
-      kin_score: 40.9
+      kin_score: 40.7
       mcp:
         source: https://documentation.bamboohr.com/docs/mcp-server
         status: verified
@@ -1856,12 +1856,12 @@ stack:
       tier: declared
       url: /providers/bamboohr/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 41.0
       apps:
       - Deel
       band: thin
       in_catalog: true
-      kin_score: 31.4
+      kin_score: 29.8
       mcp:
         status: none
       name: Personio
@@ -1877,12 +1877,12 @@ stack:
       tier: declared
       url: /providers/personio/
     - agent_band: agent-aware
-      agent_readiness: 19.7
+      agent_readiness: 19.3
       apps:
       - Deel
       band: thin
       in_catalog: true
-      kin_score: 30.4
+      kin_score: 29.3
       mcp:
         source: https://apidocs.hibob.com/docs/hibob-mcp-server
         status: verified
@@ -1899,12 +1899,12 @@ stack:
       tier: declared
       url: /providers/bob/
     - agent_band: agent-aware
-      agent_readiness: 24.3
+      agent_readiness: 23.8
       apps:
       - Deel
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 26.1
+      kin_score: 26.2
       mcp:
         status: none
       name: SAP SuccessFactors
@@ -1928,12 +1928,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 58.8
+      agent_readiness: 60.3
       apps:
       - Deel
       band: exemplar
       in_catalog: true
-      kin_score: 79.7
+      kin_score: 77.9
       mcp:
         status: none
       name: Greenhouse
@@ -1949,7 +1949,7 @@ stack:
       tier: declared
       url: /providers/greenhouse/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 31.2
       apps:
       - Deel
       band: developing
@@ -1973,9 +1973,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Deel
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.1
+      kin_score: 33.3
       mcp:
         status: none
       name: JobzMall
@@ -1996,7 +1996,7 @@ stack:
       - Deel
       band: emerging
       in_catalog: true
-      kin_score: 15.5
+      kin_score: 20.0
       mcp:
         status: unknown
       name: FloCareer
@@ -2020,12 +2020,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.8
+      agent_readiness: 19.4
       apps:
       - Deel
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 44.7
       mcp:
         status: none
       name: Human Interest
@@ -2044,9 +2044,9 @@ stack:
       agent_readiness: 2.5
       apps:
       - Deel
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.1
+      kin_score: 26.7
       mcp:
         status: none
       name: Employee Navigator
@@ -2062,12 +2062,12 @@ stack:
       tier: declared
       url: /providers/employeenavigator/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - Deel
       band: emerging
       in_catalog: true
-      kin_score: 17.5
+      kin_score: 20.9
       mcp:
         status: none
       name: Pave
@@ -2096,7 +2096,7 @@ stack:
       - Deel
       band: emerging
       in_catalog: true
-      kin_score: 14.1
+      kin_score: 19.0
       mcp:
         status: unknown
       name: Pangea (contract-to-hire)
@@ -2115,9 +2115,9 @@ stack:
       agent_readiness: 2.5
       apps:
       - Deel
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.6
+      kin_score: 11.1
       mcp:
         status: none
       name: Webstarted
@@ -2158,12 +2158,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.7
+      agent_readiness: 43.0
       apps:
       - Deel
       band: thin
       in_catalog: true
-      kin_score: 33.7
+      kin_score: 33.0
       mcp:
         status: none
       name: Hubstaff
@@ -2179,12 +2179,12 @@ stack:
       tier: declared
       url: /providers/hubstaff/
     - agent_band: agent-ready
-      agent_readiness: 38.0
+      agent_readiness: 38.2
       apps:
       - Deel
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.4
+      kin_score: 29.9
       mcp:
         source: https://www.timedoctor.com/mcp
         status: verified
@@ -2214,7 +2214,7 @@ stack:
       - Deel
       band: emerging
       in_catalog: true
-      kin_score: 15.7
+      kin_score: 14.2
       mcp:
         status: none
       name: Snappy Gifts
@@ -2237,13 +2237,13 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Horilla
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2267,13 +2267,13 @@ stack:
       url: /capabilities/video-calling/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 17.2
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Horilla
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 52.2
       mcp:
         status: none
       name: Google Meet
@@ -2298,8 +2298,8 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - ADP Mobile Solutions
       - Connecteam
@@ -2307,34 +2307,34 @@ stack:
       - Homebase
       - Paylocity
       - Workday
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id003
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase (Crashlytics / Analytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.adpmobile.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.connecteamco.Connecteam.app/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.deel.app/latest/
       status: profiled
       tags: &id004
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Deel
       - Homebase
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -2352,13 +2352,13 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - ADP Mobile Solutions
       - Paylocity
       band: strong
       in_catalog: true
-      kin_score: 56.4
+      kin_score: 57.0
       mcp:
         source: https://support.pendo.io/hc/en-us/articles/41102236924955
         status: verified
@@ -2376,12 +2376,12 @@ stack:
       tier: observed
       url: /providers/pendoio/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - ADP Mobile Solutions
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -2406,12 +2406,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Deel
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -2427,13 +2427,13 @@ stack:
       - Financial Services
       tier: declared
       url: /providers/xero/
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Deel
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp: *id001
       name: QuickBooks
       slug: quickbooks
@@ -2444,12 +2444,12 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-ready
-      agent_readiness: 31.6
+      agent_readiness: 34.1
       apps:
       - Deel
       band: developing
       in_catalog: true
-      kin_score: 47.6
+      kin_score: 49.3
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=io.puzzle/puzzle
         status: verified
@@ -2466,12 +2466,12 @@ stack:
       tier: declared
       url: /providers/puzzle/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.6
       apps:
       - Deel
       band: developing
       in_catalog: true
-      kin_score: 41.8
+      kin_score: 41.7
       mcp:
         status: none
       name: Sage
@@ -2486,34 +2486,13 @@ stack:
       - ERP
       tier: declared
       url: /providers/sage/
-    - agent_band: human-only
-      agent_readiness: 0.0
+    - agent_band: agent-aware
+      agent_readiness: 5.6
       apps:
       - Deel
       band: emerging
       in_catalog: true
-      kin_score: 12.5
-      mcp:
-        status: none
-      name: NetSuite
-      slug: netsuite
-      sources:
-      - https://www.deel.com/integrations/
-      status: profiled
-      tags:
-      - Accounting
-      - CRM
-      - ERP
-      - Finance
-      tier: declared
-      url: /providers/netsuite/
-    - agent_band: agent-aware
-      agent_readiness: 8.6
-      apps:
-      - Deel
-      band: minimal
-      in_catalog: true
-      kin_score: 9.5
+      kin_score: 13.6
       mcp:
         status: unknown
       name: Fizard
@@ -2532,9 +2511,30 @@ stack:
       agent_readiness: 0.0
       apps:
       - Deel
+      band: emerging
+      in_catalog: true
+      kin_score: 11.4
+      mcp:
+        status: none
+      name: NetSuite
+      slug: netsuite
+      sources:
+      - https://www.deel.com/integrations/
+      status: profiled
+      tags:
+      - Accounting
+      - CRM
+      - ERP
+      - Finance
+      tier: declared
+      url: /providers/netsuite/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Deel
       band: minimal
       in_catalog: true
-      kin_score: 7.2
+      kin_score: 10.1
       mcp:
         status: none
       name: DATEV
@@ -2564,7 +2564,7 @@ stack:
       - Deel
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2582,12 +2582,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Connecteam
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -2612,12 +2612,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 48.9
+      agent_readiness: 47.9
       apps:
       - Deel
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.2
+      kin_score: 66.5
       mcp:
         status: none
       name: Spendesk
@@ -2633,12 +2633,12 @@ stack:
       tier: declared
       url: /providers/spendesk/
     - agent_band: agent-aware
-      agent_readiness: 13.7
+      agent_readiness: 14.8
       apps:
       - Deel
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 17.3
+      kin_score: 26.9
       mcp:
         source: https://www.getmoss.com
         status: documented
@@ -2663,12 +2663,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 24.8
       apps:
       - Homebase
       band: developing
       in_catalog: true
-      kin_score: 42.9
+      kin_score: 43.4
       mcp:
         status: none
       name: Wells Fargo
@@ -2683,12 +2683,12 @@ stack:
       tier: declared
       url: /providers/wells-fargo/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 29.2
       apps:
       - Homebase
       band: thin
       in_catalog: true
-      kin_score: 38.3
+      kin_score: 36.3
       mcp:
         status: none
       name: Bank of America
@@ -2712,12 +2712,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.9
+      agent_readiness: 43.0
       apps:
       - Deel
       band: exemplar
       in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.7
       mcp:
         source: https://github.com/gemini-cli-extensions/workspace
         status: verified
@@ -2733,13 +2733,13 @@ stack:
       - Productivity
       tier: declared
       url: /providers/google-workspace/
-    - agent_band: agent-aware
-      agent_readiness: 23.2
+    - agent_band: agent-ready
+      agent_readiness: 31.3
       apps:
       - Deel
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 33.6
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=jumpcloud
         status: verified
@@ -2764,34 +2764,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 34.8
       apps:
       - Horilla
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
-      mcp:
-        source: https://github.com/googleapis/gcloud-mcp
-        status: verified
-      name: Google Cloud Storage
-      slug: gcp-cloud-storage
-      sources:
-      - https://raw.githubusercontent.com/horilla/horilla-hr/master/requirements.txt
-      status: profiled
-      tags:
-      - Archival
-      - Backup
-      - Blob Storage
-      - Cloud Storage
-      tier: observed
-      url: /providers/gcp-cloud-storage/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
-      apps:
-      - Horilla
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2807,6 +2785,28 @@ stack:
       - Cloud Storage
       tier: observed
       url: /providers/amazon-s3/
+    - agent_band: agent-ready
+      agent_readiness: 45.1
+      apps:
+      - Horilla
+      band: exemplar
+      in_catalog: true
+      kin_score: 74.1
+      mcp:
+        source: https://github.com/googleapis/gcloud-mcp
+        status: verified
+      name: Google Cloud Storage
+      slug: gcp-cloud-storage
+      sources:
+      - https://raw.githubusercontent.com/horilla/horilla-hr/master/requirements.txt
+      status: profiled
+      tags:
+      - Archival
+      - Backup
+      - Blob Storage
+      - Cloud Storage
+      tier: observed
+      url: /providers/gcp-cloud-storage/
   - capability:
       attribution: API Evangelist extension
       id: AE-170.30.30
@@ -2816,12 +2816,12 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.9
+      agent_readiness: 26.8
       apps:
       - Paylocity
       band: strong
       in_catalog: true
-      kin_score: 55.6
+      kin_score: 56.0
       mcp:
         status: none
       name: GIPHY
@@ -2845,12 +2845,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 19.6
       apps:
       - Workday
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 45.7
       mcp:
         status: none
       name: Qualtrics
@@ -2874,12 +2874,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.9
       apps:
       - ADP Mobile Solutions
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 35.9
       mcp:
         status: none
       name: Split (Harness FME)
@@ -2903,12 +2903,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Deel
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2933,12 +2933,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Homebase
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -2963,12 +2963,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - Paylocity
       band: strong
       in_catalog: true
-      kin_score: 56.1
+      kin_score: 55.6
       mcp:
         source: https://github.com/IABTechLab/agentic-real-time-framework
         status: verified
@@ -2992,22 +2992,22 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Frappe HR
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/frappe/hrms/develop/frontend/public/frappe-push-notification.js
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-911
@@ -3017,12 +3017,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - ADP Mobile Solutions
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -3046,12 +3046,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Horilla
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft Entra ID sign-in
@@ -3075,7 +3075,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.1
+      agent_readiness: 34.4
       apps:
       - Deel
       band: exemplar
@@ -3105,12 +3105,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 39.0
       apps:
       - Horilla
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 69.7
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3135,12 +3135,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Horilla
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp Cloud API
@@ -3167,7 +3167,7 @@ summary:
     unchecked: 3
     verified: 26
   mcp_verified: 26
-  mean_kin_score: 46.8
+  mean_kin_score: 48.8
   observed: 19
   queued: 3
   reference_apps: 9

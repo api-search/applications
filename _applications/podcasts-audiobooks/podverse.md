@@ -83,10 +83,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.8
-    band: strong
+    agent_readiness: 37.9
+    band: exemplar
     in_catalog: true
-    kin_score: 60.5
+    kin_score: 68.5
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -114,10 +114,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.6
+    agent_readiness: 35.9
     band: thin
     in_catalog: true
-    kin_score: 34.0
+    kin_score: 33.9
     mcp: &id003
       status: none
     slug: bitpay
@@ -143,22 +143,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id005
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id006
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Cloud Messaging
   provider: firebase
@@ -178,7 +178,7 @@ integrations:
     agent_readiness: 23.8
     band: thin
     in_catalog: true
-    kin_score: 29.2
+    kin_score: 28.2
     mcp: &id007
       source: https://github.com/manticoresoftware/mcp-manticore
       status: verified
@@ -206,10 +206,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.4
+    agent_readiness: 41.3
     band: exemplar
     in_catalog: true
-    kin_score: 72.2
+    kin_score: 70.7
     mcp: &id009
       source: https://github.com/matomo-org/plugin-McpServer
       status: verified
@@ -237,10 +237,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id011
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -268,10 +268,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 24.9
     band: thin
     in_catalog: true
-    kin_score: 27.8
+    kin_score: 28.0
     mcp: &id013
       status: none
     slug: podcastindex
@@ -296,10 +296,10 @@ noindex: false
 permalink: /applications/podcasts-audiobooks/podverse/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 40.8
-  band: strong
+  agent_readiness: 37.9
+  band: exemplar
   in_catalog: true
-  kin_score: 60.5
+  kin_score: 68.5
   mcp: *id001
   name: AWS
   slug: amazon-web-services
@@ -307,32 +307,32 @@ providers:
   tags: *id002
   url: /providers/amazon-web-services/
 - agent_band: agent-ready
-  agent_readiness: 36.6
+  agent_readiness: 35.9
   band: thin
   in_catalog: true
-  kin_score: 34.0
+  kin_score: 33.9
   mcp: *id003
   name: BitPay
   slug: bitpay
   status: profiled
   tags: *id004
   url: /providers/bitpay/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id005
   name: Firebase Cloud Messaging
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id006
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-aware
   agent_readiness: 23.8
   band: thin
   in_catalog: true
-  kin_score: 29.2
+  kin_score: 28.2
   mcp: *id007
   name: Manticore Search
   slug: manticore
@@ -340,10 +340,10 @@ providers:
   tags: *id008
   url: /providers/manticore/
 - agent_band: agent-ready
-  agent_readiness: 37.4
+  agent_readiness: 41.3
   band: exemplar
   in_catalog: true
-  kin_score: 72.2
+  kin_score: 70.7
   mcp: *id009
   name: Matomo
   slug: matomo
@@ -351,10 +351,10 @@ providers:
   tags: *id010
   url: /providers/matomo/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id011
   name: PayPal
   slug: paypal
@@ -362,10 +362,10 @@ providers:
   tags: *id012
   url: /providers/paypal/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 24.9
   band: thin
   in_catalog: true
-  kin_score: 27.8
+  kin_score: 28.0
   mcp: *id013
   name: PodcastIndex
   slug: podcastindex

@@ -63,10 +63,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.9
-    band: exemplar
+    agent_readiness: 50.4
+    band: strong
     in_catalog: true
-    kin_score: 67.9
+    kin_score: 65.1
     mcp: &id001
       status: none
     slug: cpanel
@@ -93,10 +93,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: emerging
+    agent_readiness: 14.5
+    band: thin
     in_catalog: true
-    kin_score: 23.5
+    kin_score: 27.6
     mcp: &id003
       status: unknown
     slug: directadmin
@@ -124,9 +124,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.4
+    kin_score: 13.2
     mcp: &id005
       status: none
     slug: domainfactory
@@ -153,10 +153,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 31.8
     band: developing
     in_catalog: true
-    kin_score: 48.4
+    kin_score: 49.5
     mcp: &id009
       status: none
     slug: have-i-been-pwned
@@ -183,10 +183,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.6
+    agent_readiness: 22.2
     band: thin
     in_catalog: true
-    kin_score: 32.8
+    kin_score: 32.2
     mcp: &id011
       status: none
     slug: mail-in-a-box
@@ -213,10 +213,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.4
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 8.5
+    kin_score: 12.4
     mcp: &id013
       status: none
     slug: mailcow
@@ -243,10 +243,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.5
-    band: thin
+    agent_readiness: 23.8
+    band: developing
     in_catalog: true
-    kin_score: 35.3
+    kin_score: 39.5
     mcp: &id015
       status: none
     slug: modoboa
@@ -273,10 +273,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.7
-    band: thin
+    agent_readiness: 19.3
+    band: developing
     in_catalog: true
-    kin_score: 34.7
+    kin_score: 45.2
     mcp: &id019
       status: none
     slug: plesk
@@ -303,10 +303,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.1
+    agent_readiness: 14.8
     band: thin
     in_catalog: true
-    kin_score: 27.5
+    kin_score: 32.6
     mcp: &id021
       status: none
     slug: stalwart
@@ -332,11 +332,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id007
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -364,10 +364,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.5
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 70.6
+    kin_score: 70.8
     mcp: &id017
       source: https://github.com/microsoft/mcp
       status: verified
@@ -393,10 +393,10 @@ noindex: false
 permalink: /applications/email-client/roundcube-webmail/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 54.9
-  band: exemplar
+  agent_readiness: 50.4
+  band: strong
   in_catalog: true
-  kin_score: 67.9
+  kin_score: 65.1
   mcp: *id001
   name: cPanel
   slug: cpanel
@@ -404,10 +404,10 @@ providers:
   tags: *id002
   url: /providers/cpanel/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: emerging
+  agent_readiness: 14.5
+  band: thin
   in_catalog: true
-  kin_score: 23.5
+  kin_score: 27.6
   mcp: *id003
   name: DirectAdmin
   slug: directadmin
@@ -416,20 +416,20 @@ providers:
   url: /providers/directadmin/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.4
+  kin_score: 13.2
   mcp: *id005
   name: DomainFactory
   slug: domainfactory
   status: profiled
   tags: *id006
   url: /providers/domainfactory/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id007
   name: Gmail
   slug: google-gmail
@@ -437,10 +437,10 @@ providers:
   tags: *id008
   url: /providers/google-gmail/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 31.8
   band: developing
   in_catalog: true
-  kin_score: 48.4
+  kin_score: 49.5
   mcp: *id009
   name: Have I Been Pwned
   slug: have-i-been-pwned
@@ -448,10 +448,10 @@ providers:
   tags: *id010
   url: /providers/have-i-been-pwned/
 - agent_band: agent-aware
-  agent_readiness: 22.6
+  agent_readiness: 22.2
   band: thin
   in_catalog: true
-  kin_score: 32.8
+  kin_score: 32.2
   mcp: *id011
   name: Mail-in-a-Box
   slug: mail-in-a-box
@@ -459,10 +459,10 @@ providers:
   tags: *id012
   url: /providers/mail-in-a-box/
 - agent_band: agent-aware
-  agent_readiness: 14.4
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 8.5
+  kin_score: 12.4
   mcp: *id013
   name: mailcow
   slug: mailcow
@@ -470,10 +470,10 @@ providers:
   tags: *id014
   url: /providers/mailcow/
 - agent_band: agent-aware
-  agent_readiness: 26.5
-  band: thin
+  agent_readiness: 23.8
+  band: developing
   in_catalog: true
-  kin_score: 35.3
+  kin_score: 39.5
   mcp: *id015
   name: Modoboa
   slug: modoboa
@@ -481,10 +481,10 @@ providers:
   tags: *id016
   url: /providers/modoboa/
 - agent_band: agent-ready
-  agent_readiness: 49.5
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 70.6
+  kin_score: 70.8
   mcp: *id017
   name: Outlook.com
   slug: microsoft-outlook
@@ -492,10 +492,10 @@ providers:
   tags: *id018
   url: /providers/microsoft-outlook/
 - agent_band: agent-aware
-  agent_readiness: 19.7
-  band: thin
+  agent_readiness: 19.3
+  band: developing
   in_catalog: true
-  kin_score: 34.7
+  kin_score: 45.2
   mcp: *id019
   name: Plesk
   slug: plesk
@@ -503,10 +503,10 @@ providers:
   tags: *id020
   url: /providers/plesk/
 - agent_band: agent-aware
-  agent_readiness: 15.1
+  agent_readiness: 14.8
   band: thin
   in_catalog: true
-  kin_score: 27.5
+  kin_score: 32.6
   mcp: *id021
   name: Stalwart
   slug: stalwart

@@ -70,10 +70,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.4
+    agent_readiness: 38.0
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 83.8
     mcp: &id001
       status: none
     slug: amazon-ses
@@ -100,10 +100,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.1
+    agent_readiness: 27.5
     band: developing
     in_catalog: true
-    kin_score: 47.2
+    kin_score: 53.9
     mcp: &id003
       status: none
     slug: digi-key
@@ -129,11 +129,11 @@ integrations:
     via_parent: Market & Financial Data
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 41.4
+    agent_band: agent-native
+    agent_readiness: 46.7
     band: thin
     in_catalog: true
-    kin_score: 33.5
+    kin_score: 33.2
     mcp: &id005
       source: https://github.com/lineofflight/frankfurter-mcp
       status: verified
@@ -164,7 +164,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.7
+    kin_score: 3.8
     mcp: &id007
       status: unknown
     slug: lcsc
@@ -194,7 +194,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 2.7
+    kin_score: 1.8
     mcp: &id009
       status: none
     slug: mouser
@@ -218,10 +218,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
-    band: emerging
+    agent_readiness: 16.9
+    band: thin
     in_catalog: true
-    kin_score: 25.5
+    kin_score: 28.1
     mcp: &id011
       status: none
     slug: postal-server
@@ -251,7 +251,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id013
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -279,10 +279,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 21.7
     band: emerging
     in_catalog: true
-    kin_score: 15.2
+    kin_score: 17.0
     mcp: &id015
       status: unknown
     slug: tme
@@ -304,10 +304,10 @@ noindex: false
 permalink: /applications/inventory-warehouse/inventree/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 39.4
+  agent_readiness: 38.0
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 83.8
   mcp: *id001
   name: Amazon SES
   slug: amazon-ses
@@ -315,21 +315,21 @@ providers:
   tags: *id002
   url: /providers/amazon-ses/
 - agent_band: agent-aware
-  agent_readiness: 28.1
+  agent_readiness: 27.5
   band: developing
   in_catalog: true
-  kin_score: 47.2
+  kin_score: 53.9
   mcp: *id003
   name: Digi-Key
   slug: digi-key
   status: profiled
   tags: *id004
   url: /providers/digi-key/
-- agent_band: agent-ready
-  agent_readiness: 41.4
+- agent_band: agent-native
+  agent_readiness: 46.7
   band: thin
   in_catalog: true
-  kin_score: 33.5
+  kin_score: 33.2
   mcp: *id005
   name: Frankfurter
   slug: frankfurter
@@ -340,7 +340,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.7
+  kin_score: 3.8
   mcp: *id007
   name: LCSC Electronics
   slug: lcsc
@@ -351,7 +351,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 2.7
+  kin_score: 1.8
   mcp: *id009
   name: Mouser Electronics
   slug: mouser
@@ -359,10 +359,10 @@ providers:
   tags: *id010
   url: /providers/mouser/
 - agent_band: agent-aware
-  agent_readiness: 19.9
-  band: emerging
+  agent_readiness: 16.9
+  band: thin
   in_catalog: true
-  kin_score: 25.5
+  kin_score: 28.1
   mcp: *id011
   name: Postal (postalserver.io)
   slug: postal-server
@@ -373,7 +373,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id013
   name: Sentry
   slug: sentry-system
@@ -381,10 +381,10 @@ providers:
   tags: *id014
   url: /providers/sentry-system/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 21.7
   band: emerging
   in_catalog: true
-  kin_score: 15.2
+  kin_score: 17.0
   mcp: *id015
   name: TME (Transfer Multisort Elektronik)
   slug: tme

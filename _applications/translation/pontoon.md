@@ -129,10 +129,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id003
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -160,10 +160,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id005
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -191,10 +191,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id007
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -221,21 +221,22 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 21.5
+    agent_band: agent-ready
+    agent_readiness: 42.2
     band: strong
     in_catalog: true
-    kin_score: 54.8
+    kin_score: 63.2
     mcp: &id009
-      status: none
-    slug: google-cloud-automl
+      source: https://github.com/googleapis/gcloud-mcp
+      status: verified
+    slug: google-vertex-ai
     status: profiled
     tags: &id010
-    - AutoML
-    - Custom Models
+    - Artificial Intelligence
+    - Generative AI
     - Google Cloud
     - Machine Learning
-    url: /providers/google-cloud-automl/
+    url: /providers/google-vertex-ai/
   layer: domain
   name: Google Cloud AutoML Translation
   provider: google-cloud-automl
@@ -251,11 +252,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.9
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 33.9
+    band: exemplar
     in_catalog: true
-    kin_score: 51.6
+    kin_score: 68.0
     mcp: &id011
       status: none
     slug: google-translate
@@ -281,11 +282,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id013
       status: none
     slug: google-identity-platform
@@ -337,11 +338,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.9
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 32.2
+    band: strong
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 62.4
     mcp: &id017
       source: https://github.com/microsoft/azure-speech-mcp-server
       status: verified
@@ -369,10 +370,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 9.4
+    agent_readiness: 6.3
     band: emerging
     in_catalog: true
-    kin_score: 17.7
+    kin_score: 22.9
     mcp: &id019
       status: none
     slug: mozilla-accounts
@@ -399,10 +400,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: exemplar
     in_catalog: true
-    kin_score: 76.5
+    kin_score: 74.4
     mcp: &id021
       source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
       status: verified
@@ -430,10 +431,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id023
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -461,10 +462,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id025
       status: none
     slug: sendgrid
@@ -500,10 +501,10 @@ providers:
   tags: *id002
   url: /providers/caighdean/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id003
   name: GitHub
   slug: github
@@ -511,10 +512,10 @@ providers:
   tags: *id004
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id005
   name: GitLab
   slug: gitlab
@@ -522,43 +523,43 @@ providers:
   tags: *id006
   url: /providers/gitlab/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id007
   name: Google Analytics
   slug: google-analytics
   status: profiled
   tags: *id008
   url: /providers/google-analytics/
-- agent_band: agent-aware
-  agent_readiness: 21.5
+- agent_band: agent-ready
+  agent_readiness: 42.2
   band: strong
   in_catalog: true
-  kin_score: 54.8
+  kin_score: 63.2
   mcp: *id009
   name: Google Cloud AutoML Translation
-  slug: google-cloud-automl
+  slug: google-vertex-ai
   status: profiled
   tags: *id010
-  url: /providers/google-cloud-automl/
-- agent_band: agent-aware
-  agent_readiness: 17.9
-  band: developing
+  url: /providers/google-vertex-ai/
+- agent_band: agent-ready
+  agent_readiness: 33.9
+  band: exemplar
   in_catalog: true
-  kin_score: 51.6
+  kin_score: 68.0
   mcp: *id011
   name: Google Cloud Translation
   slug: google-translate
   status: profiled
   tags: *id012
   url: /providers/google-translate/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id013
   name: Google sign-in
   slug: google-identity-platform
@@ -576,11 +577,11 @@ providers:
   status: queued for profiling
   tags: *id016
   url: null
-- agent_band: agent-aware
-  agent_readiness: 17.9
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 32.2
+  band: strong
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 62.4
   mcp: *id017
   name: Microsoft Translator
   slug: microsoft-cognitive-services
@@ -588,10 +589,10 @@ providers:
   tags: *id018
   url: /providers/microsoft-cognitive-services/
 - agent_band: agent-aware
-  agent_readiness: 9.4
+  agent_readiness: 6.3
   band: emerging
   in_catalog: true
-  kin_score: 17.7
+  kin_score: 22.9
   mcp: *id019
   name: Mozilla accounts
   slug: mozilla-accounts
@@ -599,10 +600,10 @@ providers:
   tags: *id020
   url: /providers/mozilla-accounts/
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 44.8
   band: exemplar
   in_catalog: true
-  kin_score: 76.5
+  kin_score: 74.4
   mcp: *id021
   name: New Relic
   slug: new-relic
@@ -610,10 +611,10 @@ providers:
   tags: *id022
   url: /providers/new-relic/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id023
   name: OpenAI
   slug: openai
@@ -621,10 +622,10 @@ providers:
   tags: *id024
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id025
   name: SendGrid
   slug: sendgrid

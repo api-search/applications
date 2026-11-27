@@ -3075,7 +3075,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - ConfigCat
       - Flagsmith
@@ -3083,7 +3083,7 @@ stack:
       - Statsig
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -3102,7 +3102,7 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 47.7
       apps:
       - ConfigCat
       - Flagsmith
@@ -3110,7 +3110,7 @@ stack:
       - Statsig
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -3129,14 +3129,14 @@ stack:
       tier: observed
       url: /providers/mixpanel/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - ConfigCat
       - GrowthBook
       - Statsig
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -3155,14 +3155,14 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-aware
-      agent_readiness: 26.9
+      agent_readiness: 26.3
       apps:
       - Flagsmith
       - LaunchDarkly
       - Statsig
       band: developing
       in_catalog: true
-      kin_score: 41.7
+      kin_score: 40.6
       mcp:
         status: unknown
       name: Heap
@@ -3180,12 +3180,12 @@ stack:
       tier: observed
       url: /providers/heap/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Flipt
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp: &id003
         status: none
       name: Twilio Segment
@@ -3201,12 +3201,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 55.6
+      agent_readiness: 59.4
       apps:
       - LaunchDarkly
       band: strong
       in_catalog: true
-      kin_score: 57.8
+      kin_score: 58.3
       mcp:
         status: unknown
       name: Sprig
@@ -3222,12 +3222,12 @@ stack:
       tier: declared
       url: /providers/sprig/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - LaunchDarkly
       band: strong
       in_catalog: true
-      kin_score: 56.4
+      kin_score: 57.0
       mcp:
         source: https://support.pendo.io/hc/en-us/articles/41102236924955
         status: verified
@@ -3244,12 +3244,12 @@ stack:
       tier: declared
       url: /providers/pendoio/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 20.1
       apps:
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 42.3
       mcp:
         source: https://github.com/snowplow/snowplow-cli
         status: verified
@@ -3266,12 +3266,12 @@ stack:
       tier: declared
       url: /providers/snowplow/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 30.0
       apps:
       - LaunchDarkly
       band: thin
       in_catalog: true
-      kin_score: 37.1
+      kin_score: 37.4
       mcp:
         source: https://developer.fullstory.com/mcp/introduction/
         status: documented
@@ -3296,14 +3296,14 @@ stack:
       via_parent: Experimentation Programme Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 45.8
+      agent_readiness: 44.9
       apps:
       - GrowthBook
       - LaunchDarkly
       - Statsig
       band: exemplar
       in_catalog: true
-      kin_score: 81.1
+      kin_score: 82.3
       mcp:
         source: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
         status: verified
@@ -3321,15 +3321,15 @@ stack:
       - Snowflake
       tier: observed
       url: /providers/snowflake/
-    - agent_band: agent-ready
-      agent_readiness: 36.1
+    - agent_band: agent-native
+      agent_readiness: 44.5
       apps:
       - GrowthBook
       - LaunchDarkly
       - Statsig
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.6
+      kin_score: 75.1
       mcp:
         source: https://github.com/awslabs/mcp/tree/main/src/redshift-mcp-server
         status: verified
@@ -3348,14 +3348,14 @@ stack:
       tier: observed
       url: /providers/amazon-redshift/
     - agent_band: agent-ready
-      agent_readiness: 31.5
+      agent_readiness: 40.8
       apps:
       - GrowthBook
       - LaunchDarkly
       - Statsig
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.7
+      kin_score: 57.1
       mcp:
         source: https://cloud.google.com/bigquery/docs/use-bigquery-mcp
         status: verified
@@ -3374,13 +3374,13 @@ stack:
       tier: observed
       url: /providers/google-bigquery/
     - agent_band: agent-ready
-      agent_readiness: 58.4
+      agent_readiness: 58.5
       apps:
       - GrowthBook
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 76.9
+      kin_score: 77.1
       mcp:
         source: https://github.com/ClickHouse/mcp-clickhouse
         status: verified
@@ -3397,14 +3397,14 @@ stack:
       - Column-Oriented
       tier: observed
       url: /providers/clickhouse/
-    - agent_band: agent-ready
-      agent_readiness: 58.9
+    - agent_band: agent-native
+      agent_readiness: 65.5
       apps:
       - GrowthBook
       - LaunchDarkly
       band: strong
       in_catalog: true
-      kin_score: 57.1
+      kin_score: 58.7
       mcp:
         source: https://docs.databricks.com/aws/en/generative-ai/mcp/
         status: verified
@@ -3422,12 +3422,12 @@ stack:
       tier: observed
       url: /providers/databricks/
     - agent_band: agent-ready
-      agent_readiness: 65.9
+      agent_readiness: 62.9
       apps:
       - GrowthBook
       band: exemplar
       in_catalog: true
-      kin_score: 76.2
+      kin_score: 76.1
       mcp:
         source: https://github.com/adobe/cq-quickstart-mcp-server
         status: verified
@@ -3443,13 +3443,13 @@ stack:
       - Fortune 1000
       tier: observed
       url: /providers/adobe/
-    - agent_band: agent-ready
-      agent_readiness: 35.8
+    - agent_band: agent-native
+      agent_readiness: 44.8
       apps:
       - GrowthBook
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 34.1
+      kin_score: 65.3
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3466,12 +3466,12 @@ stack:
       tier: observed
       url: /providers/amazon-athena/
     - agent_band: agent-aware
-      agent_readiness: 27.0
+      agent_readiness: 26.4
       apps:
       - GrowthBook
       band: emerging
       in_catalog: true
-      kin_score: 23.5
+      kin_score: 22.9
       mcp:
         status: none
       name: Vertica
@@ -3495,7 +3495,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - ConfigCat
       - Flagsmith
@@ -3504,7 +3504,7 @@ stack:
       - Statsig
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: &id001
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -3523,14 +3523,14 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Flagsmith
       - LaunchDarkly
       - Statsig
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -3549,13 +3549,13 @@ stack:
       tier: observed
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 35.3
       apps:
       - ConfigCat
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 71.9
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -3573,12 +3573,12 @@ stack:
       tier: declared
       url: /providers/bitbucket/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 37.7
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 76.8
+      kin_score: 81.9
       mcp:
         source: https://github.com/microsoft/azure-devops-mcp
         status: verified
@@ -3595,12 +3595,12 @@ stack:
       tier: declared
       url: /providers/microsoft-azure-devops/
     - agent_band: agent-aware
-      agent_readiness: 23.9
+      agent_readiness: 24.0
       apps:
       - LaunchDarkly
       band: strong
       in_catalog: true
-      kin_score: 59.9
+      kin_score: 56.2
       mcp:
         status: unknown
       name: Gitar
@@ -3624,13 +3624,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - LaunchDarkly
       - Statsig
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp: &id005
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -3648,13 +3648,13 @@ stack:
       tier: declared
       url: /providers/cloudflare/
     - agent_band: agent-aware
-      agent_readiness: 24.1
+      agent_readiness: 24.2
       apps:
       - LaunchDarkly
       - Statsig
       band: strong
       in_catalog: true
-      kin_score: 65.3
+      kin_score: 66.0
       mcp:
         source: https://github.com/fastly/mcp
         status: verified
@@ -3672,13 +3672,13 @@ stack:
       tier: declared
       url: /providers/fastly/
     - agent_band: agent-ready
-      agent_readiness: 45.2
+      agent_readiness: 50.0
       apps:
       - LaunchDarkly
       - Statsig
       band: strong
       in_catalog: true
-      kin_score: 63.8
+      kin_score: 63.1
       mcp:
         source: https://vercel.com/docs/mcp/vercel-mcp
         status: verified
@@ -3696,13 +3696,13 @@ stack:
       tier: declared
       url: /providers/vercel/
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 40.0
       apps:
       - LaunchDarkly
       - Statsig
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 53.8
       mcp:
         status: none
       name: Akamai
@@ -3719,12 +3719,12 @@ stack:
       tier: declared
       url: /providers/akamai/
     - agent_band: agent-ready
-      agent_readiness: 58.8
+      agent_readiness: 58.9
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.2
       mcp:
         source: https://github.com/netlify/netlify-mcp
         status: verified
@@ -3749,14 +3749,14 @@ stack:
       via_parent: Environment Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.3
+      agent_readiness: 29.7
       apps:
       - ConfigCat
       - LaunchDarkly
       - Statsig
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 42.5
       mcp:
         source: https://github.com/hashicorp/terraform-mcp-server
         status: verified
@@ -3774,34 +3774,13 @@ stack:
       - Open Source
       tier: declared
       url: /providers/terraform/
-    - agent_band: agent-aware
-      agent_readiness: 24.3
-      apps:
-      - LaunchDarkly
-      band: strong
-      in_catalog: true
-      kin_score: 59.8
-      mcp:
-        status: unknown
-      name: Release (releaseapp.io)
-      slug: release
-      sources:
-      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
-      status: profiled
-      tags:
-      - Company
-      - Developer Tools
-      - Ephemeral Environments
-      - Platform Engineering
-      tier: declared
-      url: /providers/release/
     - agent_band: agent-ready
-      agent_readiness: 32.4
+      agent_readiness: 31.6
       apps:
       - LaunchDarkly
       band: strong
       in_catalog: true
-      kin_score: 54.4
+      kin_score: 65.3
       mcp:
         status: none
       name: Okteto
@@ -3817,12 +3796,33 @@ stack:
       tier: declared
       url: /providers/okteto/
     - agent_band: agent-aware
+      agent_readiness: 23.8
+      apps:
+      - LaunchDarkly
+      band: strong
+      in_catalog: true
+      kin_score: 61.8
+      mcp:
+        status: unknown
+      name: Release (releaseapp.io)
+      slug: release
+      sources:
+      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
+      status: profiled
+      tags:
+      - Company
+      - Developer Tools
+      - Ephemeral Environments
+      - Platform Engineering
+      tier: declared
+      url: /providers/release/
+    - agent_band: agent-aware
       agent_readiness: 26.9
       apps:
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 48.9
       mcp:
         source: https://github.com/ansible/aap-mcp-server
         status: verified
@@ -3839,12 +3839,33 @@ stack:
       tier: declared
       url: /providers/ansible/
     - agent_band: agent-aware
-      agent_readiness: 26.7
+      agent_readiness: 27.3
+      apps:
+      - LaunchDarkly
+      band: developing
+      in_catalog: true
+      kin_score: 47.0
+      mcp:
+        status: none
+      name: Crossplane
+      slug: crossplane
+      sources:
+      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
+      status: profiled
+      tags:
+      - Apache 2.0
+      - CNCF
+      - COMPOSITION
+      - Cloud-Native
+      tier: declared
+      url: /providers/crossplane/
+    - agent_band: agent-aware
+      agent_readiness: 27.7
       apps:
       - Statsig
       band: developing
       in_catalog: true
-      kin_score: 47.6
+      kin_score: 45.5
       mcp:
         source: https://registry.npmjs.org/@pulumi/mcp-server
         status: verified
@@ -3860,34 +3881,13 @@ stack:
       - Infrastructure as Code
       tier: declared
       url: /providers/pulumi/
-    - agent_band: agent-aware
-      agent_readiness: 22.4
-      apps:
-      - LaunchDarkly
-      band: developing
-      in_catalog: true
-      kin_score: 45.8
-      mcp:
-        status: none
-      name: Crossplane
-      slug: crossplane
-      sources:
-      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
-      status: profiled
-      tags:
-      - Apache 2.0
-      - CNCF
-      - COMPOSITION
-      - Cloud-Native
-      tier: declared
-      url: /providers/crossplane/
     - agent_band: human-only
-      agent_readiness: 3.5
+      agent_readiness: 4.1
       apps:
       - Statsig
       band: thin
       in_catalog: true
-      kin_score: 34.6
+      kin_score: 36.6
       mcp:
         source: https://www.serverless.com/framework/docs/guides/mcp
         status: verified
@@ -3912,13 +3912,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.1
+      agent_readiness: 56.3
       apps:
       - ConfigCat
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 69.1
+      kin_score: 73.5
       mcp:
         source: https://github.com/CircleCI-Public/mcp-server-circleci
         status: verified
@@ -3936,13 +3936,13 @@ stack:
       tier: declared
       url: /providers/circleci/
     - agent_band: agent-aware
-      agent_readiness: 12.2
+      agent_readiness: 12.0
       apps:
       - ConfigCat
       - LaunchDarkly
       band: minimal
       in_catalog: true
-      kin_score: 6.0
+      kin_score: 5.1
       mcp:
         source: https://github.com/bitrise-io/bitrise-mcp
         status: verified
@@ -3959,12 +3959,12 @@ stack:
       tier: declared
       url: /providers/bitrise/
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: *id001
       name: GitHub Actions
       slug: github
@@ -3982,14 +3982,14 @@ stack:
       url: /capabilities/engineering-productivity-management/
       via_parent: Engineering Productivity Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 26.5
+    - agent_band: agent-ready
+      agent_readiness: 30.1
       apps:
       - ConfigCat
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 48.4
+      kin_score: 54.0
       mcp:
         source: https://github.com/JetBrains/mcp-server-plugin
         status: verified
@@ -4013,7 +4013,7 @@ stack:
       - LaunchDarkly
       band: emerging
       in_catalog: true
-      kin_score: 19.5
+      kin_score: 25.9
       mcp:
         status: none
       name: VS Code
@@ -4030,12 +4030,12 @@ stack:
       tier: declared
       url: /providers/visual-studio-code/
     - agent_band: agent-ready
-      agent_readiness: 34.1
+      agent_readiness: 35.2
       apps:
       - LaunchDarkly
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.9
+      kin_score: 56.3
       mcp:
         source: https://docs.devin.ai/work-with-devin/devin-mcp
         status: verified
@@ -4060,12 +4060,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.1
+      agent_readiness: 48.1
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 75.8
+      kin_score: 75.4
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -4082,12 +4082,12 @@ stack:
       tier: declared
       url: /providers/atlassian-compass/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 23.3
       apps:
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 44.0
+      kin_score: 43.9
       mcp:
         source: https://github.com/port-labs/port-mcp-server
         status: verified
@@ -4104,12 +4104,12 @@ stack:
       tier: declared
       url: /providers/port-io/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 41.4
       apps:
       - LaunchDarkly
       band: thin
       in_catalog: true
-      kin_score: 34.1
+      kin_score: 33.3
       mcp:
         status: unknown
       name: Cortex
@@ -4125,12 +4125,12 @@ stack:
       tier: declared
       url: /providers/cortex-idp/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 24.4
       apps:
       - LaunchDarkly
       band: thin
       in_catalog: true
-      kin_score: 27.5
+      kin_score: 27.8
       mcp:
         status: unknown
       name: Roadie
@@ -4154,12 +4154,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 60.6
+      agent_readiness: 59.7
       apps:
       - Flagsmith
       band: exemplar
       in_catalog: true
-      kin_score: 85.5
+      kin_score: 84.5
       mcp:
         source: https://launchdarkly.com/docs/home/getting-started/mcp
         status: verified
@@ -4176,12 +4176,12 @@ stack:
       tier: observed
       url: /providers/launchdarkly/
     - agent_band: agent-ready
-      agent_readiness: 55.6
+      agent_readiness: 59.5
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 76.8
+      kin_score: 75.7
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=statsig
         status: verified
@@ -4198,12 +4198,12 @@ stack:
       tier: declared
       url: /providers/statsig/
     - agent_band: agent-ready
-      agent_readiness: 33.6
+      agent_readiness: 33.4
       apps:
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 45.4
+      kin_score: 42.7
       mcp:
         source: https://github.com/Unleash/unleash-mcp
         status: verified
@@ -4220,12 +4220,12 @@ stack:
       tier: declared
       url: /providers/unleash/
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.9
       apps:
       - LaunchDarkly
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 35.9
       mcp:
         status: none
       name: Split (Harness FME)
@@ -4249,12 +4249,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.6
       apps:
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 52.5
+      kin_score: 50.8
       mcp:
         status: none
       name: ngrok
@@ -4270,33 +4270,12 @@ stack:
       tier: declared
       url: /providers/ngrok/
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 25.2
       apps:
       - LaunchDarkly
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.4
-      mcp:
-        status: unknown
-      name: Sleuth
-      slug: sleuth
-      sources:
-      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
-      status: profiled
-      tags:
-      - DORA
-      - Deployment Tracking
-      - DevOps
-      - Engineering Metrics
-      tier: declared
-      url: /providers/sleuth/
-    - agent_band: agent-aware
-      agent_readiness: 22.4
-      apps:
-      - LaunchDarkly
-      band: thin
-      in_catalog: true
-      kin_score: 28.1
+      kin_score: 41.0
       mcp:
         source: https://github.com/kosli-dev/mcp-server
         status: verified
@@ -4312,6 +4291,27 @@ stack:
       - Governance
       tier: declared
       url: /providers/kosli/
+    - agent_band: agent-aware
+      agent_readiness: 24.1
+      apps:
+      - LaunchDarkly
+      band: thin
+      in_catalog: true
+      kin_score: 30.1
+      mcp:
+        status: unknown
+      name: Sleuth
+      slug: sleuth
+      sources:
+      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
+      status: profiled
+      tags:
+      - DORA
+      - Deployment Tracking
+      - DevOps
+      - Engineering Metrics
+      tier: declared
+      url: /providers/sleuth/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -4338,12 +4338,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.2
+      agent_readiness: 41.7
       apps:
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 46.6
+      kin_score: 52.8
       mcp:
         source: https://developer.dittowords.com/mcp-reference/overview
         status: verified
@@ -4360,12 +4360,12 @@ stack:
       tier: declared
       url: /providers/dittowords/
     - agent_band: agent-ready
-      agent_readiness: 56.5
+      agent_readiness: 55.2
       apps:
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 44.3
+      kin_score: 43.9
       mcp:
         source: https://github.com/contentful/contentful-mcp-server
         status: verified
@@ -4390,12 +4390,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 41.9
+      agent_readiness: 41.0
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 80.9
+      kin_score: 82.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4412,12 +4412,12 @@ stack:
       tier: declared
       url: /providers/amazon-dynamodb/
     - agent_band: agent-ready
-      agent_readiness: 37.8
+      agent_readiness: 38.4
       apps:
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 51.5
+      kin_score: 50.7
       mcp:
         source: https://docs.convex.dev/ai/convex-mcp-server
         status: verified
@@ -4441,13 +4441,13 @@ stack:
       url: /capabilities/package-registries-distribution/
       via_parent: Package Registries & Distribution
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 27.7
+    - agent_band: agent-ready
+      agent_readiness: 29.5
       apps:
       - Flipt
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.8
+      kin_score: 75.2
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4474,7 +4474,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 48.6
       apps:
       - ConfigCat
       - Flagsmith
@@ -4483,7 +4483,7 @@ stack:
       - Unleash
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -4509,7 +4509,7 @@ stack:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -4528,14 +4528,14 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Flagsmith
       - LaunchDarkly
       - Unleash
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -4554,13 +4554,13 @@ stack:
       tier: observed
       url: /providers/new-relic/
     - agent_band: agent-ready
-      agent_readiness: 44.7
+      agent_readiness: 43.8
       apps:
       - Flagsmith
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 84.1
+      kin_score: 85.6
       mcp:
         source: https://github.com/dynatrace-oss/dynatrace-mcp
         status: verified
@@ -4577,14 +4577,14 @@ stack:
       - Application Performance Monitoring
       tier: observed
       url: /providers/dynatrace/
-    - agent_band: agent-ready
-      agent_readiness: 31.1
+    - agent_band: agent-aware
+      agent_readiness: 27.6
       apps:
       - Flagsmith
       - LaunchDarkly
       band: strong
       in_catalog: true
-      kin_score: 60.6
+      kin_score: 66.0
       mcp:
         source: https://github.com/grafana/mcp-grafana
         status: verified
@@ -4601,13 +4601,13 @@ stack:
       - Observability
       tier: observed
       url: /providers/grafana-com/
-    - agent_band: agent-aware
-      agent_readiness: 28.0
+    - agent_band: agent-native
+      agent_readiness: 43.4
       apps:
       - GrowthBook
       band: exemplar
       in_catalog: true
-      kin_score: 71.0
+      kin_score: 77.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4624,56 +4624,12 @@ stack:
       tier: observed
       url: /providers/amazon-cloudwatch/
     - agent_band: agent-ready
-      agent_readiness: 28.6
+      agent_readiness: 29.8
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
-      mcp:
-        source: https://www.elastic.co/docs/solutions/search/mcp
-        status: verified
-      name: Elastic
-      slug: elastic
-      sources:
-      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
-      status: profiled
-      tags:
-      - Analytics
-      - Observability
-      - Search
-      - Security
-      tier: declared
-      url: /providers/elastic/
-    - agent_band: agent-ready
-      agent_readiness: 34.4
-      apps:
-      - LaunchDarkly
-      band: exemplar
-      in_catalog: true
-      kin_score: 69.5
-      mcp:
-        source: https://help.splunk.com/en/splunk-observability-cloud/splunk-ai-assistant/interact-with-your-observability-data-using-the-splunk-mcp-server
-        status: verified
-      name: SignalFx (Splunk Observability)
-      slug: splunk-observability
-      sources:
-      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
-      status: profiled
-      tags:
-      - APM
-      - Monitoring
-      - Observability
-      - Telemetry
-      tier: declared
-      url: /providers/splunk-observability/
-    - agent_band: agent-aware
-      agent_readiness: 26.3
-      apps:
-      - LaunchDarkly
-      band: exemplar
-      in_catalog: true
-      kin_score: 67.3
+      kin_score: 80.1
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4690,76 +4646,34 @@ stack:
       tier: declared
       url: /providers/amazon-cloudtrail/
     - agent_band: agent-aware
-      agent_readiness: 27.0
+      agent_readiness: 28.5
       apps:
       - LaunchDarkly
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.5
+      kin_score: 78.4
       mcp:
-        status: none
-      name: SolarWinds AppOptics
-      slug: solarwinds
-      sources:
-      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
-      status: profiled
-      tags:
-      - Application Monitoring
-      - Database Monitoring
-      - IP Address Management
-      - Infrastructure
-      tier: declared
-      url: /providers/solarwinds/
-    - agent_band: agent-native
-      agent_readiness: 55.4
-      apps:
-      - LaunchDarkly
-      band: strong
-      in_catalog: true
-      kin_score: 62.0
-      mcp:
-        source: https://github.com/chronosphereio/chronosphere-mcp
+        source: https://www.elastic.co/docs/solutions/search/mcp
         status: verified
-      name: Chronosphere
-      slug: chronosphere
-      sources:
-      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
-      status: profiled
-      tags:
-      - AIOps
-      - Metrics
-      - Monitoring
-      - Observability
-      tier: declared
-      url: /providers/chronosphere/
-    - agent_band: agent-ready
-      agent_readiness: 53.5
-      apps:
-      - LaunchDarkly
-      band: strong
-      in_catalog: true
-      kin_score: 61.4
-      mcp:
-        status: none
-      name: Splunk
-      slug: splunk
+      name: Elastic
+      slug: elastic
       sources:
       - https://github.com/launchdarkly/integration-framework/tree/main/integrations
       status: profiled
       tags:
       - Analytics
-      - Data Analysis
-      - Logging
-      - Machine Data
+      - Observability
+      - Search
+      - Security
       tier: declared
-      url: /providers/splunk/
+      url: /providers/elastic/
     - agent_band: agent-ready
-      agent_readiness: 54.3
+      agent_readiness: 55.5
       apps:
       - LaunchDarkly
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 59.9
+      kin_score: 71.6
       mcp:
         source: https://docs.honeycomb.io/integrations/mcp/
         status: verified
@@ -4776,12 +4690,98 @@ stack:
       tier: declared
       url: /providers/honeycomb/
     - agent_band: agent-aware
+      agent_readiness: 26.4
+      apps:
+      - LaunchDarkly
+      band: exemplar
+      in_catalog: true
+      kin_score: 69.2
+      mcp:
+        status: none
+      name: SolarWinds AppOptics
+      slug: solarwinds
+      sources:
+      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
+      status: profiled
+      tags:
+      - Application Monitoring
+      - Database Monitoring
+      - IP Address Management
+      - Infrastructure
+      tier: declared
+      url: /providers/solarwinds/
+    - agent_band: agent-ready
+      agent_readiness: 33.7
+      apps:
+      - LaunchDarkly
+      band: strong
+      in_catalog: true
+      kin_score: 65.8
+      mcp:
+        source: https://help.splunk.com/en/splunk-observability-cloud/splunk-ai-assistant/interact-with-your-observability-data-using-the-splunk-mcp-server
+        status: verified
+      name: SignalFx (Splunk Observability)
+      slug: splunk-observability
+      sources:
+      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
+      status: profiled
+      tags:
+      - APM
+      - Monitoring
+      - Observability
+      - Telemetry
+      tier: declared
+      url: /providers/splunk-observability/
+    - agent_band: agent-ready
+      agent_readiness: 54.4
+      apps:
+      - LaunchDarkly
+      band: strong
+      in_catalog: true
+      kin_score: 63.1
+      mcp:
+        status: none
+      name: Splunk
+      slug: splunk
+      sources:
+      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
+      status: profiled
+      tags:
+      - Analytics
+      - Data Analysis
+      - Logging
+      - Machine Data
+      tier: declared
+      url: /providers/splunk/
+    - agent_band: agent-native
+      agent_readiness: 58.7
+      apps:
+      - LaunchDarkly
+      band: strong
+      in_catalog: true
+      kin_score: 59.5
+      mcp:
+        source: https://github.com/chronosphereio/chronosphere-mcp
+        status: verified
+      name: Chronosphere
+      slug: chronosphere
+      sources:
+      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
+      status: profiled
+      tags:
+      - AIOps
+      - Metrics
+      - Monitoring
+      - Observability
+      tier: declared
+      url: /providers/chronosphere/
+    - agent_band: agent-aware
       agent_readiness: 27.1
       apps:
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 44.0
+      kin_score: 43.4
       mcp:
         source: https://github.com/mezmo/mezmo-mcp
         status: verified
@@ -4798,12 +4798,12 @@ stack:
       tier: declared
       url: /providers/mezmo/
     - agent_band: agent-aware
-      agent_readiness: 19.3
+      agent_readiness: 18.9
       apps:
       - LaunchDarkly
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 35.5
       mcp:
         status: none
       name: AppDynamics
@@ -4819,12 +4819,12 @@ stack:
       tier: declared
       url: /providers/appdynamics/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 3.9
       apps:
       - LaunchDarkly
       band: emerging
       in_catalog: true
-      kin_score: 12.6
+      kin_score: 21.2
       mcp:
         source: https://last9.io/docs/mcp
         status: verified
@@ -4849,7 +4849,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - ConfigCat
       - Flagsmith
@@ -4857,7 +4857,7 @@ stack:
       - Statsig
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp: *id003
       name: Twilio Segment
       slug: segment
@@ -4870,14 +4870,14 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 58.1
+      agent_readiness: 56.9
       apps:
       - Flagsmith
       - LaunchDarkly
       - Statsig
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 79.1
       mcp:
         source: https://github.com/rudderlabs/rudderstack-mcp
         status: verified
@@ -4896,13 +4896,13 @@ stack:
       tier: observed
       url: /providers/rudderstack/
     - agent_band: agent-ready
-      agent_readiness: 63.8
+      agent_readiness: 62.8
       apps:
       - LaunchDarkly
       - Statsig
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 66.9
       mcp:
         source: https://hightouch.com/docs/ai-integrations/mcp
         status: documented
@@ -4920,13 +4920,13 @@ stack:
       tier: declared
       url: /providers/hightouch/
     - agent_band: agent-aware
-      agent_readiness: 26.5
+      agent_readiness: 26.0
       apps:
       - LaunchDarkly
       - Statsig
       band: strong
       in_catalog: true
-      kin_score: 64.8
+      kin_score: 59.8
       mcp:
         status: none
       name: Census
@@ -4943,13 +4943,13 @@ stack:
       tier: declared
       url: /providers/getcensus/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - LaunchDarkly
       - Statsig
       band: strong
       in_catalog: true
-      kin_score: 58.7
+      kin_score: 59.5
       mcp:
         status: none
       name: mParticle
@@ -4966,12 +4966,12 @@ stack:
       tier: declared
       url: /providers/mparticle/
     - agent_band: agent-ready
-      agent_readiness: 56.9
+      agent_readiness: 58.4
       apps:
       - Statsig
       band: exemplar
       in_catalog: true
-      kin_score: 75.2
+      kin_score: 74.4
       mcp:
         source: https://www.braze.com/docs/user_guide/brazeai/mcp_server
         status: verified
@@ -4988,12 +4988,12 @@ stack:
       tier: declared
       url: /providers/braze/
     - agent_band: agent-ready
-      agent_readiness: 35.6
+      agent_readiness: 34.9
       apps:
       - LaunchDarkly
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.3
+      kin_score: 66.5
       mcp:
         source: https://docs.tealium.com/server-side/config-mcp/about-config-mcp/
         status: documented
@@ -5010,12 +5010,12 @@ stack:
       tier: declared
       url: /providers/tealium/
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Statsig
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -5031,12 +5031,12 @@ stack:
       tier: declared
       url: /providers/google-tag-manager/
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 38.9
       apps:
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 42.9
+      kin_score: 52.2
       mcp:
         status: none
       name: Zeotap
@@ -5051,13 +5051,34 @@ stack:
       - Data Integration
       tier: declared
       url: /providers/zeotap/
-    - agent_band: agent-ready
-      agent_readiness: 36.4
+    - agent_band: human-only
+      agent_readiness: 3.8
       apps:
       - Statsig
       band: thin
       in_catalog: true
-      kin_score: 34.6
+      kin_score: 36.8
+      mcp:
+        status: none
+      name: Stitch Data
+      slug: stitch-data
+      sources:
+      - https://docs.statsig.com/integrations/introduction
+      status: profiled
+      tags:
+      - Cloud Data
+      - Data Integration
+      - Data Pipeline
+      - ETL
+      tier: declared
+      url: /providers/stitch-data/
+    - agent_band: agent-ready
+      agent_readiness: 32.2
+      apps:
+      - Statsig
+      band: thin
+      in_catalog: true
+      kin_score: 34.2
       mcp:
         source: https://github.com/fivetran/fivetran-mcp
         status: verified
@@ -5079,7 +5100,7 @@ stack:
       - Statsig
       band: thin
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 27.4
       mcp:
         source: https://www.revenuecat.com/docs/tools/mcp
         status: verified
@@ -5095,27 +5116,6 @@ stack:
       - Subscription
       tier: declared
       url: /providers/revenuecat/
-    - agent_band: agent-aware
-      agent_readiness: 7.5
-      apps:
-      - Statsig
-      band: thin
-      in_catalog: true
-      kin_score: 26.7
-      mcp:
-        status: none
-      name: Stitch Data
-      slug: stitch-data
-      sources:
-      - https://docs.statsig.com/integrations/introduction
-      status: profiled
-      tags:
-      - Cloud Data
-      - Data Integration
-      - Data Pipeline
-      - ETL
-      tier: declared
-      url: /providers/stitch-data/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -5142,7 +5142,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - ConfigCat
       - Flagsmith
@@ -5151,7 +5151,7 @@ stack:
       - Unleash
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -5170,13 +5170,13 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - LaunchDarkly
       - Unleash
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -5193,12 +5193,12 @@ stack:
       tier: observed
       url: /providers/microsoft-teams/
     - agent_band: agent-aware
-      agent_readiness: 25.7
+      agent_readiness: 25.2
       apps:
       - LaunchDarkly
       band: thin
       in_catalog: true
-      kin_score: 37.2
+      kin_score: 37.0
       mcp:
         source: https://github.com/mattermost/mmctl-mcp
         status: verified
@@ -5223,14 +5223,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - ConfigCat
       - LaunchDarkly
       - Statsig
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp:
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -5249,13 +5249,13 @@ stack:
       tier: declared
       url: /providers/jira/
     - agent_band: agent-ready
-      agent_readiness: 28.7
+      agent_readiness: 30.8
       apps:
       - ConfigCat
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 75.6
+      kin_score: 74.8
       mcp:
         source: https://github.com/atlassian/trello-mcp-server
         status: verified
@@ -5278,7 +5278,7 @@ stack:
       - ConfigCat
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 32.2
       mcp:
         source: https://github.com/mondaycom/mcp
         status: verified
@@ -5303,37 +5303,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 34.8
       apps:
       - Flipt
       - GrowthBook
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
-      mcp:
-        source: https://github.com/googleapis/gcloud-mcp
-        status: verified
-      name: Google Cloud Storage
-      slug: gcp-cloud-storage
-      sources:
-      - https://github.com/flipt-io/flipt/blob/main/go.mod
-      - https://github.com/growthbook/growthbook/blob/main/packages/back-end/package.json
-      status: profiled
-      tags:
-      - Archival
-      - Backup
-      - Blob Storage
-      - Cloud Storage
-      tier: observed
-      url: /providers/gcp-cloud-storage/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
-      apps:
-      - Flipt
-      - GrowthBook
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5351,12 +5327,36 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 45.1
       apps:
       - Flipt
+      - GrowthBook
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 74.1
+      mcp:
+        source: https://github.com/googleapis/gcloud-mcp
+        status: verified
+      name: Google Cloud Storage
+      slug: gcp-cloud-storage
+      sources:
+      - https://github.com/flipt-io/flipt/blob/main/go.mod
+      - https://github.com/growthbook/growthbook/blob/main/packages/back-end/package.json
+      status: profiled
+      tags:
+      - Archival
+      - Backup
+      - Blob Storage
+      - Cloud Storage
+      tier: observed
+      url: /providers/gcp-cloud-storage/
+    - agent_band: agent-ready
+      agent_readiness: 37.9
+      apps:
+      - Flipt
+      band: strong
+      in_catalog: true
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -5381,12 +5381,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -5403,33 +5403,12 @@ stack:
       tier: declared
       url: /providers/okta/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 43.0
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
-      mcp:
-        status: none
-      name: Microsoft Entra ID
-      slug: microsoft-entra
-      sources:
-      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
-      status: profiled
-      tags:
-      - Authentication
-      - Azure AD
-      - Entra
-      - Identity and Access Management
-      tier: declared
-      url: /providers/microsoft-entra/
-    - agent_band: agent-ready
-      agent_readiness: 37.9
-      apps:
-      - LaunchDarkly
-      band: exemplar
-      in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.7
       mcp:
         source: https://github.com/gemini-cli-extensions/workspace
         status: verified
@@ -5445,13 +5424,34 @@ stack:
       - Productivity
       tier: declared
       url: /providers/google-workspace/
+    - agent_band: agent-ready
+      agent_readiness: 28.7
+      apps:
+      - LaunchDarkly
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.3
+      mcp:
+        status: none
+      name: Microsoft Entra ID
+      slug: microsoft-entra
+      sources:
+      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
+      status: profiled
+      tags:
+      - Authentication
+      - Azure AD
+      - Entra
+      - Identity and Access Management
+      tier: declared
+      url: /providers/microsoft-entra/
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 24.3
       apps:
       - LaunchDarkly
       band: thin
       in_catalog: true
-      kin_score: 30.5
+      kin_score: 29.5
       mcp:
         source: https://github.com/onelogin/onelogin-mcp
         status: verified
@@ -5476,13 +5476,13 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - ConfigCat
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -5500,12 +5500,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 61.6
+      agent_readiness: 60.3
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 89.6
+      kin_score: 89.5
       mcp:
         source: https://docs.tray.ai/
         status: documented
@@ -5547,13 +5547,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.9
+      agent_readiness: 54.4
       apps:
       - LaunchDarkly
       - Statsig
       band: developing
       in_catalog: true
-      kin_score: 51.2
+      kin_score: 52.1
       mcp:
         source: https://github.com/PagerDuty/pagerduty-mcp-server
         status: verified
@@ -5571,12 +5571,12 @@ stack:
       tier: declared
       url: /providers/pagerduty/
     - agent_band: agent-ready
-      agent_readiness: 43.2
+      agent_readiness: 42.3
       apps:
       - LaunchDarkly
       band: strong
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 61.9
       mcp:
         status: none
       name: ServiceNow
@@ -5600,12 +5600,33 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 44.6
       apps:
       - LaunchDarkly
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.7
+      kin_score: 70.7
+      mcp:
+        status: none
+      name: Amazon Kinesis
+      slug: kinesis
+      sources:
+      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
+      status: profiled
+      tags:
+      - Amazon Web Services
+      - Analytics
+      - Apache Flink
+      - Big Data
+      tier: declared
+      url: /providers/kinesis/
+    - agent_band: agent-ready
+      agent_readiness: 33.9
+      apps:
+      - LaunchDarkly
+      band: exemplar
+      in_catalog: true
+      kin_score: 68.4
       mcp:
         source: https://learn.microsoft.com/en-us/azure/developer/azure-mcp-server/tools/azure-event-hubs
         status: verified
@@ -5622,33 +5643,12 @@ stack:
       tier: declared
       url: /providers/microsoft-azure-event-hubs/
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 38.0
       apps:
       - LaunchDarkly
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.3
-      mcp:
-        status: none
-      name: Amazon Kinesis
-      slug: kinesis
-      sources:
-      - https://github.com/launchdarkly/integration-framework/tree/main/integrations
-      status: profiled
-      tags:
-      - Amazon Web Services
-      - Analytics
-      - Apache Flink
-      - Big Data
-      tier: declared
-      url: /providers/kinesis/
-    - agent_band: agent-aware
-      agent_readiness: 25.6
-      apps:
-      - LaunchDarkly
-      band: thin
-      in_catalog: true
-      kin_score: 38.7
+      kin_score: 64.1
       mcp:
         source: https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp
         status: verified
@@ -5672,13 +5672,13 @@ stack:
       url: /capabilities/asset-information-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 25.2
+    - agent_band: agent-ready
+      agent_readiness: 30.5
       apps:
       - LaunchDarkly
       band: developing
       in_catalog: true
-      kin_score: 40.0
+      kin_score: 39.7
       mcp:
         source: https://github.com/cloudquery/mcp-releases
         status: verified
@@ -5720,12 +5720,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Flagsmith
       band: thin
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 32.3
       mcp:
         status: unknown
       name: Pylon (usepylon.com)
@@ -5741,12 +5741,12 @@ stack:
       tier: observed
       url: /providers/pylon/
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -5770,12 +5770,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Flagsmith
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -5800,12 +5800,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.9
+      agent_readiness: 55.8
       apps:
       - LaunchDarkly
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 77.7
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -5830,12 +5830,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - GrowthBook
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -5860,12 +5860,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 34.8
       apps:
       - LaunchDarkly
       band: strong
       in_catalog: true
-      kin_score: 57.1
+      kin_score: 54.3
       mcp:
         status: none
       name: Osano
@@ -5889,12 +5889,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Flipt
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: *id001
       name: GitHub
       slug: github
@@ -5915,13 +5915,13 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - GrowthBook
       - Statsig
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -5939,12 +5939,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - GrowthBook
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -5961,12 +5961,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - GrowthBook
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google Gemini
@@ -5981,13 +5981,13 @@ stack:
       - Embeddings
       tier: observed
       url: /providers/google-gemini/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - GrowthBook
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: Mistral
@@ -6003,12 +6003,12 @@ stack:
       tier: observed
       url: /providers/mistral/
     - agent_band: agent-ready
-      agent_readiness: 38.8
+      agent_readiness: 39.4
       apps:
       - GrowthBook
       band: thin
       in_catalog: true
-      kin_score: 32.8
+      kin_score: 32.3
       mcp:
         status: none
       name: xAI
@@ -6024,12 +6024,12 @@ stack:
       tier: observed
       url: /providers/xai/
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - Statsig
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp: *id005
       name: Cloudflare Workers AI
       slug: cloudflare
@@ -6039,13 +6039,13 @@ stack:
       tags: *id006
       tier: declared
       url: /providers/cloudflare/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
+    - agent_band: agent-ready
+      agent_readiness: 29.9
       apps:
       - Statsig
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.6
+      kin_score: 68.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -6073,7 +6073,7 @@ summary:
     unchecked: 4
     verified: 78
   mcp_verified: 78
-  mean_kin_score: 58.1
+  mean_kin_score: 60.4
   observed: 37
   queued: 4
   reference_apps: 7

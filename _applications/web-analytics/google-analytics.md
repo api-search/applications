@@ -70,22 +70,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id001
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id002
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: domain
   name: Firebase (Analytics)
   provider: firebase
@@ -102,10 +102,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.7
+    agent_readiness: 42.1
     band: exemplar
     in_catalog: true
-    kin_score: 73.1
+    kin_score: 73.4
     mcp: &id003
       source: https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server
       status: verified
@@ -133,10 +133,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.5
-    band: developing
+    agent_readiness: 40.8
+    band: strong
     in_catalog: true
-    kin_score: 49.7
+    kin_score: 57.1
     mcp: &id005
       source: https://cloud.google.com/bigquery/docs/use-bigquery-mcp
       status: verified
@@ -164,10 +164,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.9
+    agent_readiness: 30.7
     band: exemplar
     in_catalog: true
-    kin_score: 70.4
+    kin_score: 69.7
     mcp: &id007
       status: none
     slug: google-search-console
@@ -191,22 +191,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/web-analytics/google-analytics/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id001
   name: Firebase (Analytics)
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id002
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 47.7
+  agent_readiness: 42.1
   band: exemplar
   in_catalog: true
-  kin_score: 73.1
+  kin_score: 73.4
   mcp: *id003
   name: Google Ads
   slug: google-ads
@@ -214,10 +214,10 @@ providers:
   tags: *id004
   url: /providers/google-ads/
 - agent_band: agent-ready
-  agent_readiness: 31.5
-  band: developing
+  agent_readiness: 40.8
+  band: strong
   in_catalog: true
-  kin_score: 49.7
+  kin_score: 57.1
   mcp: *id005
   name: Google BigQuery
   slug: google-bigquery
@@ -225,10 +225,10 @@ providers:
   tags: *id006
   url: /providers/google-bigquery/
 - agent_band: agent-ready
-  agent_readiness: 37.9
+  agent_readiness: 30.7
   band: exemplar
   in_catalog: true
-  kin_score: 70.4
+  kin_score: 69.7
   mcp: *id007
   name: Google Search Console
   slug: google-search-console

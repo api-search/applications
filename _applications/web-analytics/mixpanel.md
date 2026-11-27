@@ -104,10 +104,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.8
-    band: thin
+    agent_readiness: 19.3
+    band: developing
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 45.3
     mcp: &id001
       status: none
     slug: apphud
@@ -134,10 +134,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.0
+    agent_readiness: 39.7
     band: developing
     in_catalog: true
-    kin_score: 39.3
+    kin_score: 50.5
     mcp: &id003
       source: https://github.com/avohq/avo-mcp
       status: verified
@@ -165,10 +165,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.9
+    agent_readiness: 58.4
     band: exemplar
     in_catalog: true
-    kin_score: 75.2
+    kin_score: 74.4
     mcp: &id005
       source: https://www.braze.com/docs/user_guide/brazeai/mcp_server
       status: verified
@@ -199,7 +199,7 @@ integrations:
     agent_readiness: 25.7
     band: thin
     in_catalog: true
-    kin_score: 32.3
+    kin_score: 30.1
     mcp: &id007
       status: none
     slug: chameleon
@@ -226,10 +226,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 3.6
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.6
+    kin_score: 15.8
     mcp: &id009
       status: none
     slug: churnzero
@@ -256,10 +256,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.8
-    band: developing
+    agent_readiness: 24.6
+    band: strong
     in_catalog: true
-    kin_score: 46.1
+    kin_score: 58.4
     mcp: &id011
       source: https://github.com/databox/databox-mcp
       status: verified
@@ -287,10 +287,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id013
       status: none
     slug: facebook
@@ -317,7 +317,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.3
+    agent_readiness: 47.4
     band: exemplar
     in_catalog: true
     kin_score: 79.4
@@ -348,7 +348,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.6
+    agent_readiness: 54.3
     band: strong
     in_catalog: true
     kin_score: 56.1
@@ -378,10 +378,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.9
+    agent_readiness: 43.0
     band: developing
     in_catalog: true
-    kin_score: 43.5
+    kin_score: 43.4
     mcp: &id019
       source: https://github.com/integromat/make-mcp-server
       status: verified
@@ -409,10 +409,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 66.2
+    agent_readiness: 65.1
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 68.0
     mcp: &id021
       status: none
     slug: moengage
@@ -438,11 +438,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 29.1
+    agent_band: agent-aware
+    agent_readiness: 28.5
     band: emerging
     in_catalog: true
-    kin_score: 22.2
+    kin_score: 22.0
     mcp: &id023
       status: none
     slug: pushwoosh
@@ -467,10 +467,10 @@ noindex: false
 permalink: /applications/web-analytics/mixpanel/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 16.8
-  band: thin
+  agent_readiness: 19.3
+  band: developing
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 45.3
   mcp: *id001
   name: Apphud
   slug: apphud
@@ -478,10 +478,10 @@ providers:
   tags: *id002
   url: /providers/apphud/
 - agent_band: agent-ready
-  agent_readiness: 32.0
+  agent_readiness: 39.7
   band: developing
   in_catalog: true
-  kin_score: 39.3
+  kin_score: 50.5
   mcp: *id003
   name: Avo (avo.app tracking plans)
   slug: avo-app
@@ -489,10 +489,10 @@ providers:
   tags: *id004
   url: /providers/avo-app/
 - agent_band: agent-ready
-  agent_readiness: 56.9
+  agent_readiness: 58.4
   band: exemplar
   in_catalog: true
-  kin_score: 75.2
+  kin_score: 74.4
   mcp: *id005
   name: Braze
   slug: braze
@@ -503,7 +503,7 @@ providers:
   agent_readiness: 25.7
   band: thin
   in_catalog: true
-  kin_score: 32.3
+  kin_score: 30.1
   mcp: *id007
   name: Chameleon
   slug: chameleon
@@ -511,10 +511,10 @@ providers:
   tags: *id008
   url: /providers/chameleon/
 - agent_band: human-only
-  agent_readiness: 3.6
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.6
+  kin_score: 15.8
   mcp: *id009
   name: ChurnZero
   slug: churnzero
@@ -522,10 +522,10 @@ providers:
   tags: *id010
   url: /providers/churnzero/
 - agent_band: agent-aware
-  agent_readiness: 25.8
-  band: developing
+  agent_readiness: 24.6
+  band: strong
   in_catalog: true
-  kin_score: 46.1
+  kin_score: 58.4
   mcp: *id011
   name: Databox
   slug: databox
@@ -533,10 +533,10 @@ providers:
   tags: *id012
   url: /providers/databox/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id013
   name: Facebook / Meta Ads
   slug: facebook
@@ -544,7 +544,7 @@ providers:
   tags: *id014
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 48.3
+  agent_readiness: 47.4
   band: exemplar
   in_catalog: true
   kin_score: 79.4
@@ -555,7 +555,7 @@ providers:
   tags: *id016
   url: /providers/flagsmith/
 - agent_band: agent-ready
-  agent_readiness: 52.6
+  agent_readiness: 54.3
   band: strong
   in_catalog: true
   kin_score: 56.1
@@ -566,10 +566,10 @@ providers:
   tags: *id018
   url: /providers/insider/
 - agent_band: agent-ready
-  agent_readiness: 43.9
+  agent_readiness: 43.0
   band: developing
   in_catalog: true
-  kin_score: 43.5
+  kin_score: 43.4
   mcp: *id019
   name: Make (formerly Integromat)
   slug: make
@@ -577,21 +577,21 @@ providers:
   tags: *id020
   url: /providers/make/
 - agent_band: agent-native
-  agent_readiness: 66.2
+  agent_readiness: 65.1
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 68.0
   mcp: *id021
   name: MoEngage
   slug: moengage
   status: profiled
   tags: *id022
   url: /providers/moengage/
-- agent_band: agent-ready
-  agent_readiness: 29.1
+- agent_band: agent-aware
+  agent_readiness: 28.5
   band: emerging
   in_catalog: true
-  kin_score: 22.2
+  kin_score: 22.0
   mcp: *id023
   name: Pushwoosh
   slug: pushwoosh

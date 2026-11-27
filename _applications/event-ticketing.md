@@ -1346,13 +1346,13 @@ stack:
       via_parent: Event Ticketing
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Indico
       - pretix
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple Wallet (Passbook)
@@ -1368,13 +1368,13 @@ stack:
       - macOS
       tier: observed
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 40.5
       apps:
       - Indico
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 41.1
+      kin_score: 61.3
       mcp:
         source: https://developers.google.com/pay-wallet/ai-tools/mcp-server/mcp-server
         status: verified
@@ -1399,12 +1399,12 @@ stack:
       via_parent: Video Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - pretalx
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube
@@ -1420,12 +1420,12 @@ stack:
       tier: declared
       url: /providers/youtube/
     - agent_band: agent-ready
-      agent_readiness: 48.8
+      agent_readiness: 47.8
       apps:
       - pretalx
       band: thin
       in_catalog: true
-      kin_score: 38.4
+      kin_score: 37.6
       mcp:
         source: https://developer.vimeo.com/api/mcp-server
         status: documented
@@ -1450,12 +1450,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - pretalx
       band: thin
       in_catalog: true
-      kin_score: 33.9
+      kin_score: 34.2
       mcp:
         status: none
       name: ORCID
@@ -1484,7 +1484,7 @@ stack:
       - pretix
       band: minimal
       in_catalog: true
-      kin_score: 3.6
+      kin_score: 3.4
       mcp:
         status: none
       name: TicketSwap
@@ -1504,13 +1504,13 @@ stack:
       url: /capabilities/lodging-stays/
       via_parent: Lodging & Stays
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 32.0
+    - agent_band: agent-aware
+      agent_readiness: 27.3
       apps:
       - pretix
       band: developing
       in_catalog: true
-      kin_score: 40.2
+      kin_score: 52.2
       mcp:
         status: none
       name: Stay22
@@ -1559,12 +1559,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.4
       apps:
       - pretix
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.7
+      kin_score: 53.7
       mcp:
         status: none
       name: ready2order
@@ -1590,7 +1590,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Hi.Events
       - Indico
@@ -1599,7 +1599,7 @@ stack:
       - pretix
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -1618,7 +1618,7 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Indico
       - Tito
@@ -1626,7 +1626,7 @@ stack:
       - pretix
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -1645,14 +1645,14 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.5
       apps:
       - Indico
       - alf.io
       - pretix
       band: developing
       in_catalog: true
-      kin_score: 49.1
+      kin_score: 54.0
       mcp:
         status: none
       name: Worldline Direct / Saferpay
@@ -1670,13 +1670,13 @@ stack:
       tier: observed
       url: /providers/wordline/
     - agent_band: agent-native
-      agent_readiness: 73.2
+      agent_readiness: 71.7
       apps:
       - alf.io
       - pretix
       band: exemplar
       in_catalog: true
-      kin_score: 68.2
+      kin_score: 68.1
       mcp:
         source: https://docs.mollie.com/docs/mcp-server
         status: verified
@@ -1694,12 +1694,12 @@ stack:
       tier: observed
       url: /providers/mollie/
     - agent_band: agent-native
-      agent_readiness: 52.0
+      agent_readiness: 50.9
       apps:
       - alf.io
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 69.6
       mcp:
         status: none
       name: Revolut Business
@@ -1715,12 +1715,12 @@ stack:
       tier: observed
       url: /providers/revolut/
     - agent_band: agent-native
-      agent_readiness: 43.7
+      agent_readiness: 42.8
       apps:
       - pretix
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 73.6
       mcp:
         source: https://github.com/Adyen/adyen-mcp
         status: verified
@@ -1737,12 +1737,12 @@ stack:
       tier: declared
       url: /providers/adyen/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 24.6
       apps:
       - pretix
       band: developing
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 48.3
       mcp:
         status: none
       name: iyzico
@@ -1758,12 +1758,12 @@ stack:
       tier: declared
       url: /providers/iyzico/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 26.3
       apps:
       - pretix
       band: thin
       in_catalog: true
-      kin_score: 39.0
+      kin_score: 36.9
       mcp:
         status: none
       name: Przelewy24
@@ -1779,12 +1779,12 @@ stack:
       tier: declared
       url: /providers/przelewy24/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - pretix
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.5
       mcp:
         source: https://github.com/AuthorizeNet/authorize-net-mcp
         status: verified
@@ -1801,12 +1801,12 @@ stack:
       tier: declared
       url: /providers/authorizenet/
     - agent_band: agent-ready
-      agent_readiness: 36.6
+      agent_readiness: 35.9
       apps:
       - pretix
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 33.9
       mcp:
         status: none
       name: BitPay
@@ -1822,12 +1822,12 @@ stack:
       tier: declared
       url: /providers/bitpay/
     - agent_band: agent-aware
-      agent_readiness: 14.8
+      agent_readiness: 14.5
       apps:
       - pretix
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.1
+      kin_score: 28.2
       mcp:
         status: none
       name: Computop
@@ -1843,12 +1843,12 @@ stack:
       tier: declared
       url: /providers/computop/
     - agent_band: agent-aware
-      agent_readiness: 17.2
+      agent_readiness: 16.8
       apps:
       - pretix
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.9
+      kin_score: 27.7
       mcp:
         status: none
       name: Nets Easy
@@ -1869,7 +1869,7 @@ stack:
       - pretix
       band: emerging
       in_catalog: true
-      kin_score: 15.9
+      kin_score: 21.6
       mcp:
         status: none
       name: Quickpay
@@ -1885,12 +1885,12 @@ stack:
       tier: declared
       url: /providers/quickpay/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - pretix
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.2
+      kin_score: 16.5
       mcp:
         source: https://github.com/PAYONE-GmbH/omnichannel-mcp
         status: verified
@@ -1931,14 +1931,14 @@ stack:
       url: /capabilities/bot-protection-captcha/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Indico
       - alf.io
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: reCAPTCHA
@@ -1955,12 +1955,12 @@ stack:
       tier: observed
       url: /providers/google-recaptcha/
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - Indico
       band: thin
       in_catalog: true
-      kin_score: 31.5
+      kin_score: 31.1
       mcp:
         status: none
       name: hCaptcha
@@ -1976,12 +1976,12 @@ stack:
       tier: observed
       url: /providers/hcaptcha/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 24.2
       apps:
       - Hi.Events
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 28.8
       mcp:
         source: https://github.com/cloudflare/mcp
         status: verified
@@ -1998,12 +1998,12 @@ stack:
       tier: observed
       url: /providers/cloudflare-turnstile/
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - pretalx
       band: thin
       in_catalog: true
-      kin_score: 28.3
+      kin_score: 27.9
       mcp:
         status: none
       name: Friendly Captcha
@@ -2027,13 +2027,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Tito
       - alf.io
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -2051,12 +2051,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 37.4
+      agent_readiness: 41.3
       apps:
       - Indico
       band: exemplar
       in_catalog: true
-      kin_score: 72.2
+      kin_score: 70.7
       mcp:
         source: https://github.com/matomo-org/plugin-McpServer
         status: verified
@@ -2072,28 +2072,28 @@ stack:
       - Web Analytics
       tier: observed
       url: /providers/matomo/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Ticketmaster
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics / Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://web.archive.org/web/20251108232712/https://reports.exodus-privacy.eu.org/en/reports/com.ticketmaster.mobile.android.na/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.10.10
@@ -2103,12 +2103,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - alf.io
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -2124,12 +2124,12 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-ready
-      agent_readiness: 41.7
+      agent_readiness: 43.0
       apps:
       - Hi.Events
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 70.5
       mcp:
         source: https://github.com/ActiveCampaign/postmark-mcp
         status: verified
@@ -2146,12 +2146,12 @@ stack:
       tier: observed
       url: /providers/postmark/
     - agent_band: agent-aware
-      agent_readiness: 23.4
+      agent_readiness: 22.9
       apps:
       - alf.io
       band: developing
       in_catalog: true
-      kin_score: 50.1
+      kin_score: 50.5
       mcp:
         source: https://github.com/mailgun/mailjet-mcp-server
         status: verified
@@ -2168,12 +2168,12 @@ stack:
       tier: observed
       url: /providers/mailjet/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - alf.io
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -2198,13 +2198,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Luma
       - pretix
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -2222,12 +2222,12 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Luma
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2259,7 +2259,7 @@ stack:
       - pretix
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2286,12 +2286,12 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: agent-native
-      agent_readiness: 55.5
+      agent_readiness: 54.4
       apps:
       - alf.io
       band: exemplar
       in_catalog: true
-      kin_score: 77.6
+      kin_score: 79.0
       mcp:
         status: none
       name: HERE
@@ -2307,12 +2307,12 @@ stack:
       tier: observed
       url: /providers/here/
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - alf.io
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -2337,12 +2337,12 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.3
+      agent_readiness: 40.3
       apps:
       - Hi.Events
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 62.4
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -2367,12 +2367,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.5
+      agent_readiness: 31.0
       apps:
       - Indico
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 37.0
+      kin_score: 44.9
       mcp:
         source: https://github.com/owncloud/ocis-mcp-server
         status: verified
@@ -2397,12 +2397,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Ticketmaster
       band: strong
       in_catalog: true
-      kin_score: 58.7
+      kin_score: 59.5
       mcp:
         status: none
       name: mParticle
@@ -2426,12 +2426,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.8
+      agent_readiness: 52.3
       apps:
       - Ticketmaster
       band: exemplar
       in_catalog: true
-      kin_score: 80.5
+      kin_score: 77.6
       mcp:
         status: none
       name: Salesforce Marketing Cloud
@@ -2455,12 +2455,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.2
+      agent_readiness: 56.4
       apps:
       - pretix
       band: exemplar
       in_catalog: true
-      kin_score: 82.2
+      kin_score: 81.3
       mcp:
         source: https://developers.brevo.com/docs/mcp-protocol
         status: verified
@@ -2485,12 +2485,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 23.7
       apps:
       - pretix
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 31.5
       mcp:
         status: none
       name: MaxMind
@@ -2514,12 +2514,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - pretix
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2544,12 +2544,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Ticketmaster
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -2574,12 +2574,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Indico
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -2604,12 +2604,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Luma
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2636,12 +2636,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Hi.Events
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -2669,7 +2669,7 @@ summary:
     unchecked: 2
     verified: 26
   mcp_verified: 26
-  mean_kin_score: 54.0
+  mean_kin_score: 56.1
   observed: 29
   queued: 2
   reference_apps: 8

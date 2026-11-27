@@ -35,10 +35,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 20.9
     band: thin
     in_catalog: true
-    kin_score: 31.8
+    kin_score: 34.7
     mcp: &id001
       status: none
     slug: duo-security
@@ -63,10 +63,10 @@ noindex: false
 permalink: /applications/identity-access/authelia/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 20.9
   band: thin
   in_catalog: true
-  kin_score: 31.8
+  kin_score: 34.7
   mcp: *id001
   name: Duo Security
   slug: duo-security

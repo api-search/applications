@@ -71,10 +71,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.8
-    band: developing
+    agent_readiness: 33.1
+    band: strong
     in_catalog: true
-    kin_score: 47.6
+    kin_score: 56.0
     mcp: &id001
       status: none
     slug: akahu
@@ -101,10 +101,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.5
-    band: developing
+    agent_readiness: 25.9
+    band: thin
     in_catalog: true
-    kin_score: 39.9
+    kin_score: 39.1
     mcp: &id003
       status: none
     slug: enable-banking
@@ -134,7 +134,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.1
+    kin_score: 4.2
     mcp: &id005
       source: https://github.com/gocardless/gc-mcp
       status: verified
@@ -160,10 +160,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.4
+    agent_readiness: 34.8
     band: thin
     in_catalog: true
-    kin_score: 33.1
+    kin_score: 38.7
     mcp: &id007
       source: https://www.lunchflow.app/docs/guides/destinations/mcp
       status: verified
@@ -191,10 +191,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 56.5
     band: strong
     in_catalog: true
-    kin_score: 59.5
+    kin_score: 57.5
     mcp: &id009
       source: https://developers.mailersend.com/mcp-server.html
       status: verified
@@ -222,10 +222,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.0
+    agent_readiness: 21.6
     band: thin
     in_catalog: true
-    kin_score: 29.2
+    kin_score: 28.1
     mcp: &id011
       status: none
     slug: pushover
@@ -252,10 +252,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 9.9
+    kin_score: 14.7
     mcp: &id013
       status: none
     slug: simplefin
@@ -282,10 +282,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id015
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -316,7 +316,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 15.3
+    kin_score: 24.3
     mcp: &id017
       source: https://sophtron.com/mcp-server/
       status: verified
@@ -342,10 +342,10 @@ noindex: false
 permalink: /applications/personal-finance-budgeting/firefly-iii/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 33.8
-  band: developing
+  agent_readiness: 33.1
+  band: strong
   in_catalog: true
-  kin_score: 47.6
+  kin_score: 56.0
   mcp: *id001
   name: Akahu
   slug: akahu
@@ -353,10 +353,10 @@ providers:
   tags: *id002
   url: /providers/akahu/
 - agent_band: agent-aware
-  agent_readiness: 26.5
-  band: developing
+  agent_readiness: 25.9
+  band: thin
   in_catalog: true
-  kin_score: 39.9
+  kin_score: 39.1
   mcp: *id003
   name: Enable Banking
   slug: enable-banking
@@ -367,7 +367,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.1
+  kin_score: 4.2
   mcp: *id005
   name: GoCardless Bank Account Data
   slug: nordigen
@@ -375,10 +375,10 @@ providers:
   tags: *id006
   url: /providers/nordigen/
 - agent_band: agent-ready
-  agent_readiness: 38.4
+  agent_readiness: 34.8
   band: thin
   in_catalog: true
-  kin_score: 33.1
+  kin_score: 38.7
   mcp: *id007
   name: Lunch Flow
   slug: lunch-flow
@@ -386,10 +386,10 @@ providers:
   tags: *id008
   url: /providers/lunch-flow/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 56.5
   band: strong
   in_catalog: true
-  kin_score: 59.5
+  kin_score: 57.5
   mcp: *id009
   name: MailerSend
   slug: mailersend
@@ -397,10 +397,10 @@ providers:
   tags: *id010
   url: /providers/mailersend/
 - agent_band: agent-aware
-  agent_readiness: 22.0
+  agent_readiness: 21.6
   band: thin
   in_catalog: true
-  kin_score: 29.2
+  kin_score: 28.1
   mcp: *id011
   name: Pushover
   slug: pushover
@@ -408,10 +408,10 @@ providers:
   tags: *id012
   url: /providers/pushover/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 9.9
+  kin_score: 14.7
   mcp: *id013
   name: SimpleFIN Bridge
   slug: simplefin
@@ -419,10 +419,10 @@ providers:
   tags: *id014
   url: /providers/simplefin/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id015
   name: Slack
   slug: slack
@@ -433,7 +433,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 15.3
+  kin_score: 24.3
   mcp: *id017
   name: Sophtron
   slug: sophtron

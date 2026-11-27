@@ -69,10 +69,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.7
+    agent_readiness: 43.9
     band: thin
     in_catalog: true
-    kin_score: 38.7
+    kin_score: 37.8
     mcp: &id001
       status: none
     slug: cronitor
@@ -98,11 +98,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_band: agent-aware
+    agent_readiness: 27.6
     band: strong
     in_catalog: true
-    kin_score: 60.6
+    kin_score: 66.0
     mcp: &id003
       source: https://github.com/grafana/mcp-grafana
       status: verified
@@ -130,10 +130,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 17.2
+    band: developing
     in_catalog: true
-    kin_score: 32.9
+    kin_score: 43.4
     mcp: &id005
       status: none
     slug: healthchecks-io
@@ -161,9 +161,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.9
+    kin_score: 15.5
     mcp: &id007
       status: none
     slug: ntfy
@@ -190,10 +190,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.9
+    agent_readiness: 54.4
     band: developing
     in_catalog: true
-    kin_score: 51.2
+    kin_score: 52.1
     mcp: &id009
       source: https://github.com/PagerDuty/pagerduty-mcp-server
       status: verified
@@ -221,10 +221,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.0
+    agent_readiness: 21.6
     band: thin
     in_catalog: true
-    kin_score: 29.2
+    kin_score: 28.1
     mcp: &id011
       status: none
     slug: pushover
@@ -254,7 +254,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id013
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -282,10 +282,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 15.1
     band: emerging
     in_catalog: true
-    kin_score: 18.5
+    kin_score: 20.6
     mcp: &id015
       status: none
     slug: uptime-kuma
@@ -312,10 +312,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.1
+    agent_readiness: 21.6
     band: thin
     in_catalog: true
-    kin_score: 35.1
+    kin_score: 34.0
     mcp: &id017
       status: none
     slug: zabbix
@@ -340,21 +340,21 @@ noindex: false
 permalink: /applications/backup/borgmatic/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 40.7
+  agent_readiness: 43.9
   band: thin
   in_catalog: true
-  kin_score: 38.7
+  kin_score: 37.8
   mcp: *id001
   name: Cronitor
   slug: cronitor
   status: profiled
   tags: *id002
   url: /providers/cronitor/
-- agent_band: agent-ready
-  agent_readiness: 31.1
+- agent_band: agent-aware
+  agent_readiness: 27.6
   band: strong
   in_catalog: true
-  kin_score: 60.6
+  kin_score: 66.0
   mcp: *id003
   name: Grafana Loki
   slug: grafana-com
@@ -362,10 +362,10 @@ providers:
   tags: *id004
   url: /providers/grafana-com/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 17.2
+  band: developing
   in_catalog: true
-  kin_score: 32.9
+  kin_score: 43.4
   mcp: *id005
   name: Healthchecks.io
   slug: healthchecks-io
@@ -374,9 +374,9 @@ providers:
   url: /providers/healthchecks-io/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.9
+  kin_score: 15.5
   mcp: *id007
   name: ntfy
   slug: ntfy
@@ -384,10 +384,10 @@ providers:
   tags: *id008
   url: /providers/ntfy/
 - agent_band: agent-ready
-  agent_readiness: 48.9
+  agent_readiness: 54.4
   band: developing
   in_catalog: true
-  kin_score: 51.2
+  kin_score: 52.1
   mcp: *id009
   name: PagerDuty
   slug: pagerduty
@@ -395,10 +395,10 @@ providers:
   tags: *id010
   url: /providers/pagerduty/
 - agent_band: agent-aware
-  agent_readiness: 22.0
+  agent_readiness: 21.6
   band: thin
   in_catalog: true
-  kin_score: 29.2
+  kin_score: 28.1
   mcp: *id011
   name: Pushover
   slug: pushover
@@ -409,7 +409,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id013
   name: Sentry
   slug: sentry-system
@@ -417,10 +417,10 @@ providers:
   tags: *id014
   url: /providers/sentry-system/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 15.1
   band: emerging
   in_catalog: true
-  kin_score: 18.5
+  kin_score: 20.6
   mcp: *id015
   name: Uptime Kuma
   slug: uptime-kuma
@@ -428,10 +428,10 @@ providers:
   tags: *id016
   url: /providers/uptime-kuma/
 - agent_band: agent-aware
-  agent_readiness: 22.1
+  agent_readiness: 21.6
   band: thin
   in_catalog: true
-  kin_score: 35.1
+  kin_score: 34.0
   mcp: *id017
   name: Zabbix
   slug: zabbix

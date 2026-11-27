@@ -69,10 +69,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id001
       status: none
     slug: apple
@@ -125,10 +125,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 31.5
+    kin_score: 31.1
     mcp: &id005
       status: none
     slug: hcaptcha
@@ -155,10 +155,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.7
+    agent_readiness: 37.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.0
+    kin_score: 68.5
     mcp: &id007
       status: none
     slug: hyperdx
@@ -188,7 +188,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id009
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -216,10 +216,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.1
     band: thin
     in_catalog: true
-    kin_score: 34.4
+    kin_score: 34.5
     mcp: &id011
       status: none
     slug: steam
@@ -246,10 +246,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id013
       source: https://docs.stripe.com/mcp
       status: verified
@@ -275,10 +275,10 @@ noindex: false
 permalink: /applications/mobile-games/talo/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id001
   name: Game Center
   slug: apple
@@ -297,10 +297,10 @@ providers:
   tags: *id004
   url: null
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 31.5
+  kin_score: 31.1
   mcp: *id005
   name: hCaptcha
   slug: hcaptcha
@@ -308,10 +308,10 @@ providers:
   tags: *id006
   url: /providers/hcaptcha/
 - agent_band: agent-ready
-  agent_readiness: 37.7
+  agent_readiness: 37.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.0
+  kin_score: 68.5
   mcp: *id007
   name: HyperDX (@hyperdx/node-opentelemetry)
   slug: hyperdx
@@ -322,7 +322,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id009
   name: Sentry (@sentry/node)
   slug: sentry-system
@@ -330,10 +330,10 @@ providers:
   tags: *id010
   url: /providers/sentry-system/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.1
   band: thin
   in_catalog: true
-  kin_score: 34.4
+  kin_score: 34.5
   mcp: *id011
   name: Steamworks (leaderboards, stats, players)
   slug: steam
@@ -341,10 +341,10 @@ providers:
   tags: *id012
   url: /providers/steam/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id013
   name: Stripe (Talo plan billing)
   slug: stripe

@@ -59,10 +59,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.2
+    agent_readiness: 12.0
     band: emerging
     in_catalog: true
-    kin_score: 16.9
+    kin_score: 17.9
     mcp: &id002
       status: none
     slug: comscore
@@ -88,22 +88,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id004
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id005
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Crashlytics)
   provider: firebase
@@ -120,10 +120,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id006
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -166,10 +166,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id008
       status: none
     slug: google-tag-manager
@@ -196,10 +196,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.6
+    agent_readiness: 35.2
     band: developing
     in_catalog: true
-    kin_score: 45.6
+    kin_score: 45.8
     mcp: &id010
       source: https://docs.luciq.ai/product-guides-and-integrations/product-guides/ai-features.md
       status: documented
@@ -225,32 +225,32 @@ noindex: false
 permalink: /applications/real-estate-home-search/rightmove/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 12.2
+  agent_readiness: 12.0
   band: emerging
   in_catalog: true
-  kin_score: 16.9
+  kin_score: 17.9
   mcp: *id002
   name: Comscore
   slug: comscore
   status: profiled
   tags: *id003
   url: /providers/comscore/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id004
   name: Firebase (Crashlytics)
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id005
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id006
   name: Google Analytics
   slug: google-analytics
@@ -258,10 +258,10 @@ providers:
   tags: *id007
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 35.8
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 65.8
   mcp: *id008
   name: Google Tag Manager
   slug: google-tag-manager
@@ -269,10 +269,10 @@ providers:
   tags: *id009
   url: /providers/google-tag-manager/
 - agent_band: agent-ready
-  agent_readiness: 29.6
+  agent_readiness: 35.2
   band: developing
   in_catalog: true
-  kin_score: 45.6
+  kin_score: 45.8
   mcp: *id010
   name: Instabug (Luciq)
   slug: instabug
@@ -281,7 +281,7 @@ providers:
   url: /providers/instabug/
 siblings:
 - name: Flathunter
-  rows: 16
+  rows: 14
   url: /applications/real-estate-home-search/flathunter/
 - name: HomeHarvest
   rows: 1

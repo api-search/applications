@@ -105,11 +105,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -137,10 +137,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id003
       status: none
     slug: apple
@@ -167,10 +167,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.1
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.5
+    kin_score: 76.3
     mcp: &id005
       source: https://github.com/SmartBear/smartbear-mcp
       status: verified
@@ -197,22 +197,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id007
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id008
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Crashlytics, Analytics)
   provider: firebase
@@ -229,10 +229,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id009
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -260,10 +260,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id011
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -290,11 +290,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id013
       status: none
     slug: google-identity-platform
@@ -324,7 +324,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 33.4
+    kin_score: 34.3
     mcp: &id015
       status: none
     slug: livekit
@@ -351,10 +351,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id017
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -382,10 +382,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id019
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -413,10 +413,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id021
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -441,11 +441,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/messaging-chat/rocket-chat/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -453,10 +453,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id003
   name: Apple (APNs, Sign in with Apple)
   slug: apple
@@ -464,32 +464,32 @@ providers:
   tags: *id004
   url: /providers/apple/
 - agent_band: agent-ready
-  agent_readiness: 53.1
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.5
+  kin_score: 76.3
   mcp: *id005
   name: Bugsnag
   slug: bugsnag
   status: profiled
   tags: *id006
   url: /providers/bugsnag/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id007
   name: Firebase (Crashlytics, Analytics)
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id008
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id009
   name: GitHub
   slug: github
@@ -497,21 +497,21 @@ providers:
   tags: *id010
   url: /providers/github/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id011
   name: Google Cloud Storage
   slug: gcp-cloud-storage
   status: profiled
   tags: *id012
   url: /providers/gcp-cloud-storage/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id013
   name: Google sign-in
   slug: google-identity-platform
@@ -522,7 +522,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 33.4
+  kin_score: 34.3
   mcp: *id015
   name: LiveKit
   slug: livekit
@@ -530,10 +530,10 @@ providers:
   tags: *id016
   url: /providers/livekit/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id017
   name: Slack
   slug: slack
@@ -541,10 +541,10 @@ providers:
   tags: *id018
   url: /providers/slack/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id019
   name: Twilio
   slug: twilio
@@ -552,10 +552,10 @@ providers:
   tags: *id020
   url: /providers/twilio/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id021
   name: X (Twitter)
   slug: x

@@ -50,10 +50,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 48.0
     mcp: &id001
       status: none
     slug: discord
@@ -83,7 +83,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.3
+    kin_score: 4.1
     mcp: &id003
       status: none
     slug: espn
@@ -110,10 +110,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_readiness: 25.4
     band: thin
     in_catalog: true
-    kin_score: 34.7
+    kin_score: 32.9
     mcp: &id005
       status: none
     slug: groupme
@@ -140,10 +140,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id007
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -169,10 +169,10 @@ noindex: false
 permalink: /applications/sports-fantasy/gameday-bot-fantasy-football-chat-bot/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 48.0
   mcp: *id001
   name: Discord webhook
   slug: discord
@@ -183,7 +183,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.3
+  kin_score: 4.1
   mcp: *id003
   name: ESPN Fantasy via espn_api
   slug: espn
@@ -191,10 +191,10 @@ providers:
   tags: *id004
   url: /providers/espn/
 - agent_band: agent-aware
-  agent_readiness: 25.9
+  agent_readiness: 25.4
   band: thin
   in_catalog: true
-  kin_score: 34.7
+  kin_score: 32.9
   mcp: *id005
   name: GroupMe bots API
   slug: groupme
@@ -202,10 +202,10 @@ providers:
   tags: *id006
   url: /providers/groupme/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id007
   name: Slack incoming webhook
   slug: slack

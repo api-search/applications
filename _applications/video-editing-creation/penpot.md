@@ -41,10 +41,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id001
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -72,10 +72,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id003
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -102,11 +102,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id005
       status: none
     slug: google-identity-platform
@@ -131,10 +131,10 @@ noindex: false
 permalink: /applications/video-editing-creation/penpot/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id001
   name: GitHub
   slug: github
@@ -142,21 +142,21 @@ providers:
   tags: *id002
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id003
   name: GitLab
   slug: gitlab
   status: profiled
   tags: *id004
   url: /providers/gitlab/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id005
   name: Google sign-in
   slug: google-identity-platform

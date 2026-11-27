@@ -51,10 +51,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id001
       status: none
     slug: facebook
@@ -81,10 +81,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.5
-    band: thin
+    agent_readiness: 22.0
+    band: emerging
     in_catalog: true
-    kin_score: 26.5
+    kin_score: 25.5
     mcp: &id003
       status: none
     slug: mastodon
@@ -111,10 +111,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.0
-    band: thin
+    agent_readiness: 27.1
+    band: developing
     in_catalog: true
-    kin_score: 35.8
+    kin_score: 49.2
     mcp: &id005
       status: none
     slug: tenor
@@ -141,10 +141,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.1
+    agent_readiness: 52.6
     band: developing
     in_catalog: true
-    kin_score: 40.2
+    kin_score: 39.4
     mcp: &id007
       status: none
     slug: unsplash
@@ -171,10 +171,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id009
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -200,10 +200,10 @@ noindex: false
 permalink: /applications/social-media-management/mixpost/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id001
   name: Facebook
   slug: facebook
@@ -211,10 +211,10 @@ providers:
   tags: *id002
   url: /providers/facebook/
 - agent_band: agent-aware
-  agent_readiness: 22.5
-  band: thin
+  agent_readiness: 22.0
+  band: emerging
   in_catalog: true
-  kin_score: 26.5
+  kin_score: 25.5
   mcp: *id003
   name: Mastodon
   slug: mastodon
@@ -222,10 +222,10 @@ providers:
   tags: *id004
   url: /providers/mastodon/
 - agent_band: agent-aware
-  agent_readiness: 24.0
-  band: thin
+  agent_readiness: 27.1
+  band: developing
   in_catalog: true
-  kin_score: 35.8
+  kin_score: 49.2
   mcp: *id005
   name: Tenor
   slug: tenor
@@ -233,10 +233,10 @@ providers:
   tags: *id006
   url: /providers/tenor/
 - agent_band: agent-ready
-  agent_readiness: 44.1
+  agent_readiness: 52.6
   band: developing
   in_catalog: true
-  kin_score: 40.2
+  kin_score: 39.4
   mcp: *id007
   name: Unsplash
   slug: unsplash
@@ -244,10 +244,10 @@ providers:
   tags: *id008
   url: /providers/unsplash/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id009
   name: X (Twitter)
   slug: x

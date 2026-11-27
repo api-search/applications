@@ -931,8 +931,8 @@ apps:
       id: BC-1350.40
       key: BC-1350.40
       name: Supply Chain Finance Management
-      url: /capabilities/trade-finance-management/
-      via_parent: Trade Finance Management
+      url: /capabilities/supply-chain-finance-management/
+      via_parent: null
     credit: null
     layer: domain
     name: Billd
@@ -1508,8 +1508,8 @@ needs:
     id: BC-1350.40
     key: BC-1350.40
     name: Supply Chain Finance Management
-    url: /capabilities/trade-finance-management/
-    via_parent: Trade Finance Management
+    url: /capabilities/supply-chain-finance-management/
+    via_parent: null
   fit: exact
   layer: domain
   why: named by Knowify
@@ -1584,12 +1584,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.3
+      agent_readiness: 37.5
       apps:
       - CompanyCam
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 61.9
+      kin_score: 66.9
       mcp:
         source: https://marketplace.gohighlevel.com/docs/other/mcp/index.html
         status: verified
@@ -1606,12 +1606,12 @@ stack:
       tier: declared
       url: /providers/highlevel/
     - agent_band: agent-ready
-      agent_readiness: 46.7
+      agent_readiness: 51.8
       apps:
       - CompanyCam
       band: strong
       in_catalog: true
-      kin_score: 54.6
+      kin_score: 64.7
       mcp:
         status: none
       name: AccuLynx
@@ -1626,13 +1626,34 @@ stack:
       - Software-as-a-Service
       tier: declared
       url: /providers/acculynx/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - CompanyCam
+      band: thin
+      in_catalog: true
+      kin_score: 27.7
+      mcp:
+        status: unknown
+      name: Aspire (Powered by MindCloud)
+      slug: aspire-software
+      sources:
+      - https://companycam.com/integrations
+      status: profiled
+      tags:
+      - Automation
+      - Company
+      - Field Service Management
+      - Software
+      tier: declared
+      url: /providers/aspire-software/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - CompanyCam
       band: emerging
       in_catalog: true
-      kin_score: 19.7
+      kin_score: 25.3
       mcp:
         status: unknown
       name: Leap
@@ -1653,28 +1674,7 @@ stack:
       - CompanyCam
       band: emerging
       in_catalog: true
-      kin_score: 16.5
-      mcp:
-        status: unknown
-      name: Aspire (Powered by MindCloud)
-      slug: aspire-software
-      sources:
-      - https://companycam.com/integrations
-      status: profiled
-      tags:
-      - Automation
-      - Company
-      - Field Service Management
-      - Software
-      tier: declared
-      url: /providers/aspire-software/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - CompanyCam
-      band: emerging
-      in_catalog: true
-      kin_score: 16.0
+      kin_score: 15.2
       mcp:
         status: unknown
       name: JobNimbus
@@ -1695,7 +1695,7 @@ stack:
       - CompanyCam
       band: emerging
       in_catalog: true
-      kin_score: 14.1
+      kin_score: 14.6
       mcp:
         status: unknown
       name: Roofr
@@ -1711,12 +1711,12 @@ stack:
       tier: declared
       url: /providers/roofr/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - CompanyCam
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: LeadPerfection
@@ -1756,12 +1756,12 @@ stack:
       tier: declared
       url: null
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.2
       apps:
       - JobTread
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.2
+      kin_score: 25.0
       mcp:
         status: none
       name: Home Depot
@@ -1777,9 +1777,9 @@ stack:
       agent_readiness: 0.6
       apps:
       - JobTread
-      band: emerging
+      band: minimal
       in_catalog: true
-      kin_score: 12.0
+      kin_score: 10.2
       mcp:
         status: unknown
       name: QXO
@@ -1800,7 +1800,7 @@ stack:
       - JobTread
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: PoolCorp
@@ -1838,12 +1838,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.2
+      agent_readiness: 16.8
       apps:
       - Raken
       band: thin
       in_catalog: true
-      kin_score: 29.9
+      kin_score: 31.9
       mcp:
         status: unknown
       name: DroneDeploy
@@ -1858,13 +1858,13 @@ stack:
       - Reality Capture
       tier: declared
       url: /providers/dronedeploy/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - Raken
       band: emerging
       in_catalog: true
-      kin_score: 15.8
+      kin_score: 23.8
       mcp:
         status: none
       name: TrueLook
@@ -1883,9 +1883,9 @@ stack:
       agent_readiness: 2.5
       apps:
       - Raken
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.9
+      kin_score: 16.7
       mcp:
         status: unknown
       name: EarthCam
@@ -1926,33 +1926,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.3
+      agent_readiness: 43.0
       apps:
       - Raken
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 62.2
-      mcp: &id001
-        status: none
-      name: Procore
-      slug: procore
-      sources:
-      - https://www.rakenapp.com/integrations
-      status: profiled
-      tags: &id002
-      - Construction
-      - Construction Management
-      - Field Productivity
-      - Project Management
-      tier: declared
-      url: /providers/procore/
-    - agent_band: agent-aware
-      agent_readiness: 27.6
-      apps:
-      - Raken
-      band: developing
-      in_catalog: true
-      kin_score: 49.1
+      kin_score: 69.0
       mcp:
         source: https://github.com/autodesk-platform-services/aps-mcp-server-nodejs
         status: verified
@@ -1968,13 +1947,34 @@ stack:
       - Project Management
       tier: declared
       url: /providers/autodesk-construction-cloud/
+    - agent_band: agent-ready
+      agent_readiness: 36.1
+      apps:
+      - Raken
+      band: exemplar
+      in_catalog: true
+      kin_score: 68.5
+      mcp: &id001
+        status: none
+      name: Procore
+      slug: procore
+      sources:
+      - https://www.rakenapp.com/integrations
+      status: profiled
+      tags: &id002
+      - Construction
+      - Construction Management
+      - Field Productivity
+      - Project Management
+      tier: declared
+      url: /providers/procore/
     - agent_band: agent-aware
-      agent_readiness: 13.7
+      agent_readiness: 10.6
       apps:
       - CompanyCam
       band: emerging
       in_catalog: true
-      kin_score: 16.5
+      kin_score: 25.0
       mcp:
         status: none
       name: JobTread
@@ -1998,12 +1998,12 @@ stack:
       via_parent: Employee & Labour Relations
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Knowify
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.3
+      kin_score: 14.5
       mcp:
         status: unknown
       name: Lumber
@@ -2024,7 +2024,7 @@ stack:
       - Knowify
       band: minimal
       in_catalog: true
-      kin_score: 6.0
+      kin_score: 10.2
       mcp:
         status: unknown
       name: eBacon
@@ -2064,14 +2064,14 @@ stack:
       url: /capabilities/engineering-document-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 25.4
+    - agent_band: agent-ready
+      agent_readiness: 30.3
       apps:
       - Procore
       - Raken
       band: thin
       in_catalog: true
-      kin_score: 34.9
+      kin_score: 33.7
       mcp:
         status: none
       name: Bluebeam
@@ -2096,12 +2096,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 26.3
       apps:
       - CompanyCam
       band: strong
       in_catalog: true
-      kin_score: 57.1
+      kin_score: 54.3
       mcp:
         status: none
       name: ServiceTitan
@@ -2117,12 +2117,12 @@ stack:
       tier: declared
       url: /providers/servicetitan/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 44.8
       apps:
       - CompanyCam
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 54.3
+      kin_score: 52.1
       mcp:
         source: https://github.com/GetJobber/grok-bot-mcp
         status: verified
@@ -2147,12 +2147,12 @@ stack:
       via_parent: Commercial & Quantity Surveying
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 59.8
       apps:
       - Siteline
       band: exemplar
       in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.4
       mcp:
         source: https://github.com/oracle/mcp
         status: verified
@@ -2169,12 +2169,12 @@ stack:
       tier: declared
       url: /providers/oracle/
     - agent_band: agent-ready
-      agent_readiness: 41.3
+      agent_readiness: 36.1
       apps:
       - Siteline
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 62.2
+      kin_score: 68.5
       mcp: *id001
       name: Procore Pay
       slug: procore
@@ -2196,9 +2196,9 @@ stack:
       agent_readiness: 26.5
       apps:
       - Procore
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 53.7
+      kin_score: 56.3
       mcp:
         status: none
       name: Microsoft Project
@@ -2214,12 +2214,12 @@ stack:
       tier: declared
       url: /providers/microsoft-project/
     - agent_band: agent-aware
-      agent_readiness: 21.1
+      agent_readiness: 20.7
       apps:
       - CompanyCam
       band: developing
       in_catalog: true
-      kin_score: 41.6
+      kin_score: 41.4
       mcp:
         source: https://github.com/smartsheet-platform/smar-mcp
         status: verified
@@ -2244,13 +2244,13 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.3
+      agent_readiness: 34.6
       apps:
       - CompanyCam
       - JobTread
       band: developing
       in_catalog: true
-      kin_score: 46.8
+      kin_score: 52.2
       mcp:
         status: none
       name: Eagleview
@@ -2275,12 +2275,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - Knowify
       band: emerging
       in_catalog: true
-      kin_score: 14.3
+      kin_score: 20.3
       mcp:
         status: unknown
       name: AIA Contract Documents
@@ -2304,12 +2304,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.1
+      agent_readiness: 46.0
       apps:
       - OpenProject (BIM)
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 72.3
       mcp:
         source: https://github.com/autodesk-platform-services/aps-mcp-server-nodejs
         status: verified
@@ -2334,12 +2334,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 40.1
       apps:
       - Knowify
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 70.3
       mcp:
         status: none
       name: CompanyCam
@@ -2384,16 +2384,16 @@ stack:
       id: BC-1350.40
       key: BC-1350.40
       name: Supply Chain Finance Management
-      url: /capabilities/trade-finance-management/
-      via_parent: Trade Finance Management
+      url: /capabilities/supply-chain-finance-management/
+      via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Knowify
       band: emerging
       in_catalog: true
-      kin_score: 11.2
+      kin_score: 19.0
       mcp:
         status: unknown
       name: Billd
@@ -2418,8 +2418,8 @@ stack:
       url: /capabilities/general-ledger-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - CompanyCam
       - JobTread
@@ -2429,7 +2429,7 @@ stack:
       - Siteline
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp: &id003
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -2448,14 +2448,39 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.3
+      apps:
+      - Procore
+      - Raken
+      - Siteline
+      band: exemplar
+      in_catalog: true
+      kin_score: 66.6
+      mcp:
+        status: none
+      name: Viewpoint Spectrum (Trimble)
+      slug: trimble
+      sources:
+      - https://v2.support.procore.com/en-au/product-manuals/viewpoint-spectrum/
+      - https://www.rakenapp.com/integrations
+      - https://www.siteline.com/integrations
+      status: profiled
+      tags:
+      - Construction
+      - GPS
+      - Geospatial
+      - Transportation
+      tier: declared
+      url: /providers/trimble/
+    - agent_band: agent-ready
+      agent_readiness: 30.6
       apps:
       - Procore
       - Raken
       - Siteline
       band: developing
       in_catalog: true
-      kin_score: 41.8
+      kin_score: 41.7
       mcp:
         status: none
       name: Sage 100 Contractor
@@ -2473,39 +2498,14 @@ stack:
       tier: declared
       url: /providers/sage/
     - agent_band: agent-aware
-      agent_readiness: 23.0
-      apps:
-      - Procore
-      - Raken
-      - Siteline
-      band: developing
-      in_catalog: true
-      kin_score: 41.1
-      mcp:
-        status: none
-      name: Viewpoint Spectrum (Trimble)
-      slug: trimble
-      sources:
-      - https://v2.support.procore.com/en-au/product-manuals/viewpoint-spectrum/
-      - https://www.rakenapp.com/integrations
-      - https://www.siteline.com/integrations
-      status: profiled
-      tags:
-      - Construction
-      - GPS
-      - Geospatial
-      - Transportation
-      tier: declared
-      url: /providers/trimble/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
+      agent_readiness: 28.2
       apps:
       - Procore
       - Raken
       - Siteline
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 37.7
       mcp:
         status: unknown
       name: CMiC
@@ -2523,14 +2523,14 @@ stack:
       tier: declared
       url: /providers/cmic/
     - agent_band: agent-aware
-      agent_readiness: 15.5
+      agent_readiness: 15.1
       apps:
       - Procore
       - Raken
       - Siteline
       band: thin
       in_catalog: true
-      kin_score: 26.3
+      kin_score: 26.5
       mcp:
         status: none
       name: Sage Intacct
@@ -2548,13 +2548,13 @@ stack:
       tier: declared
       url: /providers/sage-intacct/
     - agent_band: agent-aware
-      agent_readiness: 18.0
+      agent_readiness: 14.8
       apps:
       - Raken
       - Siteline
       band: emerging
       in_catalog: true
-      kin_score: 15.1
+      kin_score: 20.5
       mcp:
         source: https://learning.deltek.com/bundle/MCP_Server_Setup_Guide_for_REST_APIs/page/overview.html
         status: documented
@@ -2572,13 +2572,13 @@ stack:
       tier: declared
       url: /providers/deltek/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Raken
       - Siteline
       band: emerging
       in_catalog: true
-      kin_score: 13.0
+      kin_score: 19.9
       mcp:
         status: unknown
       name: Foundation
@@ -2601,7 +2601,7 @@ stack:
       - Siteline
       band: emerging
       in_catalog: true
-      kin_score: 12.5
+      kin_score: 11.4
       mcp:
         status: none
       name: Oracle NetSuite
@@ -2618,12 +2618,12 @@ stack:
       tier: declared
       url: /providers/netsuite/
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Procore
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -2640,12 +2640,12 @@ stack:
       tier: declared
       url: /providers/xero/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - Siteline
       band: emerging
       in_catalog: true
-      kin_score: 17.9
+      kin_score: 17.1
       mcp:
         status: none
       name: Acumatica
@@ -2669,13 +2669,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - OpenProject (BIM)
       - Raken
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: OneDrive
@@ -2692,12 +2692,12 @@ stack:
       tier: declared
       url: /providers/microsoft-onedrive/
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Raken
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2714,12 +2714,12 @@ stack:
       tier: declared
       url: /providers/google-drive/
     - agent_band: agent-ready
-      agent_readiness: 57.4
+      agent_readiness: 56.6
       apps:
       - Raken
       band: strong
       in_catalog: true
-      kin_score: 65.5
+      kin_score: 63.0
       mcp:
         source: https://developer.box.com/guides/box-mcp/
         status: verified
@@ -2736,12 +2736,12 @@ stack:
       tier: declared
       url: /providers/box/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Raken
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -2758,12 +2758,12 @@ stack:
       tier: declared
       url: /providers/dropbox/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - OpenProject (BIM)
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp:
         status: none
       name: Nextcloud
@@ -2779,12 +2779,12 @@ stack:
       tier: declared
       url: /providers/nextcloud/
     - agent_band: agent-aware
-      agent_readiness: 27.0
+      agent_readiness: 26.4
       apps:
       - Raken
       band: thin
       in_catalog: true
-      kin_score: 29.9
+      kin_score: 29.5
       mcp:
         source: https://github.com/egnyte/egnyte-mcp-server
         status: verified
@@ -2808,13 +2808,13 @@ stack:
       url: /capabilities/human-capital-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Knowify
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp: *id003
       name: QuickBooks Online Payroll / QuickBooks Time
       slug: quickbooks
@@ -2825,12 +2825,12 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 31.7
       apps:
       - JobTread
       band: developing
       in_catalog: true
-      kin_score: 42.0
+      kin_score: 44.9
       mcp:
         status: none
       name: Gusto
@@ -2845,13 +2845,13 @@ stack:
       - Payroll
       tier: declared
       url: /providers/gusto/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
+    - agent_band: agent-ready
+      agent_readiness: 29.3
       apps:
       - Raken
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 37.8
       mcp:
         status: none
       name: Paychex
@@ -2875,14 +2875,14 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - CompanyCam
       - JobTread
       - Knowify
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2908,35 +2908,13 @@ stack:
       url: /capabilities/software-construction-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 63.4
-      apps:
-      - OpenProject (BIM)
-      band: exemplar
-      in_catalog: true
-      kin_score: 85.4
-      mcp:
-        source: https://github.com/github/github-mcp-server
-        status: verified
-      name: GitHub
-      slug: github
-      sources:
-      - https://www.openproject.org/docs/system-admin-guide/integrations/
-      status: profiled
-      tags:
-      - Code
-      - Developer Tools
-      - Pipelines
-      - Platform
-      tier: declared
-      url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - OpenProject (BIM)
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -2952,6 +2930,28 @@ stack:
       - Software Development
       tier: declared
       url: /providers/gitlab/
+    - agent_band: agent-ready
+      agent_readiness: 62.4
+      apps:
+      - OpenProject (BIM)
+      band: exemplar
+      in_catalog: true
+      kin_score: 85.0
+      mcp:
+        source: https://github.com/github/github-mcp-server
+        status: verified
+      name: GitHub
+      slug: github
+      sources:
+      - https://www.openproject.org/docs/system-admin-guide/integrations/
+      status: profiled
+      tags:
+      - Code
+      - Developer Tools
+      - Pipelines
+      - Platform
+      tier: declared
+      url: /providers/github/
   - capability:
       attribution: Turbo EA
       id: BC-200.30
@@ -2960,13 +2960,13 @@ stack:
       url: /capabilities/accounts-receivable-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Knowify
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp: *id003
       name: QuickBooks Payments
       slug: quickbooks
@@ -2985,12 +2985,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Procore
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 71.5
       mcp:
         source: https://www.docusign.com/products/mcp
         status: documented
@@ -3015,12 +3015,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.2
+      agent_readiness: 32.3
       apps:
       - OpenProject (BIM)
       band: strong
       in_catalog: true
-      kin_score: 58.5
+      kin_score: 60.9
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3045,12 +3045,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 10.6
       apps:
       - OpenProject (BIM)
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 13.1
       mcp:
         source: https://github.com/xwiki-contrib/ai-llm
         status: verified
@@ -3074,28 +3074,28 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Procore
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id005
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google CrashLytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.procore.activities/latest/
       status: profiled
       tags: &id006
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-4280.30
@@ -3104,22 +3104,22 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Procore
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id005
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.procore.activities/latest/
       status: profiled
       tags: *id006
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-140.60
@@ -3128,13 +3128,13 @@ stack:
       url: /capabilities/reviews-social-proof/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - JobTread
       band: emerging
       in_catalog: true
-      kin_score: 13.2
+      kin_score: 18.4
       mcp:
         status: none
       name: NiceJob
@@ -3161,7 +3161,7 @@ summary:
     unchecked: 5
     verified: 18
   mcp_verified: 18
-  mean_kin_score: 38.1
+  mean_kin_score: 41.6
   observed: 1
   queued: 5
   reference_apps: 7

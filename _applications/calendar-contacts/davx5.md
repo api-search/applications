@@ -54,11 +54,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id009
       source: https://github.com/google/mcp
       status: verified
@@ -85,11 +85,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 38.2
+    band: strong
     in_catalog: true
-    kin_score: 45.6
+    kin_score: 57.2
     mcp: &id011
       source: https://docs.cloud.google.com/mcp/supported-products
       status: verified
@@ -120,7 +120,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 7.5
+    kin_score: 8.5
     mcp: &id001
       status: none
     slug: baikal
@@ -147,10 +147,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 17.3
+    band: developing
     in_catalog: true
-    kin_score: 28.8
+    kin_score: 39.5
     mcp: &id003
       status: none
     slug: fastmail
@@ -178,9 +178,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 20.5
+    kin_score: 27.9
     mcp: &id005
       status: none
     slug: fruux
@@ -207,10 +207,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.5
+    kin_score: 20.7
     mcp: &id007
       status: none
     slug: gmx-net
@@ -237,10 +237,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id013
       status: none
     slug: apple
@@ -267,10 +267,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.7
+    agent_readiness: 13.4
     band: emerging
     in_catalog: true
-    kin_score: 11.0
+    kin_score: 16.0
     mcp: &id015
       source: https://github.com/Infomaniak/mcp-server-kdrive
       status: verified
@@ -297,11 +297,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_band: agent-aware
+    agent_readiness: 27.2
     band: emerging
     in_catalog: true
-    kin_score: 19.6
+    kin_score: 24.8
     mcp: &id017
       status: unknown
     slug: mailbox-org
@@ -328,10 +328,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id019
       status: none
     slug: nextcloud
@@ -359,9 +359,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.5
+    kin_score: 16.4
     mcp: &id021
       status: none
     slug: posteo
@@ -391,7 +391,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 7.6
+    kin_score: 6.7
     mcp: &id023
       status: unknown
     slug: radicale
@@ -418,10 +418,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.2
+    agent_readiness: 15.8
     band: developing
     in_catalog: true
-    kin_score: 41.4
+    kin_score: 42.6
     mcp: &id025
       status: none
     slug: yahoo
@@ -448,10 +448,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.0
+    agent_readiness: 32.4
     band: strong
     in_catalog: true
-    kin_score: 63.5
+    kin_score: 64.4
     mcp: &id027
       source: https://www.zoho.com/mcp/
       status: verified
@@ -480,7 +480,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 7.5
+  kin_score: 8.5
   mcp: *id001
   name: Baikal
   slug: baikal
@@ -488,10 +488,10 @@ providers:
   tags: *id002
   url: /providers/baikal/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 17.3
+  band: developing
   in_catalog: true
-  kin_score: 28.8
+  kin_score: 39.5
   mcp: *id003
   name: Fastmail
   slug: fastmail
@@ -500,9 +500,9 @@ providers:
   url: /providers/fastmail/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 20.5
+  kin_score: 27.9
   mcp: *id005
   name: fruux
   slug: fruux
@@ -510,32 +510,32 @@ providers:
   tags: *id006
   url: /providers/fruux/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.5
+  kin_score: 20.7
   mcp: *id007
   name: GMX (mail)
   slug: gmx-net
   status: profiled
   tags: *id008
   url: /providers/gmx-net/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id009
   name: Google Calendar
   slug: google-calendar
   status: profiled
   tags: *id010
   url: /providers/google-calendar/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 38.2
+  band: strong
   in_catalog: true
-  kin_score: 45.6
+  kin_score: 57.2
   mcp: *id011
   name: Google Contacts
   slug: google-people
@@ -543,10 +543,10 @@ providers:
   tags: *id012
   url: /providers/google-people/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id013
   name: iCloud
   slug: apple
@@ -554,21 +554,21 @@ providers:
   tags: *id014
   url: /providers/apple/
 - agent_band: agent-aware
-  agent_readiness: 13.7
+  agent_readiness: 13.4
   band: emerging
   in_catalog: true
-  kin_score: 11.0
+  kin_score: 16.0
   mcp: *id015
   name: Infomaniak
   slug: infomaniak
   status: profiled
   tags: *id016
   url: /providers/infomaniak/
-- agent_band: agent-ready
-  agent_readiness: 30.6
+- agent_band: agent-aware
+  agent_readiness: 27.2
   band: emerging
   in_catalog: true
-  kin_score: 19.6
+  kin_score: 24.8
   mcp: *id017
   name: mailbox.org
   slug: mailbox-org
@@ -576,10 +576,10 @@ providers:
   tags: *id018
   url: /providers/mailbox-org/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id019
   name: Nextcloud
   slug: nextcloud
@@ -588,9 +588,9 @@ providers:
   url: /providers/nextcloud/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.5
+  kin_score: 16.4
   mcp: *id021
   name: Posteo
   slug: posteo
@@ -601,7 +601,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 7.6
+  kin_score: 6.7
   mcp: *id023
   name: Radicale
   slug: radicale
@@ -609,10 +609,10 @@ providers:
   tags: *id024
   url: /providers/radicale/
 - agent_band: agent-aware
-  agent_readiness: 16.2
+  agent_readiness: 15.8
   band: developing
   in_catalog: true
-  kin_score: 41.4
+  kin_score: 42.6
   mcp: *id025
   name: Yahoo
   slug: yahoo
@@ -620,10 +620,10 @@ providers:
   tags: *id026
   url: /providers/yahoo/
 - agent_band: agent-ready
-  agent_readiness: 33.0
+  agent_readiness: 32.4
   band: strong
   in_catalog: true
-  kin_score: 63.5
+  kin_score: 64.4
   mcp: *id027
   name: Zoho
   slug: zoho

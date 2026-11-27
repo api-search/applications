@@ -99,10 +99,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_readiness: 30.4
     band: developing
     in_catalog: true
-    kin_score: 44.8
+    kin_score: 44.1
     mcp: &id001
       status: none
     slug: airbnb
@@ -129,10 +129,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.1
+    agent_readiness: 46.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 56.0
     mcp: &id003
       status: none
     slug: beyond-pricing
@@ -159,10 +159,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
-    band: strong
+    agent_readiness: 44.9
+    band: exemplar
     in_catalog: true
-    kin_score: 64.8
+    kin_score: 66.6
     mcp: &id005
       status: none
     slug: booking-com
@@ -189,10 +189,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.0
+    agent_readiness: 53.6
     band: developing
     in_catalog: true
-    kin_score: 46.2
+    kin_score: 44.7
     mcp: &id007
       status: none
     slug: braintree
@@ -219,10 +219,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.8
-    band: thin
+    agent_readiness: 19.4
+    band: developing
     in_catalog: true
-    kin_score: 34.3
+    kin_score: 43.3
     mcp: &id009
       status: unknown
     slug: breezeway
@@ -249,10 +249,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 10.8
-    band: thin
+    agent_readiness: 7.7
+    band: developing
     in_catalog: true
-    kin_score: 31.3
+    kin_score: 39.4
     mcp: &id011
       status: unknown
     slug: chargeautomation
@@ -279,10 +279,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.8
+    agent_readiness: 30.2
     band: thin
     in_catalog: true
-    kin_score: 34.8
+    kin_score: 33.8
     mcp: &id013
       source: https://github.com/ExpediaGroup/expedia-travel-recommendations-mcp
       status: verified
@@ -310,10 +310,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id015
       source: https://github.com/google/mcp
       status: verified
@@ -341,10 +341,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.5
+    agent_readiness: 17.3
     band: emerging
     in_catalog: true
-    kin_score: 13.4
+    kin_score: 20.0
     mcp: &id017
       status: none
     slug: operto
@@ -397,10 +397,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.5
+    agent_readiness: 25.0
     band: emerging
     in_catalog: true
-    kin_score: 16.2
+    kin_score: 23.5
     mcp: &id021
       status: none
     slug: remotelock
@@ -430,7 +430,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.4
+    kin_score: 14.0
     mcp: &id023
       status: unknown
     slug: safely
@@ -457,10 +457,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id025
       source: https://docs.stripe.com/mcp
       status: verified
@@ -513,17 +513,18 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: null
-    agent_readiness: null
-    band: null
-    in_catalog: false
-    kin_score: null
+    agent_band: human-only
+    agent_readiness: 3.0
+    band: minimal
+    in_catalog: true
+    kin_score: 5.1
     mcp: &id029
       status: unchecked
     slug: vrbo
-    status: queued for profiling
-    tags: &id030 []
-    url: null
+    status: profiled
+    tags: &id030
+    - Company
+    url: /providers/vrbo/
   layer: domain
   name: Vrbo
   provider: vrbo
@@ -569,7 +570,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 16.3
+    kin_score: 24.1
     mcp: &id033
       status: unknown
     slug: ximplifi
@@ -594,10 +595,10 @@ noindex: false
 permalink: /applications/property-management/hostaway/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.1
+  agent_readiness: 30.4
   band: developing
   in_catalog: true
-  kin_score: 44.8
+  kin_score: 44.1
   mcp: *id001
   name: Airbnb
   slug: airbnb
@@ -605,10 +606,10 @@ providers:
   tags: *id002
   url: /providers/airbnb/
 - agent_band: agent-ready
-  agent_readiness: 47.1
+  agent_readiness: 46.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 56.0
   mcp: *id003
   name: Beyond
   slug: beyond-pricing
@@ -616,10 +617,10 @@ providers:
   tags: *id004
   url: /providers/beyond-pricing/
 - agent_band: agent-ready
-  agent_readiness: 45.8
-  band: strong
+  agent_readiness: 44.9
+  band: exemplar
   in_catalog: true
-  kin_score: 64.8
+  kin_score: 66.6
   mcp: *id005
   name: Booking.com
   slug: booking-com
@@ -627,10 +628,10 @@ providers:
   tags: *id006
   url: /providers/booking-com/
 - agent_band: agent-ready
-  agent_readiness: 52.0
+  agent_readiness: 53.6
   band: developing
   in_catalog: true
-  kin_score: 46.2
+  kin_score: 44.7
   mcp: *id007
   name: Braintree
   slug: braintree
@@ -638,10 +639,10 @@ providers:
   tags: *id008
   url: /providers/braintree/
 - agent_band: agent-aware
-  agent_readiness: 19.8
-  band: thin
+  agent_readiness: 19.4
+  band: developing
   in_catalog: true
-  kin_score: 34.3
+  kin_score: 43.3
   mcp: *id009
   name: Breezeway
   slug: breezeway
@@ -649,10 +650,10 @@ providers:
   tags: *id010
   url: /providers/breezeway/
 - agent_band: agent-aware
-  agent_readiness: 10.8
-  band: thin
+  agent_readiness: 7.7
+  band: developing
   in_catalog: true
-  kin_score: 31.3
+  kin_score: 39.4
   mcp: *id011
   name: ChargeAutomation
   slug: chargeautomation
@@ -660,10 +661,10 @@ providers:
   tags: *id012
   url: /providers/chargeautomation/
 - agent_band: agent-ready
-  agent_readiness: 30.8
+  agent_readiness: 30.2
   band: thin
   in_catalog: true
-  kin_score: 34.8
+  kin_score: 33.8
   mcp: *id013
   name: Expedia
   slug: expedia-group
@@ -671,10 +672,10 @@ providers:
   tags: *id014
   url: /providers/expedia-group/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id015
   name: Google Vacation Rentals
   slug: google
@@ -682,10 +683,10 @@ providers:
   tags: *id016
   url: /providers/google/
 - agent_band: agent-aware
-  agent_readiness: 20.5
+  agent_readiness: 17.3
   band: emerging
   in_catalog: true
-  kin_score: 13.4
+  kin_score: 20.0
   mcp: *id017
   name: Operto
   slug: operto
@@ -704,10 +705,10 @@ providers:
   tags: *id020
   url: null
 - agent_band: agent-aware
-  agent_readiness: 28.5
+  agent_readiness: 25.0
   band: emerging
   in_catalog: true
-  kin_score: 16.2
+  kin_score: 23.5
   mcp: *id021
   name: RemoteLock
   slug: remotelock
@@ -718,7 +719,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.4
+  kin_score: 14.0
   mcp: *id023
   name: Safely
   slug: safely
@@ -726,10 +727,10 @@ providers:
   tags: *id024
   url: /providers/safely/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id025
   name: Stripe
   slug: stripe
@@ -747,17 +748,17 @@ providers:
   status: queued for profiling
   tags: *id028
   url: null
-- agent_band: null
-  agent_readiness: null
-  band: null
-  in_catalog: false
-  kin_score: null
+- agent_band: human-only
+  agent_readiness: 3.0
+  band: minimal
+  in_catalog: true
+  kin_score: 5.1
   mcp: *id029
   name: Vrbo
   slug: vrbo
-  status: queued for profiling
+  status: profiled
   tags: *id030
-  url: null
+  url: /providers/vrbo/
 - agent_band: null
   agent_readiness: null
   band: null
@@ -773,7 +774,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 16.3
+  kin_score: 24.1
   mcp: *id033
   name: Ximplifi
   slug: ximplifi

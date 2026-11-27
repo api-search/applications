@@ -44,10 +44,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 39.7
     band: strong
     in_catalog: true
-    kin_score: 58.5
+    kin_score: 59.2
     mcp: &id001
       source: https://github.com/chroma-core/chroma-mcp
       status: verified
@@ -75,10 +75,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id003
       status: none
     slug: google-gemini
@@ -103,10 +103,10 @@ noindex: false
 permalink: /applications/pet-care/pawsome-ai/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 39.7
   band: strong
   in_catalog: true
-  kin_score: 58.5
+  kin_score: 59.2
   mcp: *id001
   name: Chroma
   slug: chroma
@@ -114,10 +114,10 @@ providers:
   tags: *id002
   url: /providers/chroma/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id003
   name: Google Gemini
   slug: google-gemini

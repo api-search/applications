@@ -59,10 +59,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id001
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -90,10 +90,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id007
       status: none
     slug: facebook
@@ -150,10 +150,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.5
+    agent_readiness: 34.9
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 50.2
     mcp: &id005
       status: none
     slug: ecmwf
@@ -180,10 +180,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.6
+    agent_readiness: 15.9
     band: emerging
     in_catalog: true
-    kin_score: 19.5
+    kin_score: 24.6
     mcp: &id009
       status: none
     slug: meteoblue
@@ -209,11 +209,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 26.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 32.1
+    band: thin
     in_catalog: true
-    kin_score: 40.5
+    kin_score: 38.9
     mcp: &id011
       status: unknown
     slug: noaa-gov
@@ -238,10 +238,10 @@ noindex: false
 permalink: /applications/weather/windy/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id001
   name: AppsFlyer
   slug: appsflyer
@@ -260,10 +260,10 @@ providers:
   tags: *id004
   url: /providers/deutscher-wetterdienst/
 - agent_band: agent-ready
-  agent_readiness: 38.5
+  agent_readiness: 34.9
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 50.2
   mcp: *id005
   name: ECMWF
   slug: ecmwf
@@ -271,10 +271,10 @@ providers:
   tags: *id006
   url: /providers/ecmwf/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id007
   name: Facebook Analytics / Login / Share
   slug: facebook
@@ -282,21 +282,21 @@ providers:
   tags: *id008
   url: /providers/facebook/
 - agent_band: agent-aware
-  agent_readiness: 15.6
+  agent_readiness: 15.9
   band: emerging
   in_catalog: true
-  kin_score: 19.5
+  kin_score: 24.6
   mcp: *id009
   name: Meteoblue (NEMS)
   slug: meteoblue
   status: profiled
   tags: *id010
   url: /providers/meteoblue/
-- agent_band: agent-aware
-  agent_readiness: 26.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 32.1
+  band: thin
   in_catalog: true
-  kin_score: 40.5
+  kin_score: 38.9
   mcp: *id011
   name: NOAA (GFS)
   slug: noaa-gov

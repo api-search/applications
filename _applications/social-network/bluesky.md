@@ -59,10 +59,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.3
+    agent_readiness: 26.2
     band: strong
     in_catalog: true
-    kin_score: 58.6
+    kin_score: 58.4
     mcp: &id001
       source: https://docs.bitdrift.io/ai/mcp.md
       status: verified
@@ -90,10 +90,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.3
+    agent_readiness: 20.5
     band: thin
     in_catalog: true
-    kin_score: 31.4
+    kin_score: 30.6
     mcp: &id003
       source: https://github.com/expo/expo-mcp
       status: verified
@@ -121,10 +121,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.3
+    agent_readiness: 52.6
     band: thin
     in_catalog: true
-    kin_score: 35.1
+    kin_score: 34.7
     mcp: &id005
       source: https://github.com/growthbook/growthbook-mcp
       status: verified
@@ -155,7 +155,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id007
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -181,10 +181,10 @@ noindex: false
 permalink: /applications/social-network/bluesky/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 26.3
+  agent_readiness: 26.2
   band: strong
   in_catalog: true
-  kin_score: 58.6
+  kin_score: 58.4
   mcp: *id001
   name: bitdrift
   slug: bitdrift
@@ -192,10 +192,10 @@ providers:
   tags: *id002
   url: /providers/bitdrift/
 - agent_band: agent-aware
-  agent_readiness: 19.3
+  agent_readiness: 20.5
   band: thin
   in_catalog: true
-  kin_score: 31.4
+  kin_score: 30.6
   mcp: *id003
   name: Expo
   slug: expo
@@ -203,10 +203,10 @@ providers:
   tags: *id004
   url: /providers/expo/
 - agent_band: agent-ready
-  agent_readiness: 53.3
+  agent_readiness: 52.6
   band: thin
   in_catalog: true
-  kin_score: 35.1
+  kin_score: 34.7
   mcp: *id005
   name: GrowthBook
   slug: growthbook
@@ -217,7 +217,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id007
   name: Sentry
   slug: sentry-system

@@ -263,10 +263,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
+    agent_readiness: 31.3
     band: developing
     in_catalog: true
-    kin_score: 41.8
+    kin_score: 53.1
     mcp: &id001
       status: none
     slug: addy-io
@@ -296,7 +296,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.6
+    kin_score: 19.9
     mcp: &id003
       status: none
     slug: adguard
@@ -323,10 +323,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.7
+    agent_readiness: 25.3
     band: thin
     in_catalog: true
-    kin_score: 37.8
+    kin_score: 36.1
     mcp: &id005
       status: none
     slug: aerodatabox
@@ -353,10 +353,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.4
-    band: strong
+    agent_readiness: 50.5
+    band: developing
     in_catalog: true
-    kin_score: 54.4
+    kin_score: 50.6
     mcp: &id007
       source: https://github.com/alphavantage/alpha_vantage_mcp
       status: verified
@@ -387,7 +387,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 20.7
+    kin_score: 25.4
     mcp: &id009
       status: none
     slug: blockcypher
@@ -413,10 +413,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.2
+    agent_readiness: 47.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 52.4
     mcp: &id011
       source: https://docs.coingecko.com/reference/mcp-server
       status: verified
@@ -444,10 +444,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 1.7
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 5.5
     mcp: &id013
       source: https://github.com/currents-dev/currents-mcp
       status: verified
@@ -473,10 +473,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.1
     band: emerging
     in_catalog: true
-    kin_score: 22.5
+    kin_score: 21.6
     mcp: &id015
       status: none
     slug: disease-sh
@@ -506,7 +506,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.3
+    kin_score: 8.5
     mcp: &id017
       status: unknown
     slug: enrico
@@ -533,10 +533,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.2
+    agent_readiness: 29.4
     band: developing
     in_catalog: true
-    kin_score: 52.9
+    kin_score: 51.7
     mcp: &id019
       status: none
     slug: exchangerate-api
@@ -563,10 +563,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id021
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -625,9 +625,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.7
+    kin_score: 14.9
     mcp: &id025
       status: unknown
     slug: gluetun
@@ -654,10 +654,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 28.3
+    kin_score: 27.3
     mcp: &id027
       status: none
     slug: hacker-news
@@ -683,10 +683,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 17.2
+    band: developing
     in_catalog: true
-    kin_score: 32.9
+    kin_score: 43.4
     mcp: &id029
       status: none
     slug: healthchecks-io
@@ -716,7 +716,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 4.3
     mcp: &id031
       status: none
     slug: ip-api
@@ -740,18 +740,18 @@ integrations:
     via_parent: Device & IP Location
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 30.2
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 51.5
+    band: strong
     in_catalog: true
-    kin_score: 50.8
+    kin_score: 63.6
     mcp: &id033
       source: https://github.com/IPGeolocation/ipgeolocation-io-mcp
       status: verified
     slug: ipgeolocation
     status: profiled
     tags: &id034
-    - Geocoding
+    - ASN Lookup
     - IP Geolocation
     - IP Intelligence
     - IP Security
@@ -772,10 +772,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.5
+    agent_readiness: 25.7
     band: thin
     in_catalog: true
-    kin_score: 31.4
+    kin_score: 29.1
     mcp: &id035
       status: none
     slug: ipify
@@ -802,10 +802,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.4
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 63.2
+    kin_score: 63.6
     mcp: &id037
       source: https://github.com/ipinfo/mcp
       status: verified
@@ -863,10 +863,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.0
-    band: emerging
+    agent_readiness: 12.7
+    band: thin
     in_catalog: true
-    kin_score: 24.9
+    kin_score: 31.8
     mcp: &id041
       status: none
     slug: mullvad
@@ -896,7 +896,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 8.1
+    kin_score: 9.1
     mcp: &id043
       status: unknown
     slug: mvg
@@ -923,10 +923,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 25.1
     band: thin
     in_catalog: true
-    kin_score: 38.1
+    kin_score: 37.0
     mcp: &id045
       source: https://raw.githubusercontent.com/netdata/netdata/master/src/web/mcp/README.md
       status: verified
@@ -954,10 +954,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id047
       status: none
     slug: nextcloud
@@ -985,9 +985,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.9
+    kin_score: 15.5
     mcp: &id049
       status: none
     slug: ntfy
@@ -1014,10 +1014,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.5
+    agent_readiness: 31.7
     band: thin
     in_catalog: true
-    kin_score: 37.0
+    kin_score: 36.8
     mcp: &id051
       status: none
     slug: nvd
@@ -1043,11 +1043,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 22.5
+    agent_band: agent-ready
+    agent_readiness: 30.0
     band: strong
     in_catalog: true
-    kin_score: 60.4
+    kin_score: 59.1
     mcp: &id053
       source: https://mcp.openweathermap.org/
       status: verified
@@ -1075,10 +1075,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: emerging
     in_catalog: true
-    kin_score: 22.9
+    kin_score: 22.3
     mcp: &id055
       status: none
     slug: pi-hole
@@ -1105,10 +1105,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 27.4
+    kin_score: 26.8
     mcp: &id057
       status: none
     slug: proxmox
@@ -1135,10 +1135,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 16.9
     band: emerging
     in_catalog: true
-    kin_score: 19.1
+    kin_score: 22.6
     mcp: &id059
       status: none
     slug: sabnzbd
@@ -1165,10 +1165,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 7.5
+    kin_score: 12.0
     mcp: &id061
       status: none
     slug: synology
@@ -1195,10 +1195,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 23.9
     band: thin
     in_catalog: true
-    kin_score: 30.7
+    kin_score: 30.1
     mcp: &id063
       status: none
     slug: sportsdb
@@ -1224,11 +1224,11 @@ integrations:
     via_parent: Ground Transport
   credit: null
   facts:
-    agent_band: human-only
-    agent_readiness: 0.0
-    band: minimal
+    agent_band: agent-aware
+    agent_readiness: 15.3
+    band: emerging
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 20.2
     mcp: &id065
       status: none
     slug: transport-for-london-england
@@ -1253,10 +1253,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 15.1
     band: emerging
     in_catalog: true
-    kin_score: 18.5
+    kin_score: 20.6
     mcp: &id067
       status: none
     slug: uptime-kuma
@@ -1283,10 +1283,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.3
-    band: strong
+    agent_readiness: 31.5
+    band: developing
     in_catalog: true
-    kin_score: 55.9
+    kin_score: 53.5
     mcp: &id069
       status: none
     slug: whoapi
@@ -1311,10 +1311,10 @@ noindex: false
 permalink: /applications/personal-dashboard-homelab/dashy/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
+  agent_readiness: 31.3
   band: developing
   in_catalog: true
-  kin_score: 41.8
+  kin_score: 53.1
   mcp: *id001
   name: addy.io
   slug: addy-io
@@ -1325,7 +1325,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.6
+  kin_score: 19.9
   mcp: *id003
   name: AdGuard Home
   slug: adguard
@@ -1333,10 +1333,10 @@ providers:
   tags: *id004
   url: /providers/adguard/
 - agent_band: agent-aware
-  agent_readiness: 24.7
+  agent_readiness: 25.3
   band: thin
   in_catalog: true
-  kin_score: 37.8
+  kin_score: 36.1
   mcp: *id005
   name: AeroDataBox (via RapidAPI)
   slug: aerodatabox
@@ -1344,10 +1344,10 @@ providers:
   tags: *id006
   url: /providers/aerodatabox/
 - agent_band: agent-ready
-  agent_readiness: 51.4
-  band: strong
+  agent_readiness: 50.5
+  band: developing
   in_catalog: true
-  kin_score: 54.4
+  kin_score: 50.6
   mcp: *id007
   name: Alpha Vantage
   slug: alpha-vantage
@@ -1358,7 +1358,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 20.7
+  kin_score: 25.4
   mcp: *id009
   name: BlockCypher
   slug: blockcypher
@@ -1366,10 +1366,10 @@ providers:
   tags: *id010
   url: /providers/blockcypher/
 - agent_band: agent-ready
-  agent_readiness: 46.2
+  agent_readiness: 47.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 52.4
   mcp: *id011
   name: CoinGecko
   slug: coingecko
@@ -1377,10 +1377,10 @@ providers:
   tags: *id012
   url: /providers/coingecko/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 1.7
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 5.5
   mcp: *id013
   name: Currents API
   slug: currents
@@ -1388,10 +1388,10 @@ providers:
   tags: *id014
   url: /providers/currents/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.1
   band: emerging
   in_catalog: true
-  kin_score: 22.5
+  kin_score: 21.6
   mcp: *id015
   name: disease.sh
   slug: disease-sh
@@ -1402,7 +1402,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.3
+  kin_score: 8.5
   mcp: *id017
   name: Enrico holiday service
   slug: enrico
@@ -1410,10 +1410,10 @@ providers:
   tags: *id018
   url: /providers/enrico/
 - agent_band: agent-ready
-  agent_readiness: 30.2
+  agent_readiness: 29.4
   band: developing
   in_catalog: true
-  kin_score: 52.9
+  kin_score: 51.7
   mcp: *id019
   name: ExchangeRate-API
   slug: exchangerate-api
@@ -1421,10 +1421,10 @@ providers:
   tags: *id020
   url: /providers/exchangerate-api/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id021
   name: GitHub
   slug: github
@@ -1444,9 +1444,9 @@ providers:
   url: /providers/glances/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.7
+  kin_score: 14.9
   mcp: *id025
   name: Gluetun
   slug: gluetun
@@ -1454,10 +1454,10 @@ providers:
   tags: *id026
   url: /providers/gluetun/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 28.3
+  kin_score: 27.3
   mcp: *id027
   name: Hacker News
   slug: hacker-news
@@ -1465,10 +1465,10 @@ providers:
   tags: *id028
   url: /providers/hacker-news/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 17.2
+  band: developing
   in_catalog: true
-  kin_score: 32.9
+  kin_score: 43.4
   mcp: *id029
   name: Healthchecks.io
   slug: healthchecks-io
@@ -1479,18 +1479,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 4.3
   mcp: *id031
   name: ip-api
   slug: ip-api
   status: profiled
   tags: *id032
   url: /providers/ip-api/
-- agent_band: agent-ready
-  agent_readiness: 30.2
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 51.5
+  band: strong
   in_catalog: true
-  kin_score: 50.8
+  kin_score: 63.6
   mcp: *id033
   name: IPGeolocation.io
   slug: ipgeolocation
@@ -1498,10 +1498,10 @@ providers:
   tags: *id034
   url: /providers/ipgeolocation/
 - agent_band: agent-aware
-  agent_readiness: 25.5
+  agent_readiness: 25.7
   band: thin
   in_catalog: true
-  kin_score: 31.4
+  kin_score: 29.1
   mcp: *id035
   name: ipify
   slug: ipify
@@ -1509,10 +1509,10 @@ providers:
   tags: *id036
   url: /providers/ipify/
 - agent_band: agent-ready
-  agent_readiness: 34.4
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 63.2
+  kin_score: 63.6
   mcp: *id037
   name: IPinfo
   slug: ipinfo
@@ -1531,10 +1531,10 @@ providers:
   tags: *id040
   url: /providers/linkding/
 - agent_band: agent-aware
-  agent_readiness: 15.0
-  band: emerging
+  agent_readiness: 12.7
+  band: thin
   in_catalog: true
-  kin_score: 24.9
+  kin_score: 31.8
   mcp: *id041
   name: Mullvad VPN
   slug: mullvad
@@ -1545,7 +1545,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 8.1
+  kin_score: 9.1
   mcp: *id043
   name: MVG (Munich transit)
   slug: mvg
@@ -1553,10 +1553,10 @@ providers:
   tags: *id044
   url: /providers/mvg/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 25.1
   band: thin
   in_catalog: true
-  kin_score: 38.1
+  kin_score: 37.0
   mcp: *id045
   name: Netdata
   slug: netdata
@@ -1564,10 +1564,10 @@ providers:
   tags: *id046
   url: /providers/netdata/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id047
   name: Nextcloud
   slug: nextcloud
@@ -1576,9 +1576,9 @@ providers:
   url: /providers/nextcloud/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.9
+  kin_score: 15.5
   mcp: *id049
   name: ntfy
   slug: ntfy
@@ -1586,21 +1586,21 @@ providers:
   tags: *id050
   url: /providers/ntfy/
 - agent_band: agent-ready
-  agent_readiness: 32.5
+  agent_readiness: 31.7
   band: thin
   in_catalog: true
-  kin_score: 37.0
+  kin_score: 36.8
   mcp: *id051
   name: NVD
   slug: nvd
   status: profiled
   tags: *id052
   url: /providers/nvd/
-- agent_band: agent-aware
-  agent_readiness: 22.5
+- agent_band: agent-ready
+  agent_readiness: 30.0
   band: strong
   in_catalog: true
-  kin_score: 60.4
+  kin_score: 59.1
   mcp: *id053
   name: OpenWeatherMap
   slug: openweathermap
@@ -1608,10 +1608,10 @@ providers:
   tags: *id054
   url: /providers/openweathermap/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: emerging
   in_catalog: true
-  kin_score: 22.9
+  kin_score: 22.3
   mcp: *id055
   name: Pi-hole
   slug: pi-hole
@@ -1619,10 +1619,10 @@ providers:
   tags: *id056
   url: /providers/pi-hole/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 27.4
+  kin_score: 26.8
   mcp: *id057
   name: Proxmox VE
   slug: proxmox
@@ -1630,10 +1630,10 @@ providers:
   tags: *id058
   url: /providers/proxmox/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 16.9
   band: emerging
   in_catalog: true
-  kin_score: 19.1
+  kin_score: 22.6
   mcp: *id059
   name: SABnzbd
   slug: sabnzbd
@@ -1641,10 +1641,10 @@ providers:
   tags: *id060
   url: /providers/sabnzbd/
 - agent_band: agent-aware
-  agent_readiness: 21.6
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 7.5
+  kin_score: 12.0
   mcp: *id061
   name: Synology
   slug: synology
@@ -1652,21 +1652,21 @@ providers:
   tags: *id062
   url: /providers/synology/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 23.9
   band: thin
   in_catalog: true
-  kin_score: 30.7
+  kin_score: 30.1
   mcp: *id063
   name: TheSportsDB
   slug: sportsdb
   status: profiled
   tags: *id064
   url: /providers/sportsdb/
-- agent_band: human-only
-  agent_readiness: 0.0
-  band: minimal
+- agent_band: agent-aware
+  agent_readiness: 15.3
+  band: emerging
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 20.2
   mcp: *id065
   name: Transport for London
   slug: transport-for-london-england
@@ -1674,10 +1674,10 @@ providers:
   tags: *id066
   url: /providers/transport-for-london-england/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 15.1
   band: emerging
   in_catalog: true
-  kin_score: 18.5
+  kin_score: 20.6
   mcp: *id067
   name: Uptime Kuma
   slug: uptime-kuma
@@ -1685,10 +1685,10 @@ providers:
   tags: *id068
   url: /providers/uptime-kuma/
 - agent_band: agent-ready
-  agent_readiness: 32.3
-  band: strong
+  agent_readiness: 31.5
+  band: developing
   in_catalog: true
-  kin_score: 55.9
+  kin_score: 53.5
   mcp: *id069
   name: WhoAPI
   slug: whoapi

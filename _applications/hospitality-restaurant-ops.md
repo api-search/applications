@@ -1343,13 +1343,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.0
+      agent_readiness: 42.1
       apps:
       - 7shifts
       - MarketMan
       band: exemplar
       in_catalog: true
-      kin_score: 86.5
+      kin_score: 84.5
       mcp:
         status: none
       name: Lightspeed
@@ -1366,13 +1366,13 @@ stack:
       tier: declared
       url: /providers/lightspeed/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - 7shifts
       - MarketMan
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp: &id001
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -1390,13 +1390,13 @@ stack:
       tier: declared
       url: /providers/square/
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 59.8
       apps:
       - 7shifts
       - MarketMan
       band: exemplar
       in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.4
       mcp:
         source: https://github.com/oracle/mcp
         status: verified
@@ -1414,13 +1414,13 @@ stack:
       tier: declared
       url: /providers/oracle/
     - agent_band: agent-ready
-      agent_readiness: 39.6
+      agent_readiness: 38.8
       apps:
       - 7shifts
       - MarketMan
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 68.3
       mcp:
         status: none
       name: Toast
@@ -1437,13 +1437,13 @@ stack:
       tier: declared
       url: /providers/toast/
     - agent_band: agent-ready
-      agent_readiness: 36.5
+      agent_readiness: 33.1
       apps:
       - 7shifts
       - MarketMan
       band: developing
       in_catalog: true
-      kin_score: 39.9
+      kin_score: 41.3
       mcp:
         status: none
       name: Clover
@@ -1460,13 +1460,13 @@ stack:
       tier: declared
       url: /providers/clover/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 23.9
       apps:
       - 7shifts
       - MarketMan
       band: thin
       in_catalog: true
-      kin_score: 27.5
+      kin_score: 26.8
       mcp:
         status: none
       name: Aloha (NCR Voyix)
@@ -1483,13 +1483,13 @@ stack:
       tier: declared
       url: /providers/ncr/
     - agent_band: agent-aware
-      agent_readiness: 28.1
+      agent_readiness: 28.2
       apps:
       - 7shifts
       - MarketMan
       band: emerging
       in_catalog: true
-      kin_score: 20.5
+      kin_score: 19.6
       mcp:
         status: none
       name: Revel Systems
@@ -1512,7 +1512,7 @@ stack:
       - MarketMan
       band: minimal
       in_catalog: true
-      kin_score: 9.1
+      kin_score: 8.5
       mcp:
         status: none
       name: TouchBistro
@@ -1548,12 +1548,12 @@ stack:
       tier: declared
       url: null
     - agent_band: agent-native
-      agent_readiness: 52.0
+      agent_readiness: 50.9
       apps:
       - MarketMan
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 69.6
       mcp:
         status: none
       name: Revolut POS
@@ -1569,12 +1569,12 @@ stack:
       tier: declared
       url: /providers/revolut/
     - agent_band: agent-native
-      agent_readiness: 52.4
+      agent_readiness: 54.1
       apps:
       - MarketMan
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 50.8
       mcp:
         status: none
       name: Shift4
@@ -1590,12 +1590,12 @@ stack:
       tier: declared
       url: /providers/shift4/
     - agent_band: agent-ready
-      agent_readiness: 54.3
+      agent_readiness: 53.2
       apps:
       - MarketMan
       band: developing
       in_catalog: true
-      kin_score: 46.3
+      kin_score: 44.0
       mcp:
         source: https://github.com/sumup/sumup-mcp
         status: verified
@@ -1612,12 +1612,12 @@ stack:
       tier: declared
       url: /providers/sumup/
     - agent_band: agent-ready
-      agent_readiness: 37.2
+      agent_readiness: 37.1
       apps:
       - MarketMan
       band: thin
       in_catalog: true
-      kin_score: 33.7
+      kin_score: 32.6
       mcp:
         source: https://help.otter.ai/api/v2/help_center/en-us/articles/35287607569687.json
         status: verified
@@ -1634,12 +1634,12 @@ stack:
       tier: declared
       url: /providers/otter/
     - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 22.4
       apps:
       - MarketMan
       band: emerging
       in_catalog: true
-      kin_score: 18.6
+      kin_score: 18.2
       mcp:
         status: none
       name: Lavu
@@ -1655,12 +1655,12 @@ stack:
       tier: declared
       url: /providers/lavu/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - MarketMan
       band: emerging
       in_catalog: true
-      kin_score: 15.5
+      kin_score: 14.7
       mcp:
         status: unknown
       name: Tabit
@@ -1681,7 +1681,7 @@ stack:
       - 7shifts
       band: emerging
       in_catalog: true
-      kin_score: 12.5
+      kin_score: 12.7
       mcp:
         status: unknown
       name: CAKE POS
@@ -1697,12 +1697,12 @@ stack:
       tier: declared
       url: /providers/cake-pos/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - MarketMan
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.8
+      kin_score: 12.4
       mcp:
         status: unknown
       name: Squirrel Systems
@@ -1718,33 +1718,12 @@ stack:
       tier: declared
       url: /providers/squirrel-systems/
     - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - MarketMan
-      band: minimal
-      in_catalog: true
-      kin_score: 7.0
-      mcp:
-        status: unknown
-      name: Silverware
-      slug: silverware
-      sources:
-      - https://www.marketman.com/integrations
-      status: profiled
-      tags:
-      - Hospitality
-      - Hotels
-      - Point-of-Sale
-      - Restaurant
-      tier: declared
-      url: /providers/silverware/
-    - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - MarketMan
       band: minimal
       in_catalog: true
-      kin_score: 6.9
+      kin_score: 9.8
       mcp:
         status: unknown
       name: Redcat
@@ -1759,6 +1738,27 @@ stack:
       - RestaurantTech
       tier: declared
       url: /providers/redcat/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - MarketMan
+      band: minimal
+      in_catalog: true
+      kin_score: 9.4
+      mcp:
+        status: unknown
+      name: Silverware
+      slug: silverware
+      sources:
+      - https://www.marketman.com/integrations
+      status: profiled
+      tags:
+      - Hospitality
+      - Hotels
+      - Point-of-Sale
+      - Restaurant
+      tier: declared
+      url: /providers/silverware/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -1802,13 +1802,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - QloApps
       - TastyIgniter
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -1826,12 +1826,12 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - TastyIgniter
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -1848,12 +1848,12 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - TastyIgniter
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp: *id001
       name: Square
       slug: square
@@ -1864,12 +1864,12 @@ stack:
       tier: observed
       url: /providers/square/
     - agent_band: agent-native
-      agent_readiness: 73.2
+      agent_readiness: 71.7
       apps:
       - TastyIgniter
       band: exemplar
       in_catalog: true
-      kin_score: 68.2
+      kin_score: 68.1
       mcp:
         source: https://docs.mollie.com/docs/mcp-server
         status: verified
@@ -1886,12 +1886,12 @@ stack:
       tier: observed
       url: /providers/mollie/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - TastyIgniter
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.5
       mcp:
         source: https://github.com/AuthorizeNet/authorize-net-mcp
         status: verified
@@ -1908,12 +1908,12 @@ stack:
       tier: observed
       url: /providers/authorizenet/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.1
       apps:
       - QloApps
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 19.8
+      kin_score: 26.4
       mcp:
         status: unknown
       name: Duitku
@@ -1937,13 +1937,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.9
       apps:
       - Cloudbeds
       - Mews
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.8
+      kin_score: 66.6
       mcp:
         status: none
       name: Booking.com
@@ -1960,13 +1960,13 @@ stack:
       tier: declared
       url: /providers/booking-com/
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 30.2
       apps:
       - Cloudbeds
       - Mews
       band: thin
       in_catalog: true
-      kin_score: 34.8
+      kin_score: 33.8
       mcp:
         source: https://github.com/ExpediaGroup/expedia-travel-recommendations-mcp
         status: verified
@@ -1984,12 +1984,12 @@ stack:
       tier: declared
       url: /providers/expedia-group/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.4
       apps:
       - Cloudbeds
       band: developing
       in_catalog: true
-      kin_score: 44.8
+      kin_score: 44.1
       mcp:
         status: none
       name: Airbnb
@@ -2005,12 +2005,12 @@ stack:
       tier: declared
       url: /providers/airbnb/
     - agent_band: agent-aware
-      agent_readiness: 5.6
+      agent_readiness: 5.5
       apps:
       - Mews
       band: thin
       in_catalog: true
-      kin_score: 31.8
+      kin_score: 30.8
       mcp:
         status: none
       name: SiteMinder
@@ -2034,12 +2034,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.6
+      agent_readiness: 20.2
       apps:
       - MarketMan
       band: thin
       in_catalog: true
-      kin_score: 35.0
+      kin_score: 34.0
       mcp:
         status: unknown
       name: Sysco
@@ -2054,13 +2054,13 @@ stack:
       - Supply Chain
       tier: declared
       url: /providers/sysco/
-    - agent_band: agent-aware
-      agent_readiness: 6.5
+    - agent_band: human-only
+      agent_readiness: 0.0
       apps:
       - MarketMan
       band: emerging
       in_catalog: true
-      kin_score: 16.4
+      kin_score: 24.6
       mcp:
         status: none
       name: Gordon Food Service
@@ -2081,7 +2081,7 @@ stack:
       - MarketMan
       band: emerging
       in_catalog: true
-      kin_score: 12.6
+      kin_score: 12.1
       mcp:
         status: unknown
       name: US Foods
@@ -2102,7 +2102,7 @@ stack:
       - MarketMan
       band: minimal
       in_catalog: true
-      kin_score: 5.9
+      kin_score: 7.1
       mcp:
         status: unknown
       name: WebstaurantStore
@@ -2123,7 +2123,7 @@ stack:
       - MarketMan
       band: minimal
       in_catalog: true
-      kin_score: 4.8
+      kin_score: 5.7
       mcp:
         status: unknown
       name: Shamrock Foods
@@ -2164,12 +2164,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - MarketMan
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -2185,13 +2185,13 @@ stack:
       - Financial Services
       tier: declared
       url: /providers/xero/
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - MarketMan
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -2211,9 +2211,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Mews
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.0
+      kin_score: 11.6
       mcp:
         status: none
       name: Abacus (Swiss ERP)
@@ -2229,12 +2229,12 @@ stack:
       tier: declared
       url: /providers/abacus-ch/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - MarketMan
       band: minimal
       in_catalog: true
-      kin_score: 2.8
+      kin_score: 1.9
       mcp:
         status: unknown
       name: Paperchase
@@ -2260,7 +2260,7 @@ stack:
       - apaleo
       band: emerging
       in_catalog: true
-      kin_score: 18.9
+      kin_score: 24.8
       mcp:
         status: none
       name: happyhotel
@@ -2276,12 +2276,12 @@ stack:
       tier: declared
       url: /providers/happyhotel/
     - agent_band: agent-aware
-      agent_readiness: 18.7
+      agent_readiness: 18.3
       apps:
       - Mews
       band: emerging
       in_catalog: true
-      kin_score: 11.9
+      kin_score: 19.3
       mcp:
         source: https://beonx.com
         status: documented
@@ -2297,6 +2297,24 @@ stack:
       - Revenue Management
       tier: declared
       url: /providers/beonx/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Mews
+      band: minimal
+      in_catalog: true
+      kin_score: 1.3
+      mcp:
+        status: unchecked
+      name: profitize
+      slug: profitize
+      sources:
+      - https://www.mews.com/en/marketplace
+      status: profiled
+      tags:
+      - Company
+      tier: declared
+      url: /providers/profitize/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -2314,23 +2332,6 @@ stack:
       tags: []
       tier: declared
       url: null
-    - agent_band: null
-      agent_readiness: null
-      apps:
-      - Mews
-      band: null
-      in_catalog: false
-      kin_score: null
-      mcp:
-        status: unchecked
-      name: profitize
-      slug: profitize
-      sources:
-      - https://www.mews.com/en/marketplace
-      status: queued for profiling
-      tags: []
-      tier: declared
-      url: null
   - capability:
       attribution: Turbo EA
       id: BC-610.50
@@ -2340,12 +2341,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 27.3
+      agent_readiness: 26.8
       apps:
       - MarketMan
       band: thin
       in_catalog: true
-      kin_score: 29.6
+      kin_score: 30.0
       mcp:
         status: none
       name: Tenzo
@@ -2366,7 +2367,7 @@ stack:
       - MarketMan
       band: minimal
       in_catalog: true
-      kin_score: 5.4
+      kin_score: 7.5
       mcp:
         status: unknown
       name: Wenodo
@@ -2390,12 +2391,12 @@ stack:
       via_parent: Front Office Operations
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.8
+      agent_readiness: 21.4
       apps:
       - apaleo
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 36.3
+      kin_score: 43.3
       mcp:
         status: unknown
       name: LIKE MAGIC
@@ -2411,12 +2412,12 @@ stack:
       tier: declared
       url: /providers/like-magic/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - Mews
       band: emerging
       in_catalog: true
-      kin_score: 13.8
+      kin_score: 22.0
       mcp:
         status: unknown
       name: Chekin
@@ -2440,12 +2441,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.0
+      agent_readiness: 45.8
       apps:
       - apaleo
       band: developing
       in_catalog: true
-      kin_score: 47.4
+      kin_score: 49.1
       mcp:
         status: none
       name: Customer Alliance
@@ -2461,12 +2462,12 @@ stack:
       tier: declared
       url: /providers/customer-alliance/
     - agent_band: agent-aware
-      agent_readiness: 24.4
+      agent_readiness: 23.9
       apps:
       - Mews
       band: thin
       in_catalog: true
-      kin_score: 37.5
+      kin_score: 35.7
       mcp:
         status: none
       name: Tripadvisor
@@ -2493,9 +2494,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Mews
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.4
+      kin_score: 13.6
       mcp:
         status: none
       name: Alliants
@@ -2516,7 +2517,7 @@ stack:
       - apaleo
       band: minimal
       in_catalog: true
-      kin_score: 8.0
+      kin_score: 10.1
       mcp:
         status: unknown
       name: umnify
@@ -2540,12 +2541,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - MarketMan
       band: emerging
       in_catalog: true
-      kin_score: 15.7
+      kin_score: 19.8
       mcp:
         status: none
       name: Zenchef
@@ -2566,7 +2567,7 @@ stack:
       - Mews
       band: minimal
       in_catalog: true
-      kin_score: 5.7
+      kin_score: 5.9
       mcp:
         status: unknown
       name: Spalopia
@@ -2590,12 +2591,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - QloApps
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2612,12 +2613,12 @@ stack:
       tier: observed
       url: /providers/google/
     - agent_band: agent-ready
-      agent_readiness: 31.6
+      agent_readiness: 31.0
       apps:
       - Mews
       band: developing
       in_catalog: true
-      kin_score: 41.1
+      kin_score: 42.2
       mcp:
         status: none
       name: Amadeus iHotelier
@@ -2641,12 +2642,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.2
+      agent_readiness: 17.6
       apps:
       - MarketMan
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 42.5
       mcp:
         status: none
       name: Push Operations
@@ -2672,12 +2673,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - TastyIgniter
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -2694,12 +2695,33 @@ stack:
       tier: observed
       url: /providers/x/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 33.7
       apps:
       - TastyIgniter
       band: strong
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 58.8
+      mcp:
+        status: none
+      name: Google sign-in
+      slug: google-identity-platform
+      sources:
+      - https://github.com/tastyigniter/ti-ext-socialite/tree/master/src/SocialiteProviders
+      status: profiled
+      tags:
+      - Authentication
+      - Google Cloud
+      - Identity
+      - Multi-Tenancy
+      tier: observed
+      url: /providers/google-identity-platform/
+    - agent_band: agent-ready
+      agent_readiness: 36.5
+      apps:
+      - TastyIgniter
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
       mcp:
         status: none
       name: Sign in with Apple
@@ -2715,12 +2737,12 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - TastyIgniter
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -2735,27 +2757,6 @@ stack:
       - Fortune 500
       tier: observed
       url: /providers/facebook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - TastyIgniter
-      band: thin
-      in_catalog: true
-      kin_score: 36.8
-      mcp:
-        status: none
-      name: Google sign-in
-      slug: google-identity-platform
-      sources:
-      - https://github.com/tastyigniter/ti-ext-socialite/tree/master/src/SocialiteProviders
-      status: profiled
-      tags:
-      - Authentication
-      - Google Cloud
-      - Identity
-      - Multi-Tenancy
-      tier: observed
-      url: /providers/google-identity-platform/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.70
@@ -2765,12 +2766,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 26.3
       apps:
       - TastyIgniter
       band: developing
       in_catalog: true
-      kin_score: 48.5
+      kin_score: 45.8
       mcp:
         status: none
       name: Ably
@@ -2786,12 +2787,12 @@ stack:
       tier: observed
       url: /providers/ably/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - TastyIgniter
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -2808,19 +2809,19 @@ stack:
       url: /providers/pusher/
   layer: common
 summary:
-  coverage_pct: 90.5
+  coverage_pct: 92.1
   declared_only: 50
   distinct_providers: 63
-  in_catalog: 57
+  in_catalog: 58
   mcp:
     documented: 1
     none: 27
     unchecked: 6
     verified: 13
   mcp_verified: 13
-  mean_kin_score: 35.3
+  mean_kin_score: 36.3
   observed: 13
-  queued: 6
+  queued: 5
   reference_apps: 7
 title: 'Hotel & Restaurant Operations: application blueprint'
 ---

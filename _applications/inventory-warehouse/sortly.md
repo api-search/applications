@@ -45,10 +45,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id001
       status: none
     slug: microsoft-teams
@@ -74,11 +74,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id003
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -106,10 +106,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id005
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -135,21 +135,21 @@ noindex: false
 permalink: /applications/inventory-warehouse/sortly/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 65.1
   mcp: *id001
   name: Microsoft Teams
   slug: microsoft-teams
   status: profiled
   tags: *id002
   url: /providers/microsoft-teams/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id003
   name: QuickBooks Online
   slug: quickbooks
@@ -157,10 +157,10 @@ providers:
   tags: *id004
   url: /providers/quickbooks/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id005
   name: Slack
   slug: slack

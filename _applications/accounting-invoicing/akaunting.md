@@ -67,10 +67,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.1
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.5
+    kin_score: 76.3
     mcp: &id001
       source: https://github.com/SmartBear/smartbear-mcp
       status: verified
@@ -98,10 +98,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 32.6
+    kin_score: 31.6
     mcp: &id003
       source: https://github.com/mailgun/mailgun-mcp-server
       status: verified
@@ -129,10 +129,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id005
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -160,10 +160,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.7
+    agent_readiness: 43.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.3
+    kin_score: 70.5
     mcp: &id007
       source: https://github.com/ActiveCampaign/postmark-mcp
       status: verified
@@ -191,10 +191,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id009
       status: none
     slug: sendgrid
@@ -224,7 +224,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id011
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -252,10 +252,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id013
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -281,10 +281,10 @@ noindex: false
 permalink: /applications/accounting-invoicing/akaunting/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 53.1
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.5
+  kin_score: 76.3
   mcp: *id001
   name: Bugsnag
   slug: bugsnag
@@ -292,10 +292,10 @@ providers:
   tags: *id002
   url: /providers/bugsnag/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 32.6
+  kin_score: 31.6
   mcp: *id003
   name: Mailgun
   slug: mailgun
@@ -303,10 +303,10 @@ providers:
   tags: *id004
   url: /providers/mailgun/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id005
   name: PayPal
   slug: paypal
@@ -314,10 +314,10 @@ providers:
   tags: *id006
   url: /providers/paypal/
 - agent_band: agent-ready
-  agent_readiness: 41.7
+  agent_readiness: 43.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.3
+  kin_score: 70.5
   mcp: *id007
   name: Postmark
   slug: postmark
@@ -325,10 +325,10 @@ providers:
   tags: *id008
   url: /providers/postmark/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id009
   name: SendGrid
   slug: sendgrid
@@ -339,7 +339,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id011
   name: Sentry
   slug: sentry-system
@@ -347,10 +347,10 @@ providers:
   tags: *id012
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id013
   name: Slack
   slug: slack

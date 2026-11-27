@@ -896,10 +896,10 @@ apps:
     tier: observed
   - capability:
       attribution: Turbo EA
-      id: BC-610
-      key: information-data-management
-      name: Information & Data Management
-      url: /capabilities/information-data-management/
+      id: BC-610.50
+      key: analytics-bi-management
+      name: Analytics & BI Management
+      url: /capabilities/analytics-bi-management/
       via_parent: null
     credit: null
     layer: common
@@ -1284,11 +1284,11 @@ apps:
   integrations:
   - capability:
       attribution: Turbo EA
-      id: BC-3780
-      key: content-compliance-standards-management
-      name: Content Compliance & Standards Management
+      id: BC-3780.50
+      key: BC-3780.50
+      name: Accessibility Compliance Management
       url: /capabilities/content-compliance-standards-management/
-      via_parent: null
+      via_parent: Content Compliance & Standards Management
     credit: null
     layer: common
     name: accessiBe
@@ -2620,12 +2620,12 @@ needs:
   why: translating the school site
 - capability:
     attribution: Turbo EA
-    id: BC-3780
-    key: content-compliance-standards-management
-    name: Content Compliance & Standards Management
+    id: BC-3780.50
+    key: BC-3780.50
+    name: Accessibility Compliance Management
     url: /capabilities/content-compliance-standards-management/
-    via_parent: null
-  fit: nearest
+    via_parent: Content Compliance & Standards Management
+  fit: exact
   layer: common
   why: web accessibility overlay
 - capability:
@@ -2668,6 +2668,16 @@ needs:
   fit: exact
   layer: agent
   why: self-hosted local model runtime
+- capability:
+    attribution: Turbo EA
+    id: BC-610.50
+    key: analytics-bi-management
+    name: Analytics & BI Management
+    url: /capabilities/analytics-bi-management/
+    via_parent: null
+  fit: exact
+  layer: common
+  why: Snowflake (Analytics & BI Management)
 stack:
 - capabilities:
   - capability:
@@ -2679,13 +2689,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 61.1
+      agent_readiness: 61.8
       apps:
       - Canvas LMS
       - LearnWorlds
       band: strong
       in_catalog: true
-      kin_score: 64.2
+      kin_score: 66.1
       mcp:
         source: https://github.com/WebexSamples/webex-messaging-mcp-server
         status: verified
@@ -2707,9 +2717,9 @@ stack:
       apps:
       - Chamilo
       - Moodle
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.9
+      kin_score: 11.5
       mcp:
         status: none
       name: BigBlueButton
@@ -2726,13 +2736,13 @@ stack:
       tier: observed
       url: /providers/bigbluebutton/
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - LearnWorlds
       - Thinkific
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -2767,12 +2777,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - LearnWorlds
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -2787,13 +2797,13 @@ stack:
       - Microsoft Teams
       tier: declared
       url: /providers/microsoft-teams/
-    - agent_band: agent-aware
-      agent_readiness: 17.2
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - LearnWorlds
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 52.2
       mcp:
         status: none
       name: Google Meet
@@ -2817,13 +2827,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Canvas LMS
       - Moodle
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2841,12 +2851,12 @@ stack:
       tier: observed
       url: /providers/google-drive/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - Moodle
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: OneDrive
@@ -2862,12 +2872,12 @@ stack:
       tier: observed
       url: /providers/microsoft-onedrive/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Moodle
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -2884,12 +2894,12 @@ stack:
       tier: observed
       url: /providers/dropbox/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Moodle
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp:
         status: none
       name: Nextcloud
@@ -2913,13 +2923,13 @@ stack:
       via_parent: Video Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.8
+      agent_readiness: 47.8
       apps:
       - LearnWorlds
       - Moodle
       band: thin
       in_catalog: true
-      kin_score: 38.4
+      kin_score: 37.6
       mcp:
         source: https://developer.vimeo.com/api/mcp-server
         status: documented
@@ -2937,12 +2947,12 @@ stack:
       tier: observed
       url: /providers/vimeo/
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - Moodle
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp: &id001
         status: none
       name: YouTube
@@ -2958,12 +2968,12 @@ stack:
       tier: observed
       url: /providers/youtube/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Canvas LMS
       band: developing
       in_catalog: true
-      kin_score: 43.7
+      kin_score: 41.6
       mcp:
         source: https://github.com/kaltura/mcp-events
         status: verified
@@ -2980,12 +2990,12 @@ stack:
       tier: observed
       url: /providers/kaltura/
     - agent_band: agent-ready
-      agent_readiness: 35.7
+      agent_readiness: 40.6
       apps:
       - LearnWorlds
       band: exemplar
       in_catalog: true
-      kin_score: 75.8
+      kin_score: 75.5
       mcp:
         source: https://docs.wistia.com/docs/mcp-server-guide
         status: documented
@@ -3010,12 +3020,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - Moodle
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp: *id001
       name: YouTube
       slug: youtube
@@ -3026,12 +3036,12 @@ stack:
       tier: observed
       url: /providers/youtube/
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 25.1
       apps:
       - Moodle
       band: developing
       in_catalog: true
-      kin_score: 48.6
+      kin_score: 49.1
       mcp:
         status: none
       name: Flickr
@@ -3047,12 +3057,12 @@ stack:
       tier: observed
       url: /providers/flickr/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - Thinkific
       band: emerging
       in_catalog: true
-      kin_score: 19.8
+      kin_score: 24.8
       mcp:
         status: none
       name: iorad
@@ -3073,7 +3083,7 @@ stack:
       - Thinkific
       band: emerging
       in_catalog: true
-      kin_score: 18.4
+      kin_score: 19.0
       mcp:
         status: none
       name: ThingLink
@@ -3096,13 +3106,13 @@ stack:
       url: /capabilities/graduation-credentialing/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 25.1
+    - agent_band: agent-ready
+      agent_readiness: 30.4
       apps:
       - LearnWorlds
       band: thin
       in_catalog: true
-      kin_score: 29.7
+      kin_score: 28.5
       mcp:
         status: none
       name: Credly
@@ -3118,12 +3128,12 @@ stack:
       tier: declared
       url: /providers/credly/
     - agent_band: agent-aware
-      agent_readiness: 27.4
+      agent_readiness: 26.8
       apps:
       - LearnWorlds
       band: thin
       in_catalog: true
-      kin_score: 28.0
+      kin_score: 28.3
       mcp:
         status: none
       name: Accredible
@@ -3147,12 +3157,12 @@ stack:
       via_parent: Educational Content & Learning Resource Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 28.9
+      agent_readiness: 32.0
       apps:
       - Moodle
       band: developing
       in_catalog: true
-      kin_score: 45.8
+      kin_score: 49.8
       mcp:
         status: none
       name: Wikimedia Commons
@@ -3168,12 +3178,12 @@ stack:
       tier: observed
       url: /providers/wikimedia/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Moodle
       band: minimal
       in_catalog: true
-      kin_score: 3.8
+      kin_score: 4.1
       mcp:
         status: unknown
       name: MERLOT
@@ -3202,7 +3212,7 @@ stack:
       - Canvas LMS
       band: thin
       in_catalog: true
-      kin_score: 35.9
+      kin_score: 38.5
       mcp:
         status: none
       name: Turnitin
@@ -3243,12 +3253,12 @@ stack:
       via_parent: News & Publishing
     providers:
     - agent_band: human-only
-      agent_readiness: 2.5
+      agent_readiness: 3.5
       apps:
       - Canvas LMS
       band: emerging
       in_catalog: true
-      kin_score: 11.0
+      kin_score: 17.5
       mcp:
         status: unknown
       name: Diigo
@@ -3321,7 +3331,7 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Canvas LMS
       - Chamilo
@@ -3330,7 +3340,7 @@ stack:
       - Udemy
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id003
         status: none
       name: Facebook
@@ -3348,14 +3358,14 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Canvas LMS
       - Chamilo
       - Moodle
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft
@@ -3373,13 +3383,13 @@ stack:
       tier: observed
       url: /providers/microsoft-entra/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - Canvas LMS
       - Moodle
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn
@@ -3395,37 +3405,14 @@ stack:
       - Marketing
       tier: observed
       url: /providers/linkedin/
-    - agent_band: agent-aware
-      agent_readiness: 28.3
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Canvas LMS
       - Moodle
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 41.9
-      mcp:
-        status: none
-      name: Clever
-      slug: clever
-      sources:
-      - https://github.com/instructure/canvas-lms/tree/master/app/models/authentication_provider
-      - https://github.com/moodle/moodle/tree/main/public/lib/classes/oauth2/service
-      status: profiled
-      tags:
-      - EdTech
-      - Education
-      - K-12
-      - SSO
-      tier: observed
-      url: /providers/clever/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - Canvas LMS
-      - Moodle
-      band: thin
-      in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -3442,12 +3429,35 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 31.4
+      apps:
+      - Canvas LMS
+      - Moodle
+      band: developing
+      in_catalog: true
+      kin_score: 41.2
+      mcp:
+        status: none
+      name: Clever
+      slug: clever
+      sources:
+      - https://github.com/instructure/canvas-lms/tree/master/app/models/authentication_provider
+      - https://github.com/moodle/moodle/tree/main/public/lib/classes/oauth2/service
+      status: profiled
+      tags:
+      - EdTech
+      - Education
+      - K-12
+      - SSO
+      tier: observed
+      url: /providers/clever/
+    - agent_band: agent-ready
+      agent_readiness: 62.4
       apps:
       - Canvas LMS
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -3464,12 +3474,12 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Canvas LMS
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Sign in with Apple
@@ -3485,7 +3495,7 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.3
       apps:
       - Chamilo
       band: thin
@@ -3514,13 +3524,13 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - LearnWorlds
       - Open edX
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -3537,13 +3547,13 @@ stack:
       tier: observed
       url: /providers/mailchimp/
     - agent_band: agent-ready
-      agent_readiness: 64.4
+      agent_readiness: 66.1
       apps:
       - LearnWorlds
       - Thinkific
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 80.4
       mcp:
         status: none
       name: Kit
@@ -3560,12 +3570,12 @@ stack:
       tier: declared
       url: /providers/convertkit/
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 33.1
       apps:
       - Open edX
       band: developing
       in_catalog: true
-      kin_score: 51.3
+      kin_score: 50.4
       mcp:
         status: none
       name: Sailthru
@@ -3581,12 +3591,12 @@ stack:
       tier: observed
       url: /providers/sailthru/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 51.0
       apps:
       - LearnWorlds
       band: exemplar
       in_catalog: true
-      kin_score: 82.0
+      kin_score: 81.1
       mcp:
         source: https://developers.activecampaign.com/page/mcp
         status: documented
@@ -3608,7 +3618,7 @@ stack:
       - LearnWorlds
       band: exemplar
       in_catalog: true
-      kin_score: 76.6
+      kin_score: 74.7
       mcp:
         status: none
       name: GetResponse
@@ -3624,12 +3634,12 @@ stack:
       tier: declared
       url: /providers/getresponse/
     - agent_band: agent-ready
-      agent_readiness: 39.6
+      agent_readiness: 41.8
       apps:
       - LearnWorlds
       band: exemplar
       in_catalog: true
-      kin_score: 72.2
+      kin_score: 71.7
       mcp:
         source: https://github.com/aweber/aweber-mcp
         status: verified
@@ -3646,12 +3656,12 @@ stack:
       tier: declared
       url: /providers/aweber/
     - agent_band: agent-ready
-      agent_readiness: 55.3
+      agent_readiness: 53.4
       apps:
       - LearnWorlds
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 71.4
       mcp:
         source: https://developers.mailerlite.com/
         status: documented
@@ -3668,12 +3678,12 @@ stack:
       tier: declared
       url: /providers/mailerlite/
     - agent_band: agent-ready
-      agent_readiness: 32.1
+      agent_readiness: 31.4
       apps:
       - LearnWorlds
       band: exemplar
       in_catalog: true
-      kin_score: 70.9
+      kin_score: 67.7
       mcp:
         status: none
       name: Constant Contact
@@ -3689,12 +3699,12 @@ stack:
       tier: declared
       url: /providers/constant-contact/
     - agent_band: agent-ready
-      agent_readiness: 34.3
+      agent_readiness: 33.6
       apps:
       - LearnWorlds
       band: strong
       in_catalog: true
-      kin_score: 63.7
+      kin_score: 60.3
       mcp:
         status: none
       name: Moosend
@@ -3718,7 +3728,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Coursera
       - LearnWorlds
@@ -3726,7 +3736,7 @@ stack:
       - Udemy
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook Analytics
       slug: facebook
@@ -3739,12 +3749,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 37.9
+      agent_readiness: 30.7
       apps:
       - LearnWorlds
       band: exemplar
       in_catalog: true
-      kin_score: 70.4
+      kin_score: 69.7
       mcp:
         status: none
       name: Google Search
@@ -3760,12 +3770,12 @@ stack:
       tier: declared
       url: /providers/google-search-console/
     - agent_band: agent-ready
-      agent_readiness: 33.9
+      agent_readiness: 38.0
       apps:
       - LearnWorlds
       band: strong
       in_catalog: true
-      kin_score: 63.7
+      kin_score: 61.4
       mcp:
         status: none
       name: Refersion
@@ -3781,12 +3791,12 @@ stack:
       tier: declared
       url: /providers/refersion/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 24.6
       apps:
       - LearnWorlds
       band: developing
       in_catalog: true
-      kin_score: 53.8
+      kin_score: 53.1
       mcp:
         status: none
       name: OptinMonster
@@ -3802,12 +3812,12 @@ stack:
       tier: declared
       url: /providers/optinmonster/
     - agent_band: agent-aware
-      agent_readiness: 15.8
+      agent_readiness: 12.7
       apps:
       - LearnWorlds
       band: thin
       in_catalog: true
-      kin_score: 28.3
+      kin_score: 36.5
       mcp:
         status: none
       name: ReferralCandy
@@ -3828,7 +3838,7 @@ stack:
       - LearnWorlds
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 18.4
       mcp:
         status: unknown
       name: BDOW!
@@ -3849,13 +3859,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - LearnWorlds
       - Thinkific
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -3873,12 +3883,12 @@ stack:
       tier: declared
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Udemy
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -3895,12 +3905,12 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Canvas LMS
       band: strong
       in_catalog: true
-      kin_score: 56.4
+      kin_score: 57.0
       mcp:
         source: https://support.pendo.io/hc/en-us/articles/41102236924955
         status: verified
@@ -3917,12 +3927,12 @@ stack:
       tier: observed
       url: /providers/pendoio/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 47.7
       apps:
       - LearnWorlds
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -3939,12 +3949,12 @@ stack:
       tier: declared
       url: /providers/mixpanel/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 30.0
       apps:
       - LearnWorlds
       band: thin
       in_catalog: true
-      kin_score: 37.1
+      kin_score: 37.4
       mcp:
         source: https://developer.fullstory.com/mcp/introduction/
         status: documented
@@ -3961,12 +3971,12 @@ stack:
       tier: declared
       url: /providers/fullstory/
     - agent_band: agent-aware
-      agent_readiness: 27.8
+      agent_readiness: 27.3
       apps:
       - LearnWorlds
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.7
+      kin_score: 25.5
       mcp:
         status: none
       name: Hotjar
@@ -3982,12 +3992,12 @@ stack:
       tier: declared
       url: /providers/hotjar/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - LearnWorlds
       band: emerging
       in_catalog: true
-      kin_score: 15.6
+      kin_score: 24.2
       mcp:
         source: https://mouseflow.com/platform/ai/mcp-server/
         status: verified
@@ -4001,12 +4011,12 @@ stack:
       tier: declared
       url: /providers/mouseflow/
     - agent_band: agent-aware
-      agent_readiness: 18.7
+      agent_readiness: 21.1
       apps:
       - LearnWorlds
       band: emerging
       in_catalog: true
-      kin_score: 14.6
+      kin_score: 22.9
       mcp:
         source: https://docs.fullsession.io/mcp-server
         status: verified
@@ -4031,13 +4041,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Chamilo
       - LearnWorlds
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: &id005
         source: https://docs.stripe.com/mcp
         status: verified
@@ -4055,13 +4065,13 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - LearnWorlds
       - Moodle
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -4079,12 +4089,12 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-native
-      agent_readiness: 50.8
+      agent_readiness: 49.8
       apps:
       - LearnWorlds
       band: strong
       in_catalog: true
-      kin_score: 66.0
+      kin_score: 62.1
       mcp:
         status: none
       name: Bancontact
@@ -4100,12 +4110,12 @@ stack:
       tier: declared
       url: /providers/bancontact/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 26.3
       apps:
       - LearnWorlds
       band: thin
       in_catalog: true
-      kin_score: 39.0
+      kin_score: 36.9
       mcp:
         status: none
       name: Przelewy24
@@ -4126,7 +4136,7 @@ stack:
       - LearnWorlds
       band: minimal
       in_catalog: true
-      kin_score: 4.1
+      kin_score: 5.8
       mcp:
         status: unknown
       name: iDEAL
@@ -4150,12 +4160,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - LearnWorlds
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -4171,12 +4181,12 @@ stack:
       tier: declared
       url: /providers/zendesk/
     - agent_band: agent-ready
-      agent_readiness: 31.7
+      agent_readiness: 32.5
       apps:
       - LearnWorlds
       band: developing
       in_catalog: true
-      kin_score: 52.5
+      kin_score: 51.0
       mcp:
         source: https://developers.intercom.com/docs/guides/mcp
         status: verified
@@ -4193,12 +4203,33 @@ stack:
       tier: declared
       url: /providers/intercom/
     - agent_band: agent-aware
-      agent_readiness: 22.8
+      agent_readiness: 16.9
       apps:
       - LearnWorlds
       band: thin
       in_catalog: true
-      kin_score: 37.3
+      kin_score: 36.3
+      mcp:
+        status: none
+      name: Tawk.to
+      slug: tawk-to
+      sources:
+      - https://www.learnworlds.com/integrations/
+      status: profiled
+      tags:
+      - Company
+      - Customer Service
+      - FreeSoftware
+      - Live Chat
+      tier: declared
+      url: /providers/tawk-to/
+    - agent_band: agent-aware
+      agent_readiness: 23.4
+      apps:
+      - LearnWorlds
+      band: thin
+      in_catalog: true
+      kin_score: 36.2
       mcp:
         status: none
       name: Freshchat
@@ -4214,12 +4245,12 @@ stack:
       tier: declared
       url: /providers/freshchat/
     - agent_band: agent-ready
-      agent_readiness: 43.3
+      agent_readiness: 42.4
       apps:
       - LearnWorlds
       band: thin
       in_catalog: true
-      kin_score: 31.4
+      kin_score: 31.3
       mcp:
         status: none
       name: Olark
@@ -4234,34 +4265,13 @@ stack:
       - Live Chat
       tier: declared
       url: /providers/olark/
-    - agent_band: agent-aware
-      agent_readiness: 20.1
-      apps:
-      - LearnWorlds
-      band: thin
-      in_catalog: true
-      kin_score: 26.2
-      mcp:
-        status: none
-      name: Tawk.to
-      slug: tawk-to
-      sources:
-      - https://www.learnworlds.com/integrations/
-      status: profiled
-      tags:
-      - Company
-      - Customer Service
-      - FreeSoftware
-      - Live Chat
-      tier: declared
-      url: /providers/tawk-to/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Thinkific
       band: emerging
       in_catalog: true
-      kin_score: 12.3
+      kin_score: 22.4
       mcp:
         status: none
       name: JivoChat
@@ -4284,39 +4294,39 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Canvas LMS
       - Coursera
       - Udemy
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id007
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google CrashLytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.instructure.candroid/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.udemy.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/org.coursera.android/latest/
       status: profiled
       tags: &id008
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
       agent_readiness: 50.2
       apps:
       - Canvas LMS
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -4333,12 +4343,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 48.6
       apps:
       - Canvas LMS
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -4363,13 +4373,13 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - Chamilo
       - Open edX
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -4386,12 +4396,12 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 57.2
+      agent_readiness: 56.4
       apps:
       - Chamilo
       band: exemplar
       in_catalog: true
-      kin_score: 82.2
+      kin_score: 81.3
       mcp:
         source: https://developers.brevo.com/docs/mcp-protocol
         status: verified
@@ -4408,12 +4418,12 @@ stack:
       tier: observed
       url: /providers/brevo/
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 39.0
       apps:
       - Chamilo
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 69.7
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -4430,12 +4440,12 @@ stack:
       tier: observed
       url: /providers/microsoft-graph/
     - agent_band: agent-aware
-      agent_readiness: 23.4
+      agent_readiness: 22.9
       apps:
       - Chamilo
       band: developing
       in_catalog: true
-      kin_score: 50.1
+      kin_score: 50.5
       mcp:
         source: https://github.com/mailgun/mailjet-mcp-server
         status: verified
@@ -4460,13 +4470,13 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - LearnWorlds
       - Thinkific
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -4484,12 +4494,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 29.5
+      agent_readiness: 28.9
       apps:
       - LearnWorlds
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 54.8
+      kin_score: 53.6
       mcp:
         status: none
       name: Pabbly
@@ -4505,12 +4515,12 @@ stack:
       tier: declared
       url: /providers/pabbly/
     - agent_band: agent-aware
-      agent_readiness: 19.8
+      agent_readiness: 19.4
       apps:
       - LearnWorlds
       band: developing
       in_catalog: true
-      kin_score: 45.7
+      kin_score: 45.4
       mcp:
         status: none
       name: Integrately
@@ -4526,12 +4536,12 @@ stack:
       tier: declared
       url: /providers/integrately/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - LearnWorlds
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -4555,14 +4565,14 @@ stack:
       url: /capabilities/asset-storage-tiering/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Canvas LMS
       - Moodle
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4580,12 +4590,12 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Chamilo
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -4602,12 +4612,12 @@ stack:
       tier: observed
       url: /providers/gcp-cloud-storage/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Chamilo
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -4632,12 +4642,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 1.1
       apps:
       - Thinkific
       band: emerging
       in_catalog: true
-      kin_score: 19.7
+      kin_score: 25.6
       mcp:
         status: none
       name: WiserNotify
@@ -4658,7 +4668,7 @@ stack:
       - Thinkific
       band: minimal
       in_catalog: true
-      kin_score: 2.9
+      kin_score: 2.4
       mcp:
         source: https://api-v2.smartarget.online/api/mcp/message
         status: verified
@@ -4700,12 +4710,12 @@ stack:
       via_parent: Consumer Payment Options
     providers:
     - agent_band: agent-native
-      agent_readiness: 46.0
+      agent_readiness: 45.1
       apps:
       - LearnWorlds
       band: exemplar
       in_catalog: true
-      kin_score: 73.6
+      kin_score: 73.1
       mcp:
         status: none
       name: Klarna
@@ -4721,12 +4731,12 @@ stack:
       tier: declared
       url: /providers/klarna/
     - agent_band: agent-aware
-      agent_readiness: 13.0
+      agent_readiness: 12.8
       apps:
       - LearnWorlds
       band: minimal
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 9.2
       mcp:
         status: none
       name: Afterpay
@@ -4750,13 +4760,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - LearnWorlds
       - Thinkific
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -4782,12 +4792,12 @@ stack:
       via_parent: Consumer Payment Options
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 39.7
       apps:
       - LearnWorlds
       band: strong
       in_catalog: true
-      kin_score: 66.2
+      kin_score: 65.2
       mcp:
         status: none
       name: Google Pay
@@ -4803,12 +4813,12 @@ stack:
       tier: declared
       url: /providers/google-pay/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.4
       apps:
       - LearnWorlds
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 43.0
       mcp:
         status: none
       name: Apple Pay
@@ -4832,13 +4842,13 @@ stack:
       via_parent: Storefront Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - LearnWorlds
       - Thinkific
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -4864,12 +4874,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - LearnWorlds
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: *id005
       name: Stripe Tax
       slug: stripe
@@ -4880,12 +4890,12 @@ stack:
       tier: declared
       url: /providers/stripe/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.6
       apps:
       - LearnWorlds
       band: thin
       in_catalog: true
-      kin_score: 28.8
+      kin_score: 28.5
       mcp:
         status: none
       name: Quaderno
@@ -4909,12 +4919,33 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 44.6
       apps:
       - Canvas LMS
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 59.8
+      kin_score: 70.7
+      mcp:
+        status: none
+      name: Amazon Kinesis
+      slug: kinesis
+      sources:
+      - https://github.com/instructure/canvas-lms/blob/master/Gemfile.d/app.rb
+      status: profiled
+      tags:
+      - Amazon Web Services
+      - Analytics
+      - Apache Flink
+      - Big Data
+      tier: observed
+      url: /providers/kinesis/
+    - agent_band: agent-ready
+      agent_readiness: 34.4
+      apps:
+      - Canvas LMS
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4930,27 +4961,6 @@ stack:
       - Messaging
       tier: observed
       url: /providers/amazon-sqs/
-    - agent_band: agent-ready
-      agent_readiness: 29.4
-      apps:
-      - Canvas LMS
-      band: developing
-      in_catalog: true
-      kin_score: 49.3
-      mcp:
-        status: none
-      name: Amazon Kinesis
-      slug: kinesis
-      sources:
-      - https://github.com/instructure/canvas-lms/blob/master/Gemfile.d/app.rb
-      status: profiled
-      tags:
-      - Amazon Web Services
-      - Analytics
-      - Apache Flink
-      - Big Data
-      tier: observed
-      url: /providers/kinesis/
   - capability:
       attribution: API Evangelist extension
       id: AE-902
@@ -4960,12 +4970,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Udemy
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -5003,12 +5013,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 41.7
       apps:
       - Canvas LMS
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 64.4
       mcp: &id009
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5024,22 +5034,22 @@ stack:
       - Notification
       tier: observed
       url: /providers/amazon-sns/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Open edX
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id007
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/openedx/edx-platform/blob/master/requirements/edx/base.txt
       status: profiled
       tags: *id008
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.20.10
@@ -5049,12 +5059,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 41.7
       apps:
       - Moodle
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 64.4
       mcp: *id009
       name: Amazon SNS
       slug: amazon-sns
@@ -5068,9 +5078,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Moodle
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.0
+      kin_score: 13.7
       mcp:
         status: unknown
       name: Modica
@@ -5086,50 +5096,20 @@ stack:
       tier: observed
       url: /providers/modica/
   - capability:
-      attribution: API Evangelist extension
-      id: AE-120.20.10
-      key: AE-120.20.10
-      name: Base Map Tiles
-      url: /capabilities/maps-tiles/
-      via_parent: Maps & Tiles
-    providers:
-    - agent_band: agent-ready
-      agent_readiness: 36.0
-      apps:
-      - Chamilo
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.4
-      mcp:
-        source: https://developers.google.com/maps/ai/grounding-lite
-        status: verified
-      name: Google Maps
-      slug: google-maps
-      sources:
-      - https://github.com/chamilo/chamilo-lms/blob/master/composer.json
-      status: profiled
-      tags:
-      - Environment
-      - Geocoding
-      - Geolocation
-      - Maps
-      tier: observed
-      url: /providers/google-maps/
-  - capability:
       attribution: Turbo EA
-      id: BC-3780
-      key: content-compliance-standards-management
-      name: Content Compliance & Standards Management
+      id: BC-3780.50
+      key: BC-3780.50
+      name: Accessibility Compliance Management
       url: /capabilities/content-compliance-standards-management/
-      via_parent: null
+      via_parent: Content Compliance & Standards Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 45.2
+      agent_readiness: 44.3
       apps:
       - LearnWorlds
       band: strong
       in_catalog: true
-      kin_score: 56.7
+      kin_score: 55.4
       mcp:
         source: https://www.npmjs.com/package/accessflow-mcp-server
         status: verified
@@ -5147,6 +5127,66 @@ stack:
       url: /providers/accessibe/
   - capability:
       attribution: Turbo EA
+      id: BC-610.50
+      key: analytics-bi-management
+      name: Analytics & BI Management
+      url: /capabilities/analytics-bi-management/
+      via_parent: null
+    providers:
+    - agent_band: agent-native
+      agent_readiness: 44.9
+      apps:
+      - Open edX
+      band: exemplar
+      in_catalog: true
+      kin_score: 82.3
+      mcp:
+        source: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
+        status: verified
+      name: Snowflake
+      slug: snowflake
+      sources:
+      - https://github.com/openedx/edx-platform/blob/master/requirements/edx/base.txt
+      status: profiled
+      tags:
+      - Data
+      - Data Lakehouse
+      - Data Warehouse
+      - Snowflake
+      tier: observed
+      url: /providers/snowflake/
+  - capability:
+      attribution: API Evangelist extension
+      id: AE-120.20.10
+      key: AE-120.20.10
+      name: Base Map Tiles
+      url: /capabilities/maps-tiles/
+      via_parent: Maps & Tiles
+    providers:
+    - agent_band: agent-ready
+      agent_readiness: 33.0
+      apps:
+      - Chamilo
+      band: exemplar
+      in_catalog: true
+      kin_score: 73.6
+      mcp:
+        source: https://developers.google.com/maps/ai/grounding-lite
+        status: verified
+      name: Google Maps
+      slug: google-maps
+      sources:
+      - https://github.com/chamilo/chamilo-lms/blob/master/composer.json
+      status: profiled
+      tags:
+      - Environment
+      - Geocoding
+      - Geolocation
+      - Maps
+      tier: observed
+      url: /providers/google-maps/
+  - capability:
+      attribution: Turbo EA
       id: BC-420.10
       key: customer-data-management
       name: Customer Data Management
@@ -5154,12 +5194,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Open edX
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -5182,13 +5222,13 @@ stack:
       url: /capabilities/general-ledger-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Thinkific
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -5213,12 +5253,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 23.7
       apps:
       - Open edX
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 31.5
       mcp:
         status: none
       name: MaxMind
@@ -5242,12 +5282,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Udemy
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -5263,36 +5303,6 @@ stack:
       tier: observed
       url: /providers/google-admob/
   - capability:
-      attribution: Turbo EA
-      id: BC-610
-      key: information-data-management
-      name: Information & Data Management
-      url: /capabilities/information-data-management/
-      via_parent: null
-    providers:
-    - agent_band: agent-native
-      agent_readiness: 45.8
-      apps:
-      - Open edX
-      band: exemplar
-      in_catalog: true
-      kin_score: 81.1
-      mcp:
-        source: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
-        status: verified
-      name: Snowflake
-      slug: snowflake
-      sources:
-      - https://github.com/openedx/edx-platform/blob/master/requirements/edx/base.txt
-      status: profiled
-      tags:
-      - Data
-      - Data Lakehouse
-      - Data Warehouse
-      - Snowflake
-      tier: observed
-      url: /providers/snowflake/
-  - capability:
       attribution: API Evangelist extension
       id: AE-110.40.10
       key: AE-110.40.10
@@ -5301,12 +5311,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.9
+      agent_readiness: 46.9
       apps:
       - LearnWorlds
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 33.3
       mcp:
         status: none
       name: Weglot
@@ -5330,12 +5340,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 41.9
+      agent_readiness: 41.0
       apps:
       - Canvas LMS
       band: exemplar
       in_catalog: true
-      kin_score: 80.9
+      kin_score: 82.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5360,12 +5370,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 62.9
+      agent_readiness: 61.6
       apps:
       - Open edX
       band: exemplar
       in_catalog: true
-      kin_score: 77.7
+      kin_score: 78.1
       mcp:
         source: https://support.optimizely.com/hc/en-us/articles/45320607594893
         status: documented
@@ -5390,12 +5400,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 47.4
       apps:
       - LearnWorlds
       band: developing
       in_catalog: true
-      kin_score: 45.0
+      kin_score: 47.5
       mcp:
         source: https://developer.calendly.com/calendly-mcp-server
         status: documented
@@ -5420,12 +5430,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - LearnWorlds
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -5450,14 +5460,14 @@ stack:
       url: /capabilities/model-inference/
       via_parent: Model Inference
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 35.8
+    - agent_band: agent-native
+      agent_readiness: 48.3
       apps:
       - Canvas LMS
       - Moodle
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 64.3
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5475,12 +5485,12 @@ stack:
       tier: observed
       url: /providers/amazon-bedrock/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Moodle
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -5497,12 +5507,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Moodle
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -5519,33 +5529,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 37.8
       apps:
       - Moodle
       band: strong
       in_catalog: true
-      kin_score: 55.1
-      mcp:
-        status: none
-      name: Gemini
-      slug: google-gemini
-      sources:
-      - https://github.com/moodle/moodle/tree/main/public/ai/provider
-      status: profiled
-      tags:
-      - AI Agents
-      - Artificial Intelligence
-      - Code Generation
-      - Embeddings
-      tier: observed
-      url: /providers/google-gemini/
-    - agent_band: agent-aware
-      agent_readiness: 23.7
-      apps:
-      - Moodle
-      band: developing
-      in_catalog: true
-      kin_score: 45.7
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft-foundry/mcp-foundry
         status: verified
@@ -5561,13 +5550,34 @@ stack:
       - Generative AI
       tier: observed
       url: /providers/azure-ai-foundry/
+    - agent_band: agent-ready
+      agent_readiness: 35.0
+      apps:
+      - Moodle
+      band: strong
+      in_catalog: true
+      kin_score: 61.7
+      mcp:
+        status: none
+      name: Gemini
+      slug: google-gemini
+      sources:
+      - https://github.com/moodle/moodle/tree/main/public/ai/provider
+      status: profiled
+      tags:
+      - AI Agents
+      - Artificial Intelligence
+      - Code Generation
+      - Embeddings
+      tier: observed
+      url: /providers/google-gemini/
     - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 22.4
       apps:
       - Moodle
       band: developing
       in_catalog: true
-      kin_score: 43.3
+      kin_score: 41.2
       mcp:
         status: none
       name: DeepSeek
@@ -5596,7 +5606,7 @@ stack:
       - Moodle
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp:
         status: none
       name: Ollama
@@ -5623,7 +5633,7 @@ summary:
     unchecked: 6
     verified: 41
   mcp_verified: 41
-  mean_kin_score: 51.6
+  mean_kin_score: 53.7
   observed: 61
   queued: 6
   reference_apps: 8

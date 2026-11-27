@@ -113,11 +113,11 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-ready
-    agent_readiness: 46.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 53.6
+    band: strong
     in_catalog: true
-    kin_score: 46.7
+    kin_score: 58.4
     mcp: &id003
       source: https://github.com/amzn/selling-partner-agentic-toolkit
       status: verified
@@ -145,10 +145,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.2
+    agent_readiness: 35.5
     band: thin
     in_catalog: true
-    kin_score: 38.7
+    kin_score: 37.6
     mcp: &id005
       status: none
     slug: applovin
@@ -174,13 +174,13 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-ready
-    agent_readiness: 29.1
-    band: emerging
+    agent_band: agent-aware
+    agent_readiness: 28.5
+    band: thin
     in_catalog: true
-    kin_score: 24.7
+    kin_score: 34.0
     mcp: &id007
-      status: unchecked
+      status: none
     slug: appodeal
     status: profiled
     tags: &id008
@@ -205,10 +205,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.6
-    band: developing
+    agent_readiness: 31.0
+    band: strong
     in_catalog: true
-    kin_score: 49.2
+    kin_score: 60.3
     mcp: &id009
       status: none
     slug: bidmachine-io
@@ -238,7 +238,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 2.2
+    kin_score: 2.0
     mcp: &id011
       status: none
     slug: chartboost
@@ -262,10 +262,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id013
       status: none
     slug: facebook
@@ -321,22 +321,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id002
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id015
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id016
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Analytics
   provider: firebase
@@ -379,10 +379,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id021
       status: none
     slug: google-admob
@@ -450,10 +450,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.9
     band: strong
     in_catalog: true
-    kin_score: 56.1
+    kin_score: 55.6
     mcp: &id025
       source: https://github.com/IABTechLab/agentic-real-time-framework
       status: verified
@@ -481,10 +481,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 7.9
+    agent_readiness: 7.7
     band: developing
     in_catalog: true
-    kin_score: 49.9
+    kin_score: 46.1
     mcp: &id027
       status: none
     slug: inmobi
@@ -512,9 +512,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 2.5
-    band: emerging
+    band: minimal
     in_catalog: true
-    kin_score: 11.5
+    kin_score: 10.2
     mcp: &id029
       status: none
     slug: ironsource
@@ -544,7 +544,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.6
+    kin_score: 16.2
     mcp: &id033
       status: unknown
     slug: mintegral
@@ -572,9 +572,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.4
+    kin_score: 14.1
     mcp: &id039
       status: none
     slug: pangle
@@ -601,12 +601,12 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.1
-    band: emerging
+    agent_readiness: 14.8
+    band: thin
     in_catalog: true
-    kin_score: 26.0
+    kin_score: 32.1
     mcp: &id041
-      status: unchecked
+      status: unknown
     slug: pubnative
     status: profiled
     tags: &id042
@@ -631,10 +631,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 50.0
-    band: exemplar
+    agent_readiness: 48.9
+    band: strong
     in_catalog: true
-    kin_score: 67.4
+    kin_score: 65.9
     mcp: &id043
       status: none
     slug: singular
@@ -687,10 +687,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.8
+    agent_readiness: 25.3
     band: exemplar
     in_catalog: true
-    kin_score: 66.7
+    kin_score: 66.5
     mcp: &id051
       source: https://github.com/Unity-Technologies/industry-ai-workflows
       status: verified
@@ -717,11 +717,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 22.9
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 36.1
+    band: strong
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 56.4
     mcp: &id019
       source: https://developers.google.com/ad-manager/api/beta/mcp-server
       status: verified
@@ -752,7 +752,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 2.6
+    kin_score: 1.7
     mcp: &id031
       status: none
     slug: maio
@@ -776,10 +776,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 54.9
+    agent_readiness: 57.8
     band: exemplar
     in_catalog: true
-    kin_score: 69.6
+    kin_score: 71.5
     mcp: &id035
       source: https://developer.moloco.cloud/docs/mcp-getting-started
       status: verified
@@ -886,9 +886,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.2
+    kin_score: 13.2
     mcp: &id053
       status: none
     slug: yandex-ads
@@ -912,11 +912,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/mobile-games/subway-surfers/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 46.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 53.6
+  band: strong
   in_catalog: true
-  kin_score: 46.7
+  kin_score: 58.4
   mcp: *id003
   name: Amazon Advertisement
   slug: amazon
@@ -924,21 +924,21 @@ providers:
   tags: *id004
   url: /providers/amazon/
 - agent_band: agent-ready
-  agent_readiness: 36.2
+  agent_readiness: 35.5
   band: thin
   in_catalog: true
-  kin_score: 38.7
+  kin_score: 37.6
   mcp: *id005
   name: AppLovin (MAX and SparkLabs)
   slug: applovin
   status: profiled
   tags: *id006
   url: /providers/applovin/
-- agent_band: agent-ready
-  agent_readiness: 29.1
-  band: emerging
+- agent_band: agent-aware
+  agent_readiness: 28.5
+  band: thin
   in_catalog: true
-  kin_score: 24.7
+  kin_score: 34.0
   mcp: *id007
   name: Appodeal Stack
   slug: appodeal
@@ -946,10 +946,10 @@ providers:
   tags: *id008
   url: /providers/appodeal/
 - agent_band: agent-ready
-  agent_readiness: 31.6
-  band: developing
+  agent_readiness: 31.0
+  band: strong
   in_catalog: true
-  kin_score: 49.2
+  kin_score: 60.3
   mcp: *id009
   name: BidMachine
   slug: bidmachine-io
@@ -960,7 +960,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 2.2
+  kin_score: 2.0
   mcp: *id011
   name: Chartboost
   slug: chartboost
@@ -968,27 +968,27 @@ providers:
   tags: *id012
   url: /providers/chartboost/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id013
   name: Facebook Ads
   slug: facebook
   status: profiled
   tags: *id014
   url: /providers/facebook/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id015
   name: Firebase Analytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id016
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: null
   agent_readiness: null
   band: null
@@ -1000,11 +1000,11 @@ providers:
   status: queued for profiling
   tags: *id018
   url: null
-- agent_band: agent-aware
-  agent_readiness: 22.9
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 36.1
+  band: strong
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 56.4
   mcp: *id019
   name: Google Ad Manager (mediation)
   slug: google-ad-manager
@@ -1012,10 +1012,10 @@ providers:
   tags: *id020
   url: /providers/google-ad-manager/
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 35.3
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 65.2
   mcp: *id021
   name: Google AdMob
   slug: google-admob
@@ -1034,10 +1034,10 @@ providers:
   tags: *id024
   url: null
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 36.9
   band: strong
   in_catalog: true
-  kin_score: 56.1
+  kin_score: 55.6
   mcp: *id025
   name: IAB Open Measurement
   slug: iab-tech-lab
@@ -1045,10 +1045,10 @@ providers:
   tags: *id026
   url: /providers/iab-tech-lab/
 - agent_band: agent-aware
-  agent_readiness: 7.9
+  agent_readiness: 7.7
   band: developing
   in_catalog: true
-  kin_score: 49.9
+  kin_score: 46.1
   mcp: *id027
   name: InMobi
   slug: inmobi
@@ -1057,9 +1057,9 @@ providers:
   url: /providers/inmobi/
 - agent_band: human-only
   agent_readiness: 2.5
-  band: emerging
+  band: minimal
   in_catalog: true
-  kin_score: 11.5
+  kin_score: 10.2
   mcp: *id029
   name: ironSource LevelPlay (mediation)
   slug: ironsource
@@ -1070,7 +1070,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 2.6
+  kin_score: 1.7
   mcp: *id031
   name: maio
   slug: maio
@@ -1081,7 +1081,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.6
+  kin_score: 16.2
   mcp: *id033
   name: Mintegral
   slug: mintegral
@@ -1089,10 +1089,10 @@ providers:
   tags: *id034
   url: /providers/mintegral/
 - agent_band: agent-native
-  agent_readiness: 54.9
+  agent_readiness: 57.8
   band: exemplar
   in_catalog: true
-  kin_score: 69.6
+  kin_score: 71.5
   mcp: *id035
   name: Moloco
   slug: moloco
@@ -1112,9 +1112,9 @@ providers:
   url: null
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.4
+  kin_score: 14.1
   mcp: *id039
   name: Pangle (ByteDance)
   slug: pangle
@@ -1122,10 +1122,10 @@ providers:
   tags: *id040
   url: /providers/pangle/
 - agent_band: agent-aware
-  agent_readiness: 15.1
-  band: emerging
+  agent_readiness: 14.8
+  band: thin
   in_catalog: true
-  kin_score: 26.0
+  kin_score: 32.1
   mcp: *id041
   name: PubNative
   slug: pubnative
@@ -1133,10 +1133,10 @@ providers:
   tags: *id042
   url: /providers/pubnative/
 - agent_band: agent-ready
-  agent_readiness: 50.0
-  band: exemplar
+  agent_readiness: 48.9
+  band: strong
   in_catalog: true
-  kin_score: 67.4
+  kin_score: 65.9
   mcp: *id043
   name: Singular
   slug: singular
@@ -1177,10 +1177,10 @@ providers:
   tags: *id050
   url: null
 - agent_band: agent-aware
-  agent_readiness: 25.8
+  agent_readiness: 25.3
   band: exemplar
   in_catalog: true
-  kin_score: 66.7
+  kin_score: 66.5
   mcp: *id051
   name: Unity3d Ads
   slug: unity
@@ -1189,9 +1189,9 @@ providers:
   url: /providers/unity/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.2
+  kin_score: 13.2
   mcp: *id053
   name: Yandex Ads
   slug: yandex-ads

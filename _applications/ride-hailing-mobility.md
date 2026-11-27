@@ -1578,12 +1578,12 @@ stack:
       via_parent: Identity Verification
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.8
+      agent_readiness: 37.0
       apps:
       - Namma Yatri
       band: developing
       in_catalog: true
-      kin_score: 46.6
+      kin_score: 51.0
       mcp:
         status: unknown
       name: Gridline
@@ -1599,12 +1599,12 @@ stack:
       tier: observed
       url: /providers/gridline/
     - agent_band: agent-aware
-      agent_readiness: 22.1
+      agent_readiness: 27.2
       apps:
       - Namma Yatri
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 32.9
       mcp:
         status: none
       name: HyperVerge
@@ -1623,9 +1623,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Namma Yatri
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.2
+      kin_score: 16.2
       mcp:
         status: unknown
       name: DigiLocker
@@ -1663,12 +1663,12 @@ stack:
       via_parent: Routing & Navigation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Namma Yatri
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp: &id001
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -1685,12 +1685,12 @@ stack:
       tier: observed
       url: /providers/google-maps/
     - agent_band: agent-aware
-      agent_readiness: 12.7
+      agent_readiness: 12.4
       apps:
       - Namma Yatri
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.9
+      kin_score: 35.4
       mcp:
         source: https://github.com/nextbillion-ai/nextbillion-mcp
         status: verified
@@ -1707,12 +1707,12 @@ stack:
       tier: observed
       url: /providers/nextbillion-ai/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Namma Yatri
       band: minimal
       in_catalog: true
-      kin_score: 7.2
+      kin_score: 7.7
       mcp:
         status: none
       name: MapmyIndia (Mappls)
@@ -1733,7 +1733,7 @@ stack:
       - Namma Yatri
       band: minimal
       in_catalog: true
-      kin_score: 5.4
+      kin_score: 4.5
       mcp:
         status: none
       name: OSRM (Project OSRM, self-hosted)
@@ -1756,13 +1756,13 @@ stack:
       url: /capabilities/personal-insurance/
       via_parent: Personal Insurance
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 25.5
+    - agent_band: agent-ready
+      agent_readiness: 29.8
       apps:
       - Namma Yatri
       band: thin
       in_catalog: true
-      kin_score: 37.6
+      kin_score: 38.5
       mcp:
         status: unknown
       name: Acko
@@ -1781,9 +1781,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Namma Yatri
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.7
+      kin_score: 15.8
       mcp:
         status: unknown
       name: IFFCO-Tokio General Insurance
@@ -1807,12 +1807,12 @@ stack:
       via_parent: Talent Acquisition Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 52.8
       apps:
       - Namma Yatri
       band: thin
       in_catalog: true
-      kin_score: 32.8
+      kin_score: 32.4
       mcp:
         status: none
       name: Checkr
@@ -1836,12 +1836,12 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.3
+      agent_readiness: 40.3
       apps:
       - Fleetbase (Fleet-Ops)
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 62.4
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -1866,12 +1866,12 @@ stack:
       via_parent: Ground Transport
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.1
+      agent_readiness: 16.7
       apps:
       - Uber
       band: thin
       in_catalog: true
-      kin_score: 35.8
+      kin_score: 33.3
       mcp:
         status: none
       name: Lime
@@ -1900,7 +1900,7 @@ stack:
       - Namma Yatri
       band: minimal
       in_catalog: true
-      kin_score: 4.9
+      kin_score: 5.2
       mcp:
         status: none
       name: OpenTripPlanner (self-hosted)
@@ -1924,12 +1924,12 @@ stack:
       via_parent: Ground Transport
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Namma Yatri
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp: *id001
       name: Google Maps Platform (Fleet Engine)
       slug: google-maps
@@ -1948,12 +1948,12 @@ stack:
       via_parent: Connected Vehicles
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.2
+      agent_readiness: 21.3
       apps:
       - Namma Yatri
       band: strong
       in_catalog: true
-      kin_score: 54.3
+      kin_score: 56.5
       mcp:
         status: none
       name: Signzy
@@ -1978,42 +1978,42 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Bolt
       - Grab
       - Lime
       - Lyft
       - Uber
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id003
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.grabtaxi.passenger/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.limebike/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.ubercab/latest/
       status: profiled
       tags: &id004
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Bolt
       - Grab
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id009
         status: none
       name: Facebook
@@ -2030,12 +2030,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Open Source Bike Share
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -2052,12 +2052,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Lime
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -2074,12 +2074,12 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 47.7
       apps:
       - Bolt
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -2130,7 +2130,7 @@ stack:
       - Open Source Bike Share
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2148,19 +2148,19 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Bolt
       - Grab
       - Lime
       - Uber
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.grabtaxi.passenger/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.limebike/latest/
@@ -2168,14 +2168,14 @@ stack:
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 29.6
+      agent_readiness: 35.2
       apps:
       - Lime
       band: developing
       in_catalog: true
-      kin_score: 45.6
+      kin_score: 45.8
       mcp:
         source: https://docs.luciq.ai/product-guides-and-integrations/product-guides/ai-features.md
         status: documented
@@ -2200,13 +2200,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Fleetbase (Fleet-Ops)
       - Namma Yatri
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: &id005
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -2229,7 +2229,7 @@ stack:
       - Namma Yatri
       band: exemplar
       in_catalog: true
-      kin_score: 86.3
+      kin_score: 86.9
       mcp:
         source: https://www.infobip.com/docs/mcp
         status: verified
@@ -2246,12 +2246,12 @@ stack:
       tier: observed
       url: /providers/infobip/
     - agent_band: agent-ready
-      agent_readiness: 43.5
+      agent_readiness: 40.0
       apps:
       - Namma Yatri
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 68.8
       mcp:
         source: https://github.com/Vonage/vonage-mcp-server-documentation
         status: verified
@@ -2267,13 +2267,13 @@ stack:
       - Video Conferencing
       tier: observed
       url: /providers/vonage/
-    - agent_band: agent-aware
-      agent_readiness: 26.6
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - Namma Yatri
       band: developing
       in_catalog: true
-      kin_score: 47.6
+      kin_score: 47.3
       mcp:
         status: none
       name: Kaleyra
@@ -2289,12 +2289,12 @@ stack:
       tier: observed
       url: /providers/kaleyra/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - Namma Yatri
       band: thin
       in_catalog: true
-      kin_score: 28.8
+      kin_score: 27.7
       mcp: &id007
         source: https://github.com/exotel/ExotelMCP
         status: verified
@@ -2311,12 +2311,12 @@ stack:
       tier: observed
       url: /providers/exotel/
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 52.6
       apps:
       - Open Source Bike Share
       band: thin
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 27.5
       mcp:
         source: https://www.textmagic.com/mcp/
         status: documented
@@ -2338,7 +2338,7 @@ stack:
       - Open Source Bike Share
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.5
       mcp:
         status: unknown
       name: EuroSms
@@ -2396,13 +2396,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Fleetbase (Fleet-Ops)
       - Namma Yatri
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2420,12 +2420,12 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 40.0
+      agent_readiness: 41.2
       apps:
       - Namma Yatri
       band: thin
       in_catalog: true
-      kin_score: 37.1
+      kin_score: 35.3
       mcp:
         status: unknown
       name: BillDesk
@@ -2441,34 +2441,12 @@ stack:
       tier: observed
       url: /providers/billdesk/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 26.4
       apps:
       - Namma Yatri
       band: emerging
       in_catalog: true
-      kin_score: 25.5
-      mcp:
-        source: https://registry.modelcontextprotocol.io/v0/servers?search=paytm
-        status: verified
-      name: Paytm
-      slug: paytm
-      sources:
-      - https://github.com/nammayatri/shared-kernel/tree/main/lib/mobility-core/src/Kernel/External/Payment/PaytmEDC
-      status: profiled
-      tags:
-      - Payment Gateway
-      - Payments
-      - Payouts
-      - UPI
-      tier: observed
-      url: /providers/paytm/
-    - agent_band: agent-aware
-      agent_readiness: 21.3
-      apps:
-      - Namma Yatri
-      band: emerging
-      in_catalog: true
-      kin_score: 25.4
+      kin_score: 25.2
       mcp:
         source: https://github.com/juspay/juspay-mcp
         status: verified
@@ -2484,6 +2462,28 @@ stack:
       - Payments
       tier: observed
       url: /providers/juspay/
+    - agent_band: agent-aware
+      agent_readiness: 23.3
+      apps:
+      - Namma Yatri
+      band: emerging
+      in_catalog: true
+      kin_score: 24.4
+      mcp:
+        source: https://registry.modelcontextprotocol.io/v0/servers?search=paytm
+        status: verified
+      name: Paytm
+      slug: paytm
+      sources:
+      - https://github.com/nammayatri/shared-kernel/tree/main/lib/mobility-core/src/Kernel/External/Payment/PaytmEDC
+      status: profiled
+      tags:
+      - Payment Gateway
+      - Payments
+      - Payouts
+      - UPI
+      tier: observed
+      url: /providers/paytm/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -2510,13 +2510,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 50.0
+      agent_readiness: 48.9
       apps:
       - Bolt
       - Lyft
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.4
+      kin_score: 65.9
       mcp:
         status: none
       name: Singular
@@ -2533,12 +2533,12 @@ stack:
       tier: observed
       url: /providers/singular/
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Grab
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -2555,12 +2555,12 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Lime
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -2580,31 +2580,31 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Fleetbase (Fleet-Ops)
       - Namma Yatri
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/fleetbase/core-api/blob/main/composer.json
       - https://github.com/nammayatri/shared-kernel/tree/main/lib/mobility-core/src/Kernel/External/Notification/FCM
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 31.2
       apps:
       - Grab
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.6
+      kin_score: 63.8
       mcp:
         status: none
       name: Leanplum
@@ -2620,12 +2620,12 @@ stack:
       tier: observed
       url: /providers/leanplum/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Fleetbase (Fleet-Ops)
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple (APNs)
@@ -2649,12 +2649,12 @@ stack:
       via_parent: Voice & Telephony
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Namma Yatri
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: *id005
       name: Twilio
       slug: twilio
@@ -2665,28 +2665,12 @@ stack:
       tier: observed
       url: /providers/twilio/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 26.9
       apps:
       - Namma Yatri
       band: thin
       in_catalog: true
-      kin_score: 28.8
-      mcp: *id007
-      name: Exotel
-      slug: exotel
-      sources:
-      - https://github.com/nammayatri/shared-kernel/tree/main/lib/mobility-core/src/Kernel/External/Call/Exotel
-      status: profiled
-      tags: *id008
-      tier: observed
-      url: /providers/exotel/
-    - agent_band: agent-aware
-      agent_readiness: 27.5
-      apps:
-      - Namma Yatri
-      band: thin
-      in_catalog: true
-      kin_score: 28.1
+      kin_score: 35.0
       mcp:
         status: unknown
       name: Ozonetel
@@ -2701,6 +2685,22 @@ stack:
       - Contact Center
       tier: observed
       url: /providers/ozonetel/
+    - agent_band: agent-aware
+      agent_readiness: 25.8
+      apps:
+      - Namma Yatri
+      band: thin
+      in_catalog: true
+      kin_score: 27.7
+      mcp: *id007
+      name: Exotel
+      slug: exotel
+      sources:
+      - https://github.com/nammayatri/shared-kernel/tree/main/lib/mobility-core/src/Kernel/External/Call/Exotel
+      status: profiled
+      tags: *id008
+      tier: observed
+      url: /providers/exotel/
   - capability:
       attribution: Turbo EA
       id: BC-3760.30
@@ -2710,13 +2710,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - Lyft
       - Uber
       band: strong
       in_catalog: true
-      kin_score: 56.1
+      kin_score: 55.6
       mcp:
         source: https://github.com/IABTechLab/agentic-real-time-framework
         status: verified
@@ -2734,12 +2734,12 @@ stack:
       tier: observed
       url: /providers/iab-tech-lab/
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Grab
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -2763,12 +2763,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Namma Yatri
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp Business Platform (Meta)
@@ -2784,12 +2784,12 @@ stack:
       tier: observed
       url: /providers/whatsapp/
     - agent_band: agent-ready
-      agent_readiness: 33.3
+      agent_readiness: 32.7
       apps:
       - Namma Yatri
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 52.9
+      kin_score: 57.4
       mcp:
         status: unknown
       name: Tata Communications
@@ -2805,12 +2805,12 @@ stack:
       tier: observed
       url: /providers/tata-communications/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 24.7
       apps:
       - Namma Yatri
       band: emerging
       in_catalog: true
-      kin_score: 25.3
+      kin_score: 24.9
       mcp:
         status: none
       name: Gupshup
@@ -2834,12 +2834,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 66.2
+      agent_readiness: 65.1
       apps:
       - Namma Yatri
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 68.0
       mcp:
         status: none
       name: MoEngage
@@ -2855,12 +2855,12 @@ stack:
       tier: observed
       url: /providers/moengage/
     - agent_band: agent-ready
-      agent_readiness: 48.6
+      agent_readiness: 47.6
       apps:
       - Namma Yatri
       band: strong
       in_catalog: true
-      kin_score: 64.7
+      kin_score: 61.4
       mcp:
         source: https://docs.clevertap.com/docs/clevertap-mcp
         status: documented
@@ -2885,12 +2885,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Namma Yatri
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -2906,12 +2906,12 @@ stack:
       tier: observed
       url: /providers/zendesk/
     - agent_band: agent-aware
-      agent_readiness: 25.0
+      agent_readiness: 27.2
       apps:
       - Namma Yatri
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 28.5
+      kin_score: 39.4
       mcp:
         status: none
       name: Kapture CX
@@ -2935,13 +2935,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Bolt
       - Grab
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id009
       name: Facebook
       slug: facebook
@@ -2961,12 +2961,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Fleetbase (Fleet-Ops)
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2991,12 +2991,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.8
+      agent_readiness: 58.7
       apps:
       - Namma Yatri
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 54.2
+      kin_score: 58.3
       mcp:
         source: https://github.com/SAP/mdk-mcp-server
         status: verified
@@ -3020,13 +3020,13 @@ stack:
       url: /capabilities/language-document-understanding/
       via_parent: Language & Document Understanding
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 17.9
+    - agent_band: agent-ready
+      agent_readiness: 33.9
       apps:
       - Namma Yatri
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 51.6
+      kin_score: 68.0
       mcp:
         status: none
       name: Google Cloud Translation
@@ -3049,13 +3049,13 @@ stack:
       url: /capabilities/payment-processing-management/
       via_parent: Payment Processing Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - Namma Yatri
       band: emerging
       in_catalog: true
-      kin_score: 14.5
+      kin_score: 22.3
       mcp:
         status: unknown
       name: HDFC Bank
@@ -3079,12 +3079,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Fleetbase (Fleet-Ops)
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -3109,12 +3109,12 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Namma Yatri
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -3139,12 +3139,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 39.0
       apps:
       - Fleetbase (Fleet-Ops)
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 69.7
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3172,7 +3172,7 @@ summary:
     unchecked: 5
     verified: 22
   mcp_verified: 22
-  mean_kin_score: 47.6
+  mean_kin_score: 49.9
   observed: 58
   queued: 5
   reference_apps: 8

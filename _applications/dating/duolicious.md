@@ -97,10 +97,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id001
       status: none
     slug: apple
@@ -127,10 +127,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 48.0
     mcp: &id003
       status: none
     slug: discord
@@ -160,7 +160,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 15.5
+    kin_score: 15.3
     mcp: &id005
       status: none
     slug: firehol
@@ -186,11 +186,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id007
       status: none
     slug: google-identity-platform
@@ -217,10 +217,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id009
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -248,10 +248,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id011
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -282,7 +282,7 @@ integrations:
     agent_readiness: 23.8
     band: thin
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 27.4
     mcp: &id013
       source: https://www.revenuecat.com/docs/tools/mcp
       status: verified
@@ -310,10 +310,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
-    band: thin
+    agent_readiness: 14.3
+    band: developing
     in_catalog: true
-    kin_score: 26.6
+    kin_score: 39.9
     mcp: &id015
       status: none
     slug: ripe-ncc
@@ -340,10 +340,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_readiness: 32.7
     band: developing
     in_catalog: true
-    kin_score: 49.8
+    kin_score: 50.6
     mcp: &id017
       status: none
     slug: spotify
@@ -368,10 +368,10 @@ noindex: false
 permalink: /applications/dating/duolicious/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id001
   name: Apple
   slug: apple
@@ -379,10 +379,10 @@ providers:
   tags: *id002
   url: /providers/apple/
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 48.0
   mcp: *id003
   name: Discord
   slug: discord
@@ -393,18 +393,18 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 15.5
+  kin_score: 15.3
   mcp: *id005
   name: FireHOL IP lists
   slug: firehol
   status: profiled
   tags: *id006
   url: /providers/firehol/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id007
   name: Google sign-in
   slug: google-identity-platform
@@ -412,10 +412,10 @@ providers:
   tags: *id008
   url: /providers/google-identity-platform/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id009
   name: OpenAI
   slug: openai
@@ -423,10 +423,10 @@ providers:
   tags: *id010
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id011
   name: PayPal
   slug: paypal
@@ -437,7 +437,7 @@ providers:
   agent_readiness: 23.8
   band: thin
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 27.4
   mcp: *id013
   name: RevenueCat
   slug: revenuecat
@@ -445,10 +445,10 @@ providers:
   tags: *id014
   url: /providers/revenuecat/
 - agent_band: agent-aware
-  agent_readiness: 17.3
-  band: thin
+  agent_readiness: 14.3
+  band: developing
   in_catalog: true
-  kin_score: 26.6
+  kin_score: 39.9
   mcp: *id015
   name: RIPE NCC (RIPEstat)
   slug: ripe-ncc
@@ -456,10 +456,10 @@ providers:
   tags: *id016
   url: /providers/ripe-ncc/
 - agent_band: agent-ready
-  agent_readiness: 33.3
+  agent_readiness: 32.7
   band: developing
   in_catalog: true
-  kin_score: 49.8
+  kin_score: 50.6
   mcp: *id017
   name: Spotify
   slug: spotify

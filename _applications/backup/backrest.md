@@ -63,10 +63,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 48.0
     mcp: &id001
       status: none
     slug: discord
@@ -96,7 +96,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.8
+    kin_score: 10.9
     mcp: &id003
       source: https://gotify.net/docs/mcp
       status: verified
@@ -124,10 +124,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 17.2
+    band: developing
     in_catalog: true
-    kin_score: 32.9
+    kin_score: 43.4
     mcp: &id005
       status: none
     slug: healthchecks-io
@@ -154,10 +154,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id007
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -185,10 +185,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id009
       status: none
     slug: telegram
@@ -213,10 +213,10 @@ noindex: false
 permalink: /applications/backup/backrest/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 48.0
   mcp: *id001
   name: Discord
   slug: discord
@@ -227,7 +227,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.8
+  kin_score: 10.9
   mcp: *id003
   name: Gotify
   slug: gotify
@@ -235,10 +235,10 @@ providers:
   tags: *id004
   url: /providers/gotify/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 17.2
+  band: developing
   in_catalog: true
-  kin_score: 32.9
+  kin_score: 43.4
   mcp: *id005
   name: Healthchecks.io
   slug: healthchecks-io
@@ -246,10 +246,10 @@ providers:
   tags: *id006
   url: /providers/healthchecks-io/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id007
   name: Slack
   slug: slack
@@ -257,10 +257,10 @@ providers:
   tags: *id008
   url: /providers/slack/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id009
   name: Telegram
   slug: telegram

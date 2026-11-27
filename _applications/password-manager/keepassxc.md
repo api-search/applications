@@ -48,10 +48,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 20.2
     band: developing
     in_catalog: true
-    kin_score: 39.8
+    kin_score: 39.4
     mcp: &id001
       status: none
     slug: duckduckgo
@@ -78,10 +78,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 31.8
     band: developing
     in_catalog: true
-    kin_score: 48.4
+    kin_score: 49.5
     mcp: &id003
       status: none
     slug: have-i-been-pwned
@@ -106,10 +106,10 @@ noindex: false
 permalink: /applications/password-manager/keepassxc/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 20.2
   band: developing
   in_catalog: true
-  kin_score: 39.8
+  kin_score: 39.4
   mcp: *id001
   name: DuckDuckGo
   slug: duckduckgo
@@ -117,10 +117,10 @@ providers:
   tags: *id002
   url: /providers/duckduckgo/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 31.8
   band: developing
   in_catalog: true
-  kin_score: 48.4
+  kin_score: 49.5
   mcp: *id003
   name: Have I Been Pwned
   slug: have-i-been-pwned

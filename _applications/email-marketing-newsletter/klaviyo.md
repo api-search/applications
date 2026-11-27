@@ -129,10 +129,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 60.5
+    agent_readiness: 56.3
     band: exemplar
     in_catalog: true
-    kin_score: 70.3
+    kin_score: 84.3
     mcp: &id001
       source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
       status: verified
@@ -160,10 +160,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 71.4
+    agent_readiness: 70.0
     band: exemplar
     in_catalog: true
-    kin_score: 79.9
+    kin_score: 87.3
     mcp: &id003
       source: https://www.canva.dev/docs/mcp/
       status: verified
@@ -190,17 +190,21 @@ integrations:
     via_parent: Email
   credit: null
   facts:
-    agent_band: null
-    agent_readiness: null
-    band: null
-    in_catalog: false
-    kin_score: null
+    agent_band: agent-aware
+    agent_readiness: 21.4
+    band: emerging
+    in_catalog: true
+    kin_score: 24.5
     mcp: &id005
       status: none
     slug: glockapps-com
-    status: queued for profiling
-    tags: &id006 []
-    url: null
+    status: profiled
+    tags: &id006
+    - Deliverability
+    - Email
+    - Marketing
+    - Software-as-a-Service
+    url: /providers/glockapps-com/
   layer: domain
   name: GlockApps
   provider: glockapps-com
@@ -217,10 +221,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.7
+    agent_readiness: 42.1
     band: exemplar
     in_catalog: true
-    kin_score: 73.1
+    kin_score: 73.4
     mcp: &id007
       source: https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server
       status: verified
@@ -248,10 +252,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_readiness: 25.3
     band: developing
     in_catalog: true
-    kin_score: 43.6
+    kin_score: 42.5
     mcp: &id009
       source: https://github.com/gorgias/mcp-cookbook
       status: verified
@@ -279,10 +283,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_readiness: 19.2
+    band: emerging
     in_catalog: true
-    kin_score: 27.2
+    kin_score: 26.0
     mcp: &id011
       status: none
     slug: judge-me
@@ -309,10 +313,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id013
       status: none
     slug: facebook
@@ -339,10 +343,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
-    band: strong
+    agent_readiness: 45.9
+    band: developing
     in_catalog: true
-    kin_score: 56.7
+    kin_score: 54.1
     mcp: &id015
       status: none
     slug: shipstation
@@ -369,10 +373,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.5
+    agent_readiness: 51.8
     band: exemplar
     in_catalog: true
-    kin_score: 84.6
+    kin_score: 83.8
     mcp: &id017
       source: https://shopify.dev/docs/apps/build/devmcp
       status: verified
@@ -400,10 +404,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 49.5
+    agent_readiness: 48.5
     band: exemplar
     in_catalog: true
-    kin_score: 69.9
+    kin_score: 68.7
     mcp: &id019
       status: none
     slug: squarespace
@@ -430,10 +434,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 49.8
+    agent_readiness: 48.8
     band: exemplar
     in_catalog: true
-    kin_score: 75.5
+    kin_score: 74.8
     mcp: &id021
       source: https://docs.talon.one/docs/dev/mcp
       status: verified
@@ -461,10 +465,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 60.0
+    agent_readiness: 58.8
     band: exemplar
     in_catalog: true
-    kin_score: 69.6
+    kin_score: 68.2
     mcp: &id023
       status: none
     slug: triple-whale
@@ -491,10 +495,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.2
+    agent_readiness: 47.2
     band: thin
     in_catalog: true
-    kin_score: 35.6
+    kin_score: 35.5
     mcp: &id025
       source: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
       status: verified
@@ -522,10 +526,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.4
-    band: developing
+    agent_readiness: 34.7
+    band: strong
     in_catalog: true
-    kin_score: 50.4
+    kin_score: 54.6
     mcp: &id027
       source: https://developer.woocommerce.com/docs/features/mcp/
       status: verified
@@ -553,10 +557,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id029
       source: https://zapier.com/mcp
       status: verified
@@ -582,10 +586,10 @@ noindex: false
 permalink: /applications/email-marketing-newsletter/klaviyo/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 60.5
+  agent_readiness: 56.3
   band: exemplar
   in_catalog: true
-  kin_score: 70.3
+  kin_score: 84.3
   mcp: *id001
   name: BigCommerce
   slug: bigcommerce
@@ -593,32 +597,32 @@ providers:
   tags: *id002
   url: /providers/bigcommerce/
 - agent_band: agent-native
-  agent_readiness: 71.4
+  agent_readiness: 70.0
   band: exemplar
   in_catalog: true
-  kin_score: 79.9
+  kin_score: 87.3
   mcp: *id003
   name: Canva
   slug: canva
   status: profiled
   tags: *id004
   url: /providers/canva/
-- agent_band: null
-  agent_readiness: null
-  band: null
-  in_catalog: false
-  kin_score: null
+- agent_band: agent-aware
+  agent_readiness: 21.4
+  band: emerging
+  in_catalog: true
+  kin_score: 24.5
   mcp: *id005
   name: GlockApps
   slug: glockapps-com
-  status: queued for profiling
+  status: profiled
   tags: *id006
-  url: null
+  url: /providers/glockapps-com/
 - agent_band: agent-ready
-  agent_readiness: 47.7
+  agent_readiness: 42.1
   band: exemplar
   in_catalog: true
-  kin_score: 73.1
+  kin_score: 73.4
   mcp: *id007
   name: Google Ads
   slug: google-ads
@@ -626,10 +630,10 @@ providers:
   tags: *id008
   url: /providers/google-ads/
 - agent_band: agent-aware
-  agent_readiness: 25.9
+  agent_readiness: 25.3
   band: developing
   in_catalog: true
-  kin_score: 43.6
+  kin_score: 42.5
   mcp: *id009
   name: Gorgias
   slug: gorgias
@@ -637,10 +641,10 @@ providers:
   tags: *id010
   url: /providers/gorgias/
 - agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+  agent_readiness: 19.2
+  band: emerging
   in_catalog: true
-  kin_score: 27.2
+  kin_score: 26.0
   mcp: *id011
   name: Judge.me
   slug: judge-me
@@ -648,10 +652,10 @@ providers:
   tags: *id012
   url: /providers/judge-me/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id013
   name: Meta Ads
   slug: facebook
@@ -659,10 +663,10 @@ providers:
   tags: *id014
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 46.9
-  band: strong
+  agent_readiness: 45.9
+  band: developing
   in_catalog: true
-  kin_score: 56.7
+  kin_score: 54.1
   mcp: *id015
   name: ShipStation
   slug: shipstation
@@ -670,10 +674,10 @@ providers:
   tags: *id016
   url: /providers/shipstation/
 - agent_band: agent-ready
-  agent_readiness: 52.5
+  agent_readiness: 51.8
   band: exemplar
   in_catalog: true
-  kin_score: 84.6
+  kin_score: 83.8
   mcp: *id017
   name: Shopify
   slug: shopify
@@ -681,10 +685,10 @@ providers:
   tags: *id018
   url: /providers/shopify/
 - agent_band: agent-native
-  agent_readiness: 49.5
+  agent_readiness: 48.5
   band: exemplar
   in_catalog: true
-  kin_score: 69.9
+  kin_score: 68.7
   mcp: *id019
   name: Squarespace
   slug: squarespace
@@ -692,10 +696,10 @@ providers:
   tags: *id020
   url: /providers/squarespace/
 - agent_band: agent-native
-  agent_readiness: 49.8
+  agent_readiness: 48.8
   band: exemplar
   in_catalog: true
-  kin_score: 75.5
+  kin_score: 74.8
   mcp: *id021
   name: Talon.One
   slug: talon-one
@@ -703,10 +707,10 @@ providers:
   tags: *id022
   url: /providers/talon-one/
 - agent_band: agent-native
-  agent_readiness: 60.0
+  agent_readiness: 58.8
   band: exemplar
   in_catalog: true
-  kin_score: 69.6
+  kin_score: 68.2
   mcp: *id023
   name: Triple Whale
   slug: triple-whale
@@ -714,10 +718,10 @@ providers:
   tags: *id024
   url: /providers/triple-whale/
 - agent_band: agent-ready
-  agent_readiness: 48.2
+  agent_readiness: 47.2
   band: thin
   in_catalog: true
-  kin_score: 35.6
+  kin_score: 35.5
   mcp: *id025
   name: Wix
   slug: wix
@@ -725,10 +729,10 @@ providers:
   tags: *id026
   url: /providers/wix/
 - agent_band: agent-ready
-  agent_readiness: 35.4
-  band: developing
+  agent_readiness: 34.7
+  band: strong
   in_catalog: true
-  kin_score: 50.4
+  kin_score: 54.6
   mcp: *id027
   name: WooCommerce
   slug: woocommerce
@@ -736,10 +740,10 @@ providers:
   tags: *id028
   url: /providers/woocommerce/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id029
   name: Zapier
   slug: zapier

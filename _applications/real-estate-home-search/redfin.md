@@ -106,10 +106,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id003
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -137,10 +137,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.7
-    band: emerging
+    agent_readiness: 21.9
+    band: thin
     in_catalog: true
-    kin_score: 23.0
+    kin_score: 33.8
     mcp: &id005
       status: none
     slug: branch-io
@@ -164,10 +164,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.2
+    agent_readiness: 12.0
     band: emerging
     in_catalog: true
-    kin_score: 16.9
+    kin_score: 17.9
     mcp: &id007
       status: none
     slug: comscore
@@ -194,10 +194,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id009
       status: none
     slug: facebook
@@ -253,22 +253,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id002
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id011
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id012
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Crashlytics)
   provider: firebase
@@ -285,10 +285,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id017
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -331,10 +331,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id019
       status: none
     slug: google-tag-manager
@@ -364,7 +364,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.4
+    kin_score: 4.5
     mcp: &id013
       status: unknown
     slug: fizber
@@ -391,10 +391,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 4.5
+    agent_readiness: 4.4
     band: emerging
     in_catalog: true
-    kin_score: 11.3
+    kin_score: 18.5
     mcp: &id015
       status: unknown
     slug: fsbo-com
@@ -424,7 +424,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 2.6
+    kin_score: 1.7
     mcp: &id021
       status: unknown
     slug: rocket-companies
@@ -449,10 +449,10 @@ noindex: false
 permalink: /applications/real-estate-home-search/redfin/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id003
   name: AppsFlyer
   slug: appsflyer
@@ -460,10 +460,10 @@ providers:
   tags: *id004
   url: /providers/appsflyer/
 - agent_band: agent-aware
-  agent_readiness: 24.7
-  band: emerging
+  agent_readiness: 21.9
+  band: thin
   in_catalog: true
-  kin_score: 23.0
+  kin_score: 33.8
   mcp: *id005
   name: Branch
   slug: branch-io
@@ -471,10 +471,10 @@ providers:
   tags: *id006
   url: /providers/branch-io/
 - agent_band: agent-aware
-  agent_readiness: 12.2
+  agent_readiness: 12.0
   band: emerging
   in_catalog: true
-  kin_score: 16.9
+  kin_score: 17.9
   mcp: *id007
   name: Comscore
   slug: comscore
@@ -482,32 +482,32 @@ providers:
   tags: *id008
   url: /providers/comscore/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id009
   name: Facebook Analytics
   slug: facebook
   status: profiled
   tags: *id010
   url: /providers/facebook/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id011
   name: Firebase (Crashlytics)
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id012
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: human-only
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.4
+  kin_score: 4.5
   mcp: *id013
   name: Fizber.com
   slug: fizber
@@ -515,10 +515,10 @@ providers:
   tags: *id014
   url: /providers/fizber/
 - agent_band: human-only
-  agent_readiness: 4.5
+  agent_readiness: 4.4
   band: emerging
   in_catalog: true
-  kin_score: 11.3
+  kin_score: 18.5
   mcp: *id015
   name: FSBO.com
   slug: fsbo-com
@@ -526,10 +526,10 @@ providers:
   tags: *id016
   url: /providers/fsbo-com/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id017
   name: Google Analytics
   slug: google-analytics
@@ -537,10 +537,10 @@ providers:
   tags: *id018
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 35.8
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 65.8
   mcp: *id019
   name: Google Tag Manager
   slug: google-tag-manager
@@ -551,7 +551,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 2.6
+  kin_score: 1.7
   mcp: *id021
   name: Rocket Mortgage (Rocket Companies)
   slug: rocket-companies
@@ -560,7 +560,7 @@ providers:
   url: /providers/rocket-companies/
 siblings:
 - name: Flathunter
-  rows: 16
+  rows: 14
   url: /applications/real-estate-home-search/flathunter/
 - name: HomeHarvest
   rows: 1

@@ -96,10 +96,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.7
+    agent_readiness: 56.9
     band: strong
     in_catalog: true
-    kin_score: 63.5
+    kin_score: 65.2
     mcp: &id001
       source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
       status: verified
@@ -127,10 +127,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 44.8
     band: developing
     in_catalog: true
-    kin_score: 47.9
+    kin_score: 45.9
     mcp: &id003
       source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
       status: verified
@@ -157,22 +157,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id005
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id006
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Crashlytics, Analytics)
   provider: firebase
@@ -189,10 +189,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.9
+    agent_readiness: 26.8
     band: strong
     in_catalog: true
-    kin_score: 55.6
+    kin_score: 56.0
     mcp: &id007
       status: none
     slug: giphy
@@ -218,11 +218,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id009
       source: https://github.com/google/mcp
       status: verified
@@ -249,11 +249,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id011
       status: none
     slug: google-identity-platform
@@ -280,10 +280,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_readiness: 32.7
     band: developing
     in_catalog: true
-    kin_score: 39.8
+    kin_score: 41.2
     mcp: &id013
       source: https://github.com/Automattic/mcp-server-gravatar
       status: verified
@@ -311,10 +311,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.0
+    agent_readiness: 39.0
     band: exemplar
     in_catalog: true
-    kin_score: 70.1
+    kin_score: 69.7
     mcp: &id015
       source: https://github.com/microsoft/mcp
       status: verified
@@ -342,10 +342,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id017
       status: none
     slug: youtube
@@ -370,10 +370,10 @@ noindex: false
 permalink: /applications/video-conferencing/jitsi-meet/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 56.7
+  agent_readiness: 56.9
   band: strong
   in_catalog: true
-  kin_score: 63.5
+  kin_score: 65.2
   mcp: *id001
   name: Amplitude
   slug: amplitude
@@ -381,54 +381,54 @@ providers:
   tags: *id002
   url: /providers/amplitude/
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 44.8
   band: developing
   in_catalog: true
-  kin_score: 47.9
+  kin_score: 45.9
   mcp: *id003
   name: Dropbox
   slug: dropbox
   status: profiled
   tags: *id004
   url: /providers/dropbox/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id005
-  name: Firebase (Crashlytics, Analytics)
-  slug: firebase
-  status: profiled
-  tags: *id006
-  url: /providers/firebase/
-- agent_band: agent-aware
-  agent_readiness: 21.9
+- agent_band: agent-ready
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 55.6
+  kin_score: 62.0
+  mcp: *id005
+  name: Firebase (Crashlytics, Analytics)
+  slug: google-firebase
+  status: profiled
+  tags: *id006
+  url: /providers/google-firebase/
+- agent_band: agent-aware
+  agent_readiness: 26.8
+  band: strong
+  in_catalog: true
+  kin_score: 56.0
   mcp: *id007
   name: GIPHY
   slug: giphy
   status: profiled
   tags: *id008
   url: /providers/giphy/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id009
   name: Google Calendar
   slug: google-calendar
   status: profiled
   tags: *id010
   url: /providers/google-calendar/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id011
   name: Google sign-in
   slug: google-identity-platform
@@ -436,10 +436,10 @@ providers:
   tags: *id012
   url: /providers/google-identity-platform/
 - agent_band: agent-ready
-  agent_readiness: 33.3
+  agent_readiness: 32.7
   band: developing
   in_catalog: true
-  kin_score: 39.8
+  kin_score: 41.2
   mcp: *id013
   name: Gravatar
   slug: gravatar
@@ -447,10 +447,10 @@ providers:
   tags: *id014
   url: /providers/gravatar/
 - agent_band: agent-ready
-  agent_readiness: 37.0
+  agent_readiness: 39.0
   band: exemplar
   in_catalog: true
-  kin_score: 70.1
+  kin_score: 69.7
   mcp: *id015
   name: Microsoft Graph (Outlook calendar)
   slug: microsoft-graph
@@ -458,10 +458,10 @@ providers:
   tags: *id016
   url: /providers/microsoft-graph/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id017
   name: YouTube
   slug: youtube

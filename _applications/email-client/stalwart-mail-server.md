@@ -88,11 +88,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.7
-    band: strong
+    agent_band: agent-ready
+    agent_readiness: 35.6
+    band: exemplar
     in_catalog: true
-    kin_score: 56.9
+    kin_score: 69.6
     mcp: &id001
       status: none
     slug: amazon-route-53
@@ -118,11 +118,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -150,10 +150,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id005
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -181,10 +181,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id007
       source: https://github.com/microsoft/mcp
       status: verified
@@ -215,7 +215,7 @@ integrations:
     agent_readiness: 26.1
     band: thin
     in_catalog: true
-    kin_score: 39.1
+    kin_score: 36.7
     mcp: &id009
       status: none
     slug: bunny-net
@@ -242,10 +242,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 69.6
+    agent_readiness: 69.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.8
+    kin_score: 82.5
     mcp: &id011
       source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
       status: verified
@@ -273,10 +273,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
-    band: minimal
+    agent_readiness: 0.7
+    band: emerging
     in_catalog: true
-    kin_score: 8.7
+    kin_score: 12.5
     mcp: &id013
       status: none
     slug: desec
@@ -303,10 +303,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.6
+    agent_readiness: 44.1
     band: developing
     in_catalog: true
-    kin_score: 45.0
+    kin_score: 47.4
     mcp: &id015
       source: https://docs.digitalocean.com/reference/mcp/
       status: verified
@@ -333,11 +333,11 @@ integrations:
     via_parent: Knowledge Curation & Taxonomy Management
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.6
+    agent_band: agent-aware
+    agent_readiness: 28.5
     band: exemplar
     in_catalog: true
-    kin_score: 70.2
+    kin_score: 78.4
     mcp: &id017
       source: https://www.elastic.co/docs/solutions/search/mcp
       status: verified
@@ -365,10 +365,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.6
+    agent_readiness: 18.2
     band: thin
     in_catalog: true
-    kin_score: 29.0
+    kin_score: 28.8
     mcp: &id019
       status: none
     slug: gandi
@@ -394,11 +394,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 26.4
-    band: strong
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: exemplar
     in_catalog: true
-    kin_score: 57.2
+    kin_score: 69.9
     mcp: &id021
       status: none
     slug: google-cloud-dns
@@ -425,10 +425,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id023
       status: none
     slug: google-gemini
@@ -455,10 +455,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.3
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 39.7
+    kin_score: 41.6
     mcp: &id025
       status: none
     slug: hetzner
@@ -485,10 +485,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.1
-    band: exemplar
+    agent_readiness: 41.7
+    band: strong
     in_catalog: true
-    kin_score: 66.9
+    kin_score: 65.8
     mcp: &id027
       source: https://github.com/linode/mcp-cluster-api
       status: verified
@@ -519,7 +519,7 @@ integrations:
     agent_readiness: 24.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 52.5
     mcp: &id029
       source: https://github.com/meilisearch/meilisearch-mcp
       status: verified
@@ -547,10 +547,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id031
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -578,10 +578,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.1
+    agent_readiness: 27.5
     band: developing
     in_catalog: true
-    kin_score: 41.9
+    kin_score: 43.2
     mcp: &id033
       source: https://mcp.eu.ovhcloud.com/mcp
       status: verified
@@ -634,11 +634,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 49.8
+    agent_band: agent-ready
+    agent_readiness: 41.5
     band: developing
     in_catalog: true
-    kin_score: 47.4
+    kin_score: 46.5
     mcp: &id037
       source: https://github.com/redis/mcp-redis
       status: verified
@@ -663,22 +663,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/email-client/stalwart-mail-server/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 27.7
-  band: strong
+- agent_band: agent-ready
+  agent_readiness: 35.6
+  band: exemplar
   in_catalog: true
-  kin_score: 56.9
+  kin_score: 69.6
   mcp: *id001
   name: Amazon Route 53
   slug: amazon-route-53
   status: profiled
   tags: *id002
   url: /providers/amazon-route-53/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id003
   name: Amazon S3
   slug: amazon-s3
@@ -686,10 +686,10 @@ providers:
   tags: *id004
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id005
   name: Anthropic
   slug: anthropic
@@ -697,10 +697,10 @@ providers:
   tags: *id006
   url: /providers/anthropic/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id007
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -711,7 +711,7 @@ providers:
   agent_readiness: 26.1
   band: thin
   in_catalog: true
-  kin_score: 39.1
+  kin_score: 36.7
   mcp: *id009
   name: bunny.net
   slug: bunny-net
@@ -719,10 +719,10 @@ providers:
   tags: *id010
   url: /providers/bunny-net/
 - agent_band: agent-native
-  agent_readiness: 69.6
+  agent_readiness: 69.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.8
+  kin_score: 82.5
   mcp: *id011
   name: Cloudflare
   slug: cloudflare
@@ -730,10 +730,10 @@ providers:
   tags: *id012
   url: /providers/cloudflare/
 - agent_band: human-only
-  agent_readiness: 0.0
-  band: minimal
+  agent_readiness: 0.7
+  band: emerging
   in_catalog: true
-  kin_score: 8.7
+  kin_score: 12.5
   mcp: *id013
   name: deSEC
   slug: desec
@@ -741,21 +741,21 @@ providers:
   tags: *id014
   url: /providers/desec/
 - agent_band: agent-ready
-  agent_readiness: 44.6
+  agent_readiness: 44.1
   band: developing
   in_catalog: true
-  kin_score: 45.0
+  kin_score: 47.4
   mcp: *id015
   name: DigitalOcean
   slug: digital-ocean
   status: profiled
   tags: *id016
   url: /providers/digital-ocean/
-- agent_band: agent-ready
-  agent_readiness: 28.6
+- agent_band: agent-aware
+  agent_readiness: 28.5
   band: exemplar
   in_catalog: true
-  kin_score: 70.2
+  kin_score: 78.4
   mcp: *id017
   name: Elasticsearch
   slug: elastic
@@ -763,21 +763,21 @@ providers:
   tags: *id018
   url: /providers/elastic/
 - agent_band: agent-aware
-  agent_readiness: 18.6
+  agent_readiness: 18.2
   band: thin
   in_catalog: true
-  kin_score: 29.0
+  kin_score: 28.8
   mcp: *id019
   name: Gandi
   slug: gandi
   status: profiled
   tags: *id020
   url: /providers/gandi/
-- agent_band: agent-aware
-  agent_readiness: 26.4
-  band: strong
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: exemplar
   in_catalog: true
-  kin_score: 57.2
+  kin_score: 69.9
   mcp: *id021
   name: Google Cloud DNS
   slug: google-cloud-dns
@@ -785,10 +785,10 @@ providers:
   tags: *id022
   url: /providers/google-cloud-dns/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id023
   name: Google Gemini
   slug: google-gemini
@@ -796,10 +796,10 @@ providers:
   tags: *id024
   url: /providers/google-gemini/
 - agent_band: agent-aware
-  agent_readiness: 26.3
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 39.7
+  kin_score: 41.6
   mcp: *id025
   name: Hetzner
   slug: hetzner
@@ -807,10 +807,10 @@ providers:
   tags: *id026
   url: /providers/hetzner/
 - agent_band: agent-ready
-  agent_readiness: 42.1
-  band: exemplar
+  agent_readiness: 41.7
+  band: strong
   in_catalog: true
-  kin_score: 66.9
+  kin_score: 65.8
   mcp: *id027
   name: Linode
   slug: linode
@@ -821,7 +821,7 @@ providers:
   agent_readiness: 24.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 52.5
   mcp: *id029
   name: Meilisearch
   slug: meilisearch
@@ -829,10 +829,10 @@ providers:
   tags: *id030
   url: /providers/meilisearch/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id031
   name: OpenAI
   slug: openai
@@ -840,10 +840,10 @@ providers:
   tags: *id032
   url: /providers/openai/
 - agent_band: agent-aware
-  agent_readiness: 28.1
+  agent_readiness: 27.5
   band: developing
   in_catalog: true
-  kin_score: 41.9
+  kin_score: 43.2
   mcp: *id033
   name: OVHcloud
   slug: ovh-cloud
@@ -861,11 +861,11 @@ providers:
   status: queued for profiling
   tags: *id036
   url: null
-- agent_band: agent-native
-  agent_readiness: 49.8
+- agent_band: agent-ready
+  agent_readiness: 41.5
   band: developing
   in_catalog: true
-  kin_score: 47.4
+  kin_score: 46.5
   mcp: *id037
   name: Redis
   slug: redis

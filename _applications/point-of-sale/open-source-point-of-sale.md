@@ -57,10 +57,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id003
       status: none
     slug: mailchimp
@@ -87,10 +87,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: emerging
+    agent_readiness: 0.0
+    band: thin
     in_catalog: true
-    kin_score: 21.8
+    kin_score: 31.3
     mcp: &id005
       status: none
     slug: textmarketer
@@ -116,11 +116,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: strong
     in_catalog: true
-    kin_score: 48.1
+    kin_score: 65.1
     mcp: &id001
       status: none
     slug: google-recaptcha
@@ -144,11 +144,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/point-of-sale/open-source-point-of-sale/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: strong
   in_catalog: true
-  kin_score: 48.1
+  kin_score: 65.1
   mcp: *id001
   name: Google reCAPTCHA
   slug: google-recaptcha
@@ -156,10 +156,10 @@ providers:
   tags: *id002
   url: /providers/google-recaptcha/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id003
   name: Mailchimp
   slug: mailchimp
@@ -167,10 +167,10 @@ providers:
   tags: *id004
   url: /providers/mailchimp/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: emerging
+  agent_readiness: 0.0
+  band: thin
   in_catalog: true
-  kin_score: 21.8
+  kin_score: 31.3
   mcp: *id005
   name: Text Marketer
   slug: textmarketer

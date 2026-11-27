@@ -1061,13 +1061,13 @@ stack:
       url: /capabilities/pet-health-care/
       via_parent: Pet Health & Care
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 29.9
+    - agent_band: agent-aware
+      agent_readiness: 26.5
       apps:
       - PetDesk
       band: developing
       in_catalog: true
-      kin_score: 39.8
+      kin_score: 46.5
       mcp:
         status: unknown
       name: Shepherd Veterinary Software
@@ -1083,12 +1083,12 @@ stack:
       tier: declared
       url: /providers/shepherd-vet/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 28.0
       apps:
       - PetDesk
       band: thin
       in_catalog: true
-      kin_score: 34.9
+      kin_score: 34.4
       mcp:
         status: unknown
       name: ezyVet
@@ -1103,13 +1103,34 @@ stack:
       - Veterinary
       tier: declared
       url: /providers/ezyvet/
-    - agent_band: agent-ready
-      agent_readiness: 32.9
+    - agent_band: agent-aware
+      agent_readiness: 18.3
       apps:
       - PetDesk
       band: thin
       in_catalog: true
-      kin_score: 27.9
+      kin_score: 30.6
+      mcp:
+        status: none
+      name: DaySmart Vet
+      slug: daysmart-vet
+      sources:
+      - https://petdesk.com/compatible-pims
+      status: profiled
+      tags:
+      - Cloud
+      - Company
+      - Software
+      - Veterinary
+      tier: declared
+      url: /providers/daysmart-vet/
+    - agent_band: agent-ready
+      agent_readiness: 37.6
+      apps:
+      - PetDesk
+      band: thin
+      in_catalog: true
+      kin_score: 26.8
       mcp:
         source: https://www.provet.com/mcp-skills-library
         status: documented
@@ -1126,12 +1147,12 @@ stack:
       tier: declared
       url: /providers/provet-cloud/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - PetDesk
       band: emerging
       in_catalog: true
-      kin_score: 22.2
+      kin_score: 21.4
       mcp:
         status: none
       name: Vetspire
@@ -1147,33 +1168,12 @@ stack:
       tier: declared
       url: /providers/vetspire/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - PetDesk
       band: emerging
       in_catalog: true
-      kin_score: 19.9
-      mcp:
-        status: none
-      name: DaySmart Vet
-      slug: daysmart-vet
-      sources:
-      - https://petdesk.com/compatible-pims
-      status: profiled
-      tags:
-      - Cloud
-      - Company
-      - Software
-      - Veterinary
-      tier: declared
-      url: /providers/daysmart-vet/
-    - agent_band: agent-aware
-      agent_readiness: 14.4
-      apps:
-      - PetDesk
-      band: minimal
-      in_catalog: true
-      kin_score: 9.6
+      kin_score: 14.6
       mcp:
         status: none
       name: Covetrus (Pulse, AVImark, ImproMed)
@@ -1248,12 +1248,12 @@ stack:
       via_parent: Activity & Fitness Tracking
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 51.3
       apps:
       - Fi Smart Collar
       band: developing
       in_catalog: true
-      kin_score: 50.0
+      kin_score: 52.0
       mcp:
         status: none
       name: Strava
@@ -1302,12 +1302,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Fi Smart Collar
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple Watch
@@ -1332,42 +1332,42 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Chewy
       - Fi Smart Collar
       - PETLIBRO
       - Rover
       - Tractive
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics / Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.barkinglabs.fi/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.chewy.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.designlibro.petlibro/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - PETLIBRO
       - Rover
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -1385,12 +1385,12 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Rover
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -1415,13 +1415,13 @@ stack:
       via_parent: Consumer Payment Options
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 39.7
       apps:
       - PETLIBRO
       - Tractive
       band: strong
       in_catalog: true
-      kin_score: 66.2
+      kin_score: 65.2
       mcp:
         status: none
       name: Google Pay
@@ -1438,13 +1438,13 @@ stack:
       tier: declared
       url: /providers/google-pay/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.4
       apps:
       - PETLIBRO
       - Tractive
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 43.0
       mcp:
         status: none
       name: Apple Pay
@@ -1461,12 +1461,12 @@ stack:
       tier: declared
       url: /providers/apple-pay/
     - agent_band: human-only
-      agent_readiness: 3.9
+      agent_readiness: 3.8
       apps:
       - PETLIBRO
       band: thin
       in_catalog: true
-      kin_score: 29.9
+      kin_score: 29.8
       mcp:
         status: none
       name: Venmo
@@ -1490,13 +1490,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Chewy
       - Fi Smart Collar
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -1542,13 +1542,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Chewy
       - PETLIBRO
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -1566,12 +1566,12 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Rover
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -1597,7 +1597,7 @@ stack:
       - Rover
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1614,12 +1614,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Chewy
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -1636,12 +1636,12 @@ stack:
       tier: observed
       url: /providers/bugsnag/
     - agent_band: agent-ready
-      agent_readiness: 53.5
+      agent_readiness: 54.4
       apps:
       - Rover
       band: strong
       in_catalog: true
-      kin_score: 61.4
+      kin_score: 63.1
       mcp:
         status: none
       name: Splunk MINT
@@ -1665,13 +1665,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - PETLIBRO
       - Tractive
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -1697,13 +1697,13 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Rover
       - Tractive
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -1728,12 +1728,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - oh-my-petcare
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -1749,12 +1749,12 @@ stack:
       tier: declared
       url: /providers/telegram/
     - agent_band: agent-aware
-      agent_readiness: 24.2
+      agent_readiness: 23.6
       apps:
       - oh-my-petcare
       band: developing
       in_catalog: true
-      kin_score: 50.5
+      kin_score: 45.1
       mcp:
         status: none
       name: WeChat
@@ -1778,12 +1778,12 @@ stack:
       via_parent: Consumer Payment Options
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 34.5
       apps:
       - Tractive
       band: thin
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 33.8
       mcp:
         status: none
       name: Affirm
@@ -1807,12 +1807,12 @@ stack:
       via_parent: Storefront Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - PETLIBRO
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -1837,12 +1837,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Rover
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -1865,13 +1865,13 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - PetDesk
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1896,12 +1896,12 @@ stack:
       via_parent: Post-Purchase
     providers:
     - agent_band: agent-ready
-      agent_readiness: 60.4
+      agent_readiness: 61.9
       apps:
       - PETLIBRO
       band: exemplar
       in_catalog: true
-      kin_score: 84.1
+      kin_score: 83.3
       mcp:
         source: https://github.com/AfterShip/tracking-and-returns-mcp
         status: verified
@@ -1926,12 +1926,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - PETLIBRO
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 27.2
+      kin_score: 26.0
       mcp:
         status: none
       name: Judge.me
@@ -1955,12 +1955,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Rover
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook Analytics / Login / Share
@@ -1986,12 +1986,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - PawSome AI
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google Gemini
@@ -2015,12 +2015,12 @@ stack:
       via_parent: Retrieval & Embeddings
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 39.7
       apps:
       - PawSome AI
       band: strong
       in_catalog: true
-      kin_score: 58.5
+      kin_score: 59.2
       mcp:
         source: https://github.com/chroma-core/chroma-mcp
         status: verified
@@ -2048,7 +2048,7 @@ summary:
     unchecked: 4
     verified: 11
   mcp_verified: 11
-  mean_kin_score: 50.7
+  mean_kin_score: 52.6
   observed: 18
   queued: 4
   reference_apps: 8

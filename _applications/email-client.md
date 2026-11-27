@@ -1309,14 +1309,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - FairEmail
       - Roundcube Webmail
       - Thunderbird for Android
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1334,15 +1334,15 @@ stack:
       - Enterprise
       tier: observed
       url: /providers/microsoft-outlook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - FairEmail
       - Roundcube Webmail
       - Thunderbird for Android
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -1361,13 +1361,13 @@ stack:
       tier: observed
       url: /providers/google-gmail/
     - agent_band: agent-ready
-      agent_readiness: 36.1
+      agent_readiness: 35.3
       apps:
       - FairEmail
       - Thunderbird for Android
       band: developing
       in_catalog: true
-      kin_score: 46.2
+      kin_score: 48.9
       mcp:
         status: none
       name: AOL Mail
@@ -1384,13 +1384,13 @@ stack:
       tier: observed
       url: /providers/aol/
     - agent_band: agent-aware
-      agent_readiness: 16.2
+      agent_readiness: 15.8
       apps:
       - FairEmail
       - Thunderbird for Android
       band: developing
       in_catalog: true
-      kin_score: 41.4
+      kin_score: 42.6
       mcp:
         status: none
       name: Yahoo Mail
@@ -1407,13 +1407,13 @@ stack:
       tier: observed
       url: /providers/yahoo/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.3
       apps:
       - FairEmail
       - Thunderbird for Android
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 28.8
+      kin_score: 39.5
       mcp:
         status: none
       name: Fastmail
@@ -1430,12 +1430,12 @@ stack:
       tier: observed
       url: /providers/fastmail/
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 39.0
       apps:
       - FairEmail
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 69.7
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1452,12 +1452,12 @@ stack:
       tier: observed
       url: /providers/microsoft-graph/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - FairEmail
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple iCloud Mail
@@ -1473,12 +1473,12 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 24.1
       apps:
       - FairEmail
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 36.6
       mcp:
         status: none
       name: Zoho Mail
@@ -1494,12 +1494,12 @@ stack:
       tier: observed
       url: /providers/zoho-mail/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Mail-in-a-Box
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp:
         status: none
       name: Nextcloud
@@ -1515,12 +1515,12 @@ stack:
       tier: observed
       url: /providers/nextcloud/
     - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 13.4
       apps:
       - FairEmail
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.6
+      kin_score: 31.2
       mcp:
         source: https://github.com/ionos-cloud/ionoscloud-mcp
         status: verified
@@ -1536,13 +1536,13 @@ stack:
       - Hosting
       tier: observed
       url: /providers/ionos/
-    - agent_band: agent-ready
-      agent_readiness: 30.6
+    - agent_band: agent-aware
+      agent_readiness: 27.2
       apps:
       - FairEmail
       band: emerging
       in_catalog: true
-      kin_score: 19.6
+      kin_score: 24.8
       mcp:
         status: unknown
       name: mailbox.org
@@ -1563,7 +1563,7 @@ stack:
       - FairEmail
       band: emerging
       in_catalog: true
-      kin_score: 18.3
+      kin_score: 22.8
       mcp:
         status: none
       name: Yandex Mail
@@ -1579,12 +1579,12 @@ stack:
       tier: observed
       url: /providers/yandex-mail/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - FairEmail
       band: emerging
       in_catalog: true
-      kin_score: 11.5
+      kin_score: 20.7
       mcp:
         status: none
       name: GMX Mail
@@ -1603,9 +1603,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - FairEmail
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.5
+      kin_score: 16.4
       mcp:
         status: none
       name: Posteo
@@ -1629,14 +1629,14 @@ stack:
       via_parent: Email
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - FairEmail
       - Mail-in-a-Box
       - 'mailcow: dockerized'
       band: emerging
       in_catalog: true
-      kin_score: 11.8
+      kin_score: 21.5
       mcp:
         status: none
       name: Spamhaus
@@ -1653,13 +1653,13 @@ stack:
       - Security
       tier: observed
       url: /providers/spamhaus/
-    - agent_band: agent-ready
-      agent_readiness: 30.9
+    - agent_band: agent-aware
+      agent_readiness: 26.1
       apps:
       - FairEmail
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 40.1
+      kin_score: 39.0
       mcp:
         source: https://github.com/VirusTotal/virustotal-mcp
         status: verified
@@ -1679,9 +1679,9 @@ stack:
       agent_readiness: 2.5
       apps:
       - FairEmail
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.9
+      kin_score: 11.1
       mcp:
         status: unknown
       name: NordSpam
@@ -1702,7 +1702,7 @@ stack:
       - FairEmail
       band: minimal
       in_catalog: true
-      kin_score: 3.4
+      kin_score: 2.6
       mcp:
         status: unknown
       name: SpamCop
@@ -1723,7 +1723,7 @@ stack:
       - FairEmail
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.2
       mcp:
         status: unknown
       name: UCEPROTECT
@@ -1765,13 +1765,13 @@ stack:
       url: /capabilities/knowledge-curation-taxonomy-management/
       via_parent: Knowledge Curation & Taxonomy Management
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Stalwart Mail Server
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 78.4
       mcp:
         source: https://www.elastic.co/docs/solutions/search/mcp
         status: verified
@@ -1793,7 +1793,7 @@ stack:
       - Stalwart Mail Server
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 52.5
       mcp:
         source: https://github.com/meilisearch/meilisearch-mcp
         status: verified
@@ -1818,12 +1818,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - FairEmail
       band: thin
       in_catalog: true
-      kin_score: 29.5
+      kin_score: 29.9
       mcp:
         status: none
       name: LanguageTool
@@ -1847,12 +1847,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 36.1
       apps:
       - FairEmail
       band: strong
       in_catalog: true
-      kin_score: 60.8
+      kin_score: 61.4
       mcp:
         source: https://github.com/DeepL/deepl-mcp-server
         status: verified
@@ -1879,12 +1879,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - Stalwart Mail Server
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp:
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -1901,34 +1901,12 @@ stack:
       tier: observed
       url: /providers/cloudflare/
     - agent_band: agent-ready
-      agent_readiness: 42.1
+      agent_readiness: 34.9
       apps:
       - Stalwart Mail Server
       band: exemplar
       in_catalog: true
-      kin_score: 66.9
-      mcp:
-        source: https://github.com/linode/mcp-cluster-api
-        status: verified
-      name: Linode
-      slug: linode
-      sources:
-      - https://github.com/stalwartlabs/stalwart/blob/main/crates/common/src/network/dns/update.rs
-      status: profiled
-      tags:
-      - Cloud Computing
-      - Infrastructure-as-a-Service
-      - Kubernetes
-      - Virtual Machines
-      tier: observed
-      url: /providers/linode/
-    - agent_band: agent-aware
-      agent_readiness: 26.4
-      apps:
-      - Stalwart Mail Server
-      band: strong
-      in_catalog: true
-      kin_score: 57.2
+      kin_score: 69.9
       mcp:
         status: none
       name: Google Cloud DNS
@@ -1943,13 +1921,13 @@ stack:
       - Name Resolution
       tier: observed
       url: /providers/google-cloud-dns/
-    - agent_band: agent-aware
-      agent_readiness: 27.7
+    - agent_band: agent-ready
+      agent_readiness: 35.6
       apps:
       - Stalwart Mail Server
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 56.9
+      kin_score: 69.6
       mcp:
         status: none
       name: Amazon Route 53
@@ -1965,12 +1943,34 @@ stack:
       tier: observed
       url: /providers/amazon-route-53/
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 41.7
+      apps:
+      - Stalwart Mail Server
+      band: strong
+      in_catalog: true
+      kin_score: 65.8
+      mcp:
+        source: https://github.com/linode/mcp-cluster-api
+        status: verified
+      name: Linode
+      slug: linode
+      sources:
+      - https://github.com/stalwartlabs/stalwart/blob/main/crates/common/src/network/dns/update.rs
+      status: profiled
+      tags:
+      - Cloud Computing
+      - Infrastructure-as-a-Service
+      - Kubernetes
+      - Virtual Machines
+      tier: observed
+      url: /providers/linode/
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Stalwart Mail Server
       band: developing
       in_catalog: true
-      kin_score: 45.0
+      kin_score: 47.4
       mcp:
         source: https://docs.digitalocean.com/reference/mcp/
         status: verified
@@ -1987,12 +1987,12 @@ stack:
       tier: observed
       url: /providers/digital-ocean/
     - agent_band: agent-aware
-      agent_readiness: 28.1
+      agent_readiness: 27.5
       apps:
       - Stalwart Mail Server
       band: developing
       in_catalog: true
-      kin_score: 41.9
+      kin_score: 43.2
       mcp:
         source: https://mcp.eu.ovhcloud.com/mcp
         status: verified
@@ -2009,12 +2009,12 @@ stack:
       tier: observed
       url: /providers/ovh-cloud/
     - agent_band: agent-aware
-      agent_readiness: 26.3
+      agent_readiness: 25.7
       apps:
       - Stalwart Mail Server
       band: developing
       in_catalog: true
-      kin_score: 39.7
+      kin_score: 41.6
       mcp:
         status: none
       name: Hetzner
@@ -2035,7 +2035,7 @@ stack:
       - Stalwart Mail Server
       band: thin
       in_catalog: true
-      kin_score: 39.1
+      kin_score: 36.7
       mcp:
         status: none
       name: bunny.net
@@ -2051,12 +2051,12 @@ stack:
       tier: observed
       url: /providers/bunny-net/
     - agent_band: agent-aware
-      agent_readiness: 18.6
+      agent_readiness: 18.2
       apps:
       - Stalwart Mail Server
       band: thin
       in_catalog: true
-      kin_score: 29.0
+      kin_score: 28.8
       mcp:
         status: none
       name: Gandi
@@ -2072,12 +2072,12 @@ stack:
       tier: observed
       url: /providers/gandi/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - Stalwart Mail Server
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.7
+      kin_score: 12.5
       mcp:
         status: none
       name: deSEC
@@ -2118,12 +2118,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 50.4
       apps:
       - Roundcube Webmail
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.9
+      kin_score: 65.1
       mcp:
         status: none
       name: cPanel
@@ -2139,33 +2139,12 @@ stack:
       tier: observed
       url: /providers/cpanel/
     - agent_band: agent-aware
-      agent_readiness: 26.5
+      agent_readiness: 19.3
       apps:
       - Roundcube Webmail
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 35.3
-      mcp:
-        status: none
-      name: Modoboa
-      slug: modoboa
-      sources:
-      - https://github.com/roundcube/roundcubemail/tree/master/plugins/password/drivers
-      status: profiled
-      tags:
-      - Email
-      - Mail Server
-      - Open Source
-      - Webmail
-      tier: observed
-      url: /providers/modoboa/
-    - agent_band: agent-aware
-      agent_readiness: 19.7
-      apps:
-      - Roundcube Webmail
-      band: thin
-      in_catalog: true
-      kin_score: 34.7
+      kin_score: 45.2
       mcp:
         status: none
       name: Plesk
@@ -2181,33 +2160,33 @@ stack:
       tier: observed
       url: /providers/plesk/
     - agent_band: agent-aware
-      agent_readiness: 22.6
+      agent_readiness: 23.8
       apps:
       - Roundcube Webmail
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 32.8
+      kin_score: 39.5
       mcp:
         status: none
-      name: Mail-in-a-Box
-      slug: mail-in-a-box
+      name: Modoboa
+      slug: modoboa
       sources:
       - https://github.com/roundcube/roundcubemail/tree/master/plugins/password/drivers
       status: profiled
       tags:
-      - Company
       - Email
+      - Mail Server
       - Open Source
-      - Self-Hosted
+      - Webmail
       tier: observed
-      url: /providers/mail-in-a-box/
+      url: /providers/modoboa/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - Roundcube Webmail
       band: thin
       in_catalog: true
-      kin_score: 27.5
+      kin_score: 32.6
       mcp:
         status: none
       name: Stalwart
@@ -2223,12 +2202,33 @@ stack:
       tier: observed
       url: /providers/stalwart/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 22.2
       apps:
       - Roundcube Webmail
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.5
+      kin_score: 32.2
+      mcp:
+        status: none
+      name: Mail-in-a-Box
+      slug: mail-in-a-box
+      sources:
+      - https://github.com/roundcube/roundcubemail/tree/master/plugins/password/drivers
+      status: profiled
+      tags:
+      - Company
+      - Email
+      - Open Source
+      - Self-Hosted
+      tier: observed
+      url: /providers/mail-in-a-box/
+    - agent_band: agent-aware
+      agent_readiness: 14.5
+      apps:
+      - Roundcube Webmail
+      band: thin
+      in_catalog: true
+      kin_score: 27.6
       mcp:
         status: unknown
       name: DirectAdmin
@@ -2243,34 +2243,13 @@ stack:
       - Web Hosting
       tier: observed
       url: /providers/directadmin/
-    - agent_band: agent-aware
-      agent_readiness: 14.4
-      apps:
-      - Roundcube Webmail
-      band: minimal
-      in_catalog: true
-      kin_score: 8.5
-      mcp:
-        status: none
-      name: mailcow
-      slug: mailcow
-      sources:
-      - https://github.com/roundcube/roundcubemail/tree/master/plugins/password/drivers
-      status: profiled
-      tags:
-      - Company
-      - Docker
-      - Email
-      - Open Source
-      tier: observed
-      url: /providers/mailcow/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Roundcube Webmail
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 13.2
       mcp:
         status: none
       name: DomainFactory
@@ -2285,6 +2264,27 @@ stack:
       - Web Hosting
       tier: observed
       url: /providers/domainfactory/
+    - agent_band: agent-aware
+      agent_readiness: 18.3
+      apps:
+      - Roundcube Webmail
+      band: emerging
+      in_catalog: true
+      kin_score: 12.4
+      mcp:
+        status: none
+      name: mailcow
+      slug: mailcow
+      sources:
+      - https://github.com/roundcube/roundcubemail/tree/master/plugins/password/drivers
+      status: profiled
+      tags:
+      - Company
+      - Docker
+      - Email
+      - Open Source
+      tier: observed
+      url: /providers/mailcow/
   - capability:
       attribution: Turbo EA
       id: BC-3710.30
@@ -2293,14 +2293,14 @@ stack:
       url: /capabilities/asset-storage-tiering/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Mail-in-a-Box
       - Stalwart Mail Server
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2318,12 +2318,12 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Stalwart Mail Server
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2339,13 +2339,13 @@ stack:
       - Microsoft Azure
       tier: observed
       url: /providers/microsoft-azure-blob-storage/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-aware
+      agent_readiness: 27.4
       apps:
       - Mail-in-a-Box
       band: developing
       in_catalog: true
-      kin_score: 50.9
+      kin_score: 49.6
       mcp:
         source: https://github.com/backblaze-labs/b2-mcp
         status: verified
@@ -2370,13 +2370,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 31.8
       apps:
       - FairEmail
       - Roundcube Webmail
       band: developing
       in_catalog: true
-      kin_score: 48.4
+      kin_score: 49.5
       mcp:
         status: none
       name: Have I Been Pwned
@@ -2401,13 +2401,13 @@ stack:
       via_parent: Security Architecture Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.2
+      agent_readiness: 16.8
       apps:
       - Mail-in-a-Box
       - 'mailcow: dockerized'
       band: emerging
       in_catalog: true
-      kin_score: 24.3
+      kin_score: 23.7
       mcp:
         status: none
       name: Let's Encrypt
@@ -2432,12 +2432,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 38.3
       apps:
       - FairEmail
       band: strong
       in_catalog: true
-      kin_score: 63.2
+      kin_score: 63.6
       mcp:
         source: https://github.com/ipinfo/mcp
         status: verified
@@ -2459,7 +2459,7 @@ stack:
       - FairEmail
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 5.0
       mcp:
         source: https://github.com/ip2location/mcp-ip2location-io
         status: verified
@@ -2481,14 +2481,14 @@ stack:
       url: /capabilities/in-app-purchases-app-store-billing/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Proton Mail (Android)
       - Thunderbird for Android
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: Google Play Billing
@@ -2512,13 +2512,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-native
-      agent_readiness: 49.8
+    - agent_band: agent-ready
+      agent_readiness: 41.5
       apps:
       - Stalwart Mail Server
       band: developing
       in_catalog: true
-      kin_score: 47.4
+      kin_score: 46.5
       mcp:
         source: https://github.com/redis/mcp-redis
         status: verified
@@ -2548,7 +2548,7 @@ stack:
       - Proton Mail (Android)
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2573,12 +2573,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.1
+      agent_readiness: 20.8
       apps:
       - Thunderbird for Android
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 16.4
+      kin_score: 26.3
       mcp:
         source: https://github.com/mozilla/firefox-devtools-mcp
         status: verified
@@ -2602,28 +2602,28 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Proton Mail (Android)
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/ProtonMail/android-mail/main/gradle/libs.versions.toml
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   layer: common
 - capabilities:
   - capability:
@@ -2635,13 +2635,13 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - FairEmail
       - Stalwart Mail Server
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -2659,13 +2659,13 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - FairEmail
       - Stalwart Mail Server
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google Gemini
@@ -2682,12 +2682,12 @@ stack:
       tier: observed
       url: /providers/google-gemini/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Stalwart Mail Server
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -2715,7 +2715,7 @@ summary:
     unchecked: 1
     verified: 23
   mcp_verified: 23
-  mean_kin_score: 39.9
+  mean_kin_score: 43.4
   observed: 58
   queued: 1
   reference_apps: 7

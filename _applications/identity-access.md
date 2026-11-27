@@ -2287,37 +2287,8 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 63.4
-      apps:
-      - Authentik
-      - Casdoor
-      - Keycloak
-      - Logto
-      - Ory Kratos
-      - Zitadel
-      band: exemplar
-      in_catalog: true
-      kin_score: 85.4
-      mcp:
-        source: https://github.com/github/github-mcp-server
-        status: verified
-      name: GitHub
-      slug: github
-      sources:
-      - https://github.com/casdoor/casdoor/tree/master/idp
-      - https://github.com/goauthentik/authentik/tree/main/authentik/sources/oauth/types
-      - https://github.com/keycloak/keycloak/tree/main/services/src/main/java/org/keycloak/social
-      status: profiled
-      tags:
-      - Code
-      - Developer Tools
-      - Pipelines
-      - Platform
-      tier: observed
-      url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Authentik
       - Casdoor
@@ -2327,7 +2298,7 @@ stack:
       - Zitadel
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -2345,8 +2316,8 @@ stack:
       - Software Development
       tier: observed
       url: /providers/gitlab/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 62.4
       apps:
       - Authentik
       - Casdoor
@@ -2354,9 +2325,38 @@ stack:
       - Logto
       - Ory Kratos
       - Zitadel
-      band: thin
+      band: exemplar
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 85.0
+      mcp:
+        source: https://github.com/github/github-mcp-server
+        status: verified
+      name: GitHub
+      slug: github
+      sources:
+      - https://github.com/casdoor/casdoor/tree/master/idp
+      - https://github.com/goauthentik/authentik/tree/main/authentik/sources/oauth/types
+      - https://github.com/keycloak/keycloak/tree/main/services/src/main/java/org/keycloak/social
+      status: profiled
+      tags:
+      - Code
+      - Developer Tools
+      - Pipelines
+      - Platform
+      tier: observed
+      url: /providers/github/
+    - agent_band: agent-ready
+      agent_readiness: 33.7
+      apps:
+      - Authentik
+      - Casdoor
+      - Keycloak
+      - Logto
+      - Ory Kratos
+      - Zitadel
+      band: strong
+      in_catalog: true
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -2374,7 +2374,7 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Authentik
       - Casdoor
@@ -2383,7 +2383,7 @@ stack:
       - Ory Kratos
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -2402,7 +2402,7 @@ stack:
       tier: observed
       url: /providers/x/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Authentik
       - Casdoor
@@ -2411,7 +2411,7 @@ stack:
       - Ory Kratos
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -2429,7 +2429,7 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - Casdoor
       - Keycloak
@@ -2437,7 +2437,7 @@ stack:
       - Ory Kratos
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn
@@ -2455,15 +2455,15 @@ stack:
       tier: observed
       url: /providers/linkedin/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Authentik
       - Logto
       - Ory Kratos
       - Zitadel
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Sign in with Apple
@@ -2481,14 +2481,14 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Authentik
       - Logto
       - Ory Kratos
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2506,40 +2506,15 @@ stack:
       - Messaging
       tier: observed
       url: /providers/slack/
-    - agent_band: agent-aware
-      agent_readiness: 24.2
-      apps:
-      - Authentik
-      - Casdoor
-      - Logto
-      band: developing
-      in_catalog: true
-      kin_score: 50.5
-      mcp:
-        status: none
-      name: WeChat
-      slug: wechat
-      sources:
-      - https://github.com/casdoor/casdoor/tree/master/idp
-      - https://github.com/goauthentik/authentik/tree/main/authentik/sources/oauth/types
-      - https://github.com/logto-io/logto/tree/master/packages/connectors
-      status: profiled
-      tags:
-      - Messaging
-      - Mini Programs
-      - Payments
-      - Social
-      tier: observed
-      url: /providers/wechat/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Authentik
       - Logto
       - Ory Kratos
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -2557,14 +2532,39 @@ stack:
       tier: observed
       url: /providers/discord/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 23.6
+      apps:
+      - Authentik
+      - Casdoor
+      - Logto
+      band: developing
+      in_catalog: true
+      kin_score: 45.1
+      mcp:
+        status: none
+      name: WeChat
+      slug: wechat
+      sources:
+      - https://github.com/casdoor/casdoor/tree/master/idp
+      - https://github.com/goauthentik/authentik/tree/main/authentik/sources/oauth/types
+      - https://github.com/logto-io/logto/tree/master/packages/connectors
+      status: profiled
+      tags:
+      - Messaging
+      - Mini Programs
+      - Payments
+      - Social
+      tier: observed
+      url: /providers/wechat/
+    - agent_band: agent-aware
+      agent_readiness: 26.4
       apps:
       - Authentik
       - Logto
       - Ory Kratos
       band: thin
       in_catalog: true
-      kin_score: 34.2
+      kin_score: 33.1
       mcp:
         status: none
       name: Patreon
@@ -2608,14 +2608,14 @@ stack:
       tier: observed
       url: /providers/larksuite/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Casdoor
       - Logto
       - Ory Kratos
       band: minimal
       in_catalog: true
-      kin_score: 6.1
+      kin_score: 7.1
       mcp:
         source: https://github.com/open-dingtalk/dingtalk-mcp
         status: verified
@@ -2634,13 +2634,13 @@ stack:
       tier: observed
       url: /providers/dingtalk/
     - agent_band: agent-native
-      agent_readiness: 47.9
+      agent_readiness: 47.0
       apps:
       - Logto
       - Ory Kratos
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 71.3
       mcp:
         source: https://github.com/line/line-bot-mcp-server
         status: verified
@@ -2657,14 +2657,14 @@ stack:
       - Social Login
       tier: observed
       url: /providers/line/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Logto
       - Ory Kratos
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -2682,13 +2682,13 @@ stack:
       tier: observed
       url: /providers/amazon/
     - agent_band: agent-aware
-      agent_readiness: 18.0
+      agent_readiness: 17.6
       apps:
       - Casdoor
       - Logto
       band: emerging
       in_catalog: true
-      kin_score: 25.6
+      kin_score: 24.8
       mcp:
         source: https://github.com/alipay/global-alipayplus-mcp
         status: verified
@@ -2706,13 +2706,13 @@ stack:
       tier: observed
       url: /providers/ant-group/
     - agent_band: agent-aware
-      agent_readiness: 18.0
+      agent_readiness: 14.8
       apps:
       - Casdoor
       - Logto
       band: minimal
       in_catalog: true
-      kin_score: 7.4
+      kin_score: 8.6
       mcp:
         status: unknown
       name: QQ
@@ -2745,33 +2745,33 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 44.4
       apps:
-      - Keycloak
+      - Logto
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
-      mcp: &id001
+      kin_score: 72.3
+      mcp:
         status: none
-      name: Microsoft
-      slug: microsoft-entra
+      name: WhatsApp
+      slug: whatsapp
       sources:
-      - https://github.com/keycloak/keycloak/tree/main/services/src/main/java/org/keycloak/social
+      - https://github.com/logto-io/logto/tree/master/packages/connectors
       status: profiled
-      tags: &id002
-      - Authentication
-      - Azure AD
-      - Entra
-      - Identity and Access Management
+      tags:
+      - Analytics
+      - Business Messaging
+      - Messaging
+      - WhatsApp
       tier: observed
-      url: /providers/microsoft-entra/
+      url: /providers/whatsapp/
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 35.3
       apps:
       - Keycloak
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 71.9
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -2788,33 +2788,33 @@ stack:
       tier: observed
       url: /providers/bitbucket/
     - agent_band: agent-ready
-      agent_readiness: 38.9
+      agent_readiness: 28.7
       apps:
       - Keycloak
       band: exemplar
       in_catalog: true
-      kin_score: 69.0
-      mcp:
+      kin_score: 70.3
+      mcp: &id001
         status: none
-      name: Instagram
-      slug: instagram
+      name: Microsoft
+      slug: microsoft-entra
       sources:
       - https://github.com/keycloak/keycloak/tree/main/services/src/main/java/org/keycloak/social
       status: profiled
-      tags:
-      - Instagram
-      - Meta
-      - Photos
-      - Social Media
+      tags: &id002
+      - Authentication
+      - Azure AD
+      - Entra
+      - Identity and Access Management
       tier: observed
-      url: /providers/instagram/
+      url: /providers/microsoft-entra/
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - Logto
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 69.1
       mcp:
         source: https://github.com/huggingface/hf-mcp-server
         status: verified
@@ -2831,33 +2831,33 @@ stack:
       tier: observed
       url: /providers/hugging-face/
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 38.6
       apps:
-      - Logto
+      - Keycloak
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 67.8
       mcp:
         status: none
-      name: WhatsApp
-      slug: whatsapp
+      name: Instagram
+      slug: instagram
       sources:
-      - https://github.com/logto-io/logto/tree/master/packages/connectors
+      - https://github.com/keycloak/keycloak/tree/main/services/src/main/java/org/keycloak/social
       status: profiled
       tags:
-      - Analytics
-      - Business Messaging
-      - Messaging
-      - WhatsApp
+      - Instagram
+      - Meta
+      - Photos
+      - Social Media
       tier: observed
-      url: /providers/whatsapp/
+      url: /providers/instagram/
     - agent_band: agent-ready
-      agent_readiness: 39.1
+      agent_readiness: 43.0
       apps:
       - Authentik
       band: strong
       in_catalog: true
-      kin_score: 63.0
+      kin_score: 64.4
       mcp:
         source: https://github.com/reddit/devvit-mcp
         status: verified
@@ -2874,12 +2874,12 @@ stack:
       tier: observed
       url: /providers/reddit/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Casdoor
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -2894,13 +2894,35 @@ stack:
       - Notification
       tier: observed
       url: /providers/telegram/
-    - agent_band: agent-aware
-      agent_readiness: 19.0
+    - agent_band: agent-ready
+      agent_readiness: 36.3
       apps:
       - Keycloak
       band: strong
       in_catalog: true
-      kin_score: 55.7
+      kin_score: 54.9
+      mcp:
+        source: https://developer.paypal.com/tools/mcp-server/
+        status: verified
+      name: PayPal
+      slug: paypal
+      sources:
+      - https://github.com/keycloak/keycloak/tree/main/services/src/main/java/org/keycloak/social
+      status: profiled
+      tags:
+      - Billing
+      - Commerce
+      - Disputes
+      - PayPal
+      tier: observed
+      url: /providers/paypal/
+    - agent_band: agent-aware
+      agent_readiness: 23.9
+      apps:
+      - Keycloak
+      band: developing
+      in_catalog: true
+      kin_score: 53.9
       mcp:
         source: https://github.com/openshift/kubernetes-mcp-server
         status: verified
@@ -2917,34 +2939,33 @@ stack:
       tier: observed
       url: /providers/red-hat-openshift/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 32.7
       apps:
-      - Keycloak
-      band: strong
+      - Ory Kratos
+      band: developing
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 50.6
       mcp:
-        source: https://developer.paypal.com/tools/mcp-server/
-        status: verified
-      name: PayPal
-      slug: paypal
+        status: none
+      name: Spotify
+      slug: spotify
       sources:
-      - https://github.com/keycloak/keycloak/tree/main/services/src/main/java/org/keycloak/social
+      - https://github.com/ory/kratos/tree/master/selfservice/strategy/oidc
       status: profiled
       tags:
-      - Billing
-      - Commerce
-      - Disputes
-      - PayPal
+      - Audio
+      - Music
+      - Podcasts
+      - Streaming
       tier: observed
-      url: /providers/paypal/
+      url: /providers/spotify/
     - agent_band: agent-ready
-      agent_readiness: 32.2
+      agent_readiness: 36.9
       apps:
       - Authentik
       band: developing
       in_catalog: true
-      kin_score: 50.5
+      kin_score: 48.2
       mcp:
         status: none
       name: Twitch
@@ -2962,31 +2983,10 @@ stack:
     - agent_band: agent-ready
       agent_readiness: 33.3
       apps:
-      - Ory Kratos
-      band: developing
-      in_catalog: true
-      kin_score: 49.8
-      mcp:
-        status: none
-      name: Spotify
-      slug: spotify
-      sources:
-      - https://github.com/ory/kratos/tree/master/selfservice/strategy/oidc
-      status: profiled
-      tags:
-      - Audio
-      - Music
-      - Podcasts
-      - Streaming
-      tier: observed
-      url: /providers/spotify/
-    - agent_band: agent-ready
-      agent_readiness: 28.6
-      apps:
       - Keycloak
       band: thin
       in_catalog: true
-      kin_score: 37.2
+      kin_score: 36.6
       mcp:
         source: https://github.com/StackExchange/Stack-MCP
         status: verified
@@ -3003,12 +3003,12 @@ stack:
       tier: observed
       url: /providers/stack-overflow/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 24.9
       apps:
       - Logto
       band: thin
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 35.6
       mcp:
         status: none
       name: Xiaomi
@@ -3024,12 +3024,33 @@ stack:
       tier: observed
       url: /providers/xiaomi/
     - agent_band: agent-aware
-      agent_readiness: 28.5
+      agent_readiness: 22.8
+      apps:
+      - Logto
+      band: thin
+      in_catalog: true
+      kin_score: 33.7
+      mcp:
+        status: none
+      name: KOOK
+      slug: kook
+      sources:
+      - https://github.com/logto-io/logto/tree/master/packages/connectors
+      status: profiled
+      tags:
+      - Community
+      - Company
+      - Gaming
+      - Voice Communication
+      tier: observed
+      url: /providers/kook/
+    - agent_band: agent-aware
+      agent_readiness: 27.9
       apps:
       - Casdoor
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 31.7
       mcp:
         status: none
       name: Kwai
@@ -3045,12 +3066,12 @@ stack:
       tier: observed
       url: /providers/kuaishou/
     - agent_band: agent-ready
-      agent_readiness: 29.2
+      agent_readiness: 33.9
       apps:
       - Casdoor
       band: thin
       in_catalog: true
-      kin_score: 28.4
+      kin_score: 26.9
       mcp:
         source: https://github.com/oschina/mcp-gitee
         status: verified
@@ -3067,12 +3088,12 @@ stack:
       tier: observed
       url: /providers/gitee/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Logto
       band: thin
       in_catalog: true
-      kin_score: 27.2
+      kin_score: 26.2
       mcp:
         status: none
       name: Kakao
@@ -3088,33 +3109,12 @@ stack:
       tier: observed
       url: /providers/kakao/
     - agent_band: agent-aware
-      agent_readiness: 26.1
-      apps:
-      - Logto
-      band: thin
-      in_catalog: true
-      kin_score: 27.1
-      mcp:
-        status: none
-      name: KOOK
-      slug: kook
-      sources:
-      - https://github.com/logto-io/logto/tree/master/packages/connectors
-      status: profiled
-      tags:
-      - Community
-      - Company
-      - Gaming
-      - Voice Communication
-      tier: observed
-      url: /providers/kook/
-    - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 22.1
       apps:
       - Ory Kratos
       band: emerging
       in_catalog: true
-      kin_score: 19.4
+      kin_score: 21.4
       mcp:
         status: none
       name: UAE PASS
@@ -3130,12 +3130,12 @@ stack:
       tier: observed
       url: /providers/uae-pass/
     - agent_band: agent-aware
-      agent_readiness: 6.0
+      agent_readiness: 5.8
       apps:
       - Casdoor
       band: emerging
       in_catalog: true
-      kin_score: 18.5
+      kin_score: 17.4
       mcp:
         source: https://github.com/baidu-maps/mcp
         status: verified
@@ -3155,9 +3155,9 @@ stack:
       agent_readiness: 0.6
       apps:
       - Logto
-      band: emerging
+      band: minimal
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 10.6
       mcp:
         status: none
       name: Naver
@@ -3173,12 +3173,12 @@ stack:
       tier: observed
       url: /providers/naver/
     - agent_band: agent-aware
-      agent_readiness: 18.0
+      agent_readiness: 14.8
       apps:
       - Ory Kratos
       band: minimal
       in_catalog: true
-      kin_score: 7.2
+      kin_score: 9.2
       mcp:
         status: unknown
       name: netID
@@ -3194,12 +3194,12 @@ stack:
       tier: observed
       url: /providers/netid/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 1.1
       apps:
       - Casdoor
       band: minimal
       in_catalog: true
-      kin_score: 6.2
+      kin_score: 8.0
       mcp:
         status: none
       name: Weibo
@@ -3220,7 +3220,7 @@ stack:
       - Ory Kratos
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: none
       name: VK
@@ -3239,28 +3239,7 @@ stack:
       - Casdoor
       band: minimal
       in_catalog: true
-      kin_score: 4.2
-      mcp:
-        status: none
-      name: Bilibili
-      slug: bilibili
-      sources:
-      - https://github.com/casdoor/casdoor/tree/master/idp
-      status: profiled
-      tags:
-      - Company
-      - Media Entertainment
-      - Streaming
-      - Video
-      tier: observed
-      url: /providers/bilibili/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Casdoor
-      band: minimal
-      in_catalog: true
-      kin_score: 4.2
+      kin_score: 3.7
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=bytedance
         status: verified
@@ -3276,6 +3255,27 @@ stack:
       - Video
       tier: observed
       url: /providers/bytedance/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Casdoor
+      band: minimal
+      in_catalog: true
+      kin_score: 3.3
+      mcp:
+        status: none
+      name: Bilibili
+      slug: bilibili
+      sources:
+      - https://github.com/casdoor/casdoor/tree/master/idp
+      status: profiled
+      tags:
+      - Company
+      - Media Entertainment
+      - Streaming
+      - Video
+      tier: observed
+      url: /providers/bilibili/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -3302,7 +3302,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Authentik
       - Casdoor
@@ -3311,7 +3311,7 @@ stack:
       - Zitadel
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp: *id001
       name: Microsoft Entra ID
       slug: microsoft-entra
@@ -3324,13 +3324,13 @@ stack:
       tier: observed
       url: /providers/microsoft-entra/
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - Authentik
       - Casdoor
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -3348,12 +3348,12 @@ stack:
       tier: observed
       url: /providers/okta/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Ory Kratos
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -3370,12 +3370,12 @@ stack:
       tier: observed
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 39.9
+      agent_readiness: 39.5
       apps:
       - Ory Kratos
       band: exemplar
       in_catalog: true
-      kin_score: 72.1
+      kin_score: 71.8
       mcp:
         source: https://auth0.com/docs/get-started/auth0-mcp-server
         status: verified
@@ -3400,34 +3400,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 43.0
       apps:
       - Authentik
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
-      mcp:
-        source: https://github.com/microsoft/mcp
-        status: verified
-      name: Microsoft Graph
-      slug: microsoft-graph
-      sources:
-      - https://raw.githubusercontent.com/goauthentik/authentik/main/pyproject.toml
-      status: profiled
-      tags:
-      - Azure AD
-      - Collaboration
-      - Contacts
-      - Microsoft Graph
-      tier: observed
-      url: /providers/microsoft-graph/
-    - agent_band: agent-ready
-      agent_readiness: 37.9
-      apps:
-      - Authentik
-      band: exemplar
-      in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.7
       mcp:
         source: https://github.com/gemini-cli-extensions/workspace
         status: verified
@@ -3443,6 +3421,28 @@ stack:
       - Productivity
       tier: observed
       url: /providers/google-workspace/
+    - agent_band: agent-ready
+      agent_readiness: 39.0
+      apps:
+      - Authentik
+      band: exemplar
+      in_catalog: true
+      kin_score: 69.7
+      mcp:
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Microsoft Graph
+      slug: microsoft-graph
+      sources:
+      - https://raw.githubusercontent.com/goauthentik/authentik/main/pyproject.toml
+      status: profiled
+      tags:
+      - Azure AD
+      - Collaboration
+      - Contacts
+      - Microsoft Graph
+      tier: observed
+      url: /providers/microsoft-graph/
   - capability:
       attribution: API Evangelist extension
       id: AE-160.10.20
@@ -3452,13 +3452,13 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Authelia
       - Authentik
       band: thin
       in_catalog: true
-      kin_score: 31.8
+      kin_score: 34.7
       mcp:
         status: none
       name: Duo Security
@@ -3483,12 +3483,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 3.5
+      agent_readiness: 3.4
       apps:
       - Casdoor
       band: emerging
       in_catalog: true
-      kin_score: 18.8
+      kin_score: 17.9
       mcp: &id003
         source: https://github.com/aliyun/alibaba-cloud-ops-mcp-server
         status: verified
@@ -3515,7 +3515,7 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Authentik
       - Casdoor
@@ -3523,7 +3523,7 @@ stack:
       - Zitadel
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -3542,13 +3542,13 @@ stack:
       tier: observed
       url: /providers/twilio/
     - agent_band: agent-aware
-      agent_readiness: 12.9
+      agent_readiness: 12.7
       apps:
       - Casdoor
       - Logto
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.3
+      kin_score: 30.5
       mcp:
         source: https://github.com/TencentCloud/cos-mcp
         status: verified
@@ -3566,13 +3566,13 @@ stack:
       tier: observed
       url: /providers/tencentcloud/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Casdoor
       - Logto
       band: minimal
       in_catalog: true
-      kin_score: 4.6
+      kin_score: 5.9
       mcp:
         status: unknown
       name: SmsBao
@@ -3589,12 +3589,12 @@ stack:
       tier: observed
       url: /providers/smsbao/
     - agent_band: agent-ready
-      agent_readiness: 43.5
+      agent_readiness: 40.0
       apps:
       - Logto
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 68.8
       mcp:
         source: https://github.com/Vonage/vonage-mcp-server-documentation
         status: verified
@@ -3611,12 +3611,12 @@ stack:
       tier: observed
       url: /providers/vonage/
     - agent_band: agent-aware
-      agent_readiness: 16.8
+      agent_readiness: 17.5
       apps:
       - Logto
       band: thin
       in_catalog: true
-      kin_score: 29.8
+      kin_score: 31.8
       mcp:
         status: unknown
       name: GatewayAPI
@@ -3632,12 +3632,12 @@ stack:
       tier: observed
       url: /providers/gatewayapi/
     - agent_band: human-only
-      agent_readiness: 3.5
+      agent_readiness: 3.4
       apps:
       - Logto
       band: emerging
       in_catalog: true
-      kin_score: 18.8
+      kin_score: 17.9
       mcp: *id003
       name: Alibaba Cloud SMS
       slug: alibaba
@@ -3653,7 +3653,7 @@ stack:
       - Logto
       band: minimal
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 10.5
       mcp:
         status: none
       name: Yunpian
@@ -3674,7 +3674,7 @@ stack:
       - Logto
       band: minimal
       in_catalog: true
-      kin_score: 3.4
+      kin_score: 2.7
       mcp:
         status: unknown
       name: SMS Aero
@@ -3695,7 +3695,7 @@ stack:
       - Casdoor
       band: exemplar
       in_catalog: true
-      kin_score: 86.3
+      kin_score: 86.9
       mcp:
         source: https://www.infobip.com/docs/mcp
         status: verified
@@ -3712,12 +3712,12 @@ stack:
       tier: declared
       url: /providers/infobip/
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.9
       apps:
       - Casdoor
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 73.7
       mcp:
         status: none
       name: Azure Communication Services
@@ -3733,12 +3733,12 @@ stack:
       tier: declared
       url: /providers/microsoft-azure-communication-services/
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 41.7
       apps:
       - Casdoor
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 64.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3754,13 +3754,13 @@ stack:
       - Notification
       tier: declared
       url: /providers/amazon-sns/
-    - agent_band: agent-ready
-      agent_readiness: 29.1
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Casdoor
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 38.1
       mcp:
         source: https://github.com/ucloud/udb-mysql-mcp-server
         status: verified
@@ -3782,7 +3782,7 @@ stack:
       - Casdoor
       band: emerging
       in_catalog: true
-      kin_score: 11.0
+      kin_score: 15.7
       mcp:
         source: https://github.com/huaweicloud/huaweicloud-mcp
         status: verified
@@ -3799,12 +3799,12 @@ stack:
       tier: declared
       url: /providers/huaweicloud/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.7
       apps:
       - Casdoor
       band: minimal
       in_catalog: true
-      kin_score: 7.1
+      kin_score: 9.0
       mcp:
         status: none
       name: Netgsm
@@ -3825,7 +3825,7 @@ stack:
       - Casdoor
       band: minimal
       in_catalog: true
-      kin_score: 7.0
+      kin_score: 8.9
       mcp:
         status: unknown
       name: Oson SMS
@@ -3841,12 +3841,12 @@ stack:
       tier: declared
       url: /providers/osonsms/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Casdoor
       band: minimal
       in_catalog: true
-      kin_score: 4.5
+      kin_score: 5.0
       mcp:
         status: unknown
       name: GCCPAY
@@ -3867,7 +3867,7 @@ stack:
       - Casdoor
       band: minimal
       in_catalog: true
-      kin_score: 3.3
+      kin_score: 4.0
       mcp:
         status: unknown
       name: SUBMAIL
@@ -3922,13 +3922,13 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Casdoor
       - Logto
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -3945,12 +3945,12 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - Logto
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -3966,12 +3966,12 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 39.1
+      agent_readiness: 38.3
       apps:
       - Logto
       band: exemplar
       in_catalog: true
-      kin_score: 73.3
+      kin_score: 71.1
       mcp:
         status: none
       name: SMTP2GO
@@ -3987,12 +3987,12 @@ stack:
       tier: observed
       url: /providers/smtp2go/
     - agent_band: agent-ready
-      agent_readiness: 41.7
+      agent_readiness: 43.0
       apps:
       - Logto
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 70.5
       mcp:
         source: https://github.com/ActiveCampaign/postmark-mcp
         status: verified
@@ -4009,12 +4009,12 @@ stack:
       tier: observed
       url: /providers/postmark/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - Logto
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -4031,12 +4031,12 @@ stack:
       tier: observed
       url: /providers/mailgun/
     - agent_band: human-only
-      agent_readiness: 3.5
+      agent_readiness: 3.4
       apps:
       - Logto
       band: emerging
       in_catalog: true
-      kin_score: 18.8
+      kin_score: 17.9
       mcp: *id003
       name: Alibaba Cloud DirectMail
       slug: alibaba
@@ -4060,7 +4060,7 @@ stack:
       - Authentik
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -4076,35 +4076,13 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - Okta Verify
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp: &id005
-        source: https://firebase.google.com/docs/ai-assistance/mcp-server
-        status: verified
-      name: Firebase (Crashlytics)
-      slug: firebase
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.okta.android.auth/latest/
-      status: profiled
-      tags: &id006
-      - Application Development
-      - Backend-as-a-Service
-      - Company
-      - Mobile
-      tier: observed
-      url: /providers/firebase/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 35.8
       apps:
       - Zitadel
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 41.1
+      kin_score: 63.1
       mcp:
         status: none
       name: Google Cloud Profiler
@@ -4119,6 +4097,28 @@ stack:
       - Memory
       tier: observed
       url: /providers/google-cloud-profiler/
+    - agent_band: agent-ready
+      agent_readiness: 39.9
+      apps:
+      - Okta Verify
+      band: strong
+      in_catalog: true
+      kin_score: 62.0
+      mcp: &id005
+        source: https://firebase.google.com/docs/ai-assistance/mcp-server
+        status: verified
+      name: Firebase (Crashlytics)
+      slug: google-firebase
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.okta.android.auth/latest/
+      status: profiled
+      tags: &id006
+      - Analytics
+      - Authentication
+      - Backend-as-a-Service
+      - Cloud Messaging
+      tier: observed
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-4280.30
@@ -4128,12 +4128,28 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 39.9
       apps:
       - Okta Verify
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 62.0
+      mcp: *id005
+      name: Firebase Analytics
+      slug: google-firebase
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.okta.android.auth/latest/
+      status: profiled
+      tags: *id006
+      tier: observed
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 47.7
+      apps:
+      - Okta Verify
+      band: strong
+      in_catalog: true
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -4149,22 +4165,6 @@ stack:
       - Product Analytics
       tier: observed
       url: /providers/mixpanel/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - Okta Verify
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp: *id005
-      name: Firebase Analytics
-      slug: firebase
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.okta.android.auth/latest/
-      status: profiled
-      tags: *id006
-      tier: observed
-      url: /providers/firebase/
   - capability:
       attribution: Turbo EA
       id: BC-600.50.20
@@ -4174,34 +4174,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
-      apps:
-      - Zitadel
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.7
-      mcp:
-        source: https://github.com/googleapis/gcloud-mcp
-        status: verified
-      name: Google Cloud Storage
-      slug: gcp-cloud-storage
-      sources:
-      - https://raw.githubusercontent.com/zitadel/zitadel/main/go.mod
-      status: profiled
-      tags:
-      - Archival
-      - Backup
-      - Blob Storage
-      - Cloud Storage
-      tier: observed
-      url: /providers/gcp-cloud-storage/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+      agent_readiness: 34.8
       apps:
       - Casdoor
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4217,6 +4195,28 @@ stack:
       - Cloud Storage
       tier: observed
       url: /providers/amazon-s3/
+    - agent_band: agent-ready
+      agent_readiness: 45.1
+      apps:
+      - Zitadel
+      band: exemplar
+      in_catalog: true
+      kin_score: 74.1
+      mcp:
+        source: https://github.com/googleapis/gcloud-mcp
+        status: verified
+      name: Google Cloud Storage
+      slug: gcp-cloud-storage
+      sources:
+      - https://raw.githubusercontent.com/zitadel/zitadel/main/go.mod
+      status: profiled
+      tags:
+      - Archival
+      - Backup
+      - Blob Storage
+      - Cloud Storage
+      tier: observed
+      url: /providers/gcp-cloud-storage/
   - capability:
       attribution: API Evangelist extension
       id: AE-120.50.10
@@ -4226,12 +4226,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 23.7
       apps:
       - Authentik
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 31.5
       mcp:
         status: none
       name: MaxMind GeoIP2
@@ -4255,12 +4255,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Casdoor
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -4285,12 +4285,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Casdoor
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -4318,7 +4318,7 @@ summary:
     unchecked: 4
     verified: 40
   mcp_verified: 40
-  mean_kin_score: 45.8
+  mean_kin_score: 47.2
   observed: 72
   queued: 4
   reference_apps: 8

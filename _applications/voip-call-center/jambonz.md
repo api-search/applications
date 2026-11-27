@@ -84,10 +84,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.5
+    agent_readiness: 39.0
     band: developing
     in_catalog: true
-    kin_score: 45.9
+    kin_score: 46.4
     mcp: &id006
       source: https://github.com/AssemblyAI/assemblyai-mcp
       status: verified
@@ -114,11 +114,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.3
-    band: strong
+    agent_band: agent-ready
+    agent_readiness: 34.5
+    band: exemplar
     in_catalog: true
-    kin_score: 66.0
+    kin_score: 75.6
     mcp: &id008
       status: none
     slug: amazon-transcribe
@@ -145,10 +145,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.0
+    agent_readiness: 39.7
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 72.9
     mcp: &id010
       status: none
     slug: amazon-polly
@@ -174,11 +174,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 23.7
+    agent_band: agent-ready
+    agent_readiness: 29.0
     band: thin
     in_catalog: true
-    kin_score: 37.9
+    kin_score: 36.5
     mcp: &id012
       source: https://github.com/cartesia-ai/cartesia-mcp
       status: verified
@@ -221,10 +221,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 16.9
     band: emerging
     in_catalog: true
-    kin_score: 20.5
+    kin_score: 25.3
     mcp: &id014
       status: unknown
     slug: cobalt-speech
@@ -251,10 +251,10 @@ integrations:
   credit: null
   facts: &id002
     agent_band: agent-ready
-    agent_readiness: 36.2
+    agent_readiness: 35.9
     band: developing
     in_catalog: true
-    kin_score: 50.4
+    kin_score: 48.2
     mcp: &id016
       source: https://github.com/deepgram/mcp
       status: verified
@@ -297,10 +297,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 60.4
     band: exemplar
     in_catalog: true
-    kin_score: 83.0
+    kin_score: 83.2
     mcp: &id018
       source: https://github.com/elevenlabs/elevenlabs-mcp
       status: verified
@@ -328,10 +328,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.9
+    agent_readiness: 51.9
     band: thin
     in_catalog: true
-    kin_score: 32.2
+    kin_score: 33.1
     mcp: &id020
       status: none
     slug: fish-audio
@@ -358,10 +358,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.9
+    agent_readiness: 33.6
     band: developing
     in_catalog: true
-    kin_score: 50.2
+    kin_score: 49.4
     mcp: &id022
       source: https://github.com/gladiaio/gladia-mcp
       status: verified
@@ -388,11 +388,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 33.8
+    band: exemplar
     in_catalog: true
-    kin_score: 51.5
+    kin_score: 68.9
     mcp: &id024
       status: none
     slug: google-cloud-speech-to-text
@@ -418,11 +418,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.9
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 35.8
+    band: exemplar
     in_catalog: true
-    kin_score: 51.3
+    kin_score: 68.6
     mcp: &id026
       status: none
     slug: google-cloud-text-to-speech
@@ -449,10 +449,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.8
-    band: strong
+    agent_readiness: 29.6
+    band: developing
     in_catalog: true
-    kin_score: 56.5
+    kin_score: 54.2
     mcp: &id028
       status: none
     slug: gradium
@@ -482,7 +482,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 18.9
+    kin_score: 20.9
     mcp: &id030
       status: none
     slug: soundhound
@@ -512,7 +512,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 19.2
+    kin_score: 18.5
     mcp: &id032
       status: none
     slug: ibm-watson
@@ -538,11 +538,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_band: agent-ready
+    agent_readiness: 29.1
     band: thin
     in_catalog: true
-    kin_score: 31.4
+    kin_score: 30.6
     mcp: &id034
       status: none
     slug: inworld
@@ -569,10 +569,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.3
+    agent_readiness: 29.1
     band: strong
     in_catalog: true
-    kin_score: 57.8
+    kin_score: 58.2
     mcp: &id036
       status: none
     slug: kugelaudio
@@ -599,10 +599,10 @@ integrations:
   credit: null
   facts: &id003
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 25.8
+    band: strong
     in_catalog: true
-    kin_score: 32.9
+    kin_score: 57.9
     mcp: &id038
       source: https://github.com/microsoft/mcp
       status: verified
@@ -644,11 +644,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.2
     band: developing
     in_catalog: true
-    kin_score: 47.7
+    kin_score: 47.3
     mcp: &id040
       status: none
     slug: mistral
@@ -675,10 +675,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.6
+    agent_readiness: 16.3
     band: thin
     in_catalog: true
-    kin_score: 30.0
+    kin_score: 28.3
     mcp: &id042
       source: https://github.com/murf-ai/murf-mcp
       status: verified
@@ -705,11 +705,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts:
-    agent_band: human-only
-    agent_readiness: 2.5
-    band: thin
+    agent_band: agent-aware
+    agent_readiness: 27.9
+    band: developing
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 48.0
     mcp: &id044
       status: none
     slug: nuance
@@ -735,11 +735,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts: &id004
-    agent_band: human-only
-    agent_readiness: 4.2
-    band: emerging
+    agent_band: agent-aware
+    agent_readiness: 5.2
+    band: minimal
     in_catalog: true
-    kin_score: 11.9
+    kin_score: 9.9
     mcp: &id046
       status: none
     slug: nvidia
@@ -781,10 +781,10 @@ integrations:
   credit: null
   facts: &id005
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id048
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -830,7 +830,7 @@ integrations:
     agent_readiness: 26.1
     band: thin
     in_catalog: true
-    kin_score: 32.7
+    kin_score: 31.6
     mcp: &id050
       source: https://github.com/resemble-ai/resemble-mcp
       status: verified
@@ -858,10 +858,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.5
+    agent_readiness: 38.1
     band: emerging
     in_catalog: true
-    kin_score: 19.9
+    kin_score: 18.3
     mcp: &id052
       status: none
     slug: rime-ai
@@ -887,11 +887,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
-    band: emerging
+    agent_band: human-only
+    agent_readiness: 2.5
+    band: thin
     in_catalog: true
-    kin_score: 22.9
+    kin_score: 31.9
     mcp: &id054
       status: none
     slug: soniox
@@ -918,10 +918,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.1
     band: thin
     in_catalog: true
-    kin_score: 27.1
+    kin_score: 27.0
     mcp: &id056
       status: none
     slug: speechify
@@ -948,10 +948,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 26.3
     band: developing
     in_catalog: true
-    kin_score: 46.5
+    kin_score: 44.9
     mcp: &id058
       status: none
     slug: speechmatics
@@ -1004,10 +1004,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
-    band: emerging
+    agent_readiness: 18.3
+    band: thin
     in_catalog: true
-    kin_score: 20.2
+    kin_score: 29.2
     mcp: &id062
       status: none
     slug: voxist
@@ -1034,10 +1034,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 23.9
     band: thin
     in_catalog: true
-    kin_score: 35.2
+    kin_score: 35.3
     mcp: &id064
       source: https://github.com/wellsaid-labs/wellsaid-mcp
       status: verified
@@ -1065,10 +1065,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.8
+    agent_readiness: 39.4
     band: thin
     in_catalog: true
-    kin_score: 32.8
+    kin_score: 32.3
     mcp: &id066
       status: none
     slug: xai
@@ -1093,21 +1093,21 @@ noindex: false
 permalink: /applications/voip-call-center/jambonz/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 29.5
+  agent_readiness: 39.0
   band: developing
   in_catalog: true
-  kin_score: 45.9
+  kin_score: 46.4
   mcp: *id006
   name: AssemblyAI
   slug: assemblyai
   status: profiled
   tags: *id007
   url: /providers/assemblyai/
-- agent_band: agent-aware
-  agent_readiness: 25.3
-  band: strong
+- agent_band: agent-ready
+  agent_readiness: 34.5
+  band: exemplar
   in_catalog: true
-  kin_score: 66.0
+  kin_score: 75.6
   mcp: *id008
   name: AWS (Transcribe)
   slug: amazon-transcribe
@@ -1115,21 +1115,21 @@ providers:
   tags: *id009
   url: /providers/amazon-transcribe/
 - agent_band: agent-ready
-  agent_readiness: 32.0
+  agent_readiness: 39.7
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 72.9
   mcp: *id010
   name: AWS Polly
   slug: amazon-polly
   status: profiled
   tags: *id011
   url: /providers/amazon-polly/
-- agent_band: agent-aware
-  agent_readiness: 23.7
+- agent_band: agent-ready
+  agent_readiness: 29.0
   band: thin
   in_catalog: true
-  kin_score: 37.9
+  kin_score: 36.5
   mcp: *id012
   name: Cartesia
   slug: cartesia-ai
@@ -1137,10 +1137,10 @@ providers:
   tags: *id013
   url: /providers/cartesia-ai/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 16.9
   band: emerging
   in_catalog: true
-  kin_score: 20.5
+  kin_score: 25.3
   mcp: *id014
   name: Cobalt Speech
   slug: cobalt-speech
@@ -1148,10 +1148,10 @@ providers:
   tags: *id015
   url: /providers/cobalt-speech/
 - agent_band: agent-ready
-  agent_readiness: 36.2
+  agent_readiness: 35.9
   band: developing
   in_catalog: true
-  kin_score: 50.4
+  kin_score: 48.2
   mcp: *id016
   name: Deepgram
   slug: deepgram
@@ -1159,10 +1159,10 @@ providers:
   tags: *id017
   url: /providers/deepgram/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 60.4
   band: exemplar
   in_catalog: true
-  kin_score: 83.0
+  kin_score: 83.2
   mcp: *id018
   name: ElevenLabs
   slug: elevenlabs
@@ -1170,10 +1170,10 @@ providers:
   tags: *id019
   url: /providers/elevenlabs/
 - agent_band: agent-ready
-  agent_readiness: 43.9
+  agent_readiness: 51.9
   band: thin
   in_catalog: true
-  kin_score: 32.2
+  kin_score: 33.1
   mcp: *id020
   name: Fish Audio
   slug: fish-audio
@@ -1181,32 +1181,32 @@ providers:
   tags: *id021
   url: /providers/fish-audio/
 - agent_band: agent-ready
-  agent_readiness: 33.9
+  agent_readiness: 33.6
   band: developing
   in_catalog: true
-  kin_score: 50.2
+  kin_score: 49.4
   mcp: *id022
   name: Gladia
   slug: gladia
   status: profiled
   tags: *id023
   url: /providers/gladia/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 33.8
+  band: exemplar
   in_catalog: true
-  kin_score: 51.5
+  kin_score: 68.9
   mcp: *id024
   name: Google
   slug: google-cloud-speech-to-text
   status: profiled
   tags: *id025
   url: /providers/google-cloud-speech-to-text/
-- agent_band: agent-aware
-  agent_readiness: 17.9
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 35.8
+  band: exemplar
   in_catalog: true
-  kin_score: 51.3
+  kin_score: 68.6
   mcp: *id026
   name: Google
   slug: google-cloud-text-to-speech
@@ -1214,10 +1214,10 @@ providers:
   tags: *id027
   url: /providers/google-cloud-text-to-speech/
 - agent_band: agent-ready
-  agent_readiness: 29.8
-  band: strong
+  agent_readiness: 29.6
+  band: developing
   in_catalog: true
-  kin_score: 56.5
+  kin_score: 54.2
   mcp: *id028
   name: Gradium
   slug: gradium
@@ -1228,7 +1228,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 18.9
+  kin_score: 20.9
   mcp: *id030
   name: Houndify (SoundHound)
   slug: soundhound
@@ -1239,18 +1239,18 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 19.2
+  kin_score: 18.5
   mcp: *id032
   name: IBM Watson
   slug: ibm-watson
   status: profiled
   tags: *id033
   url: /providers/ibm-watson/
-- agent_band: agent-aware
-  agent_readiness: 22.7
+- agent_band: agent-ready
+  agent_readiness: 29.1
   band: thin
   in_catalog: true
-  kin_score: 31.4
+  kin_score: 30.6
   mcp: *id034
   name: Inworld
   slug: inworld
@@ -1258,10 +1258,10 @@ providers:
   tags: *id035
   url: /providers/inworld/
 - agent_band: agent-ready
-  agent_readiness: 29.3
+  agent_readiness: 29.1
   band: strong
   in_catalog: true
-  kin_score: 57.8
+  kin_score: 58.2
   mcp: *id036
   name: KugelAudio
   slug: kugelaudio
@@ -1269,21 +1269,21 @@ providers:
   tags: *id037
   url: /providers/kugelaudio/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 25.8
+  band: strong
   in_catalog: true
-  kin_score: 32.9
+  kin_score: 57.9
   mcp: *id038
   name: Microsoft Azure Speech
   slug: azure-ai-speech
   status: profiled
   tags: *id039
   url: /providers/azure-ai-speech/
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.2
   band: developing
   in_catalog: true
-  kin_score: 47.7
+  kin_score: 47.3
   mcp: *id040
   name: Mistral
   slug: mistral
@@ -1291,32 +1291,32 @@ providers:
   tags: *id041
   url: /providers/mistral/
 - agent_band: agent-aware
-  agent_readiness: 16.6
+  agent_readiness: 16.3
   band: thin
   in_catalog: true
-  kin_score: 30.0
+  kin_score: 28.3
   mcp: *id042
   name: Murf
   slug: murf
   status: profiled
   tags: *id043
   url: /providers/murf/
-- agent_band: human-only
-  agent_readiness: 2.5
-  band: thin
+- agent_band: agent-aware
+  agent_readiness: 27.9
+  band: developing
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 48.0
   mcp: *id044
   name: Nuance
   slug: nuance
   status: profiled
   tags: *id045
   url: /providers/nuance/
-- agent_band: human-only
-  agent_readiness: 4.2
-  band: emerging
+- agent_band: agent-aware
+  agent_readiness: 5.2
+  band: minimal
   in_catalog: true
-  kin_score: 11.9
+  kin_score: 9.9
   mcp: *id046
   name: NVIDIA Riva
   slug: nvidia
@@ -1324,10 +1324,10 @@ providers:
   tags: *id047
   url: /providers/nvidia/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id048
   name: OpenAI
   slug: openai
@@ -1338,7 +1338,7 @@ providers:
   agent_readiness: 26.1
   band: thin
   in_catalog: true
-  kin_score: 32.7
+  kin_score: 31.6
   mcp: *id050
   name: Resemble AI
   slug: resemble-ai
@@ -1346,21 +1346,21 @@ providers:
   tags: *id051
   url: /providers/resemble-ai/
 - agent_band: agent-ready
-  agent_readiness: 38.5
+  agent_readiness: 38.1
   band: emerging
   in_catalog: true
-  kin_score: 19.9
+  kin_score: 18.3
   mcp: *id052
   name: Rime Labs
   slug: rime-ai
   status: profiled
   tags: *id053
   url: /providers/rime-ai/
-- agent_band: agent-aware
-  agent_readiness: 5.4
-  band: emerging
+- agent_band: human-only
+  agent_readiness: 2.5
+  band: thin
   in_catalog: true
-  kin_score: 22.9
+  kin_score: 31.9
   mcp: *id054
   name: Soniox
   slug: soniox
@@ -1368,10 +1368,10 @@ providers:
   tags: *id055
   url: /providers/soniox/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.1
   band: thin
   in_catalog: true
-  kin_score: 27.1
+  kin_score: 27.0
   mcp: *id056
   name: Speechify
   slug: speechify
@@ -1379,10 +1379,10 @@ providers:
   tags: *id057
   url: /providers/speechify/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 26.3
   band: developing
   in_catalog: true
-  kin_score: 46.5
+  kin_score: 44.9
   mcp: *id058
   name: Speechmatics
   slug: speechmatics
@@ -1401,10 +1401,10 @@ providers:
   tags: *id061
   url: null
 - agent_band: agent-aware
-  agent_readiness: 21.6
-  band: emerging
+  agent_readiness: 18.3
+  band: thin
   in_catalog: true
-  kin_score: 20.2
+  kin_score: 29.2
   mcp: *id062
   name: Voxist
   slug: voxist
@@ -1412,10 +1412,10 @@ providers:
   tags: *id063
   url: /providers/voxist/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 23.9
   band: thin
   in_catalog: true
-  kin_score: 35.2
+  kin_score: 35.3
   mcp: *id064
   name: WellSaid Labs
   slug: wellsaid
@@ -1423,10 +1423,10 @@ providers:
   tags: *id065
   url: /providers/wellsaid/
 - agent_band: agent-ready
-  agent_readiness: 38.8
+  agent_readiness: 39.4
   band: thin
   in_catalog: true
-  kin_score: 32.8
+  kin_score: 32.3
   mcp: *id066
   name: xAI
   slug: xai

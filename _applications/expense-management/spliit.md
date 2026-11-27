@@ -55,11 +55,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -87,10 +87,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id003
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -118,10 +118,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.1
+    agent_readiness: 22.6
     band: strong
     in_catalog: true
-    kin_score: 63.4
+    kin_score: 65.3
     mcp: &id005
       status: none
     slug: plausible
@@ -148,10 +148,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.4
+    agent_readiness: 38.6
     band: exemplar
     in_catalog: true
-    kin_score: 73.3
+    kin_score: 72.8
     mcp: &id007
       status: none
     slug: umami
@@ -175,11 +175,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/expense-management/spliit/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -187,10 +187,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id003
   name: OpenAI
   slug: openai
@@ -198,10 +198,10 @@ providers:
   tags: *id004
   url: /providers/openai/
 - agent_band: agent-aware
-  agent_readiness: 23.1
+  agent_readiness: 22.6
   band: strong
   in_catalog: true
-  kin_score: 63.4
+  kin_score: 65.3
   mcp: *id005
   name: Plausible
   slug: plausible
@@ -209,10 +209,10 @@ providers:
   tags: *id006
   url: /providers/plausible/
 - agent_band: agent-ready
-  agent_readiness: 38.4
+  agent_readiness: 38.6
   band: exemplar
   in_catalog: true
-  kin_score: 73.3
+  kin_score: 72.8
   mcp: *id007
   name: Umami
   slug: umami

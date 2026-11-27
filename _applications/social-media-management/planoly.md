@@ -91,10 +91,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.4
-    band: developing
+    agent_readiness: 27.5
+    band: thin
     in_catalog: true
-    kin_score: 41.2
+    kin_score: 39.2
     mcp: &id001
       source: https://github.com/flagship-io/mcp-server
       status: verified
@@ -122,10 +122,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id003
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -153,10 +153,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id005
       status: none
     slug: facebook
@@ -182,22 +182,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id007
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id008
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase
   provider: firebase
@@ -214,10 +214,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id009
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -245,10 +245,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id011
       status: none
     slug: google-tag-manager
@@ -275,10 +275,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: exemplar
     in_catalog: true
-    kin_score: 76.5
+    kin_score: 74.4
     mcp: &id013
       source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
       status: verified
@@ -307,9 +307,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.4
+    kin_score: 14.1
     mcp: &id015
       status: none
     slug: pangle
@@ -334,10 +334,10 @@ noindex: false
 permalink: /applications/social-media-management/planoly/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 22.4
-  band: developing
+  agent_readiness: 27.5
+  band: thin
   in_catalog: true
-  kin_score: 41.2
+  kin_score: 39.2
   mcp: *id001
   name: AB Tasty
   slug: ab-tasty
@@ -345,10 +345,10 @@ providers:
   tags: *id002
   url: /providers/ab-tasty/
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id003
   name: AppsFlyer
   slug: appsflyer
@@ -356,32 +356,32 @@ providers:
   tags: *id004
   url: /providers/appsflyer/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id005
   name: Facebook
   slug: facebook
   status: profiled
   tags: *id006
   url: /providers/facebook/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id007
   name: Firebase
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id008
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id009
   name: Google Analytics
   slug: google-analytics
@@ -389,10 +389,10 @@ providers:
   tags: *id010
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 35.8
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 65.8
   mcp: *id011
   name: Google Tag Manager
   slug: google-tag-manager
@@ -400,10 +400,10 @@ providers:
   tags: *id012
   url: /providers/google-tag-manager/
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 44.8
   band: exemplar
   in_catalog: true
-  kin_score: 76.5
+  kin_score: 74.4
   mcp: *id013
   name: New Relic
   slug: new-relic
@@ -412,9 +412,9 @@ providers:
   url: /providers/new-relic/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.4
+  kin_score: 14.1
   mcp: *id015
   name: Pangle
   slug: pangle

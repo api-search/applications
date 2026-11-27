@@ -104,10 +104,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id001
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -135,10 +135,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.5
+    agent_readiness: 45.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.4
+    kin_score: 76.0
     mcp: &id003
       source: https://github.com/microsoft/mcp
       status: verified
@@ -166,10 +166,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id005
       source: https://github.com/microsoft/mcp
       status: verified
@@ -196,21 +196,22 @@ integrations:
     via_parent: Retrieval & Embeddings
   credit: null
   facts:
-    agent_band: human-only
-    agent_readiness: 0.0
-    band: minimal
+    agent_band: agent-ready
+    agent_readiness: 30.2
+    band: exemplar
     in_catalog: true
-    kin_score: 0.0
+    kin_score: 70.5
     mcp: &id007
-      status: none
-    slug: microsoft-bing
+      source: https://github.com/microsoft/mcp
+      status: verified
+    slug: microsoft
     status: profiled
     tags: &id008
-    - Image
-    - Search
-    - Video
-    - Web Search
-    url: /providers/microsoft-bing/
+    - Cloud
+    - Fortune 100
+    - Microsoft
+    - Software
+    url: /providers/microsoft/
   layer: domain
   name: Bing Search
   provider: microsoft-bing
@@ -230,7 +231,7 @@ integrations:
     agent_readiness: 22.7
     band: thin
     in_catalog: true
-    kin_score: 33.9
+    kin_score: 33.4
     mcp: &id009
       source: https://github.com/brave/brave-search-mcp-server
       status: verified
@@ -258,10 +259,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 39.7
     band: strong
     in_catalog: true
-    kin_score: 58.5
+    kin_score: 59.2
     mcp: &id011
       source: https://github.com/chroma-core/chroma-mcp
       status: verified
@@ -289,10 +290,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 20.2
     band: developing
     in_catalog: true
-    kin_score: 39.8
+    kin_score: 39.4
     mcp: &id013
       status: none
     slug: duckduckgo
@@ -322,7 +323,7 @@ integrations:
     agent_readiness: 60.0
     band: strong
     in_catalog: true
-    kin_score: 58.5
+    kin_score: 57.7
     mcp: &id015
       source: https://github.com/exa-labs/exa-mcp-server
       status: verified
@@ -350,10 +351,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: developing
     in_catalog: true
-    kin_score: 49.5
+    kin_score: 50.6
     mcp: &id017
       source: https://docs.firecrawl.dev/mcp-server
       status: verified
@@ -381,10 +382,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id019
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -411,11 +412,11 @@ integrations:
     via_parent: Retrieval & Embeddings
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 21.8
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 38.6
+    band: strong
     in_catalog: true
-    kin_score: 51.1
+    kin_score: 61.6
     mcp: &id021
       status: none
     slug: google-custom-search
@@ -442,10 +443,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.8
+    agent_readiness: 37.1
     band: thin
     in_catalog: true
-    kin_score: 36.0
+    kin_score: 34.2
     mcp: &id023
       source: https://github.com/jina-ai/MCP
       status: verified
@@ -473,10 +474,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_readiness: 19.2
+    band: thin
     in_catalog: true
-    kin_score: 40.0
+    kin_score: 38.8
     mcp: &id025
       source: https://github.com/kagisearch/kagimcp
       status: verified
@@ -530,10 +531,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: developing
     in_catalog: true
-    kin_score: 40.1
+    kin_score: 40.0
     mcp: &id029
       source: https://github.com/zilliztech/mcp-server-milvus
       status: verified
@@ -561,10 +562,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
-    band: emerging
+    agent_readiness: 16.9
+    band: thin
     in_catalog: true
-    kin_score: 21.8
+    kin_score: 32.7
     mcp: &id031
       source: https://github.com/Mojeek/mojeek-search-mcp
       status: verified
@@ -595,7 +596,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id033
       status: none
     slug: ollama
@@ -622,10 +623,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id035
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -653,7 +654,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 67.7
+    agent_readiness: 66.6
     band: strong
     in_catalog: true
     kin_score: 65.7
@@ -684,10 +685,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 46.4
     band: strong
     in_catalog: true
-    kin_score: 61.2
+    kin_score: 60.1
     mcp: &id039
       source: https://github.com/pinecone-io/pinecone-mcp
       status: verified
@@ -715,10 +716,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 30.6
     band: thin
     in_catalog: true
-    kin_score: 38.8
+    kin_score: 36.6
     mcp: &id041
       source: https://github.com/qdrant/mcp-server-qdrant
       status: verified
@@ -745,10 +746,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 60.2
+    agent_readiness: 58.7
     band: strong
     in_catalog: true
-    kin_score: 57.8
+    kin_score: 56.4
     mcp: &id043
       source: https://github.com/SearchApi/searchapi-mcp
       status: verified
@@ -776,10 +777,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 41.9
+    agent_readiness: 41.3
     band: exemplar
     in_catalog: true
-    kin_score: 75.0
+    kin_score: 74.3
     mcp: &id045
       source: https://github.com/serpapi/serpapi-mcp
       status: verified
@@ -807,10 +808,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.1
+    agent_readiness: 36.1
     band: strong
     in_catalog: true
-    kin_score: 56.5
+    kin_score: 55.4
     mcp: &id047
       status: none
     slug: serper
@@ -837,10 +838,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.2
+    agent_readiness: 45.6
     band: developing
     in_catalog: true
-    kin_score: 47.9
+    kin_score: 48.1
     mcp: &id049
       source: https://github.com/tavily-ai/tavily-mcp
       status: verified
@@ -868,10 +869,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.7
+    agent_readiness: 32.1
     band: developing
     in_catalog: true
-    kin_score: 52.4
+    kin_score: 51.0
     mcp: &id051
       source: https://github.com/weaviate/mcp-server-weaviate
       status: verified
@@ -897,10 +898,10 @@ noindex: false
 permalink: /applications/ai-assistant-chat/open-webui/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id001
   name: Anthropic
   slug: anthropic
@@ -908,10 +909,10 @@ providers:
   tags: *id002
   url: /providers/anthropic/
 - agent_band: agent-ready
-  agent_readiness: 51.5
+  agent_readiness: 45.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.4
+  kin_score: 76.0
   mcp: *id003
   name: Azure AI Document Intelligence
   slug: microsoft-azure
@@ -919,32 +920,32 @@ providers:
   tags: *id004
   url: /providers/microsoft-azure/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id005
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
   status: profiled
   tags: *id006
   url: /providers/microsoft-azure-blob-storage/
-- agent_band: human-only
-  agent_readiness: 0.0
-  band: minimal
+- agent_band: agent-ready
+  agent_readiness: 30.2
+  band: exemplar
   in_catalog: true
-  kin_score: 0.0
+  kin_score: 70.5
   mcp: *id007
   name: Bing Search
-  slug: microsoft-bing
+  slug: microsoft
   status: profiled
   tags: *id008
-  url: /providers/microsoft-bing/
+  url: /providers/microsoft/
 - agent_band: agent-aware
   agent_readiness: 22.7
   band: thin
   in_catalog: true
-  kin_score: 33.9
+  kin_score: 33.4
   mcp: *id009
   name: Brave Search
   slug: brave-browser
@@ -952,10 +953,10 @@ providers:
   tags: *id010
   url: /providers/brave-browser/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 39.7
   band: strong
   in_catalog: true
-  kin_score: 58.5
+  kin_score: 59.2
   mcp: *id011
   name: Chroma
   slug: chroma
@@ -963,10 +964,10 @@ providers:
   tags: *id012
   url: /providers/chroma/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 20.2
   band: developing
   in_catalog: true
-  kin_score: 39.8
+  kin_score: 39.4
   mcp: *id013
   name: DuckDuckGo
   slug: duckduckgo
@@ -977,7 +978,7 @@ providers:
   agent_readiness: 60.0
   band: strong
   in_catalog: true
-  kin_score: 58.5
+  kin_score: 57.7
   mcp: *id015
   name: Exa
   slug: exa-ai
@@ -985,10 +986,10 @@ providers:
   tags: *id016
   url: /providers/exa-ai/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: developing
   in_catalog: true
-  kin_score: 49.5
+  kin_score: 50.6
   mcp: *id017
   name: Firecrawl
   slug: firecrawl
@@ -996,21 +997,21 @@ providers:
   tags: *id018
   url: /providers/firecrawl/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id019
   name: Google Cloud Storage
   slug: gcp-cloud-storage
   status: profiled
   tags: *id020
   url: /providers/gcp-cloud-storage/
-- agent_band: agent-aware
-  agent_readiness: 21.8
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 38.6
+  band: strong
   in_catalog: true
-  kin_score: 51.1
+  kin_score: 61.6
   mcp: *id021
   name: Google Programmable Search
   slug: google-custom-search
@@ -1018,10 +1019,10 @@ providers:
   tags: *id022
   url: /providers/google-custom-search/
 - agent_band: agent-ready
-  agent_readiness: 37.8
+  agent_readiness: 37.1
   band: thin
   in_catalog: true
-  kin_score: 36.0
+  kin_score: 34.2
   mcp: *id023
   name: Jina AI
   slug: jina-ai
@@ -1029,10 +1030,10 @@ providers:
   tags: *id024
   url: /providers/jina-ai/
 - agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+  agent_readiness: 19.2
+  band: thin
   in_catalog: true
-  kin_score: 40.0
+  kin_score: 38.8
   mcp: *id025
   name: Kagi
   slug: kagi
@@ -1051,10 +1052,10 @@ providers:
   tags: *id028
   url: null
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: developing
   in_catalog: true
-  kin_score: 40.1
+  kin_score: 40.0
   mcp: *id029
   name: Milvus
   slug: milvus
@@ -1062,10 +1063,10 @@ providers:
   tags: *id030
   url: /providers/milvus/
 - agent_band: agent-aware
-  agent_readiness: 17.3
-  band: emerging
+  agent_readiness: 16.9
+  band: thin
   in_catalog: true
-  kin_score: 21.8
+  kin_score: 32.7
   mcp: *id031
   name: Mojeek
   slug: mojeek
@@ -1076,7 +1077,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id033
   name: Ollama
   slug: ollama
@@ -1084,10 +1085,10 @@ providers:
   tags: *id034
   url: /providers/ollama/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id035
   name: OpenAI
   slug: openai
@@ -1095,7 +1096,7 @@ providers:
   tags: *id036
   url: /providers/openai/
 - agent_band: agent-native
-  agent_readiness: 67.7
+  agent_readiness: 66.6
   band: strong
   in_catalog: true
   kin_score: 65.7
@@ -1106,10 +1107,10 @@ providers:
   tags: *id038
   url: /providers/perplexity/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 46.4
   band: strong
   in_catalog: true
-  kin_score: 61.2
+  kin_score: 60.1
   mcp: *id039
   name: Pinecone
   slug: pinecone
@@ -1117,10 +1118,10 @@ providers:
   tags: *id040
   url: /providers/pinecone/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 30.6
   band: thin
   in_catalog: true
-  kin_score: 38.8
+  kin_score: 36.6
   mcp: *id041
   name: Qdrant
   slug: qdrant
@@ -1128,10 +1129,10 @@ providers:
   tags: *id042
   url: /providers/qdrant/
 - agent_band: agent-native
-  agent_readiness: 60.2
+  agent_readiness: 58.7
   band: strong
   in_catalog: true
-  kin_score: 57.8
+  kin_score: 56.4
   mcp: *id043
   name: SearchApi
   slug: searchapi
@@ -1139,10 +1140,10 @@ providers:
   tags: *id044
   url: /providers/searchapi/
 - agent_band: agent-native
-  agent_readiness: 41.9
+  agent_readiness: 41.3
   band: exemplar
   in_catalog: true
-  kin_score: 75.0
+  kin_score: 74.3
   mcp: *id045
   name: SerpApi
   slug: serpapi
@@ -1150,10 +1151,10 @@ providers:
   tags: *id046
   url: /providers/serpapi/
 - agent_band: agent-ready
-  agent_readiness: 34.1
+  agent_readiness: 36.1
   band: strong
   in_catalog: true
-  kin_score: 56.5
+  kin_score: 55.4
   mcp: *id047
   name: Serper
   slug: serper
@@ -1161,10 +1162,10 @@ providers:
   tags: *id048
   url: /providers/serper/
 - agent_band: agent-ready
-  agent_readiness: 46.2
+  agent_readiness: 45.6
   band: developing
   in_catalog: true
-  kin_score: 47.9
+  kin_score: 48.1
   mcp: *id049
   name: Tavily
   slug: tavily
@@ -1172,10 +1173,10 @@ providers:
   tags: *id050
   url: /providers/tavily/
 - agent_band: agent-ready
-  agent_readiness: 32.7
+  agent_readiness: 32.1
   band: developing
   in_catalog: true
-  kin_score: 52.4
+  kin_score: 51.0
   mcp: *id051
   name: Weaviate
   slug: weaviate

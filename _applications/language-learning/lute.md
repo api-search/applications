@@ -49,21 +49,22 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: human-only
-    agent_readiness: 0.0
-    band: minimal
+    agent_band: agent-ready
+    agent_readiness: 30.2
+    band: exemplar
     in_catalog: true
-    kin_score: 0.0
+    kin_score: 70.5
     mcp: &id001
-      status: none
-    slug: microsoft-bing
+      source: https://github.com/microsoft/mcp
+      status: verified
+    slug: microsoft
     status: profiled
     tags: &id002
-    - Image
-    - Search
-    - Video
-    - Web Search
-    url: /providers/microsoft-bing/
+    - Cloud
+    - Fortune 100
+    - Microsoft
+    - Software
+    url: /providers/microsoft/
   layer: domain
   name: Bing Translator (Microsoft)
   provider: microsoft-bing
@@ -80,10 +81,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.4
+    agent_readiness: 36.1
     band: strong
     in_catalog: true
-    kin_score: 60.8
+    kin_score: 61.4
     mcp: &id003
       source: https://github.com/DeepL/deepl-mcp-server
       status: verified
@@ -114,7 +115,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.5
+    kin_score: 7.0
     mcp: &id005
       status: none
     slug: glosbe
@@ -144,7 +145,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.4
+    kin_score: 2.6
     mcp: &id007
       status: unknown
     slug: kheng-info
@@ -174,7 +175,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.8
+    kin_score: 4.9
     mcp: &id009
       status: unknown
     slug: mdbg
@@ -201,10 +202,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 29.7
     band: developing
     in_catalog: true
-    kin_score: 47.8
+    kin_score: 48.9
     mcp: &id011
       status: none
     slug: wiktionary
@@ -228,22 +229,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/language-learning/lute/
 providers:
-- agent_band: human-only
-  agent_readiness: 0.0
-  band: minimal
+- agent_band: agent-ready
+  agent_readiness: 30.2
+  band: exemplar
   in_catalog: true
-  kin_score: 0.0
+  kin_score: 70.5
   mcp: *id001
   name: Bing Translator (Microsoft)
-  slug: microsoft-bing
+  slug: microsoft
   status: profiled
   tags: *id002
-  url: /providers/microsoft-bing/
+  url: /providers/microsoft/
 - agent_band: agent-ready
-  agent_readiness: 36.4
+  agent_readiness: 36.1
   band: strong
   in_catalog: true
-  kin_score: 60.8
+  kin_score: 61.4
   mcp: *id003
   name: DeepL
   slug: deepl
@@ -254,7 +255,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.5
+  kin_score: 7.0
   mcp: *id005
   name: Glosbe
   slug: glosbe
@@ -265,7 +266,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.4
+  kin_score: 2.6
   mcp: *id007
   name: Kheng.info
   slug: kheng-info
@@ -276,7 +277,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.8
+  kin_score: 4.9
   mcp: *id009
   name: MDBG Chinese Dictionary
   slug: mdbg
@@ -284,10 +285,10 @@ providers:
   tags: *id010
   url: /providers/mdbg/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 29.7
   band: developing
   in_catalog: true
-  kin_score: 47.8
+  kin_score: 48.9
   mcp: *id011
   name: Wiktionary
   slug: wiktionary

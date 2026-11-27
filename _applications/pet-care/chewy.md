@@ -63,10 +63,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id001
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -94,10 +94,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.1
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.5
+    kin_score: 76.3
     mcp: &id003
       source: https://github.com/SmartBear/smartbear-mcp
       status: verified
@@ -124,22 +124,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id005
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id006
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics / Crashlytics
   provider: firebase
@@ -156,10 +156,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id007
       status: none
     slug: segment
@@ -184,10 +184,10 @@ noindex: false
 permalink: /applications/pet-care/chewy/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id001
   name: AppsFlyer
   slug: appsflyer
@@ -195,32 +195,32 @@ providers:
   tags: *id002
   url: /providers/appsflyer/
 - agent_band: agent-ready
-  agent_readiness: 53.1
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.5
+  kin_score: 76.3
   mcp: *id003
   name: Bugsnag
   slug: bugsnag
   status: profiled
   tags: *id004
   url: /providers/bugsnag/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id005
   name: Google Firebase Analytics / Crashlytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id006
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id007
   name: Segment
   slug: segment

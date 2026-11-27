@@ -47,9 +47,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.0
+    kin_score: 12.3
     mcp: &id001
       status: none
     slug: cfl
@@ -79,7 +79,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.3
+    kin_score: 4.1
     mcp: &id003
       status: none
     slug: espn
@@ -105,11 +105,11 @@ integrations:
     via_parent: Sports, Betting & Fantasy
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 8.8
+    kin_score: 10.8
     mcp: &id005
       status: none
     slug: hockeytech
@@ -136,7 +136,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.9
+    agent_readiness: 13.7
     band: emerging
     in_catalog: true
     kin_score: 22.2
@@ -165,9 +165,9 @@ permalink: /applications/sports-fantasy/team-tracker-home-assistant/
 providers:
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.0
+  kin_score: 12.3
   mcp: *id001
   name: CFL scoreboard JSON (cflscoreboard.cfl.ca)
   slug: cfl
@@ -178,18 +178,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.3
+  kin_score: 4.1
   mcp: *id003
   name: ESPN site API scoreboards
   slug: espn
   status: profiled
   tags: *id004
   url: /providers/espn/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 8.8
+  kin_score: 10.8
   mcp: *id005
   name: HockeyTech league feed (lscluster.hockeytech.com)
   slug: hockeytech
@@ -197,7 +197,7 @@ providers:
   tags: *id006
   url: /providers/hockeytech/
 - agent_band: agent-aware
-  agent_readiness: 13.9
+  agent_readiness: 13.7
   band: emerging
   in_catalog: true
   kin_score: 22.2

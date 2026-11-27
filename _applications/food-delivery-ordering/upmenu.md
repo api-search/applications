@@ -138,10 +138,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 43.7
+    agent_readiness: 42.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 73.6
     mcp: &id001
       source: https://github.com/Adyen/adyen-mcp
       status: verified
@@ -169,10 +169,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.8
+    agent_readiness: 34.5
     band: thin
     in_catalog: true
-    kin_score: 35.1
+    kin_score: 33.8
     mcp: &id003
       status: none
     slug: affirm
@@ -199,10 +199,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.0
+    agent_readiness: 12.8
     band: minimal
     in_catalog: true
-    kin_score: 9.3
+    kin_score: 9.2
     mcp: &id005
       status: none
     slug: afterpay
@@ -229,10 +229,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_readiness: 30.4
     band: developing
     in_catalog: true
-    kin_score: 43.6
+    kin_score: 43.0
     mcp: &id007
       status: none
     slug: apple-pay
@@ -259,10 +259,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 50.8
+    agent_readiness: 49.8
     band: strong
     in_catalog: true
-    kin_score: 66.0
+    kin_score: 62.1
     mcp: &id009
       status: none
     slug: bancontact
@@ -289,10 +289,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.5
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 39.9
+    kin_score: 41.3
     mcp: &id011
       status: none
     slug: clover
@@ -318,11 +318,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.3
+    agent_band: agent-ready
+    agent_readiness: 29.3
     band: thin
     in_catalog: true
-    kin_score: 33.8
+    kin_score: 31.9
     mcp: &id013
       status: none
     slug: cookieyes
@@ -375,10 +375,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.3
+    agent_readiness: 29.7
     band: thin
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 35.5
     mcp: &id017
       source: https://developer.duda.co/docs/duda-mcp-server
       status: documented
@@ -432,10 +432,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id021
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -463,10 +463,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 39.7
     band: strong
     in_catalog: true
-    kin_score: 66.2
+    kin_score: 65.2
     mcp: &id023
       status: none
     slug: google-pay
@@ -493,10 +493,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id025
       status: none
     slug: google-tag-manager
@@ -523,10 +523,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 46.0
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 73.6
+    kin_score: 73.1
     mcp: &id027
       status: none
     slug: klarna
@@ -553,10 +553,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.0
+    agent_readiness: 42.1
     band: exemplar
     in_catalog: true
-    kin_score: 86.5
+    kin_score: 84.5
     mcp: &id029
       status: none
     slug: lightspeed
@@ -583,10 +583,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id031
       status: none
     slug: facebook
@@ -613,10 +613,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
+    agent_readiness: 23.9
     band: thin
     in_catalog: true
-    kin_score: 27.5
+    kin_score: 26.8
     mcp: &id033
       status: none
     slug: ncr
@@ -643,10 +643,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 59.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.6
+    kin_score: 70.4
     mcp: &id035
       source: https://github.com/oracle/mcp
       status: verified
@@ -674,10 +674,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id037
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -705,10 +705,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.8
-    band: developing
+    agent_readiness: 30.2
+    band: thin
     in_catalog: true
-    kin_score: 40.0
+    kin_score: 38.9
     mcp: &id039
       source: https://github.com/payu-intrepos/payu-developer-mcp
       status: verified
@@ -736,10 +736,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 26.3
     band: thin
     in_catalog: true
-    kin_score: 39.0
+    kin_score: 36.9
     mcp: &id041
       status: none
     slug: przelewy24
@@ -792,10 +792,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 28.1
+    kin_score: 27.9
     mcp: &id045
       source: https://registry.modelcontextprotocol.io/v0/servers?search=com.shipday&limit=3
       status: verified
@@ -823,10 +823,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 62.8
+    agent_readiness: 61.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.1
+    kin_score: 78.2
     mcp: &id047
       source: https://developer.squareup.com/docs/mcp
       status: verified
@@ -854,10 +854,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 49.5
+    agent_readiness: 48.5
     band: exemplar
     in_catalog: true
-    kin_score: 69.9
+    kin_score: 68.7
     mcp: &id049
       status: none
     slug: squarespace
@@ -884,10 +884,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id051
       source: https://docs.stripe.com/mcp
       status: verified
@@ -941,10 +941,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.6
+    agent_readiness: 38.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 68.3
     mcp: &id055
       status: none
     slug: toast
@@ -971,10 +971,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.1
+    agent_readiness: 24.6
     band: emerging
     in_catalog: true
-    kin_score: 25.3
+    kin_score: 24.4
     mcp: &id057
       status: none
     slug: uber-direct
@@ -1001,10 +1001,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.2
+    agent_readiness: 47.2
     band: thin
     in_catalog: true
-    kin_score: 35.6
+    kin_score: 35.5
     mcp: &id059
       source: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
       status: verified
@@ -1032,7 +1032,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 26.2
     band: thin
     in_catalog: true
     kin_score: 38.0
@@ -1062,10 +1062,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.4
+    agent_readiness: 31.9
     band: developing
     in_catalog: true
-    kin_score: 46.0
+    kin_score: 46.6
     mcp: &id063
       source: https://github.com/WordPress/mcp-adapter
       status: verified
@@ -1091,10 +1091,10 @@ noindex: false
 permalink: /applications/food-delivery-ordering/upmenu/
 providers:
 - agent_band: agent-native
-  agent_readiness: 43.7
+  agent_readiness: 42.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 73.6
   mcp: *id001
   name: Adyen
   slug: adyen
@@ -1102,10 +1102,10 @@ providers:
   tags: *id002
   url: /providers/adyen/
 - agent_band: agent-ready
-  agent_readiness: 29.8
+  agent_readiness: 34.5
   band: thin
   in_catalog: true
-  kin_score: 35.1
+  kin_score: 33.8
   mcp: *id003
   name: Affirm
   slug: affirm
@@ -1113,10 +1113,10 @@ providers:
   tags: *id004
   url: /providers/affirm/
 - agent_band: agent-aware
-  agent_readiness: 13.0
+  agent_readiness: 12.8
   band: minimal
   in_catalog: true
-  kin_score: 9.3
+  kin_score: 9.2
   mcp: *id005
   name: Afterpay
   slug: afterpay
@@ -1124,10 +1124,10 @@ providers:
   tags: *id006
   url: /providers/afterpay/
 - agent_band: agent-ready
-  agent_readiness: 31.1
+  agent_readiness: 30.4
   band: developing
   in_catalog: true
-  kin_score: 43.6
+  kin_score: 43.0
   mcp: *id007
   name: Apple Pay
   slug: apple-pay
@@ -1135,10 +1135,10 @@ providers:
   tags: *id008
   url: /providers/apple-pay/
 - agent_band: agent-native
-  agent_readiness: 50.8
+  agent_readiness: 49.8
   band: strong
   in_catalog: true
-  kin_score: 66.0
+  kin_score: 62.1
   mcp: *id009
   name: Bancontact
   slug: bancontact
@@ -1146,21 +1146,21 @@ providers:
   tags: *id010
   url: /providers/bancontact/
 - agent_band: agent-ready
-  agent_readiness: 36.5
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 39.9
+  kin_score: 41.3
   mcp: *id011
   name: Clover
   slug: clover
   status: profiled
   tags: *id012
   url: /providers/clover/
-- agent_band: agent-aware
-  agent_readiness: 27.3
+- agent_band: agent-ready
+  agent_readiness: 29.3
   band: thin
   in_catalog: true
-  kin_score: 33.8
+  kin_score: 31.9
   mcp: *id013
   name: CookieYes
   slug: cookieyes
@@ -1179,10 +1179,10 @@ providers:
   tags: *id016
   url: null
 - agent_band: agent-ready
-  agent_readiness: 30.3
+  agent_readiness: 29.7
   band: thin
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 35.5
   mcp: *id017
   name: Duda
   slug: duda
@@ -1201,10 +1201,10 @@ providers:
   tags: *id020
   url: null
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id021
   name: Google Analytics
   slug: google-analytics
@@ -1212,10 +1212,10 @@ providers:
   tags: *id022
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 39.7
   band: strong
   in_catalog: true
-  kin_score: 66.2
+  kin_score: 65.2
   mcp: *id023
   name: Google Pay
   slug: google-pay
@@ -1223,10 +1223,10 @@ providers:
   tags: *id024
   url: /providers/google-pay/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 35.8
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 65.8
   mcp: *id025
   name: Google Tag Manager
   slug: google-tag-manager
@@ -1234,10 +1234,10 @@ providers:
   tags: *id026
   url: /providers/google-tag-manager/
 - agent_band: agent-native
-  agent_readiness: 46.0
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 73.6
+  kin_score: 73.1
   mcp: *id027
   name: Klarna
   slug: klarna
@@ -1245,10 +1245,10 @@ providers:
   tags: *id028
   url: /providers/klarna/
 - agent_band: agent-ready
-  agent_readiness: 43.0
+  agent_readiness: 42.1
   band: exemplar
   in_catalog: true
-  kin_score: 86.5
+  kin_score: 84.5
   mcp: *id029
   name: Lightspeed
   slug: lightspeed
@@ -1256,10 +1256,10 @@ providers:
   tags: *id030
   url: /providers/lightspeed/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id031
   name: Meta
   slug: facebook
@@ -1267,10 +1267,10 @@ providers:
   tags: *id032
   url: /providers/facebook/
 - agent_band: agent-aware
-  agent_readiness: 23.7
+  agent_readiness: 23.9
   band: thin
   in_catalog: true
-  kin_score: 27.5
+  kin_score: 26.8
   mcp: *id033
   name: NCR Aloha
   slug: ncr
@@ -1278,10 +1278,10 @@ providers:
   tags: *id034
   url: /providers/ncr/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 59.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.6
+  kin_score: 70.4
   mcp: *id035
   name: Oracle Simphony
   slug: oracle
@@ -1289,10 +1289,10 @@ providers:
   tags: *id036
   url: /providers/oracle/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id037
   name: PayPal
   slug: paypal
@@ -1300,10 +1300,10 @@ providers:
   tags: *id038
   url: /providers/paypal/
 - agent_band: agent-ready
-  agent_readiness: 30.8
-  band: developing
+  agent_readiness: 30.2
+  band: thin
   in_catalog: true
-  kin_score: 40.0
+  kin_score: 38.9
   mcp: *id039
   name: PayU
   slug: payu
@@ -1311,10 +1311,10 @@ providers:
   tags: *id040
   url: /providers/payu/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 26.3
   band: thin
   in_catalog: true
-  kin_score: 39.0
+  kin_score: 36.9
   mcp: *id041
   name: Przelewy24
   slug: przelewy24
@@ -1333,10 +1333,10 @@ providers:
   tags: *id044
   url: null
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 28.1
+  kin_score: 27.9
   mcp: *id045
   name: ShipDay
   slug: shipday
@@ -1344,10 +1344,10 @@ providers:
   tags: *id046
   url: /providers/shipday/
 - agent_band: agent-native
-  agent_readiness: 62.8
+  agent_readiness: 61.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.1
+  kin_score: 78.2
   mcp: *id047
   name: Square
   slug: square
@@ -1355,10 +1355,10 @@ providers:
   tags: *id048
   url: /providers/square/
 - agent_band: agent-native
-  agent_readiness: 49.5
+  agent_readiness: 48.5
   band: exemplar
   in_catalog: true
-  kin_score: 69.9
+  kin_score: 68.7
   mcp: *id049
   name: Squarespace
   slug: squarespace
@@ -1366,10 +1366,10 @@ providers:
   tags: *id050
   url: /providers/squarespace/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id051
   name: Stripe
   slug: stripe
@@ -1388,10 +1388,10 @@ providers:
   tags: *id054
   url: null
 - agent_band: agent-ready
-  agent_readiness: 39.6
+  agent_readiness: 38.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 68.3
   mcp: *id055
   name: Toast
   slug: toast
@@ -1399,10 +1399,10 @@ providers:
   tags: *id056
   url: /providers/toast/
 - agent_band: agent-aware
-  agent_readiness: 25.1
+  agent_readiness: 24.6
   band: emerging
   in_catalog: true
-  kin_score: 25.3
+  kin_score: 24.4
   mcp: *id057
   name: Uber Direct
   slug: uber-direct
@@ -1410,10 +1410,10 @@ providers:
   tags: *id058
   url: /providers/uber-direct/
 - agent_band: agent-ready
-  agent_readiness: 48.2
+  agent_readiness: 47.2
   band: thin
   in_catalog: true
-  kin_score: 35.6
+  kin_score: 35.5
   mcp: *id059
   name: Wix
   slug: wix
@@ -1421,7 +1421,7 @@ providers:
   tags: *id060
   url: /providers/wix/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 26.2
   band: thin
   in_catalog: true
   kin_score: 38.0
@@ -1432,10 +1432,10 @@ providers:
   tags: *id062
   url: /providers/wolt/
 - agent_band: agent-ready
-  agent_readiness: 31.4
+  agent_readiness: 31.9
   band: developing
   in_catalog: true
-  kin_score: 46.0
+  kin_score: 46.6
   mcp: *id063
   name: WordPress
   slug: wordpress

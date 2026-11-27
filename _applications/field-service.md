@@ -1193,11 +1193,11 @@ apps:
     source: https://www.workiz.com/integrations/
     tier: declared
   - capability:
-      attribution: Turbo EA
-      id: BC-2800.10
-      key: scheduling-appointment-management
-      name: Scheduling & Appointment Management
-      url: /capabilities/scheduling-appointment-management/
+      attribution: API Evangelist extension
+      id: AE-210.80
+      key: AE-210.80
+      name: Booking Channel Distribution
+      url: /capabilities/booking-channel-distribution/
       via_parent: null
     credit: null
     layer: domain
@@ -1675,13 +1675,13 @@ needs:
   layer: common
   why: named by ServiceM8
 - capability:
-    attribution: Turbo EA
-    id: BC-2800.10
-    key: scheduling-appointment-management
-    name: Scheduling & Appointment Management
-    url: /capabilities/scheduling-appointment-management/
+    attribution: API Evangelist extension
+    id: AE-210.80
+    key: AE-210.80
+    name: Booking Channel Distribution
+    url: /capabilities/booking-channel-distribution/
     via_parent: null
-  fit: nearest
+  fit: exact
   layer: domain
   why: named by Workiz
 - capability:
@@ -1765,14 +1765,14 @@ stack:
       via_parent: Home Services
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 24.9
       apps:
       - Housecall Pro
       - Jobber
       - Workiz
       band: thin
       in_catalog: true
-      kin_score: 30.3
+      kin_score: 29.8
       mcp:
         status: none
       name: Thumbtack
@@ -1797,7 +1797,7 @@ stack:
       - Workiz
       band: emerging
       in_catalog: true
-      kin_score: 11.5
+      kin_score: 11.1
       mcp:
         status: none
       name: Angi
@@ -1815,13 +1815,13 @@ stack:
       tier: declared
       url: /providers/angi/
     - agent_band: agent-ready
-      agent_readiness: 47.7
+      agent_readiness: 42.1
       apps:
       - Housecall Pro
       - Jobber
       band: exemplar
       in_catalog: true
-      kin_score: 73.1
+      kin_score: 73.4
       mcp:
         source: https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server
         status: verified
@@ -1839,13 +1839,13 @@ stack:
       tier: declared
       url: /providers/google-ads/
     - agent_band: agent-native
-      agent_readiness: 53.4
+      agent_readiness: 46.7
       apps:
       - Jobber
       - Workiz
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 68.2
       mcp: &id001
         source: https://github.com/Yelp/yelp-mcp
         status: verified
@@ -1875,9 +1875,9 @@ stack:
       apps:
       - Housecall Pro
       - Jobber
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.3
+      kin_score: 11.1
       mcp:
         status: none
       name: Force Fleet Tracking (Mojio)
@@ -1894,12 +1894,12 @@ stack:
       tier: declared
       url: /providers/mojio/
     - agent_band: agent-aware
-      agent_readiness: 23.9
+      agent_readiness: 23.4
       apps:
       - Jobber
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 39.0
+      kin_score: 47.2
       mcp:
         status: none
       name: Azuga Fleet
@@ -1917,31 +1917,10 @@ stack:
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
-      - Workiz
-      band: emerging
-      in_catalog: true
-      kin_score: 15.0
-      mcp:
-        status: none
-      name: Linxup
-      slug: linxup
-      sources:
-      - https://www.workiz.com/integrations/
-      status: profiled
-      tags:
-      - Asset Management
-      - Dash Cams
-      - Fleet Tracking
-      - GPS
-      tier: declared
-      url: /providers/linxup/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
       - Jobber
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 20.7
       mcp:
         status: unknown
       name: FleetSharp
@@ -1956,6 +1935,27 @@ stack:
       - GPS
       tier: declared
       url: /providers/fleetsharp/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Workiz
+      band: emerging
+      in_catalog: true
+      kin_score: 18.4
+      mcp:
+        status: none
+      name: Linxup
+      slug: linxup
+      sources:
+      - https://www.workiz.com/integrations/
+      status: profiled
+      tags:
+      - Asset Management
+      - Dash Cams
+      - Fleet Tracking
+      - GPS
+      tier: declared
+      url: /providers/linxup/
   - capability:
       attribution: API Evangelist extension
       id: AE-140.30.40
@@ -1965,14 +1965,14 @@ stack:
       via_parent: Consumer Payment Options
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - Housecall Pro
       - Jobber
       - Workiz
       band: thin
       in_catalog: true
-      kin_score: 32.7
+      kin_score: 34.9
       mcp:
         status: none
       name: Wisetack
@@ -1990,12 +1990,12 @@ stack:
       tier: declared
       url: /providers/wisetack/
     - agent_band: agent-aware
-      agent_readiness: 23.6
+      agent_readiness: 23.1
       apps:
       - Workiz
       band: developing
       in_catalog: true
-      kin_score: 44.3
+      kin_score: 44.8
       mcp:
         status: none
       name: Sunbit
@@ -2019,14 +2019,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 40.1
       apps:
       - Housecall Pro
       - Jobber
       - Workiz
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 70.3
       mcp:
         status: none
       name: CompanyCam
@@ -2052,12 +2052,12 @@ stack:
       via_parent: Price List Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 42.8
       apps:
       - Housecall Pro
       band: developing
       in_catalog: true
-      kin_score: 41.6
+      kin_score: 50.0
       mcp:
         status: unknown
       name: Profit Rhino
@@ -2068,7 +2068,7 @@ stack:
       tags:
       - Company
       - Contractor
-      - Flat Rate
+      - Flat-rate
       - HVAC
       tier: declared
       url: /providers/profit-rhino/
@@ -2078,7 +2078,7 @@ stack:
       - Housecall Pro
       band: emerging
       in_catalog: true
-      kin_score: 14.0
+      kin_score: 19.9
       mcp:
         status: none
       name: The New Flat Rate
@@ -2102,13 +2102,13 @@ stack:
       via_parent: Quote & Configuration Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Housecall Pro
       - Jobber
       band: emerging
       in_catalog: true
-      kin_score: 15.6
+      kin_score: 20.0
       mcp:
         status: unknown
       name: ResponsiBid
@@ -2124,6 +2124,36 @@ stack:
       - Sales Software
       tier: declared
       url: /providers/responsibid/
+  - capability:
+      attribution: API Evangelist extension
+      id: AE-210.80
+      key: AE-210.80
+      name: Booking Channel Distribution
+      url: /capabilities/booking-channel-distribution/
+      via_parent: null
+    providers:
+    - agent_band: agent-ready
+      agent_readiness: 47.8
+      apps:
+      - Workiz
+      band: exemplar
+      in_catalog: true
+      kin_score: 68.9
+      mcp:
+        source: https://github.com/google/mcp
+        status: verified
+      name: Reserve with Google
+      slug: google
+      sources:
+      - https://www.workiz.com/integrations/
+      status: profiled
+      tags:
+      - Advertising
+      - Cloud
+      - Developers
+      - Google
+      tier: declared
+      url: /providers/google/
   - capability:
       attribution: Turbo EA
       id: BC-2420.10
@@ -2158,12 +2188,12 @@ stack:
       via_parent: Building Performance Management
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Housecall Pro
       band: emerging
       in_catalog: true
-      kin_score: 14.5
+      kin_score: 19.6
       mcp:
         status: unknown
       name: measureQuick
@@ -2187,12 +2217,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.2
       apps:
       - Jobber
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.2
+      kin_score: 25.0
       mcp:
         status: none
       name: The Home Depot
@@ -2213,12 +2243,12 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.3
+      agent_readiness: 34.6
       apps:
       - Jobber
       band: developing
       in_catalog: true
-      kin_score: 46.8
+      kin_score: 52.2
       mcp:
         status: none
       name: EagleView
@@ -2233,36 +2263,6 @@ stack:
       - Real Estate
       tier: declared
       url: /providers/eagleview/
-  - capability:
-      attribution: Turbo EA
-      id: BC-2800.10
-      key: scheduling-appointment-management
-      name: Scheduling & Appointment Management
-      url: /capabilities/scheduling-appointment-management/
-      via_parent: null
-    providers:
-    - agent_band: agent-ready
-      agent_readiness: 48.5
-      apps:
-      - Workiz
-      band: exemplar
-      in_catalog: true
-      kin_score: 68.8
-      mcp:
-        source: https://github.com/google/mcp
-        status: verified
-      name: Reserve with Google
-      slug: google
-      sources:
-      - https://www.workiz.com/integrations/
-      status: profiled
-      tags:
-      - Advertising
-      - Cloud
-      - Developers
-      - Google
-      tier: declared
-      url: /providers/google/
   layer: domain
 - capabilities:
   - capability:
@@ -2273,8 +2273,8 @@ stack:
       url: /capabilities/general-ledger-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Housecall Pro
       - Jobber
@@ -2284,7 +2284,7 @@ stack:
       - Workiz
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -2303,7 +2303,7 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Jobber
       - ServiceM8
@@ -2311,7 +2311,7 @@ stack:
       - Tradify
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -2330,12 +2330,12 @@ stack:
       tier: declared
       url: /providers/xero/
     - agent_band: agent-aware
-      agent_readiness: 15.5
+      agent_readiness: 15.1
       apps:
       - ServiceTitan
       band: thin
       in_catalog: true
-      kin_score: 26.3
+      kin_score: 26.5
       mcp:
         status: none
       name: Sage Intacct
@@ -2351,12 +2351,12 @@ stack:
       tier: declared
       url: /providers/sage-intacct/
     - agent_band: agent-aware
-      agent_readiness: 15.4
+      agent_readiness: 15.1
       apps:
       - ServiceM8
       band: emerging
       in_catalog: true
-      kin_score: 23.3
+      kin_score: 22.5
       mcp:
         status: none
       name: MYOB
@@ -2379,15 +2379,15 @@ stack:
       url: /capabilities/reviews-social-proof/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - Housecall Pro
       - Jobber
       - Workiz
       band: emerging
       in_catalog: true
-      kin_score: 13.2
+      kin_score: 18.4
       mcp:
         status: none
       name: NiceJob
@@ -2411,7 +2411,7 @@ stack:
       - Jobber
       band: emerging
       in_catalog: true
-      kin_score: 14.0
+      kin_score: 19.2
       mcp:
         status: none
       name: Broadly
@@ -2428,12 +2428,12 @@ stack:
       tier: declared
       url: /providers/broadly/
     - agent_band: agent-native
-      agent_readiness: 53.4
+      agent_readiness: 46.7
       apps:
       - Housecall Pro
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 68.2
       mcp: *id001
       name: Yelp
       slug: yelp
@@ -2444,12 +2444,12 @@ stack:
       tier: declared
       url: /providers/yelp/
     - agent_band: agent-native
-      agent_readiness: 40.9
+      agent_readiness: 40.1
       apps:
       - Housecall Pro
       band: strong
       in_catalog: true
-      kin_score: 57.5
+      kin_score: 59.1
       mcp:
         status: none
       name: Podium
@@ -2465,12 +2465,12 @@ stack:
       tier: declared
       url: /providers/podium/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Housecall Pro
       band: emerging
       in_catalog: true
-      kin_score: 12.6
+      kin_score: 19.7
       mcp:
         status: unknown
       name: Swell
@@ -2494,7 +2494,7 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Housecall Pro
       - Jobber
@@ -2502,7 +2502,7 @@ stack:
       - Workiz
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -2520,12 +2520,12 @@ stack:
       tier: declared
       url: /providers/mailchimp/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 18.3
       apps:
       - Housecall Pro
       band: minimal
       in_catalog: true
-      kin_score: 4.9
+      kin_score: 4.1
       mcp:
         status: unknown
       name: CHIIRP
@@ -2537,7 +2537,7 @@ stack:
       - Artificial Intelligence
       - Company
       - Home Services
-      - Revenue-Optimization
+      - Revenue Optimization
       tier: declared
       url: /providers/chiirp/
   - capability:
@@ -2549,7 +2549,7 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Housecall Pro
       - Jobber
@@ -2557,7 +2557,7 @@ stack:
       - Workiz
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2583,14 +2583,14 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Tradify
       - Workiz
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2608,12 +2608,12 @@ stack:
       tier: declared
       url: /providers/google-calendar/
     - agent_band: agent-ready
-      agent_readiness: 36.7
+      agent_readiness: 36.3
       apps:
       - ServiceM8
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.4
+      kin_score: 76.1
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2638,12 +2638,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Jobber
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -2660,12 +2660,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Jobber
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -2681,28 +2681,28 @@ stack:
       - Feature Flags
       tier: observed
       url: /providers/amplitude/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Jobber
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id003
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.getjobber.jobber/latest/
       status: profiled
       tags: &id004
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-1320
@@ -2718,7 +2718,7 @@ stack:
       - Jobber
       band: minimal
       in_catalog: true
-      kin_score: 10.9
+      kin_score: 10.1
       mcp:
         status: none
       name: Fundbox
@@ -2743,13 +2743,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 31.7
       apps:
       - Housecall Pro
       - Jobber
       band: developing
       in_catalog: true
-      kin_score: 42.0
+      kin_score: 44.9
       mcp:
         status: none
       name: Gusto
@@ -2779,7 +2779,7 @@ stack:
       - Jobber
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2795,22 +2795,22 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Jobber
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Google CrashLytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.getjobber.jobber/latest/
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-1340.20
@@ -2820,13 +2820,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - ServiceM8
       - Tradify
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2852,13 +2852,13 @@ stack:
       via_parent: Voice & Telephony
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.8
+      agent_readiness: 34.9
       apps:
       - Housecall Pro
       - Jobber
       band: developing
       in_catalog: true
-      kin_score: 53.9
+      kin_score: 54.1
       mcp:
         status: none
       name: CallRail
@@ -2883,12 +2883,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 30.6
       apps:
       - Jobber
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 55.5
       mcp:
         source: https://www.quo.com/docs/mdx/mcp
         status: verified
@@ -2905,12 +2905,12 @@ stack:
       tier: declared
       url: /providers/quo/
     - agent_band: agent-aware
-      agent_readiness: 16.5
+      agent_readiness: 16.2
       apps:
       - Housecall Pro
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 21.2
+      kin_score: 26.3
       mcp:
         status: unknown
       name: Emitrr
@@ -2939,7 +2939,7 @@ stack:
       - Jobber
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 58.9
       mcp:
         status: none
       name: Hatch
@@ -2963,12 +2963,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.2
+      agent_readiness: 47.2
       apps:
       - Jobber
       band: thin
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 35.5
       mcp:
         source: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
         status: verified
@@ -2993,12 +2993,12 @@ stack:
       via_parent: Contract Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Jobber
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 71.5
       mcp:
         source: https://www.docusign.com/products/mcp
         status: documented
@@ -3026,9 +3026,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Workiz
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.8
+      kin_score: 12.8
       mcp:
         status: none
       name: SearchKings
@@ -3057,7 +3057,7 @@ stack:
       - Jobber
       band: emerging
       in_catalog: true
-      kin_score: 16.8
+      kin_score: 21.6
       mcp:
         status: none
       name: SendJim
@@ -3081,12 +3081,12 @@ stack:
       via_parent: Gift Cards, Gifting & Cashback
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - Housecall Pro
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.4
+      kin_score: 28.4
       mcp:
         status: unknown
       name: Gift Up
@@ -3110,12 +3110,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - OCA Field Service (Odoo)
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -3140,12 +3140,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Jobber
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3195,12 +3195,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 30.3
       apps:
       - ServiceM8
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.2
+      kin_score: 67.1
       mcp:
         status: none
       name: Deputy
@@ -3224,12 +3224,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Jobber
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -3253,12 +3253,12 @@ stack:
       via_parent: Voice & Telephony
     providers:
     - agent_band: human-only
-      agent_readiness: 3.9
+      agent_readiness: 3.8
       apps:
       - Workiz
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.2
+      kin_score: 14.0
       mcp:
         status: unknown
       name: AnswerConnect
@@ -3287,7 +3287,7 @@ stack:
       - Housecall Pro
       band: emerging
       in_catalog: true
-      kin_score: 24.8
+      kin_score: 25.3
       mcp:
         status: none
       name: Signpost
@@ -3312,13 +3312,13 @@ stack:
       url: /capabilities/speech-voice/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Housecall Pro
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -3346,7 +3346,7 @@ summary:
     unchecked: 2
     verified: 18
   mcp_verified: 18
-  mean_kin_score: 42.5
+  mean_kin_score: 45.5
   observed: 8
   queued: 2
   reference_apps: 7

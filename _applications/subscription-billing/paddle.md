@@ -78,10 +78,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.0
+    agent_readiness: 53.6
     band: developing
     in_catalog: true
-    kin_score: 46.2
+    kin_score: 44.7
     mcp: &id001
       status: none
     slug: braintree
@@ -108,10 +108,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.1
+    agent_readiness: 53.0
     band: strong
     in_catalog: true
-    kin_score: 62.9
+    kin_score: 59.9
     mcp: &id003
       source: https://www.chargebee.com/docs/billing/2.0/ai-in-chargebee/chargebee-mcp
       status: verified
@@ -139,10 +139,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.8
-    band: developing
+    agent_readiness: 24.6
+    band: strong
     in_catalog: true
-    kin_score: 46.1
+    kin_score: 58.4
     mcp: &id005
       source: https://github.com/databox/databox-mcp
       status: verified
@@ -170,10 +170,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id007
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -201,10 +201,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.7
+    agent_readiness: 32.5
     band: developing
     in_catalog: true
-    kin_score: 52.5
+    kin_score: 51.0
     mcp: &id009
       source: https://developers.intercom.com/docs/guides/mcp
       status: verified
@@ -231,11 +231,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: human-only
-    agent_readiness: 2.5
-    band: emerging
+    agent_band: agent-native
+    agent_readiness: 42.0
+    band: exemplar
     in_catalog: true
-    kin_score: 24.6
+    kin_score: 68.5
     mcp: &id011
       status: none
     slug: maxio
@@ -262,10 +262,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
-    band: thin
+    agent_readiness: 26.4
+    band: emerging
     in_catalog: true
-    kin_score: 26.4
+    kin_score: 25.9
     mcp: &id013
       source: https://registry.modelcontextprotocol.io/v0/servers?search=rechargeapps
       status: verified
@@ -293,10 +293,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 54.3
+    agent_readiness: 51.2
     band: exemplar
     in_catalog: true
-    kin_score: 78.8
+    kin_score: 83.2
     mcp: &id015
       status: none
     slug: recurly
@@ -326,7 +326,7 @@ integrations:
     agent_readiness: 23.8
     band: thin
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 27.4
     mcp: &id017
       source: https://www.revenuecat.com/docs/tools/mcp
       status: verified
@@ -354,10 +354,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id019
       source: https://docs.stripe.com/mcp
       status: verified
@@ -385,10 +385,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.8
-    band: thin
+    agent_readiness: 35.2
+    band: developing
     in_catalog: true
-    kin_score: 35.2
+    kin_score: 42.6
     mcp: &id021
       source: https://help.uscreen.tv/en/articles/15643974-uscreen-mcp
       status: verified
@@ -416,10 +416,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 57.8
+    agent_readiness: 57.0
     band: thin
     in_catalog: true
-    kin_score: 37.2
+    kin_score: 36.1
     mcp: &id023
       source: https://docs.zuora.com/en/zuora-platform/system-management/zuora-ai/zuora-mcp-server
       status: verified
@@ -445,10 +445,10 @@ noindex: false
 permalink: /applications/subscription-billing/paddle/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 52.0
+  agent_readiness: 53.6
   band: developing
   in_catalog: true
-  kin_score: 46.2
+  kin_score: 44.7
   mcp: *id001
   name: Braintree
   slug: braintree
@@ -456,10 +456,10 @@ providers:
   tags: *id002
   url: /providers/braintree/
 - agent_band: agent-ready
-  agent_readiness: 54.1
+  agent_readiness: 53.0
   band: strong
   in_catalog: true
-  kin_score: 62.9
+  kin_score: 59.9
   mcp: *id003
   name: Chargebee
   slug: chargebee
@@ -467,10 +467,10 @@ providers:
   tags: *id004
   url: /providers/chargebee/
 - agent_band: agent-aware
-  agent_readiness: 25.8
-  band: developing
+  agent_readiness: 24.6
+  band: strong
   in_catalog: true
-  kin_score: 46.1
+  kin_score: 58.4
   mcp: *id005
   name: Databox
   slug: databox
@@ -478,10 +478,10 @@ providers:
   tags: *id006
   url: /providers/databox/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id007
   name: HubSpot
   slug: hubspot
@@ -489,21 +489,21 @@ providers:
   tags: *id008
   url: /providers/hubspot/
 - agent_band: agent-ready
-  agent_readiness: 31.7
+  agent_readiness: 32.5
   band: developing
   in_catalog: true
-  kin_score: 52.5
+  kin_score: 51.0
   mcp: *id009
   name: Intercom
   slug: intercom
   status: profiled
   tags: *id010
   url: /providers/intercom/
-- agent_band: human-only
-  agent_readiness: 2.5
-  band: emerging
+- agent_band: agent-native
+  agent_readiness: 42.0
+  band: exemplar
   in_catalog: true
-  kin_score: 24.6
+  kin_score: 68.5
   mcp: *id011
   name: Maxio
   slug: maxio
@@ -511,10 +511,10 @@ providers:
   tags: *id012
   url: /providers/maxio/
 - agent_band: agent-aware
-  agent_readiness: 21.3
-  band: thin
+  agent_readiness: 26.4
+  band: emerging
   in_catalog: true
-  kin_score: 26.4
+  kin_score: 25.9
   mcp: *id013
   name: Recharge
   slug: recharge-payments
@@ -522,10 +522,10 @@ providers:
   tags: *id014
   url: /providers/recharge-payments/
 - agent_band: agent-native
-  agent_readiness: 54.3
+  agent_readiness: 51.2
   band: exemplar
   in_catalog: true
-  kin_score: 78.8
+  kin_score: 83.2
   mcp: *id015
   name: Recurly
   slug: recurly
@@ -536,7 +536,7 @@ providers:
   agent_readiness: 23.8
   band: thin
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 27.4
   mcp: *id017
   name: RevenueCat
   slug: revenuecat
@@ -544,10 +544,10 @@ providers:
   tags: *id018
   url: /providers/revenuecat/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id019
   name: Stripe
   slug: stripe
@@ -555,10 +555,10 @@ providers:
   tags: *id020
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 38.8
-  band: thin
+  agent_readiness: 35.2
+  band: developing
   in_catalog: true
-  kin_score: 35.2
+  kin_score: 42.6
   mcp: *id021
   name: Uscreen
   slug: uscreen
@@ -566,10 +566,10 @@ providers:
   tags: *id022
   url: /providers/uscreen/
 - agent_band: agent-native
-  agent_readiness: 57.8
+  agent_readiness: 57.0
   band: thin
   in_catalog: true
-  kin_score: 37.2
+  kin_score: 36.1
   mcp: *id023
   name: Zuora
   slug: zuora

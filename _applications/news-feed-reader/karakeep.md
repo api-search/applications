@@ -61,7 +61,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id001
       status: none
     slug: ollama
@@ -88,10 +88,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id003
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -122,7 +122,7 @@ integrations:
     agent_readiness: 23.8
     band: thin
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 27.4
     mcp: &id005
       source: https://www.revenuecat.com/docs/tools/mcp
       status: verified
@@ -153,7 +153,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id007
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -182,7 +182,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id001
   name: Ollama
   slug: ollama
@@ -190,10 +190,10 @@ providers:
   tags: *id002
   url: /providers/ollama/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id003
   name: OpenAI
   slug: openai
@@ -204,7 +204,7 @@ providers:
   agent_readiness: 23.8
   band: thin
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 27.4
   mcp: *id005
   name: RevenueCat
   slug: revenuecat
@@ -215,7 +215,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id007
   name: Sentry
   slug: sentry-system

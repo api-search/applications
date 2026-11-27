@@ -50,7 +50,7 @@ integrations:
     agent_readiness: 3.1
     band: thin
     in_catalog: true
-    kin_score: 27.5
+    kin_score: 27.1
     mcp: &id001
       status: none
     slug: chargepoint
@@ -78,9 +78,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.8
+    kin_score: 16.4
     mcp: &id003
       status: unknown
     slug: chargesini
@@ -133,10 +133,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.6
+    agent_readiness: 18.2
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 37.7
     mcp: &id007
       status: none
     slug: doe
@@ -166,7 +166,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.7
+    kin_score: 7.1
     mcp: &id009
       status: unknown
     slug: esb
@@ -193,10 +193,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 13.5
+    kin_score: 22.7
     mcp: &id011
       status: unknown
     slug: ev24
@@ -223,10 +223,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.3
+    agent_readiness: 19.9
     band: thin
     in_catalog: true
-    kin_score: 27.9
+    kin_score: 29.8
     mcp: &id013
       status: unknown
     slug: flo-ev
@@ -254,9 +254,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 2.5
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.8
+    kin_score: 12.8
     mcp: &id015
       status: unknown
     slug: icaen
@@ -283,10 +283,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 5.0
+    agent_readiness: 4.9
     band: emerging
     in_catalog: true
-    kin_score: 12.1
+    kin_score: 13.7
     mcp: &id017
       status: unknown
     slug: nobil
@@ -342,7 +342,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.3
+    kin_score: 5.1
     mcp: &id021
       status: none
     slug: plugshare
@@ -369,7 +369,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.1
+    kin_score: 5.4
     mcp: &id023
       status: unknown
     slug: rwe
@@ -423,7 +423,7 @@ providers:
   agent_readiness: 3.1
   band: thin
   in_catalog: true
-  kin_score: 27.5
+  kin_score: 27.1
   mcp: *id001
   name: ChargePoint
   slug: chargepoint
@@ -432,9 +432,9 @@ providers:
   url: /providers/chargepoint/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.8
+  kin_score: 16.4
   mcp: *id003
   name: Chargesini
   slug: chargesini
@@ -453,10 +453,10 @@ providers:
   tags: *id006
   url: null
 - agent_band: agent-aware
-  agent_readiness: 18.6
+  agent_readiness: 18.2
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 37.7
   mcp: *id007
   name: Department of Energy (AFDC)
   slug: doe
@@ -467,7 +467,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.7
+  kin_score: 7.1
   mcp: *id009
   name: ESB ecars
   slug: esb
@@ -475,10 +475,10 @@ providers:
   tags: *id010
   url: /providers/esb/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 13.5
+  kin_score: 22.7
   mcp: *id011
   name: EV24
   slug: ev24
@@ -486,10 +486,10 @@ providers:
   tags: *id012
   url: /providers/ev24/
 - agent_band: agent-aware
-  agent_readiness: 20.3
+  agent_readiness: 19.9
   band: thin
   in_catalog: true
-  kin_score: 27.9
+  kin_score: 29.8
   mcp: *id013
   name: FLO (AddEnergie)
   slug: flo-ev
@@ -498,9 +498,9 @@ providers:
   url: /providers/flo-ev/
 - agent_band: human-only
   agent_readiness: 2.5
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.8
+  kin_score: 12.8
   mcp: *id015
   name: ICAEN (Catalonia)
   slug: icaen
@@ -508,10 +508,10 @@ providers:
   tags: *id016
   url: /providers/icaen/
 - agent_band: human-only
-  agent_readiness: 5.0
+  agent_readiness: 4.9
   band: emerging
   in_catalog: true
-  kin_score: 12.1
+  kin_score: 13.7
   mcp: *id017
   name: NOBIL (Enova)
   slug: nobil
@@ -533,7 +533,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.3
+  kin_score: 5.1
   mcp: *id021
   name: PlugShare
   slug: plugshare
@@ -544,7 +544,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.1
+  kin_score: 5.4
   mcp: *id023
   name: RWE Mobility
   slug: rwe

@@ -55,10 +55,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.8
-    band: strong
+    agent_readiness: 37.9
+    band: exemplar
     in_catalog: true
-    kin_score: 60.5
+    kin_score: 68.5
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -89,7 +89,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 21.4
+    kin_score: 20.0
     mcp: &id003
       status: none
     slug: garmin
@@ -116,10 +116,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 51.3
     band: developing
     in_catalog: true
-    kin_score: 50.0
+    kin_score: 52.0
     mcp: &id005
       status: none
     slug: strava
@@ -144,10 +144,10 @@ noindex: false
 permalink: /applications/fitness-nutrition/endurain/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 40.8
-  band: strong
+  agent_readiness: 37.9
+  band: exemplar
   in_catalog: true
-  kin_score: 60.5
+  kin_score: 68.5
   mcp: *id001
   name: amazon-web-services
   slug: amazon-web-services
@@ -158,7 +158,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 21.4
+  kin_score: 20.0
   mcp: *id003
   name: garmin
   slug: garmin
@@ -166,10 +166,10 @@ providers:
   tags: *id004
   url: /providers/garmin/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 51.3
   band: developing
   in_catalog: true
-  kin_score: 50.0
+  kin_score: 52.0
   mcp: *id005
   name: strava
   slug: strava

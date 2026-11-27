@@ -84,10 +84,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.2
+    agent_readiness: 16.8
     band: thin
     in_catalog: true
-    kin_score: 34.2
+    kin_score: 33.1
     mcp: &id001
       status: none
     slug: apache-tika
@@ -114,10 +114,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.5
+    agent_readiness: 45.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.4
+    kin_score: 76.0
     mcp: &id003
       source: https://github.com/microsoft/mcp
       status: verified
@@ -145,10 +145,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: emerging
     in_catalog: true
-    kin_score: 20.2
+    kin_score: 23.4
     mcp: &id007
       status: none
     slug: gotenberg
@@ -175,10 +175,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.9
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 69.1
     mcp: &id009
       source: https://github.com/huggingface/hf-mcp-server
       status: verified
@@ -209,7 +209,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id011
       status: none
     slug: ollama
@@ -236,10 +236,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id013
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -266,11 +266,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id005
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -298,10 +298,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.5
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 70.6
+    kin_score: 70.8
     mcp: &id015
       source: https://github.com/microsoft/mcp
       status: verified
@@ -327,10 +327,10 @@ noindex: false
 permalink: /applications/document-management/paperless-ngx/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 17.2
+  agent_readiness: 16.8
   band: thin
   in_catalog: true
-  kin_score: 34.2
+  kin_score: 33.1
   mcp: *id001
   name: Apache Tika
   slug: apache-tika
@@ -338,21 +338,21 @@ providers:
   tags: *id002
   url: /providers/apache-tika/
 - agent_band: agent-ready
-  agent_readiness: 51.5
+  agent_readiness: 45.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.4
+  kin_score: 76.0
   mcp: *id003
   name: Azure AI Document Intelligence
   slug: microsoft-azure
   status: profiled
   tags: *id004
   url: /providers/microsoft-azure/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id005
   name: Gmail
   slug: google-gmail
@@ -360,10 +360,10 @@ providers:
   tags: *id006
   url: /providers/google-gmail/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: emerging
   in_catalog: true
-  kin_score: 20.2
+  kin_score: 23.4
   mcp: *id007
   name: Gotenberg
   slug: gotenberg
@@ -371,10 +371,10 @@ providers:
   tags: *id008
   url: /providers/gotenberg/
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 36.9
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 69.1
   mcp: *id009
   name: Hugging Face
   slug: hugging-face
@@ -385,7 +385,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id011
   name: Ollama
   slug: ollama
@@ -393,10 +393,10 @@ providers:
   tags: *id012
   url: /providers/ollama/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id013
   name: OpenAI
   slug: openai
@@ -404,10 +404,10 @@ providers:
   tags: *id014
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 49.5
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 70.6
+  kin_score: 70.8
   mcp: *id015
   name: Outlook
   slug: microsoft-outlook

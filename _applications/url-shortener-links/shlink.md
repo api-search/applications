@@ -68,10 +68,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 59.4
+    agent_readiness: 58.2
     band: exemplar
     in_catalog: true
-    kin_score: 73.7
+    kin_score: 73.0
     mcp: &id001
       source: https://dev.bitly.com/bitly-mcp/
       status: verified
@@ -127,10 +127,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.4
+    agent_readiness: 41.3
     band: exemplar
     in_catalog: true
-    kin_score: 72.2
+    kin_score: 70.7
     mcp: &id005
       source: https://github.com/matomo-org/plugin-McpServer
       status: verified
@@ -158,10 +158,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 31.5
     mcp: &id007
       status: none
     slug: maxmind
@@ -188,10 +188,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.0
+    agent_readiness: 19.6
     band: thin
     in_catalog: true
-    kin_score: 29.8
+    kin_score: 28.8
     mcp: &id009
       status: none
     slug: rabbitmq
@@ -221,7 +221,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 14.8
+    kin_score: 20.4
     mcp: &id011
       status: none
     slug: yourls
@@ -246,10 +246,10 @@ noindex: false
 permalink: /applications/url-shortener-links/shlink/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 59.4
+  agent_readiness: 58.2
   band: exemplar
   in_catalog: true
-  kin_score: 73.7
+  kin_score: 73.0
   mcp: *id001
   name: Bitly
   slug: bitly
@@ -268,10 +268,10 @@ providers:
   tags: *id004
   url: /providers/kutt/
 - agent_band: agent-ready
-  agent_readiness: 37.4
+  agent_readiness: 41.3
   band: exemplar
   in_catalog: true
-  kin_score: 72.2
+  kin_score: 70.7
   mcp: *id005
   name: Matomo
   slug: matomo
@@ -279,10 +279,10 @@ providers:
   tags: *id006
   url: /providers/matomo/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 31.5
   mcp: *id007
   name: MaxMind GeoLite2
   slug: maxmind
@@ -290,10 +290,10 @@ providers:
   tags: *id008
   url: /providers/maxmind/
 - agent_band: agent-aware
-  agent_readiness: 20.0
+  agent_readiness: 19.6
   band: thin
   in_catalog: true
-  kin_score: 29.8
+  kin_score: 28.8
   mcp: *id009
   name: RabbitMQ
   slug: rabbitmq
@@ -304,7 +304,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 14.8
+  kin_score: 20.4
   mcp: *id011
   name: YOURLS
   slug: yourls

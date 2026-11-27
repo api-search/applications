@@ -79,14 +79,14 @@ capabilities:
   - Zoom Phone
   url: /capabilities/voice-telephony/
   via_parent: Voice & Telephony
-- attribution: Turbo EA
-  id: BC-410
-  key: sales-management
+- attribution: API Evangelist extension
+  id: AE-954
+  key: AE-954
   layer: domain
-  name: Sales Management
+  name: Sales Engagement & Sequencing
   providers:
   - Outreach
-  url: /capabilities/sales-management/
+  url: /capabilities/sales-engagement-sequencing/
   via_parent: null
 - attribution: API Evangelist extension
   id: AE-150.80
@@ -147,10 +147,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.9
+    agent_readiness: 30.3
     band: exemplar
     in_catalog: true
-    kin_score: 67.0
+    kin_score: 67.5
     mcp: &id001
       status: none
     slug: athenahealth
@@ -177,10 +177,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.8
     band: strong
     in_catalog: true
-    kin_score: 61.4
+    kin_score: 60.5
     mcp: &id003
       status: none
     slug: epic-systems
@@ -207,10 +207,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.8
+    agent_readiness: 35.0
     band: thin
     in_catalog: true
-    kin_score: 30.7
+    kin_score: 29.7
     mcp: &id005
       status: none
     slug: freshdesk
@@ -237,10 +237,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 27.0
+    agent_readiness: 26.4
     band: developing
     in_catalog: true
-    kin_score: 54.2
+    kin_score: 53.6
     mcp: &id007
       source: https://dev.frontapp.com/docs/mcp
       status: documented
@@ -267,11 +267,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 38.2
+    band: strong
     in_catalog: true
-    kin_score: 45.6
+    kin_score: 57.2
     mcp: &id009
       source: https://docs.cloud.google.com/mcp/supported-products
       status: verified
@@ -299,10 +299,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 42.0
+    agent_readiness: 41.2
     band: strong
     in_catalog: true
-    kin_score: 63.6
+    kin_score: 63.8
     mcp: &id011
       status: none
     slug: guidewire
@@ -329,10 +329,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 24.8
     band: developing
     in_catalog: true
-    kin_score: 51.7
+    kin_score: 51.5
     mcp: &id013
       status: none
     slug: helpscout
@@ -359,10 +359,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id015
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -390,10 +390,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.7
+    agent_readiness: 32.5
     band: developing
     in_catalog: true
-    kin_score: 52.5
+    kin_score: 51.0
     mcp: &id017
       source: https://developers.intercom.com/docs/guides/mcp
       status: verified
@@ -421,10 +421,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.4
-    band: exemplar
+    agent_readiness: 44.5
+    band: strong
     in_catalog: true
-    kin_score: 68.1
+    kin_score: 65.0
     mcp: &id019
       status: none
     slug: keap
@@ -451,10 +451,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
-    band: emerging
+    agent_readiness: 18.6
+    band: thin
     in_catalog: true
-    kin_score: 25.6
+    kin_score: 26.4
     mcp: &id021
       status: none
     slug: kustomer
@@ -481,10 +481,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.1
-    band: strong
+    agent_readiness: 37.6
+    band: exemplar
     in_catalog: true
-    kin_score: 63.9
+    kin_score: 67.7
     mcp: &id023
       source: https://github.com/microsoft/Dataverse-MCP
       status: verified
@@ -512,10 +512,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id025
       status: none
     slug: microsoft-teams
@@ -542,10 +542,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.1
+    agent_readiness: 32.2
     band: developing
     in_catalog: true
-    kin_score: 45.5
+    kin_score: 47.3
     mcp: &id027
       status: none
     slug: oracle-health
@@ -563,19 +563,19 @@ integrations:
   source: https://www.talkdesk.com/integrations/
   tier: declared
 - capability:
-    attribution: Turbo EA
-    id: BC-410
-    key: sales-management
-    name: Sales Management
-    url: /capabilities/sales-management/
+    attribution: API Evangelist extension
+    id: AE-954
+    key: AE-954
+    name: Sales Engagement & Sequencing
+    url: /capabilities/sales-engagement-sequencing/
     via_parent: null
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.1
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 79.2
+    kin_score: 78.7
     mcp: &id029
       status: none
     slug: outreach
@@ -602,10 +602,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.3
+    agent_readiness: 28.7
     band: strong
     in_catalog: true
-    kin_score: 55.5
+    kin_score: 55.3
     mcp: &id031
       status: none
     slug: pipedrive
@@ -632,10 +632,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.7
+    agent_readiness: 53.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.6
+    kin_score: 88.0
     mcp: &id033
       source: https://github.com/salesforcecli/mcp
       status: verified
@@ -663,10 +663,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.2
+    agent_readiness: 42.3
     band: strong
     in_catalog: true
-    kin_score: 64.1
+    kin_score: 61.9
     mcp: &id035
       status: none
     slug: servicenow
@@ -693,10 +693,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id037
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -727,7 +727,7 @@ integrations:
     agent_readiness: 0.6
     band: minimal
     in_catalog: true
-    kin_score: 8.8
+    kin_score: 7.9
     mcp: &id039
       status: none
     slug: verint-systems
@@ -753,10 +753,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.9
+    agent_readiness: 53.8
     band: exemplar
     in_catalog: true
-    kin_score: 69.2
+    kin_score: 70.5
     mcp: &id041
       source: https://docs.workato.com/mcp.html
       status: verified
@@ -784,10 +784,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 72.4
     mcp: &id043
       status: none
     slug: zendesk
@@ -814,10 +814,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.2
+    agent_readiness: 43.3
     band: exemplar
     in_catalog: true
-    kin_score: 86.0
+    kin_score: 85.4
     mcp: &id045
       status: none
     slug: zoho-crm
@@ -844,10 +844,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 55.2
+    agent_readiness: 56.8
     band: strong
     in_catalog: true
-    kin_score: 56.2
+    kin_score: 57.1
     mcp: &id047
       source: https://developers.zoom.us/docs/mcp/
       status: verified
@@ -875,10 +875,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.4
+    agent_readiness: 54.3
     band: exemplar
     in_catalog: true
-    kin_score: 69.5
+    kin_score: 69.1
     mcp: &id049
       status: none
     slug: zoom-phone
@@ -903,10 +903,10 @@ noindex: false
 permalink: /applications/voip-call-center/talkdesk/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 30.9
+  agent_readiness: 30.3
   band: exemplar
   in_catalog: true
-  kin_score: 67.0
+  kin_score: 67.5
   mcp: *id001
   name: athenahealth
   slug: athenahealth
@@ -914,10 +914,10 @@ providers:
   tags: *id002
   url: /providers/athenahealth/
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 36.8
   band: strong
   in_catalog: true
-  kin_score: 61.4
+  kin_score: 60.5
   mcp: *id003
   name: Epic
   slug: epic-systems
@@ -925,10 +925,10 @@ providers:
   tags: *id004
   url: /providers/epic-systems/
 - agent_band: agent-ready
-  agent_readiness: 29.8
+  agent_readiness: 35.0
   band: thin
   in_catalog: true
-  kin_score: 30.7
+  kin_score: 29.7
   mcp: *id005
   name: Freshdesk
   slug: freshdesk
@@ -936,21 +936,21 @@ providers:
   tags: *id006
   url: /providers/freshdesk/
 - agent_band: agent-aware
-  agent_readiness: 27.0
+  agent_readiness: 26.4
   band: developing
   in_catalog: true
-  kin_score: 54.2
+  kin_score: 53.6
   mcp: *id007
   name: Front
   slug: front
   status: profiled
   tags: *id008
   url: /providers/front/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 38.2
+  band: strong
   in_catalog: true
-  kin_score: 45.6
+  kin_score: 57.2
   mcp: *id009
   name: Google Contacts
   slug: google-people
@@ -958,10 +958,10 @@ providers:
   tags: *id010
   url: /providers/google-people/
 - agent_band: agent-native
-  agent_readiness: 42.0
+  agent_readiness: 41.2
   band: strong
   in_catalog: true
-  kin_score: 63.6
+  kin_score: 63.8
   mcp: *id011
   name: Guidewire ClaimCenter
   slug: guidewire
@@ -969,10 +969,10 @@ providers:
   tags: *id012
   url: /providers/guidewire/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 24.8
   band: developing
   in_catalog: true
-  kin_score: 51.7
+  kin_score: 51.5
   mcp: *id013
   name: Help Scout
   slug: helpscout
@@ -980,10 +980,10 @@ providers:
   tags: *id014
   url: /providers/helpscout/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id015
   name: HubSpot
   slug: hubspot
@@ -991,10 +991,10 @@ providers:
   tags: *id016
   url: /providers/hubspot/
 - agent_band: agent-ready
-  agent_readiness: 31.7
+  agent_readiness: 32.5
   band: developing
   in_catalog: true
-  kin_score: 52.5
+  kin_score: 51.0
   mcp: *id017
   name: Intercom
   slug: intercom
@@ -1002,10 +1002,10 @@ providers:
   tags: *id018
   url: /providers/intercom/
 - agent_band: agent-ready
-  agent_readiness: 45.4
-  band: exemplar
+  agent_readiness: 44.5
+  band: strong
   in_catalog: true
-  kin_score: 68.1
+  kin_score: 65.0
   mcp: *id019
   name: Keap
   slug: keap
@@ -1013,10 +1013,10 @@ providers:
   tags: *id020
   url: /providers/keap/
 - agent_band: agent-aware
-  agent_readiness: 19.0
-  band: emerging
+  agent_readiness: 18.6
+  band: thin
   in_catalog: true
-  kin_score: 25.6
+  kin_score: 26.4
   mcp: *id021
   name: Kustomer
   slug: kustomer
@@ -1024,10 +1024,10 @@ providers:
   tags: *id022
   url: /providers/kustomer/
 - agent_band: agent-ready
-  agent_readiness: 33.1
-  band: strong
+  agent_readiness: 37.6
+  band: exemplar
   in_catalog: true
-  kin_score: 63.9
+  kin_score: 67.7
   mcp: *id023
   name: Microsoft Dynamics 365
   slug: microsoft-dynamics-365
@@ -1035,10 +1035,10 @@ providers:
   tags: *id024
   url: /providers/microsoft-dynamics-365/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 65.1
   mcp: *id025
   name: Microsoft Teams
   slug: microsoft-teams
@@ -1046,10 +1046,10 @@ providers:
   tags: *id026
   url: /providers/microsoft-teams/
 - agent_band: agent-ready
-  agent_readiness: 30.1
+  agent_readiness: 32.2
   band: developing
   in_catalog: true
-  kin_score: 45.5
+  kin_score: 47.3
   mcp: *id027
   name: Oracle Cerner
   slug: oracle-health
@@ -1057,10 +1057,10 @@ providers:
   tags: *id028
   url: /providers/oracle-health/
 - agent_band: agent-ready
-  agent_readiness: 53.1
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 79.2
+  kin_score: 78.7
   mcp: *id029
   name: Outreach
   slug: outreach
@@ -1068,10 +1068,10 @@ providers:
   tags: *id030
   url: /providers/outreach/
 - agent_band: agent-ready
-  agent_readiness: 29.3
+  agent_readiness: 28.7
   band: strong
   in_catalog: true
-  kin_score: 55.5
+  kin_score: 55.3
   mcp: *id031
   name: Pipedrive
   slug: pipedrive
@@ -1079,10 +1079,10 @@ providers:
   tags: *id032
   url: /providers/pipedrive/
 - agent_band: agent-ready
-  agent_readiness: 54.7
+  agent_readiness: 53.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.6
+  kin_score: 88.0
   mcp: *id033
   name: Salesforce
   slug: salesforce
@@ -1090,10 +1090,10 @@ providers:
   tags: *id034
   url: /providers/salesforce/
 - agent_band: agent-ready
-  agent_readiness: 43.2
+  agent_readiness: 42.3
   band: strong
   in_catalog: true
-  kin_score: 64.1
+  kin_score: 61.9
   mcp: *id035
   name: ServiceNow
   slug: servicenow
@@ -1101,10 +1101,10 @@ providers:
   tags: *id036
   url: /providers/servicenow/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id037
   name: Slack
   slug: slack
@@ -1115,7 +1115,7 @@ providers:
   agent_readiness: 0.6
   band: minimal
   in_catalog: true
-  kin_score: 8.8
+  kin_score: 7.9
   mcp: *id039
   name: Verint (WFM Cloud)
   slug: verint-systems
@@ -1123,10 +1123,10 @@ providers:
   tags: *id040
   url: /providers/verint-systems/
 - agent_band: agent-ready
-  agent_readiness: 54.9
+  agent_readiness: 53.8
   band: exemplar
   in_catalog: true
-  kin_score: 69.2
+  kin_score: 70.5
   mcp: *id041
   name: Workato
   slug: workato
@@ -1134,10 +1134,10 @@ providers:
   tags: *id042
   url: /providers/workato/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 72.4
   mcp: *id043
   name: Zendesk
   slug: zendesk
@@ -1145,10 +1145,10 @@ providers:
   tags: *id044
   url: /providers/zendesk/
 - agent_band: agent-ready
-  agent_readiness: 44.2
+  agent_readiness: 43.3
   band: exemplar
   in_catalog: true
-  kin_score: 86.0
+  kin_score: 85.4
   mcp: *id045
   name: Zoho CRM
   slug: zoho-crm
@@ -1156,10 +1156,10 @@ providers:
   tags: *id046
   url: /providers/zoho-crm/
 - agent_band: agent-ready
-  agent_readiness: 55.2
+  agent_readiness: 56.8
   band: strong
   in_catalog: true
-  kin_score: 56.2
+  kin_score: 57.1
   mcp: *id047
   name: Zoom
   slug: zoom
@@ -1167,10 +1167,10 @@ providers:
   tags: *id048
   url: /providers/zoom/
 - agent_band: agent-ready
-  agent_readiness: 54.4
+  agent_readiness: 54.3
   band: exemplar
   in_catalog: true
-  kin_score: 69.5
+  kin_score: 69.1
   mcp: *id049
   name: Zoom Phone
   slug: zoom-phone

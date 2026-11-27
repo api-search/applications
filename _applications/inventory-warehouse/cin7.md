@@ -80,11 +80,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 46.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 53.6
+    band: strong
     in_catalog: true
-    kin_score: 46.7
+    kin_score: 58.4
     mcp: &id001
       source: https://github.com/amzn/selling-partner-agentic-toolkit
       status: verified
@@ -112,10 +112,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.6
+    agent_readiness: 44.7
     band: exemplar
     in_catalog: true
-    kin_score: 70.5
+    kin_score: 69.3
     mcp: &id003
       source: https://github.com/avadev/mcp
       status: verified
@@ -142,10 +142,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 60.5
+    agent_readiness: 56.3
     band: exemplar
     in_catalog: true
-    kin_score: 70.3
+    kin_score: 84.3
     mcp: &id005
       source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
       status: verified
@@ -173,10 +173,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.1
+    agent_readiness: 20.8
     band: emerging
     in_catalog: true
-    kin_score: 14.6
+    kin_score: 21.7
     mcp: &id007
       status: none
     slug: brightpearl
@@ -203,10 +203,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.4
+    agent_readiness: 21.9
     band: thin
     in_catalog: true
-    kin_score: 32.4
+    kin_score: 32.0
     mcp: &id009
       status: none
     slug: easypost
@@ -233,10 +233,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.0
+    agent_readiness: 31.3
     band: developing
     in_catalog: true
-    kin_score: 50.7
+    kin_score: 48.7
     mcp: &id011
       source: https://github.com/eBay/npm-public-api-mcp
       status: verified
@@ -264,10 +264,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.9
+    agent_readiness: 43.0
     band: developing
     in_catalog: true
-    kin_score: 43.5
+    kin_score: 43.4
     mcp: &id013
       source: https://github.com/integromat/make-mcp-server
       status: verified
@@ -298,7 +298,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.5
+    kin_score: 11.4
     mcp: &id015
       status: none
     slug: netsuite
@@ -324,11 +324,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id017
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -356,10 +356,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
-    band: strong
+    agent_readiness: 45.9
+    band: developing
     in_catalog: true
-    kin_score: 56.7
+    kin_score: 54.1
     mcp: &id019
       status: none
     slug: shipstation
@@ -386,10 +386,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.5
+    agent_readiness: 51.8
     band: exemplar
     in_catalog: true
-    kin_score: 84.6
+    kin_score: 83.8
     mcp: &id021
       source: https://shopify.dev/docs/apps/build/devmcp
       status: verified
@@ -417,10 +417,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.4
+    agent_readiness: 18.7
     band: emerging
     in_catalog: true
-    kin_score: 16.1
+    kin_score: 24.8
     mcp: &id023
       status: unknown
     slug: starshipit
@@ -447,10 +447,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 65.0
+    kin_score: 63.7
     mcp: &id025
       status: none
     slug: walmart
@@ -477,10 +477,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.4
-    band: developing
+    agent_readiness: 34.7
+    band: strong
     in_catalog: true
-    kin_score: 50.4
+    kin_score: 54.6
     mcp: &id027
       source: https://developer.woocommerce.com/docs/features/mcp/
       status: verified
@@ -508,10 +508,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.3
+    agent_readiness: 60.0
     band: exemplar
     in_catalog: true
-    kin_score: 82.4
+    kin_score: 87.1
     mcp: &id029
       source: https://github.com/XeroAPI/xero-mcp-server
       status: verified
@@ -536,11 +536,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/inventory-warehouse/cin7/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 46.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 53.6
+  band: strong
   in_catalog: true
-  kin_score: 46.7
+  kin_score: 58.4
   mcp: *id001
   name: Amazon
   slug: amazon
@@ -548,10 +548,10 @@ providers:
   tags: *id002
   url: /providers/amazon/
 - agent_band: agent-ready
-  agent_readiness: 44.6
+  agent_readiness: 44.7
   band: exemplar
   in_catalog: true
-  kin_score: 70.5
+  kin_score: 69.3
   mcp: *id003
   name: Avalara
   slug: avalara
@@ -559,10 +559,10 @@ providers:
   tags: *id004
   url: /providers/avalara/
 - agent_band: agent-ready
-  agent_readiness: 60.5
+  agent_readiness: 56.3
   band: exemplar
   in_catalog: true
-  kin_score: 70.3
+  kin_score: 84.3
   mcp: *id005
   name: BigCommerce
   slug: bigcommerce
@@ -570,10 +570,10 @@ providers:
   tags: *id006
   url: /providers/bigcommerce/
 - agent_band: agent-aware
-  agent_readiness: 24.1
+  agent_readiness: 20.8
   band: emerging
   in_catalog: true
-  kin_score: 14.6
+  kin_score: 21.7
   mcp: *id007
   name: Brightpearl
   slug: brightpearl
@@ -581,10 +581,10 @@ providers:
   tags: *id008
   url: /providers/brightpearl/
 - agent_band: agent-aware
-  agent_readiness: 22.4
+  agent_readiness: 21.9
   band: thin
   in_catalog: true
-  kin_score: 32.4
+  kin_score: 32.0
   mcp: *id009
   name: EasyPost
   slug: easypost
@@ -592,10 +592,10 @@ providers:
   tags: *id010
   url: /providers/easypost/
 - agent_band: agent-ready
-  agent_readiness: 32.0
+  agent_readiness: 31.3
   band: developing
   in_catalog: true
-  kin_score: 50.7
+  kin_score: 48.7
   mcp: *id011
   name: eBay
   slug: ebay
@@ -603,10 +603,10 @@ providers:
   tags: *id012
   url: /providers/ebay/
 - agent_band: agent-ready
-  agent_readiness: 43.9
+  agent_readiness: 43.0
   band: developing
   in_catalog: true
-  kin_score: 43.5
+  kin_score: 43.4
   mcp: *id013
   name: Make
   slug: make
@@ -617,18 +617,18 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.5
+  kin_score: 11.4
   mcp: *id015
   name: Oracle NetSuite
   slug: netsuite
   status: profiled
   tags: *id016
   url: /providers/netsuite/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id017
   name: QuickBooks
   slug: quickbooks
@@ -636,10 +636,10 @@ providers:
   tags: *id018
   url: /providers/quickbooks/
 - agent_band: agent-ready
-  agent_readiness: 46.9
-  band: strong
+  agent_readiness: 45.9
+  band: developing
   in_catalog: true
-  kin_score: 56.7
+  kin_score: 54.1
   mcp: *id019
   name: ShipStation
   slug: shipstation
@@ -647,10 +647,10 @@ providers:
   tags: *id020
   url: /providers/shipstation/
 - agent_band: agent-ready
-  agent_readiness: 52.5
+  agent_readiness: 51.8
   band: exemplar
   in_catalog: true
-  kin_score: 84.6
+  kin_score: 83.8
   mcp: *id021
   name: Shopify
   slug: shopify
@@ -658,10 +658,10 @@ providers:
   tags: *id022
   url: /providers/shopify/
 - agent_band: agent-aware
-  agent_readiness: 21.4
+  agent_readiness: 18.7
   band: emerging
   in_catalog: true
-  kin_score: 16.1
+  kin_score: 24.8
   mcp: *id023
   name: Starshipit
   slug: starshipit
@@ -669,10 +669,10 @@ providers:
   tags: *id024
   url: /providers/starshipit/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 65.0
+  kin_score: 63.7
   mcp: *id025
   name: Walmart
   slug: walmart
@@ -680,10 +680,10 @@ providers:
   tags: *id026
   url: /providers/walmart/
 - agent_band: agent-ready
-  agent_readiness: 35.4
-  band: developing
+  agent_readiness: 34.7
+  band: strong
   in_catalog: true
-  kin_score: 50.4
+  kin_score: 54.6
   mcp: *id027
   name: WooCommerce
   slug: woocommerce
@@ -691,10 +691,10 @@ providers:
   tags: *id028
   url: /providers/woocommerce/
 - agent_band: agent-native
-  agent_readiness: 61.3
+  agent_readiness: 60.0
   band: exemplar
   in_catalog: true
-  kin_score: 82.4
+  kin_score: 87.1
   mcp: *id029
   name: Xero
   slug: xero

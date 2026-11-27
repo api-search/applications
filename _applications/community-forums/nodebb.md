@@ -79,10 +79,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.1
+    agent_readiness: 24.2
     band: thin
     in_catalog: true
-    kin_score: 28.9
+    kin_score: 28.8
     mcp: &id003
       source: https://github.com/cloudflare/mcp
       status: verified
@@ -109,11 +109,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: strong
     in_catalog: true
-    kin_score: 48.1
+    kin_score: 65.1
     mcp: &id005
       status: none
     slug: google-recaptcha
@@ -140,10 +140,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 31.5
+    kin_score: 31.1
     mcp: &id007
       status: none
     slug: hcaptcha
@@ -170,10 +170,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.0
+    agent_readiness: 59.1
     band: exemplar
     in_catalog: true
-    kin_score: 77.8
+    kin_score: 79.9
     mcp: &id009
       source: https://github.com/mongodb-js/mongodb-mcp-server
       status: verified
@@ -204,7 +204,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 12.2
+    kin_score: 11.6
     mcp: &id011
       status: none
     slug: postgresql
@@ -231,10 +231,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 7.9
+    agent_readiness: 7.7
     band: emerging
     in_catalog: true
-    kin_score: 17.6
+    kin_score: 25.3
     mcp: &id013
       status: unknown
     slug: project-honeypot
@@ -260,11 +260,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 49.8
+    agent_band: agent-ready
+    agent_readiness: 41.5
     band: developing
     in_catalog: true
-    kin_score: 47.4
+    kin_score: 46.5
     mcp: &id015
       source: https://github.com/redis/mcp-redis
       status: verified
@@ -292,10 +292,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
-    band: minimal
+    agent_readiness: 1.1
+    band: emerging
     in_catalog: true
-    kin_score: 9.8
+    kin_score: 15.2
     mcp: &id017
       status: unknown
     slug: stopforumspam
@@ -331,21 +331,21 @@ providers:
   tags: *id002
   url: null
 - agent_band: agent-aware
-  agent_readiness: 23.1
+  agent_readiness: 24.2
   band: thin
   in_catalog: true
-  kin_score: 28.9
+  kin_score: 28.8
   mcp: *id003
   name: Cloudflare Turnstile
   slug: cloudflare-turnstile
   status: profiled
   tags: *id004
   url: /providers/cloudflare-turnstile/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: strong
   in_catalog: true
-  kin_score: 48.1
+  kin_score: 65.1
   mcp: *id005
   name: Google reCAPTCHA
   slug: google-recaptcha
@@ -353,10 +353,10 @@ providers:
   tags: *id006
   url: /providers/google-recaptcha/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 31.5
+  kin_score: 31.1
   mcp: *id007
   name: hCaptcha
   slug: hcaptcha
@@ -364,10 +364,10 @@ providers:
   tags: *id008
   url: /providers/hcaptcha/
 - agent_band: agent-ready
-  agent_readiness: 56.0
+  agent_readiness: 59.1
   band: exemplar
   in_catalog: true
-  kin_score: 77.8
+  kin_score: 79.9
   mcp: *id009
   name: MongoDB
   slug: mongodb
@@ -378,7 +378,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 12.2
+  kin_score: 11.6
   mcp: *id011
   name: PostgreSQL
   slug: postgresql
@@ -386,21 +386,21 @@ providers:
   tags: *id012
   url: /providers/postgresql/
 - agent_band: agent-aware
-  agent_readiness: 7.9
+  agent_readiness: 7.7
   band: emerging
   in_catalog: true
-  kin_score: 17.6
+  kin_score: 25.3
   mcp: *id013
   name: Project Honey Pot
   slug: project-honeypot
   status: profiled
   tags: *id014
   url: /providers/project-honeypot/
-- agent_band: agent-native
-  agent_readiness: 49.8
+- agent_band: agent-ready
+  agent_readiness: 41.5
   band: developing
   in_catalog: true
-  kin_score: 47.4
+  kin_score: 46.5
   mcp: *id015
   name: Redis
   slug: redis
@@ -408,10 +408,10 @@ providers:
   tags: *id016
   url: /providers/redis/
 - agent_band: human-only
-  agent_readiness: 0.0
-  band: minimal
+  agent_readiness: 1.1
+  band: emerging
   in_catalog: true
-  kin_score: 9.8
+  kin_score: 15.2
   mcp: *id017
   name: StopForumSpam
   slug: stopforumspam

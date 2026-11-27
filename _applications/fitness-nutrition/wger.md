@@ -46,10 +46,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.8
-    band: strong
+    agent_readiness: 37.9
+    band: exemplar
     in_catalog: true
-    kin_score: 60.5
+    kin_score: 68.5
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -77,10 +77,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 65.1
+    kin_score: 66.2
     mcp: &id003
       status: none
     slug: open-food-facts
@@ -105,10 +105,10 @@ noindex: false
 permalink: /applications/fitness-nutrition/wger/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 40.8
-  band: strong
+  agent_readiness: 37.9
+  band: exemplar
   in_catalog: true
-  kin_score: 60.5
+  kin_score: 68.5
   mcp: *id001
   name: amazon-web-services
   slug: amazon-web-services
@@ -116,10 +116,10 @@ providers:
   tags: *id002
   url: /providers/amazon-web-services/
 - agent_band: agent-ready
-  agent_readiness: 31.1
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 65.1
+  kin_score: 66.2
   mcp: *id003
   name: open-food-facts
   slug: open-food-facts

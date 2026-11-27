@@ -63,9 +63,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.4
+    kin_score: 17.5
     mcp: &id001
       status: unknown
     slug: answering-legal
@@ -92,10 +92,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 60.9
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 70.5
+    kin_score: 72.5
     mcp: &id003
       source: https://docs.birdeye.com/mcp/introduction
       status: verified
@@ -126,7 +126,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 15.8
+    kin_score: 22.7
     mcp: &id005
       status: none
     slug: collbox
@@ -152,11 +152,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 6.8
+    agent_band: human-only
+    agent_readiness: 3.8
     band: emerging
     in_catalog: true
-    kin_score: 20.3
+    kin_score: 25.4
     mcp: &id007
       status: unknown
     slug: vxt
@@ -182,9 +182,9 @@ permalink: /applications/legal-practice/smokeball/
 providers:
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.4
+  kin_score: 17.5
   mcp: *id001
   name: Answering Legal
   slug: answering-legal
@@ -192,10 +192,10 @@ providers:
   tags: *id002
   url: /providers/answering-legal/
 - agent_band: agent-ready
-  agent_readiness: 60.9
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 70.5
+  kin_score: 72.5
   mcp: *id003
   name: Birdeye
   slug: birdeye
@@ -206,18 +206,18 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 15.8
+  kin_score: 22.7
   mcp: *id005
   name: CollBox
   slug: collbox
   status: profiled
   tags: *id006
   url: /providers/collbox/
-- agent_band: agent-aware
-  agent_readiness: 6.8
+- agent_band: human-only
+  agent_readiness: 3.8
   band: emerging
   in_catalog: true
-  kin_score: 20.3
+  kin_score: 25.4
   mcp: *id007
   name: VXT
   slug: vxt

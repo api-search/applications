@@ -40,7 +40,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.8
+    kin_score: 3.0
     mcp: &id001
       status: unknown
     slug: realtor-com
@@ -68,7 +68,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.8
+  kin_score: 3.0
   mcp: *id001
   name: Realtor.com
   slug: realtor-com
@@ -77,7 +77,7 @@ providers:
   url: /providers/realtor-com/
 siblings:
 - name: Flathunter
-  rows: 16
+  rows: 14
   url: /applications/real-estate-home-search/flathunter/
 - name: Real Geeks
   rows: 10

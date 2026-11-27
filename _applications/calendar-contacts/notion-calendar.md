@@ -116,10 +116,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: emerging
+    agent_readiness: 0.0
+    band: thin
     in_catalog: true
-    kin_score: 18.8
+    kin_score: 28.8
     mcp: &id005
       status: none
     slug: doxy-me
@@ -145,11 +145,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id007
       source: https://github.com/google/mcp
       status: verified
@@ -176,11 +176,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.2
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: developing
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 52.2
     mcp: &id009
       status: none
     slug: google-meet
@@ -207,10 +207,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id011
       status: none
     slug: microsoft-teams
@@ -237,10 +237,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.9
-    band: exemplar
+    agent_readiness: 56.8
+    band: strong
     in_catalog: true
-    kin_score: 67.2
+    kin_score: 65.3
     mcp: &id013
       source: https://developers.notion.com/docs/mcp
       status: verified
@@ -268,10 +268,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 61.1
+    agent_readiness: 61.8
     band: strong
     in_catalog: true
-    kin_score: 64.2
+    kin_score: 66.1
     mcp: &id015
       source: https://github.com/WebexSamples/webex-messaging-mcp-server
       status: verified
@@ -299,10 +299,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 20.3
     band: developing
     in_catalog: true
-    kin_score: 53.1
+    kin_score: 52.0
     mcp: &id017
       status: none
     slug: whereby
@@ -329,10 +329,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 55.2
+    agent_readiness: 56.8
     band: strong
     in_catalog: true
-    kin_score: 56.2
+    kin_score: 57.1
     mcp: &id019
       source: https://developers.zoom.us/docs/mcp/
       status: verified
@@ -380,32 +380,32 @@ providers:
   tags: *id004
   url: null
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: emerging
+  agent_readiness: 0.0
+  band: thin
   in_catalog: true
-  kin_score: 18.8
+  kin_score: 28.8
   mcp: *id005
   name: Doxy.me
   slug: doxy-me
   status: profiled
   tags: *id006
   url: /providers/doxy-me/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id007
   name: Google Calendar
   slug: google-calendar
   status: profiled
   tags: *id008
   url: /providers/google-calendar/
-- agent_band: agent-aware
-  agent_readiness: 17.2
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: developing
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 52.2
   mcp: *id009
   name: Google Meet
   slug: google-meet
@@ -413,10 +413,10 @@ providers:
   tags: *id010
   url: /providers/google-meet/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 65.1
   mcp: *id011
   name: Microsoft Teams
   slug: microsoft-teams
@@ -424,10 +424,10 @@ providers:
   tags: *id012
   url: /providers/microsoft-teams/
 - agent_band: agent-ready
-  agent_readiness: 54.9
-  band: exemplar
+  agent_readiness: 56.8
+  band: strong
   in_catalog: true
-  kin_score: 67.2
+  kin_score: 65.3
   mcp: *id013
   name: Notion
   slug: notion
@@ -435,10 +435,10 @@ providers:
   tags: *id014
   url: /providers/notion/
 - agent_band: agent-ready
-  agent_readiness: 61.1
+  agent_readiness: 61.8
   band: strong
   in_catalog: true
-  kin_score: 64.2
+  kin_score: 66.1
   mcp: *id015
   name: Webex
   slug: webex
@@ -446,10 +446,10 @@ providers:
   tags: *id016
   url: /providers/webex/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 20.3
   band: developing
   in_catalog: true
-  kin_score: 53.1
+  kin_score: 52.0
   mcp: *id017
   name: Whereby
   slug: whereby
@@ -457,10 +457,10 @@ providers:
   tags: *id018
   url: /providers/whereby/
 - agent_band: agent-ready
-  agent_readiness: 55.2
+  agent_readiness: 56.8
   band: strong
   in_catalog: true
-  kin_score: 56.2
+  kin_score: 57.1
   mcp: *id019
   name: Zoom
   slug: zoom

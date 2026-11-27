@@ -52,10 +52,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.4
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 9.6
+    kin_score: 14.6
     mcp: &id001
       status: none
     slug: covetrus
@@ -82,10 +82,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
-    band: emerging
+    agent_readiness: 18.3
+    band: thin
     in_catalog: true
-    kin_score: 19.9
+    kin_score: 30.6
     mcp: &id003
       status: none
     slug: daysmart-vet
@@ -112,10 +112,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.1
+    agent_readiness: 28.0
     band: thin
     in_catalog: true
-    kin_score: 34.9
+    kin_score: 34.4
     mcp: &id005
       status: unknown
     slug: ezyvet
@@ -141,11 +141,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id007
       source: https://github.com/google/mcp
       status: verified
@@ -225,10 +225,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.9
+    agent_readiness: 37.6
     band: thin
     in_catalog: true
-    kin_score: 27.9
+    kin_score: 26.8
     mcp: &id013
       source: https://www.provet.com/mcp-skills-library
       status: documented
@@ -281,11 +281,11 @@ integrations:
     via_parent: Pet Health & Care
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 29.9
+    agent_band: agent-aware
+    agent_readiness: 26.5
     band: developing
     in_catalog: true
-    kin_score: 39.8
+    kin_score: 46.5
     mcp: &id017
       status: unknown
     slug: shepherd-vet
@@ -312,10 +312,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.6
+    agent_readiness: 13.3
     band: emerging
     in_catalog: true
-    kin_score: 22.2
+    kin_score: 21.4
     mcp: &id019
       status: none
     slug: vetspire
@@ -340,10 +340,10 @@ noindex: false
 permalink: /applications/pet-care/petdesk/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 14.4
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 9.6
+  kin_score: 14.6
   mcp: *id001
   name: Covetrus (Pulse, AVImark, ImproMed)
   slug: covetrus
@@ -351,10 +351,10 @@ providers:
   tags: *id002
   url: /providers/covetrus/
 - agent_band: agent-aware
-  agent_readiness: 17.3
-  band: emerging
+  agent_readiness: 18.3
+  band: thin
   in_catalog: true
-  kin_score: 19.9
+  kin_score: 30.6
   mcp: *id003
   name: DaySmart Vet
   slug: daysmart-vet
@@ -362,21 +362,21 @@ providers:
   tags: *id004
   url: /providers/daysmart-vet/
 - agent_band: agent-aware
-  agent_readiness: 23.1
+  agent_readiness: 28.0
   band: thin
   in_catalog: true
-  kin_score: 34.9
+  kin_score: 34.4
   mcp: *id005
   name: ezyVet
   slug: ezyvet
   status: profiled
   tags: *id006
   url: /providers/ezyvet/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id007
   name: Google Calendar
   slug: google-calendar
@@ -406,10 +406,10 @@ providers:
   tags: *id012
   url: null
 - agent_band: agent-ready
-  agent_readiness: 32.9
+  agent_readiness: 37.6
   band: thin
   in_catalog: true
-  kin_score: 27.9
+  kin_score: 26.8
   mcp: *id013
   name: Provet Cloud
   slug: provet-cloud
@@ -427,11 +427,11 @@ providers:
   status: queued for profiling
   tags: *id016
   url: null
-- agent_band: agent-ready
-  agent_readiness: 29.9
+- agent_band: agent-aware
+  agent_readiness: 26.5
   band: developing
   in_catalog: true
-  kin_score: 39.8
+  kin_score: 46.5
   mcp: *id017
   name: Shepherd Veterinary Software
   slug: shepherd-vet
@@ -439,10 +439,10 @@ providers:
   tags: *id018
   url: /providers/shepherd-vet/
 - agent_band: agent-aware
-  agent_readiness: 13.6
+  agent_readiness: 13.3
   band: emerging
   in_catalog: true
-  kin_score: 22.2
+  kin_score: 21.4
   mcp: *id019
   name: Vetspire
   slug: vetspire

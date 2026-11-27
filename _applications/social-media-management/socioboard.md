@@ -135,7 +135,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 17.5
+    kin_score: 25.1
     mcp: &id001
       status: unknown
     slug: amember
@@ -162,10 +162,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 59.4
+    agent_readiness: 58.2
     band: exemplar
     in_catalog: true
-    kin_score: 73.7
+    kin_score: 73.0
     mcp: &id003
       source: https://dev.bitly.com/bitly-mcp/
       status: verified
@@ -193,10 +193,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 3.9
+    agent_readiness: 3.8
     band: minimal
     in_catalog: true
-    kin_score: 8.4
+    kin_score: 8.2
     mcp: &id005
       status: none
     slug: dailymotion
@@ -221,10 +221,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id007
       status: none
     slug: facebook
@@ -251,10 +251,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 25.1
     band: developing
     in_catalog: true
-    kin_score: 48.6
+    kin_score: 49.1
     mcp: &id009
       status: none
     slug: flickr
@@ -281,10 +281,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.9
+    agent_readiness: 26.8
     band: strong
     in_catalog: true
-    kin_score: 55.6
+    kin_score: 56.0
     mcp: &id011
       status: none
     slug: giphy
@@ -311,10 +311,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id013
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -341,11 +341,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id015
       status: none
     slug: google-identity-platform
@@ -372,10 +372,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.2
+    agent_readiness: 20.8
     band: developing
     in_catalog: true
-    kin_score: 46.6
+    kin_score: 47.2
     mcp: &id017
       status: none
     slug: imgur
@@ -402,10 +402,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.9
+    agent_readiness: 38.6
     band: exemplar
     in_catalog: true
-    kin_score: 69.0
+    kin_score: 67.8
     mcp: &id019
       status: none
     slug: instagram
@@ -432,10 +432,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.4
+    agent_readiness: 46.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.4
+    kin_score: 77.8
     mcp: &id021
       status: none
     slug: linkedin
@@ -462,10 +462,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 27.0
+    agent_readiness: 26.5
     band: thin
     in_catalog: true
-    kin_score: 36.2
+    kin_score: 36.0
     mcp: &id023
       status: none
     slug: medium
@@ -492,10 +492,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.2
+    agent_readiness: 32.4
     band: thin
     in_catalog: true
-    kin_score: 35.4
+    kin_score: 33.7
     mcp: &id025
       status: none
     slug: newsapi
@@ -522,10 +522,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.4
+    agent_readiness: 37.6
     band: developing
     in_catalog: true
-    kin_score: 49.4
+    kin_score: 47.7
     mcp: &id027
       source: https://developers.pinterest.com/about-pinterest-mcp/
       status: verified
@@ -556,7 +556,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 13.8
+    kin_score: 13.7
     mcp: &id029
       status: none
     slug: pixabay
@@ -583,10 +583,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id031
       status: none
     slug: sendgrid
@@ -613,10 +613,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: developing
     in_catalog: true
-    kin_score: 41.0
+    kin_score: 40.5
     mcp: &id033
       status: none
     slug: tiktok
@@ -646,7 +646,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 4.8
     mcp: &id035
       status: none
     slug: tinyurl
@@ -674,7 +674,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.9
+    kin_score: 8.5
     mcp: &id037
       status: none
     slug: tumblr
@@ -699,10 +699,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id039
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -730,10 +730,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id041
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -761,10 +761,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id043
       status: none
     slug: youtube
@@ -792,7 +792,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 17.5
+  kin_score: 25.1
   mcp: *id001
   name: aMember
   slug: amember
@@ -800,10 +800,10 @@ providers:
   tags: *id002
   url: /providers/amember/
 - agent_band: agent-ready
-  agent_readiness: 59.4
+  agent_readiness: 58.2
   band: exemplar
   in_catalog: true
-  kin_score: 73.7
+  kin_score: 73.0
   mcp: *id003
   name: Bitly
   slug: bitly
@@ -811,10 +811,10 @@ providers:
   tags: *id004
   url: /providers/bitly/
 - agent_band: human-only
-  agent_readiness: 3.9
+  agent_readiness: 3.8
   band: minimal
   in_catalog: true
-  kin_score: 8.4
+  kin_score: 8.2
   mcp: *id005
   name: Dailymotion
   slug: dailymotion
@@ -822,10 +822,10 @@ providers:
   tags: *id006
   url: /providers/dailymotion/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id007
   name: Facebook
   slug: facebook
@@ -833,10 +833,10 @@ providers:
   tags: *id008
   url: /providers/facebook/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 25.1
   band: developing
   in_catalog: true
-  kin_score: 48.6
+  kin_score: 49.1
   mcp: *id009
   name: Flickr
   slug: flickr
@@ -844,10 +844,10 @@ providers:
   tags: *id010
   url: /providers/flickr/
 - agent_band: agent-aware
-  agent_readiness: 21.9
+  agent_readiness: 26.8
   band: strong
   in_catalog: true
-  kin_score: 55.6
+  kin_score: 56.0
   mcp: *id011
   name: GIPHY
   slug: giphy
@@ -855,21 +855,21 @@ providers:
   tags: *id012
   url: /providers/giphy/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id013
   name: GitHub
   slug: github
   status: profiled
   tags: *id014
   url: /providers/github/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id015
   name: Google sign-in
   slug: google-identity-platform
@@ -877,10 +877,10 @@ providers:
   tags: *id016
   url: /providers/google-identity-platform/
 - agent_band: agent-aware
-  agent_readiness: 21.2
+  agent_readiness: 20.8
   band: developing
   in_catalog: true
-  kin_score: 46.6
+  kin_score: 47.2
   mcp: *id017
   name: Imgur
   slug: imgur
@@ -888,10 +888,10 @@ providers:
   tags: *id018
   url: /providers/imgur/
 - agent_band: agent-ready
-  agent_readiness: 38.9
+  agent_readiness: 38.6
   band: exemplar
   in_catalog: true
-  kin_score: 69.0
+  kin_score: 67.8
   mcp: *id019
   name: Instagram
   slug: instagram
@@ -899,10 +899,10 @@ providers:
   tags: *id020
   url: /providers/instagram/
 - agent_band: agent-ready
-  agent_readiness: 47.4
+  agent_readiness: 46.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.4
+  kin_score: 77.8
   mcp: *id021
   name: LinkedIn
   slug: linkedin
@@ -910,10 +910,10 @@ providers:
   tags: *id022
   url: /providers/linkedin/
 - agent_band: agent-aware
-  agent_readiness: 27.0
+  agent_readiness: 26.5
   band: thin
   in_catalog: true
-  kin_score: 36.2
+  kin_score: 36.0
   mcp: *id023
   name: Medium
   slug: medium
@@ -921,10 +921,10 @@ providers:
   tags: *id024
   url: /providers/medium/
 - agent_band: agent-ready
-  agent_readiness: 33.2
+  agent_readiness: 32.4
   band: thin
   in_catalog: true
-  kin_score: 35.4
+  kin_score: 33.7
   mcp: *id025
   name: NewsAPI
   slug: newsapi
@@ -932,10 +932,10 @@ providers:
   tags: *id026
   url: /providers/newsapi/
 - agent_band: agent-ready
-  agent_readiness: 38.4
+  agent_readiness: 37.6
   band: developing
   in_catalog: true
-  kin_score: 49.4
+  kin_score: 47.7
   mcp: *id027
   name: Pinterest
   slug: pinterest
@@ -946,7 +946,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 13.8
+  kin_score: 13.7
   mcp: *id029
   name: Pixabay
   slug: pixabay
@@ -954,10 +954,10 @@ providers:
   tags: *id030
   url: /providers/pixabay/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id031
   name: SendGrid
   slug: sendgrid
@@ -965,10 +965,10 @@ providers:
   tags: *id032
   url: /providers/sendgrid/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: developing
   in_catalog: true
-  kin_score: 41.0
+  kin_score: 40.5
   mcp: *id033
   name: TikTok
   slug: tiktok
@@ -979,7 +979,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 4.8
   mcp: *id035
   name: TinyURL
   slug: tinyurl
@@ -990,7 +990,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.9
+  kin_score: 8.5
   mcp: *id037
   name: Tumblr
   slug: tumblr
@@ -998,10 +998,10 @@ providers:
   tags: *id038
   url: /providers/tumblr/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id039
   name: Twilio
   slug: twilio
@@ -1009,10 +1009,10 @@ providers:
   tags: *id040
   url: /providers/twilio/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id041
   name: X (Twitter)
   slug: x
@@ -1020,10 +1020,10 @@ providers:
   tags: *id042
   url: /providers/x/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id043
   name: YouTube
   slug: youtube

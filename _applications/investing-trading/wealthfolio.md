@@ -96,10 +96,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.4
-    band: strong
+    agent_readiness: 50.5
+    band: developing
     in_catalog: true
-    kin_score: 54.4
+    kin_score: 50.6
     mcp: &id001
       source: https://github.com/alphavantage/alpha_vantage_mcp
       status: verified
@@ -127,10 +127,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id003
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -158,10 +158,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.0
+    agent_readiness: 27.2
     band: developing
     in_catalog: true
-    kin_score: 51.1
+    kin_score: 52.9
     mcp: &id005
       status: none
     slug: deutsche-boerse
@@ -187,11 +187,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.7
+    agent_band: agent-ready
+    agent_readiness: 28.7
     band: thin
     in_catalog: true
-    kin_score: 36.3
+    kin_score: 35.8
     mcp: &id007
       source: https://raw.githubusercontent.com/cloudflare/mcp/main/README.md
       status: verified
@@ -219,10 +219,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.6
+    agent_readiness: 23.1
     band: developing
     in_catalog: true
-    kin_score: 43.9
+    kin_score: 42.5
     mcp: &id009
       source: https://finnhub.io/docs/api
       status: documented
@@ -250,10 +250,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id011
       status: none
     slug: google-gemini
@@ -280,10 +280,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
+    agent_readiness: 21.2
     band: thin
     in_catalog: true
-    kin_score: 32.9
+    kin_score: 32.3
     mcp: &id013
       source: https://github.com/groq/groq-mcp-server
       status: verified
@@ -311,10 +311,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.8
+    agent_readiness: 32.2
     band: strong
     in_catalog: true
-    kin_score: 60.7
+    kin_score: 59.3
     mcp: &id015
       status: none
     slug: marketdata-app
@@ -341,10 +341,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 17.4
+    kin_score: 22.4
     mcp: &id017
       status: none
     slug: metalpriceapi
@@ -374,7 +374,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id019
       status: none
     slug: ollama
@@ -401,10 +401,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id021
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -432,10 +432,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.4
+    agent_readiness: 25.9
     band: thin
     in_catalog: true
-    kin_score: 33.7
+    kin_score: 32.2
     mcp: &id023
       status: none
     slug: openfigi
@@ -460,10 +460,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 46.4
     band: strong
     in_catalog: true
-    kin_score: 55.4
+    kin_score: 54.8
     mcp: &id025
       source: https://openrouter.ai/docs/guides/overview/mcp-server
       status: verified
@@ -491,10 +491,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.2
-    band: developing
+    agent_readiness: 46.1
+    band: strong
     in_catalog: true
-    kin_score: 50.5
+    kin_score: 59.0
     mcp: &id027
       source: https://docs.snaptrade.com/docs/mcp-server
       status: verified
@@ -522,10 +522,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.4
+    agent_readiness: 19.6
     band: thin
     in_catalog: true
-    kin_score: 29.7
+    kin_score: 29.1
     mcp: &id029
       status: none
     slug: department-of-the-treasury
@@ -552,10 +552,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.2
+    agent_readiness: 15.8
     band: developing
     in_catalog: true
-    kin_score: 41.4
+    kin_score: 42.6
     mcp: &id031
       status: none
     slug: yahoo
@@ -580,10 +580,10 @@ noindex: false
 permalink: /applications/investing-trading/wealthfolio/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 51.4
-  band: strong
+  agent_readiness: 50.5
+  band: developing
   in_catalog: true
-  kin_score: 54.4
+  kin_score: 50.6
   mcp: *id001
   name: Alpha Vantage
   slug: alpha-vantage
@@ -591,10 +591,10 @@ providers:
   tags: *id002
   url: /providers/alpha-vantage/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id003
   name: Anthropic
   slug: anthropic
@@ -602,21 +602,21 @@ providers:
   tags: *id004
   url: /providers/anthropic/
 - agent_band: agent-aware
-  agent_readiness: 23.0
+  agent_readiness: 27.2
   band: developing
   in_catalog: true
-  kin_score: 51.1
+  kin_score: 52.9
   mcp: *id005
   name: Boerse Frankfurt (Deutsche Boerse)
   slug: deutsche-boerse
   status: profiled
   tags: *id006
   url: /providers/deutsche-boerse/
-- agent_band: agent-aware
-  agent_readiness: 27.7
+- agent_band: agent-ready
+  agent_readiness: 28.7
   band: thin
   in_catalog: true
-  kin_score: 36.3
+  kin_score: 35.8
   mcp: *id007
   name: Cloudflare R2
   slug: cloudflare-r2
@@ -624,10 +624,10 @@ providers:
   tags: *id008
   url: /providers/cloudflare-r2/
 - agent_band: agent-aware
-  agent_readiness: 23.6
+  agent_readiness: 23.1
   band: developing
   in_catalog: true
-  kin_score: 43.9
+  kin_score: 42.5
   mcp: *id009
   name: Finnhub
   slug: finnhub
@@ -635,10 +635,10 @@ providers:
   tags: *id010
   url: /providers/finnhub/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id011
   name: Google AI (Gemini)
   slug: google-gemini
@@ -646,10 +646,10 @@ providers:
   tags: *id012
   url: /providers/google-gemini/
 - agent_band: agent-aware
-  agent_readiness: 21.6
+  agent_readiness: 21.2
   band: thin
   in_catalog: true
-  kin_score: 32.9
+  kin_score: 32.3
   mcp: *id013
   name: Groq
   slug: groq
@@ -657,10 +657,10 @@ providers:
   tags: *id014
   url: /providers/groq/
 - agent_band: agent-ready
-  agent_readiness: 29.8
+  agent_readiness: 32.2
   band: strong
   in_catalog: true
-  kin_score: 60.7
+  kin_score: 59.3
   mcp: *id015
   name: Market Data (marketdata.app)
   slug: marketdata-app
@@ -668,10 +668,10 @@ providers:
   tags: *id016
   url: /providers/marketdata-app/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 17.4
+  kin_score: 22.4
   mcp: *id017
   name: Metal Price API
   slug: metalpriceapi
@@ -682,7 +682,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id019
   name: Ollama
   slug: ollama
@@ -690,10 +690,10 @@ providers:
   tags: *id020
   url: /providers/ollama/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id021
   name: OpenAI
   slug: openai
@@ -701,10 +701,10 @@ providers:
   tags: *id022
   url: /providers/openai/
 - agent_band: agent-aware
-  agent_readiness: 26.4
+  agent_readiness: 25.9
   band: thin
   in_catalog: true
-  kin_score: 33.7
+  kin_score: 32.2
   mcp: *id023
   name: OpenFIGI
   slug: openfigi
@@ -712,10 +712,10 @@ providers:
   tags: *id024
   url: /providers/openfigi/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 46.4
   band: strong
   in_catalog: true
-  kin_score: 55.4
+  kin_score: 54.8
   mcp: *id025
   name: OpenRouter
   slug: openrouter
@@ -723,10 +723,10 @@ providers:
   tags: *id026
   url: /providers/openrouter/
 - agent_band: agent-ready
-  agent_readiness: 53.2
-  band: developing
+  agent_readiness: 46.1
+  band: strong
   in_catalog: true
-  kin_score: 50.5
+  kin_score: 59.0
   mcp: *id027
   name: SnapTrade
   slug: snaptrade
@@ -734,10 +734,10 @@ providers:
   tags: *id028
   url: /providers/snaptrade/
 - agent_band: agent-aware
-  agent_readiness: 17.4
+  agent_readiness: 19.6
   band: thin
   in_catalog: true
-  kin_score: 29.7
+  kin_score: 29.1
   mcp: *id029
   name: US Treasury (treasury.gov / TreasuryDirect)
   slug: department-of-the-treasury
@@ -745,10 +745,10 @@ providers:
   tags: *id030
   url: /providers/department-of-the-treasury/
 - agent_band: agent-aware
-  agent_readiness: 16.2
+  agent_readiness: 15.8
   band: developing
   in_catalog: true
-  kin_score: 41.4
+  kin_score: 42.6
   mcp: *id031
   name: Yahoo Finance
   slug: yahoo

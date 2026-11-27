@@ -77,11 +77,11 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-ready
-    agent_readiness: 46.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 53.6
+    band: strong
     in_catalog: true
-    kin_score: 46.7
+    kin_score: 58.4
     mcp: &id002
       source: https://github.com/amzn/selling-partner-agentic-toolkit
       status: verified
@@ -109,10 +109,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.7
+    agent_readiness: 56.9
     band: strong
     in_catalog: true
-    kin_score: 63.5
+    kin_score: 65.2
     mcp: &id004
       source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
       status: verified
@@ -139,22 +139,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id008
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id009
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: firebase
   provider: firebase
@@ -186,10 +186,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id012
       status: none
     slug: google-admob
@@ -216,10 +216,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.8
+    agent_readiness: 30.2
     band: developing
     in_catalog: true
-    kin_score: 49.4
+    kin_score: 48.1
     mcp: &id014
       source: https://github.com/rollbar/rollbar-mcp-server
       status: verified
@@ -247,10 +247,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 50.0
-    band: exemplar
+    agent_readiness: 48.9
+    band: strong
     in_catalog: true
-    kin_score: 67.4
+    kin_score: 65.9
     mcp: &id016
       status: none
     slug: singular
@@ -277,10 +277,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id006
       status: none
     slug: apple
@@ -307,10 +307,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id010
       source: https://github.com/google/mcp
       status: verified
@@ -335,11 +335,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/fitness-nutrition/lose-it/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 46.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 53.6
+  band: strong
   in_catalog: true
-  kin_score: 46.7
+  kin_score: 58.4
   mcp: *id002
   name: amazon
   slug: amazon
@@ -347,10 +347,10 @@ providers:
   tags: *id003
   url: /providers/amazon/
 - agent_band: agent-ready
-  agent_readiness: 56.7
+  agent_readiness: 56.9
   band: strong
   in_catalog: true
-  kin_score: 63.5
+  kin_score: 65.2
   mcp: *id004
   name: amplitude
   slug: amplitude
@@ -358,32 +358,32 @@ providers:
   tags: *id005
   url: /providers/amplitude/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id006
   name: apple
   slug: apple
   status: profiled
   tags: *id007
   url: /providers/apple/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id008
   name: firebase
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id009
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id010
   name: google
   slug: google
@@ -391,10 +391,10 @@ providers:
   tags: *id011
   url: /providers/google/
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 35.3
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 65.2
   mcp: *id012
   name: google-admob
   slug: google-admob
@@ -402,10 +402,10 @@ providers:
   tags: *id013
   url: /providers/google-admob/
 - agent_band: agent-ready
-  agent_readiness: 30.8
+  agent_readiness: 30.2
   band: developing
   in_catalog: true
-  kin_score: 49.4
+  kin_score: 48.1
   mcp: *id014
   name: rollbar
   slug: rollbar
@@ -413,10 +413,10 @@ providers:
   tags: *id015
   url: /providers/rollbar/
 - agent_band: agent-ready
-  agent_readiness: 50.0
-  band: exemplar
+  agent_readiness: 48.9
+  band: strong
   in_catalog: true
-  kin_score: 67.4
+  kin_score: 65.9
   mcp: *id016
   name: singular
   slug: singular

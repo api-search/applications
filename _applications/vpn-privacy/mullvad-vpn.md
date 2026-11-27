@@ -37,11 +37,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.7
+    band: developing
     in_catalog: true
-    kin_score: 31.6
+    kin_score: 51.3
     mcp: &id001
       status: none
     slug: google-play
@@ -65,11 +65,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/vpn-privacy/mullvad-vpn/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.7
+  band: developing
   in_catalog: true
-  kin_score: 31.6
+  kin_score: 51.3
   mcp: *id001
   name: Google Play Billing
   slug: google-play

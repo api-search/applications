@@ -110,10 +110,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 48.0
     mcp: &id001
       status: none
     slug: discord
@@ -143,7 +143,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 14.1
+    kin_score: 21.4
     mcp: &id003
       status: none
     slug: emby
@@ -173,7 +173,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.8
+    kin_score: 10.9
     mcp: &id005
       source: https://gotify.net/docs/mcp
       status: verified
@@ -204,7 +204,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 3.5
+    kin_score: 4.5
     mcp: &id007
       status: unknown
     slug: headphones
@@ -233,7 +233,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.2
+    kin_score: 10.8
     mcp: &id009
       status: unknown
     slug: joaoapps-join
@@ -256,11 +256,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 13.3
+    kin_score: 21.4
     mcp: &id011
       status: none
     slug: kodi
@@ -287,10 +287,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
-    band: developing
+    agent_readiness: 25.9
+    band: strong
     in_catalog: true
-    kin_score: 54.2
+    kin_score: 54.4
     mcp: &id013
       status: none
     slug: lastfm
@@ -317,10 +317,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 32.6
+    kin_score: 31.6
     mcp: &id015
       source: https://github.com/mailgun/mailgun-mcp-server
       status: verified
@@ -347,11 +347,11 @@ integrations:
     via_parent: Audio & Music
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_band: agent-aware
+    agent_readiness: 27.2
     band: thin
     in_catalog: true
-    kin_score: 37.9
+    kin_score: 38.2
     mcp: &id017
       status: none
     slug: musicbrainz
@@ -378,10 +378,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 2.2
     mcp: &id019
       source: https://notifiarr.com/api/mcp
       status: documented
@@ -410,9 +410,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.9
+    kin_score: 15.5
     mcp: &id021
       status: none
     slug: ntfy
@@ -439,10 +439,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 59.6
+    agent_readiness: 63.2
     band: strong
     in_catalog: true
-    kin_score: 55.9
+    kin_score: 56.7
     mcp: &id023
       status: none
     slug: plex
@@ -472,7 +472,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.3
+    kin_score: 8.0
     mcp: &id025
       status: unknown
     slug: prowl
@@ -499,10 +499,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.9
+    agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 31.6
+    kin_score: 30.2
     mcp: &id027
       status: none
     slug: pushbullet
@@ -529,10 +529,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.5
-    band: thin
+    agent_readiness: 33.6
+    band: developing
     in_catalog: true
-    kin_score: 36.5
+    kin_score: 45.9
     mcp: &id029
       status: unknown
     slug: pushcut
@@ -559,10 +559,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.0
+    agent_readiness: 21.6
     band: thin
     in_catalog: true
-    kin_score: 29.2
+    kin_score: 28.1
     mcp: &id031
       status: none
     slug: pushover
@@ -589,10 +589,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id033
       status: none
     slug: sendgrid
@@ -619,10 +619,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 20.3
     band: developing
     in_catalog: true
-    kin_score: 41.4
+    kin_score: 43.2
     mcp: &id035
       status: none
     slug: signal
@@ -675,10 +675,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id039
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -706,10 +706,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_readiness: 32.7
     band: developing
     in_catalog: true
-    kin_score: 49.8
+    kin_score: 50.6
     mcp: &id041
       status: none
     slug: spotify
@@ -736,10 +736,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 7.5
+    kin_score: 12.0
     mcp: &id043
       status: none
     slug: synology
@@ -766,10 +766,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id045
       status: none
     slug: telegram
@@ -796,10 +796,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id047
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -825,10 +825,10 @@ noindex: false
 permalink: /applications/music-streaming/lidarr/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 48.0
   mcp: *id001
   name: Discord
   slug: discord
@@ -839,7 +839,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 14.1
+  kin_score: 21.4
   mcp: *id003
   name: Emby
   slug: emby
@@ -850,7 +850,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.8
+  kin_score: 10.9
   mcp: *id005
   name: Gotify
   slug: gotify
@@ -861,7 +861,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 3.5
+  kin_score: 4.5
   mcp: *id007
   name: Headphones
   slug: headphones
@@ -872,18 +872,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.2
+  kin_score: 10.8
   mcp: *id009
   name: Join (joaoapps)
   slug: joaoapps-join
   status: profiled
   tags: *id010
   url: /providers/joaoapps-join/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 13.3
+  kin_score: 21.4
   mcp: *id011
   name: Kodi
   slug: kodi
@@ -891,10 +891,10 @@ providers:
   tags: *id012
   url: /providers/kodi/
 - agent_band: agent-aware
-  agent_readiness: 23.7
-  band: developing
+  agent_readiness: 25.9
+  band: strong
   in_catalog: true
-  kin_score: 54.2
+  kin_score: 54.4
   mcp: *id013
   name: Last.fm
   slug: lastfm
@@ -902,21 +902,21 @@ providers:
   tags: *id014
   url: /providers/lastfm/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 32.6
+  kin_score: 31.6
   mcp: *id015
   name: Mailgun
   slug: mailgun
   status: profiled
   tags: *id016
   url: /providers/mailgun/
-- agent_band: agent-ready
-  agent_readiness: 31.3
+- agent_band: agent-aware
+  agent_readiness: 27.2
   band: thin
   in_catalog: true
-  kin_score: 37.9
+  kin_score: 38.2
   mcp: *id017
   name: MusicBrainz
   slug: musicbrainz
@@ -924,10 +924,10 @@ providers:
   tags: *id018
   url: /providers/musicbrainz/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 2.2
   mcp: *id019
   name: Notifiarr
   slug: notifiarr
@@ -936,9 +936,9 @@ providers:
   url: /providers/notifiarr/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.9
+  kin_score: 15.5
   mcp: *id021
   name: ntfy
   slug: ntfy
@@ -946,10 +946,10 @@ providers:
   tags: *id022
   url: /providers/ntfy/
 - agent_band: agent-ready
-  agent_readiness: 59.6
+  agent_readiness: 63.2
   band: strong
   in_catalog: true
-  kin_score: 55.9
+  kin_score: 56.7
   mcp: *id023
   name: Plex
   slug: plex
@@ -960,7 +960,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.3
+  kin_score: 8.0
   mcp: *id025
   name: Prowl
   slug: prowl
@@ -968,10 +968,10 @@ providers:
   tags: *id026
   url: /providers/prowl/
 - agent_band: agent-aware
-  agent_readiness: 24.9
+  agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 31.6
+  kin_score: 30.2
   mcp: *id027
   name: Pushbullet
   slug: pushbullet
@@ -979,10 +979,10 @@ providers:
   tags: *id028
   url: /providers/pushbullet/
 - agent_band: agent-ready
-  agent_readiness: 29.5
-  band: thin
+  agent_readiness: 33.6
+  band: developing
   in_catalog: true
-  kin_score: 36.5
+  kin_score: 45.9
   mcp: *id029
   name: Pushcut
   slug: pushcut
@@ -990,10 +990,10 @@ providers:
   tags: *id030
   url: /providers/pushcut/
 - agent_band: agent-aware
-  agent_readiness: 22.0
+  agent_readiness: 21.6
   band: thin
   in_catalog: true
-  kin_score: 29.2
+  kin_score: 28.1
   mcp: *id031
   name: Pushover
   slug: pushover
@@ -1001,10 +1001,10 @@ providers:
   tags: *id032
   url: /providers/pushover/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id033
   name: SendGrid
   slug: sendgrid
@@ -1012,10 +1012,10 @@ providers:
   tags: *id034
   url: /providers/sendgrid/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 20.3
   band: developing
   in_catalog: true
-  kin_score: 41.4
+  kin_score: 43.2
   mcp: *id035
   name: Signal
   slug: signal
@@ -1034,10 +1034,10 @@ providers:
   tags: *id038
   url: null
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id039
   name: Slack
   slug: slack
@@ -1045,10 +1045,10 @@ providers:
   tags: *id040
   url: /providers/slack/
 - agent_band: agent-ready
-  agent_readiness: 33.3
+  agent_readiness: 32.7
   band: developing
   in_catalog: true
-  kin_score: 49.8
+  kin_score: 50.6
   mcp: *id041
   name: Spotify
   slug: spotify
@@ -1056,10 +1056,10 @@ providers:
   tags: *id042
   url: /providers/spotify/
 - agent_band: agent-aware
-  agent_readiness: 21.6
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 7.5
+  kin_score: 12.0
   mcp: *id043
   name: Synology
   slug: synology
@@ -1067,10 +1067,10 @@ providers:
   tags: *id044
   url: /providers/synology/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id045
   name: Telegram
   slug: telegram
@@ -1078,10 +1078,10 @@ providers:
   tags: *id046
   url: /providers/telegram/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id047
   name: X (Twitter)
   slug: x

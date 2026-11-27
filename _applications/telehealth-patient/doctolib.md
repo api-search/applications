@@ -54,10 +54,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.8
-    band: emerging
+    agent_readiness: 23.3
+    band: thin
     in_catalog: true
-    kin_score: 24.9
+    kin_score: 30.9
     mcp: &id001
       status: none
     slug: adjust
@@ -84,10 +84,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.5
+    agent_readiness: 31.8
     band: exemplar
     in_catalog: true
-    kin_score: 81.3
+    kin_score: 78.8
     mcp: &id003
       status: none
     slug: didomi
@@ -117,7 +117,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id005
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -143,10 +143,10 @@ noindex: false
 permalink: /applications/telehealth-patient/doctolib/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 23.8
-  band: emerging
+  agent_readiness: 23.3
+  band: thin
   in_catalog: true
-  kin_score: 24.9
+  kin_score: 30.9
   mcp: *id001
   name: Adjust
   slug: adjust
@@ -154,10 +154,10 @@ providers:
   tags: *id002
   url: /providers/adjust/
 - agent_band: agent-ready
-  agent_readiness: 32.5
+  agent_readiness: 31.8
   band: exemplar
   in_catalog: true
-  kin_score: 81.3
+  kin_score: 78.8
   mcp: *id003
   name: Didomi
   slug: didomi
@@ -168,7 +168,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id005
   name: Sentry
   slug: sentry-system

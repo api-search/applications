@@ -89,10 +89,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_readiness: 30.4
     band: developing
     in_catalog: true
-    kin_score: 43.6
+    kin_score: 43.0
     mcp: &id003
       status: none
     slug: apple-pay
@@ -122,7 +122,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 18.0
+    kin_score: 17.1
     mcp: &id005
       status: none
     slug: canada-post
@@ -148,11 +148,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.1
-    band: emerging
+    agent_band: agent-native
+    agent_readiness: 39.5
+    band: developing
     in_catalog: true
-    kin_score: 26.1
+    kin_score: 52.3
     mcp: &id007
       status: none
     slug: dhl
@@ -179,10 +179,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.9
+    agent_readiness: 35.2
     band: exemplar
     in_catalog: true
-    kin_score: 69.4
+    kin_score: 70.7
     mcp: &id009
       status: none
     slug: fedex
@@ -209,10 +209,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 39.7
     band: strong
     in_catalog: true
-    kin_score: 66.2
+    kin_score: 65.2
     mcp: &id011
       status: none
     slug: google-pay
@@ -239,10 +239,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id013
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -269,11 +269,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.1
+    agent_band: agent-ready
+    agent_readiness: 29.2
     band: thin
     in_catalog: true
-    kin_score: 29.0
+    kin_score: 27.9
     mcp: &id015
       source: https://github.com/UPS-API/ups-mcp
       status: verified
@@ -300,11 +300,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.9
-    band: thin
+    agent_band: agent-native
+    agent_readiness: 51.8
+    band: developing
     in_catalog: true
-    kin_score: 33.2
+    kin_score: 52.0
     mcp: &id017
       status: none
     slug: usps
@@ -340,10 +340,10 @@ providers:
   tags: *id002
   url: null
 - agent_band: agent-ready
-  agent_readiness: 31.1
+  agent_readiness: 30.4
   band: developing
   in_catalog: true
-  kin_score: 43.6
+  kin_score: 43.0
   mcp: *id003
   name: Apple Pay
   slug: apple-pay
@@ -354,18 +354,18 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 18.0
+  kin_score: 17.1
   mcp: *id005
   name: Canada Post
   slug: canada-post
   status: profiled
   tags: *id006
   url: /providers/canada-post/
-- agent_band: agent-aware
-  agent_readiness: 24.1
-  band: emerging
+- agent_band: agent-native
+  agent_readiness: 39.5
+  band: developing
   in_catalog: true
-  kin_score: 26.1
+  kin_score: 52.3
   mcp: *id007
   name: DHL
   slug: dhl
@@ -373,10 +373,10 @@ providers:
   tags: *id008
   url: /providers/dhl/
 - agent_band: agent-ready
-  agent_readiness: 35.9
+  agent_readiness: 35.2
   band: exemplar
   in_catalog: true
-  kin_score: 69.4
+  kin_score: 70.7
   mcp: *id009
   name: FedEx
   slug: fedex
@@ -384,10 +384,10 @@ providers:
   tags: *id010
   url: /providers/fedex/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 39.7
   band: strong
   in_catalog: true
-  kin_score: 66.2
+  kin_score: 65.2
   mcp: *id011
   name: Google Pay
   slug: google-pay
@@ -395,32 +395,32 @@ providers:
   tags: *id012
   url: /providers/google-pay/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id013
   name: PayPal
   slug: paypal
   status: profiled
   tags: *id014
   url: /providers/paypal/
-- agent_band: agent-aware
-  agent_readiness: 24.1
+- agent_band: agent-ready
+  agent_readiness: 29.2
   band: thin
   in_catalog: true
-  kin_score: 29.0
+  kin_score: 27.9
   mcp: *id015
   name: UPS
   slug: ups
   status: profiled
   tags: *id016
   url: /providers/ups/
-- agent_band: agent-ready
-  agent_readiness: 31.9
-  band: thin
+- agent_band: agent-native
+  agent_readiness: 51.8
+  band: developing
   in_catalog: true
-  kin_score: 33.2
+  kin_score: 52.0
   mcp: *id017
   name: USPS
   slug: usps

@@ -212,11 +212,11 @@ integrations:
     via_parent: Personal Insurance
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.5
+    agent_band: agent-ready
+    agent_readiness: 29.8
     band: thin
     in_catalog: true
-    kin_score: 37.6
+    kin_score: 38.5
     mcp: &id004
       status: unknown
     slug: acko
@@ -243,10 +243,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.0
+    agent_readiness: 41.2
     band: thin
     in_catalog: true
-    kin_score: 37.1
+    kin_score: 35.3
     mcp: &id006
       status: unknown
     slug: billdesk
@@ -273,10 +273,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.1
+    agent_readiness: 52.8
     band: thin
     in_catalog: true
-    kin_score: 32.8
+    kin_score: 32.4
     mcp: &id008
       status: none
     slug: checkr
@@ -303,10 +303,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.6
+    agent_readiness: 47.6
     band: strong
     in_catalog: true
-    kin_score: 64.7
+    kin_score: 61.4
     mcp: &id010
       source: https://docs.clevertap.com/docs/clevertap-mcp
       status: documented
@@ -335,9 +335,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.2
+    kin_score: 16.2
     mcp: &id012
       status: unknown
     slug: digilocker
@@ -361,10 +361,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 28.8
+    kin_score: 27.7
     mcp: &id014
       source: https://github.com/exotel/ExotelMCP
       status: verified
@@ -406,22 +406,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id016
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id017
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase
   provider: firebase
@@ -437,11 +437,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.9
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 33.9
+    band: exemplar
     in_catalog: true
-    kin_score: 51.6
+    kin_score: 68.0
     mcp: &id018
       status: none
     slug: google-translate
@@ -468,10 +468,10 @@ integrations:
   credit: null
   facts: &id002
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id020
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -514,10 +514,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.8
+    agent_readiness: 37.0
     band: developing
     in_catalog: true
-    kin_score: 46.6
+    kin_score: 51.0
     mcp: &id022
       status: unknown
     slug: gridline
@@ -544,10 +544,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 24.7
     band: emerging
     in_catalog: true
-    kin_score: 25.3
+    kin_score: 24.9
     mcp: &id024
       status: none
     slug: gupshup
@@ -573,11 +573,11 @@ integrations:
     via_parent: Payment Processing Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 14.5
+    kin_score: 22.3
     mcp: &id026
       status: unknown
     slug: hdfc-bank
@@ -604,10 +604,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.1
+    agent_readiness: 27.2
     band: thin
     in_catalog: true
-    kin_score: 34.0
+    kin_score: 32.9
     mcp: &id028
       status: none
     slug: hyperverge
@@ -661,9 +661,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.7
+    kin_score: 15.8
     mcp: &id032
       status: unknown
     slug: iffco-tokio
@@ -693,7 +693,7 @@ integrations:
     agent_readiness: 61.3
     band: exemplar
     in_catalog: true
-    kin_score: 86.3
+    kin_score: 86.9
     mcp: &id034
       source: https://www.infobip.com/docs/mcp
       status: verified
@@ -721,10 +721,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 26.4
     band: emerging
     in_catalog: true
-    kin_score: 25.4
+    kin_score: 25.2
     mcp: &id036
       source: https://github.com/juspay/juspay-mcp
       status: verified
@@ -751,11 +751,11 @@ integrations:
     via_parent: SMS & Messaging Apps
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 26.6
+    agent_band: agent-ready
+    agent_readiness: 28.7
     band: developing
     in_catalog: true
-    kin_score: 47.6
+    kin_score: 47.3
     mcp: &id038
       status: none
     slug: kaleyra
@@ -782,10 +782,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.0
-    band: thin
+    agent_readiness: 27.2
+    band: developing
     in_catalog: true
-    kin_score: 28.5
+    kin_score: 39.4
     mcp: &id040
       status: none
     slug: kapture-cx
@@ -838,10 +838,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.2
+    kin_score: 7.7
     mcp: &id044
       status: none
     slug: mappls
@@ -868,10 +868,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 66.2
+    agent_readiness: 65.1
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 68.0
     mcp: &id046
       status: none
     slug: moengage
@@ -898,10 +898,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.7
-    band: emerging
+    agent_readiness: 12.4
+    band: thin
     in_catalog: true
-    kin_score: 25.9
+    kin_score: 35.4
     mcp: &id048
       source: https://github.com/nextbillion-ai/nextbillion-mcp
       status: verified
@@ -932,7 +932,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.9
+    kin_score: 5.2
     mcp: &id050
       status: none
     slug: opentripplanner
@@ -962,7 +962,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.4
+    kin_score: 4.5
     mcp: &id052
       status: none
     slug: osrm
@@ -989,10 +989,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 27.5
+    agent_readiness: 26.9
     band: thin
     in_catalog: true
-    kin_score: 28.1
+    kin_score: 35.0
     mcp: &id054
       status: unknown
     slug: ozonetel
@@ -1019,10 +1019,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.8
+    agent_readiness: 23.3
     band: emerging
     in_catalog: true
-    kin_score: 25.5
+    kin_score: 24.4
     mcp: &id056
       source: https://registry.modelcontextprotocol.io/v0/servers?search=paytm
       status: verified
@@ -1050,10 +1050,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.8
-    band: developing
+    agent_readiness: 58.7
+    band: strong
     in_catalog: true
-    kin_score: 54.2
+    kin_score: 58.3
     mcp: &id058
       source: https://github.com/SAP/mdk-mcp-server
       status: verified
@@ -1081,10 +1081,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.2
+    agent_readiness: 21.3
     band: strong
     in_catalog: true
-    kin_score: 54.3
+    kin_score: 56.5
     mcp: &id060
       status: none
     slug: signzy
@@ -1111,10 +1111,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id062
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -1142,10 +1142,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id064
       source: https://docs.stripe.com/mcp
       status: verified
@@ -1173,10 +1173,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
-    band: developing
+    agent_readiness: 32.7
+    band: strong
     in_catalog: true
-    kin_score: 52.9
+    kin_score: 57.4
     mcp: &id066
       status: unknown
     slug: tata-communications
@@ -1203,10 +1203,10 @@ integrations:
   credit: null
   facts: &id003
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id068
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -1275,10 +1275,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.5
-    band: strong
+    agent_readiness: 40.0
+    band: exemplar
     in_catalog: true
-    kin_score: 64.1
+    kin_score: 68.8
     mcp: &id072
       source: https://github.com/Vonage/vonage-mcp-server-documentation
       status: verified
@@ -1306,10 +1306,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.0
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 72.3
     mcp: &id074
       status: none
     slug: whatsapp
@@ -1362,10 +1362,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 72.4
     mcp: &id078
       status: none
     slug: zendesk
@@ -1389,11 +1389,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/ride-hailing-mobility/namma-yatri/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 25.5
+- agent_band: agent-ready
+  agent_readiness: 29.8
   band: thin
   in_catalog: true
-  kin_score: 37.6
+  kin_score: 38.5
   mcp: *id004
   name: Acko
   slug: acko
@@ -1401,10 +1401,10 @@ providers:
   tags: *id005
   url: /providers/acko/
 - agent_band: agent-ready
-  agent_readiness: 40.0
+  agent_readiness: 41.2
   band: thin
   in_catalog: true
-  kin_score: 37.1
+  kin_score: 35.3
   mcp: *id006
   name: BillDesk
   slug: billdesk
@@ -1412,10 +1412,10 @@ providers:
   tags: *id007
   url: /providers/billdesk/
 - agent_band: agent-ready
-  agent_readiness: 48.1
+  agent_readiness: 52.8
   band: thin
   in_catalog: true
-  kin_score: 32.8
+  kin_score: 32.4
   mcp: *id008
   name: Checkr
   slug: checkr
@@ -1423,10 +1423,10 @@ providers:
   tags: *id009
   url: /providers/checkr/
 - agent_band: agent-ready
-  agent_readiness: 48.6
+  agent_readiness: 47.6
   band: strong
   in_catalog: true
-  kin_score: 64.7
+  kin_score: 61.4
   mcp: *id010
   name: CleverTap
   slug: clevertap
@@ -1435,9 +1435,9 @@ providers:
   url: /providers/clevertap/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.2
+  kin_score: 16.2
   mcp: *id012
   name: DigiLocker
   slug: digilocker
@@ -1445,32 +1445,32 @@ providers:
   tags: *id013
   url: /providers/digilocker/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 28.8
+  kin_score: 27.7
   mcp: *id014
   name: Exotel
   slug: exotel
   status: profiled
   tags: *id015
   url: /providers/exotel/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id016
   name: Firebase
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id017
-  url: /providers/firebase/
-- agent_band: agent-aware
-  agent_readiness: 17.9
-  band: developing
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 33.9
+  band: exemplar
   in_catalog: true
-  kin_score: 51.6
+  kin_score: 68.0
   mcp: *id018
   name: Google Cloud Translation
   slug: google-translate
@@ -1478,10 +1478,10 @@ providers:
   tags: *id019
   url: /providers/google-translate/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id020
   name: Google Maps Platform
   slug: google-maps
@@ -1489,10 +1489,10 @@ providers:
   tags: *id021
   url: /providers/google-maps/
 - agent_band: agent-ready
-  agent_readiness: 37.8
+  agent_readiness: 37.0
   band: developing
   in_catalog: true
-  kin_score: 46.6
+  kin_score: 51.0
   mcp: *id022
   name: Gridline
   slug: gridline
@@ -1500,21 +1500,21 @@ providers:
   tags: *id023
   url: /providers/gridline/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 24.7
   band: emerging
   in_catalog: true
-  kin_score: 25.3
+  kin_score: 24.9
   mcp: *id024
   name: Gupshup
   slug: gupshup
   status: profiled
   tags: *id025
   url: /providers/gupshup/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 14.5
+  kin_score: 22.3
   mcp: *id026
   name: HDFC Bank
   slug: hdfc-bank
@@ -1522,10 +1522,10 @@ providers:
   tags: *id027
   url: /providers/hdfc-bank/
 - agent_band: agent-aware
-  agent_readiness: 22.1
+  agent_readiness: 27.2
   band: thin
   in_catalog: true
-  kin_score: 34.0
+  kin_score: 32.9
   mcp: *id028
   name: HyperVerge
   slug: hyperverge
@@ -1545,9 +1545,9 @@ providers:
   url: null
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.7
+  kin_score: 15.8
   mcp: *id032
   name: IFFCO-Tokio General Insurance
   slug: iffco-tokio
@@ -1558,7 +1558,7 @@ providers:
   agent_readiness: 61.3
   band: exemplar
   in_catalog: true
-  kin_score: 86.3
+  kin_score: 86.9
   mcp: *id034
   name: Infobip
   slug: infobip
@@ -1566,21 +1566,21 @@ providers:
   tags: *id035
   url: /providers/infobip/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 26.4
   band: emerging
   in_catalog: true
-  kin_score: 25.4
+  kin_score: 25.2
   mcp: *id036
   name: Juspay
   slug: juspay
   status: profiled
   tags: *id037
   url: /providers/juspay/
-- agent_band: agent-aware
-  agent_readiness: 26.6
+- agent_band: agent-ready
+  agent_readiness: 28.7
   band: developing
   in_catalog: true
-  kin_score: 47.6
+  kin_score: 47.3
   mcp: *id038
   name: Kaleyra
   slug: kaleyra
@@ -1588,10 +1588,10 @@ providers:
   tags: *id039
   url: /providers/kaleyra/
 - agent_band: agent-aware
-  agent_readiness: 25.0
-  band: thin
+  agent_readiness: 27.2
+  band: developing
   in_catalog: true
-  kin_score: 28.5
+  kin_score: 39.4
   mcp: *id040
   name: Kapture CX
   slug: kapture-cx
@@ -1610,10 +1610,10 @@ providers:
   tags: *id043
   url: null
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.2
+  kin_score: 7.7
   mcp: *id044
   name: MapmyIndia (Mappls)
   slug: mappls
@@ -1621,10 +1621,10 @@ providers:
   tags: *id045
   url: /providers/mappls/
 - agent_band: agent-native
-  agent_readiness: 66.2
+  agent_readiness: 65.1
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 68.0
   mcp: *id046
   name: MoEngage
   slug: moengage
@@ -1632,10 +1632,10 @@ providers:
   tags: *id047
   url: /providers/moengage/
 - agent_band: agent-aware
-  agent_readiness: 12.7
-  band: emerging
+  agent_readiness: 12.4
+  band: thin
   in_catalog: true
-  kin_score: 25.9
+  kin_score: 35.4
   mcp: *id048
   name: NextBillion.ai
   slug: nextbillion-ai
@@ -1646,7 +1646,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.9
+  kin_score: 5.2
   mcp: *id050
   name: OpenTripPlanner (self-hosted)
   slug: opentripplanner
@@ -1657,7 +1657,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.4
+  kin_score: 4.5
   mcp: *id052
   name: OSRM (Project OSRM, self-hosted)
   slug: osrm
@@ -1665,10 +1665,10 @@ providers:
   tags: *id053
   url: /providers/osrm/
 - agent_band: agent-aware
-  agent_readiness: 27.5
+  agent_readiness: 26.9
   band: thin
   in_catalog: true
-  kin_score: 28.1
+  kin_score: 35.0
   mcp: *id054
   name: Ozonetel
   slug: ozonetel
@@ -1676,10 +1676,10 @@ providers:
   tags: *id055
   url: /providers/ozonetel/
 - agent_band: agent-aware
-  agent_readiness: 23.8
+  agent_readiness: 23.3
   band: emerging
   in_catalog: true
-  kin_score: 25.5
+  kin_score: 24.4
   mcp: *id056
   name: Paytm
   slug: paytm
@@ -1687,10 +1687,10 @@ providers:
   tags: *id057
   url: /providers/paytm/
 - agent_band: agent-ready
-  agent_readiness: 57.8
-  band: developing
+  agent_readiness: 58.7
+  band: strong
   in_catalog: true
-  kin_score: 54.2
+  kin_score: 58.3
   mcp: *id058
   name: SAP
   slug: sap
@@ -1698,10 +1698,10 @@ providers:
   tags: *id059
   url: /providers/sap/
 - agent_band: agent-aware
-  agent_readiness: 21.2
+  agent_readiness: 21.3
   band: strong
   in_catalog: true
-  kin_score: 54.3
+  kin_score: 56.5
   mcp: *id060
   name: Signzy
   slug: signzy
@@ -1709,10 +1709,10 @@ providers:
   tags: *id061
   url: /providers/signzy/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id062
   name: Slack
   slug: slack
@@ -1720,10 +1720,10 @@ providers:
   tags: *id063
   url: /providers/slack/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id064
   name: Stripe
   slug: stripe
@@ -1731,10 +1731,10 @@ providers:
   tags: *id065
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 33.3
-  band: developing
+  agent_readiness: 32.7
+  band: strong
   in_catalog: true
-  kin_score: 52.9
+  kin_score: 57.4
   mcp: *id066
   name: Tata Communications
   slug: tata-communications
@@ -1742,10 +1742,10 @@ providers:
   tags: *id067
   url: /providers/tata-communications/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id068
   name: Twilio
   slug: twilio
@@ -1764,10 +1764,10 @@ providers:
   tags: *id071
   url: null
 - agent_band: agent-ready
-  agent_readiness: 43.5
-  band: strong
+  agent_readiness: 40.0
+  band: exemplar
   in_catalog: true
-  kin_score: 64.1
+  kin_score: 68.8
   mcp: *id072
   name: Vonage
   slug: vonage
@@ -1775,10 +1775,10 @@ providers:
   tags: *id073
   url: /providers/vonage/
 - agent_band: agent-ready
-  agent_readiness: 48.0
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 72.3
   mcp: *id074
   name: WhatsApp Business Platform (Meta)
   slug: whatsapp
@@ -1797,10 +1797,10 @@ providers:
   tags: *id077
   url: null
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 72.4
   mcp: *id078
   name: Zendesk
   slug: zendesk

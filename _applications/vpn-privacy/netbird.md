@@ -95,11 +95,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.3
-    band: strong
+    agent_band: agent-ready
+    agent_readiness: 35.3
+    band: exemplar
     in_catalog: true
-    kin_score: 61.7
+    kin_score: 72.1
     mcp: &id001
       status: none
     slug: amazon-kinesis-firehose
@@ -125,11 +125,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -157,10 +157,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.2
+    agent_readiness: 37.2
     band: exemplar
     in_catalog: true
-    kin_score: 74.5
+    kin_score: 73.1
     mcp: &id005
       status: none
     slug: authentik
@@ -187,7 +187,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.1
+    agent_readiness: 34.4
     band: exemplar
     in_catalog: true
     kin_score: 67.2
@@ -218,10 +218,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.6
+    agent_readiness: 48.6
     band: exemplar
     in_catalog: true
-    kin_score: 79.2
+    kin_score: 80.0
     mcp: &id009
       source: https://github.com/datadog-labs/mcp-server
       status: verified
@@ -249,10 +249,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 20.9
     band: thin
     in_catalog: true
-    kin_score: 31.8
+    kin_score: 34.7
     mcp: &id011
       status: none
     slug: duo-security
@@ -279,10 +279,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.9
+    agent_readiness: 27.4
     band: strong
     in_catalog: true
-    kin_score: 64.7
+    kin_score: 64.0
     mcp: &id013
       source: https://fleetdm.com/guides/fleet-mcp
       status: documented
@@ -309,11 +309,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id015
       status: none
     slug: google-identity-platform
@@ -340,10 +340,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.5
+    agent_readiness: 55.3
     band: strong
     in_catalog: true
-    kin_score: 65.0
+    kin_score: 63.5
     mcp: &id017
       status: none
     slug: huntress
@@ -369,11 +369,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.2
+    agent_band: agent-ready
+    agent_readiness: 31.3
     band: thin
     in_catalog: true
-    kin_score: 34.0
+    kin_score: 33.6
     mcp: &id019
       source: https://registry.modelcontextprotocol.io/v0/servers?search=jumpcloud
       status: verified
@@ -401,7 +401,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
+    agent_readiness: 17.3
     band: thin
     in_catalog: true
     kin_score: 35.3
@@ -431,10 +431,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id023
       status: none
     slug: microsoft-entra
@@ -461,10 +461,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.4
+    agent_readiness: 29.1
     band: exemplar
     in_catalog: true
-    kin_score: 69.4
+    kin_score: 68.1
     mcp: &id025
       status: none
     slug: microsoft-intune
@@ -491,10 +491,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.8
+    agent_readiness: 47.1
     band: exemplar
     in_catalog: true
-    kin_score: 78.0
+    kin_score: 81.8
     mcp: &id027
       source: https://developer.okta.com/docs/concepts/mcp-server/
       status: verified
@@ -522,10 +522,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.1
+    agent_readiness: 16.9
     band: emerging
     in_catalog: true
-    kin_score: 19.1
+    kin_score: 25.1
     mcp: &id029
       status: none
     slug: pocket-id
@@ -555,7 +555,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 22.4
+    kin_score: 22.0
     mcp: &id031
       source: https://github.com/Sentinel-One/purple-mcp
       status: verified
@@ -583,10 +583,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 14.3
+    kin_score: 15.5
     mcp: &id033
       status: none
     slug: wazuh
@@ -613,10 +613,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.9
-    band: strong
+    agent_readiness: 25.9
+    band: developing
     in_catalog: true
-    kin_score: 55.3
+    kin_score: 54.1
     mcp: &id035
       status: none
     slug: zitadel
@@ -640,22 +640,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/vpn-privacy/netbird/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 25.3
-  band: strong
+- agent_band: agent-ready
+  agent_readiness: 35.3
+  band: exemplar
   in_catalog: true
-  kin_score: 61.7
+  kin_score: 72.1
   mcp: *id001
   name: Amazon Data Firehose
   slug: amazon-kinesis-firehose
   status: profiled
   tags: *id002
   url: /providers/amazon-kinesis-firehose/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id003
   name: Amazon S3
   slug: amazon-s3
@@ -663,10 +663,10 @@ providers:
   tags: *id004
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 33.2
+  agent_readiness: 37.2
   band: exemplar
   in_catalog: true
-  kin_score: 74.5
+  kin_score: 73.1
   mcp: *id005
   name: Authentik
   slug: authentik
@@ -674,7 +674,7 @@ providers:
   tags: *id006
   url: /providers/authentik/
 - agent_band: agent-ready
-  agent_readiness: 35.1
+  agent_readiness: 34.4
   band: exemplar
   in_catalog: true
   kin_score: 67.2
@@ -685,10 +685,10 @@ providers:
   tags: *id008
   url: /providers/crowdstrike/
 - agent_band: agent-ready
-  agent_readiness: 49.6
+  agent_readiness: 48.6
   band: exemplar
   in_catalog: true
-  kin_score: 79.2
+  kin_score: 80.0
   mcp: *id009
   name: Datadog
   slug: datadog
@@ -696,10 +696,10 @@ providers:
   tags: *id010
   url: /providers/datadog/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 20.9
   band: thin
   in_catalog: true
-  kin_score: 31.8
+  kin_score: 34.7
   mcp: *id011
   name: Duo SSO
   slug: duo-security
@@ -707,21 +707,21 @@ providers:
   tags: *id012
   url: /providers/duo-security/
 - agent_band: agent-aware
-  agent_readiness: 26.9
+  agent_readiness: 27.4
   band: strong
   in_catalog: true
-  kin_score: 64.7
+  kin_score: 64.0
   mcp: *id013
   name: FleetDM
   slug: fleet
   status: profiled
   tags: *id014
   url: /providers/fleet/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id015
   name: Google
   slug: google-identity-platform
@@ -729,21 +729,21 @@ providers:
   tags: *id016
   url: /providers/google-identity-platform/
 - agent_band: agent-ready
-  agent_readiness: 56.5
+  agent_readiness: 55.3
   band: strong
   in_catalog: true
-  kin_score: 65.0
+  kin_score: 63.5
   mcp: *id017
   name: Huntress
   slug: huntress
   status: profiled
   tags: *id018
   url: /providers/huntress/
-- agent_band: agent-aware
-  agent_readiness: 23.2
+- agent_band: agent-ready
+  agent_readiness: 31.3
   band: thin
   in_catalog: true
-  kin_score: 34.0
+  kin_score: 33.6
   mcp: *id019
   name: JumpCloud
   slug: jumpcloud
@@ -751,7 +751,7 @@ providers:
   tags: *id020
   url: /providers/jumpcloud/
 - agent_band: agent-aware
-  agent_readiness: 17.6
+  agent_readiness: 17.3
   band: thin
   in_catalog: true
   kin_score: 35.3
@@ -762,10 +762,10 @@ providers:
   tags: *id022
   url: /providers/keycloak/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id023
   name: Microsoft / Entra ID
   slug: microsoft-entra
@@ -773,10 +773,10 @@ providers:
   tags: *id024
   url: /providers/microsoft-entra/
 - agent_band: agent-ready
-  agent_readiness: 31.4
+  agent_readiness: 29.1
   band: exemplar
   in_catalog: true
-  kin_score: 69.4
+  kin_score: 68.1
   mcp: *id025
   name: Microsoft Intune
   slug: microsoft-intune
@@ -784,10 +784,10 @@ providers:
   tags: *id026
   url: /providers/microsoft-intune/
 - agent_band: agent-ready
-  agent_readiness: 53.8
+  agent_readiness: 47.1
   band: exemplar
   in_catalog: true
-  kin_score: 78.0
+  kin_score: 81.8
   mcp: *id027
   name: Okta
   slug: okta
@@ -795,10 +795,10 @@ providers:
   tags: *id028
   url: /providers/okta/
 - agent_band: agent-aware
-  agent_readiness: 20.1
+  agent_readiness: 16.9
   band: emerging
   in_catalog: true
-  kin_score: 19.1
+  kin_score: 25.1
   mcp: *id029
   name: Pocket ID
   slug: pocket-id
@@ -809,7 +809,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 22.4
+  kin_score: 22.0
   mcp: *id031
   name: SentinelOne Singularity / Data Lake
   slug: sentinelone
@@ -817,10 +817,10 @@ providers:
   tags: *id032
   url: /providers/sentinelone/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 14.3
+  kin_score: 15.5
   mcp: *id033
   name: Wazuh
   slug: wazuh
@@ -828,10 +828,10 @@ providers:
   tags: *id034
   url: /providers/wazuh/
 - agent_band: agent-aware
-  agent_readiness: 20.9
-  band: strong
+  agent_readiness: 25.9
+  band: developing
   in_catalog: true
-  kin_score: 55.3
+  kin_score: 54.1
   mcp: *id035
   name: Zitadel
   slug: zitadel

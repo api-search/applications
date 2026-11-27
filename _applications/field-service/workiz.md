@@ -4,6 +4,15 @@ app_slug: workiz
 app_url: https://www.workiz.com/
 author: API Evangelist
 capabilities:
+- attribution: API Evangelist extension
+  id: AE-210.80
+  key: AE-210.80
+  layer: domain
+  name: Booking Channel Distribution
+  providers:
+  - Reserve with Google
+  url: /capabilities/booking-channel-distribution/
+  via_parent: null
 - attribution: Turbo EA
   id: BC-2420.10
   key: dispatch-management
@@ -52,15 +61,6 @@ capabilities:
   - Wisetack
   url: /capabilities/consumer-payment-options/
   via_parent: Consumer Payment Options
-- attribution: Turbo EA
-  id: BC-2800.10
-  key: scheduling-appointment-management
-  layer: domain
-  name: Scheduling & Appointment Management
-  providers:
-  - Reserve with Google
-  url: /capabilities/scheduling-appointment-management/
-  via_parent: null
 - attribution: Turbo EA
   id: BC-400.60
   key: digital-marketing-management
@@ -149,7 +149,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.5
+    kin_score: 11.1
     mcp: &id001
       status: none
     slug: angi
@@ -176,10 +176,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 3.9
-    band: minimal
+    agent_readiness: 3.8
+    band: emerging
     in_catalog: true
-    kin_score: 9.2
+    kin_score: 14.0
     mcp: &id003
       status: unknown
     slug: answerconnect
@@ -206,10 +206,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
+    agent_readiness: 40.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.3
+    kin_score: 70.3
     mcp: &id005
       status: none
     slug: companycam
@@ -261,11 +261,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id009
       source: https://github.com/google/mcp
       status: verified
@@ -292,11 +292,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id011
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -327,7 +327,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 15.0
+    kin_score: 18.4
     mcp: &id013
       status: none
     slug: linxup
@@ -354,10 +354,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id015
       status: none
     slug: mailchimp
@@ -383,11 +383,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 13.2
+    kin_score: 18.4
     mcp: &id017
       status: none
     slug: nicejob
@@ -405,19 +405,19 @@ integrations:
   source: https://www.workiz.com/integrations/
   tier: declared
 - capability:
-    attribution: Turbo EA
-    id: BC-2800.10
-    key: scheduling-appointment-management
-    name: Scheduling & Appointment Management
-    url: /capabilities/scheduling-appointment-management/
+    attribution: API Evangelist extension
+    id: AE-210.80
+    key: AE-210.80
+    name: Booking Channel Distribution
+    url: /capabilities/booking-channel-distribution/
     via_parent: null
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id019
       source: https://github.com/google/mcp
       status: verified
@@ -446,9 +446,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 7.8
+    kin_score: 12.8
     mcp: &id021
       status: none
     slug: searchkings
@@ -475,10 +475,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.6
+    agent_readiness: 23.1
     band: developing
     in_catalog: true
-    kin_score: 44.3
+    kin_score: 44.8
     mcp: &id023
       status: none
     slug: sunbit
@@ -505,10 +505,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 24.9
     band: thin
     in_catalog: true
-    kin_score: 30.3
+    kin_score: 29.8
     mcp: &id025
       status: none
     slug: thumbtack
@@ -535,10 +535,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 16.9
     band: thin
     in_catalog: true
-    kin_score: 32.7
+    kin_score: 34.9
     mcp: &id027
       status: none
     slug: wisetack
@@ -565,10 +565,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 53.4
-    band: strong
+    agent_readiness: 46.7
+    band: exemplar
     in_catalog: true
-    kin_score: 64.1
+    kin_score: 68.2
     mcp: &id029
       source: https://github.com/Yelp/yelp-mcp
       status: verified
@@ -596,10 +596,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id031
       source: https://zapier.com/mcp
       status: verified
@@ -628,7 +628,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.5
+  kin_score: 11.1
   mcp: *id001
   name: Angi Leads
   slug: angi
@@ -636,10 +636,10 @@ providers:
   tags: *id002
   url: /providers/angi/
 - agent_band: human-only
-  agent_readiness: 3.9
-  band: minimal
+  agent_readiness: 3.8
+  band: emerging
   in_catalog: true
-  kin_score: 9.2
+  kin_score: 14.0
   mcp: *id003
   name: AnswerConnect
   slug: answerconnect
@@ -647,10 +647,10 @@ providers:
   tags: *id004
   url: /providers/answerconnect/
 - agent_band: agent-ready
-  agent_readiness: 40.9
+  agent_readiness: 40.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.3
+  kin_score: 70.3
   mcp: *id005
   name: CompanyCam
   slug: companycam
@@ -668,22 +668,22 @@ providers:
   status: queued for profiling
   tags: *id008
   url: null
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id009
   name: Google Calendar
   slug: google-calendar
   status: profiled
   tags: *id010
   url: /providers/google-calendar/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id011
   name: Intuit QuickBooks
   slug: quickbooks
@@ -694,7 +694,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 15.0
+  kin_score: 18.4
   mcp: *id013
   name: Linxup
   slug: linxup
@@ -702,21 +702,21 @@ providers:
   tags: *id014
   url: /providers/linxup/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id015
   name: Mailchimp
   slug: mailchimp
   status: profiled
   tags: *id016
   url: /providers/mailchimp/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 13.2
+  kin_score: 18.4
   mcp: *id017
   name: NiceJob
   slug: nicejob
@@ -724,10 +724,10 @@ providers:
   tags: *id018
   url: /providers/nicejob/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id019
   name: Reserve with Google
   slug: google
@@ -736,9 +736,9 @@ providers:
   url: /providers/google/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 7.8
+  kin_score: 12.8
   mcp: *id021
   name: SearchKings
   slug: searchkings
@@ -746,10 +746,10 @@ providers:
   tags: *id022
   url: /providers/searchkings/
 - agent_band: agent-aware
-  agent_readiness: 23.6
+  agent_readiness: 23.1
   band: developing
   in_catalog: true
-  kin_score: 44.3
+  kin_score: 44.8
   mcp: *id023
   name: Sunbit
   slug: sunbit
@@ -757,10 +757,10 @@ providers:
   tags: *id024
   url: /providers/sunbit/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 24.9
   band: thin
   in_catalog: true
-  kin_score: 30.3
+  kin_score: 29.8
   mcp: *id025
   name: Thumbtack
   slug: thumbtack
@@ -768,10 +768,10 @@ providers:
   tags: *id026
   url: /providers/thumbtack/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 16.9
   band: thin
   in_catalog: true
-  kin_score: 32.7
+  kin_score: 34.9
   mcp: *id027
   name: Wisetack
   slug: wisetack
@@ -779,10 +779,10 @@ providers:
   tags: *id028
   url: /providers/wisetack/
 - agent_band: agent-native
-  agent_readiness: 53.4
-  band: strong
+  agent_readiness: 46.7
+  band: exemplar
   in_catalog: true
-  kin_score: 64.1
+  kin_score: 68.2
   mcp: *id029
   name: Yelp
   slug: yelp
@@ -790,10 +790,10 @@ providers:
   tags: *id030
   url: /providers/yelp/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id031
   name: Zapier
   slug: zapier

@@ -53,10 +53,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id002
       source: https://docs.stripe.com/mcp
       status: verified
@@ -112,10 +112,10 @@ noindex: false
 permalink: /applications/kids-family-parenting/brightwheel/
 providers:
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id002
   name: Stripe Billing
   slug: stripe

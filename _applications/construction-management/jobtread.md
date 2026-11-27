@@ -93,10 +93,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.3
+    agent_readiness: 34.6
     band: developing
     in_catalog: true
-    kin_score: 46.8
+    kin_score: 52.2
     mcp: &id001
       status: none
     slug: eagleview
@@ -123,10 +123,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 31.7
     band: developing
     in_catalog: true
-    kin_score: 42.0
+    kin_score: 44.9
     mcp: &id003
       status: none
     slug: gusto
@@ -179,10 +179,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
-    band: thin
+    agent_readiness: 20.2
+    band: emerging
     in_catalog: true
-    kin_score: 26.2
+    kin_score: 25.0
     mcp: &id007
       status: none
     slug: home-depot
@@ -205,11 +205,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 13.2
+    kin_score: 18.4
     mcp: &id009
       status: none
     slug: nicejob
@@ -239,7 +239,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.4
     mcp: &id011
       status: unknown
     slug: poolcorp
@@ -262,11 +262,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id013
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -295,9 +295,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.6
-    band: emerging
+    band: minimal
     in_catalog: true
-    kin_score: 12.0
+    kin_score: 10.2
     mcp: &id015
       status: unknown
     slug: qxo-building-products
@@ -376,10 +376,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id021
       source: https://zapier.com/mcp
       status: verified
@@ -405,10 +405,10 @@ noindex: false
 permalink: /applications/construction-management/jobtread/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 35.3
+  agent_readiness: 34.6
   band: developing
   in_catalog: true
-  kin_score: 46.8
+  kin_score: 52.2
   mcp: *id001
   name: Eagleview
   slug: eagleview
@@ -416,10 +416,10 @@ providers:
   tags: *id002
   url: /providers/eagleview/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 31.7
   band: developing
   in_catalog: true
-  kin_score: 42.0
+  kin_score: 44.9
   mcp: *id003
   name: Gusto
   slug: gusto
@@ -438,21 +438,21 @@ providers:
   tags: *id006
   url: null
 - agent_band: agent-aware
-  agent_readiness: 20.7
-  band: thin
+  agent_readiness: 20.2
+  band: emerging
   in_catalog: true
-  kin_score: 26.2
+  kin_score: 25.0
   mcp: *id007
   name: Home Depot
   slug: home-depot
   status: profiled
   tags: *id008
   url: /providers/home-depot/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 13.2
+  kin_score: 18.4
   mcp: *id009
   name: NiceJob
   slug: nicejob
@@ -463,18 +463,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.4
   mcp: *id011
   name: PoolCorp
   slug: poolcorp
   status: profiled
   tags: *id012
   url: /providers/poolcorp/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id013
   name: QuickBooks Online
   slug: quickbooks
@@ -483,9 +483,9 @@ providers:
   url: /providers/quickbooks/
 - agent_band: human-only
   agent_readiness: 0.6
-  band: emerging
+  band: minimal
   in_catalog: true
-  kin_score: 12.0
+  kin_score: 10.2
   mcp: *id015
   name: QXO
   slug: qxo-building-products
@@ -515,10 +515,10 @@ providers:
   tags: *id020
   url: null
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id021
   name: Zapier
   slug: zapier

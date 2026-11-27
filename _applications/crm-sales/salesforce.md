@@ -38,10 +38,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.1
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.5
+    kin_score: 76.3
     mcp: &id001
       source: https://github.com/SmartBear/smartbear-mcp
       status: verified
@@ -67,10 +67,10 @@ noindex: false
 permalink: /applications/crm-sales/salesforce/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 53.1
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.5
+  kin_score: 76.3
   mcp: *id001
   name: Bugsnag
   slug: bugsnag

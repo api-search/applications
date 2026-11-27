@@ -191,9 +191,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.4
+    kin_score: 17.5
     mcp: &id001
       status: unknown
     slug: answering-legal
@@ -220,10 +220,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 17.5
     band: emerging
     in_catalog: true
-    kin_score: 15.2
+    kin_score: 19.3
     mcp: &id003
       source: https://api.briefpoint.ai/mcp
       status: verified
@@ -251,10 +251,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.8
+    agent_readiness: 34.9
     band: developing
     in_catalog: true
-    kin_score: 53.9
+    kin_score: 54.1
     mcp: &id005
       status: none
     slug: callrail
@@ -281,10 +281,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.2
+    agent_readiness: 12.0
     band: emerging
     in_catalog: true
-    kin_score: 17.6
+    kin_score: 19.3
     mcp: &id007
       status: none
     slug: case-status
@@ -311,10 +311,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id009
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -343,9 +343,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.3
+    kin_score: 14.3
     mcp: &id011
       status: unknown
     slug: clearbrief
@@ -375,7 +375,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 15.8
+    kin_score: 22.7
     mcp: &id013
       status: none
     slug: collbox
@@ -402,10 +402,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 16.6
+    kin_score: 21.8
     mcp: &id015
       source: https://courtdrive.com/
       status: documented
@@ -433,10 +433,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 44.8
     band: developing
     in_catalog: true
-    kin_score: 47.9
+    kin_score: 45.9
     mcp: &id017
       source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
       status: verified
@@ -463,11 +463,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id019
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -494,11 +494,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id021
       source: https://github.com/google/mcp
       status: verified
@@ -551,11 +551,11 @@ integrations:
     via_parent: Voice & Telephony
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 15.8
+    kin_score: 23.2
     mcp: &id025
       status: unknown
     slug: intaker
@@ -582,10 +582,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.2
+    agent_readiness: 39.4
     band: strong
     in_catalog: true
-    kin_score: 56.0
+    kin_score: 57.3
     mcp: &id027
       status: unknown
     slug: lawmatics
@@ -612,10 +612,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.4
-    band: emerging
+    agent_readiness: 16.1
+    band: thin
     in_catalog: true
-    kin_score: 24.6
+    kin_score: 29.6
     mcp: &id029
       status: none
     slug: lawtoolbox
@@ -642,10 +642,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.3
+    agent_readiness: 45.3
     band: strong
     in_catalog: true
-    kin_score: 58.8
+    kin_score: 61.2
     mcp: &id031
       status: unknown
     slug: levitate
@@ -672,10 +672,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id033
       status: none
     slug: mailchimp
@@ -702,10 +702,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.5
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 70.6
+    kin_score: 70.8
     mcp: &id035
       source: https://github.com/microsoft/mcp
       status: verified
@@ -733,10 +733,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.0
+    agent_readiness: 44.6
     band: developing
     in_catalog: true
-    kin_score: 39.5
+    kin_score: 50.2
     mcp: &id037
       source: https://github.com/MotaWord/mcp
       status: verified
@@ -764,10 +764,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 10.4
+    kin_score: 14.9
     mcp: &id039
       source: https://netdocuments.com
       status: documented
@@ -795,10 +795,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id041
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -825,11 +825,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id043
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -857,10 +857,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.9
+    agent_readiness: 20.8
     band: emerging
     in_catalog: true
-    kin_score: 12.8
+    kin_score: 20.1
     mcp: &id045
       status: unknown
     slug: ruby-receptionists
@@ -887,10 +887,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 0.7
     band: minimal
     in_catalog: true
-    kin_score: 9.3
+    kin_score: 8.6
     mcp: &id047
       status: none
     slug: scorpion
@@ -918,9 +918,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 2.5
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 23.3
+    kin_score: 29.0
     mcp: &id049
       status: unknown
     slug: smith-ai
@@ -950,7 +950,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 21.6
+    kin_score: 22.6
     mcp: &id051
       status: unknown
     slug: supio
@@ -976,11 +976,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 6.8
+    agent_band: human-only
+    agent_readiness: 3.8
     band: emerging
     in_catalog: true
-    kin_score: 20.3
+    kin_score: 25.4
     mcp: &id053
       status: unknown
     slug: vxt
@@ -1007,10 +1007,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id055
       source: https://zapier.com/mcp
       status: verified
@@ -1037,9 +1037,9 @@ permalink: /applications/legal-practice/mycase/
 providers:
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.4
+  kin_score: 17.5
   mcp: *id001
   name: Answering Legal
   slug: answering-legal
@@ -1047,10 +1047,10 @@ providers:
   tags: *id002
   url: /providers/answering-legal/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 17.5
   band: emerging
   in_catalog: true
-  kin_score: 15.2
+  kin_score: 19.3
   mcp: *id003
   name: Briefpoint
   slug: briefpoint
@@ -1058,10 +1058,10 @@ providers:
   tags: *id004
   url: /providers/briefpoint/
 - agent_band: agent-ready
-  agent_readiness: 32.8
+  agent_readiness: 34.9
   band: developing
   in_catalog: true
-  kin_score: 53.9
+  kin_score: 54.1
   mcp: *id005
   name: CallRail
   slug: callrail
@@ -1069,10 +1069,10 @@ providers:
   tags: *id006
   url: /providers/callrail/
 - agent_band: agent-aware
-  agent_readiness: 12.2
+  agent_readiness: 12.0
   band: emerging
   in_catalog: true
-  kin_score: 17.6
+  kin_score: 19.3
   mcp: *id007
   name: Case Status
   slug: case-status
@@ -1080,10 +1080,10 @@ providers:
   tags: *id008
   url: /providers/case-status/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id009
   name: Claude (Anthropic)
   slug: anthropic
@@ -1092,9 +1092,9 @@ providers:
   url: /providers/anthropic/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.3
+  kin_score: 14.3
   mcp: *id011
   name: Clearbrief
   slug: clearbrief
@@ -1105,7 +1105,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 15.8
+  kin_score: 22.7
   mcp: *id013
   name: CollBox
   slug: collbox
@@ -1113,10 +1113,10 @@ providers:
   tags: *id014
   url: /providers/collbox/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 16.6
+  kin_score: 21.8
   mcp: *id015
   name: CourtDrive
   slug: courtdrive
@@ -1124,32 +1124,32 @@ providers:
   tags: *id016
   url: /providers/courtdrive/
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 44.8
   band: developing
   in_catalog: true
-  kin_score: 47.9
+  kin_score: 45.9
   mcp: *id017
   name: Dropbox
   slug: dropbox
   status: profiled
   tags: *id018
   url: /providers/dropbox/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id019
   name: Gmail
   slug: google-gmail
   status: profiled
   tags: *id020
   url: /providers/google-gmail/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id021
   name: Google Calendar
   slug: google-calendar
@@ -1167,11 +1167,11 @@ providers:
   status: queued for profiling
   tags: *id024
   url: null
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 15.8
+  kin_score: 23.2
   mcp: *id025
   name: Intaker
   slug: intaker
@@ -1179,10 +1179,10 @@ providers:
   tags: *id026
   url: /providers/intaker/
 - agent_band: agent-ready
-  agent_readiness: 40.2
+  agent_readiness: 39.4
   band: strong
   in_catalog: true
-  kin_score: 56.0
+  kin_score: 57.3
   mcp: *id027
   name: Lawmatics
   slug: lawmatics
@@ -1190,10 +1190,10 @@ providers:
   tags: *id028
   url: /providers/lawmatics/
 - agent_band: agent-aware
-  agent_readiness: 16.4
-  band: emerging
+  agent_readiness: 16.1
+  band: thin
   in_catalog: true
-  kin_score: 24.6
+  kin_score: 29.6
   mcp: *id029
   name: LawToolBox
   slug: lawtoolbox
@@ -1201,10 +1201,10 @@ providers:
   tags: *id030
   url: /providers/lawtoolbox/
 - agent_band: agent-ready
-  agent_readiness: 46.3
+  agent_readiness: 45.3
   band: strong
   in_catalog: true
-  kin_score: 58.8
+  kin_score: 61.2
   mcp: *id031
   name: Levitate
   slug: levitate
@@ -1212,10 +1212,10 @@ providers:
   tags: *id032
   url: /providers/levitate/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id033
   name: Mailchimp
   slug: mailchimp
@@ -1223,10 +1223,10 @@ providers:
   tags: *id034
   url: /providers/mailchimp/
 - agent_band: agent-ready
-  agent_readiness: 49.5
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 70.6
+  kin_score: 70.8
   mcp: *id035
   name: Microsoft Outlook
   slug: microsoft-outlook
@@ -1234,10 +1234,10 @@ providers:
   tags: *id036
   url: /providers/microsoft-outlook/
 - agent_band: agent-ready
-  agent_readiness: 37.0
+  agent_readiness: 44.6
   band: developing
   in_catalog: true
-  kin_score: 39.5
+  kin_score: 50.2
   mcp: *id037
   name: MotaWord
   slug: motaword
@@ -1245,10 +1245,10 @@ providers:
   tags: *id038
   url: /providers/motaword/
 - agent_band: agent-aware
-  agent_readiness: 21.6
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 10.4
+  kin_score: 14.9
   mcp: *id039
   name: NetDocuments
   slug: netdocuments
@@ -1256,21 +1256,21 @@ providers:
   tags: *id040
   url: /providers/netdocuments/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id041
   name: OpenAI
   slug: openai
   status: profiled
   tags: *id042
   url: /providers/openai/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id043
   name: QuickBooks
   slug: quickbooks
@@ -1278,10 +1278,10 @@ providers:
   tags: *id044
   url: /providers/quickbooks/
 - agent_band: agent-aware
-  agent_readiness: 16.9
+  agent_readiness: 20.8
   band: emerging
   in_catalog: true
-  kin_score: 12.8
+  kin_score: 20.1
   mcp: *id045
   name: Ruby Receptionists
   slug: ruby-receptionists
@@ -1289,10 +1289,10 @@ providers:
   tags: *id046
   url: /providers/ruby-receptionists/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 0.7
   band: minimal
   in_catalog: true
-  kin_score: 9.3
+  kin_score: 8.6
   mcp: *id047
   name: Scorpion
   slug: scorpion
@@ -1301,9 +1301,9 @@ providers:
   url: /providers/scorpion/
 - agent_band: human-only
   agent_readiness: 2.5
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 23.3
+  kin_score: 29.0
   mcp: *id049
   name: Smith.ai
   slug: smith-ai
@@ -1314,18 +1314,18 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 21.6
+  kin_score: 22.6
   mcp: *id051
   name: Supio
   slug: supio
   status: profiled
   tags: *id052
   url: /providers/supio/
-- agent_band: agent-aware
-  agent_readiness: 6.8
+- agent_band: human-only
+  agent_readiness: 3.8
   band: emerging
   in_catalog: true
-  kin_score: 20.3
+  kin_score: 25.4
   mcp: *id053
   name: VXT
   slug: vxt
@@ -1333,10 +1333,10 @@ providers:
   tags: *id054
   url: /providers/vxt/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id055
   name: Zapier
   slug: zapier

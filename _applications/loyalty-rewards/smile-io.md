@@ -118,10 +118,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.9
-    band: strong
+    agent_readiness: 38.2
+    band: exemplar
     in_catalog: true
-    kin_score: 65.4
+    kin_score: 69.8
     mcp: &id001
       status: none
     slug: dotdigital
@@ -149,9 +149,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 2.5
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 19.0
+    kin_score: 27.0
     mcp: &id003
       status: none
     slug: glew
@@ -178,10 +178,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_readiness: 25.3
     band: developing
     in_catalog: true
-    kin_score: 43.6
+    kin_score: 42.5
     mcp: &id005
       source: https://github.com/gorgias/mcp-cookbook
       status: verified
@@ -209,10 +209,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id007
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -240,10 +240,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_readiness: 19.2
+    band: emerging
     in_catalog: true
-    kin_score: 27.2
+    kin_score: 26.0
     mcp: &id009
       status: none
     slug: judge-me
@@ -270,10 +270,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 54.9
+    agent_readiness: 58.7
     band: exemplar
     in_catalog: true
-    kin_score: 77.6
+    kin_score: 78.1
     mcp: &id011
       source: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
       status: verified
@@ -327,10 +327,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.2
+    agent_readiness: 32.1
     band: developing
     in_catalog: true
-    kin_score: 50.0
+    kin_score: 48.9
     mcp: &id015
       status: none
     slug: loop-returns
@@ -357,10 +357,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 16.5
+    kin_score: 21.0
     mcp: &id017
       status: none
     slug: loox
@@ -387,10 +387,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id019
       status: none
     slug: mailchimp
@@ -417,10 +417,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 20.2
     band: developing
     in_catalog: true
-    kin_score: 41.7
+    kin_score: 43.6
     mcp: &id021
       status: none
     slug: okendo
@@ -447,10 +447,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 58.2
+    agent_readiness: 57.0
     band: exemplar
     in_catalog: true
-    kin_score: 76.8
+    kin_score: 74.8
     mcp: &id023
       status: none
     slug: omnisend
@@ -503,10 +503,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.9
+    agent_readiness: 12.7
     band: thin
     in_catalog: true
-    kin_score: 26.7
+    kin_score: 36.5
     mcp: &id027
       status: none
     slug: reamaze
@@ -533,10 +533,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
-    band: thin
+    agent_readiness: 26.4
+    band: emerging
     in_catalog: true
-    kin_score: 26.4
+    kin_score: 25.9
     mcp: &id029
       source: https://registry.modelcontextprotocol.io/v0/servers?search=rechargeapps
       status: verified
@@ -564,10 +564,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 28.1
+    kin_score: 27.1
     mcp: &id031
       status: none
     slug: reviews-io
@@ -594,10 +594,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.3
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 34.4
+    kin_score: 33.4
     mcp: &id033
       status: none
     slug: stamped
@@ -624,10 +624,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 20.9
     band: thin
     in_catalog: true
-    kin_score: 32.0
+    kin_score: 31.6
     mcp: &id035
       status: unknown
     slug: stay-ai
@@ -654,10 +654,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.5
+    agent_readiness: 30.9
     band: strong
     in_catalog: true
-    kin_score: 64.3
+    kin_score: 63.9
     mcp: &id037
       source: https://registry.modelcontextprotocol.io/v0/servers?search=tapcart
       status: verified
@@ -685,10 +685,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 20.3
     band: thin
     in_catalog: true
-    kin_score: 34.0
+    kin_score: 33.5
     mcp: &id039
       source: https://core-api.yotpo.com/docs/connect-to-yotpo-mcp
       status: verified
@@ -714,10 +714,10 @@ noindex: false
 permalink: /applications/loyalty-rewards/smile-io/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 38.9
-  band: strong
+  agent_readiness: 38.2
+  band: exemplar
   in_catalog: true
-  kin_score: 65.4
+  kin_score: 69.8
   mcp: *id001
   name: Dotdigital
   slug: dotdigital
@@ -726,9 +726,9 @@ providers:
   url: /providers/dotdigital/
 - agent_band: human-only
   agent_readiness: 2.5
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 19.0
+  kin_score: 27.0
   mcp: *id003
   name: Glew
   slug: glew
@@ -736,10 +736,10 @@ providers:
   tags: *id004
   url: /providers/glew/
 - agent_band: agent-aware
-  agent_readiness: 25.9
+  agent_readiness: 25.3
   band: developing
   in_catalog: true
-  kin_score: 43.6
+  kin_score: 42.5
   mcp: *id005
   name: Gorgias
   slug: gorgias
@@ -747,10 +747,10 @@ providers:
   tags: *id006
   url: /providers/gorgias/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id007
   name: HubSpot
   slug: hubspot
@@ -758,10 +758,10 @@ providers:
   tags: *id008
   url: /providers/hubspot/
 - agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+  agent_readiness: 19.2
+  band: emerging
   in_catalog: true
-  kin_score: 27.2
+  kin_score: 26.0
   mcp: *id009
   name: Judge.me
   slug: judge-me
@@ -769,10 +769,10 @@ providers:
   tags: *id010
   url: /providers/judge-me/
 - agent_band: agent-native
-  agent_readiness: 54.9
+  agent_readiness: 58.7
   band: exemplar
   in_catalog: true
-  kin_score: 77.6
+  kin_score: 78.1
   mcp: *id011
   name: Klaviyo
   slug: klaviyo
@@ -791,10 +791,10 @@ providers:
   tags: *id014
   url: null
 - agent_band: agent-ready
-  agent_readiness: 32.2
+  agent_readiness: 32.1
   band: developing
   in_catalog: true
-  kin_score: 50.0
+  kin_score: 48.9
   mcp: *id015
   name: Loop Returns
   slug: loop-returns
@@ -802,10 +802,10 @@ providers:
   tags: *id016
   url: /providers/loop-returns/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 16.5
+  kin_score: 21.0
   mcp: *id017
   name: Loox
   slug: loox
@@ -813,10 +813,10 @@ providers:
   tags: *id018
   url: /providers/loox/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id019
   name: Mailchimp
   slug: mailchimp
@@ -824,10 +824,10 @@ providers:
   tags: *id020
   url: /providers/mailchimp/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 20.2
   band: developing
   in_catalog: true
-  kin_score: 41.7
+  kin_score: 43.6
   mcp: *id021
   name: Okendo
   slug: okendo
@@ -835,10 +835,10 @@ providers:
   tags: *id022
   url: /providers/okendo/
 - agent_band: agent-ready
-  agent_readiness: 58.2
+  agent_readiness: 57.0
   band: exemplar
   in_catalog: true
-  kin_score: 76.8
+  kin_score: 74.8
   mcp: *id023
   name: Omnisend
   slug: omnisend
@@ -857,10 +857,10 @@ providers:
   tags: *id026
   url: null
 - agent_band: agent-aware
-  agent_readiness: 12.9
+  agent_readiness: 12.7
   band: thin
   in_catalog: true
-  kin_score: 26.7
+  kin_score: 36.5
   mcp: *id027
   name: Re:amaze
   slug: reamaze
@@ -868,10 +868,10 @@ providers:
   tags: *id028
   url: /providers/reamaze/
 - agent_band: agent-aware
-  agent_readiness: 21.3
-  band: thin
+  agent_readiness: 26.4
+  band: emerging
   in_catalog: true
-  kin_score: 26.4
+  kin_score: 25.9
   mcp: *id029
   name: Recharge
   slug: recharge-payments
@@ -879,10 +879,10 @@ providers:
   tags: *id030
   url: /providers/recharge-payments/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 28.1
+  kin_score: 27.1
   mcp: *id031
   name: REVIEWS.io
   slug: reviews-io
@@ -890,10 +890,10 @@ providers:
   tags: *id032
   url: /providers/reviews-io/
 - agent_band: agent-aware
-  agent_readiness: 26.3
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 34.4
+  kin_score: 33.4
   mcp: *id033
   name: Stamped
   slug: stamped
@@ -901,10 +901,10 @@ providers:
   tags: *id034
   url: /providers/stamped/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 20.9
   band: thin
   in_catalog: true
-  kin_score: 32.0
+  kin_score: 31.6
   mcp: *id035
   name: Stay AI
   slug: stay-ai
@@ -912,10 +912,10 @@ providers:
   tags: *id036
   url: /providers/stay-ai/
 - agent_band: agent-ready
-  agent_readiness: 31.5
+  agent_readiness: 30.9
   band: strong
   in_catalog: true
-  kin_score: 64.3
+  kin_score: 63.9
   mcp: *id037
   name: Tapcart
   slug: tapcart
@@ -923,10 +923,10 @@ providers:
   tags: *id038
   url: /providers/tapcart/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 20.3
   band: thin
   in_catalog: true
-  kin_score: 34.0
+  kin_score: 33.5
   mcp: *id039
   name: Yotpo
   slug: yotpo

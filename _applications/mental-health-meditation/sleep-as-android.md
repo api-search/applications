@@ -112,10 +112,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id005
       status: none
     slug: facebook
@@ -142,10 +142,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id009
       status: none
     slug: google-admob
@@ -171,22 +171,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id015
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id016
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics
   provider: firebase
@@ -202,11 +202,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 7.4
-    band: emerging
+    agent_band: human-only
+    agent_readiness: 4.4
+    band: thin
     in_catalog: true
-    kin_score: 18.4
+    kin_score: 27.2
     mcp: &id001
       status: unknown
     slug: zepp-health
@@ -236,7 +236,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 5.7
     mcp: &id003
       status: none
     slug: automate
@@ -266,7 +266,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 21.4
+    kin_score: 20.0
     mcp: &id007
       status: none
     slug: garmin
@@ -292,11 +292,11 @@ integrations:
     via_parent: Smart Home
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.2
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 29.5
+    band: developing
     in_catalog: true
-    kin_score: 28.7
+    kin_score: 48.0
     mcp: &id011
       status: unknown
     slug: google-assistant
@@ -322,11 +322,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id013
       source: https://github.com/google/mcp
       status: verified
@@ -353,11 +353,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.1
+    band: developing
     in_catalog: true
-    kin_score: 36.2
+    kin_score: 51.4
     mcp: &id017
       status: none
     slug: google-fitness
@@ -384,10 +384,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id019
       source: https://github.com/google/mcp
       status: verified
@@ -415,10 +415,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 0.7
     band: emerging
     in_catalog: true
-    kin_score: 13.7
+    kin_score: 16.1
     mcp: &id021
       status: none
     slug: health-connect
@@ -444,11 +444,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: human-only
-    agent_readiness: 5.0
-    band: emerging
+    agent_band: agent-aware
+    agent_readiness: 5.6
+    band: thin
     in_catalog: true
-    kin_score: 22.2
+    kin_score: 34.5
     mcp: &id023
       source: https://www.home-assistant.io/integrations/mcp_server/
       status: verified
@@ -476,10 +476,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.3
+    agent_readiness: 42.4
     band: emerging
     in_catalog: true
-    kin_score: 25.0
+    kin_score: 24.1
     mcp: &id025
       source: https://github.com/IFTTT/ifttt-plugins
       status: verified
@@ -507,10 +507,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.8
+    agent_readiness: 16.5
     band: emerging
     in_catalog: true
-    kin_score: 16.0
+    kin_score: 15.4
     mcp: &id027
       status: none
     slug: mqtt
@@ -537,10 +537,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 7.0
-    band: emerging
+    agent_readiness: 6.9
+    band: thin
     in_catalog: true
-    kin_score: 20.3
+    kin_score: 29.7
     mcp: &id029
       status: none
     slug: repebble
@@ -567,10 +567,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.3
+    agent_readiness: 36.6
     band: thin
     in_catalog: true
-    kin_score: 34.1
+    kin_score: 33.2
     mcp: &id031
       status: none
     slug: samsung
@@ -597,10 +597,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_readiness: 32.7
     band: developing
     in_catalog: true
-    kin_score: 49.8
+    kin_score: 50.6
     mcp: &id033
       status: none
     slug: spotify
@@ -653,10 +653,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 24.9
     band: thin
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 35.6
     mcp: &id037
       status: none
     slug: xiaomi
@@ -680,11 +680,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/mental-health-meditation/sleep-as-android/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 7.4
-  band: emerging
+- agent_band: human-only
+  agent_readiness: 4.4
+  band: thin
   in_catalog: true
-  kin_score: 18.4
+  kin_score: 27.2
   mcp: *id001
   name: Amazfit (Zepp Health)
   slug: zepp-health
@@ -695,7 +695,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 5.7
   mcp: *id003
   name: Automate (LlamaLab)
   slug: automate
@@ -703,10 +703,10 @@ providers:
   tags: *id004
   url: /providers/automate/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id005
   name: Facebook Ads
   slug: facebook
@@ -717,7 +717,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 21.4
+  kin_score: 20.0
   mcp: *id007
   name: Garmin
   slug: garmin
@@ -725,54 +725,54 @@ providers:
   tags: *id008
   url: /providers/garmin/
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 35.3
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 65.2
   mcp: *id009
   name: Google AdMob
   slug: google-admob
   status: profiled
   tags: *id010
   url: /providers/google-admob/
-- agent_band: agent-aware
-  agent_readiness: 17.2
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 29.5
+  band: developing
   in_catalog: true
-  kin_score: 28.7
+  kin_score: 48.0
   mcp: *id011
   name: Google Assistant (App Actions)
   slug: google-assistant
   status: profiled
   tags: *id012
   url: /providers/google-assistant/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id013
   name: Google Calendar
   slug: google-calendar
   status: profiled
   tags: *id014
   url: /providers/google-calendar/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id015
   name: Google Firebase Analytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id016
-  url: /providers/firebase/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: thin
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 33.1
+  band: developing
   in_catalog: true
-  kin_score: 36.2
+  kin_score: 51.4
   mcp: *id017
   name: Google Fit
   slug: google-fitness
@@ -780,10 +780,10 @@ providers:
   tags: *id018
   url: /providers/google-fitness/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id019
   name: Google Home / Wear OS
   slug: google
@@ -791,21 +791,21 @@ providers:
   tags: *id020
   url: /providers/google/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 0.7
   band: emerging
   in_catalog: true
-  kin_score: 13.7
+  kin_score: 16.1
   mcp: *id021
   name: Health Connect
   slug: health-connect
   status: profiled
   tags: *id022
   url: /providers/health-connect/
-- agent_band: human-only
-  agent_readiness: 5.0
-  band: emerging
+- agent_band: agent-aware
+  agent_readiness: 5.6
+  band: thin
   in_catalog: true
-  kin_score: 22.2
+  kin_score: 34.5
   mcp: *id023
   name: Home Assistant
   slug: home-assistant
@@ -813,10 +813,10 @@ providers:
   tags: *id024
   url: /providers/home-assistant/
 - agent_band: agent-ready
-  agent_readiness: 43.3
+  agent_readiness: 42.4
   band: emerging
   in_catalog: true
-  kin_score: 25.0
+  kin_score: 24.1
   mcp: *id025
   name: IFTTT
   slug: ifttt
@@ -824,10 +824,10 @@ providers:
   tags: *id026
   url: /providers/ifttt/
 - agent_band: agent-aware
-  agent_readiness: 16.8
+  agent_readiness: 16.5
   band: emerging
   in_catalog: true
-  kin_score: 16.0
+  kin_score: 15.4
   mcp: *id027
   name: MQTT
   slug: mqtt
@@ -835,10 +835,10 @@ providers:
   tags: *id028
   url: /providers/mqtt/
 - agent_band: agent-aware
-  agent_readiness: 7.0
-  band: emerging
+  agent_readiness: 6.9
+  band: thin
   in_catalog: true
-  kin_score: 20.3
+  kin_score: 29.7
   mcp: *id029
   name: Pebble smartwatch
   slug: repebble
@@ -846,10 +846,10 @@ providers:
   tags: *id030
   url: /providers/repebble/
 - agent_band: agent-ready
-  agent_readiness: 37.3
+  agent_readiness: 36.6
   band: thin
   in_catalog: true
-  kin_score: 34.1
+  kin_score: 33.2
   mcp: *id031
   name: Samsung Health
   slug: samsung
@@ -857,10 +857,10 @@ providers:
   tags: *id032
   url: /providers/samsung/
 - agent_band: agent-ready
-  agent_readiness: 33.3
+  agent_readiness: 32.7
   band: developing
   in_catalog: true
-  kin_score: 49.8
+  kin_score: 50.6
   mcp: *id033
   name: Spotify
   slug: spotify
@@ -879,10 +879,10 @@ providers:
   tags: *id036
   url: null
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 24.9
   band: thin
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 35.6
   mcp: *id037
   name: Xiaomi Mi Band
   slug: xiaomi

@@ -122,10 +122,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.8
-    band: strong
+    agent_readiness: 37.9
+    band: exemplar
     in_catalog: true
-    kin_score: 60.5
+    kin_score: 68.5
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -153,10 +153,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id003
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -184,10 +184,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 26.3
     band: thin
     in_catalog: true
-    kin_score: 37.3
+    kin_score: 37.4
     mcp: &id005
       source: https://github.com/cloudflare/mcp-server-cloudflare
       status: verified
@@ -215,10 +215,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.3
+    agent_readiness: 20.5
     band: thin
     in_catalog: true
-    kin_score: 31.4
+    kin_score: 30.6
     mcp: &id007
       source: https://github.com/expo/expo-mcp
       status: verified
@@ -246,10 +246,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: developing
     in_catalog: true
-    kin_score: 49.5
+    kin_score: 50.6
     mcp: &id009
       source: https://docs.firecrawl.dev/mcp-server
       status: verified
@@ -277,10 +277,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id011
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -308,10 +308,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id013
       status: none
     slug: google-gemini
@@ -338,10 +338,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.4
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 63.2
+    kin_score: 63.6
     mcp: &id015
       source: https://github.com/ipinfo/mcp
       status: verified
@@ -369,10 +369,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id017
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -400,10 +400,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.1
+    agent_readiness: 50.3
     band: strong
     in_catalog: true
-    kin_score: 61.2
+    kin_score: 61.8
     mcp: &id019
       source: https://github.com/team-plain/cursor-plugin-mcp
       status: verified
@@ -431,10 +431,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id021
       source: https://github.com/PostHog/mcp
       status: verified
@@ -462,10 +462,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: developing
     in_catalog: true
-    kin_score: 54.1
+    kin_score: 53.6
     mcp: &id023
       source: https://github.com/pydantic/mcp-run-python
       status: verified
@@ -496,7 +496,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id025
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -524,10 +524,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id027
       source: https://docs.stripe.com/mcp
       status: verified
@@ -553,10 +553,10 @@ noindex: false
 permalink: /applications/subscription-billing/polar/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 40.8
-  band: strong
+  agent_readiness: 37.9
+  band: exemplar
   in_catalog: true
-  kin_score: 60.5
+  kin_score: 68.5
   mcp: *id001
   name: Amazon Web Services
   slug: amazon-web-services
@@ -564,10 +564,10 @@ providers:
   tags: *id002
   url: /providers/amazon-web-services/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id003
   name: Anthropic
   slug: anthropic
@@ -575,10 +575,10 @@ providers:
   tags: *id004
   url: /providers/anthropic/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 26.3
   band: thin
   in_catalog: true
-  kin_score: 37.3
+  kin_score: 37.4
   mcp: *id005
   name: Cloudflare Stream
   slug: cloudflare-stream
@@ -586,10 +586,10 @@ providers:
   tags: *id006
   url: /providers/cloudflare-stream/
 - agent_band: agent-aware
-  agent_readiness: 19.3
+  agent_readiness: 20.5
   band: thin
   in_catalog: true
-  kin_score: 31.4
+  kin_score: 30.6
   mcp: *id007
   name: Expo
   slug: expo
@@ -597,10 +597,10 @@ providers:
   tags: *id008
   url: /providers/expo/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: developing
   in_catalog: true
-  kin_score: 49.5
+  kin_score: 50.6
   mcp: *id009
   name: Firecrawl
   slug: firecrawl
@@ -608,10 +608,10 @@ providers:
   tags: *id010
   url: /providers/firecrawl/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id011
   name: GitHub
   slug: github
@@ -619,10 +619,10 @@ providers:
   tags: *id012
   url: /providers/github/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id013
   name: Google Gemini
   slug: google-gemini
@@ -630,10 +630,10 @@ providers:
   tags: *id014
   url: /providers/google-gemini/
 - agent_band: agent-ready
-  agent_readiness: 34.4
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 63.2
+  kin_score: 63.6
   mcp: *id015
   name: IPinfo
   slug: ipinfo
@@ -641,10 +641,10 @@ providers:
   tags: *id016
   url: /providers/ipinfo/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id017
   name: OpenAI
   slug: openai
@@ -652,10 +652,10 @@ providers:
   tags: *id018
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 51.1
+  agent_readiness: 50.3
   band: strong
   in_catalog: true
-  kin_score: 61.2
+  kin_score: 61.8
   mcp: *id019
   name: Plain
   slug: plain
@@ -663,10 +663,10 @@ providers:
   tags: *id020
   url: /providers/plain/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id021
   name: PostHog
   slug: posthog
@@ -674,10 +674,10 @@ providers:
   tags: *id022
   url: /providers/posthog/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: developing
   in_catalog: true
-  kin_score: 54.1
+  kin_score: 53.6
   mcp: *id023
   name: Pydantic Logfire
   slug: pydantic-ai
@@ -688,7 +688,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id025
   name: Sentry
   slug: sentry-system
@@ -696,10 +696,10 @@ providers:
   tags: *id026
   url: /providers/sentry-system/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id027
   name: Stripe
   slug: stripe

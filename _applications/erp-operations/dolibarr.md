@@ -85,10 +85,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id001
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -115,11 +115,11 @@ integrations:
     via_parent: Market & Financial Data
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.1
+    agent_band: agent-ready
+    agent_readiness: 29.9
     band: strong
     in_catalog: true
-    kin_score: 57.0
+    kin_score: 56.1
     mcp: &id003
       status: none
     slug: currencylayer
@@ -146,10 +146,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.9
+    agent_readiness: 22.4
     band: developing
     in_catalog: true
-    kin_score: 43.3
+    kin_score: 41.2
     mcp: &id005
       status: none
     slug: deepseek
@@ -176,10 +176,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id007
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -207,10 +207,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id009
       status: none
     slug: google-gemini
@@ -236,11 +236,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id011
       status: none
     slug: google-identity-platform
@@ -267,10 +267,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id013
       status: none
     slug: microsoft-entra
@@ -296,11 +296,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.2
     band: developing
     in_catalog: true
-    kin_score: 47.7
+    kin_score: 47.3
     mcp: &id015
       status: none
     slug: mistral
@@ -327,10 +327,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id017
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -358,10 +358,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id019
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -389,7 +389,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 67.7
+    agent_readiness: 66.6
     band: strong
     in_catalog: true
     kin_score: 65.7
@@ -420,10 +420,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id023
       source: https://docs.stripe.com/mcp
       status: verified
@@ -451,10 +451,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id025
       source: https://zapier.com/mcp
       status: verified
@@ -480,21 +480,21 @@ noindex: false
 permalink: /applications/erp-operations/dolibarr/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id001
   name: Anthropic
   slug: anthropic
   status: profiled
   tags: *id002
   url: /providers/anthropic/
-- agent_band: agent-aware
-  agent_readiness: 24.1
+- agent_band: agent-ready
+  agent_readiness: 29.9
   band: strong
   in_catalog: true
-  kin_score: 57.0
+  kin_score: 56.1
   mcp: *id003
   name: currencylayer
   slug: currencylayer
@@ -502,10 +502,10 @@ providers:
   tags: *id004
   url: /providers/currencylayer/
 - agent_band: agent-aware
-  agent_readiness: 22.9
+  agent_readiness: 22.4
   band: developing
   in_catalog: true
-  kin_score: 43.3
+  kin_score: 41.2
   mcp: *id005
   name: DeepSeek
   slug: deepseek
@@ -513,10 +513,10 @@ providers:
   tags: *id006
   url: /providers/deepseek/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id007
   name: GitHub
   slug: github
@@ -524,21 +524,21 @@ providers:
   tags: *id008
   url: /providers/github/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id009
   name: Google Gemini
   slug: google-gemini
   status: profiled
   tags: *id010
   url: /providers/google-gemini/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id011
   name: Google sign-in
   slug: google-identity-platform
@@ -546,21 +546,21 @@ providers:
   tags: *id012
   url: /providers/google-identity-platform/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id013
   name: Microsoft sign-in
   slug: microsoft-entra
   status: profiled
   tags: *id014
   url: /providers/microsoft-entra/
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.2
   band: developing
   in_catalog: true
-  kin_score: 47.7
+  kin_score: 47.3
   mcp: *id015
   name: Mistral AI
   slug: mistral
@@ -568,10 +568,10 @@ providers:
   tags: *id016
   url: /providers/mistral/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id017
   name: OpenAI
   slug: openai
@@ -579,10 +579,10 @@ providers:
   tags: *id018
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id019
   name: PayPal
   slug: paypal
@@ -590,7 +590,7 @@ providers:
   tags: *id020
   url: /providers/paypal/
 - agent_band: agent-native
-  agent_readiness: 67.7
+  agent_readiness: 66.6
   band: strong
   in_catalog: true
   kin_score: 65.7
@@ -601,10 +601,10 @@ providers:
   tags: *id022
   url: /providers/perplexity/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id023
   name: Stripe
   slug: stripe
@@ -612,10 +612,10 @@ providers:
   tags: *id024
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id025
   name: Zapier
   slug: zapier

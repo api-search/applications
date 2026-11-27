@@ -99,11 +99,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -131,10 +131,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
-    band: strong
+    agent_readiness: 34.4
+    band: exemplar
     in_catalog: true
-    kin_score: 59.8
+    kin_score: 70.5
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -162,10 +162,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id005
       source: https://github.com/microsoft/mcp
       status: verified
@@ -193,10 +193,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id007
       status: none
     slug: facebook
@@ -223,10 +223,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id009
       source: https://github.com/google/mcp
       status: verified
@@ -254,10 +254,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id011
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -285,10 +285,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id013
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -315,11 +315,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: strong
     in_catalog: true
-    kin_score: 48.1
+    kin_score: 65.1
     mcp: &id015
       status: none
     slug: google-recaptcha
@@ -346,10 +346,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 59.4
+    agent_readiness: 58.2
     band: exemplar
     in_catalog: true
-    kin_score: 71.0
+    kin_score: 70.1
     mcp: &id017
       source: https://developer.demandbase.com/docs/mcp
       status: documented
@@ -377,10 +377,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id019
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -405,11 +405,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/crm-sales/suitecrm/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -417,10 +417,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 31.1
-  band: strong
+  agent_readiness: 34.4
+  band: exemplar
   in_catalog: true
-  kin_score: 59.8
+  kin_score: 70.5
   mcp: *id003
   name: Amazon SQS
   slug: amazon-sqs
@@ -428,10 +428,10 @@ providers:
   tags: *id004
   url: /providers/amazon-sqs/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id005
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -439,10 +439,10 @@ providers:
   tags: *id006
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id007
   name: Facebook
   slug: facebook
@@ -450,10 +450,10 @@ providers:
   tags: *id008
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id009
   name: Google APIs
   slug: google
@@ -461,10 +461,10 @@ providers:
   tags: *id010
   url: /providers/google/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id011
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -472,21 +472,21 @@ providers:
   tags: *id012
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id013
   name: Google Maps
   slug: google-maps
   status: profiled
   tags: *id014
   url: /providers/google-maps/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: strong
   in_catalog: true
-  kin_score: 48.1
+  kin_score: 65.1
   mcp: *id015
   name: Google reCAPTCHA
   slug: google-recaptcha
@@ -494,10 +494,10 @@ providers:
   tags: *id016
   url: /providers/google-recaptcha/
 - agent_band: agent-ready
-  agent_readiness: 59.4
+  agent_readiness: 58.2
   band: exemplar
   in_catalog: true
-  kin_score: 71.0
+  kin_score: 70.1
   mcp: *id017
   name: InsideView
   slug: demandbase
@@ -505,10 +505,10 @@ providers:
   tags: *id018
   url: /providers/demandbase/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id019
   name: X (Twitter)
   slug: x

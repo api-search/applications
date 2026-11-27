@@ -59,10 +59,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.1
+    agent_readiness: 35.3
     band: developing
     in_catalog: true
-    kin_score: 46.2
+    kin_score: 48.9
     mcp: &id001
       status: none
     slug: aol
@@ -89,10 +89,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 17.3
+    band: developing
     in_catalog: true
-    kin_score: 28.8
+    kin_score: 39.5
     mcp: &id003
       status: none
     slug: fastmail
@@ -118,11 +118,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id005
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -149,11 +149,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.7
+    band: developing
     in_catalog: true
-    kin_score: 31.6
+    kin_score: 51.3
     mcp: &id007
       status: none
     slug: google-play
@@ -180,10 +180,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.1
-    band: emerging
+    agent_readiness: 20.8
+    band: thin
     in_catalog: true
-    kin_score: 16.4
+    kin_score: 26.3
     mcp: &id009
       source: https://github.com/mozilla/firefox-devtools-mcp
       status: verified
@@ -211,10 +211,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.5
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 70.6
+    kin_score: 70.8
     mcp: &id011
       source: https://github.com/microsoft/mcp
       status: verified
@@ -242,10 +242,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.2
+    agent_readiness: 15.8
     band: developing
     in_catalog: true
-    kin_score: 41.4
+    kin_score: 42.6
     mcp: &id013
       status: none
     slug: yahoo
@@ -270,10 +270,10 @@ noindex: false
 permalink: /applications/email-client/thunderbird-for-android/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 36.1
+  agent_readiness: 35.3
   band: developing
   in_catalog: true
-  kin_score: 46.2
+  kin_score: 48.9
   mcp: *id001
   name: AOL Mail
   slug: aol
@@ -281,32 +281,32 @@ providers:
   tags: *id002
   url: /providers/aol/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 17.3
+  band: developing
   in_catalog: true
-  kin_score: 28.8
+  kin_score: 39.5
   mcp: *id003
   name: Fastmail
   slug: fastmail
   status: profiled
   tags: *id004
   url: /providers/fastmail/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id005
   name: Gmail
   slug: google-gmail
   status: profiled
   tags: *id006
   url: /providers/google-gmail/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.7
+  band: developing
   in_catalog: true
-  kin_score: 31.6
+  kin_score: 51.3
   mcp: *id007
   name: Google Play Billing
   slug: google-play
@@ -314,10 +314,10 @@ providers:
   tags: *id008
   url: /providers/google-play/
 - agent_band: agent-aware
-  agent_readiness: 24.1
-  band: emerging
+  agent_readiness: 20.8
+  band: thin
   in_catalog: true
-  kin_score: 16.4
+  kin_score: 26.3
   mcp: *id009
   name: Mozilla Glean
   slug: mozilla
@@ -325,10 +325,10 @@ providers:
   tags: *id010
   url: /providers/mozilla/
 - agent_band: agent-ready
-  agent_readiness: 49.5
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 70.6
+  kin_score: 70.8
   mcp: *id011
   name: Outlook / Microsoft 365
   slug: microsoft-outlook
@@ -336,10 +336,10 @@ providers:
   tags: *id012
   url: /providers/microsoft-outlook/
 - agent_band: agent-aware
-  agent_readiness: 16.2
+  agent_readiness: 15.8
   band: developing
   in_catalog: true
-  kin_score: 41.4
+  kin_score: 42.6
   mcp: *id013
   name: Yahoo Mail
   slug: yahoo

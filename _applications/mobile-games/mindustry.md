@@ -66,10 +66,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 48.0
     mcp: &id001
       status: none
     slug: discord
@@ -96,10 +96,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id003
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -130,7 +130,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.0
+    kin_score: 4.8
     mcp: &id005
       status: none
     slug: jsdelivr
@@ -155,10 +155,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.1
     band: thin
     in_catalog: true
-    kin_score: 34.4
+    kin_score: 34.5
     mcp: &id007
       status: none
     slug: steam
@@ -183,10 +183,10 @@ noindex: false
 permalink: /applications/mobile-games/mindustry/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 48.0
   mcp: *id001
   name: Discord Rich Presence
   slug: discord
@@ -194,10 +194,10 @@ providers:
   tags: *id002
   url: /providers/discord/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id003
   name: GitHub (mod browser)
   slug: github
@@ -208,7 +208,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.0
+  kin_score: 4.8
   mcp: *id005
   name: jsDelivr (mod index, server lists)
   slug: jsdelivr
@@ -216,10 +216,10 @@ providers:
   tags: *id006
   url: /providers/jsdelivr/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.1
   band: thin
   in_catalog: true
-  kin_score: 34.4
+  kin_score: 34.5
   mcp: *id007
   name: Steamworks (steamworks4j; Steam build)
   slug: steam

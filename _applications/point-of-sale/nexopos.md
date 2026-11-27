@@ -46,10 +46,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 32.6
+    kin_score: 31.6
     mcp: &id001
       source: https://github.com/mailgun/mailgun-mcp-server
       status: verified
@@ -77,10 +77,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 38.0
     mcp: &id003
       status: none
     slug: pusher
@@ -105,10 +105,10 @@ noindex: false
 permalink: /applications/point-of-sale/nexopos/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 32.6
+  kin_score: 31.6
   mcp: *id001
   name: Mailgun
   slug: mailgun
@@ -116,10 +116,10 @@ providers:
   tags: *id002
   url: /providers/mailgun/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 38.0
   mcp: *id003
   name: Pusher
   slug: pusher

@@ -113,10 +113,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 71.5
     mcp: &id001
       source: https://www.docusign.com/products/mcp
       status: documented
@@ -144,10 +144,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.8
+    agent_readiness: 48.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 71.1
     mcp: &id003
       status: none
     slug: hellosign
@@ -173,11 +173,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id005
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -204,11 +204,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id007
       source: https://github.com/google/mcp
       status: verified
@@ -236,10 +236,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
+    agent_readiness: 31.2
     band: developing
     in_catalog: true
-    kin_score: 43.7
+    kin_score: 45.2
     mcp: &id009
       status: unknown
     slug: handy
@@ -291,11 +291,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id013
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -349,10 +349,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.6
+    agent_readiness: 13.9
     band: emerging
     in_catalog: true
-    kin_score: 19.2
+    kin_score: 18.2
     mcp: &id017
       source: https://www.sureapp.com/llms.txt
       status: documented
@@ -406,10 +406,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.2
+    agent_readiness: 30.5
     band: thin
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 28.0
     mcp: &id021
       status: unknown
     slug: transunion
@@ -439,7 +439,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 15.9
+    kin_score: 14.7
     mcp: &id023
       status: none
     slug: trulia
@@ -466,10 +466,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id025
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -497,10 +497,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id027
       source: https://zapier.com/mcp
       status: verified
@@ -528,10 +528,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.3
-    band: thin
+    agent_readiness: 21.8
+    band: developing
     in_catalog: true
-    kin_score: 38.5
+    kin_score: 40.5
     mcp: &id029
       status: none
     slug: zillow-group
@@ -556,10 +556,10 @@ noindex: false
 permalink: /applications/property-management/doorloop/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 71.5
   mcp: *id001
   name: DocuSign
   slug: docusign
@@ -567,32 +567,32 @@ providers:
   tags: *id002
   url: /providers/docusign/
 - agent_band: agent-ready
-  agent_readiness: 48.8
+  agent_readiness: 48.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 71.1
   mcp: *id003
   name: Dropbox Sign
   slug: hellosign
   status: profiled
   tags: *id004
   url: /providers/hellosign/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id005
   name: Gmail
   slug: google-gmail
   status: profiled
   tags: *id006
   url: /providers/google-gmail/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id007
   name: Google Calendar
   slug: google-calendar
@@ -600,10 +600,10 @@ providers:
   tags: *id008
   url: /providers/google-calendar/
 - agent_band: agent-ready
-  agent_readiness: 31.9
+  agent_readiness: 31.2
   band: developing
   in_catalog: true
-  kin_score: 43.7
+  kin_score: 45.2
   mcp: *id009
   name: Handy
   slug: handy
@@ -621,11 +621,11 @@ providers:
   status: queued for profiling
   tags: *id012
   url: null
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id013
   name: QuickBooks Online
   slug: quickbooks
@@ -644,10 +644,10 @@ providers:
   tags: *id016
   url: null
 - agent_band: agent-aware
-  agent_readiness: 13.6
+  agent_readiness: 13.9
   band: emerging
   in_catalog: true
-  kin_score: 19.2
+  kin_score: 18.2
   mcp: *id017
   name: Sure
   slug: sure
@@ -666,10 +666,10 @@ providers:
   tags: *id020
   url: null
 - agent_band: agent-ready
-  agent_readiness: 31.2
+  agent_readiness: 30.5
   band: thin
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 28.0
   mcp: *id021
   name: TransUnion
   slug: transunion
@@ -680,7 +680,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 15.9
+  kin_score: 14.7
   mcp: *id023
   name: Trulia
   slug: trulia
@@ -688,10 +688,10 @@ providers:
   tags: *id024
   url: /providers/trulia/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id025
   name: Twilio
   slug: twilio
@@ -699,10 +699,10 @@ providers:
   tags: *id026
   url: /providers/twilio/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id027
   name: Zapier
   slug: zapier
@@ -710,10 +710,10 @@ providers:
   tags: *id028
   url: /providers/zapier/
 - agent_band: agent-aware
-  agent_readiness: 22.3
-  band: thin
+  agent_readiness: 21.8
+  band: developing
   in_catalog: true
-  kin_score: 38.5
+  kin_score: 40.5
   mcp: *id029
   name: Zillow
   slug: zillow-group

@@ -39,10 +39,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 65.1
+    kin_score: 66.2
     mcp: &id001
       status: none
     slug: open-food-facts
@@ -67,10 +67,10 @@ noindex: false
 permalink: /applications/recipe-meal-planning/grocy/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.1
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 65.1
+  kin_score: 66.2
   mcp: *id001
   name: open-food-facts
   slug: open-food-facts

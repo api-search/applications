@@ -74,7 +74,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id015
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -105,7 +105,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 2.7
+    kin_score: 1.8
     mcp: &id001
       status: unknown
     slug: allmusic
@@ -129,10 +129,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 7.6
+    kin_score: 12.4
     mcp: &id003
       status: unknown
     slug: cinematerial
@@ -162,7 +162,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.8
+    kin_score: 10.3
     mcp: &id005
       status: unknown
     slug: fanart-tv
@@ -189,10 +189,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 8.6
+    agent_readiness: 5.6
     band: emerging
     in_catalog: true
-    kin_score: 17.7
+    kin_score: 25.9
     mcp: &id007
       status: none
     slug: imdb
@@ -219,10 +219,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
-    band: developing
+    agent_readiness: 25.9
+    band: strong
     in_catalog: true
-    kin_score: 54.2
+    kin_score: 54.4
     mcp: &id009
       status: none
     slug: lastfm
@@ -248,11 +248,11 @@ integrations:
     via_parent: Audio & Music
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_band: agent-aware
+    agent_readiness: 27.2
     band: thin
     in_catalog: true
-    kin_score: 37.9
+    kin_score: 38.2
     mcp: &id011
       status: none
     slug: musicbrainz
@@ -305,10 +305,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.7
+    agent_readiness: 21.3
     band: developing
     in_catalog: true
-    kin_score: 49.9
+    kin_score: 50.6
     mcp: &id017
       status: none
     slug: tmdb
@@ -335,10 +335,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.3
     band: developing
     in_catalog: true
-    kin_score: 42.5
+    kin_score: 40.7
     mcp: &id019
       status: unknown
     slug: tvdb
@@ -366,7 +366,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 2.7
+  kin_score: 1.8
   mcp: *id001
   name: AllMusic
   slug: allmusic
@@ -374,10 +374,10 @@ providers:
   tags: *id002
   url: /providers/allmusic/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 7.6
+  kin_score: 12.4
   mcp: *id003
   name: CineMaterial
   slug: cinematerial
@@ -388,7 +388,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.8
+  kin_score: 10.3
   mcp: *id005
   name: Fanart.tv
   slug: fanart-tv
@@ -396,10 +396,10 @@ providers:
   tags: *id006
   url: /providers/fanart-tv/
 - agent_band: agent-aware
-  agent_readiness: 8.6
+  agent_readiness: 5.6
   band: emerging
   in_catalog: true
-  kin_score: 17.7
+  kin_score: 25.9
   mcp: *id007
   name: IMDb
   slug: imdb
@@ -407,21 +407,21 @@ providers:
   tags: *id008
   url: /providers/imdb/
 - agent_band: agent-aware
-  agent_readiness: 23.7
-  band: developing
+  agent_readiness: 25.9
+  band: strong
   in_catalog: true
-  kin_score: 54.2
+  kin_score: 54.4
   mcp: *id009
   name: Last.fm
   slug: lastfm
   status: profiled
   tags: *id010
   url: /providers/lastfm/
-- agent_band: agent-ready
-  agent_readiness: 31.3
+- agent_band: agent-aware
+  agent_readiness: 27.2
   band: thin
   in_catalog: true
-  kin_score: 37.9
+  kin_score: 38.2
   mcp: *id011
   name: MusicBrainz
   slug: musicbrainz
@@ -443,7 +443,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id015
   name: Sentry
   slug: sentry-system
@@ -451,10 +451,10 @@ providers:
   tags: *id016
   url: /providers/sentry-system/
 - agent_band: agent-aware
-  agent_readiness: 21.7
+  agent_readiness: 21.3
   band: developing
   in_catalog: true
-  kin_score: 49.9
+  kin_score: 50.6
   mcp: *id017
   name: The Movie Database
   slug: tmdb
@@ -462,10 +462,10 @@ providers:
   tags: *id018
   url: /providers/tmdb/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.3
   band: developing
   in_catalog: true
-  kin_score: 42.5
+  kin_score: 40.7
   mcp: *id019
   name: TheTVDB
   slug: tvdb

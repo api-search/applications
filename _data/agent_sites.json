@@ -1,0 +1,1371 @@
+{
+ "posts": {
+  "/2026/10/19/arxiv-limits-submitters-to-two-papers-a-month-after-submissions-double/": {
+   "yawplet": "https://yawplet.com/p/p_eWEy2qhPjTdVgLAg",
+   "yarnhen": "https://yarnhen.com/p/p_GpOauV26LBsTh6cO"
+  },
+  "/2026/10/19/cloudflare-builds-an-ohttp-gateway-so-no-single-party-sees-both-halves/": {
+   "yawplet": "https://yawplet.com/p/p_ksh9ebpmiIkbqEET",
+   "yarnhen": "https://yarnhen.com/p/p_eidBIIQWejutmqD2"
+  },
+  "/2026/10/19/kong-prices-every-ai-request-and-attributes-it-to-the-agent-that-made-it/": {
+   "yawplet": "https://yawplet.com/p/p_vy3RS_dODHsMcoSu",
+   "yarnhen": "https://yarnhen.com/p/p_Hnf_VTM1J6Uu2EP8"
+  },
+  "/2026/10/19/obot-puts-every-mcp-server-behind-one-endpoint-and-publishes-no-contract/": {
+   "yawplet": "https://yawplet.com/p/p_APtRLdGX8rCaD_8W",
+   "yarnhen": "https://yarnhen.com/p/p_DXog2EbCgW0B4GJG"
+  },
+  "/2026/10/19/upstash-ships-mcp-tasks-and-events-before-the-clients-support-them/": {
+   "yawplet": "https://yawplet.com/p/p_juxwqu_iSTo-I1VL",
+   "yarnhen": "https://yarnhen.com/p/p_Hna_1E2nYbWKnvky"
+  },
+  "/2026/10/20/cloudflare-gives-agents-web-search-through-ai-gateway-with-verified-crawlers-only/": {
+   "yawplet": "https://yawplet.com/p/p_3ReFh0YOjKqNJVR1",
+   "yarnhen": "https://yarnhen.com/p/p_DVKj9xIPPUua9HiZ"
+  },
+  "/2026/10/20/hashnode-ships-an-mcp-server-with-no-token-to-handle/": {
+   "yawplet": "https://yawplet.com/p/p_ycej1sMC6mn6CQF4",
+   "yarnhen": "https://yarnhen.com/p/p_Wm4H3tSJhN6eGwa0"
+  },
+  "/2026/10/20/madeonsol-says-mcp-x402-and-subscriptions-are-not-peers/": {
+   "yawplet": "https://yawplet.com/p/p_c9Lnk0gyb-v7PGbB",
+   "yarnhen": "https://yarnhen.com/p/p_NcJrDjYoUL8kLQ5m"
+  },
+  "/2026/10/20/testmu-ai-says-cli-is-cheaper-per-call-and-slack-measured-it-cost-more-per-task/": {
+   "yawplet": "https://yawplet.com/p/p_Z_bdoNVqHU5AeeO-",
+   "yarnhen": "https://yarnhen.com/p/p_z2fUziYu_Gi8dAbn"
+  },
+  "/2026/10/20/vcomply-says-start-with-read-and-its-record-has-nothing-to-read/": {
+   "yawplet": "https://yawplet.com/p/p_TWFe_IeGpd8efcCN",
+   "yarnhen": "https://yarnhen.com/p/p_19Gw4T6wLI93Hu7Z"
+  },
+  "/2026/10/21/cloudflare-serves-its-skills-through-its-own-mcp-server/": {
+   "yawplet": "https://yawplet.com/p/p_fEJ1n4_f7Fi6Aa1Z",
+   "yarnhen": "https://yarnhen.com/p/p_4EW26DtLP39eMur2"
+  },
+  "/2026/10/21/finops-on-apis-io-7145-profiles-and-one-written-by-the-provider/": {
+   "yawplet": "https://yawplet.com/p/p_UNgv-lVTLrLokZqK",
+   "yarnhen": "https://yarnhen.com/p/p_iFRBo-pTreCwoma8"
+  },
+  "/2026/10/21/github-actions-oidc-api-is-four-operations-that-decide-what-every-cloud-trusts/": {
+   "yawplet": "https://yawplet.com/p/p__EaM_VQa-HQJQalO",
+   "yarnhen": "https://yarnhen.com/p/p_GmJJ7oEEVv359CiB"
+  },
+  "/2026/10/21/marketing-automation-tells-agents-how-fast-to-send-and-not-how-to-send-once/": {
+   "yawplet": "https://yawplet.com/p/p_36QA4mqSBFdZSX52",
+   "yarnhen": "https://yarnhen.com/p/p_uKwTUpZe37ccg-sF"
+  },
+  "/2026/10/21/pharmaceutical-on-apis-io-the-drug-makers-publish-nothing-and-their-vendors-carry-the-industry/": {
+   "yawplet": "https://yawplet.com/p/p_MCydshGtyCxt9C9p",
+   "yarnhen": "https://yarnhen.com/p/p_YPTYO-ZvDF-1kbuJ"
+  },
+  "/2026/10/21/port-says-a-skills-registry-governs-the-skill-at-rest-not-the-skill-in-use/": {
+   "yawplet": "https://yawplet.com/p/p_g9jCKphPrz12pC5o",
+   "yarnhen": "https://yarnhen.com/p/p_Nf5lCCW6FgkFoxTh"
+  },
+  "/2026/10/21/scalar-says-the-interesting-work-is-making-the-fastapi-openapi-accurate/": {
+   "yawplet": "https://yawplet.com/p/p_RldNCAmUiQyTohX-",
+   "yarnhen": "https://yarnhen.com/p/p_WLWKpCVyAbCwsfFO"
+  },
+  "/2026/10/21/tessl-says-agent-skills-are-supply-chain-components-not-just-markdown/": {
+   "yawplet": "https://yawplet.com/p/p_XYDUZ9QIkFvXwtKU",
+   "yarnhen": "https://yarnhen.com/p/p_n0dyXY9jK1yYU2T2"
+  },
+  "/2026/10/21/the-security-area-the-companies-that-sell-api-security-average-24-on-their-own-apis/": {
+   "yawplet": "https://yawplet.com/p/p_0_ENJ1NrDtwL-cWM",
+   "yarnhen": "https://yarnhen.com/p/p_6QrAdXlefZ2eg3It"
+  },
+  "/2026/10/21/wagtail-ships-five-skills-and-one-evergreen-skill-to-load-them/": {
+   "yawplet": "https://yawplet.com/p/p_mlnNSxtcrD3UFs7f",
+   "yarnhen": "https://yarnhen.com/p/p_eIXo08dVkm2FCjWg"
+  },
+  "/2026/10/21/zoominfo-scores-86-6-and-its-weakest-facet-is-the-migration-it-is-in-the-middle-of/": {
+   "yawplet": "https://yawplet.com/p/p_XTdoCngSr5ouNVaT",
+   "yarnhen": "https://yarnhen.com/p/p_h-oRV63CA0h-Znyn"
+  },
+  "/2026/10/22/ada-scores-87-3-exemplar-and-its-catalog-cannot-agree-how-many-apis-it-has/": {
+   "yawplet": "https://yawplet.com/p/p_21HbLQRYorJkM6y_",
+   "yarnhen": "https://yarnhen.com/p/p_6hhYKSNKQEvg9zf-"
+  },
+  "/2026/10/22/atlassian-opens-bitbucket-to-ai-clients-over-oauth-and-the-record-has-not-found-the-server/": {
+   "yawplet": "https://yawplet.com/p/p_-TmOY2ysGjCFbLpW",
+   "yarnhen": "https://yarnhen.com/p/p_RMlMxkslg8dI5zoB"
+  },
+  "/2026/10/22/document360-reviews-seven-api-documentation-tools-and-its-own-record-shows-no-mcp-server/": {
+   "yawplet": "https://yawplet.com/p/p_d63FYhfbpQK3TOYW",
+   "yarnhen": "https://yarnhen.com/p/p_lzMcxPwyeiEDCcGR"
+  },
+  "/2026/10/22/dynamodb-transactions-contract-drops-seven-of-nine-errors/": {
+   "yawplet": "https://yawplet.com/p/p_WcoRTImj8GHBs7PE",
+   "yarnhen": "https://yarnhen.com/p/p_XPFMyXADOsuQwv-G"
+  },
+  "/2026/10/22/food-delivery-has-105-providers-and-three-that-score-above-sixty/": {
+   "yawplet": "https://yawplet.com/p/p_7WMLzcsObdm6IBSS",
+   "yarnhen": "https://yarnhen.com/p/p_FtGNV5zgtxaTN28h"
+  },
+  "/2026/10/22/foreca-says-api-documentation-youll-love-and-publishes-no-contract/": {
+   "yawplet": "https://yawplet.com/p/p_-9jVuwnx2SY1krXG",
+   "yarnhen": "https://yarnhen.com/p/p_biZT2Cs4ObafGVuR"
+  },
+  "/2026/10/22/japan-korea-nearly-doubled-to-284-providers-and-its-leaders-fell/": {
+   "yawplet": "https://yawplet.com/p/p_3odIzGJ3NbUAe4IS",
+   "yarnhen": "https://yarnhen.com/p/p_Ht4qmkd789rYQjG_"
+  },
+  "/2026/10/22/productboard-says-mcp-is-how-the-tools-connect-and-productboard-is-the-record/": {
+   "yawplet": "https://yawplet.com/p/p_DrIuomqAYXBZf3Oc",
+   "yarnhen": "https://yarnhen.com/p/p_fLDxqR8elzHePIbI"
+  },
+  "/2026/10/22/snowflake-unties-pg-lake-from-one-iceberg-catalog/": {
+   "yawplet": "https://yawplet.com/p/p_xni0d1aJQsnc144a",
+   "yarnhen": "https://yarnhen.com/p/p_EKvRBOVbVAxYDk9a"
+  },
+  "/2026/10/22/subscription-billing-lists-ace-hardware-and-misses-stripe/": {
+   "yawplet": "https://yawplet.com/p/p_gQ1eL767T3YfATKW",
+   "yarnhen": "https://yarnhen.com/p/p_BAuUwquEX6cHur1W"
+  },
+  "/2026/10/23/appwrite-scores-82-on-1022-operations-and-is-held-out-of-agent-native/": {
+   "yawplet": "https://yawplet.com/p/p_JGcqkM783Re8tQSI",
+   "yarnhen": "https://yarnhen.com/p/p_-ak_q7qfDyyr3_RJ"
+  },
+  "/2026/10/23/broadcom-estate-rates-11-across-32-acquisitions-and-leaves-out-broadcom/": {
+   "yawplet": "https://yawplet.com/p/p_e_AlsjfNXNfHDbzk",
+   "yarnhen": "https://yarnhen.com/p/p_47Jh9m41EXQ138kB"
+  },
+  "/2026/10/23/dome-says-a-retried-write-is-the-mcp-review-question-nobody-tests/": {
+   "yawplet": "https://yawplet.com/p/p_CkLVvfgB-wBoy2e_",
+   "yarnhen": "https://yarnhen.com/p/p_ZTrYVjnmYE-IMJkv"
+  },
+  "/2026/10/23/general-catalyst-portfolio-apis-lead-with-saas-not-its-resilience-thesis/": {
+   "yawplet": "https://yawplet.com/p/p_mvb_HsqoRDhiTSZD",
+   "yarnhen": "https://yarnhen.com/p/p_2tKSTvvR7GpY772o"
+  },
+  "/2026/10/23/gitlab-says-an-mcp-server-gets-agents-what-they-need-in-fewer-calls/": {
+   "yawplet": "https://yawplet.com/p/p_bF1VP6nXeJ-CsBv0",
+   "yarnhen": "https://yarnhen.com/p/p_LKjeBbmoESJlF_Cj"
+  },
+  "/2026/10/23/hubspot-explains-skills-plugins-and-connectors-as-procedure-access-and-distribution/": {
+   "yawplet": "https://yawplet.com/p/p_BXp_pG6HaVwgvAjH",
+   "yarnhen": "https://yarnhen.com/p/p_CiWDY0X8lOA0y7xm"
+  },
+  "/2026/10/23/mulesoft-benchmarks-mcp-cost-policies-and-says-what-the-numbers-do-not-prove/": {
+   "yawplet": "https://yawplet.com/p/p_vGztUndqY4LJabr2",
+   "yarnhen": "https://yarnhen.com/p/p_BB7x4c_YkhSHvYjR"
+  },
+  "/2026/10/23/rudderstack-http-api-is-seven-writes-and-a-server-url-no-agent-can-call/": {
+   "yawplet": "https://yawplet.com/p/p_PCrD4VO00-pkuKFd",
+   "yarnhen": "https://yarnhen.com/p/p_8EKr5xePjteEVASZ"
+  },
+  "/2026/10/23/space-on-apis-io-ranks-flight-trackers-above-the-launch-companies/": {
+   "yawplet": "https://yawplet.com/p/p_5KsWNka5MSJJdmgj",
+   "yarnhen": "https://yarnhen.com/p/p_eN0rLjdcrbjo46KY"
+  },
+  "/2026/10/23/xero-hosts-its-mcp-server-and-scores-agent-native/": {
+   "yawplet": "https://yawplet.com/p/p_Gq6ik7JSwKtx0S3b",
+   "yarnhen": "https://yarnhen.com/p/p_vWcUHOdNjspKXEh1"
+  },
+  "/2026/10/24/openapi-overlays-across-the-catalog-29288-files-and-almost-none-written-by-a-provider/": {
+   "yawplet": "https://yawplet.com/p/p_xvoJdxVao9gItiku",
+   "yarnhen": "https://yarnhen.com/p/p_5Q78JG1XYtHvucC7"
+  },
+  "/2026/10/24/outreachs-mcp-server-covers-one-in-eight-rest-operations-and-that-is-the-design/": {
+   "yawplet": "https://yawplet.com/p/p_mkgU474NVctijszA",
+   "yarnhen": "https://yarnhen.com/p/p_av-FfRfG9Oe-S_GB"
+  },
+  "/2026/10/24/sports-on-apis-io-the-betting-apis-outscore-the-leagues-by-fifty-points/": {
+   "yawplet": "https://yawplet.com/p/p_Gsj0WLLcXgDEi-j_",
+   "yarnhen": "https://yarnhen.com/p/p_3nh77ncW4a6eRCts"
+  },
+  "/2026/10/24/the-apis-io-trust-layer-is-six-steps-four-live-and-a-supervisor-slot-left-empty/": {
+   "yawplet": "https://yawplet.com/p/p_NRfenplbW0e1yaf-",
+   "yarnhen": "https://yarnhen.com/p/p_tJwK2iMSplf0aEom"
+  },
+  "/2026/10/24/wso2-scores-83-on-ninety-contracts-and-none-of-them-is-the-publisher-api/": {
+   "yawplet": "https://yawplet.com/p/p_a8B00RvzKP-MNrHU",
+   "yarnhen": "https://yarnhen.com/p/p_lEF3ruMCyqcQIWbp"
+  },
+  "/2026/10/25/africa-on-apis-io-is-a-payments-region-and-only-three-providers-score-strong/": {
+   "yawplet": "https://yawplet.com/p/p_UedKPmGdT0rLQY5H",
+   "yarnhen": "https://yarnhen.com/p/p_2MGZTDYWbKMD7hzW"
+  },
+  "/2026/10/25/automation-anywheres-deploy-api-launches-robots-with-one-post-and-no-idempotency/": {
+   "yawplet": "https://yawplet.com/p/p_0aDJEL23nhVieJeU",
+   "yarnhen": "https://yarnhen.com/p/p_VNL18wAu6k8m6D1u"
+  },
+  "/2026/10/25/mining-on-apis-io-is-96-providers-and-the-miners-are-not-the-ones-publishing/": {
+   "yawplet": "https://yawplet.com/p/p_khrunH09pfJUDD_3",
+   "yarnhen": "https://yarnhen.com/p/p_pqcC1PEE1VFsZrp7"
+  },
+  "/2026/10/25/relevance-ai-scores-77-on-thirty-one-contracts-none-of-them-callable/": {
+   "yawplet": "https://yawplet.com/p/p_S26i3iYPTIviAloo",
+   "yarnhen": "https://yarnhen.com/p/p_VmHub3Z_Lh7hBsOd"
+  },
+  "/2026/10/25/the-testing-area-sells-api-quality-and-nearly-half-its-vendors-ship-one-api/": {
+   "yawplet": "https://yawplet.com/p/p_38EOvZI7P7-ApZLs",
+   "yarnhen": "https://yarnhen.com/p/p_6o51jvm80aobUbU1"
+  },
+  "/2026/10/26/apigee-runs-mcp-inside-your-own-cluster-and-its-record-has-no-mcp-server/": {
+   "yawplet": "https://yawplet.com/p/p_7BkVhv2_PDOfhZ21",
+   "yarnhen": "https://yarnhen.com/p/p_bX1WokAYf5uS9uX7"
+  },
+  "/2026/10/26/climate-and-sustainability-is-ranked-first-by-postman-because-of-one-tag/": {
+   "yawplet": "https://yawplet.com/p/p_zY7M2jq-0CXN0JsF",
+   "yarnhen": "https://yarnhen.com/p/p_bHFDYj9yIhj1VYy2"
+  },
+  "/2026/10/26/cloudflare-wakes-an-agent-with-its-first-mcp-event/": {
+   "yawplet": "https://yawplet.com/p/p_gTl690TkRdELsaXA",
+   "yarnhen": "https://yarnhen.com/p/p_klUxFFOwFRnIb0nZ"
+  },
+  "/2026/10/26/diffbots-dql-search-api-is-its-best-contract-and-we-point-it-at-the-wrong-host/": {
+   "yawplet": "https://yawplet.com/p/p_T2PLvDNZhR78onlD",
+   "yarnhen": "https://yarnhen.com/p/p_jYOQXc4g8Ql-5chi"
+  },
+  "/2026/10/26/ghost-scores-77-on-fifty-six-operations-the-catalog-lists-twice/": {
+   "yawplet": "https://yawplet.com/p/p_QTbuFBsUsClZhod2",
+   "yarnhen": "https://yarnhen.com/p/p_UD6C_vVOQvDNYXud"
+  },
+  "/2026/10/26/kong-runs-its-review-agents-in-ci-behind-its-own-ai-gateway/": {
+   "yawplet": "https://yawplet.com/p/p_RtKc3LHBkDLFD3Gr",
+   "yarnhen": "https://yarnhen.com/p/p_q6vxizwq49HVikNE"
+  },
+  "/2026/10/26/moltrust-says-a-limit-in-a-system-prompt-is-only-a-request/": {
+   "yawplet": "https://yawplet.com/p/p_Wtd2KMvWOAcC2xgp",
+   "yarnhen": "https://yarnhen.com/p/p_jEdcos2X76q0XAtK"
+  },
+  "/2026/10/26/rag-use-case-lists-five-topic-pages-and-leaves-out-pinecone/": {
+   "yawplet": "https://yawplet.com/p/p_wwd-qGy-Q5ywdKAv",
+   "yarnhen": "https://yarnhen.com/p/p_7Srb2un4rlLl0KeF"
+  },
+  "/2026/10/26/sim-and-esim-lifecycle-has-thirteen-providers-and-the-iot-specialists-trail-the-cpaas/": {
+   "yawplet": "https://yawplet.com/p/p_K1T_TvUXOEKD3CmP",
+   "yarnhen": "https://yarnhen.com/p/p_Rq4GvIqZD2cxWxc1"
+  },
+  "/2026/10/26/token-security-says-anthropics-compliance-api-closes-the-endpoint-blind-spot/": {
+   "yawplet": "https://yawplet.com/p/p_VP9LahZWcavONu5A",
+   "yarnhen": "https://yarnhen.com/p/p_wmnmicEDuNdFlZPV"
+  },
+  "/2026/10/27/amazon-mwaa-ships-four-agent-skills-for-airflow/": {
+   "yawplet": "https://yawplet.com/p/p_-urF6MRCblR5OVMI",
+   "yarnhen": "https://yarnhen.com/p/p_jAqRaARKHHpOaBVV"
+  },
+  "/2026/10/27/canonical-holds-117-contracts-and-twelve-percent-of-them-are-callable/": {
+   "yawplet": "https://yawplet.com/p/p_-9qmFrV8cDAadwjb",
+   "yarnhen": "https://yarnhen.com/p/p_QeCbGzywfjR7Ie-4"
+  },
+  "/2026/10/27/greylock-portfolio-splits-in-two-at-the-published-contract/": {
+   "yawplet": "https://yawplet.com/p/p_criGyqlOOScYngHH",
+   "yarnhen": "https://yarnhen.com/p/p_z4Nl-0ea3SoNNsj1"
+  },
+  "/2026/10/27/mabl-says-the-author-cannot-be-the-only-verifier/": {
+   "yawplet": "https://yawplet.com/p/p_viFi6dOnHpy7TNrV",
+   "yarnhen": "https://yarnhen.com/p/p_WgrCNIt8qgo7cEwQ"
+  },
+  "/2026/10/27/sage-puts-an-agent-on-making-tax-digital-and-the-api-record-stops-short/": {
+   "yawplet": "https://yawplet.com/p/p_YNEwJK3CeMF5_omO",
+   "yarnhen": "https://yarnhen.com/p/p_OsIU19-S5choRHgf"
+  },
+  "/2026/10/27/snowflake-oncology-agents-stand-on-one-of-the-catalogs-strongest-records/": {
+   "yawplet": "https://yawplet.com/p/p_0gCMw_LiWRIQN_ny",
+   "yarnhen": "https://yarnhen.com/p/p_impLy93pVjLu5fKS"
+  },
+  "/2026/10/27/stannp-letters-api-has-a-free-test-mode-the-rubric-cannot-see/": {
+   "yawplet": "https://yawplet.com/p/p_0E3_CdSiGGP_ghwc",
+   "yarnhen": "https://yarnhen.com/p/p_JzoR-PR5hCS3xiIM"
+  },
+  "/2026/10/27/starburst-describes-an-mcp-endpoint-its-public-record-does-not-show/": {
+   "yawplet": "https://yawplet.com/p/p_Z8c6p7a6RJPohkMg",
+   "yarnhen": "https://yarnhen.com/p/p_ke5C0rpvrCrhtCX9"
+  },
+  "/2026/10/27/the-markets-section-cannot-read-a-third-of-its-own-cohort/": {
+   "yawplet": "https://yawplet.com/p/p_3uq2UIA1iSbL8SOW",
+   "yarnhen": "https://yarnhen.com/p/p_xjDKLc-PRTBYOFMI"
+  },
+  "/2026/10/27/video-streaming-on-apis-io-is-led-by-the-pipes-not-the-streamers/": {
+   "yawplet": "https://yawplet.com/p/p_bqC338rfoW-uhmvc",
+   "yarnhen": "https://yarnhen.com/p/p_KqktwdcHiFPCJFui"
+  },
+  "/2026/10/28/brale-rewrote-its-docs-around-the-path-its-catalog-record-still-shows/": {
+   "yawplet": "https://yawplet.com/p/p_DnsZZRXLacww9Elj",
+   "yarnhen": "https://yarnhen.com/p/p_GoaulgmivMd1tMnV"
+  },
+  "/2026/10/29/barndoor-sorts-oktas-mcp-tools-into-allow-hold-deny/": {
+   "yawplet": "https://yawplet.com/p/p_xO2nmm--05YLCFRj",
+   "yarnhen": "https://yarnhen.com/p/p_AYou9UGlJaEbnOey"
+  },
+  "/2026/10/29/traefik-puts-runtime-governance-in-front-of-oci-agents/": {
+   "yawplet": "https://yawplet.com/p/p_9FC5lu-5OHBD4moz",
+   "yarnhen": "https://yarnhen.com/p/p_RdKtq1QXIKXjxRrk"
+  },
+  "/2026/10/29/vercel-mcp-takes-feedback-from-the-agent/": {
+   "yawplet": "https://yawplet.com/p/p_W67hXoaoFX9tYO9m",
+   "yarnhen": "https://yarnhen.com/p/p_VLWes_h-PbQQA6Mh"
+  },
+  "/2026/10/29/workos-zero-trust-checks-every-mcp-tool-call/": {
+   "yawplet": "https://yawplet.com/p/p_jiiDqR1UiPHjYNmo",
+   "yarnhen": "https://yarnhen.com/p/p_mzee57ZKzuautUKN"
+  },
+  "/2026/10/29/zapier-mcp-and-the-recruiters-who-turned-the-knob/": {
+   "yawplet": "https://yawplet.com/p/p_XjX_N1zjljTiayKp",
+   "yarnhen": "https://yarnhen.com/p/p_FQ-yjk3wlAH33Lnz"
+  },
+  "/2026/10/30/apifys-mcp-guide-runs-on-credits-the-catalog-cannot-see-a-brake-for/": {
+   "yawplet": "https://yawplet.com/p/p_EfsbH8r_rIgznASm",
+   "yarnhen": "https://yarnhen.com/p/p_SyWQyNlG3WsPw68v"
+  },
+  "/2026/10/30/cloudflare-retired-sse-with-a-410-that-names-the-way-forward/": {
+   "yawplet": "https://yawplet.com/p/p_oSNbdtC0NaDlbz5b",
+   "yarnhen": "https://yarnhen.com/p/p_XOXPdpIhMuYXZZmX"
+  },
+  "/2026/10/30/coreweave-says-agents-die-on-the-cost-curve-not-the-model/": {
+   "yawplet": "https://yawplet.com/p/p_qD0-aN0GZ4eoIajb",
+   "yarnhen": "https://yarnhen.com/p/p_h76OCbWiqPbnaXYu"
+  },
+  "/2026/10/30/reddit-closed-its-api-here-is-where-agents-can-still-post-and-read/": {
+   "yawplet": "https://yawplet.com/p/p_zJiBv9zWkuCUCopc",
+   "yarnhen": "https://yarnhen.com/p/p_WRYtbFnZ5yh2o6Ef"
+  },
+  "/2026/10/30/snyk-sends-its-remediation-agent-after-the-backlog-in-campaigns/": {
+   "yawplet": "https://yawplet.com/p/p_H2ULiGlPeKfhSaad",
+   "yarnhen": "https://yarnhen.com/p/p_hUyAUsvfObvor5Hn"
+  },
+  "/2026/10/30/traefik-asks-seven-questions-at-the-suse-ai-factory-gate/": {
+   "yawplet": "https://yawplet.com/p/p_eyKtZ73WsV39DqER",
+   "yarnhen": "https://yarnhen.com/p/p_zLK3_pQa-uPEdNDZ"
+  },
+  "/2026/10/31/procore-vs-bentley-five-facets-to-one-and-the-one-is-ours/": {
+   "yawplet": "https://yawplet.com/p/p_L8q7CrzKr8_60JHu",
+   "yarnhen": "https://yarnhen.com/p/p_fDBGxFK8BEzhnAd3"
+  },
+  "/2026/11/01/security-explains-its-auth-better-than-the-market-and-documents-retries-worse/": {
+   "yawplet": "https://yawplet.com/p/p_WxMJgWkx3zPzF9pl",
+   "yarnhen": "https://yarnhen.com/p/p_uS-9KDaYNeFwKiVh"
+  },
+  "/2026/11/02/ai-agents-has-1016-providers-and-41-percent-of-them-are-still-human-only/": {
+   "yawplet": "https://yawplet.com/p/p_6Dz9jLrS4opfAqSN",
+   "yarnhen": "https://yarnhen.com/p/p_yqqvdPbGUUT7YjGN"
+  },
+  "/2026/11/02/four-of-the-top-20-in-our-investing-industry-manage-infrastructure-not-money/": {
+   "yawplet": "https://yawplet.com/p/p_wfktcdWMFhFacOHb",
+   "yarnhen": "https://yarnhen.com/p/p_aOUbx95ah7Yr5pmp"
+  },
+  "/2026/11/02/infobips-connectivity-api-offers-sim-swap-twice-and-its-async-lookup-has-no-webhook-contract/": {
+   "yawplet": "https://yawplet.com/p/p__-a2kAFmHdCPz6Ge",
+   "yarnhen": "https://yarnhen.com/p/p_rPmvRHFgtSw3fSqJ"
+  },
+  "/2026/11/02/just-over-half-of-our-pricing-records-cite-evidence-and-32-percent-were-generated/": {
+   "yawplet": "https://yawplet.com/p/p_QFtVsOKZVshgZrOL",
+   "yarnhen": "https://yarnhen.com/p/p_LlWCl-p4YTaZTYmY"
+  },
+  "/2026/11/02/palo-alto-networks-moves-agent-identity-into-silicon-its-record-has-not-followed/": {
+   "yawplet": "https://yawplet.com/p/p_KMLgalS7X9FAojBf",
+   "yarnhen": "https://yarnhen.com/p/p_kl_d3-Nyc1K4Qnpb"
+  },
+  "/2026/11/02/photoroom-says-fix-the-catalog-before-the-protocol-and-the-api-record-agrees/": {
+   "yawplet": "https://yawplet.com/p/p_PGvZw9jgdaLFif13",
+   "yarnhen": "https://yarnhen.com/p/p_RqbZVS9SwtmN3LAm"
+  },
+  "/2026/11/02/serverless-page-shows-30-of-141-providers-and-the-sample-flatters-the-market-by-23-points/": {
+   "yawplet": "https://yawplet.com/p/p_EdppfjDhY3pLUfzx",
+   "yarnhen": "https://yarnhen.com/p/p_Xi79es6c_elvVgx7"
+  },
+  "/2026/11/02/simscale-polled-engineers-on-ai-and-one-in-twenty-are-scaling/": {
+   "yawplet": "https://yawplet.com/p/p_eFZdK_dMZU6OaG7O",
+   "yarnhen": "https://yarnhen.com/p/p_fr31GoFvb3-2XgiZ"
+  },
+  "/2026/11/02/sobot-defines-the-customer-service-agent-skill-its-apis-still-describe-the-seat/": {
+   "yawplet": "https://yawplet.com/p/p_RcshuD-JNxmbqTSC",
+   "yarnhen": "https://yarnhen.com/p/p_WdcB4tBRmu943ntp"
+  },
+  "/2026/11/02/three-times-as-many-provider-sites-serve-llms-txt-as-security-txt/": {
+   "yawplet": "https://yawplet.com/p/p_HjXtBh0s-mgzwJmi",
+   "yarnhen": "https://yarnhen.com/p/p_RGOGnXbSGpJp6bp7"
+  },
+  "/2026/11/02/workato-customer-says-nobody-has-figured-out-agent-pricing-so-build-the-meter-first/": {
+   "yawplet": "https://yawplet.com/p/p_YUpGmznOIh7WKqoO",
+   "yarnhen": "https://yarnhen.com/p/p_BzbJ1bnD9C2XSpgW"
+  },
+  "/2026/11/03/benelux-is-led-by-payments-and-its-18-universities-outscore-most-other-providers/": {
+   "yawplet": "https://yawplet.com/p/p_OrK_miRvDGAo7yWq",
+   "yarnhen": "https://yarnhen.com/p/p_XECJaycIcVj9PJCK"
+  },
+  "/2026/11/03/bruno-fetch-button-publishes-the-collection-but-not-a-contract/": {
+   "yawplet": "https://yawplet.com/p/p_5_sIeBtu3j45fje9",
+   "yarnhen": "https://yarnhen.com/p/p_ArBkZjTWgwNB5yW8"
+  },
+  "/2026/11/03/ci-cd-page-ranks-salesforce-third-and-leaves-out-circleci-jenkins-and-buildkite/": {
+   "yawplet": "https://yawplet.com/p/p_E0sblDWqhl7HpFWf",
+   "yarnhen": "https://yarnhen.com/p/p_y28hVfmeOuRfjzgi"
+  },
+  "/2026/11/03/coasty-says-computer-use-benchmarks-lie-then-cites-its-own/": {
+   "yawplet": "https://yawplet.com/p/p_g7esK4W4QLa9WYsf",
+   "yarnhen": "https://yarnhen.com/p/p_pknDe12zC89NmAUf"
+  },
+  "/2026/11/03/kong-says-inventory-every-api-first-its-catalog-record-shows-139/": {
+   "yawplet": "https://yawplet.com/p/p_ZR4bKtIOtrdJHc3O",
+   "yarnhen": "https://yarnhen.com/p/p_Yob-t9q3CxiX6_aI"
+  },
+  "/2026/11/03/origin-energy-vs-edf-energy-same-kraken-platform-opposite-front-doors/": {
+   "yawplet": "https://yawplet.com/p/p_TBxhjqXtU0bJQiGt",
+   "yarnhen": "https://yarnhen.com/p/p_WKKbEDy1uUoPfYtl"
+  },
+  "/2026/11/03/our-mobility-industry-is-led-by-doordash-while-uber-and-lyft-score-in-the-fifties/": {
+   "yawplet": "https://yawplet.com/p/p_U0Bhp0vih9ViW2Xw",
+   "yarnhen": "https://yarnhen.com/p/p_hVGZBlEL2E-_4vpT"
+  },
+  "/2026/11/03/sinch-says-whatsapp-is-a-conversation-platform-and-its-api-surface-agrees/": {
+   "yawplet": "https://yawplet.com/p/p_4AwKgdiutOFUMY4n",
+   "yarnhen": "https://yarnhen.com/p/p_8Hot8lW-gh-aoIdu"
+  },
+  "/2026/11/03/zapier-says-agents-now-read-your-api-docs-and-its-own-docs-mostly-pass/": {
+   "yawplet": "https://yawplet.com/p/p_hRuzghs40Oh1DF8Q",
+   "yarnhen": "https://yarnhen.com/p/p_BrGrSLuUrAWv3mnB"
+  },
+  "/2026/11/03/zoho-crm-actions-api-runs-bulk-jobs-with-no-idempotency-and-inconsistent-async-signals/": {
+   "yawplet": "https://yawplet.com/p/p_zW4dvlUBujJNSfL8",
+   "yarnhen": "https://yarnhen.com/p/p_j_E5SE1aMSNM6NPy"
+  },
+  "/2026/11/04/coasty-argues-against-api-only-automation-and-ships-a-72-operation-api/": {
+   "yawplet": "https://yawplet.com/p/p_m0SCveWJQYdZ7ijy",
+   "yarnhen": "https://yarnhen.com/p/p_1QeOm7v_1Jkqf_xd"
+  },
+  "/2026/11/04/drchrono-billing-api-can-delete-a-line-item-but-not-a-patient-payment/": {
+   "yawplet": "https://yawplet.com/p/p_yib_5t1hipc6XgcT",
+   "yarnhen": "https://yarnhen.com/p/p_CAeeoTNyiffAIDA8"
+  },
+  "/2026/11/04/fintech-scores-like-the-market-and-has-more-than-twice-its-share-of-agent-native-providers/": {
+   "yawplet": "https://yawplet.com/p/p_be1f7M6c0qYFsmkQ",
+   "yarnhen": "https://yarnhen.com/p/p_7UJah2nce4khaCbS"
+  },
+  "/2026/11/04/legal-and-compliance-ranks-two-law-tagged-providers-in-its-top-25/": {
+   "yawplet": "https://yawplet.com/p/p_AWHWzGeMvPuXt78X",
+   "yarnhen": "https://yarnhen.com/p/p_QE6m6qaDcoHBqugS"
+  },
+  "/2026/11/04/n8n-explains-deprecation-headers-while-scoring-4-5-on-contract-governance/": {
+   "yawplet": "https://yawplet.com/p/p_-VOLf_KLBBY2fepq",
+   "yarnhen": "https://yarnhen.com/p/p_-qzwD9GXlcJ3NtgN"
+  },
+  "/2026/11/04/spicyapi-sonnet-guide-shows-four-contracts-behind-one-endpoint/": {
+   "yawplet": "https://yawplet.com/p/p_wr-MdyjaOK0pUb3D",
+   "yarnhen": "https://yarnhen.com/p/p_6YyL_uSeKZv2KJVa"
+  },
+  "/2026/11/04/union-square-ventures-rollup-counts-microsoft-active-directory-as-stack-overflow/": {
+   "yawplet": "https://yawplet.com/p/p_9ZJBHRwwFsNoU0xR",
+   "yarnhen": "https://yarnhen.com/p/p_ajyEgUHHrWcMWUrM"
+  },
+  "/2026/11/04/upstox-fundamentals-limits-are-per-endpoint-and-cannot-be-bought-higher/": {
+   "yawplet": "https://yawplet.com/p/p_4vH-APZYaVUd6fhO",
+   "yarnhen": "https://yarnhen.com/p/p_auaxes02Phibo0RF"
+  },
+  "/2026/11/04/whops-kyc-tutorial-walks-an-identity-api-the-catalog-has-not-mapped/": {
+   "yawplet": "https://yawplet.com/p/p_KOb2uYn_p_lRlygl",
+   "yarnhen": "https://yarnhen.com/p/p_QUfmhTNFhBE5Y747"
+  },
+  "/2026/11/04/workday-estate-rating-leaves-out-its-best-surface/": {
+   "yawplet": "https://yawplet.com/p/p_TRXFBIEtBQhB5ap_",
+   "yarnhen": "https://yarnhen.com/p/p_dTqCugSpYx3zAt_S"
+  },
+  "/2026/11/05/activepieces-prices-deepseek-by-cache-hit-and-its-own-contract-leaves-errors-undescribed/": {
+   "yawplet": "https://yawplet.com/p/p_iLvMLkfwcyD5ypis",
+   "yarnhen": "https://yarnhen.com/p/p_G_HPeCvTfJ1b2VwE"
+  },
+  "/2026/11/05/faros-prices-claude-code-by-outcome-while-its-own-api-contract-scores-9-0/": {
+   "yawplet": "https://yawplet.com/p/p_x5R1Xtk6SjAp12TD",
+   "yarnhen": "https://yarnhen.com/p/p_P0P3RNtkRVY93cFY"
+  },
+  "/2026/11/05/flightaware-vs-amadeus-two-points-apart-and-the-test-host-no-longer-resolves/": {
+   "yawplet": "https://yawplet.com/p/p_EMpWwa7PwZ5Rtzxh",
+   "yarnhen": "https://yarnhen.com/p/p_Ul3MtiVwc1o_14yk"
+  },
+  "/2026/11/05/json-ld-contexts-on-apis-io-map-only-10-8-percent-of-terms-to-schema-org/": {
+   "yawplet": "https://yawplet.com/p/p_H81aANse1mShdkLG",
+   "yarnhen": "https://yarnhen.com/p/p_klUWcM8cHNCSgw70"
+  },
+  "/2026/11/05/reform-says-check-the-result-not-the-response-and-its-own-transparency-reads-7-9/": {
+   "yawplet": "https://yawplet.com/p/p_QQC6PGYN0t5FMNds",
+   "yarnhen": "https://yarnhen.com/p/p_jVuEcYQnUnPzYfAy"
+  },
+  "/2026/11/05/routerplex-prices-five-abliterated-routes-and-the-catalog-confirms-the-402-it-documents/": {
+   "yawplet": "https://yawplet.com/p/p_SBALvlmJtoJjxDHa",
+   "yarnhen": "https://yarnhen.com/p/p_YDv_2rnSeomw3u1T"
+  },
+  "/2026/11/05/safetyculture-data-feeds-api-only-13-of-39-feeds-declare-a-change-filter/": {
+   "yawplet": "https://yawplet.com/p/p_KoCz7UpE4k8ECKRi",
+   "yarnhen": "https://yarnhen.com/p/p_8YRBbP7Wy1j8o_mm"
+  },
+  "/2026/11/05/siftingio-cuts-600-upstream-calls-to-2-and-the-catalog-backs-the-api-behind-the-cache/": {
+   "yawplet": "https://yawplet.com/p/p__rOjCgnM12UKZ0sH",
+   "yarnhen": "https://yarnhen.com/p/p_hq-jtUBz1L9TA6dB"
+  },
+  "/2026/11/05/weather-geospatial-top-score-belongs-to-a-spanish-company-registry/": {
+   "yawplet": "https://yawplet.com/p/p_WRvBEHhYi63X8M0D",
+   "yarnhen": "https://yarnhen.com/p/p_k5PpHOcHRgwqSD-K"
+  },
+  "/2026/11/05/x-api-key-has-seven-spellings-798-providers-and-no-iana-registration/": {
+   "yawplet": "https://yawplet.com/p/p_8xy1HSxwELNuGVVH",
+   "yarnhen": "https://yarnhen.com/p/p_OnTG8A0sPcav0HdE"
+  },
+  "/2026/11/06/authentication-leads-the-market-by-49-3-points-on-auth-clarity-and-2-8-on-protected-resource-metadata/": {
+   "yawplet": "https://yawplet.com/p/p_0Yf740-PkdG1GDio",
+   "yarnhen": "https://yarnhen.com/p/p_z7CEdXjtXqcjLOnE"
+  },
+  "/2026/11/06/circleci-usage-api-exports-13-months-in-32-day-windows-and-is-not-in-the-catalog/": {
+   "yawplet": "https://yawplet.com/p/p_BI_Xfh0Bly9XCKhD",
+   "yarnhen": "https://yarnhen.com/p/p_fAqHffdZ1ewtQ5wi"
+  },
+  "/2026/11/06/consumer-data-right-put-24-australian-providers-on-the-identical-agent-score/": {
+   "yawplet": "https://yawplet.com/p/p_UPLZj4MUghPm9vfx",
+   "yarnhen": "https://yarnhen.com/p/p_U7d_1EGmsy_NCdrV"
+  },
+  "/2026/11/06/containers-scores-62-0-in-the-top-30-and-34-6-across-all-132-providers/": {
+   "yawplet": "https://yawplet.com/p/p_S_mhqmmQoQRAp9CL",
+   "yarnhen": "https://yarnhen.com/p/p_xDBp_GKBbIYd0_xX"
+  },
+  "/2026/11/06/customer-support-vendors-selling-ai-agents-score-near-zero-on-agent-readiness/": {
+   "yawplet": "https://yawplet.com/p/p_0hjGA9xicsTjDEbF",
+   "yarnhen": "https://yarnhen.com/p/p_G6XBN_v4yfUE63Wl"
+  },
+  "/2026/11/06/geoapify-timezone-api-answers-for-an-instant-not-a-zone/": {
+   "yawplet": "https://yawplet.com/p/p_Oyv6GeGUvyEYRY4C",
+   "yarnhen": "https://yarnhen.com/p/p_26d39OraG5RGh-Xt"
+  },
+  "/2026/11/06/google-cloud-api-gateway-streams-for-an-hour-and-the-spec-does-not-change/": {
+   "yawplet": "https://yawplet.com/p/p_AUqAjowpTlAyJ7d3",
+   "yarnhen": "https://yarnhen.com/p/p_Kv0heIPtTQmsnX4v"
+  },
+  "/2026/11/06/nationbuilder-documents-six-json-api-parameters-and-108-acting-operations-have-no-idempotency/": {
+   "yawplet": "https://yawplet.com/p/p_4DGu9w03YjbqUOxw",
+   "yarnhen": "https://yarnhen.com/p/p_qNFFUA8yoZ75TzIc"
+  },
+  "/2026/11/06/netflix-measures-the-blast-radius-of-its-internal-apis-and-publishes-none/": {
+   "yawplet": "https://yawplet.com/p/p_P56gXs1FUb_1Zu6W",
+   "yarnhen": "https://yarnhen.com/p/p_0323ASdFfZ9vhKcj"
+  },
+  "/2026/11/06/statsig-experiments-api-lists-seven-urls-twice-and-the-contracts-disagree/": {
+   "yawplet": "https://yawplet.com/p/p_X8eIHsAKrUjRlW8k",
+   "yarnhen": "https://yarnhen.com/p/p_aNkLz6fw_CEgM6Hx"
+  },
+  "/2026/11/07/a-chess-server-and-an-insurance-prospecting-tool-rank-in-the-nonprofit-top-13/": {
+   "yawplet": "https://yawplet.com/p/p_c1q5tiGCmLLPkEyN",
+   "yarnhen": "https://yarnhen.com/p/p_FSNox3NqCi4PPz1H"
+  },
+  "/2026/11/07/junction-order-api-offers-idempotency-on-3-of-36-operations/": {
+   "yawplet": "https://yawplet.com/p/p_rDJDT9HkOVdIxVtf",
+   "yarnhen": "https://yarnhen.com/p/p_Pf-HeWcfG4JcBRgy"
+  },
+  "/2026/11/07/open-banking-use-case-lists-13-providers-while-284-carry-the-tag-and-plaid-is-missing/": {
+   "yawplet": "https://yawplet.com/p/p_p6SNmLrdcs3JpXjb",
+   "yarnhen": "https://yarnhen.com/p/p_uSVaN52_WUH08wYE"
+  },
+  "/2026/11/07/webhooks-reach-658-providers-but-only-85-show-a-way-to-resend-one/": {
+   "yawplet": "https://yawplet.com/p/p_KfzmJIbhzSIsXVpB",
+   "yarnhen": "https://yarnhen.com/p/p_b0dr4lD2EUnmShBL"
+  },
+  "/2026/11/07/what-90-kinds-of-apps-are-built-on-firebase-and-sentry-sit-under-67-of-them/": {
+   "yawplet": "https://yawplet.com/p/p__DQOX2bqEIaq_3wh",
+   "yarnhen": "https://yarnhen.com/p/p_D_uk6XuHCweOYcXX"
+  },
+  "/2026/11/08/founders-funds-page-says-63-companies-publish-apis-and-its-own-text-says-35/": {
+   "yawplet": "https://yawplet.com/p/p_8GDECWgNL3b96hIr",
+   "yarnhen": "https://yarnhen.com/p/p_VpPjEwXgO1BwioEp"
+  },
+  "/2026/11/08/gpu-clouds-carry-the-semiconductor-catalog-while-chip-makers-sit-in-minimal/": {
+   "yawplet": "https://yawplet.com/p/p_3oVnlppK2ASu_j0H",
+   "yarnhen": "https://yarnhen.com/p/p_oRerm6Gze-vdUfPh"
+  },
+  "/2026/11/08/moov-transfers-api-answers-async-unless-you-ask-it-to-wait-15-seconds/": {
+   "yawplet": "https://yawplet.com/p/p_JNzhbc0AVYIZD6dB",
+   "yarnhen": "https://yarnhen.com/p/p_F8hfPVTIXHGksjPf"
+  },
+  "/2026/11/08/three-quarters-of-the-openapi-extensions-we-track-are-used-by-one-provider/": {
+   "yawplet": "https://yawplet.com/p/p_nDc81SCk1GlaH5as",
+   "yarnhen": "https://yarnhen.com/p/p_XGfbTjn8R8mzuXEb"
+  },
+  "/2026/11/08/x402-leads-the-market-for-agents-and-almost-none-let-an-agent-rehearse-a-payment/": {
+   "yawplet": "https://yawplet.com/p/p_yWXFSarPhjcXpe2T",
+   "yarnhen": "https://yarnhen.com/p/p_3VhqyJ1fLSs4u_sY"
+  },
+  "/2026/11/09/coasty-prices-workflows-at-five-cents-a-step-and-the-contract-matches-the-dsl/": {
+   "yawplet": "https://yawplet.com/p/p_onncevGM0HG8_enQ",
+   "yarnhen": "https://yarnhen.com/p/p_2qk18v_mYY_kMUkX"
+  },
+  "/2026/11/09/due-kyc-api-documents-17-operations-and-only-one-response-code/": {
+   "yawplet": "https://yawplet.com/p/p_xLFBvST9-Z72wlWu",
+   "yarnhen": "https://yarnhen.com/p/p_LxU31Eqk2H8nN1cx"
+  },
+  "/2026/11/09/feature-flags-sells-the-undo-button-and-most-of-it-does-not-document-one/": {
+   "yarnhen": "https://yarnhen.com/p/p_C8YAVB90olHZmXLC"
+  },
+  "/2026/11/09/litellm-benchmarks-decision-models-through-rerank-and-the-decisions-endpoint-is-not-on-record/": {
+   "yawplet": "https://yawplet.com/p/p_zw_FlFoCTap-WBfO",
+   "yarnhen": "https://yarnhen.com/p/p_nGQZPRRnHbopqTc2"
+  },
+  "/2026/11/09/maritime-on-apis-io-the-top-score-is-a-weather-company-and-the-big-carriers-sit-in-minimal/": {
+   "yawplet": "https://yawplet.com/p/p_gASWYBGDErdsI9A0",
+   "yarnhen": "https://yarnhen.com/p/p_rKFe7yhHv8psD2Mu"
+  },
+  "/2026/11/09/of-284-sla-documents-in-the-catalog-three-quote-an-uptime-promise/": {
+   "yawplet": "https://yawplet.com/p/p_OfPeR2q2bXbS_REv",
+   "yarnhen": "https://yarnhen.com/p/p_kVwA6VGh1VM-yZ92"
+  },
+  "/2026/11/09/routerplex-puts-cloudflare-clef-on-an-endpoint-its-catalog-record-does-not-list/": {
+   "yawplet": "https://yawplet.com/p/p_VgZuG7kOM7fbhoqe",
+   "yarnhen": "https://yarnhen.com/p/p_FjnC6lwGKPtP8W3P"
+  },
+  "/2026/11/09/solo-io-unifies-ai-and-api-traffic-and-the-catalog-sees-only-the-portal/": {
+   "yawplet": "https://yawplet.com/p/p__5HfwQc7mX3NBT8P",
+   "yarnhen": "https://yarnhen.com/p/p_HAf0RKqZ1UgL-DBu"
+  },
+  "/2026/11/09/the-versioning-area-lists-six-providers-and-two-of-them-are-the-area-itself/": {
+   "yawplet": "https://yawplet.com/p/p_ea2dEKplBMIbPvcU"
+  },
+  "/2026/11/09/webz-says-a-dark-web-mention-is-not-a-breach-and-its-apis-carry-no-contract/": {
+   "yawplet": "https://yawplet.com/p/p_kYzs2EwG6kl9Btjk",
+   "yarnhen": "https://yarnhen.com/p/p_hb43vo-eHig3xbWT"
+  },
+  "/2026/11/10/buf-generates-typed-jev-clients-from-protobuf-and-calls-it-an-experiment/": {
+   "yawplet": "https://yawplet.com/p/p_BGfK5z79G4i-nDiM",
+   "yarnhen": "https://yarnhen.com/p/p_yoPNaNdDcIgJay1A"
+  },
+  "/2026/11/10/cisco-xdr-vs-palo-alto-networks-four-facets-lose-to-one-front-door/": {
+   "yarnhen": "https://yarnhen.com/p/p_E1Ro30QbzVUWlU7x"
+  },
+  "/2026/11/10/energy-management-is-led-by-a-microcontroller-os-and-the-grid-operators-are-missing/": {
+   "yarnhen": "https://yarnhen.com/p/p_UYgosnq4xIn40DRl"
+  },
+  "/2026/11/10/hidden-door-opens-an-mcp-server-and-its-catalog-record-still-says-no-api/": {
+   "yawplet": "https://yawplet.com/p/p_ReKZXS288LwCbbN1"
+  },
+  "/2026/11/10/knock-workflow-triggers-api-is-a-second-door-to-the-same-trigger-with-stricter-rules/": {
+   "yawplet": "https://yawplet.com/p/p_h5V0BaFboEPEYGBJ",
+   "yarnhen": "https://yarnhen.com/p/p_dh-m1QbQHq0D5g6J"
+  },
+  "/2026/11/10/nordics-lists-251-providers-and-its-top-score-gets-in-on-a-tag-not-a-headquarters/": {
+   "yarnhen": "https://yarnhen.com/p/p_6eONLQJ0z6D_z573"
+  },
+  "/2026/11/10/pulselake-writes-five-mcp-research-workflows-and-says-it-has-no-public-server/": {
+   "yawplet": "https://yawplet.com/p/p_oYa1Od9S-L8sHLXC",
+   "yarnhen": "https://yarnhen.com/p/p_HMbcIVZT25i0oVzF"
+  },
+  "/2026/11/10/solo-io-names-three-kinds-of-api-gateway-and-the-catalog-measures-the-first/": {
+   "yawplet": "https://yawplet.com/p/p_ktwuZyv1h2vW-Owx",
+   "yarnhen": "https://yarnhen.com/p/p_TfxbiWXC2ZydEQUr"
+  },
+  "/2026/11/10/waste-management-lists-278-apis-and-257-of-them-belong-to-one-software-vendor/": {
+   "yarnhen": "https://yarnhen.com/p/p_djgNS9RSTnhd-N28"
+  },
+  "/2026/11/11/adobes-estate-rates-22-1-and-leaves-out-every-adobe-record-that-scores-exemplar/": {
+   "yawplet": "https://yawplet.com/p/p_le6eLVXyKcIpXwvn",
+   "yarnhen": "https://yarnhen.com/p/p_VY2bzXabOtRttdOT"
+  },
+  "/2026/11/11/agriculture-has-320-providers-and-john-deere-scores-10-8/": {
+   "yawplet": "https://yawplet.com/p/p_Wv7AKlTNBftN4O96"
+  },
+  "/2026/11/11/bitdrift-moved-auth-out-of-the-sandbox-and-into-mcp/": {
+   "yarnhen": "https://yarnhen.com/p/p_TkLw4bn1dqT4zTUa"
+  },
+  "/2026/11/11/dtns-land-crop-api-bills-a-credit-per-crop-year-and-tells-you-the-cost-in-a-header/": {
+   "yawplet": "https://yawplet.com/p/p_9FSU5RGW3Eu8i-zQ"
+  },
+  "/2026/11/11/email-verification-has-no-human-only-providers-and-its-specialist-trails-the-generalists/": {
+   "yarnhen": "https://yarnhen.com/p/p_TXDzrlBqau6uBoH_"
+  },
+  "/2026/11/11/fifth-walls-portfolio-page-rates-procore-29-3-its-own-record-says-67-6/": {
+   "yawplet": "https://yawplet.com/p/p_Btb0CWCnjlxUN_re"
+  },
+  "/2026/11/11/htmlcsstoimage-teaches-puppeteer-over-mcp-while-its-own-mcp-goes-uncounted/": {
+   "yawplet": "https://yawplet.com/p/p_XaTDEmiNXde6sqtw",
+   "yarnhen": "https://yarnhen.com/p/p_3t9tkcoDr8dWdsCN"
+  },
+  "/2026/11/11/luciq-says-mcp-is-for-conversation-and-the-cli-is-for-automation/": {
+   "yawplet": "https://yawplet.com/p/p_NCcGp5uwolSM-Xwa"
+  },
+  "/2026/11/11/solo-io-says-mcp-authorization-belongs-to-enterprise-identity/": {
+   "yawplet": "https://yawplet.com/p/p_6wioC9NwlnVHXDCN"
+  },
+  "/2026/11/12/google-chrome-vs-apple-safari-four-facets-lose-to-one-contract/": {
+   "yarnhen": "https://yarnhen.com/p/p_7i6WR4PSy_Dq7WZc"
+  },
+  "/2026/11/12/lob-checks-api-cancels-a-paper-check-only-before-it-mails-and-only-on-a-paid-edition/": {
+   "yawplet": "https://yawplet.com/p/p_zYBBsaYOPAB6Qjgz",
+   "yarnhen": "https://yarnhen.com/p/p_3E0SwgUX9PzdElL_"
+  },
+  "/2026/11/12/one-of-11877-rate-limit-records-on-apis-io-was-published-by-the-provider-itself/": {
+   "yawplet": "https://yawplet.com/p/p_QHn9iWMXtq-Tl8kg"
+  },
+  "/2026/11/12/pet-care-on-apis-io-is-led-by-two-dog-daycare-software-vendors-not-the-pet-brands/": {
+   "yawplet": "https://yawplet.com/p/p_nog6S8uzWrgSWHGs"
+  },
+  "/2026/11/12/the-headers-section-finds-130-providers-on-x-ratelimit-and-35-on-the-standard-most-of-them-uk-banks/": {
+   "yarnhen": "https://yarnhen.com/p/p_h81C0dOCV3twb6iN"
+  },
+  "/2026/11/13/agorapulse-mcp-ships-without-a-publish-now-button/": {
+   "yawplet": "https://yawplet.com/p/p_t1ygBrIRrCLWRpJT",
+   "yarnhen": "https://yarnhen.com/p/p_nHuzn-yllF00fhUL"
+  },
+  "/2026/11/13/cdata-benchmarks-mcp-gateways-on-cost-per-correct-task/": {
+   "yarnhen": "https://yarnhen.com/p/p_Bm1ZtMVSdaJ-yXjL"
+  },
+  "/2026/11/13/central-and-eastern-europe-has-77-providers-and-its-headquarters-signal-missed-the-leader/": {
+   "yawplet": "https://yawplet.com/p/p_6etuUajJSF2frZj6",
+   "yarnhen": "https://yarnhen.com/p/p_5s9tR1iaOYljzWlF"
+  },
+  "/2026/11/13/chemicals-has-110-providers-and-88-of-them-list-no-api/": {
+   "yarnhen": "https://yarnhen.com/p/p_M9OrAfgAmu7RuXPS"
+  },
+  "/2026/11/13/customer-data-holds-the-personal-records-and-none-of-it-documents-consent-for-an-agent/": {
+   "yawplet": "https://yawplet.com/p/p_cui9R6X4YRpJGTsG"
+  },
+  "/2026/11/13/dataverse-mcp-server-now-calls-custom-apis-as-one-transaction/": {
+   "yawplet": "https://yawplet.com/p/p_CrxnErprYynhKU_j",
+   "yarnhen": "https://yarnhen.com/p/p_KJ_NpaAhRAotV1hM"
+  },
+  "/2026/11/13/dns-lists-30-providers-and-amazon-route-53-scores-below-its-own-resolver/": {
+   "yawplet": "https://yawplet.com/p/p_BMGhuAiKqqdy3OKL",
+   "yarnhen": "https://yarnhen.com/p/p_J7GJxXCu4-tyVRmp"
+  },
+  "/2026/11/13/shodans-network-alerts-api-updates-with-post-and-sends-its-key-in-the-query-string/": {
+   "yarnhen": "https://yarnhen.com/p/p_wZCbuuCmC99--cS_"
+  },
+  "/2026/11/13/solo-io-agentgateway-code-mode-turns-openapi-into-one-run-code-tool/": {
+   "yawplet": "https://yawplet.com/p/p_swsMK6wFDAXnNiG8",
+   "yarnhen": "https://yarnhen.com/p/p_xN9ay9RJxN_-lN0A"
+  },
+  "/2026/11/13/zoominfo-brings-14-mcp-tools-and-its-api-into-snowflake/": {
+   "yarnhen": "https://yarnhen.com/p/p_4wnUHgw0m72GOqx3"
+  },
+  "/2026/11/14/apps-pay-with-paypal-the-payments-market-does-not-list-it/": {
+   "yawplet": "https://yawplet.com/p/p_RDDy4rH275Qe5YAU",
+   "yarnhen": "https://yarnhen.com/p/p_9H67wOMvLEcynC19"
+  },
+  "/2026/11/14/bnsf-trains-api-says-up-to-25-trains-and-its-schema-accepts-300/": {
+   "yawplet": "https://yawplet.com/p/p_bhENEkNcTbapTJ2a",
+   "yarnhen": "https://yarnhen.com/p/p_qF_D7x7PaF-k1WM0"
+  },
+  "/2026/11/14/fleet-maintenance-covers-ships-aircraft-and-rolling-stock-and-all-six-providers-are-trucks/": {
+   "yarnhen": "https://yarnhen.com/p/p_kWXbHI03jgOybW_e"
+  },
+  "/2026/11/14/here-vs-entur-sixty-points-of-access-clarity-against-forty-five-of-governance/": {
+   "yawplet": "https://yawplet.com/p/p_1P0ypJNYAdkVN58Y"
+  },
+  "/2026/11/14/predictive-maintenance-is-led-by-an-it-incident-platform-and-six-amazon-services/": {
+   "yawplet": "https://yawplet.com/p/p_geng3ugL9zIL_r9u"
+  },
+  "/2026/11/14/rail-on-apis-io-is-a-freight-vertical-led-by-a-travel-agency-and-a-regulator/": {
+   "yarnhen": "https://yarnhen.com/p/p_RDa4mkYDSEyUcfPU"
+  },
+  "/2026/11/15/amcs-contamination-events-hand-over-a-photo-link-that-expires-in-24-hours/": {
+   "yawplet": "https://yawplet.com/p/p_FEQVHsZpV6DAJuGn"
+  },
+  "/2026/11/15/apps-agree-with-the-observability-market-until-the-crash-reporter/": {
+   "yarnhen": "https://yarnhen.com/p/p_I_Qra5Zo3f8sUw9-"
+  },
+  "/2026/11/15/bird-outscores-stripe-on-agent-readiness-in-atomicos-portfolio/": {
+   "yawplet": "https://yawplet.com/p/p_sxnwP5T9_4-d_F5_"
+  },
+  "/2026/11/15/our-deprecation-policy-feature-lists-five-providers-and-three-matched-on-storage-expiry/": {
+   "yawplet": "https://yawplet.com/p/p_oAUTmwRD0cQg84VD",
+   "yarnhen": "https://yarnhen.com/p/p_4mIrbc5Mvl9mMJnf"
+  },
+  "/2026/11/15/serp-apis-are-agent-ready-and-govern-their-contracts-least/": {
+   "yarnhen": "https://yarnhen.com/p/p_qNFtnqRLobD-cXBa"
+  },
+  "/2026/11/16/ablys-rules-api-routes-messages-to-fourteen-destinations-and-its-catalog-record-points-at-the-wrong-host/": {
+   "yawplet": "https://yawplet.com/p/p_4pkuxOOWe46fTYSb"
+  },
+  "/2026/11/16/asyncapi-on-apis-io-is-3664-documents-and-one-crypto-exchange-wrote-41-of-them/": {
+   "yawplet": "https://yawplet.com/p/p_GTIfv_Inlwg5Z4ma",
+   "yarnhen": "https://yarnhen.com/p/p_dZzvX3wXAvw0gqjP"
+  },
+  "/2026/11/16/braintrust-traces-mcp-servers-and-scores-23-on-operational-transparency/": {
+   "yawplet": "https://yawplet.com/p/p_XwBlbNDJ8VZnAzoT"
+  },
+  "/2026/11/16/data-enrichment-is-built-for-agents-and-1-6-percent-of-it-documents-consent/": {
+   "yawplet": "https://yawplet.com/p/p_fl8ysdkBIfQn1iUZ",
+   "yarnhen": "https://yarnhen.com/p/p_DtaMVLANPlqDpD5I"
+  },
+  "/2026/11/16/encryption-lists-58-providers-and-hashicorp-vault-scores-31-on-its-own-api/": {
+   "yarnhen": "https://yarnhen.com/p/p_ogNvxT7Reh2s_Ebf"
+  },
+  "/2026/11/16/nango-scopes-mcp-agents-by-tenant-and-its-catalog-record-is-a-product-behind/": {
+   "yawplet": "https://yawplet.com/p/p_BvmK4mHDNIw2dQb8",
+   "yarnhen": "https://yarnhen.com/p/p_9GXn6TDhycaT1Gt_"
+  },
+  "/2026/11/16/nutrition-has-241-providers-and-the-leader-is-a-volunteer-food-database/": {
+   "yawplet": "https://yawplet.com/p/p_fxBa7Vs49xCwlt2S",
+   "yarnhen": "https://yarnhen.com/p/p_5cdvf9oDZtKFehVq"
+  },
+  "/2026/11/16/nylas-puts-claude-on-six-mailbox-types-and-says-its-send-check-is-not-a-human/": {
+   "yarnhen": "https://yarnhen.com/p/p_p3Bd56usIZoK5CUv"
+  },
+  "/2026/11/16/semrush-explains-webmcp-and-its-own-record-has-no-well-known-catalog/": {
+   "yarnhen": "https://yarnhen.com/p/p_XvOZL8ZIVqxRKR_c"
+  },
+  "/2026/11/16/solo-io-says-apigee-cannot-speak-mcp-and-google-has-since-shipped-it/": {
+   "yarnhen": "https://yarnhen.com/p/p_8kH9xjM9WtATQVj1"
+  },
+  "/2026/11/17/azure-arc-vs-doit-two-tenths-apart-and-forty-nine-points-of-agent-readiness/": {
+   "yawplet": "https://yawplet.com/p/p_netvqxMq-_NFXcmu"
+  },
+  "/2026/11/17/cerbos-says-approve-the-request-not-the-session/": {
+   "yawplet": "https://yawplet.com/p/p_wY156SFsLRaU5KIS",
+   "yarnhen": "https://yarnhen.com/p/p_VTlEqdnpua5BlEjF"
+  },
+  "/2026/11/17/coasty-calls-rival-computer-use-apis-broken-and-the-catalog-shows-why-its-own-works/": {
+   "yawplet": "https://yawplet.com/p/p_NS4_jq81Rrcw9mrD",
+   "yarnhen": "https://yarnhen.com/p/p_0V5Tv1RS_7CP31RV"
+  },
+  "/2026/11/17/defense-has-360-providers-and-the-primes-publish-nothing-a-builder-can-call/": {
+   "yawplet": "https://yawplet.com/p/p_g7Q2tiobTiLwVK5i"
+  },
+  "/2026/11/17/japan-and-korea-sells-itself-on-carmakers-and-its-leaders-are-a-messenger-and-a-payment-api/": {
+   "yawplet": "https://yawplet.com/p/p_Ycydnh4df7vC5WUe",
+   "yarnhen": "https://yarnhen.com/p/p_RjH8sRxp5jFZUmJt"
+  },
+  "/2026/11/17/messaging-and-notifications-is-led-by-a-service-aws-stopped-supporting-on-october-30/": {
+   "yarnhen": "https://yarnhen.com/p/p_XS2jNZ2o-2lYAHxt"
+  },
+  "/2026/11/17/solo-io-says-jwts-for-service-auth-unravel-the-api-gateway/": {
+   "yawplet": "https://yawplet.com/p/p_tjnb2EgX8Wtv10S7",
+   "yarnhen": "https://yarnhen.com/p/p_0RdbssgHigmhO6a7"
+  },
+  "/2026/11/17/w-system-sells-vat-checks-for-a-cent-over-x402-and-the-catalog-has-not-caught-up/": {
+   "yawplet": "https://yawplet.com/p/p_JuWv6qUDWz7Pkjah",
+   "yarnhen": "https://yarnhen.com/p/p_74mnbt4dyj8PTzUh"
+  },
+  "/2026/11/17/webz-says-a-first-post-filter-hides-the-reply-that-matters/": {
+   "yawplet": "https://yawplet.com/p/p_-oPmia1YK8qy2MpC",
+   "yarnhen": "https://yarnhen.com/p/p_iZHYu_erpwRntg_y"
+  },
+  "/2026/11/18/claude-code-on-foundry-runs-through-azure-api-management/": {
+   "yawplet": "https://yawplet.com/p/p_T7BBZmDQdHAmBPvA"
+  },
+  "/2026/11/18/clios-matter-dockets-api-computes-court-deadlines-and-has-no-way-to-edit-them/": {
+   "yawplet": "https://yawplet.com/p/p_G2hjOzWOCQsd7ZJr"
+  },
+  "/2026/11/18/cloudwatch-takes-api-keys-for-opentelemetry-traces/": {
+   "yawplet": "https://yawplet.com/p/p_K8AhqW9G4u5y1Fub"
+  },
+  "/2026/11/18/crowdstrikes-estate-rates-17-1-and-leaves-out-crowdstrike-at-67-2/": {
+   "yawplet": "https://yawplet.com/p/p_y5fHjPy3X0FoJFLf"
+  },
+  "/2026/11/18/heavybit-backs-eight-exemplar-apis-and-launchdarkly-outscores-stripe/": {
+   "yawplet": "https://yawplet.com/p/p_A2qxJ0voBbSEl3y2"
+  },
+  "/2026/11/18/legal-compliance-has-1647-providers-and-the-first-law-firm-software-ranks-183rd/": {
+   "yawplet": "https://yawplet.com/p/p_JAxLU9EbaqntZcCF",
+   "yarnhen": "https://yarnhen.com/p/p_p-iGXoxiSD3HhgFN"
+  },
+  "/2026/11/18/ofox-tests-openai-compatibility-and-its-own-error-semantics-are-unlit/": {
+   "yawplet": "https://yawplet.com/p/p_ZujXv1sMiJ0Bp7cv"
+  },
+  "/2026/11/18/sora-2-costs-ten-cents-a-second-and-retries-set-the-real-price/": {
+   "yawplet": "https://yawplet.com/p/p_w3uu4QiWW6WCoenZ"
+  },
+  "/2026/11/19/cyclr-mcp-adoption-access-to-action/": {
+   "yawplet": "https://yawplet.com/p/p_nYvjxHviyJwPq51e"
+  },
+  "/2026/11/19/epidemic-sound-soundtrack-api/": {
+   "yawplet": "https://yawplet.com/p/p_AdKsOdIMo3j8C-iw"
+  },
+  "/2026/11/19/google-compute-engine-api-multi-versioning/": {
+   "yawplet": "https://yawplet.com/p/p_4Cnfo5WWF6WMIqiB",
+   "yarnhen": "https://yarnhen.com/p/p_9J3eQKxQrNS8hdi0"
+  },
+  "/2026/11/19/insurance-lists-773-providers-and-no-carrier-makes-the-top-ten/": {
+   "yarnhen": "https://yarnhen.com/p/p_zat8iciw0zGFHJXz"
+  },
+  "/2026/11/19/qlik-webhooks-api-deprecation-core-namespace/": {
+   "yawplet": "https://yawplet.com/p/p_n8vqICVjkp3f0l3M"
+  },
+  "/2026/11/19/the-sandbox-feature-finds-48-providers-and-one-of-them-is-amazon-cloud-map/": {
+   "yawplet": "https://yawplet.com/p/p_F_vpDZQLkfB7mtEh"
+  },
+  "/2026/11/20/australia-and-new-zealand-lists-448-providers-and-leaves-out-xero-the-one-its-description-names/": {
+   "yawplet": "https://yawplet.com/p/p_pVQqvXBQUVFzfWFf",
+   "yarnhen": "https://yarnhen.com/p/p_l4S-VBe4FlrYDWuo"
+  },
+  "/2026/11/20/buildkites-builds-api-can-start-a-build-but-its-contract-never-says-which-commit/": {
+   "yawplet": "https://yawplet.com/p/p_pD3H3SiHPK2s8E-G",
+   "yarnhen": "https://yarnhen.com/p/p_wrCo5KdNTvBvVW19"
+  },
+  "/2026/11/20/curri-mcp-server-books-deliveries-on-the-api-the-catalog-already-holds/": {
+   "yawplet": "https://yawplet.com/p/p_xf30Ux4qv0GjRaP5",
+   "yarnhen": "https://yarnhen.com/p/p_mcH7uuJLsBhLvS_0"
+  },
+  "/2026/11/20/embedded-ipaas-lists-30-providers-and-six-of-them-connect-devices-not-saas/": {
+   "yawplet": "https://yawplet.com/p/p_CqkmULfw4TJUAmBD",
+   "yarnhen": "https://yarnhen.com/p/p_wI3carffvLBA_CUc"
+  },
+  "/2026/11/20/sports-is-led-by-betting-odds-apis-while-sportradar-and-genius-sports-score-thin/": {
+   "yarnhen": "https://yarnhen.com/p/p_LGoz9UYmug8UahN8"
+  },
+  "/2026/11/20/wagtail-8-1-opens-workflows-to-the-api-the-catalog-cannot-yet-read/": {
+   "yawplet": "https://yawplet.com/p/p_4eBf-SWKAbZNJ-9Z"
+  },
+  "/2026/11/21/beauty-on-apis-io-is-led-by-booking-software-and-sephora-scores-5-3/": {
+   "yarnhen": "https://yarnhen.com/p/p_wlNXK7577lRgWqfH"
+  },
+  "/2026/11/21/sofar-ocean-spotter-data-api-gives-you-30-days-of-a-buoy-you-do-not-own/": {
+   "yarnhen": "https://yarnhen.com/p/p_AWe9HeNsxQLXCJrM"
+  },
+  "/2026/11/22/deliverability-leads-the-market-for-agents-and-23-1-percent-of-it-documents-how-not-to-send-twice/": {
+   "yawplet": "https://yawplet.com/p/p_Rt6dcGYKEvjeryD2",
+   "yarnhen": "https://yarnhen.com/p/p_fr5_THFJQjW4-HFh"
+  },
+  "/2026/11/22/the-developer-tools-apps-ship-and-the-ones-they-are-built-with/": {
+   "yarnhen": "https://yarnhen.com/p/p_oMYEZTmxTJ42AKfQ"
+  },
+  "/2026/11/22/the-faas-nas-status-docs-publish-a-reset-db-fixture-and-we-gave-it-an-api-page/": {
+   "yarnhen": "https://yarnhen.com/p/p_nEe_cbnC2eCG0_-p"
+  },
+  "/2026/11/23/0x-swap-api-lightning-upgrade/": {
+   "yarnhen": "https://yarnhen.com/p/p_GeXS56jem8JciNYu"
+  },
+  "/2026/11/23/helius-parsed-events-scan/": {
+   "yarnhen": "https://yarnhen.com/p/p_MzKhXA0qi2eWWb7W"
+  },
+  "/2026/11/23/salesforce-scapi-bots-ai-agents-ecdn/": {
+   "yarnhen": "https://yarnhen.com/p/p_xzn-bSos9laNadBB"
+  },
+  "/2026/11/23/zep-agent-skills/": {
+   "yawplet": "https://yawplet.com/p/p_57YCA-A2IfGGSlES",
+   "yarnhen": "https://yarnhen.com/p/p_T5LSlLCRjPJ5eaiN"
+  },
+  "/2026/11/24/akeneo-mcp-dwyeromega-operational-intelligence/": {
+   "yawplet": "https://yawplet.com/p/p_DczdqO__mnWAjxxV",
+   "yarnhen": "https://yarnhen.com/p/p_MkDjYwOJP1tP9cRb"
+  },
+  "/2026/11/24/cloudflare-ai-gateway-authentication-required/": {
+   "yawplet": "https://yawplet.com/p/p_ikhox9fRPa203hQP"
+  },
+  "/2026/11/24/laravel-vs-novu-forty-seven-points-of-transparency-against-twenty-two-of-contract/": {
+   "yarnhen": "https://yarnhen.com/p/p_RngFzbgZZYOHjhP_"
+  },
+  "/2026/11/24/neon-is-mcp-good-yet/": {
+   "yawplet": "https://yawplet.com/p/p_mStDeZiO5xI7rhY3"
+  },
+  "/2026/11/24/postman-fabric-gateway-mcp-tool-search/": {
+   "yawplet": "https://yawplet.com/p/p_CbqkKIcmgPb0OdTB",
+   "yarnhen": "https://yarnhen.com/p/p_hXJFCrSEaF6iHsi3"
+  },
+  "/2026/11/25/arcade-enterprise-mcp-hosting-deploy/": {
+   "yawplet": "https://yawplet.com/p/p_0agrQMKNgj8CMYA3"
+  },
+  "/2026/11/25/brave-search-api-x402-agentic-payments/": {
+   "yarnhen": "https://yarnhen.com/p/p_xN7bArOP7e_u52Of"
+  },
+  "/2026/11/25/brightcove-mcp-video-in-ai-workflows/": {
+   "yawplet": "https://yawplet.com/p/p_gZ4aHFp7Zbhw9yIt"
+  },
+  "/2026/11/25/google-ads-multi-party-approvals-changes/": {
+   "yawplet": "https://yawplet.com/p/p_cNtNGEY-RwHc0qL2"
+  },
+  "/2026/11/25/hardware-has-729-providers-and-81-5-percent-of-them-are-human-only/": {
+   "yarnhen": "https://yarnhen.com/p/p_GK2TU5samuHZKs5S"
+  }
+ },
+ "hagglebee": {
+  "0xarchive": {
+   "0xarchive-data-quality-api": "https://hagglebee.com/p/p_gFaLfXdOYuzdXJpc"
+  },
+  "act": {
+   "web-api": "https://hagglebee.com/p/p_iTTPxeIFVU1B-85f"
+  },
+  "adobe-launch": {
+   "adobe-launch-builds-api": "https://hagglebee.com/p/p_F4oTuYCpOuBZiaLp"
+  },
+  "adyen": {
+   "adyen-acceptdispute-api": "https://hagglebee.com/p/p_GYXgjrytqHllwokx"
+  },
+  "aembit": {
+   "aembit-access-authorization-event-api": "https://hagglebee.com/p/p_kmVV-FmXjUcRJu2F"
+  },
+  "agoragentic-com": {
+   "agoragentic-com-admin-api": "https://hagglebee.com/p/p_qNMfgtyUj9oE34Ct"
+  },
+  "akuity": {
+   "akuity-argocdservice-api": "https://hagglebee.com/p/p_TFOCZgpvqNZ2qBfw"
+  },
+  "amazon-appflow": {
+   "amazon-appflow-connectors-api": "https://hagglebee.com/p/p_pHOHyHCO1QJZMjMB"
+  },
+  "amazon-b2b-data-interchange": {
+   "amazon-b2b-data-interchange-capabilities-api": "https://hagglebee.com/p/p_34cQsCZ7w-BQhlUQ"
+  },
+  "amazon-ebs": {
+   "amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api": "https://hagglebee.com/p/p_fwaO5MnwBU0vdQfv"
+  },
+  "amazon-ec2-image-builder": {
+   "amazon-ec2-image-builder-cancelimagecreation-api": "https://hagglebee.com/p/p_HkJwI_bMDyr-Qn-J"
+  },
+  "amazon-glue-databrew": {
+   "amazon-glue-databrew-datasets-api": "https://hagglebee.com/p/p_wsUqJeChUlzf2Tuj"
+  },
+  "amazon-lex": {
+   "amazon-lex-bots-api": "https://hagglebee.com/p/p_fdKnHnDCQa2qSqV-"
+  },
+  "amazon-personalize": {
+   "amazon-personalize-datasets-api": "https://hagglebee.com/p/p_f4yqCGWObOLNPuAK"
+  },
+  "amazon-pinpoint": {
+   "amazon-pinpoint-apps-api": "https://hagglebee.com/p/p_zZlHOlsQq6vl3DyU"
+  },
+  "amazon-rekognition": {
+   "amazon-rekognition-celebrity-recognition-api": "https://hagglebee.com/p/p_cwhmiQyvXAYjXHw-"
+  },
+  "amazon-s3": {
+   "amazon-s3-abac-api": "https://hagglebee.com/p/p_djxzi7FX_Eh385OA"
+  },
+  "amazon-secrets-manager": {
+   "amazon-secrets-manager-passwords-api": "https://hagglebee.com/p/p_CMrfDpbB-AGCR3hk"
+  },
+  "amazon-timestream": {
+   "amazon-timestream-databases-api": "https://hagglebee.com/p/p_2R3lTnL0Y0JGLF-A"
+  },
+  "amazon-vpc": {
+   "amazon-vpc-internet-gateways-api": "https://hagglebee.com/p/p_wvZq8q4PeRAZgLYY"
+  },
+  "amazon-vpc-lattice": {
+   "amazon-vpc-lattice-batchupdaterule-api": "https://hagglebee.com/p/p__tI0iY_SjEMvA4__"
+  },
+  "appsflyer": {
+   "appsflyer-account-connections-api": "https://hagglebee.com/p/p_q2WZ1dCZR0vDV7Vi",
+   "appsflyer-account-integration-api": "https://hagglebee.com/p/p_6iJdBALsGwiLm8Qq"
+  },
+  "appwrite": {
+   "appwrite-project-api": "https://hagglebee.com/p/p_7EvxtVNAqAMu4o4A"
+  },
+  "automation-anywhere": {
+   "automation-anywhere-accessdetails-api": "https://hagglebee.com/p/p_8J5x6LG_AiyUJRgk"
+  },
+  "azure-ad": {
+   "azure-ad-admin-peopleadminsettings-api": "https://hagglebee.com/p/p_LV4Flf6nyZvVGRXA"
+  },
+  "bigcommerce": {
+   "bigcommerce-abandoned-cart-emails-api": "https://hagglebee.com/p/p_TJnpuInIokicBNVQ"
+  },
+  "bigpanda": {
+   "bigpanda-ai-settings-api": "https://hagglebee.com/p/p_XGdqPRcDdFTz2amm",
+   "bigpanda-alert-ingestion-oim-api": "https://hagglebee.com/p/p_rptJIOYuRuHmK6ST"
+  },
+  "birdeye": {
+   "birdeye-aggregation-api": "https://hagglebee.com/p/p_fLW6R4YXjcXjH4BQ"
+  },
+  "bloomreach": {
+   "bloomreach-catalog-configuration-api": "https://hagglebee.com/p/p_W7WF1dC2mix_TbP1"
+  },
+  "blueshift": {
+   "blueshift-adapters-api": "https://hagglebee.com/p/p_6mm3f4yLENKMA_vm",
+   "blueshift-campaigns-api": "https://hagglebee.com/p/p_EDR8lEuQMeR1PRil"
+  },
+  "carsxe": {
+   "carsxe-specifications-api": "https://hagglebee.com/p/p__qlQMNkd4JWPg_mq"
+  },
+  "checkoutpage-com": {
+   "checkoutpage-com-account-api": "https://hagglebee.com/p/p_mIUixERS-MrP4_KN"
+  },
+  "circleci": {
+   "runner-api": "https://hagglebee.com/p/p_sAp6nwSKezbIK9jn"
+  },
+  "clerk-com": {
+   "clerk-com-actor-tokens-api": "https://hagglebee.com/p/p_zTYZLETY1fk26ano"
+  },
+  "clickfunnels": {
+   "clickfunnels-addresses-country-api": "https://hagglebee.com/p/p_0xMnPwtfmJ5Bz1DD"
+  },
+  "clickup": {
+   "clickup-authorization-api": "https://hagglebee.com/p/p_tslwYcJ2_9NBwoi9",
+   "clickup-comments-api": "https://hagglebee.com/p/p_Lld0K7w19OwKd9Os"
+  },
+  "cloudflare": {
+   "cloudflare-workers-ai-clef-decision-api": "https://hagglebee.com/p/p_ji8FUcJLx1SJfx6_"
+  },
+  "coda-project": {
+   "coda-project-account-api": "https://hagglebee.com/p/p_0iZl0FUStY1JLPPX"
+  },
+  "cogny": {
+   "cogny-tickets-api": "https://hagglebee.com/p/p_KpAEMkerwYTUjP6H"
+  },
+  "confluent": {
+   "confluent-api-keys-api": "https://hagglebee.com/p/p_-97Q4D6NsvxEYzZB"
+  },
+  "confluent-the-data-streaming-platform": {
+   "confluent-the-data-streaming-platform-access-points-networking-v1-api": "https://hagglebee.com/p/p_buQuQGGcGksTpidH"
+  },
+  "conga": {
+   "conga-2-order-actions-api": "https://hagglebee.com/p/p_fnyb0qVFv-_q8Zki"
+  },
+  "contextdev": {
+   "contextdev-monitors-api": "https://hagglebee.com/p/p_Gwrv5WzWsmQ2JbZl"
+  },
+  "convertkit": {
+   "convertkit-accounts-api": "https://hagglebee.com/p/p_uYZbGjycM03xiJCN"
+  },
+  "cvent": {
+   "cvent-contacts-api": "https://hagglebee.com/p/p_nd_sjNogfIw-V3Or"
+  },
+  "cvent-registration": {
+   "cvent-registration-attendees-api": "https://hagglebee.com/p/p_h7t8tIy9C6UKljb_"
+  },
+  "cymetica-com": {
+   "cymetica-com-api-keys-api": "https://hagglebee.com/p/p_cWQv0nakGWOfOzRs"
+  },
+  "dash0": {
+   "dash0-edge-collectors-api": "https://hagglebee.com/p/p_PAmyQyzholL2_4at"
+  },
+  "dataforseo": {
+   "dataforseo-aioptimization-api": "https://hagglebee.com/p/p_wxE88bmv2mIk28kG"
+  },
+  "dify": {
+   "dify-conversations-api": "https://hagglebee.com/p/p_dqKDSI8GOxeDUxGc"
+  },
+  "doit": {
+   "doit-accountteam-api": "https://hagglebee.com/p/p_FgsUa6FlsdEinSAU"
+  },
+  "dotcms": {
+   "dotcms-accessibility-checker-api": "https://hagglebee.com/p/p_g15fk64gCWk59rbi"
+  },
+  "drippay": {
+   "drippay-business-api": "https://hagglebee.com/p/p_cET4KXN79Y2MUYgC"
+  },
+  "eclipse": {
+   "eclipse-eclipse-marketplace-rest-api-api": "https://hagglebee.com/p/p_q9Q7VpfAYKYgyBQk"
+  },
+  "elastic": {
+   "elastic-deployments-api": "https://hagglebee.com/p/p_A6H0uTNxUi1sbKpQ"
+  },
+  "elation-health": {
+   "elation-health-allergy-documentation-api": "https://hagglebee.com/p/p_GD2V2bB5bigUqIQo"
+  },
+  "eventwren": {
+   "eventwren-accounts-api": "https://hagglebee.com/p/p_W19f6cg_VCFY6kjL"
+  },
+  "facebook-business-manager": {
+   "facebook-business-manager-ad-accounts-api": "https://hagglebee.com/p/p_7ZI6L_cqkOcNdO5K"
+  },
+  "fellow": {
+   "fellow-action-items-api": "https://hagglebee.com/p/p_FBxoG9a0nsvhUfAi"
+  },
+  "formfeed": {
+   "formfeed-account-api": "https://hagglebee.com/p/p_cSCN96wcFkumblWk"
+  },
+  "gainsight": {
+   "gainsight-accounts-api": "https://hagglebee.com/p/p_Rcs-0DhFeuWiuune"
+  },
+  "general-translation": {
+   "general-translation-context-api": "https://hagglebee.com/p/p_jdp0Hj--wtZj8YiX"
+  },
+  "ghost-org": {
+   "ghost-org-admin-images-api": "https://hagglebee.com/p/p_Upu3uhHWY-phINyN"
+  },
+  "gitlab": {
+   "gitlab-admin-api": "https://hagglebee.com/p/p_WQN_y0yt1c_rlafC"
+  },
+  "go1": {
+   "go1-categories-api": "https://hagglebee.com/p/p_SfM30PrAKZjaYgrw"
+  },
+  "google-ads": {
+   "google-ads-adevents-api": "https://hagglebee.com/p/p_cIig7g17lsV0AgFu"
+  },
+  "google-dialogflow": {
+   "google-dialogflow-agents-api": "https://hagglebee.com/p/p_4GCqVICRA-GbyOfP"
+  },
+  "google-drive": {
+   "google-drive-about-api": "https://hagglebee.com/p/p_PZy1se0nm7Zs-BbS"
+  },
+  "hootsuite": {
+   "hootsuite-analytics-api-api": "https://hagglebee.com/p/p_AvROMD4RFEVYMwbq"
+  },
+  "ibanforge": {
+   "ibanforge-api-keys-api": "https://hagglebee.com/p/p_HCUBr8x_UvMh4_oq"
+  },
+  "jfrog": {
+   "jfrog-access-tokens-api": "https://hagglebee.com/p/p_OxDMyIXULRhmIlza"
+  },
+  "jitterbit": {
+   "jitterbit-operations-api": "https://hagglebee.com/p/p_mSDWxV7NGhuY7kZs"
+  },
+  "junction-com": {
+   "junction-com-aggregate-api": "https://hagglebee.com/p/p_D7TbVygz8hpqjkxZ"
+  },
+  "klarna": {
+   "klarna-checkout-api": "https://hagglebee.com/p/p_mtTqMnUpyE1w-9iX"
+  },
+  "leadspace": {
+   "leadspace-authorization-api": "https://hagglebee.com/p/p_UyewcHtORKPsJKhr"
+  },
+  "lightspeed": {
+   "lightspeed-audit-api": "https://hagglebee.com/p/p_0DL8jQvbCsQWtRzl"
+  },
+  "line": {
+   "line-channel-access-token-api": "https://hagglebee.com/p/p_eiaIGDHr_Mgc_OpG",
+   "line-dummy-api": "https://hagglebee.com/p/p_-15t4_SUUO-NKZhV"
+  },
+  "linkedin": {
+   "linkedin-access-control-api": "https://hagglebee.com/p/p_Hy9xHbooYCio_rS6"
+  },
+  "listrak": {
+   "listrak-app-push-mobile-client-engagements-api": "https://hagglebee.com/p/p_aYFB3GrBHLZZD3IG"
+  },
+  "liveramp": {
+   "liveramp-billable-configs-api": "https://hagglebee.com/p/p_UjtukSKOUxkyvyT-"
+  },
+  "loops": {
+   "loops-api-key-api": "https://hagglebee.com/p/p_-8cRyNgfsfKuxhHh"
+  },
+  "losant": {
+   "losant-application-api-tokens-api": "https://hagglebee.com/p/p_owh-Ag8h6-yRCa5j"
+  },
+  "mailchimp": {
+   "mailchimp-automations-api": "https://hagglebee.com/p/p_et9VC3aXg-Md5_5X"
+  },
+  "microsoft-azure-api-management": {
+   "microsoft-azure-api-management-ai-api": "https://hagglebee.com/p/p_qNzzv8ZTkr2VN-h_"
+  },
+  "microsoft-azure-cache-for-redis": {
+   "microsoft-azure-cache-for-redis-linkedserver-api": "https://hagglebee.com/p/p_4HXUOeXYQHcKNWDJ",
+   "microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api": "https://hagglebee.com/p/p_60K-bxKSp6VwZRnQ"
+  },
+  "mirakl": {
+   "mirakl-carriers-api": "https://hagglebee.com/p/p_fmvOu6SUXWB6aGuQ"
+  },
+  "moov": {
+   "moov-authentication-api": "https://hagglebee.com/p/p_Vi_vVElsWyWyeCPW"
+  },
+  "navision": {
+   "navision-accounts-api": "https://hagglebee.com/p/p_ocX3dKHrDBIB-er4"
+  },
+  "oneschema": {
+   "oneschema-aws-secrets-manager-accounts-api": "https://hagglebee.com/p/p_lNvgVxys8D02vco9"
+  },
+  "openai": {
+   "openai-responses-api": "https://hagglebee.com/p/p_uhHzeh88K2XaHw3O"
+  },
+  "openmercantil": {
+   "openmercantil-api-credentials-api": "https://hagglebee.com/p/p_AomUSXo8qDcFvZli"
+  },
+  "optimizely": {
+   "optimizely-assets-api": "https://hagglebee.com/p/p_goC-i3YA-HwQSrN_"
+  },
+  "paubox": {
+   "paubox-analytics-api": "https://hagglebee.com/p/p_KQTqnfsI1k4bKKVn"
+  },
+  "plaid": {
+   "plaid-plaid-api": "https://hagglebee.com/p/p_QXSxRXYSmOy2NWdD"
+  },
+  "prisma": {
+   "prisma-aggregation-api": "https://hagglebee.com/p/p_04d_8O30YjNsfa0W"
+  },
+  "publiq": {
+   "publiq-associations-api": "https://hagglebee.com/p/p_nIX8TxJp--wbLO5W"
+  },
+  "recruitmcp-com": {
+   "recruitmcp-com-account-api": "https://hagglebee.com/p/p_V4xmrWWLuyKkk6EK"
+  },
+  "rendex-dev": {
+   "rendex-dev-account-api": "https://hagglebee.com/p/p_g0jpvTcLAujHFCCe"
+  },
+  "run402-com": {
+   "run402-com-admin-api": "https://hagglebee.com/p/p_0lI9k8LfuBDtUbmW"
+  },
+  "safetyculture": {
+   "safetyculture-apps-api": "https://hagglebee.com/p/p_OxMl3A5fYrRokb3C"
+  },
+  "salesforce-marketing-cloud": {
+   "salesforce-marketing-cloud-assets-api": "https://hagglebee.com/p/p_6K4DX4cx-wTz2sH0"
+  },
+  "samva-dev": {
+   "samva-dev-agents-api": "https://hagglebee.com/p/p_rrY6BFTYG4_lLDSh"
+  },
+  "sapling": {
+   "sapling-analysis-api": "https://hagglebee.com/p/p_AjyCT2pRcAljinzQ"
+  },
+  "scope3": {
+   "scope3-ai-impact-measurement-api": "https://hagglebee.com/p/p_PLco0AV3Lc-b8hdm"
+  },
+  "sentry-system": {
+   "sentry-system-alerts-api": "https://hagglebee.com/p/p_5wj7NagoVKeESO-T"
+  },
+  "service-cloud": {
+   "service-cloud-bot-api": "https://hagglebee.com/p/p_obJST5RQYxE6tG_7"
+  },
+  "signalwire": {
+   "signalwire-addresses-api": "https://hagglebee.com/p/p_n9eBGDDpxsXDZq7k"
+  },
+  "snowflake": {
+   "snowflake-artifact-repository-api": "https://hagglebee.com/p/p_D39NK5dQEwCKuQlv"
+  },
+  "snyk": {
+   "snyk-aibom-api": "https://hagglebee.com/p/p_0qYR-6u906KwQCy-"
+  },
+  "stannp": {
+   "stannp-account-api": "https://hagglebee.com/p/p_1jyLuExWOH3nYMHa",
+   "stannp-campaigns-api": "https://hagglebee.com/p/p_VnuvFGjt6zAum9SJ"
+  },
+  "stax": {
+   "stax-admin-api": "https://hagglebee.com/p/p_QiJPIHV3NqAAU110"
+  },
+  "stedi": {
+   "stedi-claim-acknowledgments-api": "https://hagglebee.com/p/p_-H2ZGy_yynzlHHFq",
+   "stedi-claim-attachments-api": "https://hagglebee.com/p/p__jIX053EtRjLrbaa"
+  },
+  "stoplight": {
+   "stoplight-versions-api": "https://hagglebee.com/p/p_9u-N22MU4Ux9Km_p"
+  },
+  "strivacity": {
+   "strivacity-account-api": "https://hagglebee.com/p/p_kzExcVeFSm8TnQ2F",
+   "strivacity-account-attribute-api": "https://hagglebee.com/p/p_VFvJ3B4sDzdXZNA3"
+  },
+  "tabby": {
+   "tabby-disputes-api": "https://hagglebee.com/p/p_Vt5CkgbPmNKUcLE_"
+  },
+  "telnyx": {
+   "telnyx-access-tokens-api": "https://hagglebee.com/p/p_ZKqjk1Q_QQi4GqDM"
+  },
+  "thanx": {
+   "thanx-auth-api": "https://hagglebee.com/p/p_kLBZpm105gCzq3Db"
+  },
+  "thecolony-ai": {
+   "thecolony-ai-achievements-api": "https://hagglebee.com/p/p_c9SysF-O8J9uCxEx"
+  },
+  "trello": {
+   "trello-actions-api": "https://hagglebee.com/p/p_ZYcatKWvABrX5vbq"
+  },
+  "umami": {
+   "umami-authentication-api": "https://hagglebee.com/p/p_VvllcdTT0Jq4kshc",
+   "umami-teams-api": "https://hagglebee.com/p/p_POAdtDgQe00p87Oe"
+  },
+  "unify": {
+   "unify-events-api": "https://hagglebee.com/p/p_7-Fh1GTC-l6ANbZu"
+  },
+  "uphold": {
+   "uphold-accounts-api": "https://hagglebee.com/p/p_yPZcojH87pUhmOrM"
+  },
+  "veeva": {
+   "veeva-users-api": "https://hagglebee.com/p/p_rS3E2OBImFZ7Mf_I"
+  },
+  "weavr": {
+   "weavr-access-token-api": "https://hagglebee.com/p/p_GosQ-FoOAKxph37R"
+  },
+  "wso2": {
+   "wso2-advanced-policy-collection-api": "https://hagglebee.com/p/p_SzoPLOEPkMYR_M2C"
+  },
+  "x": {
+   "x-account-activity-api": "https://hagglebee.com/p/p_w_dmHxRwG9uzJNMH"
+  },
+  "yarnhen": {
+   "yarnhen-accounts-api": "https://hagglebee.com/p/p_nMQyVN-VMsel_tQm"
+  },
+  "yawplet": {
+   "yawplet-accounts-api": "https://hagglebee.com/p/p_zYW5F_JpNNYOIWH0"
+  },
+  "znanylekarz": {
+   "znanylekarz-addresses-api": "https://hagglebee.com/p/p_hOx5CJbeoIjPN9V0",
+   "znanylekarz-api-notification-callbacks-api": "https://hagglebee.com/p/p_Hnjjh5Ny3PfzYEg7",
+   "znanylekarz-bookings-api": "https://hagglebee.com/p/p_FKTJlOCO0Qb4L304"
+  },
+  "zoho-crm": {
+   "zoho-crm-actions-api": "https://hagglebee.com/p/p_gmqNzVmrbPw-CF-I"
+  }
+ }
+}

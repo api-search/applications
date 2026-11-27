@@ -66,10 +66,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 27.1
+    agent_readiness: 26.6
     band: thin
     in_catalog: true
-    kin_score: 34.9
+    kin_score: 35.2
     mcp: &id001
       source: https://github.com/bitwarden/mcp-server
       status: verified
@@ -97,10 +97,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 20.2
     band: developing
     in_catalog: true
-    kin_score: 39.8
+    kin_score: 39.4
     mcp: &id003
       status: none
     slug: duckduckgo
@@ -127,10 +127,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 20.9
     band: thin
     in_catalog: true
-    kin_score: 31.8
+    kin_score: 34.7
     mcp: &id005
       status: none
     slug: duo-security
@@ -157,10 +157,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id007
       source: https://github.com/google/mcp
       status: verified
@@ -188,10 +188,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 31.8
     band: developing
     in_catalog: true
-    kin_score: 48.4
+    kin_score: 49.5
     mcp: &id009
       status: none
     slug: have-i-been-pwned
@@ -218,10 +218,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 25.0
     band: strong
     in_catalog: true
-    kin_score: 58.3
+    kin_score: 58.0
     mcp: &id011
       status: none
     slug: yubico
@@ -246,10 +246,10 @@ noindex: false
 permalink: /applications/password-manager/vaultwarden/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 27.1
+  agent_readiness: 26.6
   band: thin
   in_catalog: true
-  kin_score: 34.9
+  kin_score: 35.2
   mcp: *id001
   name: Bitwarden
   slug: bitwarden
@@ -257,10 +257,10 @@ providers:
   tags: *id002
   url: /providers/bitwarden/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 20.2
   band: developing
   in_catalog: true
-  kin_score: 39.8
+  kin_score: 39.4
   mcp: *id003
   name: DuckDuckGo
   slug: duckduckgo
@@ -268,10 +268,10 @@ providers:
   tags: *id004
   url: /providers/duckduckgo/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 20.9
   band: thin
   in_catalog: true
-  kin_score: 31.8
+  kin_score: 34.7
   mcp: *id005
   name: Duo Security
   slug: duo-security
@@ -279,10 +279,10 @@ providers:
   tags: *id006
   url: /providers/duo-security/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id007
   name: Google
   slug: google
@@ -290,10 +290,10 @@ providers:
   tags: *id008
   url: /providers/google/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 31.8
   band: developing
   in_catalog: true
-  kin_score: 48.4
+  kin_score: 49.5
   mcp: *id009
   name: Have I Been Pwned
   slug: have-i-been-pwned
@@ -301,10 +301,10 @@ providers:
   tags: *id010
   url: /providers/have-i-been-pwned/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 25.0
   band: strong
   in_catalog: true
-  kin_score: 58.3
+  kin_score: 58.0
   mcp: *id011
   name: Yubico
   slug: yubico

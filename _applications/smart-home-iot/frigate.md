@@ -47,11 +47,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.4
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 29.9
+    band: exemplar
     in_catalog: true
-    kin_score: 44.6
+    kin_score: 68.3
     mcp: &id001
       source: https://github.com/microsoft/mcp
       status: verified
@@ -79,10 +79,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id003
       status: none
     slug: google-gemini
@@ -112,7 +112,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id005
       status: none
     slug: ollama
@@ -139,10 +139,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id007
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -167,11 +167,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/smart-home-iot/frigate/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.4
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 29.9
+  band: exemplar
   in_catalog: true
-  kin_score: 44.6
+  kin_score: 68.3
   mcp: *id001
   name: Azure OpenAI
   slug: microsoft-azure-openai
@@ -179,10 +179,10 @@ providers:
   tags: *id002
   url: /providers/microsoft-azure-openai/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id003
   name: Google Gemini
   slug: google-gemini
@@ -193,7 +193,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id005
   name: Ollama
   slug: ollama
@@ -201,10 +201,10 @@ providers:
   tags: *id006
   url: /providers/ollama/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id007
   name: OpenAI
   slug: openai

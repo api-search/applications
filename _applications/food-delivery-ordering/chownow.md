@@ -88,10 +88,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.5
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 39.9
+    kin_score: 41.3
     mcp: &id003
       status: none
     slug: clover
@@ -118,10 +118,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.5
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 77.8
+    kin_score: 76.3
     mcp: &id005
       status: none
     slug: doordash
@@ -148,10 +148,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id007
       source: https://github.com/google/mcp
       status: verified
@@ -179,10 +179,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.8
+    agent_readiness: 46.8
     band: strong
     in_catalog: true
-    kin_score: 62.1
+    kin_score: 61.3
     mcp: &id009
       status: none
     slug: grubhub
@@ -212,7 +212,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 16.1
+    kin_score: 15.0
     mcp: &id011
       source: https://github.com/globalpayments/mcp-server
       status: verified
@@ -240,10 +240,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.1
+    agent_readiness: 28.2
     band: emerging
     in_catalog: true
-    kin_score: 20.5
+    kin_score: 19.6
     mcp: &id013
       status: none
     slug: revel-systems
@@ -296,10 +296,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 62.8
+    agent_readiness: 61.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.1
+    kin_score: 78.2
     mcp: &id017
       source: https://developer.squareup.com/docs/mcp
       status: verified
@@ -327,10 +327,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.6
+    agent_readiness: 38.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 68.3
     mcp: &id019
       status: none
     slug: toast
@@ -357,10 +357,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.8
+    agent_readiness: 31.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 45.5
     mcp: &id021
       status: none
     slug: uber-eats
@@ -387,10 +387,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 53.4
-    band: strong
+    agent_readiness: 46.7
+    band: exemplar
     in_catalog: true
-    kin_score: 64.1
+    kin_score: 68.2
     mcp: &id023
       source: https://github.com/Yelp/yelp-mcp
       status: verified
@@ -427,10 +427,10 @@ providers:
   tags: *id002
   url: null
 - agent_band: agent-ready
-  agent_readiness: 36.5
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 39.9
+  kin_score: 41.3
   mcp: *id003
   name: Clover
   slug: clover
@@ -438,10 +438,10 @@ providers:
   tags: *id004
   url: /providers/clover/
 - agent_band: agent-ready
-  agent_readiness: 35.5
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 77.8
+  kin_score: 76.3
   mcp: *id005
   name: DoorDash
   slug: doordash
@@ -449,10 +449,10 @@ providers:
   tags: *id006
   url: /providers/doordash/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id007
   name: Google (Order with Google)
   slug: google
@@ -460,10 +460,10 @@ providers:
   tags: *id008
   url: /providers/google/
 - agent_band: agent-ready
-  agent_readiness: 47.8
+  agent_readiness: 46.8
   band: strong
   in_catalog: true
-  kin_score: 62.1
+  kin_score: 61.3
   mcp: *id009
   name: Grubhub
   slug: grubhub
@@ -474,7 +474,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 16.1
+  kin_score: 15.0
   mcp: *id011
   name: Heartland Genius
   slug: heartland-payment-systems
@@ -482,10 +482,10 @@ providers:
   tags: *id012
   url: /providers/heartland-payment-systems/
 - agent_band: agent-aware
-  agent_readiness: 28.1
+  agent_readiness: 28.2
   band: emerging
   in_catalog: true
-  kin_score: 20.5
+  kin_score: 19.6
   mcp: *id013
   name: Revel
   slug: revel-systems
@@ -504,10 +504,10 @@ providers:
   tags: *id016
   url: null
 - agent_band: agent-native
-  agent_readiness: 62.8
+  agent_readiness: 61.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.1
+  kin_score: 78.2
   mcp: *id017
   name: Square
   slug: square
@@ -515,10 +515,10 @@ providers:
   tags: *id018
   url: /providers/square/
 - agent_band: agent-ready
-  agent_readiness: 39.6
+  agent_readiness: 38.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 68.3
   mcp: *id019
   name: Toast
   slug: toast
@@ -526,10 +526,10 @@ providers:
   tags: *id020
   url: /providers/toast/
 - agent_band: agent-ready
-  agent_readiness: 31.8
+  agent_readiness: 31.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 45.5
   mcp: *id021
   name: Uber Eats
   slug: uber-eats
@@ -537,10 +537,10 @@ providers:
   tags: *id022
   url: /providers/uber-eats/
 - agent_band: agent-native
-  agent_readiness: 53.4
-  band: strong
+  agent_readiness: 46.7
+  band: exemplar
   in_catalog: true
-  kin_score: 64.1
+  kin_score: 68.2
   mcp: *id023
   name: Yelp
   slug: yelp

@@ -116,10 +116,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id001
       status: none
     slug: apple
@@ -146,10 +146,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.5
+    agent_readiness: 45.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.4
+    kin_score: 76.0
     mcp: &id003
       source: https://github.com/microsoft/mcp
       status: verified
@@ -177,10 +177,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 69.6
+    agent_readiness: 69.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.8
+    kin_score: 82.5
     mcp: &id005
       source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
       status: verified
@@ -208,10 +208,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.4
+    agent_readiness: 36.1
     band: strong
     in_catalog: true
-    kin_score: 60.8
+    kin_score: 61.4
     mcp: &id007
       source: https://github.com/DeepL/deepl-mcp-server
       status: verified
@@ -239,10 +239,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.3
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 67.1
+    kin_score: 73.2
     mcp: &id009
       source: https://github.com/google/mcp
       status: verified
@@ -269,11 +269,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.7
+    band: developing
     in_catalog: true
-    kin_score: 31.6
+    kin_score: 51.3
     mcp: &id011
       status: none
     slug: google-play
@@ -299,11 +299,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.9
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 33.9
+    band: exemplar
     in_catalog: true
-    kin_score: 51.6
+    kin_score: 68.0
     mcp: &id013
       status: none
     slug: google-translate
@@ -333,7 +333,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id015
       status: none
     slug: ollama
@@ -360,10 +360,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.2
+    agent_readiness: 25.9
     band: developing
     in_catalog: true
-    kin_score: 48.3
+    kin_score: 50.9
     mcp: &id017
       status: none
     slug: microsoft-onedrive
@@ -390,10 +390,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id019
       source: https://github.com/PostHog/mcp
       status: verified
@@ -424,7 +424,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id021
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -452,10 +452,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id023
       source: https://docs.stripe.com/mcp
       status: verified
@@ -483,10 +483,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.1
+    agent_readiness: 48.2
     band: developing
     in_catalog: true
-    kin_score: 49.1
+    kin_score: 49.4
     mcp: &id025
       source: https://github.com/supabase/mcp
       status: verified
@@ -514,10 +514,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 29.9
     band: thin
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 36.5
     mcp: &id027
       status: none
     slug: yandex-translate
@@ -542,10 +542,10 @@ noindex: false
 permalink: /applications/ebooks-reading/readest/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id001
   name: Apple (iCloud)
   slug: apple
@@ -553,10 +553,10 @@ providers:
   tags: *id002
   url: /providers/apple/
 - agent_band: agent-ready
-  agent_readiness: 51.5
+  agent_readiness: 45.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.4
+  kin_score: 76.0
   mcp: *id003
   name: Azure Translator
   slug: microsoft-azure
@@ -564,10 +564,10 @@ providers:
   tags: *id004
   url: /providers/microsoft-azure/
 - agent_band: agent-native
-  agent_readiness: 69.6
+  agent_readiness: 69.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.8
+  kin_score: 82.5
   mcp: *id005
   name: Cloudflare
   slug: cloudflare
@@ -575,10 +575,10 @@ providers:
   tags: *id006
   url: /providers/cloudflare/
 - agent_band: agent-ready
-  agent_readiness: 36.4
+  agent_readiness: 36.1
   band: strong
   in_catalog: true
-  kin_score: 60.8
+  kin_score: 61.4
   mcp: *id007
   name: DeepL
   slug: deepl
@@ -586,32 +586,32 @@ providers:
   tags: *id008
   url: /providers/deepl/
 - agent_band: agent-ready
-  agent_readiness: 44.3
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 67.1
+  kin_score: 73.2
   mcp: *id009
   name: Google Drive
   slug: google-drive
   status: profiled
   tags: *id010
   url: /providers/google-drive/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.7
+  band: developing
   in_catalog: true
-  kin_score: 31.6
+  kin_score: 51.3
   mcp: *id011
   name: Google Play
   slug: google-play
   status: profiled
   tags: *id012
   url: /providers/google-play/
-- agent_band: agent-aware
-  agent_readiness: 17.9
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 33.9
+  band: exemplar
   in_catalog: true
-  kin_score: 51.6
+  kin_score: 68.0
   mcp: *id013
   name: Google Translate
   slug: google-translate
@@ -622,7 +622,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id015
   name: Ollama
   slug: ollama
@@ -630,10 +630,10 @@ providers:
   tags: *id016
   url: /providers/ollama/
 - agent_band: agent-aware
-  agent_readiness: 25.2
+  agent_readiness: 25.9
   band: developing
   in_catalog: true
-  kin_score: 48.3
+  kin_score: 50.9
   mcp: *id017
   name: OneDrive
   slug: microsoft-onedrive
@@ -641,10 +641,10 @@ providers:
   tags: *id018
   url: /providers/microsoft-onedrive/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id019
   name: PostHog
   slug: posthog
@@ -655,7 +655,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id021
   name: Sentry
   slug: sentry-system
@@ -663,10 +663,10 @@ providers:
   tags: *id022
   url: /providers/sentry-system/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id023
   name: Stripe
   slug: stripe
@@ -674,10 +674,10 @@ providers:
   tags: *id024
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 48.1
+  agent_readiness: 48.2
   band: developing
   in_catalog: true
-  kin_score: 49.1
+  kin_score: 49.4
   mcp: *id025
   name: Supabase
   slug: supabase
@@ -685,10 +685,10 @@ providers:
   tags: *id026
   url: /providers/supabase/
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 29.9
   band: thin
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 36.5
   mcp: *id027
   name: Yandex Translate
   slug: yandex-translate

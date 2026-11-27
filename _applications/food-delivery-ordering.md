@@ -2154,7 +2154,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - ChowNow
       - Otter
@@ -2163,7 +2163,7 @@ stack:
       - UpMenu
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp: &id003
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -2182,7 +2182,7 @@ stack:
       tier: declared
       url: /providers/square/
     - agent_band: agent-ready
-      agent_readiness: 39.6
+      agent_readiness: 38.8
       apps:
       - ChowNow
       - Otter
@@ -2190,7 +2190,7 @@ stack:
       - UpMenu
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 68.3
       mcp:
         status: none
       name: Toast
@@ -2208,14 +2208,14 @@ stack:
       tier: declared
       url: /providers/toast/
     - agent_band: agent-ready
-      agent_readiness: 43.0
+      agent_readiness: 42.1
       apps:
       - Otter
       - Shipday
       - UpMenu
       band: exemplar
       in_catalog: true
-      kin_score: 86.5
+      kin_score: 84.5
       mcp:
         status: none
       name: Lightspeed
@@ -2233,14 +2233,14 @@ stack:
       tier: declared
       url: /providers/lightspeed/
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 59.8
       apps:
       - Otter
       - Shipday
       - UpMenu
       band: exemplar
       in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.4
       mcp:
         source: https://github.com/oracle/mcp
         status: verified
@@ -2259,14 +2259,14 @@ stack:
       tier: declared
       url: /providers/oracle/
     - agent_band: agent-ready
-      agent_readiness: 36.5
+      agent_readiness: 33.1
       apps:
       - ChowNow
       - Otter
       - UpMenu
       band: developing
       in_catalog: true
-      kin_score: 39.9
+      kin_score: 41.3
       mcp:
         status: none
       name: Clover
@@ -2284,13 +2284,13 @@ stack:
       tier: declared
       url: /providers/clover/
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 27.3
       apps:
       - Otter
       - Shipday
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.4
       mcp:
         status: none
       name: Epos Now
@@ -2307,13 +2307,13 @@ stack:
       tier: declared
       url: /providers/epos-now/
     - agent_band: agent-aware
-      agent_readiness: 28.1
+      agent_readiness: 28.2
       apps:
       - ChowNow
       - Otter
       band: emerging
       in_catalog: true
-      kin_score: 20.5
+      kin_score: 19.6
       mcp:
         status: none
       name: Revel
@@ -2336,7 +2336,7 @@ stack:
       - Shipday
       band: emerging
       in_catalog: true
-      kin_score: 16.1
+      kin_score: 15.0
       mcp:
         source: https://github.com/globalpayments/mcp-server
         status: verified
@@ -2354,12 +2354,12 @@ stack:
       tier: declared
       url: /providers/heartland-payment-systems/
     - agent_band: agent-native
-      agent_readiness: 52.4
+      agent_readiness: 54.1
       apps:
       - Otter
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 50.8
       mcp:
         status: none
       name: Shift4
@@ -2375,12 +2375,12 @@ stack:
       tier: declared
       url: /providers/shift4/
     - agent_band: agent-aware
-      agent_readiness: 21.7
+      agent_readiness: 26.8
       apps:
       - Otter
       band: thin
       in_catalog: true
-      kin_score: 29.3
+      kin_score: 29.6
       mcp:
         status: none
       name: Loyverse
@@ -2396,12 +2396,12 @@ stack:
       tier: declared
       url: /providers/loyverse/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 23.9
       apps:
       - UpMenu
       band: thin
       in_catalog: true
-      kin_score: 27.5
+      kin_score: 26.8
       mcp:
         status: none
       name: NCR Aloha
@@ -2417,12 +2417,12 @@ stack:
       tier: declared
       url: /providers/ncr/
     - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 22.4
       apps:
       - Otter
       band: emerging
       in_catalog: true
-      kin_score: 18.6
+      kin_score: 18.2
       mcp:
         status: none
       name: Lavu
@@ -2463,14 +2463,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Otter
       - TastyIgniter
       - UpMenu
       band: thin
       in_catalog: true
-      kin_score: 28.1
+      kin_score: 27.9
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=com.shipday&limit=3
         status: verified
@@ -2489,14 +2489,14 @@ stack:
       tier: declared
       url: /providers/shipday/
     - agent_band: agent-aware
-      agent_readiness: 25.1
+      agent_readiness: 24.6
       apps:
       - Shipday
       - TastyIgniter
       - UpMenu
       band: emerging
       in_catalog: true
-      kin_score: 25.3
+      kin_score: 24.4
       mcp:
         status: none
       name: Uber Direct
@@ -2554,12 +2554,12 @@ stack:
       tier: declared
       url: null
     - agent_band: agent-native
-      agent_readiness: 41.8
+      agent_readiness: 41.4
       apps:
       - Otter
       band: strong
       in_catalog: true
-      kin_score: 63.1
+      kin_score: 62.9
       mcp:
         status: none
       name: Nash
@@ -2575,7 +2575,7 @@ stack:
       tier: declared
       url: /providers/nash/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 26.2
       apps:
       - UpMenu
       band: thin
@@ -2622,7 +2622,7 @@ stack:
       - Shipday
       band: minimal
       in_catalog: true
-      kin_score: 2.2
+      kin_score: 1.3
       mcp:
         status: unknown
       name: Zifty
@@ -2680,14 +2680,14 @@ stack:
       via_parent: Quick & Local Commerce
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.8
+      agent_readiness: 46.8
       apps:
       - ChowNow
       - Otter
       - Shipday
       band: strong
       in_catalog: true
-      kin_score: 62.1
+      kin_score: 61.3
       mcp:
         status: none
       name: Grubhub
@@ -2705,13 +2705,13 @@ stack:
       tier: declared
       url: /providers/grubhub/
     - agent_band: agent-ready
-      agent_readiness: 35.5
+      agent_readiness: 34.8
       apps:
       - ChowNow
       - Otter
       band: exemplar
       in_catalog: true
-      kin_score: 77.8
+      kin_score: 76.3
       mcp:
         status: none
       name: DoorDash
@@ -2728,13 +2728,13 @@ stack:
       tier: declared
       url: /providers/doordash/
     - agent_band: agent-ready
-      agent_readiness: 31.8
+      agent_readiness: 31.1
       apps:
       - ChowNow
       - Otter
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 45.5
       mcp:
         status: none
       name: Uber Eats
@@ -2756,7 +2756,7 @@ stack:
       - Otter
       band: emerging
       in_catalog: true
-      kin_score: 20.2
+      kin_score: 18.2
       mcp:
         status: none
       name: Postmates
@@ -2772,12 +2772,12 @@ stack:
       tier: declared
       url: /providers/postmates/
     - agent_band: agent-aware
-      agent_readiness: 7.9
+      agent_readiness: 7.7
       apps:
       - Otter
       band: emerging
       in_catalog: true
-      kin_score: 15.9
+      kin_score: 16.6
       mcp:
         status: none
       name: HungryPanda
@@ -2798,28 +2798,7 @@ stack:
       - Otter
       band: emerging
       in_catalog: true
-      kin_score: 12.1
-      mcp:
-        status: none
-      name: ClassPass
-      slug: classpass
-      sources:
-      - https://www.tryotter.com/integrations
-      status: profiled
-      tags:
-      - Class Booking
-      - Fitness
-      - Marketplace
-      - Wellness
-      tier: declared
-      url: /providers/classpass/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Otter
-      band: emerging
-      in_catalog: true
-      kin_score: 11.0
+      kin_score: 13.1
       mcp:
         status: none
       name: ezCater
@@ -2838,9 +2817,30 @@ stack:
       agent_readiness: 0.0
       apps:
       - Otter
+      band: emerging
+      in_catalog: true
+      kin_score: 11.0
+      mcp:
+        status: none
+      name: ClassPass
+      slug: classpass
+      sources:
+      - https://www.tryotter.com/integrations
+      status: profiled
+      tags:
+      - Class Booking
+      - Fitness
+      - Marketplace
+      - Wellness
+      tier: declared
+      url: /providers/classpass/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Otter
       band: minimal
       in_catalog: true
-      kin_score: 3.4
+      kin_score: 2.6
       mcp:
         status: none
       name: Caviar
@@ -2861,7 +2861,23 @@ stack:
       - Otter
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.6
+      mcp: *id001
+      name: Skip the Dishes
+      slug: skipthedishes
+      sources:
+      - https://www.tryotter.com/integrations
+      status: profiled
+      tags: *id002
+      tier: declared
+      url: /providers/skipthedishes/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Otter
+      band: minimal
+      in_catalog: true
+      kin_score: 2.2
       mcp:
         status: unknown
       name: Fantuan
@@ -2876,22 +2892,6 @@ stack:
       - Takeout
       tier: declared
       url: /providers/fantuan/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Otter
-      band: minimal
-      in_catalog: true
-      kin_score: 2.6
-      mcp: *id001
-      name: Skip the Dishes
-      slug: skipthedishes
-      sources:
-      - https://www.tryotter.com/integrations
-      status: profiled
-      tags: *id002
-      tier: declared
-      url: /providers/skipthedishes/
   - capability:
       attribution: API Evangelist extension
       id: AE-140.20.20
@@ -2901,13 +2901,13 @@ stack:
       via_parent: Cart & Checkout
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.7
+      agent_readiness: 40.2
       apps:
       - Otter
       - Shipday
       band: developing
       in_catalog: true
-      kin_score: 47.4
+      kin_score: 45.6
       mcp:
         status: none
       name: Flipdish
@@ -2930,7 +2930,7 @@ stack:
       - Shipday
       band: minimal
       in_catalog: true
-      kin_score: 9.8
+      kin_score: 8.5
       mcp:
         status: none
       name: ChowNow
@@ -2947,12 +2947,12 @@ stack:
       tier: declared
       url: /providers/chownow/
     - agent_band: agent-aware
-      agent_readiness: 27.0
+      agent_readiness: 26.4
       apps:
       - Otter
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 44.5
       mcp:
         status: none
       name: Incentivio
@@ -2968,12 +2968,12 @@ stack:
       tier: declared
       url: /providers/incentivio/
     - agent_band: agent-aware
-      agent_readiness: 28.4
+      agent_readiness: 27.9
       apps:
       - Otter
       band: thin
       in_catalog: true
-      kin_score: 36.7
+      kin_score: 35.6
       mcp:
         status: none
       name: Lunchbox
@@ -2989,12 +2989,12 @@ stack:
       tier: declared
       url: /providers/lunchbox/
     - agent_band: agent-ready
-      agent_readiness: 37.2
+      agent_readiness: 37.1
       apps:
       - Shipday
       band: thin
       in_catalog: true
-      kin_score: 33.7
+      kin_score: 32.6
       mcp:
         source: https://help.otter.ai/api/v2/help_center/en-us/articles/35287607569687.json
         status: verified
@@ -3011,12 +3011,12 @@ stack:
       tier: declared
       url: /providers/otter/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.9
       apps:
       - Otter
       band: thin
       in_catalog: true
-      kin_score: 31.7
+      kin_score: 30.3
       mcp:
         status: none
       name: Slice
@@ -3032,12 +3032,12 @@ stack:
       tier: declared
       url: /providers/slice/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Shipday
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.9
+      kin_score: 18.9
       mcp:
         status: unknown
       name: Zuppler
@@ -3058,7 +3058,7 @@ stack:
       - Otter
       band: minimal
       in_catalog: true
-      kin_score: 5.9
+      kin_score: 5.4
       mcp:
         status: none
       name: BentoBox
@@ -3116,12 +3116,12 @@ stack:
       via_parent: Storefront Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - Shipday
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -3138,12 +3138,12 @@ stack:
       tier: declared
       url: /providers/shopify/
     - agent_band: agent-native
-      agent_readiness: 49.5
+      agent_readiness: 48.5
       apps:
       - Shipday
       band: exemplar
       in_catalog: true
-      kin_score: 69.9
+      kin_score: 68.7
       mcp: &id005
         status: none
       name: Squarespace
@@ -3159,12 +3159,12 @@ stack:
       tier: declared
       url: /providers/squarespace/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Shipday
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 54.6
       mcp:
         source: https://developer.woocommerce.com/docs/features/mcp/
         status: verified
@@ -3181,12 +3181,12 @@ stack:
       tier: declared
       url: /providers/woocommerce/
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 19.7
       apps:
       - Shipday
       band: developing
       in_catalog: true
-      kin_score: 45.4
+      kin_score: 42.2
       mcp:
         status: none
       name: Ecwid
@@ -3202,12 +3202,12 @@ stack:
       tier: declared
       url: /providers/ecwid/
     - agent_band: agent-ready
-      agent_readiness: 48.2
+      agent_readiness: 47.2
       apps:
       - Shipday
       band: thin
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 35.5
       mcp: &id007
         source: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
         status: verified
@@ -3232,12 +3232,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - ChowNow
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -3254,12 +3254,12 @@ stack:
       tier: declared
       url: /providers/google/
     - agent_band: agent-native
-      agent_readiness: 53.4
+      agent_readiness: 46.7
       apps:
       - ChowNow
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 68.2
       mcp:
         source: https://github.com/Yelp/yelp-mcp
         status: verified
@@ -3301,12 +3301,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.9
+      agent_readiness: 20.4
       apps:
       - Otter
       band: thin
       in_catalog: true
-      kin_score: 38.4
+      kin_score: 36.7
       mcp:
         status: none
       name: Restaurant365
@@ -3322,12 +3322,12 @@ stack:
       tier: declared
       url: /providers/restaurant365/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Otter
       band: emerging
       in_catalog: true
-      kin_score: 25.8
+      kin_score: 25.2
       mcp:
         status: none
       name: MarketMan
@@ -3351,12 +3351,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - Shipday
       band: thin
       in_catalog: true
-      kin_score: 27.9
+      kin_score: 27.6
       mcp:
         status: none
       name: Odoo
@@ -3380,12 +3380,12 @@ stack:
       via_parent: Gift Cards, Gifting & Cashback
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - TastyIgniter
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.4
+      kin_score: 28.4
       mcp:
         status: unknown
       name: Gift Up!
@@ -3409,12 +3409,12 @@ stack:
       via_parent: POS Configuration Management
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 1.7
       apps:
       - TastyIgniter
       band: emerging
       in_catalog: true
-      kin_score: 12.2
+      kin_score: 18.6
       mcp:
         status: none
       name: Star Micronics CloudPRNT
@@ -3440,7 +3440,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Enatega Multivendor
       - Otter
@@ -3448,7 +3448,7 @@ stack:
       - UpMenu
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3467,14 +3467,14 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Enatega Multivendor
       - TastyIgniter
       - UpMenu
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -3493,12 +3493,12 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - TastyIgniter
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp: *id003
       name: Square
       slug: square
@@ -3509,12 +3509,12 @@ stack:
       tier: observed
       url: /providers/square/
     - agent_band: agent-native
-      agent_readiness: 73.2
+      agent_readiness: 71.7
       apps:
       - TastyIgniter
       band: exemplar
       in_catalog: true
-      kin_score: 68.2
+      kin_score: 68.1
       mcp:
         source: https://docs.mollie.com/docs/mcp-server
         status: verified
@@ -3531,12 +3531,12 @@ stack:
       tier: observed
       url: /providers/mollie/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - TastyIgniter
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.5
       mcp:
         source: https://github.com/AuthorizeNet/authorize-net-mcp
         status: verified
@@ -3553,12 +3553,12 @@ stack:
       tier: observed
       url: /providers/authorizenet/
     - agent_band: agent-native
-      agent_readiness: 43.7
+      agent_readiness: 42.8
       apps:
       - UpMenu
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 73.6
       mcp:
         source: https://github.com/Adyen/adyen-mcp
         status: verified
@@ -3575,12 +3575,12 @@ stack:
       tier: declared
       url: /providers/adyen/
     - agent_band: agent-native
-      agent_readiness: 50.8
+      agent_readiness: 49.8
       apps:
       - UpMenu
       band: strong
       in_catalog: true
-      kin_score: 66.0
+      kin_score: 62.1
       mcp:
         status: none
       name: Bancontact
@@ -3596,12 +3596,12 @@ stack:
       tier: declared
       url: /providers/bancontact/
     - agent_band: agent-ready
-      agent_readiness: 54.3
+      agent_readiness: 53.2
       apps:
       - TastyIgniter
       band: developing
       in_catalog: true
-      kin_score: 46.3
+      kin_score: 44.0
       mcp:
         source: https://github.com/sumup/sumup-mcp
         status: verified
@@ -3618,12 +3618,12 @@ stack:
       tier: declared
       url: /providers/sumup/
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 30.2
       apps:
       - UpMenu
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 40.0
+      kin_score: 38.9
       mcp:
         source: https://github.com/payu-intrepos/payu-developer-mcp
         status: verified
@@ -3640,12 +3640,12 @@ stack:
       tier: declared
       url: /providers/payu/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 26.3
       apps:
       - UpMenu
       band: thin
       in_catalog: true
-      kin_score: 39.0
+      kin_score: 36.9
       mcp:
         status: none
       name: Przelewy24
@@ -3669,12 +3669,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 49.5
+      agent_readiness: 48.5
       apps:
       - UpMenu
       band: exemplar
       in_catalog: true
-      kin_score: 69.9
+      kin_score: 68.7
       mcp: *id005
       name: Squarespace
       slug: squarespace
@@ -3685,12 +3685,12 @@ stack:
       tier: declared
       url: /providers/squarespace/
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 31.9
       apps:
       - UpMenu
       band: developing
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 46.6
       mcp:
         source: https://github.com/WordPress/mcp-adapter
         status: verified
@@ -3707,12 +3707,12 @@ stack:
       tier: declared
       url: /providers/wordpress/
     - agent_band: agent-ready
-      agent_readiness: 30.3
+      agent_readiness: 29.7
       apps:
       - UpMenu
       band: thin
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 35.5
       mcp:
         source: https://developer.duda.co/docs/duda-mcp-server
         status: documented
@@ -3729,12 +3729,12 @@ stack:
       tier: declared
       url: /providers/duda/
     - agent_band: agent-ready
-      agent_readiness: 48.2
+      agent_readiness: 47.2
       apps:
       - UpMenu
       band: thin
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 35.5
       mcp: *id007
       name: Wix
       slug: wix
@@ -3753,12 +3753,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 30.3
       apps:
       - Otter
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.2
+      kin_score: 67.1
       mcp:
         status: none
       name: Deputy
@@ -3774,12 +3774,12 @@ stack:
       tier: declared
       url: /providers/deputy/
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 27.6
       apps:
       - Otter
       band: developing
       in_catalog: true
-      kin_score: 49.4
+      kin_score: 49.3
       mcp:
         status: none
       name: 7shifts
@@ -3795,12 +3795,12 @@ stack:
       tier: declared
       url: /providers/7shifts/
     - agent_band: agent-ready
-      agent_readiness: 30.1
+      agent_readiness: 29.5
       apps:
       - Otter
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 37.6
       mcp:
         status: none
       name: When I Work
@@ -3821,7 +3821,7 @@ stack:
       - Otter
       band: emerging
       in_catalog: true
-      kin_score: 25.7
+      kin_score: 25.6
       mcp:
         status: none
       name: Homebase
@@ -3845,12 +3845,12 @@ stack:
       via_parent: Consumer Payment Options
     providers:
     - agent_band: agent-native
-      agent_readiness: 46.0
+      agent_readiness: 45.1
       apps:
       - UpMenu
       band: exemplar
       in_catalog: true
-      kin_score: 73.6
+      kin_score: 73.1
       mcp:
         status: none
       name: Klarna
@@ -3866,12 +3866,12 @@ stack:
       tier: declared
       url: /providers/klarna/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 34.5
       apps:
       - UpMenu
       band: thin
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 33.8
       mcp:
         status: none
       name: Affirm
@@ -3887,12 +3887,12 @@ stack:
       tier: declared
       url: /providers/affirm/
     - agent_band: agent-aware
-      agent_readiness: 13.0
+      agent_readiness: 12.8
       apps:
       - UpMenu
       band: minimal
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 9.2
       mcp:
         status: none
       name: Afterpay
@@ -3916,7 +3916,29 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.0
+      agent_readiness: 56.9
+      apps:
+      - Enatega Multivendor
+      band: strong
+      in_catalog: true
+      kin_score: 65.2
+      mcp:
+        source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+        status: verified
+      name: Amplitude
+      slug: amplitude
+      sources:
+      - https://raw.githubusercontent.com/enatega/food-delivery-multivendor/main/enatega-multivendor-app/package.json
+      status: profiled
+      tags:
+      - A/B Testing
+      - Analytics
+      - Experimentation
+      - Feature Flags
+      tier: observed
+      url: /providers/amplitude/
+    - agent_band: agent-ready
+      agent_readiness: 29.9
       apps:
       - Enatega Multivendor
       band: strong
@@ -3938,34 +3960,12 @@ stack:
       tier: observed
       url: /providers/microsoft-clarity/
     - agent_band: agent-ready
-      agent_readiness: 56.7
-      apps:
-      - Enatega Multivendor
-      band: strong
-      in_catalog: true
-      kin_score: 63.5
-      mcp:
-        source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
-        status: verified
-      name: Amplitude
-      slug: amplitude
-      sources:
-      - https://raw.githubusercontent.com/enatega/food-delivery-multivendor/main/enatega-multivendor-app/package.json
-      status: profiled
-      tags:
-      - A/B Testing
-      - Analytics
-      - Experimentation
-      - Feature Flags
-      tier: observed
-      url: /providers/amplitude/
-    - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - UpMenu
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -3990,12 +3990,33 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 33.7
       apps:
       - Enatega Multivendor
       band: strong
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 58.8
+      mcp:
+        status: none
+      name: Google sign-in
+      slug: google-identity-platform
+      sources:
+      - https://raw.githubusercontent.com/enatega/food-delivery-multivendor/main/enatega-multivendor-app/package.json
+      status: profiled
+      tags:
+      - Authentication
+      - Google Cloud
+      - Identity
+      - Multi-Tenancy
+      tier: observed
+      url: /providers/google-identity-platform/
+    - agent_band: agent-ready
+      agent_readiness: 36.5
+      apps:
+      - Enatega Multivendor
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
       mcp:
         status: none
       name: Sign in with Apple
@@ -4011,33 +4032,12 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - Enatega Multivendor
-      band: thin
-      in_catalog: true
-      kin_score: 36.8
-      mcp:
-        status: none
-      name: Google sign-in
-      slug: google-identity-platform
-      sources:
-      - https://raw.githubusercontent.com/enatega/food-delivery-multivendor/main/enatega-multivendor-app/package.json
-      status: profiled
-      tags:
-      - Authentication
-      - Google Cloud
-      - Identity
-      - Multi-Tenancy
-      tier: observed
-      url: /providers/google-identity-platform/
-    - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Enatega Multivendor
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id009
         status: none
       name: Facebook login
@@ -4061,12 +4061,12 @@ stack:
       via_parent: Consumer Payment Options
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 39.7
       apps:
       - UpMenu
       band: strong
       in_catalog: true
-      kin_score: 66.2
+      kin_score: 65.2
       mcp:
         status: none
       name: Google Pay
@@ -4082,12 +4082,12 @@ stack:
       tier: declared
       url: /providers/google-pay/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.4
       apps:
       - UpMenu
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 43.0
       mcp:
         status: none
       name: Apple Pay
@@ -4111,12 +4111,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - TastyIgniter
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp: &id011
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -4133,12 +4133,12 @@ stack:
       tier: observed
       url: /providers/google-maps/
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 25.7
       apps:
       - TastyIgniter
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.7
       mcp:
         status: none
       name: Nominatim
@@ -4161,13 +4161,13 @@ stack:
       url: /capabilities/customer-information-consent-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 27.3
+    - agent_band: agent-ready
+      agent_readiness: 29.3
       apps:
       - UpMenu
       band: thin
       in_catalog: true
-      kin_score: 33.8
+      kin_score: 31.9
       mcp:
         status: none
       name: CookieYes
@@ -4191,12 +4191,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - UpMenu
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id009
       name: Meta
       slug: facebook
@@ -4220,7 +4220,7 @@ stack:
       - Enatega Multivendor
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -4245,12 +4245,12 @@ stack:
       via_parent: Places & Points of Interest
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Enatega Multivendor
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp: *id011
       name: Google Maps / Places
       slug: google-maps
@@ -4268,28 +4268,28 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Enatega Multivendor
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/enatega/food-delivery-multivendor/main/enatega-multivendor-app/package.json
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-911
@@ -4299,12 +4299,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - UpMenu
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -4327,13 +4327,13 @@ stack:
       url: /capabilities/email/
       via_parent: Email
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Enatega Multivendor
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -4361,7 +4361,7 @@ summary:
     unchecked: 8
     verified: 25
   mcp_verified: 25
-  mean_kin_score: 42.9
+  mean_kin_score: 43.6
   observed: 13
   queued: 8
   reference_apps: 6

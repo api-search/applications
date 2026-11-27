@@ -110,22 +110,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id008
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id009
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google CrashLytics
   provider: firebase
@@ -156,11 +156,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_band: agent-ready
+    agent_readiness: 30.3
     band: thin
     in_catalog: true
-    kin_score: 34.9
+    kin_score: 33.7
     mcp: &id002
       status: none
     slug: bluebeam
@@ -187,10 +187,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.4
+    agent_readiness: 28.2
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 37.7
     mcp: &id004
       status: unknown
     slug: cmic
@@ -217,10 +217,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 71.5
     mcp: &id006
       source: https://www.docusign.com/products/mcp
       status: documented
@@ -249,9 +249,9 @@ integrations:
   facts:
     agent_band: agent-aware
     agent_readiness: 26.5
-    band: developing
+    band: strong
     in_catalog: true
-    kin_score: 53.7
+    kin_score: 56.3
     mcp: &id010
       status: none
     slug: microsoft-project
@@ -281,7 +281,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.5
+    kin_score: 11.4
     mcp: &id012
       status: none
     slug: netsuite
@@ -307,11 +307,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id014
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -339,10 +339,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 30.6
     band: developing
     in_catalog: true
-    kin_score: 41.8
+    kin_score: 41.7
     mcp: &id016
       status: none
     slug: sage
@@ -369,10 +369,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.5
+    agent_readiness: 15.1
     band: thin
     in_catalog: true
-    kin_score: 26.3
+    kin_score: 26.5
     mcp: &id018
       status: none
     slug: sage-intacct
@@ -398,11 +398,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.0
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 35.3
+    band: exemplar
     in_catalog: true
-    kin_score: 41.1
+    kin_score: 66.6
     mcp: &id020
       status: none
     slug: trimble
@@ -429,10 +429,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.3
+    agent_readiness: 60.0
     band: exemplar
     in_catalog: true
-    kin_score: 82.4
+    kin_score: 87.1
     mcp: &id022
       source: https://github.com/XeroAPI/xero-mcp-server
       status: verified
@@ -457,11 +457,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/construction-management/procore/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 25.4
+- agent_band: agent-ready
+  agent_readiness: 30.3
   band: thin
   in_catalog: true
-  kin_score: 34.9
+  kin_score: 33.7
   mcp: *id002
   name: Bluebeam
   slug: bluebeam
@@ -469,10 +469,10 @@ providers:
   tags: *id003
   url: /providers/bluebeam/
 - agent_band: agent-aware
-  agent_readiness: 23.4
+  agent_readiness: 28.2
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 37.7
   mcp: *id004
   name: CMiC
   slug: cmic
@@ -480,32 +480,32 @@ providers:
   tags: *id005
   url: /providers/cmic/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 71.5
   mcp: *id006
   name: DocuSign
   slug: docusign
   status: profiled
   tags: *id007
   url: /providers/docusign/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id008
   name: Google CrashLytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id009
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-aware
   agent_readiness: 26.5
-  band: developing
+  band: strong
   in_catalog: true
-  kin_score: 53.7
+  kin_score: 56.3
   mcp: *id010
   name: Microsoft Project
   slug: microsoft-project
@@ -516,18 +516,18 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.5
+  kin_score: 11.4
   mcp: *id012
   name: Oracle NetSuite
   slug: netsuite
   status: profiled
   tags: *id013
   url: /providers/netsuite/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id014
   name: QuickBooks Desktop
   slug: quickbooks
@@ -535,10 +535,10 @@ providers:
   tags: *id015
   url: /providers/quickbooks/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 30.6
   band: developing
   in_catalog: true
-  kin_score: 41.8
+  kin_score: 41.7
   mcp: *id016
   name: Sage 100 Contractor
   slug: sage
@@ -546,21 +546,21 @@ providers:
   tags: *id017
   url: /providers/sage/
 - agent_band: agent-aware
-  agent_readiness: 15.5
+  agent_readiness: 15.1
   band: thin
   in_catalog: true
-  kin_score: 26.3
+  kin_score: 26.5
   mcp: *id018
   name: Sage Intacct
   slug: sage-intacct
   status: profiled
   tags: *id019
   url: /providers/sage-intacct/
-- agent_band: agent-aware
-  agent_readiness: 23.0
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 35.3
+  band: exemplar
   in_catalog: true
-  kin_score: 41.1
+  kin_score: 66.6
   mcp: *id020
   name: Viewpoint Spectrum (Trimble)
   slug: trimble
@@ -568,10 +568,10 @@ providers:
   tags: *id021
   url: /providers/trimble/
 - agent_band: agent-native
-  agent_readiness: 61.3
+  agent_readiness: 60.0
   band: exemplar
   in_catalog: true
-  kin_score: 82.4
+  kin_score: 87.1
   mcp: *id022
   name: Xero
   slug: xero

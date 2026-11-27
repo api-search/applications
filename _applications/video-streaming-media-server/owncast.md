@@ -57,10 +57,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 48.0
     mcp: &id001
       status: none
     slug: discord
@@ -87,10 +87,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 31.5
     mcp: &id003
       status: none
     slug: maxmind
@@ -117,10 +117,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 52.1
+    agent_readiness: 53.7
     band: exemplar
     in_catalog: true
-    kin_score: 76.9
+    kin_score: 75.6
     mcp: &id005
       source: https://github.com/oracle/mcp
       status: verified
@@ -146,10 +146,10 @@ noindex: false
 permalink: /applications/video-streaming-media-server/owncast/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 48.0
   mcp: *id001
   name: Discord
   slug: discord
@@ -157,10 +157,10 @@ providers:
   tags: *id002
   url: /providers/discord/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 31.5
   mcp: *id003
   name: MaxMind GeoIP
   slug: maxmind
@@ -168,10 +168,10 @@ providers:
   tags: *id004
   url: /providers/maxmind/
 - agent_band: agent-native
-  agent_readiness: 52.1
+  agent_readiness: 53.7
   band: exemplar
   in_catalog: true
-  kin_score: 76.9
+  kin_score: 75.6
   mcp: *id005
   name: Oracle Cloud Object Storage
   slug: oracle-cloud

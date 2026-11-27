@@ -1804,13 +1804,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.0
+      agent_readiness: 36.5
       apps:
       - CosmoLex
       - Lawmatics
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 36.2
+      kin_score: 42.1
       mcp:
         status: unknown
       name: Rocket Matter
@@ -1831,9 +1831,9 @@ stack:
       apps:
       - Lawmatics
       - PracticePanther
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 18.7
+      kin_score: 27.6
       mcp:
         status: unknown
       name: Docketwise
@@ -1849,34 +1849,13 @@ stack:
       - Software-as-a-Service
       tier: declared
       url: /providers/docketwise/
-    - agent_band: agent-ready
-      agent_readiness: 33.7
-      apps:
-      - Lawmatics
-      band: developing
-      in_catalog: true
-      kin_score: 53.3
-      mcp:
-        status: none
-      name: Clio
-      slug: clio
-      sources:
-      - https://www.lawmatics.com/integrations
-      status: profiled
-      tags:
-      - Billing
-      - Calendaring
-      - Document Management
-      - Law Firms
-      tier: declared
-      url: /providers/clio/
     - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 22.4
       apps:
       - Lawmatics
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 53.1
+      kin_score: 54.9
       mcp:
         status: none
       name: Filevine
@@ -1892,12 +1871,33 @@ stack:
       tier: declared
       url: /providers/filevine/
     - agent_band: agent-ready
-      agent_readiness: 32.9
+      agent_readiness: 33.0
+      apps:
+      - Lawmatics
+      band: developing
+      in_catalog: true
+      kin_score: 51.7
+      mcp:
+        status: none
+      name: Clio
+      slug: clio
+      sources:
+      - https://www.lawmatics.com/integrations
+      status: profiled
+      tags:
+      - Billing
+      - Calendaring
+      - Document Management
+      - Law Firms
+      tier: declared
+      url: /providers/clio/
+    - agent_band: agent-ready
+      agent_readiness: 32.7
       apps:
       - Lawmatics
       band: thin
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 36.8
       mcp:
         status: none
       name: Smokeball
@@ -1913,33 +1913,12 @@ stack:
       tier: declared
       url: /providers/smokeball/
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 23.3
       apps:
       - Lawmatics
       band: thin
       in_catalog: true
-      kin_score: 37.5
-      mcp:
-        status: unknown
-      name: PracticePanther
-      slug: practicepanther
-      sources:
-      - https://www.lawmatics.com/integrations
-      status: profiled
-      tags:
-      - Billing
-      - Case Management
-      - Law Practice Management
-      - Legal
-      tier: declared
-      url: /providers/practicepanther/
-    - agent_band: agent-aware
-      agent_readiness: 18.4
-      apps:
-      - Lawmatics
-      band: thin
-      in_catalog: true
-      kin_score: 35.0
+      kin_score: 35.8
       mcp:
         source: https://www.mycase.com/integrations/mycase-mcp/
         status: documented
@@ -1955,13 +1934,34 @@ stack:
       - Client Portal
       tier: declared
       url: /providers/mycase/
-    - agent_band: agent-ready
-      agent_readiness: 36.3
+    - agent_band: agent-aware
+      agent_readiness: 25.6
       apps:
       - Lawmatics
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.2
+      kin_score: 34.8
+      mcp:
+        status: unknown
+      name: PracticePanther
+      slug: practicepanther
+      sources:
+      - https://www.lawmatics.com/integrations
+      status: profiled
+      tags:
+      - Billing
+      - Case Management
+      - Law Practice Management
+      - Legal
+      tier: declared
+      url: /providers/practicepanther/
+    - agent_band: agent-ready
+      agent_readiness: 37.6
+      apps:
+      - Lawmatics
+      band: thin
+      in_catalog: true
+      kin_score: 34.1
       mcp:
         status: unknown
       name: SurePoint Pro
@@ -1976,34 +1976,13 @@ stack:
       - Technology
       tier: declared
       url: /providers/surepoint/
-    - agent_band: agent-aware
-      agent_readiness: 17.3
-      apps:
-      - Lawmatics
-      band: emerging
-      in_catalog: true
-      kin_score: 17.5
-      mcp:
-        status: unknown
-      name: CARET Legal
-      slug: caret-legal
-      sources:
-      - https://www.lawmatics.com/integrations
-      status: profiled
-      tags:
-      - Cloud
-      - Company
-      - Legal Tech
-      - Software-as-a-Service
-      tier: declared
-      url: /providers/caret-legal/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Lawmatics
       band: emerging
       in_catalog: true
-      kin_score: 17.4
+      kin_score: 25.0
       mcp:
         status: unknown
       name: Neostella
@@ -2019,12 +1998,33 @@ stack:
       tier: declared
       url: /providers/neostella/
     - agent_band: agent-aware
-      agent_readiness: 9.9
+      agent_readiness: 19.4
       apps:
       - Lawmatics
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.2
+      kin_score: 24.0
+      mcp:
+        status: unknown
+      name: CARET Legal
+      slug: caret-legal
+      sources:
+      - https://www.lawmatics.com/integrations
+      status: profiled
+      tags:
+      - Cloud
+      - Company
+      - Legal Tech
+      - Software-as-a-Service
+      tier: declared
+      url: /providers/caret-legal/
+    - agent_band: agent-aware
+      agent_readiness: 6.8
+      apps:
+      - Lawmatics
+      band: emerging
+      in_catalog: true
+      kin_score: 15.6
       mcp:
         status: unknown
       name: SmartAdvocate
@@ -2040,12 +2040,12 @@ stack:
       tier: declared
       url: /providers/smartadvocate/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - CosmoLex
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.0
+      kin_score: 13.7
       mcp:
         status: none
       name: Orion Law
@@ -2066,7 +2066,7 @@ stack:
       - Lawmatics
       band: minimal
       in_catalog: true
-      kin_score: 6.4
+      kin_score: 5.3
       mcp:
         status: none
       name: LEAP Legal Software
@@ -2095,9 +2095,9 @@ stack:
       - Lawmatics
       - MyCase
       - PracticePanther
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.3
+      kin_score: 29.0
       mcp:
         status: unknown
       name: Smith.ai
@@ -2120,9 +2120,9 @@ stack:
       - Lawmatics
       - MyCase
       - Smokeball
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.4
+      kin_score: 17.5
       mcp:
         status: unknown
       name: Answering Legal
@@ -2139,14 +2139,14 @@ stack:
       - Virtual Receptionist
       tier: declared
       url: /providers/answering-legal/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - Lawmatics
       - MyCase
       band: emerging
       in_catalog: true
-      kin_score: 15.8
+      kin_score: 23.2
       mcp:
         status: unknown
       name: Intaker
@@ -2163,12 +2163,12 @@ stack:
       tier: declared
       url: /providers/intaker/
     - agent_band: agent-aware
-      agent_readiness: 16.9
+      agent_readiness: 20.8
       apps:
       - MyCase
       band: emerging
       in_catalog: true
-      kin_score: 12.8
+      kin_score: 20.1
       mcp:
         status: unknown
       name: Ruby Receptionists
@@ -2192,12 +2192,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.7
+      agent_readiness: 35.9
       apps:
       - Lawmatics
       band: developing
       in_catalog: true
-      kin_score: 53.1
+      kin_score: 49.2
       mcp:
         status: none
       name: Confido Legal
@@ -2213,12 +2213,12 @@ stack:
       tier: declared
       url: /providers/confido-legal/
     - agent_band: agent-aware
-      agent_readiness: 14.7
+      agent_readiness: 14.4
       apps:
       - Lawmatics
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 28.3
+      kin_score: 40.0
       mcp:
         status: none
       name: 8am LawPay
@@ -2237,9 +2237,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - PracticePanther
-      band: emerging
+      band: minimal
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 10.9
       mcp:
         status: none
       name: TrustBooks
@@ -2268,7 +2268,7 @@ stack:
       - MyCase
       band: emerging
       in_catalog: true
-      kin_score: 21.6
+      kin_score: 22.6
       mcp:
         status: unknown
       name: Supio
@@ -2284,12 +2284,12 @@ stack:
       tier: declared
       url: /providers/supio/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 17.5
       apps:
       - MyCase
       band: emerging
       in_catalog: true
-      kin_score: 15.2
+      kin_score: 19.3
       mcp:
         source: https://api.briefpoint.ai/mcp
         status: verified
@@ -2309,9 +2309,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - MyCase
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 14.3
       mcp:
         status: unknown
       name: Clearbrief
@@ -2335,13 +2335,13 @@ stack:
       via_parent: Litigation & Dispute Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 16.4
+      agent_readiness: 16.1
       apps:
       - MyCase
       - PracticePanther
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.6
+      kin_score: 29.6
       mcp:
         status: none
       name: LawToolBox
@@ -2358,12 +2358,12 @@ stack:
       tier: declared
       url: /providers/lawtoolbox/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - MyCase
       band: emerging
       in_catalog: true
-      kin_score: 16.6
+      kin_score: 21.8
       mcp:
         source: https://courtdrive.com/
         status: documented
@@ -2394,7 +2394,7 @@ stack:
       - Smokeball
       band: emerging
       in_catalog: true
-      kin_score: 15.8
+      kin_score: 22.7
       mcp:
         status: none
       name: CollBox
@@ -2436,12 +2436,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 18.3
       apps:
       - MyCase
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.4
+      kin_score: 14.9
       mcp:
         source: https://netdocuments.com
         status: documented
@@ -2466,13 +2466,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.2
+      agent_readiness: 39.4
       apps:
       - MyCase
       - PracticePanther
       band: strong
       in_catalog: true
-      kin_score: 56.0
+      kin_score: 57.3
       mcp:
         status: unknown
       name: Lawmatics
@@ -2522,12 +2522,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - PracticePanther
       band: minimal
       in_catalog: true
-      kin_score: 6.1
+      kin_score: 7.8
       mcp:
         status: unknown
       name: WealthCounsel
@@ -2601,12 +2601,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 12.2
+      agent_readiness: 12.0
       apps:
       - MyCase
       band: emerging
       in_catalog: true
-      kin_score: 17.6
+      kin_score: 19.3
       mcp:
         status: none
       name: Case Status
@@ -2630,12 +2630,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - CosmoLex
       band: emerging
       in_catalog: true
-      kin_score: 16.9
+      kin_score: 22.8
       mcp:
         status: unknown
       name: Tabs3
@@ -2659,12 +2659,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - CosmoLex
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 18.2
+      kin_score: 27.2
       mcp:
         status: unknown
       name: TimeSolv
@@ -2690,7 +2690,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - Filevine
       - Lawmatics
@@ -2698,7 +2698,7 @@ stack:
       - PracticePanther
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2716,16 +2716,16 @@ stack:
       - Enterprise
       tier: declared
       url: /providers/microsoft-outlook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Filevine
       - Lawmatics
       - MyCase
       - PracticePanther
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -2744,13 +2744,13 @@ stack:
       tier: declared
       url: /providers/google-gmail/
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 36.0
       apps:
       - ArkCase
       - PracticePanther
       band: strong
       in_catalog: true
-      kin_score: 62.7
+      kin_score: 64.9
       mcp:
         status: none
       name: Microsoft Exchange
@@ -2766,14 +2766,14 @@ stack:
       - Email
       tier: observed
       url: /providers/microsoft-exchange/
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - MyCase
       - PracticePanther
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2791,12 +2791,12 @@ stack:
       tier: declared
       url: /providers/google-calendar/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 42.8
       apps:
       - CosmoLex
       band: exemplar
       in_catalog: true
-      kin_score: 69.5
+      kin_score: 70.1
       mcp:
         source: https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview
         status: verified
@@ -2821,14 +2821,14 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - CosmoLex
       - MyCase
       - PracticePanther
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -2847,13 +2847,13 @@ stack:
       tier: declared
       url: /providers/dropbox/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - Lawmatics
       - PracticePanther
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: OneDrive
@@ -2870,12 +2870,12 @@ stack:
       tier: declared
       url: /providers/microsoft-onedrive/
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - PracticePanther
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2892,12 +2892,12 @@ stack:
       tier: declared
       url: /providers/google-drive/
     - agent_band: agent-ready
-      agent_readiness: 57.4
+      agent_readiness: 56.6
       apps:
       - PracticePanther
       band: strong
       in_catalog: true
-      kin_score: 65.5
+      kin_score: 63.0
       mcp:
         source: https://developer.box.com/guides/box-mcp/
         status: verified
@@ -2921,14 +2921,14 @@ stack:
       url: /capabilities/voice-telephony/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 6.8
+    - agent_band: human-only
+      agent_readiness: 3.8
       apps:
       - MyCase
       - Smokeball
       band: emerging
       in_catalog: true
-      kin_score: 20.3
+      kin_score: 25.4
       mcp:
         status: unknown
       name: VXT
@@ -2945,12 +2945,12 @@ stack:
       tier: declared
       url: /providers/vxt/
     - agent_band: agent-ready
-      agent_readiness: 44.5
+      agent_readiness: 43.6
       apps:
       - Lawmatics
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 59.4
       mcp:
         source: https://developers.ringcentral.com/mcp
         status: documented
@@ -2967,12 +2967,12 @@ stack:
       tier: declared
       url: /providers/ringcentral/
     - agent_band: agent-aware
-      agent_readiness: 23.4
+      agent_readiness: 24.0
       apps:
       - Filevine
       band: thin
       in_catalog: true
-      kin_score: 31.7
+      kin_score: 31.2
       mcp:
         status: none
       name: Dialpad
@@ -2988,12 +2988,12 @@ stack:
       tier: declared
       url: /providers/dialpad/
     - agent_band: human-only
-      agent_readiness: 3.5
+      agent_readiness: 3.4
       apps:
       - Lawmatics
       band: minimal
       in_catalog: true
-      kin_score: 7.2
+      kin_score: 9.6
       mcp:
         status: unknown
       name: Ooma
@@ -3017,12 +3017,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.7
+      agent_readiness: 42.1
       apps:
       - Lawmatics
       band: exemplar
       in_catalog: true
-      kin_score: 73.1
+      kin_score: 73.4
       mcp:
         source: https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server
         status: verified
@@ -3039,12 +3039,12 @@ stack:
       tier: declared
       url: /providers/google-ads/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Lawmatics
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Meta Ads
@@ -3060,12 +3060,12 @@ stack:
       tier: declared
       url: /providers/facebook/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - MyCase
       band: minimal
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 8.6
       mcp:
         status: none
       name: Scorpion
@@ -3088,15 +3088,15 @@ stack:
       url: /capabilities/general-ledger-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Lawmatics
       - MyCase
       - PracticePanther
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -3123,13 +3123,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.8
+      agent_readiness: 34.9
       apps:
       - Lawmatics
       - MyCase
       band: developing
       in_catalog: true
-      kin_score: 53.9
+      kin_score: 54.1
       mcp:
         status: none
       name: CallRail
@@ -3146,12 +3146,12 @@ stack:
       tier: declared
       url: /providers/callrail/
     - agent_band: agent-ready
-      agent_readiness: 46.3
+      agent_readiness: 45.3
       apps:
       - MyCase
       band: strong
       in_catalog: true
-      kin_score: 58.8
+      kin_score: 61.2
       mcp:
         status: unknown
       name: Levitate
@@ -3181,7 +3181,7 @@ stack:
       - PracticePanther
       band: emerging
       in_catalog: true
-      kin_score: 14.7
+      kin_score: 23.6
       mcp:
         status: unknown
       name: Kenect
@@ -3198,12 +3198,12 @@ stack:
       tier: declared
       url: /providers/kenect/
     - agent_band: agent-ready
-      agent_readiness: 46.3
+      agent_readiness: 46.4
       apps:
       - PracticePanther
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.1
+      kin_score: 54.3
       mcp:
         source: https://www.apptoto.com
         status: documented
@@ -3228,13 +3228,13 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - MyCase
       - PracticePanther
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -3252,12 +3252,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 53.8
       apps:
       - Filevine
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 70.5
       mcp:
         source: https://docs.workato.com/mcp.html
         status: verified
@@ -3282,13 +3282,13 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - MyCase
       - PracticePanther
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -3313,12 +3313,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Lawmatics
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -3334,12 +3334,12 @@ stack:
       tier: declared
       url: /providers/microsoft-teams/
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Lawmatics
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -3369,7 +3369,7 @@ stack:
       - Filevine
       band: emerging
       in_catalog: true
-      kin_score: 12.6
+      kin_score: 11.6
       mcp:
         status: none
       name: Domo
@@ -3393,12 +3393,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 32.8
       apps:
       - ArkCase
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 70.7
       mcp:
         status: none
       name: Amazon Comprehend Medical
@@ -3447,12 +3447,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 60.9
+      agent_readiness: 59.9
       apps:
       - Smokeball
       band: exemplar
       in_catalog: true
-      kin_score: 70.5
+      kin_score: 72.5
       mcp:
         source: https://docs.birdeye.com/mcp/introduction
         status: verified
@@ -3476,13 +3476,13 @@ stack:
       url: /capabilities/speech-voice/
       via_parent: Speech & Voice
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 25.3
+    - agent_band: agent-ready
+      agent_readiness: 34.5
       apps:
       - ArkCase
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.0
+      kin_score: 75.6
       mcp:
         status: none
       name: Amazon Transcribe
@@ -3505,13 +3505,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - ArkCase
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3536,12 +3536,12 @@ stack:
       via_parent: Content Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 44.6
       apps:
       - MyCase
       band: developing
       in_catalog: true
-      kin_score: 39.5
+      kin_score: 50.2
       mcp:
         source: https://github.com/MotaWord/mcp
         status: verified
@@ -3568,12 +3568,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - MyCase
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -3590,12 +3590,12 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - MyCase
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -3623,7 +3623,7 @@ summary:
     unchecked: 5
     verified: 18
   mcp_verified: 18
-  mean_kin_score: 39.0
+  mean_kin_score: 42.6
   observed: 8
   queued: 5
   reference_apps: 8

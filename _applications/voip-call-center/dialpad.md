@@ -54,11 +54,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id001
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -85,11 +85,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id003
       source: https://github.com/google/mcp
       status: verified
@@ -117,10 +117,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id005
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -148,10 +148,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.7
+    agent_readiness: 53.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.6
+    kin_score: 88.0
     mcp: &id007
       source: https://github.com/salesforcecli/mcp
       status: verified
@@ -179,10 +179,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 72.4
     mcp: &id009
       status: none
     slug: zendesk
@@ -206,22 +206,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/voip-call-center/dialpad/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id001
   name: Gmail
   slug: google-gmail
   status: profiled
   tags: *id002
   url: /providers/google-gmail/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id003
   name: Google Calendar
   slug: google-calendar
@@ -229,10 +229,10 @@ providers:
   tags: *id004
   url: /providers/google-calendar/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id005
   name: HubSpot
   slug: hubspot
@@ -240,10 +240,10 @@ providers:
   tags: *id006
   url: /providers/hubspot/
 - agent_band: agent-ready
-  agent_readiness: 54.7
+  agent_readiness: 53.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.6
+  kin_score: 88.0
   mcp: *id007
   name: Salesforce
   slug: salesforce
@@ -251,10 +251,10 @@ providers:
   tags: *id008
   url: /providers/salesforce/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 72.4
   mcp: *id009
   name: Zendesk
   slug: zendesk

@@ -2102,8 +2102,8 @@ stack:
       url: /capabilities/logistics-operations-management/
       via_parent: Logistics Operations Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.1
+    - agent_band: agent-ready
+      agent_readiness: 29.2
       apps:
       - Karrio
       - Loop Returns
@@ -2112,7 +2112,7 @@ stack:
       - Shippo
       band: thin
       in_catalog: true
-      kin_score: 29.0
+      kin_score: 27.9
       mcp:
         source: https://github.com/UPS-API/ups-mcp
         status: verified
@@ -2131,7 +2131,7 @@ stack:
       tier: observed
       url: /providers/ups/
     - agent_band: agent-ready
-      agent_readiness: 35.9
+      agent_readiness: 35.2
       apps:
       - Karrio
       - Odoo Inventory (delivery connectors)
@@ -2139,7 +2139,7 @@ stack:
       - Shippo
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 70.7
       mcp:
         status: none
       name: FedEx
@@ -2156,16 +2156,42 @@ stack:
       - Pickup
       tier: observed
       url: /providers/fedex/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-native
+      agent_readiness: 39.5
+      apps:
+      - Karrio
+      - Odoo Inventory (delivery connectors)
+      - Sendcloud
+      - Shippo
+      band: developing
+      in_catalog: true
+      kin_score: 52.3
+      mcp:
+        status: none
+      name: DHL
+      slug: dhl
+      sources:
+      - https://github.com/karrioapi/karrio/tree/main/modules/connectors
+      - https://goshippo.com/carriers
+      - https://www.odoo.com/documentation/18.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.html
+      status: profiled
+      tags:
+      - E-Commerce
+      - Freight
+      - Logistics
+      - Shipping
+      tier: observed
+      url: /providers/dhl/
+    - agent_band: agent-native
+      agent_readiness: 51.8
       apps:
       - Karrio
       - Loop Returns
       - Odoo Inventory (delivery connectors)
       - Shippo
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 52.0
       mcp:
         status: none
       name: USPS
@@ -2183,40 +2209,39 @@ stack:
       tier: observed
       url: /providers/usps/
     - agent_band: agent-aware
-      agent_readiness: 24.1
+      agent_readiness: 12.7
       apps:
       - Karrio
-      - Odoo Inventory (delivery connectors)
       - Sendcloud
       - Shippo
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 26.1
+      kin_score: 27.8
       mcp:
         status: none
-      name: DHL
-      slug: dhl
+      name: Chronopost
+      slug: chronopost
       sources:
       - https://github.com/karrioapi/karrio/tree/main/modules/connectors
       - https://goshippo.com/carriers
-      - https://www.odoo.com/documentation/18.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.html
+      - https://www.sendcloud.com/carriers/
       status: profiled
       tags:
-      - E-Commerce
-      - Freight
+      - Company
       - Logistics
+      - Parcel Delivery
       - Shipping
       tier: observed
-      url: /providers/dhl/
+      url: /providers/chronopost/
     - agent_band: agent-ready
-      agent_readiness: 29.2
+      agent_readiness: 28.6
       apps:
       - Karrio
       - Sendcloud
       - Shippo
       band: emerging
       in_catalog: true
-      kin_score: 23.5
+      kin_score: 25.8
       mcp:
         status: none
       name: GLS
@@ -2234,39 +2259,14 @@ stack:
       tier: observed
       url: /providers/gls-group/
     - agent_band: agent-aware
-      agent_readiness: 12.9
-      apps:
-      - Karrio
-      - Sendcloud
-      - Shippo
-      band: emerging
-      in_catalog: true
-      kin_score: 20.4
-      mcp:
-        status: none
-      name: Chronopost
-      slug: chronopost
-      sources:
-      - https://github.com/karrioapi/karrio/tree/main/modules/connectors
-      - https://goshippo.com/carriers
-      - https://www.sendcloud.com/carriers/
-      status: profiled
-      tags:
-      - Company
-      - Logistics
-      - Parcel Delivery
-      - Shipping
-      tier: observed
-      url: /providers/chronopost/
-    - agent_band: agent-aware
-      agent_readiness: 12.9
+      agent_readiness: 12.7
       apps:
       - Odoo Inventory (delivery connectors)
       - Sendcloud
       - Shippo
       band: emerging
       in_catalog: true
-      kin_score: 13.7
+      kin_score: 16.0
       mcp:
         status: none
       name: Mondial Relay
@@ -2291,7 +2291,7 @@ stack:
       - Shippo
       band: minimal
       in_catalog: true
-      kin_score: 4.9
+      kin_score: 4.0
       mcp:
         status: none
       name: DPD
@@ -2309,13 +2309,13 @@ stack:
       tier: observed
       url: /providers/dpd/
     - agent_band: agent-ready
-      agent_readiness: 31.5
+      agent_readiness: 30.8
       apps:
       - Karrio
       - Shippo
       band: strong
       in_catalog: true
-      kin_score: 56.9
+      kin_score: 62.7
       mcp:
         status: none
       name: Australia Post
@@ -2332,36 +2332,13 @@ stack:
       tier: observed
       url: /providers/australia-post/
     - agent_band: human-only
-      agent_readiness: 0.6
-      apps:
-      - Karrio
-      - Shippo
-      band: emerging
-      in_catalog: true
-      kin_score: 18.0
-      mcp: &id001
-        status: none
-      name: Canada Post
-      slug: canada-post
-      sources:
-      - https://github.com/karrioapi/karrio/tree/main/modules/connectors
-      - https://goshippo.com/carriers
-      status: profiled
-      tags: &id002
-      - Address Validation
-      - E-Commerce
-      - Labels
-      - Logistics
-      tier: observed
-      url: /providers/canada-post/
-    - agent_band: human-only
       agent_readiness: 3.5
       apps:
       - Karrio
       - Shippo
       band: emerging
       in_catalog: true
-      kin_score: 17.8
+      kin_score: 19.8
       mcp:
         status: none
       name: Purolator
@@ -2378,13 +2355,36 @@ stack:
       tier: observed
       url: /providers/purolator/
     - agent_band: human-only
+      agent_readiness: 0.6
+      apps:
+      - Karrio
+      - Shippo
+      band: emerging
+      in_catalog: true
+      kin_score: 17.1
+      mcp: &id001
+        status: none
+      name: Canada Post
+      slug: canada-post
+      sources:
+      - https://github.com/karrioapi/karrio/tree/main/modules/connectors
+      - https://goshippo.com/carriers
+      status: profiled
+      tags: &id002
+      - Address Validation
+      - E-Commerce
+      - Labels
+      - Logistics
+      tier: observed
+      url: /providers/canada-post/
+    - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Karrio
       - Sendcloud
       band: emerging
       in_catalog: true
-      kin_score: 11.0
+      kin_score: 16.8
       mcp:
         status: none
       name: Landmark Global
@@ -2405,9 +2405,9 @@ stack:
       apps:
       - Karrio
       - Sendcloud
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.0
+      kin_score: 15.4
       mcp:
         status: unknown
       name: Austrian Post (Post AG)
@@ -2424,13 +2424,36 @@ stack:
       tier: observed
       url: /providers/austrian-post/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
+      apps:
+      - Karrio
+      - Sendcloud
+      band: minimal
+      in_catalog: true
+      kin_score: 8.5
+      mcp:
+        status: unknown
+      name: Spring GDS
+      slug: spring-gds
+      sources:
+      - https://github.com/karrioapi/karrio/tree/main/modules/connectors
+      - https://www.sendcloud.com/carriers/
+      status: profiled
+      tags:
+      - Company
+      - E-Commerce
+      - Logistics
+      - Shipping
+      tier: observed
+      url: /providers/spring-gds/
+    - agent_band: human-only
+      agent_readiness: 0.0
       apps:
       - Karrio
       - Odoo Inventory (delivery connectors)
       band: minimal
       in_catalog: true
-      kin_score: 6.0
+      kin_score: 7.9
       mcp:
         status: unknown
       name: bpost
@@ -2447,36 +2470,13 @@ stack:
       tier: observed
       url: /providers/bpost/
     - agent_band: agent-aware
-      agent_readiness: 6.5
-      apps:
-      - Karrio
-      - Sendcloud
-      band: minimal
-      in_catalog: true
-      kin_score: 6.0
-      mcp:
-        status: unknown
-      name: Spring GDS
-      slug: spring-gds
-      sources:
-      - https://github.com/karrioapi/karrio/tree/main/modules/connectors
-      - https://www.sendcloud.com/carriers/
-      status: profiled
-      tags:
-      - Company
-      - E-Commerce
-      - Logistics
-      - Shipping
-      tier: observed
-      url: /providers/spring-gds/
-    - agent_band: agent-aware
-      agent_readiness: 18.1
+      agent_readiness: 17.8
       apps:
       - Sendcloud
       - Shippo
       band: thin
       in_catalog: true
-      kin_score: 30.0
+      kin_score: 34.7
       mcp:
         status: none
       name: Colissimo
@@ -2493,13 +2493,13 @@ stack:
       tier: declared
       url: /providers/colissimo/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - Sendcloud
       - Shippo
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.9
+      kin_score: 16.9
       mcp:
         status: none
       name: Correos
@@ -2516,13 +2516,13 @@ stack:
       tier: declared
       url: /providers/correos/
     - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 10.6
       apps:
       - Sendcloud
       - Shippo
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.5
+      kin_score: 13.6
       mcp:
         status: unknown
       name: Poste Italiane
@@ -2545,7 +2545,7 @@ stack:
       - Shippo
       band: minimal
       in_catalog: true
-      kin_score: 6.4
+      kin_score: 8.1
       mcp:
         source: https://developer.dhl.com/dhl-api-assistant-mcp-server-integration-visual-studio-code
         status: verified
@@ -2563,12 +2563,12 @@ stack:
       tier: declared
       url: /providers/deutsche-post/
     - agent_band: agent-ready
-      agent_readiness: 32.6
+      agent_readiness: 36.6
       apps:
       - Karrio
       band: developing
       in_catalog: true
-      kin_score: 43.1
+      kin_score: 40.4
       mcp:
         status: none
       name: Sendle
@@ -2584,12 +2584,12 @@ stack:
       tier: observed
       url: /providers/sendle/
     - agent_band: agent-ready
-      agent_readiness: 34.6
+      agent_readiness: 33.9
       apps:
       - Karrio
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 35.2
+      kin_score: 39.9
       mcp:
         status: unknown
       name: ParcelOne
@@ -2605,12 +2605,12 @@ stack:
       tier: observed
       url: /providers/parcelone/
     - agent_band: agent-aware
-      agent_readiness: 21.5
+      agent_readiness: 21.0
       apps:
       - Karrio
       band: thin
       in_catalog: true
-      kin_score: 33.5
+      kin_score: 33.0
       mcp:
         status: unknown
       name: La Poste
@@ -2626,12 +2626,12 @@ stack:
       tier: observed
       url: /providers/la-poste/
     - agent_band: agent-aware
-      agent_readiness: 19.8
+      agent_readiness: 19.9
       apps:
       - Karrio
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 26.0
+      kin_score: 31.4
       mcp:
         status: none
       name: Teleship
@@ -2647,12 +2647,12 @@ stack:
       tier: observed
       url: /providers/teleship/
     - agent_band: agent-aware
-      agent_readiness: 17.2
+      agent_readiness: 16.8
       apps:
       - Karrio
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.2
+      kin_score: 28.1
       mcp:
         status: none
       name: Asendia
@@ -2671,9 +2671,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Karrio
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 11.6
       mcp:
         status: none
       name: SEKO Logistics
@@ -2694,7 +2694,7 @@ stack:
       - Karrio
       band: minimal
       in_catalog: true
-      kin_score: 6.0
+      kin_score: 9.8
       mcp:
         status: unknown
       name: SmartKargo
@@ -2709,13 +2709,13 @@ stack:
       - Logistics
       tier: observed
       url: /providers/smartkargo/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - Karrio
       band: minimal
       in_catalog: true
-      kin_score: 4.6
+      kin_score: 3.7
       mcp:
         status: unknown
       name: Hermes Germany
@@ -2731,7 +2731,7 @@ stack:
       tier: observed
       url: /providers/hermes-germany/
     - agent_band: agent-ready
-      agent_readiness: 30.0
+      agent_readiness: 32.1
       apps:
       - Shippo
       band: strong
@@ -2751,13 +2751,34 @@ stack:
       - Shipping
       tier: declared
       url: /providers/veho/
-    - agent_band: agent-aware
-      agent_readiness: 21.8
+    - agent_band: agent-ready
+      agent_readiness: 41.8
       apps:
       - Sendcloud
       band: developing
       in_catalog: true
-      kin_score: 44.7
+      kin_score: 51.6
+      mcp:
+        status: unchecked
+      name: PostNL
+      slug: postnl
+      sources:
+      - https://www.sendcloud.com/carriers/
+      status: profiled
+      tags:
+      - Company
+      - Logistics
+      - Postal
+      - Shipping
+      tier: declared
+      url: /providers/postnl/
+    - agent_band: agent-aware
+      agent_readiness: 21.3
+      apps:
+      - Sendcloud
+      band: developing
+      in_catalog: true
+      kin_score: 44.9
       mcp:
         status: none
       name: Maersk
@@ -2773,12 +2794,12 @@ stack:
       tier: declared
       url: /providers/maersk-line/
     - agent_band: agent-aware
-      agent_readiness: 26.2
+      agent_readiness: 25.7
       apps:
       - Shippo
       band: thin
       in_catalog: true
-      kin_score: 33.4
+      kin_score: 31.8
       mcp:
         status: none
       name: Royal Mail
@@ -2794,32 +2815,12 @@ stack:
       tier: declared
       url: /providers/royal-mail/
     - agent_band: agent-aware
-      agent_readiness: 24.1
-      apps:
-      - Shippo
-      band: emerging
-      in_catalog: true
-      kin_score: 25.1
-      mcp:
-        status: none
-      name: Pitney Bowes
-      slug: pitney-bowes
-      sources:
-      - https://goshippo.com/carriers
-      status: profiled
-      tags:
-      - Fortune 1000
-      - Mailing
-      - Shipping
-      tier: declared
-      url: /providers/pitney-bowes/
-    - agent_band: agent-aware
-      agent_readiness: 17.2
+      agent_readiness: 16.8
       apps:
       - Sendcloud
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.5
+      kin_score: 30.6
       mcp:
         status: none
       name: Bring
@@ -2835,33 +2836,12 @@ stack:
       tier: declared
       url: /providers/bring/
     - agent_band: agent-aware
-      agent_readiness: 16.7
+      agent_readiness: 24.8
       apps:
       - Sendcloud
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.2
-      mcp:
-        status: unknown
-      name: DB Schenker
-      slug: db-schenker
-      sources:
-      - https://www.sendcloud.com/carriers/
-      status: profiled
-      tags:
-      - Freight Forwarding
-      - Germany
-      - Logistics
-      - Supply Chain
-      tier: declared
-      url: /providers/db-schenker/
-    - agent_band: agent-aware
-      agent_readiness: 25.4
-      apps:
-      - Sendcloud
-      band: emerging
-      in_catalog: true
-      kin_score: 21.1
+      kin_score: 28.5
       mcp:
         status: none
       name: Swiss Post
@@ -2877,7 +2857,69 @@ stack:
       tier: declared
       url: /providers/swiss-post/
     - agent_band: agent-aware
-      agent_readiness: 12.9
+      agent_readiness: 24.2
+      apps:
+      - Shippo
+      band: emerging
+      in_catalog: true
+      kin_score: 24.2
+      mcp:
+        status: none
+      name: Pitney Bowes
+      slug: pitney-bowes
+      sources:
+      - https://goshippo.com/carriers
+      status: profiled
+      tags:
+      - Fortune 1000
+      - Mailing
+      - Shipping
+      tier: declared
+      url: /providers/pitney-bowes/
+    - agent_band: agent-aware
+      agent_readiness: 16.3
+      apps:
+      - Sendcloud
+      band: emerging
+      in_catalog: true
+      kin_score: 23.5
+      mcp:
+        status: unknown
+      name: DB Schenker
+      slug: db-schenker
+      sources:
+      - https://www.sendcloud.com/carriers/
+      status: profiled
+      tags:
+      - Freight Forwarding
+      - Germany
+      - Logistics
+      - Supply Chain
+      tier: declared
+      url: /providers/db-schenker/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Shippo
+      band: emerging
+      in_catalog: true
+      kin_score: 14.1
+      mcp:
+        status: none
+      name: OnTrac
+      slug: ontrac
+      sources:
+      - https://goshippo.com/carriers
+      status: profiled
+      tags:
+      - Delivery
+      - E-Commerce
+      - Logistics
+      - Shipping
+      tier: declared
+      url: /providers/ontrac/
+    - agent_band: agent-aware
+      agent_readiness: 12.7
       apps:
       - Shippo
       band: emerging
@@ -2900,31 +2942,10 @@ stack:
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
-      - Shippo
-      band: minimal
-      in_catalog: true
-      kin_score: 9.8
-      mcp:
-        status: none
-      name: OnTrac
-      slug: ontrac
-      sources:
-      - https://goshippo.com/carriers
-      status: profiled
-      tags:
-      - Delivery
-      - E-Commerce
-      - Logistics
-      - Shipping
-      tier: declared
-      url: /providers/ontrac/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
       - Sendcloud
       band: minimal
       in_catalog: true
-      kin_score: 6.4
+      kin_score: 6.3
       mcp:
         status: none
       name: PostNord
@@ -2945,7 +2966,7 @@ stack:
       - Shippo
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 5.8
       mcp:
         status: unknown
       name: Evri
@@ -2966,7 +2987,7 @@ stack:
       - Sendcloud
       band: minimal
       in_catalog: true
-      kin_score: 3.6
+      kin_score: 3.4
       mcp:
         status: none
       name: InPost
@@ -2978,23 +2999,6 @@ stack:
       - Company
       tier: declared
       url: /providers/inpost/
-    - agent_band: null
-      agent_readiness: null
-      apps:
-      - Sendcloud
-      band: null
-      in_catalog: false
-      kin_score: null
-      mcp:
-        status: unchecked
-      name: PostNL
-      slug: postnl
-      sources:
-      - https://www.sendcloud.com/carriers/
-      status: queued for profiling
-      tags: []
-      tier: declared
-      url: null
   - capability:
       attribution: API Evangelist extension
       id: AE-140.10.10
@@ -3004,37 +3008,13 @@ stack:
       via_parent: Storefront Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 56.3
       apps:
       - Sendcloud
       - Shippo
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
-      mcp:
-        source: https://shopify.dev/docs/apps/build/devmcp
-        status: verified
-      name: Shopify
-      slug: shopify
-      sources:
-      - https://goshippo.com/integrations
-      - https://www.sendcloud.com/integrations/
-      status: profiled
-      tags:
-      - Commerce
-      - E-Commerce
-      - Payments
-      - Retail
-      tier: declared
-      url: /providers/shopify/
-    - agent_band: agent-ready
-      agent_readiness: 60.5
-      apps:
-      - Sendcloud
-      - Shippo
-      band: exemplar
-      in_catalog: true
-      kin_score: 70.3
+      kin_score: 84.3
       mcp:
         source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
         status: verified
@@ -3052,13 +3032,37 @@ stack:
       tier: declared
       url: /providers/bigcommerce/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 51.8
       apps:
       - Sendcloud
       - Shippo
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 83.8
+      mcp:
+        source: https://shopify.dev/docs/apps/build/devmcp
+        status: verified
+      name: Shopify
+      slug: shopify
+      sources:
+      - https://goshippo.com/integrations
+      - https://www.sendcloud.com/integrations/
+      status: profiled
+      tags:
+      - Commerce
+      - E-Commerce
+      - Payments
+      - Retail
+      tier: declared
+      url: /providers/shopify/
+    - agent_band: agent-ready
+      agent_readiness: 34.7
+      apps:
+      - Sendcloud
+      - Shippo
+      band: strong
+      in_catalog: true
+      kin_score: 54.6
       mcp:
         source: https://developer.woocommerce.com/docs/features/mcp/
         status: verified
@@ -3076,13 +3080,13 @@ stack:
       tier: declared
       url: /providers/woocommerce/
     - agent_band: agent-ready
-      agent_readiness: 48.2
+      agent_readiness: 47.2
       apps:
       - Sendcloud
       - Shippo
       band: thin
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 35.5
       mcp:
         source: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
         status: verified
@@ -3099,14 +3103,14 @@ stack:
       - Website Builder
       tier: declared
       url: /providers/wix/
-    - agent_band: agent-aware
-      agent_readiness: 24.0
+    - agent_band: agent-ready
+      agent_readiness: 28.9
       apps:
       - Sendcloud
       - Shippo
       band: thin
       in_catalog: true
-      kin_score: 30.6
+      kin_score: 30.3
       mcp:
         status: none
       name: Magento 2
@@ -3123,12 +3127,12 @@ stack:
       tier: declared
       url: /providers/magento/
     - agent_band: agent-ready
-      agent_readiness: 43.0
+      agent_readiness: 42.1
       apps:
       - Sendcloud
       band: exemplar
       in_catalog: true
-      kin_score: 86.5
+      kin_score: 84.5
       mcp:
         status: none
       name: Lightspeed
@@ -3144,12 +3148,12 @@ stack:
       tier: declared
       url: /providers/lightspeed/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - Shippo
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp:
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -3166,12 +3170,12 @@ stack:
       tier: declared
       url: /providers/square/
     - agent_band: agent-native
-      agent_readiness: 49.5
+      agent_readiness: 48.5
       apps:
       - Sendcloud
       band: exemplar
       in_catalog: true
-      kin_score: 69.9
+      kin_score: 68.7
       mcp:
         status: none
       name: Squarespace
@@ -3192,7 +3196,7 @@ stack:
       - Shippo
       band: strong
       in_catalog: true
-      kin_score: 60.7
+      kin_score: 60.5
       mcp:
         source: https://developers.webflow.com/mcp/reference/overview
         status: verified
@@ -3214,7 +3218,7 @@ stack:
       - Sendcloud
       band: emerging
       in_catalog: true
-      kin_score: 21.7
+      kin_score: 19.7
       mcp:
         status: none
       name: PrestaShop
@@ -3254,38 +3258,38 @@ stack:
       url: /capabilities/channel-sales-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 32.0
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Sendcloud
       - Shippo
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.7
+      kin_score: 58.4
       mcp:
-        source: https://github.com/eBay/npm-public-api-mcp
+        source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
-      name: eBay
-      slug: ebay
+      name: Amazon
+      slug: amazon
       sources:
       - https://goshippo.com/integrations
       - https://www.sendcloud.com/integrations/
       status: profiled
       tags:
-      - Auctions
-      - Commerce
-      - Marketplace
-      - Product
+      - Advertising
+      - Alexa
+      - Amazon
+      - E-Commerce
       tier: declared
-      url: /providers/ebay/
+      url: /providers/amazon/
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 28.7
       apps:
       - Sendcloud
       - Shippo
       band: developing
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 53.2
       mcp:
         source: https://developers.etsy.com/documentation/mcp_server/devmcpserver
         status: verified
@@ -3303,29 +3307,29 @@ stack:
       tier: declared
       url: /providers/etsy/
     - agent_band: agent-ready
-      agent_readiness: 46.8
+      agent_readiness: 31.3
       apps:
       - Sendcloud
       - Shippo
       band: developing
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 48.7
       mcp:
-        source: https://github.com/amzn/selling-partner-agentic-toolkit
+        source: https://github.com/eBay/npm-public-api-mcp
         status: verified
-      name: Amazon
-      slug: amazon
+      name: eBay
+      slug: ebay
       sources:
       - https://goshippo.com/integrations
       - https://www.sendcloud.com/integrations/
       status: profiled
       tags:
-      - Advertising
-      - Alexa
-      - Amazon
-      - E-Commerce
+      - Auctions
+      - Commerce
+      - Marketplace
+      - Product
       tier: declared
-      url: /providers/amazon/
+      url: /providers/ebay/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
@@ -3333,7 +3337,7 @@ stack:
       - Shippo
       band: emerging
       in_catalog: true
-      kin_score: 13.1
+      kin_score: 11.7
       mcp:
         status: none
       name: TikTok Shop
@@ -3350,12 +3354,12 @@ stack:
       tier: declared
       url: /providers/tiktok-shop/
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 62.3
       apps:
       - Sendcloud
       band: exemplar
       in_catalog: true
-      kin_score: 75.9
+      kin_score: 74.9
       mcp:
         status: none
       name: Mirakl
@@ -3371,12 +3375,12 @@ stack:
       tier: declared
       url: /providers/mirakl/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Shippo
       band: strong
       in_catalog: true
-      kin_score: 65.0
+      kin_score: 63.7
       mcp:
         status: none
       name: Walmart
@@ -3392,12 +3396,12 @@ stack:
       tier: declared
       url: /providers/walmart/
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.8
       apps:
       - Sendcloud
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 57.5
       mcp:
         status: none
       name: ChannelEngine
@@ -3413,12 +3417,12 @@ stack:
       tier: declared
       url: /providers/channelengine/
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 33.7
       apps:
       - Sendcloud
       band: thin
       in_catalog: true
-      kin_score: 31.4
+      kin_score: 37.4
       mcp:
         status: none
       name: Bol
@@ -3439,7 +3443,7 @@ stack:
       - Sendcloud
       band: minimal
       in_catalog: true
-      kin_score: 4.6
+      kin_score: 3.7
       mcp:
         status: unknown
       name: Kaufland
@@ -3463,13 +3467,13 @@ stack:
       via_parent: Logistics Operations Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.8
+      agent_readiness: 48.2
       apps:
       - ERPNext Shipping
       - Odoo Inventory (delivery connectors)
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.9
+      kin_score: 65.6
       mcp:
         status: none
       name: Sendcloud
@@ -3486,13 +3490,13 @@ stack:
       tier: observed
       url: /providers/sendcloud/
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 21.9
       apps:
       - Loop Returns
       - Odoo Inventory (delivery connectors)
       band: thin
       in_catalog: true
-      kin_score: 32.4
+      kin_score: 32.0
       mcp:
         status: none
       name: EasyPost
@@ -3514,7 +3518,7 @@ stack:
       - ERPNext Shipping
       band: emerging
       in_catalog: true
-      kin_score: 16.2
+      kin_score: 20.6
       mcp:
         status: none
       name: LetMeShip
@@ -3530,12 +3534,12 @@ stack:
       tier: observed
       url: /providers/letmeship/
     - agent_band: agent-ready
-      agent_readiness: 45.5
+      agent_readiness: 48.6
       apps:
       - Odoo Inventory (delivery connectors)
       band: strong
       in_catalog: true
-      kin_score: 57.2
+      kin_score: 55.5
       mcp:
         status: none
       name: Shiprocket
@@ -3551,12 +3555,12 @@ stack:
       tier: declared
       url: /providers/shiprocket/
     - agent_band: agent-ready
-      agent_readiness: 45.0
+      agent_readiness: 44.5
       apps:
       - Odoo Inventory (delivery connectors)
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 39.2
+      kin_score: 43.0
       mcp:
         source: https://docs.envia.com/docs/mcp-overview
         status: verified
@@ -3573,12 +3577,12 @@ stack:
       tier: declared
       url: /providers/envia/
     - agent_band: agent-aware
-      agent_readiness: 21.4
+      agent_readiness: 18.7
       apps:
       - Odoo Inventory (delivery connectors)
       band: emerging
       in_catalog: true
-      kin_score: 16.1
+      kin_score: 24.8
       mcp:
         status: unknown
       name: Starshipit
@@ -3602,12 +3606,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.1
+      agent_readiness: 39.9
       apps:
       - Sendcloud
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 73.1
       mcp:
         status: none
       name: Microsoft Dynamics 365 Business Central
@@ -3623,12 +3627,12 @@ stack:
       tier: declared
       url: /providers/microsoft-dynamics-365-business-central/
     - agent_band: agent-ready
-      agent_readiness: 46.7
+      agent_readiness: 45.8
       apps:
       - Sendcloud
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 60.6
       mcp:
         source: https://github.com/xentral/shiplabel-mcp
         status: verified
@@ -3645,28 +3649,7 @@ stack:
       tier: declared
       url: /providers/xentral/
     - agent_band: agent-aware
-      agent_readiness: 19.0
-      apps:
-      - Sendcloud
-      band: thin
-      in_catalog: true
-      kin_score: 33.2
-      mcp:
-        status: none
-      name: SAP Business One
-      slug: sap-business-one
-      sources:
-      - https://www.sendcloud.com/integrations/
-      status: profiled
-      tags:
-      - Accounting
-      - CRM
-      - ERP
-      - Inventory
-      tier: declared
-      url: /providers/sap-business-one/
-    - agent_band: agent-aware
-      agent_readiness: 23.9
+      agent_readiness: 23.4
       apps:
       - Sendcloud
       band: thin
@@ -3687,12 +3670,33 @@ stack:
       tier: declared
       url: /providers/exact-online/
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 18.6
       apps:
       - Sendcloud
       band: thin
       in_catalog: true
-      kin_score: 27.9
+      kin_score: 32.1
+      mcp:
+        status: none
+      name: SAP Business One
+      slug: sap-business-one
+      sources:
+      - https://www.sendcloud.com/integrations/
+      status: profiled
+      tags:
+      - Accounting
+      - CRM
+      - ERP
+      - Inventory
+      tier: declared
+      url: /providers/sap-business-one/
+    - agent_band: agent-aware
+      agent_readiness: 17.5
+      apps:
+      - Sendcloud
+      band: thin
+      in_catalog: true
+      kin_score: 27.6
       mcp:
         status: none
       name: Odoo
@@ -3708,12 +3712,12 @@ stack:
       tier: declared
       url: /providers/odoo/
     - agent_band: agent-aware
-      agent_readiness: 24.1
+      agent_readiness: 20.8
       apps:
       - Sendcloud
       band: emerging
       in_catalog: true
-      kin_score: 14.6
+      kin_score: 21.7
       mcp:
         status: none
       name: Brightpearl
@@ -3729,12 +3733,12 @@ stack:
       tier: declared
       url: /providers/brightpearl/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Sendcloud
       band: emerging
       in_catalog: true
-      kin_score: 14.3
+      kin_score: 21.0
       mcp:
         status: none
       name: Linnworks
@@ -3758,13 +3762,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.7
+      agent_readiness: 29.1
       apps:
       - Loop Returns
       - Sendcloud
       band: thin
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 30.6
       mcp:
         status: none
       name: ShipHero
@@ -3781,12 +3785,12 @@ stack:
       tier: declared
       url: /providers/shiphero/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Loop Returns
       band: thin
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 34.3
       mcp:
         status: none
       name: Ryder
@@ -3810,12 +3814,12 @@ stack:
       via_parent: Post-Purchase
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.2
+      agent_readiness: 32.1
       apps:
       - Sendcloud
       band: developing
       in_catalog: true
-      kin_score: 50.0
+      kin_score: 48.9
       mcp:
         status: none
       name: Loop Returns
@@ -3831,12 +3835,12 @@ stack:
       tier: declared
       url: /providers/loop-returns/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Sendcloud
       band: emerging
       in_catalog: true
-      kin_score: 17.6
+      kin_score: 24.2
       mcp:
         status: unknown
       name: ReturnGO
@@ -3859,13 +3863,13 @@ stack:
       url: /capabilities/customer-lifecycle-engagement/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 27.3
+    - agent_band: agent-ready
+      agent_readiness: 31.0
       apps:
       - Loop Returns
       band: emerging
       in_catalog: true
-      kin_score: 16.6
+      kin_score: 17.4
       mcp:
         status: unknown
       name: Rise.ai
@@ -3888,13 +3892,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.3
       apps:
       - Loop Returns
       - Sendcloud
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 42.5
       mcp:
         source: https://github.com/gorgias/mcp-cookbook
         status: verified
@@ -3912,12 +3916,12 @@ stack:
       tier: declared
       url: /providers/gorgias/
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Sendcloud
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -3933,12 +3937,12 @@ stack:
       tier: declared
       url: /providers/zendesk/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 35.0
       apps:
       - Sendcloud
       band: thin
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 29.7
       mcp:
         status: none
       name: Freshdesk
@@ -3962,13 +3966,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 54.9
+      agent_readiness: 58.7
       apps:
       - Loop Returns
       - Sendcloud
       band: exemplar
       in_catalog: true
-      kin_score: 77.6
+      kin_score: 78.1
       mcp:
         source: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
         status: verified
@@ -3986,12 +3990,12 @@ stack:
       tier: declared
       url: /providers/klaviyo/
     - agent_band: agent-ready
-      agent_readiness: 31.8
+      agent_readiness: 35.8
       apps:
       - Loop Returns
       band: exemplar
       in_catalog: true
-      kin_score: 77.4
+      kin_score: 75.7
       mcp:
         status: none
       name: Attentive
@@ -4020,7 +4024,7 @@ stack:
       - Karrio
       band: emerging
       in_catalog: true
-      kin_score: 18.0
+      kin_score: 17.1
       mcp: *id001
       name: Canada Post
       slug: canada-post
@@ -4039,12 +4043,12 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Karrio
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -4069,12 +4073,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Sendcloud
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -4092,19 +4096,19 @@ stack:
       url: /providers/make/
   layer: common
 summary:
-  coverage_pct: 97.6
+  coverage_pct: 98.8
   declared_only: 59
   distinct_providers: 85
-  in_catalog: 83
+  in_catalog: 84
   mcp:
     documented: 0
     none: 51
     unchecked: 2
     verified: 17
   mcp_verified: 17
-  mean_kin_score: 34.8
+  mean_kin_score: 37.2
   observed: 26
-  queued: 2
+  queued: 1
   reference_apps: 6
 title: 'Shipping, Fulfillment & Returns: application blueprint'
 ---

@@ -71,9 +71,9 @@ integrations:
   facts:
     agent_band: agent-aware
     agent_readiness: 25.9
-    band: developing
+    band: strong
     in_catalog: true
-    kin_score: 52.8
+    kin_score: 58.2
     mcp: &id001
       status: none
     slug: microsoft-to-do
@@ -100,10 +100,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 5.0
-    band: thin
+    agent_readiness: 4.9
+    band: developing
     in_catalog: true
-    kin_score: 33.6
+    kin_score: 44.2
     mcp: &id003
       status: none
     slug: planka
@@ -133,7 +133,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id005
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -161,10 +161,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.1
+    agent_readiness: 14.8
     band: emerging
     in_catalog: true
-    kin_score: 17.6
+    kin_score: 25.5
     mcp: &id007
       source: https://help.ticktick.com/articles/7438129581631995904
       status: verified
@@ -192,10 +192,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.6
-    band: strong
+    agent_readiness: 22.2
+    band: developing
     in_catalog: true
-    kin_score: 55.7
+    kin_score: 53.8
     mcp: &id009
       source: https://developer.todoist.com/api/v1/#tag/MCP
       status: verified
@@ -223,10 +223,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 28.7
+    agent_readiness: 30.8
     band: exemplar
     in_catalog: true
-    kin_score: 75.6
+    kin_score: 74.8
     mcp: &id011
       source: https://github.com/atlassian/trello-mcp-server
       status: verified
@@ -254,10 +254,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.1
+    agent_readiness: 52.6
     band: developing
     in_catalog: true
-    kin_score: 40.2
+    kin_score: 39.4
     mcp: &id013
       status: none
     slug: unsplash
@@ -284,7 +284,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.0
+    agent_readiness: 21.6
     band: emerging
     in_catalog: true
     kin_score: 18.6
@@ -310,9 +310,9 @@ permalink: /applications/task-todo/vikunja/
 providers:
 - agent_band: agent-aware
   agent_readiness: 25.9
-  band: developing
+  band: strong
   in_catalog: true
-  kin_score: 52.8
+  kin_score: 58.2
   mcp: *id001
   name: Microsoft To Do
   slug: microsoft-to-do
@@ -320,10 +320,10 @@ providers:
   tags: *id002
   url: /providers/microsoft-to-do/
 - agent_band: human-only
-  agent_readiness: 5.0
-  band: thin
+  agent_readiness: 4.9
+  band: developing
   in_catalog: true
-  kin_score: 33.6
+  kin_score: 44.2
   mcp: *id003
   name: Planka
   slug: planka
@@ -334,7 +334,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id005
   name: Sentry
   slug: sentry-system
@@ -342,10 +342,10 @@ providers:
   tags: *id006
   url: /providers/sentry-system/
 - agent_band: agent-aware
-  agent_readiness: 15.1
+  agent_readiness: 14.8
   band: emerging
   in_catalog: true
-  kin_score: 17.6
+  kin_score: 25.5
   mcp: *id007
   name: TickTick
   slug: ticktick
@@ -353,10 +353,10 @@ providers:
   tags: *id008
   url: /providers/ticktick/
 - agent_band: agent-aware
-  agent_readiness: 22.6
-  band: strong
+  agent_readiness: 22.2
+  band: developing
   in_catalog: true
-  kin_score: 55.7
+  kin_score: 53.8
   mcp: *id009
   name: Todoist
   slug: todoist
@@ -364,10 +364,10 @@ providers:
   tags: *id010
   url: /providers/todoist/
 - agent_band: agent-ready
-  agent_readiness: 28.7
+  agent_readiness: 30.8
   band: exemplar
   in_catalog: true
-  kin_score: 75.6
+  kin_score: 74.8
   mcp: *id011
   name: Trello
   slug: trello
@@ -375,10 +375,10 @@ providers:
   tags: *id012
   url: /providers/trello/
 - agent_band: agent-ready
-  agent_readiness: 44.1
+  agent_readiness: 52.6
   band: developing
   in_catalog: true
-  kin_score: 40.2
+  kin_score: 39.4
   mcp: *id013
   name: Unsplash
   slug: unsplash
@@ -386,7 +386,7 @@ providers:
   tags: *id014
   url: /providers/unsplash/
 - agent_band: agent-aware
-  agent_readiness: 22.0
+  agent_readiness: 21.6
   band: emerging
   in_catalog: true
   kin_score: 18.6

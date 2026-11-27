@@ -37,10 +37,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.5
+    agent_readiness: 24.9
     band: developing
     in_catalog: true
-    kin_score: 42.6
+    kin_score: 39.8
     mcp: &id001
       status: none
     slug: accuweather
@@ -67,10 +67,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id003
       status: none
     slug: apple
@@ -97,10 +97,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 1.1
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 5.5
     mcp: &id005
       status: unknown
     slug: foreca
@@ -123,10 +123,10 @@ noindex: false
 permalink: /applications/weather/carrot-weather/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 25.5
+  agent_readiness: 24.9
   band: developing
   in_catalog: true
-  kin_score: 42.6
+  kin_score: 39.8
   mcp: *id001
   name: AccuWeather
   slug: accuweather
@@ -134,10 +134,10 @@ providers:
   tags: *id002
   url: /providers/accuweather/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id003
   name: Apple Weather (WeatherKit)
   slug: apple
@@ -145,10 +145,10 @@ providers:
   tags: *id004
   url: /providers/apple/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 1.1
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 5.5
   mcp: *id005
   name: Foreca
   slug: foreca

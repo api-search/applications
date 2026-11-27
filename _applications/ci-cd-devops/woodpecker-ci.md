@@ -39,10 +39,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 35.3
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 71.9
     mcp: &id001
       source: https://github.com/atlassian/atlassian-mcp-server
       status: verified
@@ -70,10 +70,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id003
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -101,10 +101,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id005
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -130,10 +130,10 @@ noindex: false
 permalink: /applications/ci-cd-devops/woodpecker-ci/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 35.3
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 71.9
   mcp: *id001
   name: Bitbucket Cloud + Data Center forges
   slug: bitbucket
@@ -141,10 +141,10 @@ providers:
   tags: *id002
   url: /providers/bitbucket/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id003
   name: GitHub forge (go-github)
   slug: github
@@ -152,10 +152,10 @@ providers:
   tags: *id004
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id005
   name: GitLab forge (gitlab client-go)
   slug: gitlab

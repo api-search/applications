@@ -76,10 +76,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_readiness: 25.4
     band: thin
     in_catalog: true
-    kin_score: 36.4
+    kin_score: 35.5
     mcp: &id001
       source: https://github.com/AuthorizeNet/authorize-net-mcp
       status: verified
@@ -107,10 +107,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.4
-    band: emerging
+    agent_readiness: 31.7
+    band: thin
     in_catalog: true
-    kin_score: 25.9
+    kin_score: 30.1
     mcp: &id003
       status: none
     slug: elavon
@@ -137,10 +137,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_readiness: 5.3
     band: developing
     in_catalog: true
-    kin_score: 49.0
+    kin_score: 46.6
     mcp: &id005
       status: none
     slug: eway
@@ -167,10 +167,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 7.1
+    agent_readiness: 7.0
     band: emerging
     in_catalog: true
-    kin_score: 16.7
+    kin_score: 15.8
     mcp: &id007
       status: none
     slug: first-data
@@ -197,10 +197,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id009
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -227,11 +227,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: strong
     in_catalog: true
-    kin_score: 48.1
+    kin_score: 65.1
     mcp: &id011
       status: none
     slug: google-recaptcha
@@ -261,7 +261,7 @@ integrations:
     agent_readiness: 0.0
     band: thin
     in_catalog: true
-    kin_score: 28.9
+    kin_score: 37.3
     mcp: &id013
       status: none
     slug: payjunction
@@ -288,10 +288,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id015
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -319,10 +319,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.4
+    agent_readiness: 22.0
     band: thin
     in_catalog: true
-    kin_score: 27.2
+    kin_score: 26.5
     mcp: &id017
       source: https://github.com/globalpayments/mcp-server
       status: verified
@@ -349,11 +349,11 @@ integrations:
     via_parent: Geocoding
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.9
-    band: thin
+    agent_band: agent-native
+    agent_readiness: 51.8
+    band: developing
     in_catalog: true
-    kin_score: 33.2
+    kin_score: 52.0
     mcp: &id019
       status: none
     slug: usps
@@ -378,10 +378,10 @@ noindex: false
 permalink: /applications/nonprofit-crm-fundraising/civicrm/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 25.9
+  agent_readiness: 25.4
   band: thin
   in_catalog: true
-  kin_score: 36.4
+  kin_score: 35.5
   mcp: *id001
   name: Authorize.net
   slug: authorizenet
@@ -389,10 +389,10 @@ providers:
   tags: *id002
   url: /providers/authorizenet/
 - agent_band: agent-ready
-  agent_readiness: 32.4
-  band: emerging
+  agent_readiness: 31.7
+  band: thin
   in_catalog: true
-  kin_score: 25.9
+  kin_score: 30.1
   mcp: *id003
   name: Elavon
   slug: elavon
@@ -400,10 +400,10 @@ providers:
   tags: *id004
   url: /providers/elavon/
 - agent_band: agent-aware
-  agent_readiness: 5.4
+  agent_readiness: 5.3
   band: developing
   in_catalog: true
-  kin_score: 49.0
+  kin_score: 46.6
   mcp: *id005
   name: eWAY
   slug: eway
@@ -411,10 +411,10 @@ providers:
   tags: *id006
   url: /providers/eway/
 - agent_band: agent-aware
-  agent_readiness: 7.1
+  agent_readiness: 7.0
   band: emerging
   in_catalog: true
-  kin_score: 16.7
+  kin_score: 15.8
   mcp: *id007
   name: First Data
   slug: first-data
@@ -422,21 +422,21 @@ providers:
   tags: *id008
   url: /providers/first-data/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id009
   name: Google Maps Geocoding
   slug: google-maps
   status: profiled
   tags: *id010
   url: /providers/google-maps/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: strong
   in_catalog: true
-  kin_score: 48.1
+  kin_score: 65.1
   mcp: *id011
   name: Google reCAPTCHA
   slug: google-recaptcha
@@ -447,7 +447,7 @@ providers:
   agent_readiness: 0.0
   band: thin
   in_catalog: true
-  kin_score: 28.9
+  kin_score: 37.3
   mcp: *id013
   name: PayJunction
   slug: payjunction
@@ -455,10 +455,10 @@ providers:
   tags: *id014
   url: /providers/payjunction/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id015
   name: PayPal
   slug: paypal
@@ -466,21 +466,21 @@ providers:
   tags: *id016
   url: /providers/paypal/
 - agent_band: agent-aware
-  agent_readiness: 22.4
+  agent_readiness: 22.0
   band: thin
   in_catalog: true
-  kin_score: 27.2
+  kin_score: 26.5
   mcp: *id017
   name: Realex Payments (Global Payments)
   slug: global-payments
   status: profiled
   tags: *id018
   url: /providers/global-payments/
-- agent_band: agent-ready
-  agent_readiness: 31.9
-  band: thin
+- agent_band: agent-native
+  agent_readiness: 51.8
+  band: developing
   in_catalog: true
-  kin_score: 33.2
+  kin_score: 52.0
   mcp: *id019
   name: USPS Address API
   slug: usps

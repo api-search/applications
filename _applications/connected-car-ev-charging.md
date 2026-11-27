@@ -2366,7 +2366,7 @@ stack:
       via_parent: Connected Vehicles
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.3
       apps:
       - TeslaLogger
       - TeslaMate
@@ -2374,7 +2374,7 @@ stack:
       - openWB
       band: thin
       in_catalog: true
-      kin_score: 35.5
+      kin_score: 34.8
       mcp: &id007
         status: none
       name: Tesla
@@ -2392,14 +2392,14 @@ stack:
       tier: observed
       url: /providers/tesla/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 24.7
       apps:
       - Electrify America
       - evcc
       - openWB
       band: developing
       in_catalog: true
-      kin_score: 43.7
+      kin_score: 45.5
       mcp:
         status: none
       name: Volkswagen Group
@@ -2417,14 +2417,14 @@ stack:
       tier: observed
       url: /providers/volkswagen/
     - agent_band: agent-aware
-      agent_readiness: 21.2
+      agent_readiness: 20.8
       apps:
       - Electrify America
       - evcc
       - openWB
       band: thin
       in_catalog: true
-      kin_score: 30.0
+      kin_score: 33.1
       mcp:
         status: none
       name: Porsche
@@ -2449,7 +2449,7 @@ stack:
       - openWB
       band: emerging
       in_catalog: true
-      kin_score: 20.2
+      kin_score: 20.5
       mcp:
         status: unknown
       name: BMW
@@ -2474,7 +2474,7 @@ stack:
       - openWB
       band: minimal
       in_catalog: true
-      kin_score: 9.1
+      kin_score: 7.9
       mcp:
         status: unknown
       name: Nissan
@@ -2490,6 +2490,29 @@ stack:
       - Vehicles
       tier: observed
       url: /providers/nissan/
+    - agent_band: agent-aware
+      agent_readiness: 16.9
+      apps:
+      - evcc
+      - openWB
+      band: thin
+      in_catalog: true
+      kin_score: 32.9
+      mcp:
+        status: none
+      name: Kia
+      slug: kia
+      sources:
+      - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
+      - https://github.com/openWB/core/tree/master/packages/modules/vehicles
+      status: profiled
+      tags:
+      - Automotive
+      - Connected Vehicles
+      - OAuth
+      - Vehicle Data
+      tier: observed
+      url: /providers/kia/
     - agent_band: human-only
       agent_readiness: 0.6
       apps:
@@ -2497,7 +2520,7 @@ stack:
       - evcc
       band: thin
       in_catalog: true
-      kin_score: 29.4
+      kin_score: 29.3
       mcp:
         status: none
       name: Mercedes-Benz
@@ -2513,13 +2536,13 @@ stack:
       tier: observed
       url: /providers/mercedes-benz/
     - agent_band: agent-aware
-      agent_readiness: 27.5
+      agent_readiness: 26.9
       apps:
       - Electrify America
       - evcc
       band: thin
       in_catalog: true
-      kin_score: 27.0
+      kin_score: 28.7
       mcp:
         status: none
       name: Ford
@@ -2536,13 +2559,13 @@ stack:
       tier: observed
       url: /providers/ford/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - evcc
       - openWB
       band: emerging
       in_catalog: true
-      kin_score: 25.8
+      kin_score: 25.6
       mcp:
         status: none
       name: TRONITY
@@ -2559,36 +2582,13 @@ stack:
       tier: observed
       url: /providers/tronity/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 19.9
       apps:
       - evcc
       - openWB
       band: emerging
       in_catalog: true
-      kin_score: 24.4
-      mcp:
-        status: none
-      name: Kia
-      slug: kia
-      sources:
-      - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
-      - https://github.com/openWB/core/tree/master/packages/modules/vehicles
-      status: profiled
-      tags:
-      - Automotive
-      - Connected Vehicles
-      - OAuth
-      - Vehicle Data
-      tier: observed
-      url: /providers/kia/
-    - agent_band: agent-aware
-      agent_readiness: 20.4
-      apps:
-      - evcc
-      - openWB
-      band: emerging
-      in_catalog: true
-      kin_score: 23.0
+      kin_score: 22.8
       mcp:
         status: none
       name: Stellantis
@@ -2605,13 +2605,13 @@ stack:
       tier: observed
       url: /providers/stellantis/
     - agent_band: agent-aware
-      agent_readiness: 20.8
+      agent_readiness: 17.6
       apps:
       - evcc
       - openWB
       band: emerging
       in_catalog: true
-      kin_score: 19.2
+      kin_score: 21.9
       mcp:
         status: none
       name: Open Vehicle Monitoring System (self-hosted)
@@ -2634,7 +2634,7 @@ stack:
       - openWB
       band: emerging
       in_catalog: true
-      kin_score: 12.4
+      kin_score: 21.1
       mcp:
         status: none
       name: Renault Group
@@ -2651,13 +2651,13 @@ stack:
       tier: observed
       url: /providers/renault-group/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - TeslaLogger
       - evcc
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.6
+      kin_score: 15.0
       mcp:
         source: https://teslafi.com
         status: documented
@@ -2677,11 +2677,34 @@ stack:
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
+      - evcc
+      - openWB
+      band: minimal
+      in_catalog: true
+      kin_score: 6.8
+      mcp:
+        status: none
+      name: Polestar
+      slug: polestar-cars
+      sources:
+      - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
+      - https://github.com/openWB/core/tree/master/packages/modules/vehicles
+      status: profiled
+      tags:
+      - Automotive
+      - Connected Vehicles
+      - Electric Vehicles
+      - Premium Vehicles
+      tier: observed
+      url: /providers/polestar-cars/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
       - Electrify America
       - evcc
       band: minimal
       in_catalog: true
-      kin_score: 6.9
+      kin_score: 6.5
       mcp:
         status: unknown
       name: Audi Connect
@@ -2704,30 +2727,7 @@ stack:
       - openWB
       band: minimal
       in_catalog: true
-      kin_score: 6.9
-      mcp:
-        status: none
-      name: Polestar
-      slug: polestar-cars
-      sources:
-      - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
-      - https://github.com/openWB/core/tree/master/packages/modules/vehicles
-      status: profiled
-      tags:
-      - Automotive
-      - Connected Vehicles
-      - Electric Vehicles
-      - Premium Vehicles
-      tier: observed
-      url: /providers/polestar-cars/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - evcc
-      - openWB
-      band: minimal
-      in_catalog: true
-      kin_score: 4.6
+      kin_score: 4.9
       mcp:
         status: unknown
       name: smart Europe
@@ -2747,7 +2747,7 @@ stack:
       - evcc
       band: minimal
       in_catalog: true
-      kin_score: 4.0
+      kin_score: 4.1
       mcp:
         status: none
       name: TeslaMate (self-hosted)
@@ -2770,7 +2770,7 @@ stack:
       - openWB
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.2
       mcp:
         status: unknown
       name: MG (SAIC Motor)
@@ -2805,34 +2805,13 @@ stack:
       tags: []
       tier: observed
       url: null
-    - agent_band: agent-aware
-      agent_readiness: 26.1
-      apps:
-      - evcc
-      band: developing
-      in_catalog: true
-      kin_score: 50.6
-      mcp: &id001
-        status: none
-      name: Tibber
-      slug: tibber
-      sources:
-      - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
-      status: profiled
-      tags: &id002
-      - ElectricityPricing
-      - Energy
-      - Smart Home
-      - Smart Meter
-      tier: observed
-      url: /providers/tibber/
     - agent_band: agent-ready
-      agent_readiness: 29.3
+      agent_readiness: 28.7
       apps:
       - evcc
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 49.5
       mcp:
         status: none
       name: Hyundai
@@ -2848,33 +2827,54 @@ stack:
       tier: observed
       url: /providers/hyundai/
     - agent_band: agent-aware
-      agent_readiness: 24.1
+      agent_readiness: 25.6
       apps:
       - evcc
       band: developing
       in_catalog: true
-      kin_score: 44.9
-      mcp: &id003
+      kin_score: 49.5
+      mcp: &id001
         status: none
-      name: Octopus Energy
-      slug: octopus-energy
+      name: Tibber
+      slug: tibber
       sources:
       - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
       status: profiled
-      tags: &id004
-      - Electricity
+      tags: &id002
+      - ElectricityPricing
       - Energy
-      - Gas
-      - Renewable Energy
+      - Smart Home
+      - Smart Meter
       tier: observed
-      url: /providers/octopus-energy/
+      url: /providers/tibber/
+    - agent_band: agent-aware
+      agent_readiness: 25.6
+      apps:
+      - evcc
+      band: developing
+      in_catalog: true
+      kin_score: 47.3
+      mcp:
+        status: none
+      name: Tessie
+      slug: tessie
+      sources:
+      - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
+      status: profiled
+      tags:
+      - Automotive
+      - Company
+      - Fleet Management
+      - Tesla
+      tier: observed
+      url: /providers/tessie/
     - agent_band: agent-ready
-      agent_readiness: 31.2
+      agent_readiness: 32.6
       apps:
       - openWB
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.8
+      kin_score: 45.0
       mcp: &id005
         source: https://docs.evcc.io/en/integrations/mcp.md
         status: verified
@@ -2891,33 +2891,33 @@ stack:
       tier: observed
       url: /providers/evcc/
     - agent_band: agent-aware
-      agent_readiness: 28.3
+      agent_readiness: 23.5
       apps:
       - evcc
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 36.2
-      mcp:
+      kin_score: 44.1
+      mcp: &id003
         status: none
-      name: Tessie
-      slug: tessie
+      name: Octopus Energy
+      slug: octopus-energy
       sources:
       - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
       status: profiled
-      tags:
-      - Automotive
-      - Company
-      - Fleet Management
-      - Tesla
+      tags: &id004
+      - Electricity
+      - Energy
+      - Gas
+      - Renewable Energy
       tier: observed
-      url: /providers/tessie/
+      url: /providers/octopus-energy/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.6
       apps:
       - evcc
       band: thin
       in_catalog: true
-      kin_score: 31.1
+      kin_score: 31.0
       mcp:
         status: none
       name: Toyota
@@ -2933,12 +2933,12 @@ stack:
       tier: observed
       url: /providers/toyota/
     - agent_band: agent-aware
-      agent_readiness: 19.2
+      agent_readiness: 18.8
       apps:
       - evcc
       band: thin
       in_catalog: true
-      kin_score: 29.5
+      kin_score: 27.7
       mcp:
         status: none
       name: Volvo Cars
@@ -2954,12 +2954,12 @@ stack:
       tier: observed
       url: /providers/volvo-cars/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 23.2
       apps:
       - evcc
       band: emerging
       in_catalog: true
-      kin_score: 19.6
+      kin_score: 22.4
       mcp:
         source: https://teslalogger.de/docs/extras/mcp-server
         status: verified
@@ -2975,55 +2975,13 @@ stack:
       - Open Source
       tier: observed
       url: /providers/teslalogger/
-    - agent_band: human-only
-      agent_readiness: 0.0
+    - agent_band: agent-aware
+      agent_readiness: 14.8
       apps:
       - evcc
       band: emerging
       in_catalog: true
-      kin_score: 11.0
-      mcp:
-        status: none
-      name: Zero Motorcycles
-      slug: zero-motorcycles
-      sources:
-      - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
-      status: profiled
-      tags:
-      - Automotive
-      - Company
-      - Electric Vehicles
-      - Motorcycles
-      tier: observed
-      url: /providers/zero-motorcycles/
-    - agent_band: agent-aware
-      agent_readiness: 21.6
-      apps:
-      - evcc
-      band: minimal
-      in_catalog: true
-      kin_score: 9.5
-      mcp:
-        status: none
-      name: Connected Cars
-      slug: connectedcars-io
-      sources:
-      - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
-      status: profiled
-      tags:
-      - Connected Car Platform
-      - Dealers
-      - OEM APIs
-      - Real-time Vehicle Data
-      tier: observed
-      url: /providers/connectedcars-io/
-    - agent_band: agent-aware
-      agent_readiness: 18.0
-      apps:
-      - evcc
-      band: minimal
-      in_catalog: true
-      kin_score: 9.4
+      kin_score: 14.6
       mcp:
         status: none
       name: LiveWire
@@ -3042,9 +3000,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - evcc
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.2
+      kin_score: 13.6
       mcp:
         status: unknown
       name: JLR (Jaguar Land Rover)
@@ -3060,12 +3018,12 @@ stack:
       tier: observed
       url: /providers/jlr/
     - agent_band: human-only
-      agent_readiness: 4.5
+      agent_readiness: 4.4
       apps:
       - evcc
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.0
+      kin_score: 11.7
       mcp:
         status: unknown
       name: NIU
@@ -3081,54 +3039,54 @@ stack:
       tier: observed
       url: /providers/niu/
     - agent_band: human-only
-      agent_readiness: 0.6
+      agent_readiness: 0.0
       apps:
       - evcc
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 11.4
       mcp:
         status: none
-      name: Subaru
-      slug: subaru-of-america
+      name: Zero Motorcycles
+      slug: zero-motorcycles
       sources:
       - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
       status: profiled
       tags:
-      - Automobiles
-      - Automotive
-      - Cars
-      - Vehicles
-      tier: observed
-      url: /providers/subaru-of-america/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - TeslaLogger
-      band: minimal
-      in_catalog: true
-      kin_score: 8.1
-      mcp:
-        status: unknown
-      name: Scan My Tesla
-      slug: scanmytesla
-      sources:
-      - https://github.com/bassmaster187/TeslaLogger/blob/master/TeslaLogger/ScanMyTesla.cs
-      status: profiled
-      tags:
       - Automotive
       - Company
-      - Diagnostics
-      - Telemetry
+      - Electric Vehicles
+      - Motorcycles
       tier: observed
-      url: /providers/scanmytesla/
+      url: /providers/zero-motorcycles/
+    - agent_band: agent-aware
+      agent_readiness: 18.3
+      apps:
+      - evcc
+      band: emerging
+      in_catalog: true
+      kin_score: 11.2
+      mcp:
+        status: none
+      name: Connected Cars
+      slug: connectedcars-io
+      sources:
+      - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
+      status: profiled
+      tags:
+      - Connected Car Platform
+      - Dealers
+      - OEM APIs
+      - Real-time Vehicle Data
+      tier: observed
+      url: /providers/connectedcars-io/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - evcc
       band: minimal
       in_catalog: true
-      kin_score: 7.5
+      kin_score: 10.8
       mcp:
         status: unknown
       name: Aiways
@@ -3146,10 +3104,52 @@ stack:
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
+      - TeslaLogger
+      band: minimal
+      in_catalog: true
+      kin_score: 9.9
+      mcp:
+        status: unknown
+      name: Scan My Tesla
+      slug: scanmytesla
+      sources:
+      - https://github.com/bassmaster187/TeslaLogger/blob/master/TeslaLogger/ScanMyTesla.cs
+      status: profiled
+      tags:
+      - Automotive
+      - Company
+      - Diagnostics
+      - Telemetry
+      tier: observed
+      url: /providers/scanmytesla/
+    - agent_band: human-only
+      agent_readiness: 0.6
+      apps:
+      - evcc
+      band: minimal
+      in_catalog: true
+      kin_score: 7.1
+      mcp:
+        status: none
+      name: Subaru
+      slug: subaru-of-america
+      sources:
+      - https://github.com/evcc-io/evcc/tree/master/templates/definition/vehicle
+      status: profiled
+      tags:
+      - Automobiles
+      - Automotive
+      - Cars
+      - Vehicles
+      tier: observed
+      url: /providers/subaru-of-america/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
       - openWB
       band: minimal
       in_catalog: true
-      kin_score: 6.2
+      kin_score: 5.0
       mcp:
         status: none
       name: BYD
@@ -3170,7 +3170,7 @@ stack:
       - evcc
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 4.1
       mcp:
         status: unknown
       name: Mazda
@@ -3186,30 +3186,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Electrify America
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.6
-      mcp:
-        status: none
-      name: Rivian
-      slug: rivian-automotive
-      sources:
-      - https://www.electrifyamerica.com/plug-and-charge/
-      status: profiled
-      tags:
-      - Automotive
-      - Connected Vehicles
-      - Electric Vehicles
-      - Manufacturing
-      tier: declared
-      url: /providers/rivian-automotive/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Electrify America
-      band: minimal
-      in_catalog: true
-      kin_score: 9.3
+      kin_score: 11.2
       mcp:
         status: unknown
       name: Lucid Motors
@@ -3224,6 +3203,27 @@ stack:
       - Luxury Vehicles
       tier: declared
       url: /providers/lucid-motors/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Electrify America
+      band: emerging
+      in_catalog: true
+      kin_score: 11.2
+      mcp:
+        status: none
+      name: Rivian
+      slug: rivian-automotive
+      sources:
+      - https://www.electrifyamerica.com/plug-and-charge/
+      status: profiled
+      tags:
+      - Automotive
+      - Connected Vehicles
+      - Electric Vehicles
+      - Manufacturing
+      tier: declared
+      url: /providers/rivian-automotive/
   - capability:
       attribution: Turbo EA
       id: BC-3480.30
@@ -3233,13 +3233,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 25.6
       apps:
       - evcc
       - openWB
       band: developing
       in_catalog: true
-      kin_score: 50.6
+      kin_score: 49.5
       mcp: *id001
       name: Tibber
       slug: tibber
@@ -3251,13 +3251,13 @@ stack:
       tier: observed
       url: /providers/tibber/
     - agent_band: agent-ready
-      agent_readiness: 31.5
+      agent_readiness: 30.8
       apps:
       - evcc
       - openWB
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 45.8
       mcp:
         status: none
       name: Ostrom
@@ -3274,13 +3274,13 @@ stack:
       tier: observed
       url: /providers/ostrom/
     - agent_band: agent-aware
-      agent_readiness: 24.1
+      agent_readiness: 23.5
       apps:
       - evcc
       - openWB
       band: developing
       in_catalog: true
-      kin_score: 44.9
+      kin_score: 44.1
       mcp: *id003
       name: Octopus Energy
       slug: octopus-energy
@@ -3291,14 +3291,14 @@ stack:
       tags: *id004
       tier: observed
       url: /providers/octopus-energy/
-    - agent_band: agent-ready
-      agent_readiness: 29.1
+    - agent_band: agent-aware
+      agent_readiness: 28.4
       apps:
       - evcc
       - openWB
       band: thin
       in_catalog: true
-      kin_score: 27.5
+      kin_score: 26.8
       mcp:
         status: none
       name: aWATTar
@@ -3315,13 +3315,13 @@ stack:
       tier: observed
       url: /providers/awattar/
     - agent_band: agent-aware
-      agent_readiness: 25.3
+      agent_readiness: 24.7
       apps:
       - evcc
       - openWB
       band: emerging
       in_catalog: true
-      kin_score: 23.1
+      kin_score: 22.7
       mcp:
         status: unknown
       name: Energy-Charts (Fraunhofer ISE)
@@ -3342,32 +3342,9 @@ stack:
       apps:
       - evcc
       - openWB
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.0
-      mcp:
-        status: unknown
-      name: EKZ
-      slug: ekz
-      sources:
-      - https://github.com/evcc-io/evcc/tree/master/templates/definition/tariff
-      - https://github.com/openWB/core/tree/master/packages/modules/electricity_pricing/flexible_tariffs
-      status: profiled
-      tags:
-      - Energy
-      - Renewables
-      - Switzerland
-      - Utilities
-      tier: observed
-      url: /providers/ekz/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - evcc
-      - openWB
-      band: minimal
-      in_catalog: true
-      kin_score: 7.7
+      kin_score: 11.9
       mcp:
         status: none
       name: smartENERGY
@@ -3388,9 +3365,32 @@ stack:
       apps:
       - evcc
       - openWB
+      band: emerging
+      in_catalog: true
+      kin_score: 11.8
+      mcp:
+        status: unknown
+      name: EKZ
+      slug: ekz
+      sources:
+      - https://github.com/evcc-io/evcc/tree/master/templates/definition/tariff
+      - https://github.com/openWB/core/tree/master/packages/modules/electricity_pricing/flexible_tariffs
+      status: profiled
+      tags:
+      - Energy
+      - Renewables
+      - Switzerland
+      - Utilities
+      tier: observed
+      url: /providers/ekz/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - evcc
+      - openWB
       band: minimal
       in_catalog: true
-      kin_score: 3.5
+      kin_score: 3.1
       mcp:
         status: unknown
       name: Groupe E
@@ -3407,12 +3407,12 @@ stack:
       tier: observed
       url: /providers/groupe-e/
     - agent_band: agent-ready
-      agent_readiness: 47.5
+      agent_readiness: 46.4
       apps:
       - evcc
       band: strong
       in_catalog: true
-      kin_score: 59.9
+      kin_score: 65.1
       mcp:
         status: none
       name: Amber Electric
@@ -3428,12 +3428,12 @@ stack:
       tier: observed
       url: /providers/amber-electric/
     - agent_band: agent-ready
-      agent_readiness: 34.7
+      agent_readiness: 33.9
       apps:
       - evcc
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.8
       mcp:
         status: none
       name: Nord Pool
@@ -3449,12 +3449,12 @@ stack:
       tier: observed
       url: /providers/nordpool/
     - agent_band: agent-ready
-      agent_readiness: 30.2
+      agent_readiness: 34.0
       apps:
       - evcc
       band: thin
       in_catalog: true
-      kin_score: 34.1
+      kin_score: 33.4
       mcp:
         status: none
       name: ENTSO-E
@@ -3470,12 +3470,12 @@ stack:
       tier: observed
       url: /providers/entso-e/
     - agent_band: agent-aware
-      agent_readiness: 19.8
+      agent_readiness: 19.4
       apps:
       - evcc
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.5
+      kin_score: 27.4
       mcp:
         status: none
       name: Stekker
@@ -3491,12 +3491,12 @@ stack:
       tier: observed
       url: /providers/stekker/
     - agent_band: agent-aware
-      agent_readiness: 22.8
+      agent_readiness: 22.2
       apps:
       - evcc
       band: emerging
       in_catalog: true
-      kin_score: 18.7
+      kin_score: 21.9
       mcp:
         status: none
       name: Red Electrica (e-sios)
@@ -3512,12 +3512,30 @@ stack:
       tier: observed
       url: /providers/esios-red-electrica/
     - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - evcc
+      band: emerging
+      in_catalog: true
+      kin_score: 14.2
+      mcp:
+        status: unknown
+      name: Frank Energie
+      slug: frank-energie
+      sources:
+      - https://github.com/evcc-io/evcc/tree/master/templates/definition/tariff
+      status: profiled
+      tags:
+      - Company
+      tier: observed
+      url: /providers/frank-energie/
+    - agent_band: human-only
       agent_readiness: 2.5
       apps:
       - evcc
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.4
+      kin_score: 12.7
       mcp:
         status: unknown
       name: Pstryk
@@ -3533,12 +3551,12 @@ stack:
       tier: observed
       url: /providers/pstryk/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - openWB
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.7
+      kin_score: 12.3
       mcp:
         status: unknown
       name: Naturstrom
@@ -3554,30 +3572,12 @@ stack:
       tier: observed
       url: /providers/naturstrom/
     - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - evcc
-      band: minimal
-      in_catalog: true
-      kin_score: 9.5
-      mcp:
-        status: unknown
-      name: Frank Energie
-      slug: frank-energie
-      sources:
-      - https://github.com/evcc-io/evcc/tree/master/templates/definition/tariff
-      status: profiled
-      tags:
-      - Company
-      tier: observed
-      url: /providers/frank-energie/
-    - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - openWB
       band: minimal
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 10.6
       mcp:
         status: unknown
       name: rabot.energy
@@ -3593,33 +3593,12 @@ stack:
       tier: observed
       url: /providers/rabotenergy/
     - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - evcc
-      band: minimal
-      in_catalog: true
-      kin_score: 7.1
-      mcp:
-        status: none
-      name: Elering
-      slug: elering
-      sources:
-      - https://github.com/evcc-io/evcc/tree/master/templates/definition/tariff
-      status: profiled
-      tags:
-      - Energy
-      - Estonia
-      - Grid
-      - Transmission
-      tier: observed
-      url: /providers/elering/
-    - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - evcc
       band: minimal
       in_catalog: true
-      kin_score: 7.1
+      kin_score: 9.0
       mcp:
         status: unknown
       name: OMIE (Iberian power market)
@@ -3634,13 +3613,34 @@ stack:
       - Markets
       tier: observed
       url: /providers/omie-es/
-    - agent_band: agent-aware
-      agent_readiness: 10.8
+    - agent_band: human-only
+      agent_readiness: 0.0
       apps:
       - evcc
       band: minimal
       in_catalog: true
-      kin_score: 6.5
+      kin_score: 8.4
+      mcp:
+        status: none
+      name: Elering
+      slug: elering
+      sources:
+      - https://github.com/evcc-io/evcc/tree/master/templates/definition/tariff
+      status: profiled
+      tags:
+      - Energy
+      - Estonia
+      - Grid
+      - Transmission
+      tier: observed
+      url: /providers/elering/
+    - agent_band: agent-aware
+      agent_readiness: 11.6
+      apps:
+      - evcc
+      band: minimal
+      in_catalog: true
+      kin_score: 7.7
       mcp:
         status: unknown
       name: Energinet
@@ -3656,12 +3656,12 @@ stack:
       tier: observed
       url: /providers/energinet/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 2.8
       apps:
       - evcc
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 7.0
       mcp:
         status: unknown
       name: EDF (Tempo tariff)
@@ -3682,7 +3682,7 @@ stack:
       - openWB
       band: minimal
       in_catalog: true
-      kin_score: 4.8
+      kin_score: 5.7
       mcp:
         status: unknown
       name: WestfalenWIND
@@ -3723,13 +3723,13 @@ stack:
       via_parent: Connected Vehicles
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.3
+      agent_readiness: 19.9
       apps:
       - ChargePoint
       - Open Charge Map
       band: thin
       in_catalog: true
-      kin_score: 27.9
+      kin_score: 29.8
       mcp:
         status: unknown
       name: FLO (AddEnergie)
@@ -3752,7 +3752,7 @@ stack:
       - evcc
       band: emerging
       in_catalog: true
-      kin_score: 14.4
+      kin_score: 20.9
       mcp:
         status: unknown
       name: go-e
@@ -3768,34 +3768,13 @@ stack:
       - Sustainability
       tier: observed
       url: /providers/go-e/
-    - agent_band: agent-aware
-      agent_readiness: 18.6
-      apps:
-      - Open Charge Map
-      band: thin
-      in_catalog: true
-      kin_score: 38.6
-      mcp:
-        status: none
-      name: Department of Energy (AFDC)
-      slug: doe
-      sources:
-      - https://github.com/openchargemap/ocm-system/blob/master/Import/OCM.Import.Common/Providers/AFDC/ImportProvider_AFDC.cs
-      status: profiled
-      tags:
-      - Electricity
-      - Energy
-      - Government
-      - Renewable Energy
-      tier: observed
-      url: /providers/doe/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 29.2
       apps:
       - evcc
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.4
+      kin_score: 48.6
       mcp:
         status: none
       name: Easee
@@ -3811,12 +3790,12 @@ stack:
       tier: observed
       url: /providers/easee/
     - agent_band: agent-ready
-      agent_readiness: 39.3
+      agent_readiness: 35.2
       apps:
       - evcc
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 37.8
+      kin_score: 46.9
       mcp:
         status: unknown
       name: Zaptec
@@ -3831,13 +3810,34 @@ stack:
       - Smart Charging
       tier: observed
       url: /providers/zaptec/
+    - agent_band: agent-aware
+      agent_readiness: 18.2
+      apps:
+      - Open Charge Map
+      band: thin
+      in_catalog: true
+      kin_score: 37.7
+      mcp:
+        status: none
+      name: Department of Energy (AFDC)
+      slug: doe
+      sources:
+      - https://github.com/openchargemap/ocm-system/blob/master/Import/OCM.Import.Common/Providers/AFDC/ImportProvider_AFDC.cs
+      status: profiled
+      tags:
+      - Electricity
+      - Energy
+      - Government
+      - Renewable Energy
+      tier: observed
+      url: /providers/doe/
     - agent_band: human-only
       agent_readiness: 3.1
       apps:
       - Open Charge Map
       band: thin
       in_catalog: true
-      kin_score: 27.5
+      kin_score: 27.1
       mcp:
         status: none
       name: ChargePoint
@@ -3853,12 +3853,12 @@ stack:
       tier: observed
       url: /providers/chargepoint/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Open Charge Map
       band: emerging
       in_catalog: true
-      kin_score: 13.5
+      kin_score: 22.7
       mcp:
         status: unknown
       name: EV24
@@ -3874,33 +3874,12 @@ stack:
       tier: observed
       url: /providers/ev24/
     - agent_band: human-only
-      agent_readiness: 5.0
+      agent_readiness: 0.0
       apps:
       - Open Charge Map
       band: emerging
       in_catalog: true
-      kin_score: 12.1
-      mcp:
-        status: unknown
-      name: NOBIL (Enova)
-      slug: nobil
-      sources:
-      - https://github.com/openchargemap/ocm-system/blob/master/Import/OCM.Import.Common/Providers/ImportProvider_NobilDotNo.cs
-      status: profiled
-      tags:
-      - Charging
-      - Data
-      - Electric Vehicles
-      - Energy
-      tier: observed
-      url: /providers/nobil/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Open Charge Map
-      band: minimal
-      in_catalog: true
-      kin_score: 9.8
+      kin_score: 16.4
       mcp:
         status: unknown
       name: Chargesini
@@ -3916,12 +3895,33 @@ stack:
       tier: observed
       url: /providers/chargesini/
     - agent_band: human-only
+      agent_readiness: 4.9
+      apps:
+      - Open Charge Map
+      band: emerging
+      in_catalog: true
+      kin_score: 13.7
+      mcp:
+        status: unknown
+      name: NOBIL (Enova)
+      slug: nobil
+      sources:
+      - https://github.com/openchargemap/ocm-system/blob/master/Import/OCM.Import.Common/Providers/ImportProvider_NobilDotNo.cs
+      status: profiled
+      tags:
+      - Charging
+      - Data
+      - Electric Vehicles
+      - Energy
+      tier: observed
+      url: /providers/nobil/
+    - agent_band: human-only
       agent_readiness: 2.5
       apps:
       - Open Charge Map
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.8
+      kin_score: 12.8
       mcp:
         status: unknown
       name: ICAEN (Catalonia)
@@ -3942,7 +3942,7 @@ stack:
       - Open Charge Map
       band: minimal
       in_catalog: true
-      kin_score: 5.7
+      kin_score: 7.1
       mcp:
         status: unknown
       name: ESB ecars
@@ -3963,25 +3963,7 @@ stack:
       - Open Charge Map
       band: minimal
       in_catalog: true
-      kin_score: 5.3
-      mcp:
-        status: none
-      name: PlugShare
-      slug: plugshare
-      sources:
-      - https://github.com/openchargemap/ocm-system/blob/master/Import/OCM.Import.Common/Providers/ImportProvider_PS.cs
-      status: profiled
-      tags:
-      - Company
-      tier: observed
-      url: /providers/plugshare/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Open Charge Map
-      band: minimal
-      in_catalog: true
-      kin_score: 5.1
+      kin_score: 5.4
       mcp:
         status: unknown
       name: RWE Mobility
@@ -3999,10 +3981,28 @@ stack:
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
+      - Open Charge Map
+      band: minimal
+      in_catalog: true
+      kin_score: 5.1
+      mcp:
+        status: none
+      name: PlugShare
+      slug: plugshare
+      sources:
+      - https://github.com/openchargemap/ocm-system/blob/master/Import/OCM.Import.Common/Providers/ImportProvider_PS.cs
+      status: profiled
+      tags:
+      - Company
+      tier: observed
+      url: /providers/plugshare/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
       - TeslaLogger
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.2
       mcp:
         status: unknown
       name: supercharge.bingo
@@ -4069,12 +4069,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 31.2
+      agent_readiness: 32.6
       apps:
       - TeslaLogger
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.8
+      kin_score: 45.0
       mcp: *id005
       name: evcc (self-hosted)
       slug: evcc
@@ -4085,12 +4085,12 @@ stack:
       tier: declared
       url: /providers/evcc/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.3
       apps:
       - TeslaLogger
       band: thin
       in_catalog: true
-      kin_score: 35.5
+      kin_score: 34.8
       mcp: *id007
       name: Tesla
       slug: tesla
@@ -4101,12 +4101,12 @@ stack:
       tier: declared
       url: /providers/tesla/
     - agent_band: agent-aware
-      agent_readiness: 10.4
+      agent_readiness: 7.4
       apps:
       - TeslaLogger
       band: emerging
       in_catalog: true
-      kin_score: 19.9
+      kin_score: 25.7
       mcp:
         status: unknown
       name: KEBA
@@ -4122,12 +4122,12 @@ stack:
       tier: declared
       url: /providers/keba/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - ChargePoint
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.1
+      kin_score: 12.0
       mcp:
         status: none
       name: EVBox
@@ -4148,7 +4148,7 @@ stack:
       - TeslaLogger
       band: minimal
       in_catalog: true
-      kin_score: 7.0
+      kin_score: 6.8
       mcp:
         status: unknown
       name: openWB (self-hosted)
@@ -4172,12 +4172,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 24.0
       apps:
       - evcc
       band: developing
       in_catalog: true
-      kin_score: 41.5
+      kin_score: 43.5
       mcp:
         status: none
       name: National Energy System Operator (NESO)
@@ -4193,12 +4193,12 @@ stack:
       tier: observed
       url: /providers/neso/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 28.5
       apps:
       - evcc
       band: thin
       in_catalog: true
-      kin_score: 31.1
+      kin_score: 29.8
       mcp:
         status: none
       name: Electricity Maps
@@ -4214,12 +4214,12 @@ stack:
       tier: observed
       url: /providers/electricitymaps/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 2.8
       apps:
       - evcc
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.1
+      kin_score: 12.5
       mcp:
         status: none
       name: Fingrid
@@ -4259,14 +4259,14 @@ stack:
       url: /capabilities/smart-home/
       via_parent: null
     providers:
-    - agent_band: human-only
-      agent_readiness: 5.0
+    - agent_band: agent-aware
+      agent_readiness: 5.6
       apps:
       - evcc
       - openWB
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.2
+      kin_score: 34.5
       mcp:
         source: https://www.home-assistant.io/integrations/mcp_server/
         status: verified
@@ -4283,14 +4283,14 @@ stack:
       - Open Source
       tier: observed
       url: /providers/home-assistant/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - evcc
       - openWB
       band: minimal
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 8.2
       mcp:
         source: https://github.com/ioBroker/ioBroker.mcp
         status: verified
@@ -4315,13 +4315,13 @@ stack:
       url: /capabilities/der-forecasting/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 29.6
       apps:
       - evcc
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 56.0
+      kin_score: 53.7
       mcp:
         status: none
       name: Solcast
@@ -4337,12 +4337,12 @@ stack:
       tier: observed
       url: /providers/solcast/
     - agent_band: agent-ready
-      agent_readiness: 32.9
+      agent_readiness: 29.0
       apps:
       - evcc
       band: thin
       in_catalog: true
-      kin_score: 33.4
+      kin_score: 35.4
       mcp:
         status: unknown
       name: Forecast.Solar
@@ -4358,12 +4358,12 @@ stack:
       tier: observed
       url: /providers/forecast-solar/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 27.5
       apps:
       - evcc
       band: thin
       in_catalog: true
-      kin_score: 26.3
+      kin_score: 33.9
       mcp:
         status: none
       name: Victron Energy (VRM)
@@ -4374,7 +4374,7 @@ stack:
       tags:
       - Company
       - Energy
-      - Off-grid
+      - Off-Grid
       - Renewables
       tier: observed
       url: /providers/victron-energy/
@@ -4387,12 +4387,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 4.5
+      agent_readiness: 4.4
       apps:
       - TeslaLogger
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.7
+      kin_score: 11.6
       mcp:
         source: https://shelly-api-docs.shelly.cloud/mcp
         status: verified
@@ -4422,7 +4422,7 @@ stack:
       - TeslaLogger
       band: emerging
       in_catalog: true
-      kin_score: 12.3
+      kin_score: 12.5
       mcp:
         source: https://abetterrouteplanner.com/mcp
         status: verified
@@ -4448,13 +4448,35 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
+    - agent_band: agent-aware
+      agent_readiness: 27.6
+      apps:
+      - TeslaMate
+      band: strong
+      in_catalog: true
+      kin_score: 66.0
+      mcp:
+        source: https://github.com/grafana/mcp-grafana
+        status: verified
+      name: Grafana
+      slug: grafana-com
+      sources:
+      - https://github.com/teslamate-org/teslamate/tree/main/grafana
+      status: profiled
+      tags:
+      - Dashboards
+      - Logs
+      - Monitoring
+      - Observability
+      tier: observed
+      url: /providers/grafana-com/
     - agent_band: agent-ready
-      agent_readiness: 35.1
+      agent_readiness: 34.4
       apps:
       - evcc
       band: strong
       in_catalog: true
-      kin_score: 64.0
+      kin_score: 63.3
       mcp:
         source: https://github.com/influxdata/influxdb3_mcp_server
         status: verified
@@ -4471,49 +4493,27 @@ stack:
       tier: observed
       url: /providers/influxdata/
     - agent_band: agent-ready
-      agent_readiness: 31.1
-      apps:
-      - TeslaMate
-      band: strong
-      in_catalog: true
-      kin_score: 60.6
-      mcp:
-        source: https://github.com/grafana/mcp-grafana
-        status: verified
-      name: Grafana
-      slug: grafana-com
-      sources:
-      - https://github.com/teslamate-org/teslamate/tree/main/grafana
-      status: profiled
-      tags:
-      - Dashboards
-      - Logs
-      - Monitoring
-      - Observability
-      tier: observed
-      url: /providers/grafana-com/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+      agent_readiness: 39.9
       apps:
       - ChargePoint
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id009
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase (Crashlytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.coulombtech/latest/
       status: profiled
       tags: &id010
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-120.10.20
@@ -4523,13 +4523,13 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 25.7
       apps:
       - TeslaLogger
       - TeslaMate
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.7
       mcp:
         status: none
       name: Nominatim
@@ -4546,12 +4546,12 @@ stack:
       tier: observed
       url: /providers/nominatim/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.7
       apps:
       - TeslaLogger
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 35.2
       mcp:
         status: none
       name: MapQuest
@@ -4575,12 +4575,28 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 39.9
       apps:
       - ChargePoint
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 62.0
+      mcp: *id009
+      name: Google Firebase Analytics
+      slug: google-firebase
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.coulombtech/latest/
+      status: profiled
+      tags: *id010
+      tier: observed
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 47.7
+      apps:
+      - ChargePoint
+      band: strong
+      in_catalog: true
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -4596,22 +4612,6 @@ stack:
       - Product Analytics
       tier: observed
       url: /providers/mixpanel/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - ChargePoint
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp: *id009
-      name: Google Firebase Analytics
-      slug: firebase
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.coulombtech/latest/
-      status: profiled
-      tags: *id010
-      tier: observed
-      url: /providers/firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.30
@@ -4621,12 +4621,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.0
+      agent_readiness: 21.6
       apps:
       - evcc
       band: thin
       in_catalog: true
-      kin_score: 29.2
+      kin_score: 28.1
       mcp:
         status: none
       name: Pushover
@@ -4645,9 +4645,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - evcc
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.9
+      kin_score: 15.5
       mcp:
         status: none
       name: ntfy
@@ -4671,12 +4671,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.8
+      agent_readiness: 17.4
       apps:
       - evcc
       band: thin
       in_catalog: true
-      kin_score: 29.6
+      kin_score: 28.3
       mcp:
         status: none
       name: Open-Meteo
@@ -4721,12 +4721,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 5.8
+      agent_readiness: 5.6
       apps:
       - TeslaLogger
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.0
+      kin_score: 30.3
       mcp:
         status: unknown
       name: Open-Elevation
@@ -4750,12 +4750,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - ChargePoint
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -4776,12 +4776,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - evcc
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -4808,7 +4808,7 @@ summary:
     unchecked: 6
     verified: 10
   mcp_verified: 10
-  mean_kin_score: 21.7
+  mean_kin_score: 23.9
   observed: 96
   queued: 6
   reference_apps: 7

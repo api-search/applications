@@ -50,10 +50,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 0.7
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 7.3
     mcp: &id001
       status: unknown
     slug: ankiweb
@@ -77,10 +77,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.4
+    agent_readiness: 36.1
     band: strong
     in_catalog: true
-    kin_score: 60.8
+    kin_score: 61.4
     mcp: &id003
       source: https://github.com/DeepL/deepl-mcp-server
       status: verified
@@ -108,10 +108,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.8
-    band: thin
+    agent_readiness: 23.3
+    band: emerging
     in_catalog: true
-    kin_score: 26.2
+    kin_score: 24.3
     mcp: &id005
       source: https://github.com/LibreTranslate/LibreTranslate-MCP
       status: verified
@@ -142,7 +142,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.0
+    kin_score: 10.9
     mcp: &id007
       status: none
     slug: mymemory
@@ -167,10 +167,10 @@ noindex: false
 permalink: /applications/language-learning/linguacafe/
 providers:
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 0.7
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 7.3
   mcp: *id001
   name: AnkiWeb (Ankitects)
   slug: ankiweb
@@ -178,10 +178,10 @@ providers:
   tags: *id002
   url: /providers/ankiweb/
 - agent_band: agent-ready
-  agent_readiness: 36.4
+  agent_readiness: 36.1
   band: strong
   in_catalog: true
-  kin_score: 60.8
+  kin_score: 61.4
   mcp: *id003
   name: DeepL
   slug: deepl
@@ -189,10 +189,10 @@ providers:
   tags: *id004
   url: /providers/deepl/
 - agent_band: agent-aware
-  agent_readiness: 23.8
-  band: thin
+  agent_readiness: 23.3
+  band: emerging
   in_catalog: true
-  kin_score: 26.2
+  kin_score: 24.3
   mcp: *id005
   name: LibreTranslate
   slug: libre-translate
@@ -203,7 +203,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.0
+  kin_score: 10.9
   mcp: *id007
   name: MyMemory (Translated)
   slug: mymemory

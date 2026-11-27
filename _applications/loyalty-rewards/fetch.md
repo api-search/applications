@@ -91,10 +91,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 9.5
+    kin_score: 13.7
     mcp: &id002
       status: none
     slug: adjoe
@@ -121,10 +121,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id004
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -151,11 +151,11 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.7
-    band: developing
+    agent_band: agent-aware
+    agent_readiness: 28.2
+    band: strong
     in_catalog: true
-    kin_score: 53.9
+    kin_score: 56.0
     mcp: &id006
       status: unknown
     slug: usebutton
@@ -182,10 +182,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id008
       status: none
     slug: facebook
@@ -211,22 +211,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id010
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id011
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google CrashLytics
   provider: firebase
@@ -258,10 +258,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.9
     band: strong
     in_catalog: true
-    kin_score: 56.1
+    kin_score: 55.6
     mcp: &id012
       source: https://github.com/IABTechLab/agentic-real-time-framework
       status: verified
@@ -289,10 +289,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.1
-    band: emerging
+    agent_readiness: 20.8
+    band: thin
     in_catalog: true
-    kin_score: 16.4
+    kin_score: 26.3
     mcp: &id014
       source: https://github.com/mozilla/firefox-devtools-mcp
       status: verified
@@ -318,10 +318,10 @@ noindex: false
 permalink: /applications/loyalty-rewards/fetch/
 providers:
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 9.5
+  kin_score: 13.7
   mcp: *id002
   name: adjoe
   slug: adjoe
@@ -329,21 +329,21 @@ providers:
   tags: *id003
   url: /providers/adjoe/
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id004
   name: AppsFlyer
   slug: appsflyer
   status: profiled
   tags: *id005
   url: /providers/appsflyer/
-- agent_band: agent-ready
-  agent_readiness: 28.7
-  band: developing
+- agent_band: agent-aware
+  agent_readiness: 28.2
+  band: strong
   in_catalog: true
-  kin_score: 53.9
+  kin_score: 56.0
   mcp: *id006
   name: Button
   slug: usebutton
@@ -351,32 +351,32 @@ providers:
   tags: *id007
   url: /providers/usebutton/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id008
   name: Facebook Login
   slug: facebook
   status: profiled
   tags: *id009
   url: /providers/facebook/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id010
-  name: Google CrashLytics
-  slug: firebase
-  status: profiled
-  tags: *id011
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 56.1
+  kin_score: 62.0
+  mcp: *id010
+  name: Google CrashLytics
+  slug: google-firebase
+  status: profiled
+  tags: *id011
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 36.9
+  band: strong
+  in_catalog: true
+  kin_score: 55.6
   mcp: *id012
   name: IAB Open Measurement
   slug: iab-tech-lab
@@ -384,10 +384,10 @@ providers:
   tags: *id013
   url: /providers/iab-tech-lab/
 - agent_band: agent-aware
-  agent_readiness: 24.1
-  band: emerging
+  agent_readiness: 20.8
+  band: thin
   in_catalog: true
-  kin_score: 16.4
+  kin_score: 26.3
   mcp: *id014
   name: Mozilla Telemetry
   slug: mozilla

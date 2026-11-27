@@ -99,10 +99,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.8
+    agent_readiness: 33.6
     band: exemplar
     in_catalog: true
-    kin_score: 67.7
+    kin_score: 68.8
     mcp: &id001
       source: https://1password.dev/environments/mcp-server
       status: verified
@@ -129,11 +129,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 35.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 48.3
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 64.3
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -160,11 +160,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id005
       source: https://github.com/awslabs/mcp
       status: verified
@@ -192,10 +192,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id007
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -223,10 +223,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.7
+    agent_readiness: 18.9
     band: emerging
     in_catalog: true
-    kin_score: 18.4
+    kin_score: 25.9
     mcp: &id009
       source: https://docs.useautumn.com/documentation/mcp
       status: verified
@@ -253,11 +253,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.9
+    agent_band: agent-native
+    agent_readiness: 39.2
     band: exemplar
     in_catalog: true
-    kin_score: 70.3
+    kin_score: 77.5
     mcp: &id011
       status: none
     slug: amazon-secrets-manager
@@ -283,11 +283,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.4
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 29.9
+    band: exemplar
     in_catalog: true
-    kin_score: 44.6
+    kin_score: 68.3
     mcp: &id013
       source: https://github.com/microsoft/mcp
       status: verified
@@ -315,10 +315,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 69.6
+    agent_readiness: 69.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.8
+    kin_score: 82.5
     mcp: &id015
       source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
       status: verified
@@ -346,10 +346,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id017
       status: none
     slug: google-gemini
@@ -376,10 +376,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id019
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -407,10 +407,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 46.4
     band: strong
     in_catalog: true
-    kin_score: 55.4
+    kin_score: 54.8
     mcp: &id021
       source: https://openrouter.ai/docs/guides/overview/mcp-server
       status: verified
@@ -438,10 +438,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id023
       source: https://github.com/PostHog/mcp
       status: verified
@@ -469,10 +469,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.8
+    agent_readiness: 50.2
     band: strong
     in_catalog: true
-    kin_score: 57.5
+    kin_score: 58.3
     mcp: &id025
       source: https://github.com/replicate/replicate-mcp-code-mode
       status: verified
@@ -503,7 +503,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id027
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -530,11 +530,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 42.2
+    band: strong
     in_catalog: true
-    kin_score: 48.4
+    kin_score: 63.2
     mcp: &id029
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -560,32 +560,32 @@ noindex: false
 permalink: /applications/workflow-automation/activepieces/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 33.8
+  agent_readiness: 33.6
   band: exemplar
   in_catalog: true
-  kin_score: 67.7
+  kin_score: 68.8
   mcp: *id001
   name: 1Password (@1password/sdk)
   slug: 1password
   status: profiled
   tags: *id002
   url: /providers/1password/
-- agent_band: agent-ready
-  agent_readiness: 35.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 48.3
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 64.3
   mcp: *id003
   name: Amazon Bedrock (@ai-sdk/amazon-bedrock)
   slug: amazon-bedrock
   status: profiled
   tags: *id004
   url: /providers/amazon-bedrock/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id005
   name: Amazon S3 (@aws-sdk/client-s3)
   slug: amazon-s3
@@ -593,10 +593,10 @@ providers:
   tags: *id006
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id007
   name: Anthropic (@ai-sdk/anthropic)
   slug: anthropic
@@ -604,32 +604,32 @@ providers:
   tags: *id008
   url: /providers/anthropic/
 - agent_band: agent-aware
-  agent_readiness: 18.7
+  agent_readiness: 18.9
   band: emerging
   in_catalog: true
-  kin_score: 18.4
+  kin_score: 25.9
   mcp: *id009
   name: Autumn (autumn-js, billing)
   slug: autumn
   status: profiled
   tags: *id010
   url: /providers/autumn/
-- agent_band: agent-ready
-  agent_readiness: 31.9
+- agent_band: agent-native
+  agent_readiness: 39.2
   band: exemplar
   in_catalog: true
-  kin_score: 70.3
+  kin_score: 77.5
   mcp: *id011
   name: AWS Secrets Manager
   slug: amazon-secrets-manager
   status: profiled
   tags: *id012
   url: /providers/amazon-secrets-manager/
-- agent_band: agent-aware
-  agent_readiness: 23.4
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 29.9
+  band: exemplar
   in_catalog: true
-  kin_score: 44.6
+  kin_score: 68.3
   mcp: *id013
   name: Azure OpenAI (@ai-sdk/azure)
   slug: microsoft-azure-openai
@@ -637,10 +637,10 @@ providers:
   tags: *id014
   url: /providers/microsoft-azure-openai/
 - agent_band: agent-native
-  agent_readiness: 69.6
+  agent_readiness: 69.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.8
+  kin_score: 82.5
   mcp: *id015
   name: Cloudflare (cloudflare, ai-gateway-provider)
   slug: cloudflare
@@ -648,10 +648,10 @@ providers:
   tags: *id016
   url: /providers/cloudflare/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id017
   name: Google Gemini (@ai-sdk/google)
   slug: google-gemini
@@ -659,10 +659,10 @@ providers:
   tags: *id018
   url: /providers/google-gemini/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id019
   name: OpenAI (@ai-sdk/openai)
   slug: openai
@@ -670,10 +670,10 @@ providers:
   tags: *id020
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 46.4
   band: strong
   in_catalog: true
-  kin_score: 55.4
+  kin_score: 54.8
   mcp: *id021
   name: OpenRouter (@openrouter/sdk)
   slug: openrouter
@@ -681,10 +681,10 @@ providers:
   tags: *id022
   url: /providers/openrouter/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id023
   name: PostHog (posthog-node)
   slug: posthog
@@ -692,10 +692,10 @@ providers:
   tags: *id024
   url: /providers/posthog/
 - agent_band: agent-ready
-  agent_readiness: 49.8
+  agent_readiness: 50.2
   band: strong
   in_catalog: true
-  kin_score: 57.5
+  kin_score: 58.3
   mcp: *id025
   name: Replicate (@ai-sdk/replicate)
   slug: replicate
@@ -706,18 +706,18 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id027
   name: Sentry (@sentry/node)
   slug: sentry-system
   status: profiled
   tags: *id028
   url: /providers/sentry-system/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 42.2
+  band: strong
   in_catalog: true
-  kin_score: 48.4
+  kin_score: 63.2
   mcp: *id029
   name: Vertex AI (@ai-sdk/google-vertex)
   slug: google-vertex-ai

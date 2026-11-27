@@ -70,10 +70,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.4
+    agent_readiness: 41.7
     band: strong
     in_catalog: true
-    kin_score: 55.5
+    kin_score: 64.4
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -101,10 +101,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
-    band: strong
+    agent_readiness: 34.4
+    band: exemplar
     in_catalog: true
-    kin_score: 59.8
+    kin_score: 70.5
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -132,10 +132,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.4
+    agent_readiness: 27.8
     band: developing
     in_catalog: true
-    kin_score: 51.3
+    kin_score: 51.4
     mcp: &id005
       status: none
     slug: apache-kafka
@@ -165,7 +165,7 @@ integrations:
     agent_readiness: 45.6
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 74.9
     mcp: &id007
       source: https://github.com/awslabs/mcp/tree/main/src/lambda-tool-mcp-server
       status: verified
@@ -192,11 +192,11 @@ integrations:
     via_parent: IT Application Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_band: agent-ready
+    agent_readiness: 35.0
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 77.2
     mcp: &id009
       source: https://raw.githubusercontent.com/microsoft/mcp/main/servers/Azure.Mcp.Server/README.md
       status: verified
@@ -223,11 +223,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.6
+    agent_band: agent-aware
+    agent_readiness: 28.5
     band: exemplar
     in_catalog: true
-    kin_score: 70.2
+    kin_score: 78.4
     mcp: &id011
       source: https://www.elastic.co/docs/solutions/search/mcp
       status: verified
@@ -254,11 +254,11 @@ integrations:
     via_parent: IT Application Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.0
+    band: strong
     in_catalog: true
-    kin_score: 38.7
+    kin_score: 64.1
     mcp: &id013
       source: https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp
       status: verified
@@ -289,7 +289,7 @@ integrations:
     agent_readiness: 3.7
     band: minimal
     in_catalog: true
-    kin_score: 10.8
+    kin_score: 10.6
     mcp: &id015
       status: none
     slug: graylog
@@ -316,12 +316,13 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 20.9
     band: thin
     in_catalog: true
-    kin_score: 31.0
+    kin_score: 29.7
     mcp: &id017
-      status: unchecked
+      source: https://github.com/hashicorp/vault-mcp-server
+      status: verified
     slug: hvault
     status: profiled
     tags: &id018
@@ -346,10 +347,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.5
-    band: developing
+    agent_readiness: 23.1
+    band: thin
     in_catalog: true
-    kin_score: 39.9
+    kin_score: 38.5
     mcp: &id019
       status: none
     slug: nats
@@ -379,7 +380,7 @@ integrations:
     agent_readiness: 27.3
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 39.0
     mcp: &id021
       status: none
     slug: opentelemetry
@@ -406,10 +407,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.0
+    agent_readiness: 19.6
     band: thin
     in_catalog: true
-    kin_score: 29.8
+    kin_score: 28.8
     mcp: &id023
       status: none
     slug: rabbitmq
@@ -434,10 +435,10 @@ noindex: false
 permalink: /applications/api-management-gateway/krakend-ce/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 29.4
+  agent_readiness: 41.7
   band: strong
   in_catalog: true
-  kin_score: 55.5
+  kin_score: 64.4
   mcp: *id001
   name: Amazon SNS
   slug: amazon-sns
@@ -445,10 +446,10 @@ providers:
   tags: *id002
   url: /providers/amazon-sns/
 - agent_band: agent-ready
-  agent_readiness: 31.1
-  band: strong
+  agent_readiness: 34.4
+  band: exemplar
   in_catalog: true
-  kin_score: 59.8
+  kin_score: 70.5
   mcp: *id003
   name: Amazon SQS
   slug: amazon-sqs
@@ -456,10 +457,10 @@ providers:
   tags: *id004
   url: /providers/amazon-sqs/
 - agent_band: agent-aware
-  agent_readiness: 28.4
+  agent_readiness: 27.8
   band: developing
   in_catalog: true
-  kin_score: 51.3
+  kin_score: 51.4
   mcp: *id005
   name: Apache Kafka
   slug: apache-kafka
@@ -470,40 +471,40 @@ providers:
   agent_readiness: 45.6
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 74.9
   mcp: *id007
   name: AWS Lambda
   slug: aws-lambda
   status: profiled
   tags: *id008
   url: /providers/aws-lambda/
-- agent_band: agent-aware
-  agent_readiness: 25.6
+- agent_band: agent-ready
+  agent_readiness: 35.0
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 77.2
   mcp: *id009
   name: Azure Service Bus
   slug: azure-service-bus
   status: profiled
   tags: *id010
   url: /providers/azure-service-bus/
-- agent_band: agent-ready
-  agent_readiness: 28.6
+- agent_band: agent-aware
+  agent_readiness: 28.5
   band: exemplar
   in_catalog: true
-  kin_score: 70.2
+  kin_score: 78.4
   mcp: *id011
   name: Elastic
   slug: elastic
   status: profiled
   tags: *id012
   url: /providers/elastic/
-- agent_band: agent-aware
-  agent_readiness: 25.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.0
+  band: strong
   in_catalog: true
-  kin_score: 38.7
+  kin_score: 64.1
   mcp: *id013
   name: Google Cloud Pub/Sub
   slug: google-cloud-pubsub
@@ -514,7 +515,7 @@ providers:
   agent_readiness: 3.7
   band: minimal
   in_catalog: true
-  kin_score: 10.8
+  kin_score: 10.6
   mcp: *id015
   name: Graylog
   slug: graylog
@@ -522,10 +523,10 @@ providers:
   tags: *id016
   url: /providers/graylog/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 20.9
   band: thin
   in_catalog: true
-  kin_score: 31.0
+  kin_score: 29.7
   mcp: *id017
   name: HashiCorp Vault
   slug: hvault
@@ -533,10 +534,10 @@ providers:
   tags: *id018
   url: /providers/hvault/
 - agent_band: agent-aware
-  agent_readiness: 22.5
-  band: developing
+  agent_readiness: 23.1
+  band: thin
   in_catalog: true
-  kin_score: 39.9
+  kin_score: 38.5
   mcp: *id019
   name: NATS
   slug: nats
@@ -547,7 +548,7 @@ providers:
   agent_readiness: 27.3
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 39.0
   mcp: *id021
   name: OpenTelemetry
   slug: opentelemetry
@@ -555,10 +556,10 @@ providers:
   tags: *id022
   url: /providers/opentelemetry/
 - agent_band: agent-aware
-  agent_readiness: 20.0
+  agent_readiness: 19.6
   band: thin
   in_catalog: true
-  kin_score: 29.8
+  kin_score: 28.8
   mcp: *id023
   name: RabbitMQ
   slug: rabbitmq

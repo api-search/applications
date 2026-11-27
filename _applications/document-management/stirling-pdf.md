@@ -77,10 +77,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.3
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 67.1
+    kin_score: 73.2
     mcp: &id001
       source: https://github.com/google/mcp
       status: verified
@@ -108,10 +108,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id003
       source: https://github.com/PostHog/mcp
       status: verified
@@ -139,10 +139,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id005
       source: https://docs.stripe.com/mcp
       status: verified
@@ -170,10 +170,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.1
+    agent_readiness: 48.2
     band: developing
     in_catalog: true
-    kin_score: 49.1
+    kin_score: 49.4
     mcp: &id007
       source: https://github.com/supabase/mcp
       status: verified
@@ -201,10 +201,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id009
       status: none
     slug: telegram
@@ -229,10 +229,10 @@ noindex: false
 permalink: /applications/document-management/stirling-pdf/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 44.3
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 67.1
+  kin_score: 73.2
   mcp: *id001
   name: Google Drive
   slug: google-drive
@@ -240,10 +240,10 @@ providers:
   tags: *id002
   url: /providers/google-drive/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id003
   name: PostHog
   slug: posthog
@@ -251,10 +251,10 @@ providers:
   tags: *id004
   url: /providers/posthog/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id005
   name: Stripe
   slug: stripe
@@ -262,10 +262,10 @@ providers:
   tags: *id006
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 48.1
+  agent_readiness: 48.2
   band: developing
   in_catalog: true
-  kin_score: 49.1
+  kin_score: 49.4
   mcp: *id007
   name: Supabase
   slug: supabase
@@ -273,10 +273,10 @@ providers:
   tags: *id008
   url: /providers/supabase/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id009
   name: Telegram
   slug: telegram

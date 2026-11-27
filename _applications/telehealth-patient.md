@@ -521,11 +521,11 @@ apps:
     source: https://github.com/openemr/openemr/tree/master/interface/modules/custom_modules
     tier: observed
   - capability:
-      attribution: Turbo EA
-      id: BC-850.20
-      key: external-communications-management
-      name: External Communications Management
-      url: /capabilities/external-communications-management/
+      attribution: API Evangelist extension
+      id: AE-150.110
+      key: AE-150.110
+      name: Cloud Fax
+      url: /capabilities/cloud-fax/
       via_parent: null
     credit: null
     layer: domain
@@ -549,11 +549,11 @@ apps:
     source: https://raw.githubusercontent.com/openemr/openemr/master/composer.json
     tier: observed
   - capability:
-      attribution: Turbo EA
-      id: BC-850.20
-      key: external-communications-management
-      name: External Communications Management
-      url: /capabilities/external-communications-management/
+      attribution: API Evangelist extension
+      id: AE-150.110
+      key: AE-150.110
+      name: Cloud Fax
+      url: /capabilities/cloud-fax/
       via_parent: null
     credit: null
     layer: domain
@@ -1335,13 +1335,13 @@ needs:
   layer: domain
   why: insurance claims and clearinghouse submission
 - capability:
-    attribution: Turbo EA
-    id: BC-850.20
-    key: external-communications-management
-    name: External Communications Management
-    url: /capabilities/external-communications-management/
+    attribution: API Evangelist extension
+    id: AE-150.110
+    key: AE-150.110
+    name: Cloud Fax
+    url: /capabilities/cloud-fax/
     via_parent: null
-  fit: nearest
+  fit: exact
   layer: domain
   why: clinical fax (no fax capability in BC or AE)
 - capability:
@@ -1532,12 +1532,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 42.5
       apps:
       - Medplum
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 75.7
       mcp:
         status: none
       name: Health Gorilla
@@ -1558,7 +1558,7 @@ stack:
       - Medplum
       band: emerging
       in_catalog: true
-      kin_score: 12.6
+      kin_score: 12.2
       mcp:
         status: none
       name: Labcorp
@@ -1579,7 +1579,7 @@ stack:
       - Medplum
       band: minimal
       in_catalog: true
-      kin_score: 6.8
+      kin_score: 5.9
       mcp:
         status: none
       name: Quest Diagnostics
@@ -1603,13 +1603,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.9
+      agent_readiness: 36.6
       apps:
       - Medplum
       - Ottehr
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.7
+      kin_score: 68.0
       mcp:
         status: none
       name: Candid Health
@@ -1626,12 +1626,12 @@ stack:
       tier: observed
       url: /providers/candid-health/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 14.5
       apps:
       - OpenEMR
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 30.4
+      kin_score: 41.4
       mcp:
         status: none
       name: Claim.Revolution
@@ -1658,9 +1658,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - OpenEMR
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.0
+      kin_score: 15.5
       mcp:
         status: none
       name: Weno Exchange
@@ -1676,12 +1676,12 @@ stack:
       tier: observed
       url: /providers/weno/
     - agent_band: agent-ready
-      agent_readiness: 30.7
+      agent_readiness: 30.1
       apps:
       - Medplum
       band: strong
       in_catalog: true
-      kin_score: 59.9
+      kin_score: 59.1
       mcp:
         status: none
       name: DoseSpot
@@ -1697,12 +1697,12 @@ stack:
       tier: declared
       url: /providers/dosespot/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Medplum
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: ScriptSure
@@ -1715,20 +1715,20 @@ stack:
       tier: declared
       url: /providers/scriptsure/
   - capability:
-      attribution: Turbo EA
-      id: BC-850.20
-      key: external-communications-management
-      name: External Communications Management
-      url: /capabilities/external-communications-management/
+      attribution: API Evangelist extension
+      id: AE-150.110
+      key: AE-150.110
+      name: Cloud Fax
+      url: /capabilities/cloud-fax/
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.5
+      agent_readiness: 43.6
       apps:
       - OpenEMR
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 59.4
       mcp:
         source: https://developers.ringcentral.com/mcp
         status: documented
@@ -1745,12 +1745,12 @@ stack:
       tier: observed
       url: /providers/ringcentral/
     - agent_band: agent-ready
-      agent_readiness: 34.9
+      agent_readiness: 38.6
       apps:
       - OpenEMR
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.8
+      kin_score: 48.2
       mcp:
         status: none
       name: etherFAX
@@ -1774,12 +1774,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.2
+      agent_readiness: 23.7
       apps:
       - Ottehr
       band: thin
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 32.8
       mcp:
         status: none
       name: Oystehr
@@ -1789,18 +1789,17 @@ stack:
       status: profiled
       tags:
       - Company
-      - Developer-First
       - Electronic Health Records
       - Health Tech
       tier: observed
       url: /providers/oystehr/
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.8
       apps:
       - Medplum
       band: strong
       in_catalog: true
-      kin_score: 61.4
+      kin_score: 60.5
       mcp:
         status: none
       name: Epic
@@ -1824,12 +1823,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 51.9
+      agent_readiness: 52.2
       apps:
       - Medplum
       band: thin
       in_catalog: true
-      kin_score: 38.2
+      kin_score: 38.4
       mcp:
         source: https://github.com/calcom/cal-mcp
         status: verified
@@ -1846,12 +1845,12 @@ stack:
       tier: declared
       url: /providers/cal-com/
     - agent_band: agent-aware
-      agent_readiness: 24.5
+      agent_readiness: 24.0
       apps:
       - Medplum
       band: thin
       in_catalog: true
-      kin_score: 31.4
+      kin_score: 29.6
       mcp:
         status: none
       name: Acuity Scheduling
@@ -1874,13 +1873,13 @@ stack:
       url: /capabilities/video-calling/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 10.8
+    - agent_band: agent-native
+      agent_readiness: 42.5
       apps:
       - Ottehr
-      band: emerging
+      band: strong
       in_catalog: true
-      kin_score: 22.4
+      kin_score: 62.4
       mcp:
         status: none
       name: Amazon Chime SDK
@@ -1924,9 +1923,9 @@ stack:
       agent_readiness: 2.5
       apps:
       - Ottehr
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 21.2
+      kin_score: 28.0
       mcp:
         source: https://www.dynamsoft.com/codepool/mcp-server-dynamsoft-sdk-integration.html
         status: documented
@@ -1952,41 +1951,41 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Doctor On Demand (Included Health)
       - MDLIVE
       - Teladoc
       - Zocdoc
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.doctorondemand.android.patient/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.mdlive.mobile/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.teladoc.members/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Doctor On Demand (Included Health)
       - Teladoc
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -2004,12 +2003,12 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-ready
-      agent_readiness: 37.4
+      agent_readiness: 41.3
       apps:
       - Teladoc
       band: exemplar
       in_catalog: true
-      kin_score: 72.2
+      kin_score: 70.7
       mcp:
         source: https://github.com/matomo-org/plugin-McpServer
         status: verified
@@ -2026,12 +2025,12 @@ stack:
       tier: observed
       url: /providers/matomo/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 47.7
       apps:
       - Teladoc
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -2056,13 +2055,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.7
+      agent_readiness: 37.6
       apps:
       - Medplum
       - Ottehr
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 79.6
       mcp:
         status: none
       name: Amazon CloudFront
@@ -2078,14 +2077,14 @@ stack:
       - Content Delivery
       tier: observed
       url: /providers/cloudfront/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Medplum
       - Ottehr
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2103,12 +2102,12 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Medplum
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -2125,12 +2124,12 @@ stack:
       tier: observed
       url: /providers/gcp-cloud-storage/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Medplum
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2155,13 +2154,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Doctor On Demand (Included Health)
       - Teladoc
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -2179,13 +2178,13 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Teladoc
       - Zocdoc
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -2199,12 +2198,12 @@ stack:
       tier: observed
       url: /providers/branch-io/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 23.3
       apps:
       - Doctolib
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.9
+      kin_score: 30.9
       mcp:
         status: none
       name: Adjust
@@ -2235,7 +2234,7 @@ stack:
       - Zocdoc
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2254,12 +2253,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Teladoc
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -2302,14 +2301,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Medplum
       - OpenEMR
       - Ottehr
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2328,12 +2327,12 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - OpenEMR
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.5
       mcp:
         source: https://github.com/AuthorizeNet/authorize-net-mcp
         status: verified
@@ -2358,13 +2357,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Medplum
       - OpenEMR
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: &id001
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -2382,12 +2381,12 @@ stack:
       tier: observed
       url: /providers/twilio/
     - agent_band: agent-ready
-      agent_readiness: 42.4
+      agent_readiness: 41.9
       apps:
       - OpenEMR
       band: exemplar
       in_catalog: true
-      kin_score: 77.2
+      kin_score: 74.2
       mcp:
         status: none
       name: SignalWire
@@ -2402,13 +2401,13 @@ stack:
       - Voice
       tier: observed
       url: /providers/signalwire/
-    - agent_band: agent-aware
-      agent_readiness: 26.7
+    - agent_band: agent-ready
+      agent_readiness: 28.9
       apps:
       - OpenEMR
       band: thin
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 38.8
       mcp:
         status: none
       name: Clickatell
@@ -2431,13 +2430,13 @@ stack:
       url: /capabilities/configuration-secrets-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-native
+      agent_readiness: 39.2
       apps:
       - Medplum
       band: exemplar
       in_catalog: true
-      kin_score: 70.3
+      kin_score: 77.5
       mcp:
         status: none
       name: AWS Secrets Manager
@@ -2452,13 +2451,13 @@ stack:
       - Rotation
       tier: observed
       url: /providers/amazon-secrets-manager/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Medplum
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 53.6
+      kin_score: 70.1
       mcp:
         status: none
       name: Google Cloud Secret Manager
@@ -2473,13 +2472,13 @@ stack:
       - Key Management
       tier: observed
       url: /providers/google-cloud-secret-manager/
-    - agent_band: agent-aware
-      agent_readiness: 21.3
+    - agent_band: agent-ready
+      agent_readiness: 36.6
       apps:
       - Medplum
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 53.3
+      kin_score: 63.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2504,13 +2503,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.8
+      agent_readiness: 52.3
       apps:
       - Doctor On Demand (Included Health)
       - Zocdoc
       band: exemplar
       in_catalog: true
-      kin_score: 80.5
+      kin_score: 77.6
       mcp:
         status: none
       name: Salesforce Marketing Cloud
@@ -2527,12 +2526,12 @@ stack:
       tier: observed
       url: /providers/salesforce-marketing-cloud/
     - agent_band: agent-ready
-      agent_readiness: 56.9
+      agent_readiness: 58.4
       apps:
       - MDLIVE
       band: exemplar
       in_catalog: true
-      kin_score: 75.2
+      kin_score: 74.4
       mcp:
         source: https://www.braze.com/docs/user_guide/brazeai/mcp_server
         status: verified
@@ -2557,13 +2556,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.9
+      agent_readiness: 39.5
       apps:
       - Medplum
       - Ottehr
       band: exemplar
       in_catalog: true
-      kin_score: 72.1
+      kin_score: 71.8
       mcp:
         source: https://auth0.com/docs/get-started/auth0-mcp-server
         status: verified
@@ -2581,12 +2580,12 @@ stack:
       tier: observed
       url: /providers/auth0/
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - Medplum
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -2611,12 +2610,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Ottehr
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: *id001
       name: Twilio
       slug: twilio
@@ -2627,12 +2626,12 @@ stack:
       tier: observed
       url: /providers/twilio/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - Doctor On Demand (Included Health)
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -2656,12 +2655,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Ottehr
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -2677,12 +2676,12 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - Medplum
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -2706,12 +2705,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 31.8
       apps:
       - Medplum
       band: developing
       in_catalog: true
-      kin_score: 48.4
+      kin_score: 49.5
       mcp:
         status: none
       name: Have I Been Pwned
@@ -2735,12 +2734,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 19.6
       apps:
       - Doctor On Demand (Included Health)
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 45.7
       mcp:
         status: none
       name: Qualtrics
@@ -2764,12 +2763,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.5
+      agent_readiness: 31.8
       apps:
       - Doctolib
       band: exemplar
       in_catalog: true
-      kin_score: 81.3
+      kin_score: 78.8
       mcp:
         status: none
       name: Didomi
@@ -2793,12 +2792,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Zocdoc
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -2822,12 +2821,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 25.0
       apps:
       - OpenEMR
       band: strong
       in_catalog: true
-      kin_score: 58.3
+      kin_score: 58.0
       mcp:
         status: none
       name: Yubico
@@ -2851,12 +2850,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 62.9
+      agent_readiness: 61.6
       apps:
       - Zocdoc
       band: exemplar
       in_catalog: true
-      kin_score: 77.7
+      kin_score: 78.1
       mcp:
         source: https://support.optimizely.com/hc/en-us/articles/45320607594893
         status: documented
@@ -2881,12 +2880,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - OpenEMR
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2913,12 +2912,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Ottehr
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -2940,7 +2939,7 @@ stack:
       - Medplum
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 74.9
       mcp:
         source: https://github.com/awslabs/mcp/tree/main/src/lambda-tool-mcp-server
         status: verified
@@ -2957,12 +2956,12 @@ stack:
       tier: observed
       url: /providers/aws-lambda/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Medplum
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -2987,12 +2986,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 32.8
       apps:
       - Medplum
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 70.7
       mcp:
         status: none
       name: Amazon Comprehend Medical
@@ -3007,13 +3006,13 @@ stack:
       - Text Analysis
       tier: observed
       url: /providers/amazon-comprehend/
-    - agent_band: agent-ready
-      agent_readiness: 31.6
+    - agent_band: agent-native
+      agent_readiness: 41.6
       apps:
       - Medplum
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 52.7
+      kin_score: 69.2
       mcp:
         status: none
       name: Amazon Textract
@@ -3040,7 +3039,7 @@ summary:
     unchecked: 0
     verified: 23
   mcp_verified: 23
-  mean_kin_score: 56.8
+  mean_kin_score: 59.9
   observed: 49
   queued: 3
   reference_apps: 9

@@ -1221,16 +1221,16 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - DAVx5
       - Fantastical
       - Morgen
       - Notion Calendar
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1249,14 +1249,14 @@ stack:
       tier: observed
       url: /providers/google-calendar/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - DAVx5
       - Fantastical
       - Morgen
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: iCloud / FaceTime
@@ -1274,13 +1274,13 @@ stack:
       tier: declared
       url: /providers/apple/
     - agent_band: agent-ready
-      agent_readiness: 33.0
+      agent_readiness: 32.4
       apps:
       - DAVx5
       - Morgen
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 64.4
       mcp:
         source: https://www.zoho.com/mcp/
         status: verified
@@ -1298,13 +1298,13 @@ stack:
       tier: declared
       url: /providers/zoho/
     - agent_band: agent-aware
-      agent_readiness: 16.2
+      agent_readiness: 15.8
       apps:
       - DAVx5
       - Morgen
       band: developing
       in_catalog: true
-      kin_score: 41.4
+      kin_score: 42.6
       mcp:
         status: none
       name: Yahoo (CalDAV)
@@ -1321,36 +1321,13 @@ stack:
       tier: declared
       url: /providers/yahoo/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 17.3
       apps:
       - DAVx5
       - Morgen
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 33.0
-      mcp:
-        status: none
-      name: Nextcloud (CalDAV)
-      slug: nextcloud
-      sources:
-      - https://www.davx5.com/tested-with
-      - https://www.morgen.so/integrations
-      status: profiled
-      tags:
-      - Collaboration
-      - File Sharing
-      - File Sync
-      - Self-Hosted
-      tier: declared
-      url: /providers/nextcloud/
-    - agent_band: agent-aware
-      agent_readiness: 17.6
-      apps:
-      - DAVx5
-      - Morgen
-      band: thin
-      in_catalog: true
-      kin_score: 28.8
+      kin_score: 39.5
       mcp:
         status: none
       name: Fastmail
@@ -1366,14 +1343,37 @@ stack:
       - Security
       tier: declared
       url: /providers/fastmail/
+    - agent_band: agent-aware
+      agent_readiness: 18.6
+      apps:
+      - DAVx5
+      - Morgen
+      band: thin
+      in_catalog: true
+      kin_score: 32.7
+      mcp:
+        status: none
+      name: Nextcloud (CalDAV)
+      slug: nextcloud
+      sources:
+      - https://www.davx5.com/tested-with
+      - https://www.morgen.so/integrations
+      status: profiled
+      tags:
+      - Collaboration
+      - File Sharing
+      - File Sync
+      - Self-Hosted
+      tier: declared
+      url: /providers/nextcloud/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - DAVx5
       - Morgen
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.5
+      kin_score: 27.9
       mcp:
         status: none
       name: fruux (CalDAV)
@@ -1389,13 +1389,13 @@ stack:
       - Task
       tier: declared
       url: /providers/fruux/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.2
       apps:
       - DAVx5
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 45.6
+      kin_score: 57.2
       mcp:
         source: https://docs.cloud.google.com/mcp/supported-products
         status: verified
@@ -1412,34 +1412,12 @@ stack:
       tier: observed
       url: /providers/google-people/
     - agent_band: agent-ready
-      agent_readiness: 49.5
-      apps:
-      - Morgen
-      band: exemplar
-      in_catalog: true
-      kin_score: 70.6
-      mcp:
-        source: https://github.com/microsoft/mcp
-        status: verified
-      name: Outlook Calendar / Outlook Email
-      slug: microsoft-outlook
-      sources:
-      - https://www.morgen.so/integrations
-      status: profiled
-      tags:
-      - Calendar
-      - Contacts
-      - Email
-      - Enterprise
-      tier: declared
-      url: /providers/microsoft-outlook/
-    - agent_band: agent-ready
-      agent_readiness: 36.7
+      agent_readiness: 36.3
       apps:
       - Fantastical
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.4
+      kin_score: 76.1
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1456,12 +1434,34 @@ stack:
       tier: declared
       url: /providers/microsoft-365/
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 42.9
+      apps:
+      - Morgen
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.8
+      mcp:
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Outlook Calendar / Outlook Email
+      slug: microsoft-outlook
+      sources:
+      - https://www.morgen.so/integrations
+      status: profiled
+      tags:
+      - Calendar
+      - Contacts
+      - Email
+      - Enterprise
+      tier: declared
+      url: /providers/microsoft-outlook/
+    - agent_band: agent-ready
+      agent_readiness: 36.0
       apps:
       - Fantastical
       band: strong
       in_catalog: true
-      kin_score: 62.7
+      kin_score: 64.9
       mcp:
         status: none
       name: Exchange
@@ -1476,13 +1476,13 @@ stack:
       - Email
       tier: declared
       url: /providers/microsoft-exchange/
-    - agent_band: agent-ready
-      agent_readiness: 30.6
+    - agent_band: agent-aware
+      agent_readiness: 27.2
       apps:
       - DAVx5
       band: emerging
       in_catalog: true
-      kin_score: 19.6
+      kin_score: 24.8
       mcp:
         status: unknown
       name: mailbox.org
@@ -1498,12 +1498,12 @@ stack:
       tier: declared
       url: /providers/mailbox-org/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - DAVx5
       band: emerging
       in_catalog: true
-      kin_score: 11.5
+      kin_score: 20.7
       mcp:
         status: none
       name: GMX (mail)
@@ -1518,13 +1518,34 @@ stack:
       - Free
       tier: declared
       url: /providers/gmx-net/
-    - agent_band: agent-aware
-      agent_readiness: 13.7
+    - agent_band: human-only
+      agent_readiness: 0.0
       apps:
       - DAVx5
       band: emerging
       in_catalog: true
-      kin_score: 11.0
+      kin_score: 16.4
+      mcp:
+        status: none
+      name: Posteo
+      slug: posteo
+      sources:
+      - https://www.davx5.com/tested-with
+      status: profiled
+      tags:
+      - Email
+      - Privacy
+      - Security
+      - Sustainability
+      tier: declared
+      url: /providers/posteo/
+    - agent_band: agent-aware
+      agent_readiness: 13.4
+      apps:
+      - DAVx5
+      band: emerging
+      in_catalog: true
+      kin_score: 16.0
       mcp:
         source: https://github.com/Infomaniak/mcp-server-kdrive
         status: verified
@@ -1541,54 +1562,12 @@ stack:
       tier: declared
       url: /providers/infomaniak/
     - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - DAVx5
-      band: minimal
-      in_catalog: true
-      kin_score: 10.5
-      mcp:
-        status: none
-      name: Posteo
-      slug: posteo
-      sources:
-      - https://www.davx5.com/tested-with
-      status: profiled
-      tags:
-      - Email
-      - Privacy
-      - Security
-      - Sustainability
-      tier: declared
-      url: /providers/posteo/
-    - agent_band: human-only
       agent_readiness: 2.5
       apps:
       - DAVx5
       band: minimal
       in_catalog: true
-      kin_score: 7.6
-      mcp:
-        status: unknown
-      name: Radicale
-      slug: radicale
-      sources:
-      - https://www.davx5.com/tested-with
-      status: profiled
-      tags:
-      - CalDAV
-      - CardDAV
-      - Company
-      - Open Source
-      tier: declared
-      url: /providers/radicale/
-    - agent_band: human-only
-      agent_readiness: 2.5
-      apps:
-      - DAVx5
-      band: minimal
-      in_catalog: true
-      kin_score: 7.5
+      kin_score: 8.5
       mcp:
         status: none
       name: Baikal
@@ -1603,6 +1582,27 @@ stack:
       - Open Source
       tier: declared
       url: /providers/baikal/
+    - agent_band: human-only
+      agent_readiness: 2.5
+      apps:
+      - DAVx5
+      band: minimal
+      in_catalog: true
+      kin_score: 6.7
+      mcp:
+        status: unknown
+      name: Radicale
+      slug: radicale
+      sources:
+      - https://www.davx5.com/tested-with
+      status: profiled
+      tags:
+      - CalDAV
+      - CardDAV
+      - Company
+      - Open Source
+      tier: declared
+      url: /providers/radicale/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.60
@@ -1612,14 +1612,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 61.1
+      agent_readiness: 61.8
       apps:
       - Fantastical
       - Morgen
       - Notion Calendar
       band: strong
       in_catalog: true
-      kin_score: 64.2
+      kin_score: 66.1
       mcp:
         source: https://github.com/WebexSamples/webex-messaging-mcp-server
         status: verified
@@ -1638,14 +1638,14 @@ stack:
       tier: declared
       url: /providers/webex/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Fantastical
       - Morgen
       - Notion Calendar
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -1663,14 +1663,14 @@ stack:
       tier: declared
       url: /providers/microsoft-teams/
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Fantastical
       - Morgen
       - Notion Calendar
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -1688,15 +1688,15 @@ stack:
       - Zoom
       tier: declared
       url: /providers/zoom/
-    - agent_band: agent-aware
-      agent_readiness: 17.2
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Fantastical
       - Morgen
       - Notion Calendar
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 52.2
       mcp:
         status: none
       name: Google Meet
@@ -1714,12 +1714,12 @@ stack:
       tier: declared
       url: /providers/google-meet/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.3
       apps:
       - Notion Calendar
       band: developing
       in_catalog: true
-      kin_score: 53.1
+      kin_score: 52.0
       mcp:
         status: none
       name: Whereby
@@ -1735,12 +1735,12 @@ stack:
       tier: declared
       url: /providers/whereby/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Notion Calendar
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 18.8
+      kin_score: 28.8
       mcp:
         status: none
       name: Doxy.me
@@ -1802,13 +1802,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.6
+      agent_readiness: 22.2
       apps:
       - Fantastical
       - Morgen
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.7
+      kin_score: 53.8
       mcp:
         source: https://developer.todoist.com/api/v1/#tag/MCP
         status: verified
@@ -1825,34 +1825,13 @@ stack:
       - To-Do
       tier: declared
       url: /providers/todoist/
-    - agent_band: agent-aware
-      agent_readiness: 25.9
+    - agent_band: agent-ready
+      agent_readiness: 37.9
       apps:
       - Morgen
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 52.8
-      mcp:
-        status: none
-      name: Microsoft To Do
-      slug: microsoft-to-do
-      sources:
-      - https://www.morgen.so/integrations
-      status: profiled
-      tags:
-      - Microsoft
-      - Microsoft 365
-      - Productivity
-      - Task
-      tier: declared
-      url: /providers/microsoft-to-do/
-    - agent_band: agent-aware
-      agent_readiness: 27.1
-      apps:
-      - Morgen
-      band: developing
-      in_catalog: true
-      kin_score: 47.0
+      kin_score: 59.8
       mcp:
         status: none
       name: Google Tasks
@@ -1867,6 +1846,27 @@ stack:
       - Task Management
       tier: declared
       url: /providers/google-tasks/
+    - agent_band: agent-aware
+      agent_readiness: 25.9
+      apps:
+      - Morgen
+      band: strong
+      in_catalog: true
+      kin_score: 58.2
+      mcp:
+        status: none
+      name: Microsoft To Do
+      slug: microsoft-to-do
+      sources:
+      - https://www.morgen.so/integrations
+      status: profiled
+      tags:
+      - Microsoft
+      - Microsoft 365
+      - Productivity
+      - Task
+      tier: declared
+      url: /providers/microsoft-to-do/
   - capability:
       attribution: Turbo EA
       id: BC-900.30
@@ -1876,12 +1876,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.0
+      agent_readiness: 55.8
       apps:
       - Morgen
       band: exemplar
       in_catalog: true
-      kin_score: 73.7
+      kin_score: 72.6
       mcp:
         source: https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server
         status: verified
@@ -1898,12 +1898,12 @@ stack:
       tier: declared
       url: /providers/clickup/
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 56.8
       apps:
       - Morgen
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.3
       mcp: &id001
         source: https://developers.notion.com/docs/mcp
         status: verified
@@ -1920,12 +1920,12 @@ stack:
       tier: declared
       url: /providers/notion/
     - agent_band: agent-ready
-      agent_readiness: 35.5
+      agent_readiness: 35.2
       apps:
       - Morgen
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.1
+      kin_score: 39.6
       mcp:
         source: https://linear.app/docs/mcp
         status: verified
@@ -1942,12 +1942,12 @@ stack:
       tier: declared
       url: /providers/linear-app/
     - agent_band: agent-ready
-      agent_readiness: 30.2
+      agent_readiness: 29.6
       apps:
       - Morgen
       band: thin
       in_catalog: true
-      kin_score: 35.9
+      kin_score: 34.9
       mcp:
         status: none
       name: Obsidian
@@ -1971,12 +1971,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 56.8
       apps:
       - Notion Calendar
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.3
       mcp: *id001
       name: Notion
       slug: notion
@@ -1995,12 +1995,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.5
+      agent_readiness: 24.9
       apps:
       - Fantastical
       band: developing
       in_catalog: true
-      kin_score: 42.6
+      kin_score: 39.8
       mcp:
         status: none
       name: AccuWeather
@@ -2026,12 +2026,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Monica
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -2048,12 +2048,12 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - Monica
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn
@@ -2069,12 +2069,12 @@ stack:
       tier: observed
       url: /providers/linkedin/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Monica
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft (Azure)
@@ -2089,34 +2089,13 @@ stack:
       - Identity and Access Management
       tier: observed
       url: /providers/microsoft-entra/
-    - agent_band: agent-aware
-      agent_readiness: 28.2
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Monica
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 42.7
-      mcp:
-        status: none
-      name: Facebook
-      slug: facebook
-      sources:
-      - https://github.com/monicahq/monica/blob/HEAD/composer.json
-      status: profiled
-      tags:
-      - Advertising
-      - Content Publishing
-      - Facebook
-      - Fortune 500
-      tier: observed
-      url: /providers/facebook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - Monica
-      band: thin
-      in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -2132,7 +2111,28 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 28.1
+      apps:
+      - Monica
+      band: developing
+      in_catalog: true
+      kin_score: 43.7
+      mcp:
+        status: none
+      name: Facebook
+      slug: facebook
+      sources:
+      - https://github.com/monicahq/monica/blob/HEAD/composer.json
+      status: profiled
+      tags:
+      - Advertising
+      - Content Publishing
+      - Facebook
+      - Fortune 500
+      tier: observed
+      url: /providers/facebook/
+    - agent_band: agent-aware
+      agent_readiness: 17.3
       apps:
       - Monica
       band: thin
@@ -2158,7 +2158,7 @@ stack:
       - Monica
       band: minimal
       in_catalog: true
-      kin_score: 7.5
+      kin_score: 9.5
       mcp:
         status: none
       name: Kanidm
@@ -2187,7 +2187,7 @@ stack:
       - Monica
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2204,12 +2204,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 39.6
+      agent_readiness: 44.9
       apps:
       - Monica
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/laravel/mcp
         status: verified
@@ -2239,7 +2239,7 @@ stack:
       - Monica
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 52.5
       mcp:
         source: https://github.com/meilisearch/meilisearch-mcp
         status: verified
@@ -2256,12 +2256,12 @@ stack:
       tier: observed
       url: /providers/meilisearch/
     - agent_band: agent-ready
-      agent_readiness: 47.9
+      agent_readiness: 47.3
       apps:
       - Monica
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 39.5
+      kin_score: 39.2
       mcp:
         source: https://typesense.org/docs/guide/typesense-cloud/mcp-server.html
         status: verified
@@ -2286,12 +2286,12 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 45.2
       apps:
       - Monica
       band: developing
       in_catalog: true
-      kin_score: 49.3
+      kin_score: 50.7
       mcp:
         source: https://github.com/mapbox/mcp-server
         status: verified
@@ -2321,7 +2321,7 @@ stack:
       - Monica
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: none
       name: LocationIQ
@@ -2344,12 +2344,12 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.7
+      agent_readiness: 39.7
       apps:
       - Monica
       band: thin
       in_catalog: true
-      kin_score: 37.1
+      kin_score: 36.7
       mcp:
         status: none
       name: Uploadcare
@@ -2373,12 +2373,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Monica
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -2402,12 +2402,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Morgen
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2435,7 +2435,7 @@ summary:
     unchecked: 1
     verified: 19
   mcp_verified: 19
-  mean_kin_score: 44.2
+  mean_kin_score: 47.4
   observed: 17
   queued: 1
   reference_apps: 7

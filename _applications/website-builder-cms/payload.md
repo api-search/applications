@@ -74,11 +74,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -106,10 +106,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id003
       source: https://github.com/microsoft/mcp
       status: verified
@@ -137,10 +137,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.4
+    agent_readiness: 30.3
     band: thin
     in_catalog: true
-    kin_score: 39.2
+    kin_score: 38.6
     mcp: &id005
       source: https://github.com/cloudflare/mcp-server-cloudflare
       status: verified
@@ -167,11 +167,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.7
+    agent_band: agent-ready
+    agent_readiness: 28.7
     band: thin
     in_catalog: true
-    kin_score: 36.3
+    kin_score: 35.8
     mcp: &id007
       source: https://raw.githubusercontent.com/cloudflare/mcp/main/README.md
       status: verified
@@ -199,10 +199,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id009
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -230,10 +230,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.4
+    agent_readiness: 49.8
     band: strong
     in_catalog: true
-    kin_score: 58.9
+    kin_score: 56.8
     mcp: &id011
       source: https://resend.com/docs/mcp-server
       status: verified
@@ -264,7 +264,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id013
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -292,10 +292,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id015
       source: https://docs.stripe.com/mcp
       status: verified
@@ -323,10 +323,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.2
+    agent_readiness: 50.0
     band: strong
     in_catalog: true
-    kin_score: 63.8
+    kin_score: 63.1
     mcp: &id017
       source: https://vercel.com/docs/mcp/vercel-mcp
       status: verified
@@ -351,11 +351,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/website-builder-cms/payload/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -363,10 +363,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id003
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -374,21 +374,21 @@ providers:
   tags: *id004
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: agent-ready
-  agent_readiness: 29.4
+  agent_readiness: 30.3
   band: thin
   in_catalog: true
-  kin_score: 39.2
+  kin_score: 38.6
   mcp: *id005
   name: Cloudflare D1
   slug: cloudflare-d1
   status: profiled
   tags: *id006
   url: /providers/cloudflare-d1/
-- agent_band: agent-aware
-  agent_readiness: 27.7
+- agent_band: agent-ready
+  agent_readiness: 28.7
   band: thin
   in_catalog: true
-  kin_score: 36.3
+  kin_score: 35.8
   mcp: *id007
   name: Cloudflare R2
   slug: cloudflare-r2
@@ -396,10 +396,10 @@ providers:
   tags: *id008
   url: /providers/cloudflare-r2/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id009
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -407,10 +407,10 @@ providers:
   tags: *id010
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-ready
-  agent_readiness: 49.4
+  agent_readiness: 49.8
   band: strong
   in_catalog: true
-  kin_score: 58.9
+  kin_score: 56.8
   mcp: *id011
   name: Resend
   slug: resend
@@ -421,7 +421,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id013
   name: Sentry
   slug: sentry-system
@@ -429,10 +429,10 @@ providers:
   tags: *id014
   url: /providers/sentry-system/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id015
   name: Stripe
   slug: stripe
@@ -440,10 +440,10 @@ providers:
   tags: *id016
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 45.2
+  agent_readiness: 50.0
   band: strong
   in_catalog: true
-  kin_score: 63.8
+  kin_score: 63.1
   mcp: *id017
   name: Vercel Postgres / Blob
   slug: vercel

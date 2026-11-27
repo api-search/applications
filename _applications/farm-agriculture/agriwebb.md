@@ -138,9 +138,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 22.0
+    kin_score: 28.7
     mcp: &id005
       status: none
     slug: cibo-labs
@@ -167,10 +167,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 14.6
+    kin_score: 20.0
     mcp: &id007
       status: unknown
     slug: farmbot-monitoring
@@ -197,10 +197,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 7.0
+    agent_readiness: 6.9
     band: emerging
     in_catalog: true
-    kin_score: 13.0
+    kin_score: 20.7
     mcp: &id009
       status: unknown
     slug: farmo
@@ -227,10 +227,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.2
-    band: thin
+    agent_readiness: 20.8
+    band: developing
     in_catalog: true
-    kin_score: 29.7
+    kin_score: 40.7
     mcp: &id011
       status: unknown
     slug: figured
@@ -256,11 +256,11 @@ integrations:
     via_parent: Growth and Performance Recording
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_band: agent-aware
+    agent_readiness: 24.8
     band: thin
     in_catalog: true
-    kin_score: 27.0
+    kin_score: 33.4
     mcp: &id013
       status: unknown
     slug: gallagher-animal-management
@@ -290,7 +290,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 5.4
     mcp: &id015
       status: unknown
     slug: rcs
@@ -316,11 +316,11 @@ integrations:
     via_parent: Livestock Identification and Movement Compliance
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
-    band: minimal
+    agent_band: human-only
+    agent_readiness: 2.5
+    band: emerging
     in_catalog: true
-    kin_score: 9.6
+    kin_score: 13.9
     mcp: &id017
       status: unknown
     slug: shearwell
@@ -347,10 +347,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 3.2
+    agent_readiness: 4.9
     band: emerging
     in_catalog: true
-    kin_score: 12.7
+    kin_score: 19.5
     mcp: &id019
       status: unknown
     slug: te-pari
@@ -376,11 +376,11 @@ integrations:
     via_parent: Growth and Performance Recording
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 5.7
+    kin_score: 5.6
     mcp: &id021
       status: none
     slug: tru-test
@@ -428,9 +428,9 @@ providers:
   url: null
 - agent_band: human-only
   agent_readiness: 0.0
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 22.0
+  kin_score: 28.7
   mcp: *id005
   name: Cibo Labs
   slug: cibo-labs
@@ -438,10 +438,10 @@ providers:
   tags: *id006
   url: /providers/cibo-labs/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 14.6
+  kin_score: 20.0
   mcp: *id007
   name: Farmbot Monitoring Solutions
   slug: farmbot-monitoring
@@ -449,10 +449,10 @@ providers:
   tags: *id008
   url: /providers/farmbot-monitoring/
 - agent_band: agent-aware
-  agent_readiness: 7.0
+  agent_readiness: 6.9
   band: emerging
   in_catalog: true
-  kin_score: 13.0
+  kin_score: 20.7
   mcp: *id009
   name: Farmo
   slug: farmo
@@ -460,21 +460,21 @@ providers:
   tags: *id010
   url: /providers/farmo/
 - agent_band: agent-aware
-  agent_readiness: 21.2
-  band: thin
+  agent_readiness: 20.8
+  band: developing
   in_catalog: true
-  kin_score: 29.7
+  kin_score: 40.7
   mcp: *id011
   name: Figured
   slug: figured
   status: profiled
   tags: *id012
   url: /providers/figured/
-- agent_band: agent-ready
-  agent_readiness: 33.3
+- agent_band: agent-aware
+  agent_readiness: 24.8
   band: thin
   in_catalog: true
-  kin_score: 27.0
+  kin_score: 33.4
   mcp: *id013
   name: Gallagher
   slug: gallagher-animal-management
@@ -485,18 +485,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 5.4
   mcp: *id015
   name: RCS (Resource Consulting Services)
   slug: rcs
   status: profiled
   tags: *id016
   url: /providers/rcs/
-- agent_band: agent-aware
-  agent_readiness: 5.4
-  band: minimal
+- agent_band: human-only
+  agent_readiness: 2.5
+  band: emerging
   in_catalog: true
-  kin_score: 9.6
+  kin_score: 13.9
   mcp: *id017
   name: Shearwell Data
   slug: shearwell
@@ -504,21 +504,21 @@ providers:
   tags: *id018
   url: /providers/shearwell/
 - agent_band: human-only
-  agent_readiness: 3.2
+  agent_readiness: 4.9
   band: emerging
   in_catalog: true
-  kin_score: 12.7
+  kin_score: 19.5
   mcp: *id019
   name: Te Pari
   slug: te-pari
   status: profiled
   tags: *id020
   url: /providers/te-pari/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 5.7
+  kin_score: 5.6
   mcp: *id021
   name: Tru-Test (Datamars)
   slug: tru-test

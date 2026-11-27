@@ -76,11 +76,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 35.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 48.3
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 64.3
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -108,10 +108,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id003
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -142,7 +142,7 @@ integrations:
     agent_readiness: 45.6
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 74.9
     mcp: &id005
       source: https://github.com/awslabs/mcp/tree/main/src/lambda-tool-mcp-server
       status: verified
@@ -169,11 +169,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 28.0
+    agent_band: agent-ready
+    agent_readiness: 28.9
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 76.2
     mcp: &id007
       source: https://github.com/microsoft/mcp
       status: verified
@@ -200,11 +200,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.4
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 29.9
+    band: exemplar
     in_catalog: true
-    kin_score: 44.6
+    kin_score: 68.3
     mcp: &id009
       source: https://github.com/microsoft/mcp
       status: verified
@@ -232,10 +232,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.4
+    agent_readiness: 40.6
     band: thin
     in_catalog: true
-    kin_score: 36.4
+    kin_score: 35.2
     mcp: &id011
       status: none
     slug: cohere
@@ -262,10 +262,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.6
+    agent_readiness: 48.6
     band: exemplar
     in_catalog: true
-    kin_score: 79.2
+    kin_score: 80.0
     mcp: &id013
       source: https://github.com/datadog-labs/mcp-server
       status: verified
@@ -293,10 +293,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id015
       status: none
     slug: google-gemini
@@ -323,10 +323,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.9
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 69.1
     mcp: &id017
       source: https://github.com/huggingface/hf-mcp-server
       status: verified
@@ -354,10 +354,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.2
+    agent_readiness: 16.8
     band: emerging
     in_catalog: true
-    kin_score: 24.3
+    kin_score: 23.7
     mcp: &id019
       status: none
     slug: lets-encrypt
@@ -384,10 +384,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_readiness: 5.3
     band: thin
     in_catalog: true
-    kin_score: 36.3
+    kin_score: 35.0
     mcp: &id021
       status: none
     slug: loggly
@@ -413,11 +413,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.2
     band: developing
     in_catalog: true
-    kin_score: 47.7
+    kin_score: 47.3
     mcp: &id023
       status: none
     slug: mistral
@@ -444,10 +444,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id025
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -478,7 +478,7 @@ integrations:
     agent_readiness: 27.3
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 39.0
     mcp: &id027
       status: none
     slug: opentelemetry
@@ -505,10 +505,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.7
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 35.4
+    kin_score: 35.9
     mcp: &id029
       source: https://github.com/prometheus/prometheus-mcp
       status: verified
@@ -536,10 +536,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.1
+    agent_readiness: 19.7
     band: thin
     in_catalog: true
-    kin_score: 27.9
+    kin_score: 29.0
     mcp: &id031
       status: none
     slug: statsd
@@ -566,10 +566,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 37.5
+    kin_score: 38.2
     mcp: &id033
       status: none
     slug: zipkin
@@ -593,11 +593,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/api-management-gateway/kong-gateway/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 35.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 48.3
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 64.3
   mcp: *id001
   name: Amazon Bedrock
   slug: amazon-bedrock
@@ -605,10 +605,10 @@ providers:
   tags: *id002
   url: /providers/amazon-bedrock/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id003
   name: Anthropic
   slug: anthropic
@@ -619,29 +619,29 @@ providers:
   agent_readiness: 45.6
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 74.9
   mcp: *id005
   name: AWS Lambda
   slug: aws-lambda
   status: profiled
   tags: *id006
   url: /providers/aws-lambda/
-- agent_band: agent-aware
-  agent_readiness: 28.0
+- agent_band: agent-ready
+  agent_readiness: 28.9
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 76.2
   mcp: *id007
   name: Azure Functions
   slug: microsoft-azure-functions
   status: profiled
   tags: *id008
   url: /providers/microsoft-azure-functions/
-- agent_band: agent-aware
-  agent_readiness: 23.4
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 29.9
+  band: exemplar
   in_catalog: true
-  kin_score: 44.6
+  kin_score: 68.3
   mcp: *id009
   name: Azure OpenAI
   slug: microsoft-azure-openai
@@ -649,10 +649,10 @@ providers:
   tags: *id010
   url: /providers/microsoft-azure-openai/
 - agent_band: agent-ready
-  agent_readiness: 41.4
+  agent_readiness: 40.6
   band: thin
   in_catalog: true
-  kin_score: 36.4
+  kin_score: 35.2
   mcp: *id011
   name: Cohere
   slug: cohere
@@ -660,10 +660,10 @@ providers:
   tags: *id012
   url: /providers/cohere/
 - agent_band: agent-ready
-  agent_readiness: 49.6
+  agent_readiness: 48.6
   band: exemplar
   in_catalog: true
-  kin_score: 79.2
+  kin_score: 80.0
   mcp: *id013
   name: Datadog
   slug: datadog
@@ -671,10 +671,10 @@ providers:
   tags: *id014
   url: /providers/datadog/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id015
   name: Google Gemini
   slug: google-gemini
@@ -682,10 +682,10 @@ providers:
   tags: *id016
   url: /providers/google-gemini/
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 36.9
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 69.1
   mcp: *id017
   name: Hugging Face
   slug: hugging-face
@@ -693,10 +693,10 @@ providers:
   tags: *id018
   url: /providers/hugging-face/
 - agent_band: agent-aware
-  agent_readiness: 17.2
+  agent_readiness: 16.8
   band: emerging
   in_catalog: true
-  kin_score: 24.3
+  kin_score: 23.7
   mcp: *id019
   name: Let's Encrypt
   slug: lets-encrypt
@@ -704,21 +704,21 @@ providers:
   tags: *id020
   url: /providers/lets-encrypt/
 - agent_band: agent-aware
-  agent_readiness: 5.4
+  agent_readiness: 5.3
   band: thin
   in_catalog: true
-  kin_score: 36.3
+  kin_score: 35.0
   mcp: *id021
   name: Loggly
   slug: loggly
   status: profiled
   tags: *id022
   url: /providers/loggly/
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.2
   band: developing
   in_catalog: true
-  kin_score: 47.7
+  kin_score: 47.3
   mcp: *id023
   name: Mistral AI
   slug: mistral
@@ -726,10 +726,10 @@ providers:
   tags: *id024
   url: /providers/mistral/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id025
   name: OpenAI
   slug: openai
@@ -740,7 +740,7 @@ providers:
   agent_readiness: 27.3
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 39.0
   mcp: *id027
   name: OpenTelemetry
   slug: opentelemetry
@@ -748,10 +748,10 @@ providers:
   tags: *id028
   url: /providers/opentelemetry/
 - agent_band: agent-aware
-  agent_readiness: 18.7
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 35.4
+  kin_score: 35.9
   mcp: *id029
   name: Prometheus
   slug: prometheus-io
@@ -759,10 +759,10 @@ providers:
   tags: *id030
   url: /providers/prometheus-io/
 - agent_band: agent-aware
-  agent_readiness: 20.1
+  agent_readiness: 19.7
   band: thin
   in_catalog: true
-  kin_score: 27.9
+  kin_score: 29.0
   mcp: *id031
   name: StatsD
   slug: statsd
@@ -770,10 +770,10 @@ providers:
   tags: *id032
   url: /providers/statsd/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 37.5
+  kin_score: 38.2
   mcp: *id033
   name: Zipkin
   slug: zipkin

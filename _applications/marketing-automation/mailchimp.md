@@ -72,10 +72,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.7
-    band: emerging
+    agent_readiness: 21.9
+    band: thin
     in_catalog: true
-    kin_score: 23.0
+    kin_score: 33.8
     mcp: &id001
       status: none
     slug: branch-io
@@ -98,22 +98,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id003
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id004
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics / Crashlytics
   provider: firebase
@@ -130,10 +130,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 62.9
+    agent_readiness: 61.6
     band: exemplar
     in_catalog: true
-    kin_score: 77.7
+    kin_score: 78.1
     mcp: &id005
       source: https://support.optimizely.com/hc/en-us/articles/45320607594893
       status: documented
@@ -161,10 +161,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.0
+    agent_readiness: 19.6
     band: developing
     in_catalog: true
-    kin_score: 47.3
+    kin_score: 45.7
     mcp: &id007
       status: none
     slug: qualtrics
@@ -191,10 +191,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id009
       status: none
     slug: segment
@@ -219,32 +219,32 @@ noindex: false
 permalink: /applications/marketing-automation/mailchimp/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 24.7
-  band: emerging
+  agent_readiness: 21.9
+  band: thin
   in_catalog: true
-  kin_score: 23.0
+  kin_score: 33.8
   mcp: *id001
   name: Branch
   slug: branch-io
   status: profiled
   tags: *id002
   url: /providers/branch-io/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id003
   name: Google Firebase Analytics / Crashlytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id004
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 62.9
+  agent_readiness: 61.6
   band: exemplar
   in_catalog: true
-  kin_score: 77.7
+  kin_score: 78.1
   mcp: *id005
   name: Optimizely
   slug: optimizely
@@ -252,10 +252,10 @@ providers:
   tags: *id006
   url: /providers/optimizely/
 - agent_band: agent-aware
-  agent_readiness: 20.0
+  agent_readiness: 19.6
   band: developing
   in_catalog: true
-  kin_score: 47.3
+  kin_score: 45.7
   mcp: *id007
   name: Qualtrics
   slug: qualtrics
@@ -263,10 +263,10 @@ providers:
   tags: *id008
   url: /providers/qualtrics/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id009
   name: Segment
   slug: segment

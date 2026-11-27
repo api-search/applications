@@ -2074,14 +2074,14 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Keila
       - Mautic
       - listmonk
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -2099,14 +2099,14 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - Keila
       - Mautic
       - listmonk
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -2124,13 +2124,13 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 41.7
+      agent_readiness: 43.0
       apps:
       - Keila
       - listmonk
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 70.5
       mcp:
         source: https://github.com/ActiveCampaign/postmark-mcp
         status: verified
@@ -2148,13 +2148,13 @@ stack:
       tier: observed
       url: /providers/postmark/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - Ghost
       - Keila
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -2172,12 +2172,12 @@ stack:
       tier: observed
       url: /providers/mailgun/
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.9
       apps:
       - listmonk
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 73.7
       mcp:
         status: none
       name: Azure Communication Services
@@ -2193,12 +2193,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-communication-services/
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 38.2
       apps:
       - listmonk
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 61.3
       mcp:
         source: https://github.com/forwardemail/mcp-server
         status: verified
@@ -2215,12 +2215,12 @@ stack:
       tier: observed
       url: /providers/forward-email/
     - agent_band: agent-aware
-      agent_readiness: 23.0
+      agent_readiness: 24.1
       apps:
       - listmonk
       band: developing
       in_catalog: true
-      kin_score: 40.4
+      kin_score: 53.7
       mcp:
         source: https://lettermint.co/docs/mcp
         status: verified
@@ -2237,12 +2237,12 @@ stack:
       tier: observed
       url: /providers/lettermint/
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 56.5
       apps:
       - listmonk
       band: strong
       in_catalog: true
-      kin_score: 59.5
+      kin_score: 57.5
       mcp:
         source: https://developers.mailersend.com/mcp-server.html
         status: verified
@@ -2259,12 +2259,12 @@ stack:
       tier: declared
       url: /providers/mailersend/
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - listmonk
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -2280,35 +2280,13 @@ stack:
       - Transactional Email
       tier: declared
       url: /providers/resend/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
-      apps:
-      - Mautic
-      band: developing
-      in_catalog: true
-      kin_score: 50.1
-      mcp:
-        source: https://github.com/mailgun/mailjet-mcp-server
-        status: verified
-      name: Mailjet
-      slug: mailjet
-      sources:
-      - https://docs.mautic.org/en/7.0/channels/emails.html
-      status: profiled
-      tags:
-      - Email
-      - Email Delivery
-      - Marketing Email
-      - SMTP
-      tier: declared
-      url: /providers/mailjet/
     - agent_band: agent-ready
-      agent_readiness: 41.1
+      agent_readiness: 41.2
       apps:
       - Mautic
       band: developing
       in_catalog: true
-      kin_score: 39.5
+      kin_score: 51.7
       mcp:
         source: https://github.com/ElasticEmail/elasticemail-mcp-server
         status: verified
@@ -2325,12 +2303,34 @@ stack:
       tier: declared
       url: /providers/elastic-email/
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 22.9
+      apps:
+      - Mautic
+      band: developing
+      in_catalog: true
+      kin_score: 50.5
+      mcp:
+        source: https://github.com/mailgun/mailjet-mcp-server
+        status: verified
+      name: Mailjet
+      slug: mailjet
+      sources:
+      - https://docs.mautic.org/en/7.0/channels/emails.html
+      status: profiled
+      tags:
+      - Email
+      - Email Delivery
+      - Marketing Email
+      - SMTP
+      tier: declared
+      url: /providers/mailjet/
+    - agent_band: agent-aware
+      agent_readiness: 25.6
       apps:
       - Mautic
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 37.1
       mcp:
         status: none
       name: SparkPost
@@ -2354,7 +2354,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Klaviyo
       - Mailchimp
@@ -2363,7 +2363,7 @@ stack:
       - beehiiv
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -2381,12 +2381,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -2403,12 +2403,12 @@ stack:
       tier: observed
       url: /providers/x/
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Substack
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -2425,33 +2425,12 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-ready
-      agent_readiness: 32.1
+      agent_readiness: 38.6
       apps:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 70.9
-      mcp:
-        status: none
-      name: Constant Contact
-      slug: constant-contact
-      sources:
-      - https://github.com/mautic/mautic/tree/7.x/plugins/MauticEmailMarketingBundle/Integration
-      status: profiled
-      tags:
-      - Campaigns
-      - Contacts
-      - Email Marketing
-      - Event
-      tier: observed
-      url: /providers/constant-contact/
-    - agent_band: agent-ready
-      agent_readiness: 38.9
-      apps:
-      - Mautic
-      band: exemplar
-      in_catalog: true
-      kin_score: 69.0
+      kin_score: 67.8
       mcp:
         status: none
       name: Instagram
@@ -2466,13 +2445,34 @@ stack:
       - Social Media
       tier: observed
       url: /providers/instagram/
+    - agent_band: agent-ready
+      agent_readiness: 31.4
+      apps:
+      - Mautic
+      band: exemplar
+      in_catalog: true
+      kin_score: 67.7
+      mcp:
+        status: none
+      name: Constant Contact
+      slug: constant-contact
+      sources:
+      - https://github.com/mautic/mautic/tree/7.x/plugins/MauticEmailMarketingBundle/Integration
+      status: profiled
+      tags:
+      - Campaigns
+      - Contacts
+      - Email Marketing
+      - Event
+      tier: observed
+      url: /providers/constant-contact/
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 25.5
       apps:
       - Mautic
       band: strong
       in_catalog: true
-      kin_score: 55.7
+      kin_score: 55.3
       mcp:
         status: none
       name: iContact
@@ -2488,12 +2488,12 @@ stack:
       tier: observed
       url: /providers/icontact/
     - agent_band: agent-aware
-      agent_readiness: 23.3
+      agent_readiness: 22.8
       apps:
       - Mautic
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 45.1
       mcp:
         source: https://github.com/foursquare/foursquare-places-mcp
         status: verified
@@ -2510,12 +2510,12 @@ stack:
       tier: observed
       url: /providers/foursquare/
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Mailchimp
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch (branch.io)
@@ -2528,12 +2528,12 @@ stack:
       tier: observed
       url: /providers/branch-io/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - Mailchimp
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn Lead Gen Forms
@@ -2549,12 +2549,12 @@ stack:
       tier: declared
       url: /providers/linkedin/
     - agent_band: agent-ready
-      agent_readiness: 47.7
+      agent_readiness: 42.1
       apps:
       - Klaviyo
       band: exemplar
       in_catalog: true
-      kin_score: 73.1
+      kin_score: 73.4
       mcp:
         source: https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server
         status: verified
@@ -2571,12 +2571,12 @@ stack:
       tier: declared
       url: /providers/google-ads/
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 33.2
       apps:
       - beehiiv
       band: strong
       in_catalog: true
-      kin_score: 56.5
+      kin_score: 54.3
       mcp:
         status: none
       name: ManyChat
@@ -2600,14 +2600,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Mailchimp
       - Mautic
       - beehiiv
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2626,13 +2626,13 @@ stack:
       tier: observed
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Ghost
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -2649,34 +2649,13 @@ stack:
       - Content
       tier: observed
       url: /providers/hubspot/
-    - agent_band: agent-aware
-      agent_readiness: 25.2
+    - agent_band: agent-ready
+      agent_readiness: 37.6
       apps:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 67.6
-      mcp:
-        status: none
-      name: SugarCRM
-      slug: sugarcrm
-      sources:
-      - https://github.com/mautic/mautic/tree/7.x/plugins/MauticCrmBundle/Integration
-      status: profiled
-      tags:
-      - CRM
-      - Company
-      - Sales
-      - Software-as-a-Service
-      tier: observed
-      url: /providers/sugarcrm/
-    - agent_band: agent-ready
-      agent_readiness: 33.1
-      apps:
-      - Mautic
-      band: strong
-      in_catalog: true
-      kin_score: 63.9
+      kin_score: 67.7
       mcp:
         source: https://github.com/microsoft/Dataverse-MCP
         status: verified
@@ -2692,13 +2671,34 @@ stack:
       - Enterprise
       tier: observed
       url: /providers/microsoft-dynamics-365/
+    - agent_band: agent-aware
+      agent_readiness: 24.6
+      apps:
+      - Mautic
+      band: exemplar
+      in_catalog: true
+      kin_score: 67.0
+      mcp:
+        status: none
+      name: SugarCRM
+      slug: sugarcrm
+      sources:
+      - https://github.com/mautic/mautic/tree/7.x/plugins/MauticCrmBundle/Integration
+      status: profiled
+      tags:
+      - CRM
+      - Company
+      - Sales
+      - Software-as-a-Service
+      tier: observed
+      url: /providers/sugarcrm/
     - agent_band: agent-ready
-      agent_readiness: 33.0
+      agent_readiness: 32.4
       apps:
       - Mautic
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 64.4
       mcp:
         source: https://www.zoho.com/mcp/
         status: verified
@@ -2715,12 +2715,12 @@ stack:
       tier: observed
       url: /providers/zoho/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 10.6
       apps:
       - Mautic
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.7
+      kin_score: 34.7
       mcp:
         status: none
       name: Vtiger
@@ -2736,12 +2736,12 @@ stack:
       tier: observed
       url: /providers/vtiger/
     - agent_band: agent-aware
-      agent_readiness: 20.8
+      agent_readiness: 14.8
       apps:
       - Mautic
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.0
+      kin_score: 31.5
       mcp:
         source: https://www.connectwise.com/blog/what-mcp-could-mean-for-msps
         status: documented
@@ -2766,13 +2766,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Ghost
       - beehiiv
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: &id003
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2790,13 +2790,13 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 26.4
       apps:
       - Ghost
       - beehiiv
       band: thin
       in_catalog: true
-      kin_score: 34.2
+      kin_score: 33.1
       mcp:
         status: none
       name: Patreon
@@ -2813,12 +2813,12 @@ stack:
       tier: declared
       url: /providers/patreon/
     - agent_band: agent-ready
-      agent_readiness: 47.5
+      agent_readiness: 46.9
       apps:
       - Keila
       band: thin
       in_catalog: true
-      kin_score: 28.7
+      kin_score: 28.6
       mcp:
         source: https://github.com/PaddleHQ/paddle-mcp-server
         status: verified
@@ -2835,12 +2835,12 @@ stack:
       tier: observed
       url: /providers/paddle/
     - agent_band: agent-native
-      agent_readiness: 54.3
+      agent_readiness: 51.2
       apps:
       - beehiiv
       band: exemplar
       in_catalog: true
-      kin_score: 78.8
+      kin_score: 83.2
       mcp:
         status: none
       name: Recurly
@@ -2856,12 +2856,12 @@ stack:
       tier: declared
       url: /providers/recurly/
     - agent_band: agent-ready
-      agent_readiness: 37.7
+      agent_readiness: 37.4
       apps:
       - beehiiv
       band: developing
       in_catalog: true
-      kin_score: 49.7
+      kin_score: 48.2
       mcp:
         status: none
       name: MemberPress
@@ -2877,12 +2877,12 @@ stack:
       tier: declared
       url: /providers/memberpress/
     - agent_band: agent-aware
-      agent_readiness: 16.8
+      agent_readiness: 16.5
       apps:
       - beehiiv
       band: emerging
       in_catalog: true
-      kin_score: 23.6
+      kin_score: 22.8
       mcp:
         status: none
       name: Gumroad
@@ -2903,7 +2903,7 @@ stack:
       - beehiiv
       band: emerging
       in_catalog: true
-      kin_score: 12.9
+      kin_score: 12.6
       mcp:
         status: none
       name: Memberful
@@ -2927,13 +2927,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 49.5
+      agent_readiness: 48.5
       apps:
       - Klaviyo
       - Mailchimp
       band: exemplar
       in_catalog: true
-      kin_score: 69.9
+      kin_score: 68.7
       mcp:
         status: none
       name: Squarespace
@@ -2950,13 +2950,13 @@ stack:
       tier: declared
       url: /providers/squarespace/
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 31.9
       apps:
       - Mailchimp
       - beehiiv
       band: developing
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 46.6
       mcp:
         source: https://github.com/WordPress/mcp-adapter
         status: verified
@@ -2974,13 +2974,13 @@ stack:
       tier: declared
       url: /providers/wordpress/
     - agent_band: agent-ready
-      agent_readiness: 48.2
+      agent_readiness: 47.2
       apps:
       - Klaviyo
       - Mailchimp
       band: thin
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 35.5
       mcp:
         source: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
         status: verified
@@ -3003,7 +3003,7 @@ stack:
       - beehiiv
       band: strong
       in_catalog: true
-      kin_score: 60.7
+      kin_score: 60.5
       mcp:
         source: https://developers.webflow.com/mcp/reference/overview
         status: verified
@@ -3028,14 +3028,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Klaviyo
       - Mailchimp
       - beehiiv
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 54.6
       mcp:
         source: https://developer.woocommerce.com/docs/features/mcp/
         status: verified
@@ -3054,13 +3054,13 @@ stack:
       tier: declared
       url: /providers/woocommerce/
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - Klaviyo
       - Mailchimp
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -3077,35 +3077,13 @@ stack:
       - Retail
       tier: declared
       url: /providers/shopify/
-    - agent_band: agent-native
-      agent_readiness: 62.8
-      apps:
-      - Mailchimp
-      band: exemplar
-      in_catalog: true
-      kin_score: 76.1
-      mcp:
-        source: https://developer.squareup.com/docs/mcp
-        status: verified
-      name: Square
-      slug: square
-      sources:
-      - https://mailchimp.com/integrations/
-      status: profiled
-      tags:
-      - Booking
-      - Location
-      - Restaurant
-      - Square
-      tier: declared
-      url: /providers/square/
     - agent_band: agent-ready
-      agent_readiness: 60.5
+      agent_readiness: 56.3
       apps:
       - Klaviyo
       band: exemplar
       in_catalog: true
-      kin_score: 70.3
+      kin_score: 84.3
       mcp:
         source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
         status: verified
@@ -3121,6 +3099,28 @@ stack:
       - Retail
       tier: declared
       url: /providers/bigcommerce/
+    - agent_band: agent-native
+      agent_readiness: 61.5
+      apps:
+      - Mailchimp
+      band: exemplar
+      in_catalog: true
+      kin_score: 78.2
+      mcp:
+        source: https://developer.squareup.com/docs/mcp
+        status: verified
+      name: Square
+      slug: square
+      sources:
+      - https://mailchimp.com/integrations/
+      status: profiled
+      tags:
+      - Booking
+      - Location
+      - Restaurant
+      - Square
+      tier: declared
+      url: /providers/square/
   - capability:
       attribution: Turbo EA
       id: BC-420.10
@@ -3130,13 +3130,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Ghost
       - Mailchimp
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Twilio Segment
@@ -3153,12 +3153,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.6
       apps:
       - Mautic
       band: strong
       in_catalog: true
-      kin_score: 58.8
+      kin_score: 60.1
       mcp:
         status: none
       name: FullContact
@@ -3174,12 +3174,12 @@ stack:
       tier: observed
       url: /providers/fullcontact/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 24.6
       apps:
       - Mautic
       band: strong
       in_catalog: true
-      kin_score: 57.9
+      kin_score: 59.3
       mcp:
         status: none
       name: Clearbit
@@ -3203,13 +3203,13 @@ stack:
       via_parent: Customer Feedback Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.5
+      agent_readiness: 42.6
       apps:
       - Ghost
       - beehiiv
       band: thin
       in_catalog: true
-      kin_score: 37.6
+      kin_score: 36.0
       mcp:
         source: https://www.typeform.com/developers/mcp
         status: verified
@@ -3227,7 +3227,7 @@ stack:
       tier: declared
       url: /providers/typeform/
     - agent_band: agent-ready
-      agent_readiness: 33.9
+      agent_readiness: 33.2
       apps:
       - beehiiv
       band: emerging
@@ -3256,12 +3256,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 24.6
       apps:
       - beehiiv
       band: developing
       in_catalog: true
-      kin_score: 53.8
+      kin_score: 53.1
       mcp:
         status: none
       name: OptinMonster
@@ -3277,12 +3277,12 @@ stack:
       tier: declared
       url: /providers/optinmonster/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Klaviyo
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 27.2
+      kin_score: 26.0
       mcp:
         status: none
       name: Judge.me
@@ -3306,12 +3306,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 49.3
       apps:
       - beehiiv
       band: exemplar
       in_catalog: true
-      kin_score: 73.8
+      kin_score: 72.5
       mcp:
         status: none
       name: ClickFunnels
@@ -3335,12 +3335,12 @@ stack:
       via_parent: Customer Feedback Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 19.6
       apps:
       - Mailchimp
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 45.7
       mcp:
         status: none
       name: Qualtrics
@@ -3363,23 +3363,27 @@ stack:
       url: /capabilities/email/
       via_parent: Email
     providers:
-    - agent_band: null
-      agent_readiness: null
+    - agent_band: agent-aware
+      agent_readiness: 21.4
       apps:
       - Klaviyo
-      band: null
-      in_catalog: false
-      kin_score: null
+      band: emerging
+      in_catalog: true
+      kin_score: 24.5
       mcp:
         status: none
       name: GlockApps
       slug: glockapps-com
       sources:
       - https://marketplace.klaviyo.com/en-us/
-      status: queued for profiling
-      tags: []
+      status: profiled
+      tags:
+      - Deliverability
+      - Email
+      - Marketing
+      - Software-as-a-Service
       tier: declared
-      url: null
+      url: /providers/glockapps-com/
   - capability:
       attribution: API Evangelist extension
       id: AE-913
@@ -3389,12 +3393,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.7
+      agent_readiness: 43.8
       apps:
       - beehiiv
       band: developing
       in_catalog: true
-      kin_score: 47.8
+      kin_score: 54.1
       mcp:
         status: none
       name: Linktree
@@ -3405,7 +3409,7 @@ stack:
       tags:
       - Company
       - Creator Economy
-      - Link in Bio
+      - Link-in-bio
       - Media
       tier: declared
       url: /providers/linktree/
@@ -3418,12 +3422,12 @@ stack:
       via_parent: Logistics Operations Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 45.9
       apps:
       - Klaviyo
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 56.7
+      kin_score: 54.1
       mcp:
         status: none
       name: ShipStation
@@ -3447,12 +3451,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.2
+      agent_readiness: 52.2
       apps:
       - beehiiv
       band: developing
       in_catalog: true
-      kin_score: 49.5
+      kin_score: 47.2
       mcp:
         status: none
       name: Thinkific
@@ -3476,12 +3480,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 49.8
+      agent_readiness: 48.8
       apps:
       - Klaviyo
       band: exemplar
       in_catalog: true
-      kin_score: 75.5
+      kin_score: 74.8
       mcp:
         source: https://docs.talon.one/docs/dev/mcp
         status: verified
@@ -3508,7 +3512,7 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Ghost
       - Klaviyo
@@ -3517,7 +3521,7 @@ stack:
       - beehiiv
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -3536,12 +3540,12 @@ stack:
       tier: observed
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - beehiiv
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -3565,14 +3569,14 @@ stack:
       url: /capabilities/media-asset-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Ghost
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3589,34 +3593,13 @@ stack:
       - Cloud Storage
       tier: observed
       url: /providers/amazon-s3/
-    - agent_band: agent-aware
-      agent_readiness: 21.9
-      apps:
-      - Ghost
-      band: strong
-      in_catalog: true
-      kin_score: 55.6
-      mcp:
-        status: none
-      name: GIPHY
-      slug: giphy
-      sources:
-      - https://ghost.org/integrations/
-      status: profiled
-      tags:
-      - GIFs
-      - Media
-      - Photography
-      - Stickers
-      tier: declared
-      url: /providers/giphy/
     - agent_band: agent-ready
-      agent_readiness: 45.0
+      agent_readiness: 53.5
       apps:
       - Ghost
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 52.4
+      kin_score: 82.0
       mcp:
         source: https://cloudinary.com/documentation/cloudinary_llm_mcp
         status: verified
@@ -3632,13 +3615,34 @@ stack:
       - Image Transformation
       tier: declared
       url: /providers/cloudinary/
+    - agent_band: agent-aware
+      agent_readiness: 26.8
+      apps:
+      - Ghost
+      band: strong
+      in_catalog: true
+      kin_score: 56.0
+      mcp:
+        status: none
+      name: GIPHY
+      slug: giphy
+      sources:
+      - https://ghost.org/integrations/
+      status: profiled
+      tags:
+      - GIFs
+      - Media
+      - Photography
+      - Stickers
+      tier: declared
+      url: /providers/giphy/
     - agent_band: agent-ready
-      agent_readiness: 44.1
+      agent_readiness: 52.6
       apps:
       - Ghost
       band: developing
       in_catalog: true
-      kin_score: 40.2
+      kin_score: 39.4
       mcp:
         status: none
       name: Unsplash
@@ -3661,35 +3665,35 @@ stack:
       url: /capabilities/analytics-bi-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Substack
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.substack.app/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 30.2
+      agent_readiness: 35.3
       apps:
       - Ghost
       band: developing
       in_catalog: true
-      kin_score: 47.8
+      kin_score: 46.4
       mcp:
         source: https://www.tinybird.co/docs/forward/analytics-agents/mcp
         status: verified
@@ -3706,12 +3710,12 @@ stack:
       tier: observed
       url: /providers/tinybird/
     - agent_band: agent-native
-      agent_readiness: 60.0
+      agent_readiness: 58.8
       apps:
       - Klaviyo
       band: exemplar
       in_catalog: true
-      kin_score: 69.6
+      kin_score: 68.2
       mcp:
         status: none
       name: Triple Whale
@@ -3727,12 +3731,12 @@ stack:
       tier: declared
       url: /providers/triple-whale/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 22.6
       apps:
       - Ghost
       band: strong
       in_catalog: true
-      kin_score: 63.4
+      kin_score: 65.3
       mcp:
         status: none
       name: Plausible Analytics
@@ -3756,13 +3760,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Ghost
       - beehiiv
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -3780,13 +3784,13 @@ stack:
       tier: declared
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Ghost
       - beehiiv
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -3811,13 +3815,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - Keila
       - listmonk
       band: thin
       in_catalog: true
-      kin_score: 31.5
+      kin_score: 31.1
       mcp:
         status: none
       name: hCaptcha
@@ -3834,12 +3838,12 @@ stack:
       tier: observed
       url: /providers/hcaptcha/
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - Keila
       band: thin
       in_catalog: true
-      kin_score: 28.3
+      kin_score: 27.9
       mcp:
         status: none
       name: Friendly Captcha
@@ -3869,7 +3873,7 @@ stack:
       - Substack
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -3886,22 +3890,22 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Mailchimp
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase (Crashlytics + Analytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.mailchimp.mailchimp/latest/
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.30
@@ -3911,33 +3915,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.7
-      apps:
-      - listmonk
-      band: exemplar
-      in_catalog: true
-      kin_score: 83.3
-      mcp:
-        status: none
-      name: Amazon Pinpoint (SMS)
-      slug: amazon-pinpoint
-      sources:
-      - https://raw.githubusercontent.com/knadh/listmonk/master/docs/docs/content/messengers.md
-      status: profiled
-      tags:
-      - Amazon Web Services
-      - Campaigns
-      - Communications
-      - Email
-      tier: declared
-      url: /providers/amazon-pinpoint/
-    - agent_band: agent-ready
       agent_readiness: 61.2
       apps:
       - listmonk
       band: exemplar
       in_catalog: true
-      kin_score: 71.0
+      kin_score: 71.7
       mcp:
         source: https://github.com/novuhq/novu-mcp-server
         status: verified
@@ -3953,22 +3936,44 @@ stack:
       - Notification
       tier: declared
       url: /providers/novu/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 37.9
       apps:
       - listmonk
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 68.5
+      mcp:
+        source: https://github.com/awslabs/mcp
+        status: verified
+      name: Amazon Pinpoint (SMS)
+      slug: amazon-web-services
+      sources:
+      - https://raw.githubusercontent.com/knadh/listmonk/master/docs/docs/content/messengers.md
+      status: profiled
+      tags:
+      - Amazon
+      - Amazon Web Services
+      - Cloud
+      - Networks
+      tier: declared
+      url: /providers/amazon-web-services/
+    - agent_band: agent-ready
+      agent_readiness: 39.9
+      apps:
+      - listmonk
+      band: strong
+      in_catalog: true
+      kin_score: 62.0
       mcp: *id001
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/knadh/listmonk/master/docs/docs/content/messengers.md
       status: profiled
       tags: *id002
       tier: declared
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-170.80
@@ -3978,13 +3983,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 71.4
+      agent_readiness: 70.0
       apps:
       - Klaviyo
       - Mailchimp
       band: exemplar
       in_catalog: true
-      kin_score: 79.9
+      kin_score: 87.3
       mcp:
         source: https://www.canva.dev/docs/mcp/
         status: verified
@@ -4010,12 +4015,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 23.7
       apps:
       - Mautic
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 31.5
       mcp:
         status: none
       name: MaxMind
@@ -4036,7 +4041,7 @@ stack:
       - Mautic
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 5.0
       mcp:
         source: https://github.com/ip2location/mcp-ip2location-io
         status: verified
@@ -4059,12 +4064,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Mailchimp
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: *id003
       name: Stripe
       slug: stripe
@@ -4075,12 +4080,12 @@ stack:
       tier: declared
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Ghost
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -4105,12 +4110,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -4127,12 +4132,12 @@ stack:
       tier: observed
       url: /providers/twilio/
     - agent_band: agent-aware
-      agent_readiness: 20.4
+      agent_readiness: 25.2
       apps:
       - listmonk
       band: minimal
       in_catalog: true
-      kin_score: 6.6
+      kin_score: 8.9
       mcp:
         status: none
       name: Verimor (SMS, Turkey)
@@ -4154,12 +4159,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.3
       apps:
       - Klaviyo
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 42.5
       mcp:
         source: https://github.com/gorgias/mcp-cookbook
         status: verified
@@ -4184,12 +4189,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 62.9
+      agent_readiness: 61.6
       apps:
       - Mailchimp
       band: exemplar
       in_catalog: true
-      kin_score: 77.7
+      kin_score: 78.1
       mcp:
         source: https://support.optimizely.com/hc/en-us/articles/45320607594893
         status: documented
@@ -4207,19 +4212,19 @@ stack:
       url: /providers/optimizely/
   layer: common
 summary:
-  coverage_pct: 98.8
+  coverage_pct: 100.0
   declared_only: 47
   distinct_providers: 84
-  in_catalog: 83
+  in_catalog: 84
   mcp:
     documented: 2
-    none: 41
+    none: 40
     unchecked: 0
-    verified: 41
-  mcp_verified: 41
-  mean_kin_score: 55.5
+    verified: 42
+  mcp_verified: 42
+  mean_kin_score: 56.4
   observed: 37
-  queued: 1
+  queued: 0
   reference_apps: 8
 title: 'Email Marketing & Newsletters: application blueprint'
 ---

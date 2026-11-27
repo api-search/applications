@@ -81,7 +81,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id013
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -109,10 +109,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.8
-    band: strong
+    agent_readiness: 37.9
+    band: exemplar
     in_catalog: true
-    kin_score: 60.5
+    kin_score: 68.5
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -140,10 +140,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id003
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -171,10 +171,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id005
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -202,10 +202,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.9
+    agent_readiness: 43.0
     band: exemplar
     in_catalog: true
-    kin_score: 68.6
+    kin_score: 70.7
     mcp: &id007
       source: https://github.com/gemini-cli-extensions/workspace
       status: verified
@@ -233,10 +233,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.4
+    agent_readiness: 46.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.4
+    kin_score: 77.8
     mcp: &id009
       status: none
     slug: linkedin
@@ -263,10 +263,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.7
-    band: strong
+    agent_readiness: 36.3
+    band: exemplar
     in_catalog: true
-    kin_score: 64.4
+    kin_score: 76.1
     mcp: &id011
       source: https://github.com/microsoft/mcp
       status: verified
@@ -294,10 +294,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.0
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 72.3
     mcp: &id015
       status: none
     slug: whatsapp
@@ -324,10 +324,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id017
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -353,10 +353,10 @@ noindex: false
 permalink: /applications/translation/deepl/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 40.8
-  band: strong
+  agent_readiness: 37.9
+  band: exemplar
   in_catalog: true
-  kin_score: 60.5
+  kin_score: 68.5
   mcp: *id001
   name: AWS Marketplace
   slug: amazon-web-services
@@ -364,10 +364,10 @@ providers:
   tags: *id002
   url: /providers/amazon-web-services/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id003
   name: ChatGPT
   slug: openai
@@ -375,10 +375,10 @@ providers:
   tags: *id004
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id005
   name: Claude
   slug: anthropic
@@ -386,10 +386,10 @@ providers:
   tags: *id006
   url: /providers/anthropic/
 - agent_band: agent-ready
-  agent_readiness: 37.9
+  agent_readiness: 43.0
   band: exemplar
   in_catalog: true
-  kin_score: 68.6
+  kin_score: 70.7
   mcp: *id007
   name: Google Workspace
   slug: google-workspace
@@ -397,10 +397,10 @@ providers:
   tags: *id008
   url: /providers/google-workspace/
 - agent_band: agent-ready
-  agent_readiness: 47.4
+  agent_readiness: 46.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.4
+  kin_score: 77.8
   mcp: *id009
   name: LinkedIn
   slug: linkedin
@@ -408,10 +408,10 @@ providers:
   tags: *id010
   url: /providers/linkedin/
 - agent_band: agent-ready
-  agent_readiness: 36.7
-  band: strong
+  agent_readiness: 36.3
+  band: exemplar
   in_catalog: true
-  kin_score: 64.4
+  kin_score: 76.1
   mcp: *id011
   name: Microsoft 365 (Word, Outlook, PowerPoint)
   slug: microsoft-365
@@ -422,7 +422,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id013
   name: Sentry
   slug: sentry-system
@@ -430,10 +430,10 @@ providers:
   tags: *id014
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 48.0
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 72.3
   mcp: *id015
   name: WhatsApp
   slug: whatsapp
@@ -441,10 +441,10 @@ providers:
   tags: *id016
   url: /providers/whatsapp/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id017
   name: X (Twitter)
   slug: x

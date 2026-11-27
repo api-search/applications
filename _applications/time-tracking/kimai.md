@@ -41,10 +41,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.2
+    agent_readiness: 37.2
     band: exemplar
     in_catalog: true
-    kin_score: 74.5
+    kin_score: 73.1
     mcp: &id001
       status: none
     slug: authentik
@@ -71,10 +71,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id003
       status: none
     slug: microsoft-entra
@@ -101,10 +101,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.9
+    agent_readiness: 43.0
     band: exemplar
     in_catalog: true
-    kin_score: 68.6
+    kin_score: 70.7
     mcp: &id005
       source: https://github.com/gemini-cli-extensions/workspace
       status: verified
@@ -130,10 +130,10 @@ noindex: false
 permalink: /applications/time-tracking/kimai/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 33.2
+  agent_readiness: 37.2
   band: exemplar
   in_catalog: true
-  kin_score: 74.5
+  kin_score: 73.1
   mcp: *id001
   name: Authentik SAML
   slug: authentik
@@ -141,10 +141,10 @@ providers:
   tags: *id002
   url: /providers/authentik/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id003
   name: Azure AD (Entra ID) SAML
   slug: microsoft-entra
@@ -152,10 +152,10 @@ providers:
   tags: *id004
   url: /providers/microsoft-entra/
 - agent_band: agent-ready
-  agent_readiness: 37.9
+  agent_readiness: 43.0
   band: exemplar
   in_catalog: true
-  kin_score: 68.6
+  kin_score: 70.7
   mcp: *id005
   name: Google Workspace SAML
   slug: google-workspace

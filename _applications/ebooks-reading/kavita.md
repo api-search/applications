@@ -38,11 +38,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 36.6
+    agent_band: agent-aware
+    agent_readiness: 27.8
     band: developing
     in_catalog: true
-    kin_score: 47.3
+    kin_score: 48.3
     mcp: &id001
       status: none
     slug: anilist
@@ -69,10 +69,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 30.3
     band: thin
     in_catalog: true
-    kin_score: 28.6
+    kin_score: 37.7
     mcp: &id003
       status: none
     slug: hardcover
@@ -102,7 +102,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 4.8
     mcp: &id005
       status: none
     slug: myanimelist
@@ -124,11 +124,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/ebooks-reading/kavita/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 36.6
+- agent_band: agent-aware
+  agent_readiness: 27.8
   band: developing
   in_catalog: true
-  kin_score: 47.3
+  kin_score: 48.3
   mcp: *id001
   name: AniList
   slug: anilist
@@ -136,10 +136,10 @@ providers:
   tags: *id002
   url: /providers/anilist/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 30.3
   band: thin
   in_catalog: true
-  kin_score: 28.6
+  kin_score: 37.7
   mcp: *id003
   name: Hardcover
   slug: hardcover
@@ -150,7 +150,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 4.8
   mcp: *id005
   name: MyAnimeList
   slug: myanimelist

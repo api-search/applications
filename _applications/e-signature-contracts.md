@@ -1580,13 +1580,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 9.4
+      agent_readiness: 6.3
       apps:
       - OpenSign
       - Zoho Sign
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.7
+      kin_score: 30.9
       mcp:
         source: https://github.com/eideasy/eideasy-mcp
         status: verified
@@ -1604,12 +1604,12 @@ stack:
       tier: observed
       url: /providers/eid-easy/
     - agent_band: agent-ready
-      agent_readiness: 42.5
+      agent_readiness: 35.6
       apps:
       - Zoho Sign
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 54.8
+      kin_score: 68.1
       mcp:
         status: none
       name: Signicat
@@ -1625,12 +1625,12 @@ stack:
       tier: declared
       url: /providers/signicat/
     - agent_band: agent-ready
-      agent_readiness: 37.5
+      agent_readiness: 34.1
       apps:
       - Zoho Sign
       band: developing
       in_catalog: true
-      kin_score: 46.6
+      kin_score: 52.2
       mcp:
         status: unknown
       name: InfoCert
@@ -1645,13 +1645,13 @@ stack:
       - E-Signature
       tier: declared
       url: /providers/infocert/
-    - agent_band: human-only
-      agent_readiness: 2.5
+    - agent_band: agent-aware
+      agent_readiness: 5.3
       apps:
       - Zoho Sign
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 16.8
+      kin_score: 27.0
       mcp:
         status: none
       name: Singpass
@@ -1670,9 +1670,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Zoho Sign
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.8
+      kin_score: 17.6
       mcp:
         status: none
       name: eMudhra
@@ -1688,12 +1688,12 @@ stack:
       tier: declared
       url: /providers/emudhra/
     - agent_band: agent-aware
-      agent_readiness: 11.9
+      agent_readiness: 12.2
       apps:
       - Zoho Sign
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 13.5
       mcp:
         status: unknown
       name: Uanataca
@@ -1709,12 +1709,12 @@ stack:
       tier: declared
       url: /providers/uanataca/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 2.8
       apps:
       - Zoho Sign
       band: minimal
       in_catalog: true
-      kin_score: 8.2
+      kin_score: 10.6
       mcp:
         status: unknown
       name: Aadhaar eSign (UIDAI)
@@ -1738,12 +1738,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.3
+      agent_readiness: 35.0
       apps:
       - Dropbox Sign
       band: developing
       in_catalog: true
-      kin_score: 53.5
+      kin_score: 52.3
       mcp:
         status: none
       name: Ironclad
@@ -1766,13 +1766,13 @@ stack:
       url: /capabilities/security-architecture-management/
       via_parent: Security Architecture Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Documenso
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 53.2
+      kin_score: 70.9
       mcp:
         status: none
       name: Google Cloud HSM (KMS)
@@ -1796,12 +1796,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.1
+      agent_readiness: 47.5
       apps:
       - Documenso
       band: strong
       in_catalog: true
-      kin_score: 55.0
+      kin_score: 56.4
       mcp:
         source: https://github.com/browserless/browserless-mcp
         status: verified
@@ -1826,12 +1826,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.7
+      agent_readiness: 34.0
       apps:
       - DocuSign
       band: developing
       in_catalog: true
-      kin_score: 51.9
+      kin_score: 54.0
       mcp:
         status: none
       name: CLEAR
@@ -1857,14 +1857,14 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.9
+      agent_readiness: 43.0
       apps:
       - DocuSign
       - Dropbox Sign
       - Zoho Sign
       band: exemplar
       in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.7
       mcp:
         source: https://github.com/gemini-cli-extensions/workspace
         status: verified
@@ -1883,14 +1883,14 @@ stack:
       tier: declared
       url: /providers/google-workspace/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - DocuSign
       - Dropbox Sign
       - Zoho Sign
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: Microsoft OneDrive
@@ -1908,13 +1908,13 @@ stack:
       tier: declared
       url: /providers/microsoft-onedrive/
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Dropbox Sign
       - Zoho Sign
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1932,13 +1932,13 @@ stack:
       tier: declared
       url: /providers/google-drive/
     - agent_band: agent-ready
-      agent_readiness: 57.4
+      agent_readiness: 56.6
       apps:
       - DocuSign
       - Zoho Sign
       band: strong
       in_catalog: true
-      kin_score: 65.5
+      kin_score: 63.0
       mcp:
         source: https://developer.box.com/guides/box-mcp/
         status: verified
@@ -1956,12 +1956,12 @@ stack:
       tier: declared
       url: /providers/box/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - OpenSign
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1978,12 +1978,12 @@ stack:
       tier: observed
       url: /providers/google/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Zoho Sign
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -2008,14 +2008,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - DocuSign
       - Dropbox Sign
       - Zoho Sign
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -2034,13 +2034,13 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - DocuSign
       - Dropbox Sign
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2058,12 +2058,12 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 33.1
+      agent_readiness: 37.6
       apps:
       - Dropbox Sign
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.9
+      kin_score: 67.7
       mcp:
         source: https://github.com/microsoft/Dataverse-MCP
         status: verified
@@ -2080,12 +2080,12 @@ stack:
       tier: declared
       url: /providers/microsoft-dynamics-365/
     - agent_band: agent-ready
-      agent_readiness: 29.3
+      agent_readiness: 28.7
       apps:
       - Zoho Sign
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 55.3
       mcp:
         status: none
       name: Pipedrive
@@ -2101,12 +2101,12 @@ stack:
       tier: declared
       url: /providers/pipedrive/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 10.6
       apps:
       - Zoho Sign
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.7
+      kin_score: 34.7
       mcp:
         status: none
       name: Vtiger
@@ -2127,7 +2127,7 @@ stack:
       - Dropbox Sign
       band: minimal
       in_catalog: true
-      kin_score: 10.8
+      kin_score: 9.7
       mcp:
         status: none
       name: QQ Catalyst (Vertafore)
@@ -2151,14 +2151,14 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Dropbox Sign
       - OpenSign
       - Zoho Sign
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2177,13 +2177,13 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 29.1
       apps:
       - DocuSign
       - Zoho Sign
       band: strong
       in_catalog: true
-      kin_score: 64.2
+      kin_score: 62.1
       mcp:
         status: none
       name: Microsoft Power Automate
@@ -2200,12 +2200,12 @@ stack:
       tier: declared
       url: /providers/microsoft-power-automate/
     - agent_band: agent-aware
-      agent_readiness: 19.8
+      agent_readiness: 19.4
       apps:
       - Zoho Sign
       band: developing
       in_catalog: true
-      kin_score: 45.7
+      kin_score: 45.4
       mcp:
         status: none
       name: Integrately
@@ -2221,12 +2221,12 @@ stack:
       tier: declared
       url: /providers/integrately/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Zoho Sign
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -2250,15 +2250,15 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - DocuSeal
       - Documenso
       - OpenSign
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2277,13 +2277,13 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - DocuSeal
       - Documenso
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2301,12 +2301,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-blob-storage/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - DocuSeal
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -2331,56 +2331,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.4
-      apps:
-      - Dropbox Sign
-      band: exemplar
-      in_catalog: true
-      kin_score: 67.0
-      mcp:
-        source: https://docs.cloud.google.com/mcp/supported-products
-        status: verified
-      name: Google Docs
-      slug: google-docs
-      sources:
-      - https://sign.dropbox.com/integrations
-      status: profiled
-      tags:
-      - Collaboration
-      - Documents
-      - Google Workspace
-      - Productivity
-      tier: declared
-      url: /providers/google-docs/
-    - agent_band: agent-ready
-      agent_readiness: 40.8
-      apps:
-      - Dropbox Sign
-      band: strong
-      in_catalog: true
-      kin_score: 65.7
-      mcp:
-        source: https://learn.microsoft.com/en-us/microsoft-agent-365/mcp-server-reference/word
-        status: verified
-      name: Microsoft Word
-      slug: microsoft-word
-      sources:
-      - https://sign.dropbox.com/integrations
-      status: profiled
-      tags:
-      - Documents
-      - Microsoft 365
-      - Office
-      - Productivity
-      tier: declared
-      url: /providers/microsoft-word/
-    - agent_band: agent-ready
-      agent_readiness: 36.7
+      agent_readiness: 36.3
       apps:
       - Zoho Sign
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.4
+      kin_score: 76.1
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2397,7 +2353,51 @@ stack:
       tier: declared
       url: /providers/microsoft-365/
     - agent_band: agent-ready
-      agent_readiness: 33.9
+      agent_readiness: 40.3
+      apps:
+      - Dropbox Sign
+      band: exemplar
+      in_catalog: true
+      kin_score: 67.2
+      mcp:
+        source: https://docs.cloud.google.com/mcp/supported-products
+        status: verified
+      name: Google Docs
+      slug: google-docs
+      sources:
+      - https://sign.dropbox.com/integrations
+      status: profiled
+      tags:
+      - Collaboration
+      - Documents
+      - Google Workspace
+      - Productivity
+      tier: declared
+      url: /providers/google-docs/
+    - agent_band: agent-ready
+      agent_readiness: 40.3
+      apps:
+      - Dropbox Sign
+      band: strong
+      in_catalog: true
+      kin_score: 65.9
+      mcp:
+        source: https://learn.microsoft.com/en-us/microsoft-agent-365/mcp-server-reference/word
+        status: verified
+      name: Microsoft Word
+      slug: microsoft-word
+      sources:
+      - https://sign.dropbox.com/integrations
+      status: profiled
+      tags:
+      - Documents
+      - Microsoft 365
+      - Office
+      - Productivity
+      tier: declared
+      url: /providers/microsoft-word/
+    - agent_band: agent-ready
+      agent_readiness: 33.2
       apps:
       - Zoho Sign
       band: emerging
@@ -2426,13 +2426,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Documenso
       - OpenSign
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -2450,12 +2450,34 @@ stack:
       tier: observed
       url: /providers/posthog/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 39.9
       apps:
       - DocuSign
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 62.0
+      mcp: &id001
+        source: https://firebase.google.com/docs/ai-assistance/mcp-server
+        status: verified
+      name: Google Firebase Analytics
+      slug: google-firebase
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.docusign.ink/latest/
+      status: profiled
+      tags: &id002
+      - Analytics
+      - Authentication
+      - Backend-as-a-Service
+      - Cloud Messaging
+      tier: observed
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 47.7
+      apps:
+      - DocuSign
+      band: strong
+      in_catalog: true
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -2471,28 +2493,6 @@ stack:
       - Product Analytics
       tier: observed
       url: /providers/mixpanel/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - DocuSign
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp: &id001
-        source: https://firebase.google.com/docs/ai-assistance/mcp-server
-        status: verified
-      name: Google Firebase Analytics
-      slug: firebase
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.docusign.ink/latest/
-      status: profiled
-      tags: &id002
-      - Application Development
-      - Backend-as-a-Service
-      - Company
-      - Mobile
-      tier: observed
-      url: /providers/firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.10.10
@@ -2502,12 +2502,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - Documenso
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -2523,12 +2523,12 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - Documenso
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -2544,13 +2544,13 @@ stack:
       - Transactional Email
       tier: observed
       url: /providers/resend/
-    - agent_band: human-only
-      agent_readiness: 5.0
+    - agent_band: agent-aware
+      agent_readiness: 5.6
       apps:
       - Documenso
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 34.3
+      kin_score: 44.7
       mcp:
         status: none
       name: MailChannels
@@ -2566,12 +2566,12 @@ stack:
       tier: observed
       url: /providers/mailchannels/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - OpenSign
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -2596,12 +2596,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 58.8
+      agent_readiness: 60.3
       apps:
       - Dropbox Sign
       band: exemplar
       in_catalog: true
-      kin_score: 79.7
+      kin_score: 77.9
       mcp:
         status: none
       name: Greenhouse
@@ -2617,12 +2617,12 @@ stack:
       tier: declared
       url: /providers/greenhouse/
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 22.1
       apps:
       - Dropbox Sign
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.8
+      kin_score: 56.0
       mcp:
         status: none
       name: Recruitee
@@ -2663,12 +2663,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 51.1
+      agent_readiness: 50.3
       apps:
       - Documenso
       band: strong
       in_catalog: true
-      kin_score: 61.2
+      kin_score: 61.8
       mcp:
         source: https://github.com/team-plain/cursor-plugin-mcp
         status: verified
@@ -2685,12 +2685,12 @@ stack:
       tier: observed
       url: /providers/plain/
     - agent_band: agent-ready
-      agent_readiness: 43.2
+      agent_readiness: 42.3
       apps:
       - DocuSign
       band: strong
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 61.9
       mcp:
         status: none
       name: ServiceNow
@@ -2714,12 +2714,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Dropbox Sign
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2736,12 +2736,12 @@ stack:
       tier: declared
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Zoho Sign
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -2765,12 +2765,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - Zoho Sign
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2786,13 +2786,13 @@ stack:
       - Enterprise
       tier: declared
       url: /providers/microsoft-outlook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Zoho Sign
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -2817,12 +2817,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.3
+      agent_readiness: 36.1
       apps:
       - Dropbox Sign
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 62.2
+      kin_score: 68.5
       mcp:
         status: none
       name: Procore
@@ -2843,7 +2843,7 @@ stack:
       - DocuSign
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 32.2
       mcp:
         source: https://github.com/mondaycom/mcp
         status: verified
@@ -2868,12 +2868,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Documenso
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft sign-in
@@ -2888,13 +2888,13 @@ stack:
       - Identity and Access Management
       tier: observed
       url: /providers/microsoft-entra/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Documenso
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -2918,12 +2918,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 24.2
       apps:
       - Documenso
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 28.8
       mcp:
         source: https://github.com/cloudflare/mcp
         status: verified
@@ -2947,13 +2947,13 @@ stack:
       url: /capabilities/configuration-secrets-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-native
+      agent_readiness: 39.2
       apps:
       - DocuSeal
       band: exemplar
       in_catalog: true
-      kin_score: 70.3
+      kin_score: 77.5
       mcp:
         status: none
       name: AWS Secrets Manager
@@ -2977,12 +2977,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.6
       apps:
       - DocuSign
       band: thin
       in_catalog: true
-      kin_score: 34.2
+      kin_score: 32.4
       mcp:
         status: none
       name: Wootric
@@ -3006,12 +3006,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 51.0
       apps:
       - Dropbox Sign
       band: exemplar
       in_catalog: true
-      kin_score: 82.0
+      kin_score: 81.1
       mcp:
         source: https://developers.activecampaign.com/page/mcp
         status: documented
@@ -3035,13 +3035,13 @@ stack:
       url: /capabilities/model-inference/
       via_parent: Model Inference
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 42.2
       apps:
       - Documenso
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.4
+      kin_score: 63.2
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -3066,12 +3066,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 38.3
       apps:
       - DocuSign
       band: strong
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 54.7
       mcp:
         status: none
       name: Workday
@@ -3095,12 +3095,12 @@ stack:
       via_parent: IT Operations Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.9
+      agent_readiness: 37.6
       apps:
       - Documenso
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.3
+      kin_score: 68.1
       mcp:
         source: https://www.inngest.com/docs/ai-dev-tools/mcp
         status: verified
@@ -3124,13 +3124,13 @@ stack:
       url: /capabilities/knowledge-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 25.7
+    - agent_band: agent-ready
+      agent_readiness: 30.5
       apps:
       - Dropbox Sign
       band: developing
       in_catalog: true
-      kin_score: 47.1
+      kin_score: 45.5
       mcp:
         status: none
       name: Coda
@@ -3154,12 +3154,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - DocuSign
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3183,22 +3183,22 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - DocuSign
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.docusign.ink/latest/
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-1340.20
@@ -3208,12 +3208,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Documenso
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3238,12 +3238,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 62.9
+      agent_readiness: 61.6
       apps:
       - DocuSign
       band: exemplar
       in_catalog: true
-      kin_score: 77.7
+      kin_score: 78.1
       mcp:
         source: https://support.optimizely.com/hc/en-us/articles/45320607594893
         status: documented
@@ -3268,12 +3268,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - OpenSign
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -3300,7 +3300,7 @@ summary:
     unchecked: 1
     verified: 33
   mcp_verified: 33
-  mean_kin_score: 54.8
+  mean_kin_score: 57.8
   observed: 26
   queued: 1
   reference_apps: 6

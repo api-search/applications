@@ -57,10 +57,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.7
+    agent_readiness: 39.8
     band: developing
     in_catalog: true
-    kin_score: 43.7
+    kin_score: 45.6
     mcp: &id001
       status: none
     slug: adp
@@ -87,10 +87,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 26.3
     band: developing
     in_catalog: true
-    kin_score: 40.9
+    kin_score: 40.7
     mcp: &id003
       source: https://documentation.bamboohr.com/docs/mcp-server
       status: verified
@@ -118,10 +118,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.7
+    agent_readiness: 19.3
     band: thin
     in_catalog: true
-    kin_score: 30.4
+    kin_score: 29.3
     mcp: &id005
       source: https://apidocs.hibob.com/docs/hibob-mcp-server
       status: verified
@@ -149,10 +149,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.6
+    agent_readiness: 29.0
     band: developing
     in_catalog: true
-    kin_score: 46.0
+    kin_score: 44.6
     mcp: &id007
       status: none
     slug: indeed
@@ -179,10 +179,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.7
+    agent_readiness: 44.9
     band: developing
     in_catalog: true
-    kin_score: 47.0
+    kin_score: 45.7
     mcp: &id009
       status: none
     slug: justworks
@@ -209,10 +209,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.4
+    agent_readiness: 46.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.4
+    kin_score: 77.8
     mcp: &id011
       status: none
     slug: linkedin
@@ -239,10 +239,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 19.8
+    kin_score: 24.7
     mcp: &id013
       status: none
     slug: verified-first
@@ -267,10 +267,10 @@ noindex: false
 permalink: /applications/recruiting-ats/lever/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 35.7
+  agent_readiness: 39.8
   band: developing
   in_catalog: true
-  kin_score: 43.7
+  kin_score: 45.6
   mcp: *id001
   name: ADP
   slug: adp
@@ -278,10 +278,10 @@ providers:
   tags: *id002
   url: /providers/adp/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 26.3
   band: developing
   in_catalog: true
-  kin_score: 40.9
+  kin_score: 40.7
   mcp: *id003
   name: BambooHR
   slug: bamboohr
@@ -289,10 +289,10 @@ providers:
   tags: *id004
   url: /providers/bamboohr/
 - agent_band: agent-aware
-  agent_readiness: 19.7
+  agent_readiness: 19.3
   band: thin
   in_catalog: true
-  kin_score: 30.4
+  kin_score: 29.3
   mcp: *id005
   name: HiBob
   slug: bob
@@ -300,10 +300,10 @@ providers:
   tags: *id006
   url: /providers/bob/
 - agent_band: agent-ready
-  agent_readiness: 29.6
+  agent_readiness: 29.0
   band: developing
   in_catalog: true
-  kin_score: 46.0
+  kin_score: 44.6
   mcp: *id007
   name: Indeed
   slug: indeed
@@ -311,10 +311,10 @@ providers:
   tags: *id008
   url: /providers/indeed/
 - agent_band: agent-ready
-  agent_readiness: 41.7
+  agent_readiness: 44.9
   band: developing
   in_catalog: true
-  kin_score: 47.0
+  kin_score: 45.7
   mcp: *id009
   name: Justworks
   slug: justworks
@@ -322,10 +322,10 @@ providers:
   tags: *id010
   url: /providers/justworks/
 - agent_band: agent-ready
-  agent_readiness: 47.4
+  agent_readiness: 46.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.4
+  kin_score: 77.8
   mcp: *id011
   name: LinkedIn
   slug: linkedin
@@ -333,10 +333,10 @@ providers:
   tags: *id012
   url: /providers/linkedin/
 - agent_band: agent-aware
-  agent_readiness: 21.6
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 19.8
+  kin_score: 24.7
   mcp: *id013
   name: Verified First
   slug: verified-first

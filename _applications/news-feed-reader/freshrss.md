@@ -79,10 +79,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.2
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 45.1
+    kin_score: 46.3
     mcp: &id001
       status: none
     slug: bluesky
@@ -109,10 +109,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.1
-    band: exemplar
+    agent_readiness: 43.2
+    band: strong
     in_catalog: true
-    kin_score: 67.1
+    kin_score: 65.9
     mcp: &id003
       status: none
     slug: buffer
@@ -138,11 +138,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.7
+    agent_band: agent-aware
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 43.9
+    kin_score: 44.2
     mcp: &id005
       status: none
     slug: diaspora
@@ -169,10 +169,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id007
       status: none
     slug: facebook
@@ -199,10 +199,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.9
+    agent_readiness: 20.4
     band: thin
     in_catalog: true
-    kin_score: 34.3
+    kin_score: 33.9
     mcp: &id009
       status: none
     slug: lemmy
@@ -229,10 +229,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.5
+    agent_readiness: 32.1
     band: thin
     in_catalog: true
-    kin_score: 29.0
+    kin_score: 32.8
     mcp: &id011
       status: none
     slug: linkace
@@ -289,10 +289,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.4
+    agent_readiness: 46.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.4
+    kin_score: 77.8
     mcp: &id015
       status: none
     slug: linkedin
@@ -319,10 +319,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.5
-    band: thin
+    agent_readiness: 22.0
+    band: emerging
     in_catalog: true
-    kin_score: 26.5
+    kin_score: 25.5
     mcp: &id017
       status: none
     slug: mastodon
@@ -349,10 +349,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id019
       status: none
     slug: nextcloud
@@ -405,10 +405,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 5.4
-    band: emerging
+    agent_readiness: 5.3
+    band: thin
     in_catalog: true
-    kin_score: 19.9
+    kin_score: 30.5
     mcp: &id023
       status: unknown
     slug: pinboard
@@ -435,10 +435,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.4
+    agent_readiness: 37.6
     band: developing
     in_catalog: true
-    kin_score: 49.4
+    kin_score: 47.7
     mcp: &id025
       source: https://developers.pinterest.com/about-pinterest-mcp/
       status: verified
@@ -466,10 +466,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
-    band: emerging
+    agent_readiness: 21.1
+    band: thin
     in_catalog: true
-    kin_score: 17.1
+    kin_score: 29.1
     mcp: &id027
       source: https://help.raindrop.io/integrations/mcp
       status: verified
@@ -497,10 +497,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.1
+    agent_readiness: 43.0
     band: strong
     in_catalog: true
-    kin_score: 63.0
+    kin_score: 64.4
     mcp: &id029
       source: https://github.com/reddit/devvit-mcp
       status: verified
@@ -528,10 +528,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.2
-    band: emerging
+    agent_readiness: 20.2
+    band: thin
     in_catalog: true
-    kin_score: 22.2
+    kin_score: 26.8
     mcp: &id031
       status: none
     slug: shaarli
@@ -558,10 +558,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id033
       status: none
     slug: telegram
@@ -588,10 +588,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 16.9
     band: emerging
     in_catalog: true
-    kin_score: 17.3
+    kin_score: 20.1
     mcp: &id035
       status: none
     slug: wallabag
@@ -618,10 +618,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.0
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 72.3
     mcp: &id037
       status: none
     slug: whatsapp
@@ -648,10 +648,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id039
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -679,10 +679,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
-    band: thin
+    agent_readiness: 34.8
+    band: developing
     in_catalog: true
-    kin_score: 27.5
+    kin_score: 40.3
     mcp: &id041
       status: none
     slug: xing
@@ -707,10 +707,10 @@ noindex: false
 permalink: /applications/news-feed-reader/freshrss/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 26.2
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 45.1
+  kin_score: 46.3
   mcp: *id001
   name: Bluesky
   slug: bluesky
@@ -718,21 +718,21 @@ providers:
   tags: *id002
   url: /providers/bluesky/
 - agent_band: agent-ready
-  agent_readiness: 44.1
-  band: exemplar
+  agent_readiness: 43.2
+  band: strong
   in_catalog: true
-  kin_score: 67.1
+  kin_score: 65.9
   mcp: *id003
   name: Buffer
   slug: buffer
   status: profiled
   tags: *id004
   url: /providers/buffer/
-- agent_band: agent-ready
-  agent_readiness: 28.7
+- agent_band: agent-aware
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 43.9
+  kin_score: 44.2
   mcp: *id005
   name: diaspora*
   slug: diaspora
@@ -740,10 +740,10 @@ providers:
   tags: *id006
   url: /providers/diaspora/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id007
   name: Facebook
   slug: facebook
@@ -751,10 +751,10 @@ providers:
   tags: *id008
   url: /providers/facebook/
 - agent_band: agent-aware
-  agent_readiness: 20.9
+  agent_readiness: 20.4
   band: thin
   in_catalog: true
-  kin_score: 34.3
+  kin_score: 33.9
   mcp: *id009
   name: Lemmy
   slug: lemmy
@@ -762,10 +762,10 @@ providers:
   tags: *id010
   url: /providers/lemmy/
 - agent_band: agent-ready
-  agent_readiness: 35.5
+  agent_readiness: 32.1
   band: thin
   in_catalog: true
-  kin_score: 29.0
+  kin_score: 32.8
   mcp: *id011
   name: LinkAce
   slug: linkace
@@ -784,10 +784,10 @@ providers:
   tags: *id014
   url: /providers/linkding/
 - agent_band: agent-ready
-  agent_readiness: 47.4
+  agent_readiness: 46.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.4
+  kin_score: 77.8
   mcp: *id015
   name: LinkedIn
   slug: linkedin
@@ -795,10 +795,10 @@ providers:
   tags: *id016
   url: /providers/linkedin/
 - agent_band: agent-aware
-  agent_readiness: 22.5
-  band: thin
+  agent_readiness: 22.0
+  band: emerging
   in_catalog: true
-  kin_score: 26.5
+  kin_score: 25.5
   mcp: *id017
   name: Mastodon
   slug: mastodon
@@ -806,10 +806,10 @@ providers:
   tags: *id018
   url: /providers/mastodon/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id019
   name: Nextcloud Bookmarks
   slug: nextcloud
@@ -828,10 +828,10 @@ providers:
   tags: *id022
   url: null
 - agent_band: agent-aware
-  agent_readiness: 5.4
-  band: emerging
+  agent_readiness: 5.3
+  band: thin
   in_catalog: true
-  kin_score: 19.9
+  kin_score: 30.5
   mcp: *id023
   name: Pinboard
   slug: pinboard
@@ -839,10 +839,10 @@ providers:
   tags: *id024
   url: /providers/pinboard/
 - agent_band: agent-ready
-  agent_readiness: 38.4
+  agent_readiness: 37.6
   band: developing
   in_catalog: true
-  kin_score: 49.4
+  kin_score: 47.7
   mcp: *id025
   name: Pinterest
   slug: pinterest
@@ -850,10 +850,10 @@ providers:
   tags: *id026
   url: /providers/pinterest/
 - agent_band: agent-aware
-  agent_readiness: 21.6
-  band: emerging
+  agent_readiness: 21.1
+  band: thin
   in_catalog: true
-  kin_score: 17.1
+  kin_score: 29.1
   mcp: *id027
   name: Raindrop.io
   slug: raindrop-io
@@ -861,10 +861,10 @@ providers:
   tags: *id028
   url: /providers/raindrop-io/
 - agent_band: agent-ready
-  agent_readiness: 39.1
+  agent_readiness: 43.0
   band: strong
   in_catalog: true
-  kin_score: 63.0
+  kin_score: 64.4
   mcp: *id029
   name: Reddit
   slug: reddit
@@ -872,10 +872,10 @@ providers:
   tags: *id030
   url: /providers/reddit/
 - agent_band: agent-aware
-  agent_readiness: 23.2
-  band: emerging
+  agent_readiness: 20.2
+  band: thin
   in_catalog: true
-  kin_score: 22.2
+  kin_score: 26.8
   mcp: *id031
   name: Shaarli
   slug: shaarli
@@ -883,10 +883,10 @@ providers:
   tags: *id032
   url: /providers/shaarli/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id033
   name: Telegram
   slug: telegram
@@ -894,10 +894,10 @@ providers:
   tags: *id034
   url: /providers/telegram/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 16.9
   band: emerging
   in_catalog: true
-  kin_score: 17.3
+  kin_score: 20.1
   mcp: *id035
   name: Wallabag
   slug: wallabag
@@ -905,10 +905,10 @@ providers:
   tags: *id036
   url: /providers/wallabag/
 - agent_band: agent-ready
-  agent_readiness: 48.0
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 72.3
   mcp: *id037
   name: WhatsApp
   slug: whatsapp
@@ -916,10 +916,10 @@ providers:
   tags: *id038
   url: /providers/whatsapp/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id039
   name: X (Twitter)
   slug: x
@@ -927,10 +927,10 @@ providers:
   tags: *id040
   url: /providers/x/
 - agent_band: agent-ready
-  agent_readiness: 34.2
-  band: thin
+  agent_readiness: 34.8
+  band: developing
   in_catalog: true
-  kin_score: 27.5
+  kin_score: 40.3
   mcp: *id041
   name: XING
   slug: xing

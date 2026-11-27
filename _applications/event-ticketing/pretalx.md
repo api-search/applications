@@ -56,10 +56,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 28.3
+    kin_score: 27.9
     mcp: &id001
       status: none
     slug: friendly-captcha
@@ -86,10 +86,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.1
     band: thin
     in_catalog: true
-    kin_score: 33.9
+    kin_score: 34.2
     mcp: &id003
       status: none
     slug: orcid
@@ -116,10 +116,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.8
+    agent_readiness: 47.8
     band: thin
     in_catalog: true
-    kin_score: 38.4
+    kin_score: 37.6
     mcp: &id005
       source: https://developer.vimeo.com/api/mcp-server
       status: documented
@@ -147,10 +147,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id007
       status: none
     slug: youtube
@@ -175,10 +175,10 @@ noindex: false
 permalink: /applications/event-ticketing/pretalx/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 28.3
+  kin_score: 27.9
   mcp: *id001
   name: Friendly Captcha
   slug: friendly-captcha
@@ -186,10 +186,10 @@ providers:
   tags: *id002
   url: /providers/friendly-captcha/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.1
   band: thin
   in_catalog: true
-  kin_score: 33.9
+  kin_score: 34.2
   mcp: *id003
   name: ORCID
   slug: orcid
@@ -197,10 +197,10 @@ providers:
   tags: *id004
   url: /providers/orcid/
 - agent_band: agent-ready
-  agent_readiness: 48.8
+  agent_readiness: 47.8
   band: thin
   in_catalog: true
-  kin_score: 38.4
+  kin_score: 37.6
   mcp: *id005
   name: Vimeo
   slug: vimeo
@@ -208,10 +208,10 @@ providers:
   tags: *id006
   url: /providers/vimeo/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id007
   name: YouTube
   slug: youtube

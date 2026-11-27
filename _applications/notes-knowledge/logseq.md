@@ -55,11 +55,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.7
+    agent_band: agent-ready
+    agent_readiness: 37.3
     band: exemplar
     in_catalog: true
-    kin_score: 67.7
+    kin_score: 74.5
     mcp: &id001
       status: none
     slug: amazon-cognito
@@ -68,7 +68,7 @@ integrations:
     - Amazon Web Services
     - Authentication
     - Identity
-    - OAuth
+    - OpenID Connect
     url: /providers/amazon-cognito/
   layer: common
   name: Amazon Cognito (via aws-amplify)
@@ -86,10 +86,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id003
       source: https://github.com/PostHog/mcp
       status: verified
@@ -120,7 +120,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id005
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -145,11 +145,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/notes-knowledge/logseq/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 27.7
+- agent_band: agent-ready
+  agent_readiness: 37.3
   band: exemplar
   in_catalog: true
-  kin_score: 67.7
+  kin_score: 74.5
   mcp: *id001
   name: Amazon Cognito (via aws-amplify)
   slug: amazon-cognito
@@ -157,10 +157,10 @@ providers:
   tags: *id002
   url: /providers/amazon-cognito/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id003
   name: PostHog
   slug: posthog
@@ -171,7 +171,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id005
   name: Sentry
   slug: sentry-system

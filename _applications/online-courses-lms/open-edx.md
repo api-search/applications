@@ -5,6 +5,15 @@ app_url: https://github.com/openedx/edx-platform
 author: API Evangelist
 capabilities:
 - attribution: Turbo EA
+  id: BC-610.50
+  key: analytics-bi-management
+  layer: common
+  name: Analytics & BI Management
+  providers:
+  - Snowflake
+  url: /capabilities/analytics-bi-management/
+  via_parent: null
+- attribution: Turbo EA
   id: BC-420.10
   key: customer-data-management
   layer: common
@@ -32,15 +41,6 @@ capabilities:
   - MaxMind
   url: /capabilities/device-ip-location/
   via_parent: Device & IP Location
-- attribution: Turbo EA
-  id: BC-610
-  key: information-data-management
-  layer: common
-  name: Information & Data Management
-  providers:
-  - Snowflake
-  url: /capabilities/information-data-management/
-  via_parent: null
 - attribution: Turbo EA
   id: BC-4280
   key: product-telemetry-experimentation-management
@@ -90,10 +90,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.4
+    agent_readiness: 38.0
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 83.8
     mcp: &id001
       status: none
     slug: amazon-ses
@@ -119,22 +119,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id003
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id004
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase
   provider: firebase
@@ -151,10 +151,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id005
       status: none
     slug: mailchimp
@@ -181,10 +181,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 31.5
     mcp: &id007
       status: none
     slug: maxmind
@@ -211,10 +211,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 62.9
+    agent_readiness: 61.6
     band: exemplar
     in_catalog: true
-    kin_score: 77.7
+    kin_score: 78.1
     mcp: &id009
       source: https://support.optimizely.com/hc/en-us/articles/45320607594893
       status: documented
@@ -242,10 +242,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.8
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 51.3
+    kin_score: 50.4
     mcp: &id011
       status: none
     slug: sailthru
@@ -272,10 +272,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id013
       status: none
     slug: segment
@@ -294,18 +294,18 @@ integrations:
   tier: observed
 - capability:
     attribution: Turbo EA
-    id: BC-610
-    key: information-data-management
-    name: Information & Data Management
-    url: /capabilities/information-data-management/
+    id: BC-610.50
+    key: analytics-bi-management
+    name: Analytics & BI Management
+    url: /capabilities/analytics-bi-management/
     via_parent: null
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 45.8
+    agent_readiness: 44.9
     band: exemplar
     in_catalog: true
-    kin_score: 81.1
+    kin_score: 82.3
     mcp: &id015
       source: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
       status: verified
@@ -331,32 +331,32 @@ noindex: false
 permalink: /applications/online-courses-lms/open-edx/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 39.4
+  agent_readiness: 38.0
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 83.8
   mcp: *id001
   name: Amazon SES
   slug: amazon-ses
   status: profiled
   tags: *id002
   url: /providers/amazon-ses/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id003
   name: Firebase
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id004
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id005
   name: Mailchimp
   slug: mailchimp
@@ -364,10 +364,10 @@ providers:
   tags: *id006
   url: /providers/mailchimp/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 31.5
   mcp: *id007
   name: MaxMind
   slug: maxmind
@@ -375,10 +375,10 @@ providers:
   tags: *id008
   url: /providers/maxmind/
 - agent_band: agent-ready
-  agent_readiness: 62.9
+  agent_readiness: 61.6
   band: exemplar
   in_catalog: true
-  kin_score: 77.7
+  kin_score: 78.1
   mcp: *id009
   name: Optimizely
   slug: optimizely
@@ -386,10 +386,10 @@ providers:
   tags: *id010
   url: /providers/optimizely/
 - agent_band: agent-ready
-  agent_readiness: 33.8
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 51.3
+  kin_score: 50.4
   mcp: *id011
   name: Sailthru
   slug: sailthru
@@ -397,10 +397,10 @@ providers:
   tags: *id012
   url: /providers/sailthru/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id013
   name: Segment
   slug: segment
@@ -408,10 +408,10 @@ providers:
   tags: *id014
   url: /providers/segment/
 - agent_band: agent-native
-  agent_readiness: 45.8
+  agent_readiness: 44.9
   band: exemplar
   in_catalog: true
-  kin_score: 81.1
+  kin_score: 82.3
   mcp: *id015
   name: Snowflake
   slug: snowflake

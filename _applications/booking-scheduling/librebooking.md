@@ -80,10 +80,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id001
       status: none
     slug: facebook
@@ -110,10 +110,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id003
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -140,11 +140,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: strong
     in_catalog: true
-    kin_score: 48.1
+    kin_score: 65.1
     mcp: &id005
       status: none
     slug: google-recaptcha
@@ -170,11 +170,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id007
       status: none
     slug: google-identity-platform
@@ -201,10 +201,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id009
       status: none
     slug: microsoft-entra
@@ -231,10 +231,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id011
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -262,10 +262,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id013
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -293,10 +293,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id015
       source: https://docs.stripe.com/mcp
       status: verified
@@ -322,10 +322,10 @@ noindex: false
 permalink: /applications/booking-scheduling/librebooking/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id001
   name: Facebook Login
   slug: facebook
@@ -333,32 +333,32 @@ providers:
   tags: *id002
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id003
   name: Google Analytics
   slug: google-analytics
   status: profiled
   tags: *id004
   url: /providers/google-analytics/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: strong
   in_catalog: true
-  kin_score: 48.1
+  kin_score: 65.1
   mcp: *id005
   name: Google reCAPTCHA
   slug: google-recaptcha
   status: profiled
   tags: *id006
   url: /providers/google-recaptcha/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id007
   name: Google sign-in
   slug: google-identity-platform
@@ -366,10 +366,10 @@ providers:
   tags: *id008
   url: /providers/google-identity-platform/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id009
   name: Microsoft sign-in
   slug: microsoft-entra
@@ -377,10 +377,10 @@ providers:
   tags: *id010
   url: /providers/microsoft-entra/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id011
   name: PayPal
   slug: paypal
@@ -388,10 +388,10 @@ providers:
   tags: *id012
   url: /providers/paypal/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id013
   name: Slack
   slug: slack
@@ -399,10 +399,10 @@ providers:
   tags: *id014
   url: /providers/slack/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id015
   name: Stripe
   slug: stripe

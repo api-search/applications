@@ -75,10 +75,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.7
-    band: emerging
+    agent_readiness: 21.9
+    band: thin
     in_catalog: true
-    kin_score: 23.0
+    kin_score: 33.8
     mcp: &id003
       status: none
     slug: branch-io
@@ -101,22 +101,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id007
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id008
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics / Crashlytics
   provider: firebase
@@ -133,10 +133,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 65.7
+    agent_readiness: 64.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.6
+    kin_score: 82.4
     mcp: &id001
       source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
       status: verified
@@ -163,11 +163,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id005
       source: https://github.com/google/mcp
       status: verified
@@ -195,10 +195,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id009
       status: none
     slug: microsoft-teams
@@ -225,10 +225,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id011
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -254,10 +254,10 @@ noindex: false
 permalink: /applications/helpdesk-ticketing/freshdesk/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 65.7
+  agent_readiness: 64.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.6
+  kin_score: 82.4
   mcp: *id001
   name: Atlassian Jira Plus
   slug: jira
@@ -265,43 +265,43 @@ providers:
   tags: *id002
   url: /providers/jira/
 - agent_band: agent-aware
-  agent_readiness: 24.7
-  band: emerging
+  agent_readiness: 21.9
+  band: thin
   in_catalog: true
-  kin_score: 23.0
+  kin_score: 33.8
   mcp: *id003
   name: Branch
   slug: branch-io
   status: profiled
   tags: *id004
   url: /providers/branch-io/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id005
   name: Google Calendar
   slug: google-calendar
   status: profiled
   tags: *id006
   url: /providers/google-calendar/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id007
-  name: Google Firebase Analytics / Crashlytics
-  slug: firebase
-  status: profiled
-  tags: *id008
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 62.0
+  mcp: *id007
+  name: Google Firebase Analytics / Crashlytics
+  slug: google-firebase
+  status: profiled
+  tags: *id008
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 30.5
+  band: strong
+  in_catalog: true
+  kin_score: 65.1
   mcp: *id009
   name: Microsoft Teams
   slug: microsoft-teams
@@ -309,10 +309,10 @@ providers:
   tags: *id010
   url: /providers/microsoft-teams/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id011
   name: Slack
   slug: slack

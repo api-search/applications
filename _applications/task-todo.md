@@ -1512,14 +1512,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 28.7
+      agent_readiness: 30.8
       apps:
       - Super Productivity
       - Todoist
       - Vikunja
       band: exemplar
       in_catalog: true
-      kin_score: 75.6
+      kin_score: 74.8
       mcp:
         source: https://github.com/atlassian/trello-mcp-server
         status: verified
@@ -1538,13 +1538,13 @@ stack:
       tier: observed
       url: /providers/trello/
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - Super Productivity
       - Todoist
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp:
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -1561,35 +1561,13 @@ stack:
       - Project Management
       tier: observed
       url: /providers/jira/
-    - agent_band: agent-ready
-      agent_readiness: 63.4
-      apps:
-      - Super Productivity
-      band: exemplar
-      in_catalog: true
-      kin_score: 85.4
-      mcp:
-        source: https://github.com/github/github-mcp-server
-        status: verified
-      name: GitHub
-      slug: github
-      sources:
-      - https://github.com/super-productivity/super-productivity/tree/master/packages/plugin-dev
-      status: profiled
-      tags:
-      - Code
-      - Developer Tools
-      - Pipelines
-      - Platform
-      tier: observed
-      url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Super Productivity
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -1606,12 +1584,34 @@ stack:
       tier: observed
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 62.4
       apps:
       - Super Productivity
       band: exemplar
       in_catalog: true
-      kin_score: 76.8
+      kin_score: 85.0
+      mcp:
+        source: https://github.com/github/github-mcp-server
+        status: verified
+      name: GitHub
+      slug: github
+      sources:
+      - https://github.com/super-productivity/super-productivity/tree/master/packages/plugin-dev
+      status: profiled
+      tags:
+      - Code
+      - Developer Tools
+      - Pipelines
+      - Platform
+      tier: observed
+      url: /providers/github/
+    - agent_band: agent-ready
+      agent_readiness: 37.7
+      apps:
+      - Super Productivity
+      band: exemplar
+      in_catalog: true
+      kin_score: 81.9
       mcp:
         source: https://github.com/microsoft/azure-devops-mcp
         status: verified
@@ -1628,12 +1628,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-devops/
     - agent_band: agent-ready
-      agent_readiness: 57.0
+      agent_readiness: 55.8
       apps:
       - Super Productivity
       band: exemplar
       in_catalog: true
-      kin_score: 73.7
+      kin_score: 72.6
       mcp:
         source: https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server
         status: verified
@@ -1650,12 +1650,12 @@ stack:
       tier: observed
       url: /providers/clickup/
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 35.0
       apps:
       - Super Productivity
       band: exemplar
       in_catalog: true
-      kin_score: 69.8
+      kin_score: 68.1
       mcp:
         source: https://gitea.com/gitea/gitea-mcp
         status: verified
@@ -1671,13 +1671,34 @@ stack:
       - Version Control
       tier: observed
       url: /providers/gitea/
+    - agent_band: human-only
+      agent_readiness: 4.9
+      apps:
+      - Vikunja
+      band: developing
+      in_catalog: true
+      kin_score: 44.2
+      mcp:
+        status: none
+      name: Planka
+      slug: planka
+      sources:
+      - https://github.com/go-vikunja/vikunja/tree/main/pkg/modules/migration
+      status: profiled
+      tags:
+      - Agile
+      - Kanban
+      - Project Management
+      - Self-Hosted
+      tier: observed
+      url: /providers/planka/
     - agent_band: agent-ready
-      agent_readiness: 32.0
+      agent_readiness: 31.4
       apps:
       - Super Productivity
       band: developing
       in_catalog: true
-      kin_score: 42.1
+      kin_score: 40.8
       mcp:
         source: https://www.openproject.org/docs/system-admin-guide/integrations/mcp-server/
         status: verified
@@ -1694,12 +1715,12 @@ stack:
       tier: observed
       url: /providers/openproject/
     - agent_band: agent-ready
-      agent_readiness: 35.5
+      agent_readiness: 35.2
       apps:
       - Super Productivity
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.1
+      kin_score: 39.6
       mcp:
         source: https://linear.app/docs/mcp
         status: verified
@@ -1715,34 +1736,13 @@ stack:
       - Software-as-a-Service
       tier: observed
       url: /providers/linear-app/
-    - agent_band: human-only
-      agent_readiness: 5.0
-      apps:
-      - Vikunja
-      band: thin
-      in_catalog: true
-      kin_score: 33.6
-      mcp:
-        status: none
-      name: Planka
-      slug: planka
-      sources:
-      - https://github.com/go-vikunja/vikunja/tree/main/pkg/modules/migration
-      status: profiled
-      tags:
-      - Agile
-      - Kanban
-      - Project Management
-      - Self-Hosted
-      tier: observed
-      url: /providers/planka/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Super Productivity
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp:
         status: none
       name: Nextcloud Deck
@@ -1758,12 +1758,12 @@ stack:
       tier: observed
       url: /providers/nextcloud/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Super Productivity
       band: emerging
       in_catalog: true
-      kin_score: 25.2
+      kin_score: 24.3
       mcp:
         status: none
       name: Redmine
@@ -1779,7 +1779,7 @@ stack:
       tier: observed
       url: /providers/redmine/
     - agent_band: agent-aware
-      agent_readiness: 22.0
+      agent_readiness: 21.6
       apps:
       - Vikunja
       band: emerging
@@ -1805,13 +1805,36 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.6
+      agent_readiness: 25.9
       apps:
-      - Super Productivity
+      - Tasks.org
       - Vikunja
       band: strong
       in_catalog: true
-      kin_score: 55.7
+      kin_score: 58.2
+      mcp:
+        status: none
+      name: Microsoft To Do
+      slug: microsoft-to-do
+      sources:
+      - https://github.com/go-vikunja/vikunja/tree/main/pkg/modules/migration
+      - https://raw.githubusercontent.com/tasks/tasks/main/gradle/libs.versions.toml
+      status: profiled
+      tags:
+      - Microsoft
+      - Microsoft 365
+      - Productivity
+      - Task
+      tier: observed
+      url: /providers/microsoft-to-do/
+    - agent_band: agent-aware
+      agent_readiness: 22.2
+      apps:
+      - Super Productivity
+      - Vikunja
+      band: developing
+      in_catalog: true
+      kin_score: 53.8
       mcp:
         source: https://developer.todoist.com/api/v1/#tag/MCP
         status: verified
@@ -1829,36 +1852,13 @@ stack:
       tier: observed
       url: /providers/todoist/
     - agent_band: agent-aware
-      agent_readiness: 25.9
-      apps:
-      - Tasks.org
-      - Vikunja
-      band: developing
-      in_catalog: true
-      kin_score: 52.8
-      mcp:
-        status: none
-      name: Microsoft To Do
-      slug: microsoft-to-do
-      sources:
-      - https://github.com/go-vikunja/vikunja/tree/main/pkg/modules/migration
-      - https://raw.githubusercontent.com/tasks/tasks/main/gradle/libs.versions.toml
-      status: profiled
-      tags:
-      - Microsoft
-      - Microsoft 365
-      - Productivity
-      - Task
-      tier: observed
-      url: /providers/microsoft-to-do/
-    - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - Super Productivity
       - Vikunja
       band: emerging
       in_catalog: true
-      kin_score: 17.6
+      kin_score: 25.5
       mcp:
         source: https://help.ticktick.com/articles/7438129581631995904
         status: verified
@@ -1875,13 +1875,13 @@ stack:
       - Task Management
       tier: observed
       url: /providers/ticktick/
-    - agent_band: agent-aware
-      agent_readiness: 27.1
+    - agent_band: agent-ready
+      agent_readiness: 37.9
       apps:
       - Tasks.org
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 47.0
+      kin_score: 59.8
       mcp:
         status: none
       name: Google Tasks
@@ -1897,12 +1897,12 @@ stack:
       tier: observed
       url: /providers/google-tasks/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Tasks.org
       band: emerging
       in_catalog: true
-      kin_score: 17.9
+      kin_score: 22.7
       mcp:
         status: none
       name: EteSync
@@ -1918,12 +1918,12 @@ stack:
       tier: observed
       url: /providers/etesync/
     - agent_band: agent-aware
-      agent_readiness: 25.1
+      agent_readiness: 24.6
       apps:
       - Todoist
       band: developing
       in_catalog: true
-      kin_score: 44.4
+      kin_score: 41.8
       mcp:
         status: none
       name: Reclaim.ai
@@ -1939,12 +1939,12 @@ stack:
       tier: declared
       url: /providers/reclaim-ai/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 18.3
       apps:
       - Todoist
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.1
+      kin_score: 27.9
       mcp:
         source: https://help.sunsama.com/docs/integrations/mcp
         status: verified
@@ -1985,15 +1985,15 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Super Productivity
       - TickTick
       - Todoist
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2012,13 +2012,13 @@ stack:
       tier: observed
       url: /providers/google-calendar/
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - TickTick
       - Todoist
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2036,12 +2036,12 @@ stack:
       tier: declared
       url: /providers/microsoft-outlook/
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 36.0
       apps:
       - TickTick
       band: strong
       in_catalog: true
-      kin_score: 62.7
+      kin_score: 64.9
       mcp:
         status: none
       name: Exchange Calendar
@@ -2057,12 +2057,12 @@ stack:
       tier: declared
       url: /providers/microsoft-exchange/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - TickTick
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: iCloud Calendar / Apple Health
@@ -2081,9 +2081,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - TickTick
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 21.2
+      kin_score: 27.1
       mcp:
         status: none
       name: Spark (Readdle)
@@ -2104,7 +2104,7 @@ stack:
       - Todoist
       band: emerging
       in_catalog: true
-      kin_score: 12.0
+      kin_score: 19.8
       mcp:
         status: none
       name: Fantastical (Flexibits)
@@ -2128,12 +2128,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 56.8
       apps:
       - TickTick
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.3
       mcp:
         source: https://developers.notion.com/docs/mcp
         status: verified
@@ -2149,13 +2149,13 @@ stack:
       - Notes
       tier: declared
       url: /providers/notion/
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.0
       apps:
       - Todoist
       band: developing
       in_catalog: true
-      kin_score: 51.2
+      kin_score: 53.0
       mcp:
         source: https://dev.evernote.com/
         status: documented
@@ -2180,12 +2180,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Todoist
       band: thin
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 32.8
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=toggl
         status: verified
@@ -2202,12 +2202,12 @@ stack:
       tier: declared
       url: /providers/toggl/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 28.0
       apps:
       - Todoist
       band: thin
       in_catalog: true
-      kin_score: 32.3
+      kin_score: 31.1
       mcp:
         status: none
       name: Everhour
@@ -2231,12 +2231,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Todoist
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -2260,12 +2260,12 @@ stack:
       via_parent: Speech & Voice
     providers:
     - agent_band: agent-ready
-      agent_readiness: 60.4
+      agent_readiness: 59.4
       apps:
       - Todoist
       band: exemplar
       in_catalog: true
-      kin_score: 72.7
+      kin_score: 73.1
       mcp:
         source: https://docs.fireflies.ai/mcp-tools/overview
         status: verified
@@ -2292,12 +2292,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Todoist
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2314,12 +2314,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 35.7
       apps:
       - Todoist
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 67.7
       mcp:
         source: https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server/
         status: verified
@@ -2336,12 +2336,12 @@ stack:
       tier: declared
       url: /providers/n8n/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 31.1
       apps:
       - Todoist
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.3
+      kin_score: 65.5
       mcp:
         source: https://pipedream.com/docs/connect/mcp
         status: verified
@@ -2358,12 +2358,12 @@ stack:
       tier: declared
       url: /providers/pipedream/
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 22.1
       apps:
       - Todoist
       band: developing
       in_catalog: true
-      kin_score: 54.1
+      kin_score: 53.4
       mcp:
         status: none
       name: Albato
@@ -2379,12 +2379,12 @@ stack:
       tier: declared
       url: /providers/albato/
     - agent_band: agent-aware
-      agent_readiness: 19.8
+      agent_readiness: 19.4
       apps:
       - Todoist
       band: developing
       in_catalog: true
-      kin_score: 45.7
+      kin_score: 45.4
       mcp:
         status: none
       name: Integrately
@@ -2400,12 +2400,12 @@ stack:
       tier: declared
       url: /providers/integrately/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Todoist
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -2422,12 +2422,12 @@ stack:
       tier: declared
       url: /providers/make/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - Todoist
       band: emerging
       in_catalog: true
-      kin_score: 25.7
+      kin_score: 25.2
       mcp:
         status: none
       name: Raycast
@@ -2443,12 +2443,12 @@ stack:
       tier: declared
       url: /providers/raycast/
     - agent_band: agent-ready
-      agent_readiness: 43.3
+      agent_readiness: 42.4
       apps:
       - Todoist
       band: emerging
       in_catalog: true
-      kin_score: 25.0
+      kin_score: 24.1
       mcp:
         source: https://github.com/IFTTT/ifttt-plugins
         status: verified
@@ -2479,7 +2479,7 @@ stack:
       - Vikunja
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2497,12 +2497,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - TickTick
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -2518,28 +2518,28 @@ stack:
       - Observability
       tier: observed
       url: /providers/bugsnag/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Tasks.org
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/tasks/tasks/main/gradle/libs.versions.toml
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-4280.30
@@ -2548,31 +2548,31 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - TickTick
       - Todoist
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.ticktick.task/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.todoist/latest/
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - TickTick
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -2589,12 +2589,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - TickTick
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id003
         status: none
       name: Facebook
@@ -2618,12 +2618,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Tasks.org
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2640,12 +2640,12 @@ stack:
       tier: observed
       url: /providers/google-drive/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - Super Productivity
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: OneDrive
@@ -2661,12 +2661,12 @@ stack:
       tier: observed
       url: /providers/microsoft-onedrive/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Super Productivity
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -2691,12 +2691,12 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Todoist
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2713,12 +2713,12 @@ stack:
       tier: declared
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Todoist
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -2734,12 +2734,12 @@ stack:
       tier: declared
       url: /providers/microsoft-teams/
     - agent_band: agent-ready
-      agent_readiness: 35.6
+      agent_readiness: 34.9
       apps:
       - Todoist
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 46.7
       mcp:
         source: https://www.zoho.com/mcp/
         status: verified
@@ -2764,12 +2764,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Tasks.org
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -2785,13 +2785,13 @@ stack:
       - Maps
       tier: observed
       url: /providers/google-maps/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - Tasks.org
       band: developing
       in_catalog: true
-      kin_score: 44.4
+      kin_score: 45.5
       mcp:
         status: none
       name: OpenStreetMap
@@ -2814,29 +2814,29 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Donetick
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/donetick/donetick/main/go.mod
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 22.0
+      agent_readiness: 21.6
       apps:
       - Donetick
       band: thin
       in_catalog: true
-      kin_score: 29.2
+      kin_score: 28.1
       mcp:
         status: none
       name: Pushover
@@ -2860,13 +2860,13 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - TickTick
       - Todoist
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook
       slug: facebook
@@ -2886,13 +2886,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - TickTick
       - Todoist
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook
       slug: facebook
@@ -2912,13 +2912,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Donetick
       - TickTick
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -2942,13 +2942,13 @@ stack:
       url: /capabilities/in-app-purchases-app-store-billing/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Tasks.org
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: Google Play Billing
@@ -2972,12 +2972,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 24.1
       apps:
       - Todoist
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 36.6
       mcp:
         status: none
       name: Zoho Mail
@@ -3001,12 +3001,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Donetick
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3031,12 +3031,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.1
+      agent_readiness: 52.6
       apps:
       - Vikunja
       band: developing
       in_catalog: true
-      kin_score: 40.2
+      kin_score: 39.4
       mcp:
         status: none
       name: Unsplash
@@ -3060,12 +3060,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - TickTick
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -3091,12 +3091,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Todoist
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -3113,12 +3113,12 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Todoist
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -3135,12 +3135,12 @@ stack:
       tier: declared
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 42.6
+      agent_readiness: 41.8
       apps:
       - Todoist
       band: exemplar
       in_catalog: true
-      kin_score: 79.9
+      kin_score: 79.8
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -3168,7 +3168,7 @@ summary:
     unchecked: 1
     verified: 35
   mcp_verified: 35
-  mean_kin_score: 53.6
+  mean_kin_score: 55.4
   observed: 35
   queued: 1
   reference_apps: 6

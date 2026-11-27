@@ -36,11 +36,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id001
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -68,10 +68,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.5
+    agent_readiness: 15.1
     band: thin
     in_catalog: true
-    kin_score: 26.3
+    kin_score: 26.5
     mcp: &id003
       status: none
     slug: sage-intacct
@@ -98,10 +98,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.3
+    agent_readiness: 60.0
     band: exemplar
     in_catalog: true
-    kin_score: 82.4
+    kin_score: 87.1
     mcp: &id005
       source: https://github.com/XeroAPI/xero-mcp-server
       status: verified
@@ -126,11 +126,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/field-service/servicetitan/
 providers:
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id001
   name: QuickBooks Desktop/Online
   slug: quickbooks
@@ -138,10 +138,10 @@ providers:
   tags: *id002
   url: /providers/quickbooks/
 - agent_band: agent-aware
-  agent_readiness: 15.5
+  agent_readiness: 15.1
   band: thin
   in_catalog: true
-  kin_score: 26.3
+  kin_score: 26.5
   mcp: *id003
   name: Sage Intacct
   slug: sage-intacct
@@ -149,10 +149,10 @@ providers:
   tags: *id004
   url: /providers/sage-intacct/
 - agent_band: agent-native
-  agent_readiness: 61.3
+  agent_readiness: 60.0
   band: exemplar
   in_catalog: true
-  kin_score: 82.4
+  kin_score: 87.1
   mcp: *id005
   name: Xero
   slug: xero

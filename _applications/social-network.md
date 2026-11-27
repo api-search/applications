@@ -1148,12 +1148,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Friendica
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -1170,12 +1170,12 @@ stack:
       tier: observed
       url: /providers/x/
     - agent_band: agent-aware
-      agent_readiness: 26.2
+      agent_readiness: 25.7
       apps:
       - Friendica
       band: developing
       in_catalog: true
-      kin_score: 45.1
+      kin_score: 46.3
       mcp:
         status: none
       name: Bluesky
@@ -1191,12 +1191,12 @@ stack:
       tier: observed
       url: /providers/bluesky/
     - agent_band: agent-aware
-      agent_readiness: 12.9
+      agent_readiness: 12.7
       apps:
       - Friendica
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.6
+      kin_score: 33.0
       mcp:
         status: unknown
       name: pnut.io
@@ -1217,7 +1217,7 @@ stack:
       - Friendica
       band: minimal
       in_catalog: true
-      kin_score: 7.9
+      kin_score: 8.5
       mcp:
         status: none
       name: Tumblr
@@ -1231,12 +1231,12 @@ stack:
       tier: observed
       url: /providers/tumblr/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Friendica
       band: minimal
       in_catalog: true
-      kin_score: 5.4
+      kin_score: 7.6
       mcp:
         status: none
       name: Nitter
@@ -1260,12 +1260,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 31.9
       apps:
       - Friendica
       band: developing
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 46.6
       mcp:
         source: https://github.com/WordPress/mcp-adapter
         status: verified
@@ -1287,7 +1287,7 @@ stack:
       - Friendica
       band: emerging
       in_catalog: true
-      kin_score: 13.2
+      kin_score: 21.4
       mcp:
         status: none
       name: Dreamwidth
@@ -1303,12 +1303,12 @@ stack:
       tier: observed
       url: /providers/dreamwidth/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Friendica
       band: emerging
       in_catalog: true
-      kin_score: 11.5
+      kin_score: 19.7
       mcp:
         status: unknown
       name: LiveJournal
@@ -1329,7 +1329,7 @@ stack:
       - Friendica
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.2
       mcp:
         status: unknown
       name: InsaneJournal
@@ -1353,13 +1353,13 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 36.1
       apps:
       - Mastodon
       - Misskey
       band: strong
       in_catalog: true
-      kin_score: 60.8
+      kin_score: 61.4
       mcp:
         source: https://github.com/DeepL/deepl-mcp-server
         status: verified
@@ -1377,12 +1377,12 @@ stack:
       tier: observed
       url: /providers/deepl/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 23.3
       apps:
       - Mastodon
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.2
+      kin_score: 24.3
       mcp:
         source: https://github.com/LibreTranslate/LibreTranslate-MCP
         status: verified
@@ -1407,12 +1407,12 @@ stack:
       via_parent: Social Networks & Community
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.3
       apps:
       - Friendica
       band: thin
       in_catalog: true
-      kin_score: 37.1
+      kin_score: 36.9
       mcp:
         source: https://github.com/discourse/discourse-mcp
         status: verified
@@ -1436,12 +1436,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 18.3
+      agent_readiness: 15.1
       apps:
       - Friendica
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.8
+      kin_score: 27.3
       mcp:
         status: none
       name: Invidious
@@ -1467,14 +1467,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - Mastodon
       - Misskey
       - Pixelfed
       band: thin
       in_catalog: true
-      kin_score: 31.5
+      kin_score: 31.1
       mcp:
         status: none
       name: hCaptcha
@@ -1492,13 +1492,13 @@ stack:
       tier: observed
       url: /providers/hcaptcha/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 24.2
       apps:
       - Misskey
       - Pixelfed
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 28.8
       mcp:
         source: https://github.com/cloudflare/mcp
         status: verified
@@ -1515,13 +1515,13 @@ stack:
       - Turnstile
       tier: observed
       url: /providers/cloudflare-turnstile/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Misskey
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Google reCAPTCHA
@@ -1537,12 +1537,12 @@ stack:
       tier: observed
       url: /providers/google-recaptcha/
     - agent_band: agent-aware
-      agent_readiness: 15.8
+      agent_readiness: 12.7
       apps:
       - Misskey
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 30.1
       mcp:
         status: none
       name: mCaptcha
@@ -1565,8 +1565,8 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Friendica
       - Mastodon
@@ -1574,7 +1574,7 @@ stack:
       - Pixelfed
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -1593,12 +1593,12 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Mastodon
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1615,12 +1615,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-blob-storage/
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 44.1
       apps:
       - Pixelfed
       band: developing
       in_catalog: true
-      kin_score: 45.0
+      kin_score: 47.4
       mcp:
         source: https://docs.digitalocean.com/reference/mcp/
         status: verified
@@ -1637,12 +1637,12 @@ stack:
       tier: observed
       url: /providers/digital-ocean/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Mastodon
       band: thin
       in_catalog: true
-      kin_score: 36.1
+      kin_score: 34.5
       mcp:
         status: none
       name: OpenStack Swift
@@ -1665,15 +1665,15 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-native
-      agent_readiness: 49.8
+    - agent_band: agent-ready
+      agent_readiness: 41.5
       apps:
       - Mastodon
       - Misskey
       - Pixelfed
       band: developing
       in_catalog: true
-      kin_score: 47.4
+      kin_score: 46.5
       mcp:
         source: https://github.com/redis/mcp-redis
         status: verified
@@ -1698,7 +1698,7 @@ stack:
       - Misskey
       band: emerging
       in_catalog: true
-      kin_score: 12.2
+      kin_score: 11.6
       mcp:
         status: none
       name: PostgreSQL
@@ -1715,12 +1715,12 @@ stack:
       tier: observed
       url: /providers/postgresql/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Pixelfed
       band: thin
       in_catalog: true
-      kin_score: 31.8
+      kin_score: 30.5
       mcp:
         status: none
       name: MySQL
@@ -1744,14 +1744,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Instagram
       - Misskey
       - Threads
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -1770,12 +1770,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 37.4
+      agent_readiness: 41.3
       apps:
       - Friendica
       band: exemplar
       in_catalog: true
-      kin_score: 72.2
+      kin_score: 70.7
       mcp:
         source: https://github.com/matomo-org/plugin-McpServer
         status: verified
@@ -1806,7 +1806,7 @@ stack:
       - Misskey
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1824,12 +1824,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-aware
-      agent_readiness: 26.3
+      agent_readiness: 26.2
       apps:
       - Bluesky
       band: strong
       in_catalog: true
-      kin_score: 58.6
+      kin_score: 58.4
       mcp:
         source: https://docs.bitdrift.io/ai/mcp.md
         status: verified
@@ -1854,12 +1854,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - Pixelfed
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -1875,12 +1875,12 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - Pixelfed
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -1897,12 +1897,12 @@ stack:
       tier: observed
       url: /providers/resend/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - Pixelfed
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -1927,12 +1927,12 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.3
+      agent_readiness: 32.7
       apps:
       - Friendica
       band: developing
       in_catalog: true
-      kin_score: 39.8
+      kin_score: 41.2
       mcp:
         source: https://github.com/Automattic/mcp-server-gravatar
         status: verified
@@ -1954,7 +1954,7 @@ stack:
       - Friendica
       band: emerging
       in_catalog: true
-      kin_score: 14.3
+      kin_score: 21.5
       mcp:
         status: none
       name: Libravatar
@@ -1978,12 +1978,12 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Friendica
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -1999,13 +1999,13 @@ stack:
       - Maps
       tier: observed
       url: /providers/google-maps/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - Friendica
       band: developing
       in_catalog: true
-      kin_score: 44.4
+      kin_score: 45.5
       mcp:
         status: none
       name: OpenStreetMap
@@ -2029,13 +2029,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.3
+      agent_readiness: 20.5
       apps:
       - Bluesky
       - Pixelfed
       band: thin
       in_catalog: true
-      kin_score: 31.4
+      kin_score: 30.6
       mcp:
         source: https://github.com/expo/expo-mcp
         status: verified
@@ -2060,13 +2060,13 @@ stack:
       url: /capabilities/knowledge-curation-taxonomy-management/
       via_parent: Knowledge Curation & Taxonomy Management
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Mastodon
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 78.4
       mcp:
         source: https://www.elastic.co/docs/solutions/search/mcp
         status: verified
@@ -2088,7 +2088,7 @@ stack:
       - Misskey
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 52.5
       mcp:
         source: https://github.com/meilisearch/meilisearch-mcp
         status: verified
@@ -2113,13 +2113,13 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Instagram
       - Threads
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook Login / Notifications
@@ -2144,12 +2144,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.3
+      agent_readiness: 52.6
       apps:
       - Bluesky
       band: thin
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 34.7
       mcp:
         source: https://github.com/growthbook/growthbook-mcp
         status: verified
@@ -2174,12 +2174,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - Pixelfed
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -2208,7 +2208,7 @@ stack:
       - Friendica
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 4.3
       mcp:
         status: none
       name: GeoNames
@@ -2229,13 +2229,13 @@ stack:
       url: /capabilities/weather-environment/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 22.5
+    - agent_band: agent-ready
+      agent_readiness: 30.0
       apps:
       - Friendica
       band: strong
       in_catalog: true
-      kin_score: 60.4
+      kin_score: 59.1
       mcp:
         source: https://mcp.openweathermap.org/
         status: verified
@@ -2260,12 +2260,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.3
+      agent_readiness: 42.4
       apps:
       - Friendica
       band: emerging
       in_catalog: true
-      kin_score: 25.0
+      kin_score: 24.1
       mcp:
         source: https://github.com/IFTTT/ifttt-plugins
         status: verified
@@ -2293,7 +2293,7 @@ summary:
     unchecked: 0
     verified: 24
   mcp_verified: 24
-  mean_kin_score: 41.2
+  mean_kin_score: 42.9
   observed: 44
   queued: 0
   reference_apps: 7

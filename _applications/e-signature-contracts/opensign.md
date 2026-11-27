@@ -92,11 +92,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -124,10 +124,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 9.4
-    band: emerging
+    agent_readiness: 6.3
+    band: thin
     in_catalog: true
-    kin_score: 20.7
+    kin_score: 30.9
     mcp: &id003
       source: https://github.com/eideasy/eideasy-mcp
       status: verified
@@ -155,10 +155,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id005
       source: https://github.com/google/mcp
       status: verified
@@ -186,10 +186,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id007
       status: none
     slug: google-tag-manager
@@ -216,10 +216,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 32.6
+    kin_score: 31.6
     mcp: &id009
       source: https://github.com/mailgun/mailgun-mcp-server
       status: verified
@@ -247,10 +247,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id011
       source: https://github.com/PostHog/mcp
       status: verified
@@ -278,10 +278,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id013
       source: https://zapier.com/mcp
       status: verified
@@ -306,11 +306,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/e-signature-contracts/opensign/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -318,10 +318,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-aware
-  agent_readiness: 9.4
-  band: emerging
+  agent_readiness: 6.3
+  band: thin
   in_catalog: true
-  kin_score: 20.7
+  kin_score: 30.9
   mcp: *id003
   name: eID Easy
   slug: eid-easy
@@ -329,10 +329,10 @@ providers:
   tags: *id004
   url: /providers/eid-easy/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id005
   name: Google APIs
   slug: google
@@ -340,10 +340,10 @@ providers:
   tags: *id006
   url: /providers/google/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 35.8
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 65.8
   mcp: *id007
   name: Google Tag Manager
   slug: google-tag-manager
@@ -351,10 +351,10 @@ providers:
   tags: *id008
   url: /providers/google-tag-manager/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 32.6
+  kin_score: 31.6
   mcp: *id009
   name: Mailgun
   slug: mailgun
@@ -362,10 +362,10 @@ providers:
   tags: *id010
   url: /providers/mailgun/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id011
   name: PostHog
   slug: posthog
@@ -373,10 +373,10 @@ providers:
   tags: *id012
   url: /providers/posthog/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id013
   name: Zapier
   slug: zapier

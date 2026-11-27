@@ -46,10 +46,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.6
-    band: emerging
+    agent_readiness: 1.7
+    band: minimal
     in_catalog: true
-    kin_score: 11.6
+    kin_score: 10.6
     mcp: &id001
       status: none
     slug: moodle
@@ -79,7 +79,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id003
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -105,10 +105,10 @@ noindex: false
 permalink: /applications/video-streaming-media-server/mediacms/
 providers:
 - agent_band: human-only
-  agent_readiness: 0.6
-  band: emerging
+  agent_readiness: 1.7
+  band: minimal
   in_catalog: true
-  kin_score: 11.6
+  kin_score: 10.6
   mcp: *id001
   name: Moodle
   slug: moodle
@@ -119,7 +119,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id003
   name: Sentry
   slug: sentry-system

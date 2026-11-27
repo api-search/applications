@@ -68,10 +68,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id001
       status: none
     slug: apple
@@ -101,7 +101,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 10.3
+    kin_score: 10.2
     mcp: &id003
       status: unknown
     slug: audible
@@ -131,7 +131,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.4
+    kin_score: 9.6
     mcp: &id005
       status: none
     slug: audiobookcovers
@@ -158,10 +158,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.8
+    agent_readiness: 12.7
     band: emerging
     in_catalog: true
-    kin_score: 15.9
+    kin_score: 15.8
     mcp: &id007
       status: none
     slug: audnexus
@@ -191,7 +191,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.1
+    kin_score: 6.8
     mcp: &id009
       status: none
     slug: fantlab
@@ -217,11 +217,11 @@ integrations:
     via_parent: News & Publishing
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.4
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 34.1
+    kin_score: 54.5
     mcp: &id011
       status: none
     slug: google-books
@@ -247,11 +247,11 @@ integrations:
     via_parent: Audio & Music
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_band: agent-aware
+    agent_readiness: 27.2
     band: thin
     in_catalog: true
-    kin_score: 37.9
+    kin_score: 38.2
     mcp: &id013
       status: none
     slug: musicbrainz
@@ -278,10 +278,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.8
+    agent_readiness: 19.3
     band: emerging
     in_catalog: true
-    kin_score: 23.9
+    kin_score: 22.4
     mcp: &id015
       status: unknown
     slug: open-library
@@ -306,10 +306,10 @@ noindex: false
 permalink: /applications/podcasts-audiobooks/audiobookshelf/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id001
   name: Apple (iTunes Search API)
   slug: apple
@@ -320,7 +320,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 10.3
+  kin_score: 10.2
   mcp: *id003
   name: Audible
   slug: audible
@@ -331,7 +331,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.4
+  kin_score: 9.6
   mcp: *id005
   name: AudiobookCovers
   slug: audiobookcovers
@@ -339,10 +339,10 @@ providers:
   tags: *id006
   url: /providers/audiobookcovers/
 - agent_band: agent-aware
-  agent_readiness: 15.8
+  agent_readiness: 12.7
   band: emerging
   in_catalog: true
-  kin_score: 15.9
+  kin_score: 15.8
   mcp: *id007
   name: Audnexus
   slug: audnexus
@@ -353,29 +353,29 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.1
+  kin_score: 6.8
   mcp: *id009
   name: FantLab
   slug: fantlab
   status: profiled
   tags: *id010
   url: /providers/fantlab/
-- agent_band: agent-aware
-  agent_readiness: 25.4
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 34.1
+  kin_score: 54.5
   mcp: *id011
   name: Google Books
   slug: google-books
   status: profiled
   tags: *id012
   url: /providers/google-books/
-- agent_band: agent-ready
-  agent_readiness: 31.3
+- agent_band: agent-aware
+  agent_readiness: 27.2
   band: thin
   in_catalog: true
-  kin_score: 37.9
+  kin_score: 38.2
   mcp: *id013
   name: MusicBrainz
   slug: musicbrainz
@@ -383,10 +383,10 @@ providers:
   tags: *id014
   url: /providers/musicbrainz/
 - agent_band: agent-aware
-  agent_readiness: 19.8
+  agent_readiness: 19.3
   band: emerging
   in_catalog: true
-  kin_score: 23.9
+  kin_score: 22.4
   mcp: *id015
   name: Open Library
   slug: open-library

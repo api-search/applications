@@ -129,11 +129,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 10.8
-    band: emerging
+    agent_band: agent-native
+    agent_readiness: 42.5
+    band: strong
     in_catalog: true
-    kin_score: 22.4
+    kin_score: 62.4
     mcp: &id001
       status: none
     slug: amazon-chime
@@ -160,10 +160,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.7
+    agent_readiness: 37.6
     band: exemplar
     in_catalog: true
-    kin_score: 74.8
+    kin_score: 79.6
     mcp: &id003
       status: none
     slug: cloudfront
@@ -189,11 +189,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id005
       source: https://github.com/awslabs/mcp
       status: verified
@@ -221,10 +221,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id007
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -252,10 +252,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.9
+    agent_readiness: 39.5
     band: exemplar
     in_catalog: true
-    kin_score: 72.1
+    kin_score: 71.8
     mcp: &id009
       source: https://auth0.com/docs/get-started/auth0-mcp-server
       status: verified
@@ -283,10 +283,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.9
-    band: strong
+    agent_readiness: 36.6
+    band: exemplar
     in_catalog: true
-    kin_score: 65.7
+    kin_score: 68.0
     mcp: &id011
       status: none
     slug: candid-health
@@ -314,9 +314,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 2.5
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 21.2
+    kin_score: 28.0
     mcp: &id013
       source: https://www.dynamsoft.com/codepool/mcp-server-dynamsoft-sdk-integration.html
       status: documented
@@ -344,17 +344,16 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.2
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 31.6
+    kin_score: 32.8
     mcp: &id015
       status: none
     slug: oystehr
     status: profiled
     tags: &id016
     - Company
-    - Developer-First
     - Electronic Health Records
     - Health Tech
     url: /providers/oystehr/
@@ -374,10 +373,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id017
       status: none
     slug: sendgrid
@@ -407,7 +406,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id019
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -435,10 +434,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id021
       source: https://docs.stripe.com/mcp
       status: verified
@@ -466,10 +465,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id023
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -494,11 +493,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/telehealth-patient/ottehr/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 10.8
-  band: emerging
+- agent_band: agent-native
+  agent_readiness: 42.5
+  band: strong
   in_catalog: true
-  kin_score: 22.4
+  kin_score: 62.4
   mcp: *id001
   name: Amazon Chime SDK
   slug: amazon-chime
@@ -506,21 +505,21 @@ providers:
   tags: *id002
   url: /providers/amazon-chime/
 - agent_band: agent-ready
-  agent_readiness: 35.7
+  agent_readiness: 37.6
   band: exemplar
   in_catalog: true
-  kin_score: 74.8
+  kin_score: 79.6
   mcp: *id003
   name: Amazon CloudFront
   slug: cloudfront
   status: profiled
   tags: *id004
   url: /providers/cloudfront/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id005
   name: Amazon S3
   slug: amazon-s3
@@ -528,10 +527,10 @@ providers:
   tags: *id006
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id007
   name: Anthropic
   slug: anthropic
@@ -539,10 +538,10 @@ providers:
   tags: *id008
   url: /providers/anthropic/
 - agent_band: agent-ready
-  agent_readiness: 39.9
+  agent_readiness: 39.5
   band: exemplar
   in_catalog: true
-  kin_score: 72.1
+  kin_score: 71.8
   mcp: *id009
   name: Auth0
   slug: auth0
@@ -550,10 +549,10 @@ providers:
   tags: *id010
   url: /providers/auth0/
 - agent_band: agent-ready
-  agent_readiness: 36.9
-  band: strong
+  agent_readiness: 36.6
+  band: exemplar
   in_catalog: true
-  kin_score: 65.7
+  kin_score: 68.0
   mcp: *id011
   name: Candid Health
   slug: candid-health
@@ -562,9 +561,9 @@ providers:
   url: /providers/candid-health/
 - agent_band: human-only
   agent_readiness: 2.5
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 21.2
+  kin_score: 28.0
   mcp: *id013
   name: Dynamsoft Web TWAIN
   slug: dynamsoft
@@ -572,10 +571,10 @@ providers:
   tags: *id014
   url: /providers/dynamsoft/
 - agent_band: agent-aware
-  agent_readiness: 24.2
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 31.6
+  kin_score: 32.8
   mcp: *id015
   name: Oystehr
   slug: oystehr
@@ -583,10 +582,10 @@ providers:
   tags: *id016
   url: /providers/oystehr/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id017
   name: SendGrid
   slug: sendgrid
@@ -597,7 +596,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id019
   name: Sentry
   slug: sentry-system
@@ -605,10 +604,10 @@ providers:
   tags: *id020
   url: /providers/sentry-system/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id021
   name: Stripe
   slug: stripe
@@ -616,10 +615,10 @@ providers:
   tags: *id022
   url: /providers/stripe/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id023
   name: Twilio
   slug: twilio

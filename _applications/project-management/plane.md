@@ -83,10 +83,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id001
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -114,10 +114,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 35.0
     band: exemplar
     in_catalog: true
-    kin_score: 69.8
+    kin_score: 68.1
     mcp: &id003
       source: https://gitea.com/gitea/gitea-mcp
       status: verified
@@ -145,10 +145,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id005
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -176,10 +176,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id007
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -207,10 +207,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id009
       status: none
     slug: google-gemini
@@ -236,11 +236,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id011
       status: none
     slug: google-identity-platform
@@ -267,10 +267,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id013
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -298,10 +298,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.2
-    band: thin
+    agent_readiness: 21.7
+    band: developing
     in_catalog: true
-    kin_score: 31.9
+    kin_score: 41.8
     mcp: &id015
       source: https://github.com/scoutapp/scout-mcp-local
       status: verified
@@ -329,10 +329,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id017
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -358,10 +358,10 @@ noindex: false
 permalink: /applications/project-management/plane/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id001
   name: Anthropic
   slug: anthropic
@@ -369,10 +369,10 @@ providers:
   tags: *id002
   url: /providers/anthropic/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 35.0
   band: exemplar
   in_catalog: true
-  kin_score: 69.8
+  kin_score: 68.1
   mcp: *id003
   name: Gitea
   slug: gitea
@@ -380,10 +380,10 @@ providers:
   tags: *id004
   url: /providers/gitea/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id005
   name: GitHub
   slug: github
@@ -391,10 +391,10 @@ providers:
   tags: *id006
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id007
   name: GitLab
   slug: gitlab
@@ -402,21 +402,21 @@ providers:
   tags: *id008
   url: /providers/gitlab/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id009
   name: Google Gemini
   slug: google-gemini
   status: profiled
   tags: *id010
   url: /providers/google-gemini/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id011
   name: Google sign-in
   slug: google-identity-platform
@@ -424,10 +424,10 @@ providers:
   tags: *id012
   url: /providers/google-identity-platform/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id013
   name: OpenAI
   slug: openai
@@ -435,10 +435,10 @@ providers:
   tags: *id014
   url: /providers/openai/
 - agent_band: agent-aware
-  agent_readiness: 22.2
-  band: thin
+  agent_readiness: 21.7
+  band: developing
   in_catalog: true
-  kin_score: 31.9
+  kin_score: 41.8
   mcp: *id015
   name: Scout APM
   slug: scout-apm
@@ -446,10 +446,10 @@ providers:
   tags: *id016
   url: /providers/scout-apm/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id017
   name: Slack
   slug: slack

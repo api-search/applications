@@ -46,10 +46,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 35.3
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 71.9
     mcp: &id001
       source: https://github.com/atlassian/atlassian-mcp-server
       status: verified
@@ -77,10 +77,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id003
       status: none
     slug: facebook
@@ -107,10 +107,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id005
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -138,10 +138,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id007
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -168,11 +168,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id009
       status: none
     slug: google-identity-platform
@@ -199,10 +199,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.9
+    agent_readiness: 38.6
     band: exemplar
     in_catalog: true
-    kin_score: 69.0
+    kin_score: 67.8
     mcp: &id011
       status: none
     slug: instagram
@@ -229,10 +229,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.4
+    agent_readiness: 46.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.4
+    kin_score: 77.8
     mcp: &id013
       status: none
     slug: linkedin
@@ -259,10 +259,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id015
       status: none
     slug: microsoft-entra
@@ -289,10 +289,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id017
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -320,10 +320,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
-    band: strong
+    agent_readiness: 23.9
+    band: developing
     in_catalog: true
-    kin_score: 55.7
+    kin_score: 53.9
     mcp: &id019
       source: https://github.com/openshift/kubernetes-mcp-server
       status: verified
@@ -351,10 +351,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 28.6
+    agent_readiness: 33.3
     band: thin
     in_catalog: true
-    kin_score: 37.2
+    kin_score: 36.6
     mcp: &id021
       source: https://github.com/StackExchange/Stack-MCP
       status: verified
@@ -382,10 +382,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id023
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -411,10 +411,10 @@ noindex: false
 permalink: /applications/identity-access/keycloak/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 35.3
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 71.9
   mcp: *id001
   name: Bitbucket
   slug: bitbucket
@@ -422,10 +422,10 @@ providers:
   tags: *id002
   url: /providers/bitbucket/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id003
   name: Facebook
   slug: facebook
@@ -433,10 +433,10 @@ providers:
   tags: *id004
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id005
   name: GitHub
   slug: github
@@ -444,21 +444,21 @@ providers:
   tags: *id006
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id007
   name: GitLab
   slug: gitlab
   status: profiled
   tags: *id008
   url: /providers/gitlab/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id009
   name: Google sign-in
   slug: google-identity-platform
@@ -466,10 +466,10 @@ providers:
   tags: *id010
   url: /providers/google-identity-platform/
 - agent_band: agent-ready
-  agent_readiness: 38.9
+  agent_readiness: 38.6
   band: exemplar
   in_catalog: true
-  kin_score: 69.0
+  kin_score: 67.8
   mcp: *id011
   name: Instagram
   slug: instagram
@@ -477,10 +477,10 @@ providers:
   tags: *id012
   url: /providers/instagram/
 - agent_band: agent-ready
-  agent_readiness: 47.4
+  agent_readiness: 46.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.4
+  kin_score: 77.8
   mcp: *id013
   name: LinkedIn
   slug: linkedin
@@ -488,10 +488,10 @@ providers:
   tags: *id014
   url: /providers/linkedin/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id015
   name: Microsoft
   slug: microsoft-entra
@@ -499,10 +499,10 @@ providers:
   tags: *id016
   url: /providers/microsoft-entra/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id017
   name: PayPal
   slug: paypal
@@ -510,10 +510,10 @@ providers:
   tags: *id018
   url: /providers/paypal/
 - agent_band: agent-aware
-  agent_readiness: 19.0
-  band: strong
+  agent_readiness: 23.9
+  band: developing
   in_catalog: true
-  kin_score: 55.7
+  kin_score: 53.9
   mcp: *id019
   name: Red Hat OpenShift
   slug: red-hat-openshift
@@ -521,10 +521,10 @@ providers:
   tags: *id020
   url: /providers/red-hat-openshift/
 - agent_band: agent-ready
-  agent_readiness: 28.6
+  agent_readiness: 33.3
   band: thin
   in_catalog: true
-  kin_score: 37.2
+  kin_score: 36.6
   mcp: *id021
   name: Stack Overflow
   slug: stack-overflow
@@ -532,10 +532,10 @@ providers:
   tags: *id022
   url: /providers/stack-overflow/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id023
   name: X (Twitter)
   slug: x

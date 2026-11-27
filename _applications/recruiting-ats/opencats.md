@@ -40,10 +40,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.6
+    agent_readiness: 29.0
     band: developing
     in_catalog: true
-    kin_score: 46.0
+    kin_score: 44.6
     mcp: &id001
       status: none
     slug: indeed
@@ -94,10 +94,10 @@ noindex: false
 permalink: /applications/recruiting-ats/opencats/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 29.6
+  agent_readiness: 29.0
   band: developing
   in_catalog: true
-  kin_score: 46.0
+  kin_score: 44.6
   mcp: *id001
   name: Indeed
   slug: indeed

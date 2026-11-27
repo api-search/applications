@@ -190,7 +190,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.5
+    kin_score: 10.8
     mcp: &id003
       status: unknown
     slug: aiways
@@ -217,10 +217,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.5
+    agent_readiness: 46.4
     band: strong
     in_catalog: true
-    kin_score: 59.9
+    kin_score: 65.1
     mcp: &id005
       status: none
     slug: amber-electric
@@ -250,7 +250,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.9
+    kin_score: 6.5
     mcp: &id007
       status: unknown
     slug: audi-connect
@@ -276,11 +276,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 29.1
+    agent_band: agent-aware
+    agent_readiness: 28.4
     band: thin
     in_catalog: true
-    kin_score: 27.5
+    kin_score: 26.8
     mcp: &id009
       status: none
     slug: awattar
@@ -310,7 +310,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 20.2
+    kin_score: 20.5
     mcp: &id011
       status: unknown
     slug: bmw
@@ -337,10 +337,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 9.5
+    kin_score: 11.2
     mcp: &id013
       status: none
     slug: connectedcars-io
@@ -397,10 +397,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.8
-    band: thin
+    agent_readiness: 29.2
+    band: developing
     in_catalog: true
-    kin_score: 38.4
+    kin_score: 48.6
     mcp: &id017
       status: none
     slug: easee
@@ -427,10 +427,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 2.8
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 7.0
     mcp: &id019
       status: unknown
     slug: edf
@@ -458,9 +458,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.0
+    kin_score: 11.8
     mcp: &id021
       status: unknown
     slug: ekz
@@ -487,10 +487,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 28.5
     band: thin
     in_catalog: true
-    kin_score: 31.1
+    kin_score: 29.8
     mcp: &id023
       status: none
     slug: electricitymaps
@@ -517,10 +517,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.1
+    kin_score: 8.4
     mcp: &id025
       status: none
     slug: elering
@@ -547,10 +547,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 10.8
+    agent_readiness: 11.6
     band: minimal
     in_catalog: true
-    kin_score: 6.5
+    kin_score: 7.7
     mcp: &id027
       status: unknown
     slug: energinet
@@ -577,10 +577,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.3
+    agent_readiness: 24.7
     band: emerging
     in_catalog: true
-    kin_score: 23.1
+    kin_score: 22.7
     mcp: &id029
       status: unknown
     slug: energy-charts-api
@@ -607,10 +607,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.2
+    agent_readiness: 34.0
     band: thin
     in_catalog: true
-    kin_score: 34.1
+    kin_score: 33.4
     mcp: &id031
       status: none
     slug: entso-e
@@ -663,10 +663,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 2.8
+    band: emerging
     in_catalog: true
-    kin_score: 9.1
+    kin_score: 12.5
     mcp: &id035
       status: none
     slug: fingrid
@@ -693,10 +693,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 27.5
+    agent_readiness: 26.9
     band: thin
     in_catalog: true
-    kin_score: 27.0
+    kin_score: 28.7
     mcp: &id037
       status: none
     slug: ford
@@ -723,10 +723,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.9
+    agent_readiness: 29.0
     band: thin
     in_catalog: true
-    kin_score: 33.4
+    kin_score: 35.4
     mcp: &id039
       status: unknown
     slug: forecast-solar
@@ -754,9 +754,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.5
+    kin_score: 14.2
     mcp: &id041
       status: unknown
     slug: frank-energie
@@ -783,7 +783,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 14.4
+    kin_score: 20.9
     mcp: &id043
       status: unknown
     slug: go-e
@@ -813,7 +813,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.5
+    kin_score: 3.1
     mcp: &id045
       status: unknown
     slug: groupe-e
@@ -865,11 +865,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: human-only
-    agent_readiness: 5.0
-    band: emerging
+    agent_band: agent-aware
+    agent_readiness: 5.6
+    band: thin
     in_catalog: true
-    kin_score: 22.2
+    kin_score: 34.5
     mcp: &id049
       source: https://www.home-assistant.io/integrations/mcp_server/
       status: verified
@@ -897,10 +897,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.3
+    agent_readiness: 28.7
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 49.5
     mcp: &id051
       status: none
     slug: hyundai
@@ -927,10 +927,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.1
+    agent_readiness: 34.4
     band: strong
     in_catalog: true
-    kin_score: 64.0
+    kin_score: 63.3
     mcp: &id053
       source: https://github.com/influxdata/influxdb3_mcp_server
       status: verified
@@ -957,11 +957,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 8.4
+    kin_score: 8.2
     mcp: &id055
       source: https://github.com/ioBroker/ioBroker.mcp
       status: verified
@@ -990,9 +990,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.2
+    kin_score: 13.6
     mcp: &id057
       status: unknown
     slug: jlr
@@ -1019,10 +1019,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
-    band: emerging
+    agent_readiness: 16.9
+    band: thin
     in_catalog: true
-    kin_score: 24.4
+    kin_score: 32.9
     mcp: &id059
       status: none
     slug: kia
@@ -1049,10 +1049,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.0
-    band: minimal
+    agent_readiness: 14.8
+    band: emerging
     in_catalog: true
-    kin_score: 9.4
+    kin_score: 14.6
     mcp: &id061
       status: none
     slug: livewire
@@ -1082,7 +1082,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 4.1
     mcp: &id063
       status: unknown
     slug: mazda
@@ -1109,7 +1109,7 @@ integrations:
     agent_readiness: 0.6
     band: thin
     in_catalog: true
-    kin_score: 29.4
+    kin_score: 29.3
     mcp: &id065
       status: none
     slug: mercedes-benz
@@ -1138,7 +1138,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 2.2
     mcp: &id067
       status: unknown
     slug: saic-motor
@@ -1165,10 +1165,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.6
+    agent_readiness: 24.0
     band: developing
     in_catalog: true
-    kin_score: 41.5
+    kin_score: 43.5
     mcp: &id069
       status: none
     slug: neso
@@ -1198,7 +1198,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 9.1
+    kin_score: 7.9
     mcp: &id071
       status: unknown
     slug: nissan
@@ -1224,10 +1224,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 4.5
-    band: minimal
+    agent_readiness: 4.4
+    band: emerging
     in_catalog: true
-    kin_score: 9.0
+    kin_score: 11.7
     mcp: &id073
       status: unknown
     slug: niu
@@ -1254,10 +1254,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.7
+    agent_readiness: 33.9
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.8
     mcp: &id075
       status: none
     slug: nordpool
@@ -1285,9 +1285,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.9
+    kin_score: 15.5
     mcp: &id077
       status: none
     slug: ntfy
@@ -1314,10 +1314,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-aware
-    agent_readiness: 24.1
+    agent_readiness: 23.5
     band: developing
     in_catalog: true
-    kin_score: 44.9
+    kin_score: 44.1
     mcp: &id079
       status: none
     slug: octopus-energy
@@ -1362,7 +1362,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.1
+    kin_score: 9.0
     mcp: &id081
       status: unknown
     slug: omie-es
@@ -1389,10 +1389,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.8
+    agent_readiness: 17.6
     band: emerging
     in_catalog: true
-    kin_score: 19.2
+    kin_score: 21.9
     mcp: &id083
       status: none
     slug: ovms
@@ -1419,10 +1419,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.8
+    agent_readiness: 17.4
     band: thin
     in_catalog: true
-    kin_score: 29.6
+    kin_score: 28.3
     mcp: &id085
       status: none
     slug: open-meteo
@@ -1449,10 +1449,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.5
+    agent_readiness: 30.8
     band: developing
     in_catalog: true
-    kin_score: 47.7
+    kin_score: 45.8
     mcp: &id087
       status: none
     slug: ostrom
@@ -1482,7 +1482,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.9
+    kin_score: 6.8
     mcp: &id089
       status: none
     slug: polestar-cars
@@ -1509,10 +1509,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.2
+    agent_readiness: 20.8
     band: thin
     in_catalog: true
-    kin_score: 30.0
+    kin_score: 33.1
     mcp: &id091
       status: none
     slug: porsche
@@ -1540,9 +1540,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 2.5
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.4
+    kin_score: 12.7
     mcp: &id093
       status: unknown
     slug: pstryk
@@ -1569,10 +1569,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.0
+    agent_readiness: 21.6
     band: thin
     in_catalog: true
-    kin_score: 29.2
+    kin_score: 28.1
     mcp: &id095
       status: none
     slug: pushover
@@ -1599,10 +1599,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.8
+    agent_readiness: 22.2
     band: emerging
     in_catalog: true
-    kin_score: 18.7
+    kin_score: 21.9
     mcp: &id097
       status: none
     slug: esios-red-electrica
@@ -1632,7 +1632,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.4
+    kin_score: 21.1
     mcp: &id099
       status: none
     slug: renault-group
@@ -1659,10 +1659,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.6
+    kin_score: 4.9
     mcp: &id101
       status: unknown
     slug: smart-com
@@ -1686,10 +1686,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 7.7
+    kin_score: 11.9
     mcp: &id103
       status: none
     slug: smartenergy-at
@@ -1715,11 +1715,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: strong
+    agent_band: agent-ready
+    agent_readiness: 29.6
+    band: developing
     in_catalog: true
-    kin_score: 56.0
+    kin_score: 53.7
     mcp: &id105
       status: none
     slug: solcast
@@ -1746,10 +1746,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.8
-    band: emerging
+    agent_readiness: 19.4
+    band: thin
     in_catalog: true
-    kin_score: 24.5
+    kin_score: 27.4
     mcp: &id107
       status: none
     slug: stekker
@@ -1776,10 +1776,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.4
+    agent_readiness: 19.9
     band: emerging
     in_catalog: true
-    kin_score: 23.0
+    kin_score: 22.8
     mcp: &id109
       status: none
     slug: stellantis
@@ -1809,7 +1809,7 @@ integrations:
     agent_readiness: 0.6
     band: minimal
     in_catalog: true
-    kin_score: 8.4
+    kin_score: 7.1
     mcp: &id111
       status: none
     slug: subaru-of-america
@@ -1836,10 +1836,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id113
       status: none
     slug: telegram
@@ -1866,10 +1866,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.3
     band: thin
     in_catalog: true
-    kin_score: 35.5
+    kin_score: 34.8
     mcp: &id115
       status: none
     slug: tesla
@@ -1896,10 +1896,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.4
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 10.6
+    kin_score: 15.0
     mcp: &id117
       source: https://teslafi.com
       status: documented
@@ -1927,10 +1927,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
+    agent_readiness: 23.2
     band: emerging
     in_catalog: true
-    kin_score: 19.6
+    kin_score: 22.4
     mcp: &id119
       source: https://teslalogger.de/docs/extras/mcp-server
       status: verified
@@ -1961,7 +1961,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.0
+    kin_score: 4.1
     mcp: &id121
       status: none
     slug: teslamate
@@ -1988,10 +1988,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.3
-    band: thin
+    agent_readiness: 25.6
+    band: developing
     in_catalog: true
-    kin_score: 36.2
+    kin_score: 47.3
     mcp: &id123
       status: none
     slug: tessie
@@ -2018,10 +2018,10 @@ integrations:
   credit: null
   facts: &id002
     agent_band: agent-aware
-    agent_readiness: 26.1
+    agent_readiness: 25.6
     band: developing
     in_catalog: true
-    kin_score: 50.6
+    kin_score: 49.5
     mcp: &id125
       status: none
     slug: tibber
@@ -2063,10 +2063,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.6
     band: thin
     in_catalog: true
-    kin_score: 31.1
+    kin_score: 31.0
     mcp: &id127
       status: none
     slug: toyota
@@ -2093,10 +2093,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: emerging
     in_catalog: true
-    kin_score: 25.8
+    kin_score: 25.6
     mcp: &id129
       status: none
     slug: tronity
@@ -2123,10 +2123,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
+    agent_readiness: 27.5
     band: thin
     in_catalog: true
-    kin_score: 26.3
+    kin_score: 33.9
     mcp: &id131
       status: none
     slug: victron-energy
@@ -2134,7 +2134,7 @@ integrations:
     tags: &id132
     - Company
     - Energy
-    - Off-grid
+    - Off-Grid
     - Renewables
     url: /providers/victron-energy/
   layer: domain
@@ -2153,10 +2153,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 24.7
     band: developing
     in_catalog: true
-    kin_score: 43.7
+    kin_score: 45.5
     mcp: &id133
       status: none
     slug: volkswagen
@@ -2183,10 +2183,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.2
+    agent_readiness: 18.8
     band: thin
     in_catalog: true
-    kin_score: 29.5
+    kin_score: 27.7
     mcp: &id135
       status: none
     slug: volvo-cars
@@ -2213,10 +2213,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.3
-    band: thin
+    agent_readiness: 35.2
+    band: developing
     in_catalog: true
-    kin_score: 37.8
+    kin_score: 46.9
     mcp: &id137
       status: unknown
     slug: zaptec
@@ -2246,7 +2246,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.0
+    kin_score: 11.4
     mcp: &id139
       status: none
     slug: zero-motorcycles
@@ -2274,7 +2274,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.5
+  kin_score: 10.8
   mcp: *id003
   name: Aiways
   slug: aiways
@@ -2282,10 +2282,10 @@ providers:
   tags: *id004
   url: /providers/aiways/
 - agent_band: agent-ready
-  agent_readiness: 47.5
+  agent_readiness: 46.4
   band: strong
   in_catalog: true
-  kin_score: 59.9
+  kin_score: 65.1
   mcp: *id005
   name: Amber Electric
   slug: amber-electric
@@ -2296,18 +2296,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.9
+  kin_score: 6.5
   mcp: *id007
   name: Audi Connect
   slug: audi-connect
   status: profiled
   tags: *id008
   url: /providers/audi-connect/
-- agent_band: agent-ready
-  agent_readiness: 29.1
+- agent_band: agent-aware
+  agent_readiness: 28.4
   band: thin
   in_catalog: true
-  kin_score: 27.5
+  kin_score: 26.8
   mcp: *id009
   name: aWATTar
   slug: awattar
@@ -2318,7 +2318,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 20.2
+  kin_score: 20.5
   mcp: *id011
   name: BMW
   slug: bmw
@@ -2326,10 +2326,10 @@ providers:
   tags: *id012
   url: /providers/bmw/
 - agent_band: agent-aware
-  agent_readiness: 21.6
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 9.5
+  kin_score: 11.2
   mcp: *id013
   name: Connected Cars
   slug: connectedcars-io
@@ -2348,10 +2348,10 @@ providers:
   tags: *id016
   url: /providers/deutscher-wetterdienst/
 - agent_band: agent-ready
-  agent_readiness: 29.8
-  band: thin
+  agent_readiness: 29.2
+  band: developing
   in_catalog: true
-  kin_score: 38.4
+  kin_score: 48.6
   mcp: *id017
   name: Easee
   slug: easee
@@ -2359,10 +2359,10 @@ providers:
   tags: *id018
   url: /providers/easee/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 2.8
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 7.0
   mcp: *id019
   name: EDF (Tempo tariff)
   slug: edf
@@ -2371,9 +2371,9 @@ providers:
   url: /providers/edf/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.0
+  kin_score: 11.8
   mcp: *id021
   name: EKZ
   slug: ekz
@@ -2381,10 +2381,10 @@ providers:
   tags: *id022
   url: /providers/ekz/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 28.5
   band: thin
   in_catalog: true
-  kin_score: 31.1
+  kin_score: 29.8
   mcp: *id023
   name: Electricity Maps
   slug: electricitymaps
@@ -2392,10 +2392,10 @@ providers:
   tags: *id024
   url: /providers/electricitymaps/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.1
+  kin_score: 8.4
   mcp: *id025
   name: Elering
   slug: elering
@@ -2403,10 +2403,10 @@ providers:
   tags: *id026
   url: /providers/elering/
 - agent_band: agent-aware
-  agent_readiness: 10.8
+  agent_readiness: 11.6
   band: minimal
   in_catalog: true
-  kin_score: 6.5
+  kin_score: 7.7
   mcp: *id027
   name: Energinet
   slug: energinet
@@ -2414,10 +2414,10 @@ providers:
   tags: *id028
   url: /providers/energinet/
 - agent_band: agent-aware
-  agent_readiness: 25.3
+  agent_readiness: 24.7
   band: emerging
   in_catalog: true
-  kin_score: 23.1
+  kin_score: 22.7
   mcp: *id029
   name: Energy-Charts (Fraunhofer ISE)
   slug: energy-charts-api
@@ -2425,10 +2425,10 @@ providers:
   tags: *id030
   url: /providers/energy-charts-api/
 - agent_band: agent-ready
-  agent_readiness: 30.2
+  agent_readiness: 34.0
   band: thin
   in_catalog: true
-  kin_score: 34.1
+  kin_score: 33.4
   mcp: *id031
   name: ENTSO-E
   slug: entso-e
@@ -2447,10 +2447,10 @@ providers:
   tags: *id034
   url: null
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 2.8
+  band: emerging
   in_catalog: true
-  kin_score: 9.1
+  kin_score: 12.5
   mcp: *id035
   name: Fingrid
   slug: fingrid
@@ -2458,10 +2458,10 @@ providers:
   tags: *id036
   url: /providers/fingrid/
 - agent_band: agent-aware
-  agent_readiness: 27.5
+  agent_readiness: 26.9
   band: thin
   in_catalog: true
-  kin_score: 27.0
+  kin_score: 28.7
   mcp: *id037
   name: Ford
   slug: ford
@@ -2469,10 +2469,10 @@ providers:
   tags: *id038
   url: /providers/ford/
 - agent_band: agent-ready
-  agent_readiness: 32.9
+  agent_readiness: 29.0
   band: thin
   in_catalog: true
-  kin_score: 33.4
+  kin_score: 35.4
   mcp: *id039
   name: Forecast.Solar
   slug: forecast-solar
@@ -2481,9 +2481,9 @@ providers:
   url: /providers/forecast-solar/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.5
+  kin_score: 14.2
   mcp: *id041
   name: Frank Energie
   slug: frank-energie
@@ -2494,7 +2494,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 14.4
+  kin_score: 20.9
   mcp: *id043
   name: go-e
   slug: go-e
@@ -2505,7 +2505,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.5
+  kin_score: 3.1
   mcp: *id045
   name: Groupe E
   slug: groupe-e
@@ -2523,11 +2523,11 @@ providers:
   status: queued for profiling
   tags: *id048
   url: null
-- agent_band: human-only
-  agent_readiness: 5.0
-  band: emerging
+- agent_band: agent-aware
+  agent_readiness: 5.6
+  band: thin
   in_catalog: true
-  kin_score: 22.2
+  kin_score: 34.5
   mcp: *id049
   name: Home Assistant (self-hosted)
   slug: home-assistant
@@ -2535,10 +2535,10 @@ providers:
   tags: *id050
   url: /providers/home-assistant/
 - agent_band: agent-ready
-  agent_readiness: 29.3
+  agent_readiness: 28.7
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 49.5
   mcp: *id051
   name: Hyundai
   slug: hyundai
@@ -2546,21 +2546,21 @@ providers:
   tags: *id052
   url: /providers/hyundai/
 - agent_band: agent-ready
-  agent_readiness: 35.1
+  agent_readiness: 34.4
   band: strong
   in_catalog: true
-  kin_score: 64.0
+  kin_score: 63.3
   mcp: *id053
   name: InfluxDB
   slug: influxdata
   status: profiled
   tags: *id054
   url: /providers/influxdata/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 8.4
+  kin_score: 8.2
   mcp: *id055
   name: ioBroker (self-hosted)
   slug: iobroker
@@ -2569,9 +2569,9 @@ providers:
   url: /providers/iobroker/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.2
+  kin_score: 13.6
   mcp: *id057
   name: JLR (Jaguar Land Rover)
   slug: jlr
@@ -2579,10 +2579,10 @@ providers:
   tags: *id058
   url: /providers/jlr/
 - agent_band: agent-aware
-  agent_readiness: 17.3
-  band: emerging
+  agent_readiness: 16.9
+  band: thin
   in_catalog: true
-  kin_score: 24.4
+  kin_score: 32.9
   mcp: *id059
   name: Kia
   slug: kia
@@ -2590,10 +2590,10 @@ providers:
   tags: *id060
   url: /providers/kia/
 - agent_band: agent-aware
-  agent_readiness: 18.0
-  band: minimal
+  agent_readiness: 14.8
+  band: emerging
   in_catalog: true
-  kin_score: 9.4
+  kin_score: 14.6
   mcp: *id061
   name: LiveWire
   slug: livewire
@@ -2604,7 +2604,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 4.1
   mcp: *id063
   name: Mazda
   slug: mazda
@@ -2615,7 +2615,7 @@ providers:
   agent_readiness: 0.6
   band: thin
   in_catalog: true
-  kin_score: 29.4
+  kin_score: 29.3
   mcp: *id065
   name: Mercedes-Benz
   slug: mercedes-benz
@@ -2626,7 +2626,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 2.2
   mcp: *id067
   name: MG (SAIC Motor)
   slug: saic-motor
@@ -2634,10 +2634,10 @@ providers:
   tags: *id068
   url: /providers/saic-motor/
 - agent_band: agent-aware
-  agent_readiness: 24.6
+  agent_readiness: 24.0
   band: developing
   in_catalog: true
-  kin_score: 41.5
+  kin_score: 43.5
   mcp: *id069
   name: National Energy System Operator (NESO)
   slug: neso
@@ -2648,7 +2648,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 9.1
+  kin_score: 7.9
   mcp: *id071
   name: Nissan
   slug: nissan
@@ -2656,10 +2656,10 @@ providers:
   tags: *id072
   url: /providers/nissan/
 - agent_band: human-only
-  agent_readiness: 4.5
-  band: minimal
+  agent_readiness: 4.4
+  band: emerging
   in_catalog: true
-  kin_score: 9.0
+  kin_score: 11.7
   mcp: *id073
   name: NIU
   slug: niu
@@ -2667,10 +2667,10 @@ providers:
   tags: *id074
   url: /providers/niu/
 - agent_band: agent-ready
-  agent_readiness: 34.7
+  agent_readiness: 33.9
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.8
   mcp: *id075
   name: Nord Pool
   slug: nordpool
@@ -2679,9 +2679,9 @@ providers:
   url: /providers/nordpool/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.9
+  kin_score: 15.5
   mcp: *id077
   name: ntfy
   slug: ntfy
@@ -2689,10 +2689,10 @@ providers:
   tags: *id078
   url: /providers/ntfy/
 - agent_band: agent-aware
-  agent_readiness: 24.1
+  agent_readiness: 23.5
   band: developing
   in_catalog: true
-  kin_score: 44.9
+  kin_score: 44.1
   mcp: *id079
   name: Octopus Energy
   slug: octopus-energy
@@ -2703,7 +2703,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.1
+  kin_score: 9.0
   mcp: *id081
   name: OMIE (Iberian power market)
   slug: omie-es
@@ -2711,10 +2711,10 @@ providers:
   tags: *id082
   url: /providers/omie-es/
 - agent_band: agent-aware
-  agent_readiness: 20.8
+  agent_readiness: 17.6
   band: emerging
   in_catalog: true
-  kin_score: 19.2
+  kin_score: 21.9
   mcp: *id083
   name: Open Vehicle Monitoring System (self-hosted)
   slug: ovms
@@ -2722,10 +2722,10 @@ providers:
   tags: *id084
   url: /providers/ovms/
 - agent_band: agent-aware
-  agent_readiness: 17.8
+  agent_readiness: 17.4
   band: thin
   in_catalog: true
-  kin_score: 29.6
+  kin_score: 28.3
   mcp: *id085
   name: Open-Meteo
   slug: open-meteo
@@ -2733,10 +2733,10 @@ providers:
   tags: *id086
   url: /providers/open-meteo/
 - agent_band: agent-ready
-  agent_readiness: 31.5
+  agent_readiness: 30.8
   band: developing
   in_catalog: true
-  kin_score: 47.7
+  kin_score: 45.8
   mcp: *id087
   name: Ostrom
   slug: ostrom
@@ -2747,7 +2747,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.9
+  kin_score: 6.8
   mcp: *id089
   name: Polestar
   slug: polestar-cars
@@ -2755,10 +2755,10 @@ providers:
   tags: *id090
   url: /providers/polestar-cars/
 - agent_band: agent-aware
-  agent_readiness: 21.2
+  agent_readiness: 20.8
   band: thin
   in_catalog: true
-  kin_score: 30.0
+  kin_score: 33.1
   mcp: *id091
   name: Porsche
   slug: porsche
@@ -2767,9 +2767,9 @@ providers:
   url: /providers/porsche/
 - agent_band: human-only
   agent_readiness: 2.5
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.4
+  kin_score: 12.7
   mcp: *id093
   name: Pstryk
   slug: pstryk
@@ -2777,10 +2777,10 @@ providers:
   tags: *id094
   url: /providers/pstryk/
 - agent_band: agent-aware
-  agent_readiness: 22.0
+  agent_readiness: 21.6
   band: thin
   in_catalog: true
-  kin_score: 29.2
+  kin_score: 28.1
   mcp: *id095
   name: Pushover
   slug: pushover
@@ -2788,10 +2788,10 @@ providers:
   tags: *id096
   url: /providers/pushover/
 - agent_band: agent-aware
-  agent_readiness: 22.8
+  agent_readiness: 22.2
   band: emerging
   in_catalog: true
-  kin_score: 18.7
+  kin_score: 21.9
   mcp: *id097
   name: Red Electrica (e-sios)
   slug: esios-red-electrica
@@ -2802,7 +2802,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.4
+  kin_score: 21.1
   mcp: *id099
   name: Renault Group
   slug: renault-group
@@ -2810,10 +2810,10 @@ providers:
   tags: *id100
   url: /providers/renault-group/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.6
+  kin_score: 4.9
   mcp: *id101
   name: smart Europe
   slug: smart-com
@@ -2821,21 +2821,21 @@ providers:
   tags: *id102
   url: /providers/smart-com/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 7.7
+  kin_score: 11.9
   mcp: *id103
   name: smartENERGY
   slug: smartenergy-at
   status: profiled
   tags: *id104
   url: /providers/smartenergy-at/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: strong
+- agent_band: agent-ready
+  agent_readiness: 29.6
+  band: developing
   in_catalog: true
-  kin_score: 56.0
+  kin_score: 53.7
   mcp: *id105
   name: Solcast
   slug: solcast
@@ -2843,10 +2843,10 @@ providers:
   tags: *id106
   url: /providers/solcast/
 - agent_band: agent-aware
-  agent_readiness: 19.8
-  band: emerging
+  agent_readiness: 19.4
+  band: thin
   in_catalog: true
-  kin_score: 24.5
+  kin_score: 27.4
   mcp: *id107
   name: Stekker
   slug: stekker
@@ -2854,10 +2854,10 @@ providers:
   tags: *id108
   url: /providers/stekker/
 - agent_band: agent-aware
-  agent_readiness: 20.4
+  agent_readiness: 19.9
   band: emerging
   in_catalog: true
-  kin_score: 23.0
+  kin_score: 22.8
   mcp: *id109
   name: Stellantis
   slug: stellantis
@@ -2868,7 +2868,7 @@ providers:
   agent_readiness: 0.6
   band: minimal
   in_catalog: true
-  kin_score: 8.4
+  kin_score: 7.1
   mcp: *id111
   name: Subaru
   slug: subaru-of-america
@@ -2876,10 +2876,10 @@ providers:
   tags: *id112
   url: /providers/subaru-of-america/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id113
   name: Telegram
   slug: telegram
@@ -2887,10 +2887,10 @@ providers:
   tags: *id114
   url: /providers/telegram/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.3
   band: thin
   in_catalog: true
-  kin_score: 35.5
+  kin_score: 34.8
   mcp: *id115
   name: Tesla
   slug: tesla
@@ -2898,10 +2898,10 @@ providers:
   tags: *id116
   url: /providers/tesla/
 - agent_band: agent-aware
-  agent_readiness: 14.4
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 10.6
+  kin_score: 15.0
   mcp: *id117
   name: TeslaFi
   slug: teslafi
@@ -2909,10 +2909,10 @@ providers:
   tags: *id118
   url: /providers/teslafi/
 - agent_band: agent-aware
-  agent_readiness: 23.7
+  agent_readiness: 23.2
   band: emerging
   in_catalog: true
-  kin_score: 19.6
+  kin_score: 22.4
   mcp: *id119
   name: TeslaLogger (self-hosted)
   slug: teslalogger
@@ -2923,7 +2923,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.0
+  kin_score: 4.1
   mcp: *id121
   name: TeslaMate (self-hosted)
   slug: teslamate
@@ -2931,10 +2931,10 @@ providers:
   tags: *id122
   url: /providers/teslamate/
 - agent_band: agent-aware
-  agent_readiness: 28.3
-  band: thin
+  agent_readiness: 25.6
+  band: developing
   in_catalog: true
-  kin_score: 36.2
+  kin_score: 47.3
   mcp: *id123
   name: Tessie
   slug: tessie
@@ -2942,10 +2942,10 @@ providers:
   tags: *id124
   url: /providers/tessie/
 - agent_band: agent-aware
-  agent_readiness: 26.1
+  agent_readiness: 25.6
   band: developing
   in_catalog: true
-  kin_score: 50.6
+  kin_score: 49.5
   mcp: *id125
   name: Tibber
   slug: tibber
@@ -2953,10 +2953,10 @@ providers:
   tags: *id126
   url: /providers/tibber/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.6
   band: thin
   in_catalog: true
-  kin_score: 31.1
+  kin_score: 31.0
   mcp: *id127
   name: Toyota
   slug: toyota
@@ -2964,10 +2964,10 @@ providers:
   tags: *id128
   url: /providers/toyota/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: emerging
   in_catalog: true
-  kin_score: 25.8
+  kin_score: 25.6
   mcp: *id129
   name: TRONITY
   slug: tronity
@@ -2975,10 +2975,10 @@ providers:
   tags: *id130
   url: /providers/tronity/
 - agent_band: agent-aware
-  agent_readiness: 23.7
+  agent_readiness: 27.5
   band: thin
   in_catalog: true
-  kin_score: 26.3
+  kin_score: 33.9
   mcp: *id131
   name: Victron Energy (VRM)
   slug: victron-energy
@@ -2986,10 +2986,10 @@ providers:
   tags: *id132
   url: /providers/victron-energy/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 24.7
   band: developing
   in_catalog: true
-  kin_score: 43.7
+  kin_score: 45.5
   mcp: *id133
   name: Volkswagen Group
   slug: volkswagen
@@ -2997,10 +2997,10 @@ providers:
   tags: *id134
   url: /providers/volkswagen/
 - agent_band: agent-aware
-  agent_readiness: 19.2
+  agent_readiness: 18.8
   band: thin
   in_catalog: true
-  kin_score: 29.5
+  kin_score: 27.7
   mcp: *id135
   name: Volvo Cars
   slug: volvo-cars
@@ -3008,10 +3008,10 @@ providers:
   tags: *id136
   url: /providers/volvo-cars/
 - agent_band: agent-ready
-  agent_readiness: 39.3
-  band: thin
+  agent_readiness: 35.2
+  band: developing
   in_catalog: true
-  kin_score: 37.8
+  kin_score: 46.9
   mcp: *id137
   name: Zaptec
   slug: zaptec
@@ -3022,7 +3022,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.0
+  kin_score: 11.4
   mcp: *id139
   name: Zero Motorcycles
   slug: zero-motorcycles

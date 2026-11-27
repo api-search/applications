@@ -2705,7 +2705,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.3
       apps:
       - Apache APISIX
       - Zuplo
@@ -2728,12 +2728,12 @@ stack:
       tier: observed
       url: /providers/keycloak/
     - agent_band: agent-aware
-      agent_readiness: 21.9
+      agent_readiness: 21.5
       apps:
       - Apache APISIX
       band: emerging
       in_catalog: true
-      kin_score: 24.0
+      kin_score: 25.7
       mcp:
         source: https://github.com/casdoor/casdoor
         status: documented
@@ -2750,12 +2750,12 @@ stack:
       tier: observed
       url: /providers/casdoor/
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - Zuplo
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -2772,33 +2772,33 @@ stack:
       tier: declared
       url: /providers/okta/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 37.3
       apps:
       - Zuplo
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
-      mcp: &id001
+      kin_score: 74.5
+      mcp:
         status: none
-      name: Microsoft Entra
-      slug: microsoft-entra
+      name: Amazon Cognito
+      slug: amazon-cognito
       sources:
       - https://zuplo.com/docs/policies
       status: profiled
-      tags: &id002
+      tags:
+      - Amazon Web Services
       - Authentication
-      - Azure AD
-      - Entra
-      - Identity and Access Management
+      - Identity
+      - OpenID Connect
       tier: declared
-      url: /providers/microsoft-entra/
-    - agent_band: agent-ready
-      agent_readiness: 46.1
+      url: /providers/amazon-cognito/
+    - agent_band: agent-native
+      agent_readiness: 51.9
       apps:
       - Zuplo
       band: exemplar
       in_catalog: true
-      kin_score: 72.2
+      kin_score: 73.4
       mcp:
         source: https://github.com/clerk/mcp-tools
         status: verified
@@ -2815,12 +2815,12 @@ stack:
       tier: declared
       url: /providers/clerk-com/
     - agent_band: agent-ready
-      agent_readiness: 39.9
+      agent_readiness: 39.5
       apps:
       - Zuplo
       band: exemplar
       in_catalog: true
-      kin_score: 72.1
+      kin_score: 71.8
       mcp:
         source: https://auth0.com/docs/get-started/auth0-mcp-server
         status: verified
@@ -2836,99 +2836,34 @@ stack:
       - Authorization
       tier: declared
       url: /providers/auth0/
-    - agent_band: agent-aware
-      agent_readiness: 27.7
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - Zuplo
       band: exemplar
       in_catalog: true
-      kin_score: 67.7
-      mcp:
+      kin_score: 70.3
+      mcp: &id001
         status: none
-      name: Amazon Cognito
-      slug: amazon-cognito
+      name: Microsoft Entra
+      slug: microsoft-entra
       sources:
       - https://zuplo.com/docs/policies
       status: profiled
-      tags:
-      - Amazon Web Services
+      tags: &id002
       - Authentication
-      - Identity
-      - OAuth
+      - Azure AD
+      - Entra
+      - Identity and Access Management
       tier: declared
-      url: /providers/amazon-cognito/
+      url: /providers/microsoft-entra/
     - agent_band: agent-ready
-      agent_readiness: 50.7
+      agent_readiness: 37.9
       apps:
       - Zuplo
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.8
-      mcp:
-        source: https://github.com/googleapis/mcp-toolbox
-        status: verified
-      name: Google Cloud
-      slug: google-cloud-platform
-      sources:
-      - https://zuplo.com/docs/policies
-      status: profiled
-      tags:
-      - API Management
-      - Cloud Computing
-      - Infrastructure
-      - Platform-as-a-Service
-      tier: declared
-      url: /providers/google-cloud-platform/
-    - agent_band: agent-ready
-      agent_readiness: 58.8
-      apps:
-      - Zuplo
-      band: strong
-      in_catalog: true
-      kin_score: 61.4
-      mcp:
-        source: https://workos.com/docs/mcp
-        status: verified
-      name: WorkOS
-      slug: workos
-      sources:
-      - https://zuplo.com/docs/policies
-      status: profiled
-      tags:
-      - Authentication
-      - Identity Provider
-      - SAML
-      - SSO
-      tier: declared
-      url: /providers/workos/
-    - agent_band: agent-aware
-      agent_readiness: 22.1
-      apps:
-      - Zuplo
-      band: strong
-      in_catalog: true
-      kin_score: 61.2
-      mcp:
-        status: none
-      name: PropelAuth
-      slug: propelauth
-      sources:
-      - https://zuplo.com/docs/policies
-      status: profiled
-      tags:
-      - Authentication
-      - B2B
-      - Identity
-      - Multi-Tenancy
-      tier: declared
-      url: /providers/propelauth/
-    - agent_band: agent-ready
-      agent_readiness: 40.8
-      apps:
-      - Zuplo
-      band: strong
-      in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2945,12 +2880,120 @@ stack:
       tier: declared
       url: /providers/amazon-web-services/
     - agent_band: agent-ready
-      agent_readiness: 36.8
+      agent_readiness: 50.2
       apps:
       - Zuplo
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 53.5
+      kin_score: 67.5
+      mcp:
+        source: https://github.com/googleapis/mcp-toolbox
+        status: verified
+      name: Google Cloud
+      slug: google-cloud-platform
+      sources:
+      - https://zuplo.com/docs/policies
+      status: profiled
+      tags:
+      - API Management
+      - Cloud Computing
+      - Infrastructure
+      - Platform-as-a-Service
+      tier: declared
+      url: /providers/google-cloud-platform/
+    - agent_band: agent-ready
+      agent_readiness: 39.9
+      apps:
+      - Zuplo
+      band: strong
+      in_catalog: true
+      kin_score: 62.0
+      mcp:
+        source: https://firebase.google.com/docs/ai-assistance/mcp-server
+        status: verified
+      name: Firebase
+      slug: google-firebase
+      sources:
+      - https://zuplo.com/docs/policies
+      status: profiled
+      tags:
+      - Analytics
+      - Authentication
+      - Backend-as-a-Service
+      - Cloud Messaging
+      tier: declared
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 57.7
+      apps:
+      - Zuplo
+      band: strong
+      in_catalog: true
+      kin_score: 60.2
+      mcp:
+        source: https://workos.com/docs/mcp
+        status: verified
+      name: WorkOS
+      slug: workos
+      sources:
+      - https://zuplo.com/docs/policies
+      status: profiled
+      tags:
+      - Authentication
+      - Identity Provider
+      - SAML
+      - SSO
+      tier: declared
+      url: /providers/workos/
+    - agent_band: agent-ready
+      agent_readiness: 33.7
+      apps:
+      - Zuplo
+      band: strong
+      in_catalog: true
+      kin_score: 58.8
+      mcp: &id003
+        status: none
+      name: Google OAuth
+      slug: google-identity-platform
+      sources:
+      - https://zuplo.com/docs/policies
+      status: profiled
+      tags: &id004
+      - Authentication
+      - Google Cloud
+      - Identity
+      - Multi-Tenancy
+      tier: declared
+      url: /providers/google-identity-platform/
+    - agent_band: agent-aware
+      agent_readiness: 27.2
+      apps:
+      - Zuplo
+      band: strong
+      in_catalog: true
+      kin_score: 58.7
+      mcp:
+        status: none
+      name: PropelAuth
+      slug: propelauth
+      sources:
+      - https://zuplo.com/docs/policies
+      status: profiled
+      tags:
+      - Authentication
+      - B2B
+      - Identity
+      - Multi-Tenancy
+      tier: declared
+      url: /providers/propelauth/
+    - agent_band: agent-ready
+      agent_readiness: 40.9
+      apps:
+      - Zuplo
+      band: strong
+      in_catalog: true
+      kin_score: 55.9
       mcp:
         source: https://github.com/pingidentity/pingone-mcp-server
         status: verified
@@ -2966,35 +3009,13 @@ stack:
       - SSO
       tier: declared
       url: /providers/ping-identity/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - Zuplo
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp:
-        source: https://firebase.google.com/docs/ai-assistance/mcp-server
-        status: verified
-      name: Firebase
-      slug: firebase
-      sources:
-      - https://zuplo.com/docs/policies
-      status: profiled
-      tags:
-      - Application Development
-      - Backend-as-a-Service
-      - Company
-      - Mobile
-      tier: declared
-      url: /providers/firebase/
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 48.2
       apps:
       - Zuplo
       band: developing
       in_catalog: true
-      kin_score: 49.1
+      kin_score: 49.4
       mcp:
         source: https://github.com/supabase/mcp
         status: verified
@@ -3011,12 +3032,12 @@ stack:
       tier: declared
       url: /providers/supabase/
     - agent_band: agent-aware
-      agent_readiness: 26.5
+      agent_readiness: 26.0
       apps:
       - Zuplo
       band: developing
       in_catalog: true
-      kin_score: 45.9
+      kin_score: 44.1
       mcp:
         status: none
       name: Logto
@@ -3032,33 +3053,12 @@ stack:
       tier: declared
       url: /providers/logto/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 24.3
       apps:
       - Zuplo
       band: thin
       in_catalog: true
-      kin_score: 36.8
-      mcp: &id003
-        status: none
-      name: Google OAuth
-      slug: google-identity-platform
-      sources:
-      - https://zuplo.com/docs/policies
-      status: profiled
-      tags: &id004
-      - Authentication
-      - Google Cloud
-      - Identity
-      - Multi-Tenancy
-      tier: declared
-      url: /providers/google-identity-platform/
-    - agent_band: agent-aware
-      agent_readiness: 24.7
-      apps:
-      - Zuplo
-      band: thin
-      in_catalog: true
-      kin_score: 30.5
+      kin_score: 29.5
       mcp:
         source: https://github.com/onelogin/onelogin-mcp
         status: verified
@@ -3078,9 +3078,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Zuplo
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 17.9
+      kin_score: 27.1
       mcp:
         status: none
       name: Curity
@@ -3104,14 +3104,14 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.4
+      agent_readiness: 27.8
       apps:
       - Apache APISIX
       - KrakenD CE
       - Tyk Gateway + Tyk Pump
       band: developing
       in_catalog: true
-      kin_score: 51.3
+      kin_score: 51.4
       mcp:
         status: none
       name: Apache Kafka
@@ -3129,13 +3129,13 @@ stack:
       tier: observed
       url: /providers/apache-kafka/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 34.4
       apps:
       - KrakenD CE
       - Tyk Gateway + Tyk Pump
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 59.8
+      kin_score: 70.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3153,13 +3153,13 @@ stack:
       tier: observed
       url: /providers/amazon-sqs/
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 23.1
       apps:
       - KrakenD CE
       - Tyk Gateway + Tyk Pump
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 39.9
+      kin_score: 38.5
       mcp:
         status: none
       name: NATS
@@ -3176,13 +3176,13 @@ stack:
       tier: observed
       url: /providers/nats/
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 19.6
       apps:
       - KrakenD CE
       - Tyk Gateway + Tyk Pump
       band: thin
       in_catalog: true
-      kin_score: 29.8
+      kin_score: 28.8
       mcp:
         status: none
       name: RabbitMQ
@@ -3198,13 +3198,13 @@ stack:
       - RabbitMQ
       tier: observed
       url: /providers/rabbitmq/
-    - agent_band: agent-aware
-      agent_readiness: 25.6
+    - agent_band: agent-ready
+      agent_readiness: 35.0
       apps:
       - KrakenD CE
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 77.2
       mcp:
         source: https://raw.githubusercontent.com/microsoft/mcp/main/servers/Azure.Mcp.Server/README.md
         status: verified
@@ -3221,12 +3221,33 @@ stack:
       tier: observed
       url: /providers/azure-service-bus/
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 44.6
+      apps:
+      - Tyk Gateway + Tyk Pump
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.7
+      mcp:
+        status: none
+      name: Amazon Kinesis
+      slug: kinesis
+      sources:
+      - https://github.com/TykTechnologies/tyk-pump/tree/master/pumps
+      status: profiled
+      tags:
+      - Amazon Web Services
+      - Analytics
+      - Apache Flink
+      - Big Data
+      tier: observed
+      url: /providers/kinesis/
+    - agent_band: agent-ready
+      agent_readiness: 41.7
       apps:
       - KrakenD CE
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 64.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3243,33 +3264,12 @@ stack:
       tier: observed
       url: /providers/amazon-sns/
     - agent_band: agent-ready
-      agent_readiness: 29.4
-      apps:
-      - Tyk Gateway + Tyk Pump
-      band: developing
-      in_catalog: true
-      kin_score: 49.3
-      mcp:
-        status: none
-      name: Amazon Kinesis
-      slug: kinesis
-      sources:
-      - https://github.com/TykTechnologies/tyk-pump/tree/master/pumps
-      status: profiled
-      tags:
-      - Amazon Web Services
-      - Analytics
-      - Apache Flink
-      - Big Data
-      tier: observed
-      url: /providers/kinesis/
-    - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 38.0
       apps:
       - KrakenD CE
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 64.1
       mcp:
         source: https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp
         status: verified
@@ -3286,12 +3286,12 @@ stack:
       tier: observed
       url: /providers/google-cloud-pubsub/
     - agent_band: agent-aware
-      agent_readiness: 17.2
+      agent_readiness: 16.8
       apps:
       - Apache APISIX
       band: thin
       in_catalog: true
-      kin_score: 26.8
+      kin_score: 26.6
       mcp:
         status: none
       name: Apache RocketMQ
@@ -3314,13 +3314,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 36.5
+    - agent_band: agent-native
+      agent_readiness: 47.9
       apps:
       - Traefik Proxy
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.0
+      kin_score: 76.0
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3336,13 +3336,13 @@ stack:
       - Docker
       tier: observed
       url: /providers/amazon-ecs/
-    - agent_band: agent-aware
-      agent_readiness: 24.4
+    - agent_band: agent-ready
+      agent_readiness: 32.4
       apps:
       - Traefik Proxy
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 51.7
       mcp:
         source: https://github.com/docker/mcp-gateway
         status: verified
@@ -3358,34 +3358,13 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/docker/
-    - agent_band: agent-aware
-      agent_readiness: 25.3
+    - agent_band: agent-ready
+      agent_readiness: 32.6
       apps:
       - Traefik Proxy
       band: developing
       in_catalog: true
-      kin_score: 48.5
-      mcp:
-        status: none
-      name: etcd
-      slug: etcd
-      sources:
-      - https://github.com/traefik/traefik/tree/master/pkg/provider
-      status: profiled
-      tags:
-      - Cloud-Native
-      - Consensus
-      - Distributed Systems
-      - Graduated
-      tier: observed
-      url: /providers/etcd/
-    - agent_band: agent-aware
-      agent_readiness: 28.5
-      apps:
-      - Traefik Proxy
-      band: developing
-      in_catalog: true
-      kin_score: 48.3
+      kin_score: 48.7
       mcp:
         status: none
       name: Kubernetes
@@ -3400,13 +3379,34 @@ stack:
       - Containers
       tier: observed
       url: /providers/kubernetes/
-    - agent_band: agent-native
-      agent_readiness: 49.8
+    - agent_band: agent-aware
+      agent_readiness: 24.7
       apps:
       - Traefik Proxy
       band: developing
       in_catalog: true
-      kin_score: 47.4
+      kin_score: 48.2
+      mcp:
+        status: none
+      name: etcd
+      slug: etcd
+      sources:
+      - https://github.com/traefik/traefik/tree/master/pkg/provider
+      status: profiled
+      tags:
+      - Cloud-Native
+      - Consensus
+      - Distributed Systems
+      - Graduated
+      tier: observed
+      url: /providers/etcd/
+    - agent_band: agent-ready
+      agent_readiness: 41.5
+      apps:
+      - Traefik Proxy
+      band: developing
+      in_catalog: true
+      kin_score: 46.5
       mcp: &id007
         source: https://github.com/redis/mcp-redis
         status: verified
@@ -3423,12 +3423,12 @@ stack:
       tier: observed
       url: /providers/redis/
     - agent_band: agent-aware
-      agent_readiness: 21.7
+      agent_readiness: 26.6
       apps:
       - Traefik Proxy
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 39.1
+      kin_score: 40.7
       mcp:
         status: none
       name: Nomad
@@ -3444,12 +3444,12 @@ stack:
       tier: observed
       url: /providers/nomad/
     - agent_band: agent-aware
-      agent_readiness: 25.5
+      agent_readiness: 24.9
       apps:
       - Traefik Proxy
       band: thin
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 37.5
       mcp:
         status: none
       name: Apache ZooKeeper
@@ -3465,12 +3465,12 @@ stack:
       tier: observed
       url: /providers/apache-zookeeper/
     - agent_band: agent-aware
-      agent_readiness: 20.6
+      agent_readiness: 20.2
       apps:
       - Traefik Proxy
       band: thin
       in_catalog: true
-      kin_score: 35.7
+      kin_score: 36.9
       mcp:
         source: https://github.com/hashicorp/consul-mcp-server
         status: verified
@@ -3502,7 +3502,7 @@ stack:
       - KrakenD CE
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 74.9
       mcp:
         source: https://github.com/awslabs/mcp/tree/main/src/lambda-tool-mcp-server
         status: verified
@@ -3520,14 +3520,14 @@ stack:
       - Serverless
       tier: observed
       url: /providers/aws-lambda/
-    - agent_band: agent-aware
-      agent_readiness: 28.0
+    - agent_band: agent-ready
+      agent_readiness: 28.9
       apps:
       - Apache APISIX
       - Kong Gateway
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 76.2
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3545,12 +3545,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-functions/
     - agent_band: agent-aware
-      agent_readiness: 23.0
+      agent_readiness: 22.6
       apps:
       - Apache APISIX
       band: thin
       in_catalog: true
-      kin_score: 27.0
+      kin_score: 26.7
       mcp:
         status: none
       name: Apache OpenWhisk
@@ -3574,13 +3574,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.4
       apps:
       - Tyk Gateway + Tyk Pump
       - Zuplo
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.3
+      kin_score: 71.7
       mcp:
         status: none
       name: Moesif
@@ -3597,12 +3597,12 @@ stack:
       tier: observed
       url: /providers/moesif/
     - agent_band: agent-ready
-      agent_readiness: 43.5
+      agent_readiness: 49.3
       apps:
       - Apache APISIX
       band: developing
       in_catalog: true
-      kin_score: 41.7
+      kin_score: 42.0
       mcp:
         source: https://github.com/getlago/lago-agent-toolkit
         status: verified
@@ -3619,12 +3619,12 @@ stack:
       tier: observed
       url: /providers/lago/
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 34.1
       apps:
       - Zuplo
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.7
+      kin_score: 68.8
       mcp:
         source: https://docs.readme.com/main/docs/mcp
         status: verified
@@ -3640,13 +3640,13 @@ stack:
       - Portal
       tier: declared
       url: /providers/readme/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-aware
+      agent_readiness: 24.4
       apps:
       - Zuplo
       band: developing
       in_catalog: true
-      kin_score: 46.5
+      kin_score: 45.3
       mcp:
         status: none
       name: Amberflo
@@ -3662,12 +3662,12 @@ stack:
       tier: declared
       url: /providers/amberflo/
     - agent_band: agent-aware
-      agent_readiness: 20.6
+      agent_readiness: 25.5
       apps:
       - Zuplo
       band: thin
       in_catalog: true
-      kin_score: 31.7
+      kin_score: 32.0
       mcp:
         status: none
       name: OpenMeter
@@ -3691,12 +3691,12 @@ stack:
       via_parent: API Consumption Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 31.6
       apps:
       - Postman
       band: exemplar
       in_catalog: true
-      kin_score: 80.3
+      kin_score: 78.5
       mcp:
         source: https://learn.microsoft.com/en-us/azure/api-management/export-rest-mcp-server
         status: verified
@@ -3712,13 +3712,13 @@ stack:
       - API Gateway
       tier: declared
       url: /providers/microsoft-azure-api-management/
-    - agent_band: agent-aware
-      agent_readiness: 23.1
+    - agent_band: agent-ready
+      agent_readiness: 42.0
       apps:
       - Postman
       band: exemplar
       in_catalog: true
-      kin_score: 76.0
+      kin_score: 77.4
       mcp:
         status: none
       name: AWS API Gateway
@@ -3734,12 +3734,12 @@ stack:
       tier: declared
       url: /providers/aws-api-gateway/
     - agent_band: agent-ready
-      agent_readiness: 31.7
+      agent_readiness: 33.8
       apps:
       - Postman
       band: exemplar
       in_catalog: true
-      kin_score: 69.6
+      kin_score: 67.6
       mcp:
         source: https://cloud.google.com/apigee/docs/api-platform/apigee-mcp/apigee-mcp-overview
         status: documented
@@ -3764,7 +3764,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.9
+      agent_readiness: 24.4
       apps:
       - Apache APISIX
       band: thin
@@ -3783,12 +3783,12 @@ stack:
       tier: observed
       url: /providers/open-policy-agent/
     - agent_band: agent-ready
-      agent_readiness: 32.7
+      agent_readiness: 33.5
       apps:
       - Zuplo
       band: thin
       in_catalog: true
-      kin_score: 29.9
+      kin_score: 33.6
       mcp:
         status: none
       name: Axiomatics
@@ -3804,12 +3804,12 @@ stack:
       tier: declared
       url: /providers/axiomatics/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 35.1
       apps:
       - Zuplo
       band: emerging
       in_catalog: true
-      kin_score: 25.2
+      kin_score: 23.8
       mcp:
         status: none
       name: OpenFGA
@@ -3833,7 +3833,7 @@ stack:
       via_parent: SDK & Client Library Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.9
+      agent_readiness: 44.4
       apps:
       - Postman
       band: strong
@@ -3863,12 +3863,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Zuplo
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3895,7 +3895,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 48.6
       apps:
       - Apache APISIX
       - Kong Gateway
@@ -3905,7 +3905,7 @@ stack:
       - Zuplo
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -3933,7 +3933,7 @@ stack:
       - Tyk Gateway + Tyk Pump
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 39.0
       mcp:
         status: none
       name: OpenTelemetry
@@ -3951,7 +3951,7 @@ stack:
       tier: observed
       url: /providers/opentelemetry/
     - agent_band: agent-ready
-      agent_readiness: 53.5
+      agent_readiness: 54.4
       apps:
       - Apache APISIX
       - Postman
@@ -3959,7 +3959,7 @@ stack:
       - Zuplo
       band: strong
       in_catalog: true
-      kin_score: 61.4
+      kin_score: 63.1
       mcp:
         status: none
       name: Splunk
@@ -3977,7 +3977,7 @@ stack:
       tier: observed
       url: /providers/splunk/
     - agent_band: agent-aware
-      agent_readiness: 18.7
+      agent_readiness: 23.7
       apps:
       - Apache APISIX
       - Kong Gateway
@@ -3985,7 +3985,7 @@ stack:
       - Tyk Gateway + Tyk Pump
       band: thin
       in_catalog: true
-      kin_score: 35.4
+      kin_score: 35.9
       mcp:
         source: https://github.com/prometheus/prometheus-mcp
         status: verified
@@ -4003,41 +4003,15 @@ stack:
       - Prometheus
       tier: observed
       url: /providers/prometheus-io/
-    - agent_band: agent-ready
-      agent_readiness: 45.7
-      apps:
-      - Postman
-      - Tyk Gateway + Tyk Pump
-      - Zuplo
-      band: exemplar
-      in_catalog: true
-      kin_score: 76.5
-      mcp:
-        source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
-        status: verified
-      name: New Relic
-      slug: new-relic
-      sources:
-      - https://github.com/TykTechnologies/tyk/blob/master/go.mod
-      - https://learning.postman.com/v11/docs/integrations/available-integrations/new-relic.md
-      - https://zuplo.com/docs/articles/logging
-      status: profiled
-      tags:
-      - APM
-      - Analysis
-      - Analytics
-      - DevOps
-      tier: observed
-      url: /providers/new-relic/
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Apache APISIX
       - KrakenD CE
       - Tyk Gateway + Tyk Pump
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 78.4
       mcp:
         source: https://www.elastic.co/docs/solutions/search/mcp
         status: verified
@@ -4055,15 +4029,41 @@ stack:
       - Security
       tier: observed
       url: /providers/elastic/
+    - agent_band: agent-ready
+      agent_readiness: 44.8
+      apps:
+      - Postman
+      - Tyk Gateway + Tyk Pump
+      - Zuplo
+      band: exemplar
+      in_catalog: true
+      kin_score: 74.4
+      mcp:
+        source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
+        status: verified
+      name: New Relic
+      slug: new-relic
+      sources:
+      - https://github.com/TykTechnologies/tyk/blob/master/go.mod
+      - https://learning.postman.com/v11/docs/integrations/available-integrations/new-relic.md
+      - https://zuplo.com/docs/articles/logging
+      status: profiled
+      tags:
+      - APM
+      - Analysis
+      - Analytics
+      - DevOps
+      tier: observed
+      url: /providers/new-relic/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Apache APISIX
       - Kong Gateway
       - Tyk Gateway + Tyk Pump
       band: thin
       in_catalog: true
-      kin_score: 37.5
+      kin_score: 38.2
       mcp:
         status: none
       name: Zipkin
@@ -4081,14 +4081,14 @@ stack:
       tier: observed
       url: /providers/zipkin/
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 19.7
       apps:
       - Kong Gateway
       - Traefik Proxy
       - Tyk Gateway + Tyk Pump
       band: thin
       in_catalog: true
-      kin_score: 27.9
+      kin_score: 29.0
       mcp:
         status: none
       name: StatsD
@@ -4106,13 +4106,13 @@ stack:
       tier: observed
       url: /providers/statsd/
     - agent_band: agent-ready
-      agent_readiness: 50.0
+      agent_readiness: 49.5
       apps:
       - Apache APISIX
       - Zuplo
       band: exemplar
       in_catalog: true
-      kin_score: 74.1
+      kin_score: 76.2
       mcp:
         source: https://raw.githubusercontent.com/googleapis/gcloud-mcp/main/README.md
         status: verified
@@ -4130,13 +4130,13 @@ stack:
       tier: observed
       url: /providers/google-cloud-logging/
     - agent_band: agent-ready
-      agent_readiness: 35.1
+      agent_readiness: 34.4
       apps:
       - Traefik Proxy
       - Tyk Gateway + Tyk Pump
       band: strong
       in_catalog: true
-      kin_score: 64.0
+      kin_score: 63.3
       mcp:
         source: https://github.com/influxdata/influxdb3_mcp_server
         status: verified
@@ -4154,13 +4154,13 @@ stack:
       tier: observed
       url: /providers/influxdata/
     - agent_band: agent-aware
-      agent_readiness: 5.4
+      agent_readiness: 5.3
       apps:
       - Apache APISIX
       - Kong Gateway
       band: thin
       in_catalog: true
-      kin_score: 36.3
+      kin_score: 35.0
       mcp:
         status: none
       name: Loggly
@@ -4177,13 +4177,13 @@ stack:
       tier: observed
       url: /providers/loggly/
     - agent_band: agent-aware
-      agent_readiness: 18.9
+      agent_readiness: 19.0
       apps:
       - Apache APISIX
       - Zuplo
       band: thin
       in_catalog: true
-      kin_score: 28.5
+      kin_score: 28.8
       mcp:
         source: https://github.com/grafana/loki-mcp
         status: verified
@@ -4207,7 +4207,7 @@ stack:
       - Tyk Gateway + Tyk Pump
       band: minimal
       in_catalog: true
-      kin_score: 10.8
+      kin_score: 10.6
       mcp:
         status: none
       name: Graylog
@@ -4229,7 +4229,7 @@ stack:
       - Tyk Gateway + Tyk Pump
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -4246,12 +4246,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 58.4
+      agent_readiness: 58.5
       apps:
       - Apache APISIX
       band: exemplar
       in_catalog: true
-      kin_score: 76.9
+      kin_score: 77.1
       mcp:
         source: https://github.com/ClickHouse/mcp-clickhouse
         status: verified
@@ -4268,12 +4268,12 @@ stack:
       tier: observed
       url: /providers/clickhouse/
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.9
       apps:
       - Tyk Gateway + Tyk Pump
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.3
       mcp:
         status: none
       name: Logz.io
@@ -4289,12 +4289,12 @@ stack:
       tier: observed
       url: /providers/logz-io/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Tyk Gateway + Tyk Pump
       band: thin
       in_catalog: true
-      kin_score: 35.5
+      kin_score: 36.3
       mcp:
         source: https://github.com/jaegertracing/jaeger
         status: verified
@@ -4311,12 +4311,12 @@ stack:
       tier: observed
       url: /providers/jaeger/
     - agent_band: agent-aware
-      agent_readiness: 12.9
+      agent_readiness: 12.7
       apps:
       - Apache APISIX
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.3
+      kin_score: 30.5
       mcp:
         source: https://github.com/TencentCloud/cos-mcp
         status: verified
@@ -4338,7 +4338,7 @@ stack:
       - Apache APISIX
       band: emerging
       in_catalog: true
-      kin_score: 22.4
+      kin_score: 21.6
       mcp:
         source: https://github.com/apache/skywalking-mcp
         status: verified
@@ -4355,12 +4355,12 @@ stack:
       tier: observed
       url: /providers/apache-skywalking/
     - agent_band: human-only
-      agent_readiness: 0.6
+      agent_readiness: 1.7
       apps:
       - Tyk Gateway + Tyk Pump
       band: emerging
       in_catalog: true
-      kin_score: 20.4
+      kin_score: 19.9
       mcp:
         status: none
       name: Resurface
@@ -4376,12 +4376,12 @@ stack:
       tier: observed
       url: /providers/resurface/
     - agent_band: agent-ready
-      agent_readiness: 44.7
+      agent_readiness: 43.8
       apps:
       - Zuplo
       band: exemplar
       in_catalog: true
-      kin_score: 84.1
+      kin_score: 85.6
       mcp:
         source: https://github.com/dynatrace-oss/dynatrace-mcp
         status: verified
@@ -4397,13 +4397,13 @@ stack:
       - Application Performance Monitoring
       tier: declared
       url: /providers/dynatrace/
-    - agent_band: agent-aware
-      agent_readiness: 28.0
+    - agent_band: agent-native
+      agent_readiness: 43.4
       apps:
       - Zuplo
       band: exemplar
       in_catalog: true
-      kin_score: 71.0
+      kin_score: 77.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4420,12 +4420,12 @@ stack:
       tier: declared
       url: /providers/amazon-cloudwatch/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 23.3
       apps:
       - Zuplo
       band: developing
       in_catalog: true
-      kin_score: 51.3
+      kin_score: 49.8
       mcp:
         status: none
       name: VMware Log Insight
@@ -4441,12 +4441,12 @@ stack:
       tier: declared
       url: /providers/vmware/
     - agent_band: agent-ready
-      agent_readiness: 45.1
+      agent_readiness: 48.2
       apps:
       - Zuplo
       band: developing
       in_catalog: true
-      kin_score: 47.1
+      kin_score: 47.3
       mcp:
         source: https://docs.sumologic.com/docs/search/mobot/
         status: documented
@@ -4471,12 +4471,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Hoppscotch
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: &id005
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -4493,12 +4493,12 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Hoppscotch
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp: *id001
       name: Microsoft sign-in
       slug: microsoft-entra
@@ -4508,13 +4508,13 @@ stack:
       tags: *id002
       tier: observed
       url: /providers/microsoft-entra/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Hoppscotch
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp: *id003
       name: Google sign-in
       slug: google-identity-platform
@@ -4525,12 +4525,12 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Apache APISIX
       band: minimal
       in_catalog: true
-      kin_score: 6.1
+      kin_score: 7.1
       mcp:
         source: https://github.com/open-dingtalk/dingtalk-mcp
         status: verified
@@ -4571,29 +4571,13 @@ stack:
       url: /capabilities/software-construction-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 63.4
-      apps:
-      - Postman
-      band: exemplar
-      in_catalog: true
-      kin_score: 85.4
-      mcp: *id005
-      name: GitHub
-      slug: github
-      sources:
-      - https://learning.postman.com/v11/docs/integrations/available-integrations/github/overview.md
-      status: profiled
-      tags: *id006
-      tier: declared
-      url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Postman
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -4610,12 +4594,28 @@ stack:
       tier: declared
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 62.4
       apps:
       - Postman
       band: exemplar
       in_catalog: true
-      kin_score: 76.8
+      kin_score: 85.0
+      mcp: *id005
+      name: GitHub
+      slug: github
+      sources:
+      - https://learning.postman.com/v11/docs/integrations/available-integrations/github/overview.md
+      status: profiled
+      tags: *id006
+      tier: declared
+      url: /providers/github/
+    - agent_band: agent-ready
+      agent_readiness: 37.7
+      apps:
+      - Postman
+      band: exemplar
+      in_catalog: true
+      kin_score: 81.9
       mcp:
         source: https://github.com/microsoft/azure-devops-mcp
         status: verified
@@ -4632,12 +4632,12 @@ stack:
       tier: declared
       url: /providers/microsoft-azure-devops/
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 35.3
       apps:
       - Postman
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 71.9
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -4662,13 +4662,13 @@ stack:
       via_parent: Security Architecture Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.2
+      agent_readiness: 16.8
       apps:
       - Kong Gateway
       - Traefik Proxy
       band: emerging
       in_catalog: true
-      kin_score: 24.3
+      kin_score: 23.7
       mcp:
         status: none
       name: Let's Encrypt
@@ -4685,12 +4685,12 @@ stack:
       tier: observed
       url: /providers/lets-encrypt/
     - agent_band: agent-aware
-      agent_readiness: 21.5
+      agent_readiness: 21.0
       apps:
       - Traefik Proxy
       band: developing
       in_catalog: true
-      kin_score: 42.2
+      kin_score: 40.8
       mcp:
         status: none
       name: Tailscale
@@ -4714,12 +4714,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.0
+      agent_readiness: 59.1
       apps:
       - Tyk Gateway + Tyk Pump
       band: exemplar
       in_catalog: true
-      kin_score: 77.8
+      kin_score: 79.9
       mcp:
         source: https://github.com/mongodb-js/mongodb-mcp-server
         status: verified
@@ -4735,13 +4735,13 @@ stack:
       - NoSQL
       tier: observed
       url: /providers/mongodb/
-    - agent_band: agent-ready
-      agent_readiness: 36.1
+    - agent_band: agent-native
+      agent_readiness: 48.4
       apps:
       - Tyk Gateway + Tyk Pump
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 55.7
+      kin_score: 73.3
       mcp:
         source: https://github.com/awslabs/mcp/tree/main/src/timestream-for-influxdb-mcp-server
         status: verified
@@ -4757,13 +4757,13 @@ stack:
       - Time Series
       tier: observed
       url: /providers/amazon-timestream/
-    - agent_band: agent-native
-      agent_readiness: 49.8
+    - agent_band: agent-ready
+      agent_readiness: 41.5
       apps:
       - Tyk Gateway + Tyk Pump
       band: developing
       in_catalog: true
-      kin_score: 47.4
+      kin_score: 46.5
       mcp: *id007
       name: Redis
       slug: redis
@@ -4782,12 +4782,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.1
+      agent_readiness: 56.3
       apps:
       - Postman
       band: exemplar
       in_catalog: true
-      kin_score: 69.1
+      kin_score: 73.5
       mcp:
         source: https://github.com/CircleCI-Public/mcp-server-circleci
         status: verified
@@ -4804,12 +4804,12 @@ stack:
       tier: declared
       url: /providers/circleci/
     - agent_band: agent-aware
-      agent_readiness: 23.0
+      agent_readiness: 22.5
       apps:
       - Postman
       band: thin
       in_catalog: true
-      kin_score: 38.1
+      kin_score: 39.0
       mcp:
         source: https://github.com/jenkinsci/mcp-server-plugin
         status: verified
@@ -4826,12 +4826,12 @@ stack:
       tier: declared
       url: /providers/jenkins/
     - agent_band: agent-aware
-      agent_readiness: 19.2
+      agent_readiness: 18.8
       apps:
       - Postman
       band: thin
       in_catalog: true
-      kin_score: 32.1
+      kin_score: 29.9
       mcp:
         status: none
       name: Travis CI
@@ -4855,12 +4855,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.9
+      agent_readiness: 54.4
       apps:
       - Postman
       band: developing
       in_catalog: true
-      kin_score: 51.2
+      kin_score: 52.1
       mcp:
         source: https://github.com/PagerDuty/pagerduty-mcp-server
         status: verified
@@ -4882,7 +4882,7 @@ stack:
       - Postman
       band: emerging
       in_catalog: true
-      kin_score: 17.8
+      kin_score: 18.1
       mcp:
         status: none
       name: Splunk On-Call (VictorOps)
@@ -4906,12 +4906,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Postman
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -4928,12 +4928,12 @@ stack:
       tier: declared
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Postman
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -4957,14 +4957,15 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - KrakenD CE
       band: thin
       in_catalog: true
-      kin_score: 31.0
+      kin_score: 29.7
       mcp:
-        status: unchecked
+        source: https://github.com/hashicorp/vault-mcp-server
+        status: verified
       name: HashiCorp Vault
       slug: hvault
       sources:
@@ -4986,12 +4987,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Tyk Gateway + Tyk Pump
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Twilio Segment
@@ -5015,12 +5016,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Hoppscotch
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -5045,12 +5046,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - Postman
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp:
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -5075,12 +5076,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 26.3
       apps:
       - Apache APISIX
       band: thin
       in_catalog: true
-      kin_score: 36.1
+      kin_score: 35.3
       mcp:
         source: https://github.com/chaitin/SafeLine
         status: verified
@@ -5105,12 +5106,12 @@ stack:
       via_parent: Service Resilience Commitment Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 19.7
       apps:
       - Postman
       band: thin
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 36.0
       mcp:
         status: none
       name: Statuspage
@@ -5136,13 +5137,13 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Apache APISIX
       - Kong Gateway
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -5160,13 +5161,13 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Apache APISIX
       - Kong Gateway
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -5184,60 +5185,13 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 29.9
       apps:
       - Apache APISIX
       - Kong Gateway
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 55.1
-      mcp:
-        status: none
-      name: Google Gemini
-      slug: google-gemini
-      sources:
-      - https://github.com/Kong/kong/tree/master/kong/llm/drivers
-      - https://github.com/apache/apisix/tree/master/apisix/plugins/ai-providers
-      status: profiled
-      tags:
-      - AI Agents
-      - Artificial Intelligence
-      - Code Generation
-      - Embeddings
-      tier: observed
-      url: /providers/google-gemini/
-    - agent_band: agent-ready
-      agent_readiness: 35.8
-      apps:
-      - Apache APISIX
-      - Kong Gateway
-      band: developing
-      in_catalog: true
-      kin_score: 51.4
-      mcp:
-        source: https://github.com/awslabs/mcp
-        status: verified
-      name: Amazon Bedrock
-      slug: amazon-bedrock
-      sources:
-      - https://github.com/Kong/kong/tree/master/kong/llm/drivers
-      - https://github.com/apache/apisix/tree/master/apisix/plugins/ai-providers
-      status: profiled
-      tags:
-      - Amazon Web Services
-      - Artificial Intelligence
-      - Foundation Models
-      - Generative AI
-      tier: observed
-      url: /providers/amazon-bedrock/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
-      apps:
-      - Apache APISIX
-      - Kong Gateway
-      band: developing
-      in_catalog: true
-      kin_score: 44.6
+      kin_score: 68.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -5254,13 +5208,60 @@ stack:
       - Generative AI
       tier: observed
       url: /providers/microsoft-azure-openai/
+    - agent_band: agent-native
+      agent_readiness: 48.3
+      apps:
+      - Apache APISIX
+      - Kong Gateway
+      band: strong
+      in_catalog: true
+      kin_score: 64.3
+      mcp:
+        source: https://github.com/awslabs/mcp
+        status: verified
+      name: Amazon Bedrock
+      slug: amazon-bedrock
+      sources:
+      - https://github.com/Kong/kong/tree/master/kong/llm/drivers
+      - https://github.com/apache/apisix/tree/master/apisix/plugins/ai-providers
+      status: profiled
+      tags:
+      - Amazon Web Services
+      - Artificial Intelligence
+      - Foundation Models
+      - Generative AI
+      tier: observed
+      url: /providers/amazon-bedrock/
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 35.0
+      apps:
+      - Apache APISIX
+      - Kong Gateway
+      band: strong
+      in_catalog: true
+      kin_score: 61.7
+      mcp:
+        status: none
+      name: Google Gemini
+      slug: google-gemini
+      sources:
+      - https://github.com/Kong/kong/tree/master/kong/llm/drivers
+      - https://github.com/apache/apisix/tree/master/apisix/plugins/ai-providers
+      status: profiled
+      tags:
+      - AI Agents
+      - Artificial Intelligence
+      - Code Generation
+      - Embeddings
+      tier: observed
+      url: /providers/google-gemini/
+    - agent_band: agent-ready
+      agent_readiness: 36.9
       apps:
       - Kong Gateway
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 69.1
       mcp:
         source: https://github.com/huggingface/hf-mcp-server
         status: verified
@@ -5276,13 +5277,13 @@ stack:
       - LLM
       tier: observed
       url: /providers/hugging-face/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 42.2
       apps:
       - Apache APISIX
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.4
+      kin_score: 63.2
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -5298,13 +5299,13 @@ stack:
       - Machine Learning
       tier: observed
       url: /providers/google-vertex-ai/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - Kong Gateway
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: Mistral AI
@@ -5320,12 +5321,12 @@ stack:
       tier: observed
       url: /providers/mistral/
     - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 22.4
       apps:
       - Apache APISIX
       band: developing
       in_catalog: true
-      kin_score: 43.3
+      kin_score: 41.2
       mcp:
         status: none
       name: DeepSeek
@@ -5341,12 +5342,12 @@ stack:
       tier: observed
       url: /providers/deepseek/
     - agent_band: agent-ready
-      agent_readiness: 41.4
+      agent_readiness: 40.6
       apps:
       - Kong Gateway
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.2
       mcp:
         status: none
       name: Cohere
@@ -5370,12 +5371,12 @@ stack:
       via_parent: Agent Identity & Trust
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 32.8
       apps:
       - Apache APISIX
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 70.7
       mcp:
         status: none
       name: Amazon Comprehend
@@ -5391,7 +5392,7 @@ stack:
       tier: observed
       url: /providers/amazon-comprehend/
     - agent_band: agent-ready
-      agent_readiness: 30.2
+      agent_readiness: 30.1
       apps:
       - Apache APISIX
       band: thin
@@ -5417,7 +5418,7 @@ stack:
       - Apache APISIX
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         source: https://github.com/aliyun/alibaba-cloud-ops-mcp-server
         status: verified
@@ -5431,12 +5432,12 @@ stack:
       tier: observed
       url: /providers/alibabacloud/
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 40.0
       apps:
       - Zuplo
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 53.8
       mcp:
         status: none
       name: Akamai
@@ -5460,12 +5461,12 @@ stack:
       via_parent: Agent Quality & Operations
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 33.8
       apps:
       - Zuplo
       band: strong
       in_catalog: true
-      kin_score: 62.7
+      kin_score: 61.7
       mcp:
         source: https://docs.galileo.ai/getting-started/mcp/setup-galileo-mcp
         status: verified
@@ -5482,12 +5483,12 @@ stack:
       tier: declared
       url: /providers/galileo-technologies/
     - agent_band: agent-aware
-      agent_readiness: 27.8
+      agent_readiness: 27.7
       apps:
       - Zuplo
       band: developing
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 45.8
       mcp:
         source: https://github.com/comet-ml/opik-mcp
         status: verified
@@ -5512,12 +5513,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.0
+      agent_readiness: 52.9
       apps:
       - Apache APISIX
       band: strong
       in_catalog: true
-      kin_score: 64.9
+      kin_score: 62.6
       mcp:
         source: https://docs.aimlapi.com/quickstart/mcp
         status: documented
@@ -5534,12 +5535,12 @@ stack:
       tier: observed
       url: /providers/aimlapi/
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 46.4
       apps:
       - Apache APISIX
       band: strong
       in_catalog: true
-      kin_score: 55.4
+      kin_score: 54.8
       mcp:
         source: https://openrouter.ai/docs/guides/overview/mcp-server
         status: verified
@@ -5564,10 +5565,10 @@ summary:
   mcp:
     documented: 4
     none: 47
-    unchecked: 2
-    verified: 63
-  mcp_verified: 63
-  mean_kin_score: 51.7
+    unchecked: 1
+    verified: 64
+  mcp_verified: 64
+  mean_kin_score: 54.2
   observed: 72
   queued: 1
   reference_apps: 8

@@ -786,12 +786,12 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Nextcloud Talk
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -808,12 +808,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Nextcloud Talk
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -829,12 +829,12 @@ stack:
       tier: observed
       url: /providers/microsoft-teams/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Nextcloud Talk
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -850,12 +850,12 @@ stack:
       tier: observed
       url: /providers/telegram/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Nextcloud Talk
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -871,12 +871,12 @@ stack:
       tier: observed
       url: /providers/discord/
     - agent_band: agent-aware
-      agent_readiness: 25.7
+      agent_readiness: 25.2
       apps:
       - Nextcloud Talk
       band: thin
       in_catalog: true
-      kin_score: 37.2
+      kin_score: 37.0
       mcp:
         source: https://github.com/mattermost/mmctl-mcp
         status: verified
@@ -893,12 +893,12 @@ stack:
       tier: observed
       url: /providers/mattermost/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - Nextcloud Talk
       band: thin
       in_catalog: true
-      kin_score: 34.4
+      kin_score: 34.5
       mcp:
         status: none
       name: Steam chat
@@ -914,12 +914,12 @@ stack:
       tier: observed
       url: /providers/steam/
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 25.1
       apps:
       - Nextcloud Talk
       band: thin
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 33.1
       mcp:
         source: https://github.com/zulip/zulipmcp
         status: verified
@@ -941,7 +941,7 @@ stack:
       - Nextcloud Talk
       band: minimal
       in_catalog: true
-      kin_score: 2.2
+      kin_score: 2.9
       mcp:
         source: https://docs.rocket.chat/docs/mcp-server
         status: verified
@@ -966,12 +966,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Zoom
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -988,12 +988,12 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 42.6
+      agent_readiness: 41.8
       apps:
       - Zoom
       band: exemplar
       in_catalog: true
-      kin_score: 79.9
+      kin_score: 79.8
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -1010,56 +1010,12 @@ stack:
       tier: declared
       url: /providers/atlassian/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 30.2
       apps:
       - Zoom
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
-      mcp:
-        source: https://github.com/google/mcp
-        status: verified
-      name: Google
-      slug: google
-      sources:
-      - https://www.zoom.com/en/products/collaboration-tools/
-      status: profiled
-      tags:
-      - Advertising
-      - Cloud
-      - Developers
-      - Google
-      tier: declared
-      url: /providers/google/
-    - agent_band: agent-ready
-      agent_readiness: 56.3
-      apps:
-      - Zoom
-      band: exemplar
-      in_catalog: true
-      kin_score: 68.6
-      mcp:
-        source: https://github.com/oracle/mcp
-        status: verified
-      name: Oracle
-      slug: oracle
-      sources:
-      - https://www.zoom.com/en/products/collaboration-tools/
-      status: profiled
-      tags:
-      - Cloud
-      - Database
-      - Enterprise
-      - Oracle
-      tier: declared
-      url: /providers/oracle/
-    - agent_band: agent-aware
-      agent_readiness: 25.6
-      apps:
-      - Zoom
-      band: strong
-      in_catalog: true
-      kin_score: 66.3
+      kin_score: 70.5
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1076,12 +1032,56 @@ stack:
       tier: declared
       url: /providers/microsoft/
     - agent_band: agent-ready
-      agent_readiness: 43.2
+      agent_readiness: 59.8
+      apps:
+      - Zoom
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.4
+      mcp:
+        source: https://github.com/oracle/mcp
+        status: verified
+      name: Oracle
+      slug: oracle
+      sources:
+      - https://www.zoom.com/en/products/collaboration-tools/
+      status: profiled
+      tags:
+      - Cloud
+      - Database
+      - Enterprise
+      - Oracle
+      tier: declared
+      url: /providers/oracle/
+    - agent_band: agent-ready
+      agent_readiness: 47.8
+      apps:
+      - Zoom
+      band: exemplar
+      in_catalog: true
+      kin_score: 68.9
+      mcp:
+        source: https://github.com/google/mcp
+        status: verified
+      name: Google
+      slug: google
+      sources:
+      - https://www.zoom.com/en/products/collaboration-tools/
+      status: profiled
+      tags:
+      - Advertising
+      - Cloud
+      - Developers
+      - Google
+      tier: declared
+      url: /providers/google/
+    - agent_band: agent-ready
+      agent_readiness: 42.3
       apps:
       - Zoom
       band: strong
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 61.9
       mcp:
         status: none
       name: ServiceNow
@@ -1105,12 +1105,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 39.0
       apps:
       - Jitsi Meet
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 69.7
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1126,13 +1126,13 @@ stack:
       - Microsoft Graph
       tier: observed
       url: /providers/microsoft-graph/
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Jitsi Meet
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1157,12 +1157,12 @@ stack:
       via_parent: OTT & Streaming Delivery
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - Jitsi Meet
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube
@@ -1186,12 +1186,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.8
+      agent_readiness: 34.2
       apps:
       - LiveKit Meet
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 54.9
+      kin_score: 54.0
       mcp:
         status: none
       name: Krisp
@@ -1215,12 +1215,12 @@ stack:
       via_parent: Speech & Voice
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.9
+      agent_readiness: 33.6
       apps:
       - BigBlueButton
       band: developing
       in_catalog: true
-      kin_score: 50.2
+      kin_score: 49.4
       mcp:
         source: https://github.com/gladiaio/gladia-mcp
         status: verified
@@ -1250,7 +1250,7 @@ stack:
       - LiveKit Meet
       band: thin
       in_catalog: true
-      kin_score: 33.4
+      kin_score: 34.3
       mcp:
         status: none
       name: LiveKit (Cloud or self-hosted SFU)
@@ -1276,12 +1276,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 48.6
       apps:
       - LiveKit Meet
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -1297,28 +1297,28 @@ stack:
       - Visualization
       tier: observed
       url: /providers/datadog/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Jitsi Meet
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase (Crashlytics, Analytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/org.jitsi.meet/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -1362,13 +1362,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Jitsi Meet
       - Webex Meetings
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -1385,22 +1385,22 @@ stack:
       - Feature Flags
       tier: observed
       url: /providers/amplitude/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Webex Meetings
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.cisco.webex.meetings/latest/
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-170.30.30
@@ -1410,12 +1410,12 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.9
+      agent_readiness: 26.8
       apps:
       - Jitsi Meet
       band: strong
       in_catalog: true
-      kin_score: 55.6
+      kin_score: 56.0
       mcp:
         status: none
       name: GIPHY
@@ -1431,12 +1431,12 @@ stack:
       tier: observed
       url: /providers/giphy/
     - agent_band: agent-ready
-      agent_readiness: 33.3
+      agent_readiness: 32.7
       apps:
       - Jitsi Meet
       band: developing
       in_catalog: true
-      kin_score: 39.8
+      kin_score: 41.2
       mcp:
         source: https://github.com/Automattic/mcp-server-gravatar
         status: verified
@@ -1461,34 +1461,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 34.8
       apps:
       - BigBlueButton
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
-      mcp:
-        source: https://github.com/googleapis/gcloud-mcp
-        status: verified
-      name: Google Cloud Storage
-      slug: gcp-cloud-storage
-      sources:
-      - https://raw.githubusercontent.com/bigbluebutton/greenlight/master/Gemfile
-      status: profiled
-      tags:
-      - Archival
-      - Backup
-      - Blob Storage
-      - Cloud Storage
-      tier: observed
-      url: /providers/gcp-cloud-storage/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
-      apps:
-      - BigBlueButton
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -1504,6 +1482,28 @@ stack:
       - Cloud Storage
       tier: observed
       url: /providers/amazon-s3/
+    - agent_band: agent-ready
+      agent_readiness: 45.1
+      apps:
+      - BigBlueButton
+      band: exemplar
+      in_catalog: true
+      kin_score: 74.1
+      mcp:
+        source: https://github.com/googleapis/gcloud-mcp
+        status: verified
+      name: Google Cloud Storage
+      slug: gcp-cloud-storage
+      sources:
+      - https://raw.githubusercontent.com/bigbluebutton/greenlight/master/Gemfile
+      status: profiled
+      tags:
+      - Archival
+      - Backup
+      - Blob Storage
+      - Cloud Storage
+      tier: observed
+      url: /providers/gcp-cloud-storage/
   - capability:
       attribution: API Evangelist extension
       id: AE-160.70
@@ -1513,12 +1513,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - BigBlueButton
       band: thin
       in_catalog: true
-      kin_score: 31.5
+      kin_score: 31.1
       mcp:
         status: none
       name: hCaptcha
@@ -1542,12 +1542,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Jitsi Meet
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -1571,13 +1571,13 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Jitsi Meet
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -1601,12 +1601,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - Zoom
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -1634,7 +1634,7 @@ summary:
     unchecked: 2
     verified: 20
   mcp_verified: 20
-  mean_kin_score: 55.8
+  mean_kin_score: 58.1
   observed: 25
   queued: 2
   reference_apps: 7

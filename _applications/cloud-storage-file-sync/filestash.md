@@ -66,10 +66,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id001
       source: https://github.com/microsoft/mcp
       status: verified
@@ -96,11 +96,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.9
+    agent_band: agent-aware
+    agent_readiness: 27.4
     band: developing
     in_catalog: true
-    kin_score: 50.9
+    kin_score: 49.6
     mcp: &id003
       source: https://github.com/backblaze-labs/b2-mcp
       status: verified
@@ -128,10 +128,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 44.8
     band: developing
     in_catalog: true
-    kin_score: 47.9
+    kin_score: 45.9
     mcp: &id005
       source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
       status: verified
@@ -159,10 +159,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.3
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 67.1
+    kin_score: 73.2
     mcp: &id007
       source: https://github.com/google/mcp
       status: verified
@@ -190,10 +190,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.2
+    agent_readiness: 35.5
     band: strong
     in_catalog: true
-    kin_score: 59.3
+    kin_score: 58.9
     mcp: &id009
       source: https://github.com/jfrog/mcp-jfrog
       status: verified
@@ -250,7 +250,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.5
+    kin_score: 5.7
     mcp: &id013
       status: none
     slug: storj
@@ -277,10 +277,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 15.9
     band: emerging
     in_catalog: true
-    kin_score: 16.1
+    kin_score: 22.9
     mcp: &id015
       status: none
     slug: syncthing
@@ -305,21 +305,21 @@ noindex: false
 permalink: /applications/cloud-storage-file-sync/filestash/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id001
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
   status: profiled
   tags: *id002
   url: /providers/microsoft-azure-blob-storage/
-- agent_band: agent-ready
-  agent_readiness: 31.9
+- agent_band: agent-aware
+  agent_readiness: 27.4
   band: developing
   in_catalog: true
-  kin_score: 50.9
+  kin_score: 49.6
   mcp: *id003
   name: Backblaze B2
   slug: backblaze
@@ -327,10 +327,10 @@ providers:
   tags: *id004
   url: /providers/backblaze/
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 44.8
   band: developing
   in_catalog: true
-  kin_score: 47.9
+  kin_score: 45.9
   mcp: *id005
   name: Dropbox
   slug: dropbox
@@ -338,10 +338,10 @@ providers:
   tags: *id006
   url: /providers/dropbox/
 - agent_band: agent-ready
-  agent_readiness: 44.3
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 67.1
+  kin_score: 73.2
   mcp: *id007
   name: Google Drive
   slug: google-drive
@@ -349,10 +349,10 @@ providers:
   tags: *id008
   url: /providers/google-drive/
 - agent_band: agent-ready
-  agent_readiness: 36.2
+  agent_readiness: 35.5
   band: strong
   in_catalog: true
-  kin_score: 59.3
+  kin_score: 58.9
   mcp: *id009
   name: JFrog Artifactory
   slug: artifactory
@@ -374,7 +374,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.5
+  kin_score: 5.7
   mcp: *id013
   name: Storj
   slug: storj
@@ -382,10 +382,10 @@ providers:
   tags: *id014
   url: /providers/storj/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 15.9
   band: emerging
   in_catalog: true
-  kin_score: 16.1
+  kin_score: 22.9
   mcp: *id015
   name: Syncthing
   slug: syncthing

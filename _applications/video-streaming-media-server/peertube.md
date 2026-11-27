@@ -56,10 +56,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 31.5
     mcp: &id003
       status: none
     slug: maxmind
@@ -85,11 +85,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -117,10 +117,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 27.1
+    agent_readiness: 26.6
     band: developing
     in_catalog: true
-    kin_score: 53.8
+    kin_score: 51.6
     mcp: &id005
       source: https://github.com/scaleway/scaleway-cli
       status: verified
@@ -148,10 +148,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id007
       status: none
     slug: youtube
@@ -175,11 +175,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/video-streaming-media-server/peertube/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -187,10 +187,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 31.5
   mcp: *id003
   name: MaxMind GeoIP
   slug: maxmind
@@ -198,10 +198,10 @@ providers:
   tags: *id004
   url: /providers/maxmind/
 - agent_band: agent-aware
-  agent_readiness: 27.1
+  agent_readiness: 26.6
   band: developing
   in_catalog: true
-  kin_score: 53.8
+  kin_score: 51.6
   mcp: *id005
   name: Scaleway Object Storage
   slug: scaleway
@@ -209,10 +209,10 @@ providers:
   tags: *id006
   url: /providers/scaleway/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id007
   name: YouTube
   slug: youtube

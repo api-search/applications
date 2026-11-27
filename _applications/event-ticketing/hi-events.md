@@ -84,10 +84,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id001
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -115,10 +115,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.1
+    agent_readiness: 24.2
     band: thin
     in_catalog: true
-    kin_score: 28.9
+    kin_score: 28.8
     mcp: &id003
       source: https://github.com/cloudflare/mcp
       status: verified
@@ -146,10 +146,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.3
-    band: developing
+    agent_readiness: 40.3
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 62.4
     mcp: &id005
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -177,10 +177,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.7
+    agent_readiness: 43.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.3
+    kin_score: 70.5
     mcp: &id007
       source: https://github.com/ActiveCampaign/postmark-mcp
       status: verified
@@ -211,7 +211,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id009
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -239,10 +239,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id011
       source: https://docs.stripe.com/mcp
       status: verified
@@ -268,10 +268,10 @@ noindex: false
 permalink: /applications/event-ticketing/hi-events/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id001
   name: Anthropic
   slug: anthropic
@@ -279,10 +279,10 @@ providers:
   tags: *id002
   url: /providers/anthropic/
 - agent_band: agent-aware
-  agent_readiness: 23.1
+  agent_readiness: 24.2
   band: thin
   in_catalog: true
-  kin_score: 28.9
+  kin_score: 28.8
   mcp: *id003
   name: Cloudflare Turnstile
   slug: cloudflare-turnstile
@@ -290,10 +290,10 @@ providers:
   tags: *id004
   url: /providers/cloudflare-turnstile/
 - agent_band: agent-ready
-  agent_readiness: 32.3
-  band: developing
+  agent_readiness: 40.3
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 62.4
   mcp: *id005
   name: Google Places
   slug: google-places
@@ -301,10 +301,10 @@ providers:
   tags: *id006
   url: /providers/google-places/
 - agent_band: agent-ready
-  agent_readiness: 41.7
+  agent_readiness: 43.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.3
+  kin_score: 70.5
   mcp: *id007
   name: Postmark
   slug: postmark
@@ -315,7 +315,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id009
   name: Sentry
   slug: sentry-system
@@ -323,10 +323,10 @@ providers:
   tags: *id010
   url: /providers/sentry-system/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id011
   name: Stripe
   slug: stripe

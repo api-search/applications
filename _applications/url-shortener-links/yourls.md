@@ -74,10 +74,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 31.5
     mcp: &id003
       status: none
     slug: maxmind
@@ -113,10 +113,10 @@ providers:
   tags: *id002
   url: null
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 31.5
   mcp: *id003
   name: MaxMind GeoLite2
   slug: maxmind

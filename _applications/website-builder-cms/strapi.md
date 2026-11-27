@@ -54,11 +54,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -86,10 +86,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.4
+    agent_readiness: 38.0
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 83.8
     mcp: &id003
       status: none
     slug: amazon-ses
@@ -116,10 +116,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.0
-    band: developing
+    agent_readiness: 53.5
+    band: exemplar
     in_catalog: true
-    kin_score: 52.4
+    kin_score: 82.0
     mcp: &id005
       source: https://cloudinary.com/documentation/cloudinary_llm_mcp
       status: verified
@@ -147,10 +147,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 32.6
+    kin_score: 31.6
     mcp: &id007
       source: https://github.com/mailgun/mailgun-mcp-server
       status: verified
@@ -178,10 +178,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id009
       status: none
     slug: sendgrid
@@ -205,11 +205,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/website-builder-cms/strapi/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -217,10 +217,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 39.4
+  agent_readiness: 38.0
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 83.8
   mcp: *id003
   name: Amazon SES
   slug: amazon-ses
@@ -228,10 +228,10 @@ providers:
   tags: *id004
   url: /providers/amazon-ses/
 - agent_band: agent-ready
-  agent_readiness: 45.0
-  band: developing
+  agent_readiness: 53.5
+  band: exemplar
   in_catalog: true
-  kin_score: 52.4
+  kin_score: 82.0
   mcp: *id005
   name: Cloudinary
   slug: cloudinary
@@ -239,10 +239,10 @@ providers:
   tags: *id006
   url: /providers/cloudinary/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 32.6
+  kin_score: 31.6
   mcp: *id007
   name: Mailgun
   slug: mailgun
@@ -250,10 +250,10 @@ providers:
   tags: *id008
   url: /providers/mailgun/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id009
   name: SendGrid
   slug: sendgrid

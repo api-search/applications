@@ -79,22 +79,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id001
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id002
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Crashlytics
   provider: firebase
@@ -111,10 +111,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id003
       source: https://github.com/google/mcp
       status: verified
@@ -145,7 +145,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 20.5
+    kin_score: 22.7
     mcp: &id005
       status: none
     slug: kayak
@@ -171,11 +171,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.3
     band: developing
     in_catalog: true
-    kin_score: 44.4
+    kin_score: 45.5
     mcp: &id007
       status: none
     slug: openstreetmap
@@ -202,10 +202,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.8
+    agent_readiness: 29.3
     band: developing
     in_catalog: true
-    kin_score: 43.0
+    kin_score: 41.8
     mcp: &id009
       status: none
     slug: wikipedia
@@ -229,22 +229,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/maps-navigation/organic-maps/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id001
   name: Firebase Crashlytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id002
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id003
   name: Google Play services location
   slug: google
@@ -255,18 +255,18 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 20.5
+  kin_score: 22.7
   mcp: *id005
   name: Kayak
   slug: kayak
   status: profiled
   tags: *id006
   url: /providers/kayak/
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: developing
   in_catalog: true
-  kin_score: 44.4
+  kin_score: 45.5
   mcp: *id007
   name: OpenStreetMap
   slug: openstreetmap
@@ -274,10 +274,10 @@ providers:
   tags: *id008
   url: /providers/openstreetmap/
 - agent_band: agent-ready
-  agent_readiness: 29.8
+  agent_readiness: 29.3
   band: developing
   in_catalog: true
-  kin_score: 43.0
+  kin_score: 41.8
   mcp: *id009
   name: Wikipedia
   slug: wikipedia

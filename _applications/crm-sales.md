@@ -1078,10 +1078,10 @@ apps:
     tier: declared
   - capability:
       attribution: Turbo EA
-      id: ''
-      key: service-request-management
-      name: Service Request Management
-      url: null
+      id: BC-430
+      key: customer-service-management
+      name: Customer Service Management
+      url: /capabilities/customer-service-management/
       via_parent: null
     credit: null
     layer: domain
@@ -1359,10 +1359,10 @@ needs:
   why: seen in reference apps (Asana)
 - capability:
     attribution: Turbo EA
-    id: ''
-    key: service-request-management
-    name: Service Request Management
-    url: null
+    id: BC-430
+    key: customer-service-management
+    name: Customer Service Management
+    url: /capabilities/customer-service-management/
     via_parent: null
   fit: exact
   layer: domain
@@ -1387,15 +1387,15 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - EspoCRM
       - HubSpot
       - Twenty
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -1413,14 +1413,14 @@ stack:
       - Google
       tier: observed
       url: /providers/google-gmail/
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - EspoCRM
       - Twenty
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1438,13 +1438,13 @@ stack:
       tier: observed
       url: /providers/google-calendar/
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - EspoCRM
       - HubSpot
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1462,12 +1462,12 @@ stack:
       tier: declared
       url: /providers/microsoft-outlook/
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 39.0
       apps:
       - Twenty
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 69.7
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1484,12 +1484,12 @@ stack:
       tier: observed
       url: /providers/microsoft-graph/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - SuiteCRM
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1514,12 +1514,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - EspoCRM
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -1539,9 +1539,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - EspoCRM
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.9
+      kin_score: 29.0
       mcp:
         status: none
       name: 3CX
@@ -1557,12 +1557,12 @@ stack:
       tier: declared
       url: /providers/3cx/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - EspoCRM
       band: minimal
       in_catalog: true
-      kin_score: 6.7
+      kin_score: 9.1
       mcp:
         status: unknown
       name: Starface
@@ -1578,7 +1578,7 @@ stack:
       tier: declared
       url: /providers/starface/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - EspoCRM
       band: minimal
@@ -1607,12 +1607,12 @@ stack:
       via_parent: Company & Contact Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 59.4
+      agent_readiness: 58.2
       apps:
       - SuiteCRM
       band: exemplar
       in_catalog: true
-      kin_score: 71.0
+      kin_score: 70.1
       mcp:
         source: https://developer.demandbase.com/docs/mcp
         status: documented
@@ -1629,12 +1629,12 @@ stack:
       tier: observed
       url: /providers/demandbase/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.3
       apps:
       - Pipedrive
       band: exemplar
       in_catalog: true
-      kin_score: 77.3
+      kin_score: 78.0
       mcp:
         source: https://developers.surfe.com/mcp
         status: verified
@@ -1651,12 +1651,12 @@ stack:
       tier: declared
       url: /providers/surfe/
     - agent_band: agent-ready
-      agent_readiness: 59.2
+      agent_readiness: 58.0
       apps:
       - Pipedrive
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 68.6
       mcp:
         source: https://docs.apollo.io/docs/apollo-mcp
         status: verified
@@ -1681,12 +1681,12 @@ stack:
       via_parent: Contract Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Pipedrive
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 71.5
       mcp:
         source: https://www.docusign.com/products/mcp
         status: documented
@@ -1703,12 +1703,12 @@ stack:
       tier: declared
       url: /providers/docusign/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 23.9
       apps:
       - Pipedrive
       band: thin
       in_catalog: true
-      kin_score: 30.9
+      kin_score: 31.1
       mcp:
         status: none
       name: Oneflow
@@ -1731,14 +1731,14 @@ stack:
       url: /capabilities/customer-data-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.2
       apps:
       - EspoCRM
       - Krayin CRM
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 45.6
+      kin_score: 57.2
       mcp:
         source: https://docs.cloud.google.com/mcp/supported-products
         status: verified
@@ -1764,12 +1764,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - SuiteCRM
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -1786,12 +1786,12 @@ stack:
       tier: observed
       url: /providers/x/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - SuiteCRM
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -1815,12 +1815,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - EspoCRM
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -1836,13 +1836,13 @@ stack:
       - Zoom
       tier: declared
       url: /providers/zoom/
-    - agent_band: agent-aware
-      agent_readiness: 17.2
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Pipedrive
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 52.2
       mcp:
         status: none
       name: Google Meet
@@ -1859,6 +1859,35 @@ stack:
       url: /providers/google-meet/
   - capability:
       attribution: Turbo EA
+      id: BC-430
+      key: customer-service-management
+      name: Customer Service Management
+      url: /capabilities/customer-service-management/
+      via_parent: null
+    providers:
+    - agent_band: agent-ready
+      agent_readiness: 34.7
+      apps:
+      - Pipedrive
+      band: exemplar
+      in_catalog: true
+      kin_score: 72.4
+      mcp:
+        status: none
+      name: Zendesk
+      slug: zendesk
+      sources:
+      - https://www.pipedrive.com/en/marketplace
+      status: profiled
+      tags:
+      - CRM
+      - Chat
+      - Help Center
+      - Sell
+      tier: declared
+      url: /providers/zendesk/
+  - capability:
+      attribution: Turbo EA
       id: BC-400.60
       key: digital-marketing-management
       name: Digital Marketing Management
@@ -1866,12 +1895,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - EspoCRM
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -1895,12 +1924,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Pipedrive
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -1923,13 +1952,13 @@ stack:
       url: /capabilities/invoice-generation-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Pipedrive
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -1946,35 +1975,6 @@ stack:
       tier: declared
       url: /providers/quickbooks/
   - capability:
-      attribution: Turbo EA
-      id: ''
-      key: service-request-management
-      name: Service Request Management
-      url: null
-      via_parent: null
-    providers:
-    - agent_band: agent-ready
-      agent_readiness: 35.0
-      apps:
-      - Pipedrive
-      band: exemplar
-      in_catalog: true
-      kin_score: 72.8
-      mcp:
-        status: none
-      name: Zendesk
-      slug: zendesk
-      sources:
-      - https://www.pipedrive.com/en/marketplace
-      status: profiled
-      tags:
-      - CRM
-      - Chat
-      - Help Center
-      - Sell
-      tier: declared
-      url: /providers/zendesk/
-  - capability:
       attribution: API Evangelist extension
       id: AE-150.20.20
       key: AE-150.20.20
@@ -1983,12 +1983,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Pipedrive
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp Business
@@ -2020,7 +2020,7 @@ stack:
       - Twenty
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2038,13 +2038,13 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - HubSpot
       - Pipedrive
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -2061,37 +2061,37 @@ stack:
       - DevOps
       tier: observed
       url: /providers/new-relic/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - HubSpot
       - Pipedrive
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase (Crashlytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.hubspot.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.pipedrive/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Salesforce
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -2115,15 +2115,15 @@ stack:
       url: /capabilities/media-asset-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - EspoCRM
       - SuiteCRM
       - Twenty
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2142,12 +2142,12 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - SuiteCRM
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -2164,12 +2164,12 @@ stack:
       tier: observed
       url: /providers/gcp-cloud-storage/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - SuiteCRM
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2194,14 +2194,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - EspoCRM
       - Pipedrive
       - Twenty
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2228,12 +2228,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Pipedrive
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -2249,29 +2249,29 @@ stack:
       - Feature Flags
       tier: observed
       url: /providers/amplitude/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - HubSpot
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase (Analytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.hubspot.android/latest/
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Pipedrive
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Twilio Segment
@@ -2294,14 +2294,14 @@ stack:
       url: /capabilities/bot-protection-captcha/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - EspoCRM
       - SuiteCRM
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Google reCAPTCHA
@@ -2326,12 +2326,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Twenty
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft Entra ID
@@ -2346,13 +2346,13 @@ stack:
       - Identity and Access Management
       tier: observed
       url: /providers/microsoft-entra/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Twenty
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -2376,12 +2376,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.6
       apps:
       - HubSpot
       band: thin
       in_catalog: true
-      kin_score: 34.2
+      kin_score: 32.4
       mcp:
         status: none
       name: Wootric
@@ -2405,12 +2405,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - Twenty
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp:
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -2435,12 +2435,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - EspoCRM
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp: &id003
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -2465,12 +2465,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 34.4
       apps:
       - SuiteCRM
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 59.8
+      kin_score: 70.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2495,12 +2495,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - SuiteCRM
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp: *id003
       name: Google Maps
       slug: google-maps
@@ -2519,12 +2519,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.3
       apps:
       - Pipedrive
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 72.5
       mcp:
         source: https://developers.asana.com/docs/using-asanas-mcp-server
         status: verified
@@ -2554,7 +2554,7 @@ stack:
       - Twenty
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 74.9
       mcp:
         source: https://github.com/awslabs/mcp/tree/main/src/lambda-tool-mcp-server
         status: verified
@@ -2579,12 +2579,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - Twenty
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -2608,12 +2608,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Pipedrive
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2640,12 +2640,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Twenty
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -2662,12 +2662,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Twenty
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -2684,54 +2684,34 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 29.9
       apps:
       - Twenty
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 68.3
       mcp:
-        status: none
-      name: Google Gemini
-      slug: google-gemini
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Azure OpenAI
+      slug: microsoft-azure-openai
       sources:
       - https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-server/package.json
       status: profiled
       tags:
-      - AI Agents
       - Artificial Intelligence
-      - Code Generation
       - Embeddings
+      - GPT
+      - Generative AI
       tier: observed
-      url: /providers/google-gemini/
-    - agent_band: agent-ready
-      agent_readiness: 40.4
+      url: /providers/microsoft-azure-openai/
+    - agent_band: agent-native
+      agent_readiness: 48.3
       apps:
       - Twenty
       band: strong
       in_catalog: true
-      kin_score: 54.6
-      mcp:
-        status: none
-      name: TypeSafe AI
-      slug: typesafe-ai
-      sources:
-      - https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-server/package.json
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Classification
-      - Content Moderation
-      - Machine Learning
-      tier: observed
-      url: /providers/typesafe-ai/
-    - agent_band: agent-ready
-      agent_readiness: 35.8
-      apps:
-      - Twenty
-      band: developing
-      in_catalog: true
-      kin_score: 51.4
+      kin_score: 64.3
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2748,12 +2728,54 @@ stack:
       tier: observed
       url: /providers/amazon-bedrock/
     - agent_band: agent-ready
-      agent_readiness: 28.8
+      agent_readiness: 35.0
+      apps:
+      - Twenty
+      band: strong
+      in_catalog: true
+      kin_score: 61.7
+      mcp:
+        status: none
+      name: Google Gemini
+      slug: google-gemini
+      sources:
+      - https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-server/package.json
+      status: profiled
+      tags:
+      - AI Agents
+      - Artificial Intelligence
+      - Code Generation
+      - Embeddings
+      tier: observed
+      url: /providers/google-gemini/
+    - agent_band: agent-ready
+      agent_readiness: 40.0
+      apps:
+      - Twenty
+      band: strong
+      in_catalog: true
+      kin_score: 59.7
+      mcp:
+        status: none
+      name: TypeSafe AI
+      slug: typesafe-ai
+      sources:
+      - https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-server/package.json
+      status: profiled
+      tags:
+      - Artificial Intelligence
+      - Classification
+      - Content Moderation
+      - Machine Learning
+      tier: observed
+      url: /providers/typesafe-ai/
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - Twenty
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: Mistral AI
@@ -2768,35 +2790,13 @@ stack:
       - OCR
       tier: observed
       url: /providers/mistral/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
-      apps:
-      - Twenty
-      band: developing
-      in_catalog: true
-      kin_score: 44.6
-      mcp:
-        source: https://github.com/microsoft/mcp
-        status: verified
-      name: Azure OpenAI
-      slug: microsoft-azure-openai
-      sources:
-      - https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-server/package.json
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Embeddings
-      - GPT
-      - Generative AI
-      tier: observed
-      url: /providers/microsoft-azure-openai/
     - agent_band: agent-ready
-      agent_readiness: 38.8
+      agent_readiness: 39.4
       apps:
       - Twenty
       band: thin
       in_catalog: true
-      kin_score: 32.8
+      kin_score: 32.3
       mcp:
         status: none
       name: xAI
@@ -2820,12 +2820,12 @@ stack:
       via_parent: Engineering Productivity Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 39.5
+      agent_readiness: 39.1
       apps:
       - Twenty
       band: exemplar
       in_catalog: true
-      kin_score: 68.1
+      kin_score: 68.2
       mcp:
         source: https://github.com/e2b-dev/mcp-server
         status: verified
@@ -2853,7 +2853,7 @@ summary:
     unchecked: 0
     verified: 32
   mcp_verified: 32
-  mean_kin_score: 60.2
+  mean_kin_score: 64.0
   observed: 36
   queued: 0
   reference_apps: 8

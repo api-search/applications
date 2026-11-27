@@ -144,10 +144,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 62.9
+    agent_readiness: 61.9
     band: exemplar
     in_catalog: true
-    kin_score: 79.9
+    kin_score: 81.1
     mcp: &id001
       status: none
     slug: algolia
@@ -174,10 +174,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 44.8
     band: developing
     in_catalog: true
-    kin_score: 47.9
+    kin_score: 45.9
     mcp: &id009
       source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
       status: verified
@@ -205,10 +205,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_readiness: 32.7
     band: developing
     in_catalog: true
-    kin_score: 39.8
+    kin_score: 41.2
     mcp: &id013
       source: https://github.com/Automattic/mcp-server-gravatar
       status: verified
@@ -236,10 +236,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.6
+    agent_readiness: 44.9
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 68.9
     mcp: &id017
       source: https://github.com/laravel/mcp
       status: verified
@@ -270,7 +270,7 @@ integrations:
     agent_readiness: 24.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 52.5
     mcp: &id023
       source: https://github.com/meilisearch/meilisearch-mcp
       status: verified
@@ -298,10 +298,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 38.0
     mcp: &id027
       status: none
     slug: pusher
@@ -331,7 +331,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id029
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -359,10 +359,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_readiness: 32.7
     band: developing
     in_catalog: true
-    kin_score: 49.8
+    kin_score: 50.6
     mcp: &id031
       status: none
     slug: spotify
@@ -388,11 +388,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -419,11 +419,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.7
+    agent_band: agent-ready
+    agent_readiness: 28.7
     band: thin
     in_catalog: true
-    kin_score: 36.3
+    kin_score: 35.8
     mcp: &id005
       source: https://raw.githubusercontent.com/cloudflare/mcp/main/README.md
       status: verified
@@ -451,10 +451,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.6
+    agent_readiness: 44.1
     band: developing
     in_catalog: true
-    kin_score: 45.0
+    kin_score: 47.4
     mcp: &id007
       source: https://docs.digitalocean.com/reference/mcp/
       status: verified
@@ -481,11 +481,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id011
       status: none
     slug: google-identity-platform
@@ -512,10 +512,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.4
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 63.2
+    kin_score: 63.6
     mcp: &id015
       source: https://github.com/ipinfo/mcp
       status: verified
@@ -543,10 +543,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
-    band: developing
+    agent_readiness: 25.9
+    band: strong
     in_catalog: true
-    kin_score: 54.2
+    kin_score: 54.4
     mcp: &id019
       status: none
     slug: lastfm
@@ -574,9 +574,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.7
+    kin_score: 11.6
     mcp: &id021
       status: none
     slug: listenbrainz
@@ -602,11 +602,11 @@ integrations:
     via_parent: Audio & Music
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_band: agent-aware
+    agent_readiness: 27.2
     band: thin
     in_catalog: true
-    kin_score: 37.9
+    kin_score: 38.2
     mcp: &id025
       status: none
     slug: musicbrainz
@@ -633,10 +633,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
-    band: thin
+    agent_readiness: 22.1
+    band: developing
     in_catalog: true
-    kin_score: 38.5
+    kin_score: 39.7
     mcp: &id033
       status: none
     slug: ticketmaster
@@ -663,10 +663,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id035
       status: none
     slug: youtube
@@ -691,32 +691,32 @@ noindex: false
 permalink: /applications/music-streaming/koel/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 62.9
+  agent_readiness: 61.9
   band: exemplar
   in_catalog: true
-  kin_score: 79.9
+  kin_score: 81.1
   mcp: *id001
   name: Algolia
   slug: algolia
   status: profiled
   tags: *id002
   url: /providers/algolia/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id003
   name: Amazon S3
   slug: amazon-s3
   status: profiled
   tags: *id004
   url: /providers/amazon-s3/
-- agent_band: agent-aware
-  agent_readiness: 27.7
+- agent_band: agent-ready
+  agent_readiness: 28.7
   band: thin
   in_catalog: true
-  kin_score: 36.3
+  kin_score: 35.8
   mcp: *id005
   name: Cloudflare R2
   slug: cloudflare-r2
@@ -724,10 +724,10 @@ providers:
   tags: *id006
   url: /providers/cloudflare-r2/
 - agent_band: agent-ready
-  agent_readiness: 44.6
+  agent_readiness: 44.1
   band: developing
   in_catalog: true
-  kin_score: 45.0
+  kin_score: 47.4
   mcp: *id007
   name: DigitalOcean Spaces
   slug: digital-ocean
@@ -735,21 +735,21 @@ providers:
   tags: *id008
   url: /providers/digital-ocean/
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 44.8
   band: developing
   in_catalog: true
-  kin_score: 47.9
+  kin_score: 45.9
   mcp: *id009
   name: Dropbox
   slug: dropbox
   status: profiled
   tags: *id010
   url: /providers/dropbox/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id011
   name: Google sign-in
   slug: google-identity-platform
@@ -757,10 +757,10 @@ providers:
   tags: *id012
   url: /providers/google-identity-platform/
 - agent_band: agent-ready
-  agent_readiness: 33.3
+  agent_readiness: 32.7
   band: developing
   in_catalog: true
-  kin_score: 39.8
+  kin_score: 41.2
   mcp: *id013
   name: Gravatar
   slug: gravatar
@@ -768,10 +768,10 @@ providers:
   tags: *id014
   url: /providers/gravatar/
 - agent_band: agent-ready
-  agent_readiness: 34.4
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 63.2
+  kin_score: 63.6
   mcp: *id015
   name: IPinfo
   slug: ipinfo
@@ -779,10 +779,10 @@ providers:
   tags: *id016
   url: /providers/ipinfo/
 - agent_band: agent-ready
-  agent_readiness: 39.6
+  agent_readiness: 44.9
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 68.9
   mcp: *id017
   name: Laravel Nightwatch
   slug: laravel
@@ -790,10 +790,10 @@ providers:
   tags: *id018
   url: /providers/laravel/
 - agent_band: agent-aware
-  agent_readiness: 23.7
-  band: developing
+  agent_readiness: 25.9
+  band: strong
   in_catalog: true
-  kin_score: 54.2
+  kin_score: 54.4
   mcp: *id019
   name: Last.fm
   slug: lastfm
@@ -802,9 +802,9 @@ providers:
   url: /providers/lastfm/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.7
+  kin_score: 11.6
   mcp: *id021
   name: ListenBrainz
   slug: listenbrainz
@@ -815,18 +815,18 @@ providers:
   agent_readiness: 24.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 52.5
   mcp: *id023
   name: Meilisearch
   slug: meilisearch
   status: profiled
   tags: *id024
   url: /providers/meilisearch/
-- agent_band: agent-ready
-  agent_readiness: 31.3
+- agent_band: agent-aware
+  agent_readiness: 27.2
   band: thin
   in_catalog: true
-  kin_score: 37.9
+  kin_score: 38.2
   mcp: *id025
   name: MusicBrainz
   slug: musicbrainz
@@ -834,10 +834,10 @@ providers:
   tags: *id026
   url: /providers/musicbrainz/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 38.0
   mcp: *id027
   name: Pusher
   slug: pusher
@@ -848,7 +848,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id029
   name: Sentry
   slug: sentry-system
@@ -856,10 +856,10 @@ providers:
   tags: *id030
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 33.3
+  agent_readiness: 32.7
   band: developing
   in_catalog: true
-  kin_score: 49.8
+  kin_score: 50.6
   mcp: *id031
   name: Spotify
   slug: spotify
@@ -867,10 +867,10 @@ providers:
   tags: *id032
   url: /providers/spotify/
 - agent_band: agent-aware
-  agent_readiness: 22.7
-  band: thin
+  agent_readiness: 22.1
+  band: developing
   in_catalog: true
-  kin_score: 38.5
+  kin_score: 39.7
   mcp: *id033
   name: Ticketmaster
   slug: ticketmaster
@@ -878,10 +878,10 @@ providers:
   tags: *id034
   url: /providers/ticketmaster/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id035
   name: YouTube
   slug: youtube

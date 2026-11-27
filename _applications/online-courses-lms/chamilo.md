@@ -95,10 +95,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.4
+    agent_readiness: 38.0
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 83.8
     mcp: &id001
       status: none
     slug: amazon-ses
@@ -125,10 +125,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id003
       source: https://github.com/microsoft/mcp
       status: verified
@@ -157,9 +157,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 7.9
+    kin_score: 11.5
     mcp: &id005
       status: none
     slug: bigbluebutton
@@ -186,10 +186,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.2
+    agent_readiness: 56.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.2
+    kin_score: 81.3
     mcp: &id007
       source: https://developers.brevo.com/docs/mcp-protocol
       status: verified
@@ -217,10 +217,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id009
       status: none
     slug: facebook
@@ -247,10 +247,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id011
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -278,10 +278,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id013
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -309,7 +309,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
+    agent_readiness: 17.3
     band: thin
     in_catalog: true
     kin_score: 35.3
@@ -339,10 +339,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.4
+    agent_readiness: 22.9
     band: developing
     in_catalog: true
-    kin_score: 50.1
+    kin_score: 50.5
     mcp: &id017
       source: https://github.com/mailgun/mailjet-mcp-server
       status: verified
@@ -370,10 +370,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id019
       status: none
     slug: microsoft-entra
@@ -400,10 +400,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.0
+    agent_readiness: 39.0
     band: exemplar
     in_catalog: true
-    kin_score: 70.1
+    kin_score: 69.7
     mcp: &id021
       source: https://github.com/microsoft/mcp
       status: verified
@@ -457,10 +457,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id025
       source: https://docs.stripe.com/mcp
       status: verified
@@ -486,10 +486,10 @@ noindex: false
 permalink: /applications/online-courses-lms/chamilo/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 39.4
+  agent_readiness: 38.0
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 83.8
   mcp: *id001
   name: Amazon SES
   slug: amazon-ses
@@ -497,10 +497,10 @@ providers:
   tags: *id002
   url: /providers/amazon-ses/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id003
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -509,9 +509,9 @@ providers:
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 7.9
+  kin_score: 11.5
   mcp: *id005
   name: BigBlueButton
   slug: bigbluebutton
@@ -519,10 +519,10 @@ providers:
   tags: *id006
   url: /providers/bigbluebutton/
 - agent_band: agent-ready
-  agent_readiness: 57.2
+  agent_readiness: 56.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.2
+  kin_score: 81.3
   mcp: *id007
   name: Brevo
   slug: brevo
@@ -530,10 +530,10 @@ providers:
   tags: *id008
   url: /providers/brevo/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id009
   name: Facebook
   slug: facebook
@@ -541,10 +541,10 @@ providers:
   tags: *id010
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id011
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -552,10 +552,10 @@ providers:
   tags: *id012
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id013
   name: Google Maps
   slug: google-maps
@@ -563,7 +563,7 @@ providers:
   tags: *id014
   url: /providers/google-maps/
 - agent_band: agent-aware
-  agent_readiness: 17.6
+  agent_readiness: 17.3
   band: thin
   in_catalog: true
   kin_score: 35.3
@@ -574,10 +574,10 @@ providers:
   tags: *id016
   url: /providers/keycloak/
 - agent_band: agent-aware
-  agent_readiness: 23.4
+  agent_readiness: 22.9
   band: developing
   in_catalog: true
-  kin_score: 50.1
+  kin_score: 50.5
   mcp: *id017
   name: Mailjet
   slug: mailjet
@@ -585,10 +585,10 @@ providers:
   tags: *id018
   url: /providers/mailjet/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id019
   name: Microsoft
   slug: microsoft-entra
@@ -596,10 +596,10 @@ providers:
   tags: *id020
   url: /providers/microsoft-entra/
 - agent_band: agent-ready
-  agent_readiness: 37.0
+  agent_readiness: 39.0
   band: exemplar
   in_catalog: true
-  kin_score: 70.1
+  kin_score: 69.7
   mcp: *id021
   name: Microsoft Graph
   slug: microsoft-graph
@@ -618,10 +618,10 @@ providers:
   tags: *id024
   url: null
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id025
   name: Stripe
   slug: stripe

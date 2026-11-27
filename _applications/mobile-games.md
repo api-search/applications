@@ -2021,12 +2021,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Clash of Clans
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -2043,12 +2043,12 @@ stack:
       tier: declared
       url: /providers/x/
     - agent_band: agent-native
-      agent_readiness: 54.9
+      agent_readiness: 57.8
       apps:
       - Clash of Clans
       band: exemplar
       in_catalog: true
-      kin_score: 69.6
+      kin_score: 71.5
       mcp: &id001
         source: https://developer.moloco.cloud/docs/mcp-getting-started
         status: verified
@@ -2065,12 +2065,12 @@ stack:
       tier: declared
       url: /providers/moloco/
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 47.1
       apps:
       - Clash of Clans
       band: strong
       in_catalog: true
-      kin_score: 65.7
+      kin_score: 65.8
       mcp:
         status: none
       name: Snap
@@ -2086,12 +2086,12 @@ stack:
       tier: declared
       url: /providers/snapchat/
     - agent_band: agent-ready
-      agent_readiness: 39.1
+      agent_readiness: 43.0
       apps:
       - Clash of Clans
       band: strong
       in_catalog: true
-      kin_score: 63.0
+      kin_score: 64.4
       mcp:
         source: https://github.com/reddit/devvit-mcp
         status: verified
@@ -2107,97 +2107,13 @@ stack:
       - Reddit
       tier: declared
       url: /providers/reddit/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Clash of Clans
       band: strong
       in_catalog: true
-      kin_score: 55.2
-      mcp: &id005
-        status: none
-      name: Apple Search Ads
-      slug: apple
-      sources:
-      - https://supercell.com/en/partner-opt-out/
-      status: profiled
-      tags: &id006
-      - Apple
-      - Developers
-      - iOS
-      - macOS
-      tier: declared
-      url: /providers/apple/
-    - agent_band: agent-ready
-      agent_readiness: 31.8
-      apps:
-      - Clash of Clans
-      band: developing
-      in_catalog: true
-      kin_score: 52.7
-      mcp:
-        status: none
-      name: SmartNews (ads)
-      slug: smartnews
-      sources:
-      - https://supercell.com/en/partner-opt-out/
-      status: profiled
-      tags:
-      - Advertising
-      - Company
-      - Consumer
-      - News
-      tier: declared
-      url: /providers/smartnews/
-    - agent_band: agent-ready
-      agent_readiness: 33.3
-      apps:
-      - Clash of Clans
-      band: developing
-      in_catalog: true
-      kin_score: 49.8
-      mcp:
-        status: none
-      name: Spotify (ads)
-      slug: spotify
-      sources:
-      - https://supercell.com/en/partner-opt-out/
-      status: profiled
-      tags:
-      - Audio
-      - Music
-      - Podcasts
-      - Streaming
-      tier: declared
-      url: /providers/spotify/
-    - agent_band: agent-aware
-      agent_readiness: 25.2
-      apps:
-      - Clash of Clans
-      band: developing
-      in_catalog: true
-      kin_score: 46.8
-      mcp:
-        status: none
-      name: remerge (retargeting DSP)
-      slug: remerge
-      sources:
-      - https://supercell.com/en/partner-opt-out/
-      status: profiled
-      tags:
-      - AdTech
-      - Advertising
-      - Company
-      - Mobile
-      tier: declared
-      url: /providers/remerge/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
-      apps:
-      - Clash of Clans
-      band: developing
-      in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp: &id013
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -2213,13 +2129,97 @@ stack:
       - E-Commerce
       tier: declared
       url: /providers/amazon/
-    - agent_band: agent-aware
-      agent_readiness: 28.2
+    - agent_band: agent-ready
+      agent_readiness: 31.2
       apps:
       - Clash of Clans
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 54.2
+      mcp:
+        status: none
+      name: SmartNews (ads)
+      slug: smartnews
+      sources:
+      - https://supercell.com/en/partner-opt-out/
+      status: profiled
+      tags:
+      - Advertising
+      - Company
+      - Consumer
+      - News
+      tier: declared
+      url: /providers/smartnews/
+    - agent_band: agent-ready
+      agent_readiness: 36.5
+      apps:
+      - Clash of Clans
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
+      mcp: &id005
+        status: none
+      name: Apple Search Ads
+      slug: apple
+      sources:
+      - https://supercell.com/en/partner-opt-out/
+      status: profiled
+      tags: &id006
+      - Apple
+      - Developers
+      - iOS
+      - macOS
+      tier: declared
+      url: /providers/apple/
+    - agent_band: agent-ready
+      agent_readiness: 32.7
+      apps:
+      - Clash of Clans
+      band: developing
+      in_catalog: true
+      kin_score: 50.6
+      mcp:
+        status: none
+      name: Spotify (ads)
+      slug: spotify
+      sources:
+      - https://supercell.com/en/partner-opt-out/
+      status: profiled
+      tags:
+      - Audio
+      - Music
+      - Podcasts
+      - Streaming
+      tier: declared
+      url: /providers/spotify/
+    - agent_band: agent-aware
+      agent_readiness: 24.6
+      apps:
+      - Clash of Clans
+      band: developing
+      in_catalog: true
+      kin_score: 47.6
+      mcp:
+        status: none
+      name: remerge (retargeting DSP)
+      slug: remerge
+      sources:
+      - https://supercell.com/en/partner-opt-out/
+      status: profiled
+      tags:
+      - AdTech
+      - Advertising
+      - Company
+      - Mobile
+      tier: declared
+      url: /providers/remerge/
+    - agent_band: agent-aware
+      agent_readiness: 28.1
+      apps:
+      - Clash of Clans
+      band: developing
+      in_catalog: true
+      kin_score: 43.7
       mcp: &id003
         status: none
       name: Facebook (ads / pixel)
@@ -2235,12 +2235,12 @@ stack:
       tier: declared
       url: /providers/facebook/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Clash of Clans
       band: developing
       in_catalog: true
-      kin_score: 41.0
+      kin_score: 40.5
       mcp:
         status: none
       name: TikTok
@@ -2256,12 +2256,12 @@ stack:
       tier: declared
       url: /providers/tiktok/
     - agent_band: agent-aware
-      agent_readiness: 5.4
+      agent_readiness: 5.3
       apps:
       - Clash of Clans
       band: emerging
       in_catalog: true
-      kin_score: 23.7
+      kin_score: 24.9
       mcp:
         status: none
       name: tvScientific (CTV)
@@ -2282,7 +2282,7 @@ stack:
       - Clash of Clans
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 17.6
       mcp:
         status: unknown
       name: Influence Mobile
@@ -2298,54 +2298,12 @@ stack:
       tier: declared
       url: /providers/influence-mobile/
     - agent_band: human-only
-      agent_readiness: 0.6
+      agent_readiness: 0.0
       apps:
       - Clash of Clans
       band: emerging
       in_catalog: true
-      kin_score: 11.6
-      mcp:
-        status: none
-      name: Naver (ads)
-      slug: naver
-      sources:
-      - https://supercell.com/en/partner-opt-out/
-      status: profiled
-      tags:
-      - Cloud Platform
-      - Maps
-      - Search
-      - Translation
-      tier: declared
-      url: /providers/naver/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Clash of Clans
-      band: minimal
-      in_catalog: true
-      kin_score: 9.5
-      mcp:
-        status: none
-      name: adjoe (playtime rewards)
-      slug: adjoe
-      sources:
-      - https://supercell.com/en/partner-opt-out/
-      status: profiled
-      tags:
-      - Advertising
-      - Loyalty
-      - Mobile Gaming
-      - Monetization
-      tier: declared
-      url: /providers/adjoe/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Clash of Clans
-      band: minimal
-      in_catalog: true
-      kin_score: 9.3
+      kin_score: 15.3
       mcp:
         status: none
       name: Liftoff (mobile app marketing)
@@ -2364,9 +2322,30 @@ stack:
       agent_readiness: 0.0
       apps:
       - Clash of Clans
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.4
+      kin_score: 13.7
+      mcp:
+        status: none
+      name: adjoe (playtime rewards)
+      slug: adjoe
+      sources:
+      - https://supercell.com/en/partner-opt-out/
+      status: profiled
+      tags:
+      - Advertising
+      - Loyalty
+      - Mobile Gaming
+      - Monetization
+      tier: declared
+      url: /providers/adjoe/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Clash of Clans
+      band: emerging
+      in_catalog: true
+      kin_score: 11.8
       mcp:
         status: none
       name: Adikteev (retargeting)
@@ -2382,12 +2361,12 @@ stack:
       tier: declared
       url: /providers/adikteev/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Clash of Clans
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 6.4
+      kin_score: 11.4
       mcp:
         status: none
       name: Mistplay (rewarded play UA)
@@ -2403,12 +2382,33 @@ stack:
       tier: declared
       url: /providers/mistplay/
     - agent_band: human-only
+      agent_readiness: 0.6
+      apps:
+      - Clash of Clans
+      band: minimal
+      in_catalog: true
+      kin_score: 10.6
+      mcp:
+        status: none
+      name: Naver (ads)
+      slug: naver
+      sources:
+      - https://supercell.com/en/partner-opt-out/
+      status: profiled
+      tags:
+      - Cloud Platform
+      - Maps
+      - Search
+      - Translation
+      tier: declared
+      url: /providers/naver/
+    - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Clash of Clans
       band: minimal
       in_catalog: true
-      kin_score: 6.2
+      kin_score: 7.7
       mcp:
         status: none
       name: AdAction
@@ -2429,46 +2429,7 @@ stack:
       - Clash of Clans
       band: minimal
       in_catalog: true
-      kin_score: 4.3
-      mcp:
-        status: none
-      name: Zucks
-      slug: zucks
-      sources:
-      - https://supercell.com/en/partner-opt-out/
-      status: profiled
-      tags:
-      - Company
-      tier: declared
-      url: /providers/zucks/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Clash of Clans
-      band: minimal
-      in_catalog: true
-      kin_score: 4.2
-      mcp:
-        status: none
-      name: DirecTV (advertising)
-      slug: directv
-      sources:
-      - https://supercell.com/en/partner-opt-out/
-      status: profiled
-      tags:
-      - Entertainment
-      - Media
-      - Satellite
-      - Television
-      tier: declared
-      url: /providers/directv/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Clash of Clans
-      band: minimal
-      in_catalog: true
-      kin_score: 3.9
+      kin_score: 5.7
       mcp:
         status: none
       name: Dynalyst (CyberAgent retargeting DSP)
@@ -2489,7 +2450,46 @@ stack:
       - Clash of Clans
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 3.7
+      mcp:
+        status: none
+      name: Zucks
+      slug: zucks
+      sources:
+      - https://supercell.com/en/partner-opt-out/
+      status: profiled
+      tags:
+      - Company
+      tier: declared
+      url: /providers/zucks/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Clash of Clans
+      band: minimal
+      in_catalog: true
+      kin_score: 3.3
+      mcp:
+        status: none
+      name: DirecTV (advertising)
+      slug: directv
+      sources:
+      - https://supercell.com/en/partner-opt-out/
+      status: profiled
+      tags:
+      - Entertainment
+      - Media
+      - Satellite
+      - Television
+      tier: declared
+      url: /providers/directv/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Clash of Clans
+      band: minimal
+      in_catalog: true
+      kin_score: 2.5
       mcp:
         status: none
       name: AMoAd (CyberAgent)
@@ -2550,7 +2550,7 @@ stack:
       - Subway Surfers
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 16.2
       mcp:
         status: unknown
       name: Mintegral
@@ -2571,9 +2571,9 @@ stack:
       apps:
       - Clash of Clans
       - Subway Surfers
-      band: emerging
+      band: minimal
       in_catalog: true
-      kin_score: 11.5
+      kin_score: 10.2
       mcp: &id017
         status: none
       name: ironSource
@@ -2628,12 +2628,12 @@ stack:
       tier: declared
       url: null
     - agent_band: agent-aware
-      agent_readiness: 7.9
+      agent_readiness: 7.7
       apps:
       - Subway Surfers
       band: developing
       in_catalog: true
-      kin_score: 49.9
+      kin_score: 46.1
       mcp:
         status: none
       name: InMobi
@@ -2652,9 +2652,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Subway Surfers
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 14.1
       mcp:
         status: none
       name: Pangle (ByteDance)
@@ -2670,12 +2670,12 @@ stack:
       tier: observed
       url: /providers/pangle/
     - agent_band: agent-native
-      agent_readiness: 54.9
+      agent_readiness: 57.8
       apps:
       - Subway Surfers
       band: exemplar
       in_catalog: true
-      kin_score: 69.6
+      kin_score: 71.5
       mcp: *id001
       name: Moloco
       slug: moloco
@@ -2686,12 +2686,12 @@ stack:
       tier: declared
       url: /providers/moloco/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Clash of Clans
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2708,12 +2708,12 @@ stack:
       tier: declared
       url: /providers/google/
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 25.3
       apps:
       - Clash of Clans
       band: exemplar
       in_catalog: true
-      kin_score: 66.7
+      kin_score: 66.5
       mcp: &id011
         source: https://github.com/Unity-Technologies/industry-ai-workflows
         status: verified
@@ -2729,55 +2729,13 @@ stack:
       - Real-Time 3D
       tier: declared
       url: /providers/unity/
-    - agent_band: agent-aware
-      agent_readiness: 25.2
-      apps:
-      - Clash of Clans
-      band: developing
-      in_catalog: true
-      kin_score: 39.8
-      mcp:
-        status: none
-      name: Vungle
-      slug: vungle
-      sources:
-      - https://supercell.com/en/partner-opt-out/
-      status: profiled
-      tags:
-      - Advertising
-      - Company
-      - Mobile
-      - Monetization
-      tier: declared
-      url: /providers/vungle/
     - agent_band: agent-ready
-      agent_readiness: 36.2
-      apps:
-      - Clash of Clans
-      band: thin
-      in_catalog: true
-      kin_score: 38.7
-      mcp: &id015
-        status: none
-      name: AppLovin
-      slug: applovin
-      sources:
-      - https://supercell.com/en/partner-opt-out/
-      status: profiled
-      tags: &id016
-      - AdTech
-      - Advertising
-      - App Monetization
-      - Mobile
-      tier: declared
-      url: /providers/applovin/
-    - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 36.1
       apps:
       - Subway Surfers
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 56.4
       mcp:
         source: https://developers.google.com/ad-manager/api/beta/mcp-server
         status: verified
@@ -2793,13 +2751,13 @@ stack:
       - Creative
       tier: declared
       url: /providers/google-ad-manager/
-    - agent_band: agent-aware
-      agent_readiness: 25.5
+    - agent_band: agent-native
+      agent_readiness: 40.5
       apps:
       - Clash of Clans
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.9
+      kin_score: 53.7
       mcp:
         status: none
       name: Google AdSense
@@ -2814,13 +2772,55 @@ stack:
       - Monetization
       tier: declared
       url: /providers/google-adsense/
+    - agent_band: agent-aware
+      agent_readiness: 24.6
+      apps:
+      - Clash of Clans
+      band: developing
+      in_catalog: true
+      kin_score: 41.0
+      mcp:
+        status: none
+      name: Vungle
+      slug: vungle
+      sources:
+      - https://supercell.com/en/partner-opt-out/
+      status: profiled
+      tags:
+      - Advertising
+      - Company
+      - Mobile
+      - Monetization
+      tier: declared
+      url: /providers/vungle/
+    - agent_band: agent-ready
+      agent_readiness: 35.5
+      apps:
+      - Clash of Clans
+      band: thin
+      in_catalog: true
+      kin_score: 37.6
+      mcp: &id015
+        status: none
+      name: AppLovin
+      slug: applovin
+      sources:
+      - https://supercell.com/en/partner-opt-out/
+      status: profiled
+      tags: &id016
+      - AdTech
+      - Advertising
+      - App Monetization
+      - Mobile
+      tier: declared
+      url: /providers/applovin/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Subway Surfers
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.2
+      kin_score: 13.2
       mcp:
         status: none
       name: Yandex Ads
@@ -2841,7 +2841,7 @@ stack:
       - Subway Surfers
       band: minimal
       in_catalog: true
-      kin_score: 2.6
+      kin_score: 1.7
       mcp:
         status: none
       name: maio
@@ -2896,14 +2896,14 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Candy Crush Saga
       - Nakama
       - Subway Surfers
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook Login / Graph friends / Limited Login
       slug: facebook
@@ -2916,13 +2916,13 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Candy Crush Saga
       - Nakama
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp: *id005
       name: Sign in with Apple + Game Center identity
       slug: apple
@@ -2933,13 +2933,13 @@ stack:
       tags: *id006
       tier: observed
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Nakama
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in (ID token check)
@@ -2955,12 +2955,12 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - Nakama
       band: thin
       in_catalog: true
-      kin_score: 34.4
+      kin_score: 34.5
       mcp: &id007
         status: none
       name: 'Steam (Steamworks partner API: AuthenticateUserTicket, GetFriendList)'
@@ -2976,12 +2976,12 @@ stack:
       tier: observed
       url: /providers/steam/
     - agent_band: agent-native
-      agent_readiness: 47.9
+      agent_readiness: 47.0
       apps:
       - Clash of Clans
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 71.3
       mcp:
         source: https://github.com/line/line-bot-mcp-server
         status: verified
@@ -2998,12 +2998,12 @@ stack:
       tier: declared
       url: /providers/line/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Clash of Clans
       band: thin
       in_catalog: true
-      kin_score: 27.2
+      kin_score: 26.2
       mcp:
         status: none
       name: Kakao (account linking + partner)
@@ -3044,12 +3044,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Nakama
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp: *id005
       name: App Store receipt validation (verifyReceipt)
       slug: apple
@@ -3059,50 +3059,13 @@ stack:
       tags: *id006
       tier: observed
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 28.2
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Nakama
       band: developing
       in_catalog: true
-      kin_score: 42.7
-      mcp: *id003
-      name: Facebook Instant Games purchases
-      slug: facebook
-      sources:
-      - https://github.com/heroiclabs/nakama/blob/master/iap/iap.go
-      status: profiled
-      tags: *id004
-      tier: observed
-      url: /providers/facebook/
-    - agent_band: agent-ready
-      agent_readiness: 37.3
-      apps:
-      - Nakama
-      band: thin
-      in_catalog: true
-      kin_score: 34.1
-      mcp:
-        status: none
-      name: Samsung IAP server API
-      slug: samsung
-      sources:
-      - https://github.com/heroiclabs/nakama/blob/master/iap/iap_samsung.go
-      status: profiled
-      tags:
-      - Consumer Electronics
-      - Developer Platform
-      - IoT
-      - Mobile
-      tier: observed
-      url: /providers/samsung/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
-      apps:
-      - Nakama
-      band: thin
-      in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: Google Play purchases/subscriptions validation (androidpublisher v3)
@@ -3117,6 +3080,43 @@ stack:
       - In-App Purchases
       tier: observed
       url: /providers/google-play/
+    - agent_band: agent-aware
+      agent_readiness: 28.1
+      apps:
+      - Nakama
+      band: developing
+      in_catalog: true
+      kin_score: 43.7
+      mcp: *id003
+      name: Facebook Instant Games purchases
+      slug: facebook
+      sources:
+      - https://github.com/heroiclabs/nakama/blob/master/iap/iap.go
+      status: profiled
+      tags: *id004
+      tier: observed
+      url: /providers/facebook/
+    - agent_band: agent-ready
+      agent_readiness: 36.6
+      apps:
+      - Nakama
+      band: thin
+      in_catalog: true
+      kin_score: 33.2
+      mcp:
+        status: none
+      name: Samsung IAP server API
+      slug: samsung
+      sources:
+      - https://github.com/heroiclabs/nakama/blob/master/iap/iap_samsung.go
+      status: profiled
+      tags:
+      - Consumer Electronics
+      - Developer Platform
+      - IoT
+      - Mobile
+      tier: observed
+      url: /providers/samsung/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -3162,12 +3162,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Talo
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp: *id005
       name: Game Center
       slug: apple
@@ -3178,12 +3178,12 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - Talo
       band: thin
       in_catalog: true
-      kin_score: 34.4
+      kin_score: 34.5
       mcp: *id007
       name: Steamworks (leaderboards, stats, players)
       slug: steam
@@ -3202,12 +3202,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - Mindustry
       band: thin
       in_catalog: true
-      kin_score: 34.4
+      kin_score: 34.5
       mcp: *id007
       name: Steamworks (steamworks4j; Steam build)
       slug: steam
@@ -3243,13 +3243,13 @@ stack:
       via_parent: Game Publishing & Distribution
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Mindustry
       - Unciv
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -3275,13 +3275,13 @@ stack:
       via_parent: Player Engagement
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Mindustry
       - Unciv
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp: &id009
         status: none
       name: Discord Rich Presence (java-discord-rpc)
@@ -3306,12 +3306,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Unciv
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -3336,12 +3336,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Clash of Clans
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3366,12 +3366,12 @@ stack:
       via_parent: Social Networks & Community
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Clash of Clans
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp: *id009
       name: Discord
       slug: discord
@@ -3390,12 +3390,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.1
+      agent_readiness: 34.4
       apps:
       - Clash of Clans
       band: developing
       in_catalog: true
-      kin_score: 46.4
+      kin_score: 46.6
       mcp:
         status: none
       name: StreamElements (creator sponsorships)
@@ -3421,13 +3421,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 25.3
       apps:
       - Candy Crush Saga
       - Subway Surfers
       band: exemplar
       in_catalog: true
-      kin_score: 66.7
+      kin_score: 66.5
       mcp: *id011
       name: Unity3d Ads
       slug: unity
@@ -3439,13 +3439,13 @@ stack:
       tier: observed
       url: /providers/unity/
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Candy Crush Saga
       - Subway Surfers
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -3461,14 +3461,14 @@ stack:
       - App Monetization
       tier: observed
       url: /providers/google-admob/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Candy Crush Saga
       - Subway Surfers
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp: *id013
       name: Amazon Advertisement
       slug: amazon
@@ -3480,13 +3480,13 @@ stack:
       tier: observed
       url: /providers/amazon/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Candy Crush Saga
       - Subway Surfers
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook Ads
       slug: facebook
@@ -3498,13 +3498,13 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 36.2
+      agent_readiness: 35.5
       apps:
       - Candy Crush Saga
       - Subway Surfers
       band: thin
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 37.6
       mcp: *id015
       name: AppLovin (MAX and SparkLabs)
       slug: applovin
@@ -3516,15 +3516,15 @@ stack:
       tier: observed
       url: /providers/applovin/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - Candy Crush Saga
       - Subway Surfers
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 26.0
+      kin_score: 32.1
       mcp:
-        status: unchecked
+        status: unknown
       name: PubNative
       slug: pubnative
       sources:
@@ -3545,7 +3545,7 @@ stack:
       - Subway Surfers
       band: minimal
       in_catalog: true
-      kin_score: 2.2
+      kin_score: 2.0
       mcp:
         status: none
       name: Chartboost
@@ -3559,12 +3559,12 @@ stack:
       tier: observed
       url: /providers/chartboost/
     - agent_band: agent-ready
-      agent_readiness: 31.6
+      agent_readiness: 31.0
       apps:
       - Subway Surfers
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.2
+      kin_score: 60.3
       mcp:
         status: none
       name: BidMachine
@@ -3579,15 +3579,15 @@ stack:
       - Mobile Advertising
       tier: observed
       url: /providers/bidmachine-io/
-    - agent_band: agent-ready
-      agent_readiness: 29.1
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Subway Surfers
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.7
+      kin_score: 34.0
       mcp:
-        status: unchecked
+        status: none
       name: Appodeal Stack
       slug: appodeal
       sources:
@@ -3604,9 +3604,9 @@ stack:
       agent_readiness: 2.5
       apps:
       - Candy Crush Saga
-      band: emerging
+      band: minimal
       in_catalog: true
-      kin_score: 11.5
+      kin_score: 10.2
       mcp: *id017
       name: ironSource
       slug: ironsource
@@ -3641,40 +3641,40 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Candy Crush Saga
       - Clash of Clans
       - Subway Surfers
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id019
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.kiloo.subwaysurf/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.king.candycrushsaga/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.supercell.clashofclans/latest/
       status: profiled
       tags: &id020
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Candy Crush Saga
       - Subway Surfers
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook Analytics
       slug: facebook
@@ -3686,13 +3686,13 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Candy Crush Saga
       - Clash of Clans
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -3710,12 +3710,12 @@ stack:
       tier: declared
       url: /providers/google-analytics/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 20.1
       apps:
       - Clash of Clans
       band: developing
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 42.3
       mcp:
         source: https://github.com/snowplow/snowplow-cli
         status: verified
@@ -3746,7 +3746,7 @@ stack:
       - Talo
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -3763,31 +3763,31 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Lichess mobile
       - Subway Surfers
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id019
       name: Firebase Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/lichess-org/mobile/blob/main/pubspec.yaml
       - https://reports.exodus-privacy.eu.org/en/reports/com.kiloo.subwaysurf/latest/
       status: profiled
       tags: *id020
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 37.7
+      agent_readiness: 37.0
       apps:
       - Talo
       band: exemplar
       in_catalog: true
-      kin_score: 71.0
+      kin_score: 68.5
       mcp:
         status: none
       name: HyperDX (@hyperdx/node-opentelemetry)
@@ -3830,12 +3830,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Candy Crush Saga
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk (King Care help centre, kingcare.zendesk.com)
@@ -3859,12 +3859,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - Talo
       band: thin
       in_catalog: true
-      kin_score: 31.5
+      kin_score: 31.1
       mcp:
         status: none
       name: hCaptcha
@@ -3879,13 +3879,13 @@ stack:
       - hCaptcha
       tier: observed
       url: /providers/hcaptcha/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Clash of Clans
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Google reCAPTCHA
@@ -3909,13 +3909,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - Candy Crush Saga
       - Subway Surfers
       band: strong
       in_catalog: true
-      kin_score: 56.1
+      kin_score: 55.6
       mcp:
         source: https://github.com/IABTechLab/agentic-real-time-framework
         status: verified
@@ -3941,12 +3941,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 18.9
+      agent_readiness: 20.1
       apps:
       - Clash of Clans
       band: thin
       in_catalog: true
-      kin_score: 38.3
+      kin_score: 37.1
       mcp:
         status: none
       name: Usercentrics (CMP)
@@ -3975,7 +3975,7 @@ stack:
       - Mindustry
       band: minimal
       in_catalog: true
-      kin_score: 4.0
+      kin_score: 4.8
       mcp:
         status: none
       name: jsDelivr (mod index, server lists)
@@ -3997,12 +3997,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 50.0
+      agent_readiness: 48.9
       apps:
       - Subway Surfers
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.4
+      kin_score: 65.9
       mcp:
         status: none
       name: Singular
@@ -4026,12 +4026,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Talo
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -4055,22 +4055,22 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Lichess mobile
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id019
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/lichess-org/mobile/blob/main/pubspec.yaml
       status: profiled
       tags: *id020
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-911
@@ -4080,12 +4080,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Clash of Clans
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -4108,11 +4108,11 @@ summary:
   in_catalog: 65
   mcp:
     documented: 0
-    none: 44
-    unchecked: 14
+    none: 45
+    unchecked: 12
     verified: 17
   mcp_verified: 17
-  mean_kin_score: 39.5
+  mean_kin_score: 42.4
   observed: 35
   queued: 12
   reference_apps: 8

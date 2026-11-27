@@ -840,13 +840,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 2.8
       apps:
       - Family Tree Maker
       - RootsMagic
       band: minimal
       in_catalog: true
-      kin_score: 7.8
+      kin_score: 9.0
       mcp:
         status: none
       name: FamilySearch Family Tree download + WebHints
@@ -869,7 +869,7 @@ stack:
       - RootsMagic
       band: minimal
       in_catalog: true
-      kin_score: 4.1
+      kin_score: 6.0
       mcp:
         status: none
       name: Ancestry TreeShare download + WebHints
@@ -886,12 +886,12 @@ stack:
       tier: declared
       url: /providers/ancestry/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Gramps Web
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.9
+      kin_score: 16.9
       mcp:
         status: none
       name: CompGen DES / domus.genealogy.net historical building map
@@ -912,7 +912,7 @@ stack:
       - RootsMagic
       band: emerging
       in_catalog: true
-      kin_score: 14.4
+      kin_score: 13.0
       mcp:
         status: none
       name: MyHeritage WebHints
@@ -931,9 +931,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - RootsMagic
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.1
+      kin_score: 12.6
       mcp:
         status: none
       name: Findmypast WebHints
@@ -957,12 +957,12 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.1
       apps:
       - Gramps Web
       band: minimal
       in_catalog: true
-      kin_score: 6.6
+      kin_score: 6.4
       mcp:
         status: none
       name: OpenHistoricalMap time-aware basemap style
@@ -986,12 +986,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.7
       apps:
       - Gramps Web
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 53.4
       mcp:
         source: https://www.wikidata.org/wiki/Wikidata:MCP
         status: verified
@@ -1021,7 +1021,7 @@ stack:
       - webtrees
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 4.3
       mcp:
         status: none
       name: GeoNames place autocomplete + geolocation (secure.geonames.org)
@@ -1044,34 +1044,13 @@ stack:
       url: /capabilities/maps-tiles/
       via_parent: Maps & Tiles
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 50.1
-      apps:
-      - webtrees
-      band: exemplar
-      in_catalog: true
-      kin_score: 77.8
-      mcp:
-        status: none
-      name: Esri ArcGIS Online tiles (server.arcgisonline.com)
-      slug: esri
-      sources:
-      - https://github.com/fisharebest/webtrees/blob/main/app/Module/EsriMaps.php
-      status: profiled
-      tags:
-      - GIS
-      - Geographic
-      - Geospatial
-      - Location
-      tier: observed
-      url: /providers/esri/
     - agent_band: agent-native
-      agent_readiness: 55.5
+      agent_readiness: 54.4
       apps:
       - webtrees
       band: exemplar
       in_catalog: true
-      kin_score: 77.6
+      kin_score: 79.0
       mcp:
         status: none
       name: HERE map tiles (maps.hereapi.com)
@@ -1087,12 +1066,33 @@ stack:
       tier: observed
       url: /providers/here/
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 49.1
       apps:
       - webtrees
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 75.0
+      mcp:
+        status: none
+      name: Esri ArcGIS Online tiles (server.arcgisonline.com)
+      slug: esri
+      sources:
+      - https://github.com/fisharebest/webtrees/blob/main/app/Module/EsriMaps.php
+      status: profiled
+      tags:
+      - GIS
+      - Geographic
+      - Geospatial
+      - Location
+      tier: observed
+      url: /providers/esri/
+    - agent_band: agent-ready
+      agent_readiness: 33.0
+      apps:
+      - webtrees
+      band: exemplar
+      in_catalog: true
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -1109,12 +1109,12 @@ stack:
       tier: observed
       url: /providers/google-maps/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 45.2
       apps:
       - webtrees
       band: developing
       in_catalog: true
-      kin_score: 49.3
+      kin_score: 50.7
       mcp:
         source: https://github.com/mapbox/mcp-server
         status: verified
@@ -1130,13 +1130,13 @@ stack:
       - Maps
       tier: observed
       url: /providers/mapbox/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - webtrees
       band: developing
       in_catalog: true
-      kin_score: 44.4
+      kin_score: 45.5
       mcp:
         status: none
       name: OpenStreetMap tiles
@@ -1155,9 +1155,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Gramps Web
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.9
+      kin_score: 12.7
       mcp:
         status: none
       name: OpenFreeMap vector styles (tiles.openfreemap.org)
@@ -1180,37 +1180,37 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Ancestry
       - FamilySearch
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.ancestry.android.apps.ancestry/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/org.familysearch.mobile.memories/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - webtrees
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -1227,12 +1227,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 37.4
+      agent_readiness: 41.3
       apps:
       - webtrees
       band: exemplar
       in_catalog: true
-      kin_score: 72.2
+      kin_score: 70.7
       mcp:
         source: https://github.com/matomo-org/plugin-McpServer
         status: verified
@@ -1249,12 +1249,12 @@ stack:
       tier: observed
       url: /providers/matomo/
     - agent_band: agent-ready
-      agent_readiness: 54.1
+      agent_readiness: 53.0
       apps:
       - FamilySearch
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.1
       mcp:
         source: https://github.com/adobe/cq-quickstart-mcp-server
         status: verified
@@ -1271,12 +1271,12 @@ stack:
       tier: observed
       url: /providers/adobe-experience-cloud/
     - agent_band: agent-aware
-      agent_readiness: 18.7
+      agent_readiness: 18.3
       apps:
       - webtrees
       band: emerging
       in_catalog: true
-      kin_score: 17.3
+      kin_score: 19.2
       mcp:
         source: https://statcounter.com/api/docs/mcp
         status: verified
@@ -1300,14 +1300,14 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Ancestry
       - Gramps Web
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google OIDC sign-in (accounts.google.com)
@@ -1324,12 +1324,12 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 57.9
+      agent_readiness: 59.8
       apps:
       - Gramps Web
       band: exemplar
       in_catalog: true
-      kin_score: 89.0
+      kin_score: 85.1
       mcp:
         source: https://learn.microsoft.com/en-us/graph/mcp-server/overview
         status: verified
@@ -1346,12 +1346,12 @@ stack:
       tier: observed
       url: /providers/azure-ad/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Ancestry
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Sign in with Apple
@@ -1367,12 +1367,12 @@ stack:
       tier: declared
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Ancestry
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook sign-in
@@ -1395,31 +1395,31 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Ancestry
       - FamilySearch
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Google CrashLytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.ancestry.android.apps.ancestry/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/org.familysearch.mobile.memories/latest/
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
       agent_readiness: 50.2
       apps:
       - Gramps Web
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1436,12 +1436,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Ancestry
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -1466,13 +1466,13 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 25.7
       apps:
       - Gramps Web
       - webtrees
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.7
       mcp:
         status: none
       name: Nominatim place search (nominatim.openstreetmap.org)
@@ -1489,12 +1489,12 @@ stack:
       tier: observed
       url: /providers/nominatim/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 26.4
       apps:
       - webtrees
       band: thin
       in_catalog: true
-      kin_score: 34.9
+      kin_score: 33.0
       mcp:
         status: none
       name: openrouteservice geocoding
@@ -1518,12 +1518,34 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.9
+      agent_readiness: 30.2
       apps:
       - webtrees
       band: exemplar
       in_catalog: true
-      kin_score: 70.4
+      kin_score: 70.5
+      mcp:
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Bing map links + Bing Webmaster Tools verification
+      slug: microsoft
+      sources:
+      - https://github.com/fisharebest/webtrees/blob/main/app/Module/BingWebmasterToolsModule.php
+      status: profiled
+      tags:
+      - Cloud
+      - Fortune 100
+      - Microsoft
+      - Software
+      tier: observed
+      url: /providers/microsoft/
+    - agent_band: agent-ready
+      agent_readiness: 30.7
+      apps:
+      - webtrees
+      band: exemplar
+      in_catalog: true
+      kin_score: 69.7
       mcp:
         status: none
       name: Google Search Console verification module
@@ -1538,27 +1560,6 @@ stack:
       - Search
       tier: observed
       url: /providers/google-search-console/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - webtrees
-      band: minimal
-      in_catalog: true
-      kin_score: 0.0
-      mcp:
-        status: none
-      name: Bing map links + Bing Webmaster Tools verification
-      slug: microsoft-bing
-      sources:
-      - https://github.com/fisharebest/webtrees/blob/main/app/Module/BingWebmasterToolsModule.php
-      status: profiled
-      tags:
-      - Image
-      - Search
-      - Video
-      - Web Search
-      tier: observed
-      url: /providers/microsoft-bing/
   - capability:
       attribution: Turbo EA
       id: BC-400.60
@@ -1568,12 +1569,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.8
+      agent_readiness: 52.3
       apps:
       - Ancestry
       band: exemplar
       in_catalog: true
-      kin_score: 80.5
+      kin_score: 77.6
       mcp:
         status: none
       name: Salesforce Marketing Cloud
@@ -1596,13 +1597,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-native
-      agent_readiness: 49.8
+    - agent_band: agent-ready
+      agent_readiness: 41.5
       apps:
       - Gramps Web
       band: developing
       in_catalog: true
-      kin_score: 47.4
+      kin_score: 46.5
       mcp:
         source: https://github.com/redis/mcp-redis
         status: verified
@@ -1627,12 +1628,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Ancestry
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -1652,13 +1653,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Gramps Web
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -1685,12 +1686,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Gramps Web
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -1714,11 +1715,11 @@ summary:
   in_catalog: 34
   mcp:
     documented: 0
-    none: 20
+    none: 19
     unchecked: 0
-    verified: 14
-  mcp_verified: 14
-  mean_kin_score: 45.6
+    verified: 15
+  mcp_verified: 15
+  mean_kin_score: 49.5
   observed: 28
   queued: 0
   reference_apps: 6

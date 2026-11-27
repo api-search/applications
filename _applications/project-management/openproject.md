@@ -115,10 +115,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
-    band: thin
+    agent_readiness: 18.6
+    band: emerging
     in_catalog: true
-    kin_score: 27.3
+    kin_score: 25.8
     mcp: &id001
       status: none
     slug: airbrake
@@ -144,11 +144,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -176,10 +176,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
-    band: thin
+    agent_readiness: 36.0
+    band: developing
     in_catalog: true
-    kin_score: 39.1
+    kin_score: 51.6
     mcp: &id005
       source: https://github.com/appsignal/appsignal-mcp
       status: verified
@@ -207,10 +207,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.1
+    agent_readiness: 24.2
     band: thin
     in_catalog: true
-    kin_score: 28.9
+    kin_score: 28.8
     mcp: &id007
       source: https://github.com/cloudflare/mcp
       status: verified
@@ -237,11 +237,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id013
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -268,11 +268,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: strong
     in_catalog: true
-    kin_score: 48.1
+    kin_score: 65.1
     mcp: &id015
       status: none
     slug: google-recaptcha
@@ -298,11 +298,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id017
       status: none
     slug: google-identity-platform
@@ -329,10 +329,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 31.5
+    kin_score: 31.1
     mcp: &id019
       status: none
     slug: hcaptcha
@@ -359,10 +359,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id021
       status: none
     slug: microsoft-entra
@@ -389,10 +389,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.2
+    agent_readiness: 25.9
     band: developing
     in_catalog: true
-    kin_score: 48.3
+    kin_score: 50.9
     mcp: &id023
       status: none
     slug: microsoft-onedrive
@@ -419,10 +419,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.2
+    agent_readiness: 32.3
     band: strong
     in_catalog: true
-    kin_score: 58.5
+    kin_score: 60.9
     mcp: &id025
       source: https://github.com/microsoft/mcp
       status: verified
@@ -450,10 +450,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id027
       status: none
     slug: nextcloud
@@ -480,10 +480,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id009
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -511,10 +511,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id011
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -542,10 +542,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 10.8
-    band: minimal
+    agent_readiness: 10.6
+    band: emerging
     in_catalog: true
-    kin_score: 9.3
+    kin_score: 13.1
     mcp: &id029
       source: https://github.com/xwiki-contrib/ai-llm
       status: verified
@@ -571,21 +571,21 @@ noindex: false
 permalink: /applications/project-management/openproject/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 19.0
-  band: thin
+  agent_readiness: 18.6
+  band: emerging
   in_catalog: true
-  kin_score: 27.3
+  kin_score: 25.8
   mcp: *id001
   name: Airbrake
   slug: airbrake
   status: profiled
   tags: *id002
   url: /providers/airbrake/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id003
   name: Amazon S3
   slug: amazon-s3
@@ -593,10 +593,10 @@ providers:
   tags: *id004
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 33.5
-  band: thin
+  agent_readiness: 36.0
+  band: developing
   in_catalog: true
-  kin_score: 39.1
+  kin_score: 51.6
   mcp: *id005
   name: AppSignal
   slug: appsignal
@@ -604,10 +604,10 @@ providers:
   tags: *id006
   url: /providers/appsignal/
 - agent_band: agent-aware
-  agent_readiness: 23.1
+  agent_readiness: 24.2
   band: thin
   in_catalog: true
-  kin_score: 28.9
+  kin_score: 28.8
   mcp: *id007
   name: Cloudflare Turnstile
   slug: cloudflare-turnstile
@@ -615,10 +615,10 @@ providers:
   tags: *id008
   url: /providers/cloudflare-turnstile/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id009
   name: GitHub
   slug: github
@@ -626,43 +626,43 @@ providers:
   tags: *id010
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id011
   name: GitLab
   slug: gitlab
   status: profiled
   tags: *id012
   url: /providers/gitlab/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id013
   name: Gmail API
   slug: google-gmail
   status: profiled
   tags: *id014
   url: /providers/google-gmail/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: strong
   in_catalog: true
-  kin_score: 48.1
+  kin_score: 65.1
   mcp: *id015
   name: Google reCAPTCHA
   slug: google-recaptcha
   status: profiled
   tags: *id016
   url: /providers/google-recaptcha/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id017
   name: Google sign-in
   slug: google-identity-platform
@@ -670,10 +670,10 @@ providers:
   tags: *id018
   url: /providers/google-identity-platform/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 31.5
+  kin_score: 31.1
   mcp: *id019
   name: hCaptcha
   slug: hcaptcha
@@ -681,10 +681,10 @@ providers:
   tags: *id020
   url: /providers/hcaptcha/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id021
   name: Microsoft Entra ID
   slug: microsoft-entra
@@ -692,10 +692,10 @@ providers:
   tags: *id022
   url: /providers/microsoft-entra/
 - agent_band: agent-aware
-  agent_readiness: 25.2
+  agent_readiness: 25.9
   band: developing
   in_catalog: true
-  kin_score: 48.3
+  kin_score: 50.9
   mcp: *id023
   name: Microsoft OneDrive
   slug: microsoft-onedrive
@@ -703,10 +703,10 @@ providers:
   tags: *id024
   url: /providers/microsoft-onedrive/
 - agent_band: agent-ready
-  agent_readiness: 35.2
+  agent_readiness: 32.3
   band: strong
   in_catalog: true
-  kin_score: 58.5
+  kin_score: 60.9
   mcp: *id025
   name: Microsoft SharePoint
   slug: sharepoint
@@ -714,10 +714,10 @@ providers:
   tags: *id026
   url: /providers/sharepoint/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id027
   name: Nextcloud
   slug: nextcloud
@@ -725,10 +725,10 @@ providers:
   tags: *id028
   url: /providers/nextcloud/
 - agent_band: agent-aware
-  agent_readiness: 10.8
-  band: minimal
+  agent_readiness: 10.6
+  band: emerging
   in_catalog: true
-  kin_score: 9.3
+  kin_score: 13.1
   mcp: *id029
   name: XWiki
   slug: xwiki

@@ -2058,7 +2058,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Invoice Ninja
       - SolidInvoice
@@ -2066,7 +2066,7 @@ stack:
       - Zoho Invoice
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2085,7 +2085,7 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Akaunting
       - Invoice Ninja
@@ -2093,7 +2093,7 @@ stack:
       - Zoho Invoice
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -2112,14 +2112,14 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - Invoice Ninja
       - SolidInvoice
       - Zoho Invoice
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.5
       mcp:
         source: https://github.com/AuthorizeNet/authorize-net-mcp
         status: verified
@@ -2138,13 +2138,13 @@ stack:
       tier: observed
       url: /providers/authorizenet/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - Invoice Ninja
       - Zoho Invoice
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp:
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -2162,13 +2162,13 @@ stack:
       tier: observed
       url: /providers/square/
     - agent_band: agent-ready
-      agent_readiness: 51.3
+      agent_readiness: 50.3
       apps:
       - Invoice Ninja
       - Xero
       band: developing
       in_catalog: true
-      kin_score: 52.1
+      kin_score: 50.0
       mcp:
         source: https://developer.gocardless.com/mcp
         status: verified
@@ -2185,37 +2185,14 @@ stack:
       - Recurring Payments
       tier: observed
       url: /providers/gocardless/
-    - agent_band: agent-ready
-      agent_readiness: 52.0
-      apps:
-      - Invoice Ninja
-      - Zoho Invoice
-      band: developing
-      in_catalog: true
-      kin_score: 46.2
-      mcp:
-        status: none
-      name: Braintree
-      slug: braintree
-      sources:
-      - https://raw.githubusercontent.com/invoiceninja/invoiceninja/v5-stable/composer.json
-      - https://www.zoho.com/us/invoice/help/settings/online-payments.html
-      status: profiled
-      tags:
-      - Mobile
-      - Payments
-      - Subscription
-      - Transaction
-      tier: observed
-      url: /providers/braintree/
     - agent_band: agent-aware
-      agent_readiness: 22.3
+      agent_readiness: 27.2
       apps:
       - Invoice Ninja
       - Zoho Invoice
       band: developing
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 45.5
       mcp:
         status: none
       name: CSG Forte
@@ -2231,13 +2208,36 @@ stack:
       - Revenue Management
       tier: observed
       url: /providers/csg/
+    - agent_band: agent-ready
+      agent_readiness: 53.6
+      apps:
+      - Invoice Ninja
+      - Zoho Invoice
+      band: developing
+      in_catalog: true
+      kin_score: 44.7
+      mcp:
+        status: none
+      name: Braintree
+      slug: braintree
+      sources:
+      - https://raw.githubusercontent.com/invoiceninja/invoiceninja/v5-stable/composer.json
+      - https://www.zoho.com/us/invoice/help/settings/online-payments.html
+      status: profiled
+      tags:
+      - Mobile
+      - Payments
+      - Subscription
+      - Transaction
+      tier: observed
+      url: /providers/braintree/
     - agent_band: agent-native
-      agent_readiness: 46.0
+      agent_readiness: 45.1
       apps:
       - SolidInvoice
       band: exemplar
       in_catalog: true
-      kin_score: 73.6
+      kin_score: 73.1
       mcp:
         status: none
       name: Klarna
@@ -2253,12 +2253,12 @@ stack:
       tier: observed
       url: /providers/klarna/
     - agent_band: agent-native
-      agent_readiness: 73.2
+      agent_readiness: 71.7
       apps:
       - Invoice Ninja
       band: exemplar
       in_catalog: true
-      kin_score: 68.2
+      kin_score: 68.1
       mcp:
         source: https://docs.mollie.com/docs/mcp-server
         status: verified
@@ -2275,12 +2275,12 @@ stack:
       tier: observed
       url: /providers/mollie/
     - agent_band: agent-native
-      agent_readiness: 41.3
+      agent_readiness: 40.4
       apps:
       - Invoice Ninja
       band: strong
       in_catalog: true
-      kin_score: 60.8
+      kin_score: 60.5
       mcp:
         status: none
       name: Helcim
@@ -2296,12 +2296,12 @@ stack:
       tier: observed
       url: /providers/helcim/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Invoice Ninja
       band: developing
       in_catalog: true
-      kin_score: 52.4
+      kin_score: 50.6
       mcp:
         source: https://github.com/razorpay/razorpay-mcp-server
         status: verified
@@ -2317,34 +2317,13 @@ stack:
       - Payments
       tier: observed
       url: /providers/razorpay/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
-      apps:
-      - Invoice Ninja
-      band: developing
-      in_catalog: true
-      kin_score: 49.0
-      mcp:
-        status: none
-      name: eWAY
-      slug: eway
-      sources:
-      - https://raw.githubusercontent.com/invoiceninja/invoiceninja/v5-stable/composer.json
-      status: profiled
-      tags:
-      - Australia
-      - Payment Gateway
-      - Payment Processing
-      - Payments
-      tier: observed
-      url: /providers/eway/
     - agent_band: agent-ready
-      agent_readiness: 30.5
+      agent_readiness: 34.3
       apps:
       - Invoice Ninja
       band: developing
       in_catalog: true
-      kin_score: 40.9
+      kin_score: 50.0
       mcp:
         status: none
       name: Commonwealth Bank (PowerBoard)
@@ -2359,13 +2338,55 @@ stack:
       - Finance
       tier: observed
       url: /providers/commonwealth-bank/
+    - agent_band: agent-aware
+      agent_readiness: 5.3
+      apps:
+      - Invoice Ninja
+      band: developing
+      in_catalog: true
+      kin_score: 46.6
+      mcp:
+        status: none
+      name: eWAY
+      slug: eway
+      sources:
+      - https://raw.githubusercontent.com/invoiceninja/invoiceninja/v5-stable/composer.json
+      status: profiled
+      tags:
+      - Australia
+      - Payment Gateway
+      - Payment Processing
+      - Payments
+      tier: observed
+      url: /providers/eway/
+    - agent_band: agent-aware
+      agent_readiness: 14.4
+      apps:
+      - Invoice Ninja
+      band: developing
+      in_catalog: true
+      kin_score: 40.0
+      mcp:
+        status: none
+      name: LawPay
+      slug: lawpay
+      sources:
+      - https://github.com/invoiceninja/invoiceninja/tree/v5-stable/app/PaymentDrivers
+      status: profiled
+      tags:
+      - Company
+      - Fintech
+      - Legal Tech
+      - Payments
+      tier: observed
+      url: /providers/lawpay/
     - agent_band: agent-ready
-      agent_readiness: 29.2
+      agent_readiness: 28.6
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 38.3
+      kin_score: 38.0
       mcp:
         status: none
       name: BTCPay Server
@@ -2381,33 +2402,52 @@ stack:
       tier: observed
       url: /providers/btcpay/
     - agent_band: agent-aware
-      agent_readiness: 23.6
+      agent_readiness: 5.6
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 37.4
       mcp:
         status: none
-      name: Rotessa
-      slug: rotessa
+      name: CHIP (chip-in.asia)
+      slug: chip-in-asia
       sources:
       - https://github.com/invoiceninja/invoiceninja/tree/v5-stable/app/PaymentDrivers
       status: profiled
       tags:
-      - ACH
-      - Canada
+      - Company
+      - Finance
       - Payments
-      - Pre-Authorized Debit
+      - Small Business
       tier: observed
-      url: /providers/rotessa/
+      url: /providers/chip-in-asia/
+    - agent_band: agent-aware
+      agent_readiness: 23.6
+      apps:
+      - SolidInvoice
+      band: thin
+      in_catalog: true
+      kin_score: 37.4
+      mcp:
+        source: https://github.com/payplug/payplug-plugin-mcp
+        status: verified
+      name: Be2bill (Dalenys)
+      slug: payplug
+      sources:
+      - https://raw.githubusercontent.com/SolidInvoice/SolidInvoice/2.3.x/composer.json
+      status: profiled
+      tags:
+      - Company
+      tier: observed
+      url: /providers/payplug/
     - agent_band: agent-native
-      agent_readiness: 47.5
+      agent_readiness: 46.9
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 35.4
       mcp:
         source: https://github.com/checkout/checkout-mcp
         status: verified
@@ -2424,94 +2464,33 @@ stack:
       tier: observed
       url: /providers/checkout-com/
     - agent_band: agent-aware
-      agent_readiness: 14.7
+      agent_readiness: 25.8
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 28.3
+      kin_score: 34.4
       mcp:
         status: none
-      name: LawPay
-      slug: lawpay
+      name: Rotessa
+      slug: rotessa
       sources:
       - https://github.com/invoiceninja/invoiceninja/tree/v5-stable/app/PaymentDrivers
       status: profiled
       tags:
-      - Company
-      - Fintech
-      - Legal Tech
+      - ACH
+      - Canada
       - Payments
+      - Pre-Authorized Debit
       tier: observed
-      url: /providers/lawpay/
+      url: /providers/rotessa/
     - agent_band: agent-aware
-      agent_readiness: 7.9
-      apps:
-      - Invoice Ninja
-      band: thin
-      in_catalog: true
-      kin_score: 28.2
-      mcp:
-        status: none
-      name: CHIP (chip-in.asia)
-      slug: chip-in-asia
-      sources:
-      - https://github.com/invoiceninja/invoiceninja/tree/v5-stable/app/PaymentDrivers
-      status: profiled
-      tags:
-      - Company
-      - Finance
-      - Payments
-      - Small Business
-      tier: observed
-      url: /providers/chip-in-asia/
-    - agent_band: agent-aware
-      agent_readiness: 23.8
-      apps:
-      - Invoice Ninja
-      band: thin
-      in_catalog: true
-      kin_score: 27.5
-      mcp:
-        status: none
-      name: PayFast
-      slug: payfast
-      sources:
-      - https://raw.githubusercontent.com/invoiceninja/invoiceninja/v5-stable/composer.json
-      status: profiled
-      tags:
-      - Payment Gateway
-      - Payments
-      - South Africa
-      - Subscription
-      tier: observed
-      url: /providers/payfast/
-    - agent_band: agent-aware
-      agent_readiness: 24.1
+      agent_readiness: 12.4
       apps:
       - SolidInvoice
       band: thin
       in_catalog: true
-      kin_score: 26.9
-      mcp:
-        source: https://github.com/payplug/payplug-plugin-mcp
-        status: verified
-      name: Be2bill (Dalenys)
-      slug: payplug
-      sources:
-      - https://raw.githubusercontent.com/SolidInvoice/SolidInvoice/2.3.x/composer.json
-      status: profiled
-      tags:
-      - Company
-      tier: observed
-      url: /providers/payplug/
-    - agent_band: agent-aware
-      agent_readiness: 12.7
-      apps:
-      - SolidInvoice
-      band: emerging
-      in_catalog: true
-      kin_score: 19.9
+      kin_score: 27.2
       mcp:
         status: none
       name: PayEx (Swedbank Pay)
@@ -2526,13 +2505,34 @@ stack:
       - Payments
       tier: observed
       url: /providers/swedbank-pay/
+    - agent_band: agent-ready
+      agent_readiness: 28.8
+      apps:
+      - Invoice Ninja
+      band: thin
+      in_catalog: true
+      kin_score: 26.6
+      mcp:
+        status: none
+      name: PayFast
+      slug: payfast
+      sources:
+      - https://raw.githubusercontent.com/invoiceninja/invoiceninja/v5-stable/composer.json
+      status: profiled
+      tags:
+      - Payment Gateway
+      - Payments
+      - South Africa
+      - Subscription
+      tier: observed
+      url: /providers/payfast/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Invoice Ninja
       band: emerging
       in_catalog: true
-      kin_score: 14.7
+      kin_score: 22.5
       mcp:
         status: none
       name: Blockonomics
@@ -2553,7 +2553,7 @@ stack:
       - Invoice Ninja
       band: emerging
       in_catalog: true
-      kin_score: 14.5
+      kin_score: 22.5
       mcp:
         status: none
       name: PayTrace
@@ -2590,12 +2590,12 @@ stack:
       tier: observed
       url: /providers/wepay/
     - agent_band: agent-ready
-      agent_readiness: 38.1
+      agent_readiness: 37.3
       apps:
       - Zoho Invoice
       band: thin
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 33.8
       mcp:
         status: none
       name: Verifone (2Checkout)
@@ -2611,12 +2611,12 @@ stack:
       tier: declared
       url: /providers/verifone/
     - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 10.6
       apps:
       - Zoho Invoice
       band: emerging
       in_catalog: true
-      kin_score: 18.4
+      kin_score: 25.9
       mcp:
         source: https://www.zoho.com/us/payments/developerdocs/mcp
         status: verified
@@ -2641,12 +2641,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 19.7
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 31.2
+      kin_score: 31.0
       mcp:
         status: none
       name: FreshBooks
@@ -2662,12 +2662,12 @@ stack:
       tier: observed
       url: /providers/freshbooks/
     - agent_band: agent-aware
-      agent_readiness: 18.9
+      agent_readiness: 18.6
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 28.8
       mcp:
         source: https://www.zoho.com/mcp/
         status: verified
@@ -2684,12 +2684,12 @@ stack:
       tier: observed
       url: /providers/zoho-invoice/
     - agent_band: agent-aware
-      agent_readiness: 16.1
+      agent_readiness: 15.8
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 28.1
+      kin_score: 26.9
       mcp:
         status: none
       name: Wave Financial
@@ -2710,28 +2710,7 @@ stack:
       - Invoice Ninja
       band: emerging
       in_catalog: true
-      kin_score: 17.4
-      mcp:
-        status: none
-      name: Invoice2go
-      slug: invoice2go
-      sources:
-      - https://github.com/invoiceninja/invoiceninja/tree/v5-stable/app/Import/Transformer
-      status: profiled
-      tags:
-      - Company
-      - Fintech
-      - Invoicing
-      - Payments
-      tier: observed
-      url: /providers/invoice2go/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Invoice Ninja
-      band: emerging
-      in_catalog: true
-      kin_score: 15.3
+      kin_score: 20.8
       mcp:
         status: unknown
       name: Invoicely
@@ -2746,6 +2725,27 @@ stack:
       - Payments
       tier: observed
       url: /providers/invoicely/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Invoice Ninja
+      band: emerging
+      in_catalog: true
+      kin_score: 18.8
+      mcp:
+        status: none
+      name: Invoice2go
+      slug: invoice2go
+      sources:
+      - https://github.com/invoiceninja/invoiceninja/tree/v5-stable/app/Import/Transformer
+      status: profiled
+      tags:
+      - Company
+      - Fintech
+      - Invoicing
+      - Payments
+      tier: observed
+      url: /providers/invoice2go/
   - capability:
       attribution: Turbo EA
       id: BC-200.10
@@ -2754,14 +2754,14 @@ stack:
       url: /capabilities/general-ledger-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Invoice Ninja
       - Zoho Invoice
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -2787,12 +2787,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 52.1
+      agent_readiness: 51.1
       apps:
       - ERPNext
       band: exemplar
       in_catalog: true
-      kin_score: 83.4
+      kin_score: 86.3
       mcp:
         source: https://plaid.com/docs/resources/mcp/
         status: verified
@@ -2814,7 +2814,7 @@ stack:
       - Invoice Ninja
       band: minimal
       in_catalog: true
-      kin_score: 5.1
+      kin_score: 4.2
       mcp:
         source: https://github.com/gocardless/gc-mcp
         status: verified
@@ -2837,12 +2837,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.6
       apps:
       - Invoice Ninja
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 51.8
       mcp:
         status: none
       name: Mindee
@@ -2868,14 +2868,14 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.7
+      agent_readiness: 43.0
       apps:
       - Akaunting
       - Invoice Ninja
       - SolidInvoice
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 70.5
       mcp:
         source: https://github.com/ActiveCampaign/postmark-mcp
         status: verified
@@ -2894,14 +2894,14 @@ stack:
       tier: observed
       url: /providers/postmark/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - Akaunting
       - Invoice Ninja
       - SolidInvoice
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -2920,13 +2920,13 @@ stack:
       tier: observed
       url: /providers/mailgun/
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Akaunting
       - SolidInvoice
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -2943,13 +2943,13 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-ready
-      agent_readiness: 57.2
+      agent_readiness: 56.4
       apps:
       - Invoice Ninja
       - SolidInvoice
       band: exemplar
       in_catalog: true
-      kin_score: 82.2
+      kin_score: 81.3
       mcp:
         source: https://developers.brevo.com/docs/mcp-protocol
         status: verified
@@ -2967,12 +2967,12 @@ stack:
       tier: observed
       url: /providers/brevo/
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - SolidInvoice
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -2988,12 +2988,12 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - SolidInvoice
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp (Mandrill)
@@ -3009,12 +3009,12 @@ stack:
       tier: observed
       url: /providers/mailchimp/
     - agent_band: agent-aware
-      agent_readiness: 23.4
+      agent_readiness: 22.9
       apps:
       - SolidInvoice
       band: developing
       in_catalog: true
-      kin_score: 50.1
+      kin_score: 50.5
       mcp:
         source: https://github.com/mailgun/mailjet-mcp-server
         status: verified
@@ -3039,13 +3039,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Invoice Ninja
       - SolidInvoice
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -3062,13 +3062,35 @@ stack:
       - Email
       tier: observed
       url: /providers/twilio/
+    - agent_band: agent-native
+      agent_readiness: 80.0
+      apps:
+      - SolidInvoice
+      band: exemplar
+      in_catalog: true
+      kin_score: 93.5
+      mcp:
+        source: https://github.com/team-telnyx/telnyx-mcp-server
+        status: verified
+      name: Telnyx
+      slug: telnyx
+      sources:
+      - https://raw.githubusercontent.com/SolidInvoice/SolidInvoice/2.3.x/composer.json
+      status: profiled
+      tags:
+      - CPaaS
+      - Communications
+      - SMS
+      - Voice
+      tier: observed
+      url: /providers/telnyx/
     - agent_band: agent-ready
       agent_readiness: 61.3
       apps:
       - SolidInvoice
       band: exemplar
       in_catalog: true
-      kin_score: 86.3
+      kin_score: 86.9
       mcp:
         source: https://www.infobip.com/docs/mcp
         status: verified
@@ -3085,34 +3107,12 @@ stack:
       tier: observed
       url: /providers/infobip/
     - agent_band: agent-native
-      agent_readiness: 79.5
+      agent_readiness: 60.3
       apps:
       - SolidInvoice
       band: exemplar
       in_catalog: true
-      kin_score: 79.4
-      mcp:
-        source: https://github.com/team-telnyx/telnyx-mcp-server
-        status: verified
-      name: Telnyx
-      slug: telnyx
-      sources:
-      - https://raw.githubusercontent.com/SolidInvoice/SolidInvoice/2.3.x/composer.json
-      status: profiled
-      tags:
-      - CPaaS
-      - Communications
-      - SMS
-      - Voice
-      tier: observed
-      url: /providers/telnyx/
-    - agent_band: agent-native
-      agent_readiness: 61.2
-      apps:
-      - SolidInvoice
-      band: strong
-      in_catalog: true
-      kin_score: 65.3
+      kin_score: 71.6
       mcp:
         source: https://github.com/sinch/sinch-mcp-server
         status: verified
@@ -3129,12 +3129,12 @@ stack:
       tier: observed
       url: /providers/sinch/
     - agent_band: agent-ready
-      agent_readiness: 43.5
+      agent_readiness: 40.0
       apps:
       - SolidInvoice
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 68.8
       mcp:
         source: https://github.com/Vonage/vonage-mcp-server-documentation
         status: verified
@@ -3151,12 +3151,12 @@ stack:
       tier: observed
       url: /providers/vonage/
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 41.7
       apps:
       - SolidInvoice
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 64.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3172,13 +3172,13 @@ stack:
       - Notification
       tier: observed
       url: /providers/amazon-sns/
-    - agent_band: agent-ready
-      agent_readiness: 65.2
+    - agent_band: agent-native
+      agent_readiness: 70.3
       apps:
       - SolidInvoice
       band: developing
       in_catalog: true
-      kin_score: 48.6
+      kin_score: 50.0
       mcp:
         source: https://github.com/messagebird/bird-ai
         status: verified
@@ -3194,13 +3194,13 @@ stack:
       - WhatsApp
       tier: observed
       url: /providers/bird/
-    - agent_band: agent-aware
-      agent_readiness: 26.7
+    - agent_band: agent-ready
+      agent_readiness: 28.9
       apps:
       - SolidInvoice
       band: thin
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 38.8
       mcp:
         status: none
       name: Clickatell
@@ -3216,12 +3216,12 @@ stack:
       tier: observed
       url: /providers/clickatell/
     - agent_band: agent-aware
-      agent_readiness: 18.5
+      agent_readiness: 18.1
       apps:
       - SolidInvoice
       band: thin
       in_catalog: true
-      kin_score: 32.1
+      kin_score: 37.4
       mcp:
         status: none
       name: Esendex
@@ -3254,7 +3254,7 @@ stack:
       - Zoho Invoice
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -3273,12 +3273,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Akaunting
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -3295,12 +3295,12 @@ stack:
       tier: observed
       url: /providers/bugsnag/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Xero
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -3317,12 +3317,12 @@ stack:
       tier: observed
       url: /providers/new-relic/
     - agent_band: agent-ready
-      agent_readiness: 53.5
+      agent_readiness: 54.4
       apps:
       - QuickBooks
       band: strong
       in_catalog: true
-      kin_score: 61.4
+      kin_score: 63.1
       mcp:
         status: none
       name: Splunk
@@ -3338,12 +3338,12 @@ stack:
       tier: observed
       url: /providers/splunk/
     - agent_band: agent-aware
-      agent_readiness: 19.3
+      agent_readiness: 18.9
       apps:
       - QuickBooks
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 35.5
       mcp:
         status: none
       name: AppDynamics
@@ -3366,40 +3366,40 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - FreshBooks
       - QuickBooks
       - Xero
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id003
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.freshbooks.andromeda/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.intuit.quickbooks/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.xero.touch/latest/
       status: profiled
       tags: &id004
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - FreshBooks
       - QuickBooks
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -3417,12 +3417,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - QuickBooks
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -3439,12 +3439,12 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Xero
       band: strong
       in_catalog: true
-      kin_score: 56.4
+      kin_score: 57.0
       mcp:
         source: https://support.pendo.io/hc/en-us/articles/41102236924955
         status: verified
@@ -3461,12 +3461,12 @@ stack:
       tier: observed
       url: /providers/pendoio/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - QuickBooks
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -3490,13 +3490,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Akaunting
       - SolidInvoice
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -3514,12 +3514,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - SolidInvoice
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn
@@ -3535,54 +3535,12 @@ stack:
       tier: observed
       url: /providers/linkedin/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 41.0
       apps:
       - SolidInvoice
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 59.0
-      mcp:
-        status: none
-      name: Microsoft Teams
-      slug: microsoft-teams
-      sources:
-      - https://raw.githubusercontent.com/SolidInvoice/SolidInvoice/2.3.x/composer.json
-      status: profiled
-      tags:
-      - Chat
-      - Collaboration
-      - Communications
-      - Microsoft Teams
-      tier: observed
-      url: /providers/microsoft-teams/
-    - agent_band: agent-aware
-      agent_readiness: 25.4
-      apps:
-      - SolidInvoice
-      band: strong
-      in_catalog: true
-      kin_score: 58.4
-      mcp:
-        status: none
-      name: Telegram
-      slug: telegram
-      sources:
-      - https://raw.githubusercontent.com/SolidInvoice/SolidInvoice/2.3.x/composer.json
-      status: profiled
-      tags:
-      - Bots
-      - Chat
-      - Messaging
-      - Notification
-      tier: observed
-      url: /providers/telegram/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - SolidInvoice
-      band: developing
-      in_catalog: true
-      kin_score: 51.6
+      kin_score: 67.1
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -3599,12 +3557,54 @@ stack:
       tier: observed
       url: /providers/google-chat/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 30.5
+      apps:
+      - SolidInvoice
+      band: strong
+      in_catalog: true
+      kin_score: 65.1
+      mcp:
+        status: none
+      name: Microsoft Teams
+      slug: microsoft-teams
+      sources:
+      - https://raw.githubusercontent.com/SolidInvoice/SolidInvoice/2.3.x/composer.json
+      status: profiled
+      tags:
+      - Chat
+      - Collaboration
+      - Communications
+      - Microsoft Teams
+      tier: observed
+      url: /providers/microsoft-teams/
+    - agent_band: agent-aware
+      agent_readiness: 25.3
+      apps:
+      - SolidInvoice
+      band: strong
+      in_catalog: true
+      kin_score: 56.8
+      mcp:
+        status: none
+      name: Telegram
+      slug: telegram
+      sources:
+      - https://raw.githubusercontent.com/SolidInvoice/SolidInvoice/2.3.x/composer.json
+      status: profiled
+      tags:
+      - Bots
+      - Chat
+      - Messaging
+      - Notification
+      tier: observed
+      url: /providers/telegram/
+    - agent_band: agent-ready
+      agent_readiness: 33.1
       apps:
       - SolidInvoice
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -3628,12 +3628,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 39.0
       apps:
       - Invoice Ninja
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 69.7
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3650,12 +3650,12 @@ stack:
       tier: observed
       url: /providers/microsoft-graph/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Invoice Ninja
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -3671,13 +3671,13 @@ stack:
       - Google
       tier: observed
       url: /providers/google/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Zoho Invoice
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -3702,12 +3702,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Xero
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3724,12 +3724,12 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 23.3
       apps:
       - FreshBooks
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.9
+      kin_score: 30.9
       mcp:
         status: none
       name: Adjust
@@ -3770,12 +3770,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Invoice Ninja
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft Entra ID
@@ -3791,12 +3791,12 @@ stack:
       tier: observed
       url: /providers/microsoft-entra/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Invoice Ninja
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp: &id001
         status: none
       name: Apple
@@ -3812,12 +3812,12 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - QuickBooks
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -3841,13 +3841,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Crater
       - Invoice Ninja
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3873,12 +3873,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.8
+      agent_readiness: 52.3
       apps:
       - Xero
       band: exemplar
       in_catalog: true
-      kin_score: 80.5
+      kin_score: 77.6
       mcp:
         status: none
       name: Salesforce Marketing Cloud
@@ -3894,12 +3894,12 @@ stack:
       tier: observed
       url: /providers/salesforce-marketing-cloud/
     - agent_band: agent-ready
-      agent_readiness: 56.9
+      agent_readiness: 58.4
       apps:
       - QuickBooks
       band: exemplar
       in_catalog: true
-      kin_score: 75.2
+      kin_score: 74.4
       mcp:
         source: https://www.braze.com/docs/user_guide/brazeai/mcp_server
         status: verified
@@ -3924,34 +3924,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.9
+      agent_readiness: 36.3
       apps:
       - Zoho Invoice
       band: exemplar
       in_catalog: true
-      kin_score: 68.6
-      mcp:
-        source: https://github.com/gemini-cli-extensions/workspace
-        status: verified
-      name: Google Workspace
-      slug: google-workspace
-      sources:
-      - https://www.zoho.com/us/invoice/help/settings/online-payments.html
-      status: profiled
-      tags:
-      - Calendar
-      - Collaboration
-      - Email
-      - Productivity
-      tier: declared
-      url: /providers/google-workspace/
-    - agent_band: agent-ready
-      agent_readiness: 36.7
-      apps:
-      - Zoho Invoice
-      band: strong
-      in_catalog: true
-      kin_score: 64.4
+      kin_score: 76.1
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3967,6 +3945,28 @@ stack:
       - Productivity
       tier: declared
       url: /providers/microsoft-365/
+    - agent_band: agent-ready
+      agent_readiness: 43.0
+      apps:
+      - Zoho Invoice
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.7
+      mcp:
+        source: https://github.com/gemini-cli-extensions/workspace
+        status: verified
+      name: Google Workspace
+      slug: google-workspace
+      sources:
+      - https://www.zoho.com/us/invoice/help/settings/online-payments.html
+      status: profiled
+      tags:
+      - Calendar
+      - Collaboration
+      - Email
+      - Productivity
+      tier: declared
+      url: /providers/google-workspace/
   - capability:
       attribution: API Evangelist extension
       id: AE-904
@@ -3976,12 +3976,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Invoice Ninja
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp: *id001
       name: Apple
       slug: apple
@@ -3991,13 +3991,13 @@ stack:
       tags: *id002
       tier: observed
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Invoice Ninja
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: Google Play
@@ -4021,12 +4021,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - ERPNext
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -4051,12 +4051,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - ERPNext
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube
@@ -4079,22 +4079,22 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - SolidInvoice
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Firebase (FCM)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/SolidInvoice/SolidInvoice/2.3.x/composer.json
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.70
@@ -4104,12 +4104,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -4133,12 +4133,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - FreshBooks
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -4162,12 +4162,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Crater
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -4192,12 +4192,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Zoho Invoice
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -4225,7 +4225,7 @@ summary:
     unchecked: 1
     verified: 45
   mcp_verified: 45
-  mean_kin_score: 52.9
+  mean_kin_score: 55.3
   observed: 82
   queued: 1
   reference_apps: 9

@@ -48,7 +48,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.9
+    kin_score: 5.3
     mcp: &id001
       status: none
     slug: jisho
@@ -78,7 +78,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.0
+    kin_score: 3.6
     mcp: &id003
       status: unknown
     slug: languagepod101
@@ -105,10 +105,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 28.9
+    agent_readiness: 32.0
     band: developing
     in_catalog: true
-    kin_score: 45.8
+    kin_score: 49.8
     mcp: &id005
       status: none
     slug: wikimedia
@@ -136,7 +136,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.9
+  kin_score: 5.3
   mcp: *id001
   name: Jisho.org
   slug: jisho
@@ -147,7 +147,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.0
+  kin_score: 3.6
   mcp: *id003
   name: LanguagePod101 (Innovative Language)
   slug: languagepod101
@@ -155,10 +155,10 @@ providers:
   tags: *id004
   url: /providers/languagepod101/
 - agent_band: agent-ready
-  agent_readiness: 28.9
+  agent_readiness: 32.0
   band: developing
   in_catalog: true
-  kin_score: 45.8
+  kin_score: 49.8
   mcp: *id005
   name: Wikimedia Commons
   slug: wikimedia

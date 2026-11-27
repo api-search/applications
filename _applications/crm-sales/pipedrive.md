@@ -14,6 +14,15 @@ capabilities:
   - Oneflow
   url: /capabilities/contract-management/
   via_parent: Contract Management
+- attribution: Turbo EA
+  id: BC-430
+  key: customer-service-management
+  layer: domain
+  name: Customer Service Management
+  providers:
+  - Zendesk
+  url: /capabilities/customer-service-management/
+  via_parent: null
 - attribution: API Evangelist extension
   id: AE-230.30.10
   key: AE-230.30.10
@@ -41,15 +50,6 @@ capabilities:
   providers:
   - QuickBooks
   url: /capabilities/invoice-generation-management/
-  via_parent: null
-- attribution: Turbo EA
-  id: ''
-  key: service-request-management
-  layer: domain
-  name: Service Request Management
-  providers:
-  - Zendesk
-  url: null
   via_parent: null
 - attribution: API Evangelist extension
   id: AE-150.60
@@ -142,10 +142,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.7
+    agent_readiness: 56.9
     band: strong
     in_catalog: true
-    kin_score: 63.5
+    kin_score: 65.2
     mcp: &id001
       source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
       status: verified
@@ -172,22 +172,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id009
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id010
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase
   provider: firebase
@@ -204,10 +204,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: exemplar
     in_catalog: true
-    kin_score: 76.5
+    kin_score: 74.4
     mcp: &id015
       source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
       status: verified
@@ -238,7 +238,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id021
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -266,10 +266,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id027
       status: none
     slug: segment
@@ -296,10 +296,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 59.2
+    agent_readiness: 58.0
     band: exemplar
     in_catalog: true
-    kin_score: 70.1
+    kin_score: 68.6
     mcp: &id003
       source: https://docs.apollo.io/docs/apollo-mcp
       status: verified
@@ -327,10 +327,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.7
+    agent_readiness: 55.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.8
+    kin_score: 72.5
     mcp: &id005
       source: https://developers.asana.com/docs/using-asanas-mcp-server
       status: verified
@@ -358,10 +358,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 71.5
     mcp: &id007
       source: https://www.docusign.com/products/mcp
       status: documented
@@ -388,11 +388,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.2
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: developing
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 52.2
     mcp: &id011
       status: none
     slug: google-meet
@@ -419,10 +419,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id013
       status: none
     slug: microsoft-teams
@@ -449,10 +449,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 23.9
     band: thin
     in_catalog: true
-    kin_score: 30.9
+    kin_score: 31.1
     mcp: &id017
       status: none
     slug: oneflow
@@ -478,11 +478,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id019
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -510,10 +510,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id023
       source: https://docs.stripe.com/mcp
       status: verified
@@ -541,10 +541,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.7
+    agent_readiness: 55.3
     band: exemplar
     in_catalog: true
-    kin_score: 77.3
+    kin_score: 78.0
     mcp: &id025
       source: https://developers.surfe.com/mcp
       status: verified
@@ -572,10 +572,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.0
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 72.3
     mcp: &id029
       status: none
     slug: whatsapp
@@ -602,10 +602,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id031
       source: https://zapier.com/mcp
       status: verified
@@ -625,18 +625,18 @@ integrations:
   tier: declared
 - capability:
     attribution: Turbo EA
-    id: ''
-    key: service-request-management
-    name: Service Request Management
-    url: null
+    id: BC-430
+    key: customer-service-management
+    name: Customer Service Management
+    url: /capabilities/customer-service-management/
     via_parent: null
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 72.4
     mcp: &id033
       status: none
     slug: zendesk
@@ -661,10 +661,10 @@ noindex: false
 permalink: /applications/crm-sales/pipedrive/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 56.7
+  agent_readiness: 56.9
   band: strong
   in_catalog: true
-  kin_score: 63.5
+  kin_score: 65.2
   mcp: *id001
   name: Amplitude
   slug: amplitude
@@ -672,10 +672,10 @@ providers:
   tags: *id002
   url: /providers/amplitude/
 - agent_band: agent-ready
-  agent_readiness: 59.2
+  agent_readiness: 58.0
   band: exemplar
   in_catalog: true
-  kin_score: 70.1
+  kin_score: 68.6
   mcp: *id003
   name: Apollo.io
   slug: apollo-io
@@ -683,10 +683,10 @@ providers:
   tags: *id004
   url: /providers/apollo-io/
 - agent_band: agent-ready
-  agent_readiness: 53.7
+  agent_readiness: 55.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.8
+  kin_score: 72.5
   mcp: *id005
   name: Asana
   slug: asana
@@ -694,32 +694,32 @@ providers:
   tags: *id006
   url: /providers/asana/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 71.5
   mcp: *id007
   name: DocuSign
   slug: docusign
   status: profiled
   tags: *id008
   url: /providers/docusign/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id009
   name: Firebase
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id010
-  url: /providers/firebase/
-- agent_band: agent-aware
-  agent_readiness: 17.2
-  band: thin
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: developing
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 52.2
   mcp: *id011
   name: Google Meet
   slug: google-meet
@@ -727,10 +727,10 @@ providers:
   tags: *id012
   url: /providers/google-meet/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 65.1
   mcp: *id013
   name: Microsoft Teams
   slug: microsoft-teams
@@ -738,10 +738,10 @@ providers:
   tags: *id014
   url: /providers/microsoft-teams/
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 44.8
   band: exemplar
   in_catalog: true
-  kin_score: 76.5
+  kin_score: 74.4
   mcp: *id015
   name: New Relic
   slug: new-relic
@@ -749,21 +749,21 @@ providers:
   tags: *id016
   url: /providers/new-relic/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 23.9
   band: thin
   in_catalog: true
-  kin_score: 30.9
+  kin_score: 31.1
   mcp: *id017
   name: Oneflow
   slug: oneflow
   status: profiled
   tags: *id018
   url: /providers/oneflow/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id019
   name: QuickBooks
   slug: quickbooks
@@ -774,7 +774,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id021
   name: Sentry
   slug: sentry-system
@@ -782,10 +782,10 @@ providers:
   tags: *id022
   url: /providers/sentry-system/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id023
   name: Stripe
   slug: stripe
@@ -793,10 +793,10 @@ providers:
   tags: *id024
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 53.7
+  agent_readiness: 55.3
   band: exemplar
   in_catalog: true
-  kin_score: 77.3
+  kin_score: 78.0
   mcp: *id025
   name: Surfe
   slug: surfe
@@ -804,10 +804,10 @@ providers:
   tags: *id026
   url: /providers/surfe/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id027
   name: Twilio Segment
   slug: segment
@@ -815,10 +815,10 @@ providers:
   tags: *id028
   url: /providers/segment/
 - agent_band: agent-ready
-  agent_readiness: 48.0
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 72.3
   mcp: *id029
   name: WhatsApp Business
   slug: whatsapp
@@ -826,10 +826,10 @@ providers:
   tags: *id030
   url: /providers/whatsapp/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id031
   name: Zapier
   slug: zapier
@@ -837,10 +837,10 @@ providers:
   tags: *id032
   url: /providers/zapier/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 72.4
   mcp: *id033
   name: Zendesk
   slug: zendesk

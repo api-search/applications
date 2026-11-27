@@ -2590,9 +2590,9 @@ stack:
       - Hubitat Elevation
       - SmartThings
       - openHAB
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.4
+      kin_score: 18.3
       mcp:
         status: unknown
       name: Signify (Philips Hue, WiZ)
@@ -2609,16 +2609,16 @@ stack:
       - Smart Home
       tier: observed
       url: /providers/signify/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 35.8
       apps:
       - Home Assistant
       - Homebridge
       - SmartThings
       - openHAB
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 41.4
+      kin_score: 60.8
       mcp:
         status: none
       name: Google Nest (Smart Device Management)
@@ -2636,15 +2636,15 @@ stack:
       tier: observed
       url: /providers/google-nest/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.7
       apps:
       - Home Assistant
       - Homebridge
       - Hubitat Elevation
       - openHAB
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 37.5
+      kin_score: 48.0
       mcp:
         status: none
       name: LIFX
@@ -2662,7 +2662,7 @@ stack:
       tier: observed
       url: /providers/lifx/
     - agent_band: agent-aware
-      agent_readiness: 23.6
+      agent_readiness: 23.1
       apps:
       - Home Assistant
       - Homebridge
@@ -2670,7 +2670,7 @@ stack:
       - openHAB
       band: thin
       in_catalog: true
-      kin_score: 34.2
+      kin_score: 33.0
       mcp:
         status: none
       name: Sonos
@@ -2688,7 +2688,7 @@ stack:
       tier: observed
       url: /providers/sonos/
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 25.3
       apps:
       - Home Assistant
       - Homebridge
@@ -2696,7 +2696,7 @@ stack:
       - openHAB
       band: thin
       in_catalog: true
-      kin_score: 31.9
+      kin_score: 30.5
       mcp:
         source: https://github.com/tuya/tuya-mcp-sdk
         status: verified
@@ -2715,7 +2715,7 @@ stack:
       tier: observed
       url: /providers/tuya/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 23.9
       apps:
       - Home Assistant
       - Homebridge
@@ -2723,7 +2723,7 @@ stack:
       - openHAB
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 28.0
       mcp:
         status: unknown
       name: Govee
@@ -2741,15 +2741,15 @@ stack:
       tier: observed
       url: /providers/govee/
     - agent_band: human-only
-      agent_readiness: 4.5
+      agent_readiness: 4.4
       apps:
       - Home Assistant
       - Homebridge
       - Hubitat Elevation
       - openHAB
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.7
+      kin_score: 11.6
       mcp:
         source: https://shelly-api-docs.shelly.cloud/mcp
         status: verified
@@ -2768,7 +2768,7 @@ stack:
       tier: observed
       url: /providers/shelly/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Home Assistant
       - Homebridge
@@ -2776,7 +2776,7 @@ stack:
       - openHAB
       band: minimal
       in_catalog: true
-      kin_score: 6.9
+      kin_score: 9.4
       mcp:
         status: unknown
       name: TP-Link (Kasa / Tapo)
@@ -2794,14 +2794,14 @@ stack:
       tier: observed
       url: /providers/tp-link/
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 30.2
       apps:
       - Home Assistant
       - Homebridge
       - Hubitat Elevation
       band: strong
       in_catalog: true
-      kin_score: 56.7
+      kin_score: 58.5
       mcp:
         status: unknown
       name: Rachio
@@ -2818,15 +2818,15 @@ stack:
       - Smart Home
       tier: observed
       url: /providers/rachio/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Home Assistant
       - Hubitat Elevation
       - openHAB
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -2845,64 +2845,14 @@ stack:
       tier: observed
       url: /providers/amazon/
     - agent_band: agent-aware
-      agent_readiness: 21.0
+      agent_readiness: 23.6
       apps:
       - Home Assistant
       - Homebridge
       - openHAB
       band: thin
       in_catalog: true
-      kin_score: 29.2
-      mcp:
-        status: none
-      name: Samsung SmartThings
-      slug: smartthings
-      sources:
-      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/smartthings
-      - https://github.com/homebridge/homebridge/wiki/Verified-Plugins
-      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.smartthings
-      status: profiled
-      tags:
-      - Devices
-      - Home Automation
-      - IoT
-      - Smart Home
-      tier: observed
-      url: /providers/smartthings/
-    - agent_band: agent-aware
-      agent_readiness: 21.3
-      apps:
-      - Home Assistant
-      - Hubitat Elevation
-      - openHAB
-      band: thin
-      in_catalog: true
-      kin_score: 28.2
-      mcp:
-        status: none
-      name: ecobee
-      slug: ecobee
-      sources:
-      - https://docs2.hubitat.com/en/apps
-      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/ecobee
-      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.ecobee
-      status: profiled
-      tags:
-      - HVAC
-      - IoT
-      - Smart Home
-      - Thermostat
-      tier: observed
-      url: /providers/ecobee/
-    - agent_band: agent-aware
-      agent_readiness: 24.1
-      apps:
-      - Home Assistant
-      - Homebridge
-      - openHAB
-      band: emerging
-      in_catalog: true
-      kin_score: 24.8
+      kin_score: 36.0
       mcp:
         status: unknown
       name: tado
@@ -2920,14 +2870,14 @@ stack:
       tier: observed
       url: /providers/tado/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 24.8
       apps:
       - Home Assistant
       - Homebridge
       - openHAB
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 19.6
+      kin_score: 30.2
       mcp:
         status: none
       name: Nuki
@@ -2944,6 +2894,56 @@ stack:
       - Smart Lock
       tier: observed
       url: /providers/nuki/
+    - agent_band: agent-aware
+      agent_readiness: 25.9
+      apps:
+      - Home Assistant
+      - Homebridge
+      - openHAB
+      band: thin
+      in_catalog: true
+      kin_score: 29.0
+      mcp:
+        status: none
+      name: Samsung SmartThings
+      slug: smartthings
+      sources:
+      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/smartthings
+      - https://github.com/homebridge/homebridge/wiki/Verified-Plugins
+      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.smartthings
+      status: profiled
+      tags:
+      - Devices
+      - Home Automation
+      - IoT
+      - Smart Home
+      tier: observed
+      url: /providers/smartthings/
+    - agent_band: agent-aware
+      agent_readiness: 26.4
+      apps:
+      - Home Assistant
+      - Hubitat Elevation
+      - openHAB
+      band: thin
+      in_catalog: true
+      kin_score: 27.5
+      mcp:
+        status: none
+      name: ecobee
+      slug: ecobee
+      sources:
+      - https://docs2.hubitat.com/en/apps
+      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/ecobee
+      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.ecobee
+      status: profiled
+      tags:
+      - HVAC
+      - IoT
+      - Smart Home
+      - Thermostat
+      tier: observed
+      url: /providers/ecobee/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
@@ -2952,7 +2952,7 @@ stack:
       - openHAB
       band: minimal
       in_catalog: true
-      kin_score: 4.4
+      kin_score: 5.4
       mcp:
         status: unknown
       name: Somfy (TaHoma / Overkiz)
@@ -2977,7 +2977,7 @@ stack:
       - openHAB
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.2
       mcp:
         status: unknown
       name: Daikin
@@ -3002,7 +3002,7 @@ stack:
       - SmartThings
       band: minimal
       in_catalog: true
-      kin_score: 1.1
+      kin_score: 1.3
       mcp:
         status: unknown
       name: Resideo (Honeywell Home)
@@ -3016,13 +3016,13 @@ stack:
       tier: observed
       url: /providers/resideo-technologies/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Home Assistant
       - Hubitat Elevation
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple HomeKit
@@ -3038,60 +3038,14 @@ stack:
       - macOS
       tier: observed
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 25.4
-      apps:
-      - Home Assistant
-      - openHAB
-      band: thin
-      in_catalog: true
-      kin_score: 36.8
-      mcp:
-        status: none
-      name: Xiaomi (Mi Home)
-      slug: xiaomi
-      sources:
-      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/xiaomi_miio
-      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.miio
-      status: profiled
-      tags:
-      - Consumer Electronics
-      - IoT
-      - Mobile
-      - Smart Home
-      tier: observed
-      url: /providers/xiaomi/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
-      apps:
-      - Homebridge
-      - openHAB
-      band: thin
-      in_catalog: true
-      kin_score: 29.1
-      mcp:
-        status: none
-      name: Sensibo
-      slug: sensibo
-      sources:
-      - https://github.com/homebridge/homebridge/wiki/Verified-Plugins
-      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.sensibo
-      status: profiled
-      tags:
-      - Air Conditioning
-      - HVAC
-      - IoT
-      - Smart Home
-      tier: observed
-      url: /providers/sensibo/
-    - agent_band: agent-aware
-      agent_readiness: 17.2
+    - agent_band: agent-ready
+      agent_readiness: 29.5
       apps:
       - Home Assistant
       - Hubitat Elevation
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 28.7
+      kin_score: 48.0
       mcp:
         status: unknown
       name: Google Assistant / Google Home
@@ -3108,35 +3062,36 @@ stack:
       tier: observed
       url: /providers/google-assistant/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 24.9
+      apps:
+      - Home Assistant
+      - openHAB
+      band: thin
+      in_catalog: true
+      kin_score: 35.6
+      mcp:
+        status: none
+      name: Xiaomi (Mi Home)
+      slug: xiaomi
+      sources:
+      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/xiaomi_miio
+      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.miio
+      status: profiled
+      tags:
+      - Consumer Electronics
+      - IoT
+      - Mobile
+      - Smart Home
+      tier: observed
+      url: /providers/xiaomi/
+    - agent_band: agent-aware
+      agent_readiness: 18.6
       apps:
       - Homebridge
       - openHAB
       band: thin
       in_catalog: true
-      kin_score: 28.6
-      mcp:
-        status: unknown
-      name: Home Connect (BSH appliances)
-      slug: home-connect
-      sources:
-      - https://github.com/homebridge/homebridge/wiki/Verified-Plugins
-      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.homeconnect
-      status: profiled
-      tags:
-      - Appliances
-      - Connected Devices
-      - Smart Home
-      tier: observed
-      url: /providers/home-connect/
-    - agent_band: agent-aware
-      agent_readiness: 21.8
-      apps:
-      - Homebridge
-      - openHAB
-      band: emerging
-      in_catalog: true
-      kin_score: 24.9
+      kin_score: 31.2
       mcp:
         status: unknown
       name: Miele
@@ -3153,59 +3108,58 @@ stack:
       tier: observed
       url: /providers/miele/
     - agent_band: agent-aware
-      agent_readiness: 13.8
+      agent_readiness: 28.0
       apps:
-      - Home Assistant
       - Homebridge
-      band: emerging
+      - openHAB
+      band: thin
       in_catalog: true
-      kin_score: 16.9
+      kin_score: 30.4
       mcp:
         status: unknown
-      name: August Home
-      slug: august
+      name: Home Connect (BSH appliances)
+      slug: home-connect
       sources:
-      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/august
       - https://github.com/homebridge/homebridge/wiki/Verified-Plugins
+      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.homeconnect
       status: profiled
       tags:
-      - Company
-      - Consumer
+      - Appliances
+      - Connected Devices
       - Smart Home
-      - Smart Lock
       tier: observed
-      url: /providers/august/
-    - agent_band: human-only
-      agent_readiness: 0.0
+      url: /providers/home-connect/
+    - agent_band: agent-ready
+      agent_readiness: 29.6
       apps:
-      - Home Assistant
+      - Homebridge
       - openHAB
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 14.1
+      kin_score: 28.8
       mcp:
-        status: unknown
-      name: Roborock
-      slug: roborock
+        status: none
+      name: Sensibo
+      slug: sensibo
       sources:
-      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/roborock
-      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.roborock
+      - https://github.com/homebridge/homebridge/wiki/Verified-Plugins
+      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.sensibo
       status: profiled
       tags:
-      - Company
-      - Consumer IoT
-      - Robot Vacuum
-      - Robotics
+      - Air Conditioning
+      - HVAC
+      - IoT
+      - Smart Home
       tier: observed
-      url: /providers/roborock/
+      url: /providers/sensibo/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Home Assistant
       - openHAB
       band: emerging
       in_catalog: true
-      kin_score: 12.7
+      kin_score: 17.9
       mcp:
         status: unknown
       name: Mill (heaters)
@@ -3222,13 +3176,13 @@ stack:
       tier: observed
       url: /providers/mill-heat/
     - agent_band: human-only
-      agent_readiness: 4.5
+      agent_readiness: 4.4
       apps:
       - Home Assistant
       - openHAB
       band: emerging
       in_catalog: true
-      kin_score: 11.1
+      kin_score: 17.3
       mcp:
         source: https://nanoleaf.me
         status: documented
@@ -3248,81 +3202,57 @@ stack:
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
-      - Homebridge
+      - Home Assistant
       - openHAB
       band: emerging
       in_catalog: true
-      kin_score: 11.0
+      kin_score: 15.2
       mcp:
-        source: https://github.com/ecovacs-ai/ecovacs-mcp
-        status: verified
-      name: ECOVACS
-      slug: ecovacs-robotics
+        status: unknown
+      name: Roborock
+      slug: roborock
       sources:
-      - https://github.com/homebridge/homebridge/wiki/Verified-Plugins
-      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.ecovacs
+      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/roborock
+      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.roborock
       status: profiled
       tags:
       - Company
-      - Consumer Technology
-      - Home Automation
+      - Consumer IoT
+      - Robot Vacuum
       - Robotics
       tier: observed
-      url: /providers/ecovacs-robotics/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Home Assistant
-      - openHAB
-      band: minimal
-      in_catalog: true
-      kin_score: 9.4
-      mcp:
-        status: none
-      name: Netatmo
-      slug: netatmo
-      sources:
-      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/netatmo
-      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.netatmo
-      status: profiled
-      tags:
-      - Company
-      - Devices
-      - IoT
-      - Smart Home
-      tier: observed
-      url: /providers/netatmo/
+      url: /providers/roborock/
     - agent_band: agent-aware
-      agent_readiness: 7.9
+      agent_readiness: 13.6
       apps:
       - Home Assistant
       - Homebridge
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.7
+      kin_score: 14.7
       mcp:
         status: unknown
-      name: SwitchBot
-      slug: switchbot
+      name: August Home
+      slug: august
       sources:
-      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/switchbot
+      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/august
       - https://github.com/homebridge/homebridge/wiki/Verified-Plugins
       status: profiled
       tags:
-      - Automation
-      - IoT
-      - Robotics
+      - Company
+      - Consumer
       - Smart Home
+      - Smart Lock
       tier: observed
-      url: /providers/switchbot/
+      url: /providers/august/
     - agent_band: human-only
-      agent_readiness: 4.5
+      agent_readiness: 4.4
       apps:
       - Home Assistant
       - SmartThings
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.6
+      kin_score: 13.5
       mcp:
         status: unknown
       name: Yale Home (smart locks)
@@ -3343,9 +3273,56 @@ stack:
       apps:
       - Home Assistant
       - openHAB
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.6
+      kin_score: 12.3
+      mcp:
+        status: none
+      name: Netatmo
+      slug: netatmo
+      sources:
+      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/netatmo
+      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.netatmo
+      status: profiled
+      tags:
+      - Company
+      - Devices
+      - IoT
+      - Smart Home
+      tier: observed
+      url: /providers/netatmo/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Homebridge
+      - openHAB
+      band: emerging
+      in_catalog: true
+      kin_score: 11.8
+      mcp:
+        source: https://github.com/ecovacs-ai/ecovacs-mcp
+        status: verified
+      name: ECOVACS
+      slug: ecovacs-robotics
+      sources:
+      - https://github.com/homebridge/homebridge/wiki/Verified-Plugins
+      - https://github.com/openhab/openhab-addons/tree/main/bundles/org.openhab.binding.ecovacs
+      status: profiled
+      tags:
+      - Company
+      - Consumer Technology
+      - Home Automation
+      - Robotics
+      tier: observed
+      url: /providers/ecovacs-robotics/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Home Assistant
+      - openHAB
+      band: emerging
+      in_catalog: true
+      kin_score: 11.2
       mcp:
         status: unknown
       name: Belkin WeMo
@@ -3362,13 +3339,36 @@ stack:
       tier: observed
       url: /providers/belkin/
     - agent_band: agent-aware
-      agent_readiness: 12.9
+      agent_readiness: 7.8
+      apps:
+      - Home Assistant
+      - Homebridge
+      band: minimal
+      in_catalog: true
+      kin_score: 10.9
+      mcp:
+        status: unknown
+      name: SwitchBot
+      slug: switchbot
+      sources:
+      - https://github.com/home-assistant/core/tree/dev/homeassistant/components/switchbot
+      - https://github.com/homebridge/homebridge/wiki/Verified-Plugins
+      status: profiled
+      tags:
+      - Automation
+      - IoT
+      - Robotics
+      - Smart Home
+      tier: observed
+      url: /providers/switchbot/
+    - agent_band: agent-aware
+      agent_readiness: 12.7
       apps:
       - Homebridge
       - Hubitat Elevation
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.2
+      kin_score: 33.2
       mcp:
         status: none
       name: Bond (fan / shade bridge)
@@ -3391,7 +3391,7 @@ stack:
       - Hubitat Elevation
       band: minimal
       in_catalog: true
-      kin_score: 3.2
+      kin_score: 2.5
       mcp:
         status: unknown
       name: Lutron (Caseta)
@@ -3408,12 +3408,12 @@ stack:
       tier: declared
       url: /providers/lutron/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - openHAB
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -3430,12 +3430,12 @@ stack:
       tier: observed
       url: /providers/google/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - openHAB
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.2
+      kin_score: 11.7
       mcp:
         status: unknown
       name: Warmup (underfloor heating)
@@ -3451,12 +3451,12 @@ stack:
       tier: observed
       url: /providers/warmup/
     - agent_band: agent-ready
-      agent_readiness: 36.7
+      agent_readiness: 33.3
       apps:
       - Homebridge
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 47.1
+      kin_score: 56.4
       mcp:
         status: none
       name: Airthings
@@ -3472,12 +3472,12 @@ stack:
       tier: declared
       url: /providers/airthings/
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 35.2
       apps:
       - SmartThings
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 41.9
       mcp:
         source: https://github.com/aqara/aqara-mcp-server
         status: verified
@@ -3494,12 +3494,12 @@ stack:
       tier: declared
       url: /providers/aqara/
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 16.9
       apps:
       - Hubitat Elevation
       band: thin
       in_catalog: true
-      kin_score: 26.9
+      kin_score: 32.1
       mcp:
         status: none
       name: SharpTools
@@ -3515,12 +3515,12 @@ stack:
       tier: declared
       url: /providers/sharptools/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Homebridge
       band: emerging
       in_catalog: true
-      kin_score: 15.2
+      kin_score: 19.2
       mcp:
         status: unknown
       name: Rain Bird
@@ -3536,12 +3536,12 @@ stack:
       tier: declared
       url: /providers/rainbird/
     - agent_band: human-only
-      agent_readiness: 4.5
+      agent_readiness: 4.4
       apps:
       - Homebridge
       band: emerging
       in_catalog: true
-      kin_score: 11.9
+      kin_score: 18.4
       mcp:
         status: unknown
       name: Meross
@@ -3557,12 +3557,12 @@ stack:
       tier: declared
       url: /providers/meross/
     - agent_band: human-only
-      agent_readiness: 4.5
+      agent_readiness: 4.4
       apps:
       - Homebridge
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.8
+      kin_score: 16.7
       mcp:
         status: none
       name: eWeLink (ITEAD / Sonoff)
@@ -3581,9 +3581,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - SmartThings
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.0
+      kin_score: 13.6
       mcp:
         status: none
       name: Eve Systems
@@ -3604,7 +3604,7 @@ stack:
       - Homebridge
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: unknown
       name: iRobot
@@ -3625,7 +3625,7 @@ stack:
       - Homebridge
       band: minimal
       in_catalog: true
-      kin_score: 4.6
+      kin_score: 3.8
       mcp:
         status: unknown
       name: LG ThinQ
@@ -3646,7 +3646,7 @@ stack:
       - Homebridge
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.2
       mcp:
         status: unknown
       name: Chamberlain myQ
@@ -3670,7 +3670,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.1
+      agent_readiness: 33.4
       apps:
       - Home Assistant
       - Homebridge
@@ -3679,7 +3679,7 @@ stack:
       - openHAB
       band: developing
       in_catalog: true
-      kin_score: 43.9
+      kin_score: 45.1
       mcp:
         status: none
       name: Ring
@@ -3703,7 +3703,7 @@ stack:
       - Homebridge
       band: emerging
       in_catalog: true
-      kin_score: 16.4
+      kin_score: 23.1
       mcp:
         status: none
       name: SimpliSafe
@@ -3720,13 +3720,13 @@ stack:
       tier: observed
       url: /providers/simplisafe/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Home Assistant
       - Homebridge
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 19.7
       mcp:
         status: unknown
       name: EZVIZ
@@ -3762,12 +3762,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-aware
-      agent_readiness: 20.9
+      agent_readiness: 20.4
       apps:
       - Home Assistant
       band: thin
       in_catalog: true
-      kin_score: 32.0
+      kin_score: 30.7
       mcp:
         status: none
       name: Reolink
@@ -3788,7 +3788,7 @@ stack:
       - Homebridge
       band: emerging
       in_catalog: true
-      kin_score: 12.1
+      kin_score: 14.3
       mcp:
         status: unknown
       name: eufy (Anker)
@@ -3811,15 +3811,15 @@ stack:
       url: /capabilities/home-network-dns-filtering/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.9
+    - agent_band: agent-ready
+      agent_readiness: 33.3
       apps:
       - Home Assistant
       - Hubitat Elevation
       - openHAB
       band: developing
       in_catalog: true
-      kin_score: 46.3
+      kin_score: 47.3
       mcp:
         status: none
       name: Ubiquiti UniFi
@@ -3837,12 +3837,12 @@ stack:
       tier: observed
       url: /providers/ubiquiti/
     - agent_band: agent-aware
-      agent_readiness: 18.7
+      agent_readiness: 18.3
       apps:
       - Home Assistant
       band: emerging
       in_catalog: true
-      kin_score: 14.2
+      kin_score: 20.5
       mcp:
         status: none
       name: NETGEAR
@@ -3866,14 +3866,14 @@ stack:
       via_parent: Home Energy
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 25.6
       apps:
       - Home Assistant
       - Homebridge
       - openHAB
       band: developing
       in_catalog: true
-      kin_score: 50.6
+      kin_score: 49.5
       mcp:
         status: none
       name: Tibber
@@ -3898,13 +3898,13 @@ stack:
       url: /capabilities/home-energy/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 26.1
+    - agent_band: agent-ready
+      agent_readiness: 31.2
       apps:
       - openHAB
       band: developing
       in_catalog: true
-      kin_score: 49.0
+      kin_score: 46.9
       mcp:
         status: unknown
       name: Tesla Energy (Powerwall)
@@ -3920,12 +3920,12 @@ stack:
       tier: observed
       url: /providers/tesla-energy/
     - agent_band: agent-ready
-      agent_readiness: 31.2
+      agent_readiness: 32.6
       apps:
       - openHAB
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.8
+      kin_score: 45.0
       mcp:
         source: https://docs.evcc.io/en/integrations/mcp.md
         status: verified
@@ -3942,12 +3942,12 @@ stack:
       tier: observed
       url: /providers/evcc/
     - agent_band: agent-ready
-      agent_readiness: 35.9
+      agent_readiness: 35.2
       apps:
       - Homebridge
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.6
       mcp:
         status: none
       name: Enphase Envoy
@@ -3971,14 +3971,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 59.6
+      agent_readiness: 63.2
       apps:
       - Home Assistant
       - Homebridge
       - openHAB
       band: strong
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 56.7
       mcp:
         status: none
       name: Plex
@@ -4004,14 +4004,14 @@ stack:
       via_parent: Connected Vehicles
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.3
       apps:
       - Home Assistant
       - Homebridge
       - openHAB
       band: thin
       in_catalog: true
-      kin_score: 35.5
+      kin_score: 34.8
       mcp:
         status: none
       name: Tesla (Fleet API)
@@ -4036,14 +4036,14 @@ stack:
       url: /capabilities/weather-environment/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 22.5
+    - agent_band: agent-ready
+      agent_readiness: 30.0
       apps:
       - Home Assistant
       - openHAB
       band: strong
       in_catalog: true
-      kin_score: 60.4
+      kin_score: 59.1
       mcp:
         source: https://mcp.openweathermap.org/
         status: verified
@@ -4086,13 +4086,13 @@ stack:
       via_parent: Audio & Music
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.3
+      agent_readiness: 32.7
       apps:
       - Home Assistant
       - openHAB
       band: developing
       in_catalog: true
-      kin_score: 49.8
+      kin_score: 50.6
       mcp:
         status: none
       name: Spotify
@@ -4117,12 +4117,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 22.5
       apps:
       - Home Assistant
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.5
+      kin_score: 32.1
       mcp:
         status: none
       name: OctoPrint
@@ -4146,12 +4146,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - Home Assistant
       band: thin
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 36.4
       mcp:
         status: none
       name: Withings
@@ -4177,13 +4177,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.0
+      agent_readiness: 21.6
       apps:
       - Home Assistant
       - openHAB
       band: thin
       in_catalog: true
-      kin_score: 29.2
+      kin_score: 28.1
       mcp:
         status: none
       name: Pushover
@@ -4199,35 +4199,35 @@ stack:
       - Push Notifications
       tier: observed
       url: /providers/pushover/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Home Assistant
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/home-assistant/android/blob/main/gradle/libs.versions.toml
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - openHAB
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.9
+      kin_score: 15.5
       mcp:
         status: none
       name: ntfy
@@ -4251,13 +4251,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Home Assistant
       - openHAB
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram Bot API
@@ -4287,7 +4287,7 @@ stack:
       - Home Assistant
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -4312,12 +4312,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Home Assistant
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -4342,12 +4342,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.3
+      agent_readiness: 42.4
       apps:
       - Home Assistant
       band: emerging
       in_catalog: true
-      kin_score: 25.0
+      kin_score: 24.1
       mcp:
         source: https://github.com/IFTTT/ifttt-plugins
         status: verified
@@ -4374,13 +4374,13 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Frigate
       - Home Assistant
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -4398,13 +4398,13 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - Frigate
       - Home Assistant
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google Gemini
@@ -4421,12 +4421,12 @@ stack:
       tier: observed
       url: /providers/google-gemini/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Home Assistant
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -4442,13 +4442,13 @@ stack:
       - LLM
       tier: observed
       url: /providers/anthropic/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
+    - agent_band: agent-ready
+      agent_readiness: 29.9
       apps:
       - Frigate
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.6
+      kin_score: 68.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -4479,7 +4479,7 @@ stack:
       - Home Assistant
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp:
         status: none
       name: Ollama
@@ -4504,12 +4504,12 @@ stack:
       via_parent: Speech & Voice
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.0
+      agent_readiness: 39.7
       apps:
       - Home Assistant
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 72.9
       mcp:
         status: none
       name: Amazon Polly
@@ -4524,13 +4524,13 @@ stack:
       - Speech Synthesis
       tier: observed
       url: /providers/amazon-polly/
-    - agent_band: agent-aware
-      agent_readiness: 17.9
+    - agent_band: agent-ready
+      agent_readiness: 33.9
       apps:
       - Home Assistant
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 51.6
+      kin_score: 68.0
       mcp:
         status: none
       name: Google Translate TTS
@@ -4557,7 +4557,7 @@ summary:
     unchecked: 2
     verified: 15
   mcp_verified: 15
-  mean_kin_score: 31.3
+  mean_kin_score: 34.8
   observed: 65
   queued: 2
   reference_apps: 6

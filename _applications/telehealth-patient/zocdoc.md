@@ -81,10 +81,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.7
-    band: emerging
+    agent_readiness: 21.9
+    band: thin
     in_catalog: true
-    kin_score: 23.0
+    kin_score: 33.8
     mcp: &id001
       status: none
     slug: branch-io
@@ -108,10 +108,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id003
       status: none
     slug: google-admob
@@ -137,22 +137,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id005
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id006
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics
   provider: firebase
@@ -169,10 +169,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 62.9
+    agent_readiness: 61.6
     band: exemplar
     in_catalog: true
-    kin_score: 77.7
+    kin_score: 78.1
     mcp: &id007
       source: https://support.optimizely.com/hc/en-us/articles/45320607594893
       status: documented
@@ -200,10 +200,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.8
+    agent_readiness: 52.3
     band: exemplar
     in_catalog: true
-    kin_score: 80.5
+    kin_score: 77.6
     mcp: &id009
       status: none
     slug: salesforce-marketing-cloud
@@ -233,7 +233,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id011
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -259,10 +259,10 @@ noindex: false
 permalink: /applications/telehealth-patient/zocdoc/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 24.7
-  band: emerging
+  agent_readiness: 21.9
+  band: thin
   in_catalog: true
-  kin_score: 23.0
+  kin_score: 33.8
   mcp: *id001
   name: Branch
   slug: branch-io
@@ -270,32 +270,32 @@ providers:
   tags: *id002
   url: /providers/branch-io/
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 35.3
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 65.2
   mcp: *id003
   name: Google AdMob
   slug: google-admob
   status: profiled
   tags: *id004
   url: /providers/google-admob/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id005
   name: Google Firebase Analytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id006
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 62.9
+  agent_readiness: 61.6
   band: exemplar
   in_catalog: true
-  kin_score: 77.7
+  kin_score: 78.1
   mcp: *id007
   name: Optimizely
   slug: optimizely
@@ -303,10 +303,10 @@ providers:
   tags: *id008
   url: /providers/optimizely/
 - agent_band: agent-ready
-  agent_readiness: 56.8
+  agent_readiness: 52.3
   band: exemplar
   in_catalog: true
-  kin_score: 80.5
+  kin_score: 77.6
   mcp: *id009
   name: Salesforce Marketing Cloud
   slug: salesforce-marketing-cloud
@@ -317,7 +317,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id011
   name: Sentry
   slug: sentry-system

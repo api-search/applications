@@ -2980,8 +2980,8 @@ stack:
       url: /capabilities/general-ledger-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Chargebee
       - Invoice Ninja
@@ -2989,7 +2989,7 @@ stack:
       - Recurly
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp: &id005
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -3008,13 +3008,13 @@ stack:
       tier: observed
       url: /providers/quickbooks/
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Chargebee
       - Lago
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -3038,7 +3038,7 @@ stack:
       - Recurly
       band: emerging
       in_catalog: true
-      kin_score: 12.5
+      kin_score: 11.4
       mcp:
         status: none
       name: NetSuite
@@ -3055,12 +3055,12 @@ stack:
       tier: observed
       url: /providers/netsuite/
     - agent_band: agent-aware
-      agent_readiness: 15.5
+      agent_readiness: 15.1
       apps:
       - Chargebee
       band: thin
       in_catalog: true
-      kin_score: 26.3
+      kin_score: 26.5
       mcp:
         status: none
       name: Sage Intacct
@@ -3084,7 +3084,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Chargebee
       - Lago
@@ -3092,7 +3092,7 @@ stack:
       - Recurly
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -3111,13 +3111,13 @@ stack:
       tier: observed
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Chargebee
       - Lago
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -3135,12 +3135,12 @@ stack:
       tier: observed
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 44.2
+      agent_readiness: 43.3
       apps:
       - Chargebee
       band: exemplar
       in_catalog: true
-      kin_score: 86.0
+      kin_score: 85.4
       mcp:
         status: none
       name: Zoho CRM
@@ -3156,12 +3156,12 @@ stack:
       tier: declared
       url: /providers/zoho-crm/
     - agent_band: agent-ready
-      agent_readiness: 29.3
+      agent_readiness: 28.7
       apps:
       - Chargebee
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 55.3
       mcp:
         status: none
       name: Pipedrive
@@ -3185,12 +3185,33 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 51.2
       apps:
       - Paddle
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 83.2
+      mcp:
+        status: none
+      name: Recurly
+      slug: recurly
+      sources:
+      - https://www.paddle.com/integrations
+      status: profiled
+      tags:
+      - Billing
+      - Payments
+      - Recurring Revenue
+      - Subscription
+      tier: declared
+      url: /providers/recurly/
+    - agent_band: agent-native
+      agent_readiness: 57.6
+      apps:
+      - Paddle
+      band: exemplar
+      in_catalog: true
+      kin_score: 82.0
       mcp: &id001
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3207,33 +3228,33 @@ stack:
       tier: declared
       url: /providers/stripe/
     - agent_band: agent-native
-      agent_readiness: 54.3
+      agent_readiness: 42.0
       apps:
       - Paddle
       band: exemplar
       in_catalog: true
-      kin_score: 78.8
+      kin_score: 68.5
       mcp:
         status: none
-      name: Recurly
-      slug: recurly
+      name: Maxio
+      slug: maxio
       sources:
       - https://www.paddle.com/integrations
       status: profiled
       tags:
       - Billing
-      - Payments
-      - Recurring Revenue
+      - Recurring Billing
+      - Revenue Recognition
       - Subscription
       tier: declared
-      url: /providers/recurly/
+      url: /providers/maxio/
     - agent_band: agent-ready
-      agent_readiness: 54.1
+      agent_readiness: 53.0
       apps:
       - Paddle
       band: strong
       in_catalog: true
-      kin_score: 62.9
+      kin_score: 59.9
       mcp:
         source: https://www.chargebee.com/docs/billing/2.0/ai-in-chargebee/chargebee-mcp
         status: verified
@@ -3250,12 +3271,12 @@ stack:
       tier: declared
       url: /providers/chargebee/
     - agent_band: agent-ready
-      agent_readiness: 52.0
+      agent_readiness: 53.6
       apps:
       - Paddle
       band: developing
       in_catalog: true
-      kin_score: 46.2
+      kin_score: 44.7
       mcp: &id003
         status: none
       name: Braintree
@@ -3270,35 +3291,13 @@ stack:
       - Transaction
       tier: declared
       url: /providers/braintree/
-    - agent_band: agent-native
-      agent_readiness: 57.8
-      apps:
-      - Paddle
-      band: thin
-      in_catalog: true
-      kin_score: 37.2
-      mcp:
-        source: https://docs.zuora.com/en/zuora-platform/system-management/zuora-ai/zuora-mcp-server
-        status: verified
-      name: Zuora
-      slug: zuora
-      sources:
-      - https://www.paddle.com/integrations
-      status: profiled
-      tags:
-      - Billing
-      - Finance
-      - Payments
-      - Subscription
-      tier: declared
-      url: /providers/zuora/
     - agent_band: agent-ready
-      agent_readiness: 38.8
+      agent_readiness: 35.2
       apps:
       - Paddle
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 35.2
+      kin_score: 42.6
       mcp:
         source: https://help.uscreen.tv/en/articles/15643974-uscreen-mcp
         status: verified
@@ -3314,13 +3313,35 @@ stack:
       - Video
       tier: declared
       url: /providers/uscreen/
-    - agent_band: agent-aware
-      agent_readiness: 21.3
+    - agent_band: agent-native
+      agent_readiness: 57.0
       apps:
       - Paddle
       band: thin
       in_catalog: true
-      kin_score: 26.4
+      kin_score: 36.1
+      mcp:
+        source: https://docs.zuora.com/en/zuora-platform/system-management/zuora-ai/zuora-mcp-server
+        status: verified
+      name: Zuora
+      slug: zuora
+      sources:
+      - https://www.paddle.com/integrations
+      status: profiled
+      tags:
+      - Billing
+      - Finance
+      - Payments
+      - Subscription
+      tier: declared
+      url: /providers/zuora/
+    - agent_band: agent-aware
+      agent_readiness: 26.4
+      apps:
+      - Paddle
+      band: emerging
+      in_catalog: true
+      kin_score: 25.9
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=rechargeapps
         status: verified
@@ -3336,27 +3357,6 @@ stack:
       - Subscription
       tier: declared
       url: /providers/recharge-payments/
-    - agent_band: human-only
-      agent_readiness: 2.5
-      apps:
-      - Paddle
-      band: emerging
-      in_catalog: true
-      kin_score: 24.6
-      mcp:
-        status: none
-      name: Maxio
-      slug: maxio
-      sources:
-      - https://www.paddle.com/integrations
-      status: profiled
-      tags:
-      - Billing
-      - Recurring Billing
-      - Revenue Recognition
-      - Subscription
-      tier: declared
-      url: /providers/maxio/
   - capability:
       attribution: Turbo EA
       id: BC-220.20
@@ -3366,7 +3366,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 44.7
       apps:
       - Chargebee
       - Kill Bill
@@ -3374,7 +3374,7 @@ stack:
       - Recurly
       band: exemplar
       in_catalog: true
-      kin_score: 70.5
+      kin_score: 69.3
       mcp:
         source: https://github.com/avadev/mcp
         status: verified
@@ -3392,12 +3392,12 @@ stack:
       tier: observed
       url: /providers/avalara/
     - agent_band: agent-ready
-      agent_readiness: 57.4
+      agent_readiness: 61.7
       apps:
       - Lago
       band: developing
       in_catalog: true
-      kin_score: 51.2
+      kin_score: 50.6
       mcp:
         status: none
       name: Anrok
@@ -3413,12 +3413,12 @@ stack:
       tier: observed
       url: /providers/anrok/
     - agent_band: agent-ready
-      agent_readiness: 44.2
+      agent_readiness: 48.7
       apps:
       - Kill Bill
       band: thin
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 38.0
       mcp:
         status: none
       name: Kintsugi
@@ -3434,12 +3434,12 @@ stack:
       tier: declared
       url: /providers/kintsugi/
     - agent_band: agent-aware
-      agent_readiness: 21.1
+      agent_readiness: 20.6
       apps:
       - Kill Bill
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.1
+      kin_score: 33.2
       mcp:
         status: none
       name: Vertex (tax)
@@ -3463,13 +3463,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 50.7
+      agent_readiness: 50.2
       apps:
       - Lago
       - Recurly
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.8
+      kin_score: 67.5
       mcp:
         source: https://github.com/googleapis/mcp-toolbox
         status: verified
@@ -3487,12 +3487,12 @@ stack:
       tier: declared
       url: /providers/google-cloud-platform/
     - agent_band: agent-ready
-      agent_readiness: 51.5
+      agent_readiness: 45.0
       apps:
       - Lago
       band: exemplar
       in_catalog: true
-      kin_score: 78.4
+      kin_score: 76.0
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3509,12 +3509,12 @@ stack:
       tier: declared
       url: /providers/microsoft-azure/
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Lago
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp: &id007
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3539,12 +3539,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.1
+      agent_readiness: 31.5
       apps:
       - Recurly
       band: developing
       in_catalog: true
-      kin_score: 43.0
+      kin_score: 47.0
       mcp:
         source: https://docs.prosperstack.com/integrations/mcp-server
         status: verified
@@ -3561,12 +3561,12 @@ stack:
       tier: declared
       url: /providers/prosperstack/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.2
       apps:
       - Recurly
       band: thin
       in_catalog: true
-      kin_score: 33.7
+      kin_score: 32.5
       mcp:
         status: none
       name: Vindicia
@@ -3595,7 +3595,7 @@ stack:
       - Invoice Ninja
       band: minimal
       in_catalog: true
-      kin_score: 5.1
+      kin_score: 4.2
       mcp:
         source: https://github.com/gocardless/gc-mcp
         status: verified
@@ -3618,12 +3618,12 @@ stack:
       via_parent: Contract Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 37.5
       apps:
       - Chargebee
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 67.1
       mcp:
         status: none
       name: GetAccept
@@ -3647,12 +3647,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.9
+      agent_readiness: 49.6
       apps:
       - Recurly
       band: developing
       in_catalog: true
-      kin_score: 44.0
+      kin_score: 51.7
       mcp:
         status: none
       name: Reach (withreach.com)
@@ -3676,12 +3676,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Polar
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -3711,7 +3711,7 @@ stack:
       - Paddle
       band: thin
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 27.4
       mcp:
         source: https://www.revenuecat.com/docs/tools/mcp
         status: verified
@@ -3736,12 +3736,12 @@ stack:
       via_parent: Logistics Operations Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 45.9
       apps:
       - Chargebee
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 56.7
+      kin_score: 54.1
       mcp:
         status: none
       name: ShipStation
@@ -3765,12 +3765,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 60.5
+      agent_readiness: 56.3
       apps:
       - Chargebee
       band: exemplar
       in_catalog: true
-      kin_score: 70.3
+      kin_score: 84.3
       mcp:
         source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
         status: verified
@@ -3797,7 +3797,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Chargebee
       - Invoice Ninja
@@ -3807,7 +3807,7 @@ stack:
       - Recurly
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: *id001
       name: Stripe
       slug: stripe
@@ -3820,7 +3820,7 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 51.3
+      agent_readiness: 50.3
       apps:
       - Chargebee
       - Invoice Ninja
@@ -3829,7 +3829,7 @@ stack:
       - Recurly
       band: developing
       in_catalog: true
-      kin_score: 52.1
+      kin_score: 50.0
       mcp:
         source: https://developer.gocardless.com/mcp
         status: verified
@@ -3848,7 +3848,7 @@ stack:
       tier: observed
       url: /providers/gocardless/
     - agent_band: agent-native
-      agent_readiness: 43.7
+      agent_readiness: 42.8
       apps:
       - Chargebee
       - Kill Bill
@@ -3856,7 +3856,7 @@ stack:
       - Recurly
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 73.6
       mcp:
         source: https://github.com/Adyen/adyen-mcp
         status: verified
@@ -3875,7 +3875,7 @@ stack:
       tier: observed
       url: /providers/adyen/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Chargebee
       - Invoice Ninja
@@ -3883,7 +3883,7 @@ stack:
       - Recurly
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -3902,14 +3902,14 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-ready
-      agent_readiness: 52.0
+      agent_readiness: 53.6
       apps:
       - Chargebee
       - Invoice Ninja
       - Kill Bill
       band: developing
       in_catalog: true
-      kin_score: 46.2
+      kin_score: 44.7
       mcp: *id003
       name: Braintree
       slug: braintree
@@ -3922,14 +3922,14 @@ stack:
       tier: observed
       url: /providers/braintree/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - Chargebee
       - Invoice Ninja
       - Recurly
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.5
       mcp:
         source: https://github.com/AuthorizeNet/authorize-net-mcp
         status: verified
@@ -3948,14 +3948,14 @@ stack:
       tier: observed
       url: /providers/authorizenet/
     - agent_band: agent-native
-      agent_readiness: 47.5
+      agent_readiness: 46.9
       apps:
       - Chargebee
       - Invoice Ninja
       - Recurly
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 35.4
       mcp:
         source: https://github.com/checkout/checkout-mcp
         status: verified
@@ -3973,15 +3973,40 @@ stack:
       - Payments
       tier: observed
       url: /providers/checkout-com/
-    - agent_band: agent-ready
-      agent_readiness: 33.3
+    - agent_band: agent-aware
+      agent_readiness: 25.7
       apps:
       - Chargebee
       - Kill Bill
       - Recurly
       band: thin
       in_catalog: true
-      kin_score: 33.8
+      kin_score: 34.9
+      mcp:
+        status: none
+      name: Chase (Orbital / Paymentech)
+      slug: chase
+      sources:
+      - https://raw.githubusercontent.com/killbill/killbill-cloud/master/kpm/lib/kpm/plugins_directory.yml
+      - https://recurly.com/integrations/
+      - https://www.chargebee.com/payment-gateways/
+      status: profiled
+      tags:
+      - Account Aggregation
+      - Banking
+      - Consent
+      - Credit Cards
+      tier: declared
+      url: /providers/chase/
+    - agent_band: agent-ready
+      agent_readiness: 32.7
+      apps:
+      - Chargebee
+      - Kill Bill
+      - Recurly
+      band: thin
+      in_catalog: true
+      kin_score: 32.5
       mcp:
         source: https://github.com/CyberSource/cybersource-developer-mcp
         status: verified
@@ -3999,39 +4024,14 @@ stack:
       - Tokenization
       tier: declared
       url: /providers/cybersource/
-    - agent_band: agent-aware
-      agent_readiness: 26.3
-      apps:
-      - Chargebee
-      - Kill Bill
-      - Recurly
-      band: thin
-      in_catalog: true
-      kin_score: 33.4
-      mcp:
-        status: none
-      name: Chase (Orbital / Paymentech)
-      slug: chase
-      sources:
-      - https://raw.githubusercontent.com/killbill/killbill-cloud/master/kpm/lib/kpm/plugins_directory.yml
-      - https://recurly.com/integrations/
-      - https://www.chargebee.com/payment-gateways/
-      status: profiled
-      tags:
-      - Account Aggregation
-      - Banking
-      - Consent
-      - Credit Cards
-      tier: declared
-      url: /providers/chase/
     - agent_band: agent-native
-      agent_readiness: 73.2
+      agent_readiness: 71.7
       apps:
       - Chargebee
       - Invoice Ninja
       band: exemplar
       in_catalog: true
-      kin_score: 68.2
+      kin_score: 68.1
       mcp:
         source: https://docs.mollie.com/docs/mcp-server
         status: verified
@@ -4049,13 +4049,13 @@ stack:
       tier: observed
       url: /providers/mollie/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Chargebee
       - Invoice Ninja
       band: developing
       in_catalog: true
-      kin_score: 52.4
+      kin_score: 50.6
       mcp:
         source: https://github.com/razorpay/razorpay-mcp-server
         status: verified
@@ -4073,13 +4073,13 @@ stack:
       tier: observed
       url: /providers/razorpay/
     - agent_band: agent-aware
-      agent_readiness: 5.4
+      agent_readiness: 5.3
       apps:
       - Chargebee
       - Invoice Ninja
       band: developing
       in_catalog: true
-      kin_score: 49.0
+      kin_score: 46.6
       mcp:
         status: none
       name: eWAY
@@ -4096,13 +4096,13 @@ stack:
       tier: observed
       url: /providers/eway/
     - agent_band: agent-aware
-      agent_readiness: 22.3
+      agent_readiness: 27.2
       apps:
       - Invoice Ninja
       - Kill Bill
       band: developing
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 45.5
       mcp:
         status: none
       name: Forte
@@ -4119,13 +4119,13 @@ stack:
       tier: observed
       url: /providers/csg/
     - agent_band: agent-native
-      agent_readiness: 45.6
+      agent_readiness: 45.1
       apps:
       - Chargebee
       - Recurly
       band: developing
       in_catalog: true
-      kin_score: 50.7
+      kin_score: 48.9
       mcp:
         status: none
       name: Worldpay
@@ -4142,13 +4142,13 @@ stack:
       tier: declared
       url: /providers/worldpay/
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 19.5
       apps:
       - Chargebee
       - Recurly
       band: thin
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 26.2
       mcp:
         status: none
       name: Nuvei
@@ -4171,7 +4171,7 @@ stack:
       - Recurly
       band: minimal
       in_catalog: true
-      kin_score: 8.0
+      kin_score: 7.7
       mcp:
         status: none
       name: BluePay
@@ -4185,12 +4185,12 @@ stack:
       tier: declared
       url: /providers/cardconnect/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - Invoice Ninja
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp:
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -4207,12 +4207,12 @@ stack:
       tier: observed
       url: /providers/square/
     - agent_band: agent-native
-      agent_readiness: 41.3
+      agent_readiness: 40.4
       apps:
       - Invoice Ninja
       band: strong
       in_catalog: true
-      kin_score: 60.8
+      kin_score: 60.5
       mcp:
         status: none
       name: Helcim
@@ -4228,12 +4228,12 @@ stack:
       tier: observed
       url: /providers/helcim/
     - agent_band: agent-ready
-      agent_readiness: 33.4
+      agent_readiness: 35.4
       apps:
       - Lago
       band: developing
       in_catalog: true
-      kin_score: 54.1
+      kin_score: 53.3
       mcp:
         status: none
       name: Flutterwave
@@ -4249,12 +4249,12 @@ stack:
       tier: observed
       url: /providers/flutterwave/
     - agent_band: agent-ready
-      agent_readiness: 41.3
+      agent_readiness: 37.8
       apps:
       - Lago
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.8
+      kin_score: 40.4
       mcp:
         status: none
       name: MoneyHash
@@ -4270,28 +4270,49 @@ stack:
       tier: observed
       url: /providers/moneyhash/
     - agent_band: agent-aware
-      agent_readiness: 23.6
+      agent_readiness: 14.4
       apps:
       - Invoice Ninja
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 40.0
       mcp:
         status: none
-      name: Rotessa
-      slug: rotessa
+      name: LawPay
+      slug: lawpay
       sources:
       - https://api.github.com/repos/invoiceninja/invoiceninja/contents/app/PaymentDrivers?ref=v5-stable
       status: profiled
       tags:
-      - ACH
-      - Canada
+      - Company
+      - Fintech
+      - Legal Tech
       - Payments
-      - Pre-Authorized Debit
       tier: observed
-      url: /providers/rotessa/
-    - agent_band: agent-native
-      agent_readiness: 38.7
+      url: /providers/lawpay/
+    - agent_band: agent-aware
+      agent_readiness: 5.6
+      apps:
+      - Invoice Ninja
+      band: thin
+      in_catalog: true
+      kin_score: 37.4
+      mcp:
+        status: none
+      name: CHIP (Chip In Asia)
+      slug: chip-in-asia
+      sources:
+      - https://api.github.com/repos/invoiceninja/invoiceninja/contents/app/PaymentDrivers?ref=v5-stable
+      status: profiled
+      tags:
+      - Company
+      - Finance
+      - Payments
+      - Small Business
+      tier: observed
+      url: /providers/chip-in-asia/
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Lago
       band: thin
@@ -4313,54 +4334,33 @@ stack:
       tier: observed
       url: /providers/cashfree/
     - agent_band: agent-aware
-      agent_readiness: 14.7
+      agent_readiness: 25.8
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 28.3
+      kin_score: 34.4
       mcp:
         status: none
-      name: LawPay
-      slug: lawpay
+      name: Rotessa
+      slug: rotessa
       sources:
       - https://api.github.com/repos/invoiceninja/invoiceninja/contents/app/PaymentDrivers?ref=v5-stable
       status: profiled
       tags:
-      - Company
-      - Fintech
-      - Legal Tech
+      - ACH
+      - Canada
       - Payments
+      - Pre-Authorized Debit
       tier: observed
-      url: /providers/lawpay/
-    - agent_band: agent-aware
-      agent_readiness: 7.9
+      url: /providers/rotessa/
+    - agent_band: agent-ready
+      agent_readiness: 28.8
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 28.2
-      mcp:
-        status: none
-      name: CHIP (Chip In Asia)
-      slug: chip-in-asia
-      sources:
-      - https://api.github.com/repos/invoiceninja/invoiceninja/contents/app/PaymentDrivers?ref=v5-stable
-      status: profiled
-      tags:
-      - Company
-      - Finance
-      - Payments
-      - Small Business
-      tier: observed
-      url: /providers/chip-in-asia/
-    - agent_band: agent-aware
-      agent_readiness: 23.8
-      apps:
-      - Invoice Ninja
-      band: thin
-      in_catalog: true
-      kin_score: 27.5
+      kin_score: 26.6
       mcp:
         status: none
       name: PayFast
@@ -4381,7 +4381,7 @@ stack:
       - Invoice Ninja
       band: emerging
       in_catalog: true
-      kin_score: 14.5
+      kin_score: 22.5
       mcp:
         status: none
       name: PayTrace
@@ -4397,12 +4397,12 @@ stack:
       tier: observed
       url: /providers/paytrace/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Invoice Ninja
       band: minimal
       in_catalog: true
-      kin_score: 8.0
+      kin_score: 10.3
       mcp:
         status: unknown
       name: CBA PowerBoard
@@ -4439,12 +4439,12 @@ stack:
       tier: observed
       url: /providers/wepay/
     - agent_band: agent-native
-      agent_readiness: 53.9
+      agent_readiness: 53.1
       apps:
       - Kill Bill
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 75.0
       mcp:
         source: https://github.com/Dwolla/dwolla-mcp
         status: verified
@@ -4461,12 +4461,12 @@ stack:
       tier: declared
       url: /providers/dwolla/
     - agent_band: agent-native
-      agent_readiness: 55.2
+      agent_readiness: 54.1
       apps:
       - Chargebee
       band: strong
       in_catalog: true
-      kin_score: 65.7
+      kin_score: 64.1
       mcp:
         status: none
       name: Moneris
@@ -4481,29 +4481,13 @@ stack:
       - Payments
       tier: declared
       url: /providers/moneris/
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-aware
+      agent_readiness: 26.3
       apps:
       - Chargebee
       band: strong
       in_catalog: true
-      kin_score: 61.1
-      mcp: *id005
-      name: QuickBooks Payments
-      slug: quickbooks
-      sources:
-      - https://www.chargebee.com/payment-gateways/
-      status: profiled
-      tags: *id006
-      tier: declared
-      url: /providers/quickbooks/
-    - agent_band: agent-aware
-      agent_readiness: 26.9
-      apps:
-      - Chargebee
-      band: developing
-      in_catalog: true
-      kin_score: 53.8
+      kin_score: 60.3
       mcp:
         status: none
       name: Pin Payments
@@ -4518,13 +4502,50 @@ stack:
       - Subscription
       tier: declared
       url: /providers/pin-payments/
+    - agent_band: agent-ready
+      agent_readiness: 38.3
+      apps:
+      - Chargebee
+      band: strong
+      in_catalog: true
+      kin_score: 59.8
+      mcp: *id005
+      name: QuickBooks Payments
+      slug: quickbooks
+      sources:
+      - https://www.chargebee.com/payment-gateways/
+      status: profiled
+      tags: *id006
+      tier: declared
+      url: /providers/quickbooks/
+    - agent_band: agent-ready
+      agent_readiness: 33.7
+      apps:
+      - Kill Bill
+      band: strong
+      in_catalog: true
+      kin_score: 54.3
+      mcp:
+        status: none
+      name: Qualpay
+      slug: qualpay
+      sources:
+      - https://raw.githubusercontent.com/killbill/killbill-cloud/master/kpm/lib/kpm/plugins_directory.yml
+      status: profiled
+      tags:
+      - B2B Payments
+      - Merchant Services
+      - Payment Processing
+      - Payments
+      tier: declared
+      url: /providers/qualpay/
     - agent_band: agent-native
-      agent_readiness: 42.4
+      agent_readiness: 41.6
       apps:
       - Recurly
       band: developing
       in_catalog: true
-      kin_score: 52.3
+      kin_score: 53.2
       mcp:
         status: none
       name: JPMorgan Chase
@@ -4540,12 +4561,12 @@ stack:
       tier: declared
       url: /providers/jp-morgan-chase/
     - agent_band: agent-native
-      agent_readiness: 44.5
+      agent_readiness: 43.6
       apps:
       - Chargebee
       band: developing
       in_catalog: true
-      kin_score: 45.8
+      kin_score: 50.1
       mcp:
         status: none
       name: NMI
@@ -4560,34 +4581,13 @@ stack:
       - Tokenization
       tier: declared
       url: /providers/nmi/
-    - agent_band: agent-ready
-      agent_readiness: 34.4
-      apps:
-      - Kill Bill
-      band: developing
-      in_catalog: true
-      kin_score: 42.4
-      mcp:
-        status: none
-      name: Qualpay
-      slug: qualpay
-      sources:
-      - https://raw.githubusercontent.com/killbill/killbill-cloud/master/kpm/lib/kpm/plugins_directory.yml
-      status: profiled
-      tags:
-      - B2B Payments
-      - Merchant Services
-      - Payment Processing
-      - Payments
-      tier: declared
-      url: /providers/qualpay/
     - agent_band: agent-aware
-      agent_readiness: 23.4
+      agent_readiness: 19.9
       apps:
       - Recurly
       band: developing
       in_catalog: true
-      kin_score: 41.0
+      kin_score: 47.9
       mcp:
         status: unknown
       name: Revolv3
@@ -4603,12 +4603,12 @@ stack:
       tier: declared
       url: /providers/revolv3/
     - agent_band: agent-aware
-      agent_readiness: 25.0
+      agent_readiness: 24.5
       apps:
       - Recurly
       band: thin
       in_catalog: true
-      kin_score: 36.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Fiserv
@@ -4624,12 +4624,12 @@ stack:
       tier: declared
       url: /providers/fiserv/
     - agent_band: agent-ready
-      agent_readiness: 32.1
+      agent_readiness: 31.4
       apps:
       - Recurly
       band: thin
       in_catalog: true
-      kin_score: 34.7
+      kin_score: 33.3
       mcp:
         status: none
       name: Ebanx
@@ -4645,12 +4645,12 @@ stack:
       tier: declared
       url: /providers/ebanx/
     - agent_band: agent-ready
-      agent_readiness: 32.4
+      agent_readiness: 31.7
       apps:
       - Chargebee
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.9
+      kin_score: 30.1
       mcp:
         status: none
       name: Elavon
@@ -4666,12 +4666,12 @@ stack:
       tier: declared
       url: /providers/elavon/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Chargebee
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 18.3
+      kin_score: 28.3
       mcp:
         status: none
       name: BlueSnap
@@ -4689,31 +4689,10 @@ stack:
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
-      - Recurly
-      band: emerging
-      in_catalog: true
-      kin_score: 11.6
-      mcp:
-        status: unknown
-      name: MerchantE
-      slug: merchante
-      sources:
-      - https://recurly.com/integrations/
-      status: profiled
-      tags:
-      - Acquiring
-      - Company
-      - Fintech
-      - Payments
-      tier: declared
-      url: /providers/merchante/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
       - Chargebee
       band: emerging
       in_catalog: true
-      kin_score: 11.1
+      kin_score: 17.2
       mcp:
         status: none
       name: Bambora
@@ -4729,12 +4708,12 @@ stack:
       tier: declared
       url: /providers/bambora/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Chargebee
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.1
+      kin_score: 12.7
       mcp:
         status: none
       name: Ingenico
@@ -4749,6 +4728,27 @@ stack:
       - Point-of-Sale
       tier: declared
       url: /providers/ingenico/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Recurly
+      band: emerging
+      in_catalog: true
+      kin_score: 11.8
+      mcp:
+        status: unknown
+      name: MerchantE
+      slug: merchante
+      sources:
+      - https://recurly.com/integrations/
+      status: profiled
+      tags:
+      - Acquiring
+      - Company
+      - Fintech
+      - Payments
+      tier: declared
+      url: /providers/merchante/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -4792,13 +4792,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.7
+      agent_readiness: 32.5
       apps:
       - Chargebee
       - Paddle
       band: developing
       in_catalog: true
-      kin_score: 52.5
+      kin_score: 51.0
       mcp:
         source: https://developers.intercom.com/docs/guides/mcp
         status: verified
@@ -4816,12 +4816,12 @@ stack:
       tier: declared
       url: /providers/intercom/
     - agent_band: agent-ready
-      agent_readiness: 51.1
+      agent_readiness: 50.3
       apps:
       - Polar
       band: strong
       in_catalog: true
-      kin_score: 61.2
+      kin_score: 61.8
       mcp:
         source: https://github.com/team-plain/cursor-plugin-mcp
         status: verified
@@ -4838,12 +4838,12 @@ stack:
       tier: observed
       url: /providers/plain/
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Chargebee
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -4859,12 +4859,12 @@ stack:
       tier: declared
       url: /providers/zendesk/
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 39.3
       apps:
       - Chargebee
       band: thin
       in_catalog: true
-      kin_score: 32.2
+      kin_score: 31.0
       mcp:
         status: none
       name: Groove
@@ -4880,12 +4880,12 @@ stack:
       tier: declared
       url: /providers/groove/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 35.0
       apps:
       - Chargebee
       band: thin
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 29.7
       mcp:
         status: none
       name: Freshdesk
@@ -4916,7 +4916,7 @@ stack:
       - Polar
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -4935,12 +4935,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 48.6
       apps:
       - Lago
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -4957,12 +4957,12 @@ stack:
       tier: observed
       url: /providers/datadog/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Lago
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -4979,12 +4979,12 @@ stack:
       tier: observed
       url: /providers/new-relic/
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Polar
       band: developing
       in_catalog: true
-      kin_score: 54.1
+      kin_score: 53.6
       mcp:
         source: https://github.com/pydantic/mcp-run-python
         status: verified
@@ -5009,12 +5009,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.9
+      agent_readiness: 55.8
       apps:
       - Recurly
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 59.3
       mcp:
         status: none
       name: Justt
@@ -5030,12 +5030,12 @@ stack:
       tier: declared
       url: /providers/justt/
     - agent_band: agent-aware
-      agent_readiness: 7.9
+      agent_readiness: 7.7
       apps:
       - Recurly
       band: developing
       in_catalog: true
-      kin_score: 45.8
+      kin_score: 47.1
       mcp:
         status: none
       name: Equifax
@@ -5056,7 +5056,7 @@ stack:
       - Recurly
       band: emerging
       in_catalog: true
-      kin_score: 20.0
+      kin_score: 19.5
       mcp:
         status: none
       name: Kount
@@ -5077,7 +5077,7 @@ stack:
       - Kill Bill
       band: minimal
       in_catalog: true
-      kin_score: 6.0
+      kin_score: 9.1
       mcp:
         status: unknown
       name: Accertify
@@ -5101,13 +5101,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Invoice Ninja
       - Lago
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft Entra ID
@@ -5124,12 +5124,12 @@ stack:
       tier: observed
       url: /providers/microsoft-entra/
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - Lago
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -5146,12 +5146,12 @@ stack:
       tier: observed
       url: /providers/okta/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Invoice Ninja
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple
@@ -5175,7 +5175,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.1
+      agent_readiness: 44.2
       apps:
       - Lago
       band: exemplar
@@ -5196,12 +5196,12 @@ stack:
       tier: declared
       url: /providers/airbyte/
     - agent_band: agent-ready
-      agent_readiness: 63.8
+      agent_readiness: 62.8
       apps:
       - Lago
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 66.9
       mcp:
         source: https://hightouch.com/docs/ai-integrations/mcp
         status: documented
@@ -5218,12 +5218,12 @@ stack:
       tier: declared
       url: /providers/hightouch/
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 37.4
       apps:
       - Lago
       band: developing
       in_catalog: true
-      kin_score: 46.1
+      kin_score: 45.5
       mcp:
         source: https://github.com/polytomic/mcp-connector
         status: verified
@@ -5239,13 +5239,13 @@ stack:
       - Unified API
       tier: declared
       url: /providers/polytomic/
-    - agent_band: agent-aware
-      agent_readiness: 7.5
+    - agent_band: human-only
+      agent_readiness: 3.8
       apps:
       - Chargebee
       band: thin
       in_catalog: true
-      kin_score: 26.7
+      kin_score: 36.8
       mcp:
         status: none
       name: Stitch (Stitch Data ETL)
@@ -5269,34 +5269,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 34.8
       apps:
       - Lago
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
-      mcp:
-        source: https://github.com/googleapis/gcloud-mcp
-        status: verified
-      name: Google Cloud Storage
-      slug: gcp-cloud-storage
-      sources:
-      - https://raw.githubusercontent.com/getlago/lago-api/main/Gemfile
-      status: profiled
-      tags:
-      - Archival
-      - Backup
-      - Blob Storage
-      - Cloud Storage
-      tier: observed
-      url: /providers/gcp-cloud-storage/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
-      apps:
-      - Lago
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5313,12 +5291,34 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 45.1
+      apps:
+      - Lago
+      band: exemplar
+      in_catalog: true
+      kin_score: 74.1
+      mcp:
+        source: https://github.com/googleapis/gcloud-mcp
+        status: verified
+      name: Google Cloud Storage
+      slug: gcp-cloud-storage
+      sources:
+      - https://raw.githubusercontent.com/getlago/lago-api/main/Gemfile
+      status: profiled
+      tags:
+      - Archival
+      - Backup
+      - Blob Storage
+      - Cloud Storage
+      tier: observed
+      url: /providers/gcp-cloud-storage/
+    - agent_band: agent-ready
+      agent_readiness: 37.9
       apps:
       - Polar
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp: *id007
       name: Amazon Web Services
       slug: amazon-web-services
@@ -5329,12 +5329,12 @@ stack:
       tier: observed
       url: /providers/amazon-web-services/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 26.3
       apps:
       - Polar
       band: thin
       in_catalog: true
-      kin_score: 37.3
+      kin_score: 37.4
       mcp:
         source: https://github.com/cloudflare/mcp-server-cloudflare
         status: verified
@@ -5359,12 +5359,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Polar
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -5381,12 +5381,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Polar
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -5403,12 +5403,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - Polar
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google Gemini
@@ -5432,12 +5432,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Polar
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -5454,12 +5454,12 @@ stack:
       tier: observed
       url: /providers/posthog/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Lago
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Twilio Segment
@@ -5475,12 +5475,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Chargebee
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -5505,12 +5505,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.2
+      agent_readiness: 56.4
       apps:
       - Invoice Ninja
       band: exemplar
       in_catalog: true
-      kin_score: 82.2
+      kin_score: 81.3
       mcp:
         source: https://developers.brevo.com/docs/mcp-protocol
         status: verified
@@ -5527,12 +5527,12 @@ stack:
       tier: observed
       url: /providers/brevo/
     - agent_band: agent-ready
-      agent_readiness: 41.7
+      agent_readiness: 43.0
       apps:
       - Invoice Ninja
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 70.5
       mcp:
         source: https://github.com/ActiveCampaign/postmark-mcp
         status: verified
@@ -5549,12 +5549,12 @@ stack:
       tier: observed
       url: /providers/postmark/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -5579,13 +5579,13 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Chargebee
       - Lago
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -5603,12 +5603,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 35.7
       apps:
       - Lago
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 67.7
       mcp:
         source: https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server/
         status: verified
@@ -5633,12 +5633,12 @@ stack:
       via_parent: Stablecoin Payments
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.2
+      agent_readiness: 28.6
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 38.3
+      kin_score: 38.0
       mcp:
         status: none
       name: BTCPay Server
@@ -5659,7 +5659,7 @@ stack:
       - Invoice Ninja
       band: emerging
       in_catalog: true
-      kin_score: 14.7
+      kin_score: 22.5
       mcp:
         status: none
       name: Blockonomics
@@ -5683,13 +5683,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Chargebee
       - Recurly
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -5714,13 +5714,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Chargebee
       - Invoice Ninja
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -5746,12 +5746,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 24.6
       apps:
       - Paddle
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.1
+      kin_score: 58.4
       mcp:
         source: https://github.com/databox/databox-mcp
         status: verified
@@ -5776,12 +5776,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 20.8
       apps:
       - Lago
       band: thin
       in_catalog: true
-      kin_score: 35.7
+      kin_score: 34.8
       mcp:
         status: none
       name: Oso Cloud
@@ -5805,12 +5805,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 38.3
       apps:
       - Polar
       band: strong
       in_catalog: true
-      kin_score: 63.2
+      kin_score: 63.6
       mcp:
         source: https://github.com/ipinfo/mcp
         status: verified
@@ -5835,12 +5835,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 44.6
       apps:
       - Lago
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 49.3
+      kin_score: 70.7
       mcp:
         status: none
       name: Amazon Kinesis
@@ -5864,12 +5864,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 39.0
       apps:
       - Invoice Ninja
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 69.7
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -5894,12 +5894,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.6
       apps:
       - Invoice Ninja
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 51.8
       mcp:
         status: none
       name: Mindee
@@ -5923,12 +5923,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.3
+      agent_readiness: 20.5
       apps:
       - Polar
       band: thin
       in_catalog: true
-      kin_score: 31.4
+      kin_score: 30.6
       mcp:
         source: https://github.com/expo/expo-mcp
         status: verified
@@ -5953,12 +5953,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - Invoice Ninja
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -5982,12 +5982,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Invoice Ninja
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -6012,12 +6012,12 @@ stack:
       via_parent: Web Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Polar
       band: developing
       in_catalog: true
-      kin_score: 49.5
+      kin_score: 50.6
       mcp:
         source: https://docs.firecrawl.dev/mcp-server
         status: verified
@@ -6045,7 +6045,7 @@ summary:
     unchecked: 2
     verified: 56
   mcp_verified: 56
-  mean_kin_score: 50.1
+  mean_kin_score: 51.9
   observed: 62
   queued: 2
   reference_apps: 7

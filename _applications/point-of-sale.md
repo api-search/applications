@@ -1802,13 +1802,13 @@ stack:
       via_parent: Storefront Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 60.5
+      agent_readiness: 56.3
       apps:
       - Loyverse POS
       - Square Point of Sale
       band: exemplar
       in_catalog: true
-      kin_score: 70.3
+      kin_score: 84.3
       mcp:
         source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
         status: verified
@@ -1826,13 +1826,13 @@ stack:
       tier: declared
       url: /providers/bigcommerce/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Loyverse POS
       - Square Point of Sale
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 54.6
       mcp:
         source: https://developer.woocommerce.com/docs/features/mcp/
         status: verified
@@ -1850,13 +1850,13 @@ stack:
       tier: declared
       url: /providers/woocommerce/
     - agent_band: agent-ready
-      agent_readiness: 48.2
+      agent_readiness: 47.2
       apps:
       - Loyverse POS
       - Square Point of Sale
       band: thin
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 35.5
       mcp:
         source: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
         status: verified
@@ -1873,14 +1873,14 @@ stack:
       - Website Builder
       tier: declared
       url: /providers/wix/
-    - agent_band: agent-aware
-      agent_readiness: 24.0
+    - agent_band: agent-ready
+      agent_readiness: 28.9
       apps:
       - Loyverse POS
       - Square Point of Sale
       band: thin
       in_catalog: true
-      kin_score: 30.6
+      kin_score: 30.3
       mcp:
         status: none
       name: Magento
@@ -1897,12 +1897,12 @@ stack:
       tier: declared
       url: /providers/magento/
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - Loyverse POS
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -1919,12 +1919,12 @@ stack:
       tier: declared
       url: /providers/shopify/
     - agent_band: agent-native
-      agent_readiness: 49.5
+      agent_readiness: 48.5
       apps:
       - Loyverse POS
       band: exemplar
       in_catalog: true
-      kin_score: 69.9
+      kin_score: 68.7
       mcp:
         status: none
       name: Squarespace
@@ -1940,12 +1940,12 @@ stack:
       tier: declared
       url: /providers/squarespace/
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 19.7
       apps:
       - Square Point of Sale
       band: developing
       in_catalog: true
-      kin_score: 45.4
+      kin_score: 42.2
       mcp:
         status: none
       name: Ecwid
@@ -1961,12 +1961,12 @@ stack:
       tier: declared
       url: /providers/ecwid/
     - agent_band: agent-ready
-      agent_readiness: 36.7
+      agent_readiness: 36.4
       apps:
       - Square Point of Sale
       band: thin
       in_catalog: true
-      kin_score: 31.7
+      kin_score: 30.4
       mcp:
         source: https://developer.godaddy.com/mcp
         status: verified
@@ -1983,12 +1983,12 @@ stack:
       tier: declared
       url: /providers/godaddy/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Loyverse POS
       band: emerging
       in_catalog: true
-      kin_score: 15.7
+      kin_score: 18.8
       mcp:
         status: unknown
       name: SKUPLUGS
@@ -2012,12 +2012,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Odoo Point of Sale
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2034,12 +2034,12 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-native
-      agent_readiness: 43.7
+      agent_readiness: 42.8
       apps:
       - Odoo Point of Sale
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 73.6
       mcp:
         source: https://github.com/Adyen/adyen-mcp
         status: verified
@@ -2056,12 +2056,12 @@ stack:
       tier: observed
       url: /providers/adyen/
     - agent_band: agent-native
-      agent_readiness: 73.2
+      agent_readiness: 71.7
       apps:
       - Odoo Point of Sale
       band: exemplar
       in_catalog: true
-      kin_score: 68.2
+      kin_score: 68.1
       mcp:
         source: https://docs.mollie.com/docs/mcp-server
         status: verified
@@ -2078,12 +2078,12 @@ stack:
       tier: observed
       url: /providers/mollie/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Odoo Point of Sale
       band: developing
       in_catalog: true
-      kin_score: 52.4
+      kin_score: 50.6
       mcp:
         source: https://github.com/razorpay/razorpay-mcp-server
         status: verified
@@ -2100,12 +2100,12 @@ stack:
       tier: observed
       url: /providers/razorpay/
     - agent_band: agent-ready
-      agent_readiness: 29.2
+      agent_readiness: 28.6
       apps:
       - Odoo Point of Sale
       band: developing
       in_catalog: true
-      kin_score: 49.0
+      kin_score: 48.0
       mcp:
         status: none
       name: M-Pesa (Safaricom)
@@ -2121,12 +2121,12 @@ stack:
       tier: observed
       url: /providers/mpesa/
     - agent_band: agent-ready
-      agent_readiness: 54.3
+      agent_readiness: 53.2
       apps:
       - Odoo Point of Sale
       band: developing
       in_catalog: true
-      kin_score: 46.3
+      kin_score: 44.0
       mcp:
         source: https://github.com/sumup/sumup-mcp
         status: verified
@@ -2143,12 +2143,12 @@ stack:
       tier: observed
       url: /providers/sumup/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 24.9
       apps:
       - Odoo Point of Sale
       band: developing
       in_catalog: true
-      kin_score: 41.8
+      kin_score: 40.4
       mcp:
         source: https://www.mercadopago.com.br/developers/en/docs/mcp-server/overview
         status: verified
@@ -2165,12 +2165,12 @@ stack:
       tier: observed
       url: /providers/mercado-pago/
     - agent_band: agent-aware
-      agent_readiness: 5.8
+      agent_readiness: 5.6
       apps:
       - Odoo Point of Sale
       band: emerging
       in_catalog: true
-      kin_score: 13.3
+      kin_score: 22.6
       mcp:
         status: none
       name: DPO Pay
@@ -2189,9 +2189,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Odoo Point of Sale
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.1
+      kin_score: 11.8
       mcp:
         status: none
       name: Viva.com (Viva Wallet)
@@ -2207,12 +2207,12 @@ stack:
       tier: observed
       url: /providers/viva-com/
     - agent_band: human-only
-      agent_readiness: 3.5
+      agent_readiness: 3.4
       apps:
       - Odoo Point of Sale
       band: minimal
       in_catalog: true
-      kin_score: 6.4
+      kin_score: 9.9
       mcp:
         status: none
       name: QFPay
@@ -2244,12 +2244,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 31.2
+      agent_readiness: 31.5
       apps:
       - Lightspeed Restaurant
       band: strong
       in_catalog: true
-      kin_score: 59.6
+      kin_score: 64.2
       mcp:
         status: none
       name: Westpac Presto Smart
@@ -2273,12 +2273,12 @@ stack:
       via_parent: Quick & Local Commerce
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.5
+      agent_readiness: 34.8
       apps:
       - Lightspeed Restaurant
       band: exemplar
       in_catalog: true
-      kin_score: 77.8
+      kin_score: 76.3
       mcp:
         status: none
       name: DoorDash
@@ -2294,12 +2294,12 @@ stack:
       tier: declared
       url: /providers/doordash/
     - agent_band: agent-ready
-      agent_readiness: 31.8
+      agent_readiness: 31.1
       apps:
       - Lightspeed Restaurant
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 45.5
       mcp:
         status: none
       name: Uber Eats
@@ -2314,13 +2314,34 @@ stack:
       - Uber Eats
       tier: declared
       url: /providers/uber-eats/
+    - agent_band: agent-aware
+      agent_readiness: 24.3
+      apps:
+      - Lightspeed Restaurant
+      band: thin
+      in_catalog: true
+      kin_score: 33.0
+      mcp:
+        status: none
+      name: Deliveroo
+      slug: deliveroo
+      sources:
+      - https://www.lightspeedhq.com/au/blog/must-have-pos-integrations-for-hospitality/
+      status: profiled
+      tags:
+      - Food Delivery
+      - Grocery
+      - Logistics
+      - Marketplace
+      tier: declared
+      url: /providers/deliveroo/
     - agent_band: agent-ready
-      agent_readiness: 37.2
+      agent_readiness: 37.1
       apps:
       - Loyverse POS
       band: thin
       in_catalog: true
-      kin_score: 33.7
+      kin_score: 32.6
       mcp:
         source: https://help.otter.ai/api/v2/help_center/en-us/articles/35287607569687.json
         status: verified
@@ -2337,33 +2358,12 @@ stack:
       tier: declared
       url: /providers/otter/
     - agent_band: agent-aware
-      agent_readiness: 24.7
-      apps:
-      - Lightspeed Restaurant
-      band: thin
-      in_catalog: true
-      kin_score: 33.3
-      mcp:
-        status: none
-      name: Deliveroo
-      slug: deliveroo
-      sources:
-      - https://www.lightspeedhq.com/au/blog/must-have-pos-integrations-for-hospitality/
-      status: profiled
-      tags:
-      - Food Delivery
-      - Grocery
-      - Logistics
-      - Marketplace
-      tier: declared
-      url: /providers/deliveroo/
-    - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Loyverse POS
       band: thin
       in_catalog: true
-      kin_score: 26.8
+      kin_score: 26.5
       mcp:
         status: none
       name: Grab (GrabFood)
@@ -2387,12 +2387,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Square Point of Sale
       band: emerging
       in_catalog: true
-      kin_score: 25.8
+      kin_score: 25.2
       mcp:
         status: none
       name: MarketMan
@@ -2408,12 +2408,12 @@ stack:
       tier: declared
       url: /providers/marketman/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Square Point of Sale
       band: emerging
       in_catalog: true
-      kin_score: 17.3
+      kin_score: 23.5
       mcp:
         status: none
       name: SKU IQ
@@ -2434,7 +2434,7 @@ stack:
       - Square Point of Sale
       band: emerging
       in_catalog: true
-      kin_score: 15.7
+      kin_score: 15.2
       mcp:
         status: none
       name: Shopventory
@@ -2455,7 +2455,7 @@ stack:
       - Square Point of Sale
       band: emerging
       in_catalog: true
-      kin_score: 14.4
+      kin_score: 14.6
       mcp:
         status: none
       name: BevSpot
@@ -2479,12 +2479,12 @@ stack:
       via_parent: POS Cash and Tender Handling
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Odoo Point of Sale
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.6
+      kin_score: 12.7
       mcp:
         status: unknown
       name: Glory (cash recyclers)
@@ -2505,7 +2505,7 @@ stack:
       - Odoo Point of Sale
       band: minimal
       in_catalog: true
-      kin_score: 6.7
+      kin_score: 8.7
       mcp:
         status: unknown
       name: CashDro
@@ -2521,12 +2521,12 @@ stack:
       tier: observed
       url: /providers/cashdro/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Odoo Point of Sale
       band: minimal
       in_catalog: true
-      kin_score: 4.2
+      kin_score: 3.4
       mcp:
         status: unknown
       name: Cashmatic
@@ -2550,12 +2550,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - Square Point of Sale
       band: emerging
       in_catalog: true
-      kin_score: 17.3
+      kin_score: 23.7
       mcp:
         status: unknown
       name: SimpleTix
@@ -2574,9 +2574,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Square Point of Sale
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.0
+      kin_score: 14.3
       mcp:
         status: unknown
       name: TicketSocket
@@ -2597,7 +2597,7 @@ stack:
       - Square Point of Sale
       band: minimal
       in_catalog: true
-      kin_score: 3.8
+      kin_score: 2.9
       mcp:
         status: unknown
       name: Bushfire
@@ -2620,35 +2620,13 @@ stack:
       url: /capabilities/marketplaces/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 32.0
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Loyverse POS
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.7
-      mcp:
-        source: https://github.com/eBay/npm-public-api-mcp
-        status: verified
-      name: eBay
-      slug: ebay
-      sources:
-      - https://loyverse.com/marketplace
-      status: profiled
-      tags:
-      - Auctions
-      - Commerce
-      - Marketplace
-      - Product
-      tier: declared
-      url: /providers/ebay/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
-      apps:
-      - Loyverse POS
-      band: developing
-      in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -2664,13 +2642,35 @@ stack:
       - E-Commerce
       tier: declared
       url: /providers/amazon/
+    - agent_band: agent-ready
+      agent_readiness: 31.3
+      apps:
+      - Loyverse POS
+      band: developing
+      in_catalog: true
+      kin_score: 48.7
+      mcp:
+        source: https://github.com/eBay/npm-public-api-mcp
+        status: verified
+      name: eBay
+      slug: ebay
+      sources:
+      - https://loyverse.com/marketplace
+      status: profiled
+      tags:
+      - Auctions
+      - Commerce
+      - Marketplace
+      - Product
+      tier: declared
+      url: /providers/ebay/
     - agent_band: human-only
       agent_readiness: 0.6
       apps:
       - Loyverse POS
       band: emerging
       in_catalog: true
-      kin_score: 13.6
+      kin_score: 13.3
       mcp:
         status: none
       name: Lazada
@@ -2694,12 +2694,12 @@ stack:
       via_parent: Consumer Payment Options
     providers:
     - agent_band: agent-native
-      agent_readiness: 50.8
+      agent_readiness: 49.8
       apps:
       - Odoo Point of Sale
       band: strong
       in_catalog: true
-      kin_score: 66.0
+      kin_score: 62.1
       mcp:
         status: none
       name: Bancontact Payconiq
@@ -2715,12 +2715,12 @@ stack:
       tier: observed
       url: /providers/bancontact/
     - agent_band: agent-aware
-      agent_readiness: 24.2
+      agent_readiness: 23.6
       apps:
       - Lightspeed Restaurant
       band: developing
       in_catalog: true
-      kin_score: 50.5
+      kin_score: 45.1
       mcp:
         status: none
       name: WeChat Pay
@@ -2736,12 +2736,12 @@ stack:
       tier: declared
       url: /providers/wechat/
     - agent_band: agent-aware
-      agent_readiness: 18.0
+      agent_readiness: 17.6
       apps:
       - Lightspeed Restaurant
       band: emerging
       in_catalog: true
-      kin_score: 25.6
+      kin_score: 24.8
       mcp:
         source: https://github.com/alipay/global-alipayplus-mcp
         status: verified
@@ -2771,7 +2771,7 @@ stack:
       - Lightspeed Restaurant
       band: emerging
       in_catalog: true
-      kin_score: 15.9
+      kin_score: 22.3
       mcp:
         status: unknown
       name: me&u
@@ -2792,7 +2792,7 @@ stack:
       - Lightspeed Restaurant
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 6.8
       mcp:
         status: none
       name: Mr Yum
@@ -2816,12 +2816,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.6
+      agent_readiness: 23.1
       apps:
       - Square Point of Sale
       band: developing
       in_catalog: true
-      kin_score: 45.2
+      kin_score: 44.2
       mcp:
         source: https://github.com/easyship/easyship-mcp-plugin
         status: verified
@@ -2838,12 +2838,12 @@ stack:
       tier: declared
       url: /providers/easyship/
     - agent_band: agent-ready
-      agent_readiness: 40.4
+      agent_readiness: 40.0
       apps:
       - Square Point of Sale
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 35.7
       mcp:
         source: https://developer.shipbob.com/mcp-server/overview
         status: verified
@@ -2868,12 +2868,12 @@ stack:
       via_parent: POS Configuration Management
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Odoo Point of Sale
       band: minimal
       in_catalog: true
-      kin_score: 2.2
+      kin_score: 1.3
       mcp:
         status: unknown
       name: iMin
@@ -2889,9 +2889,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Lightspeed Restaurant
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.0
+      kin_score: 11.3
       mcp:
         status: unknown
       name: Epson (receipt/kitchen printers)
@@ -2915,12 +2915,12 @@ stack:
       via_parent: Logistics Operations Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.9
+      agent_readiness: 35.2
       apps:
       - Loyverse POS
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 70.7
       mcp:
         status: none
       name: FedEx
@@ -2935,13 +2935,13 @@ stack:
       - Pickup
       tier: declared
       url: /providers/fedex/
-    - agent_band: agent-aware
-      agent_readiness: 24.1
+    - agent_band: agent-ready
+      agent_readiness: 29.2
       apps:
       - Loyverse POS
       band: thin
       in_catalog: true
-      kin_score: 29.0
+      kin_score: 27.9
       mcp:
         source: https://github.com/UPS-API/ups-mcp
         status: verified
@@ -2965,13 +2965,13 @@ stack:
       url: /capabilities/consumer-payment-options/
       via_parent: Consumer Payment Options
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 40.5
       apps:
       - Loyverse POS
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 41.1
+      kin_score: 61.3
       mcp:
         source: https://developers.google.com/pay-wallet/ai-tools/mcp-server/mcp-server
         status: verified
@@ -2996,12 +2996,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Square Point of Sale
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.2
+      kin_score: 41.7
       mcp:
         status: unknown
       name: Fresh KDS
@@ -3025,12 +3025,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 9.3
+      agent_readiness: 9.1
       apps:
       - Lightspeed Restaurant
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 47.5
       mcp:
         status: unknown
       name: Marsello
@@ -3057,9 +3057,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Square Point of Sale
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.3
+      kin_score: 34.7
       mcp:
         status: none
       name: TablesReady
@@ -3085,14 +3085,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Lightspeed Restaurant
       - Loyverse POS
       - Square Point of Sale
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -3110,15 +3110,15 @@ stack:
       - Financial Services
       tier: declared
       url: /providers/xero/
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Lightspeed Restaurant
       - Loyverse POS
       - Square Point of Sale
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -3137,13 +3137,13 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-aware
-      agent_readiness: 15.4
+      agent_readiness: 15.1
       apps:
       - Lightspeed Restaurant
       - Square Point of Sale
       band: emerging
       in_catalog: true
-      kin_score: 23.3
+      kin_score: 22.5
       mcp:
         status: none
       name: MYOB
@@ -3160,12 +3160,12 @@ stack:
       tier: declared
       url: /providers/myob/
     - agent_band: agent-aware
-      agent_readiness: 18.9
+      agent_readiness: 18.6
       apps:
       - Loyverse POS
       band: developing
       in_catalog: true
-      kin_score: 45.5
+      kin_score: 47.5
       mcp:
         source: https://www.zoho.com/mcp/
         status: documented
@@ -3182,12 +3182,12 @@ stack:
       tier: declared
       url: /providers/zoho-books/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.6
       apps:
       - Lightspeed Restaurant
       band: developing
       in_catalog: true
-      kin_score: 41.8
+      kin_score: 41.7
       mcp:
         status: none
       name: Sage
@@ -3208,7 +3208,7 @@ stack:
       - Loyverse POS
       band: emerging
       in_catalog: true
-      kin_score: 19.6
+      kin_score: 25.5
       mcp:
         status: unknown
       name: Amaka
@@ -3249,12 +3249,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Loyverse POS
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -3271,12 +3271,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 53.8
       apps:
       - Loyverse POS
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 70.5
       mcp:
         source: https://docs.workato.com/mcp.html
         status: verified
@@ -3293,12 +3293,12 @@ stack:
       tier: declared
       url: /providers/workato/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Loyverse POS
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -3315,12 +3315,12 @@ stack:
       tier: declared
       url: /providers/make/
     - agent_band: agent-ready
-      agent_readiness: 43.3
+      agent_readiness: 42.4
       apps:
       - Square Point of Sale
       band: emerging
       in_catalog: true
-      kin_score: 25.0
+      kin_score: 24.1
       mcp:
         source: https://github.com/IFTTT/ifttt-plugins
         status: verified
@@ -3362,13 +3362,13 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Loyverse POS
       - Open Source Point of Sale
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -3385,12 +3385,12 @@ stack:
       tier: observed
       url: /providers/mailchimp/
     - agent_band: agent-ready
-      agent_readiness: 32.1
+      agent_readiness: 31.4
       apps:
       - Loyverse POS
       band: exemplar
       in_catalog: true
-      kin_score: 70.9
+      kin_score: 67.7
       mcp:
         status: none
       name: Constant Contact
@@ -3419,7 +3419,7 @@ stack:
       - Loyverse POS
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -3436,12 +3436,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Square Point of Sale
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -3457,28 +3457,28 @@ stack:
       - Observability
       tier: observed
       url: /providers/bugsnag/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Loyverse POS
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google CrashLytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.loyverse.sale/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-4280.30
@@ -3488,12 +3488,28 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 39.9
       apps:
       - Loyverse POS
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 62.0
+      mcp: *id001
+      name: Google Firebase Analytics
+      slug: google-firebase
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.loyverse.sale/latest/
+      status: profiled
+      tags: *id002
+      tier: observed
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 47.7
+      apps:
+      - Loyverse POS
+      band: strong
+      in_catalog: true
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -3509,29 +3525,13 @@ stack:
       - Product Analytics
       tier: observed
       url: /providers/mixpanel/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - Loyverse POS
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp: *id001
-      name: Google Firebase Analytics
-      slug: firebase
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.loyverse.sale/latest/
-      status: profiled
-      tags: *id002
-      tier: observed
-      url: /providers/firebase/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 30.0
       apps:
       - Loyverse POS
       band: thin
       in_catalog: true
-      kin_score: 37.1
+      kin_score: 37.4
       mcp:
         source: https://developer.fullstory.com/mcp/introduction/
         status: documented
@@ -3556,12 +3556,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.4
+      agent_readiness: 27.2
       apps:
       - Loyverse POS
       band: developing
       in_catalog: true
-      kin_score: 39.4
+      kin_score: 50.2
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=dataddo
         status: verified
@@ -3583,7 +3583,7 @@ stack:
       - Square Point of Sale
       band: emerging
       in_catalog: true
-      kin_score: 12.6
+      kin_score: 11.6
       mcp:
         status: none
       name: Domo
@@ -3607,12 +3607,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Loyverse POS
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook Analytics
@@ -3628,12 +3628,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-aware
-      agent_readiness: 22.3
+      agent_readiness: 21.8
       apps:
       - Square Point of Sale
       band: developing
       in_catalog: true
-      kin_score: 52.9
+      kin_score: 48.2
       mcp:
         status: none
       name: Poptin
@@ -3657,13 +3657,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - NexoPOS
       - Square Point of Sale
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -3688,12 +3688,12 @@ stack:
       via_parent: Store Workforce Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 30.3
       apps:
       - Lightspeed Restaurant
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.2
+      kin_score: 67.1
       mcp:
         status: none
       name: Deputy
@@ -3714,7 +3714,7 @@ stack:
       - Lightspeed Restaurant
       band: emerging
       in_catalog: true
-      kin_score: 12.9
+      kin_score: 16.9
       mcp:
         status: none
       name: Tanda
@@ -3737,13 +3737,13 @@ stack:
       url: /capabilities/bot-protection-captcha/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Open Source Point of Sale
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Google reCAPTCHA
@@ -3767,12 +3767,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.7
+      agent_readiness: 43.8
       apps:
       - Square Point of Sale
       band: developing
       in_catalog: true
-      kin_score: 47.8
+      kin_score: 54.1
       mcp:
         status: none
       name: Linktree
@@ -3783,7 +3783,7 @@ stack:
       tags:
       - Company
       - Creator Economy
-      - Link in Bio
+      - Link-in-bio
       - Media
       tier: declared
       url: /providers/linktree/
@@ -3796,12 +3796,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Square Point of Sale
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3826,12 +3826,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Open Source Point of Sale
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 21.8
+      kin_score: 31.3
       mcp:
         status: none
       name: Text Marketer
@@ -3855,12 +3855,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - NexoPOS
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -3885,12 +3885,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Loyverse POS
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp
@@ -3917,7 +3917,7 @@ summary:
     unchecked: 3
     verified: 32
   mcp_verified: 32
-  mean_kin_score: 40.5
+  mean_kin_score: 42.6
   observed: 27
   queued: 3
   reference_apps: 6

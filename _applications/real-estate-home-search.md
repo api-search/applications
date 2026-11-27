@@ -5,7 +5,7 @@ apps:
 - anchor: flathunter
   counts:
     declared: 1
-    observed: 15
+    observed: 13
   evidence:
   - route: dependency manifest
     url: https://raw.githubusercontent.com/flathunters/flathunter/main/Pipfile
@@ -18,34 +18,6 @@ apps:
   - route: source code
     url: https://raw.githubusercontent.com/flathunters/flathunter/main/config.yaml.dist
   integrations:
-  - capability:
-      attribution: API Evangelist extension
-      id: AE-230.40.10
-      key: AE-230.40.10
-      name: Web Scraping
-      url: /capabilities/web-data/
-      via_parent: Web Data
-    credit: null
-    layer: common
-    name: 2captcha
-    provider: 2captcha
-    says: ships the 2captcha SDK or integration code
-    source: https://api.github.com/repos/flathunters/flathunter/contents/flathunter/captcha
-    tier: observed
-  - capability:
-      attribution: API Evangelist extension
-      id: AE-230.40.10
-      key: AE-230.40.10
-      name: Web Scraping
-      url: /capabilities/web-data/
-      via_parent: Web Data
-    credit: null
-    layer: common
-    name: Capmonster
-    provider: capmonster
-    says: ships the Capmonster SDK or integration code
-    source: https://api.github.com/repos/flathunters/flathunter/contents/flathunter/captcha
-    tier: observed
   - capability:
       attribution: API Evangelist extension
       id: AE-915
@@ -1420,12 +1392,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 21.3
       apps:
       - Flathunter
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 57.8
       mcp:
         status: none
       name: ImmobilienScout24
@@ -1441,12 +1413,33 @@ stack:
       tier: observed
       url: /providers/immobilienscout24/
     - agent_band: agent-aware
-      agent_readiness: 18.9
+      agent_readiness: 20.4
+      apps:
+      - Flathunter
+      band: thin
+      in_catalog: true
+      kin_score: 29.7
+      mcp:
+        status: none
+      name: Kleinanzeigen
+      slug: kleinanzeigen
+      sources:
+      - https://api.github.com/repos/flathunters/flathunter/contents/flathunter/crawler
+      status: profiled
+      tags:
+      - Classifieds
+      - FreeAds
+      - Germany
+      - Marketplace
+      tier: observed
+      url: /providers/kleinanzeigen/
+    - agent_band: agent-aware
+      agent_readiness: 15.7
       apps:
       - Flathunter
       band: emerging
       in_catalog: true
-      kin_score: 23.1
+      kin_score: 23.9
       mcp:
         status: unknown
       name: Immowelt
@@ -1462,33 +1455,12 @@ stack:
       tier: observed
       url: /providers/immowelt/
     - agent_band: agent-aware
-      agent_readiness: 20.9
+      agent_readiness: 7.7
       apps:
       - Flathunter
       band: emerging
       in_catalog: true
-      kin_score: 22.9
-      mcp:
-        status: none
-      name: Kleinanzeigen
-      slug: kleinanzeigen
-      sources:
-      - https://api.github.com/repos/flathunters/flathunter/contents/flathunter/crawler
-      status: profiled
-      tags:
-      - Classifieds
-      - Germany
-      - Marketplace
-      - free-ads
-      tier: observed
-      url: /providers/kleinanzeigen/
-    - agent_band: agent-aware
-      agent_readiness: 7.9
-      apps:
-      - Flathunter
-      band: emerging
-      in_catalog: true
-      kin_score: 15.5
+      kin_score: 15.6
       mcp:
         status: none
       name: Immobiliare.it
@@ -1507,9 +1479,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Flathunter
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.0
+      kin_score: 13.2
       mcp:
         status: unknown
       name: Subito.it
@@ -1530,7 +1502,7 @@ stack:
       - Flathunter
       band: minimal
       in_catalog: true
-      kin_score: 5.3
+      kin_score: 5.2
       mcp:
         status: unknown
       name: VRM Immo
@@ -1551,7 +1523,7 @@ stack:
       - HomeHarvest
       band: minimal
       in_catalog: true
-      kin_score: 3.8
+      kin_score: 3.0
       mcp:
         status: unknown
       name: Realtor.com
@@ -1572,7 +1544,7 @@ stack:
       - Flathunter
       band: minimal
       in_catalog: true
-      kin_score: 3.4
+      kin_score: 2.6
       mcp:
         status: unknown
       name: WG-Gesucht
@@ -1605,12 +1577,12 @@ stack:
       tier: observed
       url: null
     - agent_band: human-only
-      agent_readiness: 4.5
+      agent_readiness: 4.4
       apps:
       - Redfin
       band: emerging
       in_catalog: true
-      kin_score: 11.3
+      kin_score: 18.5
       mcp:
         status: unknown
       name: FSBO.com
@@ -1631,7 +1603,7 @@ stack:
       - Redfin
       band: minimal
       in_catalog: true
-      kin_score: 4.4
+      kin_score: 4.5
       mcp:
         status: unknown
       name: Fizber.com
@@ -1654,34 +1626,13 @@ stack:
       url: /capabilities/customer-relationship-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 35.0
-      apps:
-      - Real Geeks
-      band: thin
-      in_catalog: true
-      kin_score: 37.6
-      mcp:
-        status: unknown
-      name: KW Command
-      slug: keller-williams
-      sources:
-      - https://www.realgeeks.com/integrations/
-      status: profiled
-      tags:
-      - Brokerage
-      - Real Estate
-      - Residential Real Estate
-      - United States
-      tier: declared
-      url: /providers/keller-williams/
     - agent_band: agent-aware
-      agent_readiness: 18.3
+      agent_readiness: 18.0
       apps:
       - Real Geeks
       band: thin
       in_catalog: true
-      kin_score: 28.4
+      kin_score: 38.9
       mcp:
         status: unknown
       name: kvCORE (BoldTrail)
@@ -1696,6 +1647,27 @@ stack:
       - Software-as-a-Service
       tier: declared
       url: /providers/kvcore/
+    - agent_band: agent-ready
+      agent_readiness: 37.0
+      apps:
+      - Real Geeks
+      band: thin
+      in_catalog: true
+      kin_score: 36.8
+      mcp:
+        status: unknown
+      name: KW Command
+      slug: keller-williams
+      sources:
+      - https://www.realgeeks.com/integrations/
+      status: profiled
+      tags:
+      - Brokerage
+      - Real Estate
+      - Residential Real Estate
+      - United States
+      tier: declared
+      url: /providers/keller-williams/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -1727,7 +1699,7 @@ stack:
       - Redfin
       band: minimal
       in_catalog: true
-      kin_score: 2.6
+      kin_score: 1.7
       mcp:
         status: unknown
       name: Rocket Mortgage (Rocket Companies)
@@ -1752,35 +1724,35 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Realtor.com
       - Redfin
       - Rightmove
       - Zillow
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.move.realtor/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.redfin.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.rightmove.android/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 12.2
+      agent_readiness: 12.0
       apps:
       - Realtor.com
       - Redfin
@@ -1788,7 +1760,7 @@ stack:
       - Zillow
       band: emerging
       in_catalog: true
-      kin_score: 16.9
+      kin_score: 17.9
       mcp:
         status: none
       name: Comscore
@@ -1806,14 +1778,14 @@ stack:
       tier: observed
       url: /providers/comscore/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Redfin
       - Rightmove
       - Zillow
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -1832,14 +1804,14 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Realtor.com
       - Redfin
       - Zillow
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id003
         status: none
       name: Facebook Analytics
@@ -1857,12 +1829,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Realtor.com
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -1885,18 +1857,18 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Realtor.com
       - Redfin
       - Rightmove
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase (Crashlytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.move.realtor/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.redfin.android/latest/
@@ -1904,14 +1876,14 @@ stack:
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
       agent_readiness: 50.2
       apps:
       - Zillow
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1928,12 +1900,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Realtor.com
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -1950,12 +1922,12 @@ stack:
       tier: observed
       url: /providers/new-relic/
     - agent_band: agent-ready
-      agent_readiness: 29.6
+      agent_readiness: 35.2
       apps:
       - Rightmove
       band: developing
       in_catalog: true
-      kin_score: 45.6
+      kin_score: 45.8
       mcp:
         source: https://docs.luciq.ai/product-guides-and-integrations/product-guides/ai-features.md
         status: documented
@@ -1980,13 +1952,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Realtor.com
       - Redfin
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -2004,12 +1976,30 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 21.9
+      apps:
+      - Redfin
+      band: thin
+      in_catalog: true
+      kin_score: 33.8
+      mcp:
+        status: none
+      name: Branch
+      slug: branch-io
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.redfin.android/latest/
+      status: profiled
+      tags:
+      - Company
+      tier: observed
+      url: /providers/branch-io/
+    - agent_band: agent-aware
+      agent_readiness: 23.3
       apps:
       - Zillow
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.9
+      kin_score: 30.9
       mcp:
         status: none
       name: Adjust
@@ -2024,24 +2014,6 @@ stack:
       - Measurements
       tier: observed
       url: /providers/adjust/
-    - agent_band: agent-aware
-      agent_readiness: 24.7
-      apps:
-      - Redfin
-      band: emerging
-      in_catalog: true
-      kin_score: 23.0
-      mcp:
-        status: none
-      name: Branch
-      slug: branch-io
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.redfin.android/latest/
-      status: profiled
-      tags:
-      - Company
-      tier: observed
-      url: /providers/branch-io/
   - capability:
       attribution: Turbo EA
       id: BC-400.60
@@ -2051,14 +2023,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Realtor.com
       - Redfin
       - Zillow
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook Share
       slug: facebook
@@ -2079,13 +2051,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Realtor.com
       - Zillow
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -2101,13 +2073,13 @@ stack:
       - App Monetization
       tier: observed
       url: /providers/google-admob/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Realtor.com
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -2132,14 +2104,14 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Realtor.com
       - Redfin
       - Zillow
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook Login
       slug: facebook
@@ -2160,14 +2132,14 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Redfin
       - Rightmove
       - Zillow
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -2186,79 +2158,6 @@ stack:
       url: /providers/google-tag-manager/
   - capability:
       attribution: API Evangelist extension
-      id: AE-230.40.10
-      key: AE-230.40.10
-      name: Web Scraping
-      url: /capabilities/web-data/
-      via_parent: Web Data
-    providers:
-    - agent_band: agent-aware
-      agent_readiness: 12.9
-      apps:
-      - Flathunter
-      band: thin
-      in_catalog: true
-      kin_score: 29.1
-      mcp:
-        source: https://github.com/2captcha/2captcha-mcp
-        status: verified
-      name: 2captcha
-      slug: 2captcha
-      sources:
-      - https://api.github.com/repos/flathunters/flathunter/contents/flathunter/captcha
-      status: profiled
-      tags:
-      - Automation
-      - CAPTCHA Solving
-      - Data Extraction
-      - Web Scraping
-      tier: observed
-      url: /providers/2captcha/
-    - agent_band: agent-aware
-      agent_readiness: 28.0
-      apps:
-      - Flathunter
-      band: thin
-      in_catalog: true
-      kin_score: 27.3
-      mcp:
-        source: https://github.com/CapMonsterCloud/capmonster-mcp-captcha-solver
-        status: verified
-      name: Capmonster
-      slug: capmonster
-      sources:
-      - https://api.github.com/repos/flathunters/flathunter/contents/flathunter/captcha
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Automation
-      - CAPTCHA
-      - Company
-      tier: observed
-      url: /providers/capmonster/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Flathunter
-      band: minimal
-      in_catalog: true
-      kin_score: 9.9
-      mcp:
-        status: unknown
-      name: ImageTyperz
-      slug: imagetyperz
-      sources:
-      - https://api.github.com/repos/flathunters/flathunter/contents/flathunter/captcha
-      status: profiled
-      tags:
-      - Automation
-      - CAPTCHA
-      - Company
-      - Services
-      tier: observed
-      url: /providers/imagetyperz/
-  - capability:
-      attribution: API Evangelist extension
       id: AE-150.10.20
       key: AE-150.10.20
       name: Email Marketing Sends
@@ -2266,12 +2165,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Real Geeks
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -2287,12 +2186,12 @@ stack:
       tier: declared
       url: /providers/mailchimp/
     - agent_band: agent-ready
-      agent_readiness: 32.1
+      agent_readiness: 31.4
       apps:
       - Real Geeks
       band: exemplar
       in_catalog: true
-      kin_score: 70.9
+      kin_score: 67.7
       mcp:
         status: none
       name: Constant Contact
@@ -2316,33 +2215,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 38.2
       apps:
       - Real Geeks
       band: strong
       in_catalog: true
-      kin_score: 55.2
-      mcp:
-        status: none
-      name: Apple Contacts
-      slug: apple
-      sources:
-      - https://www.realgeeks.com/integrations/
-      status: profiled
-      tags:
-      - Apple
-      - Developers
-      - iOS
-      - macOS
-      tier: declared
-      url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
-      apps:
-      - Real Geeks
-      band: developing
-      in_catalog: true
-      kin_score: 45.6
+      kin_score: 57.2
       mcp:
         source: https://docs.cloud.google.com/mcp/supported-products
         status: verified
@@ -2358,6 +2236,27 @@ stack:
       - People
       tier: declared
       url: /providers/google-people/
+    - agent_band: agent-ready
+      agent_readiness: 36.5
+      apps:
+      - Real Geeks
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
+      mcp:
+        status: none
+      name: Apple Contacts
+      slug: apple
+      sources:
+      - https://www.realgeeks.com/integrations/
+      status: profiled
+      tags:
+      - Apple
+      - Developers
+      - iOS
+      - macOS
+      tier: declared
+      url: /providers/apple/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.40.10
@@ -2367,12 +2266,12 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Flathunter
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2389,12 +2288,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-aware
-      agent_readiness: 25.7
+      agent_readiness: 25.2
       apps:
       - Flathunter
       band: thin
       in_catalog: true
-      kin_score: 37.2
+      kin_score: 37.0
       mcp:
         source: https://github.com/mattermost/mmctl-mcp
         status: verified
@@ -2424,7 +2323,7 @@ stack:
       - Real Geeks
       band: emerging
       in_catalog: true
-      kin_score: 12.5
+      kin_score: 22.5
       mcp:
         status: unknown
       name: Dubb
@@ -2445,12 +2344,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.0
+      agent_readiness: 25.5
       apps:
       - Zillow
       band: developing
       in_catalog: true
-      kin_score: 40.4
+      kin_score: 40.0
       mcp:
         status: none
       name: Apptentive (Alchemer Mobile)
@@ -2474,12 +2373,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.1
+      agent_readiness: 61.0
       apps:
       - Real Geeks
       band: strong
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 65.6
       mcp:
         source: https://docs.thanks.io/thanks-io-mcp-server
         status: verified
@@ -2504,12 +2403,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.9
       apps:
       - Zillow
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 35.9
       mcp:
         status: none
       name: Split (Harness FME)
@@ -2538,9 +2437,10 @@ stack:
       - Zillow
       band: thin
       in_catalog: true
-      kin_score: 32.5
+      kin_score: 32.3
       mcp:
-        status: unchecked
+        source: https://mcp.radar.com/mcp
+        status: verified
       name: Radar
       slug: radar-io
       sources:
@@ -2561,13 +2461,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 36.4
       apps:
       - Flathunter
       band: strong
       in_catalog: true
-      kin_score: 54.4
+      kin_score: 64.4
       mcp:
         source: https://firebase.google.com/docs/cli/mcp-server
         status: verified
@@ -2592,12 +2492,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 62.9
+      agent_readiness: 61.6
       apps:
       - Realtor.com
       band: exemplar
       in_catalog: true
-      kin_score: 77.7
+      kin_score: 78.1
       mcp:
         source: https://support.optimizely.com/hc/en-us/articles/45320607594893
         status: documented
@@ -2622,12 +2522,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - Realtor.com
       band: strong
       in_catalog: true
-      kin_score: 56.1
+      kin_score: 55.6
       mcp:
         source: https://github.com/IABTechLab/agentic-real-time-framework
         status: verified
@@ -2652,12 +2552,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Zillow
       band: thin
       in_catalog: true
-      kin_score: 27.9
+      kin_score: 28.3
       mcp:
         source: https://github.com/urbanairship/agent-tools
         status: verified
@@ -2682,12 +2582,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Flathunter
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -2712,12 +2612,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Real Geeks
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -2733,6 +2633,35 @@ stack:
       url: /providers/google-sheets/
   - capability:
       attribution: API Evangelist extension
+      id: AE-230.40.10
+      key: AE-230.40.10
+      name: Web Scraping
+      url: /capabilities/web-data/
+      via_parent: Web Data
+    providers:
+    - agent_band: human-only
+      agent_readiness: 2.8
+      apps:
+      - Flathunter
+      band: emerging
+      in_catalog: true
+      kin_score: 13.6
+      mcp:
+        status: unknown
+      name: ImageTyperz
+      slug: imagetyperz
+      sources:
+      - https://api.github.com/repos/flathunters/flathunter/contents/flathunter/captcha
+      status: profiled
+      tags:
+      - Automation
+      - CAPTCHA
+      - Company
+      - Services
+      tier: observed
+      url: /providers/imagetyperz/
+  - capability:
+      attribution: API Evangelist extension
       id: AE-150.20.20
       key: AE-150.20.20
       name: WhatsApp & OTT Messaging
@@ -2740,12 +2669,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Flathunter
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram Bot API
@@ -2762,18 +2691,18 @@ stack:
       url: /providers/telegram/
   layer: common
 summary:
-  coverage_pct: 96.0
+  coverage_pct: 95.8
   declared_only: 14
-  distinct_providers: 50
-  in_catalog: 48
+  distinct_providers: 48
+  in_catalog: 46
   mcp:
     documented: 2
     none: 17
-    unchecked: 3
-    verified: 16
-  mcp_verified: 16
-  mean_kin_score: 40.7
-  observed: 36
+    unchecked: 2
+    verified: 15
+  mcp_verified: 15
+  mean_kin_score: 44.0
+  observed: 34
   queued: 2
   reference_apps: 7
 title: 'Real Estate & Home Search: application blueprint'

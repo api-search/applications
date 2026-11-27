@@ -112,10 +112,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.1
+    agent_readiness: 35.3
     band: developing
     in_catalog: true
-    kin_score: 46.2
+    kin_score: 48.9
     mcp: &id001
       status: none
     slug: aol
@@ -142,10 +142,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id003
       status: none
     slug: apple
@@ -200,10 +200,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.4
+    agent_readiness: 36.1
     band: strong
     in_catalog: true
-    kin_score: 60.8
+    kin_score: 61.4
     mcp: &id007
       source: https://github.com/DeepL/deepl-mcp-server
       status: verified
@@ -231,10 +231,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 17.3
+    band: developing
     in_catalog: true
-    kin_score: 28.8
+    kin_score: 39.5
     mcp: &id009
       status: none
     slug: fastmail
@@ -260,11 +260,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id011
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -292,10 +292,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.5
+    kin_score: 20.7
     mcp: &id013
       status: none
     slug: gmx-net
@@ -322,10 +322,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id015
       status: none
     slug: google-gemini
@@ -352,10 +352,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 31.8
     band: developing
     in_catalog: true
-    kin_score: 48.4
+    kin_score: 49.5
     mcp: &id017
       status: none
     slug: have-i-been-pwned
@@ -382,10 +382,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 10.8
-    band: emerging
+    agent_readiness: 13.4
+    band: thin
     in_catalog: true
-    kin_score: 20.6
+    kin_score: 31.2
     mcp: &id019
       source: https://github.com/ionos-cloud/ionoscloud-mcp
       status: verified
@@ -416,7 +416,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 5.0
     mcp: &id021
       source: https://github.com/ip2location/mcp-ip2location-io
       status: verified
@@ -442,10 +442,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.4
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 63.2
+    kin_score: 63.6
     mcp: &id023
       source: https://github.com/ipinfo/mcp
       status: verified
@@ -473,10 +473,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 29.5
+    kin_score: 29.9
     mcp: &id025
       status: none
     slug: languagetool
@@ -502,11 +502,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_band: agent-aware
+    agent_readiness: 27.2
     band: emerging
     in_catalog: true
-    kin_score: 19.6
+    kin_score: 24.8
     mcp: &id027
       status: unknown
     slug: mailbox-org
@@ -533,10 +533,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.0
+    agent_readiness: 39.0
     band: exemplar
     in_catalog: true
-    kin_score: 70.1
+    kin_score: 69.7
     mcp: &id029
       source: https://github.com/microsoft/mcp
       status: verified
@@ -565,9 +565,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 2.5
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.9
+    kin_score: 11.1
     mcp: &id031
       status: unknown
     slug: nordspam
@@ -594,10 +594,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id033
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -625,10 +625,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.5
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 70.6
+    kin_score: 70.8
     mcp: &id035
       source: https://github.com/microsoft/mcp
       status: verified
@@ -657,9 +657,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.5
+    kin_score: 16.4
     mcp: &id037
       status: none
     slug: posteo
@@ -689,7 +689,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.4
+    kin_score: 2.6
     mcp: &id039
       status: unknown
     slug: spamcop
@@ -716,10 +716,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.8
+    kin_score: 21.5
     mcp: &id041
       status: none
     slug: spamhaus
@@ -749,7 +749,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 2.2
     mcp: &id043
       status: unknown
     slug: uceprotect
@@ -775,11 +775,11 @@ integrations:
     via_parent: Email
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 30.9
-    band: developing
+    agent_band: agent-aware
+    agent_readiness: 26.1
+    band: thin
     in_catalog: true
-    kin_score: 40.1
+    kin_score: 39.0
     mcp: &id045
       source: https://github.com/VirusTotal/virustotal-mcp
       status: verified
@@ -807,10 +807,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.2
+    agent_readiness: 15.8
     band: developing
     in_catalog: true
-    kin_score: 41.4
+    kin_score: 42.6
     mcp: &id047
       status: none
     slug: yahoo
@@ -840,7 +840,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 18.3
+    kin_score: 22.8
     mcp: &id049
       status: none
     slug: yandex-mail
@@ -867,10 +867,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.6
+    agent_readiness: 24.1
     band: thin
     in_catalog: true
-    kin_score: 36.4
+    kin_score: 36.6
     mcp: &id051
       status: none
     slug: zoho-mail
@@ -895,10 +895,10 @@ noindex: false
 permalink: /applications/email-client/fairemail/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 36.1
+  agent_readiness: 35.3
   band: developing
   in_catalog: true
-  kin_score: 46.2
+  kin_score: 48.9
   mcp: *id001
   name: AOL Mail
   slug: aol
@@ -906,10 +906,10 @@ providers:
   tags: *id002
   url: /providers/aol/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id003
   name: Apple iCloud Mail
   slug: apple
@@ -928,10 +928,10 @@ providers:
   tags: *id006
   url: /providers/barracuda-networks/
 - agent_band: agent-ready
-  agent_readiness: 36.4
+  agent_readiness: 36.1
   band: strong
   in_catalog: true
-  kin_score: 60.8
+  kin_score: 61.4
   mcp: *id007
   name: DeepL
   slug: deepl
@@ -939,21 +939,21 @@ providers:
   tags: *id008
   url: /providers/deepl/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 17.3
+  band: developing
   in_catalog: true
-  kin_score: 28.8
+  kin_score: 39.5
   mcp: *id009
   name: Fastmail
   slug: fastmail
   status: profiled
   tags: *id010
   url: /providers/fastmail/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id011
   name: Gmail
   slug: google-gmail
@@ -961,10 +961,10 @@ providers:
   tags: *id012
   url: /providers/google-gmail/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.5
+  kin_score: 20.7
   mcp: *id013
   name: GMX Mail
   slug: gmx-net
@@ -972,10 +972,10 @@ providers:
   tags: *id014
   url: /providers/gmx-net/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id015
   name: Google Gemini
   slug: google-gemini
@@ -983,10 +983,10 @@ providers:
   tags: *id016
   url: /providers/google-gemini/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 31.8
   band: developing
   in_catalog: true
-  kin_score: 48.4
+  kin_score: 49.5
   mcp: *id017
   name: Have I Been Pwned
   slug: have-i-been-pwned
@@ -994,10 +994,10 @@ providers:
   tags: *id018
   url: /providers/have-i-been-pwned/
 - agent_band: agent-aware
-  agent_readiness: 10.8
-  band: emerging
+  agent_readiness: 13.4
+  band: thin
   in_catalog: true
-  kin_score: 20.6
+  kin_score: 31.2
   mcp: *id019
   name: IONOS
   slug: ionos
@@ -1008,7 +1008,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 5.0
   mcp: *id021
   name: IP2Location
   slug: ip2location
@@ -1016,10 +1016,10 @@ providers:
   tags: *id022
   url: /providers/ip2location/
 - agent_band: agent-ready
-  agent_readiness: 34.4
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 63.2
+  kin_score: 63.6
   mcp: *id023
   name: IPinfo
   slug: ipinfo
@@ -1027,21 +1027,21 @@ providers:
   tags: *id024
   url: /providers/ipinfo/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 29.5
+  kin_score: 29.9
   mcp: *id025
   name: LanguageTool
   slug: languagetool
   status: profiled
   tags: *id026
   url: /providers/languagetool/
-- agent_band: agent-ready
-  agent_readiness: 30.6
+- agent_band: agent-aware
+  agent_readiness: 27.2
   band: emerging
   in_catalog: true
-  kin_score: 19.6
+  kin_score: 24.8
   mcp: *id027
   name: mailbox.org
   slug: mailbox-org
@@ -1049,10 +1049,10 @@ providers:
   tags: *id028
   url: /providers/mailbox-org/
 - agent_band: agent-ready
-  agent_readiness: 37.0
+  agent_readiness: 39.0
   band: exemplar
   in_catalog: true
-  kin_score: 70.1
+  kin_score: 69.7
   mcp: *id029
   name: Microsoft Graph
   slug: microsoft-graph
@@ -1061,9 +1061,9 @@ providers:
   url: /providers/microsoft-graph/
 - agent_band: human-only
   agent_readiness: 2.5
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.9
+  kin_score: 11.1
   mcp: *id031
   name: NordSpam
   slug: nordspam
@@ -1071,10 +1071,10 @@ providers:
   tags: *id032
   url: /providers/nordspam/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id033
   name: OpenAI
   slug: openai
@@ -1082,10 +1082,10 @@ providers:
   tags: *id034
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 49.5
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 70.6
+  kin_score: 70.8
   mcp: *id035
   name: Outlook.com
   slug: microsoft-outlook
@@ -1094,9 +1094,9 @@ providers:
   url: /providers/microsoft-outlook/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.5
+  kin_score: 16.4
   mcp: *id037
   name: Posteo
   slug: posteo
@@ -1107,7 +1107,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.4
+  kin_score: 2.6
   mcp: *id039
   name: SpamCop
   slug: spamcop
@@ -1115,10 +1115,10 @@ providers:
   tags: *id040
   url: /providers/spamcop/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.8
+  kin_score: 21.5
   mcp: *id041
   name: Spamhaus
   slug: spamhaus
@@ -1129,18 +1129,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 2.2
   mcp: *id043
   name: UCEPROTECT
   slug: uceprotect
   status: profiled
   tags: *id044
   url: /providers/uceprotect/
-- agent_band: agent-ready
-  agent_readiness: 30.9
-  band: developing
+- agent_band: agent-aware
+  agent_readiness: 26.1
+  band: thin
   in_catalog: true
-  kin_score: 40.1
+  kin_score: 39.0
   mcp: *id045
   name: VirusTotal
   slug: virustotal
@@ -1148,10 +1148,10 @@ providers:
   tags: *id046
   url: /providers/virustotal/
 - agent_band: agent-aware
-  agent_readiness: 16.2
+  agent_readiness: 15.8
   band: developing
   in_catalog: true
-  kin_score: 41.4
+  kin_score: 42.6
   mcp: *id047
   name: Yahoo Mail
   slug: yahoo
@@ -1162,7 +1162,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 18.3
+  kin_score: 22.8
   mcp: *id049
   name: Yandex Mail
   slug: yandex-mail
@@ -1170,10 +1170,10 @@ providers:
   tags: *id050
   url: /providers/yandex-mail/
 - agent_band: agent-aware
-  agent_readiness: 24.6
+  agent_readiness: 24.1
   band: thin
   in_catalog: true
-  kin_score: 36.4
+  kin_score: 36.6
   mcp: *id051
   name: Zoho Mail
   slug: zoho-mail

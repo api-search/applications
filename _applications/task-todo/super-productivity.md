@@ -78,10 +78,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
+    agent_readiness: 37.7
     band: exemplar
     in_catalog: true
-    kin_score: 76.8
+    kin_score: 81.9
     mcp: &id001
       source: https://github.com/microsoft/azure-devops-mcp
       status: verified
@@ -109,10 +109,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.0
+    agent_readiness: 55.8
     band: exemplar
     in_catalog: true
-    kin_score: 73.7
+    kin_score: 72.6
     mcp: &id003
       source: https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server
       status: verified
@@ -140,10 +140,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 44.8
     band: developing
     in_catalog: true
-    kin_score: 47.9
+    kin_score: 45.9
     mcp: &id005
       source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
       status: verified
@@ -171,10 +171,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 35.0
     band: exemplar
     in_catalog: true
-    kin_score: 69.8
+    kin_score: 68.1
     mcp: &id007
       source: https://gitea.com/gitea/gitea-mcp
       status: verified
@@ -202,10 +202,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id009
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -233,10 +233,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id011
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -263,11 +263,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id013
       source: https://github.com/google/mcp
       status: verified
@@ -295,10 +295,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 65.7
+    agent_readiness: 64.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.6
+    kin_score: 82.4
     mcp: &id015
       source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
       status: verified
@@ -326,10 +326,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.5
-    band: thin
+    agent_readiness: 35.2
+    band: developing
     in_catalog: true
-    kin_score: 38.1
+    kin_score: 39.6
     mcp: &id017
       source: https://linear.app/docs/mcp
       status: verified
@@ -357,10 +357,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id019
       status: none
     slug: nextcloud
@@ -387,10 +387,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.2
+    agent_readiness: 25.9
     band: developing
     in_catalog: true
-    kin_score: 48.3
+    kin_score: 50.9
     mcp: &id021
       status: none
     slug: microsoft-onedrive
@@ -417,10 +417,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.0
+    agent_readiness: 31.4
     band: developing
     in_catalog: true
-    kin_score: 42.1
+    kin_score: 40.8
     mcp: &id023
       source: https://www.openproject.org/docs/system-admin-guide/integrations/mcp-server/
       status: verified
@@ -448,10 +448,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: emerging
     in_catalog: true
-    kin_score: 25.2
+    kin_score: 24.3
     mcp: &id025
       status: none
     slug: redmine
@@ -478,10 +478,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.1
+    agent_readiness: 14.8
     band: emerging
     in_catalog: true
-    kin_score: 17.6
+    kin_score: 25.5
     mcp: &id027
       source: https://help.ticktick.com/articles/7438129581631995904
       status: verified
@@ -509,10 +509,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.6
-    band: strong
+    agent_readiness: 22.2
+    band: developing
     in_catalog: true
-    kin_score: 55.7
+    kin_score: 53.8
     mcp: &id029
       source: https://developer.todoist.com/api/v1/#tag/MCP
       status: verified
@@ -540,10 +540,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 28.7
+    agent_readiness: 30.8
     band: exemplar
     in_catalog: true
-    kin_score: 75.6
+    kin_score: 74.8
     mcp: &id031
       source: https://github.com/atlassian/trello-mcp-server
       status: verified
@@ -569,10 +569,10 @@ noindex: false
 permalink: /applications/task-todo/super-productivity/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
+  agent_readiness: 37.7
   band: exemplar
   in_catalog: true
-  kin_score: 76.8
+  kin_score: 81.9
   mcp: *id001
   name: Azure DevOps
   slug: microsoft-azure-devops
@@ -580,10 +580,10 @@ providers:
   tags: *id002
   url: /providers/microsoft-azure-devops/
 - agent_band: agent-ready
-  agent_readiness: 57.0
+  agent_readiness: 55.8
   band: exemplar
   in_catalog: true
-  kin_score: 73.7
+  kin_score: 72.6
   mcp: *id003
   name: ClickUp
   slug: clickup
@@ -591,10 +591,10 @@ providers:
   tags: *id004
   url: /providers/clickup/
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 44.8
   band: developing
   in_catalog: true
-  kin_score: 47.9
+  kin_score: 45.9
   mcp: *id005
   name: Dropbox
   slug: dropbox
@@ -602,10 +602,10 @@ providers:
   tags: *id006
   url: /providers/dropbox/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 35.0
   band: exemplar
   in_catalog: true
-  kin_score: 69.8
+  kin_score: 68.1
   mcp: *id007
   name: Gitea
   slug: gitea
@@ -613,10 +613,10 @@ providers:
   tags: *id008
   url: /providers/gitea/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id009
   name: GitHub
   slug: github
@@ -624,21 +624,21 @@ providers:
   tags: *id010
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id011
   name: GitLab
   slug: gitlab
   status: profiled
   tags: *id012
   url: /providers/gitlab/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id013
   name: Google Calendar
   slug: google-calendar
@@ -646,10 +646,10 @@ providers:
   tags: *id014
   url: /providers/google-calendar/
 - agent_band: agent-ready
-  agent_readiness: 65.7
+  agent_readiness: 64.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.6
+  kin_score: 82.4
   mcp: *id015
   name: Jira
   slug: jira
@@ -657,10 +657,10 @@ providers:
   tags: *id016
   url: /providers/jira/
 - agent_band: agent-ready
-  agent_readiness: 35.5
-  band: thin
+  agent_readiness: 35.2
+  band: developing
   in_catalog: true
-  kin_score: 38.1
+  kin_score: 39.6
   mcp: *id017
   name: Linear
   slug: linear-app
@@ -668,10 +668,10 @@ providers:
   tags: *id018
   url: /providers/linear-app/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id019
   name: Nextcloud Deck
   slug: nextcloud
@@ -679,10 +679,10 @@ providers:
   tags: *id020
   url: /providers/nextcloud/
 - agent_band: agent-aware
-  agent_readiness: 25.2
+  agent_readiness: 25.9
   band: developing
   in_catalog: true
-  kin_score: 48.3
+  kin_score: 50.9
   mcp: *id021
   name: OneDrive
   slug: microsoft-onedrive
@@ -690,10 +690,10 @@ providers:
   tags: *id022
   url: /providers/microsoft-onedrive/
 - agent_band: agent-ready
-  agent_readiness: 32.0
+  agent_readiness: 31.4
   band: developing
   in_catalog: true
-  kin_score: 42.1
+  kin_score: 40.8
   mcp: *id023
   name: OpenProject
   slug: openproject
@@ -701,10 +701,10 @@ providers:
   tags: *id024
   url: /providers/openproject/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: emerging
   in_catalog: true
-  kin_score: 25.2
+  kin_score: 24.3
   mcp: *id025
   name: Redmine
   slug: redmine
@@ -712,10 +712,10 @@ providers:
   tags: *id026
   url: /providers/redmine/
 - agent_band: agent-aware
-  agent_readiness: 15.1
+  agent_readiness: 14.8
   band: emerging
   in_catalog: true
-  kin_score: 17.6
+  kin_score: 25.5
   mcp: *id027
   name: TickTick
   slug: ticktick
@@ -723,10 +723,10 @@ providers:
   tags: *id028
   url: /providers/ticktick/
 - agent_band: agent-aware
-  agent_readiness: 22.6
-  band: strong
+  agent_readiness: 22.2
+  band: developing
   in_catalog: true
-  kin_score: 55.7
+  kin_score: 53.8
   mcp: *id029
   name: Todoist
   slug: todoist
@@ -734,10 +734,10 @@ providers:
   tags: *id030
   url: /providers/todoist/
 - agent_band: agent-ready
-  agent_readiness: 28.7
+  agent_readiness: 30.8
   band: exemplar
   in_catalog: true
-  kin_score: 75.6
+  kin_score: 74.8
   mcp: *id031
   name: Trello
   slug: trello

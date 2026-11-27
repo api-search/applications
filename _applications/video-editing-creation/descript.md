@@ -120,10 +120,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 65.9
+    agent_readiness: 62.9
     band: exemplar
     in_catalog: true
-    kin_score: 76.2
+    kin_score: 76.1
     mcp: &id001
       source: https://github.com/adobe/cq-quickstart-mcp-server
       status: verified
@@ -151,10 +151,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.5
+    agent_readiness: 36.8
     band: strong
     in_catalog: true
-    kin_score: 58.0
+    kin_score: 58.6
     mcp: &id003
       status: none
     slug: adobe-premiere
@@ -181,10 +181,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.1
-    band: emerging
+    agent_readiness: 14.8
+    band: thin
     in_catalog: true
-    kin_score: 16.5
+    kin_score: 27.8
     mcp: &id005
       status: unknown
     slug: avid
@@ -211,10 +211,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.8
+    agent_readiness: 36.8
     band: strong
     in_catalog: true
-    kin_score: 58.1
+    kin_score: 57.0
     mcp: &id007
       status: unknown
     slug: blubrry-api-restful-api-for-podcast-publishing-statistics
@@ -241,10 +241,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 23.9
     band: thin
     in_catalog: true
-    kin_score: 28.6
+    kin_score: 27.6
     mcp: &id009
       status: unknown
     slug: buzzsprout
@@ -271,10 +271,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.1
+    agent_readiness: 27.2
     band: thin
     in_catalog: true
-    kin_score: 31.1
+    kin_score: 29.6
     mcp: &id011
       status: none
     slug: captivate-fm
@@ -301,10 +301,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: emerging
+    agent_readiness: 4.5
+    band: thin
     in_catalog: true
-    kin_score: 23.2
+    kin_score: 33.8
     mcp: &id013
       status: unknown
     slug: castos
@@ -331,10 +331,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id015
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -362,10 +362,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id017
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -393,10 +393,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 9.0
+    kin_score: 11.6
     mcp: &id019
       status: none
     slug: blackmagic-design
@@ -424,9 +424,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 18.4
+    kin_score: 28.4
     mcp: &id021
       status: unknown
     slug: ecamm
@@ -453,10 +453,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.6
-    band: emerging
+    agent_readiness: 22.1
+    band: thin
     in_catalog: true
-    kin_score: 20.6
+    kin_score: 30.1
     mcp: &id023
       status: none
     slug: ewebinar
@@ -483,10 +483,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id025
       status: none
     slug: apple
@@ -513,10 +513,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.3
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 67.1
+    kin_score: 73.2
     mcp: &id027
       source: https://github.com/google/mcp
       status: verified
@@ -544,10 +544,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 2.2
     mcp: &id029
       status: unknown
     slug: headliner
@@ -574,10 +574,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 11.5
-    band: thin
+    agent_readiness: 11.3
+    band: developing
     in_catalog: true
-    kin_score: 35.6
+    kin_score: 45.1
     mcp: &id031
       status: none
     slug: hello-audio
@@ -604,10 +604,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id033
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -635,10 +635,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.9
+    agent_readiness: 48.5
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 31.4
     mcp: &id035
       status: none
     slug: podbean
@@ -665,10 +665,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.9
-    band: thin
+    agent_readiness: 37.4
+    band: developing
     in_catalog: true
-    kin_score: 37.8
+    kin_score: 48.7
     mcp: &id037
       status: unknown
     slug: podcast-co
@@ -695,10 +695,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.6
+    agent_readiness: 13.3
     band: emerging
     in_catalog: true
-    kin_score: 25.7
+    kin_score: 25.2
     mcp: &id039
       status: none
     slug: raycast
@@ -728,7 +728,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.0
+    kin_score: 9.6
     mcp: &id041
       status: unknown
     slug: cockos-reaper
@@ -755,10 +755,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.3
+    agent_readiness: 39.9
     band: thin
     in_catalog: true
-    kin_score: 35.0
+    kin_score: 34.4
     mcp: &id043
       source: https://github.com/restreamio/cursor-mcp-plugin
       status: verified
@@ -786,10 +786,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 24.4
     band: developing
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 47.4
     mcp: &id045
       source: https://github.com/riversidefm/riverside-mcp-public
       status: verified
@@ -843,10 +843,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.6
+    agent_readiness: 50.0
     band: developing
     in_catalog: true
-    kin_score: 41.1
+    kin_score: 39.8
     mcp: &id049
       source: https://mcp.transistor.fm/
       status: verified
@@ -874,10 +874,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.5
+    agent_readiness: 42.6
     band: thin
     in_catalog: true
-    kin_score: 37.6
+    kin_score: 36.0
     mcp: &id051
       source: https://www.typeform.com/developers/mcp
       status: verified
@@ -905,10 +905,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.7
+    agent_readiness: 40.6
     band: exemplar
     in_catalog: true
-    kin_score: 75.8
+    kin_score: 75.5
     mcp: &id053
       source: https://docs.wistia.com/docs/mcp-server-guide
       status: documented
@@ -936,10 +936,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id055
       status: none
     slug: youtube
@@ -966,10 +966,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id057
       source: https://zapier.com/mcp
       status: verified
@@ -997,10 +997,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 55.2
+    agent_readiness: 56.8
     band: strong
     in_catalog: true
-    kin_score: 56.2
+    kin_score: 57.1
     mcp: &id059
       source: https://developers.zoom.us/docs/mcp/
       status: verified
@@ -1026,10 +1026,10 @@ noindex: false
 permalink: /applications/video-editing-creation/descript/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 65.9
+  agent_readiness: 62.9
   band: exemplar
   in_catalog: true
-  kin_score: 76.2
+  kin_score: 76.1
   mcp: *id001
   name: Adobe Audition
   slug: adobe
@@ -1037,10 +1037,10 @@ providers:
   tags: *id002
   url: /providers/adobe/
 - agent_band: agent-ready
-  agent_readiness: 38.5
+  agent_readiness: 36.8
   band: strong
   in_catalog: true
-  kin_score: 58.0
+  kin_score: 58.6
   mcp: *id003
   name: Adobe Premiere
   slug: adobe-premiere
@@ -1048,10 +1048,10 @@ providers:
   tags: *id004
   url: /providers/adobe-premiere/
 - agent_band: agent-aware
-  agent_readiness: 15.1
-  band: emerging
+  agent_readiness: 14.8
+  band: thin
   in_catalog: true
-  kin_score: 16.5
+  kin_score: 27.8
   mcp: *id005
   name: Avid Pro Tools
   slug: avid
@@ -1059,10 +1059,10 @@ providers:
   tags: *id006
   url: /providers/avid/
 - agent_band: agent-ready
-  agent_readiness: 32.8
+  agent_readiness: 36.8
   band: strong
   in_catalog: true
-  kin_score: 58.1
+  kin_score: 57.0
   mcp: *id007
   name: Blubrry
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics
@@ -1070,10 +1070,10 @@ providers:
   tags: *id008
   url: /providers/blubrry-api-restful-api-for-podcast-publishing-statistics/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 23.9
   band: thin
   in_catalog: true
-  kin_score: 28.6
+  kin_score: 27.6
   mcp: *id009
   name: Buzzsprout
   slug: buzzsprout
@@ -1081,10 +1081,10 @@ providers:
   tags: *id010
   url: /providers/buzzsprout/
 - agent_band: agent-aware
-  agent_readiness: 22.1
+  agent_readiness: 27.2
   band: thin
   in_catalog: true
-  kin_score: 31.1
+  kin_score: 29.6
   mcp: *id011
   name: Captivate
   slug: captivate-fm
@@ -1092,10 +1092,10 @@ providers:
   tags: *id012
   url: /providers/captivate-fm/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: emerging
+  agent_readiness: 4.5
+  band: thin
   in_catalog: true
-  kin_score: 23.2
+  kin_score: 33.8
   mcp: *id013
   name: Castos
   slug: castos
@@ -1103,10 +1103,10 @@ providers:
   tags: *id014
   url: /providers/castos/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id015
   name: ChatGPT
   slug: openai
@@ -1114,10 +1114,10 @@ providers:
   tags: *id016
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id017
   name: Claude
   slug: anthropic
@@ -1125,10 +1125,10 @@ providers:
   tags: *id018
   url: /providers/anthropic/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 9.0
+  kin_score: 11.6
   mcp: *id019
   name: DaVinci Resolve
   slug: blackmagic-design
@@ -1137,9 +1137,9 @@ providers:
   url: /providers/blackmagic-design/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 18.4
+  kin_score: 28.4
   mcp: *id021
   name: Ecamm
   slug: ecamm
@@ -1147,10 +1147,10 @@ providers:
   tags: *id022
   url: /providers/ecamm/
 - agent_band: agent-aware
-  agent_readiness: 22.6
-  band: emerging
+  agent_readiness: 22.1
+  band: thin
   in_catalog: true
-  kin_score: 20.6
+  kin_score: 30.1
   mcp: *id023
   name: eWebinar
   slug: ewebinar
@@ -1158,10 +1158,10 @@ providers:
   tags: *id024
   url: /providers/ewebinar/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id025
   name: Final Cut Pro / Apple Logic
   slug: apple
@@ -1169,10 +1169,10 @@ providers:
   tags: *id026
   url: /providers/apple/
 - agent_band: agent-ready
-  agent_readiness: 44.3
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 67.1
+  kin_score: 73.2
   mcp: *id027
   name: Google Drive
   slug: google-drive
@@ -1180,10 +1180,10 @@ providers:
   tags: *id028
   url: /providers/google-drive/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 2.2
   mcp: *id029
   name: Headliner
   slug: headliner
@@ -1191,10 +1191,10 @@ providers:
   tags: *id030
   url: /providers/headliner/
 - agent_band: agent-aware
-  agent_readiness: 11.5
-  band: thin
+  agent_readiness: 11.3
+  band: developing
   in_catalog: true
-  kin_score: 35.6
+  kin_score: 45.1
   mcp: *id031
   name: Hello Audio
   slug: hello-audio
@@ -1202,10 +1202,10 @@ providers:
   tags: *id032
   url: /providers/hello-audio/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id033
   name: HubSpot
   slug: hubspot
@@ -1213,10 +1213,10 @@ providers:
   tags: *id034
   url: /providers/hubspot/
 - agent_band: agent-ready
-  agent_readiness: 43.9
+  agent_readiness: 48.5
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 31.4
   mcp: *id035
   name: Podbean
   slug: podbean
@@ -1224,10 +1224,10 @@ providers:
   tags: *id036
   url: /providers/podbean/
 - agent_band: agent-ready
-  agent_readiness: 35.9
-  band: thin
+  agent_readiness: 37.4
+  band: developing
   in_catalog: true
-  kin_score: 37.8
+  kin_score: 48.7
   mcp: *id037
   name: Podcast.co
   slug: podcast-co
@@ -1235,10 +1235,10 @@ providers:
   tags: *id038
   url: /providers/podcast-co/
 - agent_band: agent-aware
-  agent_readiness: 13.6
+  agent_readiness: 13.3
   band: emerging
   in_catalog: true
-  kin_score: 25.7
+  kin_score: 25.2
   mcp: *id039
   name: Raycast
   slug: raycast
@@ -1249,7 +1249,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.0
+  kin_score: 9.6
   mcp: *id041
   name: REAPER
   slug: cockos-reaper
@@ -1257,10 +1257,10 @@ providers:
   tags: *id042
   url: /providers/cockos-reaper/
 - agent_band: agent-ready
-  agent_readiness: 35.3
+  agent_readiness: 39.9
   band: thin
   in_catalog: true
-  kin_score: 35.0
+  kin_score: 34.4
   mcp: *id043
   name: Restream
   slug: restream
@@ -1268,10 +1268,10 @@ providers:
   tags: *id044
   url: /providers/restream/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 24.4
   band: developing
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 47.4
   mcp: *id045
   name: Riverside
   slug: riverside
@@ -1290,10 +1290,10 @@ providers:
   tags: *id048
   url: null
 - agent_band: agent-ready
-  agent_readiness: 45.6
+  agent_readiness: 50.0
   band: developing
   in_catalog: true
-  kin_score: 41.1
+  kin_score: 39.8
   mcp: *id049
   name: Transistor
   slug: transistor
@@ -1301,10 +1301,10 @@ providers:
   tags: *id050
   url: /providers/transistor/
 - agent_band: agent-ready
-  agent_readiness: 43.5
+  agent_readiness: 42.6
   band: thin
   in_catalog: true
-  kin_score: 37.6
+  kin_score: 36.0
   mcp: *id051
   name: VideoAsk
   slug: typeform
@@ -1312,10 +1312,10 @@ providers:
   tags: *id052
   url: /providers/typeform/
 - agent_band: agent-ready
-  agent_readiness: 35.7
+  agent_readiness: 40.6
   band: exemplar
   in_catalog: true
-  kin_score: 75.8
+  kin_score: 75.5
   mcp: *id053
   name: Wistia
   slug: wistia
@@ -1323,10 +1323,10 @@ providers:
   tags: *id054
   url: /providers/wistia/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id055
   name: YouTube
   slug: youtube
@@ -1334,10 +1334,10 @@ providers:
   tags: *id056
   url: /providers/youtube/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id057
   name: Zapier
   slug: zapier
@@ -1345,10 +1345,10 @@ providers:
   tags: *id058
   url: /providers/zapier/
 - agent_band: agent-ready
-  agent_readiness: 55.2
+  agent_readiness: 56.8
   band: strong
   in_catalog: true
-  kin_score: 56.2
+  kin_score: 57.1
   mcp: *id059
   name: Zoom
   slug: zoom

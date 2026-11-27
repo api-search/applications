@@ -54,10 +54,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 3.5
+    agent_readiness: 3.4
     band: emerging
     in_catalog: true
-    kin_score: 18.8
+    kin_score: 17.9
     mcp: &id001
       source: https://github.com/aliyun/alibaba-cloud-ops-mcp-server
       status: verified
@@ -84,11 +84,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: strong
+    agent_band: agent-ready
+    agent_readiness: 34.0
+    band: exemplar
     in_catalog: true
-    kin_score: 61.9
+    kin_score: 72.6
     mcp: &id003
       status: none
     slug: amazon-ebs
@@ -114,11 +114,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id005
       source: https://github.com/awslabs/mcp
       status: verified
@@ -146,10 +146,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id007
       source: https://github.com/microsoft/mcp
       status: verified
@@ -177,10 +177,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.5
+    agent_readiness: 45.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.4
+    kin_score: 76.0
     mcp: &id009
       source: https://github.com/microsoft/mcp
       status: verified
@@ -211,7 +211,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 17.0
+    kin_score: 24.4
     mcp: &id011
       status: none
     slug: cloudian
@@ -238,10 +238,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.6
+    agent_readiness: 44.1
     band: developing
     in_catalog: true
-    kin_score: 45.0
+    kin_score: 47.4
     mcp: &id013
       source: https://docs.digitalocean.com/reference/mcp/
       status: verified
@@ -269,10 +269,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id015
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -300,10 +300,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 50.7
-    band: strong
+    agent_readiness: 50.2
+    band: exemplar
     in_catalog: true
-    kin_score: 64.8
+    kin_score: 67.5
     mcp: &id017
       source: https://github.com/googleapis/mcp-toolbox
       status: verified
@@ -331,10 +331,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.4
-    band: thin
+    agent_readiness: 21.9
+    band: developing
     in_catalog: true
-    kin_score: 39.1
+    kin_score: 39.7
     mcp: &id019
       source: https://github.com/HewlettPackard/gl-mcp
       status: verified
@@ -365,7 +365,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.0
+    kin_score: 15.7
     mcp: &id021
       source: https://github.com/huaweicloud/huaweicloud-mcp
       status: verified
@@ -393,10 +393,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.3
+    agent_readiness: 35.6
     band: strong
     in_catalog: true
-    kin_score: 64.9
+    kin_score: 65.8
     mcp: &id023
       source: https://github.com/IBM/mcp
       status: verified
@@ -424,10 +424,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.1
+    agent_readiness: 25.6
     band: strong
     in_catalog: true
-    kin_score: 57.3
+    kin_score: 56.7
     mcp: &id025
       source: https://github.com/minio/mcp-server-aistor
       status: verified
@@ -458,7 +458,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 24.4
+    kin_score: 25.6
     mcp: &id027
       status: none
     slug: openebs
@@ -485,10 +485,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 36.1
+    kin_score: 34.5
     mcp: &id029
       status: none
     slug: openstack
@@ -515,10 +515,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 52.1
+    agent_readiness: 53.7
     band: exemplar
     in_catalog: true
-    kin_score: 76.9
+    kin_score: 75.6
     mcp: &id031
       source: https://github.com/oracle/mcp
       status: verified
@@ -546,10 +546,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 20.9
     band: thin
     in_catalog: true
-    kin_score: 30.3
+    kin_score: 28.8
     mcp: &id033
       status: none
     slug: portworx
@@ -579,7 +579,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.5
+    kin_score: 5.7
     mcp: &id035
       status: none
     slug: storj
@@ -606,10 +606,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.9
-    band: emerging
+    agent_readiness: 12.7
+    band: thin
     in_catalog: true
-    kin_score: 25.3
+    kin_score: 30.5
     mcp: &id037
       source: https://github.com/TencentCloud/cos-mcp
       status: verified
@@ -637,10 +637,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
+    agent_readiness: 23.3
     band: developing
     in_catalog: true
-    kin_score: 51.3
+    kin_score: 49.8
     mcp: &id039
       status: none
     slug: vmware
@@ -665,32 +665,32 @@ noindex: false
 permalink: /applications/backup/velero/
 providers:
 - agent_band: human-only
-  agent_readiness: 3.5
+  agent_readiness: 3.4
   band: emerging
   in_catalog: true
-  kin_score: 18.8
+  kin_score: 17.9
   mcp: *id001
   name: Alibaba Cloud OSS
   slug: alibaba
   status: profiled
   tags: *id002
   url: /providers/alibaba/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: strong
+- agent_band: agent-ready
+  agent_readiness: 34.0
+  band: exemplar
   in_catalog: true
-  kin_score: 61.9
+  kin_score: 72.6
   mcp: *id003
   name: Amazon EBS
   slug: amazon-ebs
   status: profiled
   tags: *id004
   url: /providers/amazon-ebs/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id005
   name: Amazon S3
   slug: amazon-s3
@@ -698,10 +698,10 @@ providers:
   tags: *id006
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id007
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -709,10 +709,10 @@ providers:
   tags: *id008
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: agent-ready
-  agent_readiness: 51.5
+  agent_readiness: 45.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.4
+  kin_score: 76.0
   mcp: *id009
   name: Azure Managed Disks
   slug: microsoft-azure
@@ -723,7 +723,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 17.0
+  kin_score: 24.4
   mcp: *id011
   name: Cloudian HyperStore
   slug: cloudian
@@ -731,10 +731,10 @@ providers:
   tags: *id012
   url: /providers/cloudian/
 - agent_band: agent-ready
-  agent_readiness: 44.6
+  agent_readiness: 44.1
   band: developing
   in_catalog: true
-  kin_score: 45.0
+  kin_score: 47.4
   mcp: *id013
   name: DigitalOcean
   slug: digital-ocean
@@ -742,10 +742,10 @@ providers:
   tags: *id014
   url: /providers/digital-ocean/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id015
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -753,10 +753,10 @@ providers:
   tags: *id016
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-ready
-  agent_readiness: 50.7
-  band: strong
+  agent_readiness: 50.2
+  band: exemplar
   in_catalog: true
-  kin_score: 64.8
+  kin_score: 67.5
   mcp: *id017
   name: Google Compute Engine disks
   slug: google-cloud-platform
@@ -764,10 +764,10 @@ providers:
   tags: *id018
   url: /providers/google-cloud-platform/
 - agent_band: agent-aware
-  agent_readiness: 22.4
-  band: thin
+  agent_readiness: 21.9
+  band: developing
   in_catalog: true
-  kin_score: 39.1
+  kin_score: 39.7
   mcp: *id019
   name: HPE Storage
   slug: hpe
@@ -778,7 +778,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.0
+  kin_score: 15.7
   mcp: *id021
   name: HuaweiCloud OBS
   slug: huaweicloud
@@ -786,10 +786,10 @@ providers:
   tags: *id022
   url: /providers/huaweicloud/
 - agent_band: agent-ready
-  agent_readiness: 36.3
+  agent_readiness: 35.6
   band: strong
   in_catalog: true
-  kin_score: 64.9
+  kin_score: 65.8
   mcp: *id023
   name: IBM Cloud
   slug: ibm
@@ -797,10 +797,10 @@ providers:
   tags: *id024
   url: /providers/ibm/
 - agent_band: agent-aware
-  agent_readiness: 26.1
+  agent_readiness: 25.6
   band: strong
   in_catalog: true
-  kin_score: 57.3
+  kin_score: 56.7
   mcp: *id025
   name: MinIO
   slug: minio
@@ -811,7 +811,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 24.4
+  kin_score: 25.6
   mcp: *id027
   name: OpenEBS
   slug: openebs
@@ -819,10 +819,10 @@ providers:
   tags: *id028
   url: /providers/openebs/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 36.1
+  kin_score: 34.5
   mcp: *id029
   name: OpenStack Swift/Cinder
   slug: openstack
@@ -830,10 +830,10 @@ providers:
   tags: *id030
   url: /providers/openstack/
 - agent_band: agent-native
-  agent_readiness: 52.1
+  agent_readiness: 53.7
   band: exemplar
   in_catalog: true
-  kin_score: 76.9
+  kin_score: 75.6
   mcp: *id031
   name: Oracle Cloud
   slug: oracle-cloud
@@ -841,10 +841,10 @@ providers:
   tags: *id032
   url: /providers/oracle-cloud/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 20.9
   band: thin
   in_catalog: true
-  kin_score: 30.3
+  kin_score: 28.8
   mcp: *id033
   name: Portworx
   slug: portworx
@@ -855,7 +855,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.5
+  kin_score: 5.7
   mcp: *id035
   name: Storj
   slug: storj
@@ -863,10 +863,10 @@ providers:
   tags: *id036
   url: /providers/storj/
 - agent_band: agent-aware
-  agent_readiness: 12.9
-  band: emerging
+  agent_readiness: 12.7
+  band: thin
   in_catalog: true
-  kin_score: 25.3
+  kin_score: 30.5
   mcp: *id037
   name: Tencent Cloud
   slug: tencentcloud
@@ -874,10 +874,10 @@ providers:
   tags: *id038
   url: /providers/tencentcloud/
 - agent_band: agent-aware
-  agent_readiness: 23.7
+  agent_readiness: 23.3
   band: developing
   in_catalog: true
-  kin_score: 51.3
+  kin_score: 49.8
   mcp: *id039
   name: VMware vSphere
   slug: vmware

@@ -74,10 +74,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 1.1
     band: minimal
     in_catalog: true
-    kin_score: 7.4
+    kin_score: 7.3
     mcp: &id001
       status: unknown
     slug: anidb
@@ -101,11 +101,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 36.6
+    agent_band: agent-aware
+    agent_readiness: 27.8
     band: developing
     in_catalog: true
-    kin_score: 47.3
+    kin_score: 48.3
     mcp: &id003
       status: none
     slug: anilist
@@ -135,7 +135,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.8
+    kin_score: 10.3
     mcp: &id005
       status: unknown
     slug: fanart-tv
@@ -163,9 +163,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.7
+    kin_score: 11.6
     mcp: &id007
       status: none
     slug: listenbrainz
@@ -191,11 +191,11 @@ integrations:
     via_parent: Audio & Music
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_band: agent-aware
+    agent_readiness: 27.2
     band: thin
     in_catalog: true
-    kin_score: 37.9
+    kin_score: 38.2
     mcp: &id009
       status: none
     slug: musicbrainz
@@ -222,10 +222,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.6
+    agent_readiness: 25.9
     band: thin
     in_catalog: true
-    kin_score: 36.4
+    kin_score: 34.3
     mcp: &id011
       status: none
     slug: omdb
@@ -255,7 +255,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.3
+    kin_score: 3.4
     mcp: &id013
       source: https://mcp.opensubtitles.com
       status: verified
@@ -283,10 +283,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.7
+    agent_readiness: 21.3
     band: developing
     in_catalog: true
-    kin_score: 49.9
+    kin_score: 50.6
     mcp: &id015
       status: none
     slug: tmdb
@@ -316,7 +316,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.3
+    kin_score: 2.4
     mcp: &id017
       status: none
     slug: theaudiodb
@@ -341,10 +341,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.3
     band: developing
     in_catalog: true
-    kin_score: 42.5
+    kin_score: 40.7
     mcp: &id019
       status: unknown
     slug: tvdb
@@ -371,10 +371,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.9
+    agent_readiness: 22.4
     band: developing
     in_catalog: true
-    kin_score: 49.0
+    kin_score: 48.6
     mcp: &id021
       status: none
     slug: trakt
@@ -399,21 +399,21 @@ noindex: false
 permalink: /applications/video-streaming-media-server/jellyfin/
 providers:
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 1.1
   band: minimal
   in_catalog: true
-  kin_score: 7.4
+  kin_score: 7.3
   mcp: *id001
   name: AniDB
   slug: anidb
   status: profiled
   tags: *id002
   url: /providers/anidb/
-- agent_band: agent-ready
-  agent_readiness: 36.6
+- agent_band: agent-aware
+  agent_readiness: 27.8
   band: developing
   in_catalog: true
-  kin_score: 47.3
+  kin_score: 48.3
   mcp: *id003
   name: AniList
   slug: anilist
@@ -424,7 +424,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.8
+  kin_score: 10.3
   mcp: *id005
   name: Fanart.tv
   slug: fanart-tv
@@ -433,20 +433,20 @@ providers:
   url: /providers/fanart-tv/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.7
+  kin_score: 11.6
   mcp: *id007
   name: ListenBrainz
   slug: listenbrainz
   status: profiled
   tags: *id008
   url: /providers/listenbrainz/
-- agent_band: agent-ready
-  agent_readiness: 31.3
+- agent_band: agent-aware
+  agent_readiness: 27.2
   band: thin
   in_catalog: true
-  kin_score: 37.9
+  kin_score: 38.2
   mcp: *id009
   name: MusicBrainz
   slug: musicbrainz
@@ -454,10 +454,10 @@ providers:
   tags: *id010
   url: /providers/musicbrainz/
 - agent_band: agent-aware
-  agent_readiness: 26.6
+  agent_readiness: 25.9
   band: thin
   in_catalog: true
-  kin_score: 36.4
+  kin_score: 34.3
   mcp: *id011
   name: OMDb
   slug: omdb
@@ -468,7 +468,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.3
+  kin_score: 3.4
   mcp: *id013
   name: OpenSubtitles
   slug: opensubtitles
@@ -476,10 +476,10 @@ providers:
   tags: *id014
   url: /providers/opensubtitles/
 - agent_band: agent-aware
-  agent_readiness: 21.7
+  agent_readiness: 21.3
   band: developing
   in_catalog: true
-  kin_score: 49.9
+  kin_score: 50.6
   mcp: *id015
   name: The Movie Database
   slug: tmdb
@@ -490,7 +490,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.3
+  kin_score: 2.4
   mcp: *id017
   name: TheAudioDB
   slug: theaudiodb
@@ -498,10 +498,10 @@ providers:
   tags: *id018
   url: /providers/theaudiodb/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.3
   band: developing
   in_catalog: true
-  kin_score: 42.5
+  kin_score: 40.7
   mcp: *id019
   name: TheTVDB
   slug: tvdb
@@ -509,10 +509,10 @@ providers:
   tags: *id020
   url: /providers/tvdb/
 - agent_band: agent-aware
-  agent_readiness: 21.9
+  agent_readiness: 22.4
   band: developing
   in_catalog: true
-  kin_score: 49.0
+  kin_score: 48.6
   mcp: *id021
   name: Trakt
   slug: trakt

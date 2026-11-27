@@ -101,11 +101,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -133,10 +133,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 58.0
+    agent_readiness: 57.8
     band: exemplar
     in_catalog: true
-    kin_score: 70.2
+    kin_score: 70.7
     mcp: &id003
       source: https://betterstack.com/docs/getting-started/integrations/mcp/
       status: documented
@@ -164,10 +164,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id005
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -195,10 +195,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.7
+    agent_readiness: 32.5
     band: developing
     in_catalog: true
-    kin_score: 52.5
+    kin_score: 51.0
     mcp: &id007
       source: https://developers.intercom.com/docs/guides/mcp
       status: verified
@@ -226,10 +226,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id009
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -257,10 +257,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 52.1
+    agent_readiness: 51.1
     band: exemplar
     in_catalog: true
-    kin_score: 83.4
+    kin_score: 86.3
     mcp: &id011
       source: https://plaid.com/docs/resources/mcp/
       status: verified
@@ -291,7 +291,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id013
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -320,9 +320,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 17.8
+    kin_score: 26.8
     mcp: &id015
       status: unknown
     slug: skylight
@@ -349,10 +349,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id017
       source: https://docs.stripe.com/mcp
       status: verified
@@ -403,11 +403,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/personal-finance-budgeting/maybe/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -415,10 +415,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 58.0
+  agent_readiness: 57.8
   band: exemplar
   in_catalog: true
-  kin_score: 70.2
+  kin_score: 70.7
   mcp: *id003
   name: Better Stack
   slug: betterstack
@@ -426,10 +426,10 @@ providers:
   tags: *id004
   url: /providers/betterstack/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id005
   name: GitHub
   slug: github
@@ -437,10 +437,10 @@ providers:
   tags: *id006
   url: /providers/github/
 - agent_band: agent-ready
-  agent_readiness: 31.7
+  agent_readiness: 32.5
   band: developing
   in_catalog: true
-  kin_score: 52.5
+  kin_score: 51.0
   mcp: *id007
   name: Intercom
   slug: intercom
@@ -448,10 +448,10 @@ providers:
   tags: *id008
   url: /providers/intercom/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id009
   name: OpenAI
   slug: openai
@@ -459,10 +459,10 @@ providers:
   tags: *id010
   url: /providers/openai/
 - agent_band: agent-native
-  agent_readiness: 52.1
+  agent_readiness: 51.1
   band: exemplar
   in_catalog: true
-  kin_score: 83.4
+  kin_score: 86.3
   mcp: *id011
   name: Plaid
   slug: plaid
@@ -473,7 +473,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id013
   name: Sentry
   slug: sentry-system
@@ -482,9 +482,9 @@ providers:
   url: /providers/sentry-system/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 17.8
+  kin_score: 26.8
   mcp: *id015
   name: Skylight
   slug: skylight
@@ -492,10 +492,10 @@ providers:
   tags: *id016
   url: /providers/skylight/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id017
   name: Stripe
   slug: stripe

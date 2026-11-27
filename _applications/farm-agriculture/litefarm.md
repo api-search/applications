@@ -102,10 +102,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.6
+    agent_readiness: 44.1
     band: developing
     in_catalog: true
-    kin_score: 45.0
+    kin_score: 47.4
     mcp: &id001
       source: https://docs.digitalocean.com/reference/mcp/
       status: verified
@@ -134,9 +134,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 2.5
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.9
+    kin_score: 14.9
     mcp: &id003
       status: none
     slug: ensemble-scientific
@@ -162,11 +162,11 @@ integrations:
     via_parent: Email
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id005
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -194,10 +194,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id007
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -224,11 +224,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id009
       status: none
     slug: google-identity-platform
@@ -254,11 +254,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 22.5
+    agent_band: agent-ready
+    agent_readiness: 30.0
     band: strong
     in_catalog: true
-    kin_score: 60.4
+    kin_score: 59.1
     mcp: &id011
       source: https://mcp.openweathermap.org/
       status: verified
@@ -289,7 +289,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id013
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -320,7 +320,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 6.8
+    kin_score: 6.9
     mcp: &id015
       status: unknown
     slug: surveystack
@@ -345,10 +345,10 @@ noindex: false
 permalink: /applications/farm-agriculture/litefarm/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 44.6
+  agent_readiness: 44.1
   band: developing
   in_catalog: true
-  kin_score: 45.0
+  kin_score: 47.4
   mcp: *id001
   name: DigitalOcean Spaces
   slug: digital-ocean
@@ -357,20 +357,20 @@ providers:
   url: /providers/digital-ocean/
 - agent_band: human-only
   agent_readiness: 2.5
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.9
+  kin_score: 14.9
   mcp: *id003
   name: Ensemble Scientific (ESCI)
   slug: ensemble-scientific
   status: profiled
   tags: *id004
   url: /providers/ensemble-scientific/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id005
   name: Gmail API
   slug: google-gmail
@@ -378,32 +378,32 @@ providers:
   tags: *id006
   url: /providers/google-gmail/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id007
   name: Google Maps Platform
   slug: google-maps
   status: profiled
   tags: *id008
   url: /providers/google-maps/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id009
   name: Google sign-in
   slug: google-identity-platform
   status: profiled
   tags: *id010
   url: /providers/google-identity-platform/
-- agent_band: agent-aware
-  agent_readiness: 22.5
+- agent_band: agent-ready
+  agent_readiness: 30.0
   band: strong
   in_catalog: true
-  kin_score: 60.4
+  kin_score: 59.1
   mcp: *id011
   name: OpenWeather
   slug: openweathermap
@@ -414,7 +414,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id013
   name: Sentry
   slug: sentry-system
@@ -425,7 +425,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 6.8
+  kin_score: 6.9
   mcp: *id015
   name: SurveyStack
   slug: surveystack

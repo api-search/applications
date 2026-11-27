@@ -82,10 +82,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.7
+    agent_readiness: 29.1
     band: developing
     in_catalog: true
-    kin_score: 52.2
+    kin_score: 51.1
     mcp: &id001
       status: none
     slug: adroll
@@ -112,10 +112,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id003
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -143,10 +143,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id005
       status: none
     slug: google-tag-manager
@@ -173,10 +173,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.9
+    agent_readiness: 43.0
     band: developing
     in_catalog: true
-    kin_score: 43.5
+    kin_score: 43.4
     mcp: &id007
       source: https://github.com/integromat/make-mcp-server
       status: verified
@@ -204,10 +204,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id009
       status: none
     slug: facebook
@@ -234,10 +234,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id011
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -265,10 +265,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id013
       status: none
     slug: segment
@@ -295,10 +295,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id015
       source: https://zapier.com/mcp
       status: verified
@@ -324,10 +324,10 @@ noindex: false
 permalink: /applications/url-shortener-links/short-io/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 29.7
+  agent_readiness: 29.1
   band: developing
   in_catalog: true
-  kin_score: 52.2
+  kin_score: 51.1
   mcp: *id001
   name: AdRoll
   slug: adroll
@@ -335,10 +335,10 @@ providers:
   tags: *id002
   url: /providers/adroll/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id003
   name: Google Analytics
   slug: google-analytics
@@ -346,10 +346,10 @@ providers:
   tags: *id004
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 35.8
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 65.8
   mcp: *id005
   name: Google Tag Manager
   slug: google-tag-manager
@@ -357,10 +357,10 @@ providers:
   tags: *id006
   url: /providers/google-tag-manager/
 - agent_band: agent-ready
-  agent_readiness: 43.9
+  agent_readiness: 43.0
   band: developing
   in_catalog: true
-  kin_score: 43.5
+  kin_score: 43.4
   mcp: *id007
   name: Make
   slug: make
@@ -368,10 +368,10 @@ providers:
   tags: *id008
   url: /providers/make/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id009
   name: Meta Pixel
   slug: facebook
@@ -379,10 +379,10 @@ providers:
   tags: *id010
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id011
   name: Slack
   slug: slack
@@ -390,10 +390,10 @@ providers:
   tags: *id012
   url: /providers/slack/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id013
   name: Twilio Segment
   slug: segment
@@ -401,10 +401,10 @@ providers:
   tags: *id014
   url: /providers/segment/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id015
   name: Zapier
   slug: zapier

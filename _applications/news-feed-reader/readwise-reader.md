@@ -75,11 +75,11 @@ integrations:
     via_parent: News & Publishing
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 46.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 53.6
+    band: strong
     in_catalog: true
-    kin_score: 46.7
+    kin_score: 58.4
     mcp: &id001
       source: https://github.com/amzn/selling-partner-agentic-toolkit
       status: verified
@@ -106,11 +106,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.6
+    agent_band: agent-aware
+    agent_readiness: 28.0
     band: developing
     in_catalog: true
-    kin_score: 51.2
+    kin_score: 53.0
     mcp: &id003
       source: https://dev.evernote.com/
       status: documented
@@ -138,10 +138,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 11.5
-    band: emerging
+    agent_readiness: 8.5
+    band: thin
     in_catalog: true
-    kin_score: 21.3
+    kin_score: 30.7
     mcp: &id005
       status: none
     slug: instapaper
@@ -171,7 +171,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 20.4
+    kin_score: 20.0
     mcp: &id007
       status: none
     slug: logseq
@@ -198,10 +198,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.9
-    band: exemplar
+    agent_readiness: 56.8
+    band: strong
     in_catalog: true
-    kin_score: 67.2
+    kin_score: 65.3
     mcp: &id009
       source: https://developers.notion.com/docs/mcp
       status: verified
@@ -229,10 +229,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.2
+    agent_readiness: 29.6
     band: thin
     in_catalog: true
-    kin_score: 35.9
+    kin_score: 34.9
     mcp: &id011
       status: none
     slug: obsidian
@@ -262,7 +262,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.2
+    kin_score: 3.3
     mcp: &id013
       status: none
     slug: pocket
@@ -314,10 +314,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id017
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -345,10 +345,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id019
       status: none
     slug: youtube
@@ -372,22 +372,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/news-feed-reader/readwise-reader/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 46.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 53.6
+  band: strong
   in_catalog: true
-  kin_score: 46.7
+  kin_score: 58.4
   mcp: *id001
   name: Amazon Kindle
   slug: amazon
   status: profiled
   tags: *id002
   url: /providers/amazon/
-- agent_band: agent-ready
-  agent_readiness: 28.6
+- agent_band: agent-aware
+  agent_readiness: 28.0
   band: developing
   in_catalog: true
-  kin_score: 51.2
+  kin_score: 53.0
   mcp: *id003
   name: Evernote
   slug: evernote
@@ -395,10 +395,10 @@ providers:
   tags: *id004
   url: /providers/evernote/
 - agent_band: agent-aware
-  agent_readiness: 11.5
-  band: emerging
+  agent_readiness: 8.5
+  band: thin
   in_catalog: true
-  kin_score: 21.3
+  kin_score: 30.7
   mcp: *id005
   name: Instapaper
   slug: instapaper
@@ -409,7 +409,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 20.4
+  kin_score: 20.0
   mcp: *id007
   name: Logseq
   slug: logseq
@@ -417,10 +417,10 @@ providers:
   tags: *id008
   url: /providers/logseq/
 - agent_band: agent-ready
-  agent_readiness: 54.9
-  band: exemplar
+  agent_readiness: 56.8
+  band: strong
   in_catalog: true
-  kin_score: 67.2
+  kin_score: 65.3
   mcp: *id009
   name: Notion
   slug: notion
@@ -428,10 +428,10 @@ providers:
   tags: *id010
   url: /providers/notion/
 - agent_band: agent-ready
-  agent_readiness: 30.2
+  agent_readiness: 29.6
   band: thin
   in_catalog: true
-  kin_score: 35.9
+  kin_score: 34.9
   mcp: *id011
   name: Obsidian
   slug: obsidian
@@ -442,7 +442,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.2
+  kin_score: 3.3
   mcp: *id013
   name: Pocket
   slug: pocket
@@ -461,10 +461,10 @@ providers:
   tags: *id016
   url: null
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id017
   name: X (Twitter)
   slug: x
@@ -472,10 +472,10 @@ providers:
   tags: *id018
   url: /providers/x/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id019
   name: YouTube
   slug: youtube

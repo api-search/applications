@@ -48,11 +48,11 @@ integrations:
     via_parent: Retrieval & Embeddings
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.4
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 29.9
+    band: exemplar
     in_catalog: true
-    kin_score: 44.6
+    kin_score: 68.3
     mcp: &id001
       source: https://github.com/microsoft/mcp
       status: verified
@@ -80,10 +80,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 69.6
+    agent_readiness: 69.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.8
+    kin_score: 82.5
     mcp: &id003
       source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
       status: verified
@@ -111,10 +111,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id005
       status: none
     slug: google-gemini
@@ -140,11 +140,11 @@ integrations:
     via_parent: Retrieval & Embeddings
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 42.2
+    band: strong
     in_catalog: true
-    kin_score: 48.4
+    kin_score: 63.2
     mcp: &id007
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -172,10 +172,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id009
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -200,11 +200,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/search-engine/typesense/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.4
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 29.9
+  band: exemplar
   in_catalog: true
-  kin_score: 44.6
+  kin_score: 68.3
   mcp: *id001
   name: Azure OpenAI
   slug: microsoft-azure-openai
@@ -212,10 +212,10 @@ providers:
   tags: *id002
   url: /providers/microsoft-azure-openai/
 - agent_band: agent-native
-  agent_readiness: 69.6
+  agent_readiness: 69.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.8
+  kin_score: 82.5
   mcp: *id003
   name: Cloudflare Workers AI
   slug: cloudflare
@@ -223,21 +223,21 @@ providers:
   tags: *id004
   url: /providers/cloudflare/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id005
   name: Google (Gemini API)
   slug: google-gemini
   status: profiled
   tags: *id006
   url: /providers/google-gemini/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 42.2
+  band: strong
   in_catalog: true
-  kin_score: 48.4
+  kin_score: 63.2
   mcp: *id007
   name: Google Cloud Vertex AI
   slug: google-vertex-ai
@@ -245,10 +245,10 @@ providers:
   tags: *id008
   url: /providers/google-vertex-ai/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id009
   name: OpenAI
   slug: openai

@@ -60,7 +60,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 4.8
     mcp: &id001
       status: none
     slug: locationiq
@@ -86,10 +86,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 31.5
     mcp: &id003
       status: none
     slug: maxmind
@@ -116,10 +116,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id005
       status: none
     slug: nominatim
@@ -146,10 +146,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 1.7
     band: minimal
     in_catalog: true
-    kin_score: 7.9
+    kin_score: 8.5
     mcp: &id007
       source: https://github.com/OpenCageData/opencage-geocoding-mcp
       status: verified
@@ -203,7 +203,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 4.8
   mcp: *id001
   name: LocationIQ
   slug: locationiq
@@ -211,10 +211,10 @@ providers:
   tags: *id002
   url: /providers/locationiq/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 31.5
   mcp: *id003
   name: MaxMind GeoLite2
   slug: maxmind
@@ -222,10 +222,10 @@ providers:
   tags: *id004
   url: /providers/maxmind/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id005
   name: Nominatim
   slug: nominatim
@@ -233,10 +233,10 @@ providers:
   tags: *id006
   url: /providers/nominatim/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 1.7
   band: minimal
   in_catalog: true
-  kin_score: 7.9
+  kin_score: 8.5
   mcp: *id007
   name: OpenCage
   slug: opencage

@@ -68,11 +68,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -100,10 +100,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.9
+    agent_readiness: 33.6
     band: developing
     in_catalog: true
-    kin_score: 50.2
+    kin_score: 49.4
     mcp: &id003
       source: https://github.com/gladiaio/gladia-mcp
       status: verified
@@ -131,10 +131,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id005
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -162,10 +162,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 31.5
+    kin_score: 31.1
     mcp: &id007
       status: none
     slug: hcaptcha
@@ -215,11 +215,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/video-conferencing/bigbluebutton/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -227,10 +227,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 33.9
+  agent_readiness: 33.6
   band: developing
   in_catalog: true
-  kin_score: 50.2
+  kin_score: 49.4
   mcp: *id003
   name: Gladia
   slug: gladia
@@ -238,10 +238,10 @@ providers:
   tags: *id004
   url: /providers/gladia/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id005
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -249,10 +249,10 @@ providers:
   tags: *id006
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 31.5
+  kin_score: 31.1
   mcp: *id007
   name: hCaptcha
   slug: hcaptcha

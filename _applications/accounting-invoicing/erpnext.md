@@ -57,10 +57,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id001
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -88,10 +88,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 52.1
+    agent_readiness: 51.1
     band: exemplar
     in_catalog: true
-    kin_score: 83.4
+    kin_score: 86.3
     mcp: &id003
       source: https://plaid.com/docs/resources/mcp/
       status: verified
@@ -119,10 +119,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id005
       status: none
     slug: youtube
@@ -147,10 +147,10 @@ noindex: false
 permalink: /applications/accounting-invoicing/erpnext/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id001
   name: Google Maps
   slug: google-maps
@@ -158,10 +158,10 @@ providers:
   tags: *id002
   url: /providers/google-maps/
 - agent_band: agent-native
-  agent_readiness: 52.1
+  agent_readiness: 51.1
   band: exemplar
   in_catalog: true
-  kin_score: 83.4
+  kin_score: 86.3
   mcp: *id003
   name: Plaid
   slug: plaid
@@ -169,10 +169,10 @@ providers:
   tags: *id004
   url: /providers/plaid/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id005
   name: YouTube
   slug: youtube

@@ -66,22 +66,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id002
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id003
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Analytics)
   provider: firebase
@@ -113,10 +113,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: exemplar
     in_catalog: true
-    kin_score: 76.5
+    kin_score: 74.4
     mcp: &id008
       source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
       status: verified
@@ -144,10 +144,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.6
     band: thin
     in_catalog: true
-    kin_score: 34.2
+    kin_score: 32.4
     mcp: &id010
       status: none
     slug: wootric
@@ -173,11 +173,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id004
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -205,10 +205,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.5
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 70.6
+    kin_score: 70.8
     mcp: &id006
       source: https://github.com/microsoft/mcp
       status: verified
@@ -233,22 +233,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/crm-sales/hubspot/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id002
   name: Firebase (Analytics)
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id003
-  url: /providers/firebase/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id004
   name: Gmail
   slug: google-gmail
@@ -256,10 +256,10 @@ providers:
   tags: *id005
   url: /providers/google-gmail/
 - agent_band: agent-ready
-  agent_readiness: 49.5
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 70.6
+  kin_score: 70.8
   mcp: *id006
   name: Microsoft Outlook
   slug: microsoft-outlook
@@ -267,10 +267,10 @@ providers:
   tags: *id007
   url: /providers/microsoft-outlook/
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 44.8
   band: exemplar
   in_catalog: true
-  kin_score: 76.5
+  kin_score: 74.4
   mcp: *id008
   name: New Relic
   slug: new-relic
@@ -278,10 +278,10 @@ providers:
   tags: *id009
   url: /providers/new-relic/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.6
   band: thin
   in_catalog: true
-  kin_score: 34.2
+  kin_score: 32.4
   mcp: *id010
   name: Wootric
   slug: wootric

@@ -101,10 +101,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.8
+    agent_readiness: 21.4
     band: thin
     in_catalog: true
-    kin_score: 28.6
+    kin_score: 28.0
     mcp: &id001
       source: https://github.com/adobe/cq-quickstart-mcp-server
       status: verified
@@ -132,10 +132,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.5
+    agent_readiness: 55.2
     band: developing
     in_catalog: true
-    kin_score: 44.3
+    kin_score: 43.9
     mcp: &id003
       source: https://github.com/contentful/contentful-mcp-server
       status: verified
@@ -163,10 +163,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.8
-    band: strong
+    agent_readiness: 59.2
+    band: exemplar
     in_catalog: true
-    kin_score: 65.6
+    kin_score: 75.1
     mcp: &id005
       source: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server
       status: verified
@@ -194,10 +194,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id007
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -225,10 +225,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id009
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -256,10 +256,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.7
+    agent_readiness: 32.5
     band: developing
     in_catalog: true
-    kin_score: 52.5
+    kin_score: 51.0
     mcp: &id011
       source: https://developers.intercom.com/docs/guides/mcp
       status: verified
@@ -287,10 +287,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 3.6
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 8.6
+    kin_score: 11.0
     mcp: &id013
       status: none
     slug: welocalize
@@ -317,10 +317,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id015
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -348,10 +348,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id017
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -382,7 +382,7 @@ integrations:
     agent_readiness: 62.5
     band: strong
     in_catalog: true
-    kin_score: 60.7
+    kin_score: 60.5
     mcp: &id019
       source: https://developers.webflow.com/mcp/reference/overview
       status: verified
@@ -410,10 +410,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 72.4
     mcp: &id021
       status: none
     slug: zendesk
@@ -438,10 +438,10 @@ noindex: false
 permalink: /applications/translation/crowdin/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 21.8
+  agent_readiness: 21.4
   band: thin
   in_catalog: true
-  kin_score: 28.6
+  kin_score: 28.0
   mcp: *id001
   name: Adobe Experience Manager
   slug: adobe-experience-manager
@@ -449,10 +449,10 @@ providers:
   tags: *id002
   url: /providers/adobe-experience-manager/
 - agent_band: agent-ready
-  agent_readiness: 56.5
+  agent_readiness: 55.2
   band: developing
   in_catalog: true
-  kin_score: 44.3
+  kin_score: 43.9
   mcp: *id003
   name: Contentful
   slug: contentful
@@ -460,10 +460,10 @@ providers:
   tags: *id004
   url: /providers/contentful/
 - agent_band: agent-ready
-  agent_readiness: 57.8
-  band: strong
+  agent_readiness: 59.2
+  band: exemplar
   in_catalog: true
-  kin_score: 65.6
+  kin_score: 75.1
   mcp: *id005
   name: Figma
   slug: figma
@@ -471,10 +471,10 @@ providers:
   tags: *id006
   url: /providers/figma/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id007
   name: GitHub
   slug: github
@@ -482,10 +482,10 @@ providers:
   tags: *id008
   url: /providers/github/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id009
   name: HubSpot Marketing Hub
   slug: hubspot
@@ -493,10 +493,10 @@ providers:
   tags: *id010
   url: /providers/hubspot/
 - agent_band: agent-ready
-  agent_readiness: 31.7
+  agent_readiness: 32.5
   band: developing
   in_catalog: true
-  kin_score: 52.5
+  kin_score: 51.0
   mcp: *id011
   name: Intercom
   slug: intercom
@@ -504,10 +504,10 @@ providers:
   tags: *id012
   url: /providers/intercom/
 - agent_band: human-only
-  agent_readiness: 3.6
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 8.6
+  kin_score: 11.0
   mcp: *id013
   name: Opal by Welocalize
   slug: welocalize
@@ -515,10 +515,10 @@ providers:
   tags: *id014
   url: /providers/welocalize/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id015
   name: OpenAI
   slug: openai
@@ -526,10 +526,10 @@ providers:
   tags: *id016
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id017
   name: Slack
   slug: slack
@@ -540,7 +540,7 @@ providers:
   agent_readiness: 62.5
   band: strong
   in_catalog: true
-  kin_score: 60.7
+  kin_score: 60.5
   mcp: *id019
   name: Webflow
   slug: webflow
@@ -548,10 +548,10 @@ providers:
   tags: *id020
   url: /providers/webflow/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 72.4
   mcp: *id021
   name: Zendesk Guide
   slug: zendesk

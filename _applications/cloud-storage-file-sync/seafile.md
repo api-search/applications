@@ -52,22 +52,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id007
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id008
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Crashlytics)
   provider: firebase
@@ -83,11 +83,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -115,10 +115,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.4
+    agent_readiness: 18.5
     band: thin
     in_catalog: true
-    kin_score: 28.2
+    kin_score: 28.4
     mcp: &id003
       status: none
     slug: ceph
@@ -148,7 +148,7 @@ integrations:
     agent_readiness: 26.0
     band: developing
     in_catalog: true
-    kin_score: 46.7
+    kin_score: 47.1
     mcp: &id005
       status: none
     slug: exoscale
@@ -175,10 +175,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.3
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 39.7
+    kin_score: 41.6
     mcp: &id009
       status: none
     slug: hetzner
@@ -205,10 +205,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.1
+    agent_readiness: 25.6
     band: strong
     in_catalog: true
-    kin_score: 57.3
+    kin_score: 56.7
     mcp: &id011
       source: https://github.com/minio/mcp-server-aistor
       status: verified
@@ -236,10 +236,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 36.1
+    kin_score: 34.5
     mcp: &id013
       status: none
     slug: openstack
@@ -269,7 +269,7 @@ integrations:
     agent_readiness: 3.1
     band: emerging
     in_catalog: true
-    kin_score: 24.0
+    kin_score: 23.4
     mcp: &id015
       status: none
     slug: wasabi
@@ -293,11 +293,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/cloud-storage-file-sync/seafile/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -305,10 +305,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-aware
-  agent_readiness: 18.4
+  agent_readiness: 18.5
   band: thin
   in_catalog: true
-  kin_score: 28.2
+  kin_score: 28.4
   mcp: *id003
   name: Ceph
   slug: ceph
@@ -319,29 +319,29 @@ providers:
   agent_readiness: 26.0
   band: developing
   in_catalog: true
-  kin_score: 46.7
+  kin_score: 47.1
   mcp: *id005
   name: Exoscale
   slug: exoscale
   status: profiled
   tags: *id006
   url: /providers/exoscale/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id007
   name: Firebase (Crashlytics)
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id008
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-aware
-  agent_readiness: 26.3
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 39.7
+  kin_score: 41.6
   mcp: *id009
   name: Hetzner
   slug: hetzner
@@ -349,10 +349,10 @@ providers:
   tags: *id010
   url: /providers/hetzner/
 - agent_band: agent-aware
-  agent_readiness: 26.1
+  agent_readiness: 25.6
   band: strong
   in_catalog: true
-  kin_score: 57.3
+  kin_score: 56.7
   mcp: *id011
   name: MinIO
   slug: minio
@@ -360,10 +360,10 @@ providers:
   tags: *id012
   url: /providers/minio/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 36.1
+  kin_score: 34.5
   mcp: *id013
   name: OpenStack Swift
   slug: openstack
@@ -374,7 +374,7 @@ providers:
   agent_readiness: 3.1
   band: emerging
   in_catalog: true
-  kin_score: 24.0
+  kin_score: 23.4
   mcp: *id015
   name: Wasabi
   slug: wasabi

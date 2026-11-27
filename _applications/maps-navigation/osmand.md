@@ -58,11 +58,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.7
+    band: developing
     in_catalog: true
-    kin_score: 31.6
+    kin_score: 51.3
     mcp: &id001
       status: none
     slug: google-play
@@ -114,11 +114,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.3
     band: developing
     in_catalog: true
-    kin_score: 44.4
+    kin_score: 45.5
     mcp: &id005
       status: none
     slug: openstreetmap
@@ -145,10 +145,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 9.7
+    kin_score: 12.7
     mcp: &id007
       status: none
     slug: panoramax
@@ -172,11 +172,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/maps-navigation/osmand/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.7
+  band: developing
   in_catalog: true
-  kin_score: 31.6
+  kin_score: 51.3
   mcp: *id001
   name: Google Play Billing
   slug: google-play
@@ -194,11 +194,11 @@ providers:
   status: queued for profiling
   tags: *id004
   url: null
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: developing
   in_catalog: true
-  kin_score: 44.4
+  kin_score: 45.5
   mcp: *id005
   name: OpenStreetMap
   slug: openstreetmap
@@ -206,10 +206,10 @@ providers:
   tags: *id006
   url: /providers/openstreetmap/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 9.7
+  kin_score: 12.7
   mcp: *id007
   name: Panoramax
   slug: panoramax

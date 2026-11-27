@@ -82,10 +82,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.4
-    band: strong
+    agent_readiness: 30.3
+    band: exemplar
     in_catalog: true
-    kin_score: 66.2
+    kin_score: 67.1
     mcp: &id001
       status: none
     slug: deputy
@@ -112,10 +112,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id003
       status: none
     slug: mailchimp
@@ -142,10 +142,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.4
+    agent_readiness: 15.1
     band: emerging
     in_catalog: true
-    kin_score: 23.3
+    kin_score: 22.5
     mcp: &id005
       status: none
     slug: myob
@@ -172,10 +172,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.7
-    band: strong
+    agent_readiness: 36.3
+    band: exemplar
     in_catalog: true
-    kin_score: 64.4
+    kin_score: 76.1
     mcp: &id007
       source: https://github.com/microsoft/mcp
       status: verified
@@ -202,11 +202,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id009
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -234,10 +234,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id011
       source: https://docs.stripe.com/mcp
       status: verified
@@ -265,10 +265,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.3
+    agent_readiness: 60.0
     band: exemplar
     in_catalog: true
-    kin_score: 82.4
+    kin_score: 87.1
     mcp: &id013
       source: https://github.com/XeroAPI/xero-mcp-server
       status: verified
@@ -296,10 +296,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id015
       source: https://zapier.com/mcp
       status: verified
@@ -325,10 +325,10 @@ noindex: false
 permalink: /applications/field-service/servicem8/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 34.4
-  band: strong
+  agent_readiness: 30.3
+  band: exemplar
   in_catalog: true
-  kin_score: 66.2
+  kin_score: 67.1
   mcp: *id001
   name: Deputy
   slug: deputy
@@ -336,10 +336,10 @@ providers:
   tags: *id002
   url: /providers/deputy/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id003
   name: MailChimp
   slug: mailchimp
@@ -347,10 +347,10 @@ providers:
   tags: *id004
   url: /providers/mailchimp/
 - agent_band: agent-aware
-  agent_readiness: 15.4
+  agent_readiness: 15.1
   band: emerging
   in_catalog: true
-  kin_score: 23.3
+  kin_score: 22.5
   mcp: *id005
   name: MYOB
   slug: myob
@@ -358,21 +358,21 @@ providers:
   tags: *id006
   url: /providers/myob/
 - agent_band: agent-ready
-  agent_readiness: 36.7
-  band: strong
+  agent_readiness: 36.3
+  band: exemplar
   in_catalog: true
-  kin_score: 64.4
+  kin_score: 76.1
   mcp: *id007
   name: Office 365
   slug: microsoft-365
   status: profiled
   tags: *id008
   url: /providers/microsoft-365/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id009
   name: QuickBooks Online
   slug: quickbooks
@@ -380,10 +380,10 @@ providers:
   tags: *id010
   url: /providers/quickbooks/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id011
   name: Stripe Payments
   slug: stripe
@@ -391,10 +391,10 @@ providers:
   tags: *id012
   url: /providers/stripe/
 - agent_band: agent-native
-  agent_readiness: 61.3
+  agent_readiness: 60.0
   band: exemplar
   in_catalog: true
-  kin_score: 82.4
+  kin_score: 87.1
   mcp: *id013
   name: Xero
   slug: xero
@@ -402,10 +402,10 @@ providers:
   tags: *id014
   url: /providers/xero/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id015
   name: Zapier
   slug: zapier

@@ -41,7 +41,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.1
+    kin_score: 6.0
     mcp: &id001
       status: none
     slug: ancestry
@@ -68,10 +68,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 2.8
     band: minimal
     in_catalog: true
-    kin_score: 7.8
+    kin_score: 9.0
     mcp: &id003
       status: none
     slug: familysearch
@@ -99,9 +99,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.1
+    kin_score: 12.6
     mcp: &id005
       status: none
     slug: findmypast
@@ -131,7 +131,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 14.4
+    kin_score: 13.0
     mcp: &id007
       status: none
     slug: myheritage
@@ -159,7 +159,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.1
+  kin_score: 6.0
   mcp: *id001
   name: Ancestry TreeShare download + WebHints
   slug: ancestry
@@ -167,10 +167,10 @@ providers:
   tags: *id002
   url: /providers/ancestry/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 2.8
   band: minimal
   in_catalog: true
-  kin_score: 7.8
+  kin_score: 9.0
   mcp: *id003
   name: FamilySearch Family Tree download + WebHints
   slug: familysearch
@@ -179,9 +179,9 @@ providers:
   url: /providers/familysearch/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.1
+  kin_score: 12.6
   mcp: *id005
   name: Findmypast WebHints
   slug: findmypast
@@ -192,7 +192,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 14.4
+  kin_score: 13.0
   mcp: *id007
   name: MyHeritage WebHints
   slug: myheritage

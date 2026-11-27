@@ -37,10 +37,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 0.7
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 7.3
     mcp: &id001
       status: unknown
     slug: ankiweb
@@ -62,10 +62,10 @@ noindex: false
 permalink: /applications/language-learning/anki/
 providers:
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 0.7
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 7.3
   mcp: *id001
   name: AnkiWeb (Ankitects)
   slug: ankiweb

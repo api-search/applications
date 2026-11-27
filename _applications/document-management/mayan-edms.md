@@ -38,7 +38,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id001
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -67,7 +67,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id001
   name: Sentry
   slug: sentry-system

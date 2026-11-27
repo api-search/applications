@@ -99,22 +99,22 @@ integrations:
     via_parent: null
   credit: null
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id002
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id003
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Analytics
   provider: firebase
@@ -160,11 +160,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id004
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -191,11 +191,11 @@ integrations:
     via_parent: IT Application Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.0
+    band: strong
     in_catalog: true
-    kin_score: 38.7
+    kin_score: 64.1
     mcp: &id006
       source: https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp
       status: verified
@@ -223,10 +223,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.8
+    agent_readiness: 30.1
     band: strong
     in_catalog: true
-    kin_score: 64.5
+    kin_score: 63.8
     mcp: &id008
       status: none
     slug: google-sheets
@@ -255,7 +255,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id010
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -283,10 +283,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_readiness: 32.7
     band: developing
     in_catalog: true
-    kin_score: 49.8
+    kin_score: 50.6
     mcp: &id012
       status: none
     slug: spotify
@@ -310,33 +310,33 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/mental-health-meditation/baseline/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id002
   name: Firebase Analytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id003
-  url: /providers/firebase/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id004
   name: Gmail API
   slug: google-gmail
   status: profiled
   tags: *id005
   url: /providers/google-gmail/
-- agent_band: agent-aware
-  agent_readiness: 25.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.0
+  band: strong
   in_catalog: true
-  kin_score: 38.7
+  kin_score: 64.1
   mcp: *id006
   name: Google Cloud Pub/Sub
   slug: google-cloud-pubsub
@@ -344,10 +344,10 @@ providers:
   tags: *id007
   url: /providers/google-cloud-pubsub/
 - agent_band: agent-ready
-  agent_readiness: 33.8
+  agent_readiness: 30.1
   band: strong
   in_catalog: true
-  kin_score: 64.5
+  kin_score: 63.8
   mcp: *id008
   name: Google Sheets
   slug: google-sheets
@@ -358,7 +358,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id010
   name: Sentry
   slug: sentry-system
@@ -366,10 +366,10 @@ providers:
   tags: *id011
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 33.3
+  agent_readiness: 32.7
   band: developing
   in_catalog: true
-  kin_score: 49.8
+  kin_score: 50.6
   mcp: *id012
   name: Spotify embeds
   slug: spotify

@@ -94,10 +94,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.8
-    band: strong
+    agent_readiness: 37.9
+    band: exemplar
     in_catalog: true
-    kin_score: 60.5
+    kin_score: 68.5
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -125,10 +125,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id005
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -156,10 +156,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.0
+    agent_readiness: 25.5
     band: developing
     in_catalog: true
-    kin_score: 40.4
+    kin_score: 40.0
     mcp: &id007
       status: none
     slug: apptentive
@@ -186,10 +186,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id009
       status: none
     slug: google-admob
@@ -215,22 +215,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id011
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id012
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics
   provider: firebase
@@ -276,7 +276,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id017
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -304,10 +304,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id003
       status: none
     slug: apple
@@ -333,11 +333,11 @@ integrations:
     via_parent: Wearable & Health Data Sync
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.1
+    band: developing
     in_catalog: true
-    kin_score: 36.2
+    kin_score: 51.4
     mcp: &id013
       status: none
     slug: google-fitness
@@ -362,10 +362,10 @@ noindex: false
 permalink: /applications/period-fertility-tracking/ovia/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 40.8
-  band: strong
+  agent_readiness: 37.9
+  band: exemplar
   in_catalog: true
-  kin_score: 60.5
+  kin_score: 68.5
   mcp: *id001
   name: Amazon Mobile Analytics (Amplify)
   slug: amazon-web-services
@@ -373,10 +373,10 @@ providers:
   tags: *id002
   url: /providers/amazon-web-services/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id003
   name: Apple
   slug: apple
@@ -384,10 +384,10 @@ providers:
   tags: *id004
   url: /providers/apple/
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id005
   name: AppsFlyer
   slug: appsflyer
@@ -395,10 +395,10 @@ providers:
   tags: *id006
   url: /providers/appsflyer/
 - agent_band: agent-aware
-  agent_readiness: 26.0
+  agent_readiness: 25.5
   band: developing
   in_catalog: true
-  kin_score: 40.4
+  kin_score: 40.0
   mcp: *id007
   name: Apptentive
   slug: apptentive
@@ -406,32 +406,32 @@ providers:
   tags: *id008
   url: /providers/apptentive/
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 35.3
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 65.2
   mcp: *id009
   name: Google AdMob
   slug: google-admob
   status: profiled
   tags: *id010
   url: /providers/google-admob/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id011
   name: Google Firebase Analytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id012
-  url: /providers/firebase/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: thin
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 33.1
+  band: developing
   in_catalog: true
-  kin_score: 36.2
+  kin_score: 51.4
   mcp: *id013
   name: Google Fit
   slug: google-fitness
@@ -453,7 +453,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id017
   name: Sentry
   slug: sentry-system

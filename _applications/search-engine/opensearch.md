@@ -114,11 +114,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 35.5
-    band: strong
+    agent_band: agent-native
+    agent_readiness: 45.4
+    band: exemplar
     in_catalog: true
-    kin_score: 61.8
+    kin_score: 71.0
     mcp: &id007
       status: none
     slug: amazon-ec2
@@ -145,10 +145,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.4
-    band: developing
+    agent_readiness: 44.6
+    band: exemplar
     in_catalog: true
-    kin_score: 49.3
+    kin_score: 70.7
     mcp: &id009
       status: none
     slug: kinesis
@@ -174,11 +174,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id011
       source: https://github.com/awslabs/mcp
       status: verified
@@ -206,10 +206,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.4
+    agent_readiness: 27.8
     band: developing
     in_catalog: true
-    kin_score: 51.3
+    kin_score: 51.4
     mcp: &id017
       status: none
     slug: apache-kafka
@@ -236,10 +236,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.7
+    agent_readiness: 44.1
     band: exemplar
     in_catalog: true
-    kin_score: 70.2
+    kin_score: 76.8
     mcp: &id019
       status: none
     slug: amazon-kms
@@ -266,10 +266,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id021
       source: https://github.com/microsoft/mcp
       status: verified
@@ -297,10 +297,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id029
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -327,11 +327,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.1
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 42.9
+    band: strong
     in_catalog: true
-    kin_score: 46.2
+    kin_score: 62.7
     mcp: &id031
       source: https://cloud.google.com/compute/docs/reference/mcp
       status: verified
@@ -359,10 +359,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.5
+    agent_readiness: 45.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.4
+    kin_score: 76.0
     mcp: &id037
       source: https://github.com/microsoft/mcp
       status: verified
@@ -393,7 +393,7 @@ integrations:
     agent_readiness: 27.3
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 39.0
     mcp: &id043
       status: none
     slug: opentelemetry
@@ -420,10 +420,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.3
+    agent_readiness: 29.7
     band: developing
     in_catalog: true
-    kin_score: 47.2
+    kin_score: 47.8
     mcp: &id001
       status: none
     slug: aleph-alpha
@@ -449,11 +449,11 @@ integrations:
     via_parent: Retrieval & Embeddings
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 35.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 48.3
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 64.3
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -481,10 +481,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
-    band: strong
+    agent_readiness: 32.8
+    band: exemplar
     in_catalog: true
-    kin_score: 60.3
+    kin_score: 70.7
     mcp: &id005
       status: none
     slug: amazon-comprehend
@@ -511,10 +511,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.8
+    agent_readiness: 36.7
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id013
       source: https://github.com/awslabs/mcp/tree/main/src/sagemaker-ai-mcp-server
       status: verified
@@ -541,11 +541,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.6
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 41.6
+    band: exemplar
     in_catalog: true
-    kin_score: 52.7
+    kin_score: 69.2
     mcp: &id015
       status: none
     slug: amazon-textract
@@ -571,11 +571,11 @@ integrations:
     via_parent: Retrieval & Embeddings
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.4
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 29.9
+    band: exemplar
     in_catalog: true
-    kin_score: 44.6
+    kin_score: 68.3
     mcp: &id023
       source: https://github.com/microsoft/mcp
       status: verified
@@ -603,10 +603,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.4
+    agent_readiness: 40.6
     band: thin
     in_catalog: true
-    kin_score: 36.4
+    kin_score: 35.2
     mcp: &id025
       status: none
     slug: cohere
@@ -633,10 +633,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.9
+    agent_readiness: 22.4
     band: developing
     in_catalog: true
-    kin_score: 43.3
+    kin_score: 41.2
     mcp: &id027
       status: none
     slug: deepseek
@@ -663,10 +663,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id033
       status: none
     slug: google-gemini
@@ -692,11 +692,11 @@ integrations:
     via_parent: Retrieval & Embeddings
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 42.2
+    band: strong
     in_catalog: true
-    kin_score: 48.4
+    kin_score: 63.2
     mcp: &id035
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -727,7 +727,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id039
       status: none
     slug: ollama
@@ -754,10 +754,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id041
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -809,21 +809,21 @@ noindex: false
 permalink: /applications/search-engine/opensearch/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 30.3
+  agent_readiness: 29.7
   band: developing
   in_catalog: true
-  kin_score: 47.2
+  kin_score: 47.8
   mcp: *id001
   name: Aleph Alpha
   slug: aleph-alpha
   status: profiled
   tags: *id002
   url: /providers/aleph-alpha/
-- agent_band: agent-ready
-  agent_readiness: 35.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 48.3
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 64.3
   mcp: *id003
   name: Amazon Bedrock
   slug: amazon-bedrock
@@ -831,21 +831,21 @@ providers:
   tags: *id004
   url: /providers/amazon-bedrock/
 - agent_band: agent-ready
-  agent_readiness: 33.5
-  band: strong
+  agent_readiness: 32.8
+  band: exemplar
   in_catalog: true
-  kin_score: 60.3
+  kin_score: 70.7
   mcp: *id005
   name: Amazon Comprehend
   slug: amazon-comprehend
   status: profiled
   tags: *id006
   url: /providers/amazon-comprehend/
-- agent_band: agent-ready
-  agent_readiness: 35.5
-  band: strong
+- agent_band: agent-native
+  agent_readiness: 45.4
+  band: exemplar
   in_catalog: true
-  kin_score: 61.8
+  kin_score: 71.0
   mcp: *id007
   name: Amazon EC2
   slug: amazon-ec2
@@ -853,21 +853,21 @@ providers:
   tags: *id008
   url: /providers/amazon-ec2/
 - agent_band: agent-ready
-  agent_readiness: 29.4
-  band: developing
+  agent_readiness: 44.6
+  band: exemplar
   in_catalog: true
-  kin_score: 49.3
+  kin_score: 70.7
   mcp: *id009
   name: Amazon Kinesis
   slug: kinesis
   status: profiled
   tags: *id010
   url: /providers/kinesis/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id011
   name: Amazon S3
   slug: amazon-s3
@@ -875,21 +875,21 @@ providers:
   tags: *id012
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 32.8
+  agent_readiness: 36.7
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id013
   name: Amazon SageMaker
   slug: amazon-sagemaker
   status: profiled
   tags: *id014
   url: /providers/amazon-sagemaker/
-- agent_band: agent-ready
-  agent_readiness: 31.6
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 41.6
+  band: exemplar
   in_catalog: true
-  kin_score: 52.7
+  kin_score: 69.2
   mcp: *id015
   name: Amazon Textract
   slug: amazon-textract
@@ -897,10 +897,10 @@ providers:
   tags: *id016
   url: /providers/amazon-textract/
 - agent_band: agent-aware
-  agent_readiness: 28.4
+  agent_readiness: 27.8
   band: developing
   in_catalog: true
-  kin_score: 51.3
+  kin_score: 51.4
   mcp: *id017
   name: Apache Kafka
   slug: apache-kafka
@@ -908,10 +908,10 @@ providers:
   tags: *id018
   url: /providers/apache-kafka/
 - agent_band: agent-ready
-  agent_readiness: 34.7
+  agent_readiness: 44.1
   band: exemplar
   in_catalog: true
-  kin_score: 70.2
+  kin_score: 76.8
   mcp: *id019
   name: AWS KMS
   slug: amazon-kms
@@ -919,21 +919,21 @@ providers:
   tags: *id020
   url: /providers/amazon-kms/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id021
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
   status: profiled
   tags: *id022
   url: /providers/microsoft-azure-blob-storage/
-- agent_band: agent-aware
-  agent_readiness: 23.4
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 29.9
+  band: exemplar
   in_catalog: true
-  kin_score: 44.6
+  kin_score: 68.3
   mcp: *id023
   name: Azure OpenAI
   slug: microsoft-azure-openai
@@ -941,10 +941,10 @@ providers:
   tags: *id024
   url: /providers/microsoft-azure-openai/
 - agent_band: agent-ready
-  agent_readiness: 41.4
+  agent_readiness: 40.6
   band: thin
   in_catalog: true
-  kin_score: 36.4
+  kin_score: 35.2
   mcp: *id025
   name: Cohere
   slug: cohere
@@ -952,10 +952,10 @@ providers:
   tags: *id026
   url: /providers/cohere/
 - agent_band: agent-aware
-  agent_readiness: 22.9
+  agent_readiness: 22.4
   band: developing
   in_catalog: true
-  kin_score: 43.3
+  kin_score: 41.2
   mcp: *id027
   name: DeepSeek
   slug: deepseek
@@ -963,21 +963,21 @@ providers:
   tags: *id028
   url: /providers/deepseek/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id029
   name: Google Cloud Storage
   slug: gcp-cloud-storage
   status: profiled
   tags: *id030
   url: /providers/gcp-cloud-storage/
-- agent_band: agent-aware
-  agent_readiness: 27.1
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 42.9
+  band: strong
   in_catalog: true
-  kin_score: 46.2
+  kin_score: 62.7
   mcp: *id031
   name: Google Compute Engine
   slug: google-cloud-compute-engine
@@ -985,21 +985,21 @@ providers:
   tags: *id032
   url: /providers/google-cloud-compute-engine/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id033
   name: Google Gemini
   slug: google-gemini
   status: profiled
   tags: *id034
   url: /providers/google-gemini/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 42.2
+  band: strong
   in_catalog: true
-  kin_score: 48.4
+  kin_score: 63.2
   mcp: *id035
   name: Google Vertex AI
   slug: google-vertex-ai
@@ -1007,10 +1007,10 @@ providers:
   tags: *id036
   url: /providers/google-vertex-ai/
 - agent_band: agent-ready
-  agent_readiness: 51.5
+  agent_readiness: 45.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.4
+  kin_score: 76.0
   mcp: *id037
   name: Microsoft Azure (classic)
   slug: microsoft-azure
@@ -1021,7 +1021,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id039
   name: Ollama
   slug: ollama
@@ -1029,10 +1029,10 @@ providers:
   tags: *id040
   url: /providers/ollama/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id041
   name: OpenAI
   slug: openai
@@ -1043,7 +1043,7 @@ providers:
   agent_readiness: 27.3
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 39.0
   mcp: *id043
   name: OpenTelemetry
   slug: opentelemetry

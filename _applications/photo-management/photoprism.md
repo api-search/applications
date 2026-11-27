@@ -38,11 +38,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 26.5
+    agent_band: agent-ready
+    agent_readiness: 32.5
     band: developing
     in_catalog: true
-    kin_score: 40.3
+    kin_score: 41.0
     mcp: &id001
       status: none
     slug: maptiler
@@ -66,11 +66,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/photo-management/photoprism/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 26.5
+- agent_band: agent-ready
+  agent_readiness: 32.5
   band: developing
   in_catalog: true
-  kin_score: 40.3
+  kin_score: 41.0
   mcp: *id001
   name: maptiler
   slug: maptiler

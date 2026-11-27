@@ -893,12 +893,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - Cozi
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -915,33 +915,12 @@ stack:
       tier: declared
       url: /providers/microsoft-outlook/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 44.1
       apps:
       - Cozi
       band: strong
       in_catalog: true
-      kin_score: 55.2
-      mcp:
-        status: none
-      name: Apple Calendar
-      slug: apple
-      sources:
-      - https://www.cozi.com/blog/how-use-cozi-google-calendar/
-      status: profiled
-      tags:
-      - Apple
-      - Developers
-      - iOS
-      - macOS
-      tier: declared
-      url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 20.7
-      apps:
-      - Cozi
-      band: developing
-      in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -957,6 +936,27 @@ stack:
       - Google
       tier: declared
       url: /providers/google-calendar/
+    - agent_band: agent-ready
+      agent_readiness: 36.5
+      apps:
+      - Cozi
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
+      mcp:
+        status: none
+      name: Apple Calendar
+      slug: apple
+      sources:
+      - https://www.cozi.com/blog/how-use-cozi-google-calendar/
+      status: profiled
+      tags:
+      - Apple
+      - Developers
+      - iOS
+      - macOS
+      tier: declared
+      url: /providers/apple/
   - capability:
       attribution: API Evangelist extension
       id: AE-200.10
@@ -965,13 +965,13 @@ stack:
       url: /capabilities/smart-home/
       via_parent: null
     providers:
-    - agent_band: human-only
-      agent_readiness: 5.0
+    - agent_band: agent-aware
+      agent_readiness: 5.6
       apps:
       - Baby Buddy
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.2
+      kin_score: 34.5
       mcp:
         source: https://www.home-assistant.io/integrations/mcp_server/
         status: verified
@@ -998,13 +998,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Cozi
       - Life360
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -1021,12 +1021,12 @@ stack:
       tier: observed
       url: /providers/google-admob/
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 25.3
       apps:
       - Life360
       band: exemplar
       in_catalog: true
-      kin_score: 66.7
+      kin_score: 66.5
       mcp:
         source: https://github.com/Unity-Technologies/industry-ai-workflows
         status: verified
@@ -1043,12 +1043,55 @@ stack:
       tier: observed
       url: /providers/unity/
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 31.0
       apps:
       - Life360
       band: strong
       in_catalog: true
-      kin_score: 56.1
+      kin_score: 60.3
+      mcp:
+        status: none
+      name: BidMachine
+      slug: bidmachine-io
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.life360.android.safetymapd/latest/
+      status: profiled
+      tags:
+      - Ad Exchange
+      - AdTech
+      - Advertising
+      - Mobile Advertising
+      tier: observed
+      url: /providers/bidmachine-io/
+    - agent_band: agent-native
+      agent_readiness: 53.6
+      apps:
+      - Life360
+      band: strong
+      in_catalog: true
+      kin_score: 58.4
+      mcp:
+        source: https://github.com/amzn/selling-partner-agentic-toolkit
+        status: verified
+      name: Amazon Advertisement
+      slug: amazon
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.life360.android.safetymapd/latest/
+      status: profiled
+      tags:
+      - Advertising
+      - Alexa
+      - Amazon
+      - E-Commerce
+      tier: observed
+      url: /providers/amazon/
+    - agent_band: agent-ready
+      agent_readiness: 36.9
+      apps:
+      - Life360
+      band: strong
+      in_catalog: true
+      kin_score: 55.6
       mcp:
         source: https://github.com/IABTechLab/agentic-real-time-framework
         status: verified
@@ -1065,12 +1108,12 @@ stack:
       tier: observed
       url: /providers/iab-tech-lab/
     - agent_band: agent-aware
-      agent_readiness: 7.9
+      agent_readiness: 7.7
       apps:
       - Life360
       band: developing
       in_catalog: true
-      kin_score: 49.9
+      kin_score: 46.1
       mcp:
         status: none
       name: InMobi
@@ -1085,56 +1128,13 @@ stack:
       - Enterprise
       tier: observed
       url: /providers/inmobi/
-    - agent_band: agent-ready
-      agent_readiness: 31.6
-      apps:
-      - Life360
-      band: developing
-      in_catalog: true
-      kin_score: 49.2
-      mcp:
-        status: none
-      name: BidMachine
-      slug: bidmachine-io
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.life360.android.safetymapd/latest/
-      status: profiled
-      tags:
-      - Ad Exchange
-      - AdTech
-      - Advertising
-      - Mobile Advertising
-      tier: observed
-      url: /providers/bidmachine-io/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
-      apps:
-      - Life360
-      band: developing
-      in_catalog: true
-      kin_score: 46.7
-      mcp:
-        source: https://github.com/amzn/selling-partner-agentic-toolkit
-        status: verified
-      name: Amazon Advertisement
-      slug: amazon
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.life360.android.safetymapd/latest/
-      status: profiled
-      tags:
-      - Advertising
-      - Alexa
-      - Amazon
-      - E-Commerce
-      tier: observed
-      url: /providers/amazon/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Life360
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id001
         status: none
       name: Facebook Ads
@@ -1149,13 +1149,34 @@ stack:
       - Fortune 500
       tier: observed
       url: /providers/facebook/
-    - agent_band: agent-ready
-      agent_readiness: 36.2
+    - agent_band: agent-aware
+      agent_readiness: 20.3
       apps:
       - Life360
       band: thin
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 38.0
+      mcp:
+        status: none
+      name: Digital Turbine (Fyber)
+      slug: digital-turbine
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.life360.android.safetymapd/latest/
+      status: profiled
+      tags:
+      - Advertising
+      - Company
+      - Mobile
+      - Monetization
+      tier: observed
+      url: /providers/digital-turbine/
+    - agent_band: agent-ready
+      agent_readiness: 35.5
+      apps:
+      - Life360
+      band: thin
+      in_catalog: true
+      kin_score: 37.6
       mcp:
         status: none
       name: AppLovin
@@ -1171,33 +1192,12 @@ stack:
       tier: observed
       url: /providers/applovin/
     - agent_band: agent-aware
-      agent_readiness: 20.8
+      agent_readiness: 19.4
       apps:
       - Life360
       band: thin
       in_catalog: true
-      kin_score: 32.0
-      mcp:
-        status: none
-      name: Digital Turbine (Fyber)
-      slug: digital-turbine
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.life360.android.safetymapd/latest/
-      status: profiled
-      tags:
-      - Advertising
-      - Company
-      - Mobile
-      - Monetization
-      tier: observed
-      url: /providers/digital-turbine/
-    - agent_band: agent-aware
-      agent_readiness: 19.8
-      apps:
-      - Life360
-      band: thin
-      in_catalog: true
-      kin_score: 31.3
+      kin_score: 29.6
       mcp:
         status: none
       name: AdColony
@@ -1213,12 +1213,12 @@ stack:
       tier: observed
       url: /providers/adcolony/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 33.5
       apps:
       - Life360
       band: thin
       in_catalog: true
-      kin_score: 26.7
+      kin_score: 28.1
       mcp:
         source: https://github.com/PubMatic/pubmatic-mcp-server
         status: verified
@@ -1240,7 +1240,7 @@ stack:
       - Life360
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 16.2
       mcp:
         status: unknown
       name: Mintegral
@@ -1256,12 +1256,54 @@ stack:
       tier: observed
       url: /providers/mintegral/
     - agent_band: human-only
-      agent_readiness: 2.5
+      agent_readiness: 0.0
       apps:
       - Life360
       band: emerging
       in_catalog: true
-      kin_score: 11.5
+      kin_score: 14.1
+      mcp:
+        status: none
+      name: Pangle
+      slug: pangle
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.life360.android.safetymapd/latest/
+      status: profiled
+      tags:
+      - Advertising
+      - Mobile
+      - Monetization
+      - TikTok
+      tier: observed
+      url: /providers/pangle/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Life360
+      band: emerging
+      in_catalog: true
+      kin_score: 13.2
+      mcp:
+        status: none
+      name: Yandex Ads
+      slug: yandex-ads
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.life360.android.safetymapd/latest/
+      status: profiled
+      tags:
+      - Advertising
+      - App Monetization
+      - User Acquisition
+      - Web Analytics
+      tier: observed
+      url: /providers/yandex-ads/
+    - agent_band: human-only
+      agent_readiness: 2.5
+      apps:
+      - Life360
+      band: minimal
+      in_catalog: true
+      kin_score: 10.2
       mcp:
         status: none
       name: ironSource
@@ -1282,49 +1324,7 @@ stack:
       - Life360
       band: minimal
       in_catalog: true
-      kin_score: 9.2
-      mcp:
-        status: none
-      name: Yandex Ads
-      slug: yandex-ads
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.life360.android.safetymapd/latest/
-      status: profiled
-      tags:
-      - Advertising
-      - App Monetization
-      - User Acquisition
-      - Web Analytics
-      tier: observed
-      url: /providers/yandex-ads/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Life360
-      band: minimal
-      in_catalog: true
-      kin_score: 8.4
-      mcp:
-        status: none
-      name: Pangle
-      slug: pangle
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.life360.android.safetymapd/latest/
-      status: profiled
-      tags:
-      - Advertising
-      - Mobile
-      - Monetization
-      - TikTok
-      tier: observed
-      url: /providers/pangle/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Life360
-      band: minimal
-      in_catalog: true
-      kin_score: 2.2
+      kin_score: 2.0
       mcp:
         status: none
       name: Chartboost
@@ -1361,40 +1361,40 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Cozi
       - Life360
       - OurFamilyWizard
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase (Crashlytics / Analytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.cozi.androidfree/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.life360.android.safetymapd/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.ourfamilywizard/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Cozi
       - OurFamilyWizard
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Twilio Segment
@@ -1411,12 +1411,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Life360
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -1433,12 +1433,12 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Life360
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id001
       name: Facebook Analytics
       slug: facebook
@@ -1463,7 +1463,7 @@ stack:
       - Life360
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1481,13 +1481,13 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Cozi
       - OurFamilyWizard
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -1505,12 +1505,12 @@ stack:
       tier: observed
       url: /providers/new-relic/
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 30.2
       apps:
       - Life360
       band: developing
       in_catalog: true
-      kin_score: 49.4
+      kin_score: 48.1
       mcp:
         source: https://github.com/rollbar/rollbar-mcp-server
         status: verified
@@ -1535,14 +1535,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Cozi
       - Life360
       - OurFamilyWizard
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -1561,12 +1561,12 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Life360
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -1586,13 +1586,13 @@ stack:
       url: /capabilities/asset-storage-tiering/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Baby Buddy
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -1617,12 +1617,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 12.2
+      agent_readiness: 12.0
       apps:
       - Cozi
       band: emerging
       in_catalog: true
-      kin_score: 16.9
+      kin_score: 17.9
       mcp:
         status: none
       name: Comscore
@@ -1646,12 +1646,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Brightwheel
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: &id003
         source: https://docs.stripe.com/mcp
         status: verified
@@ -1676,12 +1676,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Brightwheel
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: *id003
       name: Stripe Connect
       slug: stripe
@@ -1700,14 +1700,15 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.7
+      agent_readiness: 22.1
       apps:
       - Life360
       band: thin
       in_catalog: true
-      kin_score: 26.8
+      kin_score: 38.1
       mcp:
-        status: unchecked
+        source: https://mcp.sentiance.com/mcp
+        status: verified
       name: Sentiance
       slug: sentiance
       sources:
@@ -1729,12 +1730,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Brightwheel
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: *id003
       name: Stripe Billing
       slug: stripe
@@ -1755,12 +1756,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Gramps Web
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -1785,10 +1786,10 @@ summary:
   mcp:
     documented: 0
     none: 15
-    unchecked: 2
-    verified: 16
-  mcp_verified: 16
-  mean_kin_score: 44.8
+    unchecked: 1
+    verified: 17
+  mcp_verified: 17
+  mean_kin_score: 48.0
   observed: 29
   queued: 1
   reference_apps: 7

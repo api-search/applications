@@ -904,14 +904,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - Firezone
       - NetBird
       - Tailscale
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -930,14 +930,14 @@ stack:
       tier: declared
       url: /providers/okta/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Firezone
       - NetBird
       - Tailscale
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft Entra ID
@@ -955,12 +955,12 @@ stack:
       tier: declared
       url: /providers/microsoft-entra/
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 37.2
       apps:
       - NetBird
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 73.1
       mcp:
         status: none
       name: Authentik
@@ -976,12 +976,12 @@ stack:
       tier: declared
       url: /providers/authentik/
     - agent_band: agent-aware
-      agent_readiness: 20.9
+      agent_readiness: 25.9
       apps:
       - NetBird
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.3
+      kin_score: 54.1
       mcp:
         status: none
       name: Zitadel
@@ -997,7 +997,7 @@ stack:
       tier: declared
       url: /providers/zitadel/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.3
       apps:
       - NetBird
       band: thin
@@ -1018,12 +1018,33 @@ stack:
       tier: declared
       url: /providers/keycloak/
     - agent_band: agent-aware
-      agent_readiness: 23.2
+      agent_readiness: 20.9
       apps:
       - NetBird
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 34.7
+      mcp:
+        status: none
+      name: Duo SSO
+      slug: duo-security
+      sources:
+      - https://docs.netbird.io/selfhosted/identity-providers
+      status: profiled
+      tags:
+      - Authentication
+      - Identity
+      - MFA
+      - Zero Trust
+      tier: declared
+      url: /providers/duo-security/
+    - agent_band: agent-ready
+      agent_readiness: 31.3
+      apps:
+      - NetBird
+      band: thin
+      in_catalog: true
+      kin_score: 33.6
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=jumpcloud
         status: verified
@@ -1040,33 +1061,12 @@ stack:
       tier: declared
       url: /providers/jumpcloud/
     - agent_band: agent-aware
-      agent_readiness: 21.3
-      apps:
-      - NetBird
-      band: thin
-      in_catalog: true
-      kin_score: 31.8
-      mcp:
-        status: none
-      name: Duo SSO
-      slug: duo-security
-      sources:
-      - https://docs.netbird.io/selfhosted/identity-providers
-      status: profiled
-      tags:
-      - Authentication
-      - Identity
-      - MFA
-      - Zero Trust
-      tier: declared
-      url: /providers/duo-security/
-    - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 24.3
       apps:
       - Tailscale
       band: thin
       in_catalog: true
-      kin_score: 30.5
+      kin_score: 29.5
       mcp:
         source: https://github.com/onelogin/onelogin-mcp
         status: verified
@@ -1083,12 +1083,12 @@ stack:
       tier: declared
       url: /providers/onelogin/
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 16.9
       apps:
       - NetBird
       band: emerging
       in_catalog: true
-      kin_score: 19.1
+      kin_score: 25.1
       mcp:
         status: none
       name: Pocket ID
@@ -1112,13 +1112,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 48.6
       apps:
       - NetBird
       - Tailscale
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -1135,13 +1135,13 @@ stack:
       - Visualization
       tier: declared
       url: /providers/datadog/
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Tailscale
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 78.4
       mcp:
         source: https://www.elastic.co/docs/solutions/search/mcp
         status: verified
@@ -1157,13 +1157,13 @@ stack:
       - Security
       tier: declared
       url: /providers/elastic/
-    - agent_band: agent-aware
-      agent_readiness: 25.3
+    - agent_band: agent-ready
+      agent_readiness: 35.3
       apps:
       - NetBird
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 61.7
+      kin_score: 72.1
       mcp:
         status: none
       name: Amazon Data Firehose
@@ -1179,12 +1179,12 @@ stack:
       tier: declared
       url: /providers/amazon-kinesis-firehose/
     - agent_band: agent-ready
-      agent_readiness: 53.5
+      agent_readiness: 54.4
       apps:
       - Tailscale
       band: strong
       in_catalog: true
-      kin_score: 61.4
+      kin_score: 63.1
       mcp:
         status: none
       name: Splunk (HEC)
@@ -1200,12 +1200,12 @@ stack:
       tier: declared
       url: /providers/splunk/
     - agent_band: agent-aware
-      agent_readiness: 20.6
+      agent_readiness: 20.2
       apps:
       - Tailscale
       band: developing
       in_catalog: true
-      kin_score: 49.5
+      kin_score: 51.6
       mcp:
         status: none
       name: Cribl
@@ -1221,14 +1221,15 @@ stack:
       tier: declared
       url: /providers/cribl/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 45.7
       apps:
       - Tailscale
       band: thin
       in_catalog: true
-      kin_score: 37.7
+      kin_score: 37.3
       mcp:
-        status: unchecked
+        source: https://github.com/axiomhq/mcp-server-axiom
+        status: verified
       name: Axiom
       slug: axiom-co
       sources:
@@ -1242,12 +1243,12 @@ stack:
       tier: declared
       url: /providers/axiom-co/
     - agent_band: agent-aware
-      agent_readiness: 25.5
+      agent_readiness: 24.9
       apps:
       - Tailscale
       band: emerging
       in_catalog: true
-      kin_score: 24.3
+      kin_score: 23.1
       mcp:
         status: none
       name: Vector
@@ -1271,13 +1272,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 29.1
       apps:
       - NetBird
       - Tailscale
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 68.1
       mcp:
         status: none
       name: Microsoft Intune
@@ -1294,12 +1295,12 @@ stack:
       tier: declared
       url: /providers/microsoft-intune/
     - agent_band: agent-ready
-      agent_readiness: 37.2
+      agent_readiness: 36.9
       apps:
       - Tailscale
       band: strong
       in_catalog: true
-      kin_score: 65.4
+      kin_score: 65.2
       mcp:
         source: https://docs.iru.com/en/endpoint/integrations/ai-assistants/iru-mcp
         status: verified
@@ -1316,12 +1317,12 @@ stack:
       tier: declared
       url: /providers/kandji/
     - agent_band: agent-aware
-      agent_readiness: 26.9
+      agent_readiness: 27.4
       apps:
       - NetBird
       band: strong
       in_catalog: true
-      kin_score: 64.7
+      kin_score: 64.0
       mcp:
         source: https://fleetdm.com/guides/fleet-mcp
         status: documented
@@ -1338,12 +1339,12 @@ stack:
       tier: declared
       url: /providers/fleet/
     - agent_band: agent-aware
-      agent_readiness: 24.8
+      agent_readiness: 24.3
       apps:
       - Tailscale
       band: strong
       in_catalog: true
-      kin_score: 62.2
+      kin_score: 60.5
       mcp:
         status: none
       name: Jamf Pro
@@ -1359,12 +1360,12 @@ stack:
       tier: declared
       url: /providers/jamf/
     - agent_band: agent-aware
-      agent_readiness: 12.9
+      agent_readiness: 12.7
       apps:
       - Tailscale
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.4
+      kin_score: 41.9
       mcp:
         status: none
       name: SimpleMDM
@@ -1387,14 +1388,14 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - NetBird
       - Tailscale
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -1412,12 +1413,12 @@ stack:
       tier: declared
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Tailscale
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -1434,12 +1435,12 @@ stack:
       tier: declared
       url: /providers/gcp-cloud-storage/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Tailscale
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1461,7 +1462,7 @@ stack:
       - Tailscale
       band: emerging
       in_catalog: true
-      kin_score: 24.0
+      kin_score: 23.4
       mcp:
         status: none
       name: Wasabi
@@ -1482,7 +1483,7 @@ stack:
       - Tailscale
       band: minimal
       in_catalog: true
-      kin_score: 6.5
+      kin_score: 5.7
       mcp:
         status: none
       name: Storj
@@ -1512,7 +1513,7 @@ stack:
       - Tailscale
       band: emerging
       in_catalog: true
-      kin_score: 22.4
+      kin_score: 22.0
       mcp:
         source: https://github.com/Sentinel-One/purple-mcp
         status: verified
@@ -1530,7 +1531,7 @@ stack:
       tier: declared
       url: /providers/sentinelone/
     - agent_band: agent-ready
-      agent_readiness: 35.1
+      agent_readiness: 34.4
       apps:
       - NetBird
       band: exemplar
@@ -1552,12 +1553,12 @@ stack:
       tier: declared
       url: /providers/crowdstrike/
     - agent_band: agent-ready
-      agent_readiness: 56.5
+      agent_readiness: 55.3
       apps:
       - NetBird
       band: strong
       in_catalog: true
-      kin_score: 65.0
+      kin_score: 63.5
       mcp:
         status: none
       name: Huntress
@@ -1573,12 +1574,12 @@ stack:
       tier: declared
       url: /providers/huntress/
     - agent_band: agent-ready
-      agent_readiness: 34.5
+      agent_readiness: 34.8
       apps:
       - Tailscale
       band: strong
       in_catalog: true
-      kin_score: 57.1
+      kin_score: 56.9
       mcp:
         source: https://github.com/panther-labs/mcp-panther
         status: verified
@@ -1595,12 +1596,12 @@ stack:
       tier: declared
       url: /providers/panther/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - NetBird
       band: emerging
       in_catalog: true
-      kin_score: 14.3
+      kin_score: 15.5
       mcp:
         status: none
       name: Wazuh
@@ -1624,12 +1625,12 @@ stack:
       via_parent: Security Architecture Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.5
+      agent_readiness: 21.0
       apps:
       - Headscale
       band: developing
       in_catalog: true
-      kin_score: 42.2
+      kin_score: 40.8
       mcp:
         status: none
       name: Tailscale DERP relay map
@@ -1654,15 +1655,15 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Firezone
       - NetBird
       - Tailscale
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google / Google Workspace sign-in
@@ -1680,12 +1681,12 @@ stack:
       tier: declared
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Tailscale
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -1702,12 +1703,12 @@ stack:
       tier: declared
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Tailscale
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Sign in with Apple
@@ -1730,13 +1731,13 @@ stack:
       url: /capabilities/in-app-purchases-app-store-billing/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Mullvad VPN
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp: &id001
         status: none
       name: Google Play Billing
@@ -1759,13 +1760,13 @@ stack:
       url: /capabilities/mobile-attribution-deep-linking/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Proton VPN
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp: *id001
       name: Google Play Install Referrer
       slug: google-play
@@ -1789,7 +1790,7 @@ stack:
       - Proton VPN
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1814,10 +1815,10 @@ summary:
   mcp:
     documented: 1
     none: 21
-    unchecked: 1
-    verified: 14
-  mcp_verified: 14
-  mean_kin_score: 51.6
+    unchecked: 0
+    verified: 15
+  mcp_verified: 15
+  mean_kin_score: 53.6
   observed: 3
   queued: 0
   reference_apps: 7

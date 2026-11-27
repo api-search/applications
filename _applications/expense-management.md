@@ -3838,14 +3838,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 38.3
       apps:
       - Brex
       - Expensify
       - Ramp
       band: strong
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 54.7
       mcp: &id003
         status: none
       name: Workday
@@ -3863,14 +3863,14 @@ stack:
       tier: declared
       url: /providers/workday/
     - agent_band: agent-ready
-      agent_readiness: 41.7
+      agent_readiness: 44.9
       apps:
       - Brex
       - Expensify
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 47.0
+      kin_score: 45.7
       mcp:
         status: none
       name: Justworks
@@ -3888,14 +3888,14 @@ stack:
       tier: declared
       url: /providers/justworks/
     - agent_band: agent-ready
-      agent_readiness: 35.7
+      agent_readiness: 39.8
       apps:
       - Brex
       - Expensify
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 43.7
+      kin_score: 45.6
       mcp:
         status: none
       name: ADP
@@ -3913,14 +3913,14 @@ stack:
       tier: declared
       url: /providers/adp/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 31.7
       apps:
       - Brex
       - Expensify
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 42.0
+      kin_score: 44.9
       mcp:
         status: none
       name: Gusto
@@ -3938,14 +3938,14 @@ stack:
       tier: declared
       url: /providers/gusto/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 26.3
       apps:
       - Brex
       - Expensify
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 40.9
+      kin_score: 40.7
       mcp:
         source: https://documentation.bamboohr.com/docs/mcp-server
         status: verified
@@ -3963,15 +3963,15 @@ stack:
       - Time Tracking
       tier: declared
       url: /providers/bamboohr/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
+    - agent_band: agent-ready
+      agent_readiness: 29.3
       apps:
       - Brex
       - Expensify
       - Ramp
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 37.8
       mcp:
         status: none
       name: Paychex
@@ -3989,39 +3989,14 @@ stack:
       tier: declared
       url: /providers/paychex-developer/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 23.4
       apps:
       - Brex
       - Expensify
       - Ramp
       band: thin
       in_catalog: true
-      kin_score: 31.7
-      mcp:
-        status: none
-      name: UKG
-      slug: ukg
-      sources:
-      - https://ramp.com/integrations
-      - https://use.expensify.com/integrations
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - HCM
-      - Human Resources
-      - Payroll
-      - Workforce Management
-      tier: declared
-      url: /providers/ukg/
-    - agent_band: agent-aware
-      agent_readiness: 23.9
-      apps:
-      - Brex
-      - Expensify
-      - Ramp
-      band: thin
-      in_catalog: true
-      kin_score: 31.4
+      kin_score: 32.4
       mcp:
         status: none
       name: Paylocity
@@ -4038,6 +4013,31 @@ stack:
       - Payroll
       tier: declared
       url: /providers/paylocity/
+    - agent_band: agent-aware
+      agent_readiness: 24.3
+      apps:
+      - Brex
+      - Expensify
+      - Ramp
+      band: thin
+      in_catalog: true
+      kin_score: 30.4
+      mcp:
+        status: none
+      name: UKG
+      slug: ukg
+      sources:
+      - https://ramp.com/integrations
+      - https://use.expensify.com/integrations
+      - https://www.brex.com/product/integrations
+      status: profiled
+      tags:
+      - HCM
+      - Human Resources
+      - Payroll
+      - Workforce Management
+      tier: declared
+      url: /providers/ukg/
     - agent_band: human-only
       agent_readiness: 3.1
       apps:
@@ -4046,7 +4046,7 @@ stack:
       - Ramp
       band: emerging
       in_catalog: true
-      kin_score: 16.9
+      kin_score: 18.0
       mcp:
         status: none
       name: TriNet
@@ -4064,13 +4064,13 @@ stack:
       tier: declared
       url: /providers/trinet-group/
     - agent_band: agent-native
-      agent_readiness: 51.7
+      agent_readiness: 52.0
       apps:
       - Brex
       - Expensify
       band: strong
       in_catalog: true
-      kin_score: 63.3
+      kin_score: 60.9
       mcp:
         source: https://developer.deel.com/docs/mcp
         status: documented
@@ -4088,13 +4088,13 @@ stack:
       tier: declared
       url: /providers/deel-com/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.3
       apps:
       - Brex
       - Expensify
       band: strong
       in_catalog: true
-      kin_score: 59.6
+      kin_score: 59.4
       mcp:
         status: none
       name: Namely
@@ -4111,13 +4111,13 @@ stack:
       tier: declared
       url: /providers/namely/
     - agent_band: agent-ready
-      agent_readiness: 45.2
+      agent_readiness: 44.3
       apps:
       - Brex
       - Expensify
       band: developing
       in_catalog: true
-      kin_score: 53.9
+      kin_score: 52.0
       mcp:
         status: none
       name: Humaans
@@ -4134,13 +4134,13 @@ stack:
       tier: declared
       url: /providers/humaans-io/
     - agent_band: agent-ready
-      agent_readiness: 36.8
+      agent_readiness: 42.3
       apps:
       - Brex
       - Expensify
       band: developing
       in_catalog: true
-      kin_score: 41.0
+      kin_score: 47.3
       mcp:
         status: none
       name: Lucca
@@ -4157,13 +4157,13 @@ stack:
       tier: declared
       url: /providers/lucca/
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 19.7
       apps:
       - Brex
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 31.3
+      kin_score: 30.6
       mcp:
         status: none
       name: Breathe
@@ -4180,13 +4180,13 @@ stack:
       tier: declared
       url: /providers/breathe-hr/
     - agent_band: agent-aware
-      agent_readiness: 19.7
+      agent_readiness: 19.3
       apps:
       - Brex
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 30.4
+      kin_score: 29.3
       mcp:
         source: https://apidocs.hibob.com/docs/hibob-mcp-server
         status: verified
@@ -4204,13 +4204,13 @@ stack:
       tier: declared
       url: /providers/bob/
     - agent_band: agent-aware
-      agent_readiness: 24.3
+      agent_readiness: 23.8
       apps:
       - Brex
       - Ramp
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 26.1
+      kin_score: 26.2
       mcp:
         status: none
       name: SAP SuccessFactors
@@ -4227,13 +4227,13 @@ stack:
       tier: declared
       url: /providers/sap-successfactors/
     - agent_band: agent-aware
-      agent_readiness: 20.6
+      agent_readiness: 26.5
       apps:
       - Brex
       - Expensify
       band: emerging
       in_catalog: true
-      kin_score: 25.8
+      kin_score: 26.1
       mcp:
         status: none
       name: Freshteam
@@ -4249,60 +4249,14 @@ stack:
       - Recruiting
       tier: declared
       url: /providers/freshteam/
-    - agent_band: human-only
-      agent_readiness: 2.5
-      apps:
-      - Brex
-      - Ramp
-      band: emerging
-      in_catalog: true
-      kin_score: 20.9
-      mcp:
-        status: none
-      name: Zenefits
-      slug: zenefits
-      sources:
-      - https://ramp.com/integrations
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - Benefits Administration
-      - HRIS
-      - Human Resources
-      - Payroll
-      tier: declared
-      url: /providers/zenefits/
     - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 14.8
       apps:
       - Brex
       - Expensify
       band: emerging
       in_catalog: true
-      kin_score: 14.3
-      mcp:
-        status: none
-      name: Insperity
-      slug: insperity
-      sources:
-      - https://use.expensify.com/integrations
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - Benefits
-      - Fortune 1000
-      - Human Resources
-      - Payroll
-      tier: declared
-      url: /providers/insperity/
-    - agent_band: agent-aware
-      agent_readiness: 15.1
-      apps:
-      - Brex
-      - Expensify
-      band: emerging
-      in_catalog: true
-      kin_score: 13.6
+      kin_score: 20.1
       mcp:
         status: none
       name: Dayforce
@@ -4319,59 +4273,36 @@ stack:
       tier: declared
       url: /providers/dayforce/
     - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Brex
-      - Expensify
-      band: emerging
-      in_catalog: true
-      kin_score: 13.2
-      mcp:
-        status: none
-      name: HR Cloud
-      slug: hr-cloud
-      sources:
-      - https://use.expensify.com/integrations
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Frontline
-      - Human Resources
-      - Software-as-a-Service
-      tier: declared
-      url: /providers/hr-cloud/
-    - agent_band: human-only
       agent_readiness: 2.5
       apps:
       - Brex
-      - Expensify
+      - Ramp
       band: emerging
       in_catalog: true
-      kin_score: 11.3
+      kin_score: 19.3
       mcp:
         status: none
-      name: Paycor
-      slug: paycor
+      name: Zenefits
+      slug: zenefits
       sources:
-      - https://use.expensify.com/integrations
+      - https://ramp.com/integrations
       - https://www.brex.com/product/integrations
       status: profiled
       tags:
       - Benefits Administration
-      - HCM
+      - HRIS
       - Human Resources
       - Payroll
       tier: declared
-      url: /providers/paycor/
+      url: /providers/zenefits/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Brex
       - Expensify
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.4
+      kin_score: 16.8
       mcp:
         status: unknown
       name: Kallidus
@@ -4387,6 +4318,75 @@ stack:
       - Performance Management
       tier: declared
       url: /providers/kallidus/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Brex
+      - Expensify
+      band: emerging
+      in_catalog: true
+      kin_score: 16.4
+      mcp:
+        status: none
+      name: HR Cloud
+      slug: hr-cloud
+      sources:
+      - https://use.expensify.com/integrations
+      - https://www.brex.com/product/integrations
+      status: profiled
+      tags:
+      - Artificial Intelligence
+      - Frontline
+      - Human Resources
+      - Software-as-a-Service
+      tier: declared
+      url: /providers/hr-cloud/
+    - agent_band: agent-aware
+      agent_readiness: 10.6
+      apps:
+      - Brex
+      - Expensify
+      band: emerging
+      in_catalog: true
+      kin_score: 14.6
+      mcp:
+        status: none
+      name: Insperity
+      slug: insperity
+      sources:
+      - https://use.expensify.com/integrations
+      - https://www.brex.com/product/integrations
+      status: profiled
+      tags:
+      - Benefits
+      - Fortune 1000
+      - Human Resources
+      - Payroll
+      tier: declared
+      url: /providers/insperity/
+    - agent_band: human-only
+      agent_readiness: 2.5
+      apps:
+      - Brex
+      - Expensify
+      band: minimal
+      in_catalog: true
+      kin_score: 9.8
+      mcp:
+        status: none
+      name: Paycor
+      slug: paycor
+      sources:
+      - https://use.expensify.com/integrations
+      - https://www.brex.com/product/integrations
+      status: profiled
+      tags:
+      - Benefits Administration
+      - HCM
+      - Human Resources
+      - Payroll
+      tier: declared
+      url: /providers/paycor/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -4407,12 +4407,12 @@ stack:
       tier: declared
       url: null
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - Ramp
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp: &id009
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -4429,12 +4429,12 @@ stack:
       tier: declared
       url: /providers/square/
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 59.8
       apps:
       - Brex
       band: exemplar
       in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.4
       mcp: &id001
         source: https://github.com/oracle/mcp
         status: verified
@@ -4451,12 +4451,12 @@ stack:
       tier: declared
       url: /providers/oracle/
     - agent_band: agent-ready
-      agent_readiness: 44.1
+      agent_readiness: 47.6
       apps:
       - Brex
       band: strong
       in_catalog: true
-      kin_score: 62.2
+      kin_score: 59.9
       mcp:
         status: none
       name: ChartHop
@@ -4472,12 +4472,12 @@ stack:
       tier: declared
       url: /providers/charthop/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.3
       apps:
       - Brex
       band: developing
       in_catalog: true
-      kin_score: 45.4
+      kin_score: 43.2
       mcp:
         source: https://github.com/HR-Partner/hrpartner-mcp
         status: verified
@@ -4494,12 +4494,12 @@ stack:
       tier: declared
       url: /providers/hr-partner/
     - agent_band: agent-aware
-      agent_readiness: 20.9
+      agent_readiness: 25.9
       apps:
       - Brex
       band: thin
       in_catalog: true
-      kin_score: 37.0
+      kin_score: 35.6
       mcp:
         status: none
       name: Lattice
@@ -4515,138 +4515,12 @@ stack:
       tier: declared
       url: /providers/lattice/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 14.4
       apps:
       - Brex
       band: thin
       in_catalog: true
-      kin_score: 35.6
-      mcp:
-        status: none
-      name: Sage HR
-      slug: sage-hr
-      sources:
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - HRIS
-      - Human Resources
-      - People
-      - Small Business
-      tier: declared
-      url: /providers/sage-hr/
-    - agent_band: agent-aware
-      agent_readiness: 22.4
-      apps:
-      - Brex
-      band: thin
-      in_catalog: true
-      kin_score: 32.9
-      mcp:
-        status: none
-      name: Rippling
-      slug: rippling
-      sources:
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - HCM
-      - Human Resources
-      - IT
-      - Payroll
-      tier: declared
-      url: /providers/rippling/
-    - agent_band: agent-ready
-      agent_readiness: 41.8
-      apps:
-      - Brex
-      band: thin
-      in_catalog: true
-      kin_score: 31.4
-      mcp:
-        status: none
-      name: Personio
-      slug: personio
-      sources:
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - Applicant Tracking
-      - HRIS
-      - Human Resources
-      - Recruiting
-      tier: declared
-      url: /providers/personio/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
-      apps:
-      - Brex
-      band: thin
-      in_catalog: true
-      kin_score: 31.0
-      mcp:
-        status: none
-      name: Charlie
-      slug: charliehr
-      sources:
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - HRIS
-      - Human Resources
-      - Leave
-      - People
-      tier: declared
-      url: /providers/charliehr/
-    - agent_band: agent-aware
-      agent_readiness: 23.7
-      apps:
-      - Brex
-      band: thin
-      in_catalog: true
-      kin_score: 30.4
-      mcp:
-        status: none
-      name: Nmbrs
-      slug: nmbrs
-      sources:
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - Employee Management
-      - HRIS
-      - Human Resources
-      - Payroll
-      tier: declared
-      url: /providers/nmbrs/
-    - agent_band: agent-ready
-      agent_readiness: 47.8
-      apps:
-      - Expensify
-      band: thin
-      in_catalog: true
-      kin_score: 30.0
-      mcp:
-        status: none
-      name: Keka
-      slug: keka
-      sources:
-      - https://use.expensify.com/integrations
-      status: profiled
-      tags:
-      - Attendance
-      - Human Resources
-      - Leave Management
-      - Payroll
-      tier: declared
-      url: /providers/keka/
-    - agent_band: agent-aware
-      agent_readiness: 14.7
-      apps:
-      - Brex
-      band: thin
-      in_catalog: true
-      kin_score: 29.1
+      kin_score: 35.1
       mcp:
         source: https://www.clayhr.com/mcp-ai-powered-hr-data-access
         status: verified
@@ -4662,34 +4536,55 @@ stack:
       - Software-as-a-Service
       tier: declared
       url: /providers/clayhr/
-    - agent_band: agent-ready
-      agent_readiness: 42.4
+    - agent_band: agent-aware
+      agent_readiness: 24.9
       apps:
       - Brex
       band: thin
       in_catalog: true
-      kin_score: 27.8
+      kin_score: 34.3
       mcp:
         status: none
-      name: Sesame
-      slug: sesame-hr
+      name: Sage HR
+      slug: sage-hr
       sources:
       - https://www.brex.com/product/integrations
       status: profiled
       tags:
       - HRIS
       - Human Resources
-      - Time Tracking
-      - Workforce Management
+      - People
+      - Small Business
       tier: declared
-      url: /providers/sesame-hr/
+      url: /providers/sage-hr/
     - agent_band: agent-aware
-      agent_readiness: 14.8
+      agent_readiness: 28.5
+      apps:
+      - Brex
+      band: thin
+      in_catalog: true
+      kin_score: 32.8
+      mcp:
+        status: none
+      name: Rippling
+      slug: rippling
+      sources:
+      - https://www.brex.com/product/integrations
+      status: profiled
+      tags:
+      - HCM
+      - Human Resources
+      - IT
+      - Payroll
+      tier: declared
+      url: /providers/rippling/
+    - agent_band: agent-aware
+      agent_readiness: 14.5
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 26.8
+      kin_score: 30.6
       mcp:
         status: unknown
       name: PeopleHR
@@ -4704,13 +4599,76 @@ stack:
       - Software-as-a-Service
       tier: declared
       url: /providers/peoplehr/
+    - agent_band: agent-ready
+      agent_readiness: 34.3
+      apps:
+      - Brex
+      band: thin
+      in_catalog: true
+      kin_score: 30.5
+      mcp:
+        status: none
+      name: Charlie
+      slug: charliehr
+      sources:
+      - https://www.brex.com/product/integrations
+      status: profiled
+      tags:
+      - HRIS
+      - Human Resources
+      - Leave
+      - People
+      tier: declared
+      url: /providers/charliehr/
+    - agent_band: agent-ready
+      agent_readiness: 41.0
+      apps:
+      - Brex
+      band: thin
+      in_catalog: true
+      kin_score: 29.8
+      mcp:
+        status: none
+      name: Personio
+      slug: personio
+      sources:
+      - https://www.brex.com/product/integrations
+      status: profiled
+      tags:
+      - Applicant Tracking
+      - HRIS
+      - Human Resources
+      - Recruiting
+      tier: declared
+      url: /providers/personio/
+    - agent_band: agent-ready
+      agent_readiness: 28.6
+      apps:
+      - Brex
+      band: thin
+      in_catalog: true
+      kin_score: 29.3
+      mcp:
+        status: none
+      name: Nmbrs
+      slug: nmbrs
+      sources:
+      - https://www.brex.com/product/integrations
+      status: profiled
+      tags:
+      - Employee Management
+      - HRIS
+      - Human Resources
+      - Payroll
+      tier: declared
+      url: /providers/nmbrs/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Brex
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.2
+      kin_score: 29.1
       mcp:
         status: unknown
       name: Lano
@@ -4725,13 +4683,55 @@ stack:
       - Payroll
       tier: declared
       url: /providers/lano/
+    - agent_band: agent-ready
+      agent_readiness: 46.8
+      apps:
+      - Expensify
+      band: thin
+      in_catalog: true
+      kin_score: 28.9
+      mcp:
+        status: none
+      name: Keka
+      slug: keka
+      sources:
+      - https://use.expensify.com/integrations
+      status: profiled
+      tags:
+      - Attendance
+      - Human Resources
+      - Leave Management
+      - Payroll
+      tier: declared
+      url: /providers/keka/
+    - agent_band: agent-ready
+      agent_readiness: 47.3
+      apps:
+      - Brex
+      band: thin
+      in_catalog: true
+      kin_score: 28.1
+      mcp:
+        status: none
+      name: Sesame
+      slug: sesame-hr
+      sources:
+      - https://www.brex.com/product/integrations
+      status: profiled
+      tags:
+      - HRIS
+      - Human Resources
+      - Time Tracking
+      - Workforce Management
+      tier: declared
+      url: /providers/sesame-hr/
     - agent_band: human-only
-      agent_readiness: 5.0
+      agent_readiness: 4.9
       apps:
       - Brex
       band: emerging
       in_catalog: true
-      kin_score: 17.4
+      kin_score: 23.5
       mcp:
         status: unknown
       name: Alexis
@@ -4750,9 +4750,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Expensify
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.4
+      kin_score: 16.9
       mcp:
         status: none
       name: Simployer
@@ -4768,33 +4768,12 @@ stack:
       tier: declared
       url: /providers/simployer/
     - agent_band: human-only
-      agent_readiness: 0.6
-      apps:
-      - Expensify
-      band: minimal
-      in_catalog: true
-      kin_score: 9.0
-      mcp:
-        status: none
-      name: Playroll
-      slug: playroll
-      sources:
-      - https://use.expensify.com/integrations
-      status: profiled
-      tags:
-      - Contractor Management
-      - Employer of Record
-      - Global Payroll
-      - Human Resources
-      tier: declared
-      url: /providers/playroll/
-    - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Brex
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.0
+      kin_score: 13.1
       mcp:
         status: unknown
       name: ProLiant
@@ -4809,6 +4788,27 @@ stack:
       - Software-as-a-Service
       tier: declared
       url: /providers/proliant/
+    - agent_band: human-only
+      agent_readiness: 1.7
+      apps:
+      - Expensify
+      band: minimal
+      in_catalog: true
+      kin_score: 7.7
+      mcp:
+        status: none
+      name: Playroll
+      slug: playroll
+      sources:
+      - https://use.expensify.com/integrations
+      status: profiled
+      tags:
+      - Contractor Management
+      - Employer of Record
+      - Global Payroll
+      - Human Resources
+      tier: declared
+      url: /providers/playroll/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -4852,14 +4852,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Brex
       - Expensify
       - Ramp
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -4878,14 +4878,14 @@ stack:
       tier: declared
       url: /providers/xero/
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 59.8
       apps:
       - Brex
       - Expensify
       - Ramp
       band: exemplar
       in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.4
       mcp: *id001
       name: Oracle
       slug: oracle
@@ -4898,14 +4898,14 @@ stack:
       tier: declared
       url: /providers/oracle/
     - agent_band: agent-ready
-      agent_readiness: 33.1
+      agent_readiness: 37.6
       apps:
       - Brex
       - Expensify
       - Ramp
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.9
+      kin_score: 67.7
       mcp:
         source: https://github.com/microsoft/Dataverse-MCP
         status: verified
@@ -4923,15 +4923,15 @@ stack:
       - Enterprise
       tier: declared
       url: /providers/microsoft-dynamics-365/
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Brex
       - Expensify
       - Ramp
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -4950,14 +4950,14 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-native
-      agent_readiness: 50.0
+      agent_readiness: 50.4
       apps:
       - Brex
       - Expensify
       - Ramp
       band: strong
       in_catalog: true
-      kin_score: 56.1
+      kin_score: 57.2
       mcp:
         status: none
       name: Rillet
@@ -4975,14 +4975,14 @@ stack:
       tier: declared
       url: /providers/rillet/
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 54.4
       apps:
       - Brex
       - Expensify
       - Ramp
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 53.9
+      kin_score: 55.0
       mcp:
         source: https://docs.campfire.ai/guides/ai-integration
         status: verified
@@ -5001,14 +5001,14 @@ stack:
       tier: declared
       url: /providers/campfire/
     - agent_band: agent-ready
-      agent_readiness: 50.0
+      agent_readiness: 48.9
       apps:
       - Brex
       - Expensify
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 49.7
+      kin_score: 49.1
       mcp:
         source: https://docs.dualentry.com/developers/guides/integrations-and-tools/mcp
         status: documented
@@ -5027,14 +5027,14 @@ stack:
       tier: declared
       url: /providers/dualentry/
     - agent_band: agent-aware
-      agent_readiness: 15.5
+      agent_readiness: 15.1
       apps:
       - Brex
       - Expensify
       - Ramp
       band: thin
       in_catalog: true
-      kin_score: 26.3
+      kin_score: 26.5
       mcp:
         status: none
       name: Sage Intacct
@@ -5059,7 +5059,7 @@ stack:
       - Ramp
       band: emerging
       in_catalog: true
-      kin_score: 12.5
+      kin_score: 11.4
       mcp:
         status: none
       name: NetSuite
@@ -5077,13 +5077,13 @@ stack:
       tier: declared
       url: /providers/netsuite/
     - agent_band: agent-ready
-      agent_readiness: 36.1
+      agent_readiness: 39.9
       apps:
       - Brex
       - Ramp
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 73.1
       mcp:
         status: none
       name: Microsoft Dynamics 365 Business Central
@@ -5100,13 +5100,13 @@ stack:
       tier: declared
       url: /providers/microsoft-dynamics-365-business-central/
     - agent_band: agent-ready
-      agent_readiness: 35.7
+      agent_readiness: 34.9
       apps:
       - Brex
       - Ramp
       band: strong
       in_catalog: true
-      kin_score: 59.9
+      kin_score: 58.9
       mcp:
         source: https://github.com/digits/mcp-skills
         status: documented
@@ -5124,13 +5124,13 @@ stack:
       tier: declared
       url: /providers/digits-com/
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 38.3
       apps:
       - Brex
       - Ramp
       band: strong
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 54.7
       mcp: *id003
       name: Workday Financial Management
       slug: workday
@@ -5142,13 +5142,13 @@ stack:
       tier: declared
       url: /providers/workday/
     - agent_band: agent-ready
-      agent_readiness: 31.6
+      agent_readiness: 34.1
       apps:
       - Brex
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 47.6
+      kin_score: 49.3
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=io.puzzle/puzzle
         status: verified
@@ -5165,13 +5165,55 @@ stack:
       - Finance
       tier: declared
       url: /providers/puzzle/
+    - agent_band: agent-ready
+      agent_readiness: 35.3
+      apps:
+      - Ramp
+      band: exemplar
+      in_catalog: true
+      kin_score: 66.6
+      mcp:
+        status: none
+      name: Viewpoint Spectrum / Vista
+      slug: trimble
+      sources:
+      - https://ramp.com/integrations
+      status: profiled
+      tags:
+      - Construction
+      - GPS
+      - Geospatial
+      - Transportation
+      tier: declared
+      url: /providers/trimble/
+    - agent_band: agent-ready
+      agent_readiness: 31.6
+      apps:
+      - Ramp
+      band: strong
+      in_catalog: true
+      kin_score: 55.3
+      mcp:
+        status: none
+      name: Blackbaud
+      slug: blackbaud
+      sources:
+      - https://ramp.com/integrations
+      status: profiled
+      tags:
+      - CRM
+      - Donor Management
+      - Fundraising
+      - Non-Profit
+      tier: declared
+      url: /providers/blackbaud/
     - agent_band: agent-aware
-      agent_readiness: 18.9
+      agent_readiness: 18.6
       apps:
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 45.5
+      kin_score: 47.5
       mcp:
         source: https://www.zoho.com/mcp/
         status: documented
@@ -5188,12 +5230,12 @@ stack:
       tier: declared
       url: /providers/zoho-books/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.6
       apps:
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 41.8
+      kin_score: 41.7
       mcp:
         status: none
       name: Sage 100 / Sage 300
@@ -5209,54 +5251,12 @@ stack:
       tier: declared
       url: /providers/sage/
     - agent_band: agent-aware
-      agent_readiness: 23.0
-      apps:
-      - Ramp
-      band: developing
-      in_catalog: true
-      kin_score: 41.1
-      mcp:
-        status: none
-      name: Viewpoint Spectrum / Vista
-      slug: trimble
-      sources:
-      - https://ramp.com/integrations
-      status: profiled
-      tags:
-      - Construction
-      - GPS
-      - Geospatial
-      - Transportation
-      tier: declared
-      url: /providers/trimble/
-    - agent_band: agent-ready
-      agent_readiness: 32.2
-      apps:
-      - Ramp
-      band: developing
-      in_catalog: true
-      kin_score: 39.3
-      mcp:
-        status: none
-      name: Blackbaud
-      slug: blackbaud
-      sources:
-      - https://ramp.com/integrations
-      status: profiled
-      tags:
-      - CRM
-      - Donor Management
-      - Fundraising
-      - Non-Profit
-      tier: declared
-      url: /providers/blackbaud/
-    - agent_band: agent-aware
-      agent_readiness: 25.5
+      agent_readiness: 25.0
       apps:
       - Ramp
       band: thin
       in_catalog: true
-      kin_score: 35.3
+      kin_score: 36.6
       mcp:
         source: https://claude.com/connectors/yardi-virtuoso
         status: documented
@@ -5272,34 +5272,13 @@ stack:
       - Investment Management
       tier: declared
       url: /providers/yardi/
-    - agent_band: agent-aware
-      agent_readiness: 17.9
-      apps:
-      - Ramp
-      band: thin
-      in_catalog: true
-      kin_score: 27.9
-      mcp:
-        status: none
-      name: Odoo
-      slug: odoo
-      sources:
-      - https://ramp.com/integrations
-      status: profiled
-      tags:
-      - Business Applications
-      - CRM
-      - ERP
-      - Open Source
-      tier: declared
-      url: /providers/odoo/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Ramp
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.6
+      kin_score: 29.7
       mcp:
         status: none
       name: Aplos
@@ -5315,75 +5294,54 @@ stack:
       tier: declared
       url: /providers/aplos/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 17.5
       apps:
       - Ramp
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 17.9
+      kin_score: 27.6
       mcp:
         status: none
-      name: Acumatica
-      slug: acumatica
+      name: Odoo
+      slug: odoo
       sources:
       - https://ramp.com/integrations
       status: profiled
       tags:
-      - Cloud ERP
+      - Business Applications
+      - CRM
       - ERP
-      - Financial Management
-      - Inventory
+      - Open Source
       tier: declared
-      url: /providers/acumatica/
+      url: /providers/odoo/
     - agent_band: agent-aware
-      agent_readiness: 12.2
+      agent_readiness: 18.3
+      apps:
+      - Expensify
+      band: emerging
+      in_catalog: true
+      kin_score: 21.0
+      mcp:
+        status: unknown
+      name: Fintua
+      slug: fintua
+      sources:
+      - https://use.expensify.com/integrations
+      status: profiled
+      tags:
+      - Company
+      - Compliance
+      - Tax
+      - VAT
+      tier: declared
+      url: /providers/fintua/
+    - agent_band: agent-aware
+      agent_readiness: 14.8
       apps:
       - Ramp
       band: emerging
       in_catalog: true
-      kin_score: 16.3
-      mcp:
-        status: none
-      name: Finaloop
-      slug: finaloop
-      sources:
-      - https://ramp.com/integrations
-      status: profiled
-      tags:
-      - Accounting
-      - Bookkeeping
-      - Company
-      - E-Commerce
-      tier: declared
-      url: /providers/finaloop/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Brex
-      band: emerging
-      in_catalog: true
-      kin_score: 15.3
-      mcp:
-        status: none
-      name: Hanover Park
-      slug: hanover-park
-      sources:
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - Company
-      - Enterprise Software
-      - Fund Administration
-      - Private Equity
-      tier: declared
-      url: /providers/hanover-park/
-    - agent_band: agent-aware
-      agent_readiness: 18.0
-      apps:
-      - Ramp
-      band: emerging
-      in_catalog: true
-      kin_score: 15.1
+      kin_score: 20.5
       mcp:
         source: https://learning.deltek.com/bundle/MCP_Server_Setup_Guide_for_REST_APIs/page/overview.html
         status: documented
@@ -5399,34 +5357,76 @@ stack:
       - Software
       tier: declared
       url: /providers/deltek/
-    - agent_band: agent-aware
-      agent_readiness: 17.3
+    - agent_band: human-only
+      agent_readiness: 0.7
       apps:
-      - Expensify
+      - Brex
       band: emerging
       in_catalog: true
-      kin_score: 13.1
+      kin_score: 17.7
       mcp:
-        status: unknown
-      name: Fintua
-      slug: fintua
+        status: none
+      name: Hanover Park
+      slug: hanover-park
       sources:
-      - https://use.expensify.com/integrations
+      - https://www.brex.com/product/integrations
       status: profiled
       tags:
       - Company
-      - Compliance
-      - Tax
-      - VAT
+      - Enterprise Software
+      - Fund Administration
+      - Private Equity
       tier: declared
-      url: /providers/fintua/
+      url: /providers/hanover-park/
+    - agent_band: agent-aware
+      agent_readiness: 13.3
+      apps:
+      - Ramp
+      band: emerging
+      in_catalog: true
+      kin_score: 17.1
+      mcp:
+        status: none
+      name: Acumatica
+      slug: acumatica
+      sources:
+      - https://ramp.com/integrations
+      status: profiled
+      tags:
+      - Cloud ERP
+      - ERP
+      - Financial Management
+      - Inventory
+      tier: declared
+      url: /providers/acumatica/
+    - agent_band: agent-aware
+      agent_readiness: 13.0
+      apps:
+      - Ramp
+      band: emerging
+      in_catalog: true
+      kin_score: 16.6
+      mcp:
+        status: none
+      name: Finaloop
+      slug: finaloop
+      sources:
+      - https://ramp.com/integrations
+      status: profiled
+      tags:
+      - Accounting
+      - Bookkeeping
+      - Company
+      - E-Commerce
+      tier: declared
+      url: /providers/finaloop/
     - agent_band: human-only
       agent_readiness: 3.1
       apps:
       - Expensify
       band: emerging
       in_catalog: true
-      kin_score: 13.0
+      kin_score: 12.7
       mcp:
         status: none
       name: Certinia
@@ -5450,12 +5450,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 52.9
+      agent_readiness: 51.8
       apps:
       - Expensify
       band: strong
       in_catalog: true
-      kin_score: 61.3
+      kin_score: 59.8
       mcp:
         status: none
       name: Citi
@@ -5470,33 +5470,13 @@ stack:
       - Payments
       tier: declared
       url: /providers/citi/
-    - agent_band: agent-aware
-      agent_readiness: 25.4
+    - agent_band: agent-ready
+      agent_readiness: 28.8
       apps:
       - Expensify
       band: developing
       in_catalog: true
-      kin_score: 42.9
-      mcp: &id005
-        status: none
-      name: Wells Fargo
-      slug: wells-fargo
-      sources:
-      - https://use.expensify.com/integrations
-      status: profiled
-      tags: &id006
-      - Banking
-      - Consumer Banking
-      - Fortune 100
-      tier: declared
-      url: /providers/wells-fargo/
-    - agent_band: agent-aware
-      agent_readiness: 25.5
-      apps:
-      - Expensify
-      band: developing
-      in_catalog: true
-      kin_score: 41.1
+      kin_score: 49.8
       mcp:
         status: none
       name: ANZ
@@ -5511,13 +5491,33 @@ stack:
       - Open Banking
       tier: declared
       url: /providers/anz/
+    - agent_band: agent-aware
+      agent_readiness: 24.8
+      apps:
+      - Expensify
+      band: developing
+      in_catalog: true
+      kin_score: 43.4
+      mcp: &id005
+        status: none
+      name: Wells Fargo
+      slug: wells-fargo
+      sources:
+      - https://use.expensify.com/integrations
+      status: profiled
+      tags: &id006
+      - Banking
+      - Consumer Banking
+      - Fortune 100
+      tier: declared
+      url: /providers/wells-fargo/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 29.2
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 38.3
+      kin_score: 36.3
       mcp: &id007
         status: none
       name: Bank of America
@@ -5533,12 +5533,12 @@ stack:
       tier: declared
       url: /providers/bank-of-america/
     - agent_band: agent-aware
-      agent_readiness: 26.3
+      agent_readiness: 25.7
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 33.4
+      kin_score: 34.9
       mcp:
         status: none
       name: Chase
@@ -5559,7 +5559,7 @@ stack:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 32.0
+      kin_score: 34.0
       mcp:
         status: none
       name: Capital One
@@ -5580,7 +5580,7 @@ stack:
       - Expensify
       band: emerging
       in_catalog: true
-      kin_score: 18.9
+      kin_score: 20.3
       mcp:
         status: none
       name: American Express
@@ -5595,13 +5595,13 @@ stack:
       - Payments
       tier: declared
       url: /providers/american-express/
-    - agent_band: agent-aware
-      agent_readiness: 6.0
+    - agent_band: human-only
+      agent_readiness: 3.0
       apps:
       - Brex
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.3
+      kin_score: 16.8
       mcp:
         status: unknown
       name: Conferma
@@ -5622,7 +5622,7 @@ stack:
       - Expensify
       band: minimal
       in_catalog: true
-      kin_score: 6.7
+      kin_score: 9.5
       mcp:
         status: none
       name: AirPlus International
@@ -5637,13 +5637,13 @@ stack:
       - Payments
       tier: declared
       url: /providers/airplus/
-    - agent_band: agent-aware
-      agent_readiness: 6.0
+    - agent_band: human-only
+      agent_readiness: 3.0
       apps:
       - Expensify
       band: minimal
       in_catalog: true
-      kin_score: 2.4
+      kin_score: 2.0
       mcp:
         status: unknown
       name: Kiwibank
@@ -5667,13 +5667,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.2
+      agent_readiness: 16.8
       apps:
       - Expensify
       - Ramp
       band: emerging
       in_catalog: true
-      kin_score: 26.1
+      kin_score: 25.2
       mcp:
         status: none
       name: American Airlines
@@ -5690,12 +5690,12 @@ stack:
       tier: declared
       url: /providers/american-airlines/
     - agent_band: agent-ready
-      agent_readiness: 37.4
+      agent_readiness: 36.7
       apps:
       - Expensify
       band: exemplar
       in_catalog: true
-      kin_score: 69.5
+      kin_score: 70.2
       mcp:
         status: none
       name: Perk
@@ -5711,12 +5711,12 @@ stack:
       tier: declared
       url: /providers/perk/
     - agent_band: agent-ready
-      agent_readiness: 41.9
+      agent_readiness: 46.1
       apps:
       - Expensify
       band: developing
       in_catalog: true
-      kin_score: 50.8
+      kin_score: 52.0
       mcp:
         status: none
       name: Spotnana
@@ -5732,12 +5732,12 @@ stack:
       tier: declared
       url: /providers/spotnana/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 47.4
       apps:
       - Brex
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 35.2
+      kin_score: 40.3
       mcp:
         status: none
       name: Sabre
@@ -5753,12 +5753,12 @@ stack:
       tier: declared
       url: /providers/sabre/
     - agent_band: agent-ready
-      agent_readiness: 34.9
+      agent_readiness: 39.6
       apps:
       - Brex
       band: thin
       in_catalog: true
-      kin_score: 32.7
+      kin_score: 31.5
       mcp:
         source: https://developer.navan.com/mcp/
         status: verified
@@ -5780,7 +5780,7 @@ stack:
       - Expensify
       band: emerging
       in_catalog: true
-      kin_score: 20.5
+      kin_score: 22.7
       mcp:
         status: none
       name: KAYAK for Business
@@ -5799,9 +5799,9 @@ stack:
       agent_readiness: 0.6
       apps:
       - Expensify
-      band: emerging
+      band: minimal
       in_catalog: true
-      kin_score: 12.7
+      kin_score: 10.9
       mcp:
         status: none
       name: Delta
@@ -5859,14 +5859,14 @@ stack:
       via_parent: Ground Transport
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Brex
       - Expensify
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 50.6
+      kin_score: 52.3
       mcp:
         status: none
       name: Lyft
@@ -5884,14 +5884,14 @@ stack:
       tier: declared
       url: /providers/lyft/
     - agent_band: agent-aware
-      agent_readiness: 21.8
+      agent_readiness: 21.3
       apps:
       - Brex
       - Expensify
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 49.0
       mcp:
         status: none
       name: Uber
@@ -5909,12 +5909,12 @@ stack:
       tier: declared
       url: /providers/uber/
     - agent_band: agent-aware
-      agent_readiness: 24.9
+      agent_readiness: 24.4
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 31.8
+      kin_score: 32.2
       mcp:
         status: none
       name: Bolt
@@ -5930,12 +5930,12 @@ stack:
       tier: declared
       url: /providers/bolt-eu/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 26.8
+      kin_score: 26.5
       mcp:
         status: none
       name: Grab
@@ -5959,12 +5959,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 24.8
       apps:
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 42.9
+      kin_score: 43.4
       mcp: *id005
       name: Wells Fargo
       slug: wells-fargo
@@ -5975,12 +5975,12 @@ stack:
       tier: declared
       url: /providers/wells-fargo/
     - agent_band: agent-ready
-      agent_readiness: 33.6
+      agent_readiness: 33.0
       apps:
       - Ramp
       band: thin
       in_catalog: true
-      kin_score: 38.9
+      kin_score: 37.6
       mcp:
         source: https://mercury.com/mcp
         status: verified
@@ -5996,29 +5996,13 @@ stack:
       - Treasury
       tier: declared
       url: /providers/mercury/
-    - agent_band: agent-ready
-      agent_readiness: 29.8
-      apps:
-      - Ramp
-      band: thin
-      in_catalog: true
-      kin_score: 38.3
-      mcp: *id007
-      name: Bank of America
-      slug: bank-of-america
-      sources:
-      - https://ramp.com/integrations
-      status: profiled
-      tags: *id008
-      tier: declared
-      url: /providers/bank-of-america/
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 24.1
       apps:
       - Ramp
       band: thin
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 36.6
       mcp:
         status: none
       name: TD Bank
@@ -6034,7 +6018,23 @@ stack:
       tier: declared
       url: /providers/td-bank/
     - agent_band: agent-ready
-      agent_readiness: 30.2
+      agent_readiness: 29.2
+      apps:
+      - Ramp
+      band: thin
+      in_catalog: true
+      kin_score: 36.3
+      mcp: *id007
+      name: Bank of America
+      slug: bank-of-america
+      sources:
+      - https://ramp.com/integrations
+      status: profiled
+      tags: *id008
+      tier: declared
+      url: /providers/bank-of-america/
+    - agent_band: agent-ready
+      agent_readiness: 29.6
       apps:
       - Ramp
       band: thin
@@ -6054,34 +6054,13 @@ stack:
       - Fortune 500
       tier: declared
       url: /providers/us-bancorp/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Ramp
-      band: minimal
-      in_catalog: true
-      kin_score: 9.6
-      mcp:
-        status: none
-      name: Ally Bank
-      slug: ally-financial
-      sources:
-      - https://ramp.com/integrations
-      status: profiled
-      tags:
-      - Auto Finance
-      - Banking
-      - Investing
-      - Lending
-      tier: declared
-      url: /providers/ally-financial/
     - agent_band: agent-aware
-      agent_readiness: 13.7
+      agent_readiness: 10.6
       apps:
       - Ramp
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.2
+      kin_score: 13.7
       mcp:
         status: unknown
       name: Alpine Bank
@@ -6096,6 +6075,27 @@ stack:
       - Financial Services
       tier: declared
       url: /providers/alpine-bank/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Ramp
+      band: minimal
+      in_catalog: true
+      kin_score: 10.4
+      mcp:
+        status: none
+      name: Ally Bank
+      slug: ally-financial
+      sources:
+      - https://ramp.com/integrations
+      status: profiled
+      tags:
+      - Auto Finance
+      - Banking
+      - Investing
+      - Lending
+      tier: declared
+      url: /providers/ally-financial/
   - capability:
       attribution: Turbo EA
       id: BC-500
@@ -6104,34 +6104,13 @@ stack:
       url: /capabilities/procurement-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 34.9
-      apps:
-      - Brex
-      band: developing
-      in_catalog: true
-      kin_score: 51.9
-      mcp:
-        status: none
-      name: Coupa
-      slug: coupa
-      sources:
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - BSM
-      - Business Spend Management
-      - Cloud Platform
-      - Enterprise
-      tier: declared
-      url: /providers/coupa/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Ramp
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -6147,13 +6126,34 @@ stack:
       - E-Commerce
       tier: declared
       url: /providers/amazon/
+    - agent_band: agent-ready
+      agent_readiness: 37.7
+      apps:
+      - Brex
+      band: developing
+      in_catalog: true
+      kin_score: 52.6
+      mcp:
+        status: none
+      name: Coupa
+      slug: coupa
+      sources:
+      - https://www.brex.com/product/integrations
+      status: profiled
+      tags:
+      - BSM
+      - Business Spend Management
+      - Cloud Platform
+      - Enterprise
+      tier: declared
+      url: /providers/coupa/
     - agent_band: agent-aware
-      agent_readiness: 27.6
+      agent_readiness: 27.0
       apps:
       - Ramp
       band: thin
       in_catalog: true
-      kin_score: 33.9
+      kin_score: 33.0
       mcp:
         status: none
       name: CloudEagle
@@ -6169,12 +6169,12 @@ stack:
       tier: declared
       url: /providers/cloudeagle/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - Brex
       band: thin
       in_catalog: true
-      kin_score: 26.9
+      kin_score: 26.4
       mcp:
         status: none
       name: Zip
@@ -6190,12 +6190,12 @@ stack:
       tier: declared
       url: /providers/zip/
     - agent_band: agent-aware
-      agent_readiness: 22.2
+      agent_readiness: 21.7
       apps:
       - Brex
       band: emerging
       in_catalog: true
-      kin_score: 19.5
+      kin_score: 24.8
       mcp:
         status: none
       name: GEP
@@ -6218,13 +6218,13 @@ stack:
       url: /capabilities/ground-transport/
       via_parent: Ground Transport
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 27.7
+    - agent_band: agent-ready
+      agent_readiness: 32.5
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 34.7
+      kin_score: 33.4
       mcp:
         status: none
       name: ParkWhiz
@@ -6240,12 +6240,12 @@ stack:
       tier: declared
       url: /providers/parkwhiz/
     - agent_band: agent-ready
-      agent_readiness: 39.1
+      agent_readiness: 38.3
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 32.1
+      kin_score: 30.8
       mcp:
         status: none
       name: SpotHero
@@ -6266,7 +6266,7 @@ stack:
       - Expensify
       band: minimal
       in_catalog: true
-      kin_score: 2.0
+      kin_score: 1.1
       mcp:
         status: unknown
       name: The Parking Spot
@@ -6287,12 +6287,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.6
+      agent_readiness: 38.1
       apps:
       - Expensify
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 58.5
+      kin_score: 66.9
       mcp:
         status: none
       name: Thomson Reuters
@@ -6308,12 +6308,12 @@ stack:
       tier: declared
       url: /providers/thomson-reuters/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 3.9
       apps:
       - Brex
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.3
+      kin_score: 30.4
       mcp:
         status: unknown
       name: Inkle
@@ -6354,12 +6354,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.4
+      agent_readiness: 28.2
       apps:
       - Brex
       band: developing
       in_catalog: true
-      kin_score: 42.2
+      kin_score: 42.3
       mcp:
         status: none
       name: SAP Concur
@@ -6375,12 +6375,12 @@ stack:
       tier: declared
       url: /providers/concur/
     - agent_band: agent-aware
-      agent_readiness: 14.7
+      agent_readiness: 14.4
       apps:
       - Brex
       band: thin
       in_catalog: true
-      kin_score: 28.5
+      kin_score: 27.0
       mcp:
         status: none
       name: Expensify
@@ -6404,12 +6404,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - Expensify
       band: emerging
       in_catalog: true
-      kin_score: 12.1
+      kin_score: 17.0
       mcp:
         status: unknown
       name: IRIS Practice Engine
@@ -6430,7 +6430,7 @@ stack:
       - Expensify
       band: minimal
       in_catalog: true
-      kin_score: 5.7
+      kin_score: 9.9
       mcp:
         status: none
       name: 9Spokes
@@ -6454,13 +6454,13 @@ stack:
       via_parent: Quick & Local Commerce
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.5
+      agent_readiness: 34.8
       apps:
       - Expensify
       - Ramp
       band: exemplar
       in_catalog: true
-      kin_score: 77.8
+      kin_score: 76.3
       mcp:
         status: none
       name: DoorDash
@@ -6485,12 +6485,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.3
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 29.3
+      kin_score: 30.9
       mcp:
         status: none
       name: CTM
@@ -6506,12 +6506,12 @@ stack:
       tier: declared
       url: /providers/corporate-travel-management/
     - agent_band: agent-aware
-      agent_readiness: 13.3
+      agent_readiness: 13.0
       apps:
       - Expensify
       band: emerging
       in_catalog: true
-      kin_score: 17.7
+      kin_score: 18.6
       mcp:
         status: none
       name: Corporate Traveler
@@ -6535,13 +6535,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - Brex
       - Expensify
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.0
+      kin_score: 16.5
       mcp:
         status: unknown
       name: VAT IT
@@ -6566,12 +6566,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - Brex
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp: *id009
       name: Square
       slug: square
@@ -6582,12 +6582,12 @@ stack:
       tier: declared
       url: /providers/square/
     - agent_band: agent-aware
-      agent_readiness: 28.1
+      agent_readiness: 28.2
       apps:
       - Expensify
       band: emerging
       in_catalog: true
-      kin_score: 20.5
+      kin_score: 19.6
       mcp:
         status: none
       name: Revel Systems
@@ -6641,7 +6641,7 @@ stack:
       - IHateMoney
       band: minimal
       in_catalog: true
-      kin_score: 4.2
+      kin_score: 5.0
       mcp:
         status: none
       name: exchangerate.host
@@ -6664,12 +6664,12 @@ stack:
       via_parent: Lodging & Stays
     providers:
     - agent_band: agent-aware
-      agent_readiness: 27.2
+      agent_readiness: 26.7
       apps:
       - Expensify
       band: strong
       in_catalog: true
-      kin_score: 62.9
+      kin_score: 64.0
       mcp:
         status: none
       name: Hotel Engine
@@ -6693,12 +6693,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 58.8
+      agent_readiness: 60.3
       apps:
       - Expensify
       band: exemplar
       in_catalog: true
-      kin_score: 79.7
+      kin_score: 77.9
       mcp:
         status: none
       name: Greenhouse
@@ -6724,12 +6724,34 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.1
+      agent_readiness: 37.9
       apps:
-      - SAP Concur
+      - Splitwise
       band: exemplar
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 68.5
+      mcp:
+        source: https://github.com/awslabs/mcp
+        status: verified
+      name: Amazon Analytics (Amazon insights)
+      slug: amazon-web-services
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.Splitwise.SplitwiseMobile/latest/
+      status: profiled
+      tags:
+      - Amazon
+      - Amazon Web Services
+      - Cloud
+      - Networks
+      tier: observed
+      url: /providers/amazon-web-services/
+    - agent_band: agent-ready
+      agent_readiness: 53.0
+      apps:
+      - SAP Concur
+      band: strong
+      in_catalog: true
+      kin_score: 65.1
       mcp:
         source: https://github.com/adobe/cq-quickstart-mcp-server
         status: verified
@@ -6746,56 +6768,34 @@ stack:
       tier: observed
       url: /providers/adobe-experience-cloud/
     - agent_band: agent-ready
-      agent_readiness: 40.8
-      apps:
-      - Splitwise
-      band: strong
-      in_catalog: true
-      kin_score: 60.5
-      mcp:
-        source: https://github.com/awslabs/mcp
-        status: verified
-      name: Amazon Analytics (Amazon insights)
-      slug: amazon-web-services
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.Splitwise.SplitwiseMobile/latest/
-      status: profiled
-      tags:
-      - Amazon
-      - Amazon Web Services
-      - Cloud
-      - Networks
-      tier: observed
-      url: /providers/amazon-web-services/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+      agent_readiness: 39.9
       apps:
       - Expensify
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id011
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/org.me.mobiexpensifyg/latest/
       status: profiled
       tags: &id012
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -6811,12 +6811,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 30.0
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 37.1
+      kin_score: 37.4
       mcp:
         source: https://developer.fullstory.com/mcp/introduction/
         status: documented
@@ -6833,12 +6833,12 @@ stack:
       tier: observed
       url: /providers/fullstory/
     - agent_band: agent-ready
-      agent_readiness: 38.4
+      agent_readiness: 38.6
       apps:
       - Spliit
       band: exemplar
       in_catalog: true
-      kin_score: 73.3
+      kin_score: 72.8
       mcp:
         status: none
       name: Umami
@@ -6854,12 +6854,12 @@ stack:
       tier: declared
       url: /providers/umami/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 22.6
       apps:
       - Spliit
       band: strong
       in_catalog: true
-      kin_score: 63.4
+      kin_score: 65.3
       mcp:
         status: none
       name: Plausible
@@ -6883,13 +6883,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - Brex
       - Ramp
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -6907,33 +6907,12 @@ stack:
       tier: declared
       url: /providers/okta/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 43.0
       apps:
       - Brex
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
-      mcp:
-        status: none
-      name: Microsoft Azure AD
-      slug: microsoft-entra
-      sources:
-      - https://www.brex.com/product/integrations
-      status: profiled
-      tags:
-      - Authentication
-      - Azure AD
-      - Entra
-      - Identity and Access Management
-      tier: declared
-      url: /providers/microsoft-entra/
-    - agent_band: agent-ready
-      agent_readiness: 37.9
-      apps:
-      - Brex
-      band: exemplar
-      in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.7
       mcp:
         source: https://github.com/gemini-cli-extensions/workspace
         status: verified
@@ -6950,12 +6929,33 @@ stack:
       tier: declared
       url: /providers/google-workspace/
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 28.7
       apps:
       - Brex
       band: exemplar
       in_catalog: true
-      kin_score: 67.7
+      kin_score: 70.3
+      mcp:
+        status: none
+      name: Microsoft Azure AD
+      slug: microsoft-entra
+      sources:
+      - https://www.brex.com/product/integrations
+      status: profiled
+      tags:
+      - Authentication
+      - Azure AD
+      - Entra
+      - Identity and Access Management
+      tier: declared
+      url: /providers/microsoft-entra/
+    - agent_band: agent-ready
+      agent_readiness: 33.6
+      apps:
+      - Brex
+      band: exemplar
+      in_catalog: true
+      kin_score: 68.8
       mcp:
         source: https://1password.dev/environments/mcp-server
         status: verified
@@ -6971,13 +6971,13 @@ stack:
       - Security
       tier: declared
       url: /providers/1password/
-    - agent_band: agent-aware
-      agent_readiness: 23.2
+    - agent_band: agent-ready
+      agent_readiness: 31.3
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 33.6
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=jumpcloud
         status: verified
@@ -7002,13 +7002,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Brex
       - Ramp
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -7026,13 +7026,13 @@ stack:
       tier: declared
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Brex
       - Ramp
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -7063,7 +7063,7 @@ stack:
       - Ramp
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -7081,12 +7081,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 44.7
+      agent_readiness: 43.8
       apps:
       - SAP Concur
       band: exemplar
       in_catalog: true
-      kin_score: 84.1
+      kin_score: 85.6
       mcp:
         source: https://github.com/dynatrace-oss/dynatrace-mcp
         status: verified
@@ -7102,22 +7102,22 @@ stack:
       - Application Performance Monitoring
       tier: observed
       url: /providers/dynatrace/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Splitwise
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id011
       name: Google Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.Splitwise.SplitwiseMobile/latest/
       status: profiled
       tags: *id012
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-900.30
@@ -7127,12 +7127,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - Ramp
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp:
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -7149,12 +7149,12 @@ stack:
       tier: declared
       url: /providers/jira/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.3
       apps:
       - Ramp
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 72.5
       mcp:
         source: https://developers.asana.com/docs/using-asanas-mcp-server
         status: verified
@@ -7171,12 +7171,12 @@ stack:
       tier: declared
       url: /providers/asana/
     - agent_band: agent-ready
-      agent_readiness: 35.5
+      agent_readiness: 35.2
       apps:
       - Ramp
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.1
+      kin_score: 39.6
       mcp:
         source: https://linear.app/docs/mcp
         status: verified
@@ -7201,12 +7201,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Brex
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -7223,12 +7223,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 53.8
       apps:
       - Brex
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 70.5
       mcp:
         source: https://docs.workato.com/mcp.html
         status: verified
@@ -7245,12 +7245,12 @@ stack:
       tier: declared
       url: /providers/workato/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 31.1
       apps:
       - Brex
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.3
+      kin_score: 65.5
       mcp:
         source: https://pipedream.com/docs/connect/mcp
         status: verified
@@ -7275,12 +7275,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Ramp
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 71.5
       mcp:
         source: https://www.docusign.com/products/mcp
         status: documented
@@ -7297,12 +7297,12 @@ stack:
       tier: declared
       url: /providers/docusign/
     - agent_band: agent-ready
-      agent_readiness: 35.3
+      agent_readiness: 35.0
       apps:
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 53.5
+      kin_score: 52.3
       mcp:
         status: none
       name: Ironclad
@@ -7326,12 +7326,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 19.6
       apps:
       - Brex
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 45.7
       mcp:
         status: none
       name: Qualtrics
@@ -7347,12 +7347,12 @@ stack:
       tier: observed
       url: /providers/qualtrics/
     - agent_band: agent-aware
-      agent_readiness: 26.0
+      agent_readiness: 25.5
       apps:
       - SAP Concur
       band: developing
       in_catalog: true
-      kin_score: 40.4
+      kin_score: 40.0
       mcp:
         status: none
       name: Apptentive
@@ -7375,13 +7375,13 @@ stack:
       url: /capabilities/asset-storage-tiering/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Spliit
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -7406,12 +7406,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Ramp
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -7435,13 +7435,13 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Ramp
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -7466,12 +7466,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Ramp
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -7517,12 +7517,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 27.9
+      kin_score: 28.3
       mcp:
         source: https://github.com/urbanairship/agent-tools
         status: verified
@@ -7547,12 +7547,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -7576,7 +7576,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Ramp
       band: exemplar
@@ -7606,12 +7606,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Brex
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -7636,12 +7636,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Brex
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp
@@ -7667,13 +7667,13 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Brex
       - Expensify
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -7691,13 +7691,13 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Brex
       - Expensify
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: &id013
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -7715,12 +7715,12 @@ stack:
       tier: declared
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 38.8
+      agent_readiness: 39.4
       apps:
       - Expensify
       band: thin
       in_catalog: true
-      kin_score: 32.8
+      kin_score: 32.3
       mcp:
         status: none
       name: Grok
@@ -7743,13 +7743,13 @@ stack:
       url: /capabilities/vertical-agents/
       via_parent: Vertical Agents
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Expensify
       band: strong
       in_catalog: true
-      kin_score: 54.9
+      kin_score: 60.0
       mcp:
         status: none
       name: Cursor
@@ -7773,12 +7773,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Spliit
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: *id013
       name: OpenAI
       slug: openai
@@ -7800,7 +7800,7 @@ summary:
     unchecked: 8
     verified: 38
   mcp_verified: 38
-  mean_kin_score: 40.4
+  mean_kin_score: 42.2
   observed: 15
   queued: 8
   reference_apps: 7

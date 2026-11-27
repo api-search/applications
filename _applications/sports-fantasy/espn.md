@@ -85,10 +85,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.1
-    band: exemplar
+    agent_readiness: 53.0
+    band: strong
     in_catalog: true
-    kin_score: 67.2
+    kin_score: 65.1
     mcp: &id001
       source: https://github.com/adobe/cq-quickstart-mcp-server
       status: verified
@@ -116,10 +116,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.2
+    agent_readiness: 12.0
     band: emerging
     in_catalog: true
-    kin_score: 16.9
+    kin_score: 17.9
     mcp: &id003
       status: none
     slug: comscore
@@ -146,10 +146,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.6
+    agent_readiness: 52.5
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 58.3
     mcp: &id005
       source: https://github.com/Conviva/mcp-marketplace
       status: verified
@@ -177,10 +177,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id007
       status: none
     slug: google-admob
@@ -206,22 +206,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id009
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id010
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics
   provider: firebase
@@ -238,10 +238,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.9
     band: strong
     in_catalog: true
-    kin_score: 56.1
+    kin_score: 55.6
     mcp: &id011
       source: https://github.com/IABTechLab/agentic-real-time-framework
       status: verified
@@ -295,10 +295,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: exemplar
     in_catalog: true
-    kin_score: 76.5
+    kin_score: 74.4
     mcp: &id015
       source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
       status: verified
@@ -326,10 +326,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: human-only
-    agent_readiness: 3.6
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.3
+    kin_score: 15.9
     mcp: &id017
       status: unknown
     slug: nielsen
@@ -380,10 +380,10 @@ noindex: false
 permalink: /applications/sports-fantasy/espn/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 54.1
-  band: exemplar
+  agent_readiness: 53.0
+  band: strong
   in_catalog: true
-  kin_score: 67.2
+  kin_score: 65.1
   mcp: *id001
   name: Adobe Experience Cloud
   slug: adobe-experience-cloud
@@ -391,10 +391,10 @@ providers:
   tags: *id002
   url: /providers/adobe-experience-cloud/
 - agent_band: agent-aware
-  agent_readiness: 12.2
+  agent_readiness: 12.0
   band: emerging
   in_catalog: true
-  kin_score: 16.9
+  kin_score: 17.9
   mcp: *id003
   name: Comscore
   slug: comscore
@@ -402,10 +402,10 @@ providers:
   tags: *id004
   url: /providers/comscore/
 - agent_band: agent-ready
-  agent_readiness: 53.6
+  agent_readiness: 52.5
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 58.3
   mcp: *id005
   name: Conviva
   slug: conviva
@@ -413,32 +413,32 @@ providers:
   tags: *id006
   url: /providers/conviva/
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 35.3
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 65.2
   mcp: *id007
   name: Google AdMob
   slug: google-admob
   status: profiled
   tags: *id008
   url: /providers/google-admob/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id009
-  name: Google Firebase Analytics
-  slug: firebase
-  status: profiled
-  tags: *id010
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 56.1
+  kin_score: 62.0
+  mcp: *id009
+  name: Google Firebase Analytics
+  slug: google-firebase
+  status: profiled
+  tags: *id010
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 36.9
+  band: strong
+  in_catalog: true
+  kin_score: 55.6
   mcp: *id011
   name: IAB Open Measurement
   slug: iab-tech-lab
@@ -457,10 +457,10 @@ providers:
   tags: *id014
   url: null
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 44.8
   band: exemplar
   in_catalog: true
-  kin_score: 76.5
+  kin_score: 74.4
   mcp: *id015
   name: New Relic
   slug: new-relic
@@ -468,10 +468,10 @@ providers:
   tags: *id016
   url: /providers/new-relic/
 - agent_band: human-only
-  agent_readiness: 3.6
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.3
+  kin_score: 15.9
   mcp: *id017
   name: Nielsen
   slug: nielsen

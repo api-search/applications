@@ -55,10 +55,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 9.3
+    kin_score: 15.1
     mcp: &id001
       status: unknown
     slug: schedules-direct
@@ -86,9 +86,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 7.2
+    kin_score: 12.6
     mcp: &id003
       status: unknown
     slug: silicondust
@@ -115,10 +115,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.9
+    agent_readiness: 22.4
     band: developing
     in_catalog: true
-    kin_score: 49.0
+    kin_score: 48.6
     mcp: &id005
       status: none
     slug: trakt
@@ -143,10 +143,10 @@ noindex: false
 permalink: /applications/video-streaming-media-server/emby/
 providers:
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 9.3
+  kin_score: 15.1
   mcp: *id001
   name: Schedules Direct
   slug: schedules-direct
@@ -155,9 +155,9 @@ providers:
   url: /providers/schedules-direct/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 7.2
+  kin_score: 12.6
   mcp: *id003
   name: SiliconDust HDHomeRun
   slug: silicondust
@@ -165,10 +165,10 @@ providers:
   tags: *id004
   url: /providers/silicondust/
 - agent_band: agent-aware
-  agent_readiness: 21.9
+  agent_readiness: 22.4
   band: developing
   in_catalog: true
-  kin_score: 49.0
+  kin_score: 48.6
   mcp: *id005
   name: Trakt
   slug: trakt

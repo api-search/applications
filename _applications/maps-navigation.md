@@ -1301,13 +1301,13 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 40.8
       apps:
       - Dawarich
       - Traccar
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 62.6
       mcp:
         status: none
       name: Geoapify
@@ -1324,13 +1324,13 @@ stack:
       tier: observed
       url: /providers/geoapify/
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 25.7
       apps:
       - Dawarich
       - Traccar
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.7
       mcp:
         status: none
       name: Nominatim
@@ -1353,7 +1353,7 @@ stack:
       - Traccar
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: none
       name: LocationIQ
@@ -1369,12 +1369,12 @@ stack:
       tier: observed
       url: /providers/locationiq/
     - agent_band: agent-native
-      agent_readiness: 55.5
+      agent_readiness: 54.4
       apps:
       - Traccar
       band: exemplar
       in_catalog: true
-      kin_score: 77.6
+      kin_score: 79.0
       mcp:
         status: none
       name: HERE
@@ -1390,12 +1390,12 @@ stack:
       tier: observed
       url: /providers/here/
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Traccar
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp: &id001
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -1412,12 +1412,12 @@ stack:
       tier: observed
       url: /providers/google-maps/
     - agent_band: agent-ready
-      agent_readiness: 29.5
+      agent_readiness: 35.1
       apps:
       - Traccar
       band: strong
       in_catalog: true
-      kin_score: 60.4
+      kin_score: 57.6
       mcp:
         status: none
       name: positionstack
@@ -1433,12 +1433,12 @@ stack:
       tier: observed
       url: /providers/positionstack/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 45.2
       apps:
       - Traccar
       band: developing
       in_catalog: true
-      kin_score: 49.3
+      kin_score: 50.7
       mcp:
         source: https://github.com/mapbox/mcp-server
         status: verified
@@ -1455,7 +1455,7 @@ stack:
       tier: observed
       url: /providers/mapbox/
     - agent_band: agent-ready
-      agent_readiness: 36.1
+      agent_readiness: 40.9
       apps:
       - Traccar
       band: developing
@@ -1477,33 +1477,12 @@ stack:
       tier: observed
       url: /providers/tomtom/
     - agent_band: agent-aware
-      agent_readiness: 26.5
+      agent_readiness: 26.1
       apps:
       - Traccar
       band: developing
       in_catalog: true
-      kin_score: 40.3
-      mcp:
-        status: none
-      name: MapTiler
-      slug: maptiler
-      sources:
-      - https://github.com/traccar/traccar/tree/master/src/main/java/org/traccar/geocoder
-      status: profiled
-      tags:
-      - Geospatial
-      - Maps
-      - Tiles
-      - Vector Tiles
-      tier: observed
-      url: /providers/maptiler/
-    - agent_band: agent-ready
-      agent_readiness: 28.9
-      apps:
-      - Traccar
-      band: thin
-      in_catalog: true
-      kin_score: 36.2
+      kin_score: 45.3
       mcp:
         status: unknown
       name: Geocode.Farm
@@ -1518,13 +1497,34 @@ stack:
       - Services
       tier: observed
       url: /providers/geocode-farm/
+    - agent_band: agent-ready
+      agent_readiness: 32.5
+      apps:
+      - Traccar
+      band: developing
+      in_catalog: true
+      kin_score: 41.0
+      mcp:
+        status: none
+      name: MapTiler
+      slug: maptiler
+      sources:
+      - https://github.com/traccar/traccar/tree/master/src/main/java/org/traccar/geocoder
+      status: profiled
+      tags:
+      - Geospatial
+      - Maps
+      - Tiles
+      - Vector Tiles
+      tier: observed
+      url: /providers/maptiler/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.7
       apps:
       - Traccar
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 35.2
       mcp:
         status: none
       name: MapQuest
@@ -1540,33 +1540,12 @@ stack:
       tier: observed
       url: /providers/mapquest/
     - agent_band: agent-aware
-      agent_readiness: 5.8
+      agent_readiness: 15.1
       apps:
       - Traccar
       band: thin
       in_catalog: true
-      kin_score: 29.7
-      mcp:
-        status: none
-      name: Bing Maps
-      slug: bing-maps
-      sources:
-      - https://github.com/traccar/traccar/tree/master/src/main/java/org/traccar/geocoder
-      status: profiled
-      tags:
-      - Geocoding
-      - Geospatial
-      - Maps
-      - Routing
-      tier: observed
-      url: /providers/bing-maps/
-    - agent_band: agent-aware
-      agent_readiness: 17.9
-      apps:
-      - Traccar
-      band: thin
-      in_catalog: true
-      kin_score: 27.8
+      kin_score: 32.5
       mcp:
         status: none
       name: Gisgraphy
@@ -1581,13 +1560,55 @@ stack:
       - Open Source
       tier: observed
       url: /providers/gisgraphy/
-    - agent_band: agent-aware
-      agent_readiness: 6.0
+    - agent_band: human-only
+      agent_readiness: 3.5
+      apps:
+      - Traccar
+      band: thin
+      in_catalog: true
+      kin_score: 28.9
+      mcp:
+        status: none
+      name: Bing Maps
+      slug: bing-maps
+      sources:
+      - https://github.com/traccar/traccar/tree/master/src/main/java/org/traccar/geocoder
+      status: profiled
+      tags:
+      - Geocoding
+      - Geospatial
+      - Maps
+      - Routing
+      tier: observed
+      url: /providers/bing-maps/
+    - agent_band: human-only
+      agent_readiness: 3.0
       apps:
       - Traccar
       band: emerging
       in_catalog: true
-      kin_score: 18.5
+      kin_score: 19.0
+      mcp:
+        status: unchecked
+      name: AutoNavi (Amap)
+      slug: autonavi
+      sources:
+      - https://github.com/traccar/traccar/tree/master/src/main/java/org/traccar/geocoder
+      status: profiled
+      tags:
+      - China
+      - Company
+      - Location Services
+      - Mapping
+      tier: observed
+      url: /providers/autonavi/
+    - agent_band: agent-aware
+      agent_readiness: 5.8
+      apps:
+      - Traccar
+      band: emerging
+      in_catalog: true
+      kin_score: 17.4
       mcp:
         source: https://github.com/baidu-maps/mcp
         status: verified
@@ -1607,9 +1628,9 @@ stack:
       agent_readiness: 2.5
       apps:
       - Dawarich
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.0
+      kin_score: 11.3
       mcp:
         status: none
       name: Photon (komoot)
@@ -1625,12 +1646,12 @@ stack:
       tier: observed
       url: /providers/komoot-photon/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.7
       apps:
       - Traccar
       band: minimal
       in_catalog: true
-      kin_score: 7.9
+      kin_score: 8.5
       mcp:
         source: https://github.com/OpenCageData/opencage-geocoding-mcp
         status: verified
@@ -1646,12 +1667,12 @@ stack:
       tier: observed
       url: /providers/opencage/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Traccar
       band: minimal
       in_catalog: true
-      kin_score: 7.2
+      kin_score: 7.7
       mcp:
         status: none
       name: MapmyIndia (Mappls)
@@ -1672,7 +1693,7 @@ stack:
       - Traccar
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: unknown
       name: Geocode.xyz
@@ -1691,7 +1712,7 @@ stack:
       - Traccar
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 4.6
       mcp:
         status: none
       name: Factual
@@ -1706,23 +1727,6 @@ stack:
       - Places
       tier: observed
       url: /providers/factual/
-    - agent_band: null
-      agent_readiness: null
-      apps:
-      - Traccar
-      band: null
-      in_catalog: false
-      kin_score: null
-      mcp:
-        status: unchecked
-      name: AutoNavi (Amap)
-      slug: autonavi
-      sources:
-      - https://github.com/traccar/traccar/tree/master/src/main/java/org/traccar/geocoder
-      status: queued for profiling
-      tags: []
-      tier: observed
-      url: null
     - agent_band: null
       agent_readiness: null
       apps:
@@ -1766,12 +1770,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Traccar
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp: *id001
       name: Google Maps Platform
       slug: google-maps
@@ -1782,12 +1786,12 @@ stack:
       tier: observed
       url: /providers/google-maps/
     - agent_band: agent-aware
-      agent_readiness: 22.2
+      agent_readiness: 21.8
       apps:
       - Traccar
       band: developing
       in_catalog: true
-      kin_score: 39.6
+      kin_score: 46.0
       mcp:
         status: none
       name: Unwired Labs
@@ -1823,9 +1827,9 @@ stack:
       agent_readiness: 3.2
       apps:
       - Dawarich
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.5
+      kin_score: 11.5
       mcp:
         status: unknown
       name: Overland
@@ -1846,7 +1850,7 @@ stack:
       - Dawarich
       band: minimal
       in_catalog: true
-      kin_score: 4.4
+      kin_score: 4.7
       mcp:
         status: none
       name: OwnTracks
@@ -1869,14 +1873,14 @@ stack:
       url: /capabilities/map-data-contribution-editing/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - Organic Maps
       - OsmAnd
       band: developing
       in_catalog: true
-      kin_score: 44.4
+      kin_score: 45.5
       mcp: &id003
         status: none
       name: OpenStreetMap
@@ -1901,12 +1905,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.7
+      agent_readiness: 37.3
       apps:
       - Dawarich
       band: developing
       in_catalog: true
-      kin_score: 42.5
+      kin_score: 52.5
       mcp:
         source: https://docs.photoprism.app/developer-guide/api/mcp/
         status: verified
@@ -1923,12 +1927,12 @@ stack:
       tier: declared
       url: /providers/photoprism/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 15.1
       apps:
       - Dawarich
       band: emerging
       in_catalog: true
-      kin_score: 22.3
+      kin_score: 25.5
       mcp:
         status: none
       name: Immich
@@ -1952,12 +1956,12 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - OsmAnd
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.7
+      kin_score: 12.7
       mcp:
         status: none
       name: Panoramax
@@ -1998,12 +2002,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 27.6
+      agent_readiness: 27.1
       apps:
       - komoot
       band: developing
       in_catalog: true
-      kin_score: 46.5
+      kin_score: 46.6
       mcp:
         status: none
       name: Wahoo Fitness
@@ -2024,7 +2028,7 @@ stack:
       - komoot
       band: emerging
       in_catalog: true
-      kin_score: 21.4
+      kin_score: 20.0
       mcp:
         status: none
       name: Garmin
@@ -2047,13 +2051,13 @@ stack:
       url: /capabilities/maps-tiles/
       via_parent: Maps & Tiles
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - Headway
       band: developing
       in_catalog: true
-      kin_score: 44.4
+      kin_score: 45.5
       mcp: *id003
       name: OpenStreetMap
       slug: openstreetmap
@@ -2071,13 +2075,13 @@ stack:
       url: /capabilities/geocoding/
       via_parent: Geocoding
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 27.6
+    - agent_band: agent-ready
+      agent_readiness: 33.3
       apps:
       - Headway
       band: emerging
       in_catalog: true
-      kin_score: 23.8
+      kin_score: 22.9
       mcp:
         status: none
       name: Pelias
@@ -2106,7 +2110,7 @@ stack:
       - Organic Maps
       band: emerging
       in_catalog: true
-      kin_score: 20.5
+      kin_score: 22.7
       mcp:
         status: none
       name: Kayak
@@ -2130,12 +2134,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Dawarich
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp: &id009
         source: https://github.com/google/mcp
         status: verified
@@ -2160,12 +2164,12 @@ stack:
       via_parent: Places & Points of Interest
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 29.3
       apps:
       - Organic Maps
       band: developing
       in_catalog: true
-      kin_score: 43.0
+      kin_score: 41.8
       mcp:
         status: none
       name: Wikipedia
@@ -2188,13 +2192,13 @@ stack:
       url: /capabilities/routing-navigation/
       via_parent: Routing & Navigation
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - Traccar
       band: developing
       in_catalog: true
-      kin_score: 44.4
+      kin_score: 45.5
       mcp: *id003
       name: OpenStreetMap (Overpass API)
       slug: openstreetmap
@@ -2213,12 +2217,12 @@ stack:
       via_parent: Activity & Fitness Tracking
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 51.3
       apps:
       - Dawarich
       band: developing
       in_catalog: true
-      kin_score: 50.0
+      kin_score: 52.0
       mcp:
         status: none
       name: Strava
@@ -2247,7 +2251,7 @@ stack:
       - Headway
       band: minimal
       in_catalog: true
-      kin_score: 4.9
+      kin_score: 5.2
       mcp:
         status: none
       name: OpenTripPlanner
@@ -2270,13 +2274,13 @@ stack:
       url: /capabilities/routing-navigation/
       via_parent: Routing & Navigation
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.9
+    - agent_band: agent-ready
+      agent_readiness: 29.0
       apps:
       - Headway
       band: emerging
       in_catalog: true
-      kin_score: 25.7
+      kin_score: 24.4
       mcp:
         status: none
       name: Valhalla
@@ -2301,39 +2305,39 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Google Maps
       - Traccar
       - komoot
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id005
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase (Crashlytics / Analytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.google.android.apps.maps/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/de.komoot.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/org.traccar.client/latest/
       status: profiled
       tags: &id006
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - komoot
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id007
         status: none
       name: Facebook Analytics
@@ -2356,31 +2360,31 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Organic Maps
       - Waze
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id005
       name: Firebase Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/organicmaps/organicmaps/blob/master/android/gradle/libs.versions.toml
       - https://reports.exodus-privacy.eu.org/en/reports/com.waze/latest/
       status: profiled
       tags: *id006
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
       agent_readiness: 50.2
       apps:
       - Dawarich
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2405,12 +2409,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Dawarich
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -2426,29 +2430,13 @@ stack:
       - Platform
       tier: observed
       url: /providers/github/
-    - agent_band: agent-aware
-      agent_readiness: 28.2
-      apps:
-      - komoot
-      band: developing
-      in_catalog: true
-      kin_score: 42.7
-      mcp: *id007
-      name: Facebook Login / Share
-      slug: facebook
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/de.komoot.android/latest/
-      status: profiled
-      tags: *id008
-      tier: observed
-      url: /providers/facebook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Dawarich
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -2463,6 +2451,22 @@ stack:
       - Multi-Tenancy
       tier: observed
       url: /providers/google-identity-platform/
+    - agent_band: agent-aware
+      agent_readiness: 28.1
+      apps:
+      - komoot
+      band: developing
+      in_catalog: true
+      kin_score: 43.7
+      mcp: *id007
+      name: Facebook Login / Share
+      slug: facebook
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/de.komoot.android/latest/
+      status: profiled
+      tags: *id008
+      tier: observed
+      url: /providers/facebook/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.30
@@ -2471,29 +2475,29 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Traccar
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id005
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/traccar/traccar/tree/master/src/main/java/org/traccar/notificators
       status: profiled
       tags: *id006
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 22.0
+      agent_readiness: 21.6
       apps:
       - Traccar
       band: thin
       in_catalog: true
-      kin_score: 29.2
+      kin_score: 28.1
       mcp:
         status: none
       name: Pushover
@@ -2517,12 +2521,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Traccar
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp
@@ -2538,12 +2542,12 @@ stack:
       tier: observed
       url: /providers/whatsapp/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Traccar
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -2567,12 +2571,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Organic Maps
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp: *id009
       name: Google Play services location
       slug: google
@@ -2590,13 +2594,13 @@ stack:
       url: /capabilities/in-app-purchases-app-store-billing/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - OsmAnd
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: Google Play Billing
@@ -2620,12 +2624,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 41.7
       apps:
       - Traccar
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 64.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2649,13 +2653,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Dawarich
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2673,19 +2677,19 @@ stack:
       url: /providers/amazon-s3/
   layer: common
 summary:
-  coverage_pct: 90.2
+  coverage_pct: 92.2
   declared_only: 7
   distinct_providers: 51
-  in_catalog: 46
+  in_catalog: 47
   mcp:
     documented: 0
     none: 31
     unchecked: 5
     verified: 12
   mcp_verified: 12
-  mean_kin_score: 37.5
+  mean_kin_score: 39.6
   observed: 44
-  queued: 5
+  queued: 4
   reference_apps: 8
 title: 'Maps, Navigation & GPS: application blueprint'
 ---

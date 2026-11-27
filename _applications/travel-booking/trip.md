@@ -83,7 +83,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.5
+    kin_score: 3.0
     mcp: &id001
       status: none
     slug: fossgis
@@ -110,10 +110,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id003
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -141,10 +141,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.3
-    band: developing
+    agent_readiness: 40.3
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 62.4
     mcp: &id005
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -172,10 +172,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id007
       status: none
     slug: nominatim
@@ -201,11 +201,11 @@ integrations:
     via_parent: Maps & Tiles
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.3
     band: developing
     in_catalog: true
-    kin_score: 44.4
+    kin_score: 45.5
     mcp: &id009
       status: none
     slug: openstreetmap
@@ -259,7 +259,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.5
+  kin_score: 3.0
   mcp: *id001
   name: FOSSGIS OSRM routing
   slug: fossgis
@@ -267,10 +267,10 @@ providers:
   tags: *id002
   url: /providers/fossgis/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id003
   name: Google Geocoding + Routes
   slug: google-maps
@@ -278,10 +278,10 @@ providers:
   tags: *id004
   url: /providers/google-maps/
 - agent_band: agent-ready
-  agent_readiness: 32.3
-  band: developing
+  agent_readiness: 40.3
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 62.4
   mcp: *id005
   name: Google Places API (New)
   slug: google-places
@@ -289,21 +289,21 @@ providers:
   tags: *id006
   url: /providers/google-places/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id007
   name: Nominatim (OSM)
   slug: nominatim
   status: profiled
   tags: *id008
   url: /providers/nominatim/
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: developing
   in_catalog: true
-  kin_score: 44.4
+  kin_score: 45.5
   mcp: *id009
   name: OpenStreetMap tiles
   slug: openstreetmap

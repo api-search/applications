@@ -354,6 +354,16 @@
    "url": "/compare/providers/shopify-vs-bigcommerce/",
    "vs": "BigCommerce",
    "title": "Shopify vs BigCommerce: commerce platforms half a point apart"
+  },
+  {
+   "url": "/compare/providers/shopify-vs-square/",
+   "vs": "Square",
+   "title": "Shopify vs Square: online first or counter first"
+  },
+  {
+   "url": "/compare/providers/shopify-vs-etsy/",
+   "vs": "Etsy",
+   "title": "Shopify vs Etsy: your own store or a marketplace"
   }
  ],
  "provider:bigcommerce": [
@@ -431,6 +441,11 @@
    "url": "/compare/providers/paypal-vs-square/",
    "vs": "PayPal",
    "title": "PayPal vs Square: Square leads by 27 points"
+  },
+  {
+   "url": "/compare/providers/shopify-vs-square/",
+   "vs": "Shopify",
+   "title": "Shopify vs Square: online first or counter first"
   }
  ],
  "provider:okta": [
@@ -557,6 +572,41 @@
    "url": "/compare/providers/gusto-vs-rippling/",
    "vs": "Gusto",
    "title": "Gusto vs Rippling: two HR platforms, both thin"
+  }
+ ],
+ "provider:etsy": [
+  {
+   "url": "/compare/providers/shopify-vs-etsy/",
+   "vs": "Shopify",
+   "title": "Shopify vs Etsy: your own store or a marketplace"
+  }
+ ],
+ "provider:google-maps": [
+  {
+   "url": "/compare/providers/google-maps-vs-mapbox/",
+   "vs": "Mapbox",
+   "title": "Google Maps vs Mapbox: a monthly plan or a meter per API"
+  }
+ ],
+ "provider:mapbox": [
+  {
+   "url": "/compare/providers/google-maps-vs-mapbox/",
+   "vs": "Google Maps Platform",
+   "title": "Google Maps vs Mapbox: a monthly plan or a meter per API"
+  }
+ ],
+ "provider:postman": [
+  {
+   "url": "/compare/providers/postman-vs-insomnia/",
+   "vs": "Insomnia",
+   "title": "Postman vs Insomnia: a platform or a client"
+  }
+ ],
+ "provider:insomnia": [
+  {
+   "url": "/compare/providers/postman-vs-insomnia/",
+   "vs": "Postman",
+   "title": "Postman vs Insomnia: a platform or a client"
   }
  ]
 }

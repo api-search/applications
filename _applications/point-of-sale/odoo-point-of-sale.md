@@ -74,10 +74,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 43.7
+    agent_readiness: 42.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 73.6
     mcp: &id001
       source: https://github.com/Adyen/adyen-mcp
       status: verified
@@ -105,10 +105,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 50.8
+    agent_readiness: 49.8
     band: strong
     in_catalog: true
-    kin_score: 66.0
+    kin_score: 62.1
     mcp: &id003
       status: none
     slug: bancontact
@@ -138,7 +138,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.7
+    kin_score: 8.7
     mcp: &id005
       status: unknown
     slug: cashdro
@@ -165,10 +165,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.4
+    agent_readiness: 18.3
     band: minimal
     in_catalog: true
-    kin_score: 4.2
+    kin_score: 3.4
     mcp: &id007
       status: unknown
     slug: cashmatic
@@ -195,10 +195,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 5.8
+    agent_readiness: 5.6
     band: emerging
     in_catalog: true
-    kin_score: 13.3
+    kin_score: 22.6
     mcp: &id009
       status: none
     slug: dpo-pay
@@ -225,10 +225,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 7.6
+    kin_score: 12.7
     mcp: &id011
       status: unknown
     slug: glory-global-solutions
@@ -255,10 +255,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 2.2
+    kin_score: 1.3
     mcp: &id013
       status: unknown
     slug: imin
@@ -282,10 +282,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.2
+    agent_readiness: 28.6
     band: developing
     in_catalog: true
-    kin_score: 49.0
+    kin_score: 48.0
     mcp: &id015
       status: none
     slug: mpesa
@@ -312,10 +312,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 24.9
     band: developing
     in_catalog: true
-    kin_score: 41.8
+    kin_score: 40.4
     mcp: &id017
       source: https://www.mercadopago.com.br/developers/en/docs/mcp-server/overview
       status: verified
@@ -343,10 +343,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 73.2
+    agent_readiness: 71.7
     band: exemplar
     in_catalog: true
-    kin_score: 68.2
+    kin_score: 68.1
     mcp: &id019
       source: https://docs.mollie.com/docs/mcp-server
       status: verified
@@ -400,10 +400,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 3.5
+    agent_readiness: 3.4
     band: minimal
     in_catalog: true
-    kin_score: 6.4
+    kin_score: 9.9
     mcp: &id023
       status: none
     slug: qfpay
@@ -429,10 +429,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 52.4
+    kin_score: 50.6
     mcp: &id025
       source: https://github.com/razorpay/razorpay-mcp-server
       status: verified
@@ -460,10 +460,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id027
       source: https://docs.stripe.com/mcp
       status: verified
@@ -491,10 +491,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.3
+    agent_readiness: 53.2
     band: developing
     in_catalog: true
-    kin_score: 46.3
+    kin_score: 44.0
     mcp: &id029
       source: https://github.com/sumup/sumup-mcp
       status: verified
@@ -523,9 +523,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.1
+    kin_score: 11.8
     mcp: &id031
       status: none
     slug: viva-com
@@ -550,10 +550,10 @@ noindex: false
 permalink: /applications/point-of-sale/odoo-point-of-sale/
 providers:
 - agent_band: agent-native
-  agent_readiness: 43.7
+  agent_readiness: 42.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 73.6
   mcp: *id001
   name: Adyen
   slug: adyen
@@ -561,10 +561,10 @@ providers:
   tags: *id002
   url: /providers/adyen/
 - agent_band: agent-native
-  agent_readiness: 50.8
+  agent_readiness: 49.8
   band: strong
   in_catalog: true
-  kin_score: 66.0
+  kin_score: 62.1
   mcp: *id003
   name: Bancontact Payconiq
   slug: bancontact
@@ -575,7 +575,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.7
+  kin_score: 8.7
   mcp: *id005
   name: CashDro
   slug: cashdro
@@ -583,10 +583,10 @@ providers:
   tags: *id006
   url: /providers/cashdro/
 - agent_band: agent-aware
-  agent_readiness: 14.4
+  agent_readiness: 18.3
   band: minimal
   in_catalog: true
-  kin_score: 4.2
+  kin_score: 3.4
   mcp: *id007
   name: Cashmatic
   slug: cashmatic
@@ -594,10 +594,10 @@ providers:
   tags: *id008
   url: /providers/cashmatic/
 - agent_band: agent-aware
-  agent_readiness: 5.8
+  agent_readiness: 5.6
   band: emerging
   in_catalog: true
-  kin_score: 13.3
+  kin_score: 22.6
   mcp: *id009
   name: DPO Pay
   slug: dpo-pay
@@ -605,10 +605,10 @@ providers:
   tags: *id010
   url: /providers/dpo-pay/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 7.6
+  kin_score: 12.7
   mcp: *id011
   name: Glory (cash recyclers)
   slug: glory-global-solutions
@@ -616,10 +616,10 @@ providers:
   tags: *id012
   url: /providers/glory-global-solutions/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 2.2
+  kin_score: 1.3
   mcp: *id013
   name: iMin
   slug: imin
@@ -627,10 +627,10 @@ providers:
   tags: *id014
   url: /providers/imin/
 - agent_band: agent-ready
-  agent_readiness: 29.2
+  agent_readiness: 28.6
   band: developing
   in_catalog: true
-  kin_score: 49.0
+  kin_score: 48.0
   mcp: *id015
   name: M-Pesa (Safaricom)
   slug: mpesa
@@ -638,10 +638,10 @@ providers:
   tags: *id016
   url: /providers/mpesa/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 24.9
   band: developing
   in_catalog: true
-  kin_score: 41.8
+  kin_score: 40.4
   mcp: *id017
   name: Mercado Pago
   slug: mercado-pago
@@ -649,10 +649,10 @@ providers:
   tags: *id018
   url: /providers/mercado-pago/
 - agent_band: agent-native
-  agent_readiness: 73.2
+  agent_readiness: 71.7
   band: exemplar
   in_catalog: true
-  kin_score: 68.2
+  kin_score: 68.1
   mcp: *id019
   name: Mollie
   slug: mollie
@@ -671,10 +671,10 @@ providers:
   tags: *id022
   url: null
 - agent_band: human-only
-  agent_readiness: 3.5
+  agent_readiness: 3.4
   band: minimal
   in_catalog: true
-  kin_score: 6.4
+  kin_score: 9.9
   mcp: *id023
   name: QFPay
   slug: qfpay
@@ -682,10 +682,10 @@ providers:
   tags: *id024
   url: /providers/qfpay/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 52.4
+  kin_score: 50.6
   mcp: *id025
   name: Razorpay
   slug: razorpay
@@ -693,10 +693,10 @@ providers:
   tags: *id026
   url: /providers/razorpay/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id027
   name: Stripe
   slug: stripe
@@ -704,10 +704,10 @@ providers:
   tags: *id028
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 54.3
+  agent_readiness: 53.2
   band: developing
   in_catalog: true
-  kin_score: 46.3
+  kin_score: 44.0
   mcp: *id029
   name: SumUp
   slug: sumup
@@ -716,9 +716,9 @@ providers:
   url: /providers/sumup/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.1
+  kin_score: 11.8
   mcp: *id031
   name: Viva.com (Viva Wallet)
   slug: viva-com

@@ -55,10 +55,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.6
+    agent_readiness: 48.6
     band: exemplar
     in_catalog: true
-    kin_score: 79.2
+    kin_score: 80.0
     mcp: &id001
       source: https://github.com/datadog-labs/mcp-server
       status: verified
@@ -86,10 +86,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.8
-    band: strong
+    agent_readiness: 34.2
+    band: developing
     in_catalog: true
-    kin_score: 54.9
+    kin_score: 54.0
     mcp: &id003
       status: none
     slug: krisp
@@ -119,7 +119,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 33.4
+    kin_score: 34.3
     mcp: &id005
       status: none
     slug: livekit
@@ -144,10 +144,10 @@ noindex: false
 permalink: /applications/video-conferencing/livekit-meet/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 49.6
+  agent_readiness: 48.6
   band: exemplar
   in_catalog: true
-  kin_score: 79.2
+  kin_score: 80.0
   mcp: *id001
   name: Datadog
   slug: datadog
@@ -155,10 +155,10 @@ providers:
   tags: *id002
   url: /providers/datadog/
 - agent_band: agent-ready
-  agent_readiness: 31.8
-  band: strong
+  agent_readiness: 34.2
+  band: developing
   in_catalog: true
-  kin_score: 54.9
+  kin_score: 54.0
   mcp: *id003
   name: Krisp
   slug: krisp
@@ -169,7 +169,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 33.4
+  kin_score: 34.3
   mcp: *id005
   name: LiveKit (Cloud or self-hosted SFU)
   slug: livekit

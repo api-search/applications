@@ -93,22 +93,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id001
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id002
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Cloud Messaging
   provider: firebase
@@ -124,11 +124,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id003
       status: none
     slug: google-identity-platform
@@ -155,10 +155,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id005
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -186,10 +186,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 39.7
     band: strong
     in_catalog: true
-    kin_score: 66.2
+    kin_score: 65.2
     mcp: &id007
       status: none
     slug: google-pay
@@ -215,11 +215,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.7
+    band: developing
     in_catalog: true
-    kin_score: 31.6
+    kin_score: 51.3
     mcp: &id009
       status: none
     slug: google-play
@@ -246,10 +246,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 6.3
+    agent_readiness: 6.2
     band: thin
     in_catalog: true
-    kin_score: 34.2
+    kin_score: 33.2
     mcp: &id011
       status: none
     slug: mobilecoin
@@ -276,10 +276,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id013
       source: https://docs.stripe.com/mcp
       status: verified
@@ -304,22 +304,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/messaging-chat/signal/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id001
   name: Firebase Cloud Messaging
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id002
-  url: /providers/firebase/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id003
   name: Google ID / Credential Manager
   slug: google-identity-platform
@@ -327,10 +327,10 @@ providers:
   tags: *id004
   url: /providers/google-identity-platform/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id005
   name: Google Maps
   slug: google-maps
@@ -338,21 +338,21 @@ providers:
   tags: *id006
   url: /providers/google-maps/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 39.7
   band: strong
   in_catalog: true
-  kin_score: 66.2
+  kin_score: 65.2
   mcp: *id007
   name: Google Pay
   slug: google-pay
   status: profiled
   tags: *id008
   url: /providers/google-pay/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.7
+  band: developing
   in_catalog: true
-  kin_score: 31.6
+  kin_score: 51.3
   mcp: *id009
   name: Google Play Billing
   slug: google-play
@@ -360,10 +360,10 @@ providers:
   tags: *id010
   url: /providers/google-play/
 - agent_band: agent-aware
-  agent_readiness: 6.3
+  agent_readiness: 6.2
   band: thin
   in_catalog: true
-  kin_score: 34.2
+  kin_score: 33.2
   mcp: *id011
   name: MobileCoin
   slug: mobilecoin
@@ -371,10 +371,10 @@ providers:
   tags: *id012
   url: /providers/mobilecoin/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id013
   name: Stripe
   slug: stripe

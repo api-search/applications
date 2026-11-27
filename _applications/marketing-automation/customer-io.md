@@ -119,10 +119,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.7
+    agent_readiness: 56.9
     band: strong
     in_catalog: true
-    kin_score: 63.5
+    kin_score: 65.2
     mcp: &id001
       source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
       status: verified
@@ -150,10 +150,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.5
-    band: developing
+    agent_readiness: 40.8
+    band: strong
     in_catalog: true
-    kin_score: 49.7
+    kin_score: 57.1
     mcp: &id003
       source: https://cloud.google.com/bigquery/docs/use-bigquery-mcp
       status: verified
@@ -181,10 +181,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 10.8
+    agent_readiness: 11.7
     band: developing
     in_catalog: true
-    kin_score: 42.5
+    kin_score: 47.4
     mcp: &id005
       status: none
     slug: microsoft-advertising
@@ -211,10 +211,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.3
+    agent_readiness: 38.9
     band: strong
     in_catalog: true
-    kin_score: 61.6
+    kin_score: 62.2
     mcp: &id007
       status: none
     slug: criteo
@@ -241,10 +241,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id009
       status: none
     slug: facebook
@@ -271,10 +271,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.7
+    agent_readiness: 42.1
     band: exemplar
     in_catalog: true
-    kin_score: 73.1
+    kin_score: 73.4
     mcp: &id011
       source: https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server
       status: verified
@@ -302,10 +302,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id013
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -333,10 +333,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id015
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -364,10 +364,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.7
+    agent_readiness: 32.5
     band: developing
     in_catalog: true
-    kin_score: 52.5
+    kin_score: 51.0
     mcp: &id017
       source: https://developers.intercom.com/docs/guides/mcp
       status: verified
@@ -395,10 +395,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.3
+    agent_readiness: 47.7
     band: strong
     in_catalog: true
-    kin_score: 60.3
+    kin_score: 60.8
     mcp: &id019
       source: https://docs.mixpanel.com/docs/features/mcp
       status: verified
@@ -426,10 +426,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.4
+    agent_readiness: 37.6
     band: developing
     in_catalog: true
-    kin_score: 49.4
+    kin_score: 47.7
     mcp: &id021
       source: https://developers.pinterest.com/about-pinterest-mcp/
       status: verified
@@ -457,10 +457,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.3
+    agent_readiness: 28.7
     band: strong
     in_catalog: true
-    kin_score: 55.5
+    kin_score: 55.3
     mcp: &id023
       status: none
     slug: pipedrive
@@ -487,10 +487,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.7
+    agent_readiness: 53.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.6
+    kin_score: 88.0
     mcp: &id025
       source: https://github.com/salesforcecli/mcp
       status: verified
@@ -518,10 +518,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id027
       status: none
     slug: segment
@@ -548,10 +548,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id029
       status: none
     slug: sendgrid
@@ -578,10 +578,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id031
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -609,10 +609,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 45.8
+    agent_readiness: 44.9
     band: exemplar
     in_catalog: true
-    kin_score: 81.1
+    kin_score: 82.3
     mcp: &id033
       source: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
       status: verified
@@ -640,10 +640,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: developing
     in_catalog: true
-    kin_score: 41.0
+    kin_score: 40.5
     mcp: &id035
       status: none
     slug: tiktok
@@ -670,10 +670,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id037
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -701,10 +701,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id039
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -732,10 +732,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 72.4
     mcp: &id041
       status: none
     slug: zendesk
@@ -760,10 +760,10 @@ noindex: false
 permalink: /applications/marketing-automation/customer-io/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 56.7
+  agent_readiness: 56.9
   band: strong
   in_catalog: true
-  kin_score: 63.5
+  kin_score: 65.2
   mcp: *id001
   name: Amplitude
   slug: amplitude
@@ -771,10 +771,10 @@ providers:
   tags: *id002
   url: /providers/amplitude/
 - agent_band: agent-ready
-  agent_readiness: 31.5
-  band: developing
+  agent_readiness: 40.8
+  band: strong
   in_catalog: true
-  kin_score: 49.7
+  kin_score: 57.1
   mcp: *id003
   name: BigQuery
   slug: google-bigquery
@@ -782,10 +782,10 @@ providers:
   tags: *id004
   url: /providers/google-bigquery/
 - agent_band: agent-aware
-  agent_readiness: 10.8
+  agent_readiness: 11.7
   band: developing
   in_catalog: true
-  kin_score: 42.5
+  kin_score: 47.4
   mcp: *id005
   name: Bing Ads
   slug: microsoft-advertising
@@ -793,10 +793,10 @@ providers:
   tags: *id006
   url: /providers/microsoft-advertising/
 - agent_band: agent-ready
-  agent_readiness: 39.3
+  agent_readiness: 38.9
   band: strong
   in_catalog: true
-  kin_score: 61.6
+  kin_score: 62.2
   mcp: *id007
   name: Criteo Audiences
   slug: criteo
@@ -804,10 +804,10 @@ providers:
   tags: *id008
   url: /providers/criteo/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id009
   name: Facebook Conversions API / Meta Pixel
   slug: facebook
@@ -815,10 +815,10 @@ providers:
   tags: *id010
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 47.7
+  agent_readiness: 42.1
   band: exemplar
   in_catalog: true
-  kin_score: 73.1
+  kin_score: 73.4
   mcp: *id011
   name: Google Ads
   slug: google-ads
@@ -826,10 +826,10 @@ providers:
   tags: *id012
   url: /providers/google-ads/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id013
   name: Google Analytics 4
   slug: google-analytics
@@ -837,10 +837,10 @@ providers:
   tags: *id014
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id015
   name: HubSpot
   slug: hubspot
@@ -848,10 +848,10 @@ providers:
   tags: *id016
   url: /providers/hubspot/
 - agent_band: agent-ready
-  agent_readiness: 31.7
+  agent_readiness: 32.5
   band: developing
   in_catalog: true
-  kin_score: 52.5
+  kin_score: 51.0
   mcp: *id017
   name: Intercom
   slug: intercom
@@ -859,10 +859,10 @@ providers:
   tags: *id018
   url: /providers/intercom/
 - agent_band: agent-ready
-  agent_readiness: 48.3
+  agent_readiness: 47.7
   band: strong
   in_catalog: true
-  kin_score: 60.3
+  kin_score: 60.8
   mcp: *id019
   name: Mixpanel
   slug: mixpanel
@@ -870,10 +870,10 @@ providers:
   tags: *id020
   url: /providers/mixpanel/
 - agent_band: agent-ready
-  agent_readiness: 38.4
+  agent_readiness: 37.6
   band: developing
   in_catalog: true
-  kin_score: 49.4
+  kin_score: 47.7
   mcp: *id021
   name: Pinterest Conversions
   slug: pinterest
@@ -881,10 +881,10 @@ providers:
   tags: *id022
   url: /providers/pinterest/
 - agent_band: agent-ready
-  agent_readiness: 29.3
+  agent_readiness: 28.7
   band: strong
   in_catalog: true
-  kin_score: 55.5
+  kin_score: 55.3
   mcp: *id023
   name: Pipedrive
   slug: pipedrive
@@ -892,10 +892,10 @@ providers:
   tags: *id024
   url: /providers/pipedrive/
 - agent_band: agent-ready
-  agent_readiness: 54.7
+  agent_readiness: 53.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.6
+  kin_score: 88.0
   mcp: *id025
   name: Salesforce
   slug: salesforce
@@ -903,10 +903,10 @@ providers:
   tags: *id026
   url: /providers/salesforce/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id027
   name: Segment
   slug: segment
@@ -914,10 +914,10 @@ providers:
   tags: *id028
   url: /providers/segment/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id029
   name: SendGrid
   slug: sendgrid
@@ -925,10 +925,10 @@ providers:
   tags: *id030
   url: /providers/sendgrid/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id031
   name: Slack
   slug: slack
@@ -936,10 +936,10 @@ providers:
   tags: *id032
   url: /providers/slack/
 - agent_band: agent-native
-  agent_readiness: 45.8
+  agent_readiness: 44.9
   band: exemplar
   in_catalog: true
-  kin_score: 81.1
+  kin_score: 82.3
   mcp: *id033
   name: Snowflake
   slug: snowflake
@@ -947,10 +947,10 @@ providers:
   tags: *id034
   url: /providers/snowflake/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: developing
   in_catalog: true
-  kin_score: 41.0
+  kin_score: 40.5
   mcp: *id035
   name: TikTok Conversions
   slug: tiktok
@@ -958,10 +958,10 @@ providers:
   tags: *id036
   url: /providers/tiktok/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id037
   name: Twilio
   slug: twilio
@@ -969,10 +969,10 @@ providers:
   tags: *id038
   url: /providers/twilio/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id039
   name: Twitter Pixel
   slug: x
@@ -980,10 +980,10 @@ providers:
   tags: *id040
   url: /providers/x/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 72.4
   mcp: *id041
   name: Zendesk
   slug: zendesk

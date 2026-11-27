@@ -72,22 +72,22 @@ integrations:
     via_parent: null
   credit: null
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id004
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id005
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Analytics
   provider: firebase
@@ -118,11 +118,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.7
+    band: developing
     in_catalog: true
-    kin_score: 31.6
+    kin_score: 51.3
     mcp: &id006
       status: none
     slug: google-play
@@ -148,11 +148,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id008
       status: none
     slug: google-identity-platform
@@ -179,10 +179,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 9.8
+    kin_score: 15.1
     mcp: &id002
       status: none
     slug: apache-fineract
@@ -207,43 +207,43 @@ noindex: false
 permalink: /applications/mobile-banking-wallet/mifos-pay-openmf-mobile-wallet/
 providers:
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 9.8
+  kin_score: 15.1
   mcp: *id002
   name: Apache Fineract (Mifos platform)
   slug: apache-fineract
   status: profiled
   tags: *id003
   url: /providers/apache-fineract/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id004
   name: Firebase Analytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id005
-  url: /providers/firebase/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: thin
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 38.7
+  band: developing
   in_catalog: true
-  kin_score: 31.6
+  kin_score: 51.3
   mcp: *id006
   name: Google Play (Integrity, In-App Review, In-App Update)
   slug: google-play
   status: profiled
   tags: *id007
   url: /providers/google-play/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id008
   name: Google sign-in
   slug: google-identity-platform

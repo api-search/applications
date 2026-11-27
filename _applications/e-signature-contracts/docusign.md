@@ -141,10 +141,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id002
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -171,22 +171,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id008
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id009
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Crashlytics
   provider: firebase
@@ -218,10 +218,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.3
+    agent_readiness: 47.7
     band: strong
     in_catalog: true
-    kin_score: 60.3
+    kin_score: 60.8
     mcp: &id018
       source: https://docs.mixpanel.com/docs/features/mcp
       status: verified
@@ -249,10 +249,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 62.9
+    agent_readiness: 61.6
     band: exemplar
     in_catalog: true
-    kin_score: 77.7
+    kin_score: 78.1
     mcp: &id022
       source: https://support.optimizely.com/hc/en-us/articles/45320607594893
       status: documented
@@ -280,10 +280,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.6
     band: thin
     in_catalog: true
-    kin_score: 34.2
+    kin_score: 32.4
     mcp: &id028
       status: none
     slug: wootric
@@ -310,10 +310,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.4
+    agent_readiness: 56.6
     band: strong
     in_catalog: true
-    kin_score: 65.5
+    kin_score: 63.0
     mcp: &id004
       source: https://developer.box.com/guides/box-mcp/
       status: verified
@@ -341,10 +341,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.7
+    agent_readiness: 34.0
     band: developing
     in_catalog: true
-    kin_score: 51.9
+    kin_score: 54.0
     mcp: &id006
       status: none
     slug: clear
@@ -371,10 +371,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.9
+    agent_readiness: 43.0
     band: exemplar
     in_catalog: true
-    kin_score: 68.6
+    kin_score: 70.7
     mcp: &id010
       source: https://github.com/gemini-cli-extensions/workspace
       status: verified
@@ -402,10 +402,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id012
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -433,10 +433,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.2
+    agent_readiness: 25.9
     band: developing
     in_catalog: true
-    kin_score: 48.3
+    kin_score: 50.9
     mcp: &id014
       status: none
     slug: microsoft-onedrive
@@ -463,10 +463,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 29.1
     band: strong
     in_catalog: true
-    kin_score: 64.2
+    kin_score: 62.1
     mcp: &id016
       status: none
     slug: microsoft-power-automate
@@ -496,7 +496,7 @@ integrations:
     agent_readiness: 50.3
     band: thin
     in_catalog: true
-    kin_score: 33.6
+    kin_score: 32.2
     mcp: &id020
       source: https://github.com/mondaycom/mcp
       status: verified
@@ -524,10 +524,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.7
+    agent_readiness: 53.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.6
+    kin_score: 88.0
     mcp: &id024
       source: https://github.com/salesforcecli/mcp
       status: verified
@@ -555,10 +555,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.2
+    agent_readiness: 42.3
     band: strong
     in_catalog: true
-    kin_score: 64.1
+    kin_score: 61.9
     mcp: &id026
       status: none
     slug: servicenow
@@ -585,10 +585,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.4
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 55.9
+    kin_score: 54.7
     mcp: &id030
       status: none
     slug: workday
@@ -613,10 +613,10 @@ noindex: false
 permalink: /applications/e-signature-contracts/docusign/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id002
   name: AppsFlyer
   slug: appsflyer
@@ -624,10 +624,10 @@ providers:
   tags: *id003
   url: /providers/appsflyer/
 - agent_band: agent-ready
-  agent_readiness: 57.4
+  agent_readiness: 56.6
   band: strong
   in_catalog: true
-  kin_score: 65.5
+  kin_score: 63.0
   mcp: *id004
   name: Box
   slug: box
@@ -635,32 +635,32 @@ providers:
   tags: *id005
   url: /providers/box/
 - agent_band: agent-ready
-  agent_readiness: 34.7
+  agent_readiness: 34.0
   band: developing
   in_catalog: true
-  kin_score: 51.9
+  kin_score: 54.0
   mcp: *id006
   name: CLEAR
   slug: clear
   status: profiled
   tags: *id007
   url: /providers/clear/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id008
   name: Firebase Crashlytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id009
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 37.9
+  agent_readiness: 43.0
   band: exemplar
   in_catalog: true
-  kin_score: 68.6
+  kin_score: 70.7
   mcp: *id010
   name: Google Workspace
   slug: google-workspace
@@ -668,10 +668,10 @@ providers:
   tags: *id011
   url: /providers/google-workspace/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id012
   name: HubSpot
   slug: hubspot
@@ -679,10 +679,10 @@ providers:
   tags: *id013
   url: /providers/hubspot/
 - agent_band: agent-aware
-  agent_readiness: 25.2
+  agent_readiness: 25.9
   band: developing
   in_catalog: true
-  kin_score: 48.3
+  kin_score: 50.9
   mcp: *id014
   name: Microsoft OneDrive
   slug: microsoft-onedrive
@@ -690,10 +690,10 @@ providers:
   tags: *id015
   url: /providers/microsoft-onedrive/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 29.1
   band: strong
   in_catalog: true
-  kin_score: 64.2
+  kin_score: 62.1
   mcp: *id016
   name: Microsoft Power Automate
   slug: microsoft-power-automate
@@ -701,10 +701,10 @@ providers:
   tags: *id017
   url: /providers/microsoft-power-automate/
 - agent_band: agent-ready
-  agent_readiness: 48.3
+  agent_readiness: 47.7
   band: strong
   in_catalog: true
-  kin_score: 60.3
+  kin_score: 60.8
   mcp: *id018
   name: Mixpanel
   slug: mixpanel
@@ -715,7 +715,7 @@ providers:
   agent_readiness: 50.3
   band: thin
   in_catalog: true
-  kin_score: 33.6
+  kin_score: 32.2
   mcp: *id020
   name: monday.com
   slug: monday-com
@@ -723,10 +723,10 @@ providers:
   tags: *id021
   url: /providers/monday-com/
 - agent_band: agent-ready
-  agent_readiness: 62.9
+  agent_readiness: 61.6
   band: exemplar
   in_catalog: true
-  kin_score: 77.7
+  kin_score: 78.1
   mcp: *id022
   name: Optimizely
   slug: optimizely
@@ -734,10 +734,10 @@ providers:
   tags: *id023
   url: /providers/optimizely/
 - agent_band: agent-ready
-  agent_readiness: 54.7
+  agent_readiness: 53.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.6
+  kin_score: 88.0
   mcp: *id024
   name: Salesforce
   slug: salesforce
@@ -745,10 +745,10 @@ providers:
   tags: *id025
   url: /providers/salesforce/
 - agent_band: agent-ready
-  agent_readiness: 43.2
+  agent_readiness: 42.3
   band: strong
   in_catalog: true
-  kin_score: 64.1
+  kin_score: 61.9
   mcp: *id026
   name: ServiceNow
   slug: servicenow
@@ -756,10 +756,10 @@ providers:
   tags: *id027
   url: /providers/servicenow/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.6
   band: thin
   in_catalog: true
-  kin_score: 34.2
+  kin_score: 32.4
   mcp: *id028
   name: Wootric
   slug: wootric
@@ -767,10 +767,10 @@ providers:
   tags: *id029
   url: /providers/wootric/
 - agent_band: agent-ready
-  agent_readiness: 34.4
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 55.9
+  kin_score: 54.7
   mcp: *id030
   name: Workday
   slug: workday

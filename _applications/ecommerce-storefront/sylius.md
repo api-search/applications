@@ -40,10 +40,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 43.7
+    agent_readiness: 42.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 73.6
     mcp: &id001
       source: https://github.com/Adyen/adyen-mcp
       status: verified
@@ -71,10 +71,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 73.2
+    agent_readiness: 71.7
     band: exemplar
     in_catalog: true
-    kin_score: 68.2
+    kin_score: 68.1
     mcp: &id003
       source: https://docs.mollie.com/docs/mcp-server
       status: verified
@@ -102,10 +102,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id005
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -133,10 +133,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id007
       source: https://docs.stripe.com/mcp
       status: verified
@@ -162,10 +162,10 @@ noindex: false
 permalink: /applications/ecommerce-storefront/sylius/
 providers:
 - agent_band: agent-native
-  agent_readiness: 43.7
+  agent_readiness: 42.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 73.6
   mcp: *id001
   name: Adyen
   slug: adyen
@@ -173,10 +173,10 @@ providers:
   tags: *id002
   url: /providers/adyen/
 - agent_band: agent-native
-  agent_readiness: 73.2
+  agent_readiness: 71.7
   band: exemplar
   in_catalog: true
-  kin_score: 68.2
+  kin_score: 68.1
   mcp: *id003
   name: Mollie
   slug: mollie
@@ -184,10 +184,10 @@ providers:
   tags: *id004
   url: /providers/mollie/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id005
   name: PayPal
   slug: paypal
@@ -195,10 +195,10 @@ providers:
   tags: *id006
   url: /providers/paypal/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id007
   name: Stripe
   slug: stripe

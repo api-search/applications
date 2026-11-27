@@ -1097,11 +1097,11 @@ apps:
     tier: declared
   - capability:
       attribution: Turbo EA
-      id: BC-410.60
-      key: channel-sales-management
-      name: Channel Sales Management
-      url: /capabilities/channel-sales-management/
-      via_parent: null
+      id: BC-410.50.30
+      key: BC-410.50.30
+      name: Sales Enablement
+      url: /capabilities/sales-operations-management/
+      via_parent: Sales Operations Management
     credit: null
     layer: domain
     name: Highspot
@@ -1849,14 +1849,14 @@ needs:
   why: store billing (Signal backups)
 - capability:
     attribution: Turbo EA
-    id: BC-410.60
-    key: channel-sales-management
-    name: Channel Sales Management
-    url: /capabilities/channel-sales-management/
-    via_parent: null
-  fit: nearest
+    id: BC-410.50.30
+    key: BC-410.50.30
+    name: Sales Enablement
+    url: /capabilities/sales-operations-management/
+    via_parent: Sales Operations Management
+  fit: exact
   layer: domain
-  why: sales enablement (nearest)
+  why: 'Sales Enablement: Highspot'
 - capability:
     attribution: Turbo EA
     id: BC-420
@@ -1938,13 +1938,13 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Discord
       - Rocket.Chat
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -1962,12 +1962,12 @@ stack:
       tier: observed
       url: /providers/x/
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Discord
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: &id001
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -1984,12 +1984,54 @@ stack:
       tier: declared
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 39.1
+      agent_readiness: 41.4
       apps:
       - Discord
       band: strong
       in_catalog: true
-      kin_score: 63.0
+      kin_score: 65.4
+      mcp:
+        status: none
+      name: YouTube
+      slug: youtube
+      sources:
+      - https://github.com/discord/discord-api-docs/blob/main/developers/resources/user.mdx
+      status: profiled
+      tags:
+      - Google
+      - Media
+      - Video
+      - YouTube
+      tier: declared
+      url: /providers/youtube/
+    - agent_band: agent-aware
+      agent_readiness: 8.9
+      apps:
+      - Discord
+      band: strong
+      in_catalog: true
+      kin_score: 65.0
+      mcp:
+        status: none
+      name: Xbox
+      slug: microsoft-xbox
+      sources:
+      - https://github.com/discord/discord-api-docs/blob/main/developers/resources/user.mdx
+      status: profiled
+      tags:
+      - Gaming
+      - Microsoft
+      - PlayFab
+      - Xbox
+      tier: declared
+      url: /providers/microsoft-xbox/
+    - agent_band: agent-ready
+      agent_readiness: 43.0
+      apps:
+      - Discord
+      band: strong
+      in_catalog: true
+      kin_score: 64.4
       mcp:
         source: https://github.com/reddit/devvit-mcp
         status: verified
@@ -2006,33 +2048,12 @@ stack:
       tier: declared
       url: /providers/reddit/
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 36.3
       apps:
       - Discord
       band: strong
       in_catalog: true
-      kin_score: 62.6
-      mcp:
-        status: none
-      name: YouTube
-      slug: youtube
-      sources:
-      - https://github.com/discord/discord-api-docs/blob/main/developers/resources/user.mdx
-      status: profiled
-      tags:
-      - Google
-      - Media
-      - Video
-      - YouTube
-      tier: declared
-      url: /providers/youtube/
-    - agent_band: agent-ready
-      agent_readiness: 37.1
-      apps:
-      - Discord
-      band: strong
-      in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -2049,12 +2070,33 @@ stack:
       tier: declared
       url: /providers/paypal/
     - agent_band: agent-ready
-      agent_readiness: 32.0
+      agent_readiness: 32.7
       apps:
       - Discord
       band: developing
       in_catalog: true
-      kin_score: 50.7
+      kin_score: 50.6
+      mcp:
+        status: none
+      name: Spotify
+      slug: spotify
+      sources:
+      - https://github.com/discord/discord-api-docs/blob/main/developers/resources/user.mdx
+      status: profiled
+      tags:
+      - Audio
+      - Music
+      - Podcasts
+      - Streaming
+      tier: declared
+      url: /providers/spotify/
+    - agent_band: agent-ready
+      agent_readiness: 31.3
+      apps:
+      - Discord
+      band: developing
+      in_catalog: true
+      kin_score: 48.7
       mcp:
         source: https://github.com/eBay/npm-public-api-mcp
         status: verified
@@ -2071,12 +2113,12 @@ stack:
       tier: declared
       url: /providers/ebay/
     - agent_band: agent-ready
-      agent_readiness: 32.2
+      agent_readiness: 36.9
       apps:
       - Discord
       band: developing
       in_catalog: true
-      kin_score: 50.5
+      kin_score: 48.2
       mcp:
         status: none
       name: Twitch
@@ -2091,34 +2133,13 @@ stack:
       - Streaming
       tier: declared
       url: /providers/twitch/
-    - agent_band: agent-ready
-      agent_readiness: 33.3
-      apps:
-      - Discord
-      band: developing
-      in_catalog: true
-      kin_score: 49.8
-      mcp:
-        status: none
-      name: Spotify
-      slug: spotify
-      sources:
-      - https://github.com/discord/discord-api-docs/blob/main/developers/resources/user.mdx
-      status: profiled
-      tags:
-      - Audio
-      - Music
-      - Podcasts
-      - Streaming
-      tier: declared
-      url: /providers/spotify/
     - agent_band: agent-aware
-      agent_readiness: 26.2
+      agent_readiness: 25.7
       apps:
       - Discord
       band: developing
       in_catalog: true
-      kin_score: 45.1
+      kin_score: 46.3
       mcp:
         status: none
       name: Bluesky
@@ -2134,33 +2155,12 @@ stack:
       tier: declared
       url: /providers/bluesky/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 22.0
       apps:
       - Discord
       band: developing
       in_catalog: true
-      kin_score: 42.7
-      mcp:
-        status: none
-      name: Facebook
-      slug: facebook
-      sources:
-      - https://github.com/discord/discord-api-docs/blob/main/developers/resources/user.mdx
-      status: profiled
-      tags:
-      - Advertising
-      - Content Publishing
-      - Facebook
-      - Fortune 500
-      tier: declared
-      url: /providers/facebook/
-    - agent_band: agent-aware
-      agent_readiness: 22.4
-      apps:
-      - Discord
-      band: developing
-      in_catalog: true
-      kin_score: 42.5
+      kin_score: 44.9
       mcp:
         status: none
       name: Epic Games
@@ -2176,12 +2176,33 @@ stack:
       tier: declared
       url: /providers/epic-games/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 28.1
       apps:
       - Discord
       band: developing
       in_catalog: true
-      kin_score: 41.0
+      kin_score: 43.7
+      mcp:
+        status: none
+      name: Facebook
+      slug: facebook
+      sources:
+      - https://github.com/discord/discord-api-docs/blob/main/developers/resources/user.mdx
+      status: profiled
+      tags:
+      - Advertising
+      - Content Publishing
+      - Facebook
+      - Fortune 500
+      tier: declared
+      url: /providers/facebook/
+    - agent_band: agent-aware
+      agent_readiness: 19.2
+      apps:
+      - Discord
+      band: developing
+      in_catalog: true
+      kin_score: 40.5
       mcp:
         status: none
       name: TikTok
@@ -2197,12 +2218,12 @@ stack:
       tier: declared
       url: /providers/tiktok/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - Discord
       band: thin
       in_catalog: true
-      kin_score: 34.4
+      kin_score: 34.5
       mcp:
         status: none
       name: Steam
@@ -2223,7 +2244,7 @@ stack:
       - Discord
       band: thin
       in_catalog: true
-      kin_score: 29.5
+      kin_score: 31.3
       mcp:
         source: https://github.com/Roblox/studio-rust-mcp-server
         status: verified
@@ -2240,12 +2261,12 @@ stack:
       tier: declared
       url: /providers/roblox/
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 22.0
       apps:
       - Discord
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 25.5
       mcp:
         status: none
       name: Mastodon
@@ -2261,33 +2282,12 @@ stack:
       tier: declared
       url: /providers/mastodon/
     - agent_band: human-only
-      agent_readiness: 0.6
+      agent_readiness: 0.0
       apps:
       - Discord
       band: emerging
       in_catalog: true
-      kin_score: 21.8
-      mcp:
-        status: none
-      name: Xbox
-      slug: microsoft-xbox
-      sources:
-      - https://github.com/discord/discord-api-docs/blob/main/developers/resources/user.mdx
-      status: profiled
-      tags:
-      - Gaming
-      - Microsoft
-      - PlayFab
-      - Xbox
-      tier: declared
-      url: /providers/microsoft-xbox/
-    - agent_band: agent-aware
-      agent_readiness: 10.8
-      apps:
-      - Discord
-      band: emerging
-      in_catalog: true
-      kin_score: 16.1
+      kin_score: 22.9
       mcp:
         status: none
       name: Amazon Music
@@ -2308,7 +2308,7 @@ stack:
       - Discord
       band: emerging
       in_catalog: true
-      kin_score: 13.1
+      kin_score: 21.9
       mcp:
         status: none
       name: PlayStation Network
@@ -2324,12 +2324,12 @@ stack:
       tier: declared
       url: /providers/playstation/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - Discord
       band: minimal
       in_catalog: true
-      kin_score: 6.4
+      kin_score: 7.6
       mcp:
         status: none
       name: Crunchyroll
@@ -2347,7 +2347,7 @@ stack:
       - Discord
       band: minimal
       in_catalog: true
-      kin_score: 5.0
+      kin_score: 6.5
       mcp:
         status: none
       name: Bungie.net
@@ -2370,15 +2370,15 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Mattermost
       - Rocket.Chat
       - Zulip
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp: &id007
         status: none
       name: Google SSO
@@ -2395,32 +2395,14 @@ stack:
       - Multi-Tenancy
       tier: observed
       url: /providers/google-identity-platform/
-    - agent_band: agent-ready
-      agent_readiness: 63.4
-      apps:
-      - Rocket.Chat
-      - Zulip
-      band: exemplar
-      in_catalog: true
-      kin_score: 85.4
-      mcp: *id001
-      name: GitHub
-      slug: github
-      sources:
-      - https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/package.json
-      - https://github.com/zulip/zulip/blob/main/zproject/backends.py
-      status: profiled
-      tags: *id002
-      tier: observed
-      url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Mattermost
       - Zulip
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp: &id003
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -2438,13 +2420,31 @@ stack:
       tier: observed
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 62.4
+      apps:
+      - Rocket.Chat
+      - Zulip
+      band: exemplar
+      in_catalog: true
+      kin_score: 85.0
+      mcp: *id001
+      name: GitHub
+      slug: github
+      sources:
+      - https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/package.json
+      - https://github.com/zulip/zulip/blob/main/zproject/backends.py
+      status: profiled
+      tags: *id002
+      tier: observed
+      url: /providers/github/
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - Mattermost
       - Zulip
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Office 365 / Entra ID SSO
@@ -2461,12 +2461,12 @@ stack:
       tier: observed
       url: /providers/microsoft-entra/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Zulip
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -2490,13 +2490,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Mattermost
       - Slack
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -2519,7 +2519,7 @@ stack:
       - Rocket.Chat
       band: thin
       in_catalog: true
-      kin_score: 33.4
+      kin_score: 34.3
       mcp:
         status: none
       name: LiveKit
@@ -2535,12 +2535,12 @@ stack:
       tier: observed
       url: /providers/livekit/
     - agent_band: human-only
-      agent_readiness: 3.8
+      agent_readiness: 3.7
       apps:
       - Element / Matrix (Synapse)
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 33.2
       mcp:
         status: none
       name: Jitsi
@@ -2559,9 +2559,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Mattermost
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 18.5
+      kin_score: 31.7
       mcp:
         status: none
       name: Pexip
@@ -2585,13 +2585,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - Mattermost
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp:
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -2609,12 +2609,12 @@ stack:
       tier: declared
       url: /providers/jira/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.3
       apps:
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 72.5
       mcp:
         source: https://developers.asana.com/docs/using-asanas-mcp-server
         status: verified
@@ -2631,12 +2631,12 @@ stack:
       tier: declared
       url: /providers/asana/
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 56.8
       apps:
       - Slack
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.3
       mcp:
         source: https://developers.notion.com/docs/mcp
         status: verified
@@ -2661,12 +2661,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2683,12 +2683,12 @@ stack:
       tier: declared
       url: /providers/google-drive/
     - agent_band: agent-ready
-      agent_readiness: 57.4
+      agent_readiness: 56.6
       apps:
       - Slack
       band: strong
       in_catalog: true
-      kin_score: 65.5
+      kin_score: 63.0
       mcp:
         source: https://developer.box.com/guides/box-mcp/
         status: verified
@@ -2705,12 +2705,12 @@ stack:
       tier: declared
       url: /providers/box/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Slack
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -2735,12 +2735,33 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.2
+      agent_readiness: 34.7
       apps:
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 73.6
+      kin_score: 72.4
+      mcp:
+        status: none
+      name: Zendesk
+      slug: zendesk
+      sources:
+      - https://slack.com/integrations
+      status: profiled
+      tags:
+      - CRM
+      - Chat
+      - Help Center
+      - Sell
+      tier: declared
+      url: /providers/zendesk/
+    - agent_band: agent-native
+      agent_readiness: 50.0
+      apps:
+      - Slack
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.3
       mcp:
         status: none
       name: Salesforce Service Cloud
@@ -2759,30 +2780,9 @@ stack:
       agent_readiness: 35.0
       apps:
       - Slack
-      band: exemplar
-      in_catalog: true
-      kin_score: 72.8
-      mcp:
-        status: none
-      name: Zendesk
-      slug: zendesk
-      sources:
-      - https://slack.com/integrations
-      status: profiled
-      tags:
-      - CRM
-      - Chat
-      - Help Center
-      - Sell
-      tier: declared
-      url: /providers/zendesk/
-    - agent_band: agent-ready
-      agent_readiness: 29.8
-      apps:
-      - Slack
       band: thin
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 29.7
       mcp:
         status: none
       name: Freshdesk
@@ -2806,12 +2806,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp: &id011
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -2828,12 +2828,12 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: &id009
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -2855,7 +2855,7 @@ stack:
       - Slack
       band: thin
       in_catalog: true
-      kin_score: 36.2
+      kin_score: 35.4
       mcp:
         source: https://github.com/writer/writer-mcp
         status: verified
@@ -2880,13 +2880,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Mattermost
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: *id001
       name: GitHub
       slug: github
@@ -2898,12 +2898,12 @@ stack:
       tier: declared
       url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp: *id003
       name: GitLab
       slug: gitlab
@@ -2922,12 +2922,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -2944,12 +2944,12 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2974,12 +2974,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Rocket.Chat
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2996,12 +2996,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Mattermost
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -3024,13 +3024,13 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 37.5
+    - agent_band: agent-native
+      agent_readiness: 41.1
       apps:
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 68.4
+      kin_score: 75.1
       mcp:
         status: none
       name: AWS Chatbot
@@ -3046,12 +3046,12 @@ stack:
       tier: declared
       url: /providers/amazon-q/
     - agent_band: agent-ready
-      agent_readiness: 53.5
+      agent_readiness: 54.4
       apps:
       - Mattermost
       band: strong
       in_catalog: true
-      kin_score: 61.4
+      kin_score: 63.1
       mcp:
         status: none
       name: Splunk
@@ -3067,36 +3067,6 @@ stack:
       tier: declared
       url: /providers/splunk/
   - capability:
-      attribution: Turbo EA
-      id: BC-410.60
-      key: channel-sales-management
-      name: Channel Sales Management
-      url: /capabilities/channel-sales-management/
-      via_parent: null
-    providers:
-    - agent_band: agent-ready
-      agent_readiness: 29.9
-      apps:
-      - Slack
-      band: developing
-      in_catalog: true
-      kin_score: 44.2
-      mcp:
-        source: https://mcp.highspot.com/mcp
-        status: verified
-      name: Highspot
-      slug: highspot
-      sources:
-      - https://slack.com/integrations
-      status: profiled
-      tags:
-      - CRM Integration
-      - Content Management
-      - Pitch Analytics
-      - Sales Enablement
-      tier: declared
-      url: /providers/highspot/
-  - capability:
       attribution: API Evangelist extension
       id: AE-170.80
       key: AE-170.80
@@ -3105,12 +3075,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.1
+      agent_readiness: 54.9
       apps:
       - Slack
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 46.4
+      kin_score: 68.5
       mcp:
         source: https://developers.miro.com/docs/miro-mcp
         status: verified
@@ -3135,12 +3105,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.9
+      agent_readiness: 54.4
       apps:
       - Slack
       band: developing
       in_catalog: true
-      kin_score: 51.2
+      kin_score: 52.1
       mcp:
         source: https://github.com/PagerDuty/pagerduty-mcp-server
         status: verified
@@ -3165,12 +3135,12 @@ stack:
       via_parent: Company & Contact Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 64.3
+      agent_readiness: 63.0
       apps:
       - Slack
       band: exemplar
       in_catalog: true
-      kin_score: 87.2
+      kin_score: 86.8
       mcp:
         source: https://github.com/Zoominfo/zoominfo-mcp-plugin
         status: verified
@@ -3195,12 +3165,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - Mattermost
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3225,12 +3195,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 6.3
+      agent_readiness: 6.2
       apps:
       - Signal
       band: thin
       in_catalog: true
-      kin_score: 34.2
+      kin_score: 33.2
       mcp:
         status: none
       name: MobileCoin
@@ -3254,12 +3224,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Rocket.Chat
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -3276,6 +3246,36 @@ stack:
       tier: observed
       url: /providers/twilio/
   - capability:
+      attribution: Turbo EA
+      id: BC-410.50.30
+      key: BC-410.50.30
+      name: Sales Enablement
+      url: /capabilities/sales-operations-management/
+      via_parent: Sales Operations Management
+    providers:
+    - agent_band: agent-ready
+      agent_readiness: 29.2
+      apps:
+      - Slack
+      band: developing
+      in_catalog: true
+      kin_score: 45.6
+      mcp:
+        source: https://mcp.highspot.com/mcp
+        status: verified
+      name: Highspot
+      slug: highspot
+      sources:
+      - https://slack.com/integrations
+      status: profiled
+      tags:
+      - CRM Integration
+      - Content Management
+      - Pitch Analytics
+      - Sales Enablement
+      tier: declared
+      url: /providers/highspot/
+  - capability:
       attribution: API Evangelist extension
       id: AE-922
       key: AE-922
@@ -3284,12 +3284,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Slack
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -3323,7 +3323,7 @@ stack:
       - Zulip
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -3342,12 +3342,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Rocket.Chat
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -3363,28 +3363,28 @@ stack:
       - Observability
       tier: observed
       url: /providers/bugsnag/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Rocket.Chat
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id005
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase (Crashlytics, Analytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/chat.rocket.android/latest/
       status: profiled
       tags: &id006
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.30
@@ -3394,13 +3394,31 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 39.9
       apps:
-      - Rocket.Chat
+      - Signal
       - Zulip
       band: strong
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 62.0
+      mcp: *id005
+      name: Firebase Cloud Messaging
+      slug: google-firebase
+      sources:
+      - https://github.com/signalapp/Signal-Android/blob/main/gradle/libs.versions.toml
+      - https://github.com/zulip/zulip/blob/main/pyproject.toml
+      status: profiled
+      tags: *id006
+      tier: observed
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 36.5
+      apps:
+      - Rocket.Chat
+      - Zulip
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple (APNs, Sign in with Apple)
@@ -3416,24 +3434,6 @@ stack:
       - macOS
       tier: observed
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - Signal
-      - Zulip
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp: *id005
-      name: Firebase Cloud Messaging
-      slug: firebase
-      sources:
-      - https://github.com/signalapp/Signal-Android/blob/main/gradle/libs.versions.toml
-      - https://github.com/zulip/zulip/blob/main/pyproject.toml
-      status: profiled
-      tags: *id006
-      tier: observed
-      url: /providers/firebase/
   - capability:
       attribution: Turbo EA
       id: BC-600.50.20
@@ -3442,14 +3442,14 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Rocket.Chat
       - Zulip
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3467,12 +3467,12 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Rocket.Chat
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -3489,12 +3489,12 @@ stack:
       tier: observed
       url: /providers/gcp-cloud-storage/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Mattermost
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3519,13 +3519,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Element / Matrix (Synapse)
       - Mattermost
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -3550,13 +3550,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Signal
       - Zulip
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3582,12 +3582,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Discord
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -3604,12 +3604,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Element / Matrix (Synapse)
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -3634,12 +3634,12 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Signal
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -3664,12 +3664,12 @@ stack:
       via_parent: Consumer Payment Options
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 39.7
       apps:
       - Signal
       band: strong
       in_catalog: true
-      kin_score: 66.2
+      kin_score: 65.2
       mcp:
         status: none
       name: Google Pay
@@ -3693,12 +3693,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 29.1
       apps:
       - Mattermost
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 68.1
       mcp:
         status: none
       name: Microsoft Intune
@@ -3722,12 +3722,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.9
       apps:
       - Mattermost
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 35.9
       mcp:
         status: none
       name: Split (Harness FME)
@@ -3750,13 +3750,13 @@ stack:
       url: /capabilities/in-app-purchases-app-store-billing/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Signal
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: Google Play Billing
@@ -3780,12 +3780,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Discord
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3809,13 +3809,13 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Signal
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp: *id007
       name: Google ID / Credential Manager
       slug: google-identity-platform
@@ -3834,12 +3834,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Mattermost
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3866,13 +3866,13 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Mattermost
       - Zulip
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: *id009
       name: OpenAI
       slug: openai
@@ -3884,12 +3884,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Mattermost
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp: *id011
       name: Anthropic
       slug: anthropic
@@ -3900,12 +3900,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 40.6
+      agent_readiness: 42.8
       apps:
       - Mattermost
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 61.0
+      kin_score: 71.1
       mcp:
         status: none
       name: Scale AI
@@ -3921,33 +3921,34 @@ stack:
       tier: observed
       url: /providers/scale-ai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 29.9
       apps:
       - Mattermost
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 68.3
       mcp:
-        status: none
-      name: Google Gemini
-      slug: google-gemini
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Azure OpenAI
+      slug: microsoft-azure-openai
       sources:
       - https://github.com/mattermost/mattermost-plugin-agents/blob/master/llm/service_types.go
       status: profiled
       tags:
-      - AI Agents
       - Artificial Intelligence
-      - Code Generation
       - Embeddings
+      - GPT
+      - Generative AI
       tier: observed
-      url: /providers/google-gemini/
-    - agent_band: agent-ready
-      agent_readiness: 35.8
+      url: /providers/microsoft-azure-openai/
+    - agent_band: agent-native
+      agent_readiness: 48.3
       apps:
       - Mattermost
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 64.3
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3963,13 +3964,13 @@ stack:
       - Generative AI
       tier: observed
       url: /providers/amazon-bedrock/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 42.2
       apps:
       - Mattermost
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.4
+      kin_score: 63.2
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -3986,12 +3987,33 @@ stack:
       tier: observed
       url: /providers/google-vertex-ai/
     - agent_band: agent-ready
-      agent_readiness: 28.8
+      agent_readiness: 35.0
+      apps:
+      - Mattermost
+      band: strong
+      in_catalog: true
+      kin_score: 61.7
+      mcp:
+        status: none
+      name: Google Gemini
+      slug: google-gemini
+      sources:
+      - https://github.com/mattermost/mattermost-plugin-agents/blob/master/llm/service_types.go
+      status: profiled
+      tags:
+      - AI Agents
+      - Artificial Intelligence
+      - Code Generation
+      - Embeddings
+      tier: observed
+      url: /providers/google-gemini/
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - Mattermost
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: Mistral AI
@@ -4006,35 +4028,13 @@ stack:
       - OCR
       tier: observed
       url: /providers/mistral/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
-      apps:
-      - Mattermost
-      band: developing
-      in_catalog: true
-      kin_score: 44.6
-      mcp:
-        source: https://github.com/microsoft/mcp
-        status: verified
-      name: Azure OpenAI
-      slug: microsoft-azure-openai
-      sources:
-      - https://github.com/mattermost/mattermost-plugin-agents/blob/master/llm/service_types.go
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Embeddings
-      - GPT
-      - Generative AI
-      tier: observed
-      url: /providers/microsoft-azure-openai/
     - agent_band: agent-ready
-      agent_readiness: 41.4
+      agent_readiness: 40.6
       apps:
       - Mattermost
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.2
       mcp:
         status: none
       name: Cohere
@@ -4061,7 +4061,7 @@ summary:
     unchecked: 0
     verified: 41
   mcp_verified: 41
-  mean_kin_score: 56.0
+  mean_kin_score: 59.1
   observed: 36
   queued: 0
   reference_apps: 7

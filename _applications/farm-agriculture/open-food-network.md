@@ -66,11 +66,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -98,10 +98,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.1
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.5
+    kin_score: 76.3
     mcp: &id003
       source: https://github.com/SmartBear/smartbear-mcp
       status: verified
@@ -129,10 +129,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.9
-    band: emerging
+    agent_readiness: 12.7
+    band: thin
     in_catalog: true
-    kin_score: 23.2
+    kin_score: 28.0
     mcp: &id005
       status: unknown
     slug: gnu-taler
@@ -159,10 +159,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id007
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -190,10 +190,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: exemplar
     in_catalog: true
-    kin_score: 76.5
+    kin_score: 74.4
     mcp: &id009
       source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
       status: verified
@@ -221,10 +221,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id011
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -252,10 +252,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id013
       source: https://docs.stripe.com/mcp
       status: verified
@@ -280,11 +280,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/farm-agriculture/open-food-network/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -292,10 +292,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 53.1
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.5
+  kin_score: 76.3
   mcp: *id003
   name: Bugsnag
   slug: bugsnag
@@ -303,10 +303,10 @@ providers:
   tags: *id004
   url: /providers/bugsnag/
 - agent_band: agent-aware
-  agent_readiness: 12.9
-  band: emerging
+  agent_readiness: 12.7
+  band: thin
   in_catalog: true
-  kin_score: 23.2
+  kin_score: 28.0
   mcp: *id005
   name: GNU Taler
   slug: gnu-taler
@@ -314,10 +314,10 @@ providers:
   tags: *id006
   url: /providers/gnu-taler/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id007
   name: Google Maps Platform
   slug: google-maps
@@ -325,10 +325,10 @@ providers:
   tags: *id008
   url: /providers/google-maps/
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 44.8
   band: exemplar
   in_catalog: true
-  kin_score: 76.5
+  kin_score: 74.4
   mcp: *id009
   name: New Relic
   slug: new-relic
@@ -336,10 +336,10 @@ providers:
   tags: *id010
   url: /providers/new-relic/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id011
   name: PayPal
   slug: paypal
@@ -347,10 +347,10 @@ providers:
   tags: *id012
   url: /providers/paypal/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id013
   name: Stripe
   slug: stripe

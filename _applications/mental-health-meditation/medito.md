@@ -73,10 +73,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id002
       status: none
     slug: apple
@@ -103,10 +103,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id004
       status: none
     slug: facebook
@@ -132,22 +132,22 @@ integrations:
     via_parent: null
   credit: null
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id006
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id007
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Analytics
   provider: firebase
@@ -194,10 +194,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 0.7
     band: emerging
     in_catalog: true
-    kin_score: 13.7
+    kin_score: 16.1
     mcp: &id008
       status: none
     slug: health-connect
@@ -224,10 +224,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id010
       source: https://docs.stripe.com/mcp
       status: verified
@@ -253,10 +253,10 @@ noindex: false
 permalink: /applications/mental-health-meditation/medito/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id002
   name: Apple HealthKit
   slug: apple
@@ -264,32 +264,32 @@ providers:
   tags: *id003
   url: /providers/apple/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id004
   name: Facebook App Events
   slug: facebook
   status: profiled
   tags: *id005
   url: /providers/facebook/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id006
   name: Firebase Analytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id007
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 0.7
   band: emerging
   in_catalog: true
-  kin_score: 13.7
+  kin_score: 16.1
   mcp: *id008
   name: Google Health Connect
   slug: health-connect
@@ -297,10 +297,10 @@ providers:
   tags: *id009
   url: /providers/health-connect/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id010
   name: Stripe
   slug: stripe

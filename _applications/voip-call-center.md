@@ -1143,11 +1143,11 @@ apps:
     source: https://aircall.io/integrations/
     tier: declared
   - capability:
-      attribution: Turbo EA
-      id: BC-410
-      key: sales-management
-      name: Sales Management
-      url: /capabilities/sales-management/
+      attribution: API Evangelist extension
+      id: AE-954
+      key: AE-954
+      name: Sales Engagement & Sequencing
+      url: /capabilities/sales-engagement-sequencing/
       via_parent: null
     credit: null
     layer: domain
@@ -1199,11 +1199,11 @@ apps:
     source: https://aircall.io/integrations/
     tier: declared
   - capability:
-      attribution: Turbo EA
-      id: BC-410
-      key: sales-management
-      name: Sales Management
-      url: /capabilities/sales-management/
+      attribution: API Evangelist extension
+      id: AE-954
+      key: AE-954
+      name: Sales Engagement & Sequencing
+      url: /capabilities/sales-engagement-sequencing/
       via_parent: null
     credit: null
     layer: domain
@@ -1716,11 +1716,11 @@ apps:
     source: https://justcall.io/integrations/
     tier: declared
   - capability:
-      attribution: Turbo EA
-      id: BC-410
-      key: sales-management
-      name: Sales Management
-      url: /capabilities/sales-management/
+      attribution: API Evangelist extension
+      id: AE-954
+      key: AE-954
+      name: Sales Engagement & Sequencing
+      url: /capabilities/sales-engagement-sequencing/
       via_parent: null
     credit: null
     layer: domain
@@ -1772,11 +1772,11 @@ apps:
     source: https://justcall.io/integrations/
     tier: declared
   - capability:
-      attribution: Turbo EA
-      id: BC-410
-      key: sales-management
-      name: Sales Management
-      url: /capabilities/sales-management/
+      attribution: API Evangelist extension
+      id: AE-954
+      key: AE-954
+      name: Sales Engagement & Sequencing
+      url: /capabilities/sales-engagement-sequencing/
       via_parent: null
     credit: null
     layer: domain
@@ -2079,11 +2079,11 @@ apps:
     source: https://www.talkdesk.com/integrations/
     tier: declared
   - capability:
-      attribution: Turbo EA
-      id: BC-410
-      key: sales-management
-      name: Sales Management
-      url: /capabilities/sales-management/
+      attribution: API Evangelist extension
+      id: AE-954
+      key: AE-954
+      name: Sales Engagement & Sequencing
+      url: /capabilities/sales-engagement-sequencing/
       via_parent: null
     credit: null
     layer: domain
@@ -2602,6 +2602,16 @@ needs:
   fit: exact
   layer: common
   why: realtime messaging in the mobile apps
+- capability:
+    attribution: API Evangelist extension
+    id: AE-954
+    key: AE-954
+    name: Sales Engagement & Sequencing
+    url: /capabilities/sales-engagement-sequencing/
+    via_parent: null
+  fit: exact
+  layer: domain
+  why: Outreach, Salesloft (Sales Engagement & Sequencing)
 stack:
 - capabilities:
   - capability:
@@ -2613,7 +2623,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Aircall
       - Dialpad
@@ -2621,7 +2631,7 @@ stack:
       - Talkdesk
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -2640,7 +2650,7 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Aircall
       - Dialpad
@@ -2648,7 +2658,7 @@ stack:
       - Talkdesk
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2667,14 +2677,14 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 44.2
+      agent_readiness: 43.3
       apps:
       - Aircall
       - JustCall
       - Talkdesk
       band: exemplar
       in_catalog: true
-      kin_score: 86.0
+      kin_score: 85.4
       mcp:
         status: none
       name: Zoho CRM
@@ -2692,14 +2702,14 @@ stack:
       tier: declared
       url: /providers/zoho-crm/
     - agent_band: agent-ready
-      agent_readiness: 29.3
+      agent_readiness: 28.7
       apps:
       - Aircall
       - JustCall
       - Talkdesk
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 55.3
       mcp:
         status: none
       name: Pipedrive
@@ -2717,13 +2727,13 @@ stack:
       tier: declared
       url: /providers/pipedrive/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 51.0
       apps:
       - Aircall
       - JustCall
       band: exemplar
       in_catalog: true
-      kin_score: 82.0
+      kin_score: 81.1
       mcp:
         source: https://developers.activecampaign.com/page/mcp
         status: documented
@@ -2741,13 +2751,13 @@ stack:
       tier: declared
       url: /providers/activecampaign/
     - agent_band: agent-ready
-      agent_readiness: 30.1
+      agent_readiness: 30.0
       apps:
       - Aircall
       - JustCall
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 72.8
       mcp:
         status: none
       name: Zendesk Sell
@@ -2764,36 +2774,13 @@ stack:
       tier: declared
       url: /providers/zendesk-sell/
     - agent_band: agent-ready
-      agent_readiness: 45.4
-      apps:
-      - JustCall
-      - Talkdesk
-      band: exemplar
-      in_catalog: true
-      kin_score: 68.1
-      mcp:
-        status: none
-      name: Keap
-      slug: keap
-      sources:
-      - https://justcall.io/integrations/
-      - https://www.talkdesk.com/integrations/
-      status: profiled
-      tags:
-      - CRM
-      - Marketing Automation
-      - Sales
-      - Small Business
-      tier: declared
-      url: /providers/keap/
-    - agent_band: agent-ready
-      agent_readiness: 33.1
+      agent_readiness: 37.6
       apps:
       - Aircall
       - Talkdesk
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.9
+      kin_score: 67.7
       mcp:
         source: https://github.com/microsoft/Dataverse-MCP
         status: verified
@@ -2811,13 +2798,13 @@ stack:
       tier: declared
       url: /providers/microsoft-dynamics-365/
     - agent_band: agent-ready
-      agent_readiness: 38.3
+      agent_readiness: 37.5
       apps:
       - Aircall
       - JustCall
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 61.9
+      kin_score: 66.9
       mcp:
         source: https://marketplace.gohighlevel.com/docs/other/mcp/index.html
         status: verified
@@ -2834,14 +2821,37 @@ stack:
       - Software-as-a-Service
       tier: declared
       url: /providers/highlevel/
+    - agent_band: agent-ready
+      agent_readiness: 44.5
+      apps:
+      - JustCall
+      - Talkdesk
+      band: strong
+      in_catalog: true
+      kin_score: 65.0
+      mcp:
+        status: none
+      name: Keap
+      slug: keap
+      sources:
+      - https://justcall.io/integrations/
+      - https://www.talkdesk.com/integrations/
+      status: profiled
+      tags:
+      - CRM
+      - Marketing Automation
+      - Sales
+      - Small Business
+      tier: declared
+      url: /providers/keap/
     - agent_band: agent-aware
-      agent_readiness: 24.5
+      agent_readiness: 26.7
       apps:
       - Aircall
       - JustCall
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 46.2
       mcp:
         status: none
       name: Copper
@@ -2858,13 +2868,13 @@ stack:
       tier: declared
       url: /providers/copper/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.7
       apps:
       - Aircall
       - JustCall
       band: thin
       in_catalog: true
-      kin_score: 36.1
+      kin_score: 36.2
       mcp:
         status: none
       name: Freshsales
@@ -2887,7 +2897,7 @@ stack:
       - JustCall
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 32.2
       mcp:
         source: https://github.com/mondaycom/mcp
         status: verified
@@ -2905,13 +2915,13 @@ stack:
       tier: declared
       url: /providers/monday-com/
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - Aircall
       - JustCall
       band: thin
       in_catalog: true
-      kin_score: 27.9
+      kin_score: 27.6
       mcp:
         status: none
       name: Odoo
@@ -2928,13 +2938,13 @@ stack:
       tier: declared
       url: /providers/odoo/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 44.8
       apps:
       - Aircall
       - JustCall
       band: emerging
       in_catalog: true
-      kin_score: 21.9
+      kin_score: 20.0
       mcp:
         source: https://docs.attio.com/mcp/overview
         status: verified
@@ -2952,12 +2962,12 @@ stack:
       tier: declared
       url: /providers/attio/
     - agent_band: agent-ready
-      agent_readiness: 60.0
+      agent_readiness: 58.1
       apps:
       - JustCall
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.2
       mcp:
         source: https://developer.close.com/mcp
         status: verified
@@ -2982,7 +2992,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Aircall
       - Dialpad
@@ -2990,7 +3000,7 @@ stack:
       - Talkdesk
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk CTI
@@ -3008,14 +3018,14 @@ stack:
       tier: declared
       url: /providers/zendesk/
     - agent_band: agent-aware
-      agent_readiness: 27.0
+      agent_readiness: 26.4
       apps:
       - Aircall
       - JustCall
       - Talkdesk
       band: developing
       in_catalog: true
-      kin_score: 54.2
+      kin_score: 53.6
       mcp:
         source: https://dev.frontapp.com/docs/mcp
         status: documented
@@ -3033,41 +3043,15 @@ stack:
       - Inbox
       tier: declared
       url: /providers/front/
-    - agent_band: agent-ready
-      agent_readiness: 31.7
-      apps:
-      - Aircall
-      - JustCall
-      - Talkdesk
-      band: developing
-      in_catalog: true
-      kin_score: 52.5
-      mcp:
-        source: https://developers.intercom.com/docs/guides/mcp
-        status: verified
-      name: Intercom
-      slug: intercom
-      sources:
-      - https://aircall.io/integrations/
-      - https://justcall.io/integrations/
-      - https://www.talkdesk.com/integrations/
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Conversational AI
-      - Customer Service
-      - Messaging
-      tier: declared
-      url: /providers/intercom/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 24.8
       apps:
       - Aircall
       - JustCall
       - Talkdesk
       band: developing
       in_catalog: true
-      kin_score: 51.7
+      kin_score: 51.5
       mcp:
         status: none
       name: Help Scout
@@ -3085,14 +3069,40 @@ stack:
       tier: declared
       url: /providers/helpscout/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 32.5
+      apps:
+      - Aircall
+      - JustCall
+      - Talkdesk
+      band: developing
+      in_catalog: true
+      kin_score: 51.0
+      mcp:
+        source: https://developers.intercom.com/docs/guides/mcp
+        status: verified
+      name: Intercom
+      slug: intercom
+      sources:
+      - https://aircall.io/integrations/
+      - https://justcall.io/integrations/
+      - https://www.talkdesk.com/integrations/
+      status: profiled
+      tags:
+      - Artificial Intelligence
+      - Conversational AI
+      - Customer Service
+      - Messaging
+      tier: declared
+      url: /providers/intercom/
+    - agent_band: agent-ready
+      agent_readiness: 35.0
       apps:
       - Aircall
       - JustCall
       - Talkdesk
       band: thin
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 29.7
       mcp:
         status: none
       name: Freshdesk
@@ -3110,14 +3120,14 @@ stack:
       tier: declared
       url: /providers/freshdesk/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Aircall
       - JustCall
       - Talkdesk
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.6
+      kin_score: 26.4
       mcp:
         status: none
       name: Kustomer
@@ -3135,13 +3145,13 @@ stack:
       tier: declared
       url: /providers/kustomer/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.3
       apps:
       - Aircall
       - JustCall
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 42.5
       mcp:
         source: https://github.com/gorgias/mcp-cookbook
         status: verified
@@ -3159,13 +3169,13 @@ stack:
       tier: declared
       url: /providers/gorgias/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - Aircall
       - JustCall
       band: thin
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 28.2
       mcp:
         source: https://www.zoho.com/mcp/
         status: verified
@@ -3188,7 +3198,7 @@ stack:
       - Aircall
       band: emerging
       in_catalog: true
-      kin_score: 14.0
+      kin_score: 12.2
       mcp:
         status: none
       name: Nicereply
@@ -3212,13 +3222,13 @@ stack:
       via_parent: Speech & Voice
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 60.4
       apps:
       - Fonoster
       - jambonz
       band: exemplar
       in_catalog: true
-      kin_score: 83.0
+      kin_score: 83.2
       mcp:
         source: https://github.com/elevenlabs/elevenlabs-mcp
         status: verified
@@ -3235,14 +3245,14 @@ stack:
       - Voice
       tier: observed
       url: /providers/elevenlabs/
-    - agent_band: agent-aware
-      agent_readiness: 17.9
+    - agent_band: agent-ready
+      agent_readiness: 35.8
       apps:
       - Fonoster
       - jambonz
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 51.3
+      kin_score: 68.6
       mcp:
         status: none
       name: Google
@@ -3258,14 +3268,38 @@ stack:
       - Speech Synthesis
       tier: observed
       url: /providers/google-cloud-text-to-speech/
+    - agent_band: agent-aware
+      agent_readiness: 25.8
+      apps:
+      - Fonoster
+      - jambonz
+      band: strong
+      in_catalog: true
+      kin_score: 57.9
+      mcp: &id005
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Microsoft Azure Speech
+      slug: azure-ai-speech
+      sources:
+      - https://github.com/fonoster/fonoster/tree/main/mods/apiserver/src/voice/tts
+      - https://github.com/jambonz/speech-utils/blob/main/lib/synth-audio.js
+      status: profiled
+      tags: &id006
+      - Artificial Intelligence
+      - Cloud
+      - Microsoft
+      - Speech
+      tier: observed
+      url: /providers/azure-ai-speech/
     - agent_band: agent-ready
-      agent_readiness: 36.2
+      agent_readiness: 35.9
       apps:
       - Fonoster
       - jambonz
       band: developing
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 48.2
       mcp: &id001
         source: https://github.com/deepgram/mcp
         status: verified
@@ -3282,37 +3316,13 @@ stack:
       - Transcription
       tier: observed
       url: /providers/deepgram/
-    - agent_band: agent-aware
-      agent_readiness: 17.6
-      apps:
-      - Fonoster
-      - jambonz
-      band: thin
-      in_catalog: true
-      kin_score: 32.9
-      mcp: &id007
-        source: https://github.com/microsoft/mcp
-        status: verified
-      name: Microsoft Azure Speech
-      slug: azure-ai-speech
-      sources:
-      - https://github.com/fonoster/fonoster/tree/main/mods/apiserver/src/voice/tts
-      - https://github.com/jambonz/speech-utils/blob/main/lib/synth-audio.js
-      status: profiled
-      tags: &id008
-      - Artificial Intelligence
-      - Cloud
-      - Microsoft
-      - Speech
-      tier: observed
-      url: /providers/azure-ai-speech/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - jambonz
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: &id003
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -3329,12 +3339,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 32.0
+      agent_readiness: 39.7
       apps:
       - jambonz
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 72.9
       mcp:
         status: none
       name: AWS Polly
@@ -3350,12 +3360,12 @@ stack:
       tier: observed
       url: /providers/amazon-polly/
     - agent_band: agent-ready
-      agent_readiness: 29.3
+      agent_readiness: 29.1
       apps:
       - jambonz
       band: strong
       in_catalog: true
-      kin_score: 57.8
+      kin_score: 58.2
       mcp:
         status: none
       name: KugelAudio
@@ -3371,12 +3381,12 @@ stack:
       tier: observed
       url: /providers/kugelaudio/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 29.6
       apps:
       - jambonz
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 56.5
+      kin_score: 54.2
       mcp:
         status: none
       name: Gradium
@@ -3391,13 +3401,13 @@ stack:
       - Voice AI
       tier: observed
       url: /providers/gradium/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - jambonz
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: Mistral
@@ -3412,14 +3422,14 @@ stack:
       - OCR
       tier: observed
       url: /providers/mistral/
-    - agent_band: agent-aware
-      agent_readiness: 23.7
+    - agent_band: agent-ready
+      agent_readiness: 29.0
       apps:
       - jambonz
       band: thin
       in_catalog: true
-      kin_score: 37.9
-      mcp: &id005
+      kin_score: 36.5
+      mcp: &id007
         source: https://github.com/cartesia-ai/cartesia-mcp
         status: verified
       name: Cartesia
@@ -3427,7 +3437,7 @@ stack:
       sources:
       - https://github.com/jambonz/speech-utils/blob/main/lib/synth-audio.js
       status: profiled
-      tags: &id006
+      tags: &id008
       - Artificial Intelligence
       - Speech-to-Text
       - Text-to-Speech
@@ -3435,12 +3445,12 @@ stack:
       tier: observed
       url: /providers/cartesia-ai/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 23.9
       apps:
       - jambonz
       band: thin
       in_catalog: true
-      kin_score: 35.2
+      kin_score: 35.3
       mcp:
         source: https://github.com/wellsaid-labs/wellsaid-mcp
         status: verified
@@ -3457,12 +3467,33 @@ stack:
       tier: observed
       url: /providers/wellsaid/
     - agent_band: agent-ready
-      agent_readiness: 38.8
+      agent_readiness: 51.9
       apps:
       - jambonz
       band: thin
       in_catalog: true
-      kin_score: 32.8
+      kin_score: 33.1
+      mcp:
+        status: none
+      name: Fish Audio
+      slug: fish-audio
+      sources:
+      - https://github.com/jambonz/speech-utils/blob/main/lib/synth-audio.js
+      status: profiled
+      tags:
+      - Speech-to-Text
+      - Text-to-Speech
+      - Voice
+      - Voice Cloning
+      tier: observed
+      url: /providers/fish-audio/
+    - agent_band: agent-ready
+      agent_readiness: 39.4
+      apps:
+      - jambonz
+      band: thin
+      in_catalog: true
+      kin_score: 32.3
       mcp:
         status: none
       name: xAI
@@ -3483,7 +3514,7 @@ stack:
       - jambonz
       band: thin
       in_catalog: true
-      kin_score: 32.7
+      kin_score: 31.6
       mcp:
         source: https://github.com/resemble-ai/resemble-mcp
         status: verified
@@ -3500,33 +3531,12 @@ stack:
       tier: observed
       url: /providers/resemble-ai/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 29.1
       apps:
       - jambonz
       band: thin
       in_catalog: true
-      kin_score: 32.2
-      mcp:
-        status: none
-      name: Fish Audio
-      slug: fish-audio
-      sources:
-      - https://github.com/jambonz/speech-utils/blob/main/lib/synth-audio.js
-      status: profiled
-      tags:
-      - Speech-to-Text
-      - Text-to-Speech
-      - Voice
-      - Voice Cloning
-      tier: observed
-      url: /providers/fish-audio/
-    - agent_band: agent-aware
-      agent_readiness: 22.7
-      apps:
-      - jambonz
-      band: thin
-      in_catalog: true
-      kin_score: 31.4
+      kin_score: 30.6
       mcp:
         status: none
       name: Inworld
@@ -3542,12 +3552,12 @@ stack:
       tier: observed
       url: /providers/inworld/
     - agent_band: agent-aware
-      agent_readiness: 16.6
+      agent_readiness: 16.3
       apps:
       - jambonz
       band: thin
       in_catalog: true
-      kin_score: 30.0
+      kin_score: 28.3
       mcp:
         source: https://github.com/murf-ai/murf-mcp
         status: verified
@@ -3564,12 +3574,12 @@ stack:
       tier: observed
       url: /providers/murf/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.1
       apps:
       - jambonz
       band: thin
       in_catalog: true
-      kin_score: 27.1
+      kin_score: 27.0
       mcp:
         status: none
       name: Speechify
@@ -3585,12 +3595,12 @@ stack:
       tier: observed
       url: /providers/speechify/
     - agent_band: agent-ready
-      agent_readiness: 38.5
+      agent_readiness: 38.1
       apps:
       - jambonz
       band: emerging
       in_catalog: true
-      kin_score: 19.9
+      kin_score: 18.3
       mcp:
         status: none
       name: Rime Labs
@@ -3605,13 +3615,13 @@ stack:
       - Voice
       tier: observed
       url: /providers/rime-ai/
-    - agent_band: human-only
-      agent_readiness: 4.2
+    - agent_band: agent-aware
+      agent_readiness: 5.2
       apps:
       - jambonz
-      band: emerging
+      band: minimal
       in_catalog: true
-      kin_score: 11.9
+      kin_score: 9.9
       mcp: &id009
         status: none
       name: NVIDIA Riva
@@ -3634,14 +3644,14 @@ stack:
       url: /capabilities/speech-voice/
       via_parent: Speech & Voice
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 33.8
       apps:
       - Fonoster
       - jambonz
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 51.5
+      kin_score: 68.9
       mcp:
         status: none
       name: Google
@@ -3658,13 +3668,13 @@ stack:
       tier: observed
       url: /providers/google-cloud-speech-to-text/
     - agent_band: agent-ready
-      agent_readiness: 36.2
+      agent_readiness: 35.9
       apps:
       - Fonoster
       - jambonz
       band: developing
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 48.2
       mcp: *id001
       name: Deepgram
       slug: deepgram
@@ -3676,12 +3686,12 @@ stack:
       tier: observed
       url: /providers/deepgram/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - jambonz
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: *id003
       name: OpenAI
       slug: openai
@@ -3691,13 +3701,13 @@ stack:
       tags: *id004
       tier: observed
       url: /providers/openai/
-    - agent_band: agent-aware
-      agent_readiness: 25.3
+    - agent_band: agent-ready
+      agent_readiness: 34.5
       apps:
       - jambonz
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.0
+      kin_score: 75.6
       mcp:
         status: none
       name: AWS (Transcribe)
@@ -3712,13 +3722,29 @@ stack:
       - Speech Recognition
       tier: observed
       url: /providers/amazon-transcribe/
+    - agent_band: agent-aware
+      agent_readiness: 25.8
+      apps:
+      - jambonz
+      band: strong
+      in_catalog: true
+      kin_score: 57.9
+      mcp: *id005
+      name: Microsoft Azure Speech
+      slug: azure-ai-speech
+      sources:
+      - https://github.com/jambonz/jambonz-feature-server/blob/main/lib/utils/transcription-utils.js
+      status: profiled
+      tags: *id006
+      tier: observed
+      url: /providers/azure-ai-speech/
     - agent_band: agent-ready
-      agent_readiness: 33.9
+      agent_readiness: 33.6
       apps:
       - jambonz
       band: developing
       in_catalog: true
-      kin_score: 50.2
+      kin_score: 49.4
       mcp:
         source: https://github.com/gladiaio/gladia-mcp
         status: verified
@@ -3735,33 +3761,33 @@ stack:
       tier: observed
       url: /providers/gladia/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.9
       apps:
       - jambonz
       band: developing
       in_catalog: true
-      kin_score: 46.5
+      kin_score: 48.0
       mcp:
         status: none
-      name: Speechmatics
-      slug: speechmatics
+      name: Nuance
+      slug: nuance
       sources:
       - https://github.com/jambonz/jambonz-feature-server/blob/main/lib/utils/transcription-utils.js
       status: profiled
       tags:
-      - Real-Time Transcription
+      - Company
+      - Conversational AI
+      - Natural Language Understanding
       - Speech Recognition
-      - Speech-to-Text
-      - Transcription
       tier: observed
-      url: /providers/speechmatics/
+      url: /providers/nuance/
     - agent_band: agent-ready
-      agent_readiness: 29.5
+      agent_readiness: 39.0
       apps:
       - jambonz
       band: developing
       in_catalog: true
-      kin_score: 45.9
+      kin_score: 46.4
       mcp:
         source: https://github.com/AssemblyAI/assemblyai-mcp
         status: verified
@@ -3778,65 +3804,49 @@ stack:
       tier: observed
       url: /providers/assemblyai/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 26.3
+      apps:
+      - jambonz
+      band: developing
+      in_catalog: true
+      kin_score: 44.9
+      mcp:
+        status: none
+      name: Speechmatics
+      slug: speechmatics
+      sources:
+      - https://github.com/jambonz/jambonz-feature-server/blob/main/lib/utils/transcription-utils.js
+      status: profiled
+      tags:
+      - Real-Time Transcription
+      - Speech Recognition
+      - Speech-to-Text
+      - Transcription
+      tier: observed
+      url: /providers/speechmatics/
+    - agent_band: agent-ready
+      agent_readiness: 29.0
       apps:
       - jambonz
       band: thin
       in_catalog: true
-      kin_score: 37.9
-      mcp: *id005
+      kin_score: 36.5
+      mcp: *id007
       name: Cartesia
       slug: cartesia-ai
       sources:
       - https://github.com/jambonz/jambonz-feature-server/blob/main/lib/utils/transcription-utils.js
       status: profiled
-      tags: *id006
-      tier: observed
-      url: /providers/cartesia-ai/
-    - agent_band: agent-aware
-      agent_readiness: 17.6
-      apps:
-      - jambonz
-      band: thin
-      in_catalog: true
-      kin_score: 32.9
-      mcp: *id007
-      name: Microsoft Azure Speech
-      slug: azure-ai-speech
-      sources:
-      - https://github.com/jambonz/jambonz-feature-server/blob/main/lib/utils/transcription-utils.js
-      status: profiled
       tags: *id008
       tier: observed
-      url: /providers/azure-ai-speech/
+      url: /providers/cartesia-ai/
     - agent_band: human-only
       agent_readiness: 2.5
       apps:
       - jambonz
       band: thin
       in_catalog: true
-      kin_score: 27.7
-      mcp:
-        status: none
-      name: Nuance
-      slug: nuance
-      sources:
-      - https://github.com/jambonz/jambonz-feature-server/blob/main/lib/utils/transcription-utils.js
-      status: profiled
-      tags:
-      - Company
-      - Conversational AI
-      - Natural Language Understanding
-      - Speech Recognition
-      tier: observed
-      url: /providers/nuance/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
-      apps:
-      - jambonz
-      band: emerging
-      in_catalog: true
-      kin_score: 22.9
+      kin_score: 31.9
       mcp:
         status: none
       name: Soniox
@@ -3852,33 +3862,12 @@ stack:
       tier: observed
       url: /providers/soniox/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - jambonz
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.5
-      mcp:
-        status: unknown
-      name: Cobalt Speech
-      slug: cobalt-speech
-      sources:
-      - https://github.com/jambonz/jambonz-feature-server/blob/main/lib/utils/transcription-utils.js
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Company
-      - Speech
-      - Transcription
-      tier: observed
-      url: /providers/cobalt-speech/
-    - agent_band: agent-aware
-      agent_readiness: 21.6
-      apps:
-      - jambonz
-      band: emerging
-      in_catalog: true
-      kin_score: 20.2
+      kin_score: 29.2
       mcp:
         status: none
       name: Voxist
@@ -3893,34 +3882,34 @@ stack:
       - Voice Technology
       tier: observed
       url: /providers/voxist/
-    - agent_band: human-only
-      agent_readiness: 0.6
+    - agent_band: agent-aware
+      agent_readiness: 16.9
       apps:
       - jambonz
       band: emerging
       in_catalog: true
-      kin_score: 19.2
+      kin_score: 25.3
       mcp:
-        status: none
-      name: IBM Watson
-      slug: ibm-watson
+        status: unknown
+      name: Cobalt Speech
+      slug: cobalt-speech
       sources:
       - https://github.com/jambonz/jambonz-feature-server/blob/main/lib/utils/transcription-utils.js
       status: profiled
       tags:
       - Artificial Intelligence
-      - IBM
-      - Machine Learning
-      - Natural Language Processing
+      - Company
+      - Speech
+      - Transcription
       tier: observed
-      url: /providers/ibm-watson/
+      url: /providers/cobalt-speech/
     - agent_band: human-only
       agent_readiness: 2.5
       apps:
       - jambonz
       band: emerging
       in_catalog: true
-      kin_score: 18.9
+      kin_score: 20.9
       mcp:
         status: none
       name: Houndify (SoundHound)
@@ -3936,12 +3925,33 @@ stack:
       tier: observed
       url: /providers/soundhound/
     - agent_band: human-only
-      agent_readiness: 4.2
+      agent_readiness: 0.6
       apps:
       - jambonz
       band: emerging
       in_catalog: true
-      kin_score: 11.9
+      kin_score: 18.5
+      mcp:
+        status: none
+      name: IBM Watson
+      slug: ibm-watson
+      sources:
+      - https://github.com/jambonz/jambonz-feature-server/blob/main/lib/utils/transcription-utils.js
+      status: profiled
+      tags:
+      - Artificial Intelligence
+      - IBM
+      - Machine Learning
+      - Natural Language Processing
+      tier: observed
+      url: /providers/ibm-watson/
+    - agent_band: agent-aware
+      agent_readiness: 5.2
+      apps:
+      - jambonz
+      band: minimal
+      in_catalog: true
+      kin_score: 9.9
       mcp: *id009
       name: NVIDIA Riva
       slug: nvidia
@@ -3969,84 +3979,6 @@ stack:
       tier: observed
       url: null
   - capability:
-      attribution: Turbo EA
-      id: BC-410
-      key: sales-management
-      name: Sales Management
-      url: /capabilities/sales-management/
-      via_parent: null
-    providers:
-    - agent_band: agent-ready
-      agent_readiness: 53.1
-      apps:
-      - Aircall
-      - JustCall
-      - Talkdesk
-      band: exemplar
-      in_catalog: true
-      kin_score: 79.2
-      mcp:
-        status: none
-      name: Outreach
-      slug: outreach
-      sources:
-      - https://aircall.io/integrations/
-      - https://justcall.io/integrations/
-      - https://www.talkdesk.com/integrations/
-      status: profiled
-      tags:
-      - CRM
-      - Sales
-      - Sales Engagement
-      - Sequences
-      tier: declared
-      url: /providers/outreach/
-    - agent_band: agent-native
-      agent_readiness: 45.4
-      apps:
-      - Aircall
-      - JustCall
-      band: strong
-      in_catalog: true
-      kin_score: 62.5
-      mcp:
-        status: none
-      name: Salesloft
-      slug: salesloft
-      sources:
-      - https://aircall.io/integrations/
-      - https://justcall.io/integrations/
-      status: profiled
-      tags:
-      - CRM
-      - Cadences
-      - Sales
-      - Sales Engagement
-      tier: declared
-      url: /providers/salesloft/
-    - agent_band: agent-ready
-      agent_readiness: 59.2
-      apps:
-      - JustCall
-      band: exemplar
-      in_catalog: true
-      kin_score: 70.1
-      mcp:
-        source: https://docs.apollo.io/docs/apollo-mcp
-        status: verified
-      name: Apollo.io
-      slug: apollo-io
-      sources:
-      - https://justcall.io/integrations/
-      status: profiled
-      tags:
-      - B2B Data
-      - Engagement
-      - Prospecting
-      - Sales Intelligence
-      tier: declared
-      url: /providers/apollo-io/
-  - capability:
       attribution: API Evangelist extension
       id: AE-110.30.40
       key: AE-110.30.40
@@ -4055,13 +3987,13 @@ stack:
       via_parent: Speech & Voice
     providers:
     - agent_band: agent-ready
-      agent_readiness: 60.4
+      agent_readiness: 59.4
       apps:
       - Aircall
       - JustCall
       band: exemplar
       in_catalog: true
-      kin_score: 72.7
+      kin_score: 73.1
       mcp:
         source: https://docs.fireflies.ai/mcp-tools/overview
         status: verified
@@ -4079,13 +4011,13 @@ stack:
       tier: declared
       url: /providers/fireflies/
     - agent_band: agent-ready
-      agent_readiness: 55.5
+      agent_readiness: 54.4
       apps:
       - Aircall
       - JustCall
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.1
+      kin_score: 66.5
       mcp:
         status: none
       name: Gong
@@ -4102,12 +4034,12 @@ stack:
       tier: declared
       url: /providers/gong/
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 43.7
       apps:
       - Aircall
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.1
+      kin_score: 58.8
       mcp:
         source: https://www.avoma.com/agentic-platform/mcp
         status: documented
@@ -4124,6 +4056,62 @@ stack:
       tier: declared
       url: /providers/avoma/
   - capability:
+      attribution: API Evangelist extension
+      id: AE-954
+      key: AE-954
+      name: Sales Engagement & Sequencing
+      url: /capabilities/sales-engagement-sequencing/
+      via_parent: null
+    providers:
+    - agent_band: agent-ready
+      agent_readiness: 52.0
+      apps:
+      - Aircall
+      - JustCall
+      - Talkdesk
+      band: exemplar
+      in_catalog: true
+      kin_score: 78.7
+      mcp:
+        status: none
+      name: Outreach
+      slug: outreach
+      sources:
+      - https://aircall.io/integrations/
+      - https://justcall.io/integrations/
+      - https://www.talkdesk.com/integrations/
+      status: profiled
+      tags:
+      - CRM
+      - Sales
+      - Sales Engagement
+      - Sequences
+      tier: declared
+      url: /providers/outreach/
+    - agent_band: agent-native
+      agent_readiness: 44.4
+      apps:
+      - Aircall
+      - JustCall
+      band: strong
+      in_catalog: true
+      kin_score: 62.7
+      mcp:
+        status: none
+      name: Salesloft
+      slug: salesloft
+      sources:
+      - https://aircall.io/integrations/
+      - https://justcall.io/integrations/
+      status: profiled
+      tags:
+      - CRM
+      - Cadences
+      - Sales
+      - Sales Engagement
+      tier: declared
+      url: /providers/salesloft/
+  - capability:
       attribution: Turbo EA
       id: BC-2900.60
       key: BC-2900.60
@@ -4132,12 +4120,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.9
+      agent_readiness: 30.3
       apps:
       - Talkdesk
       band: exemplar
       in_catalog: true
-      kin_score: 67.0
+      kin_score: 67.5
       mcp:
         status: none
       name: athenahealth
@@ -4153,12 +4141,12 @@ stack:
       tier: declared
       url: /providers/athenahealth/
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.8
       apps:
       - Talkdesk
       band: strong
       in_catalog: true
-      kin_score: 61.4
+      kin_score: 60.5
       mcp:
         status: none
       name: Epic
@@ -4174,12 +4162,12 @@ stack:
       tier: declared
       url: /providers/epic-systems/
     - agent_band: agent-ready
-      agent_readiness: 30.1
+      agent_readiness: 32.2
       apps:
       - Talkdesk
       band: developing
       in_catalog: true
-      kin_score: 45.5
+      kin_score: 47.3
       mcp:
         status: none
       name: Oracle Cerner
@@ -4203,12 +4191,12 @@ stack:
       via_parent: Voice & Telephony
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Fonoster
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: &id011
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -4225,12 +4213,12 @@ stack:
       tier: observed
       url: /providers/twilio/
     - agent_band: agent-ready
-      agent_readiness: 54.4
+      agent_readiness: 54.3
       apps:
       - Talkdesk
       band: exemplar
       in_catalog: true
-      kin_score: 69.5
+      kin_score: 69.1
       mcp:
         status: none
       name: Zoom Phone
@@ -4259,7 +4247,7 @@ stack:
       - Talkdesk
       band: minimal
       in_catalog: true
-      kin_score: 8.8
+      kin_score: 7.9
       mcp:
         status: none
       name: Verint (WFM Cloud)
@@ -4282,12 +4270,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.2
+      agent_readiness: 42.3
       apps:
       - Talkdesk
       band: strong
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 61.9
       mcp:
         status: none
       name: ServiceNow
@@ -4311,12 +4299,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 42.0
+      agent_readiness: 41.2
       apps:
       - Talkdesk
       band: strong
       in_catalog: true
-      kin_score: 63.6
+      kin_score: 63.8
       mcp:
         status: none
       name: Guidewire ClaimCenter
@@ -4340,12 +4328,12 @@ stack:
       via_parent: Contact Centre Operations Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.3
+      agent_readiness: 24.8
       apps:
       - Aircall
       band: strong
       in_catalog: true
-      kin_score: 64.7
+      kin_score: 60.3
       mcp:
         status: none
       name: Klaus
@@ -4360,6 +4348,36 @@ stack:
       - Quality Assurance
       tier: declared
       url: /providers/klaus/
+  - capability:
+      attribution: Turbo EA
+      id: BC-410
+      key: sales-management
+      name: Sales Management
+      url: /capabilities/sales-management/
+      via_parent: null
+    providers:
+    - agent_band: agent-ready
+      agent_readiness: 58.0
+      apps:
+      - JustCall
+      band: exemplar
+      in_catalog: true
+      kin_score: 68.6
+      mcp:
+        source: https://docs.apollo.io/docs/apollo-mcp
+        status: verified
+      name: Apollo.io
+      slug: apollo-io
+      sources:
+      - https://justcall.io/integrations/
+      status: profiled
+      tags:
+      - B2B Data
+      - Engagement
+      - Prospecting
+      - Sales Intelligence
+      tier: declared
+      url: /providers/apollo-io/
   layer: domain
 - capabilities:
   - capability:
@@ -4371,13 +4389,13 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Aircall
       - JustCall
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -4395,13 +4413,13 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 31.1
       apps:
       - Aircall
       - JustCall
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.3
+      kin_score: 65.5
       mcp:
         source: https://pipedream.com/docs/connect/mcp
         status: verified
@@ -4419,13 +4437,13 @@ stack:
       tier: declared
       url: /providers/pipedream/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Aircall
       - JustCall
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -4443,12 +4461,12 @@ stack:
       tier: declared
       url: /providers/make/
     - agent_band: agent-ready
-      agent_readiness: 61.6
+      agent_readiness: 60.3
       apps:
       - Aircall
       band: exemplar
       in_catalog: true
-      kin_score: 89.6
+      kin_score: 89.5
       mcp:
         source: https://docs.tray.ai/
         status: documented
@@ -4465,12 +4483,12 @@ stack:
       tier: declared
       url: /providers/tray-ai/
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 53.8
       apps:
       - Talkdesk
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 70.5
       mcp:
         source: https://docs.workato.com/mcp.html
         status: verified
@@ -4494,14 +4512,14 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Dialpad
       - JustCall
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -4518,14 +4536,14 @@ stack:
       - Google
       tier: declared
       url: /providers/google-calendar/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.2
       apps:
       - JustCall
       - Talkdesk
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 45.6
+      kin_score: 57.2
       mcp:
         source: https://docs.cloud.google.com/mcp/supported-products
         status: verified
@@ -4543,12 +4561,12 @@ stack:
       tier: declared
       url: /providers/google-people/
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - JustCall
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -4564,13 +4582,13 @@ stack:
       - Enterprise
       tier: declared
       url: /providers/microsoft-outlook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Dialpad
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -4595,14 +4613,14 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Aircall
       - JustCall
       - Talkdesk
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -4621,13 +4639,13 @@ stack:
       tier: declared
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Aircall
       - Talkdesk
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -4652,13 +4670,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 32.2
       apps:
       - Aircall
       - JustCall
       band: thin
       in_catalog: true
-      kin_score: 34.6
+      kin_score: 34.2
       mcp:
         source: https://github.com/fivetran/fivetran-mcp
         status: verified
@@ -4676,12 +4694,12 @@ stack:
       tier: declared
       url: /providers/fivetran/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Aircall
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -4697,12 +4715,12 @@ stack:
       tier: declared
       url: /providers/segment/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 24.1
       apps:
       - Aircall
       band: thin
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 35.2
       mcp:
         source: https://www.geckoboard.com/product/metrics-mcp/
         status: verified
@@ -4727,12 +4745,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Fonoster
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: *id011
       name: Twilio
       slug: twilio
@@ -4743,12 +4761,12 @@ stack:
       tier: observed
       url: /providers/twilio/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 60.3
       apps:
       - Aircall
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.3
+      kin_score: 71.6
       mcp:
         source: https://github.com/sinch/sinch-mcp-server
         status: verified
@@ -4772,28 +4790,28 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Aircall
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id013
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.aircall/latest/
       status: profiled
       tags: &id014
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-1340.20
@@ -4803,12 +4821,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Fonoster
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -4832,22 +4850,22 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Aircall
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id013
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.aircall/latest/
       status: profiled
       tags: *id014
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.70
@@ -4857,12 +4875,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - Aircall
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -4886,12 +4904,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 47.4
       apps:
       - JustCall
       band: developing
       in_catalog: true
-      kin_score: 45.0
+      kin_score: 47.5
       mcp:
         source: https://developer.calendly.com/calendly-mcp-server
         status: documented
@@ -4916,12 +4934,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Talkdesk
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -4946,12 +4964,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Aircall
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp Messaging Channel
@@ -4977,12 +4995,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Fonoster
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -4999,12 +5017,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Fonoster
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: *id003
       name: '@langchain/openai'
       slug: openai
@@ -5015,12 +5033,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - Fonoster
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: '@langchain/google-genai'
@@ -5041,7 +5059,7 @@ stack:
       - Fonoster
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp:
         status: none
       name: '@langchain/ollama'
@@ -5057,12 +5075,12 @@ stack:
       tier: observed
       url: /providers/ollama/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 21.2
       apps:
       - Fonoster
       band: thin
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 32.3
       mcp:
         source: https://github.com/groq/groq-mcp-server
         status: verified
@@ -5090,7 +5108,7 @@ summary:
     unchecked: 1
     verified: 40
   mcp_verified: 40
-  mean_kin_score: 51.6
+  mean_kin_score: 53.6
   observed: 39
   queued: 1
   reference_apps: 6

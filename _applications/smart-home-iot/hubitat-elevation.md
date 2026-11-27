@@ -66,11 +66,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 46.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 53.6
+    band: strong
     in_catalog: true
-    kin_score: 46.7
+    kin_score: 58.4
     mcp: &id001
       source: https://github.com/amzn/selling-partner-agentic-toolkit
       status: verified
@@ -98,10 +98,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id003
       status: none
     slug: apple
@@ -128,10 +128,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.9
-    band: emerging
+    agent_readiness: 12.7
+    band: thin
     in_catalog: true
-    kin_score: 25.2
+    kin_score: 33.2
     mcp: &id005
       status: none
     slug: bond-home
@@ -158,10 +158,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 26.4
     band: thin
     in_catalog: true
-    kin_score: 28.2
+    kin_score: 27.5
     mcp: &id007
       status: none
     slug: ecobee
@@ -187,11 +187,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.2
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 29.5
+    band: developing
     in_catalog: true
-    kin_score: 28.7
+    kin_score: 48.0
     mcp: &id009
       status: unknown
     slug: google-assistant
@@ -218,10 +218,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 23.9
     band: thin
     in_catalog: true
-    kin_score: 28.9
+    kin_score: 28.0
     mcp: &id011
       status: unknown
     slug: govee
@@ -248,10 +248,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
-    band: thin
+    agent_readiness: 30.7
+    band: developing
     in_catalog: true
-    kin_score: 37.5
+    kin_score: 48.0
     mcp: &id013
       status: none
     slug: lifx
@@ -281,7 +281,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.2
+    kin_score: 2.5
     mcp: &id015
       status: unknown
     slug: lutron
@@ -308,10 +308,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.8
+    agent_readiness: 30.2
     band: strong
     in_catalog: true
-    kin_score: 56.7
+    kin_score: 58.5
     mcp: &id017
       status: unknown
     slug: rachio
@@ -338,10 +338,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.1
+    agent_readiness: 33.4
     band: developing
     in_catalog: true
-    kin_score: 43.9
+    kin_score: 45.1
     mcp: &id019
       status: none
     slug: ring
@@ -368,10 +368,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.1
+    agent_readiness: 16.9
     band: thin
     in_catalog: true
-    kin_score: 26.9
+    kin_score: 32.1
     mcp: &id021
       status: none
     slug: sharptools
@@ -398,10 +398,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 4.5
-    band: minimal
+    agent_readiness: 4.4
+    band: emerging
     in_catalog: true
-    kin_score: 9.7
+    kin_score: 11.6
     mcp: &id023
       source: https://shelly-api-docs.shelly.cloud/mcp
       status: verified
@@ -430,9 +430,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.4
+    kin_score: 18.3
     mcp: &id025
       status: unknown
     slug: signify
@@ -459,10 +459,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.6
+    agent_readiness: 23.1
     band: thin
     in_catalog: true
-    kin_score: 34.2
+    kin_score: 33.0
     mcp: &id027
       status: none
     slug: sonos
@@ -489,10 +489,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.9
+    kin_score: 9.4
     mcp: &id029
       status: unknown
     slug: tp-link
@@ -519,10 +519,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.8
+    agent_readiness: 25.3
     band: thin
     in_catalog: true
-    kin_score: 31.9
+    kin_score: 30.5
     mcp: &id031
       source: https://github.com/tuya/tuya-mcp-sdk
       status: verified
@@ -549,11 +549,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.9
+    agent_band: agent-ready
+    agent_readiness: 33.3
     band: developing
     in_catalog: true
-    kin_score: 46.3
+    kin_score: 47.3
     mcp: &id033
       status: none
     slug: ubiquiti
@@ -577,11 +577,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/smart-home-iot/hubitat-elevation/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 46.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 53.6
+  band: strong
   in_catalog: true
-  kin_score: 46.7
+  kin_score: 58.4
   mcp: *id001
   name: Amazon Alexa
   slug: amazon
@@ -589,10 +589,10 @@ providers:
   tags: *id002
   url: /providers/amazon/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id003
   name: Apple HomeKit
   slug: apple
@@ -600,10 +600,10 @@ providers:
   tags: *id004
   url: /providers/apple/
 - agent_band: agent-aware
-  agent_readiness: 12.9
-  band: emerging
+  agent_readiness: 12.7
+  band: thin
   in_catalog: true
-  kin_score: 25.2
+  kin_score: 33.2
   mcp: *id005
   name: Bond (fan / shade bridge)
   slug: bond-home
@@ -611,21 +611,21 @@ providers:
   tags: *id006
   url: /providers/bond-home/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 26.4
   band: thin
   in_catalog: true
-  kin_score: 28.2
+  kin_score: 27.5
   mcp: *id007
   name: ecobee
   slug: ecobee
   status: profiled
   tags: *id008
   url: /providers/ecobee/
-- agent_band: agent-aware
-  agent_readiness: 17.2
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 29.5
+  band: developing
   in_catalog: true
-  kin_score: 28.7
+  kin_score: 48.0
   mcp: *id009
   name: Google Assistant / Google Home
   slug: google-assistant
@@ -633,10 +633,10 @@ providers:
   tags: *id010
   url: /providers/google-assistant/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 23.9
   band: thin
   in_catalog: true
-  kin_score: 28.9
+  kin_score: 28.0
   mcp: *id011
   name: Govee
   slug: govee
@@ -644,10 +644,10 @@ providers:
   tags: *id012
   url: /providers/govee/
 - agent_band: agent-ready
-  agent_readiness: 31.3
-  band: thin
+  agent_readiness: 30.7
+  band: developing
   in_catalog: true
-  kin_score: 37.5
+  kin_score: 48.0
   mcp: *id013
   name: LIFX
   slug: lifx
@@ -658,7 +658,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.2
+  kin_score: 2.5
   mcp: *id015
   name: Lutron (Caseta)
   slug: lutron
@@ -666,10 +666,10 @@ providers:
   tags: *id016
   url: /providers/lutron/
 - agent_band: agent-ready
-  agent_readiness: 30.8
+  agent_readiness: 30.2
   band: strong
   in_catalog: true
-  kin_score: 56.7
+  kin_score: 58.5
   mcp: *id017
   name: Rachio
   slug: rachio
@@ -677,10 +677,10 @@ providers:
   tags: *id018
   url: /providers/rachio/
 - agent_band: agent-ready
-  agent_readiness: 34.1
+  agent_readiness: 33.4
   band: developing
   in_catalog: true
-  kin_score: 43.9
+  kin_score: 45.1
   mcp: *id019
   name: Ring
   slug: ring
@@ -688,10 +688,10 @@ providers:
   tags: *id020
   url: /providers/ring/
 - agent_band: agent-aware
-  agent_readiness: 20.1
+  agent_readiness: 16.9
   band: thin
   in_catalog: true
-  kin_score: 26.9
+  kin_score: 32.1
   mcp: *id021
   name: SharpTools
   slug: sharptools
@@ -699,10 +699,10 @@ providers:
   tags: *id022
   url: /providers/sharptools/
 - agent_band: human-only
-  agent_readiness: 4.5
-  band: minimal
+  agent_readiness: 4.4
+  band: emerging
   in_catalog: true
-  kin_score: 9.7
+  kin_score: 11.6
   mcp: *id023
   name: Shelly
   slug: shelly
@@ -711,9 +711,9 @@ providers:
   url: /providers/shelly/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.4
+  kin_score: 18.3
   mcp: *id025
   name: Signify (Philips Hue, WiZ)
   slug: signify
@@ -721,10 +721,10 @@ providers:
   tags: *id026
   url: /providers/signify/
 - agent_band: agent-aware
-  agent_readiness: 23.6
+  agent_readiness: 23.1
   band: thin
   in_catalog: true
-  kin_score: 34.2
+  kin_score: 33.0
   mcp: *id027
   name: Sonos
   slug: sonos
@@ -732,10 +732,10 @@ providers:
   tags: *id028
   url: /providers/sonos/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.9
+  kin_score: 9.4
   mcp: *id029
   name: TP-Link (Kasa / Tapo)
   slug: tp-link
@@ -743,21 +743,21 @@ providers:
   tags: *id030
   url: /providers/tp-link/
 - agent_band: agent-aware
-  agent_readiness: 25.8
+  agent_readiness: 25.3
   band: thin
   in_catalog: true
-  kin_score: 31.9
+  kin_score: 30.5
   mcp: *id031
   name: Tuya
   slug: tuya
   status: profiled
   tags: *id032
   url: /providers/tuya/
-- agent_band: agent-aware
-  agent_readiness: 23.9
+- agent_band: agent-ready
+  agent_readiness: 33.3
   band: developing
   in_catalog: true
-  kin_score: 46.3
+  kin_score: 47.3
   mcp: *id033
   name: Ubiquiti UniFi
   slug: ubiquiti

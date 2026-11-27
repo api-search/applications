@@ -921,13 +921,13 @@ stack:
       via_parent: Places & Points of Interest
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.3
+      agent_readiness: 40.3
       apps:
       - AdventureLog
       - TRIP
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 62.4
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -950,7 +950,7 @@ stack:
       - AdventureLog
       band: emerging
       in_catalog: true
-      kin_score: 16.6
+      kin_score: 15.1
       mcp:
         status: unknown
       name: Overpass API
@@ -974,12 +974,12 @@ stack:
       via_parent: Activity & Fitness Tracking
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 51.3
       apps:
       - AdventureLog
       band: developing
       in_catalog: true
-      kin_score: 50.0
+      kin_score: 52.0
       mcp:
         status: none
       name: Strava
@@ -995,12 +995,12 @@ stack:
       tier: observed
       url: /providers/strava/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.2
       apps:
       - AdventureLog
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.8
+      kin_score: 28.2
       mcp:
         status: none
       name: Endurain
@@ -1021,7 +1021,7 @@ stack:
       - AdventureLog
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 9.2
       mcp:
         status: unknown
       name: wanderer
@@ -1067,12 +1067,12 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 15.1
       apps:
       - AdventureLog
       band: emerging
       in_catalog: true
-      kin_score: 22.3
+      kin_score: 25.5
       mcp:
         status: none
       name: Immich
@@ -1096,12 +1096,12 @@ stack:
       via_parent: Places & Points of Interest
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 29.3
       apps:
       - AdventureLog
       band: developing
       in_catalog: true
-      kin_score: 43.0
+      kin_score: 41.8
       mcp:
         status: none
       name: Wikipedia
@@ -1126,39 +1126,39 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Airbnb
       - Booking.com
       - Expedia
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.airbnb.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.booking/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.expedia.bookings/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Airbnb
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -1175,12 +1175,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 38.4
+      agent_readiness: 38.6
       apps:
       - AdventureLog
       band: exemplar
       in_catalog: true
-      kin_score: 73.3
+      kin_score: 72.8
       mcp:
         status: none
       name: Umami
@@ -1204,13 +1204,13 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Airbnb
       - Expedia
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook Login / Share
@@ -1227,12 +1227,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - AdventureLog
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -1249,12 +1249,12 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 37.2
       apps:
       - AdventureLog
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 73.1
       mcp:
         status: none
       name: Authentik
@@ -1270,12 +1270,12 @@ stack:
       tier: declared
       url: /providers/authentik/
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 16.9
       apps:
       - AdventureLog
       band: emerging
       in_catalog: true
-      kin_score: 19.1
+      kin_score: 25.1
       mcp:
         status: none
       name: Pocket ID
@@ -1298,31 +1298,31 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Booking.com
       - Expedia
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Google CrashLytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.booking/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.expedia.bookings/latest/
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 44.7
+      agent_readiness: 43.8
       apps:
       - TripIt
       band: exemplar
       in_catalog: true
-      kin_score: 84.1
+      kin_score: 85.6
       mcp:
         source: https://github.com/dynatrace-oss/dynatrace-mcp
         status: verified
@@ -1339,12 +1339,12 @@ stack:
       tier: observed
       url: /providers/dynatrace/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Airbnb
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -1369,13 +1369,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.1
+      agent_readiness: 53.0
       apps:
       - Expedia
       - TripIt
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.1
       mcp:
         source: https://github.com/adobe/cq-quickstart-mcp-server
         status: verified
@@ -1393,12 +1393,12 @@ stack:
       tier: observed
       url: /providers/adobe-experience-cloud/
     - agent_band: agent-ready
-      agent_readiness: 56.8
+      agent_readiness: 52.3
       apps:
       - Expedia
       band: exemplar
       in_catalog: true
-      kin_score: 80.5
+      kin_score: 77.6
       mcp:
         status: none
       name: Salesforce Marketing Cloud
@@ -1422,12 +1422,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 19.6
       apps:
       - Expedia
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 45.7
       mcp:
         status: none
       name: Qualtrics
@@ -1443,12 +1443,12 @@ stack:
       tier: observed
       url: /providers/qualtrics/
     - agent_band: agent-aware
-      agent_readiness: 26.0
+      agent_readiness: 25.5
       apps:
       - TripIt
       band: developing
       in_catalog: true
-      kin_score: 40.4
+      kin_score: 40.0
       mcp:
         status: none
       name: Apptentive (Alchemer Mobile)
@@ -1472,12 +1472,12 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 25.7
       apps:
       - TRIP
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.7
       mcp: &id003
         status: none
       name: Nominatim (OSM)
@@ -1518,13 +1518,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - AdventureLog
       - TRIP
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -1550,13 +1550,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Booking.com
       - Expedia
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -1581,13 +1581,13 @@ stack:
       url: /capabilities/maps-tiles/
       via_parent: Maps & Tiles
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - TRIP
       band: developing
       in_catalog: true
-      kin_score: 44.4
+      kin_score: 45.5
       mcp:
         status: none
       name: OpenStreetMap tiles
@@ -1611,12 +1611,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Booking.com
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -1640,12 +1640,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - AdventureLog
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -1670,12 +1670,12 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 25.7
       apps:
       - AdventureLog
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.7
       mcp: *id003
       name: Nominatim (OSM)
       slug: nominatim
@@ -1694,12 +1694,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Booking.com
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -1728,7 +1728,7 @@ stack:
       - TRIP
       band: minimal
       in_catalog: true
-      kin_score: 3.5
+      kin_score: 3.0
       mcp:
         status: none
       name: FOSSGIS OSRM routing
@@ -1755,7 +1755,7 @@ summary:
     unchecked: 2
     verified: 10
   mcp_verified: 10
-  mean_kin_score: 52.6
+  mean_kin_score: 54.2
   observed: 27
   queued: 2
   reference_apps: 6

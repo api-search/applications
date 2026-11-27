@@ -102,9 +102,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.0
+    kin_score: 11.6
     mcp: &id001
       status: none
     slug: abacus-ch
@@ -132,9 +132,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.4
+    kin_score: 13.6
     mcp: &id003
       status: none
     slug: alliants
@@ -161,10 +161,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.6
+    agent_readiness: 31.0
     band: developing
     in_catalog: true
-    kin_score: 41.1
+    kin_score: 42.2
     mcp: &id005
       status: none
     slug: amadeus
@@ -191,10 +191,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.7
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 11.9
+    kin_score: 19.3
     mcp: &id007
       source: https://beonx.com
       status: documented
@@ -222,10 +222,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
-    band: strong
+    agent_readiness: 44.9
+    band: exemplar
     in_catalog: true
-    kin_score: 64.8
+    kin_score: 66.6
     mcp: &id009
       status: none
     slug: booking-com
@@ -252,10 +252,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 13.8
+    kin_score: 22.0
     mcp: &id011
       status: unknown
     slug: chekin
@@ -282,10 +282,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.8
+    agent_readiness: 30.2
     band: thin
     in_catalog: true
-    kin_score: 34.8
+    kin_score: 33.8
     mcp: &id013
       source: https://github.com/ExpediaGroup/expedia-travel-recommendations-mcp
       status: verified
@@ -312,17 +312,18 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: null
-    agent_readiness: null
-    band: null
-    in_catalog: false
-    kin_score: null
+    agent_band: human-only
+    agent_readiness: 0.0
+    band: minimal
+    in_catalog: true
+    kin_score: 1.3
     mcp: &id015
       status: unchecked
     slug: profitize
-    status: queued for profiling
-    tags: &id016 []
-    url: null
+    status: profiled
+    tags: &id016
+    - Company
+    url: /providers/profitize/
   layer: domain
   name: profitize
   provider: profitize
@@ -339,10 +340,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 5.6
+    agent_readiness: 5.5
     band: thin
     in_catalog: true
-    kin_score: 31.8
+    kin_score: 30.8
     mcp: &id017
       status: none
     slug: siteminder
@@ -372,7 +373,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.7
+    kin_score: 5.9
     mcp: &id019
       status: unknown
     slug: spalopia
@@ -399,10 +400,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.4
+    agent_readiness: 23.9
     band: thin
     in_catalog: true
-    kin_score: 37.5
+    kin_score: 35.7
     mcp: &id021
       status: none
     slug: tripadvisor
@@ -428,9 +429,9 @@ permalink: /applications/hospitality-restaurant-ops/mews/
 providers:
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.0
+  kin_score: 11.6
   mcp: *id001
   name: Abacus (Swiss ERP)
   slug: abacus-ch
@@ -439,9 +440,9 @@ providers:
   url: /providers/abacus-ch/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.4
+  kin_score: 13.6
   mcp: *id003
   name: Alliants
   slug: alliants
@@ -449,10 +450,10 @@ providers:
   tags: *id004
   url: /providers/alliants/
 - agent_band: agent-ready
-  agent_readiness: 31.6
+  agent_readiness: 31.0
   band: developing
   in_catalog: true
-  kin_score: 41.1
+  kin_score: 42.2
   mcp: *id005
   name: Amadeus iHotelier
   slug: amadeus
@@ -460,10 +461,10 @@ providers:
   tags: *id006
   url: /providers/amadeus/
 - agent_band: agent-aware
-  agent_readiness: 18.7
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 11.9
+  kin_score: 19.3
   mcp: *id007
   name: BEONX
   slug: beonx
@@ -471,10 +472,10 @@ providers:
   tags: *id008
   url: /providers/beonx/
 - agent_band: agent-ready
-  agent_readiness: 45.8
-  band: strong
+  agent_readiness: 44.9
+  band: exemplar
   in_catalog: true
-  kin_score: 64.8
+  kin_score: 66.6
   mcp: *id009
   name: Booking.com
   slug: booking-com
@@ -482,10 +483,10 @@ providers:
   tags: *id010
   url: /providers/booking-com/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 13.8
+  kin_score: 22.0
   mcp: *id011
   name: Chekin
   slug: chekin
@@ -493,32 +494,32 @@ providers:
   tags: *id012
   url: /providers/chekin/
 - agent_band: agent-ready
-  agent_readiness: 30.8
+  agent_readiness: 30.2
   band: thin
   in_catalog: true
-  kin_score: 34.8
+  kin_score: 33.8
   mcp: *id013
   name: Expedia
   slug: expedia-group
   status: profiled
   tags: *id014
   url: /providers/expedia-group/
-- agent_band: null
-  agent_readiness: null
-  band: null
-  in_catalog: false
-  kin_score: null
+- agent_band: human-only
+  agent_readiness: 0.0
+  band: minimal
+  in_catalog: true
+  kin_score: 1.3
   mcp: *id015
   name: profitize
   slug: profitize
-  status: queued for profiling
+  status: profiled
   tags: *id016
-  url: null
+  url: /providers/profitize/
 - agent_band: agent-aware
-  agent_readiness: 5.6
+  agent_readiness: 5.5
   band: thin
   in_catalog: true
-  kin_score: 31.8
+  kin_score: 30.8
   mcp: *id017
   name: SiteMinder
   slug: siteminder
@@ -529,7 +530,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.7
+  kin_score: 5.9
   mcp: *id019
   name: Spalopia
   slug: spalopia
@@ -537,10 +538,10 @@ providers:
   tags: *id020
   url: /providers/spalopia/
 - agent_band: agent-aware
-  agent_readiness: 24.4
+  agent_readiness: 23.9
   band: thin
   in_catalog: true
-  kin_score: 37.5
+  kin_score: 35.7
   mcp: *id021
   name: Tripadvisor
   slug: tripadvisor

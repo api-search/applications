@@ -45,10 +45,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id001
       status: none
     slug: segment
@@ -78,7 +78,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id003
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -104,10 +104,10 @@ noindex: false
 permalink: /applications/ai-assistant-chat/claude/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id001
   name: Segment
   slug: segment
@@ -118,7 +118,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id003
   name: Sentry
   slug: sentry-system

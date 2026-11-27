@@ -454,13 +454,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 29.7
       apps:
       - Lute
       - VocabSieve
       band: developing
       in_catalog: true
-      kin_score: 47.8
+      kin_score: 48.9
       mcp:
         status: none
       name: Wiktionary
@@ -482,7 +482,7 @@ stack:
       - Lute
       band: minimal
       in_catalog: true
-      kin_score: 5.5
+      kin_score: 7.0
       mcp:
         status: none
       name: Glosbe
@@ -503,7 +503,7 @@ stack:
       - Yomitan
       band: minimal
       in_catalog: true
-      kin_score: 4.9
+      kin_score: 5.3
       mcp:
         status: none
       name: Jisho.org
@@ -524,7 +524,7 @@ stack:
       - Lute
       band: minimal
       in_catalog: true
-      kin_score: 4.8
+      kin_score: 4.9
       mcp:
         status: unknown
       name: MDBG Chinese Dictionary
@@ -545,7 +545,7 @@ stack:
       - Lute
       band: minimal
       in_catalog: true
-      kin_score: 3.4
+      kin_score: 2.6
       mcp:
         status: unknown
       name: Kheng.info
@@ -569,13 +569,13 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 36.1
       apps:
       - LinguaCafe
       - Lute
       band: strong
       in_catalog: true
-      kin_score: 60.8
+      kin_score: 61.4
       mcp:
         source: https://github.com/DeepL/deepl-mcp-server
         status: verified
@@ -592,13 +592,35 @@ stack:
       - Localization
       tier: observed
       url: /providers/deepl/
-    - agent_band: agent-aware
-      agent_readiness: 17.9
+    - agent_band: agent-ready
+      agent_readiness: 30.2
+      apps:
+      - Lute
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.5
+      mcp:
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Bing Translator (Microsoft)
+      slug: microsoft
+      sources:
+      - https://github.com/LuteOrg/lute-v3/blob/develop/plugins/lute-khmer/definition.yaml
+      status: profiled
+      tags:
+      - Cloud
+      - Fortune 100
+      - Microsoft
+      - Software
+      tier: observed
+      url: /providers/microsoft/
+    - agent_band: agent-ready
+      agent_readiness: 33.9
       apps:
       - VocabSieve
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 51.6
+      kin_score: 68.0
       mcp:
         status: none
       name: Google Translate
@@ -614,12 +636,12 @@ stack:
       tier: observed
       url: /providers/google-translate/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 23.3
       apps:
       - LinguaCafe
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.2
+      kin_score: 24.3
       mcp:
         source: https://github.com/LibreTranslate/LibreTranslate-MCP
         status: verified
@@ -641,7 +663,7 @@ stack:
       - LinguaCafe
       band: minimal
       in_catalog: true
-      kin_score: 7.0
+      kin_score: 10.9
       mcp:
         status: none
       name: MyMemory (Translated)
@@ -656,27 +678,6 @@ stack:
       - Translation
       tier: observed
       url: /providers/mymemory/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Lute
-      band: minimal
-      in_catalog: true
-      kin_score: 0.0
-      mcp:
-        status: none
-      name: Bing Translator (Microsoft)
-      slug: microsoft-bing
-      sources:
-      - https://github.com/LuteOrg/lute-v3/blob/develop/plugins/lute-khmer/definition.yaml
-      status: profiled
-      tags:
-      - Image
-      - Search
-      - Video
-      - Web Search
-      tier: observed
-      url: /providers/microsoft-bing/
   - capability:
       attribution: API Evangelist extension
       id: AE-220.70
@@ -686,7 +687,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - Anki
       - AnkiDroid
@@ -694,7 +695,7 @@ stack:
       - VocabSieve
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 7.3
       mcp:
         status: unknown
       name: AnkiWeb (Ankitects)
@@ -717,12 +718,12 @@ stack:
       via_parent: Dictionaries & Lexical Reference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 28.9
+      agent_readiness: 32.0
       apps:
       - Yomitan
       band: developing
       in_catalog: true
-      kin_score: 45.8
+      kin_score: 49.8
       mcp:
         status: none
       name: Wikimedia Commons
@@ -743,7 +744,7 @@ stack:
       - VocabSieve
       band: minimal
       in_catalog: true
-      kin_score: 9.0
+      kin_score: 6.9
       mcp:
         status: unknown
       name: Forvo
@@ -761,7 +762,7 @@ stack:
       - Yomitan
       band: minimal
       in_catalog: true
-      kin_score: 4.0
+      kin_score: 3.6
       mcp:
         status: unknown
       name: LanguagePod101 (Innovative Language)
@@ -787,12 +788,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - AnkiDroid
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -816,11 +817,11 @@ summary:
   in_catalog: 15
   mcp:
     documented: 0
-    none: 7
+    none: 6
     unchecked: 0
-    verified: 3
-  mcp_verified: 3
-  mean_kin_score: 23.3
+    verified: 4
+  mcp_verified: 4
+  mean_kin_score: 30.1
   observed: 15
   queued: 0
   reference_apps: 6

@@ -84,10 +84,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id001
       status: none
     slug: apple
@@ -140,10 +140,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.1
+    agent_readiness: 31.4
     band: exemplar
     in_catalog: true
-    kin_score: 70.9
+    kin_score: 67.7
     mcp: &id005
       status: none
     slug: constant-contact
@@ -173,7 +173,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.5
+    kin_score: 22.5
     mcp: &id007
       status: unknown
     slug: dubb
@@ -196,11 +196,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 38.2
+    band: strong
     in_catalog: true
-    kin_score: 45.6
+    kin_score: 57.2
     mcp: &id009
       source: https://docs.cloud.google.com/mcp/supported-products
       status: verified
@@ -228,10 +228,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.8
+    agent_readiness: 30.1
     band: strong
     in_catalog: true
-    kin_score: 64.5
+    kin_score: 63.8
     mcp: &id011
       status: none
     slug: google-sheets
@@ -257,10 +257,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.3
+    agent_readiness: 18.0
     band: thin
     in_catalog: true
-    kin_score: 28.4
+    kin_score: 38.9
     mcp: &id013
       status: unknown
     slug: kvcore
@@ -287,10 +287,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 37.0
     band: thin
     in_catalog: true
-    kin_score: 37.6
+    kin_score: 36.8
     mcp: &id015
       status: unknown
     slug: keller-williams
@@ -317,10 +317,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id017
       status: none
     slug: mailchimp
@@ -347,10 +347,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.1
+    agent_readiness: 61.0
     band: strong
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 65.6
     mcp: &id019
       source: https://docs.thanks.io/thanks-io-mcp-server
       status: verified
@@ -376,10 +376,10 @@ noindex: false
 permalink: /applications/real-estate-home-search/real-geeks/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id001
   name: Apple Contacts
   slug: apple
@@ -398,10 +398,10 @@ providers:
   tags: *id004
   url: null
 - agent_band: agent-ready
-  agent_readiness: 32.1
+  agent_readiness: 31.4
   band: exemplar
   in_catalog: true
-  kin_score: 70.9
+  kin_score: 67.7
   mcp: *id005
   name: Constant Contact
   slug: constant-contact
@@ -412,18 +412,18 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.5
+  kin_score: 22.5
   mcp: *id007
   name: Dubb
   slug: dubb
   status: profiled
   tags: *id008
   url: /providers/dubb/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 38.2
+  band: strong
   in_catalog: true
-  kin_score: 45.6
+  kin_score: 57.2
   mcp: *id009
   name: Google Contacts
   slug: google-people
@@ -431,10 +431,10 @@ providers:
   tags: *id010
   url: /providers/google-people/
 - agent_band: agent-ready
-  agent_readiness: 33.8
+  agent_readiness: 30.1
   band: strong
   in_catalog: true
-  kin_score: 64.5
+  kin_score: 63.8
   mcp: *id011
   name: Google Sheets
   slug: google-sheets
@@ -442,10 +442,10 @@ providers:
   tags: *id012
   url: /providers/google-sheets/
 - agent_band: agent-aware
-  agent_readiness: 18.3
+  agent_readiness: 18.0
   band: thin
   in_catalog: true
-  kin_score: 28.4
+  kin_score: 38.9
   mcp: *id013
   name: kvCORE (BoldTrail)
   slug: kvcore
@@ -453,10 +453,10 @@ providers:
   tags: *id014
   url: /providers/kvcore/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 37.0
   band: thin
   in_catalog: true
-  kin_score: 37.6
+  kin_score: 36.8
   mcp: *id015
   name: KW Command
   slug: keller-williams
@@ -464,10 +464,10 @@ providers:
   tags: *id016
   url: /providers/keller-williams/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id017
   name: Mailchimp
   slug: mailchimp
@@ -475,10 +475,10 @@ providers:
   tags: *id018
   url: /providers/mailchimp/
 - agent_band: agent-ready
-  agent_readiness: 49.1
+  agent_readiness: 61.0
   band: strong
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 65.6
   mcp: *id019
   name: Thanks.io
   slug: thanks-io
@@ -487,7 +487,7 @@ providers:
   url: /providers/thanks-io/
 siblings:
 - name: Flathunter
-  rows: 16
+  rows: 14
   url: /applications/real-estate-home-search/flathunter/
 - name: HomeHarvest
   rows: 1

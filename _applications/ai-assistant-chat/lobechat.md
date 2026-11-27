@@ -180,10 +180,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.0
+    agent_readiness: 31.8
     band: developing
     in_catalog: true
-    kin_score: 41.1
+    kin_score: 39.7
     mcp: &id001
       status: none
     slug: ai21-labs
@@ -209,11 +209,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 35.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 48.3
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 64.3
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -241,10 +241,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id005
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -271,11 +271,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 37.8
+    band: strong
     in_catalog: true
-    kin_score: 45.7
+    kin_score: 66.3
     mcp: &id007
       source: https://github.com/microsoft-foundry/mcp-foundry
       status: verified
@@ -303,10 +303,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 6.0
+    agent_readiness: 5.8
     band: emerging
     in_catalog: true
-    kin_score: 18.5
+    kin_score: 17.4
     mcp: &id009
       source: https://github.com/baidu-maps/mcp
       status: verified
@@ -334,10 +334,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 37.1
     band: thin
     in_catalog: true
-    kin_score: 31.3
+    kin_score: 29.9
     mcp: &id011
       source: https://github.com/black-forest-labs/flux-mcp
       status: verified
@@ -365,10 +365,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.0
+    agent_readiness: 27.9
     band: strong
     in_catalog: true
-    kin_score: 62.4
+    kin_score: 62.1
     mcp: &id013
       status: none
     slug: cerebras-systems
@@ -395,10 +395,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 69.6
+    agent_readiness: 69.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.8
+    kin_score: 82.5
     mcp: &id015
       source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
       status: verified
@@ -426,10 +426,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.4
+    agent_readiness: 40.6
     band: thin
     in_catalog: true
-    kin_score: 36.4
+    kin_score: 35.2
     mcp: &id017
       status: none
     slug: cohere
@@ -456,10 +456,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.9
+    agent_readiness: 39.7
     band: strong
     in_catalog: true
-    kin_score: 62.3
+    kin_score: 62.6
     mcp: &id019
       source: https://github.com/ComposioHQ/composio
       status: verified
@@ -487,10 +487,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.9
+    agent_readiness: 22.4
     band: developing
     in_catalog: true
-    kin_score: 43.3
+    kin_score: 41.2
     mcp: &id021
       status: none
     slug: deepseek
@@ -517,10 +517,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 48.0
     mcp: &id023
       status: none
     slug: discord
@@ -547,10 +547,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.1
+    agent_readiness: 53.2
     band: strong
     in_catalog: true
-    kin_score: 65.6
+    kin_score: 65.2
     mcp: &id025
       source: https://docs.fal.ai/model-apis/mcp
       status: verified
@@ -578,10 +578,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.4
+    agent_readiness: 39.0
     band: thin
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 35.4
     mcp: &id027
       source: https://docs.fireworks.ai/ecosystem/integrations/development-setup
       status: verified
@@ -609,10 +609,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id029
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -640,10 +640,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id031
       status: none
     slug: google-gemini
@@ -670,10 +670,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
+    agent_readiness: 21.2
     band: thin
     in_catalog: true
-    kin_score: 32.9
+    kin_score: 32.3
     mcp: &id033
       source: https://github.com/groq/groq-mcp-server
       status: verified
@@ -701,10 +701,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.9
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 69.1
     mcp: &id035
       source: https://github.com/huggingface/hf-mcp-server
       status: verified
@@ -732,10 +732,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.8
+    agent_readiness: 37.1
     band: thin
     in_catalog: true
-    kin_score: 36.0
+    kin_score: 34.2
     mcp: &id037
       source: https://github.com/jina-ai/MCP
       status: verified
@@ -763,10 +763,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 35.9
     band: thin
     in_catalog: true
-    kin_score: 37.0
+    kin_score: 36.5
     mcp: &id039
       source: https://github.com/langfuse/mcp-server-langfuse
       status: verified
@@ -797,7 +797,7 @@ integrations:
     agent_readiness: 27.1
     band: thin
     in_catalog: true
-    kin_score: 35.5
+    kin_score: 33.6
     mcp: &id041
       source: https://github.com/MiniMax-AI/MiniMax-MCP
       status: verified
@@ -824,11 +824,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.2
     band: developing
     in_catalog: true
-    kin_score: 47.7
+    kin_score: 47.3
     mcp: &id043
       status: none
     slug: mistral
@@ -855,12 +855,12 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.8
+    agent_readiness: 36.1
     band: strong
     in_catalog: true
-    kin_score: 56.6
+    kin_score: 64.8
     mcp: &id045
-      status: unchecked
+      status: none
     slug: kimi-ai
     status: profiled
     tags: &id046
@@ -885,10 +885,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.7
+    agent_readiness: 25.7
     band: strong
     in_catalog: true
-    kin_score: 57.1
+    kin_score: 56.0
     mcp: &id047
       source: https://github.com/neondatabase/mcp-server-neon
       status: verified
@@ -916,10 +916,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.9
+    agent_readiness: 37.5
     band: developing
     in_catalog: true
-    kin_score: 52.6
+    kin_score: 52.3
     mcp: &id049
       source: https://github.com/novitalabs/novita-mcp-server
       status: verified
@@ -947,10 +947,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.9
+    agent_readiness: 27.3
     band: strong
     in_catalog: true
-    kin_score: 59.8
+    kin_score: 59.7
     mcp: &id051
       status: none
     slug: nvidia-nim
@@ -980,7 +980,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id053
       status: none
     slug: ollama
@@ -1007,10 +1007,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id055
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -1038,10 +1038,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 46.4
     band: strong
     in_catalog: true
-    kin_score: 55.4
+    kin_score: 54.8
     mcp: &id057
       source: https://openrouter.ai/docs/guides/overview/mcp-server
       status: verified
@@ -1069,7 +1069,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 67.7
+    agent_readiness: 66.6
     band: strong
     in_catalog: true
     kin_score: 65.7
@@ -1100,10 +1100,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 30.3
+    kin_score: 28.1
     mcp: &id061
       status: none
     slug: qwen
@@ -1130,10 +1130,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.8
+    agent_readiness: 50.2
     band: strong
     in_catalog: true
-    kin_score: 57.5
+    kin_score: 58.3
     mcp: &id063
       source: https://github.com/replicate/replicate-mcp-code-mode
       status: verified
@@ -1161,10 +1161,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.4
+    agent_readiness: 49.8
     band: strong
     in_catalog: true
-    kin_score: 58.9
+    kin_score: 56.8
     mcp: &id065
       source: https://resend.com/docs/mcp-server
       status: verified
@@ -1192,10 +1192,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.4
+    agent_readiness: 28.8
     band: strong
     in_catalog: true
-    kin_score: 64.3
+    kin_score: 62.0
     mcp: &id067
       status: none
     slug: sambanova-systems
@@ -1222,10 +1222,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 18.1
     band: thin
     in_catalog: true
-    kin_score: 29.2
+    kin_score: 27.5
     mcp: &id069
       status: none
     slug: siliconflow
@@ -1252,10 +1252,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id071
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -1283,10 +1283,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 29.9
     band: strong
     in_catalog: true
-    kin_score: 56.0
+    kin_score: 54.7
     mcp: &id073
       status: none
     slug: stepfun
@@ -1313,10 +1313,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id075
       source: https://docs.stripe.com/mcp
       status: verified
@@ -1344,10 +1344,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 53.1
+    agent_readiness: 52.1
     band: exemplar
     in_catalog: true
-    kin_score: 74.5
+    kin_score: 74.7
     mcp: &id077
       status: none
     slug: svix
@@ -1374,10 +1374,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id079
       status: none
     slug: telegram
@@ -1404,10 +1404,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.4
+    agent_readiness: 40.0
     band: thin
     in_catalog: true
-    kin_score: 34.6
+    kin_score: 34.4
     mcp: &id081
       source: https://docs.together.ai/docs/mcp
       status: verified
@@ -1461,10 +1461,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 46.7
     band: thin
     in_catalog: true
-    kin_score: 37.9
+    kin_score: 35.2
     mcp: &id085
       source: https://github.com/upstash/mcp-server
       status: verified
@@ -1492,10 +1492,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.2
+    agent_readiness: 50.0
     band: strong
     in_catalog: true
-    kin_score: 63.8
+    kin_score: 63.1
     mcp: &id087
       source: https://vercel.com/docs/mcp/vercel-mcp
       status: verified
@@ -1522,11 +1522,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 42.2
+    band: strong
     in_catalog: true
-    kin_score: 48.4
+    kin_score: 63.2
     mcp: &id089
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -1580,10 +1580,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.8
+    agent_readiness: 39.4
     band: thin
     in_catalog: true
-    kin_score: 32.8
+    kin_score: 32.3
     mcp: &id093
       status: none
     slug: xai
@@ -1610,10 +1610,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.7
-    band: developing
+    agent_readiness: 35.4
+    band: thin
     in_catalog: true
-    kin_score: 40.1
+    kin_score: 38.1
     mcp: &id095
       source: https://docs.z.ai/devpack/mcp/vision-mcp-server
       status: verified
@@ -1639,21 +1639,21 @@ noindex: false
 permalink: /applications/ai-assistant-chat/lobechat/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 32.0
+  agent_readiness: 31.8
   band: developing
   in_catalog: true
-  kin_score: 41.1
+  kin_score: 39.7
   mcp: *id001
   name: AI21 Labs
   slug: ai21-labs
   status: profiled
   tags: *id002
   url: /providers/ai21-labs/
-- agent_band: agent-ready
-  agent_readiness: 35.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 48.3
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 64.3
   mcp: *id003
   name: Amazon Bedrock
   slug: amazon-bedrock
@@ -1661,21 +1661,21 @@ providers:
   tags: *id004
   url: /providers/amazon-bedrock/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id005
   name: Anthropic
   slug: anthropic
   status: profiled
   tags: *id006
   url: /providers/anthropic/
-- agent_band: agent-aware
-  agent_readiness: 23.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 37.8
+  band: strong
   in_catalog: true
-  kin_score: 45.7
+  kin_score: 66.3
   mcp: *id007
   name: Azure AI Foundry
   slug: azure-ai-foundry
@@ -1683,10 +1683,10 @@ providers:
   tags: *id008
   url: /providers/azure-ai-foundry/
 - agent_band: agent-aware
-  agent_readiness: 6.0
+  agent_readiness: 5.8
   band: emerging
   in_catalog: true
-  kin_score: 18.5
+  kin_score: 17.4
   mcp: *id009
   name: Baidu (ERNIE)
   slug: baidu
@@ -1694,10 +1694,10 @@ providers:
   tags: *id010
   url: /providers/baidu/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 37.1
   band: thin
   in_catalog: true
-  kin_score: 31.3
+  kin_score: 29.9
   mcp: *id011
   name: Black Forest Labs
   slug: black-forest-labs
@@ -1705,10 +1705,10 @@ providers:
   tags: *id012
   url: /providers/black-forest-labs/
 - agent_band: agent-aware
-  agent_readiness: 28.0
+  agent_readiness: 27.9
   band: strong
   in_catalog: true
-  kin_score: 62.4
+  kin_score: 62.1
   mcp: *id013
   name: Cerebras
   slug: cerebras-systems
@@ -1716,10 +1716,10 @@ providers:
   tags: *id014
   url: /providers/cerebras-systems/
 - agent_band: agent-native
-  agent_readiness: 69.6
+  agent_readiness: 69.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.8
+  kin_score: 82.5
   mcp: *id015
   name: Cloudflare Workers AI
   slug: cloudflare
@@ -1727,10 +1727,10 @@ providers:
   tags: *id016
   url: /providers/cloudflare/
 - agent_band: agent-ready
-  agent_readiness: 41.4
+  agent_readiness: 40.6
   band: thin
   in_catalog: true
-  kin_score: 36.4
+  kin_score: 35.2
   mcp: *id017
   name: Cohere
   slug: cohere
@@ -1738,10 +1738,10 @@ providers:
   tags: *id018
   url: /providers/cohere/
 - agent_band: agent-ready
-  agent_readiness: 30.9
+  agent_readiness: 39.7
   band: strong
   in_catalog: true
-  kin_score: 62.3
+  kin_score: 62.6
   mcp: *id019
   name: Composio
   slug: composio
@@ -1749,10 +1749,10 @@ providers:
   tags: *id020
   url: /providers/composio/
 - agent_band: agent-aware
-  agent_readiness: 22.9
+  agent_readiness: 22.4
   band: developing
   in_catalog: true
-  kin_score: 43.3
+  kin_score: 41.2
   mcp: *id021
   name: DeepSeek
   slug: deepseek
@@ -1760,10 +1760,10 @@ providers:
   tags: *id022
   url: /providers/deepseek/
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 48.0
   mcp: *id023
   name: Discord
   slug: discord
@@ -1771,10 +1771,10 @@ providers:
   tags: *id024
   url: /providers/discord/
 - agent_band: agent-ready
-  agent_readiness: 48.1
+  agent_readiness: 53.2
   band: strong
   in_catalog: true
-  kin_score: 65.6
+  kin_score: 65.2
   mcp: *id025
   name: fal
   slug: fal-ai
@@ -1782,10 +1782,10 @@ providers:
   tags: *id026
   url: /providers/fal-ai/
 - agent_band: agent-ready
-  agent_readiness: 39.4
+  agent_readiness: 39.0
   band: thin
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 35.4
   mcp: *id027
   name: Fireworks AI
   slug: fireworks-ai
@@ -1793,10 +1793,10 @@ providers:
   tags: *id028
   url: /providers/fireworks-ai/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id029
   name: GitHub
   slug: github
@@ -1804,10 +1804,10 @@ providers:
   tags: *id030
   url: /providers/github/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id031
   name: Google Gemini
   slug: google-gemini
@@ -1815,10 +1815,10 @@ providers:
   tags: *id032
   url: /providers/google-gemini/
 - agent_band: agent-aware
-  agent_readiness: 21.6
+  agent_readiness: 21.2
   band: thin
   in_catalog: true
-  kin_score: 32.9
+  kin_score: 32.3
   mcp: *id033
   name: Groq
   slug: groq
@@ -1826,10 +1826,10 @@ providers:
   tags: *id034
   url: /providers/groq/
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 36.9
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 69.1
   mcp: *id035
   name: Hugging Face
   slug: hugging-face
@@ -1837,10 +1837,10 @@ providers:
   tags: *id036
   url: /providers/hugging-face/
 - agent_band: agent-ready
-  agent_readiness: 37.8
+  agent_readiness: 37.1
   band: thin
   in_catalog: true
-  kin_score: 36.0
+  kin_score: 34.2
   mcp: *id037
   name: Jina AI
   slug: jina-ai
@@ -1848,10 +1848,10 @@ providers:
   tags: *id038
   url: /providers/jina-ai/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 35.9
   band: thin
   in_catalog: true
-  kin_score: 37.0
+  kin_score: 36.5
   mcp: *id039
   name: Langfuse
   slug: langfuse
@@ -1862,18 +1862,18 @@ providers:
   agent_readiness: 27.1
   band: thin
   in_catalog: true
-  kin_score: 35.5
+  kin_score: 33.6
   mcp: *id041
   name: MiniMax
   slug: minimax-ai
   status: profiled
   tags: *id042
   url: /providers/minimax-ai/
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.2
   band: developing
   in_catalog: true
-  kin_score: 47.7
+  kin_score: 47.3
   mcp: *id043
   name: Mistral AI
   slug: mistral
@@ -1881,10 +1881,10 @@ providers:
   tags: *id044
   url: /providers/mistral/
 - agent_band: agent-ready
-  agent_readiness: 36.8
+  agent_readiness: 36.1
   band: strong
   in_catalog: true
-  kin_score: 56.6
+  kin_score: 64.8
   mcp: *id045
   name: Moonshot AI
   slug: kimi-ai
@@ -1892,10 +1892,10 @@ providers:
   tags: *id046
   url: /providers/kimi-ai/
 - agent_band: agent-aware
-  agent_readiness: 24.7
+  agent_readiness: 25.7
   band: strong
   in_catalog: true
-  kin_score: 57.1
+  kin_score: 56.0
   mcp: *id047
   name: Neon
   slug: neon
@@ -1903,10 +1903,10 @@ providers:
   tags: *id048
   url: /providers/neon/
 - agent_band: agent-ready
-  agent_readiness: 35.9
+  agent_readiness: 37.5
   band: developing
   in_catalog: true
-  kin_score: 52.6
+  kin_score: 52.3
   mcp: *id049
   name: Novita AI
   slug: novita-ai
@@ -1914,10 +1914,10 @@ providers:
   tags: *id050
   url: /providers/novita-ai/
 - agent_band: agent-aware
-  agent_readiness: 26.9
+  agent_readiness: 27.3
   band: strong
   in_catalog: true
-  kin_score: 59.8
+  kin_score: 59.7
   mcp: *id051
   name: NVIDIA NIM
   slug: nvidia-nim
@@ -1928,7 +1928,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id053
   name: Ollama
   slug: ollama
@@ -1936,10 +1936,10 @@ providers:
   tags: *id054
   url: /providers/ollama/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id055
   name: OpenAI
   slug: openai
@@ -1947,10 +1947,10 @@ providers:
   tags: *id056
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 46.4
   band: strong
   in_catalog: true
-  kin_score: 55.4
+  kin_score: 54.8
   mcp: *id057
   name: OpenRouter
   slug: openrouter
@@ -1958,7 +1958,7 @@ providers:
   tags: *id058
   url: /providers/openrouter/
 - agent_band: agent-native
-  agent_readiness: 67.7
+  agent_readiness: 66.6
   band: strong
   in_catalog: true
   kin_score: 65.7
@@ -1969,10 +1969,10 @@ providers:
   tags: *id060
   url: /providers/perplexity/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 30.3
+  kin_score: 28.1
   mcp: *id061
   name: Qwen
   slug: qwen
@@ -1980,10 +1980,10 @@ providers:
   tags: *id062
   url: /providers/qwen/
 - agent_band: agent-ready
-  agent_readiness: 49.8
+  agent_readiness: 50.2
   band: strong
   in_catalog: true
-  kin_score: 57.5
+  kin_score: 58.3
   mcp: *id063
   name: Replicate
   slug: replicate
@@ -1991,10 +1991,10 @@ providers:
   tags: *id064
   url: /providers/replicate/
 - agent_band: agent-ready
-  agent_readiness: 49.4
+  agent_readiness: 49.8
   band: strong
   in_catalog: true
-  kin_score: 58.9
+  kin_score: 56.8
   mcp: *id065
   name: Resend
   slug: resend
@@ -2002,10 +2002,10 @@ providers:
   tags: *id066
   url: /providers/resend/
 - agent_band: agent-ready
-  agent_readiness: 29.4
+  agent_readiness: 28.8
   band: strong
   in_catalog: true
-  kin_score: 64.3
+  kin_score: 62.0
   mcp: *id067
   name: SambaNova
   slug: sambanova-systems
@@ -2013,10 +2013,10 @@ providers:
   tags: *id068
   url: /providers/sambanova-systems/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 18.1
   band: thin
   in_catalog: true
-  kin_score: 29.2
+  kin_score: 27.5
   mcp: *id069
   name: SiliconFlow
   slug: siliconflow
@@ -2024,10 +2024,10 @@ providers:
   tags: *id070
   url: /providers/siliconflow/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id071
   name: Slack
   slug: slack
@@ -2035,10 +2035,10 @@ providers:
   tags: *id072
   url: /providers/slack/
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 29.9
   band: strong
   in_catalog: true
-  kin_score: 56.0
+  kin_score: 54.7
   mcp: *id073
   name: StepFun
   slug: stepfun
@@ -2046,10 +2046,10 @@ providers:
   tags: *id074
   url: /providers/stepfun/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id075
   name: Stripe
   slug: stripe
@@ -2057,10 +2057,10 @@ providers:
   tags: *id076
   url: /providers/stripe/
 - agent_band: agent-native
-  agent_readiness: 53.1
+  agent_readiness: 52.1
   band: exemplar
   in_catalog: true
-  kin_score: 74.5
+  kin_score: 74.7
   mcp: *id077
   name: Svix
   slug: svix
@@ -2068,10 +2068,10 @@ providers:
   tags: *id078
   url: /providers/svix/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id079
   name: Telegram
   slug: telegram
@@ -2079,10 +2079,10 @@ providers:
   tags: *id080
   url: /providers/telegram/
 - agent_band: agent-ready
-  agent_readiness: 40.4
+  agent_readiness: 40.0
   band: thin
   in_catalog: true
-  kin_score: 34.6
+  kin_score: 34.4
   mcp: *id081
   name: Together AI
   slug: together-ai
@@ -2101,10 +2101,10 @@ providers:
   tags: *id084
   url: null
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 46.7
   band: thin
   in_catalog: true
-  kin_score: 37.9
+  kin_score: 35.2
   mcp: *id085
   name: Upstash
   slug: upstash
@@ -2112,21 +2112,21 @@ providers:
   tags: *id086
   url: /providers/upstash/
 - agent_band: agent-ready
-  agent_readiness: 45.2
+  agent_readiness: 50.0
   band: strong
   in_catalog: true
-  kin_score: 63.8
+  kin_score: 63.1
   mcp: *id087
   name: Vercel
   slug: vercel
   status: profiled
   tags: *id088
   url: /providers/vercel/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 42.2
+  band: strong
   in_catalog: true
-  kin_score: 48.4
+  kin_score: 63.2
   mcp: *id089
   name: Vertex AI
   slug: google-vertex-ai
@@ -2145,10 +2145,10 @@ providers:
   tags: *id092
   url: null
 - agent_band: agent-ready
-  agent_readiness: 38.8
+  agent_readiness: 39.4
   band: thin
   in_catalog: true
-  kin_score: 32.8
+  kin_score: 32.3
   mcp: *id093
   name: xAI
   slug: xai
@@ -2156,10 +2156,10 @@ providers:
   tags: *id094
   url: /providers/xai/
 - agent_band: agent-ready
-  agent_readiness: 35.7
-  band: developing
+  agent_readiness: 35.4
+  band: thin
   in_catalog: true
-  kin_score: 40.1
+  kin_score: 38.1
   mcp: *id095
   name: Zhipu AI
   slug: zhipu-ai

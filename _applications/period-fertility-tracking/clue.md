@@ -76,10 +76,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.8
-    band: emerging
+    agent_readiness: 23.3
+    band: thin
     in_catalog: true
-    kin_score: 24.9
+    kin_score: 30.9
     mcp: &id001
       status: none
     slug: adjust
@@ -105,22 +105,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id009
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id010
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics
   provider: firebase
@@ -137,10 +137,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 72.4
     mcp: &id025
       status: none
     slug: zendesk
@@ -167,10 +167,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id003
       status: none
     slug: apple
@@ -197,10 +197,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 30.7
     band: strong
     in_catalog: true
-    kin_score: 61.6
+    kin_score: 61.5
     mcp: &id005
       status: none
     slug: fitbit
@@ -230,7 +230,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 21.4
+    kin_score: 20.0
     mcp: &id007
       status: none
     slug: garmin
@@ -309,10 +309,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.1
+    agent_readiness: 27.5
     band: developing
     in_catalog: true
-    kin_score: 50.2
+    kin_score: 50.4
     mcp: &id015
       status: none
     slug: oura-ring
@@ -339,10 +339,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 30.3
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.9
     mcp: &id017
       status: unknown
     slug: polar
@@ -369,10 +369,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.9
+    agent_readiness: 48.5
     band: thin
     in_catalog: true
-    kin_score: 33.6
+    kin_score: 34.1
     mcp: &id019
       source: https://vision.ultrahuman.com/developer-docs?type=mcp
       status: verified
@@ -400,10 +400,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.3
     band: developing
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 49.1
     mcp: &id021
       status: none
     slug: whoop
@@ -430,10 +430,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_readiness: 25.4
     band: thin
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 36.4
     mcp: &id023
       status: none
     slug: withings
@@ -458,10 +458,10 @@ noindex: false
 permalink: /applications/period-fertility-tracking/clue/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 23.8
-  band: emerging
+  agent_readiness: 23.3
+  band: thin
   in_catalog: true
-  kin_score: 24.9
+  kin_score: 30.9
   mcp: *id001
   name: Adjust
   slug: adjust
@@ -469,10 +469,10 @@ providers:
   tags: *id002
   url: /providers/adjust/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id003
   name: Apple
   slug: apple
@@ -480,10 +480,10 @@ providers:
   tags: *id004
   url: /providers/apple/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 30.7
   band: strong
   in_catalog: true
-  kin_score: 61.6
+  kin_score: 61.5
   mcp: *id005
   name: Fitbit
   slug: fitbit
@@ -494,24 +494,24 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 21.4
+  kin_score: 20.0
   mcp: *id007
   name: Garmin
   slug: garmin
   status: profiled
   tags: *id008
   url: /providers/garmin/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id009
   name: Google Firebase Analytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id010
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: null
   agent_readiness: null
   band: null
@@ -535,10 +535,10 @@ providers:
   tags: *id014
   url: null
 - agent_band: agent-aware
-  agent_readiness: 28.1
+  agent_readiness: 27.5
   band: developing
   in_catalog: true
-  kin_score: 50.2
+  kin_score: 50.4
   mcp: *id015
   name: Oura
   slug: oura-ring
@@ -546,10 +546,10 @@ providers:
   tags: *id016
   url: /providers/oura-ring/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 30.3
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.9
   mcp: *id017
   name: Polar
   slug: polar
@@ -557,10 +557,10 @@ providers:
   tags: *id018
   url: /providers/polar/
 - agent_band: agent-ready
-  agent_readiness: 43.9
+  agent_readiness: 48.5
   band: thin
   in_catalog: true
-  kin_score: 33.6
+  kin_score: 34.1
   mcp: *id019
   name: Ultrahuman
   slug: ultrahuman
@@ -568,10 +568,10 @@ providers:
   tags: *id020
   url: /providers/ultrahuman/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.3
   band: developing
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 49.1
   mcp: *id021
   name: WHOOP
   slug: whoop
@@ -579,10 +579,10 @@ providers:
   tags: *id022
   url: /providers/whoop/
 - agent_band: agent-aware
-  agent_readiness: 25.9
+  agent_readiness: 25.4
   band: thin
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 36.4
   mcp: *id023
   name: Withings
   slug: withings
@@ -590,10 +590,10 @@ providers:
   tags: *id024
   url: /providers/withings/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 72.4
   mcp: *id025
   name: Zendesk
   slug: zendesk

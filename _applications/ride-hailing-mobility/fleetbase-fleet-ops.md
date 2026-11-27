@@ -105,10 +105,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id001
       status: none
     slug: apple
@@ -135,10 +135,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.8
-    band: strong
+    agent_readiness: 37.9
+    band: exemplar
     in_catalog: true
-    kin_score: 60.5
+    kin_score: 68.5
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -165,22 +165,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id005
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id006
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase
   provider: firebase
@@ -197,10 +197,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id007
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -228,10 +228,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.3
-    band: developing
+    agent_readiness: 40.3
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 62.4
     mcp: &id009
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -259,10 +259,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.0
+    agent_readiness: 39.0
     band: exemplar
     in_catalog: true
-    kin_score: 70.1
+    kin_score: 69.7
     mcp: &id011
       source: https://github.com/microsoft/mcp
       status: verified
@@ -293,7 +293,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id013
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -321,10 +321,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id015
       source: https://docs.stripe.com/mcp
       status: verified
@@ -352,10 +352,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id017
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -381,10 +381,10 @@ noindex: false
 permalink: /applications/ride-hailing-mobility/fleetbase-fleet-ops/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id001
   name: Apple (APNs)
   slug: apple
@@ -392,32 +392,32 @@ providers:
   tags: *id002
   url: /providers/apple/
 - agent_band: agent-ready
-  agent_readiness: 40.8
-  band: strong
+  agent_readiness: 37.9
+  band: exemplar
   in_catalog: true
-  kin_score: 60.5
+  kin_score: 68.5
   mcp: *id003
   name: AWS
   slug: amazon-web-services
   status: profiled
   tags: *id004
   url: /providers/amazon-web-services/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id005
   name: Firebase
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id006
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id007
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -425,10 +425,10 @@ providers:
   tags: *id008
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-ready
-  agent_readiness: 32.3
-  band: developing
+  agent_readiness: 40.3
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 62.4
   mcp: *id009
   name: Google Places
   slug: google-places
@@ -436,10 +436,10 @@ providers:
   tags: *id010
   url: /providers/google-places/
 - agent_band: agent-ready
-  agent_readiness: 37.0
+  agent_readiness: 39.0
   band: exemplar
   in_catalog: true
-  kin_score: 70.1
+  kin_score: 69.7
   mcp: *id011
   name: Microsoft Graph
   slug: microsoft-graph
@@ -450,7 +450,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id013
   name: Sentry
   slug: sentry-system
@@ -458,10 +458,10 @@ providers:
   tags: *id014
   url: /providers/sentry-system/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id015
   name: Stripe
   slug: stripe
@@ -469,10 +469,10 @@ providers:
   tags: *id016
   url: /providers/stripe/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id017
   name: Twilio
   slug: twilio

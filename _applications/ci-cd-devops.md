@@ -2696,13 +2696,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 12.2
+      agent_readiness: 13.0
       apps:
       - CircleCI
       - GitLab
       band: minimal
       in_catalog: true
-      kin_score: 6.4
+      kin_score: 6.2
       mcp:
         source: https://github.com/GitGuardian/ggmcp
         status: verified
@@ -2718,12 +2718,12 @@ stack:
       tier: declared
       url: /providers/gitguardian/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 45.8
       apps:
       - CircleCI
       band: exemplar
       in_catalog: true
-      kin_score: 80.5
+      kin_score: 80.8
       mcp:
         source: https://github.com/snyk/studio-mcp
         status: verified
@@ -2743,9 +2743,9 @@ stack:
       agent_readiness: 26.6
       apps:
       - CircleCI
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.9
+      kin_score: 67.0
       mcp:
         status: none
       name: WhiteSource (now Mend)
@@ -2761,33 +2761,12 @@ stack:
       tier: declared
       url: /providers/mend/
     - agent_band: agent-ready
-      agent_readiness: 32.9
+      agent_readiness: 38.4
       apps:
       - CircleCI
       band: strong
       in_catalog: true
-      kin_score: 60.7
-      mcp:
-        status: none
-      name: Shiftleft (now Qwiet AI)
-      slug: qwiet-ai
-      sources:
-      - https://circleci.com/integrations/
-      status: profiled
-      tags:
-      - Application Security
-      - Company
-      - SAST
-      - Security
-      tier: declared
-      url: /providers/qwiet-ai/
-    - agent_band: agent-ready
-      agent_readiness: 33.7
-      apps:
-      - CircleCI
-      band: strong
-      in_catalog: true
-      kin_score: 58.2
+      kin_score: 62.1
       mcp:
         source: https://github.com/Checkmarx/cx-agentic-ai
         status: verified
@@ -2803,34 +2782,13 @@ stack:
       - SAST
       tier: declared
       url: /providers/checkmarx/
-    - agent_band: agent-aware
-      agent_readiness: 22.7
+    - agent_band: agent-native
+      agent_readiness: 59.2
       apps:
       - CircleCI
       band: strong
       in_catalog: true
-      kin_score: 57.6
-      mcp:
-        status: none
-      name: Fossa
-      slug: fossa
-      sources:
-      - https://circleci.com/integrations/
-      status: profiled
-      tags:
-      - Company
-      - Open Source
-      - Security
-      - Software Supply Chain
-      tier: declared
-      url: /providers/fossa/
-    - agent_band: agent-ready
-      agent_readiness: 55.1
-      apps:
-      - CircleCI
-      band: developing
-      in_catalog: true
-      kin_score: 54.0
+      kin_score: 60.7
       mcp:
         source: https://github.com/Contrast-Security-OSS/mcp-contrast
         status: verified
@@ -2846,13 +2804,55 @@ stack:
       - RASP
       tier: declared
       url: /providers/contrast-security/
+    - agent_band: agent-ready
+      agent_readiness: 32.2
+      apps:
+      - CircleCI
+      band: strong
+      in_catalog: true
+      kin_score: 58.7
+      mcp:
+        status: none
+      name: Shiftleft (now Qwiet AI)
+      slug: qwiet-ai
+      sources:
+      - https://circleci.com/integrations/
+      status: profiled
+      tags:
+      - Application Security
+      - Company
+      - SAST
+      - Security
+      tier: declared
+      url: /providers/qwiet-ai/
     - agent_band: agent-aware
-      agent_readiness: 24.4
+      agent_readiness: 22.2
+      apps:
+      - CircleCI
+      band: strong
+      in_catalog: true
+      kin_score: 54.9
+      mcp:
+        status: none
+      name: Fossa
+      slug: fossa
+      sources:
+      - https://circleci.com/integrations/
+      status: profiled
+      tags:
+      - Company
+      - Open Source
+      - Security
+      - Software Supply Chain
+      tier: declared
+      url: /providers/fossa/
+    - agent_band: agent-aware
+      agent_readiness: 23.9
       apps:
       - CircleCI
       band: developing
       in_catalog: true
-      kin_score: 46.8
+      kin_score: 45.7
       mcp:
         source: https://github.com/stackhawk/stackhawk-mcp
         status: verified
@@ -2868,13 +2868,33 @@ stack:
       - Security Testing
       tier: declared
       url: /providers/stackhawk/
-    - agent_band: agent-ready
-      agent_readiness: 33.2
+    - agent_band: agent-aware
+      agent_readiness: 20.3
       apps:
       - CircleCI
       band: developing
       in_catalog: true
-      kin_score: 40.8
+      kin_score: 41.4
+      mcp:
+        status: none
+      name: Nightfall
+      slug: nightfall-ai
+      sources:
+      - https://circleci.com/integrations/
+      status: profiled
+      tags:
+      - Artificial Intelligence
+      - Privacy
+      - Sensitive Data
+      tier: declared
+      url: /providers/nightfall-ai/
+    - agent_band: agent-aware
+      agent_readiness: 27.7
+      apps:
+      - CircleCI
+      band: developing
+      in_catalog: true
+      kin_score: 40.1
       mcp:
         source: https://github.com/aquasecurity/trivy-mcp
         status: verified
@@ -2890,33 +2910,13 @@ stack:
       - Runtime Protection
       tier: declared
       url: /providers/aqua-security/
-    - agent_band: agent-aware
-      agent_readiness: 20.8
-      apps:
-      - CircleCI
-      band: developing
-      in_catalog: true
-      kin_score: 39.6
-      mcp:
-        status: none
-      name: Nightfall
-      slug: nightfall-ai
-      sources:
-      - https://circleci.com/integrations/
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Privacy
-      - Sensitive Data
-      tier: declared
-      url: /providers/nightfall-ai/
     - agent_band: agent-ready
-      agent_readiness: 30.2
+      agent_readiness: 31.0
       apps:
       - CircleCI
       band: thin
       in_catalog: true
-      kin_score: 38.9
+      kin_score: 37.5
       mcp:
         status: none
       name: Wallarm
@@ -2932,12 +2932,12 @@ stack:
       tier: declared
       url: /providers/wallarm/
     - agent_band: agent-aware
-      agent_readiness: 21.9
+      agent_readiness: 21.5
       apps:
       - CircleCI
       band: thin
       in_catalog: true
-      kin_score: 37.3
+      kin_score: 35.8
       mcp:
         source: https://github.com/anchore/grype-mcp
         status: verified
@@ -2954,12 +2954,12 @@ stack:
       tier: declared
       url: /providers/anchore/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.2
       apps:
       - CircleCI
       band: thin
       in_catalog: true
-      kin_score: 31.1
+      kin_score: 30.4
       mcp:
         status: none
       name: Prisma Cloud
@@ -2974,13 +2974,32 @@ stack:
       - Containers
       tier: declared
       url: /providers/prisma-cloud/
+    - agent_band: human-only
+      agent_readiness: 2.8
+      apps:
+      - CircleCI
+      band: thin
+      in_catalog: true
+      kin_score: 27.5
+      mcp:
+        source: https://developers.probely.com/mcp/mcp-server-overview
+        status: verified
+      name: Probely
+      slug: probely
+      sources:
+      - https://circleci.com/integrations/
+      status: profiled
+      tags:
+      - Company
+      tier: declared
+      url: /providers/probely/
     - agent_band: agent-aware
-      agent_readiness: 24.1
+      agent_readiness: 23.6
       apps:
       - CircleCI
       band: emerging
       in_catalog: true
-      kin_score: 24.7
+      kin_score: 23.7
       mcp:
         status: none
       name: NeuVector
@@ -2996,7 +3015,7 @@ stack:
       tier: declared
       url: /providers/neuvector/
     - agent_band: agent-aware
-      agent_readiness: 15.5
+      agent_readiness: 15.1
       apps:
       - CircleCI
       band: emerging
@@ -3016,25 +3035,6 @@ stack:
       - Threat Detection
       tier: declared
       url: /providers/lacework/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - CircleCI
-      band: emerging
-      in_catalog: true
-      kin_score: 18.4
-      mcp:
-        source: https://developers.probely.com/mcp/mcp-server-overview
-        status: verified
-      name: Probely
-      slug: probely
-      sources:
-      - https://circleci.com/integrations/
-      status: profiled
-      tags:
-      - Company
-      tier: declared
-      url: /providers/probely/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -3184,7 +3184,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Coolify
       - GitLab
@@ -3192,7 +3192,7 @@ stack:
       - Woodpecker CI
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: &id001
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -3211,15 +3211,15 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Coolify
       - Gitea
       - Woodpecker CI
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
-      mcp: &id005
+      kin_score: 86.3
+      mcp: &id003
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
       name: GitLab (migrations/gitlab.go)
@@ -3229,7 +3229,7 @@ stack:
       - https://github.com/go-gitea/gitea/tree/main/services/migrations
       - https://raw.githubusercontent.com/woodpecker-ci/woodpecker/main/go.mod
       status: profiled
-      tags: &id006
+      tags: &id004
       - Code
       - Developer Tools
       - Platform
@@ -3237,13 +3237,13 @@ stack:
       tier: observed
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 35.3
       apps:
       - Gitea
       - Woodpecker CI
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 71.9
       mcp: &id007
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -3260,13 +3260,13 @@ stack:
       - Code Review
       tier: observed
       url: /providers/bitbucket/
-    - agent_band: agent-ready
-      agent_readiness: 37.3
+    - agent_band: agent-native
+      agent_readiness: 41.6
       apps:
       - Gitea
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 42.2
+      kin_score: 69.9
       mcp:
         status: none
       name: AWS CodeCommit (migrations/codecommit.go)
@@ -3282,12 +3282,12 @@ stack:
       tier: observed
       url: /providers/amazon-codecommit/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - Gitea
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 35.2
       mcp:
         status: unknown
       name: Codebase (migrations/codebase.go)
@@ -3302,13 +3302,13 @@ stack:
       - Version Control
       tier: observed
       url: /providers/codebasehq/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - Gitea
       band: emerging
       in_catalog: true
-      kin_score: 18.8
+      kin_score: 24.2
       mcp:
         source: https://docs.onedev.io/tutorials/ai/working-with-mcp
         status: documented
@@ -3333,12 +3333,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp:
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -3355,34 +3355,12 @@ stack:
       tier: observed
       url: /providers/jira/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.8
       apps:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
-      mcp:
-        source: https://developers.asana.com/docs/using-asanas-mcp-server
-        status: verified
-      name: Asana
-      slug: asana
-      sources:
-      - https://docs.gitlab.com/user/project/integrations/
-      status: profiled
-      tags:
-      - Collaboration
-      - Productivity
-      - Project
-      - Project Management
-      tier: declared
-      url: /providers/asana/
-    - agent_band: agent-ready
-      agent_readiness: 57.0
-      apps:
-      - GitLab
-      band: exemplar
-      in_catalog: true
-      kin_score: 73.7
+      kin_score: 72.6
       mcp:
         source: https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server
         status: verified
@@ -3399,12 +3377,34 @@ stack:
       tier: declared
       url: /providers/clickup/
     - agent_band: agent-ready
-      agent_readiness: 36.3
+      agent_readiness: 55.3
+      apps:
+      - GitLab
+      band: exemplar
+      in_catalog: true
+      kin_score: 72.5
+      mcp:
+        source: https://developers.asana.com/docs/using-asanas-mcp-server
+        status: verified
+      name: Asana
+      slug: asana
+      sources:
+      - https://docs.gitlab.com/user/project/integrations/
+      status: profiled
+      tags:
+      - Collaboration
+      - Productivity
+      - Project
+      - Project Management
+      tier: declared
+      url: /providers/asana/
+    - agent_band: agent-ready
+      agent_readiness: 35.6
       apps:
       - GitLab
       band: strong
       in_catalog: true
-      kin_score: 64.9
+      kin_score: 65.8
       mcp:
         source: https://github.com/IBM/mcp
         status: verified
@@ -3421,12 +3421,12 @@ stack:
       tier: declared
       url: /providers/ibm/
     - agent_band: agent-ready
-      agent_readiness: 35.5
+      agent_readiness: 35.2
       apps:
       - GitLab
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.1
+      kin_score: 39.6
       mcp:
         source: https://linear.app/docs/mcp
         status: verified
@@ -3443,12 +3443,12 @@ stack:
       tier: declared
       url: /providers/linear-app/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - GitLab
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 27.4
       mcp:
         status: none
       name: Assembla
@@ -3505,13 +3505,34 @@ stack:
       url: /capabilities/software-quality-engineering/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 32.5
+    - agent_band: agent-aware
+      agent_readiness: 20.3
       apps:
       - CircleCI
       band: strong
       in_catalog: true
-      kin_score: 55.0
+      kin_score: 59.7
+      mcp:
+        status: none
+      name: Codecov
+      slug: codecov
+      sources:
+      - https://circleci.com/integrations/
+      status: profiled
+      tags:
+      - CI/CD
+      - Code Coverage
+      - Company
+      - DevOps
+      tier: declared
+      url: /providers/codecov/
+    - agent_band: agent-ready
+      agent_readiness: 32.9
+      apps:
+      - CircleCI
+      band: strong
+      in_catalog: true
+      kin_score: 56.1
       mcp:
         source: https://github.com/SonarSource/sonarqube-mcp-server
         status: verified
@@ -3528,33 +3549,12 @@ stack:
       tier: declared
       url: /providers/sonarsource/
     - agent_band: agent-aware
-      agent_readiness: 20.7
-      apps:
-      - CircleCI
-      band: developing
-      in_catalog: true
-      kin_score: 51.4
-      mcp:
-        status: none
-      name: Codecov
-      slug: codecov
-      sources:
-      - https://circleci.com/integrations/
-      status: profiled
-      tags:
-      - CI/CD
-      - Code Coverage
-      - Company
-      - DevOps
-      tier: declared
-      url: /providers/codecov/
-    - agent_band: agent-aware
-      agent_readiness: 17.1
+      agent_readiness: 14.5
       apps:
       - GitLab
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.3
+      kin_score: 34.9
       mcp:
         source: https://github.com/diffblue/cover-mcp
         status: verified
@@ -3574,9 +3574,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - CircleCI
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.6
+      kin_score: 31.6
       mcp:
         status: unknown
       name: Coveralls
@@ -3595,9 +3595,9 @@ stack:
       agent_readiness: 1.8
       apps:
       - CircleCI
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.5
+      kin_score: 26.2
       mcp:
         source: https://github.com/codescene-oss/codescene-mcp-server
         status: verified
@@ -3673,13 +3673,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.6
+      agent_readiness: 23.1
       apps:
       - GitLab
       - Gitea
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 38.2
       mcp:
         status: none
       name: Packagist
@@ -3695,13 +3695,13 @@ stack:
       - Package Registry
       tier: observed
       url: /providers/packagist/
-    - agent_band: agent-aware
-      agent_readiness: 27.7
+    - agent_band: agent-ready
+      agent_readiness: 29.5
       apps:
       - CircleCI
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.8
+      kin_score: 75.2
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3718,12 +3718,33 @@ stack:
       tier: declared
       url: /providers/amazon-ecr/
     - agent_band: agent-ready
-      agent_readiness: 34.1
+      agent_readiness: 37.7
       apps:
       - CircleCI
       band: strong
       in_catalog: true
-      kin_score: 56.9
+      kin_score: 65.4
+      mcp: &id017
+        status: none
+      name: Google Cloud GCR
+      slug: google-artifact-registry
+      sources:
+      - https://circleci.com/integrations/
+      status: profiled
+      tags: &id018
+      - Artifacts
+      - Containers
+      - Google Cloud
+      - Packages
+      tier: declared
+      url: /providers/google-artifact-registry/
+    - agent_band: agent-ready
+      agent_readiness: 33.4
+      apps:
+      - CircleCI
+      band: strong
+      in_catalog: true
+      kin_score: 64.6
       mcp:
         source: https://github.com/sonatype/dependency-management-mcp-server
         status: verified
@@ -3740,33 +3761,12 @@ stack:
       tier: declared
       url: /providers/sonatype/
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 27.3
       apps:
       - CircleCI
       band: thin
       in_catalog: true
-      kin_score: 38.4
-      mcp: &id017
-        status: none
-      name: Google Cloud GCR
-      slug: google-artifact-registry
-      sources:
-      - https://circleci.com/integrations/
-      status: profiled
-      tags: &id018
-      - Artifacts
-      - Containers
-      - Google Cloud
-      - Packages
-      tier: declared
-      url: /providers/google-artifact-registry/
-    - agent_band: agent-aware
-      agent_readiness: 26.8
-      apps:
-      - CircleCI
-      band: thin
-      in_catalog: true
-      kin_score: 32.3
+      kin_score: 32.0
       mcp:
         source: https://docs.cloudsmith.com/integrations/integrating-with-mcp
         status: verified
@@ -3788,7 +3788,7 @@ stack:
       - CircleCI
       band: emerging
       in_catalog: true
-      kin_score: 19.5
+      kin_score: 17.5
       mcp:
         status: none
       name: packagecloud
@@ -3812,12 +3812,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.9
+      agent_readiness: 45.8
       apps:
       - Coolify
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 54.0
+      kin_score: 65.9
       mcp:
         source: https://github.com/hostinger/api-mcp-server
         status: verified
@@ -3834,12 +3834,12 @@ stack:
       tier: observed
       url: /providers/hostinger/
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 44.1
       apps:
       - Coolify
       band: developing
       in_catalog: true
-      kin_score: 45.0
+      kin_score: 47.4
       mcp:
         source: https://docs.digitalocean.com/reference/mcp/
         status: verified
@@ -3856,12 +3856,12 @@ stack:
       tier: observed
       url: /providers/digital-ocean/
     - agent_band: agent-ready
-      agent_readiness: 49.8
+      agent_readiness: 53.5
       apps:
       - Coolify
       band: developing
       in_catalog: true
-      kin_score: 40.2
+      kin_score: 43.3
       mcp:
         source: https://github.com/vultr/vultr-mcp
         status: verified
@@ -3878,12 +3878,12 @@ stack:
       tier: observed
       url: /providers/vultr/
     - agent_band: agent-aware
-      agent_readiness: 26.3
+      agent_readiness: 25.7
       apps:
       - Coolify
       band: developing
       in_catalog: true
-      kin_score: 39.7
+      kin_score: 41.6
       mcp:
         status: none
       name: HetznerService
@@ -3912,7 +3912,7 @@ stack:
       - Coolify
       band: developing
       in_catalog: true
-      kin_score: 47.5
+      kin_score: 45.5
       mcp:
         source: https://github.com/Infisical/infisical-mcp-server
         status: verified
@@ -3929,12 +3929,12 @@ stack:
       tier: observed
       url: /providers/infisical/
     - agent_band: agent-ready
-      agent_readiness: 37.4
+      agent_readiness: 36.5
       apps:
       - Coolify
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.4
       mcp:
         source: https://github.com/DopplerHQ/mcp-server
         status: verified
@@ -3951,12 +3951,12 @@ stack:
       tier: observed
       url: /providers/doppler/
     - agent_band: agent-aware
-      agent_readiness: 20.6
+      agent_readiness: 20.2
       apps:
       - CircleCI
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 53.5
       mcp:
         status: none
       name: Fortanix
@@ -3980,13 +3980,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.6
+      agent_readiness: 41.8
       apps:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 79.9
-      mcp: &id003
+      kin_score: 79.8
+      mcp: &id005
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
       name: Atlassian Bamboo
@@ -3994,7 +3994,7 @@ stack:
       sources:
       - https://docs.gitlab.com/user/project/integrations/
       status: profiled
-      tags: &id004
+      tags: &id006
       - Code
       - Collaboration
       - Platform
@@ -4002,12 +4002,12 @@ stack:
       tier: declared
       url: /providers/atlassian/
     - agent_band: agent-ready
-      agent_readiness: 50.6
+      agent_readiness: 49.6
       apps:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 69.0
       mcp:
         source: https://github.com/buildkite/buildkite-mcp-server
         status: verified
@@ -4024,12 +4024,12 @@ stack:
       tier: declared
       url: /providers/buildkite-com/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 26.4
       apps:
       - GitLab
       band: developing
       in_catalog: true
-      kin_score: 47.0
+      kin_score: 45.1
       mcp:
         source: https://github.com/JetBrains/teamcity-mcp
         status: verified
@@ -4054,12 +4054,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 15.8
+      agent_readiness: 12.7
       apps:
       - CircleCI
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 43.2
       mcp:
         source: https://github.com/configcat/mcp-server
         status: verified
@@ -4071,7 +4071,7 @@ stack:
       tags:
       - Cloud
       - Developer Tools
-      - Feature Flag
+      - Feature-Flag
       - Software-as-a-Service
       tier: declared
       url: /providers/configcat/
@@ -4084,12 +4084,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.8
+      agent_readiness: 36.0
       apps:
       - CircleCI
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 69.5
       mcp:
         status: none
       name: Anecdotes
@@ -4113,12 +4113,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - GitLab
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple App Store Connect
@@ -4141,13 +4141,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - CircleCI
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp: &id011
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4174,14 +4174,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Coolify
       - GitLab
       - Gitea
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: omniauth-azure-activedirectory-v2
@@ -4198,15 +4198,15 @@ stack:
       - Identity and Access Management
       tier: observed
       url: /providers/microsoft-entra/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Coolify
       - GitLab
       - Gitea
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: omniauth-google-oauth2
@@ -4224,13 +4224,13 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - GitLab
       - Gitea
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: *id001
       name: omniauth-github
       slug: github
@@ -4242,13 +4242,13 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Coolify
       - Gitea
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp: &id009
         status: none
       name: goth discord
@@ -4265,12 +4265,12 @@ stack:
       tier: observed
       url: /providers/discord/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -4286,45 +4286,45 @@ stack:
       - Fortune 500
       tier: observed
       url: /providers/salesforce/
-    - agent_band: agent-ready
-      agent_readiness: 42.6
-      apps:
-      - GitLab
-      band: exemplar
-      in_catalog: true
-      kin_score: 79.9
-      mcp: *id003
-      name: omniauth-atlassian-oauth2 / atlassian-jwt
-      slug: atlassian
-      sources:
-      - https://gitlab.com/gitlab-org/gitlab/-/raw/master/Gemfile
-      status: profiled
-      tags: *id004
-      tier: observed
-      url: /providers/atlassian/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Gitea
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
-      mcp: *id005
+      kin_score: 86.3
+      mcp: *id003
       name: goth gitlab
       slug: gitlab
       sources:
       - https://raw.githubusercontent.com/go-gitea/gitea/main/services/auth/source/oauth2/providers_custom.go
       status: profiled
-      tags: *id006
+      tags: *id004
       tier: observed
       url: /providers/gitlab/
+    - agent_band: agent-ready
+      agent_readiness: 41.8
+      apps:
+      - GitLab
+      band: exemplar
+      in_catalog: true
+      kin_score: 79.8
+      mcp: *id005
+      name: omniauth-atlassian-oauth2 / atlassian-jwt
+      slug: atlassian
+      sources:
+      - https://gitlab.com/gitlab-org/gitlab/-/raw/master/Gemfile
+      status: profiled
+      tags: *id006
+      tier: observed
+      url: /providers/atlassian/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Gitea
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -4340,13 +4340,13 @@ stack:
       - X
       tier: observed
       url: /providers/x/
-    - agent_band: agent-ready
-      agent_readiness: 46.1
+    - agent_band: agent-native
+      agent_readiness: 51.9
       apps:
       - Coolify
       band: exemplar
       in_catalog: true
-      kin_score: 72.2
+      kin_score: 73.4
       mcp:
         source: https://github.com/clerk/mcp-tools
         status: verified
@@ -4363,12 +4363,28 @@ stack:
       tier: observed
       url: /providers/clerk-com/
     - agent_band: agent-ready
-      agent_readiness: 39.9
+      agent_readiness: 35.3
+      apps:
+      - Gitea
+      band: exemplar
+      in_catalog: true
+      kin_score: 71.9
+      mcp: *id007
+      name: goth bitbucket
+      slug: bitbucket
+      sources:
+      - https://raw.githubusercontent.com/go-gitea/gitea/main/services/auth/source/oauth2/providers_simple.go
+      status: profiled
+      tags: *id008
+      tier: observed
+      url: /providers/bitbucket/
+    - agent_band: agent-ready
+      agent_readiness: 39.5
       apps:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 72.1
+      kin_score: 71.8
       mcp:
         source: https://auth0.com/docs/get-started/auth0-mcp-server
         status: verified
@@ -4384,29 +4400,13 @@ stack:
       - Authorization
       tier: observed
       url: /providers/auth0/
-    - agent_band: agent-ready
-      agent_readiness: 36.0
-      apps:
-      - Gitea
-      band: exemplar
-      in_catalog: true
-      kin_score: 72.0
-      mcp: *id007
-      name: goth bitbucket
-      slug: bitbucket
-      sources:
-      - https://raw.githubusercontent.com/go-gitea/gitea/main/services/auth/source/oauth2/providers_simple.go
-      status: profiled
-      tags: *id008
-      tier: observed
-      url: /providers/bitbucket/
     - agent_band: agent-aware
-      agent_readiness: 20.9
+      agent_readiness: 25.9
       apps:
       - Coolify
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.3
+      kin_score: 54.1
       mcp:
         status: none
       name: socialiteproviders/zitadel
@@ -4422,12 +4422,12 @@ stack:
       tier: observed
       url: /providers/zitadel/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Gitea
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -4444,12 +4444,12 @@ stack:
       tier: observed
       url: /providers/dropbox/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Gitea
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: goth facebook
@@ -4465,12 +4465,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-aware
-      agent_readiness: 13.7
+      agent_readiness: 13.4
       apps:
       - Coolify
       band: emerging
       in_catalog: true
-      kin_score: 11.0
+      kin_score: 16.0
       mcp:
         source: https://github.com/Infomaniak/mcp-server-kdrive
         status: verified
@@ -4492,7 +4492,7 @@ stack:
       - GitLab
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp: &id013
         source: https://github.com/aliyun/alibaba-cloud-ops-mcp-server
         status: verified
@@ -4531,7 +4531,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - CircleCI
       - Coolify
@@ -4539,7 +4539,7 @@ stack:
       - Gitea
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -4558,14 +4558,14 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Coolify
       - GitLab
       - Gitea
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -4583,14 +4583,14 @@ stack:
       tier: observed
       url: /providers/telegram/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Coolify
       - GitLab
       - Gitea
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp: *id009
       name: Discord
       slug: discord
@@ -4603,13 +4603,13 @@ stack:
       tier: observed
       url: /providers/discord/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - GitLab
       - Gitea
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -4626,12 +4626,12 @@ stack:
       tier: observed
       url: /providers/microsoft-teams/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Gitea
       band: minimal
       in_catalog: true
-      kin_score: 6.1
+      kin_score: 7.1
       mcp:
         source: https://github.com/open-dingtalk/dingtalk-mcp
         status: verified
@@ -4682,12 +4682,34 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 61.1
+      agent_readiness: 41.0
+      apps:
+      - GitLab
+      band: exemplar
+      in_catalog: true
+      kin_score: 67.1
+      mcp:
+        source: https://github.com/google/mcp
+        status: verified
+      name: Google Chat
+      slug: google-chat
+      sources:
+      - https://docs.gitlab.com/user/project/integrations/
+      status: profiled
+      tags:
+      - Chat
+      - Collaboration
+      - Google
+      - Google Workspace
+      tier: declared
+      url: /providers/google-chat/
+    - agent_band: agent-ready
+      agent_readiness: 61.8
       apps:
       - GitLab
       band: strong
       in_catalog: true
-      kin_score: 64.2
+      kin_score: 66.1
       mcp:
         source: https://github.com/WebexSamples/webex-messaging-mcp-server
         status: verified
@@ -4704,34 +4726,12 @@ stack:
       tier: declared
       url: /providers/webex/
     - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - GitLab
-      band: developing
-      in_catalog: true
-      kin_score: 51.6
-      mcp:
-        source: https://github.com/google/mcp
-        status: verified
-      name: Google Chat
-      slug: google-chat
-      sources:
-      - https://docs.gitlab.com/user/project/integrations/
-      status: profiled
-      tags:
-      - Chat
-      - Collaboration
-      - Google
-      - Google Workspace
-      tier: declared
-      url: /providers/google-chat/
-    - agent_band: agent-aware
-      agent_readiness: 25.7
+      agent_readiness: 25.2
       apps:
       - GitLab
       band: thin
       in_catalog: true
-      kin_score: 37.2
+      kin_score: 37.0
       mcp:
         source: https://github.com/mattermost/mmctl-mcp
         status: verified
@@ -4753,7 +4753,7 @@ stack:
       - GitLab
       band: emerging
       in_catalog: true
-      kin_score: 15.7
+      kin_score: 23.1
       mcp:
         source: https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/
         status: verified
@@ -4772,7 +4772,7 @@ stack:
       - GitLab
       band: minimal
       in_catalog: true
-      kin_score: 4.5
+      kin_score: 4.4
       mcp:
         status: unknown
       name: Campfire (37signals)
@@ -4813,13 +4813,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 48.6
       apps:
       - CircleCI
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -4842,7 +4842,7 @@ stack:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -4858,35 +4858,35 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - GitHub
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id015
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase (Crashlytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.github.android/latest/
       status: profiled
       tags: &id016
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - CircleCI
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -4902,34 +4902,13 @@ stack:
       - DevOps
       tier: declared
       url: /providers/new-relic/
-    - agent_band: agent-aware
-      agent_readiness: 26.4
-      apps:
-      - CircleCI
-      band: strong
-      in_catalog: true
-      kin_score: 64.5
-      mcp:
-        status: none
-      name: Logz.io
-      slug: logz-io
-      sources:
-      - https://circleci.com/integrations/
-      status: profiled
-      tags:
-      - Logging
-      - Metrics
-      - Observability
-      - Tracing
-      tier: declared
-      url: /providers/logz-io/
     - agent_band: agent-ready
-      agent_readiness: 54.3
+      agent_readiness: 55.5
       apps:
       - CircleCI
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 59.9
+      kin_score: 71.6
       mcp:
         source: https://docs.honeycomb.io/integrations/mcp/
         status: verified
@@ -4946,12 +4925,12 @@ stack:
       tier: declared
       url: /providers/honeycomb/
     - agent_band: agent-ready
-      agent_readiness: 39.0
+      agent_readiness: 43.6
       apps:
       - CircleCI
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 66.8
       mcp:
         source: https://coralogix.com/docs/user-guides/mcp-server/overview/
         status: verified
@@ -4967,13 +4946,34 @@ stack:
       - Observability
       tier: declared
       url: /providers/coralogix/
+    - agent_band: agent-aware
+      agent_readiness: 25.9
+      apps:
+      - CircleCI
+      band: strong
+      in_catalog: true
+      kin_score: 63.3
+      mcp:
+        status: none
+      name: Logz.io
+      slug: logz-io
+      sources:
+      - https://circleci.com/integrations/
+      status: profiled
+      tags:
+      - Logging
+      - Metrics
+      - Observability
+      - Tracing
+      tier: declared
+      url: /providers/logz-io/
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 30.2
       apps:
       - CircleCI
       band: developing
       in_catalog: true
-      kin_score: 49.4
+      kin_score: 48.1
       mcp:
         source: https://github.com/rollbar/rollbar-mcp-server
         status: verified
@@ -4995,7 +4995,7 @@ stack:
       - CircleCI
       band: developing
       in_catalog: true
-      kin_score: 44.0
+      kin_score: 43.4
       mcp:
         source: https://github.com/mezmo/mezmo-mcp
         status: verified
@@ -5012,12 +5012,12 @@ stack:
       tier: declared
       url: /providers/mezmo/
     - agent_band: agent-ready
-      agent_readiness: 44.4
+      agent_readiness: 43.4
       apps:
       - CircleCI
       band: thin
       in_catalog: true
-      kin_score: 34.4
+      kin_score: 33.4
       mcp:
         source: https://github.com/honeybadger-io/honeybadger-mcp-server
         status: verified
@@ -5063,12 +5063,28 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 34.8
       apps:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 76.6
+      mcp: *id011
+      name: fog-aws / aws-sdk-s3
+      slug: amazon-s3
+      sources:
+      - https://gitlab.com/gitlab-org/gitlab/-/raw/master/Gemfile
+      status: profiled
+      tags: *id012
+      tier: observed
+      url: /providers/amazon-s3/
+    - agent_band: agent-ready
+      agent_readiness: 45.1
+      apps:
+      - GitLab
+      band: exemplar
+      in_catalog: true
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -5084,29 +5100,13 @@ stack:
       - Cloud Storage
       tier: observed
       url: /providers/gcp-cloud-storage/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
-      apps:
-      - GitLab
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.2
-      mcp: *id011
-      name: fog-aws / aws-sdk-s3
-      slug: amazon-s3
-      sources:
-      - https://gitlab.com/gitlab-org/gitlab/-/raw/master/Gemfile
-      status: profiled
-      tags: *id012
-      tier: observed
-      url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - GitLab
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -5128,7 +5128,7 @@ stack:
       - GitLab
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp: *id013
       name: fog-aliyun
       slug: alibabacloud
@@ -5146,13 +5146,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 38.5
+    - agent_band: agent-native
+      agent_readiness: 40.5
       apps:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 69.1
+      kin_score: 76.3
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5169,12 +5169,12 @@ stack:
       tier: observed
       url: /providers/amazon-cloudformation/
     - agent_band: agent-ready
-      agent_readiness: 50.7
+      agent_readiness: 50.2
       apps:
       - GitLab
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.8
+      kin_score: 67.5
       mcp:
         source: https://github.com/googleapis/mcp-toolbox
         status: verified
@@ -5190,13 +5190,13 @@ stack:
       - Platform-as-a-Service
       tier: observed
       url: /providers/google-cloud-platform/
-    - agent_band: agent-aware
-      agent_readiness: 26.3
+    - agent_band: agent-ready
+      agent_readiness: 39.4
       apps:
       - GitLab
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 39.3
+      kin_score: 60.3
       mcp:
         source: https://github.com/GoogleCloudPlatform/gke-mcp
         status: verified
@@ -5220,13 +5220,13 @@ stack:
       url: /capabilities/identity-access-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 36.2
       apps:
       - GitLab
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.5
+      kin_score: 65.9
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -5243,12 +5243,12 @@ stack:
       tier: observed
       url: /providers/google-cloud-iam/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - GitLab
       band: thin
       in_catalog: true
-      kin_score: 31.8
+      kin_score: 34.7
       mcp:
         status: none
       name: duo_api
@@ -5264,12 +5264,12 @@ stack:
       tier: observed
       url: /providers/duo-security/
     - agent_band: agent-ready
-      agent_readiness: 34.5
+      agent_readiness: 33.8
       apps:
       - GitLab
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 54.6
+      kin_score: 52.9
       mcp:
         source: https://github.com/gobeyondidentity/bi-mcp
         status: verified
@@ -5294,12 +5294,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 27.1
+      agent_readiness: 26.5
       apps:
       - CircleCI
       band: developing
       in_catalog: true
-      kin_score: 48.9
+      kin_score: 48.6
       mcp:
         status: none
       name: OpsGenie
@@ -5315,12 +5315,12 @@ stack:
       tier: declared
       url: /providers/opsgenie/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - CircleCI
       band: thin
       in_catalog: true
-      kin_score: 28.1
+      kin_score: 26.6
       mcp:
         status: none
       name: Squadcast
@@ -5336,12 +5336,12 @@ stack:
       tier: declared
       url: /providers/squadcast/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - CircleCI
       band: emerging
       in_catalog: true
-      kin_score: 24.3
+      kin_score: 22.5
       mcp:
         status: none
       name: xMatters
@@ -5364,13 +5364,13 @@ stack:
       url: /capabilities/bot-protection-captcha/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - GitLab
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: recaptcha
@@ -5410,29 +5410,29 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - GitHub
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id015
       name: Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.github.android/latest/
       status: profiled
       tags: *id016
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 20.1
       apps:
       - GitLab
       band: developing
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 42.3
       mcp:
         source: https://github.com/snowplow/snowplow-cli
         status: verified
@@ -5457,13 +5457,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.0
+      agent_readiness: 21.6
       apps:
       - Coolify
       - GitLab
       band: thin
       in_catalog: true
-      kin_score: 29.2
+      kin_score: 28.1
       mcp:
         status: none
       name: Pushover
@@ -5488,12 +5488,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: aws-actionmailer-ses
@@ -5509,12 +5509,12 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - Coolify
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -5539,12 +5539,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.9
+      agent_readiness: 55.8
       apps:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 77.7
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -5569,12 +5569,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - Coolify
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp:
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -5599,12 +5599,12 @@ stack:
       via_parent: Voice & Telephony
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 40.0
       apps:
       - GitLab
       band: exemplar
       in_catalog: true
-      kin_score: 76.9
+      kin_score: 77.6
       mcp:
         status: none
       name: telesignenterprise
@@ -5628,12 +5628,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Coolify
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -5657,13 +5657,13 @@ stack:
       url: /capabilities/release-engineering-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 37.7
       apps:
       - GitLab
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 38.4
+      kin_score: 65.4
       mcp: *id017
       name: google-cloud-artifact_registry-v1
       slug: google-artifact-registry
@@ -5682,12 +5682,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - CircleCI
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -5711,13 +5711,13 @@ stack:
       url: /capabilities/software-marketplace-listing-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - GitLab
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: google-apis-androidpublisher_v3
@@ -5743,12 +5743,12 @@ stack:
       via_parent: Generative Media
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - GitHub
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -5765,12 +5765,12 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - GitHub
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -5787,12 +5787,12 @@ stack:
       tier: declared
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - GitHub
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google Gemini (in Copilot)
@@ -5808,12 +5808,12 @@ stack:
       tier: declared
       url: /providers/google-gemini/
     - agent_band: agent-ready
-      agent_readiness: 38.8
+      agent_readiness: 39.4
       apps:
       - GitHub
       band: thin
       in_catalog: true
-      kin_score: 32.8
+      kin_score: 32.3
       mcp:
         status: none
       name: xAI Grok (in Copilot)
@@ -5840,7 +5840,7 @@ summary:
     unchecked: 17
     verified: 69
   mcp_verified: 69
-  mean_kin_score: 50.4
+  mean_kin_score: 53.3
   observed: 55
   queued: 17
   reference_apps: 6

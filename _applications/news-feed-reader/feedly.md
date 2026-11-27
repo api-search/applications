@@ -77,10 +77,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.1
-    band: exemplar
+    agent_readiness: 43.2
+    band: strong
     in_catalog: true
-    kin_score: 67.1
+    kin_score: 65.9
     mcp: &id001
       status: none
     slug: buffer
@@ -106,11 +106,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.6
+    agent_band: agent-aware
+    agent_readiness: 28.0
     band: developing
     in_catalog: true
-    kin_score: 51.2
+    kin_score: 53.0
     mcp: &id003
       source: https://dev.evernote.com/
       status: documented
@@ -138,10 +138,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.3
+    agent_readiness: 42.4
     band: emerging
     in_catalog: true
-    kin_score: 25.0
+    kin_score: 24.1
     mcp: &id005
       source: https://github.com/IFTTT/ifttt-plugins
       status: verified
@@ -169,10 +169,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id007
       status: none
     slug: microsoft-teams
@@ -198,11 +198,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.1
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 30.7
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 57.0
     mcp: &id009
       status: none
     slug: microsoft-onenote
@@ -232,7 +232,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.2
+    kin_score: 3.3
     mcp: &id011
       status: none
     slug: pocket
@@ -258,10 +258,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id013
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -289,10 +289,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id015
       source: https://zapier.com/mcp
       status: verified
@@ -318,21 +318,21 @@ noindex: false
 permalink: /applications/news-feed-reader/feedly/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 44.1
-  band: exemplar
+  agent_readiness: 43.2
+  band: strong
   in_catalog: true
-  kin_score: 67.1
+  kin_score: 65.9
   mcp: *id001
   name: Buffer
   slug: buffer
   status: profiled
   tags: *id002
   url: /providers/buffer/
-- agent_band: agent-ready
-  agent_readiness: 28.6
+- agent_band: agent-aware
+  agent_readiness: 28.0
   band: developing
   in_catalog: true
-  kin_score: 51.2
+  kin_score: 53.0
   mcp: *id003
   name: Evernote
   slug: evernote
@@ -340,10 +340,10 @@ providers:
   tags: *id004
   url: /providers/evernote/
 - agent_band: agent-ready
-  agent_readiness: 43.3
+  agent_readiness: 42.4
   band: emerging
   in_catalog: true
-  kin_score: 25.0
+  kin_score: 24.1
   mcp: *id005
   name: IFTTT
   slug: ifttt
@@ -351,21 +351,21 @@ providers:
   tags: *id006
   url: /providers/ifttt/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 65.1
   mcp: *id007
   name: Microsoft Teams
   slug: microsoft-teams
   status: profiled
   tags: *id008
   url: /providers/microsoft-teams/
-- agent_band: agent-aware
-  agent_readiness: 27.1
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 30.7
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 57.0
   mcp: *id009
   name: OneNote
   slug: microsoft-onenote
@@ -376,7 +376,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.2
+  kin_score: 3.3
   mcp: *id011
   name: Pocket
   slug: pocket
@@ -384,10 +384,10 @@ providers:
   tags: *id012
   url: /providers/pocket/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id013
   name: Slack
   slug: slack
@@ -395,10 +395,10 @@ providers:
   tags: *id014
   url: /providers/slack/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id015
   name: Zapier
   slug: zapier

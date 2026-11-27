@@ -99,10 +99,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id001
       status: none
     slug: facebook
@@ -129,10 +129,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id003
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -159,11 +159,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id005
       status: none
     slug: google-identity-platform
@@ -193,7 +193,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.5
+    kin_score: 9.5
     mcp: &id007
       status: none
     slug: kanidm
@@ -220,7 +220,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
+    agent_readiness: 17.3
     band: thin
     in_catalog: true
     kin_score: 35.3
@@ -250,10 +250,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.6
+    agent_readiness: 44.9
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 68.9
     mcp: &id011
       source: https://github.com/laravel/mcp
       status: verified
@@ -281,10 +281,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.4
+    agent_readiness: 46.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.4
+    kin_score: 77.8
     mcp: &id013
       status: none
     slug: linkedin
@@ -314,7 +314,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 4.8
     mcp: &id015
       status: none
     slug: locationiq
@@ -340,10 +340,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 45.2
     band: developing
     in_catalog: true
-    kin_score: 49.3
+    kin_score: 50.7
     mcp: &id017
       source: https://github.com/mapbox/mcp-server
       status: verified
@@ -374,7 +374,7 @@ integrations:
     agent_readiness: 24.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 52.5
     mcp: &id019
       source: https://github.com/meilisearch/meilisearch-mcp
       status: verified
@@ -402,10 +402,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id021
       status: none
     slug: microsoft-entra
@@ -435,7 +435,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id023
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -463,10 +463,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id025
       status: none
     slug: telegram
@@ -493,10 +493,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.9
-    band: developing
+    agent_readiness: 47.3
+    band: thin
     in_catalog: true
-    kin_score: 39.5
+    kin_score: 39.2
     mcp: &id027
       source: https://typesense.org/docs/guide/typesense-cloud/mcp-server.html
       status: verified
@@ -524,10 +524,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.7
+    agent_readiness: 39.7
     band: thin
     in_catalog: true
-    kin_score: 37.1
+    kin_score: 36.7
     mcp: &id029
       status: none
     slug: uploadcare
@@ -552,10 +552,10 @@ noindex: false
 permalink: /applications/calendar-contacts/monica/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id001
   name: Facebook
   slug: facebook
@@ -563,21 +563,21 @@ providers:
   tags: *id002
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id003
   name: GitHub
   slug: github
   status: profiled
   tags: *id004
   url: /providers/github/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id005
   name: Google sign-in
   slug: google-identity-platform
@@ -588,7 +588,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.5
+  kin_score: 9.5
   mcp: *id007
   name: Kanidm
   slug: kanidm
@@ -596,7 +596,7 @@ providers:
   tags: *id008
   url: /providers/kanidm/
 - agent_band: agent-aware
-  agent_readiness: 17.6
+  agent_readiness: 17.3
   band: thin
   in_catalog: true
   kin_score: 35.3
@@ -607,10 +607,10 @@ providers:
   tags: *id010
   url: /providers/keycloak/
 - agent_band: agent-ready
-  agent_readiness: 39.6
+  agent_readiness: 44.9
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 68.9
   mcp: *id011
   name: Laravel Nightwatch
   slug: laravel
@@ -618,10 +618,10 @@ providers:
   tags: *id012
   url: /providers/laravel/
 - agent_band: agent-ready
-  agent_readiness: 47.4
+  agent_readiness: 46.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.4
+  kin_score: 77.8
   mcp: *id013
   name: LinkedIn
   slug: linkedin
@@ -632,7 +632,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 4.8
   mcp: *id015
   name: LocationIQ
   slug: locationiq
@@ -640,10 +640,10 @@ providers:
   tags: *id016
   url: /providers/locationiq/
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 45.2
   band: developing
   in_catalog: true
-  kin_score: 49.3
+  kin_score: 50.7
   mcp: *id017
   name: Mapbox
   slug: mapbox
@@ -654,7 +654,7 @@ providers:
   agent_readiness: 24.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 52.5
   mcp: *id019
   name: Meilisearch
   slug: meilisearch
@@ -662,10 +662,10 @@ providers:
   tags: *id020
   url: /providers/meilisearch/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id021
   name: Microsoft (Azure)
   slug: microsoft-entra
@@ -676,7 +676,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id023
   name: Sentry
   slug: sentry-system
@@ -684,10 +684,10 @@ providers:
   tags: *id024
   url: /providers/sentry-system/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id025
   name: Telegram
   slug: telegram
@@ -695,10 +695,10 @@ providers:
   tags: *id026
   url: /providers/telegram/
 - agent_band: agent-ready
-  agent_readiness: 47.9
-  band: developing
+  agent_readiness: 47.3
+  band: thin
   in_catalog: true
-  kin_score: 39.5
+  kin_score: 39.2
   mcp: *id027
   name: Typesense
   slug: typesense
@@ -706,10 +706,10 @@ providers:
   tags: *id028
   url: /providers/typesense/
 - agent_band: agent-ready
-  agent_readiness: 33.7
+  agent_readiness: 39.7
   band: thin
   in_catalog: true
-  kin_score: 37.1
+  kin_score: 36.7
   mcp: *id029
   name: Uploadcare
   slug: uploadcare

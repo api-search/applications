@@ -110,10 +110,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.0
+    agent_readiness: 17.6
     band: emerging
     in_catalog: true
-    kin_score: 25.6
+    kin_score: 24.8
     mcp: &id001
       source: https://github.com/alipay/global-alipayplus-mcp
       status: verified
@@ -141,10 +141,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.7
+    agent_readiness: 24.3
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 33.0
     mcp: &id003
       status: none
     slug: deliveroo
@@ -171,10 +171,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.4
-    band: strong
+    agent_readiness: 30.3
+    band: exemplar
     in_catalog: true
-    kin_score: 66.2
+    kin_score: 67.1
     mcp: &id005
       status: none
     slug: deputy
@@ -201,10 +201,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.5
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 77.8
+    kin_score: 76.3
     mcp: &id007
       status: none
     slug: doordash
@@ -232,9 +232,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 7.0
+    kin_score: 11.3
     mcp: &id009
       status: unknown
     slug: epson
@@ -261,10 +261,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 9.3
-    band: thin
+    agent_readiness: 9.1
+    band: developing
     in_catalog: true
-    kin_score: 38.7
+    kin_score: 47.5
     mcp: &id011
       status: unknown
     slug: marsello
@@ -294,7 +294,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 15.9
+    kin_score: 22.3
     mcp: &id013
       status: unknown
     slug: meandu
@@ -324,7 +324,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 6.8
     mcp: &id015
       status: none
     slug: mr-yum
@@ -351,10 +351,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.4
+    agent_readiness: 15.1
     band: emerging
     in_catalog: true
-    kin_score: 23.3
+    kin_score: 22.5
     mcp: &id017
       status: none
     slug: myob
@@ -380,11 +380,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id019
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -412,10 +412,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 30.6
     band: developing
     in_catalog: true
-    kin_score: 41.8
+    kin_score: 41.7
     mcp: &id021
       status: none
     slug: sage
@@ -445,7 +445,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.9
+    kin_score: 16.9
     mcp: &id023
       status: none
     slug: tanda
@@ -472,10 +472,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.8
+    agent_readiness: 31.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 45.5
     mcp: &id025
       status: none
     slug: uber-eats
@@ -502,10 +502,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.2
+    agent_readiness: 23.6
     band: developing
     in_catalog: true
-    kin_score: 50.5
+    kin_score: 45.1
     mcp: &id027
       status: none
     slug: wechat
@@ -532,10 +532,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.2
+    agent_readiness: 31.5
     band: strong
     in_catalog: true
-    kin_score: 59.6
+    kin_score: 64.2
     mcp: &id029
       status: none
     slug: westpac
@@ -562,10 +562,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.3
+    agent_readiness: 60.0
     band: exemplar
     in_catalog: true
-    kin_score: 82.4
+    kin_score: 87.1
     mcp: &id031
       source: https://github.com/XeroAPI/xero-mcp-server
       status: verified
@@ -591,10 +591,10 @@ noindex: false
 permalink: /applications/point-of-sale/lightspeed-restaurant/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 18.0
+  agent_readiness: 17.6
   band: emerging
   in_catalog: true
-  kin_score: 25.6
+  kin_score: 24.8
   mcp: *id001
   name: Alipay (Ant Group)
   slug: ant-group
@@ -602,10 +602,10 @@ providers:
   tags: *id002
   url: /providers/ant-group/
 - agent_band: agent-aware
-  agent_readiness: 24.7
+  agent_readiness: 24.3
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 33.0
   mcp: *id003
   name: Deliveroo
   slug: deliveroo
@@ -613,10 +613,10 @@ providers:
   tags: *id004
   url: /providers/deliveroo/
 - agent_band: agent-ready
-  agent_readiness: 34.4
-  band: strong
+  agent_readiness: 30.3
+  band: exemplar
   in_catalog: true
-  kin_score: 66.2
+  kin_score: 67.1
   mcp: *id005
   name: Deputy
   slug: deputy
@@ -624,10 +624,10 @@ providers:
   tags: *id006
   url: /providers/deputy/
 - agent_band: agent-ready
-  agent_readiness: 35.5
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 77.8
+  kin_score: 76.3
   mcp: *id007
   name: DoorDash
   slug: doordash
@@ -636,9 +636,9 @@ providers:
   url: /providers/doordash/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 7.0
+  kin_score: 11.3
   mcp: *id009
   name: Epson (receipt/kitchen printers)
   slug: epson
@@ -646,10 +646,10 @@ providers:
   tags: *id010
   url: /providers/epson/
 - agent_band: agent-aware
-  agent_readiness: 9.3
-  band: thin
+  agent_readiness: 9.1
+  band: developing
   in_catalog: true
-  kin_score: 38.7
+  kin_score: 47.5
   mcp: *id011
   name: Marsello
   slug: marsello
@@ -660,7 +660,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 15.9
+  kin_score: 22.3
   mcp: *id013
   name: me&u
   slug: meandu
@@ -671,7 +671,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 6.8
   mcp: *id015
   name: Mr Yum
   slug: mr-yum
@@ -679,21 +679,21 @@ providers:
   tags: *id016
   url: /providers/mr-yum/
 - agent_band: agent-aware
-  agent_readiness: 15.4
+  agent_readiness: 15.1
   band: emerging
   in_catalog: true
-  kin_score: 23.3
+  kin_score: 22.5
   mcp: *id017
   name: MYOB
   slug: myob
   status: profiled
   tags: *id018
   url: /providers/myob/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id019
   name: QuickBooks
   slug: quickbooks
@@ -701,10 +701,10 @@ providers:
   tags: *id020
   url: /providers/quickbooks/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 30.6
   band: developing
   in_catalog: true
-  kin_score: 41.8
+  kin_score: 41.7
   mcp: *id021
   name: Sage
   slug: sage
@@ -715,7 +715,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.9
+  kin_score: 16.9
   mcp: *id023
   name: Tanda
   slug: tanda
@@ -723,10 +723,10 @@ providers:
   tags: *id024
   url: /providers/tanda/
 - agent_band: agent-ready
-  agent_readiness: 31.8
+  agent_readiness: 31.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 45.5
   mcp: *id025
   name: Uber Eats
   slug: uber-eats
@@ -734,10 +734,10 @@ providers:
   tags: *id026
   url: /providers/uber-eats/
 - agent_band: agent-aware
-  agent_readiness: 24.2
+  agent_readiness: 23.6
   band: developing
   in_catalog: true
-  kin_score: 50.5
+  kin_score: 45.1
   mcp: *id027
   name: WeChat Pay
   slug: wechat
@@ -745,10 +745,10 @@ providers:
   tags: *id028
   url: /providers/wechat/
 - agent_band: agent-ready
-  agent_readiness: 31.2
+  agent_readiness: 31.5
   band: strong
   in_catalog: true
-  kin_score: 59.6
+  kin_score: 64.2
   mcp: *id029
   name: Westpac Presto Smart
   slug: westpac
@@ -756,10 +756,10 @@ providers:
   tags: *id030
   url: /providers/westpac/
 - agent_band: agent-native
-  agent_readiness: 61.3
+  agent_readiness: 60.0
   band: exemplar
   in_catalog: true
-  kin_score: 82.4
+  kin_score: 87.1
   mcp: *id031
   name: Xero
   slug: xero

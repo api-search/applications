@@ -37,10 +37,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 31.5
     mcp: &id001
       status: none
     slug: maxmind
@@ -65,10 +65,10 @@ noindex: false
 permalink: /applications/podcasts-audiobooks/castopod/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 31.5
   mcp: *id001
   name: MaxMind GeoIP2
   slug: maxmind

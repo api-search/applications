@@ -53,10 +53,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.6
+    agent_readiness: 13.3
     band: emerging
     in_catalog: true
-    kin_score: 17.9
+    kin_score: 17.1
     mcp: &id001
       status: none
     slug: acumatica
@@ -83,10 +83,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.4
+    agent_readiness: 28.2
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 37.7
     mcp: &id003
       status: unknown
     slug: cmic
@@ -113,10 +113,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.0
+    agent_readiness: 14.8
     band: emerging
     in_catalog: true
-    kin_score: 15.1
+    kin_score: 20.5
     mcp: &id005
       source: https://learning.deltek.com/bundle/MCP_Server_Setup_Guide_for_REST_APIs/page/overview.html
       status: documented
@@ -144,10 +144,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 13.0
+    kin_score: 19.9
     mcp: &id007
       status: unknown
     slug: foundation-software
@@ -177,7 +177,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.5
+    kin_score: 11.4
     mcp: &id009
       status: none
     slug: netsuite
@@ -204,10 +204,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 59.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.6
+    kin_score: 70.4
     mcp: &id011
       source: https://github.com/oracle/mcp
       status: verified
@@ -235,10 +235,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.3
-    band: strong
+    agent_readiness: 36.1
+    band: exemplar
     in_catalog: true
-    kin_score: 62.2
+    kin_score: 68.5
     mcp: &id013
       status: none
     slug: procore
@@ -264,11 +264,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id015
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -296,10 +296,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 30.6
     band: developing
     in_catalog: true
-    kin_score: 41.8
+    kin_score: 41.7
     mcp: &id017
       status: none
     slug: sage
@@ -326,10 +326,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.5
+    agent_readiness: 15.1
     band: thin
     in_catalog: true
-    kin_score: 26.3
+    kin_score: 26.5
     mcp: &id019
       status: none
     slug: sage-intacct
@@ -355,11 +355,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.0
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 35.3
+    band: exemplar
     in_catalog: true
-    kin_score: 41.1
+    kin_score: 66.6
     mcp: &id021
       status: none
     slug: trimble
@@ -384,10 +384,10 @@ noindex: false
 permalink: /applications/construction-management/siteline/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 13.6
+  agent_readiness: 13.3
   band: emerging
   in_catalog: true
-  kin_score: 17.9
+  kin_score: 17.1
   mcp: *id001
   name: Acumatica
   slug: acumatica
@@ -395,10 +395,10 @@ providers:
   tags: *id002
   url: /providers/acumatica/
 - agent_band: agent-aware
-  agent_readiness: 23.4
+  agent_readiness: 28.2
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 37.7
   mcp: *id003
   name: CMiC
   slug: cmic
@@ -406,10 +406,10 @@ providers:
   tags: *id004
   url: /providers/cmic/
 - agent_band: agent-aware
-  agent_readiness: 18.0
+  agent_readiness: 14.8
   band: emerging
   in_catalog: true
-  kin_score: 15.1
+  kin_score: 20.5
   mcp: *id005
   name: Deltek ComputerEase
   slug: deltek
@@ -417,10 +417,10 @@ providers:
   tags: *id006
   url: /providers/deltek/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 13.0
+  kin_score: 19.9
   mcp: *id007
   name: Foundation Software
   slug: foundation-software
@@ -431,7 +431,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.5
+  kin_score: 11.4
   mcp: *id009
   name: Oracle NetSuite
   slug: netsuite
@@ -439,10 +439,10 @@ providers:
   tags: *id010
   url: /providers/netsuite/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 59.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.6
+  kin_score: 70.4
   mcp: *id011
   name: Oracle Textura
   slug: oracle
@@ -450,21 +450,21 @@ providers:
   tags: *id012
   url: /providers/oracle/
 - agent_band: agent-ready
-  agent_readiness: 41.3
-  band: strong
+  agent_readiness: 36.1
+  band: exemplar
   in_catalog: true
-  kin_score: 62.2
+  kin_score: 68.5
   mcp: *id013
   name: Procore Pay
   slug: procore
   status: profiled
   tags: *id014
   url: /providers/procore/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id015
   name: QuickBooks Enterprise Contractor / Online
   slug: quickbooks
@@ -472,10 +472,10 @@ providers:
   tags: *id016
   url: /providers/quickbooks/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 30.6
   band: developing
   in_catalog: true
-  kin_score: 41.8
+  kin_score: 41.7
   mcp: *id017
   name: Sage 300 CRE / Sage 100 Contractor
   slug: sage
@@ -483,21 +483,21 @@ providers:
   tags: *id018
   url: /providers/sage/
 - agent_band: agent-aware
-  agent_readiness: 15.5
+  agent_readiness: 15.1
   band: thin
   in_catalog: true
-  kin_score: 26.3
+  kin_score: 26.5
   mcp: *id019
   name: Sage Intacct
   slug: sage-intacct
   status: profiled
   tags: *id020
   url: /providers/sage-intacct/
-- agent_band: agent-aware
-  agent_readiness: 23.0
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 35.3
+  band: exemplar
   in_catalog: true
-  kin_score: 41.1
+  kin_score: 66.6
   mcp: *id021
   name: Viewpoint Vista / Viewpoint Spectrum
   slug: trimble

@@ -95,11 +95,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: strong
     in_catalog: true
-    kin_score: 48.1
+    kin_score: 65.1
     mcp: &id001
       status: none
     slug: google-recaptcha
@@ -126,10 +126,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id003
       status: none
     slug: facebook
@@ -156,10 +156,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 65.7
+    agent_readiness: 64.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.6
+    kin_score: 82.4
     mcp: &id005
       source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
       status: verified
@@ -187,10 +187,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id007
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -217,11 +217,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 65.2
+    agent_band: agent-native
+    agent_readiness: 70.3
     band: developing
     in_catalog: true
-    kin_score: 48.6
+    kin_score: 50.0
     mcp: &id009
       source: https://github.com/messagebird/bird-ai
       status: verified
@@ -249,10 +249,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id011
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -280,10 +280,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id013
       status: none
     slug: microsoft-entra
@@ -309,11 +309,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id015
       status: none
     slug: google-identity-platform
@@ -340,10 +340,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id017
       status: none
     slug: telegram
@@ -370,10 +370,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id019
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -401,10 +401,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.0
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 72.3
     mcp: &id021
       status: none
     slug: whatsapp
@@ -431,10 +431,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.4
-    band: developing
+    agent_readiness: 34.7
+    band: strong
     in_catalog: true
-    kin_score: 50.4
+    kin_score: 54.6
     mcp: &id023
       source: https://developer.woocommerce.com/docs/features/mcp/
       status: verified
@@ -459,11 +459,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/helpdesk-ticketing/freescout/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: strong
   in_catalog: true
-  kin_score: 48.1
+  kin_score: 65.1
   mcp: *id001
   name: Extra Security Module (reCAPTCHA)
   slug: google-recaptcha
@@ -471,10 +471,10 @@ providers:
   tags: *id002
   url: /providers/google-recaptcha/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id003
   name: Facebook Integration Module
   slug: facebook
@@ -482,10 +482,10 @@ providers:
   tags: *id004
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 65.7
+  agent_readiness: 64.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.6
+  kin_score: 82.4
   mcp: *id005
   name: Jira Integration Module
   slug: jira
@@ -493,21 +493,21 @@ providers:
   tags: *id006
   url: /providers/jira/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id007
   name: Slack Integration Module
   slug: slack
   status: profiled
   tags: *id008
   url: /providers/slack/
-- agent_band: agent-ready
-  agent_readiness: 65.2
+- agent_band: agent-native
+  agent_readiness: 70.3
   band: developing
   in_catalog: true
-  kin_score: 48.6
+  kin_score: 50.0
   mcp: *id009
   name: SMS notifications via MessageBird
   slug: bird
@@ -515,10 +515,10 @@ providers:
   tags: *id010
   url: /providers/bird/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id011
   name: SMS Tickets Module (Twilio)
   slug: twilio
@@ -526,21 +526,21 @@ providers:
   tags: *id012
   url: /providers/twilio/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id013
   name: Social Login Module (Azure)
   slug: microsoft-entra
   status: profiled
   tags: *id014
   url: /providers/microsoft-entra/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id015
   name: Social Login Module (Google)
   slug: google-identity-platform
@@ -548,10 +548,10 @@ providers:
   tags: *id016
   url: /providers/google-identity-platform/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id017
   name: Telegram Integration Module
   slug: telegram
@@ -559,10 +559,10 @@ providers:
   tags: *id018
   url: /providers/telegram/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id019
   name: Twitter Integration Module
   slug: x
@@ -570,10 +570,10 @@ providers:
   tags: *id020
   url: /providers/x/
 - agent_band: agent-ready
-  agent_readiness: 48.0
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 72.3
   mcp: *id021
   name: WhatsApp Integration Module
   slug: whatsapp
@@ -581,10 +581,10 @@ providers:
   tags: *id022
   url: /providers/whatsapp/
 - agent_band: agent-ready
-  agent_readiness: 35.4
-  band: developing
+  agent_readiness: 34.7
+  band: strong
   in_catalog: true
-  kin_score: 50.4
+  kin_score: 54.6
   mcp: *id023
   name: WooCommerce Integration Module
   slug: woocommerce

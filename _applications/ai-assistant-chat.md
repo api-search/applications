@@ -2721,7 +2721,7 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - AnythingLLM
       - LibreChat
@@ -2729,7 +2729,7 @@ stack:
       - Open WebUI
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -2748,7 +2748,7 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - AnythingLLM
       - LibreChat
@@ -2756,7 +2756,7 @@ stack:
       - Open WebUI
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -2775,7 +2775,7 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-native
-      agent_readiness: 67.7
+      agent_readiness: 66.6
       apps:
       - AnythingLLM
       - LibreChat
@@ -2800,40 +2800,15 @@ stack:
       - Search
       tier: observed
       url: /providers/perplexity/
-    - agent_band: agent-ready
-      agent_readiness: 31.3
+    - agent_band: agent-native
+      agent_readiness: 48.3
       apps:
       - AnythingLLM
       - LibreChat
       - LobeChat
       band: strong
       in_catalog: true
-      kin_score: 55.1
-      mcp:
-        status: none
-      name: Google Gemini
-      slug: google-gemini
-      sources:
-      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
-      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/api/package.json
-      - https://raw.githubusercontent.com/lobehub/lobe-chat/main/package.json
-      status: profiled
-      tags:
-      - AI Agents
-      - Artificial Intelligence
-      - Code Generation
-      - Embeddings
-      tier: observed
-      url: /providers/google-gemini/
-    - agent_band: agent-ready
-      agent_readiness: 35.8
-      apps:
-      - AnythingLLM
-      - LibreChat
-      - LobeChat
-      band: developing
-      in_catalog: true
-      kin_score: 51.4
+      kin_score: 64.3
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2851,15 +2826,15 @@ stack:
       - Generative AI
       tier: observed
       url: /providers/amazon-bedrock/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 42.2
       apps:
       - AnythingLLM
       - LibreChat
       - LobeChat
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.4
+      kin_score: 63.2
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -2878,14 +2853,39 @@ stack:
       tier: observed
       url: /providers/google-vertex-ai/
     - agent_band: agent-ready
-      agent_readiness: 28.8
+      agent_readiness: 35.0
+      apps:
+      - AnythingLLM
+      - LibreChat
+      - LobeChat
+      band: strong
+      in_catalog: true
+      kin_score: 61.7
+      mcp:
+        status: none
+      name: Google Gemini
+      slug: google-gemini
+      sources:
+      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
+      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/api/package.json
+      - https://raw.githubusercontent.com/lobehub/lobe-chat/main/package.json
+      status: profiled
+      tags:
+      - AI Agents
+      - Artificial Intelligence
+      - Code Generation
+      - Embeddings
+      tier: observed
+      url: /providers/google-gemini/
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - AnythingLLM
       - LibreChat
       - LobeChat
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: Mistral AI
@@ -2903,14 +2903,14 @@ stack:
       tier: observed
       url: /providers/mistral/
     - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 22.4
       apps:
       - AnythingLLM
       - LibreChat
       - LobeChat
       band: developing
       in_catalog: true
-      kin_score: 43.3
+      kin_score: 41.2
       mcp:
         status: none
       name: DeepSeek
@@ -2928,14 +2928,14 @@ stack:
       tier: observed
       url: /providers/deepseek/
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 39.0
       apps:
       - AnythingLLM
       - LibreChat
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 35.4
       mcp:
         source: https://docs.fireworks.ai/ecosystem/integrations/development-setup
         status: verified
@@ -2954,14 +2954,14 @@ stack:
       tier: observed
       url: /providers/fireworks-ai/
     - agent_band: agent-ready
-      agent_readiness: 41.4
+      agent_readiness: 40.6
       apps:
       - AnythingLLM
       - LibreChat
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.2
       mcp:
         status: none
       name: Cohere
@@ -2979,14 +2979,14 @@ stack:
       tier: observed
       url: /providers/cohere/
     - agent_band: agent-ready
-      agent_readiness: 40.4
+      agent_readiness: 40.0
       apps:
       - AnythingLLM
       - LibreChat
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 34.6
+      kin_score: 34.4
       mcp:
         source: https://docs.together.ai/docs/mcp
         status: verified
@@ -3005,14 +3005,14 @@ stack:
       tier: observed
       url: /providers/together-ai/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 21.2
       apps:
       - AnythingLLM
       - LibreChat
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 32.3
       mcp:
         source: https://github.com/groq/groq-mcp-server
         status: verified
@@ -3031,14 +3031,14 @@ stack:
       tier: observed
       url: /providers/groq/
     - agent_band: agent-ready
-      agent_readiness: 38.8
+      agent_readiness: 39.4
       apps:
       - AnythingLLM
       - LibreChat
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 32.8
+      kin_score: 32.3
       mcp:
         status: none
       name: xAI
@@ -3056,13 +3056,13 @@ stack:
       tier: observed
       url: /providers/xai/
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - LibreChat
       - LobeChat
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 69.1
       mcp:
         source: https://github.com/huggingface/hf-mcp-server
         status: verified
@@ -3080,13 +3080,59 @@ stack:
       tier: observed
       url: /providers/hugging-face/
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 36.1
       apps:
       - AnythingLLM
       - LobeChat
       band: strong
       in_catalog: true
-      kin_score: 64.3
+      kin_score: 64.8
+      mcp:
+        status: none
+      name: Moonshot AI
+      slug: kimi-ai
+      sources:
+      - https://github.com/lobehub/lobe-chat/tree/main/packages/model-runtime/src/providers
+      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
+      status: profiled
+      tags:
+      - Artificial Intelligence
+      - Inference
+      - LLM
+      - Long Context
+      tier: observed
+      url: /providers/kimi-ai/
+    - agent_band: agent-aware
+      agent_readiness: 27.9
+      apps:
+      - AnythingLLM
+      - LobeChat
+      band: strong
+      in_catalog: true
+      kin_score: 62.1
+      mcp:
+        status: none
+      name: Cerebras
+      slug: cerebras-systems
+      sources:
+      - https://github.com/lobehub/lobe-chat/tree/main/packages/model-runtime/src/providers
+      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
+      status: profiled
+      tags:
+      - AI Infrastructure
+      - Artificial Intelligence
+      - Company
+      - Machine Learning
+      tier: observed
+      url: /providers/cerebras-systems/
+    - agent_band: agent-ready
+      agent_readiness: 28.8
+      apps:
+      - AnythingLLM
+      - LobeChat
+      band: strong
+      in_catalog: true
+      kin_score: 62.0
       mcp:
         status: none
       name: SambaNova
@@ -3103,36 +3149,13 @@ stack:
       tier: observed
       url: /providers/sambanova-systems/
     - agent_band: agent-aware
-      agent_readiness: 28.0
+      agent_readiness: 27.3
       apps:
       - AnythingLLM
       - LobeChat
       band: strong
       in_catalog: true
-      kin_score: 62.4
-      mcp:
-        status: none
-      name: Cerebras
-      slug: cerebras-systems
-      sources:
-      - https://github.com/lobehub/lobe-chat/tree/main/packages/model-runtime/src/providers
-      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
-      status: profiled
-      tags:
-      - AI Infrastructure
-      - Artificial Intelligence
-      - Company
-      - Machine Learning
-      tier: observed
-      url: /providers/cerebras-systems/
-    - agent_band: agent-aware
-      agent_readiness: 26.9
-      apps:
-      - AnythingLLM
-      - LobeChat
-      band: strong
-      in_catalog: true
-      kin_score: 59.8
+      kin_score: 59.7
       mcp:
         status: none
       name: NVIDIA NIM
@@ -3149,36 +3172,13 @@ stack:
       tier: observed
       url: /providers/nvidia-nim/
     - agent_band: agent-ready
-      agent_readiness: 36.8
-      apps:
-      - AnythingLLM
-      - LobeChat
-      band: strong
-      in_catalog: true
-      kin_score: 56.6
-      mcp:
-        status: unchecked
-      name: Moonshot AI
-      slug: kimi-ai
-      sources:
-      - https://github.com/lobehub/lobe-chat/tree/main/packages/model-runtime/src/providers
-      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Inference
-      - LLM
-      - Long Context
-      tier: observed
-      url: /providers/kimi-ai/
-    - agent_band: agent-ready
-      agent_readiness: 35.9
+      agent_readiness: 37.5
       apps:
       - AnythingLLM
       - LobeChat
       band: developing
       in_catalog: true
-      kin_score: 52.6
+      kin_score: 52.3
       mcp:
         source: https://github.com/novitalabs/novita-mcp-server
         status: verified
@@ -3196,13 +3196,13 @@ stack:
       tier: observed
       url: /providers/novita-ai/
     - agent_band: agent-ready
-      agent_readiness: 35.7
+      agent_readiness: 35.4
       apps:
       - AnythingLLM
       - LobeChat
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 40.1
+      kin_score: 38.1
       mcp:
         source: https://docs.z.ai/devpack/mcp/vision-mcp-server
         status: verified
@@ -3226,7 +3226,7 @@ stack:
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp: &id003
         status: none
       name: Ollama
@@ -3243,12 +3243,12 @@ stack:
       tier: observed
       url: /providers/ollama/
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - LobeChat
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp:
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -3265,77 +3265,12 @@ stack:
       tier: observed
       url: /providers/cloudflare/
     - agent_band: agent-ready
-      agent_readiness: 58.9
-      apps:
-      - LibreChat
-      band: strong
-      in_catalog: true
-      kin_score: 57.1
-      mcp:
-        source: https://docs.databricks.com/aws/en/generative-ai/mcp/
-        status: verified
-      name: Databricks
-      slug: databricks
-      sources:
-      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/.env.example
-      status: profiled
-      tags:
-      - Analytics
-      - Artificial Intelligence
-      - Cleanroom
-      - Databricks
-      tier: observed
-      url: /providers/databricks/
-    - agent_band: agent-ready
-      agent_readiness: 30.6
-      apps:
-      - LobeChat
-      band: strong
-      in_catalog: true
-      kin_score: 56.0
-      mcp:
-        status: none
-      name: StepFun
-      slug: stepfun
-      sources:
-      - https://github.com/lobehub/lobe-chat/tree/main/packages/model-runtime/src/providers
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Chat Completions
-      - LLM
-      - Multi-Modal
-      tier: observed
-      url: /providers/stepfun/
-    - agent_band: agent-aware
-      agent_readiness: 23.7
-      apps:
-      - LobeChat
-      band: developing
-      in_catalog: true
-      kin_score: 45.7
-      mcp:
-        source: https://github.com/microsoft-foundry/mcp-foundry
-        status: verified
-      name: Azure AI Foundry
-      slug: azure-ai-foundry
-      sources:
-      - https://raw.githubusercontent.com/lobehub/lobe-chat/main/package.json
-      status: profiled
-      tags:
-      - AI Agents
-      - Artificial Intelligence
-      - Foundation Models
-      - Generative AI
-      tier: observed
-      url: /providers/azure-ai-foundry/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
+      agent_readiness: 29.9
       apps:
       - AnythingLLM
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.6
+      kin_score: 68.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3352,12 +3287,77 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-openai/
     - agent_band: agent-ready
-      agent_readiness: 32.0
+      agent_readiness: 37.8
+      apps:
+      - LobeChat
+      band: strong
+      in_catalog: true
+      kin_score: 66.3
+      mcp:
+        source: https://github.com/microsoft-foundry/mcp-foundry
+        status: verified
+      name: Azure AI Foundry
+      slug: azure-ai-foundry
+      sources:
+      - https://raw.githubusercontent.com/lobehub/lobe-chat/main/package.json
+      status: profiled
+      tags:
+      - AI Agents
+      - Artificial Intelligence
+      - Foundation Models
+      - Generative AI
+      tier: observed
+      url: /providers/azure-ai-foundry/
+    - agent_band: agent-native
+      agent_readiness: 65.5
+      apps:
+      - LibreChat
+      band: strong
+      in_catalog: true
+      kin_score: 58.7
+      mcp:
+        source: https://docs.databricks.com/aws/en/generative-ai/mcp/
+        status: verified
+      name: Databricks
+      slug: databricks
+      sources:
+      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/.env.example
+      status: profiled
+      tags:
+      - Analytics
+      - Artificial Intelligence
+      - Cleanroom
+      - Databricks
+      tier: observed
+      url: /providers/databricks/
+    - agent_band: agent-ready
+      agent_readiness: 29.9
+      apps:
+      - LobeChat
+      band: strong
+      in_catalog: true
+      kin_score: 54.7
+      mcp:
+        status: none
+      name: StepFun
+      slug: stepfun
+      sources:
+      - https://github.com/lobehub/lobe-chat/tree/main/packages/model-runtime/src/providers
+      status: profiled
+      tags:
+      - Artificial Intelligence
+      - Chat Completions
+      - LLM
+      - Multi-Modal
+      tier: observed
+      url: /providers/stepfun/
+    - agent_band: agent-ready
+      agent_readiness: 31.8
       apps:
       - LobeChat
       band: developing
       in_catalog: true
-      kin_score: 41.1
+      kin_score: 39.7
       mcp:
         status: none
       name: AI21 Labs
@@ -3373,12 +3373,12 @@ stack:
       tier: observed
       url: /providers/ai21-labs/
     - agent_band: agent-ready
-      agent_readiness: 37.8
+      agent_readiness: 37.1
       apps:
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 36.0
+      kin_score: 34.2
       mcp: &id005
         source: https://github.com/jina-ai/MCP
         status: verified
@@ -3400,7 +3400,7 @@ stack:
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 35.5
+      kin_score: 33.6
       mcp:
         source: https://github.com/MiniMax-AI/MiniMax-MCP
         status: verified
@@ -3417,12 +3417,12 @@ stack:
       tier: observed
       url: /providers/minimax-ai/
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 30.3
+      kin_score: 28.1
       mcp:
         status: none
       name: Qwen
@@ -3438,12 +3438,12 @@ stack:
       tier: observed
       url: /providers/qwen/
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 18.1
       apps:
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 29.2
+      kin_score: 27.5
       mcp:
         status: none
       name: SiliconFlow
@@ -3459,12 +3459,12 @@ stack:
       tier: observed
       url: /providers/siliconflow/
     - agent_band: human-only
-      agent_readiness: 3.9
+      agent_readiness: 4.5
       apps:
       - LibreChat
       band: emerging
       in_catalog: true
-      kin_score: 20.6
+      kin_score: 20.0
       mcp:
         source: https://github.com/anyscale/mcp-quickstart
         status: verified
@@ -3481,12 +3481,12 @@ stack:
       tier: observed
       url: /providers/anyscale/
     - agent_band: agent-aware
-      agent_readiness: 6.0
+      agent_readiness: 5.8
       apps:
       - LobeChat
       band: emerging
       in_catalog: true
-      kin_score: 18.5
+      kin_score: 17.4
       mcp:
         source: https://github.com/baidu-maps/mcp
         status: verified
@@ -3545,39 +3545,14 @@ stack:
       via_parent: Retrieval & Embeddings
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.1
+      agent_readiness: 38.6
       apps:
       - AnythingLLM
       - LibreChat
       - Open WebUI
       band: strong
       in_catalog: true
-      kin_score: 56.5
-      mcp:
-        status: none
-      name: Serper
-      slug: serper
-      sources:
-      - https://github.com/open-webui/open-webui/tree/main/backend/open_webui/retrieval/web
-      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
-      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/.env.example
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Google Search
-      - SERP
-      - Search
-      tier: observed
-      url: /providers/serper/
-    - agent_band: agent-aware
-      agent_readiness: 21.8
-      apps:
-      - AnythingLLM
-      - LibreChat
-      - Open WebUI
-      band: developing
-      in_catalog: true
-      kin_score: 51.1
+      kin_score: 61.6
       mcp:
         status: none
       name: Google Programmable Search
@@ -3595,14 +3570,39 @@ stack:
       tier: observed
       url: /providers/google-custom-search/
     - agent_band: agent-ready
-      agent_readiness: 46.2
+      agent_readiness: 36.1
+      apps:
+      - AnythingLLM
+      - LibreChat
+      - Open WebUI
+      band: strong
+      in_catalog: true
+      kin_score: 55.4
+      mcp:
+        status: none
+      name: Serper
+      slug: serper
+      sources:
+      - https://github.com/open-webui/open-webui/tree/main/backend/open_webui/retrieval/web
+      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
+      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/.env.example
+      status: profiled
+      tags:
+      - Artificial Intelligence
+      - Google Search
+      - SERP
+      - Search
+      tier: observed
+      url: /providers/serper/
+    - agent_band: agent-ready
+      agent_readiness: 45.6
       apps:
       - AnythingLLM
       - LibreChat
       - Open WebUI
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 48.1
       mcp:
         source: https://github.com/tavily-ai/tavily-mcp
         status: verified
@@ -3621,13 +3621,13 @@ stack:
       tier: observed
       url: /providers/tavily/
     - agent_band: agent-native
-      agent_readiness: 41.9
+      agent_readiness: 41.3
       apps:
       - AnythingLLM
       - Open WebUI
       band: exemplar
       in_catalog: true
-      kin_score: 75.0
+      kin_score: 74.3
       mcp:
         source: https://github.com/serpapi/serpapi-mcp
         status: verified
@@ -3645,13 +3645,61 @@ stack:
       tier: observed
       url: /providers/serpapi/
     - agent_band: agent-ready
+      agent_readiness: 30.2
+      apps:
+      - AnythingLLM
+      - Open WebUI
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.5
+      mcp:
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Bing Search
+      slug: microsoft
+      sources:
+      - https://github.com/open-webui/open-webui/tree/main/backend/open_webui/retrieval/web
+      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
+      status: profiled
+      tags:
+      - Cloud
+      - Fortune 100
+      - Microsoft
+      - Software
+      tier: observed
+      url: /providers/microsoft/
+    - agent_band: agent-ready
+      agent_readiness: 37.4
+      apps:
+      - AnythingLLM
+      - LibreChat
+      band: strong
+      in_catalog: true
+      kin_score: 63.7
+      mcp:
+        source: https://docs.keenable.ai/mcp
+        status: verified
+      name: Keenable
+      slug: keenable
+      sources:
+      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
+      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/.env.example
+      status: profiled
+      tags:
+      - AI Agents
+      - AI Labs
+      - Inference Platforms
+      - Web Search
+      tier: observed
+      url: /providers/keenable/
+    - agent_band: agent-ready
       agent_readiness: 60.0
       apps:
       - AnythingLLM
       - Open WebUI
       band: strong
       in_catalog: true
-      kin_score: 58.5
+      kin_score: 57.7
       mcp:
         source: https://github.com/exa-labs/exa-mcp-server
         status: verified
@@ -3669,13 +3717,13 @@ stack:
       tier: observed
       url: /providers/exa-ai/
     - agent_band: agent-native
-      agent_readiness: 60.2
+      agent_readiness: 58.7
       apps:
       - AnythingLLM
       - Open WebUI
       band: strong
       in_catalog: true
-      kin_score: 57.8
+      kin_score: 56.4
       mcp:
         source: https://github.com/SearchApi/searchapi-mcp
         status: verified
@@ -3692,55 +3740,8 @@ stack:
       - Web Scraping
       tier: observed
       url: /providers/searchapi/
-    - agent_band: agent-ready
-      agent_readiness: 37.7
-      apps:
-      - AnythingLLM
-      - LibreChat
-      band: developing
-      in_catalog: true
-      kin_score: 53.7
-      mcp:
-        source: https://docs.keenable.ai/mcp
-        status: verified
-      name: Keenable
-      slug: keenable
-      sources:
-      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
-      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/.env.example
-      status: profiled
-      tags:
-      - AI Agents
-      - AI Labs
-      - Inference Platforms
-      - Web Search
-      tier: observed
-      url: /providers/keenable/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - AnythingLLM
-      - Open WebUI
-      band: minimal
-      in_catalog: true
-      kin_score: 0.0
-      mcp:
-        status: none
-      name: Bing Search
-      slug: microsoft-bing
-      sources:
-      - https://github.com/open-webui/open-webui/tree/main/backend/open_webui/retrieval/web
-      - https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/server/.env.example
-      status: profiled
-      tags:
-      - Image
-      - Search
-      - Video
-      - Web Search
-      tier: observed
-      url: /providers/microsoft-bing/
     - agent_band: agent-native
-      agent_readiness: 67.7
+      agent_readiness: 66.6
       apps:
       - Open WebUI
       band: strong
@@ -3756,12 +3757,33 @@ stack:
       tier: observed
       url: /providers/perplexity/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 20.2
       apps:
       - Open WebUI
       band: developing
       in_catalog: true
-      kin_score: 40.0
+      kin_score: 39.4
+      mcp:
+        status: none
+      name: DuckDuckGo
+      slug: duckduckgo
+      sources:
+      - https://raw.githubusercontent.com/open-webui/open-webui/main/pyproject.toml
+      status: profiled
+      tags:
+      - AI Chat
+      - Browser
+      - Privacy
+      - Search
+      tier: observed
+      url: /providers/duckduckgo/
+    - agent_band: agent-aware
+      agent_readiness: 19.2
+      apps:
+      - Open WebUI
+      band: thin
+      in_catalog: true
+      kin_score: 38.8
       mcp:
         source: https://github.com/kagisearch/kagimcp
         status: verified
@@ -3778,33 +3800,12 @@ stack:
       tier: observed
       url: /providers/kagi/
     - agent_band: agent-aware
-      agent_readiness: 20.7
-      apps:
-      - Open WebUI
-      band: developing
-      in_catalog: true
-      kin_score: 39.8
-      mcp:
-        status: none
-      name: DuckDuckGo
-      slug: duckduckgo
-      sources:
-      - https://raw.githubusercontent.com/open-webui/open-webui/main/pyproject.toml
-      status: profiled
-      tags:
-      - AI Chat
-      - Browser
-      - Privacy
-      - Search
-      tier: observed
-      url: /providers/duckduckgo/
-    - agent_band: agent-aware
       agent_readiness: 24.4
       apps:
       - Open WebUI
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp: *id003
       name: Ollama
       slug: ollama
@@ -3815,12 +3816,12 @@ stack:
       tier: observed
       url: /providers/ollama/
     - agent_band: agent-ready
-      agent_readiness: 37.8
+      agent_readiness: 37.1
       apps:
       - Open WebUI
       band: thin
       in_catalog: true
-      kin_score: 36.0
+      kin_score: 34.2
       mcp: *id005
       name: Jina AI
       slug: jina-ai
@@ -3836,7 +3837,7 @@ stack:
       - Open WebUI
       band: thin
       in_catalog: true
-      kin_score: 33.9
+      kin_score: 33.4
       mcp:
         source: https://github.com/brave/brave-search-mcp-server
         status: verified
@@ -3853,12 +3854,12 @@ stack:
       tier: observed
       url: /providers/brave-browser/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - Open WebUI
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 21.8
+      kin_score: 32.7
       mcp:
         source: https://github.com/Mojeek/mojeek-search-mcp
         status: verified
@@ -3900,13 +3901,13 @@ stack:
       via_parent: Retrieval & Embeddings
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 46.4
       apps:
       - AnythingLLM
       - Open WebUI
       band: strong
       in_catalog: true
-      kin_score: 61.2
+      kin_score: 60.1
       mcp:
         source: https://github.com/pinecone-io/pinecone-mcp
         status: verified
@@ -3924,13 +3925,13 @@ stack:
       tier: observed
       url: /providers/pinecone/
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 39.7
       apps:
       - AnythingLLM
       - Open WebUI
       band: strong
       in_catalog: true
-      kin_score: 58.5
+      kin_score: 59.2
       mcp:
         source: https://github.com/chroma-core/chroma-mcp
         status: verified
@@ -3948,13 +3949,13 @@ stack:
       tier: observed
       url: /providers/chroma/
     - agent_band: agent-ready
-      agent_readiness: 32.7
+      agent_readiness: 32.1
       apps:
       - AnythingLLM
       - Open WebUI
       band: developing
       in_catalog: true
-      kin_score: 52.4
+      kin_score: 51.0
       mcp:
         source: https://github.com/weaviate/mcp-server-weaviate
         status: verified
@@ -3972,13 +3973,13 @@ stack:
       tier: observed
       url: /providers/weaviate/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - AnythingLLM
       - Open WebUI
       band: developing
       in_catalog: true
-      kin_score: 40.1
+      kin_score: 40.0
       mcp:
         source: https://github.com/zilliztech/mcp-server-milvus
         status: verified
@@ -3996,13 +3997,13 @@ stack:
       tier: observed
       url: /providers/milvus/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.6
       apps:
       - AnythingLLM
       - Open WebUI
       band: thin
       in_catalog: true
-      kin_score: 38.8
+      kin_score: 36.6
       mcp:
         source: https://github.com/qdrant/mcp-server-qdrant
         status: verified
@@ -4019,12 +4020,12 @@ stack:
       tier: observed
       url: /providers/qdrant/
     - agent_band: agent-aware
-      agent_readiness: 23.6
+      agent_readiness: 23.2
       apps:
       - AnythingLLM
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 56.0
+      kin_score: 53.2
       mcp:
         source: https://github.com/datastax/astra-db-mcp
         status: verified
@@ -4040,13 +4041,13 @@ stack:
       - Vector Search
       tier: observed
       url: /providers/datastax/
-    - agent_band: agent-aware
-      agent_readiness: 24.1
+    - agent_band: agent-ready
+      agent_readiness: 30.7
       apps:
       - AnythingLLM
       band: developing
       in_catalog: true
-      kin_score: 41.5
+      kin_score: 41.0
       mcp:
         source: https://github.com/lancedb/lancedb-mcp-server
         status: verified
@@ -4063,12 +4064,12 @@ stack:
       tier: observed
       url: /providers/lancedb/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - AnythingLLM
       band: thin
       in_catalog: true
-      kin_score: 32.4
+      kin_score: 31.7
       mcp:
         source: https://github.com/zilliztech/zilliz-mcp-server
         status: verified
@@ -4093,14 +4094,14 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 46.4
       apps:
       - AnythingLLM
       - LibreChat
       - LobeChat
       band: strong
       in_catalog: true
-      kin_score: 55.4
+      kin_score: 54.8
       mcp:
         source: https://openrouter.ai/docs/guides/overview/mcp-server
         status: verified
@@ -4119,31 +4120,12 @@ stack:
       tier: observed
       url: /providers/openrouter/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - LibreChat
       band: emerging
       in_catalog: true
-      kin_score: 13.6
-      mcp:
-        status: unknown
-      name: APIpie
-      slug: apipie
-      sources:
-      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/.env.example
-      status: profiled
-      tags:
-      - OpenAI-compatible API
-      - Redundant routing
-      tier: observed
-      url: /providers/apipie/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - LibreChat
-      band: emerging
-      in_catalog: true
-      kin_score: 12.8
+      kin_score: 22.4
       mcp:
         status: none
       name: ShuttleAI
@@ -4158,6 +4140,25 @@ stack:
       - Product
       tier: observed
       url: /providers/shuttleai/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - LibreChat
+      band: emerging
+      in_catalog: true
+      kin_score: 17.2
+      mcp:
+        status: unknown
+      name: APIpie
+      slug: apipie
+      sources:
+      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/.env.example
+      status: profiled
+      tags:
+      - OpenAI-compatible API
+      - Redundant routing
+      tier: observed
+      url: /providers/apipie/
   - capability:
       attribution: API Evangelist extension
       id: AE-110.20.10
@@ -4167,13 +4168,13 @@ stack:
       via_parent: Generative Media
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 37.1
       apps:
       - LibreChat
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 31.3
+      kin_score: 29.9
       mcp:
         source: https://github.com/black-forest-labs/flux-mcp
         status: verified
@@ -4191,12 +4192,12 @@ stack:
       tier: observed
       url: /providers/black-forest-labs/
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 53.2
       apps:
       - LobeChat
       band: strong
       in_catalog: true
-      kin_score: 65.6
+      kin_score: 65.2
       mcp:
         source: https://docs.fal.ai/model-apis/mcp
         status: verified
@@ -4213,12 +4214,12 @@ stack:
       tier: observed
       url: /providers/fal-ai/
     - agent_band: agent-ready
-      agent_readiness: 49.8
+      agent_readiness: 50.2
       apps:
       - LobeChat
       band: strong
       in_catalog: true
-      kin_score: 57.5
+      kin_score: 58.3
       mcp:
         source: https://github.com/replicate/replicate-mcp-code-mode
         status: verified
@@ -4243,12 +4244,12 @@ stack:
       via_parent: Retrieval & Embeddings
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.8
+      agent_readiness: 37.1
       apps:
       - LibreChat
       band: thin
       in_catalog: true
-      kin_score: 36.0
+      kin_score: 34.2
       mcp: *id005
       name: Jina AI
       slug: jina-ai
@@ -4259,12 +4260,12 @@ stack:
       tier: observed
       url: /providers/jina-ai/
     - agent_band: agent-aware
-      agent_readiness: 16.1
+      agent_readiness: 21.4
       apps:
       - AnythingLLM
       band: emerging
       in_catalog: true
-      kin_score: 25.9
+      kin_score: 24.2
       mcp:
         status: none
       name: Voyage AI
@@ -4287,13 +4288,13 @@ stack:
       url: /capabilities/data-reference-information-services/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 22.5
+    - agent_band: agent-ready
+      agent_readiness: 30.0
       apps:
       - LibreChat
       band: strong
       in_catalog: true
-      kin_score: 60.4
+      kin_score: 59.1
       mcp:
         source: https://mcp.openweathermap.org/
         status: verified
@@ -4318,12 +4319,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 51.5
+      agent_readiness: 45.0
       apps:
       - Open WebUI
       band: exemplar
       in_catalog: true
-      kin_score: 78.4
+      kin_score: 76.0
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -4348,12 +4349,12 @@ stack:
       via_parent: Speech & Voice
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 60.4
       apps:
       - AnythingLLM
       band: exemplar
       in_catalog: true
-      kin_score: 83.0
+      kin_score: 83.2
       mcp:
         source: https://github.com/elevenlabs/elevenlabs-mcp
         status: verified
@@ -4380,12 +4381,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - LibreChat
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: &id011
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -4402,12 +4403,33 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 33.7
       apps:
       - LibreChat
       band: strong
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 58.8
+      mcp:
+        status: none
+      name: Google sign-in
+      slug: google-identity-platform
+      sources:
+      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/api/package.json
+      status: profiled
+      tags:
+      - Authentication
+      - Google Cloud
+      - Identity
+      - Multi-Tenancy
+      tier: observed
+      url: /providers/google-identity-platform/
+    - agent_band: agent-ready
+      agent_readiness: 36.5
+      apps:
+      - LibreChat
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple
@@ -4423,12 +4445,12 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - LibreChat
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp: &id009
         status: none
       name: Discord
@@ -4444,12 +4466,12 @@ stack:
       tier: observed
       url: /providers/discord/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - LibreChat
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -4464,27 +4486,6 @@ stack:
       - Fortune 500
       tier: observed
       url: /providers/facebook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - LibreChat
-      band: thin
-      in_catalog: true
-      kin_score: 36.8
-      mcp:
-        status: none
-      name: Google sign-in
-      slug: google-identity-platform
-      sources:
-      - https://raw.githubusercontent.com/danny-avila/LibreChat/main/api/package.json
-      status: profiled
-      tags:
-      - Authentication
-      - Google Cloud
-      - Identity
-      - Multi-Tenancy
-      tier: observed
-      url: /providers/google-identity-platform/
   - capability:
       attribution: Turbo EA
       id: BC-600.50.20
@@ -4494,13 +4495,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - LibreChat
       - Open WebUI
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -4518,34 +4519,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-blob-storage/
     - agent_band: agent-ready
-      agent_readiness: 45.3
-      apps:
-      - Open WebUI
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.7
-      mcp:
-        source: https://github.com/googleapis/gcloud-mcp
-        status: verified
-      name: Google Cloud Storage
-      slug: gcp-cloud-storage
-      sources:
-      - https://raw.githubusercontent.com/open-webui/open-webui/main/pyproject.toml
-      status: profiled
-      tags:
-      - Archival
-      - Backup
-      - Blob Storage
-      - Cloud Storage
-      tier: observed
-      url: /providers/gcp-cloud-storage/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+      agent_readiness: 34.8
       apps:
       - LibreChat
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4561,28 +4540,50 @@ stack:
       - Cloud Storage
       tier: observed
       url: /providers/amazon-s3/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 45.1
+      apps:
+      - Open WebUI
+      band: exemplar
+      in_catalog: true
+      kin_score: 74.1
+      mcp:
+        source: https://github.com/googleapis/gcloud-mcp
+        status: verified
+      name: Google Cloud Storage
+      slug: gcp-cloud-storage
+      sources:
+      - https://raw.githubusercontent.com/open-webui/open-webui/main/pyproject.toml
+      status: profiled
+      tags:
+      - Archival
+      - Backup
+      - Blob Storage
+      - Cloud Storage
+      tier: observed
+      url: /providers/gcp-cloud-storage/
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - LibreChat
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id007
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/danny-avila/LibreChat/main/api/package.json
       status: profiled
       tags: &id008
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-4220.20
@@ -4599,7 +4600,7 @@ stack:
       - Le Chat (Mistral)
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -4617,22 +4618,22 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Perplexity
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id007
       name: Firebase (Crashlytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/ai.perplexity.app.android/latest/
       status: profiled
       tags: *id008
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-4280.30
@@ -4642,13 +4643,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - ChatGPT
       - Claude
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -4665,12 +4666,28 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 39.9
+      apps:
+      - Perplexity
+      band: strong
+      in_catalog: true
+      kin_score: 62.0
+      mcp: *id007
+      name: Firebase Analytics
+      slug: google-firebase
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/ai.perplexity.app.android/latest/
+      status: profiled
+      tags: *id008
+      tier: observed
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 56.2
       apps:
       - AnythingLLM
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -4686,22 +4703,6 @@ stack:
       - Open Source
       tier: observed
       url: /providers/posthog/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - Perplexity
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp: *id007
-      name: Firebase Analytics
-      slug: firebase
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/ai.perplexity.app.android/latest/
-      status: profiled
-      tags: *id008
-      tier: observed
-      url: /providers/firebase/
   - capability:
       attribution: Turbo EA
       id: BC-850.10
@@ -4711,12 +4712,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - LobeChat
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -4733,12 +4734,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - LobeChat
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp: *id009
       name: Discord
       slug: discord
@@ -4757,12 +4758,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 25.7
       apps:
       - LobeChat
       band: strong
       in_catalog: true
-      kin_score: 57.1
+      kin_score: 56.0
       mcp:
         source: https://github.com/neondatabase/mcp-server-neon
         status: verified
@@ -4779,12 +4780,12 @@ stack:
       tier: observed
       url: /providers/neon/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 46.7
       apps:
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 35.2
       mcp:
         source: https://github.com/upstash/mcp-server
         status: verified
@@ -4809,12 +4810,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - LobeChat
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -4831,12 +4832,12 @@ stack:
       tier: observed
       url: /providers/resend/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - LibreChat
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -4861,13 +4862,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - AnythingLLM
       - LobeChat
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -4892,12 +4893,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 39.0
       apps:
       - LibreChat
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 69.7
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -4922,12 +4923,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.2
+      agent_readiness: 50.0
       apps:
       - LobeChat
       band: strong
       in_catalog: true
-      kin_score: 63.8
+      kin_score: 63.1
       mcp:
         source: https://vercel.com/docs/mcp/vercel-mcp
         status: verified
@@ -4952,12 +4953,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 50.0
+      agent_readiness: 48.9
       apps:
       - Perplexity
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.4
+      kin_score: 65.9
       mcp:
         status: none
       name: Singular
@@ -4981,12 +4982,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - LobeChat
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -5011,12 +5012,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - LobeChat
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: *id011
       name: GitHub
       slug: github
@@ -5035,12 +5036,12 @@ stack:
       via_parent: Webhook & Event Subscription Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 53.1
+      agent_readiness: 52.1
       apps:
       - LobeChat
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 74.7
       mcp:
         status: none
       name: Svix
@@ -5066,14 +5067,14 @@ stack:
       via_parent: Agent Tool Exposure
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - AnythingLLM
       - LibreChat
       - Open WebUI
       band: developing
       in_catalog: true
-      kin_score: 49.5
+      kin_score: 50.6
       mcp:
         source: https://docs.firecrawl.dev/mcp-server
         status: verified
@@ -5100,13 +5101,13 @@ stack:
       via_parent: Agent Quality & Operations
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 35.9
       apps:
       - LibreChat
       - LobeChat
       band: thin
       in_catalog: true
-      kin_score: 37.0
+      kin_score: 36.5
       mcp:
         source: https://github.com/langfuse/mcp-server-langfuse
         status: verified
@@ -5132,12 +5133,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - LibreChat
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -5154,12 +5155,12 @@ stack:
       tier: observed
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 30.9
+      agent_readiness: 39.7
       apps:
       - LobeChat
       band: strong
       in_catalog: true
-      kin_score: 62.3
+      kin_score: 62.6
       mcp:
         source: https://github.com/ComposioHQ/composio
         status: verified
@@ -5184,10 +5185,10 @@ summary:
   mcp:
     documented: 0
     none: 27
-    unchecked: 4
-    verified: 61
-  mcp_verified: 61
-  mean_kin_score: 51.1
+    unchecked: 3
+    verified: 62
+  mcp_verified: 62
+  mean_kin_score: 53.2
   observed: 93
   queued: 3
   reference_apps: 8

@@ -2715,13 +2715,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.2
+      agent_readiness: 31.6
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 39.3
+      kin_score: 55.3
       mcp:
         status: none
       name: Raiser's Edge NXT (Blackbaud)
@@ -2738,13 +2738,13 @@ stack:
       tier: declared
       url: /providers/blackbaud/
     - agent_band: agent-aware
-      agent_readiness: 22.6
+      agent_readiness: 22.7
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
       band: thin
       in_catalog: true
-      kin_score: 30.6
+      kin_score: 30.0
       mcp:
         status: none
       name: Bloomerang
@@ -2765,9 +2765,9 @@ stack:
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.5
+      kin_score: 28.6
       mcp:
         status: unknown
       name: Little Green Light
@@ -2784,12 +2784,12 @@ stack:
       tier: declared
       url: /providers/little-green-light/
     - agent_band: agent-aware
-      agent_readiness: 20.6
+      agent_readiness: 25.5
       apps:
       - GoFundMe Pro (Classy)
       band: thin
       in_catalog: true
-      kin_score: 31.1
+      kin_score: 30.5
       mcp:
         status: none
       name: Neon One
@@ -2804,13 +2804,76 @@ stack:
       - Non-Profit
       tier: declared
       url: /providers/neonone/
-    - agent_band: agent-aware
-      agent_readiness: 17.6
+    - agent_band: human-only
+      agent_readiness: 0.0
       apps:
       - GoFundMe Pro (Classy)
       band: emerging
       in_catalog: true
-      kin_score: 18.1
+      kin_score: 24.4
+      mcp:
+        status: unknown
+      name: DonorPerfect
+      slug: donorperfect
+      sources:
+      - https://pro.gofundme.com/c/integrations/
+      status: profiled
+      tags:
+      - CRM
+      - Company
+      - Fundraising
+      - Non-Profit
+      tier: declared
+      url: /providers/donorperfect/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - GoFundMe Pro (Classy)
+      band: emerging
+      in_catalog: true
+      kin_score: 22.9
+      mcp:
+        status: unknown
+      name: Tessitura
+      slug: tessitura
+      sources:
+      - https://pro.gofundme.com/c/integrations/
+      status: profiled
+      tags:
+      - Arts
+      - Company
+      - Culture
+      - Non-Profit
+      tier: declared
+      url: /providers/tessitura/
+    - agent_band: agent-aware
+      agent_readiness: 14.7
+      apps:
+      - GoFundMe Pro (Classy)
+      band: emerging
+      in_catalog: true
+      kin_score: 22.2
+      mcp:
+        status: unknown
+      name: Virtuous
+      slug: virtuous
+      sources:
+      - https://pro.gofundme.com/c/integrations/
+      status: profiled
+      tags:
+      - CRM
+      - Company
+      - Fundraising
+      - Non-Profit
+      tier: declared
+      url: /providers/virtuous/
+    - agent_band: agent-aware
+      agent_readiness: 14.5
+      apps:
+      - GoFundMe Pro (Classy)
+      band: emerging
+      in_catalog: true
+      kin_score: 21.8
       mcp:
         source: https://docs.civicrm.org/
         status: verified
@@ -2832,7 +2895,7 @@ stack:
       - GoFundMe Pro (Classy)
       band: emerging
       in_catalog: true
-      kin_score: 14.5
+      kin_score: 20.0
       mcp:
         source: https://www.donordock.com/mcp
         status: verified
@@ -2848,55 +2911,13 @@ stack:
       - Software-as-a-Service
       tier: declared
       url: /providers/donordock/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - GoFundMe Pro (Classy)
-      band: emerging
-      in_catalog: true
-      kin_score: 14.1
-      mcp:
-        status: unknown
-      name: DonorPerfect
-      slug: donorperfect
-      sources:
-      - https://pro.gofundme.com/c/integrations/
-      status: profiled
-      tags:
-      - CRM
-      - Company
-      - Fundraising
-      - Non-Profit
-      tier: declared
-      url: /providers/donorperfect/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 14.8
       apps:
       - GoFundMe Pro (Classy)
       band: emerging
       in_catalog: true
-      kin_score: 13.8
-      mcp:
-        status: unknown
-      name: Virtuous
-      slug: virtuous
-      sources:
-      - https://pro.gofundme.com/c/integrations/
-      status: profiled
-      tags:
-      - CRM
-      - Company
-      - Fundraising
-      - Non-Profit
-      tier: declared
-      url: /providers/virtuous/
-    - agent_band: agent-aware
-      agent_readiness: 18.0
-      apps:
-      - GoFundMe Pro (Classy)
-      band: emerging
-      in_catalog: true
-      kin_score: 13.5
+      kin_score: 18.2
       mcp:
         status: none
       name: Daxko
@@ -2917,7 +2938,7 @@ stack:
       - GoFundMe Pro (Classy)
       band: emerging
       in_catalog: true
-      kin_score: 13.4
+      kin_score: 14.1
       mcp:
         status: none
       name: Humanitru
@@ -2932,27 +2953,6 @@ stack:
       - Non-Profit
       tier: declared
       url: /providers/humanitru/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - GoFundMe Pro (Classy)
-      band: emerging
-      in_catalog: true
-      kin_score: 12.9
-      mcp:
-        status: unknown
-      name: Tessitura
-      slug: tessitura
-      sources:
-      - https://pro.gofundme.com/c/integrations/
-      status: profiled
-      tags:
-      - Arts
-      - Company
-      - Culture
-      - Non-Profit
-      tier: declared
-      url: /providers/tessitura/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -3030,7 +3030,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - GiveWP
       - Givebutter
@@ -3039,7 +3039,7 @@ stack:
       - Open Collective
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: &id003
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3058,14 +3058,14 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - GiveWP
       - Liberapay
       - Open Collective
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp: &id001
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -3084,12 +3084,12 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - GiveWP
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp:
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -3113,34 +3113,13 @@ stack:
       url: /capabilities/consumer-payment-options/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 40.1
-      apps:
-      - Givebutter
-      band: strong
-      in_catalog: true
-      kin_score: 66.2
-      mcp:
-        status: none
-      name: Google Pay
-      slug: google-pay
-      sources:
-      - https://givebutter.com/integrations
-      status: profiled
-      tags:
-      - Agentic Commerce
-      - Checkout
-      - Contactless Payments
-      - Digital Wallet
-      tier: declared
-      url: /providers/google-pay/
     - agent_band: agent-native
-      agent_readiness: 41.3
+      agent_readiness: 40.8
       apps:
       - Givebutter
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.8
+      kin_score: 68.0
       mcp:
         status: none
       name: Cash App
@@ -3156,12 +3135,33 @@ stack:
       tier: declared
       url: /providers/cash-app/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 39.7
       apps:
       - Givebutter
       band: strong
       in_catalog: true
-      kin_score: 58.5
+      kin_score: 65.2
+      mcp:
+        status: none
+      name: Google Pay
+      slug: google-pay
+      sources:
+      - https://givebutter.com/integrations
+      status: profiled
+      tags:
+      - Agentic Commerce
+      - Checkout
+      - Contactless Payments
+      - Digital Wallet
+      tier: declared
+      url: /providers/google-pay/
+    - agent_band: agent-native
+      agent_readiness: 61.6
+      apps:
+      - Givebutter
+      band: strong
+      in_catalog: true
+      kin_score: 59.5
       mcp:
         status: none
       name: Chariot (DAFpay)
@@ -3177,12 +3177,12 @@ stack:
       tier: declared
       url: /providers/chariot/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Givebutter
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp: *id001
       name: PayPal
       slug: paypal
@@ -3193,12 +3193,12 @@ stack:
       tier: declared
       url: /providers/paypal/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.4
       apps:
       - Givebutter
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 43.0
       mcp:
         status: none
       name: Apple Pay
@@ -3214,12 +3214,12 @@ stack:
       tier: declared
       url: /providers/apple-pay/
     - agent_band: human-only
-      agent_readiness: 3.9
+      agent_readiness: 3.8
       apps:
       - Givebutter
       band: thin
       in_catalog: true
-      kin_score: 29.9
+      kin_score: 29.8
       mcp:
         status: none
       name: Venmo
@@ -3238,9 +3238,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - GoFundMe Pro (Classy)
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.1
+      kin_score: 11.0
       mcp:
         status: unknown
       name: GivingIQ (formerly DonateStock)
@@ -3264,12 +3264,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 14.5
       apps:
       - GoFundMe Pro (Classy)
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 42.3
       mcp:
         status: unknown
       name: EverGiving
@@ -3285,12 +3285,12 @@ stack:
       tier: declared
       url: /providers/evergiving/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - GoFundMe Pro (Classy)
       band: emerging
       in_catalog: true
-      kin_score: 19.5
+      kin_score: 25.0
       mcp:
         status: none
       name: GoodUnited
@@ -3309,9 +3309,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - GoFundMe Pro (Classy)
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.6
+      kin_score: 15.8
       mcp:
         status: unknown
       name: Nuclavis
@@ -3330,9 +3330,9 @@ stack:
       agent_readiness: 3.2
       apps:
       - GoFundMe Pro (Classy)
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.5
+      kin_score: 11.6
       mcp:
         status: none
       name: DonorDrive
@@ -3353,7 +3353,7 @@ stack:
       - GoFundMe Pro (Classy)
       band: minimal
       in_catalog: true
-      kin_score: 6.6
+      kin_score: 6.2
       mcp:
         status: none
       name: Grassroots Unwired
@@ -3377,13 +3377,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 52.1
+      agent_readiness: 51.1
       apps:
       - HCB (Hack Club Bank)
       - Open Collective
       band: exemplar
       in_catalog: true
-      kin_score: 83.4
+      kin_score: 86.3
       mcp:
         source: https://plaid.com/docs/resources/mcp/
         status: verified
@@ -3406,7 +3406,7 @@ stack:
       - Open Collective
       band: minimal
       in_catalog: true
-      kin_score: 5.1
+      kin_score: 4.2
       mcp:
         source: https://github.com/gocardless/gc-mcp
         status: verified
@@ -3429,12 +3429,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - HCB (Hack Club Bank)
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: *id003
       name: Stripe Issuing
       slug: stripe
@@ -3470,13 +3470,13 @@ stack:
       via_parent: Company & Contact Data
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
       band: emerging
       in_catalog: true
-      kin_score: 15.8
+      kin_score: 25.6
       mcp:
         status: unknown
       name: Double the Donation
@@ -3506,7 +3506,7 @@ stack:
       - Givebutter
       band: emerging
       in_catalog: true
-      kin_score: 19.7
+      kin_score: 25.1
       mcp:
         status: none
       name: VolunteerHub
@@ -3527,7 +3527,7 @@ stack:
       - Givebutter
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: POINT (volunteering app)
@@ -3548,12 +3548,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 15.3
+      agent_readiness: 19.2
       apps:
       - GoFundMe Pro (Classy)
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.4
+      kin_score: 14.5
       mcp:
         status: unknown
       name: Charity Miles
@@ -3577,12 +3577,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.6
+      agent_readiness: 33.0
       apps:
       - Patreon
       band: thin
       in_catalog: true
-      kin_score: 38.9
+      kin_score: 37.6
       mcp:
         source: https://mercury.com/mcp
         status: verified
@@ -3607,12 +3607,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - Givebutter
       band: emerging
       in_catalog: true
-      kin_score: 11.9
+      kin_score: 20.8
       mcp:
         status: unknown
       name: Storyraise
@@ -3635,13 +3635,13 @@ stack:
       url: /capabilities/cross-border-payment-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 41.2
+    - agent_band: agent-native
+      agent_readiness: 45.7
       apps:
       - Open Collective
       band: developing
       in_catalog: true
-      kin_score: 40.0
+      kin_score: 40.1
       mcp:
         status: none
       name: Wise (TransferWise)
@@ -3665,12 +3665,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 13.7
+      agent_readiness: 10.6
       apps:
       - Givebutter
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.7
+      kin_score: 29.1
       mcp:
         status: none
       name: Amilia
@@ -3693,13 +3693,13 @@ stack:
       url: /capabilities/game-publishing-distribution/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.9
+    - agent_band: agent-ready
+      agent_readiness: 29.0
       apps:
       - Patreon
       band: thin
       in_catalog: true
-      kin_score: 30.4
+      kin_score: 28.7
       mcp:
         status: none
       name: itch.io
@@ -3723,12 +3723,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 25.5
       apps:
       - HCB (Hack Club Bank)
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.7
       mcp:
         status: none
       name: Column
@@ -3755,9 +3755,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Givebutter
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.1
+      kin_score: 16.1
       mcp:
         status: none
       name: DonorSearch
@@ -3781,12 +3781,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.1
       apps:
       - GoFundMe Pro (Classy)
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 19.5
+      kin_score: 27.8
       mcp:
         status: unknown
       name: Bonfire
@@ -3810,12 +3810,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.6
+      agent_readiness: 56.2
       apps:
       - Patreon
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.9
+      kin_score: 52.2
       mcp:
         source: https://sellfy.com/mcp/
         status: verified
@@ -3840,12 +3840,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 16.9
       apps:
       - HCB (Hack Club Bank)
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 43.6
       mcp:
         status: none
       name: TaxBandits
@@ -3874,7 +3874,7 @@ stack:
       - Givebutter
       band: emerging
       in_catalog: true
-      kin_score: 11.3
+      kin_score: 14.8
       mcp:
         status: unknown
       name: ThankView
@@ -3900,13 +3900,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -3923,13 +3923,13 @@ stack:
       tier: declared
       url: /providers/mailchimp/
     - agent_band: agent-ready
-      agent_readiness: 32.1
+      agent_readiness: 31.4
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
       band: exemplar
       in_catalog: true
-      kin_score: 70.9
+      kin_score: 67.7
       mcp:
         status: none
       name: Constant Contact
@@ -3946,12 +3946,12 @@ stack:
       tier: declared
       url: /providers/constant-contact/
     - agent_band: agent-ready
-      agent_readiness: 64.4
+      agent_readiness: 66.1
       apps:
       - Patreon
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 80.4
       mcp:
         status: none
       name: ConvertKit (Kit)
@@ -3967,12 +3967,12 @@ stack:
       tier: declared
       url: /providers/convertkit/
     - agent_band: agent-native
-      agent_readiness: 54.9
+      agent_readiness: 58.7
       apps:
       - GoFundMe Pro (Classy)
       band: exemplar
       in_catalog: true
-      kin_score: 77.6
+      kin_score: 78.1
       mcp:
         source: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
         status: verified
@@ -3989,12 +3989,12 @@ stack:
       tier: declared
       url: /providers/klaviyo/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - GoFundMe Pro (Classy)
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id005
         status: none
       name: Facebook / Meta Pixel / Meta CAPI
@@ -4009,13 +4009,13 @@ stack:
       - Fortune 500
       tier: declared
       url: /providers/facebook/
-    - agent_band: agent-ready
-      agent_readiness: 29.3
+    - agent_band: agent-aware
+      agent_readiness: 26.0
       apps:
       - GoFundMe Pro (Classy)
       band: thin
       in_catalog: true
-      kin_score: 28.2
+      kin_score: 36.7
       mcp:
         status: none
       name: Feathr
@@ -4056,13 +4056,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - HCB (Hack Club Bank)
       - Patreon
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -4079,13 +4079,13 @@ stack:
       tier: observed
       url: /providers/discord/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Givebutter
       - Patreon
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id005
       name: Facebook / Meta fundraising
       slug: facebook
@@ -4097,13 +4097,13 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 38.9
+      agent_readiness: 38.6
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
       band: exemplar
       in_catalog: true
-      kin_score: 69.0
+      kin_score: 67.8
       mcp:
         status: none
       name: Instagram
@@ -4120,12 +4120,12 @@ stack:
       tier: declared
       url: /providers/instagram/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn
@@ -4141,12 +4141,12 @@ stack:
       tier: declared
       url: /providers/linkedin/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -4163,12 +4163,12 @@ stack:
       tier: declared
       url: /providers/x/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.3
       apps:
       - Patreon
       band: thin
       in_catalog: true
-      kin_score: 37.1
+      kin_score: 36.9
       mcp:
         source: https://github.com/discourse/discourse-mcp
         status: verified
@@ -4192,13 +4192,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.2
+      agent_readiness: 47.2
       apps:
       - Givebutter
       - Patreon
       band: thin
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 35.5
       mcp:
         source: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
         status: verified
@@ -4216,12 +4216,12 @@ stack:
       tier: declared
       url: /providers/wix/
     - agent_band: agent-native
-      agent_readiness: 49.5
+      agent_readiness: 48.5
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 69.9
+      kin_score: 68.7
       mcp:
         status: none
       name: Squarespace
@@ -4237,12 +4237,12 @@ stack:
       tier: declared
       url: /providers/squarespace/
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 31.9
       apps:
       - Givebutter
       band: developing
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 46.6
       mcp:
         source: https://github.com/WordPress/mcp-adapter
         status: verified
@@ -4259,12 +4259,12 @@ stack:
       tier: declared
       url: /providers/wordpress/
     - agent_band: agent-ready
-      agent_readiness: 36.7
+      agent_readiness: 36.4
       apps:
       - Givebutter
       band: thin
       in_catalog: true
-      kin_score: 31.7
+      kin_score: 30.4
       mcp:
         source: https://developer.godaddy.com/mcp
         status: verified
@@ -4281,12 +4281,12 @@ stack:
       tier: declared
       url: /providers/godaddy/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - Givebutter
       band: emerging
       in_catalog: true
-      kin_score: 22.2
+      kin_score: 20.3
       mcp:
         status: none
       name: Weebly
@@ -4310,14 +4310,14 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
       - Patreon
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -4341,7 +4341,7 @@ stack:
       - GoFundMe Pro (Classy)
       band: emerging
       in_catalog: true
-      kin_score: 12.0
+      kin_score: 17.6
       mcp:
         status: unknown
       name: SyncSmart
@@ -4399,13 +4399,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -4423,13 +4423,13 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -4447,12 +4447,12 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 33.1
+      agent_readiness: 37.6
       apps:
       - GoFundMe Pro (Classy)
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.9
+      kin_score: 67.7
       mcp:
         source: https://github.com/microsoft/Dataverse-MCP
         status: verified
@@ -4476,14 +4476,14 @@ stack:
       url: /capabilities/general-ledger-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -4501,13 +4501,13 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-aware
-      agent_readiness: 15.5
+      agent_readiness: 15.1
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
       band: thin
       in_catalog: true
-      kin_score: 26.3
+      kin_score: 26.5
       mcp:
         status: none
       name: Sage Intacct
@@ -4524,12 +4524,12 @@ stack:
       tier: declared
       url: /providers/sage-intacct/
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -4561,7 +4561,7 @@ stack:
       - Patreon
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -4579,35 +4579,35 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Patreon
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id007
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.patreon.android/latest/
       status: profiled
       tags: &id008
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 36.0
       apps:
       - HCB (Hack Club Bank)
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 39.1
+      kin_score: 51.6
       mcp:
         source: https://github.com/appsignal/appsignal-mcp
         status: verified
@@ -4632,13 +4632,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.8
+      agent_readiness: 47.8
       apps:
       - Givebutter
       - Patreon
       band: thin
       in_catalog: true
-      kin_score: 38.4
+      kin_score: 37.6
       mcp:
         source: https://developer.vimeo.com/api/mcp-server
         status: documented
@@ -4656,12 +4656,12 @@ stack:
       tier: declared
       url: /providers/vimeo/
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - Givebutter
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube
@@ -4677,12 +4677,12 @@ stack:
       tier: declared
       url: /providers/youtube/
     - agent_band: agent-ready
-      agent_readiness: 32.2
+      agent_readiness: 36.9
       apps:
       - Givebutter
       band: developing
       in_catalog: true
-      kin_score: 50.5
+      kin_score: 48.2
       mcp:
         status: none
       name: Twitch
@@ -4698,12 +4698,12 @@ stack:
       tier: declared
       url: /providers/twitch/
     - agent_band: agent-aware
-      agent_readiness: 21.9
+      agent_readiness: 21.5
       apps:
       - Patreon
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.5
+      kin_score: 13.2
       mcp:
         status: unknown
       name: TubeBuddy
@@ -4727,13 +4727,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Givebutter
       - GoFundMe Pro (Classy)
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -4751,12 +4751,12 @@ stack:
       tier: declared
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Patreon
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -4772,22 +4772,22 @@ stack:
       - Feature Flags
       tier: observed
       url: /providers/amplitude/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Patreon
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id007
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.patreon.android/latest/
       status: profiled
       tags: *id008
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.20
@@ -4797,12 +4797,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - HCB (Hack Club Bank)
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -4819,12 +4819,12 @@ stack:
       tier: observed
       url: /providers/twilio/
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp
@@ -4840,12 +4840,12 @@ stack:
       tier: declared
       url: /providers/whatsapp/
     - agent_band: agent-aware
-      agent_readiness: 19.8
+      agent_readiness: 19.4
       apps:
       - GoFundMe Pro (Classy)
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 37.0
+      kin_score: 48.4
       mcp:
         status: none
       name: Tatango
@@ -4886,12 +4886,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 45.8
+      agent_readiness: 44.9
       apps:
       - GoFundMe Pro (Classy)
       band: exemplar
       in_catalog: true
-      kin_score: 81.1
+      kin_score: 82.3
       mcp:
         source: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
         status: verified
@@ -4907,13 +4907,13 @@ stack:
       - Snowflake
       tier: declared
       url: /providers/snowflake/
-    - agent_band: agent-ready
-      agent_readiness: 36.1
+    - agent_band: agent-native
+      agent_readiness: 44.5
       apps:
       - GoFundMe Pro (Classy)
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.6
+      kin_score: 75.1
       mcp:
         source: https://github.com/awslabs/mcp/tree/main/src/redshift-mcp-server
         status: verified
@@ -4930,12 +4930,12 @@ stack:
       tier: declared
       url: /providers/amazon-redshift/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - GoFundMe Pro (Classy)
       band: minimal
       in_catalog: true
-      kin_score: 7.1
+      kin_score: 10.6
       mcp:
         status: unknown
       name: Bytespree
@@ -4959,12 +4959,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - Open Collective
       band: thin
       in_catalog: true
-      kin_score: 31.5
+      kin_score: 31.1
       mcp:
         status: none
       name: hCaptcha
@@ -4980,12 +4980,12 @@ stack:
       tier: observed
       url: /providers/hcaptcha/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 24.2
       apps:
       - HCB (Hack Club Bank)
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 28.8
       mcp:
         source: https://github.com/cloudflare/mcp
         status: verified
@@ -5010,12 +5010,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 71.4
+      agent_readiness: 70.0
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 79.9
+      kin_score: 87.3
       mcp:
         source: https://www.canva.dev/docs/mcp/
         status: verified
@@ -5032,12 +5032,12 @@ stack:
       tier: declared
       url: /providers/canva/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 27.4
       apps:
       - Patreon
       band: strong
       in_catalog: true
-      kin_score: 57.5
+      kin_score: 56.4
       mcp:
         status: none
       name: 99designs
@@ -5061,12 +5061,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 50.3
+      agent_readiness: 52.3
       apps:
       - HCB (Hack Club Bank)
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 68.2
       mcp:
         source: https://github.com/Airtable/airtable-mcp-cli
         status: verified
@@ -5083,12 +5083,12 @@ stack:
       tier: observed
       url: /providers/airtable/
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Givebutter
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -5110,14 +5110,14 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - HCB (Hack Club Bank)
       - Open Collective
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5143,12 +5143,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.6
+      agent_readiness: 34.9
       apps:
       - GoFundMe Pro (Classy)
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.3
+      kin_score: 66.5
       mcp:
         source: https://docs.tealium.com/server-side/config-mcp/about-config-mcp/
         status: documented
@@ -5165,12 +5165,12 @@ stack:
       tier: declared
       url: /providers/tealium/
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - GoFundMe Pro (Classy)
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -5194,12 +5194,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Givebutter
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -5219,9 +5219,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Patreon
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.5
+      kin_score: 29.8
       mcp:
         status: unknown
       name: Crowdcast
@@ -5245,12 +5245,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Liberapay
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5275,12 +5275,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - Open Collective
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp:
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -5305,12 +5305,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 15.0
+      agent_readiness: 14.6
       apps:
       - Patreon
       band: developing
       in_catalog: true
-      kin_score: 44.9
+      kin_score: 50.9
       mcp:
         source: https://github.com/Keeper-Security/keeper-mcp-golang-docker
         status: verified
@@ -5335,12 +5335,12 @@ stack:
       via_parent: Security Architecture Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.7
+      agent_readiness: 44.1
       apps:
       - HCB (Hack Club Bank)
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 76.8
       mcp:
         status: none
       name: AWS KMS
@@ -5364,12 +5364,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Open Collective
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -5393,13 +5393,13 @@ stack:
       url: /capabilities/email/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Givebutter
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -5424,12 +5424,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.9
+      agent_readiness: 43.0
       apps:
       - HCB (Hack Club Bank)
       band: exemplar
       in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.7
       mcp:
         source: https://github.com/gemini-cli-extensions/workspace
         status: verified
@@ -5454,12 +5454,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -5489,7 +5489,7 @@ stack:
       - Givebutter
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 32.2
       mcp:
         source: https://github.com/mondaycom/mcp
         status: verified
@@ -5514,12 +5514,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.6
+      agent_readiness: 26.8
       apps:
       - Givebutter
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 52.1
+      kin_score: 65.2
       mcp:
         status: none
       name: AddEvent
@@ -5543,12 +5543,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -5573,12 +5573,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Patreon
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -5603,12 +5603,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.9
+      agent_readiness: 26.8
       apps:
       - Givebutter
       band: strong
       in_catalog: true
-      kin_score: 55.6
+      kin_score: 56.0
       mcp:
         status: none
       name: Giphy
@@ -5632,12 +5632,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Patreon
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id005
       name: Facebook
       slug: facebook
@@ -5656,7 +5656,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 48.5
       apps:
       - Patreon
       band: thin
@@ -5687,12 +5687,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -5709,12 +5709,12 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -5742,7 +5742,7 @@ summary:
     unchecked: 9
     verified: 46
   mcp_verified: 46
-  mean_kin_score: 46.8
+  mean_kin_score: 49.8
   observed: 23
   queued: 9
   reference_apps: 7

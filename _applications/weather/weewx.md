@@ -40,10 +40,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 10.7
+    kin_score: 17.2
     mcp: &id001
       status: none
     slug: awekas
@@ -73,7 +73,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.3
+    kin_score: 4.6
     mcp: &id003
       status: unknown
     slug: cwop
@@ -100,10 +100,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
-    band: developing
+    agent_readiness: 33.4
+    band: strong
     in_catalog: true
-    kin_score: 52.9
+    kin_score: 64.3
     mcp: &id005
       status: none
     slug: met-office
@@ -131,9 +131,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 2.5
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.9
+    kin_score: 13.3
     mcp: &id007
       status: unknown
     slug: pwsweather
@@ -159,11 +159,11 @@ integrations:
     via_parent: Weather & Environment
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
-    band: minimal
+    agent_band: human-only
+    agent_readiness: 2.5
+    band: emerging
     in_catalog: true
-    kin_score: 8.3
+    kin_score: 12.4
     mcp: &id009
       status: unknown
     slug: royal-meteorological-institute-belgium
@@ -189,11 +189,11 @@ integrations:
     via_parent: Weather & Environment
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.5
+    agent_band: agent-ready
+    agent_readiness: 31.3
     band: thin
     in_catalog: true
-    kin_score: 35.3
+    kin_score: 34.9
     mcp: &id011
       status: none
     slug: wunderground
@@ -218,10 +218,10 @@ noindex: false
 permalink: /applications/weather/weewx/
 providers:
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 10.7
+  kin_score: 17.2
   mcp: *id001
   name: AWEKAS
   slug: awekas
@@ -232,7 +232,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.3
+  kin_score: 4.6
   mcp: *id003
   name: Citizen Weather Observer Program
   slug: cwop
@@ -240,10 +240,10 @@ providers:
   tags: *id004
   url: /providers/cwop/
 - agent_band: agent-ready
-  agent_readiness: 34.2
-  band: developing
+  agent_readiness: 33.4
+  band: strong
   in_catalog: true
-  kin_score: 52.9
+  kin_score: 64.3
   mcp: *id005
   name: Met Office WOW
   slug: met-office
@@ -252,31 +252,31 @@ providers:
   url: /providers/met-office/
 - agent_band: human-only
   agent_readiness: 2.5
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.9
+  kin_score: 13.3
   mcp: *id007
   name: PWSweather
   slug: pwsweather
   status: profiled
   tags: *id008
   url: /providers/pwsweather/
-- agent_band: agent-aware
-  agent_readiness: 5.4
-  band: minimal
+- agent_band: human-only
+  agent_readiness: 2.5
+  band: emerging
   in_catalog: true
-  kin_score: 8.3
+  kin_score: 12.4
   mcp: *id009
   name: RMI Belgium WOW-BE
   slug: royal-meteorological-institute-belgium
   status: profiled
   tags: *id010
   url: /providers/royal-meteorological-institute-belgium/
-- agent_band: agent-aware
-  agent_readiness: 25.5
+- agent_band: agent-ready
+  agent_readiness: 31.3
   band: thin
   in_catalog: true
-  kin_score: 35.3
+  kin_score: 34.9
   mcp: *id011
   name: Weather Underground
   slug: wunderground

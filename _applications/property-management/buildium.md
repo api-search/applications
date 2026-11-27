@@ -82,9 +82,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.3
+    kin_score: 11.5
     mcp: &id001
       status: none
     slug: apartment-list
@@ -114,7 +114,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 17.6
+    kin_score: 15.7
     mcp: &id003
       status: unknown
     slug: apartments-com
@@ -140,11 +140,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 29.1
+    agent_band: agent-aware
+    agent_readiness: 25.7
     band: emerging
     in_catalog: true
-    kin_score: 20.6
+    kin_score: 23.6
     mcp: &id005
       status: none
     slug: dwellsy
@@ -168,10 +168,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.3
+    agent_readiness: 27.2
     band: developing
     in_catalog: true
-    kin_score: 46.0
+    kin_score: 45.5
     mcp: &id007
       status: none
     slug: csg
@@ -198,10 +198,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 20.2
     band: developing
     in_catalog: true
-    kin_score: 46.1
+    kin_score: 46.7
     mcp: &id009
       status: unknown
     slug: happyco
@@ -280,10 +280,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.5
-    band: minimal
+    agent_readiness: 3.1
+    band: emerging
     in_catalog: true
-    kin_score: 9.0
+    kin_score: 13.4
     mcp: &id015
       status: unknown
     slug: nelco
@@ -310,10 +310,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.0
+    agent_readiness: 13.7
     band: thin
     in_catalog: true
-    kin_score: 31.2
+    kin_score: 32.4
     mcp: &id017
       status: unknown
     slug: paynearme
@@ -366,10 +366,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.3
-    band: emerging
+    agent_readiness: 13.0
+    band: thin
     in_catalog: true
-    kin_score: 22.3
+    kin_score: 33.5
     mcp: &id021
       status: unknown
     slug: tenant-turner
@@ -396,10 +396,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.2
+    agent_readiness: 30.5
     band: thin
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 28.0
     mcp: &id023
       status: unknown
     slug: transunion
@@ -429,7 +429,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 15.9
+    kin_score: 14.7
     mcp: &id025
       status: none
     slug: trulia
@@ -456,10 +456,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.3
-    band: thin
+    agent_readiness: 21.8
+    band: developing
     in_catalog: true
-    kin_score: 38.5
+    kin_score: 40.5
     mcp: &id027
       status: none
     slug: zillow-group
@@ -515,9 +515,9 @@ permalink: /applications/property-management/buildium/
 providers:
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.3
+  kin_score: 11.5
   mcp: *id001
   name: Apartment List
   slug: apartment-list
@@ -528,18 +528,18 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 17.6
+  kin_score: 15.7
   mcp: *id003
   name: Apartments.com
   slug: apartments-com
   status: profiled
   tags: *id004
   url: /providers/apartments-com/
-- agent_band: agent-ready
-  agent_readiness: 29.1
+- agent_band: agent-aware
+  agent_readiness: 25.7
   band: emerging
   in_catalog: true
-  kin_score: 20.6
+  kin_score: 23.6
   mcp: *id005
   name: Dwellsy
   slug: dwellsy
@@ -547,10 +547,10 @@ providers:
   tags: *id006
   url: /providers/dwellsy/
 - agent_band: agent-aware
-  agent_readiness: 22.3
+  agent_readiness: 27.2
   band: developing
   in_catalog: true
-  kin_score: 46.0
+  kin_score: 45.5
   mcp: *id007
   name: Forte (CSG Forte)
   slug: csg
@@ -558,10 +558,10 @@ providers:
   tags: *id008
   url: /providers/csg/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 20.2
   band: developing
   in_catalog: true
-  kin_score: 46.1
+  kin_score: 46.7
   mcp: *id009
   name: HappyCo
   slug: happyco
@@ -591,10 +591,10 @@ providers:
   tags: *id014
   url: null
 - agent_band: human-only
-  agent_readiness: 2.5
-  band: minimal
+  agent_readiness: 3.1
+  band: emerging
   in_catalog: true
-  kin_score: 9.0
+  kin_score: 13.4
   mcp: *id015
   name: Nelco
   slug: nelco
@@ -602,10 +602,10 @@ providers:
   tags: *id016
   url: /providers/nelco/
 - agent_band: agent-aware
-  agent_readiness: 14.0
+  agent_readiness: 13.7
   band: thin
   in_catalog: true
-  kin_score: 31.2
+  kin_score: 32.4
   mcp: *id017
   name: PayNearMe
   slug: paynearme
@@ -624,10 +624,10 @@ providers:
   tags: *id020
   url: null
 - agent_band: agent-aware
-  agent_readiness: 13.3
-  band: emerging
+  agent_readiness: 13.0
+  band: thin
   in_catalog: true
-  kin_score: 22.3
+  kin_score: 33.5
   mcp: *id021
   name: Tenant Turner
   slug: tenant-turner
@@ -635,10 +635,10 @@ providers:
   tags: *id022
   url: /providers/tenant-turner/
 - agent_band: agent-ready
-  agent_readiness: 31.2
+  agent_readiness: 30.5
   band: thin
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 28.0
   mcp: *id023
   name: TransUnion
   slug: transunion
@@ -649,7 +649,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 15.9
+  kin_score: 14.7
   mcp: *id025
   name: Trulia
   slug: trulia
@@ -657,10 +657,10 @@ providers:
   tags: *id026
   url: /providers/trulia/
 - agent_band: agent-aware
-  agent_readiness: 22.3
-  band: thin
+  agent_readiness: 21.8
+  band: developing
   in_catalog: true
-  kin_score: 38.5
+  kin_score: 40.5
   mcp: *id027
   name: Zillow
   slug: zillow-group

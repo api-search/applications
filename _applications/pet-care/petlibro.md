@@ -97,10 +97,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 60.4
+    agent_readiness: 61.9
     band: exemplar
     in_catalog: true
-    kin_score: 84.1
+    kin_score: 83.3
     mcp: &id001
       source: https://github.com/AfterShip/tracking-and-returns-mcp
       status: verified
@@ -128,10 +128,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.7
+    agent_readiness: 56.9
     band: strong
     in_catalog: true
-    kin_score: 63.5
+    kin_score: 65.2
     mcp: &id003
       source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
       status: verified
@@ -159,10 +159,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id007
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -189,22 +189,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id009
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id010
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics / Crashlytics
   provider: firebase
@@ -221,10 +221,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_readiness: 19.2
+    band: emerging
     in_catalog: true
-    kin_score: 27.2
+    kin_score: 26.0
     mcp: &id013
       status: none
     slug: judge-me
@@ -251,10 +251,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.5
+    agent_readiness: 51.8
     band: exemplar
     in_catalog: true
-    kin_score: 84.6
+    kin_score: 83.8
     mcp: &id017
       source: https://shopify.dev/docs/apps/build/devmcp
       status: verified
@@ -282,10 +282,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_readiness: 30.4
     band: developing
     in_catalog: true
-    kin_score: 43.6
+    kin_score: 43.0
     mcp: &id005
       status: none
     slug: apple-pay
@@ -312,10 +312,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 39.7
     band: strong
     in_catalog: true
-    kin_score: 66.2
+    kin_score: 65.2
     mcp: &id011
       status: none
     slug: google-pay
@@ -342,10 +342,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id015
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -373,10 +373,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 3.9
+    agent_readiness: 3.8
     band: thin
     in_catalog: true
-    kin_score: 29.9
+    kin_score: 29.8
     mcp: &id019
       status: none
     slug: venmo
@@ -401,10 +401,10 @@ noindex: false
 permalink: /applications/pet-care/petlibro/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 60.4
+  agent_readiness: 61.9
   band: exemplar
   in_catalog: true
-  kin_score: 84.1
+  kin_score: 83.3
   mcp: *id001
   name: AfterShip
   slug: aftership
@@ -412,10 +412,10 @@ providers:
   tags: *id002
   url: /providers/aftership/
 - agent_band: agent-ready
-  agent_readiness: 56.7
+  agent_readiness: 56.9
   band: strong
   in_catalog: true
-  kin_score: 63.5
+  kin_score: 65.2
   mcp: *id003
   name: Amplitude
   slug: amplitude
@@ -423,10 +423,10 @@ providers:
   tags: *id004
   url: /providers/amplitude/
 - agent_band: agent-ready
-  agent_readiness: 31.1
+  agent_readiness: 30.4
   band: developing
   in_catalog: true
-  kin_score: 43.6
+  kin_score: 43.0
   mcp: *id005
   name: Apple Pay
   slug: apple-pay
@@ -434,32 +434,32 @@ providers:
   tags: *id006
   url: /providers/apple-pay/
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id007
   name: AppsFlyer
   slug: appsflyer
   status: profiled
   tags: *id008
   url: /providers/appsflyer/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id009
-  name: Google Firebase Analytics / Crashlytics
-  slug: firebase
-  status: profiled
-  tags: *id010
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 66.2
+  kin_score: 62.0
+  mcp: *id009
+  name: Google Firebase Analytics / Crashlytics
+  slug: google-firebase
+  status: profiled
+  tags: *id010
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 39.7
+  band: strong
+  in_catalog: true
+  kin_score: 65.2
   mcp: *id011
   name: Google Pay
   slug: google-pay
@@ -467,10 +467,10 @@ providers:
   tags: *id012
   url: /providers/google-pay/
 - agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+  agent_readiness: 19.2
+  band: emerging
   in_catalog: true
-  kin_score: 27.2
+  kin_score: 26.0
   mcp: *id013
   name: Judge.me
   slug: judge-me
@@ -478,10 +478,10 @@ providers:
   tags: *id014
   url: /providers/judge-me/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id015
   name: PayPal
   slug: paypal
@@ -489,10 +489,10 @@ providers:
   tags: *id016
   url: /providers/paypal/
 - agent_band: agent-ready
-  agent_readiness: 52.5
+  agent_readiness: 51.8
   band: exemplar
   in_catalog: true
-  kin_score: 84.6
+  kin_score: 83.8
   mcp: *id017
   name: Shopify
   slug: shopify
@@ -500,10 +500,10 @@ providers:
   tags: *id018
   url: /providers/shopify/
 - agent_band: human-only
-  agent_readiness: 3.9
+  agent_readiness: 3.8
   band: thin
   in_catalog: true
-  kin_score: 29.9
+  kin_score: 29.8
   mcp: *id019
   name: Venmo
   slug: venmo

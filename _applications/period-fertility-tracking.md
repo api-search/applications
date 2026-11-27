@@ -735,13 +735,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Clue
       - Natural Cycles
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp: &id001
         status: none
       name: Apple
@@ -758,13 +758,13 @@ stack:
       tier: declared
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 28.1
+      agent_readiness: 27.5
       apps:
       - Clue
       - Natural Cycles
       band: developing
       in_catalog: true
-      kin_score: 50.2
+      kin_score: 50.4
       mcp:
         status: none
       name: Oura
@@ -781,13 +781,13 @@ stack:
       tier: declared
       url: /providers/oura-ring/
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.3
       apps:
       - Clue
       - Natural Cycles
       band: developing
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 49.1
       mcp:
         status: none
       name: WHOOP
@@ -810,7 +810,7 @@ stack:
       - Natural Cycles
       band: emerging
       in_catalog: true
-      kin_score: 21.4
+      kin_score: 20.0
       mcp:
         status: none
       name: Garmin
@@ -827,12 +827,12 @@ stack:
       tier: declared
       url: /providers/garmin/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.7
       apps:
       - Clue
       band: strong
       in_catalog: true
-      kin_score: 61.6
+      kin_score: 61.5
       mcp:
         status: none
       name: Fitbit
@@ -848,12 +848,12 @@ stack:
       tier: declared
       url: /providers/fitbit/
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 30.3
       apps:
       - Clue
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.9
       mcp:
         status: unknown
       name: Polar
@@ -869,12 +869,12 @@ stack:
       tier: declared
       url: /providers/polar/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - Clue
       band: thin
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 36.4
       mcp:
         status: none
       name: Withings
@@ -890,12 +890,12 @@ stack:
       tier: declared
       url: /providers/withings/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 48.5
       apps:
       - Clue
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 34.1
       mcp:
         source: https://vision.ultrahuman.com/developer-docs?type=mcp
         status: verified
@@ -954,13 +954,13 @@ stack:
       via_parent: Wearable & Health Data Sync
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Flo
       - Ovia
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp: *id001
       name: Apple
       slug: apple
@@ -972,12 +972,12 @@ stack:
       tier: declared
       url: /providers/apple/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Flo
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -993,13 +993,13 @@ stack:
       - Google
       tier: declared
       url: /providers/google/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 33.1
       apps:
       - Ovia
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 36.2
+      kin_score: 51.4
       mcp:
         status: none
       name: Google Fit
@@ -1025,13 +1025,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Flo
       - Ovia
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -1049,13 +1049,13 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 23.3
       apps:
       - Clue
       - Natural Cycles
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.9
+      kin_score: 30.9
       mcp:
         status: none
       name: Adjust
@@ -1079,39 +1079,39 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Clue
       - Flo
       - Ovia
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.clue.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.ovuline.fertility/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/org.iggymedia.periodtracker/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Ovia
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -1136,13 +1136,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Clue
       - Flo
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -1191,7 +1191,7 @@ stack:
       - Ovia
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1218,12 +1218,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.0
+      agent_readiness: 25.5
       apps:
       - Ovia
       band: developing
       in_catalog: true
-      kin_score: 40.4
+      kin_score: 40.0
       mcp:
         status: none
       name: Apptentive
@@ -1247,12 +1247,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 66.2
+      agent_readiness: 65.1
       apps:
       - Natural Cycles
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 68.0
       mcp:
         status: none
       name: MoEngage
@@ -1276,12 +1276,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Ovia
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -1308,7 +1308,7 @@ summary:
     unchecked: 3
     verified: 6
   mcp_verified: 6
-  mean_kin_score: 52.0
+  mean_kin_score: 54.1
   observed: 10
   queued: 3
   reference_apps: 7

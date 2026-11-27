@@ -60,10 +60,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 44.8
     band: developing
     in_catalog: true
-    kin_score: 47.9
+    kin_score: 45.9
     mcp: &id001
       source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
       status: verified
@@ -91,10 +91,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 16.9
     band: emerging
     in_catalog: true
-    kin_score: 17.3
+    kin_score: 20.1
     mcp: &id003
       status: none
     slug: wallabag
@@ -121,10 +121,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.8
+    agent_readiness: 29.3
     band: developing
     in_catalog: true
-    kin_score: 43.0
+    kin_score: 41.8
     mcp: &id005
       status: none
     slug: wikipedia
@@ -149,10 +149,10 @@ noindex: false
 permalink: /applications/ebooks-reading/koreader/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 44.8
   band: developing
   in_catalog: true
-  kin_score: 47.9
+  kin_score: 45.9
   mcp: *id001
   name: Dropbox
   slug: dropbox
@@ -160,10 +160,10 @@ providers:
   tags: *id002
   url: /providers/dropbox/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 16.9
   band: emerging
   in_catalog: true
-  kin_score: 17.3
+  kin_score: 20.1
   mcp: *id003
   name: wallabag
   slug: wallabag
@@ -171,10 +171,10 @@ providers:
   tags: *id004
   url: /providers/wallabag/
 - agent_band: agent-ready
-  agent_readiness: 29.8
+  agent_readiness: 29.3
   band: developing
   in_catalog: true
-  kin_score: 43.0
+  kin_score: 41.8
   mcp: *id005
   name: Wikipedia
   slug: wikipedia

@@ -62,10 +62,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 31.5
     mcp: &id005
       status: none
     slug: maxmind
@@ -92,10 +92,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 69.6
+    agent_readiness: 69.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.8
+    kin_score: 82.5
     mcp: &id001
       source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
       status: verified
@@ -123,10 +123,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id003
       status: none
     slug: google-tag-manager
@@ -153,10 +153,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.4
+    agent_readiness: 31.9
     band: developing
     in_catalog: true
-    kin_score: 46.0
+    kin_score: 46.6
     mcp: &id007
       source: https://github.com/WordPress/mcp-adapter
       status: verified
@@ -182,10 +182,10 @@ noindex: false
 permalink: /applications/web-analytics/umami/
 providers:
 - agent_band: agent-native
-  agent_readiness: 69.6
+  agent_readiness: 69.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.8
+  kin_score: 82.5
   mcp: *id001
   name: Cloudflare
   slug: cloudflare
@@ -193,10 +193,10 @@ providers:
   tags: *id002
   url: /providers/cloudflare/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 35.8
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 65.8
   mcp: *id003
   name: Google Tag Manager
   slug: google-tag-manager
@@ -204,10 +204,10 @@ providers:
   tags: *id004
   url: /providers/google-tag-manager/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 31.5
   mcp: *id005
   name: MaxMind GeoIP2
   slug: maxmind
@@ -215,10 +215,10 @@ providers:
   tags: *id006
   url: /providers/maxmind/
 - agent_band: agent-ready
-  agent_readiness: 31.4
+  agent_readiness: 31.9
   band: developing
   in_catalog: true
-  kin_score: 46.0
+  kin_score: 46.6
   mcp: *id007
   name: WordPress
   slug: wordpress

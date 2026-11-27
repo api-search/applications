@@ -72,10 +72,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 44.8
     band: developing
     in_catalog: true
-    kin_score: 47.9
+    kin_score: 45.9
     mcp: &id001
       source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
       status: verified
@@ -103,10 +103,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
+    agent_readiness: 42.8
     band: exemplar
     in_catalog: true
-    kin_score: 69.5
+    kin_score: 70.1
     mcp: &id003
       source: https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview
       status: verified
@@ -134,10 +134,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.4
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 9.0
+    kin_score: 13.7
     mcp: &id005
       status: none
     slug: orion-law
@@ -164,10 +164,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.0
-    band: thin
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 36.2
+    kin_score: 42.1
     mcp: &id007
       status: unknown
     slug: rocket-matter
@@ -194,10 +194,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 16.9
+    kin_score: 22.8
     mcp: &id009
       status: unknown
     slug: tabs3
@@ -224,10 +224,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: emerging
+    agent_readiness: 0.0
+    band: thin
     in_catalog: true
-    kin_score: 18.2
+    kin_score: 27.2
     mcp: &id011
       status: unknown
     slug: timesolv
@@ -252,10 +252,10 @@ noindex: false
 permalink: /applications/legal-practice/cosmolex/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 44.8
   band: developing
   in_catalog: true
-  kin_score: 47.9
+  kin_score: 45.9
   mcp: *id001
   name: Dropbox
   slug: dropbox
@@ -263,10 +263,10 @@ providers:
   tags: *id002
   url: /providers/dropbox/
 - agent_band: agent-ready
-  agent_readiness: 40.9
+  agent_readiness: 42.8
   band: exemplar
   in_catalog: true
-  kin_score: 69.5
+  kin_score: 70.1
   mcp: *id003
   name: Office 365
   slug: microsoft-office-365
@@ -274,10 +274,10 @@ providers:
   tags: *id004
   url: /providers/microsoft-office-365/
 - agent_band: agent-aware
-  agent_readiness: 14.4
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 9.0
+  kin_score: 13.7
   mcp: *id005
   name: Orion Law
   slug: orion-law
@@ -285,10 +285,10 @@ providers:
   tags: *id006
   url: /providers/orion-law/
 - agent_band: agent-ready
-  agent_readiness: 33.0
-  band: thin
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 36.2
+  kin_score: 42.1
   mcp: *id007
   name: Rocket Matter
   slug: rocket-matter
@@ -296,10 +296,10 @@ providers:
   tags: *id008
   url: /providers/rocket-matter/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 16.9
+  kin_score: 22.8
   mcp: *id009
   name: Tabs3
   slug: tabs3
@@ -307,10 +307,10 @@ providers:
   tags: *id010
   url: /providers/tabs3/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: emerging
+  agent_readiness: 0.0
+  band: thin
   in_catalog: true
-  kin_score: 18.2
+  kin_score: 27.2
   mcp: *id011
   name: TimeSolv
   slug: timesolv

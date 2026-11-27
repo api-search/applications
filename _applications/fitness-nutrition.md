@@ -1580,8 +1580,8 @@ apps:
   url: https://www.loseit.com/
 author: API Evangelist
 candidates:
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: developing
   capability:
     attribution: Turbo EA
@@ -1591,7 +1591,7 @@ candidates:
     url: /capabilities/geospatial-survey-management/
     via_parent: null
   in_catalog: true
-  kin_score: 44.4
+  kin_score: 45.5
   mcp:
     status: none
   name: openstreetmap
@@ -1779,7 +1779,7 @@ stack:
       - Strava
       band: emerging
       in_catalog: true
-      kin_score: 21.4
+      kin_score: 20.0
       mcp:
         status: none
       name: garmin
@@ -1797,7 +1797,7 @@ stack:
       tier: observed
       url: /providers/garmin/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.7
       apps:
       - Cronometer
       - MyFitnessPal
@@ -1805,7 +1805,7 @@ stack:
       - Strava
       band: strong
       in_catalog: true
-      kin_score: 61.6
+      kin_score: 61.5
       mcp:
         status: none
       name: fitbit
@@ -1823,7 +1823,7 @@ stack:
       tier: declared
       url: /providers/fitbit/
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 30.3
       apps:
       - Cronometer
       - MyFitnessPal
@@ -1831,7 +1831,7 @@ stack:
       - Strava
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.9
       mcp:
         status: unknown
       name: polar
@@ -1849,14 +1849,14 @@ stack:
       tier: declared
       url: /providers/polar/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Lose It!
       - MyFitnessPal
       - SparkyFitness
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp: &id005
         source: https://github.com/google/mcp
         status: verified
@@ -1875,14 +1875,14 @@ stack:
       tier: declared
       url: /providers/google/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Cronometer
       - Lose It!
       - SparkyFitness
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: apple
@@ -1900,14 +1900,14 @@ stack:
       tier: declared
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 28.1
+      agent_readiness: 27.5
       apps:
       - Cronometer
       - SparkyFitness
       - Strava
       band: developing
       in_catalog: true
-      kin_score: 50.2
+      kin_score: 50.4
       mcp:
         status: none
       name: oura-ring
@@ -1925,14 +1925,14 @@ stack:
       tier: declared
       url: /providers/oura-ring/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - Cronometer
       - MyFitnessPal
       - SparkyFitness
       band: thin
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 36.4
       mcp:
         status: none
       name: withings
@@ -1950,13 +1950,13 @@ stack:
       tier: declared
       url: /providers/withings/
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.3
       apps:
       - Cronometer
       - Strava
       band: developing
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 49.1
       mcp:
         status: none
       name: whoop
@@ -1973,13 +1973,13 @@ stack:
       tier: declared
       url: /providers/whoop/
     - agent_band: agent-aware
-      agent_readiness: 28.3
+      agent_readiness: 27.7
       apps:
       - SparkyFitness
       - Strava
       band: thin
       in_catalog: true
-      kin_score: 28.0
+      kin_score: 35.8
       mcp:
         source: https://github.com/coroslab/COROS-MCP
         status: verified
@@ -1996,34 +1996,13 @@ stack:
       - Wearables
       tier: declared
       url: /providers/coros/
-    - agent_band: agent-ready
-      agent_readiness: 37.3
+    - agent_band: agent-aware
+      agent_readiness: 17.1
       apps:
       - Strava
       band: thin
       in_catalog: true
-      kin_score: 34.1
-      mcp:
-        status: none
-      name: samsung
-      slug: samsung
-      sources:
-      - https://support.strava.com/hc/en-us/articles/223297187
-      status: profiled
-      tags:
-      - Consumer Electronics
-      - Developer Platform
-      - IoT
-      - Mobile
-      tier: declared
-      url: /providers/samsung/
-    - agent_band: agent-aware
-      agent_readiness: 17.4
-      apps:
-      - Strava
-      band: emerging
-      in_catalog: true
-      kin_score: 22.7
+      kin_score: 34.3
       mcp:
         status: none
       name: suunto
@@ -2038,6 +2017,27 @@ stack:
       - Wearables
       tier: declared
       url: /providers/suunto/
+    - agent_band: agent-ready
+      agent_readiness: 36.6
+      apps:
+      - Strava
+      band: thin
+      in_catalog: true
+      kin_score: 33.2
+      mcp:
+        status: none
+      name: samsung
+      slug: samsung
+      sources:
+      - https://support.strava.com/hc/en-us/articles/223297187
+      status: profiled
+      tags:
+      - Consumer Electronics
+      - Developer Platform
+      - IoT
+      - Mobile
+      tier: declared
+      url: /providers/samsung/
   - capability:
       attribution: API Evangelist extension
       id: AE-130.30.10
@@ -2047,13 +2047,13 @@ stack:
       via_parent: Nutrition & Food Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.5
       apps:
       - SparkyFitness
       - wger
       band: strong
       in_catalog: true
-      kin_score: 65.1
+      kin_score: 66.2
       mcp:
         status: none
       name: open-food-facts
@@ -2070,12 +2070,12 @@ stack:
       tier: observed
       url: /providers/open-food-facts/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 31.2
       apps:
       - SparkyFitness
       band: developing
       in_catalog: true
-      kin_score: 53.6
+      kin_score: 52.9
       mcp:
         status: none
       name: fatsecret
@@ -2091,12 +2091,12 @@ stack:
       tier: declared
       url: /providers/fatsecret/
     - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 22.3
       apps:
       - SparkyFitness
       band: developing
       in_catalog: true
-      kin_score: 39.5
+      kin_score: 39.7
       mcp:
         status: none
       name: swiss-food-composition-database
@@ -2112,12 +2112,12 @@ stack:
       tier: declared
       url: /providers/swiss-food-composition-database/
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 25.8
       apps:
       - SparkyFitness
       band: thin
       in_catalog: true
-      kin_score: 34.3
+      kin_score: 32.6
       mcp:
         status: none
       name: nutritionix
@@ -2133,12 +2133,12 @@ stack:
       tier: declared
       url: /providers/nutritionix/
     - agent_band: agent-aware
-      agent_readiness: 21.0
+      agent_readiness: 20.6
       apps:
       - SparkyFitness
       band: thin
       in_catalog: true
-      kin_score: 32.4
+      kin_score: 30.8
       mcp:
         status: none
       name: usda
@@ -2159,7 +2159,7 @@ stack:
       - SparkyFitness
       band: emerging
       in_catalog: true
-      kin_score: 13.3
+      kin_score: 14.3
       mcp:
         status: none
       name: yazio
@@ -2175,12 +2175,12 @@ stack:
       tier: declared
       url: /providers/yazio/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - SparkyFitness
       band: minimal
       in_catalog: true
-      kin_score: 4.7
+      kin_score: 5.2
       mcp:
         status: none
       name: livsmedelsverket
@@ -2201,7 +2201,7 @@ stack:
       - SparkyFitness
       band: minimal
       in_catalog: true
-      kin_score: 3.4
+      kin_score: 2.6
       mcp:
         status: unknown
       name: health-canada
@@ -2225,14 +2225,14 @@ stack:
       via_parent: Activity & Fitness Tracking
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 51.3
       apps:
       - Endurain
       - MyFitnessPal
       - SparkyFitness
       band: developing
       in_catalog: true
-      kin_score: 50.0
+      kin_score: 52.0
       mcp:
         status: none
       name: strava
@@ -2250,12 +2250,12 @@ stack:
       tier: observed
       url: /providers/strava/
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 24.1
       apps:
       - MyFitnessPal
       band: thin
       in_catalog: true
-      kin_score: 37.0
+      kin_score: 35.6
       mcp:
         status: none
       name: under-armour
@@ -2270,13 +2270,13 @@ stack:
       - Wearables
       tier: declared
       url: /providers/under-armour/
-    - agent_band: agent-aware
-      agent_readiness: 23.7
+    - agent_band: agent-ready
+      agent_readiness: 28.6
       apps:
       - MyFitnessPal
       band: thin
       in_catalog: true
-      kin_score: 30.2
+      kin_score: 29.4
       mcp:
         status: none
       name: trainingpeaks
@@ -2292,12 +2292,12 @@ stack:
       tier: declared
       url: /providers/trainingpeaks/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - MyFitnessPal
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.2
+      kin_score: 13.9
       mcp:
         status: none
       name: runkeeper
@@ -2318,7 +2318,7 @@ stack:
       - Strava
       band: minimal
       in_catalog: true
-      kin_score: 8.8
+      kin_score: 7.7
       mcp:
         status: none
       name: nike
@@ -2341,13 +2341,13 @@ stack:
       url: /capabilities/activity-fitness-tracking/
       via_parent: Activity & Fitness Tracking
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 7.4
+    - agent_band: human-only
+      agent_readiness: 4.4
       apps:
       - MyFitnessPal
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.8
+      kin_score: 14.8
       mcp:
         status: unknown
       name: renpho
@@ -2368,7 +2368,7 @@ stack:
       - MyFitnessPal
       band: minimal
       in_catalog: true
-      kin_score: 6.3
+      kin_score: 8.3
       mcp:
         status: unknown
       name: vesync
@@ -2384,12 +2384,12 @@ stack:
       tier: declared
       url: /providers/vesync/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - MyFitnessPal
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 7.6
       mcp:
         status: unknown
       name: accupedo
@@ -2413,12 +2413,12 @@ stack:
       via_parent: Activity & Fitness Tracking
     providers:
     - agent_band: agent-aware
-      agent_readiness: 27.6
+      agent_readiness: 27.1
       apps:
       - Strava
       band: developing
       in_catalog: true
-      kin_score: 46.5
+      kin_score: 46.6
       mcp:
         status: none
       name: wahoo
@@ -2434,12 +2434,12 @@ stack:
       tier: declared
       url: /providers/wahoo/
     - agent_band: agent-aware
-      agent_readiness: 12.4
+      agent_readiness: 12.2
       apps:
       - Strava
       band: minimal
       in_catalog: true
-      kin_score: 8.2
+      kin_score: 8.0
       mcp:
         status: none
       name: peloton
@@ -2460,7 +2460,7 @@ stack:
       - Strava
       band: minimal
       in_catalog: true
-      kin_score: 7.3
+      kin_score: 6.0
       mcp:
         status: none
       name: zwift
@@ -2484,12 +2484,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.7
+      agent_readiness: 26.2
       apps:
       - SparkyFitness
       band: strong
       in_catalog: true
-      kin_score: 61.0
+      kin_score: 59.5
       mcp:
         status: none
       name: tandoor
@@ -2505,12 +2505,12 @@ stack:
       tier: declared
       url: /providers/tandoor/
     - agent_band: agent-ready
-      agent_readiness: 29.7
+      agent_readiness: 29.1
       apps:
       - SparkyFitness
       band: developing
       in_catalog: true
-      kin_score: 41.5
+      kin_score: 41.7
       mcp:
         status: none
       name: mealie
@@ -2526,12 +2526,12 @@ stack:
       tier: declared
       url: /providers/mealie/
     - agent_band: agent-aware
-      agent_readiness: 9.2
+      agent_readiness: 9.0
       apps:
       - SparkyFitness
       band: emerging
       in_catalog: true
-      kin_score: 24.5
+      kin_score: 24.7
       mcp:
         status: none
       name: norish
@@ -2555,12 +2555,12 @@ stack:
       via_parent: Activity & Fitness Tracking
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.1
+      agent_readiness: 34.4
       apps:
       - SparkyFitness
       band: developing
       in_catalog: true
-      kin_score: 49.5
+      kin_score: 47.7
       mcp:
         source: https://github.com/wger-project/mcp-server
         status: verified
@@ -2577,12 +2577,12 @@ stack:
       tier: declared
       url: /providers/wger/
     - agent_band: agent-aware
-      agent_readiness: 21.7
+      agent_readiness: 21.2
       apps:
       - SparkyFitness
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 45.7
       mcp:
         status: none
       name: hevy
@@ -2598,12 +2598,12 @@ stack:
       tier: declared
       url: /providers/hevy/
     - agent_band: agent-aware
-      agent_readiness: 6.3
+      agent_readiness: 6.2
       apps:
       - SparkyFitness
       band: emerging
       in_catalog: true
-      kin_score: 22.4
+      kin_score: 23.6
       mcp:
         status: none
       name: free-exercise-db
@@ -2627,12 +2627,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.5
+      agent_readiness: 27.9
       apps:
       - Cronometer
       band: thin
       in_catalog: true
-      kin_score: 32.0
+      kin_score: 33.5
       mcp:
         status: none
       name: dexcom
@@ -2682,42 +2682,42 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Cronometer
       - Lose It!
       - MyFitnessPal
       - Strava
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.cronometer.android.gold/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.fitnow.loseit/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.myfitnesspal.android/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Cronometer
       - Lose It!
       - MyFitnessPal
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -2736,13 +2736,13 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - MyFitnessPal
       - Strava
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id003
         status: none
       name: facebook
@@ -2767,14 +2767,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Cronometer
       - Lose It!
       - MyFitnessPal
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: google-admob
@@ -2791,14 +2791,14 @@ stack:
       - App Monetization
       tier: observed
       url: /providers/google-admob/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Lose It!
       - MyFitnessPal
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -2816,12 +2816,12 @@ stack:
       tier: observed
       url: /providers/amazon/
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 25.3
       apps:
       - MyFitnessPal
       band: exemplar
       in_catalog: true
-      kin_score: 66.7
+      kin_score: 66.5
       mcp:
         source: https://github.com/Unity-Technologies/industry-ai-workflows
         status: verified
@@ -2838,12 +2838,12 @@ stack:
       tier: observed
       url: /providers/unity/
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - MyFitnessPal
       band: strong
       in_catalog: true
-      kin_score: 56.1
+      kin_score: 55.6
       mcp:
         source: https://github.com/IABTechLab/agentic-real-time-framework
         status: verified
@@ -2884,18 +2884,18 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Cronometer
       - Lose It!
       - MyFitnessPal
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.cronometer.android.gold/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.fitnow.loseit/latest/
@@ -2903,14 +2903,14 @@ stack:
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
       agent_readiness: 50.2
       apps:
       - Strava
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2927,12 +2927,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 30.2
       apps:
       - Lose It!
       band: developing
       in_catalog: true
-      kin_score: 49.4
+      kin_score: 48.1
       mcp:
         source: https://github.com/rollbar/rollbar-mcp-server
         status: verified
@@ -2957,12 +2957,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - MyFitnessPal
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -2979,12 +2979,12 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-ready
-      agent_readiness: 50.0
+      agent_readiness: 48.9
       apps:
       - Lose It!
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.4
+      kin_score: 65.9
       mcp:
         status: none
       name: singular
@@ -3000,12 +3000,30 @@ stack:
       tier: observed
       url: /providers/singular/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 21.9
+      apps:
+      - Strava
+      band: thin
+      in_catalog: true
+      kin_score: 33.8
+      mcp:
+        status: none
+      name: branch-io
+      slug: branch-io
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.strava/latest/
+      status: profiled
+      tags:
+      - Company
+      tier: observed
+      url: /providers/branch-io/
+    - agent_band: agent-aware
+      agent_readiness: 23.3
       apps:
       - Cronometer
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.9
+      kin_score: 30.9
       mcp:
         status: none
       name: adjust
@@ -3020,24 +3038,6 @@ stack:
       - Measurements
       tier: observed
       url: /providers/adjust/
-    - agent_band: agent-aware
-      agent_readiness: 24.7
-      apps:
-      - Strava
-      band: emerging
-      in_catalog: true
-      kin_score: 23.0
-      mcp:
-        status: none
-      name: branch-io
-      slug: branch-io
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.strava/latest/
-      status: profiled
-      tags:
-      - Company
-      tier: observed
-      url: /providers/branch-io/
   - capability:
       attribution: Turbo EA
       id: BC-3710.30
@@ -3047,14 +3047,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Endurain
       - Tandoor Recipes
       - wger
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3081,13 +3081,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - MyFitnessPal
       - Strava
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: facebook
       slug: facebook
@@ -3107,12 +3107,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 18.7
+      agent_readiness: 21.7
       apps:
       - SparkyFitness
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.3
+      kin_score: 34.3
       mcp:
         status: none
       name: zenith-hosting
@@ -3128,12 +3128,12 @@ stack:
       tier: declared
       url: /providers/zenith-hosting/
     - agent_band: agent-aware
-      agent_readiness: 15.0
+      agent_readiness: 12.7
       apps:
       - SparkyFitness
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 18.8
+      kin_score: 27.4
       mcp:
         status: none
       name: pikapods
@@ -3156,13 +3156,13 @@ stack:
       url: /capabilities/maps-tiles/
       via_parent: Maps & Tiles
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - FitTrackee
       band: developing
       in_catalog: true
-      kin_score: 44.4
+      kin_score: 45.5
       mcp:
         status: none
       name: openstreetmap
@@ -3186,12 +3186,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.9
       apps:
       - MyFitnessPal
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 35.9
       mcp:
         status: none
       name: split
@@ -3215,12 +3215,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Tandoor Recipes
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3245,12 +3245,12 @@ stack:
       via_parent: Video Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.1
+      agent_readiness: 29.5
       apps:
       - MyFitnessPal
       band: thin
       in_catalog: true
-      kin_score: 35.0
+      kin_score: 33.3
       mcp:
         status: none
       name: brightcove
@@ -3276,13 +3276,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Mealie
       - SparkyFitness
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -3300,12 +3300,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - SparkyFitness
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -3322,12 +3322,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - SparkyFitness
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp: *id005
       name: google
       slug: google
@@ -3349,7 +3349,7 @@ summary:
     unchecked: 2
     verified: 15
   mcp_verified: 15
-  mean_kin_score: 40.5
+  mean_kin_score: 42.0
   observed: 24
   queued: 2
   reference_apps: 10

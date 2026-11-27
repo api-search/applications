@@ -69,10 +69,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 26.3
     band: developing
     in_catalog: true
-    kin_score: 48.5
+    kin_score: 45.8
     mcp: &id001
       status: none
     slug: ably
@@ -99,10 +99,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_readiness: 25.4
     band: thin
     in_catalog: true
-    kin_score: 36.4
+    kin_score: 35.5
     mcp: &id003
       source: https://github.com/AuthorizeNet/authorize-net-mcp
       status: verified
@@ -130,10 +130,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id005
       status: none
     slug: facebook
@@ -159,11 +159,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id007
       status: none
     slug: google-identity-platform
@@ -190,10 +190,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 73.2
+    agent_readiness: 71.7
     band: exemplar
     in_catalog: true
-    kin_score: 68.2
+    kin_score: 68.1
     mcp: &id009
       source: https://docs.mollie.com/docs/mcp-server
       status: verified
@@ -221,10 +221,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id011
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -252,10 +252,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 38.0
     mcp: &id013
       status: none
     slug: pusher
@@ -282,10 +282,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id015
       status: none
     slug: apple
@@ -312,10 +312,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 62.8
+    agent_readiness: 61.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.1
+    kin_score: 78.2
     mcp: &id017
       source: https://developer.squareup.com/docs/mcp
       status: verified
@@ -343,10 +343,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id019
       source: https://docs.stripe.com/mcp
       status: verified
@@ -374,10 +374,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id021
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -403,10 +403,10 @@ noindex: false
 permalink: /applications/hospitality-restaurant-ops/tastyigniter/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 26.3
   band: developing
   in_catalog: true
-  kin_score: 48.5
+  kin_score: 45.8
   mcp: *id001
   name: Ably
   slug: ably
@@ -414,10 +414,10 @@ providers:
   tags: *id002
   url: /providers/ably/
 - agent_band: agent-aware
-  agent_readiness: 25.9
+  agent_readiness: 25.4
   band: thin
   in_catalog: true
-  kin_score: 36.4
+  kin_score: 35.5
   mcp: *id003
   name: Authorize.Net
   slug: authorizenet
@@ -425,21 +425,21 @@ providers:
   tags: *id004
   url: /providers/authorizenet/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id005
   name: Facebook
   slug: facebook
   status: profiled
   tags: *id006
   url: /providers/facebook/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id007
   name: Google sign-in
   slug: google-identity-platform
@@ -447,10 +447,10 @@ providers:
   tags: *id008
   url: /providers/google-identity-platform/
 - agent_band: agent-native
-  agent_readiness: 73.2
+  agent_readiness: 71.7
   band: exemplar
   in_catalog: true
-  kin_score: 68.2
+  kin_score: 68.1
   mcp: *id009
   name: Mollie
   slug: mollie
@@ -458,10 +458,10 @@ providers:
   tags: *id010
   url: /providers/mollie/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id011
   name: PayPal
   slug: paypal
@@ -469,10 +469,10 @@ providers:
   tags: *id012
   url: /providers/paypal/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 38.0
   mcp: *id013
   name: Pusher
   slug: pusher
@@ -480,10 +480,10 @@ providers:
   tags: *id014
   url: /providers/pusher/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id015
   name: Sign in with Apple
   slug: apple
@@ -491,10 +491,10 @@ providers:
   tags: *id016
   url: /providers/apple/
 - agent_band: agent-native
-  agent_readiness: 62.8
+  agent_readiness: 61.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.1
+  kin_score: 78.2
   mcp: *id017
   name: Square
   slug: square
@@ -502,10 +502,10 @@ providers:
   tags: *id018
   url: /providers/square/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id019
   name: Stripe
   slug: stripe
@@ -513,10 +513,10 @@ providers:
   tags: *id020
   url: /providers/stripe/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id021
   name: Twitter / X
   slug: x

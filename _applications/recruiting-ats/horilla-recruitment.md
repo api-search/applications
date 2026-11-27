@@ -35,10 +35,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.4
+    agent_readiness: 46.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.4
+    kin_score: 77.8
     mcp: &id001
       status: none
     slug: linkedin
@@ -63,10 +63,10 @@ noindex: false
 permalink: /applications/recruiting-ats/horilla-recruitment/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 47.4
+  agent_readiness: 46.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.4
+  kin_score: 77.8
   mcp: *id001
   name: LinkedIn
   slug: linkedin

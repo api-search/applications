@@ -1283,11 +1283,11 @@ apps:
     tier: declared
   - capability:
       attribution: Turbo EA
-      id: BC-300
-      key: human-capital-management
-      name: Human Capital Management
-      url: /capabilities/human-capital-management/
-      via_parent: null
+      id: BC-300.70.20
+      key: BC-300.70.20
+      name: Payroll Administration
+      url: /capabilities/hr-operations-management/
+      via_parent: HR Operations Management
     credit: null
     layer: domain
     name: Gusto
@@ -1747,6 +1747,16 @@ needs:
   fit: exact
   layer: common
   why: product analytics SDKs ship in the mobile apps (Exodus)
+- capability:
+    attribution: Turbo EA
+    id: BC-300.70.20
+    key: BC-300.70.20
+    name: Payroll Administration
+    url: /capabilities/hr-operations-management/
+    via_parent: HR Operations Management
+  fit: exact
+  layer: domain
+  why: Gusto (Payroll Administration)
 stack:
 - capabilities:
   - capability:
@@ -1758,7 +1768,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - Clockify
       - Harvest
@@ -1766,7 +1776,7 @@ stack:
       - Toggl Track
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp:
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -1785,7 +1795,7 @@ stack:
       tier: observed
       url: /providers/jira/
     - agent_band: agent-ready
-      agent_readiness: 28.7
+      agent_readiness: 30.8
       apps:
       - Clockify
       - Harvest
@@ -1793,7 +1803,7 @@ stack:
       - Toggl Track
       band: exemplar
       in_catalog: true
-      kin_score: 75.6
+      kin_score: 74.8
       mcp:
         source: https://github.com/atlassian/trello-mcp-server
         status: verified
@@ -1812,14 +1822,14 @@ stack:
       tier: observed
       url: /providers/trello/
     - agent_band: agent-ready
-      agent_readiness: 57.0
+      agent_readiness: 55.8
       apps:
       - Clockify
       - Harvest
       - Super Productivity
       band: exemplar
       in_catalog: true
-      kin_score: 73.7
+      kin_score: 72.6
       mcp:
         source: https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server
         status: verified
@@ -1838,14 +1848,14 @@ stack:
       tier: observed
       url: /providers/clickup/
     - agent_band: agent-aware
-      agent_readiness: 22.6
+      agent_readiness: 22.2
       apps:
       - Clockify
       - Super Productivity
       - Toggl Track
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.7
+      kin_score: 53.8
       mcp:
         source: https://developer.todoist.com/api/v1/#tag/MCP
         status: verified
@@ -1864,14 +1874,14 @@ stack:
       tier: observed
       url: /providers/todoist/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.3
       apps:
       - Clockify
       - Harvest
       - Toggl Track
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 72.5
       mcp:
         source: https://developers.asana.com/docs/using-asanas-mcp-server
         status: verified
@@ -1890,14 +1900,14 @@ stack:
       tier: declared
       url: /providers/asana/
     - agent_band: agent-aware
-      agent_readiness: 18.7
+      agent_readiness: 18.3
       apps:
       - Clockify
       - Harvest
       - Toggl Track
       band: thin
       in_catalog: true
-      kin_score: 35.5
+      kin_score: 34.5
       mcp:
         source: https://github.com/Teamwork/mcp
         status: verified
@@ -1916,13 +1926,13 @@ stack:
       tier: declared
       url: /providers/teamwork/
     - agent_band: agent-ready
-      agent_readiness: 35.5
+      agent_readiness: 35.2
       apps:
       - Harvest
       - Super Productivity
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.1
+      kin_score: 39.6
       mcp:
         source: https://linear.app/docs/mcp
         status: verified
@@ -1940,13 +1950,13 @@ stack:
       tier: observed
       url: /providers/linear-app/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Super Productivity
       - Toggl Track
       band: emerging
       in_catalog: true
-      kin_score: 25.2
+      kin_score: 24.3
       mcp:
         status: none
       name: Redmine
@@ -1963,13 +1973,13 @@ stack:
       tier: observed
       url: /providers/redmine/
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 56.8
       apps:
       - Clockify
       - Harvest
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.3
       mcp:
         source: https://developers.notion.com/docs/mcp
         status: verified
@@ -1987,13 +1997,13 @@ stack:
       tier: declared
       url: /providers/notion/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 37.6
       apps:
       - Clockify
       - Toggl Track
       band: developing
       in_catalog: true
-      kin_score: 52.6
+      kin_score: 50.0
       mcp:
         source: https://github.com/wrike/datahub-mcp
         status: verified
@@ -2011,13 +2021,13 @@ stack:
       tier: declared
       url: /providers/wrike/
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 24.9
       apps:
       - Clockify
       - Harvest
       band: developing
       in_catalog: true
-      kin_score: 49.5
+      kin_score: 49.0
       mcp:
         source: https://github.com/basecamp/mcp
         status: verified
@@ -2041,7 +2051,7 @@ stack:
       - Harvest
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 32.2
       mcp:
         source: https://github.com/mondaycom/mcp
         status: verified
@@ -2059,12 +2069,12 @@ stack:
       tier: declared
       url: /providers/monday-com/
     - agent_band: agent-ready
-      agent_readiness: 32.0
+      agent_readiness: 31.4
       apps:
       - Super Productivity
       band: developing
       in_catalog: true
-      kin_score: 42.1
+      kin_score: 40.8
       mcp:
         source: https://www.openproject.org/docs/system-admin-guide/integrations/mcp-server/
         status: verified
@@ -2081,12 +2091,12 @@ stack:
       tier: observed
       url: /providers/openproject/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Super Productivity
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp:
         status: none
       name: Nextcloud Deck
@@ -2102,12 +2112,12 @@ stack:
       tier: observed
       url: /providers/nextcloud/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - Super Productivity
       band: emerging
       in_catalog: true
-      kin_score: 17.6
+      kin_score: 25.5
       mcp:
         source: https://help.ticktick.com/articles/7438129581631995904
         status: verified
@@ -2124,12 +2134,12 @@ stack:
       tier: observed
       url: /providers/ticktick/
     - agent_band: agent-ready
-      agent_readiness: 50.3
+      agent_readiness: 52.3
       apps:
       - Clockify
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 68.2
       mcp:
         source: https://github.com/Airtable/airtable-mcp-cli
         status: verified
@@ -2145,13 +2155,13 @@ stack:
       - Database
       tier: declared
       url: /providers/airtable/
-    - agent_band: agent-aware
-      agent_readiness: 26.5
+    - agent_band: agent-ready
+      agent_readiness: 30.1
       apps:
       - Clockify
       band: developing
       in_catalog: true
-      kin_score: 48.4
+      kin_score: 54.0
       mcp:
         source: https://github.com/JetBrains/mcp-server-plugin
         status: verified
@@ -2168,12 +2178,12 @@ stack:
       tier: declared
       url: /providers/jetbrains/
     - agent_band: agent-ready
-      agent_readiness: 43.3
+      agent_readiness: 42.4
       apps:
       - Toggl Track
       band: thin
       in_catalog: true
-      kin_score: 37.8
+      kin_score: 36.8
       mcp:
         status: none
       name: Podio
@@ -2197,7 +2207,7 @@ stack:
       via_parent: Timekeeping Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Clockify
       - Harvest
@@ -2205,7 +2215,7 @@ stack:
       - Toggl Track
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -2224,14 +2234,14 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Clockify
       - Harvest
       - Toggl Track
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -2249,13 +2259,13 @@ stack:
       tier: declared
       url: /providers/zendesk/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Clockify
       - Super Productivity
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -2273,13 +2283,13 @@ stack:
       tier: observed
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 37.7
       apps:
       - Clockify
       - Super Productivity
       band: exemplar
       in_catalog: true
-      kin_score: 76.8
+      kin_score: 81.9
       mcp:
         source: https://github.com/microsoft/azure-devops-mcp
         status: verified
@@ -2297,12 +2307,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-devops/
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 35.0
       apps:
       - Super Productivity
       band: exemplar
       in_catalog: true
-      kin_score: 69.8
+      kin_score: 68.1
       mcp:
         source: https://gitea.com/gitea/gitea-mcp
         status: verified
@@ -2319,12 +2329,12 @@ stack:
       tier: observed
       url: /providers/gitea/
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 35.3
       apps:
       - Toggl Track
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 71.9
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -2341,12 +2351,12 @@ stack:
       tier: declared
       url: /providers/bitbucket/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 24.8
       apps:
       - Clockify
       band: developing
       in_catalog: true
-      kin_score: 51.7
+      kin_score: 51.5
       mcp:
         status: none
       name: Help Scout
@@ -2362,12 +2372,12 @@ stack:
       tier: declared
       url: /providers/helpscout/
     - agent_band: agent-ready
-      agent_readiness: 43.3
+      agent_readiness: 43.4
       apps:
       - Harvest
       band: thin
       in_catalog: true
-      kin_score: 36.2
+      kin_score: 35.8
       mcp:
         status: none
       name: Freshservice
@@ -2383,12 +2393,12 @@ stack:
       tier: declared
       url: /providers/freshservice/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 35.0
       apps:
       - Clockify
       band: thin
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 29.7
       mcp:
         status: none
       name: Freshdesk
@@ -2404,12 +2414,12 @@ stack:
       tier: declared
       url: /providers/freshdesk/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - Harvest
       band: thin
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 28.2
       mcp:
         source: https://www.zoho.com/mcp/
         status: verified
@@ -2434,13 +2444,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.5
+      agent_readiness: 21.0
       apps:
       - Toggl Track
       - solidtime
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 45.1
       mcp:
         status: none
       name: Harvest importer
@@ -2457,13 +2467,13 @@ stack:
       tier: observed
       url: /providers/harvest/
     - agent_band: agent-aware
-      agent_readiness: 24.8
+      agent_readiness: 24.3
       apps:
       - Toggl Track
       - solidtime
       band: thin
       in_catalog: true
-      kin_score: 34.7
+      kin_score: 33.6
       mcp:
         status: none
       name: Clockify importer
@@ -2480,12 +2490,12 @@ stack:
       tier: observed
       url: /providers/clockify/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - solidtime
       band: thin
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 32.8
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=toggl
         status: verified
@@ -2502,12 +2512,12 @@ stack:
       tier: observed
       url: /providers/toggl/
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 22.6
       apps:
       - Toggl Track
       band: strong
       in_catalog: true
-      kin_score: 61.9
+      kin_score: 66.3
       mcp:
         status: unknown
       name: Timely import
@@ -2523,12 +2533,12 @@ stack:
       tier: declared
       url: /providers/timely/
     - agent_band: agent-ready
-      agent_readiness: 39.7
+      agent_readiness: 43.0
       apps:
       - Toggl Track
       band: thin
       in_catalog: true
-      kin_score: 33.7
+      kin_score: 33.0
       mcp:
         status: none
       name: Hubstaff import
@@ -2552,14 +2562,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Clockify
       - Harvest
       - Toggl Track
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -2577,15 +2587,15 @@ stack:
       - Financial Services
       tier: declared
       url: /providers/xero/
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Clockify
       - Harvest
       - Toggl Track
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -2612,12 +2622,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Clockify
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -2632,12 +2642,12 @@ stack:
       tier: declared
       url: /providers/google-sheets/
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 24.6
       apps:
       - Harvest
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.1
+      kin_score: 58.4
       mcp:
         source: https://github.com/databox/databox-mcp
         status: verified
@@ -2679,12 +2689,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 51.7
+      agent_readiness: 52.0
       apps:
       - Harvest
       band: strong
       in_catalog: true
-      kin_score: 63.3
+      kin_score: 60.9
       mcp:
         source: https://developer.deel.com/docs/mcp
         status: documented
@@ -2700,27 +2710,6 @@ stack:
       - Payroll
       tier: declared
       url: /providers/deel-com/
-    - agent_band: agent-ready
-      agent_readiness: 31.3
-      apps:
-      - Harvest
-      band: developing
-      in_catalog: true
-      kin_score: 42.0
-      mcp:
-        status: none
-      name: Gusto
-      slug: gusto
-      sources:
-      - https://www.getharvest.com/integrations
-      status: profiled
-      tags:
-      - Benefits
-      - Enterprise Software
-      - Human Resources
-      - Payroll
-      tier: declared
-      url: /providers/gusto/
   - capability:
       attribution: Turbo EA
       id: BC-830
@@ -2729,13 +2718,13 @@ stack:
       url: /capabilities/knowledge-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.0
       apps:
       - Toggl Track
       band: developing
       in_catalog: true
-      kin_score: 51.2
+      kin_score: 53.0
       mcp:
         source: https://dev.evernote.com/
         status: documented
@@ -2751,6 +2740,35 @@ stack:
       - Productivity
       tier: declared
       url: /providers/evernote/
+  - capability:
+      attribution: Turbo EA
+      id: BC-300.70.20
+      key: BC-300.70.20
+      name: Payroll Administration
+      url: /capabilities/hr-operations-management/
+      via_parent: HR Operations Management
+    providers:
+    - agent_band: agent-ready
+      agent_readiness: 31.7
+      apps:
+      - Harvest
+      band: developing
+      in_catalog: true
+      kin_score: 44.9
+      mcp:
+        status: none
+      name: Gusto
+      slug: gusto
+      sources:
+      - https://www.getharvest.com/integrations
+      status: profiled
+      tags:
+      - Benefits
+      - Enterprise Software
+      - Human Resources
+      - Payroll
+      tier: declared
+      url: /providers/gusto/
   layer: domain
 - capabilities:
   - capability:
@@ -2761,16 +2779,16 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Clockify
       - Harvest
       - Super Productivity
       - Toggl Track
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2789,13 +2807,13 @@ stack:
       tier: observed
       url: /providers/google-calendar/
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - Clockify
       - Harvest
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2812,13 +2830,13 @@ stack:
       - Enterprise
       tier: declared
       url: /providers/microsoft-outlook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Clockify
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -2842,37 +2860,37 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Clockify
       - Toggl Track
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google CrashLytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.toggl.giskard/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/me.clockify.android/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
       agent_readiness: 50.2
       apps:
       - Toggl Track
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2889,12 +2907,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Harvest
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -2919,13 +2937,13 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Clockify
       - Harvest
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2943,12 +2961,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Harvest
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -2965,12 +2983,12 @@ stack:
       tier: declared
       url: /providers/make/
     - agent_band: agent-ready
-      agent_readiness: 43.3
+      agent_readiness: 42.4
       apps:
       - Harvest
       band: emerging
       in_catalog: true
-      kin_score: 25.0
+      kin_score: 24.1
       mcp:
         source: https://github.com/IFTTT/ifttt-plugins
         status: verified
@@ -2995,13 +3013,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Clockify
       - Toggl Track
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -3019,12 +3037,12 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Clockify
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -3049,12 +3067,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 37.2
       apps:
       - Kimai
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 73.1
       mcp:
         status: none
       name: Authentik SAML
@@ -3070,33 +3088,12 @@ stack:
       tier: declared
       url: /providers/authentik/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 43.0
       apps:
       - Kimai
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
-      mcp:
-        status: none
-      name: Azure AD (Entra ID) SAML
-      slug: microsoft-entra
-      sources:
-      - https://www.kimai.org/documentation/saml.html
-      status: profiled
-      tags:
-      - Authentication
-      - Azure AD
-      - Entra
-      - Identity and Access Management
-      tier: declared
-      url: /providers/microsoft-entra/
-    - agent_band: agent-ready
-      agent_readiness: 37.9
-      apps:
-      - Kimai
-      band: exemplar
-      in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.7
       mcp:
         source: https://github.com/gemini-cli-extensions/workspace
         status: verified
@@ -3112,6 +3109,27 @@ stack:
       - Productivity
       tier: declared
       url: /providers/google-workspace/
+    - agent_band: agent-ready
+      agent_readiness: 28.7
+      apps:
+      - Kimai
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.3
+      mcp:
+        status: none
+      name: Azure AD (Entra ID) SAML
+      slug: microsoft-entra
+      sources:
+      - https://www.kimai.org/documentation/saml.html
+      status: profiled
+      tags:
+      - Authentication
+      - Azure AD
+      - Entra
+      - Identity and Access Management
+      tier: declared
+      url: /providers/microsoft-entra/
   - capability:
       attribution: API Evangelist extension
       id: AE-916
@@ -3121,12 +3139,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - Super Productivity
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: OneDrive sync
@@ -3142,12 +3160,12 @@ stack:
       tier: observed
       url: /providers/microsoft-onedrive/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Super Productivity
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -3172,13 +3190,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Harvest
       - Toggl Track
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -3204,12 +3222,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Harvest
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3226,12 +3244,12 @@ stack:
       tier: declared
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Harvest
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -3255,24 +3273,24 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Clockify
       - Toggl Track
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.toggl.giskard/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/me.clockify.android/latest/
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   layer: common
 summary:
   coverage_pct: 98.3
@@ -3285,7 +3303,7 @@ summary:
     unchecked: 1
     verified: 41
   mcp_verified: 41
-  mean_kin_score: 56.9
+  mean_kin_score: 58.0
   observed: 22
   queued: 1
   reference_apps: 6

@@ -61,7 +61,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.5
     mcp: &id001
       status: unknown
     slug: eurosms
@@ -88,10 +88,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id003
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -122,7 +122,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id005
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -150,10 +150,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.1
+    agent_readiness: 52.6
     band: thin
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 27.5
     mcp: &id007
       source: https://www.textmagic.com/mcp/
       status: documented
@@ -182,7 +182,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.5
   mcp: *id001
   name: EuroSms
   slug: eurosms
@@ -190,10 +190,10 @@ providers:
   tags: *id002
   url: /providers/eurosms/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id003
   name: Google Analytics
   slug: google-analytics
@@ -204,7 +204,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id005
   name: Sentry
   slug: sentry-system
@@ -212,10 +212,10 @@ providers:
   tags: *id006
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 48.1
+  agent_readiness: 52.6
   band: thin
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 27.5
   mcp: *id007
   name: Textmagic
   slug: textmagic

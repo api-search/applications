@@ -1540,7 +1540,7 @@ stack:
       - Climate FieldView
       band: minimal
       in_catalog: true
-      kin_score: 7.2
+      kin_score: 8.9
       mcp:
         status: unknown
       name: Agvance (SSI)
@@ -1554,12 +1554,12 @@ stack:
       tier: declared
       url: /providers/agvance/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.7
       apps:
       - Agworld
       band: thin
       in_catalog: true
-      kin_score: 26.4
+      kin_score: 32.7
       mcp:
         status: none
       name: FarmReady (Bolt, Cart, Shed)
@@ -1580,7 +1580,7 @@ stack:
       - Agworld
       band: minimal
       in_catalog: true
-      kin_score: 9.2
+      kin_score: 9.4
       mcp:
         status: unknown
       name: AgVend
@@ -1601,7 +1601,7 @@ stack:
       - Agworld
       band: minimal
       in_catalog: true
-      kin_score: 6.0
+      kin_score: 6.1
       mcp:
         status: none
       name: AgVantage
@@ -1622,7 +1622,7 @@ stack:
       - Climate FieldView
       band: minimal
       in_catalog: true
-      kin_score: 5.9
+      kin_score: 5.8
       mcp:
         status: unknown
       name: Pivot Bio
@@ -1643,7 +1643,7 @@ stack:
       - Climate FieldView
       band: minimal
       in_catalog: true
-      kin_score: 5.8
+      kin_score: 4.9
       mcp:
         status: unknown
       name: WinField United Data Silo
@@ -1673,7 +1673,7 @@ stack:
       - Climate FieldView
       band: minimal
       in_catalog: true
-      kin_score: 10.8
+      kin_score: 9.9
       mcp:
         status: none
       name: John Deere Operations Center
@@ -1690,12 +1690,12 @@ stack:
       tier: declared
       url: /providers/john-deere/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 23.3
       apps:
       - Agworld
       band: thin
       in_catalog: true
-      kin_score: 37.4
+      kin_score: 35.7
       mcp:
         status: unknown
       name: CNH FieldOps
@@ -1711,12 +1711,12 @@ stack:
       tier: declared
       url: /providers/cnh/
     - agent_band: agent-aware
-      agent_readiness: 20.5
+      agent_readiness: 17.3
       apps:
       - Climate FieldView
       band: emerging
       in_catalog: true
-      kin_score: 17.3
+      kin_score: 23.6
       mcp:
         status: unknown
       name: Ag Leader AgFiniti / SMS
@@ -1731,13 +1731,13 @@ stack:
       - Precision Agriculture
       tier: declared
       url: /providers/ag-leader/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - Climate FieldView
       band: emerging
       in_catalog: true
-      kin_score: 12.8
+      kin_score: 17.9
       mcp:
         status: unknown
       name: CLAAS
@@ -1778,12 +1778,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.2
+      agent_readiness: 16.8
       apps:
       - Climate FieldView
       band: thin
       in_catalog: true
-      kin_score: 29.9
+      kin_score: 31.9
       mcp:
         status: unknown
       name: DroneDeploy
@@ -1799,12 +1799,12 @@ stack:
       tier: declared
       url: /providers/dronedeploy/
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 24.1
       apps:
       - Climate FieldView
       band: thin
       in_catalog: true
-      kin_score: 28.7
+      kin_score: 27.4
       mcp:
         status: unknown
       name: Sentera
@@ -1825,7 +1825,7 @@ stack:
       - Agworld
       band: minimal
       in_catalog: true
-      kin_score: 7.7
+      kin_score: 7.1
       mcp:
         status: unknown
       name: Semios
@@ -1866,12 +1866,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Climate FieldView
       band: emerging
       in_catalog: true
-      kin_score: 16.6
+      kin_score: 21.7
       mcp:
         status: unknown
       name: Great American Insurance Group
@@ -1887,33 +1887,12 @@ stack:
       tier: declared
       url: /providers/great-american-insurance-group/
     - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Climate FieldView
-      band: minimal
-      in_catalog: true
-      kin_score: 9.6
-      mcp:
-        status: unknown
-      name: Farmers Mutual Hail
-      slug: farmers-mutual-hail
-      sources:
-      - https://climate.com/en-us/partners.html
-      status: profiled
-      tags:
-      - Agriculture
-      - Company
-      - Hail
-      - Insurance
-      tier: declared
-      url: /providers/farmers-mutual-hail/
-    - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Climate FieldView
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 14.1
       mcp:
         status: unknown
       name: MyAgData
@@ -1928,6 +1907,27 @@ stack:
       - USDA
       tier: declared
       url: /providers/myagdata/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Climate FieldView
+      band: emerging
+      in_catalog: true
+      kin_score: 13.0
+      mcp:
+        status: unknown
+      name: Farmers Mutual Hail
+      slug: farmers-mutual-hail
+      sources:
+      - https://climate.com/en-us/partners.html
+      status: profiled
+      tags:
+      - Agriculture
+      - Company
+      - Hail
+      - Insurance
+      tier: declared
+      url: /providers/farmers-mutual-hail/
   - capability:
       attribution: API Evangelist extension
       id: AE-934
@@ -1937,33 +1937,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 6.9
       apps:
       - AgriWebb
       band: emerging
       in_catalog: true
-      kin_score: 14.6
-      mcp:
-        status: unknown
-      name: Farmbot Monitoring Solutions
-      slug: farmbot-monitoring
-      sources:
-      - https://www.agriwebb.com/integrations/
-      status: profiled
-      tags:
-      - AgTech
-      - Australia
-      - Sensors
-      - Water Monitoring
-      tier: declared
-      url: /providers/farmbot-monitoring/
-    - agent_band: agent-aware
-      agent_readiness: 7.0
-      apps:
-      - AgriWebb
-      band: emerging
-      in_catalog: true
-      kin_score: 13.0
+      kin_score: 20.7
       mcp:
         status: unknown
       name: Farmo
@@ -1978,6 +1957,27 @@ stack:
       - Smart City
       tier: declared
       url: /providers/farmo/
+    - agent_band: agent-aware
+      agent_readiness: 18.3
+      apps:
+      - AgriWebb
+      band: emerging
+      in_catalog: true
+      kin_score: 20.0
+      mcp:
+        status: unknown
+      name: Farmbot Monitoring Solutions
+      slug: farmbot-monitoring
+      sources:
+      - https://www.agriwebb.com/integrations/
+      status: profiled
+      tags:
+      - AgTech
+      - Australia
+      - Sensors
+      - Water Monitoring
+      tier: declared
+      url: /providers/farmbot-monitoring/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -2004,12 +2004,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 23.2
       apps:
       - Climate FieldView
       band: thin
       in_catalog: true
-      kin_score: 30.1
+      kin_score: 35.3
       mcp:
         status: none
       name: SoilOptix
@@ -2030,7 +2030,7 @@ stack:
       - Agworld
       band: minimal
       in_catalog: true
-      kin_score: 7.4
+      kin_score: 9.1
       mcp:
         status: unknown
       name: Kingman Ag
@@ -2051,7 +2051,7 @@ stack:
       - Climate FieldView
       band: minimal
       in_catalog: true
-      kin_score: 5.5
+      kin_score: 4.8
       mcp:
         status: unknown
       name: Pattern Ag
@@ -2074,13 +2074,13 @@ stack:
       url: /capabilities/growth-and-performance-recording/
       via_parent: Growth and Performance Recording
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 33.3
+    - agent_band: agent-aware
+      agent_readiness: 24.8
       apps:
       - AgriWebb
       band: thin
       in_catalog: true
-      kin_score: 27.0
+      kin_score: 33.4
       mcp:
         status: unknown
       name: Gallagher
@@ -2096,12 +2096,12 @@ stack:
       tier: declared
       url: /providers/gallagher-animal-management/
     - agent_band: human-only
-      agent_readiness: 3.2
+      agent_readiness: 4.9
       apps:
       - AgriWebb
       band: emerging
       in_catalog: true
-      kin_score: 12.7
+      kin_score: 19.5
       mcp:
         status: unknown
       name: Te Pari
@@ -2116,13 +2116,13 @@ stack:
       - New Zealand
       tier: declared
       url: /providers/te-pari/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - AgriWebb
       band: minimal
       in_catalog: true
-      kin_score: 5.7
+      kin_score: 5.6
       mcp:
         status: none
       name: Tru-Test (Datamars)
@@ -2188,12 +2188,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.9
+      agent_readiness: 23.4
       apps:
       - Climate FieldView
       band: developing
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 49.0
       mcp:
         status: none
       name: TELUS Agriculture
@@ -2214,7 +2214,7 @@ stack:
       - AgriWebb
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 5.4
       mcp:
         status: unknown
       name: RCS (Resource Consulting Services)
@@ -2237,13 +2237,13 @@ stack:
       url: /capabilities/livestock-identification-and-movement-compliance/
       via_parent: Livestock Identification and Movement Compliance
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - AgriWebb
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.6
+      kin_score: 13.9
       mcp:
         status: unknown
       name: Shearwell Data
@@ -2287,9 +2287,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - AgriWebb
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.0
+      kin_score: 28.7
       mcp:
         status: none
       name: Cibo Labs
@@ -2305,12 +2305,12 @@ stack:
       tier: declared
       url: /providers/cibo-labs/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Agworld
       band: emerging
       in_catalog: true
-      kin_score: 11.4
+      kin_score: 19.2
       mcp:
         status: unknown
       name: Satamap
@@ -2333,13 +2333,13 @@ stack:
       url: /capabilities/weather-environment/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 22.5
+    - agent_band: agent-ready
+      agent_readiness: 30.0
       apps:
       - LiteFarm
       band: strong
       in_catalog: true
-      kin_score: 60.4
+      kin_score: 59.1
       mcp:
         source: https://mcp.openweathermap.org/
         status: verified
@@ -2356,12 +2356,12 @@ stack:
       tier: observed
       url: /providers/openweathermap/
     - agent_band: agent-aware
-      agent_readiness: 7.9
+      agent_readiness: 7.8
       apps:
       - Agworld
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.9
+      kin_score: 12.7
       mcp:
         status: unknown
       name: Davis Instruments
@@ -2384,13 +2384,13 @@ stack:
       url: /capabilities/commodity-origination-merchandising-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - Climate FieldView
       band: emerging
       in_catalog: true
-      kin_score: 14.0
+      kin_score: 15.9
       mcp:
         status: unknown
       name: Combyne
@@ -2417,9 +2417,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Climate FieldView
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.8
+      kin_score: 30.4
       mcp:
         status: unknown
       name: Bushel Farm
@@ -2442,13 +2442,13 @@ stack:
       url: /capabilities/storefront-platforms/
       via_parent: Storefront Platforms
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - Farmbrite
       band: emerging
       in_catalog: true
-      kin_score: 15.6
+      kin_score: 16.2
       mcp:
         status: none
       name: Local Line
@@ -2475,9 +2475,9 @@ stack:
       agent_readiness: 2.5
       apps:
       - LiteFarm
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.9
+      kin_score: 14.9
       mcp:
         status: none
       name: Ensemble Scientific (ESCI)
@@ -2506,7 +2506,7 @@ stack:
       - LiteFarm
       band: minimal
       in_catalog: true
-      kin_score: 6.8
+      kin_score: 6.9
       mcp:
         status: unknown
       name: SurveyStack
@@ -2557,13 +2557,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.2
+      agent_readiness: 20.8
       apps:
       - AgriWebb
       - Agworld
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 29.7
+      kin_score: 40.7
       mcp:
         status: unknown
       name: Figured
@@ -2580,12 +2580,12 @@ stack:
       tier: declared
       url: /providers/figured/
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Farmbrite
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -2601,13 +2601,13 @@ stack:
       - Financial Services
       tier: declared
       url: /providers/xero/
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Farmbrite
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -2624,12 +2624,12 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Agworld
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.7
+      kin_score: 12.0
       mcp:
         status: unknown
       name: Pinion
@@ -2670,13 +2670,13 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - LiteFarm
       - Open Food Network
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -2694,13 +2694,13 @@ stack:
       tier: observed
       url: /providers/google-maps/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 45.2
       apps:
       - Agworld
       - farmOS
       band: developing
       in_catalog: true
-      kin_score: 49.3
+      kin_score: 50.7
       mcp:
         source: https://github.com/mapbox/mcp-server
         status: verified
@@ -2717,13 +2717,13 @@ stack:
       - Maps
       tier: observed
       url: /providers/mapbox/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - Agworld
       band: developing
       in_catalog: true
-      kin_score: 44.4
+      kin_score: 45.5
       mcp:
         status: none
       name: OpenStreetMap
@@ -2747,12 +2747,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Open Food Network
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2769,12 +2769,12 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Open Food Network
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -2791,12 +2791,12 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-aware
-      agent_readiness: 12.9
+      agent_readiness: 12.7
       apps:
       - Open Food Network
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.2
+      kin_score: 28.0
       mcp:
         status: unknown
       name: GNU Taler
@@ -2812,12 +2812,12 @@ stack:
       tier: observed
       url: /providers/gnu-taler/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - Farmbrite
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp:
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -2847,7 +2847,7 @@ stack:
       - LiteFarm
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2864,12 +2864,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Open Food Network
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -2886,12 +2886,12 @@ stack:
       tier: observed
       url: /providers/bugsnag/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Open Food Network
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -2916,12 +2916,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 28.7
+      agent_readiness: 30.8
       apps:
       - Farmbrite
       band: exemplar
       in_catalog: true
-      kin_score: 75.6
+      kin_score: 74.8
       mcp:
         source: https://github.com/atlassian/trello-mcp-server
         status: verified
@@ -2938,12 +2938,12 @@ stack:
       tier: declared
       url: /providers/trello/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.3
       apps:
       - Farmbrite
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 72.5
       mcp:
         source: https://developers.asana.com/docs/using-asanas-mcp-server
         status: verified
@@ -2968,12 +2968,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Farmbrite
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -2991,9 +2991,9 @@ stack:
       agent_readiness: 29.0
       apps:
       - Farmbrite
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 54.2
+      kin_score: 55.8
       mcp:
         status: none
       name: Microsoft Excel
@@ -3016,13 +3016,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Open Food Network
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3039,12 +3039,12 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 44.1
       apps:
       - LiteFarm
       band: developing
       in_catalog: true
-      kin_score: 45.0
+      kin_score: 47.4
       mcp:
         source: https://docs.digitalocean.com/reference/mcp/
         status: verified
@@ -3068,13 +3068,13 @@ stack:
       url: /capabilities/analytics-bi-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 30.6
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - Agworld
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 76.0
       mcp:
         source: https://github.com/microsoft/powerbi-modeling-mcp
         status: verified
@@ -3099,12 +3099,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Farmbrite
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -3128,12 +3128,12 @@ stack:
       via_parent: Storefront Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - Farmbrite
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -3158,12 +3158,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Farmbrite
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -3187,13 +3187,13 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Farmbrite
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -3217,13 +3217,13 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - LiteFarm
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -3246,13 +3246,13 @@ stack:
       url: /capabilities/email/
       via_parent: Email
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - LiteFarm
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -3277,12 +3277,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Farmbrite
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -3310,7 +3310,7 @@ summary:
     unchecked: 8
     verified: 21
   mcp_verified: 21
-  mean_kin_score: 36.2
+  mean_kin_score: 39.1
   observed: 15
   queued: 8
   reference_apps: 7

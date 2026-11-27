@@ -126,10 +126,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.5
+    agent_readiness: 17.3
     band: emerging
     in_catalog: true
-    kin_score: 17.3
+    kin_score: 23.6
     mcp: &id001
       status: unknown
     slug: ag-leader
@@ -159,7 +159,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 7.2
+    kin_score: 8.9
     mcp: &id003
       status: unknown
     slug: agvance
@@ -210,9 +210,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 22.8
+    kin_score: 30.4
     mcp: &id007
       status: unknown
     slug: bushel
@@ -238,11 +238,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 12.8
+    kin_score: 17.9
     mcp: &id009
       status: unknown
     slug: claas
@@ -268,11 +268,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 14.0
+    kin_score: 15.9
     mcp: &id011
       status: unknown
     slug: combyne
@@ -299,10 +299,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.2
+    agent_readiness: 16.8
     band: thin
     in_catalog: true
-    kin_score: 29.9
+    kin_score: 31.9
     mcp: &id013
       status: unknown
     slug: dronedeploy
@@ -329,10 +329,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 9.6
+    kin_score: 13.0
     mcp: &id015
       status: unknown
     slug: farmers-mutual-hail
@@ -359,10 +359,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 16.6
+    kin_score: 21.7
     mcp: &id017
       status: unknown
     slug: great-american-insurance-group
@@ -418,7 +418,7 @@ integrations:
     agent_readiness: 0.6
     band: minimal
     in_catalog: true
-    kin_score: 10.8
+    kin_score: 9.9
     mcp: &id021
       status: none
     slug: john-deere
@@ -446,9 +446,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.3
+    kin_score: 14.1
     mcp: &id023
       status: unknown
     slug: myagdata
@@ -478,7 +478,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.5
+    kin_score: 4.8
     mcp: &id025
       status: unknown
     slug: pattern-ag
@@ -508,7 +508,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.9
+    kin_score: 5.8
     mcp: &id027
       status: unknown
     slug: pivot-bio
@@ -561,10 +561,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.6
+    agent_readiness: 24.1
     band: thin
     in_catalog: true
-    kin_score: 28.7
+    kin_score: 27.4
     mcp: &id031
       status: unknown
     slug: sentera
@@ -591,10 +591,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.4
+    agent_readiness: 23.2
     band: thin
     in_catalog: true
-    kin_score: 30.1
+    kin_score: 35.3
     mcp: &id033
       status: none
     slug: soiloptix
@@ -621,10 +621,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.9
+    agent_readiness: 23.4
     band: developing
     in_catalog: true
-    kin_score: 50.4
+    kin_score: 49.0
     mcp: &id035
       status: none
     slug: telus
@@ -680,7 +680,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 5.8
+    kin_score: 4.9
     mcp: &id039
       status: unknown
     slug: winfield-united
@@ -705,10 +705,10 @@ noindex: false
 permalink: /applications/farm-agriculture/climate-fieldview/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 20.5
+  agent_readiness: 17.3
   band: emerging
   in_catalog: true
-  kin_score: 17.3
+  kin_score: 23.6
   mcp: *id001
   name: Ag Leader AgFiniti / SMS
   slug: ag-leader
@@ -719,7 +719,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 7.2
+  kin_score: 8.9
   mcp: *id003
   name: Agvance (SSI)
   slug: agvance
@@ -739,31 +739,31 @@ providers:
   url: null
 - agent_band: human-only
   agent_readiness: 0.0
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 22.8
+  kin_score: 30.4
   mcp: *id007
   name: Bushel Farm
   slug: bushel
   status: profiled
   tags: *id008
   url: /providers/bushel/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 12.8
+  kin_score: 17.9
   mcp: *id009
   name: CLAAS
   slug: claas
   status: profiled
   tags: *id010
   url: /providers/claas/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 14.0
+  kin_score: 15.9
   mcp: *id011
   name: Combyne
   slug: combyne
@@ -771,10 +771,10 @@ providers:
   tags: *id012
   url: /providers/combyne/
 - agent_band: agent-aware
-  agent_readiness: 17.2
+  agent_readiness: 16.8
   band: thin
   in_catalog: true
-  kin_score: 29.9
+  kin_score: 31.9
   mcp: *id013
   name: DroneDeploy
   slug: dronedeploy
@@ -782,10 +782,10 @@ providers:
   tags: *id014
   url: /providers/dronedeploy/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 9.6
+  kin_score: 13.0
   mcp: *id015
   name: Farmers Mutual Hail
   slug: farmers-mutual-hail
@@ -793,10 +793,10 @@ providers:
   tags: *id016
   url: /providers/farmers-mutual-hail/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 16.6
+  kin_score: 21.7
   mcp: *id017
   name: Great American Insurance Group
   slug: great-american-insurance-group
@@ -818,7 +818,7 @@ providers:
   agent_readiness: 0.6
   band: minimal
   in_catalog: true
-  kin_score: 10.8
+  kin_score: 9.9
   mcp: *id021
   name: John Deere Operations Center
   slug: john-deere
@@ -827,9 +827,9 @@ providers:
   url: /providers/john-deere/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.3
+  kin_score: 14.1
   mcp: *id023
   name: MyAgData
   slug: myagdata
@@ -840,7 +840,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.5
+  kin_score: 4.8
   mcp: *id025
   name: Pattern Ag
   slug: pattern-ag
@@ -851,7 +851,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.9
+  kin_score: 5.8
   mcp: *id027
   name: Pivot Bio
   slug: pivot-bio
@@ -870,10 +870,10 @@ providers:
   tags: *id030
   url: null
 - agent_band: agent-aware
-  agent_readiness: 24.6
+  agent_readiness: 24.1
   band: thin
   in_catalog: true
-  kin_score: 28.7
+  kin_score: 27.4
   mcp: *id031
   name: Sentera
   slug: sentera
@@ -881,10 +881,10 @@ providers:
   tags: *id032
   url: /providers/sentera/
 - agent_band: agent-aware
-  agent_readiness: 26.4
+  agent_readiness: 23.2
   band: thin
   in_catalog: true
-  kin_score: 30.1
+  kin_score: 35.3
   mcp: *id033
   name: SoilOptix
   slug: soiloptix
@@ -892,10 +892,10 @@ providers:
   tags: *id034
   url: /providers/soiloptix/
 - agent_band: agent-aware
-  agent_readiness: 23.9
+  agent_readiness: 23.4
   band: developing
   in_catalog: true
-  kin_score: 50.4
+  kin_score: 49.0
   mcp: *id035
   name: TELUS Agriculture
   slug: telus
@@ -917,7 +917,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 5.8
+  kin_score: 4.9
   mcp: *id039
   name: WinField United Data Silo
   slug: winfield-united

@@ -50,10 +50,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.9
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 69.1
     mcp: &id001
       source: https://github.com/huggingface/hf-mcp-server
       status: verified
@@ -84,7 +84,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id003
       status: none
     slug: ollama
@@ -111,10 +111,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id005
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -142,10 +142,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id007
       status: none
     slug: segment
@@ -170,10 +170,10 @@ noindex: false
 permalink: /applications/search-engine/meilisearch/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 36.9
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 69.1
   mcp: *id001
   name: Hugging Face
   slug: hugging-face
@@ -184,7 +184,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id003
   name: Ollama
   slug: ollama
@@ -192,10 +192,10 @@ providers:
   tags: *id004
   url: /providers/ollama/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id005
   name: OpenAI
   slug: openai
@@ -203,10 +203,10 @@ providers:
   tags: *id006
   url: /providers/openai/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id007
   name: Twilio Segment
   slug: segment

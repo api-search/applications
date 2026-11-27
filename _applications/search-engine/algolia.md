@@ -73,10 +73,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 60.5
+    agent_readiness: 56.3
     band: exemplar
     in_catalog: true
-    kin_score: 70.3
+    kin_score: 84.3
     mcp: &id001
       source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
       status: verified
@@ -104,10 +104,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.9
+    agent_readiness: 35.5
     band: strong
     in_catalog: true
-    kin_score: 57.5
+    kin_score: 61.5
     mcp: &id003
       source: https://github.com/commercetools/mcp-essentials
       status: verified
@@ -134,11 +134,11 @@ integrations:
     via_parent: Knowledge Curation & Taxonomy Management
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.6
+    agent_band: agent-aware
+    agent_readiness: 28.5
     band: exemplar
     in_catalog: true
-    kin_score: 70.2
+    kin_score: 78.4
     mcp: &id005
       source: https://www.elastic.co/docs/solutions/search/mcp
       status: verified
@@ -166,10 +166,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.5
-    band: developing
+    agent_readiness: 40.8
+    band: strong
     in_catalog: true
-    kin_score: 49.7
+    kin_score: 57.1
     mcp: &id007
       source: https://cloud.google.com/bigquery/docs/use-bigquery-mcp
       status: verified
@@ -197,10 +197,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 31.8
+    kin_score: 30.5
     mcp: &id009
       status: none
     slug: mysql
@@ -227,10 +227,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.1
+    agent_readiness: 48.2
     band: developing
     in_catalog: true
-    kin_score: 49.1
+    kin_score: 49.4
     mcp: &id011
       source: https://github.com/supabase/mcp
       status: verified
@@ -258,10 +258,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 72.4
     mcp: &id013
       status: none
     slug: zendesk
@@ -286,10 +286,10 @@ noindex: false
 permalink: /applications/search-engine/algolia/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 60.5
+  agent_readiness: 56.3
   band: exemplar
   in_catalog: true
-  kin_score: 70.3
+  kin_score: 84.3
   mcp: *id001
   name: BigCommerce
   slug: bigcommerce
@@ -297,21 +297,21 @@ providers:
   tags: *id002
   url: /providers/bigcommerce/
 - agent_band: agent-ready
-  agent_readiness: 36.9
+  agent_readiness: 35.5
   band: strong
   in_catalog: true
-  kin_score: 57.5
+  kin_score: 61.5
   mcp: *id003
   name: commercetools
   slug: commercetools
   status: profiled
   tags: *id004
   url: /providers/commercetools/
-- agent_band: agent-ready
-  agent_readiness: 28.6
+- agent_band: agent-aware
+  agent_readiness: 28.5
   band: exemplar
   in_catalog: true
-  kin_score: 70.2
+  kin_score: 78.4
   mcp: *id005
   name: Elasticsearch
   slug: elastic
@@ -319,10 +319,10 @@ providers:
   tags: *id006
   url: /providers/elastic/
 - agent_band: agent-ready
-  agent_readiness: 31.5
-  band: developing
+  agent_readiness: 40.8
+  band: strong
   in_catalog: true
-  kin_score: 49.7
+  kin_score: 57.1
   mcp: *id007
   name: Google BigQuery
   slug: google-bigquery
@@ -330,10 +330,10 @@ providers:
   tags: *id008
   url: /providers/google-bigquery/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 31.8
+  kin_score: 30.5
   mcp: *id009
   name: MySQL
   slug: mysql
@@ -341,10 +341,10 @@ providers:
   tags: *id010
   url: /providers/mysql/
 - agent_band: agent-ready
-  agent_readiness: 48.1
+  agent_readiness: 48.2
   band: developing
   in_catalog: true
-  kin_score: 49.1
+  kin_score: 49.4
   mcp: *id011
   name: Supabase
   slug: supabase
@@ -352,10 +352,10 @@ providers:
   tags: *id012
   url: /providers/supabase/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 72.4
   mcp: *id013
   name: Zendesk Knowledge Base
   slug: zendesk

@@ -128,10 +128,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
-    band: strong
+    agent_readiness: 32.8
+    band: exemplar
     in_catalog: true
-    kin_score: 60.3
+    kin_score: 70.7
     mcp: &id003
       status: none
     slug: amazon-comprehend
@@ -157,11 +157,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id005
       source: https://github.com/awslabs/mcp
       status: verified
@@ -188,11 +188,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.3
-    band: strong
+    agent_band: agent-ready
+    agent_readiness: 34.5
+    band: exemplar
     in_catalog: true
-    kin_score: 66.0
+    kin_score: 75.6
     mcp: &id007
       status: none
     slug: amazon-transcribe
@@ -271,10 +271,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.4
+    agent_readiness: 36.0
     band: strong
     in_catalog: true
-    kin_score: 62.7
+    kin_score: 64.9
     mcp: &id013
       status: none
     slug: microsoft-exchange
@@ -336,32 +336,32 @@ providers:
   tags: *id002
   url: null
 - agent_band: agent-ready
-  agent_readiness: 33.5
-  band: strong
+  agent_readiness: 32.8
+  band: exemplar
   in_catalog: true
-  kin_score: 60.3
+  kin_score: 70.7
   mcp: *id003
   name: Amazon Comprehend Medical
   slug: amazon-comprehend
   status: profiled
   tags: *id004
   url: /providers/amazon-comprehend/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id005
   name: Amazon S3
   slug: amazon-s3
   status: profiled
   tags: *id006
   url: /providers/amazon-s3/
-- agent_band: agent-aware
-  agent_readiness: 25.3
-  band: strong
+- agent_band: agent-ready
+  agent_readiness: 34.5
+  band: exemplar
   in_catalog: true
-  kin_score: 66.0
+  kin_score: 75.6
   mcp: *id007
   name: Amazon Transcribe
   slug: amazon-transcribe
@@ -391,10 +391,10 @@ providers:
   tags: *id012
   url: null
 - agent_band: agent-ready
-  agent_readiness: 31.4
+  agent_readiness: 36.0
   band: strong
   in_catalog: true
-  kin_score: 62.7
+  kin_score: 64.9
   mcp: *id013
   name: Microsoft Exchange
   slug: microsoft-exchange

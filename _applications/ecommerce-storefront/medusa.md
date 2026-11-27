@@ -122,11 +122,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -154,10 +154,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id015
       source: https://github.com/PostHog/mcp
       status: verified
@@ -185,10 +185,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id023
       status: none
     slug: sendgrid
@@ -215,10 +215,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id029
       source: https://docs.stripe.com/mcp
       status: verified
@@ -246,10 +246,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 62.9
+    agent_readiness: 61.9
     band: exemplar
     in_catalog: true
-    kin_score: 79.9
+    kin_score: 81.1
     mcp: &id001
       status: none
     slug: algolia
@@ -276,10 +276,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.6
+    agent_readiness: 44.7
     band: exemplar
     in_catalog: true
-    kin_score: 70.5
+    kin_score: 69.3
     mcp: &id005
       source: https://github.com/avadev/mcp
       status: verified
@@ -306,10 +306,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.5
+    agent_readiness: 55.2
     band: developing
     in_catalog: true
-    kin_score: 44.3
+    kin_score: 43.9
     mcp: &id007
       source: https://github.com/contentful/contentful-mcp-server
       status: verified
@@ -337,10 +337,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id009
       status: none
     slug: mailchimp
@@ -370,7 +370,7 @@ integrations:
     agent_readiness: 24.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 52.5
     mcp: &id011
       source: https://github.com/meilisearch/meilisearch-mcp
       status: verified
@@ -398,10 +398,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id013
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -429,10 +429,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.4
+    agent_readiness: 49.8
     band: strong
     in_catalog: true
-    kin_score: 58.9
+    kin_score: 56.8
     mcp: &id017
       source: https://resend.com/docs/mcp-server
       status: verified
@@ -460,10 +460,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.5
+    agent_readiness: 46.9
     band: strong
     in_catalog: true
-    kin_score: 56.9
+    kin_score: 56.6
     mcp: &id019
       source: https://www.sanity.io/docs/compute-and-ai/mcp-server
       status: verified
@@ -491,10 +491,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id021
       status: none
     slug: segment
@@ -524,7 +524,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id025
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -552,10 +552,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
-    band: strong
+    agent_readiness: 45.9
+    band: developing
     in_catalog: true
-    kin_score: 56.7
+    kin_score: 54.1
     mcp: &id027
       status: none
     slug: shipstation
@@ -580,21 +580,21 @@ noindex: false
 permalink: /applications/ecommerce-storefront/medusa/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 62.9
+  agent_readiness: 61.9
   band: exemplar
   in_catalog: true
-  kin_score: 79.9
+  kin_score: 81.1
   mcp: *id001
   name: Algolia
   slug: algolia
   status: profiled
   tags: *id002
   url: /providers/algolia/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id003
   name: Amazon S3
   slug: amazon-s3
@@ -602,10 +602,10 @@ providers:
   tags: *id004
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 44.6
+  agent_readiness: 44.7
   band: exemplar
   in_catalog: true
-  kin_score: 70.5
+  kin_score: 69.3
   mcp: *id005
   name: Avalara (AvaTax)
   slug: avalara
@@ -613,10 +613,10 @@ providers:
   tags: *id006
   url: /providers/avalara/
 - agent_band: agent-ready
-  agent_readiness: 56.5
+  agent_readiness: 55.2
   band: developing
   in_catalog: true
-  kin_score: 44.3
+  kin_score: 43.9
   mcp: *id007
   name: Contentful
   slug: contentful
@@ -624,10 +624,10 @@ providers:
   tags: *id008
   url: /providers/contentful/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id009
   name: Mailchimp
   slug: mailchimp
@@ -638,7 +638,7 @@ providers:
   agent_readiness: 24.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 52.5
   mcp: *id011
   name: Meilisearch
   slug: meilisearch
@@ -646,10 +646,10 @@ providers:
   tags: *id012
   url: /providers/meilisearch/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id013
   name: PayPal
   slug: paypal
@@ -657,10 +657,10 @@ providers:
   tags: *id014
   url: /providers/paypal/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id015
   name: PostHog
   slug: posthog
@@ -668,10 +668,10 @@ providers:
   tags: *id016
   url: /providers/posthog/
 - agent_band: agent-ready
-  agent_readiness: 49.4
+  agent_readiness: 49.8
   band: strong
   in_catalog: true
-  kin_score: 58.9
+  kin_score: 56.8
   mcp: *id017
   name: Resend
   slug: resend
@@ -679,10 +679,10 @@ providers:
   tags: *id018
   url: /providers/resend/
 - agent_band: agent-ready
-  agent_readiness: 46.5
+  agent_readiness: 46.9
   band: strong
   in_catalog: true
-  kin_score: 56.9
+  kin_score: 56.6
   mcp: *id019
   name: Sanity
   slug: sanity
@@ -690,10 +690,10 @@ providers:
   tags: *id020
   url: /providers/sanity/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id021
   name: Segment
   slug: segment
@@ -701,10 +701,10 @@ providers:
   tags: *id022
   url: /providers/segment/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id023
   name: SendGrid
   slug: sendgrid
@@ -715,7 +715,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id025
   name: Sentry
   slug: sentry-system
@@ -723,10 +723,10 @@ providers:
   tags: *id026
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 46.9
-  band: strong
+  agent_readiness: 45.9
+  band: developing
   in_catalog: true
-  kin_score: 56.7
+  kin_score: 54.1
   mcp: *id027
   name: ShipStation
   slug: shipstation
@@ -734,10 +734,10 @@ providers:
   tags: *id028
   url: /providers/shipstation/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id029
   name: Stripe
   slug: stripe

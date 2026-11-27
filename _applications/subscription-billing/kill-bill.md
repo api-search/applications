@@ -72,7 +72,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.0
+    kin_score: 9.1
     mcp: &id001
       status: unknown
     slug: accertify
@@ -99,10 +99,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 43.7
+    agent_readiness: 42.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 73.6
     mcp: &id003
       source: https://github.com/Adyen/adyen-mcp
       status: verified
@@ -130,10 +130,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.6
+    agent_readiness: 44.7
     band: exemplar
     in_catalog: true
-    kin_score: 70.5
+    kin_score: 69.3
     mcp: &id005
       source: https://github.com/avadev/mcp
       status: verified
@@ -160,10 +160,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.0
+    agent_readiness: 53.6
     band: developing
     in_catalog: true
-    kin_score: 46.2
+    kin_score: 44.7
     mcp: &id007
       status: none
     slug: braintree
@@ -190,10 +190,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.3
+    agent_readiness: 25.7
     band: thin
     in_catalog: true
-    kin_score: 33.4
+    kin_score: 34.9
     mcp: &id009
       status: none
     slug: chase
@@ -220,10 +220,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_readiness: 32.7
     band: thin
     in_catalog: true
-    kin_score: 33.8
+    kin_score: 32.5
     mcp: &id011
       source: https://github.com/CyberSource/cybersource-developer-mcp
       status: verified
@@ -251,10 +251,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 53.9
+    agent_readiness: 53.1
     band: exemplar
     in_catalog: true
-    kin_score: 74.8
+    kin_score: 75.0
     mcp: &id013
       source: https://github.com/Dwolla/dwolla-mcp
       status: verified
@@ -282,10 +282,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.3
+    agent_readiness: 27.2
     band: developing
     in_catalog: true
-    kin_score: 46.0
+    kin_score: 45.5
     mcp: &id015
       status: none
     slug: csg
@@ -312,10 +312,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.3
+    agent_readiness: 50.3
     band: developing
     in_catalog: true
-    kin_score: 52.1
+    kin_score: 50.0
     mcp: &id017
       source: https://developer.gocardless.com/mcp
       status: verified
@@ -343,10 +343,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.2
+    agent_readiness: 48.7
     band: thin
     in_catalog: true
-    kin_score: 38.7
+    kin_score: 38.0
     mcp: &id019
       status: none
     slug: kintsugi
@@ -373,10 +373,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id021
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -404,10 +404,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.4
-    band: developing
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 54.3
     mcp: &id023
       status: none
     slug: qualpay
@@ -460,10 +460,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id027
       source: https://docs.stripe.com/mcp
       status: verified
@@ -491,10 +491,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.1
-    band: emerging
+    agent_readiness: 20.6
+    band: thin
     in_catalog: true
-    kin_score: 23.1
+    kin_score: 33.2
     mcp: &id029
       status: none
     slug: vertex
@@ -522,7 +522,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.0
+  kin_score: 9.1
   mcp: *id001
   name: Accertify
   slug: accertify
@@ -530,10 +530,10 @@ providers:
   tags: *id002
   url: /providers/accertify/
 - agent_band: agent-native
-  agent_readiness: 43.7
+  agent_readiness: 42.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 73.6
   mcp: *id003
   name: Adyen
   slug: adyen
@@ -541,10 +541,10 @@ providers:
   tags: *id004
   url: /providers/adyen/
 - agent_band: agent-ready
-  agent_readiness: 44.6
+  agent_readiness: 44.7
   band: exemplar
   in_catalog: true
-  kin_score: 70.5
+  kin_score: 69.3
   mcp: *id005
   name: Avalara (AvaTax)
   slug: avalara
@@ -552,10 +552,10 @@ providers:
   tags: *id006
   url: /providers/avalara/
 - agent_band: agent-ready
-  agent_readiness: 52.0
+  agent_readiness: 53.6
   band: developing
   in_catalog: true
-  kin_score: 46.2
+  kin_score: 44.7
   mcp: *id007
   name: Braintree
   slug: braintree
@@ -563,10 +563,10 @@ providers:
   tags: *id008
   url: /providers/braintree/
 - agent_band: agent-aware
-  agent_readiness: 26.3
+  agent_readiness: 25.7
   band: thin
   in_catalog: true
-  kin_score: 33.4
+  kin_score: 34.9
   mcp: *id009
   name: Chase (Orbital / Paymentech)
   slug: chase
@@ -574,10 +574,10 @@ providers:
   tags: *id010
   url: /providers/chase/
 - agent_band: agent-ready
-  agent_readiness: 33.3
+  agent_readiness: 32.7
   band: thin
   in_catalog: true
-  kin_score: 33.8
+  kin_score: 32.5
   mcp: *id011
   name: CyberSource
   slug: cybersource
@@ -585,10 +585,10 @@ providers:
   tags: *id012
   url: /providers/cybersource/
 - agent_band: agent-native
-  agent_readiness: 53.9
+  agent_readiness: 53.1
   band: exemplar
   in_catalog: true
-  kin_score: 74.8
+  kin_score: 75.0
   mcp: *id013
   name: Dwolla
   slug: dwolla
@@ -596,10 +596,10 @@ providers:
   tags: *id014
   url: /providers/dwolla/
 - agent_band: agent-aware
-  agent_readiness: 22.3
+  agent_readiness: 27.2
   band: developing
   in_catalog: true
-  kin_score: 46.0
+  kin_score: 45.5
   mcp: *id015
   name: Forte
   slug: csg
@@ -607,10 +607,10 @@ providers:
   tags: *id016
   url: /providers/csg/
 - agent_band: agent-ready
-  agent_readiness: 51.3
+  agent_readiness: 50.3
   band: developing
   in_catalog: true
-  kin_score: 52.1
+  kin_score: 50.0
   mcp: *id017
   name: GoCardless
   slug: gocardless
@@ -618,10 +618,10 @@ providers:
   tags: *id018
   url: /providers/gocardless/
 - agent_band: agent-ready
-  agent_readiness: 44.2
+  agent_readiness: 48.7
   band: thin
   in_catalog: true
-  kin_score: 38.7
+  kin_score: 38.0
   mcp: *id019
   name: Kintsugi
   slug: kintsugi
@@ -629,10 +629,10 @@ providers:
   tags: *id020
   url: /providers/kintsugi/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id021
   name: PayPal
   slug: paypal
@@ -640,10 +640,10 @@ providers:
   tags: *id022
   url: /providers/paypal/
 - agent_band: agent-ready
-  agent_readiness: 34.4
-  band: developing
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 54.3
   mcp: *id023
   name: Qualpay
   slug: qualpay
@@ -662,10 +662,10 @@ providers:
   tags: *id026
   url: null
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id027
   name: Stripe
   slug: stripe
@@ -673,10 +673,10 @@ providers:
   tags: *id028
   url: /providers/stripe/
 - agent_band: agent-aware
-  agent_readiness: 21.1
-  band: emerging
+  agent_readiness: 20.6
+  band: thin
   in_catalog: true
-  kin_score: 23.1
+  kin_score: 33.2
   mcp: *id029
   name: Vertex (tax)
   slug: vertex

@@ -1465,14 +1465,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 26.3
       apps:
       - Lever
       - Recruitee
       - Teamtailor
       band: developing
       in_catalog: true
-      kin_score: 40.9
+      kin_score: 40.7
       mcp:
         source: https://documentation.bamboohr.com/docs/mcp-server
         status: verified
@@ -1491,13 +1491,13 @@ stack:
       tier: declared
       url: /providers/bamboohr/
     - agent_band: agent-native
-      agent_readiness: 51.7
+      agent_readiness: 52.0
       apps:
       - Greenhouse
       - Teamtailor
       band: strong
       in_catalog: true
-      kin_score: 63.3
+      kin_score: 60.9
       mcp:
         source: https://developer.deel.com/docs/mcp
         status: documented
@@ -1515,13 +1515,13 @@ stack:
       tier: declared
       url: /providers/deel-com/
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 38.3
       apps:
       - Ashby
       - Recruitee
       band: strong
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 54.7
       mcp:
         status: none
       name: Workday
@@ -1538,13 +1538,13 @@ stack:
       tier: declared
       url: /providers/workday/
     - agent_band: agent-ready
-      agent_readiness: 35.7
+      agent_readiness: 39.8
       apps:
       - Lever
       - Teamtailor
       band: developing
       in_catalog: true
-      kin_score: 43.7
+      kin_score: 45.6
       mcp:
         status: none
       name: ADP
@@ -1561,13 +1561,13 @@ stack:
       tier: declared
       url: /providers/adp/
     - agent_band: agent-aware
-      agent_readiness: 19.7
+      agent_readiness: 19.3
       apps:
       - Lever
       - Teamtailor
       band: thin
       in_catalog: true
-      kin_score: 30.4
+      kin_score: 29.3
       mcp:
         source: https://apidocs.hibob.com/docs/hibob-mcp-server
         status: verified
@@ -1585,13 +1585,13 @@ stack:
       tier: declared
       url: /providers/bob/
     - agent_band: agent-aware
-      agent_readiness: 24.3
+      agent_readiness: 23.8
       apps:
       - Recruitee
       - Teamtailor
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 26.1
+      kin_score: 26.2
       mcp:
         status: none
       name: SAP SuccessFactors
@@ -1608,13 +1608,13 @@ stack:
       tier: declared
       url: /providers/sap-successfactors/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Recruitee
       - Teamtailor
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.5
+      kin_score: 11.6
       mcp:
         status: unknown
       name: AFAS
@@ -1631,12 +1631,12 @@ stack:
       tier: declared
       url: /providers/afas/
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 30.3
       apps:
       - Teamtailor
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.2
+      kin_score: 67.1
       mcp:
         status: none
       name: Deputy
@@ -1652,12 +1652,12 @@ stack:
       tier: declared
       url: /providers/deputy/
     - agent_band: agent-ready
-      agent_readiness: 44.1
+      agent_readiness: 47.6
       apps:
       - Greenhouse
       band: strong
       in_catalog: true
-      kin_score: 62.2
+      kin_score: 59.9
       mcp:
         status: none
       name: ChartHop
@@ -1673,33 +1673,12 @@ stack:
       tier: declared
       url: /providers/charthop/
     - agent_band: agent-ready
-      agent_readiness: 45.2
+      agent_readiness: 47.5
       apps:
       - Teamtailor
       band: developing
       in_catalog: true
       kin_score: 53.9
-      mcp:
-        status: none
-      name: Humaans
-      slug: humaans-io
-      sources:
-      - https://www.teamtailor.com/en/integrations/
-      status: profiled
-      tags:
-      - HRIS
-      - Human Resources
-      - People Analytics
-      - People Operations
-      tier: declared
-      url: /providers/humaans-io/
-    - agent_band: agent-ready
-      agent_readiness: 48.5
-      apps:
-      - Teamtailor
-      band: developing
-      in_catalog: true
-      kin_score: 53.8
       mcp:
         status: none
       name: Factorial
@@ -1715,12 +1694,33 @@ stack:
       tier: declared
       url: /providers/factorial-hr/
     - agent_band: agent-ready
-      agent_readiness: 41.7
+      agent_readiness: 44.3
+      apps:
+      - Teamtailor
+      band: developing
+      in_catalog: true
+      kin_score: 52.0
+      mcp:
+        status: none
+      name: Humaans
+      slug: humaans-io
+      sources:
+      - https://www.teamtailor.com/en/integrations/
+      status: profiled
+      tags:
+      - HRIS
+      - Human Resources
+      - People Analytics
+      - People Operations
+      tier: declared
+      url: /providers/humaans-io/
+    - agent_band: agent-ready
+      agent_readiness: 44.9
       apps:
       - Lever
       band: developing
       in_catalog: true
-      kin_score: 47.0
+      kin_score: 45.7
       mcp:
         status: none
       name: Justworks
@@ -1736,12 +1736,12 @@ stack:
       tier: declared
       url: /providers/justworks/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 31.7
       apps:
       - Teamtailor
       band: developing
       in_catalog: true
-      kin_score: 42.0
+      kin_score: 44.9
       mcp:
         status: none
       name: Gusto
@@ -1757,12 +1757,12 @@ stack:
       tier: declared
       url: /providers/gusto/
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 28.5
       apps:
       - Teamtailor
       band: thin
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 32.8
       mcp:
         status: none
       name: Rippling
@@ -1778,12 +1778,12 @@ stack:
       tier: declared
       url: /providers/rippling/
     - agent_band: agent-aware
-      agent_readiness: 23.9
+      agent_readiness: 23.4
       apps:
       - Teamtailor
       band: thin
       in_catalog: true
-      kin_score: 31.4
+      kin_score: 32.4
       mcp: &id001
         status: none
       name: Paylocity
@@ -1799,12 +1799,33 @@ stack:
       tier: declared
       url: /providers/paylocity/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 34.3
       apps:
       - Teamtailor
       band: thin
       in_catalog: true
-      kin_score: 31.4
+      kin_score: 30.5
+      mcp:
+        status: none
+      name: Charlie HR
+      slug: charliehr
+      sources:
+      - https://www.teamtailor.com/en/integrations/
+      status: profiled
+      tags:
+      - HRIS
+      - Human Resources
+      - Leave
+      - People
+      tier: declared
+      url: /providers/charliehr/
+    - agent_band: agent-ready
+      agent_readiness: 41.0
+      apps:
+      - Teamtailor
+      band: thin
+      in_catalog: true
+      kin_score: 29.8
       mcp:
         status: none
       name: Personio
@@ -1820,33 +1841,12 @@ stack:
       tier: declared
       url: /providers/personio/
     - agent_band: agent-ready
-      agent_readiness: 28.8
+      agent_readiness: 28.6
       apps:
       - Teamtailor
       band: thin
       in_catalog: true
-      kin_score: 31.0
-      mcp:
-        status: none
-      name: Charlie HR
-      slug: charliehr
-      sources:
-      - https://www.teamtailor.com/en/integrations/
-      status: profiled
-      tags:
-      - HRIS
-      - Human Resources
-      - Leave
-      - People
-      tier: declared
-      url: /providers/charliehr/
-    - agent_band: agent-aware
-      agent_readiness: 23.7
-      apps:
-      - Teamtailor
-      band: thin
-      in_catalog: true
-      kin_score: 30.4
+      kin_score: 29.3
       mcp:
         status: none
       name: Nmbrs
@@ -1862,12 +1862,12 @@ stack:
       tier: declared
       url: /providers/nmbrs/
     - agent_band: agent-aware
-      agent_readiness: 22.8
+      agent_readiness: 22.3
       apps:
       - Teamtailor
       band: thin
       in_catalog: true
-      kin_score: 28.5
+      kin_score: 28.7
       mcp:
         status: none
       name: PayFit
@@ -1883,12 +1883,12 @@ stack:
       tier: declared
       url: /providers/payfit/
     - agent_band: agent-ready
-      agent_readiness: 42.4
+      agent_readiness: 47.3
       apps:
       - Teamtailor
       band: thin
       in_catalog: true
-      kin_score: 27.8
+      kin_score: 28.1
       mcp:
         status: none
       name: Sesame HR
@@ -1903,56 +1903,13 @@ stack:
       - Workforce Management
       tier: declared
       url: /providers/sesame-hr/
-    - agent_band: human-only
-      agent_readiness: 3.1
-      apps:
-      - Teamtailor
-      band: emerging
-      in_catalog: true
-      kin_score: 16.9
-      mcp:
-        status: none
-      name: TriNet
-      slug: trinet-group
-      sources:
-      - https://www.teamtailor.com/en/integrations/
-      status: profiled
-      tags:
-      - Benefits
-      - Compliance
-      - Human Resources
-      - Payroll
-      tier: declared
-      url: /providers/trinet-group/
     - agent_band: agent-aware
-      agent_readiness: 12.9
+      agent_readiness: 14.8
       apps:
       - Teamtailor
       band: emerging
       in_catalog: true
-      kin_score: 14.1
-      mcp:
-        source: https://github.com/darwinbox/darwinbox-mcp
-        status: verified
-      name: Darwinbox
-      slug: darwinbox
-      sources:
-      - https://www.teamtailor.com/en/integrations/
-      status: profiled
-      tags:
-      - HRMS
-      - Human Resources
-      - Payroll
-      - Recruiting
-      tier: declared
-      url: /providers/darwinbox/
-    - agent_band: agent-aware
-      agent_readiness: 15.1
-      apps:
-      - Teamtailor
-      band: emerging
-      in_catalog: true
-      kin_score: 13.6
+      kin_score: 20.1
       mcp:
         status: none
       name: Dayforce
@@ -1968,12 +1925,33 @@ stack:
       tier: declared
       url: /providers/dayforce/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 3.1
       apps:
       - Teamtailor
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.7
+      kin_score: 18.0
+      mcp:
+        status: none
+      name: TriNet
+      slug: trinet-group
+      sources:
+      - https://www.teamtailor.com/en/integrations/
+      status: profiled
+      tags:
+      - Benefits
+      - Compliance
+      - Human Resources
+      - Payroll
+      tier: declared
+      url: /providers/trinet-group/
+    - agent_band: human-only
+      agent_readiness: 2.8
+      apps:
+      - Teamtailor
+      band: emerging
+      in_catalog: true
+      kin_score: 17.7
       mcp:
         status: none
       name: SD Worx
@@ -1988,6 +1966,28 @@ stack:
       - Workforce Management
       tier: declared
       url: /providers/sd-worx/
+    - agent_band: agent-aware
+      agent_readiness: 12.6
+      apps:
+      - Teamtailor
+      band: emerging
+      in_catalog: true
+      kin_score: 13.1
+      mcp:
+        source: https://github.com/darwinbox/darwinbox-mcp
+        status: verified
+      name: Darwinbox
+      slug: darwinbox
+      sources:
+      - https://www.teamtailor.com/en/integrations/
+      status: profiled
+      tags:
+      - HRMS
+      - Human Resources
+      - Payroll
+      - Recruiting
+      tier: declared
+      url: /providers/darwinbox/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -2014,7 +2014,7 @@ stack:
       via_parent: Talent Acquisition Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - Horilla (Recruitment)
       - Lever
@@ -2022,7 +2022,7 @@ stack:
       - Teamtailor
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn
@@ -2040,14 +2040,14 @@ stack:
       tier: observed
       url: /providers/linkedin/
     - agent_band: agent-ready
-      agent_readiness: 29.6
+      agent_readiness: 29.0
       apps:
       - Lever
       - OpenCATS
       - Teamtailor
       band: developing
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 44.6
       mcp:
         status: none
       name: Indeed
@@ -2082,12 +2082,33 @@ stack:
       tier: observed
       url: null
     - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Teamtailor
+      band: emerging
+      in_catalog: true
+      kin_score: 14.7
+      mcp:
+        status: unknown
+      name: Talent.com
+      slug: talent-com
+      sources:
+      - https://www.teamtailor.com/en/integrations/
+      status: profiled
+      tags:
+      - Company
+      - Employment
+      - Job Search
+      - Recruiting
+      tier: declared
+      url: /providers/talent-com/
+    - agent_band: human-only
       agent_readiness: 0.6
       apps:
       - Teamtailor
       band: emerging
       in_catalog: true
-      kin_score: 11.1
+      kin_score: 11.4
       mcp:
         status: none
       name: Glassdoor
@@ -2108,68 +2129,7 @@ stack:
       - Teamtailor
       band: minimal
       in_catalog: true
-      kin_score: 8.5
-      mcp:
-        status: unknown
-      name: Talent.com
-      slug: talent-com
-      sources:
-      - https://www.teamtailor.com/en/integrations/
-      status: profiled
-      tags:
-      - Company
-      - Employment
-      - Job Search
-      - Recruiting
-      tier: declared
-      url: /providers/talent-com/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Teamtailor
-      band: minimal
-      in_catalog: true
-      kin_score: 5.2
-      mcp:
-        status: none
-      name: Adzuna
-      slug: adzuna
-      sources:
-      - https://www.teamtailor.com/en/integrations/
-      status: profiled
-      tags:
-      - Job
-      - Job Board
-      - Public APIs
-      tier: declared
-      url: /providers/adzuna/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Teamtailor
-      band: minimal
-      in_catalog: true
-      kin_score: 5.2
-      mcp:
-        status: none
-      name: Careerjet
-      slug: careerjet
-      sources:
-      - https://www.teamtailor.com/en/integrations/
-      status: profiled
-      tags:
-      - Job
-      - Job Board
-      - Public APIs
-      tier: declared
-      url: /providers/careerjet/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Teamtailor
-      band: minimal
-      in_catalog: true
-      kin_score: 5.2
+      kin_score: 5.0
       mcp:
         status: none
       name: Jooble
@@ -2189,7 +2149,7 @@ stack:
       - Teamtailor
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 5.0
       mcp:
         status: none
       name: Reed
@@ -2204,7 +2164,7 @@ stack:
       tier: declared
       url: /providers/reed/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Teamtailor
       band: minimal
@@ -2230,7 +2190,47 @@ stack:
       - Teamtailor
       band: minimal
       in_catalog: true
-      kin_score: 3.2
+      kin_score: 4.3
+      mcp:
+        status: none
+      name: Adzuna
+      slug: adzuna
+      sources:
+      - https://www.teamtailor.com/en/integrations/
+      status: profiled
+      tags:
+      - Job
+      - Job Board
+      - Public APIs
+      tier: declared
+      url: /providers/adzuna/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Teamtailor
+      band: minimal
+      in_catalog: true
+      kin_score: 4.3
+      mcp:
+        status: none
+      name: Careerjet
+      slug: careerjet
+      sources:
+      - https://www.teamtailor.com/en/integrations/
+      status: profiled
+      tags:
+      - Job
+      - Job Board
+      - Public APIs
+      tier: declared
+      url: /providers/careerjet/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Teamtailor
+      band: minimal
+      in_catalog: true
+      kin_score: 2.4
       mcp:
         status: unknown
       name: Monster
@@ -2288,13 +2288,13 @@ stack:
       via_parent: Talent Acquisition Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 52.8
       apps:
       - Greenhouse
       - Teamtailor
       band: thin
       in_catalog: true
-      kin_score: 32.8
+      kin_score: 32.4
       mcp:
         status: none
       name: Checkr
@@ -2310,37 +2310,14 @@ stack:
       - Human Resources
       tier: declared
       url: /providers/checkr/
-    - agent_band: agent-aware
-      agent_readiness: 21.6
-      apps:
-      - Lever
-      - Teamtailor
-      band: emerging
-      in_catalog: true
-      kin_score: 19.8
-      mcp:
-        status: none
-      name: Verified First
-      slug: verified-first
-      sources:
-      - https://marketplace.lever.co/
-      - https://www.teamtailor.com/en/integrations/
-      status: profiled
-      tags:
-      - Background Checks
-      - Company
-      - Screening
-      - Verification
-      tier: declared
-      url: /providers/verified-first/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Greenhouse
       - Teamtailor
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 16.4
+      kin_score: 27.0
       mcp:
         status: unknown
       name: Criteria Corp
@@ -2356,34 +2333,36 @@ stack:
       - Video Interviewing
       tier: declared
       url: /providers/criteria-corp/
-    - agent_band: agent-ready
-      agent_readiness: 40.2
+    - agent_band: agent-aware
+      agent_readiness: 18.3
       apps:
+      - Lever
       - Teamtailor
-      band: strong
+      band: emerging
       in_catalog: true
-      kin_score: 60.0
+      kin_score: 24.7
       mcp:
         status: none
-      name: Experian
-      slug: experian
+      name: Verified First
+      slug: verified-first
       sources:
+      - https://marketplace.lever.co/
       - https://www.teamtailor.com/en/integrations/
       status: profiled
       tags:
+      - Background Checks
       - Company
-      - Credit Bureau
-      - Credit Reporting
-      - Identity Verification
+      - Screening
+      - Verification
       tier: declared
-      url: /providers/experian/
+      url: /providers/verified-first/
     - agent_band: agent-ready
-      agent_readiness: 29.7
+      agent_readiness: 29.6
       apps:
       - Teamtailor
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 54.8
+      kin_score: 68.4
       mcp:
         status: none
       name: CoderPad
@@ -2398,13 +2377,34 @@ stack:
       - Technical Assessment
       tier: declared
       url: /providers/coderpad/
+    - agent_band: agent-ready
+      agent_readiness: 39.4
+      apps:
+      - Teamtailor
+      band: strong
+      in_catalog: true
+      kin_score: 60.9
+      mcp:
+        status: none
+      name: Experian
+      slug: experian
+      sources:
+      - https://www.teamtailor.com/en/integrations/
+      status: profiled
+      tags:
+      - Company
+      - Credit Bureau
+      - Credit Reporting
+      - Identity Verification
+      tier: declared
+      url: /providers/experian/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 27.4
       apps:
       - Teamtailor
       band: developing
       in_catalog: true
-      kin_score: 52.3
+      kin_score: 52.4
       mcp:
         status: none
       name: The Predictive Index
@@ -2420,12 +2420,12 @@ stack:
       tier: declared
       url: /providers/the-predictive-index/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 23.9
       apps:
       - Teamtailor
       band: thin
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 26.2
       mcp:
         status: none
       name: Certn
@@ -2446,7 +2446,7 @@ stack:
       - Teamtailor
       band: emerging
       in_catalog: true
-      kin_score: 24.8
+      kin_score: 25.9
       mcp:
         status: none
       name: HackerRank
@@ -2467,7 +2467,7 @@ stack:
       - Teamtailor
       band: emerging
       in_catalog: true
-      kin_score: 24.4
+      kin_score: 25.3
       mcp:
         status: none
       name: Codility
@@ -2483,12 +2483,12 @@ stack:
       tier: declared
       url: /providers/codility/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 23.9
       apps:
       - Teamtailor
       band: emerging
       in_catalog: true
-      kin_score: 23.7
+      kin_score: 23.2
       mcp:
         status: none
       name: Spark Hire
@@ -2509,7 +2509,7 @@ stack:
       - Teamtailor
       band: emerging
       in_catalog: true
-      kin_score: 18.7
+      kin_score: 20.5
       mcp:
         status: none
       name: TestGorilla
@@ -2530,28 +2530,7 @@ stack:
       - Teamtailor
       band: emerging
       in_catalog: true
-      kin_score: 11.8
-      mcp:
-        status: none
-      name: Crosschq
-      slug: crosschq
-      sources:
-      - https://www.teamtailor.com/en/integrations/
-      status: profiled
-      tags:
-      - Company
-      - Human Resources
-      - Recruiting
-      - Talent Intelligence
-      tier: declared
-      url: /providers/crosschq/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Teamtailor
-      band: minimal
-      in_catalog: true
-      kin_score: 9.4
+      kin_score: 15.3
       mcp:
         status: unknown
       name: SHL
@@ -2566,6 +2545,27 @@ stack:
       - Talent Assessment
       tier: declared
       url: /providers/shl/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Teamtailor
+      band: minimal
+      in_catalog: true
+      kin_score: 10.6
+      mcp:
+        status: none
+      name: Crosschq
+      slug: crosschq
+      sources:
+      - https://www.teamtailor.com/en/integrations/
+      status: profiled
+      tags:
+      - Company
+      - Human Resources
+      - Recruiting
+      - Talent Intelligence
+      tier: declared
+      url: /providers/crosschq/
   - capability:
       attribution: Turbo EA
       id: BC-150.10.30
@@ -2575,12 +2575,12 @@ stack:
       via_parent: Contract Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.9
+      agent_readiness: 62.9
       apps:
       - Teamtailor
       band: exemplar
       in_catalog: true
-      kin_score: 76.2
+      kin_score: 76.1
       mcp:
         source: https://github.com/adobe/cq-quickstart-mcp-server
         status: verified
@@ -2597,12 +2597,12 @@ stack:
       tier: declared
       url: /providers/adobe/
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Teamtailor
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 71.5
       mcp:
         source: https://www.docusign.com/products/mcp
         status: documented
@@ -2619,12 +2619,12 @@ stack:
       tier: declared
       url: /providers/docusign/
     - agent_band: agent-ready
-      agent_readiness: 48.8
+      agent_readiness: 48.1
       apps:
       - Teamtailor
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 71.1
       mcp:
         status: none
       name: Dropbox Sign
@@ -2640,12 +2640,12 @@ stack:
       tier: declared
       url: /providers/hellosign/
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 40.8
       apps:
       - Teamtailor
       band: strong
       in_catalog: true
-      kin_score: 57.6
+      kin_score: 65.6
       mcp:
         status: none
       name: Penneo
@@ -2661,12 +2661,12 @@ stack:
       tier: declared
       url: /providers/penneo/
     - agent_band: agent-ready
-      agent_readiness: 34.6
+      agent_readiness: 39.0
       apps:
       - Teamtailor
       band: developing
       in_catalog: true
-      kin_score: 41.4
+      kin_score: 43.0
       mcp:
         source: https://github.com/pandadoc/pandadoc-mcpb
         status: verified
@@ -2683,12 +2683,12 @@ stack:
       tier: declared
       url: /providers/pandadoc/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 23.9
       apps:
       - Teamtailor
       band: thin
       in_catalog: true
-      kin_score: 30.9
+      kin_score: 31.1
       mcp:
         status: none
       name: Oneflow
@@ -2704,12 +2704,12 @@ stack:
       tier: declared
       url: /providers/oneflow/
     - agent_band: agent-ready
-      agent_readiness: 41.4
+      agent_readiness: 44.7
       apps:
       - Teamtailor
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 28.6
       mcp:
         source: https://github.com/scrive/mcp
         status: verified
@@ -2726,12 +2726,12 @@ stack:
       tier: declared
       url: /providers/scrive/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Teamtailor
       band: emerging
       in_catalog: true
-      kin_score: 25.9
+      kin_score: 26.1
       mcp:
         status: none
       name: Signeasy
@@ -2757,12 +2757,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.7
+      agent_readiness: 42.1
       apps:
       - Teamtailor
       band: exemplar
       in_catalog: true
-      kin_score: 73.1
+      kin_score: 73.4
       mcp:
         source: https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server
         status: verified
@@ -2779,12 +2779,12 @@ stack:
       tier: declared
       url: /providers/google-ads/
     - agent_band: agent-ready
-      agent_readiness: 38.9
+      agent_readiness: 38.6
       apps:
       - Teamtailor
       band: exemplar
       in_catalog: true
-      kin_score: 69.0
+      kin_score: 67.8
       mcp:
         status: none
       name: Instagram
@@ -2800,12 +2800,12 @@ stack:
       tier: declared
       url: /providers/instagram/
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 47.1
       apps:
       - Teamtailor
       band: strong
       in_catalog: true
-      kin_score: 65.7
+      kin_score: 65.8
       mcp:
         status: none
       name: Snapchat
@@ -2821,12 +2821,12 @@ stack:
       tier: declared
       url: /providers/snapchat/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Teamtailor
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -2842,12 +2842,12 @@ stack:
       tier: declared
       url: /providers/facebook/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Teamtailor
       band: developing
       in_catalog: true
-      kin_score: 41.0
+      kin_score: 40.5
       mcp:
         status: none
       name: TikTok
@@ -2871,13 +2871,13 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Ashby
       - Recruitee
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2895,12 +2895,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Recruitee
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -2925,12 +2925,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Teamtailor
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -2947,12 +2947,12 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-aware
-      agent_readiness: 18.0
+      agent_readiness: 17.6
       apps:
       - Teamtailor
       band: emerging
       in_catalog: true
-      kin_score: 13.7
+      kin_score: 23.2
       mcp:
         status: none
       name: Upsales
@@ -2976,12 +2976,12 @@ stack:
       via_parent: Voice & Telephony
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.9
+      agent_readiness: 44.3
       apps:
       - Teamtailor
       band: strong
       in_catalog: true
-      kin_score: 54.9
+      kin_score: 64.5
       mcp:
         status: none
       name: Ringover
@@ -3005,12 +3005,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.9
+      agent_readiness: 23.4
       apps:
       - Greenhouse
       band: thin
       in_catalog: true
-      kin_score: 31.4
+      kin_score: 32.4
       mcp: *id001
       name: Paylocity (Texting)
       slug: paylocity
@@ -3029,12 +3029,12 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Ashby
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -3062,7 +3062,7 @@ summary:
     unchecked: 4
     verified: 11
   mcp_verified: 11
-  mean_kin_score: 37.2
+  mean_kin_score: 38.4
   observed: 3
   queued: 4
   reference_apps: 7

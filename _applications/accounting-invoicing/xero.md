@@ -79,10 +79,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id001
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -109,22 +109,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id003
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id004
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase
   provider: firebase
@@ -141,10 +141,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: exemplar
     in_catalog: true
-    kin_score: 76.5
+    kin_score: 74.4
     mcp: &id007
       source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
       status: verified
@@ -172,10 +172,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.4
+    agent_readiness: 34.7
     band: strong
     in_catalog: true
-    kin_score: 56.4
+    kin_score: 57.0
     mcp: &id009
       source: https://support.pendo.io/hc/en-us/articles/41102236924955
       status: verified
@@ -203,10 +203,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.8
+    agent_readiness: 52.3
     band: exemplar
     in_catalog: true
-    kin_score: 80.5
+    kin_score: 77.6
     mcp: &id011
       status: none
     slug: salesforce-marketing-cloud
@@ -236,7 +236,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id013
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -264,10 +264,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.3
+    agent_readiness: 50.3
     band: developing
     in_catalog: true
-    kin_score: 52.1
+    kin_score: 50.0
     mcp: &id005
       source: https://developer.gocardless.com/mcp
       status: verified
@@ -295,10 +295,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id015
       source: https://docs.stripe.com/mcp
       status: verified
@@ -324,32 +324,32 @@ noindex: false
 permalink: /applications/accounting-invoicing/xero/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id001
   name: AppsFlyer
   slug: appsflyer
   status: profiled
   tags: *id002
   url: /providers/appsflyer/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id003
   name: Firebase
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id004
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 51.3
+  agent_readiness: 50.3
   band: developing
   in_catalog: true
-  kin_score: 52.1
+  kin_score: 50.0
   mcp: *id005
   name: GoCardless
   slug: gocardless
@@ -357,10 +357,10 @@ providers:
   tags: *id006
   url: /providers/gocardless/
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 44.8
   band: exemplar
   in_catalog: true
-  kin_score: 76.5
+  kin_score: 74.4
   mcp: *id007
   name: New Relic
   slug: new-relic
@@ -368,10 +368,10 @@ providers:
   tags: *id008
   url: /providers/new-relic/
 - agent_band: agent-ready
-  agent_readiness: 35.4
+  agent_readiness: 34.7
   band: strong
   in_catalog: true
-  kin_score: 56.4
+  kin_score: 57.0
   mcp: *id009
   name: Pendo
   slug: pendoio
@@ -379,10 +379,10 @@ providers:
   tags: *id010
   url: /providers/pendoio/
 - agent_band: agent-ready
-  agent_readiness: 56.8
+  agent_readiness: 52.3
   band: exemplar
   in_catalog: true
-  kin_score: 80.5
+  kin_score: 77.6
   mcp: *id011
   name: Salesforce Marketing Cloud
   slug: salesforce-marketing-cloud
@@ -393,7 +393,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id013
   name: Sentry
   slug: sentry-system
@@ -401,10 +401,10 @@ providers:
   tags: *id014
   url: /providers/sentry-system/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id015
   name: Stripe
   slug: stripe

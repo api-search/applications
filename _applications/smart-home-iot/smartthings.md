@@ -53,10 +53,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.8
-    band: thin
+    agent_readiness: 35.2
+    band: developing
     in_catalog: true
-    kin_score: 35.6
+    kin_score: 41.9
     mcp: &id001
       source: https://github.com/aqara/aqara-mcp-server
       status: verified
@@ -85,9 +85,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.0
+    kin_score: 13.6
     mcp: &id003
       status: none
     slug: eve-systems
@@ -113,11 +113,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 35.8
+    band: strong
     in_catalog: true
-    kin_score: 41.4
+    kin_score: 60.8
     mcp: &id005
       status: none
     slug: google-nest
@@ -147,7 +147,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.1
+    kin_score: 1.3
     mcp: &id007
       status: unknown
     slug: resideo-technologies
@@ -170,10 +170,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.1
+    agent_readiness: 33.4
     band: developing
     in_catalog: true
-    kin_score: 43.9
+    kin_score: 45.1
     mcp: &id009
       status: none
     slug: ring
@@ -201,9 +201,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.4
+    kin_score: 18.3
     mcp: &id011
       status: unknown
     slug: signify
@@ -233,7 +233,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.4
+    kin_score: 5.4
     mcp: &id013
       status: unknown
     slug: somfy
@@ -260,10 +260,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 4.5
-    band: minimal
+    agent_readiness: 4.4
+    band: emerging
     in_catalog: true
-    kin_score: 8.6
+    kin_score: 13.5
     mcp: &id015
       status: unknown
     slug: yale-home
@@ -288,10 +288,10 @@ noindex: false
 permalink: /applications/smart-home-iot/smartthings/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 33.8
-  band: thin
+  agent_readiness: 35.2
+  band: developing
   in_catalog: true
-  kin_score: 35.6
+  kin_score: 41.9
   mcp: *id001
   name: Aqara
   slug: aqara
@@ -300,20 +300,20 @@ providers:
   url: /providers/aqara/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.0
+  kin_score: 13.6
   mcp: *id003
   name: Eve Systems
   slug: eve-systems
   status: profiled
   tags: *id004
   url: /providers/eve-systems/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 35.8
+  band: strong
   in_catalog: true
-  kin_score: 41.4
+  kin_score: 60.8
   mcp: *id005
   name: Google Nest (Smart Device Management)
   slug: google-nest
@@ -324,7 +324,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.1
+  kin_score: 1.3
   mcp: *id007
   name: Resideo (Honeywell Home)
   slug: resideo-technologies
@@ -332,10 +332,10 @@ providers:
   tags: *id008
   url: /providers/resideo-technologies/
 - agent_band: agent-ready
-  agent_readiness: 34.1
+  agent_readiness: 33.4
   band: developing
   in_catalog: true
-  kin_score: 43.9
+  kin_score: 45.1
   mcp: *id009
   name: Ring
   slug: ring
@@ -344,9 +344,9 @@ providers:
   url: /providers/ring/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.4
+  kin_score: 18.3
   mcp: *id011
   name: Signify (Philips Hue, WiZ)
   slug: signify
@@ -357,7 +357,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.4
+  kin_score: 5.4
   mcp: *id013
   name: Somfy (TaHoma / Overkiz)
   slug: somfy
@@ -365,10 +365,10 @@ providers:
   tags: *id014
   url: /providers/somfy/
 - agent_band: human-only
-  agent_readiness: 4.5
-  band: minimal
+  agent_readiness: 4.4
+  band: emerging
   in_catalog: true
-  kin_score: 8.6
+  kin_score: 13.5
   mcp: *id015
   name: Yale Home (smart locks)
   slug: yale-home

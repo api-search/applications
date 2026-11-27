@@ -4,15 +4,15 @@ app_slug: openemr
 app_url: https://github.com/openemr/openemr
 author: API Evangelist
 capabilities:
-- attribution: Turbo EA
-  id: BC-850.20
-  key: external-communications-management
+- attribution: API Evangelist extension
+  id: AE-150.110
+  key: AE-150.110
   layer: domain
-  name: External Communications Management
+  name: Cloud Fax
   providers:
   - etherFAX
   - RingCentral
-  url: /capabilities/external-communications-management/
+  url: /capabilities/cloud-fax/
   via_parent: null
 - attribution: Turbo EA
   id: BC-2870
@@ -115,10 +115,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_readiness: 25.4
     band: thin
     in_catalog: true
-    kin_score: 36.4
+    kin_score: 35.5
     mcp: &id001
       source: https://github.com/AuthorizeNet/authorize-net-mcp
       status: verified
@@ -146,10 +146,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 14.5
+    band: developing
     in_catalog: true
-    kin_score: 30.4
+    kin_score: 41.4
     mcp: &id003
       status: none
     slug: claimrev
@@ -175,11 +175,11 @@ integrations:
     via_parent: SMS & Messaging Apps
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 26.7
+    agent_band: agent-ready
+    agent_readiness: 28.9
     band: thin
     in_catalog: true
-    kin_score: 33.2
+    kin_score: 38.8
     mcp: &id005
       status: none
     slug: clickatell
@@ -249,19 +249,19 @@ integrations:
   source: https://github.com/openemr/openemr/tree/master/interface/modules/custom_modules
   tier: observed
 - capability:
-    attribution: Turbo EA
-    id: BC-850.20
-    key: external-communications-management
-    name: External Communications Management
-    url: /capabilities/external-communications-management/
+    attribution: API Evangelist extension
+    id: AE-150.110
+    key: AE-150.110
+    name: Cloud Fax
+    url: /capabilities/cloud-fax/
     via_parent: null
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.9
-    band: thin
+    agent_readiness: 38.6
+    band: developing
     in_catalog: true
-    kin_score: 38.8
+    kin_score: 48.2
     mcp: &id011
       status: none
     slug: etherfax
@@ -288,10 +288,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id013
       source: https://github.com/google/mcp
       status: verified
@@ -310,19 +310,19 @@ integrations:
   source: https://raw.githubusercontent.com/openemr/openemr/master/composer.json
   tier: observed
 - capability:
-    attribution: Turbo EA
-    id: BC-850.20
-    key: external-communications-management
-    name: External Communications Management
-    url: /capabilities/external-communications-management/
+    attribution: API Evangelist extension
+    id: AE-150.110
+    key: AE-150.110
+    name: Cloud Fax
+    url: /capabilities/cloud-fax/
     via_parent: null
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.5
+    agent_readiness: 43.6
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 59.4
     mcp: &id015
       source: https://developers.ringcentral.com/mcp
       status: documented
@@ -350,10 +350,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.4
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 77.2
+    kin_score: 74.2
     mcp: &id017
       status: none
     slug: signalwire
@@ -380,10 +380,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id019
       source: https://docs.stripe.com/mcp
       status: verified
@@ -411,10 +411,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id021
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -443,9 +443,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.0
+    kin_score: 15.5
     mcp: &id023
       status: none
     slug: weno
@@ -472,10 +472,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 25.0
     band: strong
     in_catalog: true
-    kin_score: 58.3
+    kin_score: 58.0
     mcp: &id025
       status: none
     slug: yubico
@@ -500,10 +500,10 @@ noindex: false
 permalink: /applications/telehealth-patient/openemr/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 25.9
+  agent_readiness: 25.4
   band: thin
   in_catalog: true
-  kin_score: 36.4
+  kin_score: 35.5
   mcp: *id001
   name: Authorize.net
   slug: authorizenet
@@ -511,21 +511,21 @@ providers:
   tags: *id002
   url: /providers/authorizenet/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 14.5
+  band: developing
   in_catalog: true
-  kin_score: 30.4
+  kin_score: 41.4
   mcp: *id003
   name: Claim.Revolution
   slug: claimrev
   status: profiled
   tags: *id004
   url: /providers/claimrev/
-- agent_band: agent-aware
-  agent_readiness: 26.7
+- agent_band: agent-ready
+  agent_readiness: 28.9
   band: thin
   in_catalog: true
-  kin_score: 33.2
+  kin_score: 38.8
   mcp: *id005
   name: Clickatell
   slug: clickatell
@@ -555,10 +555,10 @@ providers:
   tags: *id010
   url: null
 - agent_band: agent-ready
-  agent_readiness: 34.9
-  band: thin
+  agent_readiness: 38.6
+  band: developing
   in_catalog: true
-  kin_score: 38.8
+  kin_score: 48.2
   mcp: *id011
   name: etherFAX
   slug: etherfax
@@ -566,10 +566,10 @@ providers:
   tags: *id012
   url: /providers/etherfax/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id013
   name: Google (google/apiclient)
   slug: google
@@ -577,10 +577,10 @@ providers:
   tags: *id014
   url: /providers/google/
 - agent_band: agent-ready
-  agent_readiness: 44.5
+  agent_readiness: 43.6
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 59.4
   mcp: *id015
   name: RingCentral
   slug: ringcentral
@@ -588,10 +588,10 @@ providers:
   tags: *id016
   url: /providers/ringcentral/
 - agent_band: agent-ready
-  agent_readiness: 42.4
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 77.2
+  kin_score: 74.2
   mcp: *id017
   name: SignalWire
   slug: signalwire
@@ -599,10 +599,10 @@ providers:
   tags: *id018
   url: /providers/signalwire/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id019
   name: Stripe
   slug: stripe
@@ -610,10 +610,10 @@ providers:
   tags: *id020
   url: /providers/stripe/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id021
   name: Twilio
   slug: twilio
@@ -622,9 +622,9 @@ providers:
   url: /providers/twilio/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.0
+  kin_score: 15.5
   mcp: *id023
   name: Weno Exchange
   slug: weno
@@ -632,10 +632,10 @@ providers:
   tags: *id024
   url: /providers/weno/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 25.0
   band: strong
   in_catalog: true
-  kin_score: 58.3
+  kin_score: 58.0
   mcp: *id025
   name: Yubico
   slug: yubico

@@ -3009,10 +3009,10 @@ apps:
     tier: declared
   - capability:
       attribution: Turbo EA
-      id: ''
-      key: service-request-management
-      name: Service Request Management
-      url: null
+      id: BC-430
+      key: customer-service-management
+      name: Customer Service Management
+      url: /capabilities/customer-service-management/
       via_parent: null
     credit: null
     layer: common
@@ -3625,10 +3625,10 @@ needs:
   why: social analytics into BI
 - capability:
     attribution: Turbo EA
-    id: ''
-    key: service-request-management
-    name: Service Request Management
-    url: null
+    id: BC-430
+    key: customer-service-management
+    name: Customer Service Management
+    url: /capabilities/customer-service-management/
     via_parent: null
   fit: exact
   layer: common
@@ -3674,7 +3674,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Buffer
       - Hootsuite
@@ -3685,7 +3685,7 @@ stack:
       - Sprout Social
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -3703,7 +3703,7 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Buffer
       - Hootsuite
@@ -3713,7 +3713,7 @@ stack:
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -3732,7 +3732,7 @@ stack:
       tier: observed
       url: /providers/x/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - Buffer
       - Hootsuite
@@ -3741,7 +3741,7 @@ stack:
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn
@@ -3759,7 +3759,7 @@ stack:
       tier: observed
       url: /providers/linkedin/
     - agent_band: agent-ready
-      agent_readiness: 38.9
+      agent_readiness: 38.6
       apps:
       - Buffer
       - Hootsuite
@@ -3768,7 +3768,7 @@ stack:
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 69.0
+      kin_score: 67.8
       mcp:
         status: none
       name: Instagram
@@ -3786,7 +3786,7 @@ stack:
       tier: observed
       url: /providers/instagram/
     - agent_band: agent-ready
-      agent_readiness: 38.4
+      agent_readiness: 37.6
       apps:
       - Buffer
       - Hootsuite
@@ -3795,7 +3795,7 @@ stack:
       - Sprout Social
       band: developing
       in_catalog: true
-      kin_score: 49.4
+      kin_score: 47.7
       mcp:
         source: https://developers.pinterest.com/about-pinterest-mcp/
         status: verified
@@ -3814,7 +3814,7 @@ stack:
       tier: observed
       url: /providers/pinterest/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Buffer
       - Hootsuite
@@ -3823,7 +3823,7 @@ stack:
       - Sprout Social
       band: developing
       in_catalog: true
-      kin_score: 41.0
+      kin_score: 40.5
       mcp:
         status: none
       name: TikTok
@@ -3841,7 +3841,7 @@ stack:
       tier: observed
       url: /providers/tiktok/
     - agent_band: agent-aware
-      agent_readiness: 26.2
+      agent_readiness: 25.7
       apps:
       - Buffer
       - Hootsuite
@@ -3849,7 +3849,7 @@ stack:
       - Sprout Social
       band: developing
       in_catalog: true
-      kin_score: 45.1
+      kin_score: 46.3
       mcp:
         status: none
       name: Bluesky
@@ -3867,7 +3867,7 @@ stack:
       tier: observed
       url: /providers/bluesky/
     - agent_band: agent-aware
-      agent_readiness: 28.4
+      agent_readiness: 28.3
       apps:
       - Buffer
       - Hootsuite
@@ -3875,7 +3875,7 @@ stack:
       - Sprout Social
       band: developing
       in_catalog: true
-      kin_score: 43.1
+      kin_score: 43.2
       mcp:
         status: none
       name: Threads
@@ -3893,14 +3893,14 @@ stack:
       tier: observed
       url: /providers/threads-api/
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 22.0
       apps:
       - Buffer
       - Mixpost
       - Postiz
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 25.5
       mcp:
         status: none
       name: Mastodon
@@ -3925,7 +3925,7 @@ stack:
       - Sprout Social
       band: minimal
       in_catalog: true
-      kin_score: 7.9
+      kin_score: 8.5
       mcp:
         status: none
       name: Tumblr
@@ -3941,13 +3941,13 @@ stack:
       tier: observed
       url: /providers/tumblr/
     - agent_band: agent-ready
-      agent_readiness: 39.1
+      agent_readiness: 43.0
       apps:
       - Postiz
       - Sprout Social
       band: strong
       in_catalog: true
-      kin_score: 63.0
+      kin_score: 64.4
       mcp:
         source: https://github.com/reddit/devvit-mcp
         status: verified
@@ -3965,12 +3965,12 @@ stack:
       tier: observed
       url: /providers/reddit/
     - agent_band: agent-native
-      agent_readiness: 41.7
+      agent_readiness: 41.3
       apps:
       - Postiz
       band: thin
       in_catalog: true
-      kin_score: 36.7
+      kin_score: 36.4
       mcp:
         status: none
       name: Neynar
@@ -3986,12 +3986,12 @@ stack:
       tier: observed
       url: /providers/neynar/
     - agent_band: agent-aware
-      agent_readiness: 20.9
+      agent_readiness: 20.4
       apps:
       - Postiz
       band: thin
       in_catalog: true
-      kin_score: 34.3
+      kin_score: 33.9
       mcp:
         status: none
       name: Lemmy
@@ -4007,12 +4007,12 @@ stack:
       tier: observed
       url: /providers/lemmy/
     - agent_band: agent-aware
-      agent_readiness: 18.4
+      agent_readiness: 18.0
       apps:
       - Postiz
       band: emerging
       in_catalog: true
-      kin_score: 24.5
+      kin_score: 23.3
       mcp:
         status: none
       name: Farcaster
@@ -4033,7 +4033,7 @@ stack:
       - Postiz
       band: emerging
       in_catalog: true
-      kin_score: 15.7
+      kin_score: 22.6
       mcp:
         status: unknown
       name: Moltbook
@@ -4049,12 +4049,12 @@ stack:
       tier: observed
       url: /providers/moltbook/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Postiz
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.8
+      kin_score: 19.5
       mcp:
         status: unknown
       name: MeWe
@@ -4075,7 +4075,7 @@ stack:
       - Postiz
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: none
       name: VK
@@ -4089,12 +4089,12 @@ stack:
       tier: observed
       url: /providers/vk/
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 47.1
       apps:
       - Sprout Social
       band: strong
       in_catalog: true
-      kin_score: 65.7
+      kin_score: 65.8
       mcp:
         status: none
       name: Snapchat
@@ -4117,15 +4117,15 @@ stack:
       url: /capabilities/reviews-social-proof/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 37.7
       apps:
       - Buffer
       - Hootsuite
       - Postiz
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 45.9
+      kin_score: 56.9
       mcp:
         status: none
       name: Google Business Profile
@@ -4143,12 +4143,12 @@ stack:
       tier: observed
       url: /providers/google-business-profile/
     - agent_band: agent-native
-      agent_readiness: 53.4
+      agent_readiness: 46.7
       apps:
       - Sprout Social
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 68.2
       mcp:
         source: https://github.com/Yelp/yelp-mcp
         status: verified
@@ -4165,12 +4165,12 @@ stack:
       tier: declared
       url: /providers/yelp/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 24.6
       apps:
       - Hootsuite
       band: strong
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 55.1
       mcp:
         status: none
       name: ReviewTrackers
@@ -4186,12 +4186,12 @@ stack:
       tier: declared
       url: /providers/reviewtrackers/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Sprout Social
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp: &id001
         status: none
       name: Apple
@@ -4206,13 +4206,34 @@ stack:
       - macOS
       tier: declared
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 21.7
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Sprout Social
       band: developing
       in_catalog: true
-      kin_score: 50.9
+      kin_score: 51.3
+      mcp:
+        status: none
+      name: Google Play (reviews)
+      slug: google-play
+      sources:
+      - https://sproutsocial.com/integrations/
+      status: profiled
+      tags:
+      - Android
+      - Application
+      - Google Play
+      - In-App Purchases
+      tier: declared
+      url: /providers/google-play/
+    - agent_band: agent-aware
+      agent_readiness: 21.3
+      apps:
+      - Sprout Social
+      band: developing
+      in_catalog: true
+      kin_score: 48.2
       mcp:
         status: none
       name: Trustpilot
@@ -4228,12 +4249,12 @@ stack:
       tier: declared
       url: /providers/trustpilot/
     - agent_band: agent-aware
-      agent_readiness: 24.4
+      agent_readiness: 23.9
       apps:
       - Sprout Social
       band: thin
       in_catalog: true
-      kin_score: 37.5
+      kin_score: 35.7
       mcp:
         status: none
       name: Tripadvisor
@@ -4248,34 +4269,13 @@ stack:
       - Restaurant
       tier: declared
       url: /providers/tripadvisor/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
-      apps:
-      - Sprout Social
-      band: thin
-      in_catalog: true
-      kin_score: 31.6
-      mcp:
-        status: none
-      name: Google Play (reviews)
-      slug: google-play
-      sources:
-      - https://sproutsocial.com/integrations/
-      status: profiled
-      tags:
-      - Android
-      - Application
-      - Google Play
-      - In-App Purchases
-      tier: declared
-      url: /providers/google-play/
     - agent_band: human-only
       agent_readiness: 0.6
       apps:
       - Sprout Social
       band: emerging
       in_catalog: true
-      kin_score: 11.1
+      kin_score: 11.4
       mcp:
         status: none
       name: Glassdoor
@@ -4299,7 +4299,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 71.4
+      agent_readiness: 70.0
       apps:
       - Buffer
       - Hootsuite
@@ -4307,7 +4307,7 @@ stack:
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 79.9
+      kin_score: 87.3
       mcp:
         source: https://www.canva.dev/docs/mcp/
         status: verified
@@ -4345,12 +4345,12 @@ stack:
       tier: declared
       url: null
     - agent_band: agent-aware
-      agent_readiness: 18.0
+      agent_readiness: 14.8
       apps:
       - Postiz
       band: emerging
       in_catalog: true
-      kin_score: 16.8
+      kin_score: 26.0
       mcp:
         source: https://polotno.com/docs/build-with-ai
         status: documented
@@ -4367,12 +4367,12 @@ stack:
       tier: observed
       url: /providers/polotno/
     - agent_band: agent-ready
-      agent_readiness: 57.8
+      agent_readiness: 59.2
       apps:
       - Hootsuite
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.6
+      kin_score: 75.1
       mcp:
         source: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server
         status: verified
@@ -4389,12 +4389,12 @@ stack:
       tier: declared
       url: /providers/figma/
     - agent_band: agent-ready
-      agent_readiness: 39.1
+      agent_readiness: 54.9
       apps:
       - Hootsuite
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 46.4
+      kin_score: 68.5
       mcp:
         source: https://developers.miro.com/docs/miro-mcp
         status: verified
@@ -4419,14 +4419,14 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 59.4
+      agent_readiness: 58.2
       apps:
       - Buffer
       - Socioboard
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 73.7
+      kin_score: 73.0
       mcp:
         source: https://dev.bitly.com/bitly-mcp/
         status: verified
@@ -4445,12 +4445,34 @@ stack:
       tier: observed
       url: /providers/bitly/
     - agent_band: agent-aware
-      agent_readiness: 23.0
+      agent_readiness: 27.4
       apps:
       - Postiz
       band: strong
       in_catalog: true
-      kin_score: 59.7
+      kin_score: 62.1
+      mcp:
+        source: https://docs.short.io/articles/integrations-and-extensions/direct-integrations/how-to-integrate-and-use-short.io-with-your-mcp-enabled-service.md
+        status: verified
+      name: Short.io
+      slug: short-io
+      sources:
+      - https://github.com/gitroomhq/postiz-app/tree/main/libraries/nestjs-libraries/src
+      status: profiled
+      tags:
+      - Analytics
+      - Enterprise
+      - QR Codes
+      - URL Shortening
+      tier: observed
+      url: /providers/short-io/
+    - agent_band: agent-aware
+      agent_readiness: 28.4
+      apps:
+      - Postiz
+      band: strong
+      in_catalog: true
+      kin_score: 59.3
       mcp:
         source: https://dub.co/docs/mcp-server.md
         status: verified
@@ -4466,35 +4488,13 @@ stack:
       - URL Shorteners
       tier: observed
       url: /providers/dub/
-    - agent_band: agent-aware
-      agent_readiness: 28.0
-      apps:
-      - Postiz
-      band: developing
-      in_catalog: true
-      kin_score: 50.6
-      mcp:
-        source: https://docs.short.io/articles/integrations-and-extensions/direct-integrations/how-to-integrate-and-use-short.io-with-your-mcp-enabled-service.md
-        status: verified
-      name: Short.io
-      slug: short-io
-      sources:
-      - https://github.com/gitroomhq/postiz-app/tree/main/libraries/nestjs-libraries/src
-      status: profiled
-      tags:
-      - Analytics
-      - Enterprise
-      - QR Codes
-      - URL-shortening
-      tier: observed
-      url: /providers/short-io/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Postiz
       band: emerging
       in_catalog: true
-      kin_score: 12.3
+      kin_score: 20.7
       mcp:
         status: unknown
       name: LinkDrip
@@ -4515,7 +4515,7 @@ stack:
       - Socioboard
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: none
       name: TinyURL
@@ -4573,7 +4573,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - Buffer
       - Hootsuite
@@ -4582,7 +4582,7 @@ stack:
       - Sprout Social
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube
@@ -4600,12 +4600,12 @@ stack:
       tier: observed
       url: /providers/youtube/
     - agent_band: agent-ready
-      agent_readiness: 32.2
+      agent_readiness: 36.9
       apps:
       - Postiz
       band: developing
       in_catalog: true
-      kin_score: 50.5
+      kin_score: 48.2
       mcp:
         status: none
       name: Twitch
@@ -4620,13 +4620,13 @@ stack:
       - Streaming
       tier: observed
       url: /providers/twitch/
-    - agent_band: human-only
-      agent_readiness: 4.5
+    - agent_band: agent-aware
+      agent_readiness: 8.3
       apps:
       - Postiz
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 15.8
+      kin_score: 26.8
       mcp:
         status: unknown
       name: Kick (kick.com)
@@ -4642,12 +4642,12 @@ stack:
       tier: observed
       url: /providers/kick-com/
     - agent_band: human-only
-      agent_readiness: 3.9
+      agent_readiness: 3.8
       apps:
       - Socioboard
       band: minimal
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 8.2
       mcp:
         status: none
       name: Dailymotion
@@ -4669,13 +4669,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.1
+      agent_readiness: 52.6
       apps:
       - Buffer
       - Mixpost
       band: developing
       in_catalog: true
-      kin_score: 40.2
+      kin_score: 39.4
       mcp:
         status: none
       name: Unsplash
@@ -4692,12 +4692,12 @@ stack:
       tier: observed
       url: /providers/unsplash/
     - agent_band: agent-aware
-      agent_readiness: 21.9
+      agent_readiness: 26.8
       apps:
       - Socioboard
       band: strong
       in_catalog: true
-      kin_score: 55.6
+      kin_score: 56.0
       mcp:
         status: none
       name: GIPHY
@@ -4713,12 +4713,33 @@ stack:
       tier: observed
       url: /providers/giphy/
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 27.1
+      apps:
+      - Mixpost
+      band: developing
+      in_catalog: true
+      kin_score: 49.2
+      mcp:
+        status: none
+      name: Tenor
+      slug: tenor
+      sources:
+      - https://github.com/inovector/mixpost/tree/main/src/Services
+      status: profiled
+      tags:
+      - Animated Images
+      - GIFs
+      - Media
+      - Search
+      tier: observed
+      url: /providers/tenor/
+    - agent_band: agent-aware
+      agent_readiness: 25.1
       apps:
       - Socioboard
       band: developing
       in_catalog: true
-      kin_score: 48.6
+      kin_score: 49.1
       mcp:
         status: none
       name: Flickr
@@ -4734,12 +4755,12 @@ stack:
       tier: observed
       url: /providers/flickr/
     - agent_band: agent-aware
-      agent_readiness: 21.2
+      agent_readiness: 20.8
       apps:
       - Socioboard
       band: developing
       in_catalog: true
-      kin_score: 46.6
+      kin_score: 47.2
       mcp:
         status: none
       name: Imgur
@@ -4754,34 +4775,13 @@ stack:
       - Photography
       tier: observed
       url: /providers/imgur/
-    - agent_band: agent-aware
-      agent_readiness: 24.0
-      apps:
-      - Mixpost
-      band: thin
-      in_catalog: true
-      kin_score: 35.8
-      mcp:
-        status: none
-      name: Tenor
-      slug: tenor
-      sources:
-      - https://github.com/inovector/mixpost/tree/main/src/Services
-      status: profiled
-      tags:
-      - Animated Images
-      - GIFs
-      - Media
-      - Search
-      tier: observed
-      url: /providers/tenor/
     - agent_band: human-only
       agent_readiness: 0.6
       apps:
       - Socioboard
       band: emerging
       in_catalog: true
-      kin_score: 13.8
+      kin_score: 13.7
       mcp:
         status: none
       name: Pixabay
@@ -4805,14 +4805,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 31.9
       apps:
       - Buffer
       - Hootsuite
       - Postiz
       band: developing
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 46.6
       mcp:
         source: https://github.com/WordPress/mcp-adapter
         status: verified
@@ -4831,12 +4831,12 @@ stack:
       tier: observed
       url: /providers/wordpress/
     - agent_band: agent-ready
-      agent_readiness: 39.1
+      agent_readiness: 46.9
       apps:
       - Buffer
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 41.0
       mcp:
         source: https://www.writestack.io/mcp
         status: verified
@@ -4858,7 +4858,7 @@ stack:
       - Buffer
       band: emerging
       in_catalog: true
-      kin_score: 16.6
+      kin_score: 23.2
       mcp:
         status: unknown
       name: Evergreen Content Poster
@@ -4874,12 +4874,12 @@ stack:
       tier: declared
       url: /providers/evergreen-content-poster/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.7
       apps:
       - Buffer
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 1.1
       mcp:
         status: unknown
       name: Nelio Content
@@ -4900,13 +4900,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Buffer
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -4924,13 +4924,13 @@ stack:
       tier: declared
       url: /providers/google-drive/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Buffer
       - Sprout Social
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -4948,12 +4948,12 @@ stack:
       tier: declared
       url: /providers/dropbox/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - Buffer
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: Microsoft OneDrive
@@ -4977,13 +4977,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 27.0
+      agent_readiness: 26.5
       apps:
       - Postiz
       - Socioboard
       band: thin
       in_catalog: true
-      kin_score: 36.2
+      kin_score: 36.0
       mcp:
         status: none
       name: Medium
@@ -5000,12 +5000,12 @@ stack:
       tier: observed
       url: /providers/medium/
     - agent_band: agent-ready
-      agent_readiness: 30.4
+      agent_readiness: 29.8
       apps:
       - Postiz
       band: strong
       in_catalog: true
-      kin_score: 56.7
+      kin_score: 57.4
       mcp:
         status: none
       name: DEV Community
@@ -5021,7 +5021,7 @@ stack:
       tier: observed
       url: /providers/dev-to/
     - agent_band: agent-ready
-      agent_readiness: 53.6
+      agent_readiness: 53.5
       apps:
       - Postiz
       band: strong
@@ -5042,12 +5042,12 @@ stack:
       tier: observed
       url: /providers/hashnode/
     - agent_band: agent-ready
-      agent_readiness: 32.7
+      agent_readiness: 34.2
       apps:
       - Buffer
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 43.9
       mcp:
         source: https://mcp.substack.com/api/v1/mcp
         status: verified
@@ -5078,7 +5078,7 @@ stack:
       - Postiz
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: none
       name: Dribbble
@@ -5093,12 +5093,12 @@ stack:
       tier: observed
       url: /providers/dribbble/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Postiz
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -5114,12 +5114,12 @@ stack:
       tier: observed
       url: /providers/discord/
     - agent_band: agent-ready
-      agent_readiness: 45.1
+      agent_readiness: 49.9
       apps:
       - Postiz
       band: emerging
       in_catalog: true
-      kin_score: 25.4
+      kin_score: 25.1
       mcp:
         source: https://github.com/whopio/whop-mcp-server
         status: verified
@@ -5141,7 +5141,7 @@ stack:
       - Postiz
       band: minimal
       in_catalog: true
-      kin_score: 7.3
+      kin_score: 6.2
       mcp:
         status: none
       name: Skool
@@ -5165,14 +5165,14 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Hootsuite
       - Postiz
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -5191,12 +5191,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Sprout Social
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -5220,12 +5220,12 @@ stack:
       via_parent: Generative Media
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.8
+      agent_readiness: 47.9
       apps:
       - Postiz
       band: developing
       in_catalog: true
-      kin_score: 50.9
+      kin_score: 49.6
       mcp:
         source: https://developers.heygen.com/mcp/overview.md
         status: verified
@@ -5245,9 +5245,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Postiz
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.9
+      kin_score: 16.2
       mcp:
         status: unknown
       name: ReelFarm
@@ -5280,12 +5280,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Hootsuite
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 29.8
+      kin_score: 39.5
       mcp:
         status: none
       name: Lumen5
@@ -5306,12 +5306,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 62.9
+      agent_readiness: 61.6
       apps:
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 77.7
+      kin_score: 78.1
       mcp:
         source: https://support.optimizely.com/hc/en-us/articles/45320607594893
         status: documented
@@ -5333,7 +5333,7 @@ stack:
       - Hootsuite
       band: exemplar
       in_catalog: true
-      kin_score: 75.5
+      kin_score: 72.4
       mcp:
         status: none
       name: Acquia
@@ -5349,12 +5349,12 @@ stack:
       tier: declared
       url: /providers/acquia/
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 30.2
       apps:
       - Sprout Social
       band: developing
       in_catalog: true
-      kin_score: 51.5
+      kin_score: 53.0
       mcp:
         source: https://github.com/opalsecurity/opal-mcp
         status: verified
@@ -5379,13 +5379,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.6
+      agent_readiness: 40.9
       apps:
       - Hootsuite
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 67.6
+      kin_score: 77.9
       mcp:
         status: none
       name: Bynder
@@ -5402,12 +5402,12 @@ stack:
       tier: declared
       url: /providers/bynder/
     - agent_band: agent-aware
-      agent_readiness: 21.8
+      agent_readiness: 21.4
       apps:
       - Sprout Social
       band: thin
       in_catalog: true
-      kin_score: 28.6
+      kin_score: 28.0
       mcp:
         source: https://github.com/adobe/cq-quickstart-mcp-server
         status: verified
@@ -5432,12 +5432,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -5454,12 +5454,12 @@ stack:
       tier: declared
       url: /providers/shopify/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Sprout Social
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 54.6
       mcp:
         source: https://developer.woocommerce.com/docs/features/mcp/
         status: verified
@@ -5476,12 +5476,12 @@ stack:
       tier: declared
       url: /providers/woocommerce/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 18.3
       apps:
       - Hootsuite
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.2
+      kin_score: 29.1
       mcp:
         status: none
       name: Upfluence
@@ -5505,12 +5505,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.3
+      agent_readiness: 27.8
       apps:
       - Hootsuite
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 54.8
+      kin_score: 52.6
       mcp:
         status: none
       name: Talkwalker
@@ -5526,12 +5526,12 @@ stack:
       tier: declared
       url: /providers/talkwalker/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Hootsuite
       band: minimal
       in_catalog: true
-      kin_score: 6.8
+      kin_score: 7.9
       mcp:
         source: https://mcp.fedica.com/.well-known/oauth-protected-resource/mcp
         status: verified
@@ -5548,12 +5548,12 @@ stack:
       tier: declared
       url: /providers/fedica/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Hootsuite
       band: minimal
       in_catalog: true
-      kin_score: 2.2
+      kin_score: 1.3
       mcp:
         status: unknown
       name: Panoramiq Insights
@@ -5574,12 +5574,12 @@ stack:
       via_parent: Video Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 28.6
+      agent_readiness: 29.1
       apps:
       - Hootsuite
       band: exemplar
       in_catalog: true
-      kin_score: 71.1
+      kin_score: 67.5
       mcp:
         status: none
       name: Vidyard
@@ -5595,12 +5595,12 @@ stack:
       tier: declared
       url: /providers/vidyard/
     - agent_band: agent-ready
-      agent_readiness: 48.8
+      agent_readiness: 47.8
       apps:
       - Hootsuite
       band: thin
       in_catalog: true
-      kin_score: 38.4
+      kin_score: 37.6
       mcp:
         source: https://developer.vimeo.com/api/mcp-server
         status: documented
@@ -5617,12 +5617,12 @@ stack:
       tier: declared
       url: /providers/vimeo/
     - agent_band: agent-ready
-      agent_readiness: 30.1
+      agent_readiness: 29.5
       apps:
       - Hootsuite
       band: thin
       in_catalog: true
-      kin_score: 35.0
+      kin_score: 33.3
       mcp:
         status: none
       name: Brightcove
@@ -5646,13 +5646,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Hootsuite
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp
@@ -5669,12 +5669,12 @@ stack:
       tier: declared
       url: /providers/whatsapp/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Postiz
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -5698,12 +5698,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.3
+      agent_readiness: 64.0
       apps:
       - Buffer
       band: exemplar
       in_catalog: true
-      kin_score: 67.7
+      kin_score: 68.0
       mcp:
         status: none
       name: Feedly
@@ -5719,12 +5719,12 @@ stack:
       tier: declared
       url: /providers/feedly/
     - agent_band: human-only
-      agent_readiness: 3.9
+      agent_readiness: 3.8
       apps:
       - Buffer
       band: emerging
       in_catalog: true
-      kin_score: 12.2
+      kin_score: 18.9
       mcp:
         status: unknown
       name: Quuu
@@ -5748,12 +5748,12 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-aware
-      agent_readiness: 13.7
+      agent_readiness: 14.0
       apps:
       - Postiz
       band: emerging
       in_catalog: true
-      kin_score: 25.5
+      kin_score: 25.6
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=transloadit
         status: verified
@@ -5770,12 +5770,12 @@ stack:
       tier: observed
       url: /providers/transloadit/
     - agent_band: agent-ready
-      agent_readiness: 45.0
+      agent_readiness: 53.5
       apps:
       - Hootsuite
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 52.4
+      kin_score: 82.0
       mcp:
         source: https://cloudinary.com/documentation/cloudinary_llm_mcp
         status: verified
@@ -5800,12 +5800,12 @@ stack:
       via_parent: News & Publishing
     providers:
     - agent_band: agent-ready
-      agent_readiness: 59.5
+      agent_readiness: 59.6
       apps:
       - Postiz
       band: exemplar
       in_catalog: true
-      kin_score: 73.7
+      kin_score: 72.4
       mcp:
         source: https://github.com/beehiiv/agents
         status: verified
@@ -5822,12 +5822,12 @@ stack:
       tier: observed
       url: /providers/beehiiv/
     - agent_band: agent-ready
-      agent_readiness: 30.4
+      agent_readiness: 29.8
       apps:
       - Postiz
       band: developing
       in_catalog: true
-      kin_score: 47.2
+      kin_score: 45.8
       mcp:
         status: none
       name: listmonk
@@ -5851,12 +5851,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 7.9
+      agent_readiness: 8.4
       apps:
       - Hootsuite
       band: developing
       in_catalog: true
-      kin_score: 40.1
+      kin_score: 41.3
       mcp:
         status: none
       name: Proofpoint
@@ -5880,12 +5880,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.8
+      agent_readiness: 42.5
       apps:
       - Hootsuite
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 35.3
+      kin_score: 47.3
       mcp:
         source: https://www.trueloyal.com/mcp
         status: documented
@@ -5910,12 +5910,12 @@ stack:
       via_parent: News & Publishing
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 32.4
       apps:
       - Socioboard
       band: thin
       in_catalog: true
-      kin_score: 35.4
+      kin_score: 33.7
       mcp:
         status: none
       name: NewsAPI
@@ -5938,13 +5938,13 @@ stack:
       url: /capabilities/photo-image-libraries/
       via_parent: Photo & Image Libraries
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 35.8
       apps:
       - Buffer
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 55.2
       mcp:
         status: none
       name: Google Photos
@@ -5969,40 +5969,40 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Hootsuite
       - Planoly
       - Sprout Social
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.hootsuite.droid.full/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.planoly.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.sproutsocial.android/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Planoly
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -6020,13 +6020,13 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 47.7
       apps:
       - Hootsuite
       - Sprout Social
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -6044,12 +6044,12 @@ stack:
       tier: observed
       url: /providers/mixpanel/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 22.6
       apps:
       - Postiz
       band: strong
       in_catalog: true
-      kin_score: 63.4
+      kin_score: 65.3
       mcp:
         status: none
       name: Plausible
@@ -6065,12 +6065,12 @@ stack:
       tier: observed
       url: /providers/plausible/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Hootsuite
       band: strong
       in_catalog: true
-      kin_score: 56.4
+      kin_score: 57.0
       mcp:
         source: https://support.pendo.io/hc/en-us/articles/41102236924955
         status: verified
@@ -6087,12 +6087,12 @@ stack:
       tier: observed
       url: /providers/pendoio/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Buffer
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -6108,12 +6108,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.6
       apps:
       - Hootsuite
       band: thin
       in_catalog: true
-      kin_score: 34.2
+      kin_score: 32.4
       mcp:
         status: none
       name: Wootric
@@ -6137,13 +6137,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Postiz
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -6161,13 +6161,13 @@ stack:
       tier: observed
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Hootsuite
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -6185,12 +6185,12 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 33.1
+      agent_readiness: 37.6
       apps:
       - Sprout Social
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.9
+      kin_score: 67.7
       mcp:
         source: https://github.com/microsoft/Dataverse-MCP
         status: verified
@@ -6206,13 +6206,13 @@ stack:
       - Enterprise
       tier: declared
       url: /providers/microsoft-dynamics-365/
-    - agent_band: agent-aware
-      agent_readiness: 26.1
+    - agent_band: agent-ready
+      agent_readiness: 30.9
       apps:
       - Sprout Social
       band: strong
       in_catalog: true
-      kin_score: 55.6
+      kin_score: 56.2
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -6237,12 +6237,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Buffer
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -6259,12 +6259,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 35.7
       apps:
       - Buffer
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 67.7
       mcp:
         source: https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server/
         status: verified
@@ -6281,12 +6281,12 @@ stack:
       tier: declared
       url: /providers/n8n/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 29.1
       apps:
       - Buffer
       band: strong
       in_catalog: true
-      kin_score: 64.2
+      kin_score: 62.1
       mcp:
         status: none
       name: Microsoft Power Automate
@@ -6302,12 +6302,12 @@ stack:
       tier: declared
       url: /providers/microsoft-power-automate/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Buffer
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -6324,12 +6324,12 @@ stack:
       tier: declared
       url: /providers/make/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - Buffer
       band: emerging
       in_catalog: true
-      kin_score: 25.7
+      kin_score: 25.2
       mcp:
         status: none
       name: Raycast
@@ -6345,12 +6345,12 @@ stack:
       tier: declared
       url: /providers/raycast/
     - agent_band: agent-ready
-      agent_readiness: 43.3
+      agent_readiness: 42.4
       apps:
       - Buffer
       band: emerging
       in_catalog: true
-      kin_score: 25.0
+      kin_score: 24.1
       mcp:
         source: https://github.com/IFTTT/ifttt-plugins
         status: verified
@@ -6375,13 +6375,13 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Buffer
       - Postiz
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -6399,12 +6399,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.6
+      agent_readiness: 32.4
       apps:
       - Postiz
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 53.7
+      kin_score: 54.3
       mcp:
         source: https://github.com/runpod/runpod-mcp
         status: verified
@@ -6421,12 +6421,12 @@ stack:
       tier: observed
       url: /providers/runpod/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Buffer
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -6443,7 +6443,7 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 67.7
+      agent_readiness: 66.6
       apps:
       - Buffer
       band: strong
@@ -6473,13 +6473,13 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Postiz
       - Socioboard
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -6497,28 +6497,12 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 31.9
-      apps:
-      - Postiz
-      band: strong
-      in_catalog: true
-      kin_score: 55.2
-      mcp: *id001
-      name: Apple
-      slug: apple
-      sources:
-      - https://raw.githubusercontent.com/gitroomhq/postiz-app/main/.env.example
-      status: profiled
-      tags: *id002
-      tier: observed
-      url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 33.7
       apps:
       - Socioboard
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -6533,6 +6517,22 @@ stack:
       - Multi-Tenancy
       tier: observed
       url: /providers/google-identity-platform/
+    - agent_band: agent-ready
+      agent_readiness: 36.5
+      apps:
+      - Postiz
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
+      mcp: *id001
+      name: Apple
+      slug: apple
+      sources:
+      - https://raw.githubusercontent.com/gitroomhq/postiz-app/main/.env.example
+      status: profiled
+      tags: *id002
+      tier: observed
+      url: /providers/apple/
   - capability:
       attribution: Turbo EA
       id: BC-4220.20
@@ -6548,7 +6548,7 @@ stack:
       - Postiz
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -6566,12 +6566,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Planoly
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -6596,12 +6596,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.8
+      agent_readiness: 52.3
       apps:
       - Sprout Social
       band: exemplar
       in_catalog: true
-      kin_score: 80.5
+      kin_score: 77.6
       mcp:
         status: none
       name: Salesforce Agentforce Marketing / Marketing Intelligence
@@ -6617,12 +6617,12 @@ stack:
       tier: declared
       url: /providers/salesforce-marketing-cloud/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.4
       apps:
       - Sprout Social
       band: strong
       in_catalog: true
-      kin_score: 55.6
+      kin_score: 57.2
       mcp:
         status: none
       name: Marketo
@@ -6646,12 +6646,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 37.6
       apps:
       - Hootsuite
       band: developing
       in_catalog: true
-      kin_score: 52.6
+      kin_score: 50.0
       mcp:
         source: https://github.com/wrike/datahub-mcp
         status: verified
@@ -6673,7 +6673,7 @@ stack:
       - Hootsuite
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 32.2
       mcp:
         source: https://github.com/mondaycom/mcp
         status: verified
@@ -6698,13 +6698,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - Buffer
       - Hootsuite
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -6729,12 +6729,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Socioboard
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -6750,12 +6750,12 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - Postiz
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -6780,12 +6780,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.3
+      agent_readiness: 55.0
       apps:
       - Sprout Social
       band: developing
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 49.9
       mcp:
         source: https://github.com/tableau/tableau-mcp
         status: verified
@@ -6809,13 +6809,13 @@ stack:
       url: /capabilities/bot-protection-captcha/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Postiz
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Google reCAPTCHA
@@ -6832,6 +6832,35 @@ stack:
       url: /providers/google-recaptcha/
   - capability:
       attribution: Turbo EA
+      id: BC-430
+      key: customer-service-management
+      name: Customer Service Management
+      url: /capabilities/customer-service-management/
+      via_parent: null
+    providers:
+    - agent_band: agent-ready
+      agent_readiness: 34.7
+      apps:
+      - Sprout Social
+      band: exemplar
+      in_catalog: true
+      kin_score: 72.4
+      mcp:
+        status: none
+      name: Zendesk
+      slug: zendesk
+      sources:
+      - https://sproutsocial.com/integrations/
+      status: profiled
+      tags:
+      - CRM
+      - Chat
+      - Help Center
+      - Sell
+      tier: declared
+      url: /providers/zendesk/
+  - capability:
+      attribution: Turbo EA
       id: BC-4210.50
       key: feature-flag-management
       name: Feature Flag Management
@@ -6839,12 +6868,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.9
       apps:
       - Buffer
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 35.9
       mcp:
         status: none
       name: Split
@@ -6871,9 +6900,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Planoly
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 14.1
       mcp:
         status: none
       name: Pangle
@@ -6902,7 +6931,7 @@ stack:
       - Postiz
       band: thin
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 27.4
       mcp:
         source: https://www.revenuecat.com/docs/tools/mcp
         status: verified
@@ -6927,12 +6956,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Planoly
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -6957,12 +6986,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Postiz
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -6987,12 +7016,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 27.5
       apps:
       - Planoly
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 41.2
+      kin_score: 39.2
       mcp:
         source: https://github.com/flagship-io/mcp-server
         status: verified
@@ -7017,12 +7046,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Hootsuite
       band: thin
       in_catalog: true
-      kin_score: 27.9
+      kin_score: 28.3
       mcp:
         source: https://github.com/urbanairship/agent-tools
         status: verified
@@ -7047,12 +7076,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Socioboard
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -7069,35 +7098,6 @@ stack:
       tier: observed
       url: /providers/twilio/
   - capability:
-      attribution: Turbo EA
-      id: ''
-      key: service-request-management
-      name: Service Request Management
-      url: null
-      via_parent: null
-    providers:
-    - agent_band: agent-ready
-      agent_readiness: 35.0
-      apps:
-      - Sprout Social
-      band: exemplar
-      in_catalog: true
-      kin_score: 72.8
-      mcp:
-        status: none
-      name: Zendesk
-      slug: zendesk
-      sources:
-      - https://sproutsocial.com/integrations/
-      status: profiled
-      tags:
-      - CRM
-      - Chat
-      - Help Center
-      - Sell
-      tier: declared
-      url: /providers/zendesk/
-  - capability:
       attribution: API Evangelist extension
       id: AE-110.30.10
       key: AE-110.30.10
@@ -7106,12 +7106,12 @@ stack:
       via_parent: Speech & Voice
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.2
+      agent_readiness: 35.9
       apps:
       - Postiz
       band: developing
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 48.2
       mcp:
         source: https://github.com/deepgram/mcp
         status: verified
@@ -7135,13 +7135,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 27.7
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - Postiz
       band: thin
       in_catalog: true
-      kin_score: 36.3
+      kin_score: 35.8
       mcp:
         source: https://raw.githubusercontent.com/cloudflare/mcp/main/README.md
         status: verified
@@ -7171,7 +7171,7 @@ stack:
       - Socioboard
       band: emerging
       in_catalog: true
-      kin_score: 17.5
+      kin_score: 25.1
       mcp:
         status: unknown
       name: aMember
@@ -7195,12 +7195,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Planoly
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -7224,12 +7224,12 @@ stack:
       via_parent: Web Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.2
+      agent_readiness: 45.6
       apps:
       - Postiz
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 48.1
       mcp:
         source: https://github.com/tavily-ai/tavily-mcp
         status: verified
@@ -7255,13 +7255,13 @@ stack:
       url: /capabilities/engineering-productivity-management/
       via_parent: Engineering Productivity Management
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Buffer
       band: strong
       in_catalog: true
-      kin_score: 54.9
+      kin_score: 60.0
       mcp:
         status: none
       name: Cursor
@@ -7288,7 +7288,7 @@ summary:
     unchecked: 3
     verified: 58
   mcp_verified: 58
-  mean_kin_score: 47.2
+  mean_kin_score: 49.3
   observed: 85
   queued: 3
   reference_apps: 7

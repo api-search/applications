@@ -49,7 +49,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 4.8
     mcp: &id001
       status: none
     slug: freesound
@@ -77,7 +77,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.9
+    kin_score: 4.0
     mcp: &id003
       status: none
     slug: internet-archive
@@ -104,10 +104,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.1
     band: thin
     in_catalog: true
-    kin_score: 37.7
+    kin_score: 38.4
     mcp: &id005
       status: none
     slug: pexels
@@ -136,7 +136,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 13.8
+    kin_score: 13.7
     mcp: &id007
       status: none
     slug: pixabay
@@ -164,7 +164,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 4.8
   mcp: *id001
   name: Freesound
   slug: freesound
@@ -175,7 +175,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.9
+  kin_score: 4.0
   mcp: *id003
   name: Internet Archive
   slug: internet-archive
@@ -183,10 +183,10 @@ providers:
   tags: *id004
   url: /providers/internet-archive/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.1
   band: thin
   in_catalog: true
-  kin_score: 37.7
+  kin_score: 38.4
   mcp: *id005
   name: Pexels
   slug: pexels
@@ -197,7 +197,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 13.8
+  kin_score: 13.7
   mcp: *id007
   name: Pixabay
   slug: pixabay

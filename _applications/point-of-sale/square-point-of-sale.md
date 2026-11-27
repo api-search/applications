@@ -171,10 +171,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id003
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -202,10 +202,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.1
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.5
+    kin_score: 76.3
     mcp: &id009
       source: https://github.com/SmartBear/smartbear-mcp
       status: verified
@@ -233,10 +233,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 38.0
     mcp: &id037
       status: none
     slug: pusher
@@ -292,7 +292,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 14.4
+    kin_score: 14.6
     mcp: &id005
       status: none
     slug: bevspot
@@ -319,10 +319,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 60.5
+    agent_readiness: 56.3
     band: exemplar
     in_catalog: true
-    kin_score: 70.3
+    kin_score: 84.3
     mcp: &id007
       source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
       status: verified
@@ -353,7 +353,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.8
+    kin_score: 2.9
     mcp: &id011
       status: unknown
     slug: bushfire
@@ -383,7 +383,7 @@ integrations:
     agent_readiness: 3.1
     band: emerging
     in_catalog: true
-    kin_score: 12.6
+    kin_score: 11.6
     mcp: &id013
       status: none
     slug: domo
@@ -410,10 +410,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.6
+    agent_readiness: 23.1
     band: developing
     in_catalog: true
-    kin_score: 45.2
+    kin_score: 44.2
     mcp: &id015
       source: https://github.com/easyship/easyship-mcp-plugin
       status: verified
@@ -441,10 +441,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.1
+    agent_readiness: 19.7
     band: developing
     in_catalog: true
-    kin_score: 45.4
+    kin_score: 42.2
     mcp: &id017
       status: none
     slug: ecwid
@@ -471,10 +471,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
-    band: thin
+    agent_readiness: 18.6
+    band: developing
     in_catalog: true
-    kin_score: 31.2
+    kin_score: 41.7
     mcp: &id019
       status: unknown
     slug: fresh-kds
@@ -501,10 +501,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.7
+    agent_readiness: 36.4
     band: thin
     in_catalog: true
-    kin_score: 31.7
+    kin_score: 30.4
     mcp: &id021
       source: https://developer.godaddy.com/mcp
       status: verified
@@ -532,10 +532,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.3
+    agent_readiness: 42.4
     band: emerging
     in_catalog: true
-    kin_score: 25.0
+    kin_score: 24.1
     mcp: &id023
       source: https://github.com/IFTTT/ifttt-plugins
       status: verified
@@ -562,11 +562,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id025
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -594,10 +594,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.7
+    agent_readiness: 43.8
     band: developing
     in_catalog: true
-    kin_score: 47.8
+    kin_score: 54.1
     mcp: &id027
       status: none
     slug: linktree
@@ -605,7 +605,7 @@ integrations:
     tags: &id028
     - Company
     - Creator Economy
-    - Link in Bio
+    - Link-in-bio
     - Media
     url: /providers/linktree/
   layer: common
@@ -623,11 +623,11 @@ integrations:
     via_parent: Storefront Platforms
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.0
+    agent_band: agent-ready
+    agent_readiness: 28.9
     band: thin
     in_catalog: true
-    kin_score: 30.6
+    kin_score: 30.3
     mcp: &id029
       status: none
     slug: magento
@@ -654,10 +654,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: emerging
     in_catalog: true
-    kin_score: 25.8
+    kin_score: 25.2
     mcp: &id031
       status: none
     slug: marketman
@@ -684,10 +684,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.4
+    agent_readiness: 15.1
     band: emerging
     in_catalog: true
-    kin_score: 23.3
+    kin_score: 22.5
     mcp: &id033
       status: none
     slug: myob
@@ -714,10 +714,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.3
+    agent_readiness: 21.8
     band: developing
     in_catalog: true
-    kin_score: 52.9
+    kin_score: 48.2
     mcp: &id035
       status: none
     slug: poptin
@@ -744,10 +744,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.4
+    agent_readiness: 40.0
     band: thin
     in_catalog: true
-    kin_score: 36.5
+    kin_score: 35.7
     mcp: &id039
       source: https://developer.shipbob.com/mcp-server/overview
       status: verified
@@ -778,7 +778,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 15.7
+    kin_score: 15.2
     mcp: &id041
       status: none
     slug: shopventory
@@ -805,10 +805,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 0.7
     band: emerging
     in_catalog: true
-    kin_score: 17.3
+    kin_score: 23.7
     mcp: &id043
       status: unknown
     slug: simpletix
@@ -835,10 +835,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 17.3
+    kin_score: 23.5
     mcp: &id045
       status: none
     slug: sku-iq
@@ -866,9 +866,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 23.3
+    kin_score: 34.7
     mcp: &id047
       status: none
     slug: tablesready
@@ -896,9 +896,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.0
+    kin_score: 14.3
     mcp: &id049
       status: unknown
     slug: ticketsocket
@@ -925,10 +925,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.2
+    agent_readiness: 47.2
     band: thin
     in_catalog: true
-    kin_score: 35.6
+    kin_score: 35.5
     mcp: &id051
       source: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
       status: verified
@@ -956,10 +956,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.4
-    band: developing
+    agent_readiness: 34.7
+    band: strong
     in_catalog: true
-    kin_score: 50.4
+    kin_score: 54.6
     mcp: &id053
       source: https://developer.woocommerce.com/docs/features/mcp/
       status: verified
@@ -987,10 +987,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.3
+    agent_readiness: 60.0
     band: exemplar
     in_catalog: true
-    kin_score: 82.4
+    kin_score: 87.1
     mcp: &id055
       source: https://github.com/XeroAPI/xero-mcp-server
       status: verified
@@ -1027,10 +1027,10 @@ providers:
   tags: *id002
   url: null
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id003
   name: AppsFlyer
   slug: appsflyer
@@ -1041,7 +1041,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 14.4
+  kin_score: 14.6
   mcp: *id005
   name: BevSpot
   slug: bevspot
@@ -1049,10 +1049,10 @@ providers:
   tags: *id006
   url: /providers/bevspot/
 - agent_band: agent-ready
-  agent_readiness: 60.5
+  agent_readiness: 56.3
   band: exemplar
   in_catalog: true
-  kin_score: 70.3
+  kin_score: 84.3
   mcp: *id007
   name: BigCommerce
   slug: bigcommerce
@@ -1060,10 +1060,10 @@ providers:
   tags: *id008
   url: /providers/bigcommerce/
 - agent_band: agent-ready
-  agent_readiness: 53.1
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.5
+  kin_score: 76.3
   mcp: *id009
   name: Bugsnag
   slug: bugsnag
@@ -1074,7 +1074,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.8
+  kin_score: 2.9
   mcp: *id011
   name: Bushfire
   slug: bushfire
@@ -1085,7 +1085,7 @@ providers:
   agent_readiness: 3.1
   band: emerging
   in_catalog: true
-  kin_score: 12.6
+  kin_score: 11.6
   mcp: *id013
   name: Domo
   slug: domo
@@ -1093,10 +1093,10 @@ providers:
   tags: *id014
   url: /providers/domo/
 - agent_band: agent-aware
-  agent_readiness: 23.6
+  agent_readiness: 23.1
   band: developing
   in_catalog: true
-  kin_score: 45.2
+  kin_score: 44.2
   mcp: *id015
   name: Easyship
   slug: easyship
@@ -1104,10 +1104,10 @@ providers:
   tags: *id016
   url: /providers/easyship/
 - agent_band: agent-aware
-  agent_readiness: 20.1
+  agent_readiness: 19.7
   band: developing
   in_catalog: true
-  kin_score: 45.4
+  kin_score: 42.2
   mcp: *id017
   name: Ecwid
   slug: ecwid
@@ -1115,10 +1115,10 @@ providers:
   tags: *id018
   url: /providers/ecwid/
 - agent_band: agent-aware
-  agent_readiness: 19.0
-  band: thin
+  agent_readiness: 18.6
+  band: developing
   in_catalog: true
-  kin_score: 31.2
+  kin_score: 41.7
   mcp: *id019
   name: Fresh KDS
   slug: fresh-kds
@@ -1126,10 +1126,10 @@ providers:
   tags: *id020
   url: /providers/fresh-kds/
 - agent_band: agent-ready
-  agent_readiness: 36.7
+  agent_readiness: 36.4
   band: thin
   in_catalog: true
-  kin_score: 31.7
+  kin_score: 30.4
   mcp: *id021
   name: GoDaddy
   slug: godaddy
@@ -1137,21 +1137,21 @@ providers:
   tags: *id022
   url: /providers/godaddy/
 - agent_band: agent-ready
-  agent_readiness: 43.3
+  agent_readiness: 42.4
   band: emerging
   in_catalog: true
-  kin_score: 25.0
+  kin_score: 24.1
   mcp: *id023
   name: IFTTT
   slug: ifttt
   status: profiled
   tags: *id024
   url: /providers/ifttt/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id025
   name: Intuit QuickBooks
   slug: quickbooks
@@ -1159,21 +1159,21 @@ providers:
   tags: *id026
   url: /providers/quickbooks/
 - agent_band: agent-ready
-  agent_readiness: 43.7
+  agent_readiness: 43.8
   band: developing
   in_catalog: true
-  kin_score: 47.8
+  kin_score: 54.1
   mcp: *id027
   name: Linktree
   slug: linktree
   status: profiled
   tags: *id028
   url: /providers/linktree/
-- agent_band: agent-aware
-  agent_readiness: 24.0
+- agent_band: agent-ready
+  agent_readiness: 28.9
   band: thin
   in_catalog: true
-  kin_score: 30.6
+  kin_score: 30.3
   mcp: *id029
   name: Magento
   slug: magento
@@ -1181,10 +1181,10 @@ providers:
   tags: *id030
   url: /providers/magento/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: emerging
   in_catalog: true
-  kin_score: 25.8
+  kin_score: 25.2
   mcp: *id031
   name: MarketMan
   slug: marketman
@@ -1192,10 +1192,10 @@ providers:
   tags: *id032
   url: /providers/marketman/
 - agent_band: agent-aware
-  agent_readiness: 15.4
+  agent_readiness: 15.1
   band: emerging
   in_catalog: true
-  kin_score: 23.3
+  kin_score: 22.5
   mcp: *id033
   name: MYOB
   slug: myob
@@ -1203,10 +1203,10 @@ providers:
   tags: *id034
   url: /providers/myob/
 - agent_band: agent-aware
-  agent_readiness: 22.3
+  agent_readiness: 21.8
   band: developing
   in_catalog: true
-  kin_score: 52.9
+  kin_score: 48.2
   mcp: *id035
   name: Poptin
   slug: poptin
@@ -1214,10 +1214,10 @@ providers:
   tags: *id036
   url: /providers/poptin/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 38.0
   mcp: *id037
   name: Pusher
   slug: pusher
@@ -1225,10 +1225,10 @@ providers:
   tags: *id038
   url: /providers/pusher/
 - agent_band: agent-ready
-  agent_readiness: 40.4
+  agent_readiness: 40.0
   band: thin
   in_catalog: true
-  kin_score: 36.5
+  kin_score: 35.7
   mcp: *id039
   name: ShipBob
   slug: shipbob
@@ -1239,7 +1239,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 15.7
+  kin_score: 15.2
   mcp: *id041
   name: Shopventory
   slug: shopventory
@@ -1247,10 +1247,10 @@ providers:
   tags: *id042
   url: /providers/shopventory/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 0.7
   band: emerging
   in_catalog: true
-  kin_score: 17.3
+  kin_score: 23.7
   mcp: *id043
   name: SimpleTix
   slug: simpletix
@@ -1258,10 +1258,10 @@ providers:
   tags: *id044
   url: /providers/simpletix/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 17.3
+  kin_score: 23.5
   mcp: *id045
   name: SKU IQ
   slug: sku-iq
@@ -1270,9 +1270,9 @@ providers:
   url: /providers/sku-iq/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 23.3
+  kin_score: 34.7
   mcp: *id047
   name: TablesReady
   slug: tablesready
@@ -1281,9 +1281,9 @@ providers:
   url: /providers/tablesready/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.0
+  kin_score: 14.3
   mcp: *id049
   name: TicketSocket
   slug: ticketsocket
@@ -1291,10 +1291,10 @@ providers:
   tags: *id050
   url: /providers/ticketsocket/
 - agent_band: agent-ready
-  agent_readiness: 48.2
+  agent_readiness: 47.2
   band: thin
   in_catalog: true
-  kin_score: 35.6
+  kin_score: 35.5
   mcp: *id051
   name: Wix
   slug: wix
@@ -1302,10 +1302,10 @@ providers:
   tags: *id052
   url: /providers/wix/
 - agent_band: agent-ready
-  agent_readiness: 35.4
-  band: developing
+  agent_readiness: 34.7
+  band: strong
   in_catalog: true
-  kin_score: 50.4
+  kin_score: 54.6
   mcp: *id053
   name: WooCommerce
   slug: woocommerce
@@ -1313,10 +1313,10 @@ providers:
   tags: *id054
   url: /providers/woocommerce/
 - agent_band: agent-native
-  agent_readiness: 61.3
+  agent_readiness: 60.0
   band: exemplar
   in_catalog: true
-  kin_score: 82.4
+  kin_score: 87.1
   mcp: *id055
   name: Xero
   slug: xero

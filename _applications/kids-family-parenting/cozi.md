@@ -86,10 +86,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id003
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -117,10 +117,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.2
+    agent_readiness: 12.0
     band: emerging
     in_catalog: true
-    kin_score: 16.9
+    kin_score: 17.9
     mcp: &id005
       status: none
     slug: comscore
@@ -146,22 +146,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id007
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id008
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Crashlytics / Analytics)
   provider: firebase
@@ -178,10 +178,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id009
       status: none
     slug: google-admob
@@ -208,10 +208,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: exemplar
     in_catalog: true
-    kin_score: 76.5
+    kin_score: 74.4
     mcp: &id013
       source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
       status: verified
@@ -239,10 +239,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id017
       status: none
     slug: segment
@@ -269,10 +269,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id001
       status: none
     slug: apple
@@ -298,11 +298,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id011
       source: https://github.com/google/mcp
       status: verified
@@ -330,10 +330,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.5
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 70.6
+    kin_score: 70.8
     mcp: &id015
       source: https://github.com/microsoft/mcp
       status: verified
@@ -359,10 +359,10 @@ noindex: false
 permalink: /applications/kids-family-parenting/cozi/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id001
   name: Apple Calendar
   slug: apple
@@ -370,10 +370,10 @@ providers:
   tags: *id002
   url: /providers/apple/
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id003
   name: AppsFlyer
   slug: appsflyer
@@ -381,43 +381,43 @@ providers:
   tags: *id004
   url: /providers/appsflyer/
 - agent_band: agent-aware
-  agent_readiness: 12.2
+  agent_readiness: 12.0
   band: emerging
   in_catalog: true
-  kin_score: 16.9
+  kin_score: 17.9
   mcp: *id005
   name: Comscore
   slug: comscore
   status: profiled
   tags: *id006
   url: /providers/comscore/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id007
-  name: Firebase (Crashlytics / Analytics)
-  slug: firebase
-  status: profiled
-  tags: *id008
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 62.0
+  mcp: *id007
+  name: Firebase (Crashlytics / Analytics)
+  slug: google-firebase
+  status: profiled
+  tags: *id008
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 35.3
+  band: strong
+  in_catalog: true
+  kin_score: 65.2
   mcp: *id009
   name: Google AdMob
   slug: google-admob
   status: profiled
   tags: *id010
   url: /providers/google-admob/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id011
   name: Google Calendar
   slug: google-calendar
@@ -425,10 +425,10 @@ providers:
   tags: *id012
   url: /providers/google-calendar/
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 44.8
   band: exemplar
   in_catalog: true
-  kin_score: 76.5
+  kin_score: 74.4
   mcp: *id013
   name: New Relic
   slug: new-relic
@@ -436,10 +436,10 @@ providers:
   tags: *id014
   url: /providers/new-relic/
 - agent_band: agent-ready
-  agent_readiness: 49.5
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 70.6
+  kin_score: 70.8
   mcp: *id015
   name: Outlook
   slug: microsoft-outlook
@@ -447,10 +447,10 @@ providers:
   tags: *id016
   url: /providers/microsoft-outlook/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id017
   name: Twilio Segment
   slug: segment

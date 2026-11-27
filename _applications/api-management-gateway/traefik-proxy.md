@@ -68,11 +68,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 36.5
-    band: strong
+    agent_band: agent-native
+    agent_readiness: 47.9
+    band: exemplar
     in_catalog: true
-    kin_score: 63.0
+    kin_score: 76.0
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -100,10 +100,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.5
+    agent_readiness: 24.9
     band: thin
     in_catalog: true
-    kin_score: 38.7
+    kin_score: 37.5
     mcp: &id003
       status: none
     slug: apache-zookeeper
@@ -130,10 +130,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.6
+    agent_readiness: 48.6
     band: exemplar
     in_catalog: true
-    kin_score: 79.2
+    kin_score: 80.0
     mcp: &id005
       source: https://github.com/datadog-labs/mcp-server
       status: verified
@@ -160,11 +160,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.4
+    agent_band: agent-ready
+    agent_readiness: 32.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 51.7
     mcp: &id007
       source: https://github.com/docker/mcp-gateway
       status: verified
@@ -192,10 +192,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.3
+    agent_readiness: 24.7
     band: developing
     in_catalog: true
-    kin_score: 48.5
+    kin_score: 48.2
     mcp: &id009
       status: none
     slug: etcd
@@ -222,10 +222,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.6
+    agent_readiness: 20.2
     band: thin
     in_catalog: true
-    kin_score: 35.7
+    kin_score: 36.9
     mcp: &id011
       source: https://github.com/hashicorp/consul-mcp-server
       status: verified
@@ -253,10 +253,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.1
+    agent_readiness: 34.4
     band: strong
     in_catalog: true
-    kin_score: 64.0
+    kin_score: 63.3
     mcp: &id013
       source: https://github.com/influxdata/influxdb3_mcp_server
       status: verified
@@ -283,11 +283,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 28.5
+    agent_band: agent-ready
+    agent_readiness: 32.6
     band: developing
     in_catalog: true
-    kin_score: 48.3
+    kin_score: 48.7
     mcp: &id015
       status: none
     slug: kubernetes
@@ -314,10 +314,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.2
+    agent_readiness: 16.8
     band: emerging
     in_catalog: true
-    kin_score: 24.3
+    kin_score: 23.7
     mcp: &id017
       status: none
     slug: lets-encrypt
@@ -344,10 +344,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.7
-    band: thin
+    agent_readiness: 26.6
+    band: developing
     in_catalog: true
-    kin_score: 39.1
+    kin_score: 40.7
     mcp: &id019
       status: none
     slug: nomad
@@ -377,7 +377,7 @@ integrations:
     agent_readiness: 27.3
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 39.0
     mcp: &id021
       status: none
     slug: opentelemetry
@@ -404,10 +404,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.7
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 35.4
+    kin_score: 35.9
     mcp: &id023
       source: https://github.com/prometheus/prometheus-mcp
       status: verified
@@ -434,11 +434,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 49.8
+    agent_band: agent-ready
+    agent_readiness: 41.5
     band: developing
     in_catalog: true
-    kin_score: 47.4
+    kin_score: 46.5
     mcp: &id025
       source: https://github.com/redis/mcp-redis
       status: verified
@@ -466,10 +466,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.1
+    agent_readiness: 19.7
     band: thin
     in_catalog: true
-    kin_score: 27.9
+    kin_score: 29.0
     mcp: &id027
       status: none
     slug: statsd
@@ -496,10 +496,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.5
+    agent_readiness: 21.0
     band: developing
     in_catalog: true
-    kin_score: 42.2
+    kin_score: 40.8
     mcp: &id029
       status: none
     slug: tailscale
@@ -523,11 +523,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/api-management-gateway/traefik-proxy/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 36.5
-  band: strong
+- agent_band: agent-native
+  agent_readiness: 47.9
+  band: exemplar
   in_catalog: true
-  kin_score: 63.0
+  kin_score: 76.0
   mcp: *id001
   name: Amazon ECS
   slug: amazon-ecs
@@ -535,10 +535,10 @@ providers:
   tags: *id002
   url: /providers/amazon-ecs/
 - agent_band: agent-aware
-  agent_readiness: 25.5
+  agent_readiness: 24.9
   band: thin
   in_catalog: true
-  kin_score: 38.7
+  kin_score: 37.5
   mcp: *id003
   name: Apache ZooKeeper
   slug: apache-zookeeper
@@ -546,21 +546,21 @@ providers:
   tags: *id004
   url: /providers/apache-zookeeper/
 - agent_band: agent-ready
-  agent_readiness: 49.6
+  agent_readiness: 48.6
   band: exemplar
   in_catalog: true
-  kin_score: 79.2
+  kin_score: 80.0
   mcp: *id005
   name: Datadog
   slug: datadog
   status: profiled
   tags: *id006
   url: /providers/datadog/
-- agent_band: agent-aware
-  agent_readiness: 24.4
+- agent_band: agent-ready
+  agent_readiness: 32.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 51.7
   mcp: *id007
   name: Docker
   slug: docker
@@ -568,10 +568,10 @@ providers:
   tags: *id008
   url: /providers/docker/
 - agent_band: agent-aware
-  agent_readiness: 25.3
+  agent_readiness: 24.7
   band: developing
   in_catalog: true
-  kin_score: 48.5
+  kin_score: 48.2
   mcp: *id009
   name: etcd
   slug: etcd
@@ -579,10 +579,10 @@ providers:
   tags: *id010
   url: /providers/etcd/
 - agent_band: agent-aware
-  agent_readiness: 20.6
+  agent_readiness: 20.2
   band: thin
   in_catalog: true
-  kin_score: 35.7
+  kin_score: 36.9
   mcp: *id011
   name: HashiCorp Consul
   slug: consul
@@ -590,21 +590,21 @@ providers:
   tags: *id012
   url: /providers/consul/
 - agent_band: agent-ready
-  agent_readiness: 35.1
+  agent_readiness: 34.4
   band: strong
   in_catalog: true
-  kin_score: 64.0
+  kin_score: 63.3
   mcp: *id013
   name: InfluxDB
   slug: influxdata
   status: profiled
   tags: *id014
   url: /providers/influxdata/
-- agent_band: agent-aware
-  agent_readiness: 28.5
+- agent_band: agent-ready
+  agent_readiness: 32.6
   band: developing
   in_catalog: true
-  kin_score: 48.3
+  kin_score: 48.7
   mcp: *id015
   name: Kubernetes
   slug: kubernetes
@@ -612,10 +612,10 @@ providers:
   tags: *id016
   url: /providers/kubernetes/
 - agent_band: agent-aware
-  agent_readiness: 17.2
+  agent_readiness: 16.8
   band: emerging
   in_catalog: true
-  kin_score: 24.3
+  kin_score: 23.7
   mcp: *id017
   name: Let's Encrypt
   slug: lets-encrypt
@@ -623,10 +623,10 @@ providers:
   tags: *id018
   url: /providers/lets-encrypt/
 - agent_band: agent-aware
-  agent_readiness: 21.7
-  band: thin
+  agent_readiness: 26.6
+  band: developing
   in_catalog: true
-  kin_score: 39.1
+  kin_score: 40.7
   mcp: *id019
   name: Nomad
   slug: nomad
@@ -637,7 +637,7 @@ providers:
   agent_readiness: 27.3
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 39.0
   mcp: *id021
   name: OpenTelemetry
   slug: opentelemetry
@@ -645,21 +645,21 @@ providers:
   tags: *id022
   url: /providers/opentelemetry/
 - agent_band: agent-aware
-  agent_readiness: 18.7
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 35.4
+  kin_score: 35.9
   mcp: *id023
   name: Prometheus
   slug: prometheus-io
   status: profiled
   tags: *id024
   url: /providers/prometheus-io/
-- agent_band: agent-native
-  agent_readiness: 49.8
+- agent_band: agent-ready
+  agent_readiness: 41.5
   band: developing
   in_catalog: true
-  kin_score: 47.4
+  kin_score: 46.5
   mcp: *id025
   name: Redis
   slug: redis
@@ -667,10 +667,10 @@ providers:
   tags: *id026
   url: /providers/redis/
 - agent_band: agent-aware
-  agent_readiness: 20.1
+  agent_readiness: 19.7
   band: thin
   in_catalog: true
-  kin_score: 27.9
+  kin_score: 29.0
   mcp: *id027
   name: StatsD
   slug: statsd
@@ -678,10 +678,10 @@ providers:
   tags: *id028
   url: /providers/statsd/
 - agent_band: agent-aware
-  agent_readiness: 21.5
+  agent_readiness: 21.0
   band: developing
   in_catalog: true
-  kin_score: 42.2
+  kin_score: 40.8
   mcp: *id029
   name: Tailscale
   slug: tailscale

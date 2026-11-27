@@ -55,10 +55,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id001
       status: none
     slug: facebook
@@ -84,22 +84,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id003
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id004
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: firebase
   provider: firebase
@@ -119,7 +119,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 20.6
+    kin_score: 18.6
     mcp: &id005
       status: none
     slug: flurry
@@ -146,10 +146,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id007
       status: none
     slug: google-admob
@@ -174,32 +174,32 @@ noindex: false
 permalink: /applications/photo-management/flickr/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id001
   name: facebook
   slug: facebook
   status: profiled
   tags: *id002
   url: /providers/facebook/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id003
   name: firebase
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id004
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: human-only
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 20.6
+  kin_score: 18.6
   mcp: *id005
   name: flurry
   slug: flurry
@@ -207,10 +207,10 @@ providers:
   tags: *id006
   url: /providers/flurry/
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 35.3
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 65.2
   mcp: *id007
   name: google-admob
   slug: google-admob

@@ -77,7 +77,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 18.0
+    kin_score: 19.3
     mcp: &id001
       status: none
     slug: avidxchange
@@ -104,10 +104,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.1
+    agent_readiness: 25.5
     band: thin
     in_catalog: true
-    kin_score: 36.4
+    kin_score: 35.7
     mcp: &id003
       status: none
     slug: column
@@ -137,7 +137,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 13.5
+    kin_score: 23.6
     mcp: &id005
       status: unknown
     slug: lula-life
@@ -190,10 +190,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.0
-    band: developing
+    agent_readiness: 31.4
+    band: strong
     in_catalog: true
-    kin_score: 43.6
+    kin_score: 54.3
     mcp: &id009
       status: unknown
     slug: simplevoip
@@ -220,10 +220,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.3
-    band: thin
+    agent_readiness: 21.8
+    band: developing
     in_catalog: true
-    kin_score: 38.5
+    kin_score: 40.5
     mcp: &id011
       status: none
     slug: zillow-group
@@ -251,7 +251,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 18.0
+  kin_score: 19.3
   mcp: *id001
   name: AvidXchange
   slug: avidxchange
@@ -259,10 +259,10 @@ providers:
   tags: *id002
   url: /providers/avidxchange/
 - agent_band: agent-aware
-  agent_readiness: 26.1
+  agent_readiness: 25.5
   band: thin
   in_catalog: true
-  kin_score: 36.4
+  kin_score: 35.7
   mcp: *id003
   name: Column N.A.
   slug: column
@@ -273,7 +273,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 13.5
+  kin_score: 23.6
   mcp: *id005
   name: Lula (maintenance)
   slug: lula-life
@@ -292,10 +292,10 @@ providers:
   tags: *id008
   url: null
 - agent_band: agent-ready
-  agent_readiness: 32.0
-  band: developing
+  agent_readiness: 31.4
+  band: strong
   in_catalog: true
-  kin_score: 43.6
+  kin_score: 54.3
   mcp: *id009
   name: SimpleVoIP
   slug: simplevoip
@@ -303,10 +303,10 @@ providers:
   tags: *id010
   url: /providers/simplevoip/
 - agent_band: agent-aware
-  agent_readiness: 22.3
-  band: thin
+  agent_readiness: 21.8
+  band: developing
   in_catalog: true
-  kin_score: 38.5
+  kin_score: 40.5
   mcp: *id011
   name: Zillow
   slug: zillow-group

@@ -43,7 +43,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.3
+    kin_score: 4.1
     mcp: &id001
       status: none
     slug: espn
@@ -70,10 +70,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 5.8
+    agent_readiness: 5.6
     band: minimal
     in_catalog: true
-    kin_score: 5.8
+    kin_score: 5.4
     mcp: &id003
       status: unknown
     slug: sportsnet
@@ -101,7 +101,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.3
+  kin_score: 4.1
   mcp: *id001
   name: ESPN site API scoreboards (site.api.espn.com)
   slug: espn
@@ -109,10 +109,10 @@ providers:
   tags: *id002
   url: /providers/espn/
 - agent_band: agent-aware
-  agent_readiness: 5.8
+  agent_readiness: 5.6
   band: minimal
   in_catalog: true
-  kin_score: 5.8
+  kin_score: 5.4
   mcp: *id003
   name: Sportsnet stats ticker (mobile-statsv2.sportsnet.ca)
   slug: sportsnet

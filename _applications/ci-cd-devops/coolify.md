@@ -125,10 +125,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 69.6
+    agent_readiness: 69.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.8
+    kin_score: 82.5
     mcp: &id002
       source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
       status: verified
@@ -156,10 +156,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.6
+    agent_readiness: 44.1
     band: developing
     in_catalog: true
-    kin_score: 45.0
+    kin_score: 47.4
     mcp: &id004
       source: https://docs.digitalocean.com/reference/mcp/
       status: verified
@@ -187,10 +187,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 48.0
     mcp: &id006
       status: none
     slug: discord
@@ -217,10 +217,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.4
+    agent_readiness: 36.5
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 38.4
     mcp: &id008
       source: https://github.com/DopplerHQ/mcp-server
       status: verified
@@ -248,10 +248,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id010
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -279,10 +279,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id012
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -310,10 +310,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.3
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 39.7
+    kin_score: 41.6
     mcp: &id014
       status: none
     slug: hetzner
@@ -340,10 +340,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.9
-    band: developing
+    agent_readiness: 45.8
+    band: strong
     in_catalog: true
-    kin_score: 54.0
+    kin_score: 65.9
     mcp: &id016
       source: https://github.com/hostinger/api-mcp-server
       status: verified
@@ -374,7 +374,7 @@ integrations:
     agent_readiness: 24.8
     band: developing
     in_catalog: true
-    kin_score: 47.5
+    kin_score: 45.5
     mcp: &id018
       source: https://github.com/Infisical/infisical-mcp-server
       status: verified
@@ -402,10 +402,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.0
+    agent_readiness: 21.6
     band: thin
     in_catalog: true
-    kin_score: 29.2
+    kin_score: 28.1
     mcp: &id020
       status: none
     slug: pushover
@@ -432,10 +432,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.4
+    agent_readiness: 49.8
     band: strong
     in_catalog: true
-    kin_score: 58.9
+    kin_score: 56.8
     mcp: &id022
       source: https://resend.com/docs/mcp-server
       status: verified
@@ -463,10 +463,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id024
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -493,11 +493,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 46.1
+    agent_band: agent-native
+    agent_readiness: 51.9
     band: exemplar
     in_catalog: true
-    kin_score: 72.2
+    kin_score: 73.4
     mcp: &id026
       source: https://github.com/clerk/mcp-tools
       status: verified
@@ -539,11 +539,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id028
       status: none
     slug: google-identity-platform
@@ -570,10 +570,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.7
+    agent_readiness: 13.4
     band: emerging
     in_catalog: true
-    kin_score: 11.0
+    kin_score: 16.0
     mcp: &id030
       source: https://github.com/Infomaniak/mcp-server-kdrive
       status: verified
@@ -601,10 +601,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id032
       status: none
     slug: microsoft-entra
@@ -631,10 +631,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.9
-    band: strong
+    agent_readiness: 25.9
+    band: developing
     in_catalog: true
-    kin_score: 55.3
+    kin_score: 54.1
     mcp: &id034
       status: none
     slug: zitadel
@@ -661,10 +661,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id036
       source: https://docs.stripe.com/mcp
       status: verified
@@ -692,10 +692,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id038
       status: none
     slug: telegram
@@ -722,10 +722,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.8
+    agent_readiness: 53.5
     band: developing
     in_catalog: true
-    kin_score: 40.2
+    kin_score: 43.3
     mcp: &id040
       source: https://github.com/vultr/vultr-mcp
       status: verified
@@ -751,10 +751,10 @@ noindex: false
 permalink: /applications/ci-cd-devops/coolify/
 providers:
 - agent_band: agent-native
-  agent_readiness: 69.6
+  agent_readiness: 69.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.8
+  kin_score: 82.5
   mcp: *id002
   name: CloudflareTunnelService / CloudflareTokenValidator
   slug: cloudflare
@@ -762,10 +762,10 @@ providers:
   tags: *id003
   url: /providers/cloudflare/
 - agent_band: agent-ready
-  agent_readiness: 44.6
+  agent_readiness: 44.1
   band: developing
   in_catalog: true
-  kin_score: 45.0
+  kin_score: 47.4
   mcp: *id004
   name: DigitalOceanService
   slug: digital-ocean
@@ -773,10 +773,10 @@ providers:
   tags: *id005
   url: /providers/digital-ocean/
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 48.0
   mcp: *id006
   name: DiscordChannel
   slug: discord
@@ -784,10 +784,10 @@ providers:
   tags: *id007
   url: /providers/discord/
 - agent_band: agent-ready
-  agent_readiness: 37.4
+  agent_readiness: 36.5
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 38.4
   mcp: *id008
   name: DopplerService
   slug: doppler
@@ -795,10 +795,10 @@ providers:
   tags: *id009
   url: /providers/doppler/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id010
   name: GithubApp / GithubRunner
   slug: github
@@ -806,10 +806,10 @@ providers:
   tags: *id011
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id012
   name: GitlabApp
   slug: gitlab
@@ -817,10 +817,10 @@ providers:
   tags: *id013
   url: /providers/gitlab/
 - agent_band: agent-aware
-  agent_readiness: 26.3
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 39.7
+  kin_score: 41.6
   mcp: *id014
   name: HetznerService
   slug: hetzner
@@ -828,10 +828,10 @@ providers:
   tags: *id015
   url: /providers/hetzner/
 - agent_band: agent-ready
-  agent_readiness: 39.9
-  band: developing
+  agent_readiness: 45.8
+  band: strong
   in_catalog: true
-  kin_score: 54.0
+  kin_score: 65.9
   mcp: *id016
   name: HostingerService
   slug: hostinger
@@ -842,7 +842,7 @@ providers:
   agent_readiness: 24.8
   band: developing
   in_catalog: true
-  kin_score: 47.5
+  kin_score: 45.5
   mcp: *id018
   name: InfisicalService
   slug: infisical
@@ -850,10 +850,10 @@ providers:
   tags: *id019
   url: /providers/infisical/
 - agent_band: agent-aware
-  agent_readiness: 22.0
+  agent_readiness: 21.6
   band: thin
   in_catalog: true
-  kin_score: 29.2
+  kin_score: 28.1
   mcp: *id020
   name: PushoverChannel
   slug: pushover
@@ -861,10 +861,10 @@ providers:
   tags: *id021
   url: /providers/pushover/
 - agent_band: agent-ready
-  agent_readiness: 49.4
+  agent_readiness: 49.8
   band: strong
   in_catalog: true
-  kin_score: 58.9
+  kin_score: 56.8
   mcp: *id022
   name: resend/resend-laravel
   slug: resend
@@ -872,32 +872,32 @@ providers:
   tags: *id023
   url: /providers/resend/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id024
   name: SlackChannel
   slug: slack
   status: profiled
   tags: *id025
   url: /providers/slack/
-- agent_band: agent-ready
-  agent_readiness: 46.1
+- agent_band: agent-native
+  agent_readiness: 51.9
   band: exemplar
   in_catalog: true
-  kin_score: 72.2
+  kin_score: 73.4
   mcp: *id026
   name: socialiteproviders/clerk
   slug: clerk-com
   status: profiled
   tags: *id027
   url: /providers/clerk-com/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id028
   name: socialiteproviders/google
   slug: google-identity-platform
@@ -905,10 +905,10 @@ providers:
   tags: *id029
   url: /providers/google-identity-platform/
 - agent_band: agent-aware
-  agent_readiness: 13.7
+  agent_readiness: 13.4
   band: emerging
   in_catalog: true
-  kin_score: 11.0
+  kin_score: 16.0
   mcp: *id030
   name: socialiteproviders/infomaniak
   slug: infomaniak
@@ -916,10 +916,10 @@ providers:
   tags: *id031
   url: /providers/infomaniak/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id032
   name: socialiteproviders/microsoft-azure
   slug: microsoft-entra
@@ -927,10 +927,10 @@ providers:
   tags: *id033
   url: /providers/microsoft-entra/
 - agent_band: agent-aware
-  agent_readiness: 20.9
-  band: strong
+  agent_readiness: 25.9
+  band: developing
   in_catalog: true
-  kin_score: 55.3
+  kin_score: 54.1
   mcp: *id034
   name: socialiteproviders/zitadel
   slug: zitadel
@@ -938,10 +938,10 @@ providers:
   tags: *id035
   url: /providers/zitadel/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id036
   name: stripe/stripe-php
   slug: stripe
@@ -949,10 +949,10 @@ providers:
   tags: *id037
   url: /providers/stripe/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id038
   name: TelegramChannel
   slug: telegram
@@ -960,10 +960,10 @@ providers:
   tags: *id039
   url: /providers/telegram/
 - agent_band: agent-ready
-  agent_readiness: 49.8
+  agent_readiness: 53.5
   band: developing
   in_catalog: true
-  kin_score: 40.2
+  kin_score: 43.3
   mcp: *id040
   name: VultrService
   slug: vultr

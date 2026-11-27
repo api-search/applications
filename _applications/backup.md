@@ -1620,7 +1620,7 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 34.8
       apps:
       - Arq Backup
       - Duplicati
@@ -1629,35 +1629,7 @@ stack:
       - Velero
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
-      mcp:
-        source: https://github.com/googleapis/gcloud-mcp
-        status: verified
-      name: Google Cloud Storage
-      slug: gcp-cloud-storage
-      sources:
-      - https://github.com/duplicati/duplicati/tree/master/Duplicati/Library/Backend
-      - https://github.com/kopia/kopia/tree/master/repo/blob
-      - https://github.com/restic/restic/tree/master/internal/backend
-      status: profiled
-      tags:
-      - Archival
-      - Backup
-      - Blob Storage
-      - Cloud Storage
-      tier: observed
-      url: /providers/gcp-cloud-storage/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
-      apps:
-      - Arq Backup
-      - Duplicati
-      - Kopia
-      - Restic
-      - Velero
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -1676,15 +1648,43 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 45.1
       apps:
+      - Arq Backup
       - Duplicati
       - Kopia
       - Restic
       - Velero
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 74.1
+      mcp:
+        source: https://github.com/googleapis/gcloud-mcp
+        status: verified
+      name: Google Cloud Storage
+      slug: gcp-cloud-storage
+      sources:
+      - https://github.com/duplicati/duplicati/tree/master/Duplicati/Library/Backend
+      - https://github.com/kopia/kopia/tree/master/repo/blob
+      - https://github.com/restic/restic/tree/master/internal/backend
+      status: profiled
+      tags:
+      - Archival
+      - Backup
+      - Blob Storage
+      - Cloud Storage
+      tier: observed
+      url: /providers/gcp-cloud-storage/
+    - agent_band: agent-ready
+      agent_readiness: 37.9
+      apps:
+      - Duplicati
+      - Kopia
+      - Restic
+      - Velero
+      band: strong
+      in_catalog: true
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1702,8 +1702,8 @@ stack:
       - Microsoft Azure
       tier: observed
       url: /providers/microsoft-azure-blob-storage/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-aware
+      agent_readiness: 27.4
       apps:
       - Arq Backup
       - Duplicati
@@ -1711,7 +1711,7 @@ stack:
       - Restic
       band: developing
       in_catalog: true
-      kin_score: 50.9
+      kin_score: 49.6
       mcp:
         source: https://github.com/backblaze-labs/b2-mcp
         status: verified
@@ -1730,14 +1730,14 @@ stack:
       tier: observed
       url: /providers/backblaze/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Duplicati
       - Restic
       - Velero
       band: thin
       in_catalog: true
-      kin_score: 36.1
+      kin_score: 34.5
       mcp:
         status: none
       name: OpenStack Swift
@@ -1762,7 +1762,7 @@ stack:
       - Velero
       band: minimal
       in_catalog: true
-      kin_score: 6.5
+      kin_score: 5.7
       mcp:
         status: none
       name: Storj
@@ -1780,13 +1780,13 @@ stack:
       tier: observed
       url: /providers/storj/
     - agent_band: agent-ready
-      agent_readiness: 36.3
+      agent_readiness: 35.6
       apps:
       - Duplicati
       - Velero
       band: strong
       in_catalog: true
-      kin_score: 64.9
+      kin_score: 65.8
       mcp:
         source: https://github.com/IBM/mcp
         status: verified
@@ -1804,13 +1804,13 @@ stack:
       tier: observed
       url: /providers/ibm/
     - agent_band: agent-aware
-      agent_readiness: 12.9
+      agent_readiness: 12.7
       apps:
       - Duplicati
       - Velero
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.3
+      kin_score: 30.5
       mcp:
         source: https://github.com/TencentCloud/cos-mcp
         status: verified
@@ -1834,7 +1834,7 @@ stack:
       - Duplicati
       band: emerging
       in_catalog: true
-      kin_score: 24.0
+      kin_score: 23.4
       mcp:
         status: none
       name: Wasabi
@@ -1851,13 +1851,13 @@ stack:
       tier: observed
       url: /providers/wasabi/
     - agent_band: human-only
-      agent_readiness: 3.5
+      agent_readiness: 3.4
       apps:
       - Duplicati
       - Velero
       band: emerging
       in_catalog: true
-      kin_score: 18.8
+      kin_score: 17.9
       mcp:
         source: https://github.com/aliyun/alibaba-cloud-ops-mcp-server
         status: verified
@@ -1875,13 +1875,13 @@ stack:
       tier: observed
       url: /providers/alibaba/
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 25.6
       apps:
       - Arq Backup
       - Velero
       band: strong
       in_catalog: true
-      kin_score: 57.3
+      kin_score: 56.7
       mcp:
         source: https://github.com/minio/mcp-server-aistor
         status: verified
@@ -1898,34 +1898,13 @@ stack:
       - Storage
       tier: declared
       url: /providers/minio/
-    - agent_band: agent-aware
-      agent_readiness: 18.4
+    - agent_band: agent-ready
+      agent_readiness: 34.0
       apps:
       - Duplicati
       band: strong
       in_catalog: true
-      kin_score: 58.0
-      mcp:
-        status: none
-      name: Impossible Cloud
-      slug: impossible-cloud
-      sources:
-      - https://raw.githubusercontent.com/duplicati/duplicati/master/Duplicati/Library/Backend/S3/S3Backend.cs
-      status: profiled
-      tags:
-      - Cloud
-      - Company
-      - Object Storage
-      - S3
-      tier: observed
-      url: /providers/impossible-cloud/
-    - agent_band: agent-ready
-      agent_readiness: 34.7
-      apps:
-      - Duplicati
-      band: developing
-      in_catalog: true
-      kin_score: 54.1
+      kin_score: 62.6
       mcp:
         status: none
       name: Sakura Cloud object storage
@@ -1941,12 +1920,33 @@ stack:
       tier: observed
       url: /providers/sakura-internet/
     - agent_band: agent-aware
-      agent_readiness: 27.1
+      agent_readiness: 18.0
+      apps:
+      - Duplicati
+      band: strong
+      in_catalog: true
+      kin_score: 57.0
+      mcp:
+        status: none
+      name: Impossible Cloud
+      slug: impossible-cloud
+      sources:
+      - https://raw.githubusercontent.com/duplicati/duplicati/master/Duplicati/Library/Backend/S3/S3Backend.cs
+      status: profiled
+      tags:
+      - Cloud
+      - Company
+      - Object Storage
+      - S3
+      tier: observed
+      url: /providers/impossible-cloud/
+    - agent_band: agent-aware
+      agent_readiness: 26.6
       apps:
       - Duplicati
       band: developing
       in_catalog: true
-      kin_score: 53.8
+      kin_score: 51.6
       mcp:
         source: https://github.com/scaleway/scaleway-cli
         status: verified
@@ -1963,12 +1963,12 @@ stack:
       tier: observed
       url: /providers/scaleway/
     - agent_band: agent-ready
-      agent_readiness: 43.1
+      agent_readiness: 42.2
       apps:
       - Duplicati
       band: developing
       in_catalog: true
-      kin_score: 39.3
+      kin_score: 49.4
       mcp:
         status: none
       name: IDrive e2
@@ -1983,13 +1983,13 @@ stack:
       - S3 Compatible
       tier: observed
       url: /providers/idrive/
-    - agent_band: agent-aware
-      agent_readiness: 27.7
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - Duplicati
       band: thin
       in_catalog: true
-      kin_score: 36.3
+      kin_score: 35.8
       mcp:
         source: https://raw.githubusercontent.com/cloudflare/mcp/main/README.md
         status: verified
@@ -2005,34 +2005,13 @@ stack:
       - S3 Compatible
       tier: observed
       url: /providers/cloudflare-r2/
-    - agent_band: agent-aware
-      agent_readiness: 21.6
-      apps:
-      - Duplicati
-      band: emerging
-      in_catalog: true
-      kin_score: 21.7
-      mcp:
-        status: none
-      name: Selectel
-      slug: selectel
-      sources:
-      - https://raw.githubusercontent.com/duplicati/duplicati/master/Duplicati/Library/Backend/S3/S3Backend.cs
-      status: profiled
-      tags:
-      - Cloud
-      - Infrastructure
-      - Storage
-      - VPS
-      tier: observed
-      url: /providers/selectel/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Duplicati
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.5
+      kin_score: 29.3
       mcp:
         status: none
       name: DreamHost DreamObjects
@@ -2048,12 +2027,33 @@ stack:
       tier: observed
       url: /providers/dreamhost/
     - agent_band: agent-aware
-      agent_readiness: 8.6
+      agent_readiness: 18.3
+      apps:
+      - Duplicati
+      band: thin
+      in_catalog: true
+      kin_score: 27.0
+      mcp:
+        status: none
+      name: Selectel
+      slug: selectel
+      sources:
+      - https://raw.githubusercontent.com/duplicati/duplicati/master/Duplicati/Library/Backend/S3/S3Backend.cs
+      status: profiled
+      tags:
+      - Cloud
+      - Infrastructure
+      - Storage
+      - VPS
+      tier: observed
+      url: /providers/selectel/
+    - agent_band: agent-aware
+      agent_readiness: 5.6
       apps:
       - Duplicati
       band: emerging
       in_catalog: true
-      kin_score: 14.9
+      kin_score: 22.8
       mcp:
         status: unknown
       name: Storadera
@@ -2069,12 +2069,12 @@ stack:
       tier: observed
       url: /providers/storadera/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Duplicati
       band: emerging
       in_catalog: true
-      kin_score: 12.8
+      kin_score: 19.4
       mcp:
         status: none
       name: Internxt
@@ -2090,12 +2090,12 @@ stack:
       tier: observed
       url: /providers/internxt/
     - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 10.6
       apps:
       - Duplicati
       band: emerging
       in_catalog: true
-      kin_score: 12.6
+      kin_score: 19.4
       mcp:
         status: unknown
       name: Seagate Lyve Cloud
@@ -2111,12 +2111,12 @@ stack:
       tier: observed
       url: /providers/seagate/
     - agent_band: agent-aware
-      agent_readiness: 13.7
+      agent_readiness: 13.4
       apps:
       - Duplicati
       band: emerging
       in_catalog: true
-      kin_score: 11.0
+      kin_score: 16.0
       mcp:
         source: https://github.com/Infomaniak/mcp-server-kdrive
         status: verified
@@ -2133,12 +2133,12 @@ stack:
       tier: observed
       url: /providers/infomaniak/
     - agent_band: agent-ready
-      agent_readiness: 51.5
+      agent_readiness: 45.0
       apps:
       - Velero
       band: exemplar
       in_catalog: true
-      kin_score: 78.4
+      kin_score: 76.0
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2155,12 +2155,12 @@ stack:
       tier: declared
       url: /providers/microsoft-azure/
     - agent_band: agent-native
-      agent_readiness: 52.1
+      agent_readiness: 53.7
       apps:
       - Velero
       band: exemplar
       in_catalog: true
-      kin_score: 76.9
+      kin_score: 75.6
       mcp:
         source: https://github.com/oracle/mcp
         status: verified
@@ -2177,12 +2177,33 @@ stack:
       tier: declared
       url: /providers/oracle-cloud/
     - agent_band: agent-ready
-      agent_readiness: 50.7
+      agent_readiness: 34.0
       apps:
       - Velero
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.8
+      kin_score: 72.6
+      mcp:
+        status: none
+      name: Amazon EBS
+      slug: amazon-ebs
+      sources:
+      - https://raw.githubusercontent.com/vmware-tanzu/velero/main/site/content/docs/main/supported-providers.md
+      status: profiled
+      tags:
+      - Amazon Web Services
+      - Block Storage
+      - EBS
+      - EC2
+      tier: declared
+      url: /providers/amazon-ebs/
+    - agent_band: agent-ready
+      agent_readiness: 50.2
+      apps:
+      - Velero
+      band: exemplar
+      in_catalog: true
+      kin_score: 67.5
       mcp:
         source: https://github.com/googleapis/mcp-toolbox
         status: verified
@@ -2199,33 +2220,12 @@ stack:
       tier: declared
       url: /providers/google-cloud-platform/
     - agent_band: agent-aware
-      agent_readiness: 24.6
-      apps:
-      - Velero
-      band: strong
-      in_catalog: true
-      kin_score: 61.9
-      mcp:
-        status: none
-      name: Amazon EBS
-      slug: amazon-ebs
-      sources:
-      - https://raw.githubusercontent.com/vmware-tanzu/velero/main/site/content/docs/main/supported-providers.md
-      status: profiled
-      tags:
-      - Amazon Web Services
-      - Block Storage
-      - EBS
-      - EC2
-      tier: declared
-      url: /providers/amazon-ebs/
-    - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 23.3
       apps:
       - Velero
       band: developing
       in_catalog: true
-      kin_score: 51.3
+      kin_score: 49.8
       mcp:
         status: none
       name: VMware vSphere
@@ -2241,12 +2241,12 @@ stack:
       tier: declared
       url: /providers/vmware/
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 44.1
       apps:
       - Velero
       band: developing
       in_catalog: true
-      kin_score: 45.0
+      kin_score: 47.4
       mcp:
         source: https://docs.digitalocean.com/reference/mcp/
         status: verified
@@ -2263,12 +2263,12 @@ stack:
       tier: declared
       url: /providers/digital-ocean/
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 21.9
       apps:
       - Velero
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 39.1
+      kin_score: 39.7
       mcp:
         source: https://github.com/HewlettPackard/gl-mcp
         status: verified
@@ -2285,12 +2285,12 @@ stack:
       tier: declared
       url: /providers/hpe/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Velero
       band: thin
       in_catalog: true
-      kin_score: 30.3
+      kin_score: 28.8
       mcp:
         status: none
       name: Portworx
@@ -2311,7 +2311,7 @@ stack:
       - Velero
       band: emerging
       in_catalog: true
-      kin_score: 24.4
+      kin_score: 25.6
       mcp:
         status: none
       name: OpenEBS
@@ -2332,7 +2332,7 @@ stack:
       - Velero
       band: emerging
       in_catalog: true
-      kin_score: 17.0
+      kin_score: 24.4
       mcp:
         status: none
       name: Cloudian HyperStore
@@ -2353,7 +2353,7 @@ stack:
       - Velero
       band: emerging
       in_catalog: true
-      kin_score: 11.0
+      kin_score: 15.7
       mcp:
         source: https://github.com/huaweicloud/huaweicloud-mcp
         status: verified
@@ -2378,14 +2378,14 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Arq Backup
       - Duplicati
       - Kopia
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2404,13 +2404,13 @@ stack:
       tier: observed
       url: /providers/google-drive/
     - agent_band: agent-ready
-      agent_readiness: 35.2
+      agent_readiness: 32.3
       apps:
       - Arq Backup
       - Duplicati
       band: strong
       in_catalog: true
-      kin_score: 58.5
+      kin_score: 60.9
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2428,13 +2428,13 @@ stack:
       tier: observed
       url: /providers/sharepoint/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - Arq Backup
       - Duplicati
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: OneDrive
@@ -2451,13 +2451,13 @@ stack:
       tier: observed
       url: /providers/microsoft-onedrive/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Arq Backup
       - Duplicati
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp: &id003
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -2474,14 +2474,14 @@ stack:
       - Storage
       tier: observed
       url: /providers/dropbox/
-    - agent_band: agent-aware
-      agent_readiness: 7.9
+    - agent_band: human-only
+      agent_readiness: 4.9
       apps:
       - Arq Backup
       - Duplicati
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.1
+      kin_score: 33.2
       mcp:
         source: https://mcp.pcloud.com/.well-known/oauth-protected-resource/mcp
         status: verified
@@ -2499,12 +2499,12 @@ stack:
       tier: observed
       url: /providers/pcloud/
     - agent_band: agent-ready
-      agent_readiness: 57.4
+      agent_readiness: 56.6
       apps:
       - Duplicati
       band: strong
       in_catalog: true
-      kin_score: 65.5
+      kin_score: 63.0
       mcp: &id001
         source: https://developer.box.com/guides/box-mcp/
         status: verified
@@ -2521,12 +2521,12 @@ stack:
       tier: observed
       url: /providers/box/
     - agent_band: agent-ready
-      agent_readiness: 33.7
+      agent_readiness: 30.3
       apps:
       - Duplicati
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 54.3
       mcp:
         status: none
       name: Filen
@@ -2542,12 +2542,12 @@ stack:
       tier: observed
       url: /providers/filen/
     - agent_band: agent-aware
-      agent_readiness: 26.3
+      agent_readiness: 19.4
       apps:
       - Duplicati
       band: developing
       in_catalog: true
-      kin_score: 40.3
+      kin_score: 48.2
       mcp:
         status: none
       name: Jottacloud
@@ -2563,12 +2563,12 @@ stack:
       tier: observed
       url: /providers/jottacloud/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Duplicati
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.0
+      kin_score: 13.0
       mcp:
         source: https://github.com/meganz/mega-mcp
         status: verified
@@ -2590,12 +2590,12 @@ stack:
       via_parent: Disaster Recovery Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - IDrive
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2612,71 +2612,12 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 36.3
       apps:
       - IDrive
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
-      mcp:
-        status: none
-      name: Microsoft Entra ID
-      slug: microsoft-entra
-      sources:
-      - https://www.idrive.com/
-      status: profiled
-      tags:
-      - Authentication
-      - Azure AD
-      - Entra
-      - Identity and Access Management
-      tier: declared
-      url: /providers/microsoft-entra/
-    - agent_band: agent-ready
-      agent_readiness: 37.9
-      apps:
-      - IDrive
-      band: exemplar
-      in_catalog: true
-      kin_score: 68.6
-      mcp:
-        source: https://github.com/gemini-cli-extensions/workspace
-        status: verified
-      name: Google Workspace
-      slug: google-workspace
-      sources:
-      - https://www.idrive.com/
-      status: profiled
-      tags:
-      - Calendar
-      - Collaboration
-      - Email
-      - Productivity
-      tier: declared
-      url: /providers/google-workspace/
-    - agent_band: agent-ready
-      agent_readiness: 57.4
-      apps:
-      - IDrive
-      band: strong
-      in_catalog: true
-      kin_score: 65.5
-      mcp: *id001
-      name: Box
-      slug: box
-      sources:
-      - https://www.idrive.com/
-      status: profiled
-      tags: *id002
-      tier: declared
-      url: /providers/box/
-    - agent_band: agent-ready
-      agent_readiness: 36.7
-      apps:
-      - IDrive
-      band: strong
-      in_catalog: true
-      kin_score: 64.4
+      kin_score: 76.1
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2693,12 +2634,71 @@ stack:
       tier: declared
       url: /providers/microsoft-365/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 43.0
+      apps:
+      - IDrive
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.7
+      mcp:
+        source: https://github.com/gemini-cli-extensions/workspace
+        status: verified
+      name: Google Workspace
+      slug: google-workspace
+      sources:
+      - https://www.idrive.com/
+      status: profiled
+      tags:
+      - Calendar
+      - Collaboration
+      - Email
+      - Productivity
+      tier: declared
+      url: /providers/google-workspace/
+    - agent_band: agent-ready
+      agent_readiness: 28.7
+      apps:
+      - IDrive
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.3
+      mcp:
+        status: none
+      name: Microsoft Entra ID
+      slug: microsoft-entra
+      sources:
+      - https://www.idrive.com/
+      status: profiled
+      tags:
+      - Authentication
+      - Azure AD
+      - Entra
+      - Identity and Access Management
+      tier: declared
+      url: /providers/microsoft-entra/
+    - agent_band: agent-ready
+      agent_readiness: 56.6
+      apps:
+      - IDrive
+      band: strong
+      in_catalog: true
+      kin_score: 63.0
+      mcp: *id001
+      name: Box
+      slug: box
+      sources:
+      - https://www.idrive.com/
+      status: profiled
+      tags: *id002
+      tier: declared
+      url: /providers/box/
+    - agent_band: agent-ready
+      agent_readiness: 44.8
       apps:
       - IDrive
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp: *id003
       name: Dropbox
       slug: dropbox
@@ -2719,13 +2719,13 @@ stack:
       via_parent: IT Operations Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.2
       apps:
       - Backrest
       - borgmatic
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 43.4
       mcp:
         status: none
       name: Healthchecks.io
@@ -2742,12 +2742,12 @@ stack:
       tier: observed
       url: /providers/healthchecks-io/
     - agent_band: agent-ready
-      agent_readiness: 40.7
+      agent_readiness: 43.9
       apps:
       - borgmatic
       band: thin
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 37.8
       mcp:
         status: none
       name: Cronitor
@@ -2763,12 +2763,12 @@ stack:
       tier: observed
       url: /providers/cronitor/
     - agent_band: agent-aware
-      agent_readiness: 22.1
+      agent_readiness: 21.6
       apps:
       - borgmatic
       band: thin
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 34.0
       mcp:
         status: none
       name: Zabbix
@@ -2784,12 +2784,12 @@ stack:
       tier: observed
       url: /providers/zabbix/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 15.1
       apps:
       - borgmatic
       band: emerging
       in_catalog: true
-      kin_score: 18.5
+      kin_score: 20.6
       mcp:
         status: none
       name: Uptime Kuma
@@ -2812,37 +2812,37 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Backblaze Computer Backup
       - IDrive
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id005
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.backblaze.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.prosoftnet.android.idriveonline/latest/
       status: profiled
       tags: &id006
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
       agent_readiness: 50.2
       apps:
       - borgmatic
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2858,13 +2858,13 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-ready
-      agent_readiness: 31.1
+    - agent_band: agent-aware
+      agent_readiness: 27.6
       apps:
       - borgmatic
       band: strong
       in_catalog: true
-      kin_score: 60.6
+      kin_score: 66.0
       mcp:
         source: https://github.com/grafana/mcp-grafana
         status: verified
@@ -2889,13 +2889,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.0
+      agent_readiness: 21.6
       apps:
       - Kopia
       - borgmatic
       band: thin
       in_catalog: true
-      kin_score: 29.2
+      kin_score: 28.1
       mcp:
         status: none
       name: Pushover
@@ -2915,9 +2915,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - borgmatic
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.9
+      kin_score: 15.5
       mcp:
         status: none
       name: ntfy
@@ -2938,7 +2938,7 @@ stack:
       - Backrest
       band: minimal
       in_catalog: true
-      kin_score: 7.8
+      kin_score: 10.9
       mcp:
         source: https://gotify.net/docs/mcp
         status: verified
@@ -2963,12 +2963,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Backrest
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2985,12 +2985,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Backrest
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -3013,24 +3013,24 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Backblaze Computer Backup
       - IDrive
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id005
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.backblaze.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.prosoftnet.android.idriveonline/latest/
       status: profiled
       tags: *id006
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.20.20
@@ -3040,13 +3040,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Backrest
       - Duplicati
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -3071,12 +3071,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.9
+      agent_readiness: 54.4
       apps:
       - borgmatic
       band: developing
       in_catalog: true
-      kin_score: 51.2
+      kin_score: 52.1
       mcp:
         source: https://github.com/PagerDuty/pagerduty-mcp-server
         status: verified
@@ -3104,7 +3104,7 @@ summary:
     unchecked: 0
     verified: 32
   mcp_verified: 32
-  mean_kin_score: 43.8
+  mean_kin_score: 46.5
   observed: 42
   queued: 0
   reference_apps: 9

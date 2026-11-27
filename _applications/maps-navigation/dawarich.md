@@ -110,11 +110,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -142,10 +142,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.3
+    agent_readiness: 40.8
     band: strong
     in_catalog: true
-    kin_score: 60.3
+    kin_score: 62.6
     mcp: &id003
       status: none
     slug: geoapify
@@ -172,10 +172,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id005
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -202,11 +202,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id009
       status: none
     slug: google-identity-platform
@@ -236,7 +236,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 4.8
     mcp: &id013
       status: none
     slug: locationiq
@@ -262,10 +262,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id015
       status: none
     slug: nominatim
@@ -293,9 +293,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 2.5
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.0
+    kin_score: 11.3
     mcp: &id021
       status: none
     slug: komoot-photon
@@ -325,7 +325,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id025
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -353,10 +353,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id007
       source: https://github.com/google/mcp
       status: verified
@@ -384,10 +384,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 15.1
     band: emerging
     in_catalog: true
-    kin_score: 22.3
+    kin_score: 25.5
     mcp: &id011
       status: none
     slug: immich
@@ -415,9 +415,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 3.2
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.5
+    kin_score: 11.5
     mcp: &id017
       status: unknown
     slug: overland
@@ -447,7 +447,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.4
+    kin_score: 4.7
     mcp: &id019
       status: none
     slug: owntracks
@@ -474,10 +474,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.7
+    agent_readiness: 37.3
     band: developing
     in_catalog: true
-    kin_score: 42.5
+    kin_score: 52.5
     mcp: &id023
       source: https://docs.photoprism.app/developer-guide/api/mcp/
       status: verified
@@ -505,10 +505,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 51.3
     band: developing
     in_catalog: true
-    kin_score: 50.0
+    kin_score: 52.0
     mcp: &id027
       status: none
     slug: strava
@@ -532,11 +532,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/maps-navigation/dawarich/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -544,10 +544,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 44.3
+  agent_readiness: 40.8
   band: strong
   in_catalog: true
-  kin_score: 60.3
+  kin_score: 62.6
   mcp: *id003
   name: Geoapify
   slug: geoapify
@@ -555,10 +555,10 @@ providers:
   tags: *id004
   url: /providers/geoapify/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id005
   name: GitHub
   slug: github
@@ -566,21 +566,21 @@ providers:
   tags: *id006
   url: /providers/github/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id007
   name: Google Maps Timeline / Takeout
   slug: google
   status: profiled
   tags: *id008
   url: /providers/google/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id009
   name: Google sign-in
   slug: google-identity-platform
@@ -588,10 +588,10 @@ providers:
   tags: *id010
   url: /providers/google-identity-platform/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 15.1
   band: emerging
   in_catalog: true
-  kin_score: 22.3
+  kin_score: 25.5
   mcp: *id011
   name: Immich
   slug: immich
@@ -602,7 +602,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 4.8
   mcp: *id013
   name: LocationIQ
   slug: locationiq
@@ -610,10 +610,10 @@ providers:
   tags: *id014
   url: /providers/locationiq/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id015
   name: Nominatim
   slug: nominatim
@@ -622,9 +622,9 @@ providers:
   url: /providers/nominatim/
 - agent_band: human-only
   agent_readiness: 3.2
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.5
+  kin_score: 11.5
   mcp: *id017
   name: Overland
   slug: overland
@@ -635,7 +635,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.4
+  kin_score: 4.7
   mcp: *id019
   name: OwnTracks
   slug: owntracks
@@ -644,9 +644,9 @@ providers:
   url: /providers/owntracks/
 - agent_band: human-only
   agent_readiness: 2.5
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.0
+  kin_score: 11.3
   mcp: *id021
   name: Photon (komoot)
   slug: komoot-photon
@@ -654,10 +654,10 @@ providers:
   tags: *id022
   url: /providers/komoot-photon/
 - agent_band: agent-ready
-  agent_readiness: 40.7
+  agent_readiness: 37.3
   band: developing
   in_catalog: true
-  kin_score: 42.5
+  kin_score: 52.5
   mcp: *id023
   name: PhotoPrism
   slug: photoprism
@@ -668,7 +668,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id025
   name: Sentry
   slug: sentry-system
@@ -676,10 +676,10 @@ providers:
   tags: *id026
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 51.3
   band: developing
   in_catalog: true
-  kin_score: 50.0
+  kin_score: 52.0
   mcp: *id027
   name: Strava
   slug: strava

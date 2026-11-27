@@ -147,11 +147,11 @@ integrations:
     via_parent: Gift & Pledge Administration
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 53.7
+    agent_band: agent-native
+    agent_readiness: 61.6
     band: strong
     in_catalog: true
-    kin_score: 58.5
+    kin_score: 59.5
     mcp: &id001
       status: none
     slug: chariot
@@ -178,10 +178,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
-    band: minimal
+    agent_readiness: 1.1
+    band: emerging
     in_catalog: true
-    kin_score: 8.4
+    kin_score: 13.8
     mcp: &id003
       status: none
     slug: clickbid
@@ -208,10 +208,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.1
+    agent_readiness: 31.4
     band: exemplar
     in_catalog: true
-    kin_score: 70.9
+    kin_score: 67.7
     mcp: &id005
       status: none
     slug: constant-contact
@@ -239,9 +239,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 7.9
+    kin_score: 12.8
     mcp: &id007
       status: unknown
     slug: cougar-mountain-software
@@ -271,7 +271,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 19.9
+    kin_score: 22.5
     mcp: &id009
       status: none
     slug: cuseum
@@ -298,10 +298,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 15.8
+    kin_score: 25.6
     mcp: &id011
       status: unknown
     slug: double-the-donation
@@ -328,10 +328,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
-    band: thin
+    agent_readiness: 18.6
+    band: developing
     in_catalog: true
-    kin_score: 38.8
+    kin_score: 41.6
     mcp: &id013
       status: none
     slug: eventbrite
@@ -361,7 +361,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.2
+    kin_score: 10.1
     mcp: &id015
       status: unknown
     slug: givbee
@@ -391,7 +391,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.6
+    kin_score: 6.2
     mcp: &id017
       status: none
     slug: grassroots-unwired
@@ -418,10 +418,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.4
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 13.2
+    kin_score: 14.2
     mcp: &id019
       status: none
     slug: higher-logic
@@ -448,10 +448,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id021
       status: none
     slug: mailchimp
@@ -479,9 +479,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.6
+    kin_score: 15.8
     mcp: &id023
       status: unknown
     slug: nuclavis
@@ -507,11 +507,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id025
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -538,11 +538,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.8
+    agent_band: agent-ready
+    agent_readiness: 28.8
     band: developing
     in_catalog: true
-    kin_score: 49.3
+    kin_score: 47.7
     mcp: &id027
       status: none
     slug: taxjar
@@ -570,9 +570,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.4
+    kin_score: 14.2
     mcp: &id029
       status: unknown
     slug: ujoin
@@ -602,7 +602,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 18.1
+    kin_score: 24.1
     mcp: &id031
       status: unknown
     slug: volunteerlocal
@@ -629,10 +629,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.5
+    agent_readiness: 30.8
     band: developing
     in_catalog: true
-    kin_score: 51.8
+    kin_score: 53.8
     mcp: &id033
       status: none
     slug: windfall
@@ -659,10 +659,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id035
       source: https://zapier.com/mcp
       status: verified
@@ -687,11 +687,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/nonprofit-crm-fundraising/neon-crm/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 53.7
+- agent_band: agent-native
+  agent_readiness: 61.6
   band: strong
   in_catalog: true
-  kin_score: 58.5
+  kin_score: 59.5
   mcp: *id001
   name: Chariot
   slug: chariot
@@ -699,10 +699,10 @@ providers:
   tags: *id002
   url: /providers/chariot/
 - agent_band: human-only
-  agent_readiness: 0.0
-  band: minimal
+  agent_readiness: 1.1
+  band: emerging
   in_catalog: true
-  kin_score: 8.4
+  kin_score: 13.8
   mcp: *id003
   name: ClickBid
   slug: clickbid
@@ -710,10 +710,10 @@ providers:
   tags: *id004
   url: /providers/clickbid/
 - agent_band: agent-ready
-  agent_readiness: 32.1
+  agent_readiness: 31.4
   band: exemplar
   in_catalog: true
-  kin_score: 70.9
+  kin_score: 67.7
   mcp: *id005
   name: Constant Contact
   slug: constant-contact
@@ -722,9 +722,9 @@ providers:
   url: /providers/constant-contact/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 7.9
+  kin_score: 12.8
   mcp: *id007
   name: Cougar Mountain Software
   slug: cougar-mountain-software
@@ -735,7 +735,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 19.9
+  kin_score: 22.5
   mcp: *id009
   name: Cuseum
   slug: cuseum
@@ -743,10 +743,10 @@ providers:
   tags: *id010
   url: /providers/cuseum/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 15.8
+  kin_score: 25.6
   mcp: *id011
   name: Double the Donation
   slug: double-the-donation
@@ -754,10 +754,10 @@ providers:
   tags: *id012
   url: /providers/double-the-donation/
 - agent_band: agent-aware
-  agent_readiness: 19.0
-  band: thin
+  agent_readiness: 18.6
+  band: developing
   in_catalog: true
-  kin_score: 38.8
+  kin_score: 41.6
   mcp: *id013
   name: Eventbrite
   slug: eventbrite
@@ -768,7 +768,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.2
+  kin_score: 10.1
   mcp: *id015
   name: GivBee
   slug: givbee
@@ -779,7 +779,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.6
+  kin_score: 6.2
   mcp: *id017
   name: Grassroots Unwired
   slug: grassroots-unwired
@@ -787,10 +787,10 @@ providers:
   tags: *id018
   url: /providers/grassroots-unwired/
 - agent_band: agent-aware
-  agent_readiness: 14.4
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 13.2
+  kin_score: 14.2
   mcp: *id019
   name: Higher Logic
   slug: higher-logic
@@ -798,10 +798,10 @@ providers:
   tags: *id020
   url: /providers/higher-logic/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id021
   name: Mailchimp
   slug: mailchimp
@@ -810,31 +810,31 @@ providers:
   url: /providers/mailchimp/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.6
+  kin_score: 15.8
   mcp: *id023
   name: Nuclavis
   slug: nuclavis
   status: profiled
   tags: *id024
   url: /providers/nuclavis/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id025
   name: QuickBooks Online
   slug: quickbooks
   status: profiled
   tags: *id026
   url: /providers/quickbooks/
-- agent_band: agent-aware
-  agent_readiness: 23.8
+- agent_band: agent-ready
+  agent_readiness: 28.8
   band: developing
   in_catalog: true
-  kin_score: 49.3
+  kin_score: 47.7
   mcp: *id027
   name: TaxJar
   slug: taxjar
@@ -843,9 +843,9 @@ providers:
   url: /providers/taxjar/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.4
+  kin_score: 14.2
   mcp: *id029
   name: Ujoin Advocacy
   slug: ujoin
@@ -856,7 +856,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 18.1
+  kin_score: 24.1
   mcp: *id031
   name: VolunteerLocal
   slug: volunteerlocal
@@ -864,10 +864,10 @@ providers:
   tags: *id032
   url: /providers/volunteerlocal/
 - agent_band: agent-ready
-  agent_readiness: 31.5
+  agent_readiness: 30.8
   band: developing
   in_catalog: true
-  kin_score: 51.8
+  kin_score: 53.8
   mcp: *id033
   name: Windfall Data
   slug: windfall
@@ -875,10 +875,10 @@ providers:
   tags: *id034
   url: /providers/windfall/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id035
   name: Zapier
   slug: zapier

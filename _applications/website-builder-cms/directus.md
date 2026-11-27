@@ -85,11 +85,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -117,10 +117,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.4
+    agent_readiness: 38.0
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 83.8
     mcp: &id003
       status: none
     slug: amazon-ses
@@ -147,10 +147,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id005
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -178,10 +178,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id007
       source: https://github.com/microsoft/mcp
       status: verified
@@ -209,10 +209,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.4
+    agent_readiness: 51.7
     band: developing
     in_catalog: true
-    kin_score: 48.0
+    kin_score: 46.3
     mcp: &id009
       source: https://www.braintrust.dev/docs/integrations/developer-tools/mcp
       status: verified
@@ -240,10 +240,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.0
-    band: developing
+    agent_readiness: 53.5
+    band: exemplar
     in_catalog: true
-    kin_score: 52.4
+    kin_score: 82.0
     mcp: &id011
       source: https://cloudinary.com/documentation/cloudinary_llm_mcp
       status: verified
@@ -271,10 +271,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id013
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -302,10 +302,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id015
       status: none
     slug: google-gemini
@@ -332,10 +332,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 35.9
     band: thin
     in_catalog: true
-    kin_score: 37.0
+    kin_score: 36.5
     mcp: &id017
       source: https://github.com/langfuse/mcp-server-langfuse
       status: verified
@@ -363,10 +363,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 58.8
+    agent_readiness: 58.9
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 72.2
     mcp: &id019
       source: https://github.com/netlify/netlify-mcp
       status: verified
@@ -394,10 +394,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id021
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -425,10 +425,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.1
+    agent_readiness: 48.2
     band: developing
     in_catalog: true
-    kin_score: 49.1
+    kin_score: 49.4
     mcp: &id023
       source: https://github.com/supabase/mcp
       status: verified
@@ -453,11 +453,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/website-builder-cms/directus/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -465,10 +465,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 39.4
+  agent_readiness: 38.0
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 83.8
   mcp: *id003
   name: Amazon SES
   slug: amazon-ses
@@ -476,10 +476,10 @@ providers:
   tags: *id004
   url: /providers/amazon-ses/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id005
   name: Anthropic
   slug: anthropic
@@ -487,10 +487,10 @@ providers:
   tags: *id006
   url: /providers/anthropic/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id007
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -498,10 +498,10 @@ providers:
   tags: *id008
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: agent-ready
-  agent_readiness: 52.4
+  agent_readiness: 51.7
   band: developing
   in_catalog: true
-  kin_score: 48.0
+  kin_score: 46.3
   mcp: *id009
   name: Braintrust
   slug: braintrust
@@ -509,10 +509,10 @@ providers:
   tags: *id010
   url: /providers/braintrust/
 - agent_band: agent-ready
-  agent_readiness: 45.0
-  band: developing
+  agent_readiness: 53.5
+  band: exemplar
   in_catalog: true
-  kin_score: 52.4
+  kin_score: 82.0
   mcp: *id011
   name: Cloudinary
   slug: cloudinary
@@ -520,10 +520,10 @@ providers:
   tags: *id012
   url: /providers/cloudinary/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id013
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -531,10 +531,10 @@ providers:
   tags: *id014
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id015
   name: Google Gemini
   slug: google-gemini
@@ -542,10 +542,10 @@ providers:
   tags: *id016
   url: /providers/google-gemini/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 35.9
   band: thin
   in_catalog: true
-  kin_score: 37.0
+  kin_score: 36.5
   mcp: *id017
   name: Langfuse
   slug: langfuse
@@ -553,10 +553,10 @@ providers:
   tags: *id018
   url: /providers/langfuse/
 - agent_band: agent-ready
-  agent_readiness: 58.8
+  agent_readiness: 58.9
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 72.2
   mcp: *id019
   name: Netlify
   slug: netlify
@@ -564,10 +564,10 @@ providers:
   tags: *id020
   url: /providers/netlify/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id021
   name: OpenAI
   slug: openai
@@ -575,10 +575,10 @@ providers:
   tags: *id022
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 48.1
+  agent_readiness: 48.2
   band: developing
   in_catalog: true
-  kin_score: 49.1
+  kin_score: 49.4
   mcp: *id023
   name: Supabase Storage
   slug: supabase

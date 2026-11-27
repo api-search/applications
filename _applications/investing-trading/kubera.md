@@ -78,10 +78,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.8
-    band: developing
+    agent_readiness: 33.1
+    band: strong
     in_catalog: true
-    kin_score: 47.6
+    kin_score: 56.0
     mcp: &id001
       status: none
     slug: akahu
@@ -108,10 +108,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.1
-    band: developing
+    agent_readiness: 20.7
+    band: strong
     in_catalog: true
-    kin_score: 53.6
+    kin_score: 55.4
     mcp: &id003
       status: none
     slug: akoya
@@ -138,10 +138,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.8
-    band: strong
+    agent_readiness: 37.9
+    band: exemplar
     in_catalog: true
-    kin_score: 60.5
+    kin_score: 68.5
     mcp: &id005
       source: https://github.com/awslabs/mcp
       status: verified
@@ -168,11 +168,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id007
       status: none
     slug: google-identity-platform
@@ -199,10 +199,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 53.0
+    agent_readiness: 52.0
     band: developing
     in_catalog: true
-    kin_score: 52.5
+    kin_score: 51.1
     mcp: &id009
       status: none
     slug: lean-technologies
@@ -229,7 +229,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 44.2
+    agent_readiness: 43.3
     band: strong
     in_catalog: true
     kin_score: 57.3
@@ -260,10 +260,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.7
-    band: strong
+    agent_readiness: 26.6
+    band: exemplar
     in_catalog: true
-    kin_score: 65.0
+    kin_score: 66.7
     mcp: &id013
       status: none
     slug: mx-technologies
@@ -290,10 +290,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 52.1
+    agent_readiness: 51.1
     band: exemplar
     in_catalog: true
-    kin_score: 83.4
+    kin_score: 86.3
     mcp: &id015
       source: https://plaid.com/docs/resources/mcp/
       status: verified
@@ -321,10 +321,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 28.1
+    kin_score: 27.1
     mcp: &id017
       status: none
     slug: reviews-io
@@ -351,10 +351,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.4
-    band: thin
+    agent_readiness: 21.9
+    band: emerging
     in_catalog: true
-    kin_score: 26.9
+    kin_score: 26.1
     mcp: &id019
       status: none
     slug: salt-edge
@@ -381,10 +381,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.2
-    band: developing
+    agent_readiness: 46.1
+    band: strong
     in_catalog: true
-    kin_score: 50.5
+    kin_score: 59.0
     mcp: &id021
       source: https://docs.snaptrade.com/docs/mcp-server
       status: verified
@@ -412,10 +412,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.0
+    agent_readiness: 20.6
     band: thin
     in_catalog: true
-    kin_score: 31.1
+    kin_score: 30.4
     mcp: &id023
       status: none
     slug: yodlee
@@ -440,10 +440,10 @@ noindex: false
 permalink: /applications/investing-trading/kubera/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 33.8
-  band: developing
+  agent_readiness: 33.1
+  band: strong
   in_catalog: true
-  kin_score: 47.6
+  kin_score: 56.0
   mcp: *id001
   name: Akahu
   slug: akahu
@@ -451,10 +451,10 @@ providers:
   tags: *id002
   url: /providers/akahu/
 - agent_band: agent-aware
-  agent_readiness: 21.1
-  band: developing
+  agent_readiness: 20.7
+  band: strong
   in_catalog: true
-  kin_score: 53.6
+  kin_score: 55.4
   mcp: *id003
   name: Akoya
   slug: akoya
@@ -462,21 +462,21 @@ providers:
   tags: *id004
   url: /providers/akoya/
 - agent_band: agent-ready
-  agent_readiness: 40.8
-  band: strong
+  agent_readiness: 37.9
+  band: exemplar
   in_catalog: true
-  kin_score: 60.5
+  kin_score: 68.5
   mcp: *id005
   name: AWS
   slug: amazon-web-services
   status: profiled
   tags: *id006
   url: /providers/amazon-web-services/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id007
   name: Google sign-in
   slug: google-identity-platform
@@ -484,10 +484,10 @@ providers:
   tags: *id008
   url: /providers/google-identity-platform/
 - agent_band: agent-native
-  agent_readiness: 53.0
+  agent_readiness: 52.0
   band: developing
   in_catalog: true
-  kin_score: 52.5
+  kin_score: 51.1
   mcp: *id009
   name: Lean Technologies
   slug: lean-technologies
@@ -495,7 +495,7 @@ providers:
   tags: *id010
   url: /providers/lean-technologies/
 - agent_band: agent-native
-  agent_readiness: 44.2
+  agent_readiness: 43.3
   band: strong
   in_catalog: true
   kin_score: 57.3
@@ -506,10 +506,10 @@ providers:
   tags: *id012
   url: /providers/mastercard/
 - agent_band: agent-aware
-  agent_readiness: 26.7
-  band: strong
+  agent_readiness: 26.6
+  band: exemplar
   in_catalog: true
-  kin_score: 65.0
+  kin_score: 66.7
   mcp: *id013
   name: MX
   slug: mx-technologies
@@ -517,10 +517,10 @@ providers:
   tags: *id014
   url: /providers/mx-technologies/
 - agent_band: agent-native
-  agent_readiness: 52.1
+  agent_readiness: 51.1
   band: exemplar
   in_catalog: true
-  kin_score: 83.4
+  kin_score: 86.3
   mcp: *id015
   name: Plaid
   slug: plaid
@@ -528,10 +528,10 @@ providers:
   tags: *id016
   url: /providers/plaid/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 28.1
+  kin_score: 27.1
   mcp: *id017
   name: REVIEWS.io
   slug: reviews-io
@@ -539,10 +539,10 @@ providers:
   tags: *id018
   url: /providers/reviews-io/
 - agent_band: agent-aware
-  agent_readiness: 22.4
-  band: thin
+  agent_readiness: 21.9
+  band: emerging
   in_catalog: true
-  kin_score: 26.9
+  kin_score: 26.1
   mcp: *id019
   name: Salt Edge
   slug: salt-edge
@@ -550,10 +550,10 @@ providers:
   tags: *id020
   url: /providers/salt-edge/
 - agent_band: agent-ready
-  agent_readiness: 53.2
-  band: developing
+  agent_readiness: 46.1
+  band: strong
   in_catalog: true
-  kin_score: 50.5
+  kin_score: 59.0
   mcp: *id021
   name: SnapTrade
   slug: snaptrade
@@ -561,10 +561,10 @@ providers:
   tags: *id022
   url: /providers/snaptrade/
 - agent_band: agent-aware
-  agent_readiness: 21.0
+  agent_readiness: 20.6
   band: thin
   in_catalog: true
-  kin_score: 31.1
+  kin_score: 30.4
   mcp: *id023
   name: Yodlee
   slug: yodlee

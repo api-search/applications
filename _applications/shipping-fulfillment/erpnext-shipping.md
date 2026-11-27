@@ -41,7 +41,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 16.2
+    kin_score: 20.6
     mcp: &id001
       status: none
     slug: letmeship
@@ -68,10 +68,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.8
-    band: exemplar
+    agent_readiness: 48.2
+    band: strong
     in_catalog: true
-    kin_score: 68.9
+    kin_score: 65.6
     mcp: &id003
       status: none
     slug: sendcloud
@@ -99,7 +99,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 16.2
+  kin_score: 20.6
   mcp: *id001
   name: LetMeShip
   slug: letmeship
@@ -107,10 +107,10 @@ providers:
   tags: *id002
   url: /providers/letmeship/
 - agent_band: agent-ready
-  agent_readiness: 48.8
-  band: exemplar
+  agent_readiness: 48.2
+  band: strong
   in_catalog: true
-  kin_score: 68.9
+  kin_score: 65.6
   mcp: *id003
   name: Sendcloud
   slug: sendcloud

@@ -35,10 +35,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id001
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -64,10 +64,10 @@ noindex: false
 permalink: /applications/personal-dashboard-homelab/casaos/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id001
   name: GitHub
   slug: github

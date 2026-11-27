@@ -368,10 +368,10 @@ apps:
     source: https://bloomerang.com/integrations/
     tier: declared
   - capability:
-      attribution: API Evangelist extension
-      id: AE-914
-      key: AE-914
-      name: Social Listening & Analytics
+      attribution: Turbo EA
+      id: BC-400.60.40
+      key: BC-400.60.40
+      name: Social Media Management
       url: /capabilities/digital-marketing-management/
       via_parent: Digital Marketing Management
     credit: null
@@ -536,12 +536,12 @@ apps:
     source: https://bloomerang.com/integrations/
     tier: declared
   - capability:
-      attribution: API Evangelist extension
-      id: AE-160.30
-      key: AE-160.30
-      name: Identity Verification
-      url: /capabilities/identity-verification/
-      via_parent: null
+      attribution: Turbo EA
+      id: BC-300.10.20
+      key: BC-300.10.20
+      name: Candidate Screening and Selection
+      url: /capabilities/talent-acquisition-management/
+      via_parent: Talent Acquisition Management
     credit: null
     layer: domain
     name: Verified First
@@ -2604,13 +2604,13 @@ needs:
   layer: common
   why: merchandise sales tied to donors
 - capability:
-    attribution: API Evangelist extension
-    id: AE-914
-    key: AE-914
-    name: Social Listening & Analytics
+    attribution: Turbo EA
+    id: BC-400.60.40
+    key: BC-400.60.40
+    name: Social Media Management
     url: /capabilities/digital-marketing-management/
     via_parent: Digital Marketing Management
-  fit: nearest
+  fit: exact
   layer: common
   why: social post scheduling
 - capability:
@@ -2834,12 +2834,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.9
+      agent_readiness: 58.7
       apps:
       - Little Green Light
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 68.2
       mcp:
         status: none
       name: Givebutter
@@ -2854,34 +2854,13 @@ stack:
       - Non-Profit
       tier: declared
       url: /providers/givebutter/
-    - agent_band: agent-ready
-      agent_readiness: 39.7
-      apps:
-      - Little Green Light
-      band: thin
-      in_catalog: true
-      kin_score: 29.7
-      mcp:
-        status: none
-      name: Donorbox
-      slug: donorbox
-      sources:
-      - https://www.littlegreenlight.com/integrations/
-      status: profiled
-      tags:
-      - Donations
-      - Fundraising
-      - Non-Profit
-      - Payments
-      tier: declared
-      url: /providers/donorbox/
     - agent_band: agent-aware
-      agent_readiness: 8.6
+      agent_readiness: 5.6
       apps:
       - DonorPerfect
       band: thin
       in_catalog: true
-      kin_score: 28.3
+      kin_score: 38.4
       mcp:
         status: none
       name: Givecloud
@@ -2896,13 +2875,76 @@ stack:
       - Software-as-a-Service
       tier: declared
       url: /providers/givecloud/
-    - agent_band: agent-ready
-      agent_readiness: 48.0
+    - agent_band: human-only
+      agent_readiness: 0.0
       apps:
       - Little Green Light
       band: thin
       in_catalog: true
-      kin_score: 27.5
+      kin_score: 33.1
+      mcp:
+        status: none
+      name: Give Lively
+      slug: give-lively
+      sources:
+      - https://www.littlegreenlight.com/integrations/
+      status: profiled
+      tags:
+      - Free
+      - Fundraising
+      - Non-Profit
+      - Platform
+      tier: declared
+      url: /providers/give-lively/
+    - agent_band: agent-ready
+      agent_readiness: 38.9
+      apps:
+      - Little Green Light
+      band: thin
+      in_catalog: true
+      kin_score: 30.7
+      mcp:
+        status: none
+      name: Donorbox
+      slug: donorbox
+      sources:
+      - https://www.littlegreenlight.com/integrations/
+      status: profiled
+      tags:
+      - Donations
+      - Fundraising
+      - Non-Profit
+      - Payments
+      tier: declared
+      url: /providers/donorbox/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Little Green Light
+      band: thin
+      in_catalog: true
+      kin_score: 28.2
+      mcp:
+        status: unknown
+      name: Rally Up
+      slug: rallyup
+      sources:
+      - https://www.littlegreenlight.com/integrations/
+      status: profiled
+      tags:
+      - Company
+      - Fundraising
+      - Non-Profit
+      - Software-as-a-Service
+      tier: declared
+      url: /providers/rallyup/
+    - agent_band: agent-ready
+      agent_readiness: 49.0
+      apps:
+      - Little Green Light
+      band: thin
+      in_catalog: true
+      kin_score: 27.1
       mcp:
         status: none
       name: Fundraise Up
@@ -2918,33 +2960,12 @@ stack:
       tier: declared
       url: /providers/fundraiseup/
     - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Little Green Light
-      band: emerging
-      in_catalog: true
-      kin_score: 20.9
-      mcp:
-        status: unknown
-      name: Rally Up
-      slug: rallyup
-      sources:
-      - https://www.littlegreenlight.com/integrations/
-      status: profiled
-      tags:
-      - Company
-      - Fundraising
-      - Non-Profit
-      - Software-as-a-Service
-      tier: declared
-      url: /providers/rallyup/
-    - agent_band: human-only
       agent_readiness: 2.5
       apps:
       - DonorPerfect
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.0
+      kin_score: 27.1
       mcp:
         status: unknown
       name: ReadySetAuction
@@ -2959,34 +2980,13 @@ stack:
       - Online Auction
       tier: declared
       url: /providers/readysetauction/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Little Green Light
-      band: emerging
-      in_catalog: true
-      kin_score: 19.8
-      mcp:
-        status: none
-      name: Give Lively
-      slug: give-lively
-      sources:
-      - https://www.littlegreenlight.com/integrations/
-      status: profiled
-      tags:
-      - Free
-      - Fundraising
-      - Non-Profit
-      - Platform
-      tier: declared
-      url: /providers/give-lively/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 18.3
       apps:
       - Little Green Light
       band: emerging
       in_catalog: true
-      kin_score: 18.4
+      kin_score: 24.6
       mcp:
         status: none
       name: Auctria
@@ -3004,31 +3004,10 @@ stack:
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
-      - Little Green Light
-      band: emerging
-      in_catalog: true
-      kin_score: 11.7
-      mcp:
-        status: none
-      name: Harness (nonprofit giving app)
-      slug: harness-giving
-      sources:
-      - https://www.littlegreenlight.com/integrations/
-      status: profiled
-      tags:
-      - Company
-      - Giving
-      - Non-Profit
-      - Recurring Payments
-      tier: declared
-      url: /providers/harness-giving/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
       - DonorPerfect
       band: emerging
       in_catalog: true
-      kin_score: 11.7
+      kin_score: 20.8
       mcp:
         status: unknown
       name: ShopRaise
@@ -3046,10 +3025,31 @@ stack:
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
-      - Neon CRM
-      band: minimal
+      - Little Green Light
+      band: emerging
       in_catalog: true
-      kin_score: 10.6
+      kin_score: 19.5
+      mcp:
+        status: none
+      name: Harness (nonprofit giving app)
+      slug: harness-giving
+      sources:
+      - https://www.littlegreenlight.com/integrations/
+      status: profiled
+      tags:
+      - Company
+      - Giving
+      - Non-Profit
+      - Recurring Payments
+      tier: declared
+      url: /providers/harness-giving/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Neon CRM
+      band: emerging
+      in_catalog: true
+      kin_score: 15.8
       mcp:
         status: unknown
       name: Nuclavis
@@ -3065,12 +3065,12 @@ stack:
       tier: declared
       url: /providers/nuclavis/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.1
       apps:
       - Neon CRM
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 13.8
       mcp:
         status: none
       name: ClickBid
@@ -3091,28 +3091,7 @@ stack:
       - Neon CRM
       band: minimal
       in_catalog: true
-      kin_score: 6.6
-      mcp:
-        status: none
-      name: Grassroots Unwired
-      slug: grassroots-unwired
-      sources:
-      - https://www.neonone.com/integrations/
-      status: profiled
-      tags:
-      - Company
-      - Fundraising
-      - Non-Profit
-      - Political Campaigns
-      tier: declared
-      url: /providers/grassroots-unwired/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Neon CRM
-      band: minimal
-      in_catalog: true
-      kin_score: 6.2
+      kin_score: 10.1
       mcp:
         status: unknown
       name: GivBee
@@ -3127,6 +3106,27 @@ stack:
       - SMS
       tier: declared
       url: /providers/givbee/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Neon CRM
+      band: minimal
+      in_catalog: true
+      kin_score: 6.2
+      mcp:
+        status: none
+      name: Grassroots Unwired
+      slug: grassroots-unwired
+      sources:
+      - https://www.neonone.com/integrations/
+      status: profiled
+      tags:
+      - Company
+      - Fundraising
+      - Non-Profit
+      - Political Campaigns
+      tier: declared
+      url: /providers/grassroots-unwired/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -3170,7 +3170,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Bloomerang
       - CiviCRM
@@ -3179,7 +3179,7 @@ stack:
       - Little Green Light
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -3198,14 +3198,14 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Bloomerang
       - Givebutter
       - Little Green Light
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3224,13 +3224,13 @@ stack:
       tier: declared
       url: /providers/stripe/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - Bloomerang
       - Little Green Light
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp:
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -3248,12 +3248,12 @@ stack:
       tier: declared
       url: /providers/square/
     - agent_band: agent-aware
-      agent_readiness: 5.4
+      agent_readiness: 5.3
       apps:
       - CiviCRM
       band: developing
       in_catalog: true
-      kin_score: 49.0
+      kin_score: 46.6
       mcp:
         status: none
       name: eWAY
@@ -3268,35 +3268,13 @@ stack:
       - Payments
       tier: observed
       url: /providers/eway/
-    - agent_band: agent-aware
-      agent_readiness: 25.9
-      apps:
-      - CiviCRM
-      band: thin
-      in_catalog: true
-      kin_score: 36.4
-      mcp:
-        source: https://github.com/AuthorizeNet/authorize-net-mcp
-        status: verified
-      name: Authorize.net
-      slug: authorizenet
-      sources:
-      - https://github.com/civicrm/civicrm-core/tree/master/CRM/Core/Payment
-      status: profiled
-      tags:
-      - Company
-      - Credit Cards
-      - Payment Gateway
-      - Payments
-      tier: observed
-      url: /providers/authorizenet/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - CiviCRM
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 37.3
       mcp:
         status: none
       name: PayJunction
@@ -3312,34 +3290,34 @@ stack:
       tier: observed
       url: /providers/payjunction/
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 25.4
       apps:
       - CiviCRM
       band: thin
       in_catalog: true
-      kin_score: 27.2
+      kin_score: 35.5
       mcp:
-        source: https://github.com/globalpayments/mcp-server
+        source: https://github.com/AuthorizeNet/authorize-net-mcp
         status: verified
-      name: Realex Payments (Global Payments)
-      slug: global-payments
+      name: Authorize.net
+      slug: authorizenet
       sources:
       - https://github.com/civicrm/civicrm-core/tree/master/CRM/Core/Payment
       status: profiled
       tags:
-      - E-Commerce
-      - Payment Processing
-      - Payment Technology
+      - Company
+      - Credit Cards
+      - Payment Gateway
       - Payments
       tier: observed
-      url: /providers/global-payments/
+      url: /providers/authorizenet/
     - agent_band: agent-ready
-      agent_readiness: 32.4
+      agent_readiness: 31.7
       apps:
       - CiviCRM
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.9
+      kin_score: 30.1
       mcp:
         status: none
       name: Elavon
@@ -3355,12 +3333,34 @@ stack:
       tier: observed
       url: /providers/elavon/
     - agent_band: agent-aware
-      agent_readiness: 7.1
+      agent_readiness: 22.0
+      apps:
+      - CiviCRM
+      band: thin
+      in_catalog: true
+      kin_score: 26.5
+      mcp:
+        source: https://github.com/globalpayments/mcp-server
+        status: verified
+      name: Realex Payments (Global Payments)
+      slug: global-payments
+      sources:
+      - https://github.com/civicrm/civicrm-core/tree/master/CRM/Core/Payment
+      status: profiled
+      tags:
+      - E-Commerce
+      - Payment Processing
+      - Payment Technology
+      - Payments
+      tier: observed
+      url: /providers/global-payments/
+    - agent_band: agent-aware
+      agent_readiness: 7.0
       apps:
       - CiviCRM
       band: emerging
       in_catalog: true
-      kin_score: 16.7
+      kin_score: 15.8
       mcp:
         status: none
       name: First Data
@@ -3390,9 +3390,9 @@ stack:
       - DonorPerfect
       - Givebutter
       - Little Green Light
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.1
+      kin_score: 16.1
       mcp:
         status: none
       name: DonorSearch
@@ -3410,12 +3410,12 @@ stack:
       tier: declared
       url: /providers/donorsearch/
     - agent_band: agent-ready
-      agent_readiness: 31.5
+      agent_readiness: 30.8
       apps:
       - Neon CRM
       band: developing
       in_catalog: true
-      kin_score: 51.8
+      kin_score: 53.8
       mcp:
         status: none
       name: Windfall Data
@@ -3431,12 +3431,12 @@ stack:
       tier: declared
       url: /providers/windfall/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 2.8
       apps:
       - DonorPerfect
       band: emerging
       in_catalog: true
-      kin_score: 17.2
+      kin_score: 24.3
       mcp:
         status: unknown
       name: Kindsight
@@ -3452,12 +3452,12 @@ stack:
       tier: declared
       url: /providers/kindsight/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Little Green Light
       band: emerging
       in_catalog: true
-      kin_score: 14.4
+      kin_score: 22.3
       mcp:
         status: none
       name: Wealth Engine
@@ -3498,13 +3498,13 @@ stack:
       via_parent: Consumer Payment Options
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 39.7
       apps:
       - Bloomerang
       - Givebutter
       band: strong
       in_catalog: true
-      kin_score: 66.2
+      kin_score: 65.2
       mcp:
         status: none
       name: Google Pay
@@ -3521,13 +3521,13 @@ stack:
       tier: declared
       url: /providers/google-pay/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.4
       apps:
       - Bloomerang
       - Givebutter
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 43.0
       mcp:
         status: none
       name: Apple Pay
@@ -3544,13 +3544,13 @@ stack:
       tier: declared
       url: /providers/apple-pay/
     - agent_band: human-only
-      agent_readiness: 3.9
+      agent_readiness: 3.8
       apps:
       - Bloomerang
       - Givebutter
       band: thin
       in_catalog: true
-      kin_score: 29.9
+      kin_score: 29.8
       mcp:
         status: none
       name: Venmo
@@ -3567,12 +3567,12 @@ stack:
       tier: declared
       url: /providers/venmo/
     - agent_band: agent-native
-      agent_readiness: 41.3
+      agent_readiness: 40.8
       apps:
       - Givebutter
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.8
+      kin_score: 68.0
       mcp:
         status: none
       name: Cash App
@@ -3602,7 +3602,7 @@ stack:
       - Givebutter
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: POINT
@@ -3616,12 +3616,33 @@ stack:
       tier: declared
       url: /providers/point-app/
     - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - DonorPerfect
+      band: emerging
+      in_catalog: true
+      kin_score: 25.7
+      mcp:
+        status: unknown
+      name: Volunteer Matrix
+      slug: volunteer-matrix
+      sources:
+      - https://www.donorperfect.com/integrations/
+      status: profiled
+      tags:
+      - Community
+      - Non-Profit
+      - Software-as-a-Service
+      - Volunteer Management
+      tier: declared
+      url: /providers/volunteer-matrix/
+    - agent_band: human-only
       agent_readiness: 2.5
       apps:
       - Givebutter
       band: emerging
       in_catalog: true
-      kin_score: 19.7
+      kin_score: 25.1
       mcp:
         status: none
       name: VolunteerHub
@@ -3639,31 +3660,10 @@ stack:
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
-      - DonorPerfect
-      band: emerging
-      in_catalog: true
-      kin_score: 19.0
-      mcp:
-        status: unknown
-      name: Volunteer Matrix
-      slug: volunteer-matrix
-      sources:
-      - https://www.donorperfect.com/integrations/
-      status: profiled
-      tags:
-      - Community
-      - Non-Profit
-      - Software-as-a-Service
-      - Volunteer Management
-      tier: declared
-      url: /providers/volunteer-matrix/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
       - Neon CRM
       band: emerging
       in_catalog: true
-      kin_score: 18.1
+      kin_score: 24.1
       mcp:
         status: unknown
       name: VolunteerLocal
@@ -3679,12 +3679,12 @@ stack:
       tier: declared
       url: /providers/volunteerlocal/
     - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 10.6
       apps:
       - DonorPerfect
       band: emerging
       in_catalog: true
-      kin_score: 16.6
+      kin_score: 21.3
       mcp:
         status: unknown
       name: SignUp.com
@@ -3700,12 +3700,12 @@ stack:
       tier: declared
       url: /providers/signup-com/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Little Green Light
       band: emerging
       in_catalog: true
-      kin_score: 15.8
+      kin_score: 17.8
       mcp:
         status: none
       name: Civic Champs
@@ -3729,13 +3729,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Bloomerang
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -3753,12 +3753,12 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -3775,12 +3775,12 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 32.2
+      agent_readiness: 31.6
       apps:
       - Givebutter
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 39.3
+      kin_score: 55.3
       mcp:
         status: none
       name: Raiser's Edge NXT
@@ -3796,12 +3796,12 @@ stack:
       tier: declared
       url: /providers/blackbaud/
     - agent_band: agent-aware
-      agent_readiness: 22.6
+      agent_readiness: 22.7
       apps:
       - Givebutter
       band: thin
       in_catalog: true
-      kin_score: 30.6
+      kin_score: 30.0
       mcp:
         status: none
       name: Bloomerang
@@ -3820,9 +3820,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Givebutter
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.5
+      kin_score: 28.6
       mcp:
         status: unknown
       name: Little Green Light
@@ -3846,7 +3846,7 @@ stack:
       via_parent: Company & Contact Data
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - DonorPerfect
       - Givebutter
@@ -3854,7 +3854,7 @@ stack:
       - Neon CRM
       band: emerging
       in_catalog: true
-      kin_score: 15.8
+      kin_score: 25.6
       mcp:
         status: unknown
       name: Double the Donation
@@ -3879,15 +3879,15 @@ stack:
       url: /capabilities/gift-pledge-administration/
       via_parent: Gift & Pledge Administration
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 53.7
+    - agent_band: agent-native
+      agent_readiness: 61.6
       apps:
       - DonorPerfect
       - Givebutter
       - Neon CRM
       band: strong
       in_catalog: true
-      kin_score: 58.5
+      kin_score: 59.5
       mcp:
         status: none
       name: Chariot
@@ -3910,7 +3910,7 @@ stack:
       - DonorPerfect
       band: emerging
       in_catalog: true
-      kin_score: 13.0
+      kin_score: 18.5
       mcp:
         status: unknown
       name: DonateStock
@@ -3933,13 +3933,13 @@ stack:
       url: /capabilities/geocoding/
       via_parent: Geocoding
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-native
+      agent_readiness: 51.8
       apps:
       - CiviCRM
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 52.0
       mcp:
         status: none
       name: USPS Address API
@@ -3955,12 +3955,12 @@ stack:
       tier: observed
       url: /providers/usps/
     - agent_band: agent-aware
-      agent_readiness: 19.3
+      agent_readiness: 24.3
       apps:
       - Little Green Light
       band: thin
       in_catalog: true
-      kin_score: 38.9
+      kin_score: 37.1
       mcp:
         source: https://www.smarty.com/docs/mcp
         status: verified
@@ -3982,7 +3982,7 @@ stack:
       - DonorPerfect
       band: emerging
       in_catalog: true
-      kin_score: 12.6
+      kin_score: 22.8
       mcp:
         status: unknown
       name: USgeocoder
@@ -4006,12 +4006,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Neon CRM
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.8
+      kin_score: 41.6
       mcp:
         status: none
       name: Eventbrite
@@ -4027,12 +4027,12 @@ stack:
       tier: declared
       url: /providers/eventbrite/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - DonorPerfect
       band: emerging
       in_catalog: true
-      kin_score: 17.3
+      kin_score: 23.7
       mcp:
         status: unknown
       name: SimpleTix
@@ -4048,12 +4048,12 @@ stack:
       tier: declared
       url: /providers/simpletix/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.1
       apps:
       - DonorPerfect
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 13.0
       mcp:
         status: unknown
       name: Agile Ticketing
@@ -4077,13 +4077,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 13.7
+      agent_readiness: 10.6
       apps:
       - Bloomerang
       - Givebutter
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.7
+      kin_score: 29.1
       mcp:
         status: none
       name: Amilia
@@ -4105,7 +4105,7 @@ stack:
       - Little Green Light
       band: emerging
       in_catalog: true
-      kin_score: 16.1
+      kin_score: 17.5
       mcp:
         status: none
       name: CourseStorm
@@ -4132,9 +4132,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Neon CRM
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 14.2
       mcp:
         status: unknown
       name: Ujoin Advocacy
@@ -4155,7 +4155,7 @@ stack:
       - DonorPerfect
       band: minimal
       in_catalog: true
-      kin_score: 4.3
+      kin_score: 3.4
       mcp:
         status: unknown
       name: Congress Plus
@@ -4179,12 +4179,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.3
+      agent_readiness: 34.6
       apps:
       - DonorPerfect
       band: thin
       in_catalog: true
-      kin_score: 28.2
+      kin_score: 30.4
       mcp:
         status: unknown
       name: Scribe Handwritten
@@ -4205,7 +4205,7 @@ stack:
       - DonorPerfect
       band: emerging
       in_catalog: true
-      kin_score: 17.7
+      kin_score: 24.1
       mcp:
         status: none
       name: PostcardMania
@@ -4234,7 +4234,7 @@ stack:
       - Neon CRM
       band: emerging
       in_catalog: true
-      kin_score: 19.9
+      kin_score: 22.5
       mcp:
         status: none
       name: Cuseum
@@ -4268,48 +4268,19 @@ stack:
       url: null
   - capability:
       attribution: Turbo EA
-      id: BC-3260
-      key: government-grants-funding-management
-      name: Government Grants & Funding Management
-      url: /capabilities/government-grants-funding-management/
-      via_parent: null
-    providers:
-    - agent_band: agent-ready
-      agent_readiness: 53.0
-      apps:
-      - Bloomerang
-      band: strong
-      in_catalog: true
-      kin_score: 58.7
-      mcp:
-        status: unknown
-      name: GOOD Grants
-      slug: good-grants
-      sources:
-      - https://bloomerang.com/integrations/
-      status: profiled
-      tags:
-      - Company
-      - Grants
-      - Non-Profit
-      - Software-as-a-Service
-      tier: declared
-      url: /providers/good-grants/
-  - capability:
-      attribution: API Evangelist extension
-      id: AE-160.30
-      key: AE-160.30
-      name: Identity Verification
-      url: /capabilities/identity-verification/
-      via_parent: null
+      id: BC-300.10.20
+      key: BC-300.10.20
+      name: Candidate Screening and Selection
+      url: /capabilities/talent-acquisition-management/
+      via_parent: Talent Acquisition Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 18.3
       apps:
       - Bloomerang
       band: emerging
       in_catalog: true
-      kin_score: 19.8
+      kin_score: 24.7
       mcp:
         status: none
       name: Verified First
@@ -4324,6 +4295,35 @@ stack:
       - Verification
       tier: declared
       url: /providers/verified-first/
+  - capability:
+      attribution: Turbo EA
+      id: BC-3260
+      key: government-grants-funding-management
+      name: Government Grants & Funding Management
+      url: /capabilities/government-grants-funding-management/
+      via_parent: null
+    providers:
+    - agent_band: agent-ready
+      agent_readiness: 53.6
+      apps:
+      - Bloomerang
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.3
+      mcp:
+        status: unknown
+      name: GOOD Grants
+      slug: good-grants
+      sources:
+      - https://bloomerang.com/integrations/
+      status: profiled
+      tags:
+      - Company
+      - Grants
+      - Non-Profit
+      - Software-as-a-Service
+      tier: declared
+      url: /providers/good-grants/
   layer: domain
 - capabilities:
   - capability:
@@ -4335,7 +4335,7 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Bloomerang
       - DonorPerfect
@@ -4344,7 +4344,7 @@ stack:
       - Neon CRM
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -4362,7 +4362,7 @@ stack:
       tier: declared
       url: /providers/mailchimp/
     - agent_band: agent-ready
-      agent_readiness: 32.1
+      agent_readiness: 31.4
       apps:
       - Bloomerang
       - DonorPerfect
@@ -4371,7 +4371,7 @@ stack:
       - Neon CRM
       band: exemplar
       in_catalog: true
-      kin_score: 70.9
+      kin_score: 67.7
       mcp:
         status: none
       name: Constant Contact
@@ -4389,12 +4389,12 @@ stack:
       tier: declared
       url: /providers/constant-contact/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 21.5
       apps:
       - Bloomerang
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 21.2
+      kin_score: 27.3
       mcp:
         status: none
       name: Emma
@@ -4417,8 +4417,8 @@ stack:
       url: /capabilities/general-ledger-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Bloomerang
       - DonorPerfect
@@ -4427,7 +4427,7 @@ stack:
       - Neon CRM
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -4446,13 +4446,13 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-aware
-      agent_readiness: 15.5
+      agent_readiness: 15.1
       apps:
       - DonorPerfect
       - Givebutter
       band: thin
       in_catalog: true
-      kin_score: 26.3
+      kin_score: 26.5
       mcp:
         status: none
       name: Sage Intacct Fundraising
@@ -4469,12 +4469,12 @@ stack:
       tier: declared
       url: /providers/sage-intacct/
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -4494,9 +4494,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Neon CRM
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.9
+      kin_score: 12.8
       mcp:
         status: unknown
       name: Cougar Mountain Software
@@ -4520,13 +4520,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.9
+      agent_readiness: 38.6
       apps:
       - Bloomerang
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 69.0
+      kin_score: 67.8
       mcp:
         status: none
       name: Instagram
@@ -4543,13 +4543,13 @@ stack:
       tier: declared
       url: /providers/instagram/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Bloomerang
       - Givebutter
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -4566,12 +4566,12 @@ stack:
       tier: declared
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn
@@ -4587,12 +4587,12 @@ stack:
       tier: declared
       url: /providers/linkedin/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -4609,12 +4609,12 @@ stack:
       tier: declared
       url: /providers/x/
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - Givebutter
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube
@@ -4630,12 +4630,12 @@ stack:
       tier: declared
       url: /providers/youtube/
     - agent_band: agent-ready
-      agent_readiness: 32.2
+      agent_readiness: 36.9
       apps:
       - Givebutter
       band: developing
       in_catalog: true
-      kin_score: 50.5
+      kin_score: 48.2
       mcp:
         status: none
       name: Twitch
@@ -4659,7 +4659,7 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Bloomerang
       - Givebutter
@@ -4667,7 +4667,7 @@ stack:
       - Neon CRM
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -4691,7 +4691,7 @@ stack:
       - Givebutter
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 32.2
       mcp:
         source: https://github.com/mondaycom/mcp
         status: verified
@@ -4733,12 +4733,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 49.5
+      agent_readiness: 48.5
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 69.9
+      kin_score: 68.7
       mcp:
         status: none
       name: Squarespace
@@ -4754,12 +4754,12 @@ stack:
       tier: declared
       url: /providers/squarespace/
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 31.9
       apps:
       - Givebutter
       band: developing
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 46.6
       mcp:
         source: https://github.com/WordPress/mcp-adapter
         status: verified
@@ -4776,12 +4776,12 @@ stack:
       tier: declared
       url: /providers/wordpress/
     - agent_band: agent-ready
-      agent_readiness: 48.2
+      agent_readiness: 47.2
       apps:
       - Givebutter
       band: thin
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 35.5
       mcp:
         source: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
         status: verified
@@ -4798,12 +4798,12 @@ stack:
       tier: declared
       url: /providers/wix/
     - agent_band: agent-ready
-      agent_readiness: 36.7
+      agent_readiness: 36.4
       apps:
       - Givebutter
       band: thin
       in_catalog: true
-      kin_score: 31.7
+      kin_score: 30.4
       mcp:
         source: https://developer.godaddy.com/mcp
         status: verified
@@ -4820,12 +4820,12 @@ stack:
       tier: declared
       url: /providers/godaddy/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - Givebutter
       band: emerging
       in_catalog: true
-      kin_score: 22.2
+      kin_score: 20.3
       mcp:
         status: none
       name: Weebly
@@ -4848,37 +4848,14 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 22.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Bloomerang
       - Givebutter
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 52.1
-      mcp:
-        status: none
-      name: AddEvent
-      slug: addevent
-      sources:
-      - https://bloomerang.com/integrations/
-      - https://givebutter.com/integrations
-      status: profiled
-      tags:
-      - Calendar
-      - Integration
-      - Marketing
-      - Software-as-a-Service
-      tier: declared
-      url: /providers/addevent/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - Bloomerang
-      - Givebutter
-      band: developing
-      in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -4895,6 +4872,29 @@ stack:
       - Google
       tier: declared
       url: /providers/google-gmail/
+    - agent_band: agent-aware
+      agent_readiness: 26.8
+      apps:
+      - Bloomerang
+      - Givebutter
+      band: strong
+      in_catalog: true
+      kin_score: 65.2
+      mcp:
+        status: none
+      name: AddEvent
+      slug: addevent
+      sources:
+      - https://bloomerang.com/integrations/
+      - https://givebutter.com/integrations
+      status: profiled
+      tags:
+      - Calendar
+      - Integration
+      - Marketing
+      - Software-as-a-Service
+      tier: declared
+      url: /providers/addevent/
   - capability:
       attribution: API Evangelist extension
       id: AE-921
@@ -4904,12 +4904,12 @@ stack:
       via_parent: Customer Feedback Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.6
+      agent_readiness: 47.6
       apps:
       - Little Green Light
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.2
       mcp:
         source: https://github.com/jotform/mcp-server
         status: verified
@@ -4926,12 +4926,12 @@ stack:
       tier: declared
       url: /providers/jotform/
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 21.9
       apps:
       - Little Green Light
       band: strong
       in_catalog: true
-      kin_score: 56.7
+      kin_score: 55.3
       mcp:
         status: none
       name: Wufoo
@@ -4947,12 +4947,12 @@ stack:
       tier: declared
       url: /providers/wufoo/
     - agent_band: agent-ready
-      agent_readiness: 36.1
+      agent_readiness: 35.8
       apps:
       - Little Green Light
       band: developing
       in_catalog: true
-      kin_score: 50.8
+      kin_score: 53.1
       mcp:
         status: none
       name: Google Forms
@@ -4968,12 +4968,12 @@ stack:
       tier: declared
       url: /providers/google-forms/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Little Green Light
       band: thin
       in_catalog: true
-      kin_score: 33.9
+      kin_score: 34.1
       mcp:
         status: none
       name: Gravity Forms
@@ -5003,7 +5003,7 @@ stack:
       - Givebutter
       band: emerging
       in_catalog: true
-      kin_score: 11.3
+      kin_score: 14.8
       mcp:
         status: unknown
       name: ThankView
@@ -5020,12 +5020,12 @@ stack:
       tier: declared
       url: /providers/thankview/
     - agent_band: agent-ready
-      agent_readiness: 48.8
+      agent_readiness: 47.8
       apps:
       - Givebutter
       band: thin
       in_catalog: true
-      kin_score: 38.4
+      kin_score: 37.6
       mcp:
         source: https://developer.vimeo.com/api/mcp-server
         status: documented
@@ -5047,7 +5047,7 @@ stack:
       - DonorPerfect
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 6.8
       mcp:
         status: unknown
       name: CauseVid
@@ -5071,14 +5071,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Bloomerang
       - DonorPerfect
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -5105,13 +5105,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Bloomerang
       - Givebutter
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -5127,12 +5127,12 @@ stack:
       tier: declared
       url: /providers/google-sheets/
     - agent_band: agent-ready
-      agent_readiness: 50.3
+      agent_readiness: 52.3
       apps:
       - Little Green Light
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 68.2
       mcp:
         source: https://github.com/Airtable/airtable-mcp-cli
         status: verified
@@ -5157,12 +5157,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Little Green Light
       band: emerging
       in_catalog: true
-      kin_score: 13.5
+      kin_score: 19.5
       mcp:
         status: none
       name: Fundraising Report Card
@@ -5183,7 +5183,7 @@ stack:
       - DonorPerfect
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.2
       mcp:
         status: unknown
       name: Ravela Insights
@@ -5207,12 +5207,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 10.6
       apps:
       - Givebutter
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.2
+      kin_score: 14.7
       mcp:
         status: none
       name: Celtic Bank
@@ -5253,13 +5253,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 71.4
+      agent_readiness: 70.0
       apps:
       - Bloomerang
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 79.9
+      kin_score: 87.3
       mcp:
         source: https://www.canva.dev/docs/mcp/
         status: verified
@@ -5285,13 +5285,13 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - CiviCRM
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -5317,12 +5317,12 @@ stack:
       via_parent: Storefront Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - Bloomerang
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -5339,12 +5339,12 @@ stack:
       tier: declared
       url: /providers/shopify/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Little Green Light
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 54.6
       mcp:
         source: https://developer.woocommerce.com/docs/features/mcp/
         status: verified
@@ -5369,13 +5369,13 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Bloomerang
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -5401,13 +5401,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Bloomerang
       - Givebutter
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -5433,12 +5433,12 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.9
+      agent_readiness: 26.8
       apps:
       - Givebutter
       band: strong
       in_catalog: true
-      kin_score: 55.6
+      kin_score: 56.0
       mcp:
         status: none
       name: Giphy
@@ -5461,13 +5461,13 @@ stack:
       url: /capabilities/bot-protection-captcha/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - CiviCRM
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Google reCAPTCHA
@@ -5491,12 +5491,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - Givebutter
       band: emerging
       in_catalog: true
-      kin_score: 11.9
+      kin_score: 20.8
       mcp:
         status: unknown
       name: Storyraise
@@ -5519,13 +5519,13 @@ stack:
       url: /capabilities/indirect-tax-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.8
+    - agent_band: agent-ready
+      agent_readiness: 28.8
       apps:
       - Neon CRM
       band: developing
       in_catalog: true
-      kin_score: 49.3
+      kin_score: 47.7
       mcp:
         status: none
       name: TaxJar
@@ -5549,12 +5549,12 @@ stack:
       via_parent: Social Networks & Community
     providers:
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Neon CRM
       band: emerging
       in_catalog: true
-      kin_score: 13.2
+      kin_score: 14.2
       mcp:
         status: none
       name: Higher Logic
@@ -5570,10 +5570,10 @@ stack:
       tier: declared
       url: /providers/higher-logic/
   - capability:
-      attribution: API Evangelist extension
-      id: AE-914
-      key: AE-914
-      name: Social Listening & Analytics
+      attribution: Turbo EA
+      id: BC-400.60.40
+      key: BC-400.60.40
+      name: Social Media Management
       url: /capabilities/digital-marketing-management/
       via_parent: Digital Marketing Management
     providers:
@@ -5583,7 +5583,7 @@ stack:
       - Bloomerang
       band: exemplar
       in_catalog: true
-      kin_score: 72.7
+      kin_score: 72.8
       mcp:
         status: none
       name: Hootsuite
@@ -5607,12 +5607,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp
@@ -5638,12 +5638,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -5660,12 +5660,12 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Givebutter
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -5693,7 +5693,7 @@ summary:
     unchecked: 6
     verified: 28
   mcp_verified: 28
-  mean_kin_score: 39.3
+  mean_kin_score: 42.5
   observed: 10
   queued: 6
   reference_apps: 6

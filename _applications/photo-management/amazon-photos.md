@@ -45,10 +45,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.7
-    band: emerging
+    agent_readiness: 21.9
+    band: thin
     in_catalog: true
-    kin_score: 23.0
+    kin_score: 33.8
     mcp: &id001
       status: none
     slug: branch-io
@@ -72,10 +72,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-native
-    agent_readiness: 66.2
+    agent_readiness: 65.1
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 68.0
     mcp: &id003
       status: none
     slug: moengage
@@ -100,10 +100,10 @@ noindex: false
 permalink: /applications/photo-management/amazon-photos/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 24.7
-  band: emerging
+  agent_readiness: 21.9
+  band: thin
   in_catalog: true
-  kin_score: 23.0
+  kin_score: 33.8
   mcp: *id001
   name: branch-io
   slug: branch-io
@@ -111,10 +111,10 @@ providers:
   tags: *id002
   url: /providers/branch-io/
 - agent_band: agent-native
-  agent_readiness: 66.2
+  agent_readiness: 65.1
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 68.0
   mcp: *id003
   name: moengage
   slug: moengage

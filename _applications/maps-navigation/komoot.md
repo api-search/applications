@@ -58,10 +58,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id002
       status: none
     slug: facebook
@@ -102,22 +102,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id004
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id005
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Crashlytics / Analytics)
   provider: firebase
@@ -137,7 +137,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 21.4
+    kin_score: 20.0
     mcp: &id006
       status: none
     slug: garmin
@@ -164,10 +164,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 27.6
+    agent_readiness: 27.1
     band: developing
     in_catalog: true
-    kin_score: 46.5
+    kin_score: 46.6
     mcp: &id008
       status: none
     slug: wahoo
@@ -192,32 +192,32 @@ noindex: false
 permalink: /applications/maps-navigation/komoot/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id002
   name: Facebook Analytics
   slug: facebook
   status: profiled
   tags: *id003
   url: /providers/facebook/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id004
   name: Firebase (Crashlytics / Analytics)
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id005
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: human-only
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 21.4
+  kin_score: 20.0
   mcp: *id006
   name: Garmin
   slug: garmin
@@ -225,10 +225,10 @@ providers:
   tags: *id007
   url: /providers/garmin/
 - agent_band: agent-aware
-  agent_readiness: 27.6
+  agent_readiness: 27.1
   band: developing
   in_catalog: true
-  kin_score: 46.5
+  kin_score: 46.6
   mcp: *id008
   name: Wahoo Fitness
   slug: wahoo

@@ -64,22 +64,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id002
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id003
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase
   provider: firebase
@@ -111,10 +111,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.9
     band: strong
     in_catalog: true
-    kin_score: 56.1
+    kin_score: 55.6
     mcp: &id004
       source: https://github.com/IABTechLab/agentic-real-time-framework
       status: verified
@@ -142,10 +142,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.1
+    agent_readiness: 16.7
     band: thin
     in_catalog: true
-    kin_score: 35.8
+    kin_score: 33.3
     mcp: &id006
       status: none
     slug: lime
@@ -169,22 +169,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/ride-hailing-mobility/uber/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id002
-  name: Firebase
-  slug: firebase
-  status: profiled
-  tags: *id003
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 56.1
+  kin_score: 62.0
+  mcp: *id002
+  name: Firebase
+  slug: google-firebase
+  status: profiled
+  tags: *id003
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 36.9
+  band: strong
+  in_catalog: true
+  kin_score: 55.6
   mcp: *id004
   name: IAB Tech Lab
   slug: iab-tech-lab
@@ -192,10 +192,10 @@ providers:
   tags: *id005
   url: /providers/iab-tech-lab/
 - agent_band: agent-aware
-  agent_readiness: 17.1
+  agent_readiness: 16.7
   band: thin
   in_catalog: true
-  kin_score: 35.8
+  kin_score: 33.3
   mcp: *id006
   name: Lime
   slug: lime

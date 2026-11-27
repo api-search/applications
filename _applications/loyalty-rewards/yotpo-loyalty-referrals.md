@@ -114,7 +114,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 18.6
+    kin_score: 18.0
     mcp: &id001
       status: none
     slug: adobe-commerce
@@ -141,10 +141,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.8
+    agent_readiness: 35.8
     band: exemplar
     in_catalog: true
-    kin_score: 77.4
+    kin_score: 75.7
     mcp: &id003
       status: none
     slug: attentive
@@ -171,10 +171,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.2
-    band: strong
+    agent_readiness: 32.5
+    band: exemplar
     in_catalog: true
-    kin_score: 65.9
+    kin_score: 67.4
     mcp: &id005
       status: none
     slug: bazaarvoice
@@ -201,10 +201,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 60.5
+    agent_readiness: 56.3
     band: exemplar
     in_catalog: true
-    kin_score: 70.3
+    kin_score: 84.3
     mcp: &id007
       source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
       status: verified
@@ -232,10 +232,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.9
+    agent_readiness: 58.4
     band: exemplar
     in_catalog: true
-    kin_score: 75.2
+    kin_score: 74.4
     mcp: &id009
       source: https://www.braze.com/docs/user_guide/brazeai/mcp_server
       status: verified
@@ -263,10 +263,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 30.3
     band: developing
     in_catalog: true
-    kin_score: 46.4
+    kin_score: 43.6
     mcp: &id011
       status: none
     slug: dixa
@@ -293,10 +293,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.3
     band: developing
     in_catalog: true
-    kin_score: 50.8
+    kin_score: 52.0
     mcp: &id013
       status: none
     slug: gladly
@@ -323,10 +323,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_readiness: 25.3
     band: developing
     in_catalog: true
-    kin_score: 43.6
+    kin_score: 42.5
     mcp: &id015
       source: https://github.com/gorgias/mcp-cookbook
       status: verified
@@ -354,7 +354,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.6
+    agent_readiness: 54.3
     band: strong
     in_catalog: true
     kin_score: 56.1
@@ -384,10 +384,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 54.9
+    agent_readiness: 58.7
     band: exemplar
     in_catalog: true
-    kin_score: 77.6
+    kin_score: 78.1
     mcp: &id019
       source: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
       status: verified
@@ -415,10 +415,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id021
       status: none
     slug: mailchimp
@@ -445,10 +445,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 58.2
+    agent_readiness: 57.0
     band: exemplar
     in_catalog: true
-    kin_score: 76.8
+    kin_score: 74.8
     mcp: &id023
       status: none
     slug: omnisend
@@ -475,10 +475,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.8
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 69.0
+    kin_score: 68.2
     mcp: &id025
       status: unknown
     slug: postscript
@@ -505,10 +505,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.9
+    agent_readiness: 38.0
     band: strong
     in_catalog: true
-    kin_score: 63.7
+    kin_score: 61.4
     mcp: &id027
       status: none
     slug: refersion
@@ -535,10 +535,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.2
+    agent_readiness: 21.7
     band: thin
     in_catalog: true
-    kin_score: 35.1
+    kin_score: 35.0
     mcp: &id029
       source: https://github.com/SalesforceCommerceCloud/b2c-developer-tooling
       status: verified
@@ -566,10 +566,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.8
+    agent_readiness: 52.3
     band: exemplar
     in_catalog: true
-    kin_score: 80.5
+    kin_score: 77.6
     mcp: &id031
       status: none
     slug: salesforce-marketing-cloud
@@ -596,10 +596,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.9
+    agent_readiness: 35.2
     band: exemplar
     in_catalog: true
-    kin_score: 68.3
+    kin_score: 69.3
     mcp: &id033
       status: none
     slug: emarsys
@@ -626,10 +626,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.5
+    agent_readiness: 51.8
     band: exemplar
     in_catalog: true
-    kin_score: 84.6
+    kin_score: 83.8
     mcp: &id035
       source: https://shopify.dev/docs/apps/build/devmcp
       status: verified
@@ -657,10 +657,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 60.0
+    agent_readiness: 58.8
     band: exemplar
     in_catalog: true
-    kin_score: 69.6
+    kin_score: 68.2
     mcp: &id037
       status: none
     slug: triple-whale
@@ -687,10 +687,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.4
-    band: developing
+    agent_readiness: 34.7
+    band: strong
     in_catalog: true
-    kin_score: 50.4
+    kin_score: 54.6
     mcp: &id039
       source: https://developer.woocommerce.com/docs/features/mcp/
       status: verified
@@ -718,10 +718,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.7
     band: exemplar
     in_catalog: true
-    kin_score: 72.8
+    kin_score: 72.4
     mcp: &id041
       status: none
     slug: zendesk
@@ -749,7 +749,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 18.6
+  kin_score: 18.0
   mcp: *id001
   name: Adobe Commerce
   slug: adobe-commerce
@@ -757,10 +757,10 @@ providers:
   tags: *id002
   url: /providers/adobe-commerce/
 - agent_band: agent-ready
-  agent_readiness: 31.8
+  agent_readiness: 35.8
   band: exemplar
   in_catalog: true
-  kin_score: 77.4
+  kin_score: 75.7
   mcp: *id003
   name: Attentive
   slug: attentive
@@ -768,10 +768,10 @@ providers:
   tags: *id004
   url: /providers/attentive/
 - agent_band: agent-ready
-  agent_readiness: 33.2
-  band: strong
+  agent_readiness: 32.5
+  band: exemplar
   in_catalog: true
-  kin_score: 65.9
+  kin_score: 67.4
   mcp: *id005
   name: Bazaarvoice
   slug: bazaarvoice
@@ -779,10 +779,10 @@ providers:
   tags: *id006
   url: /providers/bazaarvoice/
 - agent_band: agent-ready
-  agent_readiness: 60.5
+  agent_readiness: 56.3
   band: exemplar
   in_catalog: true
-  kin_score: 70.3
+  kin_score: 84.3
   mcp: *id007
   name: BigCommerce
   slug: bigcommerce
@@ -790,10 +790,10 @@ providers:
   tags: *id008
   url: /providers/bigcommerce/
 - agent_band: agent-ready
-  agent_readiness: 56.9
+  agent_readiness: 58.4
   band: exemplar
   in_catalog: true
-  kin_score: 75.2
+  kin_score: 74.4
   mcp: *id009
   name: Braze
   slug: braze
@@ -801,10 +801,10 @@ providers:
   tags: *id010
   url: /providers/braze/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 30.3
   band: developing
   in_catalog: true
-  kin_score: 46.4
+  kin_score: 43.6
   mcp: *id011
   name: Dixa
   slug: dixa
@@ -812,10 +812,10 @@ providers:
   tags: *id012
   url: /providers/dixa/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.3
   band: developing
   in_catalog: true
-  kin_score: 50.8
+  kin_score: 52.0
   mcp: *id013
   name: Gladly
   slug: gladly
@@ -823,10 +823,10 @@ providers:
   tags: *id014
   url: /providers/gladly/
 - agent_band: agent-aware
-  agent_readiness: 25.9
+  agent_readiness: 25.3
   band: developing
   in_catalog: true
-  kin_score: 43.6
+  kin_score: 42.5
   mcp: *id015
   name: Gorgias
   slug: gorgias
@@ -834,7 +834,7 @@ providers:
   tags: *id016
   url: /providers/gorgias/
 - agent_band: agent-ready
-  agent_readiness: 52.6
+  agent_readiness: 54.3
   band: strong
   in_catalog: true
   kin_score: 56.1
@@ -845,10 +845,10 @@ providers:
   tags: *id018
   url: /providers/insider/
 - agent_band: agent-native
-  agent_readiness: 54.9
+  agent_readiness: 58.7
   band: exemplar
   in_catalog: true
-  kin_score: 77.6
+  kin_score: 78.1
   mcp: *id019
   name: Klaviyo
   slug: klaviyo
@@ -856,10 +856,10 @@ providers:
   tags: *id020
   url: /providers/klaviyo/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id021
   name: Mailchimp
   slug: mailchimp
@@ -867,10 +867,10 @@ providers:
   tags: *id022
   url: /providers/mailchimp/
 - agent_band: agent-ready
-  agent_readiness: 58.2
+  agent_readiness: 57.0
   band: exemplar
   in_catalog: true
-  kin_score: 76.8
+  kin_score: 74.8
   mcp: *id023
   name: Omnisend
   slug: omnisend
@@ -878,10 +878,10 @@ providers:
   tags: *id024
   url: /providers/omnisend/
 - agent_band: agent-ready
-  agent_readiness: 42.8
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 69.0
+  kin_score: 68.2
   mcp: *id025
   name: Postscript
   slug: postscript
@@ -889,10 +889,10 @@ providers:
   tags: *id026
   url: /providers/postscript/
 - agent_band: agent-ready
-  agent_readiness: 33.9
+  agent_readiness: 38.0
   band: strong
   in_catalog: true
-  kin_score: 63.7
+  kin_score: 61.4
   mcp: *id027
   name: Refersion
   slug: refersion
@@ -900,10 +900,10 @@ providers:
   tags: *id028
   url: /providers/refersion/
 - agent_band: agent-aware
-  agent_readiness: 22.2
+  agent_readiness: 21.7
   band: thin
   in_catalog: true
-  kin_score: 35.1
+  kin_score: 35.0
   mcp: *id029
   name: Salesforce Commerce Cloud
   slug: salesforce-commerce-cloud
@@ -911,10 +911,10 @@ providers:
   tags: *id030
   url: /providers/salesforce-commerce-cloud/
 - agent_band: agent-ready
-  agent_readiness: 56.8
+  agent_readiness: 52.3
   band: exemplar
   in_catalog: true
-  kin_score: 80.5
+  kin_score: 77.6
   mcp: *id031
   name: Salesforce Marketing Cloud
   slug: salesforce-marketing-cloud
@@ -922,10 +922,10 @@ providers:
   tags: *id032
   url: /providers/salesforce-marketing-cloud/
 - agent_band: agent-ready
-  agent_readiness: 35.9
+  agent_readiness: 35.2
   band: exemplar
   in_catalog: true
-  kin_score: 68.3
+  kin_score: 69.3
   mcp: *id033
   name: SAP Emarsys
   slug: emarsys
@@ -933,10 +933,10 @@ providers:
   tags: *id034
   url: /providers/emarsys/
 - agent_band: agent-ready
-  agent_readiness: 52.5
+  agent_readiness: 51.8
   band: exemplar
   in_catalog: true
-  kin_score: 84.6
+  kin_score: 83.8
   mcp: *id035
   name: Shopify
   slug: shopify
@@ -944,10 +944,10 @@ providers:
   tags: *id036
   url: /providers/shopify/
 - agent_band: agent-native
-  agent_readiness: 60.0
+  agent_readiness: 58.8
   band: exemplar
   in_catalog: true
-  kin_score: 69.6
+  kin_score: 68.2
   mcp: *id037
   name: Triple Whale
   slug: triple-whale
@@ -955,10 +955,10 @@ providers:
   tags: *id038
   url: /providers/triple-whale/
 - agent_band: agent-ready
-  agent_readiness: 35.4
-  band: developing
+  agent_readiness: 34.7
+  band: strong
   in_catalog: true
-  kin_score: 50.4
+  kin_score: 54.6
   mcp: *id039
   name: WooCommerce
   slug: woocommerce
@@ -966,10 +966,10 @@ providers:
   tags: *id040
   url: /providers/woocommerce/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.7
   band: exemplar
   in_catalog: true
-  kin_score: 72.8
+  kin_score: 72.4
   mcp: *id041
   name: Zendesk
   slug: zendesk

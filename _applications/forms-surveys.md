@@ -2003,14 +2003,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Jotform
       - SurveyMonkey
       - Typeform
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp: &id003
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2029,13 +2029,13 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Jotform
       - Typeform
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -2053,13 +2053,13 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 45.4
+      agent_readiness: 44.5
       apps:
       - Jotform
       - Typeform
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.1
+      kin_score: 65.0
       mcp:
         status: none
       name: keap
@@ -2076,13 +2076,13 @@ stack:
       tier: declared
       url: /providers/keap/
     - agent_band: agent-ready
-      agent_readiness: 29.3
+      agent_readiness: 28.7
       apps:
       - Jotform
       - Typeform
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 55.3
       mcp:
         status: none
       name: pipedrive
@@ -2099,12 +2099,12 @@ stack:
       tier: declared
       url: /providers/pipedrive/
     - agent_band: agent-ready
-      agent_readiness: 44.2
+      agent_readiness: 43.3
       apps:
       - Jotform
       band: exemplar
       in_catalog: true
-      kin_score: 86.0
+      kin_score: 85.4
       mcp:
         status: none
       name: zoho-crm
@@ -2128,13 +2128,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Typebot
       - Typeform
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook pixel
@@ -2151,13 +2151,13 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 51.0
       apps:
       - Jotform
       - Typeform
       band: exemplar
       in_catalog: true
-      kin_score: 82.0
+      kin_score: 81.1
       mcp:
         source: https://developers.activecampaign.com/page/mcp
         status: documented
@@ -2175,13 +2175,13 @@ stack:
       tier: declared
       url: /providers/activecampaign/
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Jotform
       - Typeform
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: mailchimp
@@ -2198,12 +2198,12 @@ stack:
       tier: declared
       url: /providers/mailchimp/
     - agent_band: agent-native
-      agent_readiness: 54.9
+      agent_readiness: 58.7
       apps:
       - Typeform
       band: exemplar
       in_catalog: true
-      kin_score: 77.6
+      kin_score: 78.1
       mcp:
         source: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
         status: verified
@@ -2220,12 +2220,12 @@ stack:
       tier: declared
       url: /providers/klaviyo/
     - agent_band: agent-ready
-      agent_readiness: 32.1
+      agent_readiness: 31.4
       apps:
       - Jotform
       band: exemplar
       in_catalog: true
-      kin_score: 70.9
+      kin_score: 67.7
       mcp:
         status: none
       name: constant-contact
@@ -2249,14 +2249,14 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Formbricks
       - Jotform
       - Typebot
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: google-sheets
@@ -2273,13 +2273,13 @@ stack:
       tier: observed
       url: /providers/google-sheets/
     - agent_band: agent-ready
-      agent_readiness: 50.3
+      agent_readiness: 52.3
       apps:
       - Formbricks
       - Jotform
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 68.2
       mcp:
         source: https://github.com/Airtable/airtable-mcp-cli
         status: verified
@@ -2301,9 +2301,9 @@ stack:
       apps:
       - Jotform
       - Typeform
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 54.2
+      kin_score: 55.8
       mcp:
         status: none
       name: microsoft-excel
@@ -2320,12 +2320,12 @@ stack:
       tier: declared
       url: /providers/microsoft-excel/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 26.2
       apps:
       - Typebot
       band: developing
       in_catalog: true
-      kin_score: 45.8
+      kin_score: 43.6
       mcp:
         source: https://nocodb.com/docs/product-docs/mcp
         status: verified
@@ -2350,14 +2350,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Formbricks
       - Jotform
       - Typeform
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2376,13 +2376,13 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Jotform
       - Typeform
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: microsoft-teams
@@ -2407,12 +2407,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Jotform
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2429,12 +2429,12 @@ stack:
       tier: declared
       url: /providers/google-drive/
     - agent_band: agent-ready
-      agent_readiness: 57.4
+      agent_readiness: 56.6
       apps:
       - Jotform
       band: strong
       in_catalog: true
-      kin_score: 65.5
+      kin_score: 63.0
       mcp:
         source: https://developer.box.com/guides/box-mcp/
         status: verified
@@ -2451,12 +2451,12 @@ stack:
       tier: declared
       url: /providers/box/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - Jotform
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: microsoft-onedrive
@@ -2472,12 +2472,12 @@ stack:
       tier: declared
       url: /providers/microsoft-onedrive/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Jotform
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -2508,7 +2508,7 @@ stack:
       - Typeform
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 32.2
       mcp:
         source: https://github.com/mondaycom/mcp
         status: verified
@@ -2526,12 +2526,12 @@ stack:
       tier: declared
       url: /providers/monday-com/
     - agent_band: agent-ready
-      agent_readiness: 28.7
+      agent_readiness: 30.8
       apps:
       - Jotform
       band: exemplar
       in_catalog: true
-      kin_score: 75.6
+      kin_score: 74.8
       mcp:
         source: https://github.com/atlassian/trello-mcp-server
         status: verified
@@ -2548,12 +2548,12 @@ stack:
       tier: declared
       url: /providers/trello/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.3
       apps:
       - Jotform
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 72.5
       mcp:
         source: https://developers.asana.com/docs/using-asanas-mcp-server
         status: verified
@@ -2578,13 +2578,13 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Jotform
       - Typebot
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2602,12 +2602,12 @@ stack:
       tier: observed
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 29.5
+      agent_readiness: 28.9
       apps:
       - Typebot
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 54.8
+      kin_score: 53.6
       mcp:
         status: none
       name: pabbly
@@ -2623,12 +2623,12 @@ stack:
       tier: observed
       url: /providers/pabbly/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Typebot
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -2653,12 +2653,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 15.5
+      agent_readiness: 15.7
       apps:
       - Formbricks
       band: emerging
       in_catalog: true
-      kin_score: 21.0
+      kin_score: 20.9
       mcp:
         source: https://cube.dev/docs/product/apis-integrations/mcp-server
         status: verified
@@ -2674,13 +2674,13 @@ stack:
       - Semantic Layer
       tier: observed
       url: /providers/cube/
-    - agent_band: agent-ready
-      agent_readiness: 30.6
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - SurveyMonkey
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 76.0
       mcp:
         source: https://github.com/microsoft/powerbi-modeling-mcp
         status: verified
@@ -2697,12 +2697,12 @@ stack:
       tier: declared
       url: /providers/power-bi/
     - agent_band: agent-ready
-      agent_readiness: 46.3
+      agent_readiness: 55.0
       apps:
       - SurveyMonkey
       band: developing
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 49.9
       mcp:
         source: https://github.com/tableau/tableau-mcp
         status: verified
@@ -2727,12 +2727,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Typebot
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: zendesk
@@ -2748,12 +2748,12 @@ stack:
       tier: observed
       url: /providers/zendesk/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 30.5
       apps:
       - Typebot
       band: developing
       in_catalog: true
-      kin_score: 44.8
+      kin_score: 43.5
       mcp:
         status: none
       name: chatwoot
@@ -2769,12 +2769,12 @@ stack:
       tier: observed
       url: /providers/chatwoot/
     - agent_band: agent-ready
-      agent_readiness: 31.7
+      agent_readiness: 32.5
       apps:
       - Typeform
       band: developing
       in_catalog: true
-      kin_score: 52.5
+      kin_score: 51.0
       mcp:
         source: https://developers.intercom.com/docs/guides/mcp
         status: verified
@@ -2799,13 +2799,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 56.8
       apps:
       - Formbricks
       - Typeform
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.3
       mcp:
         source: https://developers.notion.com/docs/mcp
         status: verified
@@ -2831,12 +2831,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 51.9
+      agent_readiness: 52.2
       apps:
       - Typebot
       band: thin
       in_catalog: true
-      kin_score: 38.2
+      kin_score: 38.4
       mcp:
         source: https://github.com/calcom/cal-mcp
         status: verified
@@ -2853,12 +2853,12 @@ stack:
       tier: observed
       url: /providers/cal-com/
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 47.4
       apps:
       - Typeform
       band: developing
       in_catalog: true
-      kin_score: 45.0
+      kin_score: 47.5
       mcp:
         source: https://developer.calendly.com/calendly-mcp-server
         status: documented
@@ -2883,12 +2883,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 71.4
+      agent_readiness: 70.0
       apps:
       - Jotform
       band: exemplar
       in_catalog: true
-      kin_score: 79.9
+      kin_score: 87.3
       mcp:
         source: https://www.canva.dev/docs/mcp/
         status: verified
@@ -2912,13 +2912,13 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Jotform
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2943,12 +2943,12 @@ stack:
       via_parent: Customer Feedback Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.1
+      agent_readiness: 35.8
       apps:
       - Typeform
       band: developing
       in_catalog: true
-      kin_score: 50.8
+      kin_score: 53.1
       mcp:
         status: none
       name: google-forms
@@ -2972,12 +2972,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.1
+      agent_readiness: 52.6
       apps:
       - Formbricks
       band: developing
       in_catalog: true
-      kin_score: 40.2
+      kin_score: 39.4
       mcp:
         status: none
       name: unsplash
@@ -3001,12 +3001,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Typeform
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: google-tag-manager
@@ -3030,12 +3030,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Jotform
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -3060,12 +3060,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Jotform
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: whatsapp
@@ -3091,14 +3091,14 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - HeyForm
       - Jotform
       - Typebot
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -3117,13 +3117,13 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Jotform
       - Typebot
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -3141,7 +3141,7 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 67.7
+      agent_readiness: 66.6
       apps:
       - Typebot
       band: strong
@@ -3162,13 +3162,13 @@ stack:
       - Search
       tier: observed
       url: /providers/perplexity/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - Typebot
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: mistral
@@ -3184,12 +3184,12 @@ stack:
       tier: observed
       url: /providers/mistral/
     - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 22.4
       apps:
       - Typebot
       band: developing
       in_catalog: true
-      kin_score: 43.3
+      kin_score: 41.2
       mcp:
         status: none
       name: deepseek
@@ -3205,12 +3205,12 @@ stack:
       tier: observed
       url: /providers/deepseek/
     - agent_band: agent-ready
-      agent_readiness: 40.4
+      agent_readiness: 40.0
       apps:
       - Typebot
       band: thin
       in_catalog: true
-      kin_score: 34.6
+      kin_score: 34.4
       mcp:
         source: https://docs.together.ai/docs/mcp
         status: verified
@@ -3227,12 +3227,12 @@ stack:
       tier: observed
       url: /providers/together-ai/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 21.2
       apps:
       - Typebot
       band: thin
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 32.3
       mcp:
         source: https://github.com/groq/groq-mcp-server
         status: verified
@@ -3257,14 +3257,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Formbricks
       - HeyForm
       - Jotform
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3283,12 +3283,12 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - Jotform
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp:
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -3305,12 +3305,12 @@ stack:
       tier: declared
       url: /providers/square/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Jotform
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -3327,12 +3327,12 @@ stack:
       tier: declared
       url: /providers/paypal/
     - agent_band: agent-native
-      agent_readiness: 45.6
+      agent_readiness: 45.1
       apps:
       - Jotform
       band: developing
       in_catalog: true
-      kin_score: 50.7
+      kin_score: 48.9
       mcp:
         status: none
       name: worldpay
@@ -3348,12 +3348,12 @@ stack:
       tier: declared
       url: /providers/worldpay/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - Jotform
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.5
       mcp:
         source: https://github.com/AuthorizeNet/authorize-net-mcp
         status: verified
@@ -3378,13 +3378,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Typebot
       - Typeform
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -3402,13 +3402,13 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Formbricks
       - Typebot
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -3426,12 +3426,34 @@ stack:
       tier: observed
       url: /providers/posthog/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 39.9
       apps:
       - SurveyMonkey
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 62.0
+      mcp: &id001
+        source: https://firebase.google.com/docs/ai-assistance/mcp-server
+        status: verified
+      name: Google Firebase Analytics
+      slug: google-firebase
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.surveymonkey/latest/
+      status: profiled
+      tags: &id002
+      - Analytics
+      - Authentication
+      - Backend-as-a-Service
+      - Cloud Messaging
+      tier: observed
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 47.7
+      apps:
+      - SurveyMonkey
+      band: strong
+      in_catalog: true
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -3448,34 +3470,12 @@ stack:
       tier: observed
       url: /providers/mixpanel/
     - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - SurveyMonkey
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp: &id001
-        source: https://firebase.google.com/docs/ai-assistance/mcp-server
-        status: verified
-      name: Google Firebase Analytics
-      slug: firebase
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.surveymonkey/latest/
-      status: profiled
-      tags: &id002
-      - Application Development
-      - Backend-as-a-Service
-      - Company
-      - Mobile
-      tier: observed
-      url: /providers/firebase/
-    - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Typebot
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: segment
@@ -3498,13 +3498,13 @@ stack:
       url: /capabilities/bot-protection-captcha/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Formbricks
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: google-recaptcha
@@ -3520,12 +3520,12 @@ stack:
       tier: observed
       url: /providers/google-recaptcha/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 24.2
       apps:
       - Formbricks
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 28.8
       mcp:
         source: https://github.com/cloudflare/mcp
         status: verified
@@ -3542,12 +3542,12 @@ stack:
       tier: observed
       url: /providers/cloudflare-turnstile/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - HeyForm
       band: emerging
       in_catalog: true
-      kin_score: 16.5
+      kin_score: 25.6
       mcp:
         status: none
       name: GeeTest
@@ -3587,14 +3587,14 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Formbricks
       - HeyForm
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -3611,12 +3611,12 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Formbricks
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -3640,14 +3640,14 @@ stack:
       url: /capabilities/email/
       via_parent: Email
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - LimeSurvey
       - Typebot
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -3665,12 +3665,12 @@ stack:
       tier: observed
       url: /providers/google-gmail/
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 36.0
       apps:
       - LimeSurvey
       band: strong
       in_catalog: true
-      kin_score: 62.7
+      kin_score: 64.9
       mcp:
         status: none
       name: Microsoft 365 / Exchange Online SMTP
@@ -3693,13 +3693,13 @@ stack:
       url: /capabilities/language-document-understanding/
       via_parent: Language & Document Understanding
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 17.9
+    - agent_band: agent-ready
+      agent_readiness: 33.9
       apps:
       - LimeSurvey
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 51.6
+      kin_score: 68.0
       mcp:
         status: none
       name: google-translate
@@ -3715,12 +3715,12 @@ stack:
       tier: observed
       url: /providers/google-translate/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.8
       apps:
       - Formbricks
       band: thin
       in_catalog: true
-      kin_score: 38.4
+      kin_score: 38.6
       mcp:
         source: https://lingo.dev/en/docs/mcp
         status: verified
@@ -3750,7 +3750,7 @@ stack:
       - Formbricks
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -3766,22 +3766,22 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - SurveyMonkey
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Google CrashLytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.surveymonkey/latest/
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-420.10
@@ -3791,12 +3791,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - SurveyMonkey
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp: *id003
       name: Salesforce Audience Studio (Krux)
       slug: salesforce
@@ -3815,12 +3815,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.8
+      agent_readiness: 52.3
       apps:
       - SurveyMonkey
       band: exemplar
       in_catalog: true
-      kin_score: 80.5
+      kin_score: 77.6
       mcp:
         status: none
       name: Salesforce Marketing Cloud
@@ -3844,12 +3844,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 20.8
       apps:
       - Formbricks
       band: developing
       in_catalog: true
-      kin_score: 46.6
+      kin_score: 44.4
       mcp:
         source: https://github.com/authzed/mcp-server-reference
         status: verified
@@ -3874,12 +3874,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - SurveyMonkey
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3904,12 +3904,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 46.4
       apps:
       - Typebot
       band: strong
       in_catalog: true
-      kin_score: 55.4
+      kin_score: 54.8
       mcp:
         source: https://openrouter.ai/docs/guides/overview/mcp-server
         status: verified
@@ -3933,13 +3933,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - HeyForm
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3964,12 +3964,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Formbricks
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft Entra ID (Azure AD)
@@ -3993,12 +3993,12 @@ stack:
       via_parent: Speech & Voice
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 60.4
       apps:
       - Typebot
       band: exemplar
       in_catalog: true
-      kin_score: 83.0
+      kin_score: 83.2
       mcp:
         source: https://github.com/elevenlabs/elevenlabs-mcp
         status: verified
@@ -4025,12 +4025,12 @@ stack:
       via_parent: Agent-to-Agent Interoperability
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 40.4
       apps:
       - Typebot
       band: exemplar
       in_catalog: true
-      kin_score: 78.4
+      kin_score: 78.8
       mcp:
         source: https://docs.dify.ai/en/guides/application-publishing/publish-mcp
         status: documented
@@ -4058,7 +4058,7 @@ summary:
     unchecked: 1
     verified: 46
   mcp_verified: 46
-  mean_kin_score: 59.9
+  mean_kin_score: 61.4
   observed: 47
   queued: 1
   reference_apps: 7

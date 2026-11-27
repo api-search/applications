@@ -62,10 +62,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id001
       status: none
     slug: apple
@@ -92,10 +92,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id003
       source: https://github.com/PostHog/mcp
       status: verified
@@ -126,7 +126,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id005
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -154,10 +154,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.3
-    band: developing
+    agent_readiness: 34.4
+    band: strong
     in_catalog: true
-    kin_score: 53.3
+    kin_score: 62.6
     mcp: &id007
       source: https://superwall.com/docs/agents/mcp
       status: verified
@@ -183,10 +183,10 @@ noindex: false
 permalink: /applications/mental-health-meditation/pixy-mood-tracker/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id001
   name: Apple HealthKit
   slug: apple
@@ -194,10 +194,10 @@ providers:
   tags: *id002
   url: /providers/apple/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id003
   name: PostHog
   slug: posthog
@@ -208,7 +208,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id005
   name: Sentry
   slug: sentry-system
@@ -216,10 +216,10 @@ providers:
   tags: *id006
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 37.3
-  band: developing
+  agent_readiness: 34.4
+  band: strong
   in_catalog: true
-  kin_score: 53.3
+  kin_score: 62.6
   mcp: *id007
   name: Superwall
   slug: superwall

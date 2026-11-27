@@ -45,10 +45,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id001
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -76,10 +76,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id003
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -107,10 +107,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id005
       source: https://docs.stripe.com/mcp
       status: verified
@@ -136,10 +136,10 @@ noindex: false
 permalink: /applications/event-ticketing/tito/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id001
   name: Google Analytics
   slug: google-analytics
@@ -147,10 +147,10 @@ providers:
   tags: *id002
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id003
   name: PayPal
   slug: paypal
@@ -158,10 +158,10 @@ providers:
   tags: *id004
   url: /providers/paypal/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id005
   name: Stripe
   slug: stripe

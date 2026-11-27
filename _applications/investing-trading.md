@@ -2219,14 +2219,14 @@ stack:
       via_parent: Retail Investing
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.9
+      agent_readiness: 37.5
       apps:
       - Freqtrade
       - Portfolio Performance
       - rotki
       band: strong
       in_catalog: true
-      kin_score: 64.3
+      kin_score: 63.1
       mcp:
         source: https://github.com/krakenfx/kraken-cli
         status: verified
@@ -2245,14 +2245,14 @@ stack:
       tier: observed
       url: /providers/kraken/
     - agent_band: agent-ready
-      agent_readiness: 30.5
+      agent_readiness: 29.9
       apps:
       - Freqtrade
       - Portfolio Performance
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 39.1
+      kin_score: 38.9
       mcp:
         status: none
       name: Binance
@@ -2270,13 +2270,13 @@ stack:
       tier: observed
       url: /providers/binance/
     - agent_band: agent-native
-      agent_readiness: 46.3
+      agent_readiness: 45.3
       apps:
       - Freqtrade
       - rotki
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 66.0
       mcp:
         source: https://mcp.crypto.com/docs
         status: verified
@@ -2294,13 +2294,13 @@ stack:
       tier: observed
       url: /providers/crypto-com/
     - agent_band: agent-aware
-      agent_readiness: 26.0
+      agent_readiness: 27.7
       apps:
       - Freqtrade
       - rotki
       band: developing
       in_catalog: true
-      kin_score: 47.5
+      kin_score: 46.0
       mcp:
         source: https://github.com/bitpanda-labs/bitpanda-mcp
         status: verified
@@ -2318,13 +2318,13 @@ stack:
       tier: observed
       url: /providers/bitpanda/
     - agent_band: agent-aware
-      agent_readiness: 21.9
+      agent_readiness: 21.5
       apps:
       - Freqtrade
       - rotki
       band: developing
       in_catalog: true
-      kin_score: 44.3
+      kin_score: 44.5
       mcp:
         status: none
       name: HTX
@@ -2341,13 +2341,13 @@ stack:
       tier: observed
       url: /providers/htx/
     - agent_band: agent-aware
-      agent_readiness: 16.1
+      agent_readiness: 15.8
       apps:
       - Freqtrade
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 30.3
+      kin_score: 28.9
       mcp:
         source: https://github.com/okx/agent-trade-kit
         status: verified
@@ -2365,13 +2365,13 @@ stack:
       tier: observed
       url: /providers/okx/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - Freqtrade
       - rotki
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 25.1
       mcp:
         source: https://github.com/gate/gate-mcp
         status: verified
@@ -2389,13 +2389,13 @@ stack:
       tier: observed
       url: /providers/gate-io/
     - agent_band: human-only
-      agent_readiness: 5.0
+      agent_readiness: 4.9
       apps:
       - Freqtrade
       - rotki
       band: emerging
       in_catalog: true
-      kin_score: 22.3
+      kin_score: 24.2
       mcp:
         source: https://github.com/coinexcom/coinex_mcp_server
         status: verified
@@ -2413,13 +2413,13 @@ stack:
       tier: observed
       url: /providers/coinex/
     - agent_band: agent-aware
-      agent_readiness: 14.0
+      agent_readiness: 13.7
       apps:
       - Portfolio Performance
       - rotki
       band: emerging
       in_catalog: true
-      kin_score: 17.4
+      kin_score: 17.3
       mcp:
         status: none
       name: Bitfinex
@@ -2435,29 +2435,7 @@ stack:
       tier: observed
       url: /providers/bitfinex/
     - agent_band: agent-aware
-      agent_readiness: 14.0
-      apps:
-      - Freqtrade
-      - rotki
-      band: emerging
-      in_catalog: true
-      kin_score: 15.5
-      mcp:
-        status: none
-      name: KuCoin
-      slug: kucoin
-      sources:
-      - https://github.com/freqtrade/freqtrade/tree/develop/freqtrade/exchange
-      - https://github.com/rotki/rotki/tree/develop/rotkehlchen/exchanges
-      status: profiled
-      tags:
-      - Cryptocurrency
-      - Public APIs
-      - Real-Time
-      tier: observed
-      url: /providers/kucoin/
-    - agent_band: agent-aware
-      agent_readiness: 14.0
+      agent_readiness: 13.7
       apps:
       - Freqtrade
       - rotki
@@ -2479,13 +2457,35 @@ stack:
       - Real-Time
       tier: observed
       url: /providers/bybit/
+    - agent_band: agent-aware
+      agent_readiness: 13.7
+      apps:
+      - Freqtrade
+      - rotki
+      band: emerging
+      in_catalog: true
+      kin_score: 14.6
+      mcp:
+        status: none
+      name: KuCoin
+      slug: kucoin
+      sources:
+      - https://github.com/freqtrade/freqtrade/tree/develop/freqtrade/exchange
+      - https://github.com/rotki/rotki/tree/develop/rotkehlchen/exchanges
+      status: profiled
+      tags:
+      - Cryptocurrency
+      - Public APIs
+      - Real-Time
+      tier: observed
+      url: /providers/kucoin/
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 48.5
       apps:
       - rotki
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 68.6
       mcp:
         status: none
       name: Gemini
@@ -2500,13 +2500,35 @@ stack:
       - Trading
       tier: observed
       url: /providers/gemini-trust/
-    - agent_band: agent-native
-      agent_readiness: 51.5
+    - agent_band: agent-ready
+      agent_readiness: 52.6
       apps:
       - rotki
       band: strong
       in_catalog: true
-      kin_score: 56.6
+      kin_score: 61.9
+      mcp:
+        source: https://api.bit2me.com/docs
+        status: documented
+      name: Bit2Me
+      slug: bit2me
+      sources:
+      - https://github.com/rotki/rotki/tree/develop/rotkehlchen/exchanges
+      status: profiled
+      tags:
+      - Company
+      - Cryptocurrency
+      - Exchange
+      - Fintech
+      tier: observed
+      url: /providers/bit2me/
+    - agent_band: agent-native
+      agent_readiness: 50.8
+      apps:
+      - rotki
+      band: strong
+      in_catalog: true
+      kin_score: 57.2
       mcp:
         source: https://github.com/coinbase/payments-mcp
         status: verified
@@ -2528,7 +2550,7 @@ stack:
       - Freqtrade
       band: developing
       in_catalog: true
-      kin_score: 49.9
+      kin_score: 49.7
       mcp:
         source: https://github.com/luno/luno-mcp
         status: verified
@@ -2545,55 +2567,12 @@ stack:
       tier: observed
       url: /providers/luno/
     - agent_band: agent-ready
-      agent_readiness: 55.4
+      agent_readiness: 35.7
       apps:
       - rotki
       band: developing
       in_catalog: true
-      kin_score: 48.0
-      mcp:
-        source: https://api.bit2me.com/docs
-        status: documented
-      name: Bit2Me
-      slug: bit2me
-      sources:
-      - https://github.com/rotki/rotki/tree/develop/rotkehlchen/exchanges
-      status: profiled
-      tags:
-      - Company
-      - Cryptocurrency
-      - Exchange
-      - Fintech
-      tier: observed
-      url: /providers/bit2me/
-    - agent_band: agent-ready
-      agent_readiness: 31.6
-      apps:
-      - Freqtrade
-      band: developing
-      in_catalog: true
-      kin_score: 39.5
-      mcp:
-        status: none
-      name: HitBTC
-      slug: hitbtc
-      sources:
-      - https://github.com/freqtrade/freqtrade/tree/develop/freqtrade/exchange
-      status: profiled
-      tags:
-      - Company
-      - Cryptocurrency
-      - Cryptocurrency Exchange
-      - Trading
-      tier: observed
-      url: /providers/hitbtc/
-    - agent_band: agent-ready
-      agent_readiness: 35.9
-      apps:
-      - rotki
-      band: developing
-      in_catalog: true
-      kin_score: 39.3
+      kin_score: 49.0
       mcp:
         status: none
       name: WOO X
@@ -2609,75 +2588,54 @@ stack:
       tier: observed
       url: /providers/woox/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 24.4
       apps:
-      - Portfolio Performance
-      band: thin
+      - rotki
+      band: developing
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 40.9
       mcp:
         status: none
-      name: MEXC
-      slug: mexc
+      name: Independent Reserve
+      slug: independent-reserve
       sources:
-      - https://github.com/portfolio-performance/portfolio/tree/master/name.abuchen.portfolio/src/name/abuchen/portfolio/online/impl
+      - https://github.com/rotki/rotki/tree/develop/rotkehlchen/exchanges
       status: profiled
       tags:
+      - Company
       - Cryptocurrency
       - Exchange
-      - Futures
       - Trading
       tier: observed
-      url: /providers/mexc/
-    - agent_band: agent-aware
-      agent_readiness: 23.0
-      apps:
-      - Freqtrade
-      band: thin
-      in_catalog: true
-      kin_score: 32.8
-      mcp:
-        status: none
-      name: LBank
-      slug: lbank
-      sources:
-      - https://github.com/freqtrade/freqtrade/tree/develop/freqtrade/exchange
-      status: profiled
-      tags:
-      - Cryptocurrency
-      - Exchange
-      - Market Data
-      - Trading
-      tier: observed
-      url: /providers/lbank/
-    - agent_band: agent-aware
-      agent_readiness: 16.5
-      apps:
-      - Freqtrade
-      band: thin
-      in_catalog: true
-      kin_score: 31.3
-      mcp:
-        status: none
-      name: Hyperliquid
-      slug: hyperliquid
-      sources:
-      - https://github.com/freqtrade/freqtrade/tree/develop/freqtrade/exchange
-      status: profiled
-      tags:
-      - DeFi
-      - Decentralized Exchange
-      - Layer 1
-      - Perpetuals
-      tier: observed
-      url: /providers/hyperliquid/
+      url: /providers/independent-reserve/
     - agent_band: agent-ready
-      agent_readiness: 34.3
+      agent_readiness: 31.0
+      apps:
+      - Freqtrade
+      band: developing
+      in_catalog: true
+      kin_score: 40.5
+      mcp:
+        status: none
+      name: HitBTC
+      slug: hitbtc
+      sources:
+      - https://github.com/freqtrade/freqtrade/tree/develop/freqtrade/exchange
+      status: profiled
+      tags:
+      - Company
+      - Cryptocurrency
+      - Cryptocurrency Exchange
+      - Trading
+      tier: observed
+      url: /providers/hitbtc/
+    - agent_band: agent-ready
+      agent_readiness: 33.6
       apps:
       - Freqtrade
       band: thin
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 33.6
       mcp:
         status: none
       name: Bitvavo
@@ -2693,12 +2651,12 @@ stack:
       tier: observed
       url: /providers/bitvavo/
     - agent_band: agent-ready
-      agent_readiness: 30.1
+      agent_readiness: 29.4
       apps:
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 30.3
+      kin_score: 33.5
       mcp:
         status: none
       name: Bitstamp
@@ -2714,28 +2672,70 @@ stack:
       tier: observed
       url: /providers/bitstamp/
     - agent_band: agent-aware
-      agent_readiness: 24.9
+      agent_readiness: 20.9
       apps:
-      - rotki
+      - Portfolio Performance
       band: thin
       in_catalog: true
-      kin_score: 27.2
+      kin_score: 32.7
       mcp:
         status: none
-      name: Independent Reserve
-      slug: independent-reserve
+      name: MEXC
+      slug: mexc
       sources:
-      - https://github.com/rotki/rotki/tree/develop/rotkehlchen/exchanges
+      - https://github.com/portfolio-performance/portfolio/tree/master/name.abuchen.portfolio/src/name/abuchen/portfolio/online/impl
       status: profiled
       tags:
-      - Company
       - Cryptocurrency
       - Exchange
+      - Futures
       - Trading
       tier: observed
-      url: /providers/independent-reserve/
+      url: /providers/mexc/
     - agent_band: agent-aware
-      agent_readiness: 15.5
+      agent_readiness: 22.5
+      apps:
+      - Freqtrade
+      band: thin
+      in_catalog: true
+      kin_score: 32.5
+      mcp:
+        status: none
+      name: LBank
+      slug: lbank
+      sources:
+      - https://github.com/freqtrade/freqtrade/tree/develop/freqtrade/exchange
+      status: profiled
+      tags:
+      - Cryptocurrency
+      - Exchange
+      - Market Data
+      - Trading
+      tier: observed
+      url: /providers/lbank/
+    - agent_band: agent-aware
+      agent_readiness: 16.1
+      apps:
+      - Freqtrade
+      band: thin
+      in_catalog: true
+      kin_score: 30.8
+      mcp:
+        status: none
+      name: Hyperliquid
+      slug: hyperliquid
+      sources:
+      - https://github.com/freqtrade/freqtrade/tree/develop/freqtrade/exchange
+      status: profiled
+      tags:
+      - DeFi
+      - Decentralized Exchange
+      - Layer 1
+      - Perpetuals
+      tier: observed
+      url: /providers/hyperliquid/
+    - agent_band: agent-aware
+      agent_readiness: 15.1
       apps:
       - Freqtrade
       band: emerging
@@ -2762,7 +2762,7 @@ stack:
       - rotki
       band: emerging
       in_catalog: true
-      kin_score: 18.6
+      kin_score: 22.4
       mcp:
         status: unknown
       name: ICONOMI
@@ -2778,32 +2778,12 @@ stack:
       tier: observed
       url: /providers/iconomi/
     - agent_band: agent-aware
-      agent_readiness: 14.0
-      apps:
-      - rotki
-      band: emerging
-      in_catalog: true
-      kin_score: 16.3
-      mcp:
-        status: none
-      name: Poloniex
-      slug: poloniex
-      sources:
-      - https://github.com/rotki/rotki/tree/develop/rotkehlchen/exchanges
-      status: profiled
-      tags:
-      - Cryptocurrency
-      - Public APIs
-      - Real-Time
-      tier: observed
-      url: /providers/poloniex/
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 17.5
       apps:
       - Freqtrade
       band: emerging
       in_catalog: true
-      kin_score: 15.9
+      kin_score: 20.8
       mcp:
         status: none
       name: BingX
@@ -2824,7 +2804,7 @@ stack:
       - rotki
       band: emerging
       in_catalog: true
-      kin_score: 12.0
+      kin_score: 19.7
       mcp:
         status: unknown
       name: Bitcoin.de
@@ -2836,6 +2816,26 @@ stack:
       - Company
       tier: observed
       url: /providers/bitcoin-de/
+    - agent_band: agent-aware
+      agent_readiness: 13.7
+      apps:
+      - rotki
+      band: emerging
+      in_catalog: true
+      kin_score: 15.4
+      mcp:
+        status: none
+      name: Poloniex
+      slug: poloniex
+      sources:
+      - https://github.com/rotki/rotki/tree/develop/rotkehlchen/exchanges
+      status: profiled
+      tags:
+      - Cryptocurrency
+      - Public APIs
+      - Real-Time
+      tier: observed
+      url: /providers/poloniex/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -2862,40 +2862,14 @@ stack:
       via_parent: Market & Financial Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 51.4
-      apps:
-      - Ghostfolio
-      - Portfolio Performance
-      - Wealthfolio
-      band: strong
-      in_catalog: true
-      kin_score: 54.4
-      mcp:
-        source: https://github.com/alphavantage/alpha_vantage_mcp
-        status: verified
-      name: Alpha Vantage
-      slug: alpha-vantage
-      sources:
-      - https://github.com/ghostfolio/ghostfolio/tree/main/apps/api/src/services/data-provider
-      - https://github.com/portfolio-performance/portfolio/tree/master/name.abuchen.portfolio/src/name/abuchen/portfolio/online/impl
-      - https://github.com/wealthfolio/wealthfolio/tree/main/crates/market-data/src/provider
-      status: profiled
-      tags:
-      - Fintech
-      - Foreign Exchange
-      - Market Data
-      - Stocks
-      tier: observed
-      url: /providers/alpha-vantage/
-    - agent_band: agent-ready
-      agent_readiness: 46.2
+      agent_readiness: 47.4
       apps:
       - Ghostfolio
       - Portfolio Performance
       - rotki
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 52.4
       mcp: &id001
         source: https://docs.coingecko.com/reference/mcp-server
         status: verified
@@ -2913,15 +2887,41 @@ stack:
       - Cryptocurrency
       tier: observed
       url: /providers/coingecko/
-    - agent_band: agent-aware
-      agent_readiness: 16.2
+    - agent_band: agent-ready
+      agent_readiness: 50.5
       apps:
       - Ghostfolio
       - Portfolio Performance
       - Wealthfolio
       band: developing
       in_catalog: true
-      kin_score: 41.4
+      kin_score: 50.6
+      mcp:
+        source: https://github.com/alphavantage/alpha_vantage_mcp
+        status: verified
+      name: Alpha Vantage
+      slug: alpha-vantage
+      sources:
+      - https://github.com/ghostfolio/ghostfolio/tree/main/apps/api/src/services/data-provider
+      - https://github.com/portfolio-performance/portfolio/tree/master/name.abuchen.portfolio/src/name/abuchen/portfolio/online/impl
+      - https://github.com/wealthfolio/wealthfolio/tree/main/crates/market-data/src/provider
+      status: profiled
+      tags:
+      - Fintech
+      - Foreign Exchange
+      - Market Data
+      - Stocks
+      tier: observed
+      url: /providers/alpha-vantage/
+    - agent_band: agent-aware
+      agent_readiness: 15.8
+      apps:
+      - Ghostfolio
+      - Portfolio Performance
+      - Wealthfolio
+      band: developing
+      in_catalog: true
+      kin_score: 42.6
       mcp:
         status: none
       name: Yahoo Finance
@@ -2939,13 +2939,13 @@ stack:
       tier: observed
       url: /providers/yahoo/
     - agent_band: agent-ready
-      agent_readiness: 58.3
+      agent_readiness: 53.1
       apps:
       - Ghostfolio
       - Portfolio Performance
       band: strong
       in_catalog: true
-      kin_score: 62.2
+      kin_score: 60.7
       mcp:
         source: https://github.com/EodHistoricalData/EODHD-MCP-Server
         status: verified
@@ -2963,13 +2963,13 @@ stack:
       tier: observed
       url: /providers/eodhd/
     - agent_band: agent-aware
-      agent_readiness: 23.6
+      agent_readiness: 23.1
       apps:
       - Portfolio Performance
       - Wealthfolio
       band: developing
       in_catalog: true
-      kin_score: 43.9
+      kin_score: 42.5
       mcp:
         source: https://finnhub.io/docs/api
         status: documented
@@ -2987,12 +2987,12 @@ stack:
       tier: observed
       url: /providers/finnhub/
     - agent_band: agent-native
-      agent_readiness: 41.2
+      agent_readiness: 49.6
       apps:
       - Ghostfolio
       band: exemplar
       in_catalog: true
-      kin_score: 69.5
+      kin_score: 69.0
       mcp:
         status: none
       name: Financial Modeling Prep
@@ -3008,12 +3008,12 @@ stack:
       tier: observed
       url: /providers/financial-modeling-prep/
     - agent_band: agent-ready
-      agent_readiness: 58.9
+      agent_readiness: 59.5
       apps:
       - Portfolio Performance
       band: exemplar
       in_catalog: true
-      kin_score: 68.2
+      kin_score: 66.9
       mcp:
         source: https://github.com/twelvedata/mcp
         status: verified
@@ -3030,12 +3030,12 @@ stack:
       tier: observed
       url: /providers/twelvedata/
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Ghostfolio
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -3050,12 +3050,12 @@ stack:
       tier: observed
       url: /providers/google-sheets/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 32.2
       apps:
       - Wealthfolio
       band: strong
       in_catalog: true
-      kin_score: 60.7
+      kin_score: 59.3
       mcp:
         status: none
       name: Market Data (marketdata.app)
@@ -3071,12 +3071,12 @@ stack:
       tier: observed
       url: /providers/marketdata-app/
     - agent_band: agent-aware
-      agent_readiness: 23.0
+      agent_readiness: 27.2
       apps:
       - Wealthfolio
       band: developing
       in_catalog: true
-      kin_score: 51.1
+      kin_score: 52.9
       mcp:
         status: none
       name: Boerse Frankfurt (Deutsche Boerse)
@@ -3092,12 +3092,12 @@ stack:
       tier: observed
       url: /providers/deutsche-boerse/
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 55.1
       apps:
       - rotki
       band: developing
       in_catalog: true
-      kin_score: 46.2
+      kin_score: 44.2
       mcp:
         status: none
       name: CryptoCompare
@@ -3113,12 +3113,12 @@ stack:
       tier: observed
       url: /providers/cryptocompare/
     - agent_band: agent-aware
-      agent_readiness: 27.6
+      agent_readiness: 27.0
       apps:
       - Portfolio Performance
       band: thin
       in_catalog: true
-      kin_score: 34.4
+      kin_score: 36.2
       mcp:
         status: none
       name: Nasdaq Data Link (Quandl)
@@ -3133,13 +3133,13 @@ stack:
       - Stock Market
       tier: observed
       url: /providers/nasdaq-data-link/
-    - agent_band: agent-ready
-      agent_readiness: 29.6
+    - agent_band: agent-aware
+      agent_readiness: 26.7
       apps:
       - rotki
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.3
+      kin_score: 33.8
       mcp:
         status: none
       name: Birdeye (Solana data)
@@ -3160,7 +3160,7 @@ stack:
       - Portfolio Performance
       band: emerging
       in_catalog: true
-      kin_score: 15.8
+      kin_score: 22.5
       mcp:
         status: none
       name: DivvyDiary
@@ -3179,9 +3179,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Portfolio Performance
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 6.7
+      kin_score: 11.2
       mcp:
         status: unknown
       name: AMFI India
@@ -3202,7 +3202,7 @@ stack:
       - Ghostfolio
       band: minimal
       in_catalog: true
-      kin_score: 2.0
+      kin_score: 1.1
       mcp:
         status: none
       name: Trackinsight
@@ -3240,12 +3240,12 @@ stack:
       via_parent: On-Chain Data & Indexing
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.7
+      agent_readiness: 30.0
       apps:
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 38.1
+      kin_score: 36.5
       mcp:
         source: https://docs.etherscan.io/mcp
         status: verified
@@ -3262,12 +3262,12 @@ stack:
       tier: observed
       url: /providers/etherscan/
     - agent_band: agent-ready
-      agent_readiness: 32.8
+      agent_readiness: 33.6
       apps:
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 33.5
+      kin_score: 34.0
       mcp:
         source: https://www.helius.dev/docs/agents/mcp
         status: verified
@@ -3284,12 +3284,12 @@ stack:
       tier: observed
       url: /providers/helius/
     - agent_band: agent-ready
-      agent_readiness: 43.2
+      agent_readiness: 37.9
       apps:
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 32.4
+      kin_score: 31.9
       mcp:
         source: https://github.com/alchemyplatform/alchemy-mcp-server
         status: verified
@@ -3311,7 +3311,7 @@ stack:
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 29.4
+      kin_score: 29.0
       mcp:
         source: https://api.github.com/orgs/MoralisWeb3/repos
         status: verified
@@ -3328,12 +3328,12 @@ stack:
       tier: observed
       url: /providers/moralis/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 28.3
+      kin_score: 27.8
       mcp:
         source: https://github.com/graphprotocol/mcp-monorepo
         status: verified
@@ -3350,12 +3350,12 @@ stack:
       tier: observed
       url: /providers/the-graph/
     - agent_band: agent-ready
-      agent_readiness: 33.6
+      agent_readiness: 33.4
       apps:
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 27.5
+      kin_score: 26.2
       mcp:
         source: https://github.com/blockscout/mcp-server
         status: verified
@@ -3371,13 +3371,13 @@ stack:
       - Web3
       tier: observed
       url: /providers/blockscout/
-    - agent_band: agent-aware
-      agent_readiness: 7.2
+    - agent_band: human-only
+      agent_readiness: 4.2
       apps:
       - rotki
       band: emerging
       in_catalog: true
-      kin_score: 15.5
+      kin_score: 20.4
       mcp:
         status: none
       name: Routescan
@@ -3395,7 +3395,7 @@ stack:
       - rotki
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: none
       name: beaconcha.in
@@ -3433,13 +3433,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 52.1
+      agent_readiness: 51.1
       apps:
       - Kubera
       - Robinhood
       band: exemplar
       in_catalog: true
-      kin_score: 83.4
+      kin_score: 86.3
       mcp:
         source: https://plaid.com/docs/resources/mcp/
         status: verified
@@ -3457,12 +3457,12 @@ stack:
       tier: declared
       url: /providers/plaid/
     - agent_band: agent-aware
-      agent_readiness: 26.7
+      agent_readiness: 26.6
       apps:
       - Kubera
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.0
+      kin_score: 66.7
       mcp:
         status: none
       name: MX
@@ -3478,7 +3478,7 @@ stack:
       tier: declared
       url: /providers/mx-technologies/
     - agent_band: agent-native
-      agent_readiness: 44.2
+      agent_readiness: 43.3
       apps:
       - Kubera
       band: strong
@@ -3499,55 +3499,13 @@ stack:
       - Mastercard
       tier: declared
       url: /providers/mastercard/
-    - agent_band: agent-aware
-      agent_readiness: 21.1
-      apps:
-      - Kubera
-      band: developing
-      in_catalog: true
-      kin_score: 53.6
-      mcp:
-        status: none
-      name: Akoya
-      slug: akoya
-      sources:
-      - https://www.kubera.com/security
-      status: profiled
-      tags:
-      - Aggregator
-      - Fintech
-      - Open Banking
-      - Open Finance
-      tier: declared
-      url: /providers/akoya/
-    - agent_band: agent-native
-      agent_readiness: 53.0
-      apps:
-      - Kubera
-      band: developing
-      in_catalog: true
-      kin_score: 52.5
-      mcp:
-        status: none
-      name: Lean Technologies
-      slug: lean-technologies
-      sources:
-      - https://www.kubera.com/security
-      status: profiled
-      tags:
-      - Financial Data
-      - Open Banking
-      - Open Finance
-      - Payments
-      tier: declared
-      url: /providers/lean-technologies/
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 33.1
       apps:
       - Kubera
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 47.6
+      kin_score: 56.0
       mcp:
         status: none
       name: Akahu
@@ -3563,12 +3521,54 @@ stack:
       tier: declared
       url: /providers/akahu/
     - agent_band: agent-aware
-      agent_readiness: 21.0
+      agent_readiness: 20.7
+      apps:
+      - Kubera
+      band: strong
+      in_catalog: true
+      kin_score: 55.4
+      mcp:
+        status: none
+      name: Akoya
+      slug: akoya
+      sources:
+      - https://www.kubera.com/security
+      status: profiled
+      tags:
+      - Aggregator
+      - Fintech
+      - Open Banking
+      - Open Finance
+      tier: declared
+      url: /providers/akoya/
+    - agent_band: agent-native
+      agent_readiness: 52.0
+      apps:
+      - Kubera
+      band: developing
+      in_catalog: true
+      kin_score: 51.1
+      mcp:
+        status: none
+      name: Lean Technologies
+      slug: lean-technologies
+      sources:
+      - https://www.kubera.com/security
+      status: profiled
+      tags:
+      - Financial Data
+      - Open Banking
+      - Open Finance
+      - Payments
+      tier: declared
+      url: /providers/lean-technologies/
+    - agent_band: agent-aware
+      agent_readiness: 20.6
       apps:
       - Kubera
       band: thin
       in_catalog: true
-      kin_score: 31.1
+      kin_score: 30.4
       mcp:
         status: none
       name: Yodlee
@@ -3584,12 +3584,12 @@ stack:
       tier: declared
       url: /providers/yodlee/
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 21.9
       apps:
       - Kubera
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.9
+      kin_score: 26.1
       mcp:
         status: none
       name: Salt Edge
@@ -3613,13 +3613,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.9
       apps:
       - Ghostfolio
       - Wealthfolio
       band: thin
       in_catalog: true
-      kin_score: 33.7
+      kin_score: 32.2
       mcp:
         status: none
       name: OpenFIGI
@@ -3634,12 +3634,12 @@ stack:
       tier: observed
       url: /providers/openfigi/
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 32.6
       apps:
       - Ghostfolio
       band: developing
       in_catalog: true
-      kin_score: 41.3
+      kin_score: 39.5
       mcp:
         status: none
       name: RapidAPI (Fear & Greed Index)
@@ -3655,12 +3655,12 @@ stack:
       tier: observed
       url: /providers/rapidapi/
     - agent_band: agent-aware
-      agent_readiness: 20.2
+      agent_readiness: 26.1
       apps:
       - Portfolio Performance
       band: thin
       in_catalog: true
-      kin_score: 30.4
+      kin_score: 31.9
       mcp:
         status: none
       name: Eurostat (HICP)
@@ -3676,12 +3676,12 @@ stack:
       tier: observed
       url: /providers/eurostat/
     - agent_band: agent-aware
-      agent_readiness: 17.4
+      agent_readiness: 19.6
       apps:
       - Wealthfolio
       band: thin
       in_catalog: true
-      kin_score: 29.7
+      kin_score: 29.1
       mcp:
         status: none
       name: US Treasury (treasury.gov / TreasuryDirect)
@@ -3697,12 +3697,12 @@ stack:
       tier: observed
       url: /providers/department-of-the-treasury/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Wealthfolio
       band: emerging
       in_catalog: true
-      kin_score: 17.4
+      kin_score: 22.4
       mcp:
         status: none
       name: Metal Price API
@@ -3726,12 +3726,12 @@ stack:
       via_parent: Market & Financial Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.2
+      agent_readiness: 47.4
       apps:
       - Freqtrade
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 52.4
       mcp: *id001
       name: CoinGecko
       slug: coingecko
@@ -3745,9 +3745,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Portfolio Performance
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.8
+      kin_score: 11.0
       mcp:
         status: none
       name: ECB Data Portal
@@ -3768,7 +3768,7 @@ stack:
       - rotki
       band: minimal
       in_catalog: true
-      kin_score: 4.9
+      kin_score: 8.9
       mcp:
         status: unknown
       name: X-Rates
@@ -3792,13 +3792,13 @@ stack:
       via_parent: Retail Investing
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.2
+      agent_readiness: 46.1
       apps:
       - Kubera
       - Wealthfolio
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.5
+      kin_score: 59.0
       mcp:
         source: https://docs.snaptrade.com/docs/mcp-server
         status: verified
@@ -3824,12 +3824,12 @@ stack:
       via_parent: DeFi Protocols
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.9
+      agent_readiness: 32.3
       apps:
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 38.3
       mcp:
         status: none
       name: CoW Swap
@@ -3850,7 +3850,7 @@ stack:
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 27.6
+      kin_score: 27.1
       mcp:
         source: https://developers.jup.ag/docs/ai/trading-mcp
         status: documented
@@ -3875,12 +3875,12 @@ stack:
       via_parent: On-Chain Data & Indexing
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.7
+      agent_readiness: 47.6
       apps:
       - rotki
       band: thin
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 29.1
       mcp:
         status: none
       name: DefiLlama
@@ -3903,13 +3903,13 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - rotki
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -3939,7 +3939,7 @@ stack:
       - rotki
       band: developing
       in_catalog: true
-      kin_score: 41.4
+      kin_score: 43.0
       mcp:
         source: https://docs.opensea.io/docs/mcp
         status: verified
@@ -3964,12 +3964,12 @@ stack:
       via_parent: Stablecoin Payments
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.8
+      agent_readiness: 24.3
       apps:
       - rotki
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.2
+      kin_score: 42.7
       mcp:
         status: none
       name: Monerium
@@ -3993,12 +3993,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.8
+      agent_readiness: 34.8
       apps:
       - rotki
       band: developing
       in_catalog: true
-      kin_score: 39.3
+      kin_score: 43.5
       mcp:
         status: none
       name: Gnosis Pay
@@ -4024,12 +4024,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Wealthfolio
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -4046,12 +4046,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Wealthfolio
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -4068,12 +4068,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - Wealthfolio
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google AI (Gemini)
@@ -4094,7 +4094,7 @@ stack:
       - Wealthfolio
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp:
         status: none
       name: Ollama
@@ -4110,12 +4110,12 @@ stack:
       tier: observed
       url: /providers/ollama/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 21.2
       apps:
       - Wealthfolio
       band: thin
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 32.3
       mcp:
         source: https://github.com/groq/groq-mcp-server
         status: verified
@@ -4139,15 +4139,15 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Ghostfolio
       - Kubera
       - Robinhood
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -4165,12 +4165,12 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Robinhood
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Sign in with Apple
@@ -4194,12 +4194,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 50.0
+      agent_readiness: 48.9
       apps:
       - Robinhood
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.4
+      kin_score: 65.9
       mcp:
         status: none
       name: Singular
@@ -4215,12 +4215,30 @@ stack:
       tier: observed
       url: /providers/singular/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 21.9
       apps:
       - Robinhood
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.9
+      kin_score: 33.8
+      mcp:
+        status: none
+      name: Branch
+      slug: branch-io
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.robinhood.android/latest/
+      status: profiled
+      tags:
+      - Company
+      tier: observed
+      url: /providers/branch-io/
+    - agent_band: agent-aware
+      agent_readiness: 23.3
+      apps:
+      - Robinhood
+      band: thin
+      in_catalog: true
+      kin_score: 30.9
       mcp:
         status: none
       name: Adjust
@@ -4235,24 +4253,6 @@ stack:
       - Measurements
       tier: observed
       url: /providers/adjust/
-    - agent_band: agent-aware
-      agent_readiness: 24.7
-      apps:
-      - Robinhood
-      band: emerging
-      in_catalog: true
-      kin_score: 23.0
-      mcp:
-        status: none
-      name: Branch
-      slug: branch-io
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.robinhood.android/latest/
-      status: profiled
-      tags:
-      - Company
-      tier: observed
-      url: /providers/branch-io/
   - capability:
       attribution: API Evangelist extension
       id: AE-110.10.30
@@ -4262,13 +4262,13 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 46.4
       apps:
       - Ghostfolio
       - Wealthfolio
       band: strong
       in_catalog: true
-      kin_score: 55.4
+      kin_score: 54.8
       mcp:
         source: https://openrouter.ai/docs/guides/overview/mcp-server
         status: verified
@@ -4294,12 +4294,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Kubera
       band: thin
       in_catalog: true
-      kin_score: 28.1
+      kin_score: 27.1
       mcp:
         status: none
       name: REVIEWS.io
@@ -4323,12 +4323,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.7
+      agent_readiness: 42.1
       apps:
       - Robinhood
       band: exemplar
       in_catalog: true
-      kin_score: 73.1
+      kin_score: 73.4
       mcp:
         source: https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server
         status: verified
@@ -4353,12 +4353,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Kubera
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4383,12 +4383,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 33.6
       apps:
       - Robinhood
       band: developing
       in_catalog: true
-      kin_score: 51.9
+      kin_score: 52.9
       mcp:
         status: none
       name: Persona
@@ -4411,12 +4411,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Freqtrade
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -4445,7 +4445,7 @@ stack:
       - Robinhood
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -4470,12 +4470,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Ghostfolio
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -4499,28 +4499,28 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Robinhood
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics / Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.robinhood.android/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-170.50
@@ -4530,12 +4530,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Ghostfolio
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -4559,13 +4559,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 27.7
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - Wealthfolio
       band: thin
       in_catalog: true
-      kin_score: 36.3
+      kin_score: 35.8
       mcp:
         source: https://raw.githubusercontent.com/cloudflare/mcp/main/README.md
         status: verified
@@ -4590,12 +4590,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Freqtrade
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -4622,7 +4622,7 @@ summary:
     unchecked: 3
     verified: 36
   mcp_verified: 36
-  mean_kin_score: 40.9
+  mean_kin_score: 42.7
   observed: 87
   queued: 3
   reference_apps: 7

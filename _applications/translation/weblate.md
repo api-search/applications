@@ -114,7 +114,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.4
     mcp: &id001
       source: https://github.com/aliyun/alibaba-cloud-ops-mcp-server
       status: verified
@@ -138,11 +138,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -169,11 +169,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.3
-    band: strong
+    agent_band: agent-ready
+    agent_readiness: 35.3
+    band: exemplar
     in_catalog: true
-    kin_score: 65.5
+    kin_score: 73.7
     mcp: &id005
       source: https://api.github.com/repos/awslabs/mcp/contents/src
       status: verified
@@ -201,10 +201,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id007
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -235,7 +235,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.4
+    kin_score: 4.7
     mcp: &id009
       status: none
     slug: apertium
@@ -261,11 +261,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.9
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 32.2
+    band: strong
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 62.4
     mcp: &id011
       source: https://github.com/microsoft/azure-speech-mcp-server
       status: verified
@@ -293,10 +293,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
+    agent_readiness: 37.7
     band: exemplar
     in_catalog: true
-    kin_score: 76.8
+    kin_score: 81.9
     mcp: &id013
       source: https://github.com/microsoft/azure-devops-mcp
       status: verified
@@ -323,11 +323,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.4
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 29.9
+    band: exemplar
     in_catalog: true
-    kin_score: 44.6
+    kin_score: 68.3
     mcp: &id015
       source: https://github.com/microsoft/mcp
       status: verified
@@ -355,10 +355,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 6.0
+    agent_readiness: 5.8
     band: emerging
     in_catalog: true
-    kin_score: 18.5
+    kin_score: 17.4
     mcp: &id017
       source: https://github.com/baidu-maps/mcp
       status: verified
@@ -386,10 +386,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 35.3
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 71.9
     mcp: &id019
       source: https://github.com/atlassian/atlassian-mcp-server
       status: verified
@@ -417,10 +417,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.4
+    agent_readiness: 36.1
     band: strong
     in_catalog: true
-    kin_score: 60.8
+    kin_score: 61.4
     mcp: &id021
       source: https://github.com/DeepL/deepl-mcp-server
       status: verified
@@ -448,10 +448,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.7
+    agent_readiness: 10.6
     band: emerging
     in_catalog: true
-    kin_score: 11.6
+    kin_score: 16.2
     mcp: &id023
       status: unknown
     slug: european-commission-etranslation
@@ -481,7 +481,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.4
+    kin_score: 6.8
     mcp: &id025
       source: https://github.com/GerritCodeReview/gerrit-mcp-server
       status: verified
@@ -509,10 +509,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 35.0
     band: exemplar
     in_catalog: true
-    kin_score: 69.8
+    kin_score: 68.1
     mcp: &id027
       source: https://gitea.com/gitea/gitea-mcp
       status: verified
@@ -540,10 +540,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id029
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -571,10 +571,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id031
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -605,7 +605,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.5
+    kin_score: 7.0
     mcp: &id033
       status: none
     slug: glosbe
@@ -631,11 +631,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 37.0
+    band: strong
     in_catalog: true
-    kin_score: 39.1
+    kin_score: 59.9
     mcp: &id035
       status: none
     slug: google-cloud-error-reporting
@@ -662,10 +662,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id037
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -692,11 +692,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.9
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 33.9
+    band: exemplar
     in_catalog: true
-    kin_score: 51.6
+    kin_score: 68.0
     mcp: &id039
       status: none
     slug: google-translate
@@ -723,10 +723,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.8
-    band: thin
+    agent_readiness: 23.3
+    band: emerging
     in_catalog: true
-    kin_score: 26.2
+    kin_score: 24.3
     mcp: &id041
       source: https://github.com/LibreTranslate/LibreTranslate-MCP
       status: verified
@@ -753,11 +753,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.2
     band: developing
     in_catalog: true
-    kin_score: 47.7
+    kin_score: 47.3
     mcp: &id043
       status: none
     slug: mistral
@@ -784,10 +784,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
-    band: thin
+    agent_readiness: 42.9
+    band: developing
     in_catalog: true
-    kin_score: 27.6
+    kin_score: 39.3
     mcp: &id045
       status: unknown
     slug: modernmt
@@ -817,7 +817,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.0
+    kin_score: 10.9
     mcp: &id047
       status: none
     slug: mymemory
@@ -844,10 +844,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 10.8
+    agent_readiness: 10.6
     band: minimal
     in_catalog: true
-    kin_score: 5.1
+    kin_score: 4.3
     mcp: &id049
       status: unknown
     slug: youdao
@@ -877,7 +877,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id051
       status: none
     slug: ollama
@@ -904,10 +904,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id053
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -938,7 +938,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.4
+    kin_score: 7.9
     mcp: &id055
       status: none
     slug: pagure
@@ -965,10 +965,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.8
+    agent_readiness: 30.2
     band: developing
     in_catalog: true
-    kin_score: 49.4
+    kin_score: 48.1
     mcp: &id057
       source: https://github.com/rollbar/rollbar-mcp-server
       status: verified
@@ -996,10 +996,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.6
+    agent_readiness: 13.3
     band: emerging
     in_catalog: true
-    kin_score: 23.5
+    kin_score: 22.7
     mcp: &id059
       status: none
     slug: sap-btp
@@ -1029,7 +1029,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id061
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -1057,10 +1057,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
-    band: thin
+    agent_readiness: 20.9
+    band: emerging
     in_catalog: true
-    kin_score: 26.5
+    kin_score: 25.5
     mcp: &id063
       status: none
     slug: systran
@@ -1087,10 +1087,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 29.9
     band: thin
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 36.5
     mcp: &id065
       status: none
     slug: yandex-translate
@@ -1118,29 +1118,29 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.4
   mcp: *id001
   name: Alibaba Cloud Machine Translation
   slug: alibabacloud
   status: profiled
   tags: *id002
   url: /providers/alibabacloud/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id003
   name: Amazon S3
   slug: amazon-s3
   status: profiled
   tags: *id004
   url: /providers/amazon-s3/
-- agent_band: agent-aware
-  agent_readiness: 25.3
-  band: strong
+- agent_band: agent-ready
+  agent_readiness: 35.3
+  band: exemplar
   in_catalog: true
-  kin_score: 65.5
+  kin_score: 73.7
   mcp: *id005
   name: Amazon Translate
   slug: amazon-translate
@@ -1148,10 +1148,10 @@ providers:
   tags: *id006
   url: /providers/amazon-translate/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id007
   name: Anthropic
   slug: anthropic
@@ -1162,18 +1162,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.4
+  kin_score: 4.7
   mcp: *id009
   name: Apertium
   slug: apertium
   status: profiled
   tags: *id010
   url: /providers/apertium/
-- agent_band: agent-aware
-  agent_readiness: 17.9
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 32.2
+  band: strong
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 62.4
   mcp: *id011
   name: Azure AI Translator
   slug: microsoft-cognitive-services
@@ -1181,21 +1181,21 @@ providers:
   tags: *id012
   url: /providers/microsoft-cognitive-services/
 - agent_band: agent-ready
-  agent_readiness: 31.9
+  agent_readiness: 37.7
   band: exemplar
   in_catalog: true
-  kin_score: 76.8
+  kin_score: 81.9
   mcp: *id013
   name: Azure DevOps
   slug: microsoft-azure-devops
   status: profiled
   tags: *id014
   url: /providers/microsoft-azure-devops/
-- agent_band: agent-aware
-  agent_readiness: 23.4
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 29.9
+  band: exemplar
   in_catalog: true
-  kin_score: 44.6
+  kin_score: 68.3
   mcp: *id015
   name: Azure OpenAI
   slug: microsoft-azure-openai
@@ -1203,10 +1203,10 @@ providers:
   tags: *id016
   url: /providers/microsoft-azure-openai/
 - agent_band: agent-aware
-  agent_readiness: 6.0
+  agent_readiness: 5.8
   band: emerging
   in_catalog: true
-  kin_score: 18.5
+  kin_score: 17.4
   mcp: *id017
   name: Baidu Translate
   slug: baidu
@@ -1214,10 +1214,10 @@ providers:
   tags: *id018
   url: /providers/baidu/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 35.3
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 71.9
   mcp: *id019
   name: Bitbucket
   slug: bitbucket
@@ -1225,10 +1225,10 @@ providers:
   tags: *id020
   url: /providers/bitbucket/
 - agent_band: agent-ready
-  agent_readiness: 36.4
+  agent_readiness: 36.1
   band: strong
   in_catalog: true
-  kin_score: 60.8
+  kin_score: 61.4
   mcp: *id021
   name: DeepL
   slug: deepl
@@ -1236,10 +1236,10 @@ providers:
   tags: *id022
   url: /providers/deepl/
 - agent_band: agent-aware
-  agent_readiness: 13.7
+  agent_readiness: 10.6
   band: emerging
   in_catalog: true
-  kin_score: 11.6
+  kin_score: 16.2
   mcp: *id023
   name: European Commission eTranslation
   slug: european-commission-etranslation
@@ -1250,7 +1250,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.4
+  kin_score: 6.8
   mcp: *id025
   name: Gerrit Code Review
   slug: gerrit
@@ -1258,10 +1258,10 @@ providers:
   tags: *id026
   url: /providers/gerrit/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 35.0
   band: exemplar
   in_catalog: true
-  kin_score: 69.8
+  kin_score: 68.1
   mcp: *id027
   name: Gitea
   slug: gitea
@@ -1269,10 +1269,10 @@ providers:
   tags: *id028
   url: /providers/gitea/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id029
   name: GitHub
   slug: github
@@ -1280,10 +1280,10 @@ providers:
   tags: *id030
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id031
   name: GitLab
   slug: gitlab
@@ -1294,18 +1294,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.5
+  kin_score: 7.0
   mcp: *id033
   name: Glosbe
   slug: glosbe
   status: profiled
   tags: *id034
   url: /providers/glosbe/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 37.0
+  band: strong
   in_catalog: true
-  kin_score: 39.1
+  kin_score: 59.9
   mcp: *id035
   name: Google Cloud Error Reporting
   slug: google-cloud-error-reporting
@@ -1313,21 +1313,21 @@ providers:
   tags: *id036
   url: /providers/google-cloud-error-reporting/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id037
   name: Google Cloud Storage
   slug: gcp-cloud-storage
   status: profiled
   tags: *id038
   url: /providers/gcp-cloud-storage/
-- agent_band: agent-aware
-  agent_readiness: 17.9
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 33.9
+  band: exemplar
   in_catalog: true
-  kin_score: 51.6
+  kin_score: 68.0
   mcp: *id039
   name: Google Cloud Translation
   slug: google-translate
@@ -1335,21 +1335,21 @@ providers:
   tags: *id040
   url: /providers/google-translate/
 - agent_band: agent-aware
-  agent_readiness: 23.8
-  band: thin
+  agent_readiness: 23.3
+  band: emerging
   in_catalog: true
-  kin_score: 26.2
+  kin_score: 24.3
   mcp: *id041
   name: LibreTranslate
   slug: libre-translate
   status: profiled
   tags: *id042
   url: /providers/libre-translate/
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.2
   band: developing
   in_catalog: true
-  kin_score: 47.7
+  kin_score: 47.3
   mcp: *id043
   name: Mistral AI
   slug: mistral
@@ -1357,10 +1357,10 @@ providers:
   tags: *id044
   url: /providers/mistral/
 - agent_band: agent-ready
-  agent_readiness: 43.4
-  band: thin
+  agent_readiness: 42.9
+  band: developing
   in_catalog: true
-  kin_score: 27.6
+  kin_score: 39.3
   mcp: *id045
   name: ModernMT
   slug: modernmt
@@ -1371,7 +1371,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.0
+  kin_score: 10.9
   mcp: *id047
   name: MyMemory (Translated)
   slug: mymemory
@@ -1379,10 +1379,10 @@ providers:
   tags: *id048
   url: /providers/mymemory/
 - agent_band: agent-aware
-  agent_readiness: 10.8
+  agent_readiness: 10.6
   band: minimal
   in_catalog: true
-  kin_score: 5.1
+  kin_score: 4.3
   mcp: *id049
   name: NetEase Youdao
   slug: youdao
@@ -1393,7 +1393,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id051
   name: Ollama
   slug: ollama
@@ -1401,10 +1401,10 @@ providers:
   tags: *id052
   url: /providers/ollama/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id053
   name: OpenAI
   slug: openai
@@ -1415,7 +1415,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.4
+  kin_score: 7.9
   mcp: *id055
   name: Pagure
   slug: pagure
@@ -1423,10 +1423,10 @@ providers:
   tags: *id056
   url: /providers/pagure/
 - agent_band: agent-ready
-  agent_readiness: 30.8
+  agent_readiness: 30.2
   band: developing
   in_catalog: true
-  kin_score: 49.4
+  kin_score: 48.1
   mcp: *id057
   name: Rollbar
   slug: rollbar
@@ -1434,10 +1434,10 @@ providers:
   tags: *id058
   url: /providers/rollbar/
 - agent_band: agent-aware
-  agent_readiness: 13.6
+  agent_readiness: 13.3
   band: emerging
   in_catalog: true
-  kin_score: 23.5
+  kin_score: 22.7
   mcp: *id059
   name: SAP Translation Hub
   slug: sap-btp
@@ -1448,7 +1448,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id061
   name: Sentry
   slug: sentry-system
@@ -1456,10 +1456,10 @@ providers:
   tags: *id062
   url: /providers/sentry-system/
 - agent_band: agent-aware
-  agent_readiness: 21.3
-  band: thin
+  agent_readiness: 20.9
+  band: emerging
   in_catalog: true
-  kin_score: 26.5
+  kin_score: 25.5
   mcp: *id063
   name: SYSTRAN
   slug: systran
@@ -1467,10 +1467,10 @@ providers:
   tags: *id064
   url: /providers/systran/
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 29.9
   band: thin
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 36.5
   mcp: *id065
   name: Yandex Translate
   slug: yandex-translate

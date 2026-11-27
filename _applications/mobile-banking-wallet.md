@@ -822,12 +822,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Wise
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -844,12 +844,12 @@ stack:
       tier: declared
       url: /providers/xero/
     - agent_band: agent-ready
-      agent_readiness: 36.1
+      agent_readiness: 39.9
       apps:
       - Wise
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 73.1
       mcp:
         status: none
       name: Microsoft Dynamics 365 Business Central
@@ -864,13 +864,13 @@ stack:
       - Finance
       tier: declared
       url: /providers/microsoft-dynamics-365-business-central/
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Wise
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -887,12 +887,12 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-aware
-      agent_readiness: 18.9
+      agent_readiness: 18.6
       apps:
       - Wise
       band: developing
       in_catalog: true
-      kin_score: 45.5
+      kin_score: 47.5
       mcp:
         source: https://www.zoho.com/mcp/
         status: documented
@@ -909,12 +909,12 @@ stack:
       tier: declared
       url: /providers/zoho-books/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.6
       apps:
       - Wise
       band: developing
       in_catalog: true
-      kin_score: 41.8
+      kin_score: 41.7
       mcp:
         status: none
       name: Sage Business Cloud Accounting
@@ -930,12 +930,12 @@ stack:
       tier: declared
       url: /providers/sage/
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 25.1
       apps:
       - Wise
       band: developing
       in_catalog: true
-      kin_score: 41.0
+      kin_score: 39.7
       mcp:
         status: none
       name: FreeAgent
@@ -950,55 +950,13 @@ stack:
       - Small Business
       tier: declared
       url: /providers/freeagent/
-    - agent_band: agent-aware
-      agent_readiness: 16.1
-      apps:
-      - Wise
-      band: thin
-      in_catalog: true
-      kin_score: 28.1
-      mcp:
-        status: none
-      name: Wave
-      slug: wave-financial
-      sources:
-      - https://wise.com/us/business/accounting-software
-      status: profiled
-      tags:
-      - Accounting
-      - Finance
-      - Invoicing
-      - Small Business
-      tier: declared
-      url: /providers/wave-financial/
-    - agent_band: agent-aware
-      agent_readiness: 17.9
-      apps:
-      - Wise
-      band: thin
-      in_catalog: true
-      kin_score: 27.9
-      mcp:
-        status: none
-      name: Odoo
-      slug: odoo
-      sources:
-      - https://wise.com/us/business/accounting-software
-      status: profiled
-      tags:
-      - Business Applications
-      - CRM
-      - ERP
-      - Open Source
-      tier: declared
-      url: /providers/odoo/
     - agent_band: agent-ready
-      agent_readiness: 29.9
+      agent_readiness: 29.7
       apps:
       - Wise
       band: thin
       in_catalog: true
-      kin_score: 26.6
+      kin_score: 27.8
       mcp:
         source: https://mcp.hellobonsai.com/mcp
         status: verified
@@ -1014,13 +972,55 @@ stack:
       - Freelancing
       tier: declared
       url: /providers/bonsai/
+    - agent_band: agent-aware
+      agent_readiness: 17.5
+      apps:
+      - Wise
+      band: thin
+      in_catalog: true
+      kin_score: 27.6
+      mcp:
+        status: none
+      name: Odoo
+      slug: odoo
+      sources:
+      - https://wise.com/us/business/accounting-software
+      status: profiled
+      tags:
+      - Business Applications
+      - CRM
+      - ERP
+      - Open Source
+      tier: declared
+      url: /providers/odoo/
+    - agent_band: agent-aware
+      agent_readiness: 15.8
+      apps:
+      - Wise
+      band: thin
+      in_catalog: true
+      kin_score: 26.9
+      mcp:
+        status: none
+      name: Wave
+      slug: wave-financial
+      sources:
+      - https://wise.com/us/business/accounting-software
+      status: profiled
+      tags:
+      - Accounting
+      - Finance
+      - Invoicing
+      - Small Business
+      tier: declared
+      url: /providers/wave-financial/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Wise
       band: emerging
       in_catalog: true
-      kin_score: 12.5
+      kin_score: 11.4
       mcp:
         status: none
       name: Oracle NetSuite
@@ -1044,13 +1044,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Mifos Mobile (openMF mifos-mobile)
       - Mifos Pay (openMF mobile-wallet)
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.8
+      kin_score: 15.1
       mcp:
         status: none
       name: Apache Fineract (Mifos platform)
@@ -1080,7 +1080,7 @@ stack:
       - Cash App
       band: minimal
       in_catalog: true
-      kin_score: 4.3
+      kin_score: 5.9
       mcp:
         status: unknown
       name: Sutton Bank
@@ -1104,12 +1104,12 @@ stack:
       via_parent: Consumer Payment Options
     providers:
     - agent_band: agent-aware
-      agent_readiness: 13.0
+      agent_readiness: 12.8
       apps:
       - Cash App
       band: minimal
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 9.2
       mcp:
         status: none
       name: Afterpay
@@ -1133,12 +1133,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.4
+      agent_readiness: 44.5
       apps:
       - Cash App
       band: developing
       in_catalog: true
-      kin_score: 44.2
+      kin_score: 43.6
       mcp:
         source: https://github.com/visa/ai
         status: verified
@@ -1163,12 +1163,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.6
+      agent_readiness: 23.1
       apps:
       - Cash App
       band: developing
       in_catalog: true
-      kin_score: 44.5
+      kin_score: 45.6
       mcp:
         status: none
       name: Gigs (Cash App Mobile)
@@ -1193,41 +1193,41 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Cash App
       - Mifos Mobile (openMF mifos-mobile)
       - Mifos Pay (openMF mobile-wallet)
       - Revolut
       - Wise
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/openMF/mifos-mobile/dev/gradle/libs.versions.toml
       - https://raw.githubusercontent.com/openMF/mobile-wallet/dev/gradle/libs.versions.toml
       - https://reports.exodus-privacy.eu.org/en/reports/com.revolut.revolut/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 47.7
       apps:
       - Wise
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -1251,19 +1251,19 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Mifos Mobile (openMF mifos-mobile)
       - Mifos Pay (openMF mobile-wallet)
       - Revolut
       - Wise
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/openMF/mifos-mobile/dev/gradle/libs.versions.toml
       - https://raw.githubusercontent.com/openMF/mobile-wallet/dev/gradle/libs.versions.toml
@@ -1271,14 +1271,14 @@ stack:
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Cash App
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -1303,13 +1303,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Cash App
       - Revolut
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -1327,12 +1327,12 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-ready
-      agent_readiness: 50.0
+      agent_readiness: 48.9
       apps:
       - Wise
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.4
+      kin_score: 65.9
       mcp:
         status: none
       name: Singular
@@ -1348,12 +1348,12 @@ stack:
       tier: observed
       url: /providers/singular/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 23.3
       apps:
       - PayPal
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.9
+      kin_score: 30.9
       mcp:
         status: none
       name: Adjust
@@ -1376,34 +1376,13 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 28.2
-      apps:
-      - Wise
-      band: developing
-      in_catalog: true
-      kin_score: 42.7
-      mcp:
-        status: none
-      name: Facebook Login
-      slug: facebook
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.transferwise.android/latest/
-      status: profiled
-      tags:
-      - Advertising
-      - Content Publishing
-      - Facebook
-      - Fortune 500
-      tier: observed
-      url: /providers/facebook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Mifos Pay (openMF mobile-wallet)
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -1418,6 +1397,27 @@ stack:
       - Multi-Tenancy
       tier: observed
       url: /providers/google-identity-platform/
+    - agent_band: agent-aware
+      agent_readiness: 28.1
+      apps:
+      - Wise
+      band: developing
+      in_catalog: true
+      kin_score: 43.7
+      mcp:
+        status: none
+      name: Facebook Login
+      slug: facebook
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.transferwise.android/latest/
+      status: profiled
+      tags:
+      - Advertising
+      - Content Publishing
+      - Facebook
+      - Fortune 500
+      tier: observed
+      url: /providers/facebook/
   - capability:
       attribution: Turbo EA
       id: BC-4270.70
@@ -1426,14 +1426,14 @@ stack:
       url: /capabilities/software-marketplace-listing-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Mifos Mobile (openMF mifos-mobile)
       - Mifos Pay (openMF mobile-wallet)
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: Google Play (Integrity, In-App Review, In-App Update)
@@ -1458,12 +1458,12 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Mifos Mobile (openMF mifos-mobile)
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -1488,12 +1488,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 19.6
       apps:
       - PayPal
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 45.7
       mcp:
         status: none
       name: Qualtrics
@@ -1517,12 +1517,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.1
+      agent_readiness: 53.0
       apps:
       - PayPal
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.1
       mcp:
         source: https://github.com/adobe/cq-quickstart-mcp-server
         status: verified
@@ -1546,22 +1546,22 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Mifos Mobile (openMF mifos-mobile)
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/openMF/mifos-mobile/dev/gradle/libs.versions.toml
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   layer: common
 summary:
   coverage_pct: 100.0
@@ -1574,7 +1574,7 @@ summary:
     unchecked: 0
     verified: 10
   mcp_verified: 10
-  mean_kin_score: 44.5
+  mean_kin_score: 47.0
   observed: 12
   queued: 0
   reference_apps: 6

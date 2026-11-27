@@ -119,10 +119,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.8
-    band: strong
+    agent_readiness: 37.9
+    band: exemplar
     in_catalog: true
-    kin_score: 60.5
+    kin_score: 68.5
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -149,11 +149,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 58.9
+    agent_band: agent-native
+    agent_readiness: 65.5
     band: strong
     in_catalog: true
-    kin_score: 57.1
+    kin_score: 58.7
     mcp: &id003
       source: https://docs.databricks.com/aws/en/generative-ai/mcp/
       status: verified
@@ -180,22 +180,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id005
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id006
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Cloud Messaging
   provider: firebase
@@ -212,10 +212,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 32.6
+    kin_score: 31.6
     mcp: &id007
       source: https://github.com/mailgun/mailgun-mcp-server
       status: verified
@@ -243,10 +243,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 27.0
-    band: strong
+    agent_readiness: 26.4
+    band: exemplar
     in_catalog: true
-    kin_score: 65.5
+    kin_score: 69.2
     mcp: &id009
       status: none
     slug: solarwinds
@@ -273,10 +273,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id011
       source: https://github.com/PostHog/mcp
       status: verified
@@ -304,10 +304,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.4
+    agent_readiness: 49.8
     band: strong
     in_catalog: true
-    kin_score: 58.9
+    kin_score: 56.8
     mcp: &id013
       source: https://resend.com/docs/mcp-server
       status: verified
@@ -335,10 +335,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id015
       status: none
     slug: sendgrid
@@ -368,7 +368,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id017
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -396,10 +396,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id019
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -427,10 +427,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id021
       source: https://docs.stripe.com/mcp
       status: verified
@@ -458,10 +458,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 53.1
+    agent_readiness: 52.1
     band: exemplar
     in_catalog: true
-    kin_score: 74.5
+    kin_score: 74.7
     mcp: &id023
       status: none
     slug: svix
@@ -488,10 +488,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id025
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -517,43 +517,43 @@ noindex: false
 permalink: /applications/marketing-automation/laudspeaker/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 40.8
-  band: strong
+  agent_readiness: 37.9
+  band: exemplar
   in_catalog: true
-  kin_score: 60.5
+  kin_score: 68.5
   mcp: *id001
   name: AWS
   slug: amazon-web-services
   status: profiled
   tags: *id002
   url: /providers/amazon-web-services/
-- agent_band: agent-ready
-  agent_readiness: 58.9
+- agent_band: agent-native
+  agent_readiness: 65.5
   band: strong
   in_catalog: true
-  kin_score: 57.1
+  kin_score: 58.7
   mcp: *id003
   name: Databricks
   slug: databricks
   status: profiled
   tags: *id004
   url: /providers/databricks/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id005
   name: Firebase Cloud Messaging
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id006
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 32.6
+  kin_score: 31.6
   mcp: *id007
   name: Mailgun
   slug: mailgun
@@ -561,10 +561,10 @@ providers:
   tags: *id008
   url: /providers/mailgun/
 - agent_band: agent-aware
-  agent_readiness: 27.0
-  band: strong
+  agent_readiness: 26.4
+  band: exemplar
   in_catalog: true
-  kin_score: 65.5
+  kin_score: 69.2
   mcp: *id009
   name: Papertrail
   slug: solarwinds
@@ -572,10 +572,10 @@ providers:
   tags: *id010
   url: /providers/solarwinds/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id011
   name: PostHog
   slug: posthog
@@ -583,10 +583,10 @@ providers:
   tags: *id012
   url: /providers/posthog/
 - agent_band: agent-ready
-  agent_readiness: 49.4
+  agent_readiness: 49.8
   band: strong
   in_catalog: true
-  kin_score: 58.9
+  kin_score: 56.8
   mcp: *id013
   name: Resend
   slug: resend
@@ -594,10 +594,10 @@ providers:
   tags: *id014
   url: /providers/resend/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id015
   name: SendGrid
   slug: sendgrid
@@ -608,7 +608,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id017
   name: Sentry
   slug: sentry-system
@@ -616,10 +616,10 @@ providers:
   tags: *id018
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id019
   name: Slack
   slug: slack
@@ -627,10 +627,10 @@ providers:
   tags: *id020
   url: /providers/slack/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id021
   name: Stripe
   slug: stripe
@@ -638,10 +638,10 @@ providers:
   tags: *id022
   url: /providers/stripe/
 - agent_band: agent-native
-  agent_readiness: 53.1
+  agent_readiness: 52.1
   band: exemplar
   in_catalog: true
-  kin_score: 74.5
+  kin_score: 74.7
   mcp: *id023
   name: Svix
   slug: svix
@@ -649,10 +649,10 @@ providers:
   tags: *id024
   url: /providers/svix/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id025
   name: Twilio
   slug: twilio

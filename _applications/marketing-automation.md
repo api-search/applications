@@ -2129,7 +2129,7 @@ needs:
     name: Analytics & BI Management
     url: /capabilities/analytics-bi-management/
     via_parent: null
-  fit: nearest
+  fit: exact
   layer: common
   why: Cloud data warehouses as source and sink for marketing data.
 - capability:
@@ -2203,14 +2203,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.7
+      agent_readiness: 42.1
       apps:
       - Braze
       - Customer.io
       - HubSpot Marketing Hub
       band: exemplar
       in_catalog: true
-      kin_score: 73.1
+      kin_score: 73.4
       mcp:
         source: https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server
         status: verified
@@ -2229,14 +2229,14 @@ stack:
       tier: declared
       url: /providers/google-ads/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Braze
       - Customer.io
       - HubSpot Marketing Hub
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id001
         status: none
       name: Meta Ads
@@ -2254,14 +2254,14 @@ stack:
       tier: declared
       url: /providers/facebook/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Braze
       - Customer.io
       - HubSpot Marketing Hub
       band: developing
       in_catalog: true
-      kin_score: 41.0
+      kin_score: 40.5
       mcp: &id007
         status: none
       name: TikTok Ads
@@ -2279,13 +2279,13 @@ stack:
       tier: declared
       url: /providers/tiktok/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - Braze
       - HubSpot Marketing Hub
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp: &id005
         status: none
       name: LinkedIn Ads
@@ -2302,13 +2302,13 @@ stack:
       tier: declared
       url: /providers/linkedin/
     - agent_band: agent-ready
-      agent_readiness: 39.3
+      agent_readiness: 38.9
       apps:
       - Braze
       - Customer.io
       band: strong
       in_catalog: true
-      kin_score: 61.6
+      kin_score: 62.2
       mcp:
         status: none
       name: Criteo
@@ -2325,13 +2325,13 @@ stack:
       tier: declared
       url: /providers/criteo/
     - agent_band: agent-ready
-      agent_readiness: 38.4
+      agent_readiness: 37.6
       apps:
       - Braze
       - Customer.io
       band: developing
       in_catalog: true
-      kin_score: 49.4
+      kin_score: 47.7
       mcp:
         source: https://developers.pinterest.com/about-pinterest-mcp/
         status: verified
@@ -2349,13 +2349,13 @@ stack:
       tier: declared
       url: /providers/pinterest/
     - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 11.7
       apps:
       - Customer.io
       - HubSpot Marketing Hub
       band: developing
       in_catalog: true
-      kin_score: 42.5
+      kin_score: 47.4
       mcp:
         status: none
       name: Microsoft Ads
@@ -2372,12 +2372,12 @@ stack:
       tier: declared
       url: /providers/microsoft-advertising/
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp: &id009
         status: none
       name: Mailchimp
@@ -2393,12 +2393,12 @@ stack:
       tier: observed
       url: /providers/mailchimp/
     - agent_band: agent-ready
-      agent_readiness: 32.1
+      agent_readiness: 31.4
       apps:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 70.9
+      kin_score: 67.7
       mcp:
         status: none
       name: Constant Contact
@@ -2414,12 +2414,12 @@ stack:
       tier: observed
       url: /providers/constant-contact/
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 25.5
       apps:
       - Mautic
       band: strong
       in_catalog: true
-      kin_score: 55.7
+      kin_score: 55.3
       mcp:
         status: none
       name: iContact
@@ -2435,12 +2435,12 @@ stack:
       tier: observed
       url: /providers/icontact/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - HubSpot Marketing Hub
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: &id013
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -2457,12 +2457,12 @@ stack:
       tier: declared
       url: /providers/openai/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Customer.io
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp: &id003
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -2479,12 +2479,12 @@ stack:
       tier: declared
       url: /providers/x/
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 47.1
       apps:
       - Braze
       band: strong
       in_catalog: true
-      kin_score: 65.7
+      kin_score: 65.8
       mcp:
         status: none
       name: Snapchat
@@ -2500,12 +2500,12 @@ stack:
       tier: declared
       url: /providers/snapchat/
     - agent_band: agent-ready
-      agent_readiness: 39.1
+      agent_readiness: 43.0
       apps:
       - HubSpot Marketing Hub
       band: strong
       in_catalog: true
-      kin_score: 63.0
+      kin_score: 64.4
       mcp:
         source: https://github.com/reddit/devvit-mcp
         status: verified
@@ -2522,12 +2522,12 @@ stack:
       tier: declared
       url: /providers/reddit/
     - agent_band: agent-ready
-      agent_readiness: 44.2
+      agent_readiness: 43.3
       apps:
       - Braze
       band: strong
       in_catalog: true
-      kin_score: 57.8
+      kin_score: 57.5
       mcp:
         status: none
       name: The Trade Desk
@@ -2551,7 +2551,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Braze
       - Customer.io
@@ -2559,7 +2559,7 @@ stack:
       - Mailchimp
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -2577,12 +2577,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Laudspeaker
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -2599,12 +2599,12 @@ stack:
       tier: observed
       url: /providers/posthog/
     - agent_band: agent-ready
-      agent_readiness: 58.1
+      agent_readiness: 56.9
       apps:
       - Braze
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 79.1
       mcp:
         source: https://github.com/rudderlabs/rudderstack-mcp
         status: verified
@@ -2621,12 +2621,12 @@ stack:
       tier: declared
       url: /providers/rudderstack/
     - agent_band: agent-ready
-      agent_readiness: 63.8
+      agent_readiness: 62.8
       apps:
       - Braze
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 66.9
       mcp:
         source: https://hightouch.com/docs/ai-integrations/mcp
         status: documented
@@ -2643,12 +2643,12 @@ stack:
       tier: declared
       url: /providers/hightouch/
     - agent_band: agent-ready
-      agent_readiness: 35.6
+      agent_readiness: 34.9
       apps:
       - Braze
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.3
+      kin_score: 66.5
       mcp:
         source: https://docs.tealium.com/server-side/config-mcp/about-config-mcp/
         status: documented
@@ -2665,12 +2665,12 @@ stack:
       tier: declared
       url: /providers/tealium/
     - agent_band: agent-aware
-      agent_readiness: 26.5
+      agent_readiness: 26.0
       apps:
       - Braze
       band: strong
       in_catalog: true
-      kin_score: 64.8
+      kin_score: 59.8
       mcp:
         status: none
       name: Census (Fivetran Activations)
@@ -2686,12 +2686,12 @@ stack:
       tier: declared
       url: /providers/getcensus/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Braze
       band: strong
       in_catalog: true
-      kin_score: 58.7
+      kin_score: 59.5
       mcp:
         status: none
       name: mParticle
@@ -2707,12 +2707,12 @@ stack:
       tier: declared
       url: /providers/mparticle/
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 37.4
       apps:
       - Dittofeed
       band: developing
       in_catalog: true
-      kin_score: 46.1
+      kin_score: 45.5
       mcp:
         source: https://github.com/polytomic/mcp-connector
         status: verified
@@ -2737,14 +2737,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Customer.io
       - Dittofeed
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -2763,13 +2763,13 @@ stack:
       tier: observed
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Customer.io
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2787,12 +2787,12 @@ stack:
       tier: observed
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 44.2
+      agent_readiness: 43.3
       apps:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 86.0
+      kin_score: 85.4
       mcp:
         status: none
       name: Zoho CRM
@@ -2807,34 +2807,13 @@ stack:
       - Sales
       tier: observed
       url: /providers/zoho-crm/
-    - agent_band: agent-aware
-      agent_readiness: 25.2
+    - agent_band: agent-ready
+      agent_readiness: 37.6
       apps:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 67.6
-      mcp:
-        status: none
-      name: SugarCRM
-      slug: sugarcrm
-      sources:
-      - https://github.com/mautic/mautic/tree/7.x/plugins/MauticCrmBundle/Integration
-      status: profiled
-      tags:
-      - CRM
-      - Company
-      - Sales
-      - Software-as-a-Service
-      tier: observed
-      url: /providers/sugarcrm/
-    - agent_band: agent-ready
-      agent_readiness: 33.1
-      apps:
-      - Mautic
-      band: strong
-      in_catalog: true
-      kin_score: 63.9
+      kin_score: 67.7
       mcp:
         source: https://github.com/microsoft/Dataverse-MCP
         status: verified
@@ -2851,12 +2830,33 @@ stack:
       tier: observed
       url: /providers/microsoft-dynamics-365/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 24.6
       apps:
       - Mautic
-      band: emerging
+      band: exemplar
       in_catalog: true
-      kin_score: 25.7
+      kin_score: 67.0
+      mcp:
+        status: none
+      name: SugarCRM
+      slug: sugarcrm
+      sources:
+      - https://github.com/mautic/mautic/tree/7.x/plugins/MauticCrmBundle/Integration
+      status: profiled
+      tags:
+      - CRM
+      - Company
+      - Sales
+      - Software-as-a-Service
+      tier: observed
+      url: /providers/sugarcrm/
+    - agent_band: agent-aware
+      agent_readiness: 10.6
+      apps:
+      - Mautic
+      band: thin
+      in_catalog: true
+      kin_score: 34.7
       mcp:
         status: none
       name: Vtiger
@@ -2872,12 +2872,12 @@ stack:
       tier: observed
       url: /providers/vtiger/
     - agent_band: agent-aware
-      agent_readiness: 20.8
+      agent_readiness: 14.8
       apps:
       - Mautic
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.0
+      kin_score: 31.5
       mcp:
         source: https://www.connectwise.com/blog/what-mcp-could-mean-for-msps
         status: documented
@@ -2894,12 +2894,12 @@ stack:
       tier: observed
       url: /providers/connectwise/
     - agent_band: agent-ready
-      agent_readiness: 29.3
+      agent_readiness: 28.7
       apps:
       - Customer.io
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 55.3
       mcp:
         status: none
       name: Pipedrive
@@ -2923,13 +2923,13 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.9
+      agent_readiness: 38.6
       apps:
       - HubSpot Marketing Hub
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 69.0
+      kin_score: 67.8
       mcp:
         status: none
       name: Instagram
@@ -2946,13 +2946,13 @@ stack:
       tier: observed
       url: /providers/instagram/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - HubSpot Marketing Hub
       - Mautic
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id001
       name: Facebook
       slug: facebook
@@ -2964,12 +2964,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp: *id003
       name: Twitter (X)
       slug: x
@@ -2980,12 +2980,12 @@ stack:
       tier: observed
       url: /providers/x/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - HubSpot Marketing Hub
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp: *id005
       name: LinkedIn
       slug: linkedin
@@ -2996,12 +2996,12 @@ stack:
       tier: declared
       url: /providers/linkedin/
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - HubSpot Marketing Hub
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube
@@ -3017,12 +3017,12 @@ stack:
       tier: declared
       url: /providers/youtube/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - HubSpot Marketing Hub
       band: developing
       in_catalog: true
-      kin_score: 41.0
+      kin_score: 40.5
       mcp: *id007
       name: TikTok
       slug: tiktok
@@ -3040,34 +3040,13 @@ stack:
       url: /capabilities/device-ip-location/
       via_parent: Device & IP Location
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 32.7
+    - agent_band: agent-aware
+      agent_readiness: 18.2
       apps:
       - Mautic
       band: developing
       in_catalog: true
-      kin_score: 47.1
-      mcp:
-        status: none
-      name: ipstack
-      slug: ipstack
-      sources:
-      - https://github.com/mautic/mautic/tree/7.x/app/bundles/CoreBundle/IpLookup
-      status: profiled
-      tags:
-      - Geocoding
-      - IP Geolocation
-      - Location
-      - Threat Intelligence
-      tier: observed
-      url: /providers/ipstack/
-    - agent_band: agent-aware
-      agent_readiness: 18.0
-      apps:
-      - Mautic
-      band: thin
-      in_catalog: true
-      kin_score: 36.8
+      kin_score: 45.1
       mcp:
         source: https://github.com/iplocate/mcp-server-iplocate
         status: verified
@@ -3083,13 +3062,34 @@ stack:
       - Threat Detection
       tier: observed
       url: /providers/iplocate/
+    - agent_band: agent-ready
+      agent_readiness: 32.0
+      apps:
+      - Mautic
+      band: developing
+      in_catalog: true
+      kin_score: 43.3
+      mcp:
+        status: none
+      name: ipstack
+      slug: ipstack
+      sources:
+      - https://github.com/mautic/mautic/tree/7.x/app/bundles/CoreBundle/IpLookup
+      status: profiled
+      tags:
+      - Geocoding
+      - IP Geolocation
+      - Location
+      - Threat Intelligence
+      tier: observed
+      url: /providers/ipstack/
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 23.7
       apps:
       - Mautic
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 31.5
       mcp:
         status: none
       name: MaxMind
@@ -3108,9 +3108,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Mautic
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.7
+      kin_score: 13.5
       mcp:
         status: unknown
       name: Extreme IP Lookup
@@ -3131,7 +3131,7 @@ stack:
       - Mautic
       band: minimal
       in_catalog: true
-      kin_score: 6.2
+      kin_score: 8.3
       mcp:
         status: unknown
       name: Geobytes
@@ -3152,7 +3152,7 @@ stack:
       - Mautic
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 5.0
       mcp:
         source: https://github.com/ip2location/mcp-ip2location-io
         status: verified
@@ -3172,7 +3172,7 @@ stack:
       - Mautic
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 4.3
       mcp:
         status: none
       name: IPInfoDB
@@ -3194,13 +3194,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Braze
       - Mailchimp
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -3214,12 +3214,12 @@ stack:
       tier: observed
       url: /providers/branch-io/
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Braze
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3236,12 +3236,12 @@ stack:
       tier: declared
       url: /providers/appsflyer/
     - agent_band: agent-ready
-      agent_readiness: 50.0
+      agent_readiness: 48.9
       apps:
       - Braze
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.4
+      kin_score: 65.9
       mcp:
         status: none
       name: Singular
@@ -3257,12 +3257,12 @@ stack:
       tier: declared
       url: /providers/singular/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 23.3
       apps:
       - Braze
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.9
+      kin_score: 30.9
       mcp:
         status: none
       name: Adjust
@@ -3302,14 +3302,14 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Dittofeed
       - Mautic
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -3327,12 +3327,12 @@ stack:
       tier: observed
       url: /providers/google-gmail/
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3357,12 +3357,12 @@ stack:
       via_parent: Company & Contact Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.6
       apps:
       - Mautic
       band: strong
       in_catalog: true
-      kin_score: 58.8
+      kin_score: 60.1
       mcp:
         status: none
       name: FullContact
@@ -3378,12 +3378,12 @@ stack:
       tier: observed
       url: /providers/fullcontact/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 24.6
       apps:
       - Mautic
       band: strong
       in_catalog: true
-      kin_score: 57.9
+      kin_score: 59.3
       mcp:
         status: none
       name: Clearbit
@@ -3407,12 +3407,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.3
+      agent_readiness: 22.8
       apps:
       - Mautic
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 45.1
       mcp:
         source: https://github.com/foursquare/foursquare-places-mcp
         status: verified
@@ -3437,12 +3437,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 42.4
+      agent_readiness: 44.3
       apps:
       - Braze
       band: developing
       in_catalog: true
-      kin_score: 52.9
+      kin_score: 52.8
       mcp:
         status: none
       name: Lob
@@ -3467,7 +3467,7 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Customer.io
       - Dittofeed
@@ -3475,7 +3475,7 @@ stack:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -3493,13 +3493,13 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - Dittofeed
       - Laudspeaker
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -3517,12 +3517,12 @@ stack:
       tier: observed
       url: /providers/resend/
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - Dittofeed
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -3538,12 +3538,12 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Dittofeed
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp: *id009
       name: Mailchimp (Mandrill)
       slug: mailchimp
@@ -3554,12 +3554,12 @@ stack:
       tier: observed
       url: /providers/mailchimp/
     - agent_band: agent-ready
-      agent_readiness: 41.7
+      agent_readiness: 43.0
       apps:
       - Dittofeed
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 70.5
       mcp:
         source: https://github.com/ActiveCampaign/postmark-mcp
         status: verified
@@ -3576,12 +3576,12 @@ stack:
       tier: observed
       url: /providers/postmark/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - Laudspeaker
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -3598,12 +3598,12 @@ stack:
       tier: observed
       url: /providers/mailgun/
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 25.6
       apps:
       - Mautic
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 37.1
       mcp:
         status: none
       name: SparkPost
@@ -3626,38 +3626,38 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - HubSpot Marketing Hub
       - Mailchimp
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id011
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics / Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.hubspot.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.mailchimp.mailchimp/latest/
       status: profiled
       tags: &id012
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Customer.io
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -3675,13 +3675,13 @@ stack:
       tier: declared
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Braze
       - Customer.io
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -3699,13 +3699,13 @@ stack:
       tier: declared
       url: /providers/amplitude/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 47.7
       apps:
       - Braze
       - Customer.io
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -3731,7 +3731,7 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Customer.io
       - Dittofeed
@@ -3739,7 +3739,7 @@ stack:
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -3758,12 +3758,12 @@ stack:
       tier: observed
       url: /providers/twilio/
     - agent_band: agent-ready
-      agent_readiness: 42.4
+      agent_readiness: 41.9
       apps:
       - Dittofeed
       band: exemplar
       in_catalog: true
-      kin_score: 77.2
+      kin_score: 74.2
       mcp:
         status: none
       name: SignalWire
@@ -3787,13 +3787,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 45.8
+      agent_readiness: 44.9
       apps:
       - Braze
       - Customer.io
       band: exemplar
       in_catalog: true
-      kin_score: 81.1
+      kin_score: 82.3
       mcp:
         source: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
         status: verified
@@ -3810,13 +3810,13 @@ stack:
       - Snowflake
       tier: declared
       url: /providers/snowflake/
-    - agent_band: agent-ready
-      agent_readiness: 58.9
+    - agent_band: agent-native
+      agent_readiness: 65.5
       apps:
       - Laudspeaker
       band: strong
       in_catalog: true
-      kin_score: 57.1
+      kin_score: 58.7
       mcp:
         source: https://docs.databricks.com/aws/en/generative-ai/mcp/
         status: verified
@@ -3833,12 +3833,12 @@ stack:
       tier: observed
       url: /providers/databricks/
     - agent_band: agent-ready
-      agent_readiness: 31.5
+      agent_readiness: 40.8
       apps:
       - Customer.io
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.7
+      kin_score: 57.1
       mcp:
         source: https://cloud.google.com/bigquery/docs/use-bigquery-mcp
         status: verified
@@ -3868,7 +3868,7 @@ stack:
       - Laudspeaker
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -3885,12 +3885,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - HubSpot Marketing Hub
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -3906,34 +3906,13 @@ stack:
       - DevOps
       tier: observed
       url: /providers/new-relic/
-    - agent_band: agent-ready
-      agent_readiness: 37.7
-      apps:
-      - Dittofeed
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.0
-      mcp:
-        status: none
-      name: HyperDX
-      slug: hyperdx
-      sources:
-      - https://raw.githubusercontent.com/dittofeed/dittofeed/main/packages/backend-lib/package.json
-      status: profiled
-      tags:
-      - Company
-      - Logging
-      - Monitoring
-      - Observability
-      tier: observed
-      url: /providers/hyperdx/
     - agent_band: agent-aware
-      agent_readiness: 27.0
+      agent_readiness: 26.4
       apps:
       - Laudspeaker
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.5
+      kin_score: 69.2
       mcp:
         status: none
       name: Papertrail
@@ -3948,6 +3927,27 @@ stack:
       - Infrastructure
       tier: observed
       url: /providers/solarwinds/
+    - agent_band: agent-ready
+      agent_readiness: 37.0
+      apps:
+      - Dittofeed
+      band: exemplar
+      in_catalog: true
+      kin_score: 68.5
+      mcp:
+        status: none
+      name: HyperDX
+      slug: hyperdx
+      sources:
+      - https://raw.githubusercontent.com/dittofeed/dittofeed/main/packages/backend-lib/package.json
+      status: profiled
+      tags:
+      - Company
+      - Logging
+      - Monitoring
+      - Observability
+      tier: observed
+      url: /providers/hyperdx/
   - capability:
       attribution: Turbo EA
       id: BC-430
@@ -3957,13 +3957,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Braze
       - Customer.io
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -3980,12 +3980,12 @@ stack:
       tier: declared
       url: /providers/zendesk/
     - agent_band: agent-ready
-      agent_readiness: 31.7
+      agent_readiness: 32.5
       apps:
       - Customer.io
       band: developing
       in_catalog: true
-      kin_score: 52.5
+      kin_score: 51.0
       mcp:
         source: https://developers.intercom.com/docs/guides/mcp
         status: verified
@@ -4009,14 +4009,14 @@ stack:
       url: /capabilities/media-asset-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Dittofeed
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4034,12 +4034,12 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Laudspeaker
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4064,12 +4064,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 19.6
       apps:
       - Mailchimp
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 45.7
       mcp:
         status: none
       name: Qualtrics
@@ -4085,12 +4085,12 @@ stack:
       tier: observed
       url: /providers/qualtrics/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.6
       apps:
       - HubSpot Marketing Hub
       band: thin
       in_catalog: true
-      kin_score: 34.2
+      kin_score: 32.4
       mcp:
         status: none
       name: Wootric
@@ -4114,13 +4114,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Customer.io
       - Laudspeaker
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -4146,13 +4146,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Braze
       - Laudspeaker
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -4178,13 +4178,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 62.9
+      agent_readiness: 61.6
       apps:
       - Braze
       - Mailchimp
       band: exemplar
       in_catalog: true
-      kin_score: 77.7
+      kin_score: 78.1
       mcp:
         source: https://support.optimizely.com/hc/en-us/articles/45320607594893
         status: documented
@@ -4209,24 +4209,24 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Dittofeed
       - Laudspeaker
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id011
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/dittofeed/dittofeed/tree/main/packages/backend-lib/src/destinations
       - https://raw.githubusercontent.com/laudspeaker/laudspeaker/main/packages/server/package.json
       status: profiled
       tags: *id012
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-910
@@ -4236,13 +4236,13 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Braze
       - Mautic
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -4268,12 +4268,12 @@ stack:
       via_parent: Webhook & Event Subscription Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 53.1
+      agent_readiness: 52.1
       apps:
       - Laudspeaker
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 74.7
       mcp:
         status: none
       name: Svix
@@ -4299,12 +4299,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Braze
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -4321,12 +4321,12 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Braze
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: *id013
       name: OpenAI
       slug: openai
@@ -4336,34 +4336,13 @@ stack:
       tags: *id014
       tier: declared
       url: /providers/openai/
-    - agent_band: agent-ready
-      agent_readiness: 31.3
+    - agent_band: agent-native
+      agent_readiness: 48.3
       apps:
       - Braze
       band: strong
       in_catalog: true
-      kin_score: 55.1
-      mcp:
-        status: none
-      name: Google Gemini
-      slug: google-gemini
-      sources:
-      - https://www.braze.com/docs/partners/home
-      status: profiled
-      tags:
-      - AI Agents
-      - Artificial Intelligence
-      - Code Generation
-      - Embeddings
-      tier: declared
-      url: /providers/google-gemini/
-    - agent_band: agent-ready
-      agent_readiness: 35.8
-      apps:
-      - Braze
-      band: developing
-      in_catalog: true
-      kin_score: 51.4
+      kin_score: 64.3
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4379,6 +4358,27 @@ stack:
       - Generative AI
       tier: declared
       url: /providers/amazon-bedrock/
+    - agent_band: agent-ready
+      agent_readiness: 35.0
+      apps:
+      - Braze
+      band: strong
+      in_catalog: true
+      kin_score: 61.7
+      mcp:
+        status: none
+      name: Google Gemini
+      slug: google-gemini
+      sources:
+      - https://www.braze.com/docs/partners/home
+      status: profiled
+      tags:
+      - AI Agents
+      - Artificial Intelligence
+      - Code Generation
+      - Embeddings
+      tier: declared
+      url: /providers/google-gemini/
   layer: agent
 summary:
   coverage_pct: 98.8
@@ -4391,7 +4391,7 @@ summary:
     unchecked: 1
     verified: 38
   mcp_verified: 38
-  mean_kin_score: 59.0
+  mean_kin_score: 60.3
   observed: 50
   queued: 1
   reference_apps: 7

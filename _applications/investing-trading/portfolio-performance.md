@@ -74,10 +74,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.4
-    band: strong
+    agent_readiness: 50.5
+    band: developing
     in_catalog: true
-    kin_score: 54.4
+    kin_score: 50.6
     mcp: &id001
       source: https://github.com/alphavantage/alpha_vantage_mcp
       status: verified
@@ -106,9 +106,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 6.7
+    kin_score: 11.2
     mcp: &id003
       status: unknown
     slug: amfi-india
@@ -135,10 +135,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.5
+    agent_readiness: 29.9
     band: thin
     in_catalog: true
-    kin_score: 39.1
+    kin_score: 38.9
     mcp: &id005
       status: none
     slug: binance
@@ -165,10 +165,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.0
+    agent_readiness: 13.7
     band: emerging
     in_catalog: true
-    kin_score: 17.4
+    kin_score: 17.3
     mcp: &id007
       status: none
     slug: bitfinex
@@ -194,10 +194,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.2
+    agent_readiness: 47.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 52.4
     mcp: &id009
       source: https://docs.coingecko.com/reference/mcp-server
       status: verified
@@ -228,7 +228,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 15.8
+    kin_score: 22.5
     mcp: &id011
       status: none
     slug: divvydiary
@@ -256,9 +256,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 7.8
+    kin_score: 11.0
     mcp: &id013
       status: none
     slug: european-central-bank
@@ -285,10 +285,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 58.3
+    agent_readiness: 53.1
     band: strong
     in_catalog: true
-    kin_score: 62.2
+    kin_score: 60.7
     mcp: &id015
       source: https://github.com/EodHistoricalData/EODHD-MCP-Server
       status: verified
@@ -316,10 +316,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.2
+    agent_readiness: 26.1
     band: thin
     in_catalog: true
-    kin_score: 30.4
+    kin_score: 31.9
     mcp: &id017
       status: none
     slug: eurostat
@@ -346,10 +346,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.6
+    agent_readiness: 23.1
     band: developing
     in_catalog: true
-    kin_score: 43.9
+    kin_score: 42.5
     mcp: &id019
       source: https://finnhub.io/docs/api
       status: documented
@@ -377,10 +377,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.9
+    agent_readiness: 37.5
     band: strong
     in_catalog: true
-    kin_score: 64.3
+    kin_score: 63.1
     mcp: &id021
       source: https://github.com/krakenfx/kraken-cli
       status: verified
@@ -434,10 +434,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 20.9
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id025
       status: none
     slug: mexc
@@ -464,10 +464,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 27.6
+    agent_readiness: 27.0
     band: thin
     in_catalog: true
-    kin_score: 34.4
+    kin_score: 36.2
     mcp: &id027
       status: none
     slug: nasdaq-data-link
@@ -494,10 +494,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 58.9
+    agent_readiness: 59.5
     band: exemplar
     in_catalog: true
-    kin_score: 68.2
+    kin_score: 66.9
     mcp: &id029
       source: https://github.com/twelvedata/mcp
       status: verified
@@ -525,10 +525,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.2
+    agent_readiness: 15.8
     band: developing
     in_catalog: true
-    kin_score: 41.4
+    kin_score: 42.6
     mcp: &id031
       status: none
     slug: yahoo
@@ -553,10 +553,10 @@ noindex: false
 permalink: /applications/investing-trading/portfolio-performance/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 51.4
-  band: strong
+  agent_readiness: 50.5
+  band: developing
   in_catalog: true
-  kin_score: 54.4
+  kin_score: 50.6
   mcp: *id001
   name: Alpha Vantage
   slug: alpha-vantage
@@ -565,9 +565,9 @@ providers:
   url: /providers/alpha-vantage/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 6.7
+  kin_score: 11.2
   mcp: *id003
   name: AMFI India
   slug: amfi-india
@@ -575,10 +575,10 @@ providers:
   tags: *id004
   url: /providers/amfi-india/
 - agent_band: agent-ready
-  agent_readiness: 30.5
+  agent_readiness: 29.9
   band: thin
   in_catalog: true
-  kin_score: 39.1
+  kin_score: 38.9
   mcp: *id005
   name: Binance
   slug: binance
@@ -586,10 +586,10 @@ providers:
   tags: *id006
   url: /providers/binance/
 - agent_band: agent-aware
-  agent_readiness: 14.0
+  agent_readiness: 13.7
   band: emerging
   in_catalog: true
-  kin_score: 17.4
+  kin_score: 17.3
   mcp: *id007
   name: Bitfinex
   slug: bitfinex
@@ -597,10 +597,10 @@ providers:
   tags: *id008
   url: /providers/bitfinex/
 - agent_band: agent-ready
-  agent_readiness: 46.2
+  agent_readiness: 47.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 52.4
   mcp: *id009
   name: CoinGecko
   slug: coingecko
@@ -611,7 +611,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 15.8
+  kin_score: 22.5
   mcp: *id011
   name: DivvyDiary
   slug: divvydiary
@@ -620,9 +620,9 @@ providers:
   url: /providers/divvydiary/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 7.8
+  kin_score: 11.0
   mcp: *id013
   name: ECB Data Portal
   slug: european-central-bank
@@ -630,10 +630,10 @@ providers:
   tags: *id014
   url: /providers/european-central-bank/
 - agent_band: agent-ready
-  agent_readiness: 58.3
+  agent_readiness: 53.1
   band: strong
   in_catalog: true
-  kin_score: 62.2
+  kin_score: 60.7
   mcp: *id015
   name: EODHD
   slug: eodhd
@@ -641,10 +641,10 @@ providers:
   tags: *id016
   url: /providers/eodhd/
 - agent_band: agent-aware
-  agent_readiness: 20.2
+  agent_readiness: 26.1
   band: thin
   in_catalog: true
-  kin_score: 30.4
+  kin_score: 31.9
   mcp: *id017
   name: Eurostat (HICP)
   slug: eurostat
@@ -652,10 +652,10 @@ providers:
   tags: *id018
   url: /providers/eurostat/
 - agent_band: agent-aware
-  agent_readiness: 23.6
+  agent_readiness: 23.1
   band: developing
   in_catalog: true
-  kin_score: 43.9
+  kin_score: 42.5
   mcp: *id019
   name: Finnhub
   slug: finnhub
@@ -663,10 +663,10 @@ providers:
   tags: *id020
   url: /providers/finnhub/
 - agent_band: agent-ready
-  agent_readiness: 37.9
+  agent_readiness: 37.5
   band: strong
   in_catalog: true
-  kin_score: 64.3
+  kin_score: 63.1
   mcp: *id021
   name: Kraken
   slug: kraken
@@ -685,10 +685,10 @@ providers:
   tags: *id024
   url: null
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 20.9
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id025
   name: MEXC
   slug: mexc
@@ -696,10 +696,10 @@ providers:
   tags: *id026
   url: /providers/mexc/
 - agent_band: agent-aware
-  agent_readiness: 27.6
+  agent_readiness: 27.0
   band: thin
   in_catalog: true
-  kin_score: 34.4
+  kin_score: 36.2
   mcp: *id027
   name: Nasdaq Data Link (Quandl)
   slug: nasdaq-data-link
@@ -707,10 +707,10 @@ providers:
   tags: *id028
   url: /providers/nasdaq-data-link/
 - agent_band: agent-ready
-  agent_readiness: 58.9
+  agent_readiness: 59.5
   band: exemplar
   in_catalog: true
-  kin_score: 68.2
+  kin_score: 66.9
   mcp: *id029
   name: Twelve Data
   slug: twelvedata
@@ -718,10 +718,10 @@ providers:
   tags: *id030
   url: /providers/twelvedata/
 - agent_band: agent-aware
-  agent_readiness: 16.2
+  agent_readiness: 15.8
   band: developing
   in_catalog: true
-  kin_score: 41.4
+  kin_score: 42.6
   mcp: *id031
   name: Yahoo Finance
   slug: yahoo

@@ -48,10 +48,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.6
+    agent_readiness: 48.6
     band: exemplar
     in_catalog: true
-    kin_score: 79.2
+    kin_score: 80.0
     mcp: &id001
       source: https://github.com/datadog-labs/mcp-server
       status: verified
@@ -79,10 +79,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id003
       status: none
     slug: microsoft-teams
@@ -109,10 +109,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: exemplar
     in_catalog: true
-    kin_score: 76.5
+    kin_score: 74.4
     mcp: &id005
       source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
       status: verified
@@ -140,10 +140,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id007
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -169,10 +169,10 @@ noindex: false
 permalink: /applications/feature-flags-experimentation/unleash/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 49.6
+  agent_readiness: 48.6
   band: exemplar
   in_catalog: true
-  kin_score: 79.2
+  kin_score: 80.0
   mcp: *id001
   name: Datadog
   slug: datadog
@@ -180,10 +180,10 @@ providers:
   tags: *id002
   url: /providers/datadog/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 65.1
   mcp: *id003
   name: Microsoft Teams
   slug: microsoft-teams
@@ -191,10 +191,10 @@ providers:
   tags: *id004
   url: /providers/microsoft-teams/
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 44.8
   band: exemplar
   in_catalog: true
-  kin_score: 76.5
+  kin_score: 74.4
   mcp: *id005
   name: New Relic
   slug: new-relic
@@ -202,10 +202,10 @@ providers:
   tags: *id006
   url: /providers/new-relic/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id007
   name: Slack
   slug: slack

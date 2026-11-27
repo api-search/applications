@@ -130,10 +130,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: emerging
+    agent_readiness: 17.2
+    band: thin
     in_catalog: true
-    kin_score: 24.8
+    kin_score: 28.2
     mcp: &id003
       status: none
     slug: endurain
@@ -160,10 +160,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id005
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -191,10 +191,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id007
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -222,10 +222,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.3
-    band: developing
+    agent_readiness: 40.3
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 62.4
     mcp: &id009
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -253,10 +253,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 15.1
     band: emerging
     in_catalog: true
-    kin_score: 22.3
+    kin_score: 25.5
     mcp: &id011
       status: none
     slug: immich
@@ -283,10 +283,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id013
       status: none
     slug: nominatim
@@ -316,7 +316,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 16.6
+    kin_score: 15.1
     mcp: &id015
       status: unknown
     slug: overpass-api
@@ -343,10 +343,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 51.3
     band: developing
     in_catalog: true
-    kin_score: 50.0
+    kin_score: 52.0
     mcp: &id019
       status: none
     slug: strava
@@ -373,10 +373,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id021
       source: https://docs.stripe.com/mcp
       status: verified
@@ -407,7 +407,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 9.2
     mcp: &id025
       status: unknown
     slug: wanderer
@@ -431,10 +431,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.8
+    agent_readiness: 29.3
     band: developing
     in_catalog: true
-    kin_score: 43.0
+    kin_score: 41.8
     mcp: &id027
       status: none
     slug: wikipedia
@@ -461,10 +461,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.2
+    agent_readiness: 37.2
     band: exemplar
     in_catalog: true
-    kin_score: 74.5
+    kin_score: 73.1
     mcp: &id001
       status: none
     slug: authentik
@@ -491,10 +491,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.1
+    agent_readiness: 16.9
     band: emerging
     in_catalog: true
-    kin_score: 19.1
+    kin_score: 25.1
     mcp: &id017
       status: none
     slug: pocket-id
@@ -521,10 +521,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.4
+    agent_readiness: 38.6
     band: exemplar
     in_catalog: true
-    kin_score: 73.3
+    kin_score: 72.8
     mcp: &id023
       status: none
     slug: umami
@@ -549,10 +549,10 @@ noindex: false
 permalink: /applications/travel-booking/adventurelog/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 33.2
+  agent_readiness: 37.2
   band: exemplar
   in_catalog: true
-  kin_score: 74.5
+  kin_score: 73.1
   mcp: *id001
   name: Authentik
   slug: authentik
@@ -560,10 +560,10 @@ providers:
   tags: *id002
   url: /providers/authentik/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: emerging
+  agent_readiness: 17.2
+  band: thin
   in_catalog: true
-  kin_score: 24.8
+  kin_score: 28.2
   mcp: *id003
   name: Endurain
   slug: endurain
@@ -571,10 +571,10 @@ providers:
   tags: *id004
   url: /providers/endurain/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id005
   name: GitHub
   slug: github
@@ -582,10 +582,10 @@ providers:
   tags: *id006
   url: /providers/github/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id007
   name: Google Maps Geocoding
   slug: google-maps
@@ -593,10 +593,10 @@ providers:
   tags: *id008
   url: /providers/google-maps/
 - agent_band: agent-ready
-  agent_readiness: 32.3
-  band: developing
+  agent_readiness: 40.3
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 62.4
   mcp: *id009
   name: Google Places (New)
   slug: google-places
@@ -604,10 +604,10 @@ providers:
   tags: *id010
   url: /providers/google-places/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 15.1
   band: emerging
   in_catalog: true
-  kin_score: 22.3
+  kin_score: 25.5
   mcp: *id011
   name: Immich
   slug: immich
@@ -615,10 +615,10 @@ providers:
   tags: *id012
   url: /providers/immich/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id013
   name: Nominatim (OSM)
   slug: nominatim
@@ -629,7 +629,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 16.6
+  kin_score: 15.1
   mcp: *id015
   name: Overpass API
   slug: overpass-api
@@ -637,10 +637,10 @@ providers:
   tags: *id016
   url: /providers/overpass-api/
 - agent_band: agent-aware
-  agent_readiness: 20.1
+  agent_readiness: 16.9
   band: emerging
   in_catalog: true
-  kin_score: 19.1
+  kin_score: 25.1
   mcp: *id017
   name: Pocket ID
   slug: pocket-id
@@ -648,10 +648,10 @@ providers:
   tags: *id018
   url: /providers/pocket-id/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 51.3
   band: developing
   in_catalog: true
-  kin_score: 50.0
+  kin_score: 52.0
   mcp: *id019
   name: Strava
   slug: strava
@@ -659,10 +659,10 @@ providers:
   tags: *id020
   url: /providers/strava/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id021
   name: Stripe
   slug: stripe
@@ -670,10 +670,10 @@ providers:
   tags: *id022
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 38.4
+  agent_readiness: 38.6
   band: exemplar
   in_catalog: true
-  kin_score: 73.3
+  kin_score: 72.8
   mcp: *id023
   name: Umami
   slug: umami
@@ -684,7 +684,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 9.2
   mcp: *id025
   name: wanderer
   slug: wanderer
@@ -692,10 +692,10 @@ providers:
   tags: *id026
   url: /providers/wanderer/
 - agent_band: agent-ready
-  agent_readiness: 29.8
+  agent_readiness: 29.3
   band: developing
   in_catalog: true
-  kin_score: 43.0
+  kin_score: 41.8
   mcp: *id027
   name: Wikipedia
   slug: wikipedia

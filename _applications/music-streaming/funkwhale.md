@@ -69,10 +69,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
-    band: developing
+    agent_readiness: 25.9
+    band: strong
     in_catalog: true
-    kin_score: 54.2
+    kin_score: 54.4
     mcp: &id001
       status: none
     slug: lastfm
@@ -99,10 +99,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 1.7
     band: emerging
     in_catalog: true
-    kin_score: 14.8
+    kin_score: 25.4
     mcp: &id003
       status: none
     slug: libre-fm
@@ -130,9 +130,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.7
+    kin_score: 11.6
     mcp: &id005
       status: none
     slug: listenbrainz
@@ -159,10 +159,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 4.5
+    agent_readiness: 4.4
     band: emerging
     in_catalog: true
-    kin_score: 17.1
+    kin_score: 20.1
     mcp: &id007
       status: unknown
     slug: maloja
@@ -188,11 +188,11 @@ integrations:
     via_parent: Audio & Music
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_band: agent-aware
+    agent_readiness: 27.2
     band: thin
     in_catalog: true
-    kin_score: 37.9
+    kin_score: 38.2
     mcp: &id009
       status: none
     slug: musicbrainz
@@ -222,7 +222,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id011
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -250,10 +250,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.9
-    band: developing
+    agent_readiness: 47.3
+    band: thin
     in_catalog: true
-    kin_score: 39.5
+    kin_score: 39.2
     mcp: &id013
       source: https://typesense.org/docs/guide/typesense-cloud/mcp-server.html
       status: verified
@@ -279,10 +279,10 @@ noindex: false
 permalink: /applications/music-streaming/funkwhale/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 23.7
-  band: developing
+  agent_readiness: 25.9
+  band: strong
   in_catalog: true
-  kin_score: 54.2
+  kin_score: 54.4
   mcp: *id001
   name: Last.fm
   slug: lastfm
@@ -290,10 +290,10 @@ providers:
   tags: *id002
   url: /providers/lastfm/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 1.7
   band: emerging
   in_catalog: true
-  kin_score: 14.8
+  kin_score: 25.4
   mcp: *id003
   name: Libre.fm
   slug: libre-fm
@@ -302,9 +302,9 @@ providers:
   url: /providers/libre-fm/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.7
+  kin_score: 11.6
   mcp: *id005
   name: ListenBrainz
   slug: listenbrainz
@@ -312,21 +312,21 @@ providers:
   tags: *id006
   url: /providers/listenbrainz/
 - agent_band: human-only
-  agent_readiness: 4.5
+  agent_readiness: 4.4
   band: emerging
   in_catalog: true
-  kin_score: 17.1
+  kin_score: 20.1
   mcp: *id007
   name: Maloja
   slug: maloja
   status: profiled
   tags: *id008
   url: /providers/maloja/
-- agent_band: agent-ready
-  agent_readiness: 31.3
+- agent_band: agent-aware
+  agent_readiness: 27.2
   band: thin
   in_catalog: true
-  kin_score: 37.9
+  kin_score: 38.2
   mcp: *id009
   name: MusicBrainz
   slug: musicbrainz
@@ -337,7 +337,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id011
   name: Sentry
   slug: sentry-system
@@ -345,10 +345,10 @@ providers:
   tags: *id012
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 47.9
-  band: developing
+  agent_readiness: 47.3
+  band: thin
   in_catalog: true
-  kin_score: 39.5
+  kin_score: 39.2
   mcp: *id013
   name: Typesense
   slug: typesense

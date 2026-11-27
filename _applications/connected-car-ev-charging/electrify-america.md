@@ -46,7 +46,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.9
+    kin_score: 6.5
     mcp: &id001
       status: unknown
     slug: audi-connect
@@ -76,7 +76,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 20.2
+    kin_score: 20.5
     mcp: &id003
       status: unknown
     slug: bmw
@@ -103,10 +103,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 27.5
+    agent_readiness: 26.9
     band: thin
     in_catalog: true
-    kin_score: 27.0
+    kin_score: 28.7
     mcp: &id005
       status: none
     slug: ford
@@ -134,9 +134,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.3
+    kin_score: 11.2
     mcp: &id007
       status: unknown
     slug: lucid-motors
@@ -166,7 +166,7 @@ integrations:
     agent_readiness: 0.6
     band: thin
     in_catalog: true
-    kin_score: 29.4
+    kin_score: 29.3
     mcp: &id009
       status: none
     slug: mercedes-benz
@@ -195,7 +195,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 9.1
+    kin_score: 7.9
     mcp: &id011
       status: unknown
     slug: nissan
@@ -221,10 +221,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.2
+    agent_readiness: 20.8
     band: thin
     in_catalog: true
-    kin_score: 30.0
+    kin_score: 33.1
     mcp: &id013
       status: none
     slug: porsche
@@ -252,9 +252,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.6
+    kin_score: 11.2
     mcp: &id015
       status: none
     slug: rivian-automotive
@@ -281,10 +281,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 24.7
     band: developing
     in_catalog: true
-    kin_score: 43.7
+    kin_score: 45.5
     mcp: &id017
       status: none
     slug: volkswagen
@@ -312,7 +312,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.9
+  kin_score: 6.5
   mcp: *id001
   name: Audi
   slug: audi-connect
@@ -323,7 +323,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 20.2
+  kin_score: 20.5
   mcp: *id003
   name: BMW
   slug: bmw
@@ -331,10 +331,10 @@ providers:
   tags: *id004
   url: /providers/bmw/
 - agent_band: agent-aware
-  agent_readiness: 27.5
+  agent_readiness: 26.9
   band: thin
   in_catalog: true
-  kin_score: 27.0
+  kin_score: 28.7
   mcp: *id005
   name: Ford
   slug: ford
@@ -343,9 +343,9 @@ providers:
   url: /providers/ford/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.3
+  kin_score: 11.2
   mcp: *id007
   name: Lucid Motors
   slug: lucid-motors
@@ -356,7 +356,7 @@ providers:
   agent_readiness: 0.6
   band: thin
   in_catalog: true
-  kin_score: 29.4
+  kin_score: 29.3
   mcp: *id009
   name: Mercedes-Benz
   slug: mercedes-benz
@@ -367,7 +367,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 9.1
+  kin_score: 7.9
   mcp: *id011
   name: Nissan
   slug: nissan
@@ -375,10 +375,10 @@ providers:
   tags: *id012
   url: /providers/nissan/
 - agent_band: agent-aware
-  agent_readiness: 21.2
+  agent_readiness: 20.8
   band: thin
   in_catalog: true
-  kin_score: 30.0
+  kin_score: 33.1
   mcp: *id013
   name: Porsche
   slug: porsche
@@ -387,9 +387,9 @@ providers:
   url: /providers/porsche/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.6
+  kin_score: 11.2
   mcp: *id015
   name: Rivian
   slug: rivian-automotive
@@ -397,10 +397,10 @@ providers:
   tags: *id016
   url: /providers/rivian-automotive/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 24.7
   band: developing
   in_catalog: true
-  kin_score: 43.7
+  kin_score: 45.5
   mcp: *id017
   name: Volkswagen
   slug: volkswagen

@@ -117,10 +117,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 44.8
     band: developing
     in_catalog: true
-    kin_score: 47.9
+    kin_score: 45.9
     mcp: &id003
       source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
       status: verified
@@ -148,10 +148,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id015
       status: none
     slug: nextcloud
@@ -178,10 +178,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id021
       source: https://docs.stripe.com/mcp
       status: verified
@@ -209,10 +209,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.0
+    agent_readiness: 20.6
     band: thin
     in_catalog: true
-    kin_score: 32.4
+    kin_score: 30.8
     mcp: &id025
       status: none
     slug: usda
@@ -239,10 +239,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.2
+    agent_readiness: 37.2
     band: exemplar
     in_catalog: true
-    kin_score: 74.5
+    kin_score: 73.1
     mcp: &id001
       status: none
     slug: authentik
@@ -269,10 +269,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id005
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -300,10 +300,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id007
       status: none
     slug: google-gemini
@@ -329,11 +329,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id009
       status: none
     slug: google-identity-platform
@@ -359,11 +359,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: human-only
-    agent_readiness: 5.0
-    band: emerging
+    agent_band: agent-aware
+    agent_readiness: 5.6
+    band: thin
     in_catalog: true
-    kin_score: 22.2
+    kin_score: 34.5
     mcp: &id011
       source: https://www.home-assistant.io/integrations/mcp_server/
       status: verified
@@ -391,7 +391,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
+    agent_readiness: 17.3
     band: thin
     in_catalog: true
     kin_score: 35.3
@@ -421,10 +421,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id017
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -452,10 +452,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 46.4
     band: strong
     in_catalog: true
-    kin_score: 55.4
+    kin_score: 54.8
     mcp: &id019
       source: https://openrouter.ai/docs/guides/overview/mcp-server
       status: verified
@@ -483,10 +483,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id023
       status: none
     slug: telegram
@@ -511,10 +511,10 @@ noindex: false
 permalink: /applications/recipe-meal-planning/tandoor-recipes/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 33.2
+  agent_readiness: 37.2
   band: exemplar
   in_catalog: true
-  kin_score: 74.5
+  kin_score: 73.1
   mcp: *id001
   name: authentik
   slug: authentik
@@ -522,10 +522,10 @@ providers:
   tags: *id002
   url: /providers/authentik/
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 44.8
   band: developing
   in_catalog: true
-  kin_score: 47.9
+  kin_score: 45.9
   mcp: *id003
   name: dropbox
   slug: dropbox
@@ -533,10 +533,10 @@ providers:
   tags: *id004
   url: /providers/dropbox/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id005
   name: github
   slug: github
@@ -544,32 +544,32 @@ providers:
   tags: *id006
   url: /providers/github/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id007
   name: google-gemini
   slug: google-gemini
   status: profiled
   tags: *id008
   url: /providers/google-gemini/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id009
   name: google-identity-platform
   slug: google-identity-platform
   status: profiled
   tags: *id010
   url: /providers/google-identity-platform/
-- agent_band: human-only
-  agent_readiness: 5.0
-  band: emerging
+- agent_band: agent-aware
+  agent_readiness: 5.6
+  band: thin
   in_catalog: true
-  kin_score: 22.2
+  kin_score: 34.5
   mcp: *id011
   name: Home Assistant
   slug: home-assistant
@@ -577,7 +577,7 @@ providers:
   tags: *id012
   url: /providers/home-assistant/
 - agent_band: agent-aware
-  agent_readiness: 17.6
+  agent_readiness: 17.3
   band: thin
   in_catalog: true
   kin_score: 35.3
@@ -588,10 +588,10 @@ providers:
   tags: *id014
   url: /providers/keycloak/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id015
   name: nextcloud
   slug: nextcloud
@@ -599,10 +599,10 @@ providers:
   tags: *id016
   url: /providers/nextcloud/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id017
   name: openai
   slug: openai
@@ -610,10 +610,10 @@ providers:
   tags: *id018
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 46.4
   band: strong
   in_catalog: true
-  kin_score: 55.4
+  kin_score: 54.8
   mcp: *id019
   name: openrouter
   slug: openrouter
@@ -621,10 +621,10 @@ providers:
   tags: *id020
   url: /providers/openrouter/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id021
   name: stripe
   slug: stripe
@@ -632,10 +632,10 @@ providers:
   tags: *id022
   url: /providers/stripe/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id023
   name: telegram
   slug: telegram
@@ -643,10 +643,10 @@ providers:
   tags: *id024
   url: /providers/telegram/
 - agent_band: agent-aware
-  agent_readiness: 21.0
+  agent_readiness: 20.6
   band: thin
   in_catalog: true
-  kin_score: 32.4
+  kin_score: 30.8
   mcp: *id025
   name: usda
   slug: usda

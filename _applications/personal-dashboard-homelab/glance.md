@@ -117,7 +117,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.6
+    kin_score: 19.9
     mcp: &id001
       status: none
     slug: adguard
@@ -147,7 +147,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.6
+    kin_score: 18.1
     mcp: &id003
       status: none
     slug: changedetection-io
@@ -174,10 +174,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 26.2
     band: thin
     in_catalog: true
-    kin_score: 29.3
+    kin_score: 28.4
     mcp: &id005
       status: unknown
     slug: codeberg
@@ -203,11 +203,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.4
+    agent_band: agent-ready
+    agent_readiness: 32.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 51.7
     mcp: &id007
       source: https://github.com/docker/mcp-gateway
       status: verified
@@ -234,11 +234,11 @@ integrations:
     via_parent: Package Registries & Distribution
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_band: agent-ready
+    agent_readiness: 30.6
     band: developing
     in_catalog: true
-    kin_score: 46.7
+    kin_score: 48.7
     mcp: &id009
       source: https://github.com/docker/hub-mcp
       status: verified
@@ -266,10 +266,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id011
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -297,10 +297,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id013
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -328,10 +328,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 28.3
+    kin_score: 27.3
     mcp: &id015
       status: none
     slug: hacker-news
@@ -357,10 +357,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.0
+    agent_readiness: 22.5
     band: emerging
     in_catalog: true
-    kin_score: 25.0
+    kin_score: 24.6
     mcp: &id017
       status: none
     slug: lobsters
@@ -387,10 +387,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.8
+    agent_readiness: 17.4
     band: thin
     in_catalog: true
-    kin_score: 29.6
+    kin_score: 28.3
     mcp: &id019
       status: none
     slug: open-meteo
@@ -417,10 +417,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: emerging
     in_catalog: true
-    kin_score: 22.9
+    kin_score: 22.3
     mcp: &id021
       status: none
     slug: pi-hole
@@ -447,10 +447,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.1
+    agent_readiness: 43.0
     band: strong
     in_catalog: true
-    kin_score: 63.0
+    kin_score: 64.4
     mcp: &id023
       source: https://github.com/reddit/devvit-mcp
       status: verified
@@ -481,7 +481,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.0
+    kin_score: 7.1
     mcp: &id025
       status: none
     slug: technitium
@@ -508,10 +508,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.2
+    agent_readiness: 36.9
     band: developing
     in_catalog: true
-    kin_score: 50.5
+    kin_score: 48.2
     mcp: &id027
       status: none
     slug: twitch
@@ -541,7 +541,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.2
+    kin_score: 3.3
     mcp: &id029
       status: none
     slug: yahoo-finance
@@ -566,10 +566,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id031
       status: none
     slug: youtube
@@ -597,7 +597,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.6
+  kin_score: 19.9
   mcp: *id001
   name: AdGuard Home
   slug: adguard
@@ -608,7 +608,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.6
+  kin_score: 18.1
   mcp: *id003
   name: changedetection.io
   slug: changedetection-io
@@ -616,32 +616,32 @@ providers:
   tags: *id004
   url: /providers/changedetection-io/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 26.2
   band: thin
   in_catalog: true
-  kin_score: 29.3
+  kin_score: 28.4
   mcp: *id005
   name: Codeberg
   slug: codeberg
   status: profiled
   tags: *id006
   url: /providers/codeberg/
-- agent_band: agent-aware
-  agent_readiness: 24.4
+- agent_band: agent-ready
+  agent_readiness: 32.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 51.7
   mcp: *id007
   name: Docker
   slug: docker
   status: profiled
   tags: *id008
   url: /providers/docker/
-- agent_band: agent-aware
-  agent_readiness: 19.6
+- agent_band: agent-ready
+  agent_readiness: 30.6
   band: developing
   in_catalog: true
-  kin_score: 46.7
+  kin_score: 48.7
   mcp: *id009
   name: Docker Hub
   slug: docker-hub
@@ -649,10 +649,10 @@ providers:
   tags: *id010
   url: /providers/docker-hub/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id011
   name: GitHub
   slug: github
@@ -660,10 +660,10 @@ providers:
   tags: *id012
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id013
   name: GitLab
   slug: gitlab
@@ -671,10 +671,10 @@ providers:
   tags: *id014
   url: /providers/gitlab/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 28.3
+  kin_score: 27.3
   mcp: *id015
   name: Hacker News
   slug: hacker-news
@@ -682,10 +682,10 @@ providers:
   tags: *id016
   url: /providers/hacker-news/
 - agent_band: agent-aware
-  agent_readiness: 23.0
+  agent_readiness: 22.5
   band: emerging
   in_catalog: true
-  kin_score: 25.0
+  kin_score: 24.6
   mcp: *id017
   name: Lobsters
   slug: lobsters
@@ -693,10 +693,10 @@ providers:
   tags: *id018
   url: /providers/lobsters/
 - agent_band: agent-aware
-  agent_readiness: 17.8
+  agent_readiness: 17.4
   band: thin
   in_catalog: true
-  kin_score: 29.6
+  kin_score: 28.3
   mcp: *id019
   name: Open-Meteo
   slug: open-meteo
@@ -704,10 +704,10 @@ providers:
   tags: *id020
   url: /providers/open-meteo/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: emerging
   in_catalog: true
-  kin_score: 22.9
+  kin_score: 22.3
   mcp: *id021
   name: Pi-hole
   slug: pi-hole
@@ -715,10 +715,10 @@ providers:
   tags: *id022
   url: /providers/pi-hole/
 - agent_band: agent-ready
-  agent_readiness: 39.1
+  agent_readiness: 43.0
   band: strong
   in_catalog: true
-  kin_score: 63.0
+  kin_score: 64.4
   mcp: *id023
   name: Reddit
   slug: reddit
@@ -729,7 +729,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.0
+  kin_score: 7.1
   mcp: *id025
   name: Technitium DNS Server
   slug: technitium
@@ -737,10 +737,10 @@ providers:
   tags: *id026
   url: /providers/technitium/
 - agent_band: agent-ready
-  agent_readiness: 32.2
+  agent_readiness: 36.9
   band: developing
   in_catalog: true
-  kin_score: 50.5
+  kin_score: 48.2
   mcp: *id027
   name: Twitch
   slug: twitch
@@ -751,7 +751,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.2
+  kin_score: 3.3
   mcp: *id029
   name: Yahoo Finance
   slug: yahoo-finance
@@ -759,10 +759,10 @@ providers:
   tags: *id030
   url: /providers/yahoo-finance/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id031
   name: YouTube
   slug: youtube

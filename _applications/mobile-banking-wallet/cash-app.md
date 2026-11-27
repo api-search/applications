@@ -92,10 +92,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id003
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -123,10 +123,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.1
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.5
+    kin_score: 76.3
     mcp: &id005
       source: https://github.com/SmartBear/smartbear-mcp
       status: verified
@@ -153,22 +153,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id009
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id010
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics
   provider: firebase
@@ -185,10 +185,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.0
+    agent_readiness: 12.8
     band: minimal
     in_catalog: true
-    kin_score: 9.3
+    kin_score: 9.2
     mcp: &id001
       status: none
     slug: afterpay
@@ -215,10 +215,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.6
+    agent_readiness: 23.1
     band: developing
     in_catalog: true
-    kin_score: 44.5
+    kin_score: 45.6
     mcp: &id007
       status: none
     slug: gigs
@@ -248,7 +248,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.3
+    kin_score: 5.9
     mcp: &id011
       status: unknown
     slug: sutton-bank
@@ -275,10 +275,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.4
+    agent_readiness: 44.5
     band: developing
     in_catalog: true
-    kin_score: 44.2
+    kin_score: 43.6
     mcp: &id013
       source: https://github.com/visa/ai
       status: verified
@@ -304,10 +304,10 @@ noindex: false
 permalink: /applications/mobile-banking-wallet/cash-app/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 13.0
+  agent_readiness: 12.8
   band: minimal
   in_catalog: true
-  kin_score: 9.3
+  kin_score: 9.2
   mcp: *id001
   name: Afterpay
   slug: afterpay
@@ -315,10 +315,10 @@ providers:
   tags: *id002
   url: /providers/afterpay/
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id003
   name: AppsFlyer
   slug: appsflyer
@@ -326,10 +326,10 @@ providers:
   tags: *id004
   url: /providers/appsflyer/
 - agent_band: agent-ready
-  agent_readiness: 53.1
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.5
+  kin_score: 76.3
   mcp: *id005
   name: Bugsnag
   slug: bugsnag
@@ -337,32 +337,32 @@ providers:
   tags: *id006
   url: /providers/bugsnag/
 - agent_band: agent-aware
-  agent_readiness: 23.6
+  agent_readiness: 23.1
   band: developing
   in_catalog: true
-  kin_score: 44.5
+  kin_score: 45.6
   mcp: *id007
   name: Gigs (Cash App Mobile)
   slug: gigs
   status: profiled
   tags: *id008
   url: /providers/gigs/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id009
   name: Google Firebase Analytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id010
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: human-only
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.3
+  kin_score: 5.9
   mcp: *id011
   name: Sutton Bank
   slug: sutton-bank
@@ -370,10 +370,10 @@ providers:
   tags: *id012
   url: /providers/sutton-bank/
 - agent_band: agent-ready
-  agent_readiness: 45.4
+  agent_readiness: 44.5
   band: developing
   in_catalog: true
-  kin_score: 44.2
+  kin_score: 43.6
   mcp: *id013
   name: Visa (Cash App Card)
   slug: visa

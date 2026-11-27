@@ -51,7 +51,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 20.6
+    kin_score: 18.6
     mcp: &id002
       status: none
     slug: flurry
@@ -120,7 +120,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 20.6
+  kin_score: 18.6
   mcp: *id002
   name: Flurry
   slug: flurry

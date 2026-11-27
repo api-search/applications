@@ -157,11 +157,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id002
       source: https://github.com/awslabs/mcp
       status: verified
@@ -189,10 +189,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.4
+    agent_readiness: 41.7
     band: strong
     in_catalog: true
-    kin_score: 55.5
+    kin_score: 64.4
     mcp: &id004
       source: https://github.com/awslabs/mcp
       status: verified
@@ -220,10 +220,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id006
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -250,11 +250,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 35.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 48.3
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 64.3
     mcp: &id008
       source: https://github.com/awslabs/mcp
       status: verified
@@ -281,11 +281,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 37.8
+    band: strong
     in_catalog: true
-    kin_score: 45.7
+    kin_score: 66.3
     mcp: &id010
       source: https://github.com/microsoft-foundry/mcp-foundry
       status: verified
@@ -314,9 +314,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 7.9
+    kin_score: 11.5
     mcp: &id012
       status: none
     slug: bigbluebutton
@@ -342,11 +342,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 28.3
+    agent_band: agent-ready
+    agent_readiness: 31.4
     band: developing
     in_catalog: true
-    kin_score: 41.9
+    kin_score: 41.2
     mcp: &id014
       status: none
     slug: clever
@@ -373,10 +373,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.9
+    agent_readiness: 22.4
     band: developing
     in_catalog: true
-    kin_score: 43.3
+    kin_score: 41.2
     mcp: &id016
       status: none
     slug: deepseek
@@ -403,10 +403,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 44.8
     band: developing
     in_catalog: true
-    kin_score: 47.9
+    kin_score: 45.9
     mcp: &id018
       source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
       status: verified
@@ -434,10 +434,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id020
       status: none
     slug: facebook
@@ -464,10 +464,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 25.1
     band: developing
     in_catalog: true
-    kin_score: 48.6
+    kin_score: 49.1
     mcp: &id022
       status: none
     slug: flickr
@@ -494,10 +494,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id024
       status: none
     slug: google-gemini
@@ -524,10 +524,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.3
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 67.1
+    kin_score: 73.2
     mcp: &id026
       source: https://github.com/google/mcp
       status: verified
@@ -554,11 +554,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id028
       status: none
     slug: google-identity-platform
@@ -585,10 +585,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.4
+    agent_readiness: 46.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.4
+    kin_score: 77.8
     mcp: &id030
       status: none
     slug: linkedin
@@ -615,10 +615,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.8
+    kin_score: 4.1
     mcp: &id032
       status: unknown
     slug: merlot
@@ -645,10 +645,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.5
+    agent_readiness: 28.7
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 70.3
     mcp: &id034
       status: none
     slug: microsoft-entra
@@ -676,9 +676,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.0
+    kin_score: 13.7
     mcp: &id036
       status: unknown
     slug: modica
@@ -705,10 +705,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id038
       status: none
     slug: nextcloud
@@ -738,7 +738,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id040
       status: none
     slug: ollama
@@ -765,10 +765,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.2
+    agent_readiness: 25.9
     band: developing
     in_catalog: true
-    kin_score: 48.3
+    kin_score: 50.9
     mcp: &id042
       status: none
     slug: microsoft-onedrive
@@ -795,10 +795,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id044
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -826,10 +826,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id046
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -857,10 +857,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.8
+    agent_readiness: 47.8
     band: thin
     in_catalog: true
-    kin_score: 38.4
+    kin_score: 37.6
     mcp: &id048
       source: https://developer.vimeo.com/api/mcp-server
       status: documented
@@ -888,10 +888,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 28.9
+    agent_readiness: 32.0
     band: developing
     in_catalog: true
-    kin_score: 45.8
+    kin_score: 49.8
     mcp: &id050
       status: none
     slug: wikimedia
@@ -918,10 +918,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id052
       status: none
     slug: youtube
@@ -960,11 +960,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/online-courses-lms/moodle/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id002
   name: Amazon S3
   slug: amazon-s3
@@ -972,10 +972,10 @@ providers:
   tags: *id003
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 29.4
+  agent_readiness: 41.7
   band: strong
   in_catalog: true
-  kin_score: 55.5
+  kin_score: 64.4
   mcp: *id004
   name: Amazon SNS
   slug: amazon-sns
@@ -983,32 +983,32 @@ providers:
   tags: *id005
   url: /providers/amazon-sns/
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id006
   name: Anthropic
   slug: anthropic
   status: profiled
   tags: *id007
   url: /providers/anthropic/
-- agent_band: agent-ready
-  agent_readiness: 35.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 48.3
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 64.3
   mcp: *id008
   name: AWS Bedrock
   slug: amazon-bedrock
   status: profiled
   tags: *id009
   url: /providers/amazon-bedrock/
-- agent_band: agent-aware
-  agent_readiness: 23.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 37.8
+  band: strong
   in_catalog: true
-  kin_score: 45.7
+  kin_score: 66.3
   mcp: *id010
   name: Azure AI
   slug: azure-ai-foundry
@@ -1017,20 +1017,20 @@ providers:
   url: /providers/azure-ai-foundry/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 7.9
+  kin_score: 11.5
   mcp: *id012
   name: BigBlueButton
   slug: bigbluebutton
   status: profiled
   tags: *id013
   url: /providers/bigbluebutton/
-- agent_band: agent-aware
-  agent_readiness: 28.3
+- agent_band: agent-ready
+  agent_readiness: 31.4
   band: developing
   in_catalog: true
-  kin_score: 41.9
+  kin_score: 41.2
   mcp: *id014
   name: Clever
   slug: clever
@@ -1038,10 +1038,10 @@ providers:
   tags: *id015
   url: /providers/clever/
 - agent_band: agent-aware
-  agent_readiness: 22.9
+  agent_readiness: 22.4
   band: developing
   in_catalog: true
-  kin_score: 43.3
+  kin_score: 41.2
   mcp: *id016
   name: DeepSeek
   slug: deepseek
@@ -1049,10 +1049,10 @@ providers:
   tags: *id017
   url: /providers/deepseek/
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 44.8
   band: developing
   in_catalog: true
-  kin_score: 47.9
+  kin_score: 45.9
   mcp: *id018
   name: Dropbox
   slug: dropbox
@@ -1060,10 +1060,10 @@ providers:
   tags: *id019
   url: /providers/dropbox/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id020
   name: Facebook
   slug: facebook
@@ -1071,10 +1071,10 @@ providers:
   tags: *id021
   url: /providers/facebook/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 25.1
   band: developing
   in_catalog: true
-  kin_score: 48.6
+  kin_score: 49.1
   mcp: *id022
   name: Flickr
   slug: flickr
@@ -1082,10 +1082,10 @@ providers:
   tags: *id023
   url: /providers/flickr/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id024
   name: Gemini
   slug: google-gemini
@@ -1093,21 +1093,21 @@ providers:
   tags: *id025
   url: /providers/google-gemini/
 - agent_band: agent-ready
-  agent_readiness: 44.3
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 67.1
+  kin_score: 73.2
   mcp: *id026
   name: Google Drive
   slug: google-drive
   status: profiled
   tags: *id027
   url: /providers/google-drive/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id028
   name: Google sign-in
   slug: google-identity-platform
@@ -1115,10 +1115,10 @@ providers:
   tags: *id029
   url: /providers/google-identity-platform/
 - agent_band: agent-ready
-  agent_readiness: 47.4
+  agent_readiness: 46.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.4
+  kin_score: 77.8
   mcp: *id030
   name: LinkedIn
   slug: linkedin
@@ -1126,10 +1126,10 @@ providers:
   tags: *id031
   url: /providers/linkedin/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.8
+  kin_score: 4.1
   mcp: *id032
   name: MERLOT
   slug: merlot
@@ -1137,10 +1137,10 @@ providers:
   tags: *id033
   url: /providers/merlot/
 - agent_band: agent-ready
-  agent_readiness: 33.5
+  agent_readiness: 28.7
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 70.3
   mcp: *id034
   name: Microsoft
   slug: microsoft-entra
@@ -1149,9 +1149,9 @@ providers:
   url: /providers/microsoft-entra/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.0
+  kin_score: 13.7
   mcp: *id036
   name: Modica
   slug: modica
@@ -1159,10 +1159,10 @@ providers:
   tags: *id037
   url: /providers/modica/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id038
   name: Nextcloud
   slug: nextcloud
@@ -1173,7 +1173,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id040
   name: Ollama
   slug: ollama
@@ -1181,10 +1181,10 @@ providers:
   tags: *id041
   url: /providers/ollama/
 - agent_band: agent-aware
-  agent_readiness: 25.2
+  agent_readiness: 25.9
   band: developing
   in_catalog: true
-  kin_score: 48.3
+  kin_score: 50.9
   mcp: *id042
   name: OneDrive
   slug: microsoft-onedrive
@@ -1192,10 +1192,10 @@ providers:
   tags: *id043
   url: /providers/microsoft-onedrive/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id044
   name: OpenAI
   slug: openai
@@ -1203,10 +1203,10 @@ providers:
   tags: *id045
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id046
   name: PayPal
   slug: paypal
@@ -1214,10 +1214,10 @@ providers:
   tags: *id047
   url: /providers/paypal/
 - agent_band: agent-ready
-  agent_readiness: 48.8
+  agent_readiness: 47.8
   band: thin
   in_catalog: true
-  kin_score: 38.4
+  kin_score: 37.6
   mcp: *id048
   name: Vimeo
   slug: vimeo
@@ -1225,10 +1225,10 @@ providers:
   tags: *id049
   url: /providers/vimeo/
 - agent_band: agent-ready
-  agent_readiness: 28.9
+  agent_readiness: 32.0
   band: developing
   in_catalog: true
-  kin_score: 45.8
+  kin_score: 49.8
   mcp: *id050
   name: Wikimedia Commons
   slug: wikimedia
@@ -1236,10 +1236,10 @@ providers:
   tags: *id051
   url: /providers/wikimedia/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id052
   name: YouTube
   slug: youtube

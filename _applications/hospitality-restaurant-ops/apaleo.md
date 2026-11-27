@@ -63,10 +63,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.0
+    agent_readiness: 45.8
     band: developing
     in_catalog: true
-    kin_score: 47.4
+    kin_score: 49.1
     mcp: &id001
       status: none
     slug: customer-alliance
@@ -122,7 +122,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 18.9
+    kin_score: 24.8
     mcp: &id005
       status: none
     slug: happyhotel
@@ -149,10 +149,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.8
-    band: thin
+    agent_readiness: 21.4
+    band: developing
     in_catalog: true
-    kin_score: 36.3
+    kin_score: 43.3
     mcp: &id007
       status: unknown
     slug: like-magic
@@ -182,7 +182,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 8.0
+    kin_score: 10.1
     mcp: &id009
       status: unknown
     slug: umnify
@@ -207,10 +207,10 @@ noindex: false
 permalink: /applications/hospitality-restaurant-ops/apaleo/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 44.0
+  agent_readiness: 45.8
   band: developing
   in_catalog: true
-  kin_score: 47.4
+  kin_score: 49.1
   mcp: *id001
   name: Customer Alliance
   slug: customer-alliance
@@ -232,7 +232,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 18.9
+  kin_score: 24.8
   mcp: *id005
   name: happyhotel
   slug: happyhotel
@@ -240,10 +240,10 @@ providers:
   tags: *id006
   url: /providers/happyhotel/
 - agent_band: agent-aware
-  agent_readiness: 21.8
-  band: thin
+  agent_readiness: 21.4
+  band: developing
   in_catalog: true
-  kin_score: 36.3
+  kin_score: 43.3
   mcp: *id007
   name: LIKE MAGIC
   slug: like-magic
@@ -254,7 +254,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 8.0
+  kin_score: 10.1
   mcp: *id009
   name: umnify
   slug: umnify

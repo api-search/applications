@@ -35,10 +35,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.5
+    agent_readiness: 21.0
     band: developing
     in_catalog: true
-    kin_score: 42.2
+    kin_score: 40.8
     mcp: &id001
       status: none
     slug: tailscale
@@ -63,10 +63,10 @@ noindex: false
 permalink: /applications/vpn-privacy/headscale/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 21.5
+  agent_readiness: 21.0
   band: developing
   in_catalog: true
-  kin_score: 42.2
+  kin_score: 40.8
   mcp: *id001
   name: Tailscale DERP relay map
   slug: tailscale

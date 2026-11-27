@@ -58,22 +58,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id004
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id005
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Crashlytics)
   provider: firebase
@@ -105,10 +105,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id002
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -136,10 +136,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id006
       status: none
     slug: google-gemini
@@ -166,10 +166,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id008
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -197,10 +197,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.8
+    agent_readiness: 39.4
     band: thin
     in_catalog: true
-    kin_score: 32.8
+    kin_score: 32.3
     mcp: &id010
       status: none
     slug: xai
@@ -225,32 +225,32 @@ noindex: false
 permalink: /applications/ci-cd-devops/github/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id002
   name: Anthropic (Claude models in Copilot)
   slug: anthropic
   status: profiled
   tags: *id003
   url: /providers/anthropic/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id004
-  name: Firebase (Crashlytics)
-  slug: firebase
-  status: profiled
-  tags: *id005
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 62.0
+  mcp: *id004
+  name: Firebase (Crashlytics)
+  slug: google-firebase
+  status: profiled
+  tags: *id005
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 35.0
+  band: strong
+  in_catalog: true
+  kin_score: 61.7
   mcp: *id006
   name: Google Gemini (in Copilot)
   slug: google-gemini
@@ -258,10 +258,10 @@ providers:
   tags: *id007
   url: /providers/google-gemini/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id008
   name: OpenAI (GPT models in Copilot)
   slug: openai
@@ -269,10 +269,10 @@ providers:
   tags: *id009
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 38.8
+  agent_readiness: 39.4
   band: thin
   in_catalog: true
-  kin_score: 32.8
+  kin_score: 32.3
   mcp: *id010
   name: xAI Grok (in Copilot)
   slug: xai

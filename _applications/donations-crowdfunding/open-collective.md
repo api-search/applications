@@ -101,11 +101,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -133,10 +133,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 69.6
+    agent_readiness: 69.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.8
+    kin_score: 82.5
     mcp: &id003
       source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
       status: verified
@@ -164,10 +164,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id005
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -198,7 +198,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.1
+    kin_score: 4.2
     mcp: &id007
       source: https://github.com/gocardless/gc-mcp
       status: verified
@@ -224,10 +224,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 31.5
+    kin_score: 31.1
     mcp: &id009
       status: none
     slug: hcaptcha
@@ -254,10 +254,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id011
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -285,10 +285,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 52.1
+    agent_readiness: 51.1
     band: exemplar
     in_catalog: true
-    kin_score: 83.4
+    kin_score: 86.3
     mcp: &id013
       source: https://plaid.com/docs/resources/mcp/
       status: verified
@@ -319,7 +319,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id015
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -347,10 +347,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id017
       source: https://docs.stripe.com/mcp
       status: verified
@@ -377,11 +377,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 41.2
+    agent_band: agent-native
+    agent_readiness: 45.7
     band: developing
     in_catalog: true
-    kin_score: 40.0
+    kin_score: 40.1
     mcp: &id019
       status: none
     slug: wise
@@ -405,11 +405,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/donations-crowdfunding/open-collective/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -417,10 +417,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-native
-  agent_readiness: 69.6
+  agent_readiness: 69.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.8
+  kin_score: 82.5
   mcp: *id003
   name: Cloudflare
   slug: cloudflare
@@ -428,10 +428,10 @@ providers:
   tags: *id004
   url: /providers/cloudflare/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id005
   name: GitHub
   slug: github
@@ -442,7 +442,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.1
+  kin_score: 4.2
   mcp: *id007
   name: GoCardless Bank Account Data (Nordigen)
   slug: nordigen
@@ -450,10 +450,10 @@ providers:
   tags: *id008
   url: /providers/nordigen/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 31.5
+  kin_score: 31.1
   mcp: *id009
   name: hCaptcha
   slug: hcaptcha
@@ -461,10 +461,10 @@ providers:
   tags: *id010
   url: /providers/hcaptcha/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id011
   name: PayPal
   slug: paypal
@@ -472,10 +472,10 @@ providers:
   tags: *id012
   url: /providers/paypal/
 - agent_band: agent-native
-  agent_readiness: 52.1
+  agent_readiness: 51.1
   band: exemplar
   in_catalog: true
-  kin_score: 83.4
+  kin_score: 86.3
   mcp: *id013
   name: Plaid
   slug: plaid
@@ -486,7 +486,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id015
   name: Sentry
   slug: sentry-system
@@ -494,21 +494,21 @@ providers:
   tags: *id016
   url: /providers/sentry-system/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id017
   name: Stripe
   slug: stripe
   status: profiled
   tags: *id018
   url: /providers/stripe/
-- agent_band: agent-ready
-  agent_readiness: 41.2
+- agent_band: agent-native
+  agent_readiness: 45.7
   band: developing
   in_catalog: true
-  kin_score: 40.0
+  kin_score: 40.1
   mcp: *id019
   name: Wise (TransferWise)
   slug: wise

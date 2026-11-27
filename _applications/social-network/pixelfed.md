@@ -92,11 +92,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -124,10 +124,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.4
+    agent_readiness: 38.0
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 83.8
     mcp: &id003
       status: none
     slug: amazon-ses
@@ -154,10 +154,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.1
+    agent_readiness: 24.2
     band: thin
     in_catalog: true
-    kin_score: 28.9
+    kin_score: 28.8
     mcp: &id005
       source: https://github.com/cloudflare/mcp
       status: verified
@@ -185,10 +185,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.6
+    agent_readiness: 44.1
     band: developing
     in_catalog: true
-    kin_score: 45.0
+    kin_score: 47.4
     mcp: &id007
       source: https://docs.digitalocean.com/reference/mcp/
       status: verified
@@ -216,10 +216,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.3
+    agent_readiness: 20.5
     band: thin
     in_catalog: true
-    kin_score: 31.4
+    kin_score: 30.6
     mcp: &id009
       source: https://github.com/expo/expo-mcp
       status: verified
@@ -247,10 +247,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 31.5
+    kin_score: 31.1
     mcp: &id011
       status: none
     slug: hcaptcha
@@ -277,10 +277,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 32.6
+    kin_score: 31.6
     mcp: &id013
       source: https://github.com/mailgun/mailgun-mcp-server
       status: verified
@@ -308,10 +308,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 31.8
+    kin_score: 30.5
     mcp: &id015
       status: none
     slug: mysql
@@ -338,10 +338,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 38.0
     mcp: &id017
       status: none
     slug: pusher
@@ -367,11 +367,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 49.8
+    agent_band: agent-ready
+    agent_readiness: 41.5
     band: developing
     in_catalog: true
-    kin_score: 47.4
+    kin_score: 46.5
     mcp: &id019
       source: https://github.com/redis/mcp-redis
       status: verified
@@ -399,10 +399,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.4
+    agent_readiness: 49.8
     band: strong
     in_catalog: true
-    kin_score: 58.9
+    kin_score: 56.8
     mcp: &id021
       source: https://resend.com/docs/mcp-server
       status: verified
@@ -427,11 +427,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/social-network/pixelfed/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -439,10 +439,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 39.4
+  agent_readiness: 38.0
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 83.8
   mcp: *id003
   name: Amazon SES
   slug: amazon-ses
@@ -450,10 +450,10 @@ providers:
   tags: *id004
   url: /providers/amazon-ses/
 - agent_band: agent-aware
-  agent_readiness: 23.1
+  agent_readiness: 24.2
   band: thin
   in_catalog: true
-  kin_score: 28.9
+  kin_score: 28.8
   mcp: *id005
   name: Cloudflare Turnstile
   slug: cloudflare-turnstile
@@ -461,10 +461,10 @@ providers:
   tags: *id006
   url: /providers/cloudflare-turnstile/
 - agent_band: agent-ready
-  agent_readiness: 44.6
+  agent_readiness: 44.1
   band: developing
   in_catalog: true
-  kin_score: 45.0
+  kin_score: 47.4
   mcp: *id007
   name: DigitalOcean Spaces
   slug: digital-ocean
@@ -472,10 +472,10 @@ providers:
   tags: *id008
   url: /providers/digital-ocean/
 - agent_band: agent-aware
-  agent_readiness: 19.3
+  agent_readiness: 20.5
   band: thin
   in_catalog: true
-  kin_score: 31.4
+  kin_score: 30.6
   mcp: *id009
   name: Expo push
   slug: expo
@@ -483,10 +483,10 @@ providers:
   tags: *id010
   url: /providers/expo/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 31.5
+  kin_score: 31.1
   mcp: *id011
   name: hCaptcha
   slug: hcaptcha
@@ -494,10 +494,10 @@ providers:
   tags: *id012
   url: /providers/hcaptcha/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 32.6
+  kin_score: 31.6
   mcp: *id013
   name: Mailgun
   slug: mailgun
@@ -505,10 +505,10 @@ providers:
   tags: *id014
   url: /providers/mailgun/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 31.8
+  kin_score: 30.5
   mcp: *id015
   name: MySQL
   slug: mysql
@@ -516,21 +516,21 @@ providers:
   tags: *id016
   url: /providers/mysql/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 38.0
   mcp: *id017
   name: Pusher
   slug: pusher
   status: profiled
   tags: *id018
   url: /providers/pusher/
-- agent_band: agent-native
-  agent_readiness: 49.8
+- agent_band: agent-ready
+  agent_readiness: 41.5
   band: developing
   in_catalog: true
-  kin_score: 47.4
+  kin_score: 46.5
   mcp: *id019
   name: Redis
   slug: redis
@@ -538,10 +538,10 @@ providers:
   tags: *id020
   url: /providers/redis/
 - agent_band: agent-ready
-  agent_readiness: 49.4
+  agent_readiness: 49.8
   band: strong
   in_catalog: true
-  kin_score: 58.9
+  kin_score: 56.8
   mcp: *id021
   name: Resend
   slug: resend

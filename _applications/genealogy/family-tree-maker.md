@@ -39,7 +39,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.1
+    kin_score: 6.0
     mcp: &id001
       status: none
     slug: ancestry
@@ -66,10 +66,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 2.8
     band: minimal
     in_catalog: true
-    kin_score: 7.8
+    kin_score: 9.0
     mcp: &id003
       status: none
     slug: familysearch
@@ -97,7 +97,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.1
+  kin_score: 6.0
   mcp: *id001
   name: Ancestry tree sync + hints
   slug: ancestry
@@ -105,10 +105,10 @@ providers:
   tags: *id002
   url: /providers/ancestry/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 2.8
   band: minimal
   in_catalog: true
-  kin_score: 7.8
+  kin_score: 9.0
   mcp: *id003
   name: FamilySearch hints
   slug: familysearch

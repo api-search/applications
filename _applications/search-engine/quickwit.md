@@ -52,10 +52,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.4
-    band: developing
+    agent_readiness: 44.6
+    band: exemplar
     in_catalog: true
-    kin_score: 49.3
+    kin_score: 70.7
     mcp: &id001
       status: none
     slug: kinesis
@@ -81,11 +81,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -113,10 +113,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
-    band: strong
+    agent_readiness: 34.4
+    band: exemplar
     in_catalog: true
-    kin_score: 59.8
+    kin_score: 70.5
     mcp: &id005
       source: https://github.com/awslabs/mcp
       status: verified
@@ -144,10 +144,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.4
+    agent_readiness: 27.8
     band: developing
     in_catalog: true
-    kin_score: 51.3
+    kin_score: 51.4
     mcp: &id007
       status: none
     slug: apache-kafka
@@ -174,10 +174,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
+    agent_readiness: 17.3
     band: thin
     in_catalog: true
-    kin_score: 30.9
+    kin_score: 30.7
     mcp: &id009
       status: none
     slug: apache-pulsar
@@ -204,10 +204,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id011
       source: https://github.com/microsoft/mcp
       status: verified
@@ -234,11 +234,11 @@ integrations:
     via_parent: IT Application Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.0
+    band: strong
     in_catalog: true
-    kin_score: 38.7
+    kin_score: 64.1
     mcp: &id013
       source: https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp
       status: verified
@@ -266,10 +266,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id015
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -295,21 +295,21 @@ noindex: false
 permalink: /applications/search-engine/quickwit/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 29.4
-  band: developing
+  agent_readiness: 44.6
+  band: exemplar
   in_catalog: true
-  kin_score: 49.3
+  kin_score: 70.7
   mcp: *id001
   name: Amazon Kinesis
   slug: kinesis
   status: profiled
   tags: *id002
   url: /providers/kinesis/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id003
   name: Amazon S3
   slug: amazon-s3
@@ -317,10 +317,10 @@ providers:
   tags: *id004
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 31.1
-  band: strong
+  agent_readiness: 34.4
+  band: exemplar
   in_catalog: true
-  kin_score: 59.8
+  kin_score: 70.5
   mcp: *id005
   name: Amazon SQS
   slug: amazon-sqs
@@ -328,10 +328,10 @@ providers:
   tags: *id006
   url: /providers/amazon-sqs/
 - agent_band: agent-aware
-  agent_readiness: 28.4
+  agent_readiness: 27.8
   band: developing
   in_catalog: true
-  kin_score: 51.3
+  kin_score: 51.4
   mcp: *id007
   name: Apache Kafka
   slug: apache-kafka
@@ -339,10 +339,10 @@ providers:
   tags: *id008
   url: /providers/apache-kafka/
 - agent_band: agent-aware
-  agent_readiness: 17.6
+  agent_readiness: 17.3
   band: thin
   in_catalog: true
-  kin_score: 30.9
+  kin_score: 30.7
   mcp: *id009
   name: Apache Pulsar
   slug: apache-pulsar
@@ -350,21 +350,21 @@ providers:
   tags: *id010
   url: /providers/apache-pulsar/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id011
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
   status: profiled
   tags: *id012
   url: /providers/microsoft-azure-blob-storage/
-- agent_band: agent-aware
-  agent_readiness: 25.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.0
+  band: strong
   in_catalog: true
-  kin_score: 38.7
+  kin_score: 64.1
   mcp: *id013
   name: Google Cloud Pub/Sub
   slug: google-cloud-pubsub
@@ -372,10 +372,10 @@ providers:
   tags: *id014
   url: /providers/google-cloud-pubsub/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id015
   name: Google Cloud Storage
   slug: gcp-cloud-storage

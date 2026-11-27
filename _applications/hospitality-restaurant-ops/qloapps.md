@@ -45,10 +45,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
-    band: emerging
+    agent_readiness: 1.1
+    band: thin
     in_catalog: true
-    kin_score: 19.8
+    kin_score: 26.4
     mcp: &id001
       status: unknown
     slug: duitku
@@ -75,10 +75,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id003
       source: https://github.com/google/mcp
       status: verified
@@ -106,10 +106,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id005
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -135,10 +135,10 @@ noindex: false
 permalink: /applications/hospitality-restaurant-ops/qloapps/
 providers:
 - agent_band: human-only
-  agent_readiness: 0.0
-  band: emerging
+  agent_readiness: 1.1
+  band: thin
   in_catalog: true
-  kin_score: 19.8
+  kin_score: 26.4
   mcp: *id001
   name: Duitku
   slug: duitku
@@ -146,10 +146,10 @@ providers:
   tags: *id002
   url: /providers/duitku/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id003
   name: Google Hotel Center
   slug: google
@@ -157,10 +157,10 @@ providers:
   tags: *id004
   url: /providers/google/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id005
   name: PayPal
   slug: paypal

@@ -53,11 +53,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id001
       source: https://github.com/google/mcp
       status: verified
@@ -84,11 +84,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id003
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -116,10 +116,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id005
       source: https://docs.stripe.com/mcp
       status: verified
@@ -147,10 +147,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.3
+    agent_readiness: 60.0
     band: exemplar
     in_catalog: true
-    kin_score: 82.4
+    kin_score: 87.1
     mcp: &id007
       source: https://github.com/XeroAPI/xero-mcp-server
       status: verified
@@ -175,22 +175,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/field-service/tradify/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id001
   name: Google Calendar
   slug: google-calendar
   status: profiled
   tags: *id002
   url: /providers/google-calendar/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id003
   name: QuickBooks
   slug: quickbooks
@@ -198,10 +198,10 @@ providers:
   tags: *id004
   url: /providers/quickbooks/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id005
   name: Stripe
   slug: stripe
@@ -209,10 +209,10 @@ providers:
   tags: *id006
   url: /providers/stripe/
 - agent_band: agent-native
-  agent_readiness: 61.3
+  agent_readiness: 60.0
   band: exemplar
   in_catalog: true
-  kin_score: 82.4
+  kin_score: 87.1
   mcp: *id007
   name: Xero
   slug: xero

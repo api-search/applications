@@ -46,10 +46,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.1
-    band: exemplar
+    agent_readiness: 53.0
+    band: strong
     in_catalog: true
-    kin_score: 67.2
+    kin_score: 65.1
     mcp: &id002
       source: https://github.com/adobe/cq-quickstart-mcp-server
       status: verified
@@ -76,22 +76,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id004
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id005
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google CrashLytics
   provider: firebase
@@ -121,27 +121,27 @@ noindex: false
 permalink: /applications/genealogy/familysearch/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 54.1
-  band: exemplar
+  agent_readiness: 53.0
+  band: strong
   in_catalog: true
-  kin_score: 67.2
+  kin_score: 65.1
   mcp: *id002
   name: Adobe Experience Cloud
   slug: adobe-experience-cloud
   status: profiled
   tags: *id003
   url: /providers/adobe-experience-cloud/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id004
   name: Google CrashLytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id005
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 siblings:
 - name: Ancestry
   rows: 8

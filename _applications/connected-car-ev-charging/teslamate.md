@@ -58,11 +58,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_band: agent-aware
+    agent_readiness: 27.6
     band: strong
     in_catalog: true
-    kin_score: 60.6
+    kin_score: 66.0
     mcp: &id001
       source: https://github.com/grafana/mcp-grafana
       status: verified
@@ -90,10 +90,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id003
       status: none
     slug: nominatim
@@ -120,10 +120,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.3
     band: thin
     in_catalog: true
-    kin_score: 35.5
+    kin_score: 34.8
     mcp: &id005
       status: none
     slug: tesla
@@ -147,11 +147,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/connected-car-ev-charging/teslamate/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 31.1
+- agent_band: agent-aware
+  agent_readiness: 27.6
   band: strong
   in_catalog: true
-  kin_score: 60.6
+  kin_score: 66.0
   mcp: *id001
   name: Grafana
   slug: grafana-com
@@ -159,10 +159,10 @@ providers:
   tags: *id002
   url: /providers/grafana-com/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id003
   name: Nominatim
   slug: nominatim
@@ -170,10 +170,10 @@ providers:
   tags: *id004
   url: /providers/nominatim/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.3
   band: thin
   in_catalog: true
-  kin_score: 35.5
+  kin_score: 34.8
   mcp: *id005
   name: Tesla
   slug: tesla

@@ -68,10 +68,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.5
+    agent_readiness: 24.9
     band: developing
     in_catalog: true
-    kin_score: 42.6
+    kin_score: 39.8
     mcp: &id001
       status: none
     slug: accuweather
@@ -98,10 +98,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.4
+    agent_readiness: 36.0
     band: strong
     in_catalog: true
-    kin_score: 62.7
+    kin_score: 64.9
     mcp: &id003
       status: none
     slug: microsoft-exchange
@@ -127,11 +127,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id005
       source: https://github.com/google/mcp
       status: verified
@@ -158,11 +158,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.2
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: developing
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 52.2
     mcp: &id007
       status: none
     slug: google-meet
@@ -189,10 +189,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id009
       status: none
     slug: apple
@@ -219,10 +219,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.7
-    band: strong
+    agent_readiness: 36.3
+    band: exemplar
     in_catalog: true
-    kin_score: 64.4
+    kin_score: 76.1
     mcp: &id011
       source: https://github.com/microsoft/mcp
       status: verified
@@ -250,10 +250,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id013
       status: none
     slug: microsoft-teams
@@ -280,10 +280,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.6
-    band: strong
+    agent_readiness: 22.2
+    band: developing
     in_catalog: true
-    kin_score: 55.7
+    kin_score: 53.8
     mcp: &id015
       source: https://developer.todoist.com/api/v1/#tag/MCP
       status: verified
@@ -311,10 +311,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 61.1
+    agent_readiness: 61.8
     band: strong
     in_catalog: true
-    kin_score: 64.2
+    kin_score: 66.1
     mcp: &id017
       source: https://github.com/WebexSamples/webex-messaging-mcp-server
       status: verified
@@ -342,10 +342,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 55.2
+    agent_readiness: 56.8
     band: strong
     in_catalog: true
-    kin_score: 56.2
+    kin_score: 57.1
     mcp: &id019
       source: https://developers.zoom.us/docs/mcp/
       status: verified
@@ -371,10 +371,10 @@ noindex: false
 permalink: /applications/calendar-contacts/fantastical/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 25.5
+  agent_readiness: 24.9
   band: developing
   in_catalog: true
-  kin_score: 42.6
+  kin_score: 39.8
   mcp: *id001
   name: AccuWeather
   slug: accuweather
@@ -382,32 +382,32 @@ providers:
   tags: *id002
   url: /providers/accuweather/
 - agent_band: agent-ready
-  agent_readiness: 31.4
+  agent_readiness: 36.0
   band: strong
   in_catalog: true
-  kin_score: 62.7
+  kin_score: 64.9
   mcp: *id003
   name: Exchange
   slug: microsoft-exchange
   status: profiled
   tags: *id004
   url: /providers/microsoft-exchange/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id005
   name: Google Calendar
   slug: google-calendar
   status: profiled
   tags: *id006
   url: /providers/google-calendar/
-- agent_band: agent-aware
-  agent_readiness: 17.2
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: developing
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 52.2
   mcp: *id007
   name: Google Meet
   slug: google-meet
@@ -415,10 +415,10 @@ providers:
   tags: *id008
   url: /providers/google-meet/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id009
   name: iCloud / FaceTime
   slug: apple
@@ -426,10 +426,10 @@ providers:
   tags: *id010
   url: /providers/apple/
 - agent_band: agent-ready
-  agent_readiness: 36.7
-  band: strong
+  agent_readiness: 36.3
+  band: exemplar
   in_catalog: true
-  kin_score: 64.4
+  kin_score: 76.1
   mcp: *id011
   name: Microsoft 365
   slug: microsoft-365
@@ -437,10 +437,10 @@ providers:
   tags: *id012
   url: /providers/microsoft-365/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 65.1
   mcp: *id013
   name: Microsoft Teams
   slug: microsoft-teams
@@ -448,10 +448,10 @@ providers:
   tags: *id014
   url: /providers/microsoft-teams/
 - agent_band: agent-aware
-  agent_readiness: 22.6
-  band: strong
+  agent_readiness: 22.2
+  band: developing
   in_catalog: true
-  kin_score: 55.7
+  kin_score: 53.8
   mcp: *id015
   name: Todoist
   slug: todoist
@@ -459,10 +459,10 @@ providers:
   tags: *id016
   url: /providers/todoist/
 - agent_band: agent-ready
-  agent_readiness: 61.1
+  agent_readiness: 61.8
   band: strong
   in_catalog: true
-  kin_score: 64.2
+  kin_score: 66.1
   mcp: *id017
   name: Webex
   slug: webex
@@ -470,10 +470,10 @@ providers:
   tags: *id018
   url: /providers/webex/
 - agent_band: agent-ready
-  agent_readiness: 55.2
+  agent_readiness: 56.8
   band: strong
   in_catalog: true
-  kin_score: 56.2
+  kin_score: 57.1
   mcp: *id019
   name: Zoom
   slug: zoom

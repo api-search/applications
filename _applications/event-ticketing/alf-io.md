@@ -117,10 +117,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id003
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -148,10 +148,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id005
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -179,10 +179,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.5
+    agent_readiness: 54.4
     band: exemplar
     in_catalog: true
-    kin_score: 77.6
+    kin_score: 79.0
     mcp: &id007
       status: none
     slug: here
@@ -209,10 +209,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 32.6
+    kin_score: 31.6
     mcp: &id009
       source: https://github.com/mailgun/mailgun-mcp-server
       status: verified
@@ -240,10 +240,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.4
+    agent_readiness: 22.9
     band: developing
     in_catalog: true
-    kin_score: 50.1
+    kin_score: 50.5
     mcp: &id011
       source: https://github.com/mailgun/mailjet-mcp-server
       status: verified
@@ -271,10 +271,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 73.2
+    agent_readiness: 71.7
     band: exemplar
     in_catalog: true
-    kin_score: 68.2
+    kin_score: 68.1
     mcp: &id013
       source: https://docs.mollie.com/docs/mcp-server
       status: verified
@@ -302,10 +302,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id015
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -332,11 +332,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: strong
     in_catalog: true
-    kin_score: 48.1
+    kin_score: 65.1
     mcp: &id017
       status: none
     slug: google-recaptcha
@@ -363,10 +363,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 52.0
+    agent_readiness: 50.9
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 69.6
     mcp: &id019
       status: none
     slug: revolut
@@ -393,10 +393,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.5
     band: developing
     in_catalog: true
-    kin_score: 49.1
+    kin_score: 54.0
     mcp: &id021
       status: none
     slug: wordline
@@ -423,10 +423,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id023
       status: none
     slug: sendgrid
@@ -453,10 +453,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id025
       source: https://docs.stripe.com/mcp
       status: verified
@@ -493,10 +493,10 @@ providers:
   tags: *id002
   url: null
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id003
   name: Google Analytics
   slug: google-analytics
@@ -504,10 +504,10 @@ providers:
   tags: *id004
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id005
   name: Google Maps
   slug: google-maps
@@ -515,10 +515,10 @@ providers:
   tags: *id006
   url: /providers/google-maps/
 - agent_band: agent-native
-  agent_readiness: 55.5
+  agent_readiness: 54.4
   band: exemplar
   in_catalog: true
-  kin_score: 77.6
+  kin_score: 79.0
   mcp: *id007
   name: HERE
   slug: here
@@ -526,10 +526,10 @@ providers:
   tags: *id008
   url: /providers/here/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 32.6
+  kin_score: 31.6
   mcp: *id009
   name: Mailgun
   slug: mailgun
@@ -537,10 +537,10 @@ providers:
   tags: *id010
   url: /providers/mailgun/
 - agent_band: agent-aware
-  agent_readiness: 23.4
+  agent_readiness: 22.9
   band: developing
   in_catalog: true
-  kin_score: 50.1
+  kin_score: 50.5
   mcp: *id011
   name: Mailjet
   slug: mailjet
@@ -548,10 +548,10 @@ providers:
   tags: *id012
   url: /providers/mailjet/
 - agent_band: agent-native
-  agent_readiness: 73.2
+  agent_readiness: 71.7
   band: exemplar
   in_catalog: true
-  kin_score: 68.2
+  kin_score: 68.1
   mcp: *id013
   name: Mollie
   slug: mollie
@@ -559,21 +559,21 @@ providers:
   tags: *id014
   url: /providers/mollie/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id015
   name: PayPal
   slug: paypal
   status: profiled
   tags: *id016
   url: /providers/paypal/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: strong
   in_catalog: true
-  kin_score: 48.1
+  kin_score: 65.1
   mcp: *id017
   name: reCAPTCHA
   slug: google-recaptcha
@@ -581,10 +581,10 @@ providers:
   tags: *id018
   url: /providers/google-recaptcha/
 - agent_band: agent-native
-  agent_readiness: 52.0
+  agent_readiness: 50.9
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 69.6
   mcp: *id019
   name: Revolut Business
   slug: revolut
@@ -592,10 +592,10 @@ providers:
   tags: *id020
   url: /providers/revolut/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.5
   band: developing
   in_catalog: true
-  kin_score: 49.1
+  kin_score: 54.0
   mcp: *id021
   name: Saferpay
   slug: wordline
@@ -603,10 +603,10 @@ providers:
   tags: *id022
   url: /providers/wordline/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id023
   name: SendGrid
   slug: sendgrid
@@ -614,10 +614,10 @@ providers:
   tags: *id024
   url: /providers/sendgrid/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id025
   name: Stripe
   slug: stripe

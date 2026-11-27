@@ -36,10 +36,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id001
       status: none
     slug: telegram
@@ -66,10 +66,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.2
+    agent_readiness: 23.6
     band: developing
     in_catalog: true
-    kin_score: 50.5
+    kin_score: 45.1
     mcp: &id003
       status: none
     slug: wechat
@@ -94,10 +94,10 @@ noindex: false
 permalink: /applications/pet-care/oh-my-petcare/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id001
   name: Telegram
   slug: telegram
@@ -105,10 +105,10 @@ providers:
   tags: *id002
   url: /providers/telegram/
 - agent_band: agent-aware
-  agent_readiness: 24.2
+  agent_readiness: 23.6
   band: developing
   in_catalog: true
-  kin_score: 50.5
+  kin_score: 45.1
   mcp: *id003
   name: WeChat
   slug: wechat

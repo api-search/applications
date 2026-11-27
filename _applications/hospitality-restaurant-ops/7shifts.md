@@ -46,10 +46,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
+    agent_readiness: 23.9
     band: thin
     in_catalog: true
-    kin_score: 27.5
+    kin_score: 26.8
     mcp: &id001
       status: none
     slug: ncr
@@ -105,7 +105,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.5
+    kin_score: 12.7
     mcp: &id005
       status: unknown
     slug: cake-pos
@@ -132,10 +132,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.5
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 39.9
+    kin_score: 41.3
     mcp: &id007
       status: none
     slug: clover
@@ -188,10 +188,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.0
+    agent_readiness: 42.1
     band: exemplar
     in_catalog: true
-    kin_score: 86.5
+    kin_score: 84.5
     mcp: &id011
       status: none
     slug: lightspeed
@@ -218,10 +218,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 59.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.6
+    kin_score: 70.4
     mcp: &id013
       source: https://github.com/oracle/mcp
       status: verified
@@ -275,10 +275,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.1
+    agent_readiness: 28.2
     band: emerging
     in_catalog: true
-    kin_score: 20.5
+    kin_score: 19.6
     mcp: &id017
       status: none
     slug: revel-systems
@@ -305,10 +305,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 62.8
+    agent_readiness: 61.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.1
+    kin_score: 78.2
     mcp: &id019
       source: https://developer.squareup.com/docs/mcp
       status: verified
@@ -336,10 +336,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.6
+    agent_readiness: 38.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 68.3
     mcp: &id021
       status: none
     slug: toast
@@ -369,7 +369,7 @@ integrations:
     agent_readiness: 0.6
     band: minimal
     in_catalog: true
-    kin_score: 9.1
+    kin_score: 8.5
     mcp: &id023
       status: none
     slug: touchbistro
@@ -394,10 +394,10 @@ noindex: false
 permalink: /applications/hospitality-restaurant-ops/7shifts/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 23.7
+  agent_readiness: 23.9
   band: thin
   in_catalog: true
-  kin_score: 27.5
+  kin_score: 26.8
   mcp: *id001
   name: Aloha (NCR Voyix)
   slug: ncr
@@ -419,7 +419,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.5
+  kin_score: 12.7
   mcp: *id005
   name: CAKE POS
   slug: cake-pos
@@ -427,10 +427,10 @@ providers:
   tags: *id006
   url: /providers/cake-pos/
 - agent_band: agent-ready
-  agent_readiness: 36.5
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 39.9
+  kin_score: 41.3
   mcp: *id007
   name: Clover
   slug: clover
@@ -449,10 +449,10 @@ providers:
   tags: *id010
   url: null
 - agent_band: agent-ready
-  agent_readiness: 43.0
+  agent_readiness: 42.1
   band: exemplar
   in_catalog: true
-  kin_score: 86.5
+  kin_score: 84.5
   mcp: *id011
   name: Lightspeed
   slug: lightspeed
@@ -460,10 +460,10 @@ providers:
   tags: *id012
   url: /providers/lightspeed/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 59.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.6
+  kin_score: 70.4
   mcp: *id013
   name: Oracle MICROS 3700
   slug: oracle
@@ -482,10 +482,10 @@ providers:
   tags: *id016
   url: null
 - agent_band: agent-aware
-  agent_readiness: 28.1
+  agent_readiness: 28.2
   band: emerging
   in_catalog: true
-  kin_score: 20.5
+  kin_score: 19.6
   mcp: *id017
   name: Revel Systems
   slug: revel-systems
@@ -493,10 +493,10 @@ providers:
   tags: *id018
   url: /providers/revel-systems/
 - agent_band: agent-native
-  agent_readiness: 62.8
+  agent_readiness: 61.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.1
+  kin_score: 78.2
   mcp: *id019
   name: Square
   slug: square
@@ -504,10 +504,10 @@ providers:
   tags: *id020
   url: /providers/square/
 - agent_band: agent-ready
-  agent_readiness: 39.6
+  agent_readiness: 38.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 68.3
   mcp: *id021
   name: Toast
   slug: toast
@@ -518,7 +518,7 @@ providers:
   agent_readiness: 0.6
   band: minimal
   in_catalog: true
-  kin_score: 9.1
+  kin_score: 8.5
   mcp: *id023
   name: TouchBistro
   slug: touchbistro

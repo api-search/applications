@@ -54,10 +54,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.8
-    band: emerging
+    agent_readiness: 23.3
+    band: thin
     in_catalog: true
-    kin_score: 24.9
+    kin_score: 30.9
     mcp: &id001
       status: none
     slug: adjust
@@ -84,10 +84,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.1
-    band: exemplar
+    agent_readiness: 53.0
+    band: strong
     in_catalog: true
-    kin_score: 67.2
+    kin_score: 65.1
     mcp: &id003
       source: https://github.com/adobe/cq-quickstart-mcp-server
       status: verified
@@ -115,10 +115,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.0
+    agent_readiness: 19.6
     band: developing
     in_catalog: true
-    kin_score: 47.3
+    kin_score: 45.7
     mcp: &id005
       status: none
     slug: qualtrics
@@ -143,10 +143,10 @@ noindex: false
 permalink: /applications/mobile-banking-wallet/paypal/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 23.8
-  band: emerging
+  agent_readiness: 23.3
+  band: thin
   in_catalog: true
-  kin_score: 24.9
+  kin_score: 30.9
   mcp: *id001
   name: Adjust
   slug: adjust
@@ -154,10 +154,10 @@ providers:
   tags: *id002
   url: /providers/adjust/
 - agent_band: agent-ready
-  agent_readiness: 54.1
-  band: exemplar
+  agent_readiness: 53.0
+  band: strong
   in_catalog: true
-  kin_score: 67.2
+  kin_score: 65.1
   mcp: *id003
   name: Adobe Experience Cloud
   slug: adobe-experience-cloud
@@ -165,10 +165,10 @@ providers:
   tags: *id004
   url: /providers/adobe-experience-cloud/
 - agent_band: agent-aware
-  agent_readiness: 20.0
+  agent_readiness: 19.6
   band: developing
   in_catalog: true
-  kin_score: 47.3
+  kin_score: 45.7
   mcp: *id005
   name: Qualtrics
   slug: qualtrics

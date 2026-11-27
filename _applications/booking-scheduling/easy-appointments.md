@@ -38,11 +38,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id001
       source: https://github.com/google/mcp
       status: verified
@@ -67,11 +67,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/booking-scheduling/easy-appointments/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id001
   name: Google Calendar
   slug: google-calendar

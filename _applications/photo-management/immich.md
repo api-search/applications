@@ -44,7 +44,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 4.3
     mcp: &id001
       status: none
     slug: geonames
@@ -70,7 +70,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 4.3
   mcp: *id001
   name: geonames
   slug: geonames

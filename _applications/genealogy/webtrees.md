@@ -72,21 +72,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: human-only
-    agent_readiness: 0.0
-    band: minimal
+    agent_band: agent-ready
+    agent_readiness: 30.2
+    band: exemplar
     in_catalog: true
-    kin_score: 0.0
+    kin_score: 70.5
     mcp: &id001
-      status: none
-    slug: microsoft-bing
+      source: https://github.com/microsoft/mcp
+      status: verified
+    slug: microsoft
     status: profiled
     tags: &id002
-    - Image
-    - Search
-    - Video
-    - Web Search
-    url: /providers/microsoft-bing/
+    - Cloud
+    - Fortune 100
+    - Microsoft
+    - Software
+    url: /providers/microsoft/
   layer: common
   name: Bing map links + Bing Webmaster Tools verification
   provider: microsoft-bing
@@ -103,10 +104,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 50.1
+    agent_readiness: 49.1
     band: exemplar
     in_catalog: true
-    kin_score: 77.8
+    kin_score: 75.0
     mcp: &id003
       status: none
     slug: esri
@@ -136,7 +137,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 4.3
     mcp: &id005
       status: none
     slug: geonames
@@ -161,10 +162,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id007
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -192,10 +193,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id009
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -223,10 +224,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.9
+    agent_readiness: 30.7
     band: exemplar
     in_catalog: true
-    kin_score: 70.4
+    kin_score: 69.7
     mcp: &id011
       status: none
     slug: google-search-console
@@ -253,10 +254,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.5
+    agent_readiness: 54.4
     band: exemplar
     in_catalog: true
-    kin_score: 77.6
+    kin_score: 79.0
     mcp: &id013
       status: none
     slug: here
@@ -283,10 +284,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 45.2
     band: developing
     in_catalog: true
-    kin_score: 49.3
+    kin_score: 50.7
     mcp: &id015
       source: https://github.com/mapbox/mcp-server
       status: verified
@@ -314,10 +315,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.4
+    agent_readiness: 41.3
     band: exemplar
     in_catalog: true
-    kin_score: 72.2
+    kin_score: 70.7
     mcp: &id017
       source: https://github.com/matomo-org/plugin-McpServer
       status: verified
@@ -345,10 +346,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id019
       status: none
     slug: nominatim
@@ -375,10 +376,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 26.4
     band: thin
     in_catalog: true
-    kin_score: 34.9
+    kin_score: 33.0
     mcp: &id021
       status: none
     slug: openrouteservice
@@ -404,11 +405,11 @@ integrations:
     via_parent: Maps & Tiles
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.3
     band: developing
     in_catalog: true
-    kin_score: 44.4
+    kin_score: 45.5
     mcp: &id023
       status: none
     slug: openstreetmap
@@ -435,10 +436,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.7
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 17.3
+    kin_score: 19.2
     mcp: &id025
       source: https://statcounter.com/api/docs/mcp
       status: verified
@@ -463,22 +464,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/genealogy/webtrees/
 providers:
-- agent_band: human-only
-  agent_readiness: 0.0
-  band: minimal
-  in_catalog: true
-  kin_score: 0.0
-  mcp: *id001
-  name: Bing map links + Bing Webmaster Tools verification
-  slug: microsoft-bing
-  status: profiled
-  tags: *id002
-  url: /providers/microsoft-bing/
 - agent_band: agent-ready
-  agent_readiness: 50.1
+  agent_readiness: 30.2
   band: exemplar
   in_catalog: true
-  kin_score: 77.8
+  kin_score: 70.5
+  mcp: *id001
+  name: Bing map links + Bing Webmaster Tools verification
+  slug: microsoft
+  status: profiled
+  tags: *id002
+  url: /providers/microsoft/
+- agent_band: agent-ready
+  agent_readiness: 49.1
+  band: exemplar
+  in_catalog: true
+  kin_score: 75.0
   mcp: *id003
   name: Esri ArcGIS Online tiles (server.arcgisonline.com)
   slug: esri
@@ -489,7 +490,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 4.3
   mcp: *id005
   name: GeoNames place autocomplete + geolocation (secure.geonames.org)
   slug: geonames
@@ -497,10 +498,10 @@ providers:
   tags: *id006
   url: /providers/geonames/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id007
   name: Google Analytics module
   slug: google-analytics
@@ -508,10 +509,10 @@ providers:
   tags: *id008
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id009
   name: Google Maps tiles + map links
   slug: google-maps
@@ -519,10 +520,10 @@ providers:
   tags: *id010
   url: /providers/google-maps/
 - agent_band: agent-ready
-  agent_readiness: 37.9
+  agent_readiness: 30.7
   band: exemplar
   in_catalog: true
-  kin_score: 70.4
+  kin_score: 69.7
   mcp: *id011
   name: Google Search Console verification module
   slug: google-search-console
@@ -530,10 +531,10 @@ providers:
   tags: *id012
   url: /providers/google-search-console/
 - agent_band: agent-native
-  agent_readiness: 55.5
+  agent_readiness: 54.4
   band: exemplar
   in_catalog: true
-  kin_score: 77.6
+  kin_score: 79.0
   mcp: *id013
   name: HERE map tiles (maps.hereapi.com)
   slug: here
@@ -541,10 +542,10 @@ providers:
   tags: *id014
   url: /providers/here/
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 45.2
   band: developing
   in_catalog: true
-  kin_score: 49.3
+  kin_score: 50.7
   mcp: *id015
   name: Mapbox styles/tiles (api.mapbox.com)
   slug: mapbox
@@ -552,10 +553,10 @@ providers:
   tags: *id016
   url: /providers/mapbox/
 - agent_band: agent-ready
-  agent_readiness: 37.4
+  agent_readiness: 41.3
   band: exemplar
   in_catalog: true
-  kin_score: 72.2
+  kin_score: 70.7
   mcp: *id017
   name: Matomo analytics module
   slug: matomo
@@ -563,10 +564,10 @@ providers:
   tags: *id018
   url: /providers/matomo/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id019
   name: Nominatim geolocation
   slug: nominatim
@@ -574,21 +575,21 @@ providers:
   tags: *id020
   url: /providers/nominatim/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 26.4
   band: thin
   in_catalog: true
-  kin_score: 34.9
+  kin_score: 33.0
   mcp: *id021
   name: openrouteservice geocoding
   slug: openrouteservice
   status: profiled
   tags: *id022
   url: /providers/openrouteservice/
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: developing
   in_catalog: true
-  kin_score: 44.4
+  kin_score: 45.5
   mcp: *id023
   name: OpenStreetMap tiles
   slug: openstreetmap
@@ -596,10 +597,10 @@ providers:
   tags: *id024
   url: /providers/openstreetmap/
 - agent_band: agent-aware
-  agent_readiness: 18.7
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 17.3
+  kin_score: 19.2
   mcp: *id025
   name: StatCounter analytics module
   slug: statcounter

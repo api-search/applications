@@ -74,11 +74,11 @@ integrations:
     via_parent: News & Publishing
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 46.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 53.6
+    band: strong
     in_catalog: true
-    kin_score: 46.7
+    kin_score: 58.4
     mcp: &id001
       source: https://github.com/amzn/selling-partner-agentic-toolkit
       status: verified
@@ -106,10 +106,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 1.1
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 4.8
     mcp: &id003
       status: unknown
     slug: comic-vine
@@ -134,10 +134,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.0
+    kin_score: 3.7
     mcp: &id005
       status: none
     slug: douban
@@ -164,10 +164,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id007
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -195,10 +195,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 6.5
+    agent_readiness: 6.3
     band: emerging
     in_catalog: true
-    kin_score: 24.1
+    kin_score: 24.8
     mcp: &id009
       status: none
     slug: goodreads
@@ -224,11 +224,11 @@ integrations:
     via_parent: News & Publishing
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.4
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 34.1
+    kin_score: 54.5
     mcp: &id011
       status: none
     slug: google-books
@@ -255,10 +255,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.3
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 67.1
+    kin_score: 73.2
     mcp: &id013
       source: https://github.com/google/mcp
       status: verified
@@ -311,11 +311,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id017
       status: none
     slug: google-identity-platform
@@ -345,7 +345,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.2
+    kin_score: 3.3
     mcp: &id019
       status: unknown
     slug: lubimyczytac
@@ -395,11 +395,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/ebooks-reading/calibre-web/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 46.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 53.6
+  band: strong
   in_catalog: true
-  kin_score: 46.7
+  kin_score: 58.4
   mcp: *id001
   name: Amazon
   slug: amazon
@@ -407,10 +407,10 @@ providers:
   tags: *id002
   url: /providers/amazon/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 1.1
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 4.8
   mcp: *id003
   name: Comic Vine
   slug: comic-vine
@@ -418,10 +418,10 @@ providers:
   tags: *id004
   url: /providers/comic-vine/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.0
+  kin_score: 3.7
   mcp: *id005
   name: Douban
   slug: douban
@@ -429,10 +429,10 @@ providers:
   tags: *id006
   url: /providers/douban/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id007
   name: GitHub
   slug: github
@@ -440,21 +440,21 @@ providers:
   tags: *id008
   url: /providers/github/
 - agent_band: agent-aware
-  agent_readiness: 6.5
+  agent_readiness: 6.3
   band: emerging
   in_catalog: true
-  kin_score: 24.1
+  kin_score: 24.8
   mcp: *id009
   name: Goodreads
   slug: goodreads
   status: profiled
   tags: *id010
   url: /providers/goodreads/
-- agent_band: agent-aware
-  agent_readiness: 25.4
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 34.1
+  kin_score: 54.5
   mcp: *id011
   name: Google Books
   slug: google-books
@@ -462,10 +462,10 @@ providers:
   tags: *id012
   url: /providers/google-books/
 - agent_band: agent-ready
-  agent_readiness: 44.3
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 67.1
+  kin_score: 73.2
   mcp: *id013
   name: Google Drive
   slug: google-drive
@@ -483,11 +483,11 @@ providers:
   status: queued for profiling
   tags: *id016
   url: null
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id017
   name: Google sign-in
   slug: google-identity-platform
@@ -498,7 +498,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.2
+  kin_score: 3.3
   mcp: *id019
   name: LubimyCzytac
   slug: lubimyczytac

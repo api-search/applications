@@ -70,11 +70,11 @@ integrations:
     via_parent: Email
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id001
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -102,10 +102,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 11.5
-    band: emerging
+    agent_readiness: 8.5
+    band: thin
     in_catalog: true
-    kin_score: 21.3
+    kin_score: 30.7
     mcp: &id003
       status: none
     slug: instapaper
@@ -132,10 +132,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.4
+    agent_readiness: 41.3
     band: exemplar
     in_catalog: true
-    kin_score: 72.2
+    kin_score: 70.7
     mcp: &id005
       source: https://github.com/matomo-org/plugin-McpServer
       status: verified
@@ -189,10 +189,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 5.4
-    band: emerging
+    agent_readiness: 5.3
+    band: thin
     in_catalog: true
-    kin_score: 19.9
+    kin_score: 30.5
     mcp: &id009
       status: unknown
     slug: pinboard
@@ -222,7 +222,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.2
+    kin_score: 3.3
     mcp: &id011
       status: none
     slug: pocket
@@ -251,7 +251,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id013
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -279,10 +279,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.2
-    band: emerging
+    agent_readiness: 20.2
+    band: thin
     in_catalog: true
-    kin_score: 22.2
+    kin_score: 26.8
     mcp: &id015
       status: none
     slug: shaarli
@@ -306,11 +306,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/news-feed-reader/wallabag/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id001
   name: Gmail
   slug: google-gmail
@@ -318,10 +318,10 @@ providers:
   tags: *id002
   url: /providers/google-gmail/
 - agent_band: agent-aware
-  agent_readiness: 11.5
-  band: emerging
+  agent_readiness: 8.5
+  band: thin
   in_catalog: true
-  kin_score: 21.3
+  kin_score: 30.7
   mcp: *id003
   name: Instapaper
   slug: instapaper
@@ -329,10 +329,10 @@ providers:
   tags: *id004
   url: /providers/instapaper/
 - agent_band: agent-ready
-  agent_readiness: 37.4
+  agent_readiness: 41.3
   band: exemplar
   in_catalog: true
-  kin_score: 72.2
+  kin_score: 70.7
   mcp: *id005
   name: Matomo (Piwik)
   slug: matomo
@@ -351,10 +351,10 @@ providers:
   tags: *id008
   url: null
 - agent_band: agent-aware
-  agent_readiness: 5.4
-  band: emerging
+  agent_readiness: 5.3
+  band: thin
   in_catalog: true
-  kin_score: 19.9
+  kin_score: 30.5
   mcp: *id009
   name: Pinboard
   slug: pinboard
@@ -365,7 +365,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.2
+  kin_score: 3.3
   mcp: *id011
   name: Pocket
   slug: pocket
@@ -376,7 +376,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id013
   name: Sentry
   slug: sentry-system
@@ -384,10 +384,10 @@ providers:
   tags: *id014
   url: /providers/sentry-system/
 - agent_band: agent-aware
-  agent_readiness: 23.2
-  band: emerging
+  agent_readiness: 20.2
+  band: thin
   in_catalog: true
-  kin_score: 22.2
+  kin_score: 26.8
   mcp: *id015
   name: Shaarli
   slug: shaarli

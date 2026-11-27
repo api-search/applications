@@ -39,10 +39,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 45.2
     band: developing
     in_catalog: true
-    kin_score: 49.3
+    kin_score: 50.7
     mcp: &id001
       source: https://github.com/mapbox/mcp-server
       status: verified
@@ -68,10 +68,10 @@ noindex: false
 permalink: /applications/farm-agriculture/farmos/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 45.2
   band: developing
   in_catalog: true
-  kin_score: 49.3
+  kin_score: 50.7
   mcp: *id001
   name: Mapbox
   slug: mapbox

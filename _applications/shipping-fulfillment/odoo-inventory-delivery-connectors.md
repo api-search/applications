@@ -55,10 +55,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.9
+    agent_readiness: 12.7
     band: emerging
     in_catalog: true
-    kin_score: 13.7
+    kin_score: 16.0
     mcp: &id011
       status: none
     slug: mondial-relay
@@ -85,10 +85,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.0
+    kin_score: 7.9
     mcp: &id001
       status: unknown
     slug: bpost
@@ -114,11 +114,11 @@ integrations:
     via_parent: Logistics Operations Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.1
-    band: emerging
+    agent_band: agent-native
+    agent_readiness: 39.5
+    band: developing
     in_catalog: true
-    kin_score: 26.1
+    kin_score: 52.3
     mcp: &id003
       status: none
     slug: dhl
@@ -145,10 +145,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.4
+    agent_readiness: 21.9
     band: thin
     in_catalog: true
-    kin_score: 32.4
+    kin_score: 32.0
     mcp: &id005
       status: none
     slug: easypost
@@ -175,10 +175,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.0
-    band: thin
+    agent_readiness: 44.5
+    band: developing
     in_catalog: true
-    kin_score: 39.2
+    kin_score: 43.0
     mcp: &id007
       source: https://docs.envia.com/docs/mcp-overview
       status: verified
@@ -206,10 +206,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.9
+    agent_readiness: 35.2
     band: exemplar
     in_catalog: true
-    kin_score: 69.4
+    kin_score: 70.7
     mcp: &id009
       status: none
     slug: fedex
@@ -236,10 +236,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.8
-    band: exemplar
+    agent_readiness: 48.2
+    band: strong
     in_catalog: true
-    kin_score: 68.9
+    kin_score: 65.6
     mcp: &id013
       status: none
     slug: sendcloud
@@ -266,10 +266,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.5
+    agent_readiness: 48.6
     band: strong
     in_catalog: true
-    kin_score: 57.2
+    kin_score: 55.5
     mcp: &id015
       status: none
     slug: shiprocket
@@ -296,10 +296,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.4
+    agent_readiness: 18.7
     band: emerging
     in_catalog: true
-    kin_score: 16.1
+    kin_score: 24.8
     mcp: &id017
       status: unknown
     slug: starshipit
@@ -325,11 +325,11 @@ integrations:
     via_parent: Logistics Operations Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.1
+    agent_band: agent-ready
+    agent_readiness: 29.2
     band: thin
     in_catalog: true
-    kin_score: 29.0
+    kin_score: 27.9
     mcp: &id019
       source: https://github.com/UPS-API/ups-mcp
       status: verified
@@ -356,11 +356,11 @@ integrations:
     via_parent: Logistics Operations Management
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.9
-    band: thin
+    agent_band: agent-native
+    agent_readiness: 51.8
+    band: developing
     in_catalog: true
-    kin_score: 33.2
+    kin_score: 52.0
     mcp: &id021
       status: none
     slug: usps
@@ -385,21 +385,21 @@ noindex: false
 permalink: /applications/shipping-fulfillment/odoo-inventory-delivery-connectors/
 providers:
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.0
+  kin_score: 7.9
   mcp: *id001
   name: bpost
   slug: bpost
   status: profiled
   tags: *id002
   url: /providers/bpost/
-- agent_band: agent-aware
-  agent_readiness: 24.1
-  band: emerging
+- agent_band: agent-native
+  agent_readiness: 39.5
+  band: developing
   in_catalog: true
-  kin_score: 26.1
+  kin_score: 52.3
   mcp: *id003
   name: DHL
   slug: dhl
@@ -407,10 +407,10 @@ providers:
   tags: *id004
   url: /providers/dhl/
 - agent_band: agent-aware
-  agent_readiness: 22.4
+  agent_readiness: 21.9
   band: thin
   in_catalog: true
-  kin_score: 32.4
+  kin_score: 32.0
   mcp: *id005
   name: EasyPost
   slug: easypost
@@ -418,10 +418,10 @@ providers:
   tags: *id006
   url: /providers/easypost/
 - agent_band: agent-ready
-  agent_readiness: 45.0
-  band: thin
+  agent_readiness: 44.5
+  band: developing
   in_catalog: true
-  kin_score: 39.2
+  kin_score: 43.0
   mcp: *id007
   name: Envia.com
   slug: envia
@@ -429,10 +429,10 @@ providers:
   tags: *id008
   url: /providers/envia/
 - agent_band: agent-ready
-  agent_readiness: 35.9
+  agent_readiness: 35.2
   band: exemplar
   in_catalog: true
-  kin_score: 69.4
+  kin_score: 70.7
   mcp: *id009
   name: FedEx
   slug: fedex
@@ -440,10 +440,10 @@ providers:
   tags: *id010
   url: /providers/fedex/
 - agent_band: agent-aware
-  agent_readiness: 12.9
+  agent_readiness: 12.7
   band: emerging
   in_catalog: true
-  kin_score: 13.7
+  kin_score: 16.0
   mcp: *id011
   name: Mondial Relay
   slug: mondial-relay
@@ -451,10 +451,10 @@ providers:
   tags: *id012
   url: /providers/mondial-relay/
 - agent_band: agent-ready
-  agent_readiness: 48.8
-  band: exemplar
+  agent_readiness: 48.2
+  band: strong
   in_catalog: true
-  kin_score: 68.9
+  kin_score: 65.6
   mcp: *id013
   name: Sendcloud
   slug: sendcloud
@@ -462,10 +462,10 @@ providers:
   tags: *id014
   url: /providers/sendcloud/
 - agent_band: agent-ready
-  agent_readiness: 45.5
+  agent_readiness: 48.6
   band: strong
   in_catalog: true
-  kin_score: 57.2
+  kin_score: 55.5
   mcp: *id015
   name: Shiprocket
   slug: shiprocket
@@ -473,32 +473,32 @@ providers:
   tags: *id016
   url: /providers/shiprocket/
 - agent_band: agent-aware
-  agent_readiness: 21.4
+  agent_readiness: 18.7
   band: emerging
   in_catalog: true
-  kin_score: 16.1
+  kin_score: 24.8
   mcp: *id017
   name: Starshipit
   slug: starshipit
   status: profiled
   tags: *id018
   url: /providers/starshipit/
-- agent_band: agent-aware
-  agent_readiness: 24.1
+- agent_band: agent-ready
+  agent_readiness: 29.2
   band: thin
   in_catalog: true
-  kin_score: 29.0
+  kin_score: 27.9
   mcp: *id019
   name: UPS
   slug: ups
   status: profiled
   tags: *id020
   url: /providers/ups/
-- agent_band: agent-ready
-  agent_readiness: 31.9
-  band: thin
+- agent_band: agent-native
+  agent_readiness: 51.8
+  band: developing
   in_catalog: true
-  kin_score: 33.2
+  kin_score: 52.0
   mcp: *id021
   name: USPS
   slug: usps

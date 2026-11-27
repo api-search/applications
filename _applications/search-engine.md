@@ -2126,7 +2126,7 @@ stack:
       via_parent: Retrieval & Embeddings
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Elasticsearch
       - Meilisearch
@@ -2134,7 +2134,7 @@ stack:
       - Typesense
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -2152,15 +2152,15 @@ stack:
       - OpenAI
       tier: observed
       url: /providers/openai/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 42.2
       apps:
       - Elasticsearch
       - OpenSearch
       - Typesense
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.4
+      kin_score: 63.2
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -2179,13 +2179,13 @@ stack:
       tier: observed
       url: /providers/google-vertex-ai/
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - Elasticsearch
       - Meilisearch
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 69.1
       mcp: &id011
         source: https://github.com/huggingface/hf-mcp-server
         status: verified
@@ -2202,15 +2202,15 @@ stack:
       - LLM
       tier: observed
       url: /providers/hugging-face/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
+    - agent_band: agent-ready
+      agent_readiness: 29.9
       apps:
       - OpenSearch
       - Typesense
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.6
-      mcp: &id005
+      kin_score: 68.3
+      mcp: &id003
         source: https://github.com/microsoft/mcp
         status: verified
       name: Azure OpenAI
@@ -2219,7 +2219,7 @@ stack:
       - https://github.com/opensearch-project/ml-commons/tree/main/docs/remote_inference_blueprints
       - https://github.com/typesense/typesense/blob/HEAD/src/text_embedder_remote.cpp
       status: profiled
-      tags: &id006
+      tags: &id004
       - Artificial Intelligence
       - Embeddings
       - GPT
@@ -2227,13 +2227,13 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-openai/
     - agent_band: agent-ready
-      agent_readiness: 41.4
+      agent_readiness: 40.6
       apps:
       - Elasticsearch
       - OpenSearch
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.2
       mcp:
         status: none
       name: Cohere
@@ -2250,12 +2250,12 @@ stack:
       tier: observed
       url: /providers/cohere/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - Typesense
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp: &id001
         status: none
       name: Google (Gemini API)
@@ -2270,13 +2270,13 @@ stack:
       - Embeddings
       tier: observed
       url: /providers/google-gemini/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - Elasticsearch
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: Mistral
@@ -2291,13 +2291,13 @@ stack:
       - OCR
       tier: observed
       url: /providers/mistral/
-    - agent_band: agent-aware
-      agent_readiness: 26.8
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - Elasticsearch
       band: developing
       in_catalog: true
-      kin_score: 43.0
+      kin_score: 43.9
       mcp:
         source: https://github.com/ContextualAI/contextual-mcp-server
         status: verified
@@ -2319,7 +2319,7 @@ stack:
       - Meilisearch
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp: &id007
         status: none
       name: Ollama
@@ -2335,12 +2335,12 @@ stack:
       tier: observed
       url: /providers/ollama/
     - agent_band: agent-ready
-      agent_readiness: 37.8
+      agent_readiness: 37.1
       apps:
       - Elasticsearch
       band: thin
       in_catalog: true
-      kin_score: 36.0
+      kin_score: 34.2
       mcp: &id009
         source: https://github.com/jina-ai/MCP
         status: verified
@@ -2357,33 +2357,12 @@ stack:
       tier: observed
       url: /providers/jina-ai/
     - agent_band: agent-aware
-      agent_readiness: 16.1
+      agent_readiness: 12.7
       apps:
       - Elasticsearch
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.9
-      mcp:
-        status: none
-      name: Voyage AI
-      slug: voyage-ai
-      sources:
-      - https://github.com/elastic/elasticsearch/tree/main/x-pack/plugin/inference/src/main/java/org/elasticsearch/xpack/inference/services
-      status: profiled
-      tags:
-      - Embeddings
-      - RAG
-      - Rerankers
-      - Semantic Search
-      tier: observed
-      url: /providers/voyage-ai/
-    - agent_band: agent-aware
-      agent_readiness: 12.9
-      apps:
-      - Elasticsearch
-      band: emerging
-      in_catalog: true
-      kin_score: 25.3
+      kin_score: 30.5
       mcp:
         source: https://github.com/TencentCloud/cos-mcp
         status: verified
@@ -2399,13 +2378,34 @@ stack:
       - Infrastructure
       tier: observed
       url: /providers/tencentcloud/
+    - agent_band: agent-aware
+      agent_readiness: 21.4
+      apps:
+      - Elasticsearch
+      band: emerging
+      in_catalog: true
+      kin_score: 24.2
+      mcp:
+        status: none
+      name: Voyage AI
+      slug: voyage-ai
+      sources:
+      - https://github.com/elastic/elasticsearch/tree/main/x-pack/plugin/inference/src/main/java/org/elasticsearch/xpack/inference/services
+      status: profiled
+      tags:
+      - Embeddings
+      - RAG
+      - Rerankers
+      - Semantic Search
+      tier: observed
+      url: /providers/voyage-ai/
     - agent_band: human-only
       agent_readiness: 0.6
       apps:
       - Elasticsearch
       band: emerging
       in_catalog: true
-      kin_score: 19.2
+      kin_score: 18.5
       mcp:
         status: none
       name: IBM watsonx
@@ -2421,12 +2421,12 @@ stack:
       tier: observed
       url: /providers/ibm-watson/
     - agent_band: human-only
-      agent_readiness: 3.5
+      agent_readiness: 3.4
       apps:
       - Elasticsearch
       band: emerging
       in_catalog: true
-      kin_score: 18.8
+      kin_score: 17.9
       mcp:
         source: https://github.com/aliyun/alibaba-cloud-ops-mcp-server
         status: verified
@@ -2442,13 +2442,13 @@ stack:
       - E-Commerce
       tier: observed
       url: /providers/alibaba/
-    - agent_band: human-only
-      agent_readiness: 4.2
+    - agent_band: agent-aware
+      agent_readiness: 5.2
       apps:
       - Elasticsearch
-      band: emerging
+      band: minimal
       in_catalog: true
-      kin_score: 11.9
+      kin_score: 9.9
       mcp:
         status: none
       name: NVIDIA
@@ -2463,14 +2463,14 @@ stack:
       - Machine Learning
       tier: observed
       url: /providers/nvidia/
-    - agent_band: agent-ready
-      agent_readiness: 35.8
+    - agent_band: agent-native
+      agent_readiness: 48.3
       apps:
       - OpenSearch
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.4
-      mcp: &id003
+      kin_score: 64.3
+      mcp: &id005
         source: https://github.com/awslabs/mcp
         status: verified
       name: Amazon Bedrock
@@ -2478,7 +2478,7 @@ stack:
       sources:
       - https://github.com/opensearch-project/ml-commons/tree/main/docs/remote_inference_blueprints
       status: profiled
-      tags: &id004
+      tags: &id006
       - Amazon Web Services
       - Artificial Intelligence
       - Foundation Models
@@ -2486,12 +2486,12 @@ stack:
       tier: declared
       url: /providers/amazon-bedrock/
     - agent_band: agent-ready
-      agent_readiness: 30.3
+      agent_readiness: 29.7
       apps:
       - OpenSearch
       band: developing
       in_catalog: true
-      kin_score: 47.2
+      kin_score: 47.8
       mcp:
         status: none
       name: Aleph Alpha
@@ -2532,13 +2532,13 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.8
+      agent_readiness: 36.7
       apps:
       - Elasticsearch
       - OpenSearch
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp/tree/main/src/sagemaker-ai-mcp-server
         status: verified
@@ -2556,13 +2556,13 @@ stack:
       tier: observed
       url: /providers/amazon-sagemaker/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - Elasticsearch
       - OpenSearch
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp: *id001
       name: Google AI Studio
       slug: google-gemini
@@ -2574,13 +2574,13 @@ stack:
       tier: observed
       url: /providers/google-gemini/
     - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 22.4
       apps:
       - Elasticsearch
       - OpenSearch
       band: developing
       in_catalog: true
-      kin_score: 43.3
+      kin_score: 41.2
       mcp:
         status: none
       name: DeepSeek
@@ -2597,12 +2597,12 @@ stack:
       tier: observed
       url: /providers/deepseek/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Elasticsearch
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -2619,12 +2619,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - Typesense
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp:
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -2640,13 +2640,67 @@ stack:
       - CDN
       tier: observed
       url: /providers/cloudflare/
-    - agent_band: agent-aware
-      agent_readiness: 19.0
+    - agent_band: agent-ready
+      agent_readiness: 29.9
+      apps:
+      - Elasticsearch
+      band: exemplar
+      in_catalog: true
+      kin_score: 68.3
+      mcp: *id003
+      name: Azure OpenAI
+      slug: microsoft-azure-openai
+      sources:
+      - https://github.com/elastic/elasticsearch/tree/main/x-pack/plugin/inference/src/main/java/org/elasticsearch/xpack/inference/services
+      status: profiled
+      tags: *id004
+      tier: observed
+      url: /providers/microsoft-azure-openai/
+    - agent_band: agent-ready
+      agent_readiness: 37.8
       apps:
       - Elasticsearch
       band: strong
       in_catalog: true
-      kin_score: 55.7
+      kin_score: 66.3
+      mcp:
+        source: https://github.com/microsoft-foundry/mcp-foundry
+        status: verified
+      name: Azure AI Studio
+      slug: azure-ai-foundry
+      sources:
+      - https://github.com/elastic/elasticsearch/tree/main/x-pack/plugin/inference/src/main/java/org/elasticsearch/xpack/inference/services
+      status: profiled
+      tags:
+      - AI Agents
+      - Artificial Intelligence
+      - Foundation Models
+      - Generative AI
+      tier: observed
+      url: /providers/azure-ai-foundry/
+    - agent_band: agent-native
+      agent_readiness: 48.3
+      apps:
+      - Elasticsearch
+      band: strong
+      in_catalog: true
+      kin_score: 64.3
+      mcp: *id005
+      name: Amazon Bedrock
+      slug: amazon-bedrock
+      sources:
+      - https://github.com/elastic/elasticsearch/tree/main/x-pack/plugin/inference/src/main/java/org/elasticsearch/xpack/inference/services
+      status: profiled
+      tags: *id006
+      tier: observed
+      url: /providers/amazon-bedrock/
+    - agent_band: agent-aware
+      agent_readiness: 23.9
+      apps:
+      - Elasticsearch
+      band: developing
+      in_catalog: true
+      kin_score: 53.9
       mcp:
         source: https://github.com/openshift/kubernetes-mcp-server
         status: verified
@@ -2663,66 +2717,12 @@ stack:
       tier: observed
       url: /providers/red-hat-openshift/
     - agent_band: agent-ready
-      agent_readiness: 35.8
+      agent_readiness: 31.8
       apps:
       - Elasticsearch
       band: developing
       in_catalog: true
-      kin_score: 51.4
-      mcp: *id003
-      name: Amazon Bedrock
-      slug: amazon-bedrock
-      sources:
-      - https://github.com/elastic/elasticsearch/tree/main/x-pack/plugin/inference/src/main/java/org/elasticsearch/xpack/inference/services
-      status: profiled
-      tags: *id004
-      tier: observed
-      url: /providers/amazon-bedrock/
-    - agent_band: agent-aware
-      agent_readiness: 23.7
-      apps:
-      - Elasticsearch
-      band: developing
-      in_catalog: true
-      kin_score: 45.7
-      mcp:
-        source: https://github.com/microsoft-foundry/mcp-foundry
-        status: verified
-      name: Azure AI Studio
-      slug: azure-ai-foundry
-      sources:
-      - https://github.com/elastic/elasticsearch/tree/main/x-pack/plugin/inference/src/main/java/org/elasticsearch/xpack/inference/services
-      status: profiled
-      tags:
-      - AI Agents
-      - Artificial Intelligence
-      - Foundation Models
-      - Generative AI
-      tier: observed
-      url: /providers/azure-ai-foundry/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
-      apps:
-      - Elasticsearch
-      band: developing
-      in_catalog: true
-      kin_score: 44.6
-      mcp: *id005
-      name: Azure OpenAI
-      slug: microsoft-azure-openai
-      sources:
-      - https://github.com/elastic/elasticsearch/tree/main/x-pack/plugin/inference/src/main/java/org/elasticsearch/xpack/inference/services
-      status: profiled
-      tags: *id006
-      tier: observed
-      url: /providers/microsoft-azure-openai/
-    - agent_band: agent-ready
-      agent_readiness: 32.0
-      apps:
-      - Elasticsearch
-      band: developing
-      in_catalog: true
-      kin_score: 41.1
+      kin_score: 39.7
       mcp:
         status: none
       name: AI21
@@ -2738,12 +2738,12 @@ stack:
       tier: observed
       url: /providers/ai21-labs/
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 39.0
       apps:
       - Elasticsearch
       band: thin
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 35.4
       mcp:
         source: https://docs.fireworks.ai/ecosystem/integrations/development-setup
         status: verified
@@ -2760,12 +2760,12 @@ stack:
       tier: observed
       url: /providers/fireworks-ai/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 21.2
       apps:
       - Elasticsearch
       band: thin
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 32.3
       mcp:
         source: https://github.com/groq/groq-mcp-server
         status: verified
@@ -2787,7 +2787,7 @@ stack:
       - OpenSearch
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp: *id007
       name: Ollama
       slug: ollama
@@ -2806,12 +2806,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.7
       apps:
       - SearXNG
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 53.4
       mcp:
         source: https://www.wikidata.org/wiki/Wikidata:MCP
         status: verified
@@ -2828,12 +2828,12 @@ stack:
       tier: observed
       url: /providers/wikidata/
     - agent_band: agent-aware
-      agent_readiness: 21.2
+      agent_readiness: 23.8
       apps:
       - SearXNG
       band: developing
       in_catalog: true
-      kin_score: 44.6
+      kin_score: 44.3
       mcp:
         status: none
       name: arXiv
@@ -2849,12 +2849,12 @@ stack:
       tier: observed
       url: /providers/arxiv/
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 29.3
       apps:
       - SearXNG
       band: developing
       in_catalog: true
-      kin_score: 43.0
+      kin_score: 41.8
       mcp:
         status: none
       name: Wikipedia
@@ -2870,12 +2870,12 @@ stack:
       tier: observed
       url: /providers/wikipedia/
     - agent_band: agent-aware
-      agent_readiness: 28.4
+      agent_readiness: 27.7
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 38.5
+      kin_score: 36.2
       mcp:
         source: https://www.wolfram.com/artificial-intelligence/mcp/cloud/
         status: verified
@@ -2892,12 +2892,12 @@ stack:
       tier: observed
       url: /providers/wolframalpha/
     - agent_band: agent-aware
-      agent_readiness: 27.2
+      agent_readiness: 26.6
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 36.3
+      kin_score: 34.9
       mcp:
         status: none
       name: Springer Nature
@@ -2913,12 +2913,12 @@ stack:
       tier: observed
       url: /providers/springer-nature/
     - agent_band: agent-aware
-      agent_readiness: 17.4
+      agent_readiness: 17.0
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 33.7
+      kin_score: 34.4
       mcp:
         status: none
       name: Crossref
@@ -2934,12 +2934,12 @@ stack:
       tier: observed
       url: /providers/crossref/
     - agent_band: agent-ready
-      agent_readiness: 33.9
+      agent_readiness: 33.3
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 33.4
       mcp:
         status: none
       name: Semantic Scholar
@@ -2955,12 +2955,12 @@ stack:
       tier: observed
       url: /providers/semantic-scholar/
     - agent_band: agent-aware
-      agent_readiness: 23.9
+      agent_readiness: 23.4
       apps:
       - SearXNG
       band: emerging
       in_catalog: true
-      kin_score: 25.9
+      kin_score: 25.0
       mcp:
         status: none
       name: PubMed
@@ -2976,12 +2976,12 @@ stack:
       tier: observed
       url: /providers/pubmed/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - SearXNG
       band: minimal
       in_catalog: true
-      kin_score: 6.0
+      kin_score: 5.9
       mcp:
         source: https://github.com/ourresearch/openalex-mcp-server
         status: verified
@@ -3005,14 +3005,37 @@ stack:
       url: /capabilities/it-application-management/
       via_parent: IT Application Management
     providers:
+    - agent_band: agent-ready
+      agent_readiness: 44.6
+      apps:
+      - OpenSearch
+      - Quickwit
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.7
+      mcp:
+        status: none
+      name: Amazon Kinesis
+      slug: kinesis
+      sources:
+      - https://github.com/opensearch-project/OpenSearch/tree/main/plugins/ingestion-kinesis
+      - https://github.com/quickwit-oss/quickwit/tree/main/quickwit/quickwit-indexing/src/source
+      status: profiled
+      tags:
+      - Amazon Web Services
+      - Analytics
+      - Apache Flink
+      - Big Data
+      tier: observed
+      url: /providers/kinesis/
     - agent_band: agent-aware
-      agent_readiness: 28.4
+      agent_readiness: 27.8
       apps:
       - OpenSearch
       - Quickwit
       band: developing
       in_catalog: true
-      kin_score: 51.3
+      kin_score: 51.4
       mcp:
         status: none
       name: Apache Kafka
@@ -3029,35 +3052,12 @@ stack:
       tier: observed
       url: /providers/apache-kafka/
     - agent_band: agent-ready
-      agent_readiness: 29.4
-      apps:
-      - OpenSearch
-      - Quickwit
-      band: developing
-      in_catalog: true
-      kin_score: 49.3
-      mcp:
-        status: none
-      name: Amazon Kinesis
-      slug: kinesis
-      sources:
-      - https://github.com/opensearch-project/OpenSearch/tree/main/plugins/ingestion-kinesis
-      - https://github.com/quickwit-oss/quickwit/tree/main/quickwit/quickwit-indexing/src/source
-      status: profiled
-      tags:
-      - Amazon Web Services
-      - Analytics
-      - Apache Flink
-      - Big Data
-      tier: observed
-      url: /providers/kinesis/
-    - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 34.4
       apps:
       - Quickwit
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 59.8
+      kin_score: 70.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3073,13 +3073,13 @@ stack:
       - Messaging
       tier: observed
       url: /providers/amazon-sqs/
-    - agent_band: agent-aware
-      agent_readiness: 25.6
+    - agent_band: agent-ready
+      agent_readiness: 38.0
       apps:
       - Quickwit
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 64.1
       mcp:
         source: https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp
         status: verified
@@ -3096,12 +3096,12 @@ stack:
       tier: observed
       url: /providers/google-cloud-pubsub/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.3
       apps:
       - Quickwit
       band: thin
       in_catalog: true
-      kin_score: 30.9
+      kin_score: 30.7
       mcp:
         status: none
       name: Apache Pulsar
@@ -3125,12 +3125,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 25.1
       apps:
       - SearXNG
       band: developing
       in_catalog: true
-      kin_score: 48.6
+      kin_score: 49.1
       mcp:
         status: none
       name: Flickr
@@ -3146,12 +3146,12 @@ stack:
       tier: observed
       url: /providers/flickr/
     - agent_band: agent-aware
-      agent_readiness: 21.2
+      agent_readiness: 20.8
       apps:
       - SearXNG
       band: developing
       in_catalog: true
-      kin_score: 46.6
+      kin_score: 47.2
       mcp:
         status: none
       name: Imgur
@@ -3167,12 +3167,12 @@ stack:
       tier: observed
       url: /providers/imgur/
     - agent_band: agent-ready
-      agent_readiness: 44.1
+      agent_readiness: 52.6
       apps:
       - SearXNG
       band: developing
       in_catalog: true
-      kin_score: 40.2
+      kin_score: 39.4
       mcp:
         status: none
       name: Unsplash
@@ -3188,12 +3188,12 @@ stack:
       tier: observed
       url: /providers/unsplash/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 37.7
+      kin_score: 38.4
       mcp:
         status: none
       name: Pexels
@@ -3208,12 +3208,12 @@ stack:
       tier: observed
       url: /providers/pexels/
     - agent_band: agent-ready
-      agent_readiness: 29.2
+      agent_readiness: 28.6
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 33.8
+      kin_score: 32.4
       mcp:
         status: none
       name: Openverse
@@ -3234,7 +3234,7 @@ stack:
       - SearXNG
       band: emerging
       in_catalog: true
-      kin_score: 13.8
+      kin_score: 13.7
       mcp:
         status: none
       name: Pixabay
@@ -3255,7 +3255,7 @@ stack:
       - SearXNG
       band: minimal
       in_catalog: true
-      kin_score: 6.1
+      kin_score: 7.6
       mcp:
         status: none
       name: TinEye
@@ -3276,12 +3276,55 @@ stack:
       via_parent: Web Data
     providers:
     - agent_band: agent-ready
+      agent_readiness: 30.2
+      apps:
+      - SearXNG
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.5
+      mcp:
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Microsoft Bing
+      slug: microsoft
+      sources:
+      - https://github.com/searxng/searxng/blob/master/searx/engines/bing.py
+      status: profiled
+      tags:
+      - Cloud
+      - Fortune 100
+      - Microsoft
+      - Software
+      tier: observed
+      url: /providers/microsoft/
+    - agent_band: agent-ready
+      agent_readiness: 38.6
+      apps:
+      - SearXNG
+      band: strong
+      in_catalog: true
+      kin_score: 61.6
+      mcp:
+        status: none
+      name: Google Programmable Search
+      slug: google-custom-search
+      sources:
+      - https://github.com/searxng/searxng/blob/master/searx/engines/google_cse.py
+      status: profiled
+      tags:
+      - Custom Search
+      - Google
+      - Image Search
+      - Search
+      tier: observed
+      url: /providers/google-custom-search/
+    - agent_band: agent-ready
       agent_readiness: 60.0
       apps:
       - SearXNG
       band: strong
       in_catalog: true
-      kin_score: 58.5
+      kin_score: 57.7
       mcp:
         source: https://github.com/exa-labs/exa-mcp-server
         status: verified
@@ -3298,33 +3341,12 @@ stack:
       tier: observed
       url: /providers/exa-ai/
     - agent_band: agent-aware
-      agent_readiness: 21.8
+      agent_readiness: 19.2
       apps:
       - SearXNG
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 51.1
-      mcp:
-        status: none
-      name: Google Programmable Search
-      slug: google-custom-search
-      sources:
-      - https://github.com/searxng/searxng/blob/master/searx/engines/google_cse.py
-      status: profiled
-      tags:
-      - Custom Search
-      - Google
-      - Image Search
-      - Search
-      tier: observed
-      url: /providers/google-custom-search/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - SearXNG
-      band: developing
-      in_catalog: true
-      kin_score: 40.0
+      kin_score: 38.8
       mcp:
         source: https://github.com/kagisearch/kagimcp
         status: verified
@@ -3341,12 +3363,12 @@ stack:
       tier: observed
       url: /providers/kagi/
     - agent_band: agent-ready
-      agent_readiness: 37.8
+      agent_readiness: 37.1
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 36.0
+      kin_score: 34.2
       mcp: *id009
       name: Jina AI
       slug: jina-ai
@@ -3362,7 +3384,7 @@ stack:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 33.9
+      kin_score: 33.4
       mcp:
         source: https://github.com/brave/brave-search-mcp-server
         status: verified
@@ -3378,27 +3400,6 @@ stack:
       - Search
       tier: observed
       url: /providers/brave-browser/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - SearXNG
-      band: minimal
-      in_catalog: true
-      kin_score: 0.0
-      mcp:
-        status: none
-      name: Microsoft Bing
-      slug: microsoft-bing
-      sources:
-      - https://github.com/searxng/searxng/blob/master/searx/engines/bing.py
-      status: profiled
-      tags:
-      - Image
-      - Search
-      - Video
-      - Web Search
-      tier: observed
-      url: /providers/microsoft-bing/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -3425,12 +3426,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.3
+      agent_readiness: 32.7
       apps:
       - SearXNG
       band: developing
       in_catalog: true
-      kin_score: 49.8
+      kin_score: 50.6
       mcp:
         status: none
       name: Spotify
@@ -3446,12 +3447,12 @@ stack:
       tier: observed
       url: /providers/spotify/
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 25.9
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 34.4
+      kin_score: 34.8
       mcp:
         status: none
       name: Genius
@@ -3467,12 +3468,12 @@ stack:
       tier: observed
       url: /providers/genius/
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.9
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 31.0
+      kin_score: 30.9
       mcp:
         status: none
       name: SoundCloud
@@ -3488,12 +3489,12 @@ stack:
       tier: observed
       url: /providers/soundcloud/
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 24.1
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 30.8
+      kin_score: 30.7
       mcp:
         status: none
       name: Deezer
@@ -3514,7 +3515,7 @@ stack:
       - SearXNG
       band: minimal
       in_catalog: true
-      kin_score: 7.9
+      kin_score: 7.8
       mcp:
         status: none
       name: Mixcloud
@@ -3533,7 +3534,7 @@ stack:
       - SearXNG
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: none
       name: Freesound
@@ -3555,12 +3556,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.5
+      agent_readiness: 29.8
       apps:
       - SearXNG
       band: developing
       in_catalog: true
-      kin_score: 41.3
+      kin_score: 40.9
       mcp:
         source: https://github.com/StackExchange/Stack-MCP
         status: verified
@@ -3577,12 +3578,12 @@ stack:
       tier: observed
       url: /providers/stackexchange/
     - agent_band: agent-aware
-      agent_readiness: 20.9
+      agent_readiness: 20.4
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 34.3
+      kin_score: 33.9
       mcp:
         status: none
       name: Lemmy
@@ -3598,12 +3599,12 @@ stack:
       tier: observed
       url: /providers/lemmy/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 28.3
+      kin_score: 27.3
       mcp:
         status: none
       name: Hacker News
@@ -3618,12 +3619,12 @@ stack:
       tier: observed
       url: /providers/hacker-news/
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 22.0
       apps:
       - SearXNG
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 25.5
       mcp:
         status: none
       name: Mastodon
@@ -3647,12 +3648,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - SearXNG
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube Data API
@@ -3668,12 +3669,12 @@ stack:
       tier: observed
       url: /providers/youtube/
     - agent_band: agent-ready
-      agent_readiness: 48.8
+      agent_readiness: 47.8
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 38.4
+      kin_score: 37.6
       mcp:
         source: https://developer.vimeo.com/api/mcp-server
         status: documented
@@ -3690,12 +3691,12 @@ stack:
       tier: observed
       url: /providers/vimeo/
     - agent_band: agent-ready
-      agent_readiness: 32.6
+      agent_readiness: 31.9
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 30.8
+      kin_score: 30.1
       mcp:
         status: none
       name: PeerTube
@@ -3711,12 +3712,12 @@ stack:
       tier: observed
       url: /providers/peertube/
     - agent_band: human-only
-      agent_readiness: 3.9
+      agent_readiness: 3.8
       apps:
       - SearXNG
       band: minimal
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 8.2
       mcp:
         status: none
       name: Dailymotion
@@ -3737,13 +3738,13 @@ stack:
       url: /capabilities/package-registries-distribution/
       via_parent: Package Registries & Distribution
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.7
+    - agent_band: agent-aware
+      agent_readiness: 28.1
       apps:
       - SearXNG
       band: strong
       in_catalog: true
-      kin_score: 60.8
+      kin_score: 59.0
       mcp:
         status: none
       name: npm
@@ -3759,12 +3760,12 @@ stack:
       tier: observed
       url: /providers/npm/
     - agent_band: agent-aware
-      agent_readiness: 21.5
+      agent_readiness: 26.6
       apps:
       - SearXNG
       band: developing
       in_catalog: true
-      kin_score: 39.5
+      kin_score: 39.3
       mcp:
         status: none
       name: crates.io
@@ -3780,12 +3781,12 @@ stack:
       tier: observed
       url: /providers/crates-io/
     - agent_band: agent-aware
-      agent_readiness: 21.8
+      agent_readiness: 21.9
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 38.4
       mcp:
         status: none
       name: PyPI
@@ -3809,12 +3810,12 @@ stack:
       via_parent: Storefront Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 60.5
+      agent_readiness: 56.3
       apps:
       - Algolia
       band: exemplar
       in_catalog: true
-      kin_score: 70.3
+      kin_score: 84.3
       mcp:
         source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
         status: verified
@@ -3831,12 +3832,12 @@ stack:
       tier: declared
       url: /providers/bigcommerce/
     - agent_band: agent-ready
-      agent_readiness: 36.9
+      agent_readiness: 35.5
       apps:
       - Algolia
       band: strong
       in_catalog: true
-      kin_score: 57.5
+      kin_score: 61.5
       mcp:
         source: https://github.com/commercetools/mcp-essentials
         status: verified
@@ -3861,12 +3862,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 32.8
       apps:
       - OpenSearch
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 70.7
       mcp:
         status: none
       name: Amazon Comprehend
@@ -3881,13 +3882,13 @@ stack:
       - Text Analysis
       tier: declared
       url: /providers/amazon-comprehend/
-    - agent_band: agent-ready
-      agent_readiness: 31.6
+    - agent_band: agent-native
+      agent_readiness: 41.6
       apps:
       - OpenSearch
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 52.7
+      kin_score: 69.2
       mcp:
         status: none
       name: Amazon Textract
@@ -3911,12 +3912,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 36.1
       apps:
       - SearXNG
       band: strong
       in_catalog: true
-      kin_score: 60.8
+      kin_score: 61.4
       mcp:
         source: https://github.com/DeepL/deepl-mcp-server
         status: verified
@@ -3933,12 +3934,12 @@ stack:
       tier: observed
       url: /providers/deepl/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 23.3
       apps:
       - SearXNG
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.2
+      kin_score: 24.3
       mcp:
         source: https://github.com/LibreTranslate/LibreTranslate-MCP
         status: verified
@@ -3963,12 +3964,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 48.2
       apps:
       - Algolia
       band: developing
       in_catalog: true
-      kin_score: 49.1
+      kin_score: 49.4
       mcp:
         source: https://github.com/supabase/mcp
         status: verified
@@ -3985,12 +3986,12 @@ stack:
       tier: declared
       url: /providers/supabase/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Algolia
       band: thin
       in_catalog: true
-      kin_score: 31.8
+      kin_score: 30.5
       mcp:
         status: none
       name: MySQL
@@ -4013,35 +4014,13 @@ stack:
       url: /capabilities/software-construction-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 63.4
-      apps:
-      - SearXNG
-      band: exemplar
-      in_catalog: true
-      kin_score: 85.4
-      mcp:
-        source: https://github.com/github/github-mcp-server
-        status: verified
-      name: GitHub
-      slug: github
-      sources:
-      - https://github.com/searxng/searxng/blob/master/searx/engines/github.py
-      status: profiled
-      tags:
-      - Code
-      - Developer Tools
-      - Pipelines
-      - Platform
-      tier: observed
-      url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - SearXNG
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -4057,6 +4036,28 @@ stack:
       - Software Development
       tier: observed
       url: /providers/gitlab/
+    - agent_band: agent-ready
+      agent_readiness: 62.4
+      apps:
+      - SearXNG
+      band: exemplar
+      in_catalog: true
+      kin_score: 85.0
+      mcp:
+        source: https://github.com/github/github-mcp-server
+        status: verified
+      name: GitHub
+      slug: github
+      sources:
+      - https://github.com/searxng/searxng/blob/master/searx/engines/github.py
+      status: profiled
+      tags:
+      - Code
+      - Developer Tools
+      - Pipelines
+      - Platform
+      tier: observed
+      url: /providers/github/
   - capability:
       attribution: Turbo EA
       id: BC-610.50
@@ -4066,12 +4067,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.5
+      agent_readiness: 40.8
       apps:
       - Algolia
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.7
+      kin_score: 57.1
       mcp:
         source: https://cloud.google.com/bigquery/docs/use-bigquery-mcp
         status: verified
@@ -4096,12 +4097,12 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.9
+      agent_readiness: 26.8
       apps:
       - SearXNG
       band: strong
       in_catalog: true
-      kin_score: 55.6
+      kin_score: 56.0
       mcp:
         status: none
       name: GIPHY
@@ -4124,13 +4125,13 @@ stack:
       url: /capabilities/package-registries-distribution/
       via_parent: Package Registries & Distribution
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 30.6
       apps:
       - SearXNG
       band: developing
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 48.7
       mcp:
         source: https://github.com/docker/hub-mcp
         status: verified
@@ -4155,12 +4156,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Algolia
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk Knowledge Base
@@ -4184,12 +4185,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - SearXNG
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 69.1
       mcp: *id011
       name: Hugging Face Hub
       slug: hugging-face
@@ -4207,13 +4208,13 @@ stack:
       url: /capabilities/places-points-of-interest/
       via_parent: Places & Points of Interest
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - SearXNG
       band: developing
       in_catalog: true
-      kin_score: 44.4
+      kin_score: 45.5
       mcp:
         status: none
       name: OpenStreetMap
@@ -4236,13 +4237,13 @@ stack:
       url: /capabilities/knowledge-curation-taxonomy-management/
       via_parent: Knowledge Curation & Taxonomy Management
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Algolia
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 78.4
       mcp:
         source: https://www.elastic.co/docs/solutions/search/mcp
         status: verified
@@ -4267,12 +4268,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.8
+      agent_readiness: 17.4
       apps:
       - SearXNG
       band: thin
       in_catalog: true
-      kin_score: 29.6
+      kin_score: 28.3
       mcp:
         status: none
       name: Open-Meteo
@@ -4298,40 +4299,14 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 34.8
       apps:
       - Elasticsearch
       - OpenSearch
       - Quickwit
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
-      mcp:
-        source: https://github.com/googleapis/gcloud-mcp
-        status: verified
-      name: Google Cloud Storage
-      slug: gcp-cloud-storage
-      sources:
-      - https://github.com/elastic/elasticsearch/tree/main/modules/repository-gcs
-      - https://github.com/opensearch-project/OpenSearch/tree/main/plugins/repository-gcs
-      - https://github.com/quickwit-oss/quickwit/tree/main/quickwit/quickwit-storage/src/opendal_storage
-      status: profiled
-      tags:
-      - Archival
-      - Backup
-      - Blob Storage
-      - Cloud Storage
-      tier: observed
-      url: /providers/gcp-cloud-storage/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
-      apps:
-      - Elasticsearch
-      - OpenSearch
-      - Quickwit
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4350,14 +4325,40 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 45.1
       apps:
       - Elasticsearch
       - OpenSearch
       - Quickwit
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 74.1
+      mcp:
+        source: https://github.com/googleapis/gcloud-mcp
+        status: verified
+      name: Google Cloud Storage
+      slug: gcp-cloud-storage
+      sources:
+      - https://github.com/elastic/elasticsearch/tree/main/modules/repository-gcs
+      - https://github.com/opensearch-project/OpenSearch/tree/main/plugins/repository-gcs
+      - https://github.com/quickwit-oss/quickwit/tree/main/quickwit/quickwit-storage/src/opendal_storage
+      status: profiled
+      tags:
+      - Archival
+      - Backup
+      - Blob Storage
+      - Cloud Storage
+      tier: observed
+      url: /providers/gcp-cloud-storage/
+    - agent_band: agent-ready
+      agent_readiness: 37.9
+      apps:
+      - Elasticsearch
+      - OpenSearch
+      - Quickwit
+      band: strong
+      in_catalog: true
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -4384,12 +4385,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 51.5
+      agent_readiness: 45.0
       apps:
       - OpenSearch
       band: exemplar
       in_catalog: true
-      kin_score: 78.4
+      kin_score: 76.0
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -4405,13 +4406,13 @@ stack:
       - Microsoft Azure
       tier: observed
       url: /providers/microsoft-azure/
-    - agent_band: agent-ready
-      agent_readiness: 35.5
+    - agent_band: agent-native
+      agent_readiness: 45.4
       apps:
       - OpenSearch
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 61.8
+      kin_score: 71.0
       mcp:
         status: none
       name: Amazon EC2
@@ -4426,13 +4427,13 @@ stack:
       - Infrastructure-as-a-Service
       tier: observed
       url: /providers/amazon-ec2/
-    - agent_band: agent-aware
-      agent_readiness: 27.1
+    - agent_band: agent-ready
+      agent_readiness: 42.9
       apps:
       - OpenSearch
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.2
+      kin_score: 62.7
       mcp:
         source: https://cloud.google.com/compute/docs/reference/mcp
         status: verified
@@ -4457,12 +4458,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.7
+      agent_readiness: 44.1
       apps:
       - OpenSearch
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 76.8
       mcp:
         status: none
       name: AWS KMS
@@ -4491,7 +4492,7 @@ stack:
       - OpenSearch
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 39.0
       mcp:
         status: none
       name: OpenTelemetry
@@ -4515,12 +4516,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Meilisearch
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Twilio Segment
@@ -4543,11 +4544,11 @@ summary:
   in_catalog: 95
   mcp:
     documented: 1
-    none: 54
+    none: 53
     unchecked: 2
-    verified: 40
-  mcp_verified: 40
-  mean_kin_score: 44.3
+    verified: 41
+  mcp_verified: 41
+  mean_kin_score: 47.5
   observed: 85
   queued: 2
   reference_apps: 7

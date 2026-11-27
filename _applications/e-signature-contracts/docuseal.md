@@ -47,11 +47,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -78,11 +78,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.9
+    agent_band: agent-native
+    agent_readiness: 39.2
     band: exemplar
     in_catalog: true
-    kin_score: 70.3
+    kin_score: 77.5
     mcp: &id003
       status: none
     slug: amazon-secrets-manager
@@ -109,10 +109,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id005
       source: https://github.com/microsoft/mcp
       status: verified
@@ -140,10 +140,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id007
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -168,22 +168,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/e-signature-contracts/docuseal/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
   status: profiled
   tags: *id002
   url: /providers/amazon-s3/
-- agent_band: agent-ready
-  agent_readiness: 31.9
+- agent_band: agent-native
+  agent_readiness: 39.2
   band: exemplar
   in_catalog: true
-  kin_score: 70.3
+  kin_score: 77.5
   mcp: *id003
   name: AWS Secrets Manager
   slug: amazon-secrets-manager
@@ -191,10 +191,10 @@ providers:
   tags: *id004
   url: /providers/amazon-secrets-manager/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id005
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -202,10 +202,10 @@ providers:
   tags: *id006
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id007
   name: Google Cloud Storage
   slug: gcp-cloud-storage

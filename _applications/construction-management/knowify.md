@@ -39,8 +39,8 @@ capabilities:
   name: Supply Chain Finance Management
   providers:
   - Billd
-  url: /capabilities/trade-finance-management/
-  via_parent: Trade Finance Management
+  url: /capabilities/supply-chain-finance-management/
+  via_parent: null
 - attribution: Turbo EA
   id: BC-200.30
   key: accounts-receivable-management
@@ -99,10 +99,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 14.3
+    kin_score: 20.3
     mcp: &id002
       status: unknown
     slug: aia-contract-documents
@@ -124,15 +124,15 @@ integrations:
     id: BC-1350.40
     key: BC-1350.40
     name: Supply Chain Finance Management
-    url: /capabilities/trade-finance-management/
-    via_parent: Trade Finance Management
+    url: /capabilities/supply-chain-finance-management/
+    via_parent: null
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.2
+    kin_score: 19.0
     mcp: &id004
       status: unknown
     slug: billd
@@ -159,10 +159,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
+    agent_readiness: 40.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.3
+    kin_score: 70.3
     mcp: &id006
       status: none
     slug: companycam
@@ -192,7 +192,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.0
+    kin_score: 10.2
     mcp: &id008
       status: unknown
     slug: ebacon
@@ -219,10 +219,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 8.3
+    kin_score: 14.5
     mcp: &id010
       status: unknown
     slug: lumber
@@ -248,11 +248,11 @@ integrations:
     via_parent: null
   credit: null
   facts: &id001
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id012
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -310,10 +310,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id014
       source: https://zapier.com/mcp
       status: verified
@@ -339,10 +339,10 @@ noindex: false
 permalink: /applications/construction-management/knowify/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 14.3
+  kin_score: 20.3
   mcp: *id002
   name: AIA Contract Documents
   slug: aia-contract-documents
@@ -350,10 +350,10 @@ providers:
   tags: *id003
   url: /providers/aia-contract-documents/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.2
+  kin_score: 19.0
   mcp: *id004
   name: Billd
   slug: billd
@@ -361,10 +361,10 @@ providers:
   tags: *id005
   url: /providers/billd/
 - agent_band: agent-ready
-  agent_readiness: 40.9
+  agent_readiness: 40.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.3
+  kin_score: 70.3
   mcp: *id006
   name: CompanyCam
   slug: companycam
@@ -375,7 +375,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.0
+  kin_score: 10.2
   mcp: *id008
   name: eBacon
   slug: ebacon
@@ -383,21 +383,21 @@ providers:
   tags: *id009
   url: /providers/ebacon/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 8.3
+  kin_score: 14.5
   mcp: *id010
   name: Lumber
   slug: lumber
   status: profiled
   tags: *id011
   url: /providers/lumber/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id012
   name: QuickBooks Online / Desktop / Enterprise Suite
   slug: quickbooks
@@ -405,10 +405,10 @@ providers:
   tags: *id013
   url: /providers/quickbooks/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id014
   name: Zapier
   slug: zapier

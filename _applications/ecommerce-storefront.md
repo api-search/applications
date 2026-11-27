@@ -1295,12 +1295,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.9
+      agent_readiness: 35.2
       apps:
       - Shopify
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 70.7
       mcp:
         status: none
       name: FedEx
@@ -1315,13 +1315,34 @@ stack:
       - Pickup
       tier: declared
       url: /providers/fedex/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-native
+      agent_readiness: 39.5
       apps:
       - Shopify
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 52.3
+      mcp:
+        status: none
+      name: DHL
+      slug: dhl
+      sources:
+      - https://www.shopify.com/shipping
+      status: profiled
+      tags:
+      - E-Commerce
+      - Freight
+      - Logistics
+      - Shipping
+      tier: declared
+      url: /providers/dhl/
+    - agent_band: agent-native
+      agent_readiness: 51.8
+      apps:
+      - Shopify
+      band: developing
+      in_catalog: true
+      kin_score: 52.0
       mcp:
         status: none
       name: USPS
@@ -1336,13 +1357,13 @@ stack:
       - Shipping
       tier: declared
       url: /providers/usps/
-    - agent_band: agent-aware
-      agent_readiness: 24.1
+    - agent_band: agent-ready
+      agent_readiness: 29.2
       apps:
       - Shopify
       band: thin
       in_catalog: true
-      kin_score: 29.0
+      kin_score: 27.9
       mcp:
         source: https://github.com/UPS-API/ups-mcp
         status: verified
@@ -1358,34 +1379,13 @@ stack:
       - Supply Chain
       tier: declared
       url: /providers/ups/
-    - agent_band: agent-aware
-      agent_readiness: 24.1
-      apps:
-      - Shopify
-      band: emerging
-      in_catalog: true
-      kin_score: 26.1
-      mcp:
-        status: none
-      name: DHL
-      slug: dhl
-      sources:
-      - https://www.shopify.com/shipping
-      status: profiled
-      tags:
-      - E-Commerce
-      - Freight
-      - Logistics
-      - Shipping
-      tier: declared
-      url: /providers/dhl/
     - agent_band: human-only
       agent_readiness: 0.6
       apps:
       - Shopify
       band: emerging
       in_catalog: true
-      kin_score: 18.0
+      kin_score: 17.1
       mcp:
         status: none
       name: Canada Post
@@ -1409,13 +1409,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 62.9
+      agent_readiness: 61.9
       apps:
       - Medusa
       - Saleor
       band: exemplar
       in_catalog: true
-      kin_score: 79.9
+      kin_score: 81.1
       mcp:
         status: none
       name: Algolia
@@ -1437,7 +1437,7 @@ stack:
       - Medusa
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 52.5
       mcp:
         source: https://github.com/meilisearch/meilisearch-mcp
         status: verified
@@ -1462,13 +1462,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 44.7
       apps:
       - Medusa
       - Saleor
       band: exemplar
       in_catalog: true
-      kin_score: 70.5
+      kin_score: 69.3
       mcp:
         source: https://github.com/avadev/mcp
         status: verified
@@ -1493,12 +1493,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.5
+      agent_readiness: 46.9
       apps:
       - Medusa
       band: strong
       in_catalog: true
-      kin_score: 56.9
+      kin_score: 56.6
       mcp:
         source: https://www.sanity.io/docs/compute-and-ai/mcp-server
         status: verified
@@ -1515,12 +1515,12 @@ stack:
       tier: declared
       url: /providers/sanity/
     - agent_band: agent-ready
-      agent_readiness: 56.5
+      agent_readiness: 55.2
       apps:
       - Medusa
       band: developing
       in_catalog: true
-      kin_score: 44.3
+      kin_score: 43.9
       mcp:
         source: https://github.com/contentful/contentful-mcp-server
         status: verified
@@ -1545,12 +1545,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Saleor
       band: minimal
       in_catalog: true
-      kin_score: 6.4
+      kin_score: 9.7
       mcp:
         status: unknown
       name: NP Atobarai (Net Protections)
@@ -1566,12 +1566,12 @@ stack:
       tier: observed
       url: /providers/np-atobarai/
     - agent_band: agent-aware
-      agent_readiness: 13.0
+      agent_readiness: 12.8
       apps:
       - WooCommerce
       band: minimal
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 9.2
       mcp:
         status: none
       name: Afterpay
@@ -1595,12 +1595,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 45.9
       apps:
       - Medusa
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 56.7
+      kin_score: 54.1
       mcp:
         status: none
       name: ShipStation
@@ -1626,7 +1626,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Bagisto
       - Medusa
@@ -1636,7 +1636,7 @@ stack:
       - WooCommerce
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -1655,7 +1655,7 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Bagisto
       - Medusa
@@ -1664,7 +1664,7 @@ stack:
       - WooCommerce
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -1683,13 +1683,13 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-native
-      agent_readiness: 73.2
+      agent_readiness: 71.7
       apps:
       - Sylius
       - Vendure
       band: exemplar
       in_catalog: true
-      kin_score: 68.2
+      kin_score: 68.1
       mcp:
         source: https://docs.mollie.com/docs/mcp-server
         status: verified
@@ -1707,12 +1707,12 @@ stack:
       tier: observed
       url: /providers/mollie/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Bagisto
       band: developing
       in_catalog: true
-      kin_score: 52.4
+      kin_score: 50.6
       mcp:
         source: https://github.com/razorpay/razorpay-mcp-server
         status: verified
@@ -1729,12 +1729,12 @@ stack:
       tier: observed
       url: /providers/razorpay/
     - agent_band: agent-ready
-      agent_readiness: 52.0
+      agent_readiness: 53.6
       apps:
       - Vendure
       band: developing
       in_catalog: true
-      kin_score: 46.2
+      kin_score: 44.7
       mcp:
         status: none
       name: Braintree
@@ -1750,12 +1750,12 @@ stack:
       tier: observed
       url: /providers/braintree/
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 30.2
       apps:
       - Bagisto
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 40.0
+      kin_score: 38.9
       mcp:
         source: https://github.com/payu-intrepos/payu-developer-mcp
         status: verified
@@ -1772,12 +1772,12 @@ stack:
       tier: observed
       url: /providers/payu/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Bagisto
       band: thin
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 27.2
       mcp:
         source: https://github.com/PhonePe/phonepe-pg-docs-mcp
         status: verified
@@ -1794,12 +1794,12 @@ stack:
       tier: observed
       url: /providers/phonepe/
     - agent_band: agent-native
-      agent_readiness: 43.7
+      agent_readiness: 42.8
       apps:
       - Sylius
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 73.6
       mcp:
         source: https://github.com/Adyen/adyen-mcp
         status: verified
@@ -1823,8 +1823,8 @@ stack:
       url: /capabilities/media-asset-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Bagisto
       - Medusa
@@ -1832,7 +1832,7 @@ stack:
       - Vendure
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -1851,12 +1851,12 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Saleor
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -1873,12 +1873,12 @@ stack:
       tier: observed
       url: /providers/gcp-cloud-storage/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Saleor
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1903,13 +1903,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Medusa
       - Saleor
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -1926,12 +1926,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Medusa
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -1947,12 +1947,12 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - Bagisto
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -1968,12 +1968,12 @@ stack:
       tier: observed
       url: /providers/pusher/
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - Medusa
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -1998,12 +1998,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 54.9
+      agent_readiness: 58.7
       apps:
       - Saleor
       band: exemplar
       in_catalog: true
-      kin_score: 77.6
+      kin_score: 78.1
       mcp:
         source: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
         status: verified
@@ -2020,12 +2020,12 @@ stack:
       tier: observed
       url: /providers/klaviyo/
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Etsy (Android)
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -2042,12 +2042,12 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Etsy (Android)
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -2063,12 +2063,12 @@ stack:
       tier: observed
       url: /providers/google-admob/
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Etsy (Android)
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch (branch.io)
@@ -2081,12 +2081,12 @@ stack:
       tier: observed
       url: /providers/branch-io/
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Medusa
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -2117,7 +2117,7 @@ stack:
       - Saleor
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2136,12 +2136,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Shop (Shopify consumer app, Android)
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -2157,13 +2157,13 @@ stack:
       - Observability
       tier: observed
       url: /providers/bugsnag/
-    - agent_band: agent-aware
-      agent_readiness: 25.6
+    - agent_band: agent-ready
+      agent_readiness: 38.0
       apps:
       - Saleor
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 64.1
       mcp:
         source: https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp
         status: verified
@@ -2187,37 +2187,37 @@ stack:
       url: /capabilities/analytics-bi-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Etsy (Android)
       - Shop (Shopify consumer app, Android)
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase (Analytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.etsy.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.shopify.arrive/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Medusa
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -2234,12 +2234,12 @@ stack:
       tier: observed
       url: /providers/posthog/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 30.0
       apps:
       - Etsy (Android)
       band: thin
       in_catalog: true
-      kin_score: 37.1
+      kin_score: 37.4
       mcp:
         source: https://developer.fullstory.com/mcp/introduction/
         status: documented
@@ -2264,12 +2264,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 39.7
       apps:
       - Shopify
       band: strong
       in_catalog: true
-      kin_score: 66.2
+      kin_score: 65.2
       mcp:
         status: none
       name: Google Pay
@@ -2285,12 +2285,12 @@ stack:
       tier: declared
       url: /providers/google-pay/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.4
       apps:
       - Shopify
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 43.0
       mcp:
         status: none
       name: Apple Pay
@@ -2331,12 +2331,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 19.6
       apps:
       - Etsy (Android)
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 45.7
       mcp:
         status: none
       name: Qualtrics
@@ -2360,12 +2360,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.0
+      agent_readiness: 31.8
       apps:
       - Bagisto
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 42.9
       mcp:
         status: unknown
       name: PayGlocal
@@ -2389,12 +2389,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Etsy (Android)
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook (Meta) SDK
@@ -2421,7 +2421,7 @@ summary:
     unchecked: 1
     verified: 23
   mcp_verified: 23
-  mean_kin_score: 52.8
+  mean_kin_score: 55.0
   observed: 29
   queued: 1
   reference_apps: 9

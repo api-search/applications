@@ -54,11 +54,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id001
       status: none
     slug: google-identity-platform
@@ -85,10 +85,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id003
       source: https://github.com/PostHog/mcp
       status: verified
@@ -116,10 +116,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.4
+    agent_readiness: 49.8
     band: strong
     in_catalog: true
-    kin_score: 58.9
+    kin_score: 56.8
     mcp: &id005
       source: https://resend.com/docs/mcp-server
       status: verified
@@ -144,11 +144,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/loyalty-rewards/refref/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id001
   name: Google sign-in
   slug: google-identity-platform
@@ -156,10 +156,10 @@ providers:
   tags: *id002
   url: /providers/google-identity-platform/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id003
   name: PostHog
   slug: posthog
@@ -167,10 +167,10 @@ providers:
   tags: *id004
   url: /providers/posthog/
 - agent_band: agent-ready
-  agent_readiness: 49.4
+  agent_readiness: 49.8
   band: strong
   in_catalog: true
-  kin_score: 58.9
+  kin_score: 56.8
   mcp: *id005
   name: Resend
   slug: resend

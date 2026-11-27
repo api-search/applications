@@ -1228,7 +1228,7 @@ stack:
       - Team Tracker (Home Assistant)
       band: minimal
       in_catalog: true
-      kin_score: 4.3
+      kin_score: 4.1
       mcp: &id001
         status: none
       name: ESPN site API scoreboards (site.api.espn.com)
@@ -1245,7 +1245,7 @@ stack:
       tier: observed
       url: /providers/espn/
     - agent_band: agent-aware
-      agent_readiness: 13.9
+      agent_readiness: 13.7
       apps:
       - Team Tracker (Home Assistant)
       band: emerging
@@ -1266,12 +1266,12 @@ stack:
       tier: observed
       url: /providers/major-league-baseball/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - ffscrapr
       band: emerging
       in_catalog: true
-      kin_score: 16.6
+      kin_score: 18.3
       mcp:
         status: none
       name: nflverse data via nflreadr
@@ -1286,34 +1286,13 @@ stack:
       - Sports
       tier: observed
       url: /providers/nflverse/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
-      apps:
-      - Team Tracker (Home Assistant)
-      band: minimal
-      in_catalog: true
-      kin_score: 8.8
-      mcp:
-        status: none
-      name: HockeyTech league feed (lscluster.hockeytech.com)
-      slug: hockeytech
-      sources:
-      - https://github.com/vasqued2/ha-teamtracker/blob/master/custom_components/teamtracker/provide_hockeytech.py
-      status: profiled
-      tags:
-      - Analytics
-      - Data
-      - Sports
-      - Streaming
-      tier: observed
-      url: /providers/hockeytech/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Team Tracker (Home Assistant)
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.0
+      kin_score: 12.3
       mcp:
         status: none
       name: CFL scoreboard JSON (cflscoreboard.cfl.ca)
@@ -1328,13 +1307,34 @@ stack:
       - Sports
       tier: observed
       url: /providers/cfl/
+    - agent_band: human-only
+      agent_readiness: 2.5
+      apps:
+      - Team Tracker (Home Assistant)
+      band: minimal
+      in_catalog: true
+      kin_score: 10.8
+      mcp:
+        status: none
+      name: HockeyTech league feed (lscluster.hockeytech.com)
+      slug: hockeytech
+      sources:
+      - https://github.com/vasqued2/ha-teamtracker/blob/master/custom_components/teamtracker/provide_hockeytech.py
+      status: profiled
+      tags:
+      - Analytics
+      - Data
+      - Sports
+      - Streaming
+      tier: observed
+      url: /providers/hockeytech/
     - agent_band: agent-aware
-      agent_readiness: 5.8
+      agent_readiness: 5.6
       apps:
       - MMM-MyScoreboard
       band: minimal
       in_catalog: true
-      kin_score: 5.8
+      kin_score: 5.4
       mcp:
         status: unknown
       name: Sportsnet stats ticker (mobile-statsv2.sportsnet.ca)
@@ -1364,7 +1364,7 @@ stack:
       - ffscrapr
       band: minimal
       in_catalog: true
-      kin_score: 4.3
+      kin_score: 4.1
       mcp: *id001
       name: ESPN Fantasy league API (lm-api-reads.fantasy.espn.com)
       slug: espn
@@ -1376,12 +1376,12 @@ stack:
       tier: observed
       url: /providers/espn/
     - agent_band: agent-aware
-      agent_readiness: 20.9
+      agent_readiness: 25.8
       apps:
       - ffscrapr
       band: thin
       in_catalog: true
-      kin_score: 30.2
+      kin_score: 30.6
       mcp:
         status: unknown
       name: Sleeper API (api.sleeper.app/v1)
@@ -1397,12 +1397,12 @@ stack:
       tier: observed
       url: /providers/sleeper/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - ffscrapr
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.2
+      kin_score: 16.7
       mcp:
         status: unknown
       name: MyFantasyLeague API (api.myfantasyleague.com)
@@ -1421,9 +1421,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - ffscrapr
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.7
+      kin_score: 14.4
       mcp:
         status: none
       name: Fleaflicker API
@@ -1444,7 +1444,7 @@ stack:
       - ffscrapr
       band: minimal
       in_catalog: true
-      kin_score: 5.0
+      kin_score: 5.6
       mcp:
         status: none
       name: DynastyProcess player-ID and values data files
@@ -1470,14 +1470,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - ESPN
       - Yahoo Fantasy
       - theScore
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -1495,12 +1495,12 @@ stack:
       tier: observed
       url: /providers/google-admob/
     - agent_band: agent-ready
-      agent_readiness: 34.8
+      agent_readiness: 34.1
       apps:
       - theScore
       band: exemplar
       in_catalog: true
-      kin_score: 73.3
+      kin_score: 71.1
       mcp:
         status: none
       name: Outbrain
@@ -1516,12 +1516,12 @@ stack:
       tier: observed
       url: /providers/outbrain/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.7
       apps:
       - Yahoo Fantasy
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 69.5
       mcp:
         source: https://github.com/taboola/realize-mcp
         status: verified
@@ -1538,12 +1538,12 @@ stack:
       tier: observed
       url: /providers/taboola/
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 25.3
       apps:
       - theScore
       band: exemplar
       in_catalog: true
-      kin_score: 66.7
+      kin_score: 66.5
       mcp:
         source: https://github.com/Unity-Technologies/industry-ai-workflows
         status: verified
@@ -1559,34 +1559,13 @@ stack:
       - Real-Time 3D
       tier: observed
       url: /providers/unity/
-    - agent_band: agent-aware
-      agent_readiness: 7.9
-      apps:
-      - theScore
-      band: developing
-      in_catalog: true
-      kin_score: 49.9
-      mcp:
-        status: none
-      name: InMobi
-      slug: inmobi
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.fivemobile.thescore/latest/
-      status: profiled
-      tags:
-      - AdTech
-      - Advertising
-      - Company
-      - Enterprise
-      tier: observed
-      url: /providers/inmobi/
     - agent_band: agent-ready
-      agent_readiness: 31.6
+      agent_readiness: 31.0
       apps:
       - theScore
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.2
+      kin_score: 60.3
       mcp:
         status: none
       name: BidMachine
@@ -1601,13 +1580,13 @@ stack:
       - Mobile Advertising
       tier: observed
       url: /providers/bidmachine-io/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - theScore
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -1624,12 +1603,33 @@ stack:
       tier: observed
       url: /providers/amazon/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 7.7
       apps:
       - theScore
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 46.1
+      mcp:
+        status: none
+      name: InMobi
+      slug: inmobi
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.fivemobile.thescore/latest/
+      status: profiled
+      tags:
+      - AdTech
+      - Advertising
+      - Company
+      - Enterprise
+      tier: observed
+      url: /providers/inmobi/
+    - agent_band: agent-aware
+      agent_readiness: 28.1
+      apps:
+      - theScore
+      band: developing
+      in_catalog: true
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook Ads
@@ -1645,12 +1645,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: human-only
-      agent_readiness: 5.0
+      agent_readiness: 4.9
       apps:
       - theScore
       band: developing
       in_catalog: true
-      kin_score: 39.9
+      kin_score: 43.0
       mcp:
         status: none
       name: Teads
@@ -1665,13 +1665,34 @@ stack:
       - Video Advertising
       tier: observed
       url: /providers/teads/
-    - agent_band: agent-ready
-      agent_readiness: 36.2
+    - agent_band: agent-aware
+      agent_readiness: 20.3
       apps:
       - theScore
       band: thin
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 38.0
+      mcp:
+        status: none
+      name: Digital Turbine (Fyber)
+      slug: digital-turbine
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.fivemobile.thescore/latest/
+      status: profiled
+      tags:
+      - Advertising
+      - Company
+      - Mobile
+      - Monetization
+      tier: observed
+      url: /providers/digital-turbine/
+    - agent_band: agent-ready
+      agent_readiness: 35.5
+      apps:
+      - theScore
+      band: thin
+      in_catalog: true
+      kin_score: 37.6
       mcp:
         status: none
       name: AppLovin
@@ -1687,33 +1708,12 @@ stack:
       tier: observed
       url: /providers/applovin/
     - agent_band: agent-aware
-      agent_readiness: 20.8
+      agent_readiness: 19.4
       apps:
       - theScore
       band: thin
       in_catalog: true
-      kin_score: 32.0
-      mcp:
-        status: none
-      name: Digital Turbine (Fyber)
-      slug: digital-turbine
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.fivemobile.thescore/latest/
-      status: profiled
-      tags:
-      - Advertising
-      - Company
-      - Mobile
-      - Monetization
-      tier: observed
-      url: /providers/digital-turbine/
-    - agent_band: agent-aware
-      agent_readiness: 19.8
-      apps:
-      - theScore
-      band: thin
-      in_catalog: true
-      kin_score: 31.3
+      kin_score: 29.6
       mcp:
         status: none
       name: AdColony
@@ -1729,12 +1729,12 @@ stack:
       tier: observed
       url: /providers/adcolony/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 33.5
       apps:
       - theScore
       band: thin
       in_catalog: true
-      kin_score: 26.7
+      kin_score: 28.1
       mcp:
         source: https://github.com/PubMatic/pubmatic-mcp-server
         status: verified
@@ -1756,7 +1756,7 @@ stack:
       - theScore
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 16.2
       mcp:
         status: unknown
       name: Mintegral
@@ -1772,12 +1772,54 @@ stack:
       tier: observed
       url: /providers/mintegral/
     - agent_band: human-only
-      agent_readiness: 2.5
+      agent_readiness: 0.0
       apps:
       - theScore
       band: emerging
       in_catalog: true
-      kin_score: 11.5
+      kin_score: 14.1
+      mcp:
+        status: none
+      name: Pangle
+      slug: pangle
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.fivemobile.thescore/latest/
+      status: profiled
+      tags:
+      - Advertising
+      - Mobile
+      - Monetization
+      - TikTok
+      tier: observed
+      url: /providers/pangle/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - theScore
+      band: emerging
+      in_catalog: true
+      kin_score: 13.2
+      mcp:
+        status: none
+      name: Yandex Ads
+      slug: yandex-ads
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.fivemobile.thescore/latest/
+      status: profiled
+      tags:
+      - Advertising
+      - App Monetization
+      - User Acquisition
+      - Web Analytics
+      tier: observed
+      url: /providers/yandex-ads/
+    - agent_band: human-only
+      agent_readiness: 2.5
+      apps:
+      - theScore
+      band: minimal
+      in_catalog: true
+      kin_score: 10.2
       mcp:
         status: none
       name: ironSource
@@ -1798,49 +1840,7 @@ stack:
       - theScore
       band: minimal
       in_catalog: true
-      kin_score: 9.2
-      mcp:
-        status: none
-      name: Yandex Ads
-      slug: yandex-ads
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.fivemobile.thescore/latest/
-      status: profiled
-      tags:
-      - Advertising
-      - App Monetization
-      - User Acquisition
-      - Web Analytics
-      tier: observed
-      url: /providers/yandex-ads/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - theScore
-      band: minimal
-      in_catalog: true
-      kin_score: 8.4
-      mcp:
-        status: none
-      name: Pangle
-      slug: pangle
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.fivemobile.thescore/latest/
-      status: profiled
-      tags:
-      - Advertising
-      - Mobile
-      - Monetization
-      - TikTok
-      tier: observed
-      url: /providers/pangle/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - theScore
-      band: minimal
-      in_catalog: true
-      kin_score: 2.2
+      kin_score: 2.0
       mcp:
         status: none
       name: Chartboost
@@ -1877,42 +1877,42 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - ESPN
       - Sleeper
       - Yahoo Fantasy
       - theScore
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id003
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.espn.score_center/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.fivemobile.thescore/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.sleeperbot/latest/
       status: profiled
       tags: &id004
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 12.2
+      agent_readiness: 12.0
       apps:
       - ESPN
       - Yahoo Fantasy
       - theScore
       band: emerging
       in_catalog: true
-      kin_score: 16.9
+      kin_score: 17.9
       mcp:
         status: none
       name: Comscore
@@ -1930,13 +1930,13 @@ stack:
       tier: observed
       url: /providers/comscore/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Sleeper
       - Yahoo Fantasy
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -1954,12 +1954,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - theScore
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -1976,12 +1976,12 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-ready
-      agent_readiness: 53.6
+      agent_readiness: 52.5
       apps:
       - ESPN
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 58.3
       mcp:
         source: https://github.com/Conviva/mcp-marketplace
         status: verified
@@ -2003,7 +2003,7 @@ stack:
       - Yahoo Fantasy
       band: emerging
       in_catalog: true
-      kin_score: 20.6
+      kin_score: 18.6
       mcp:
         status: none
       name: Flurry
@@ -2019,12 +2019,12 @@ stack:
       tier: observed
       url: /providers/flurry/
     - agent_band: human-only
-      agent_readiness: 3.6
+      agent_readiness: 0.0
       apps:
       - ESPN
       band: emerging
       in_catalog: true
-      kin_score: 11.3
+      kin_score: 15.9
       mcp:
         status: unknown
       name: Nielsen
@@ -2065,13 +2065,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Sleeper
       - theScore
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -2104,12 +2104,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - theScore
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -2133,31 +2133,31 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Sleeper
       - theScore
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Firebase (Crashlytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.fivemobile.thescore/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.sleeperbot/latest/
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
       agent_readiness: 50.2
       apps:
       - Sleeper
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2174,12 +2174,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - ESPN
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -2204,14 +2204,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - ESPN
       - Yahoo Fantasy
       - theScore
       band: strong
       in_catalog: true
-      kin_score: 56.1
+      kin_score: 55.6
       mcp:
         source: https://github.com/IABTechLab/agentic-real-time-framework
         status: verified
@@ -2238,12 +2238,12 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - GameDay Bot (fantasy_football_chat_bot)
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2260,12 +2260,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - GameDay Bot (fantasy_football_chat_bot)
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord webhook
@@ -2281,12 +2281,12 @@ stack:
       tier: observed
       url: /providers/discord/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - GameDay Bot (fantasy_football_chat_bot)
       band: thin
       in_catalog: true
-      kin_score: 34.7
+      kin_score: 32.9
       mcp:
         status: none
       name: GroupMe bots API
@@ -2310,12 +2310,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 71.3
+      agent_readiness: 70.1
       apps:
       - Sleeper
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 76.8
       mcp:
         source: https://github.com/OneSignal/onesignal-ai-skills
         status: documented
@@ -2332,12 +2332,12 @@ stack:
       tier: observed
       url: /providers/onesignal/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - theScore
       band: thin
       in_catalog: true
-      kin_score: 27.9
+      kin_score: 28.3
       mcp:
         source: https://github.com/urbanairship/agent-tools
         status: verified
@@ -2362,13 +2362,13 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Sleeper
       - Yahoo Fantasy
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -2393,12 +2393,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.1
+      agent_readiness: 53.0
       apps:
       - ESPN
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.1
       mcp:
         source: https://github.com/adobe/cq-quickstart-mcp-server
         status: verified
@@ -2426,7 +2426,7 @@ summary:
     unchecked: 3
     verified: 15
   mcp_verified: 15
-  mean_kin_score: 38.1
+  mean_kin_score: 40.0
   observed: 50
   queued: 3
   reference_apps: 8

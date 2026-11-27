@@ -63,10 +63,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.4
+    agent_readiness: 24.0
     band: thin
     in_catalog: true
-    kin_score: 31.7
+    kin_score: 31.2
     mcp: &id001
       status: none
     slug: dialpad
@@ -96,7 +96,7 @@ integrations:
     agent_readiness: 3.1
     band: emerging
     in_catalog: true
-    kin_score: 12.6
+    kin_score: 11.6
     mcp: &id003
       status: none
     slug: domo
@@ -122,11 +122,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 43.2
+    band: exemplar
     in_catalog: true
-    kin_score: 44.1
+    kin_score: 66.8
     mcp: &id005
       source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
       status: verified
@@ -154,10 +154,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.5
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 70.6
+    kin_score: 70.8
     mcp: &id007
       source: https://github.com/microsoft/mcp
       status: verified
@@ -185,10 +185,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.9
+    agent_readiness: 53.8
     band: exemplar
     in_catalog: true
-    kin_score: 69.2
+    kin_score: 70.5
     mcp: &id009
       source: https://docs.workato.com/mcp.html
       status: verified
@@ -214,10 +214,10 @@ noindex: false
 permalink: /applications/legal-practice/filevine/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 23.4
+  agent_readiness: 24.0
   band: thin
   in_catalog: true
-  kin_score: 31.7
+  kin_score: 31.2
   mcp: *id001
   name: Dialpad
   slug: dialpad
@@ -228,18 +228,18 @@ providers:
   agent_readiness: 3.1
   band: emerging
   in_catalog: true
-  kin_score: 12.6
+  kin_score: 11.6
   mcp: *id003
   name: Domo
   slug: domo
   status: profiled
   tags: *id004
   url: /providers/domo/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 43.2
+  band: exemplar
   in_catalog: true
-  kin_score: 44.1
+  kin_score: 66.8
   mcp: *id005
   name: Gmail
   slug: google-gmail
@@ -247,10 +247,10 @@ providers:
   tags: *id006
   url: /providers/google-gmail/
 - agent_band: agent-ready
-  agent_readiness: 49.5
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 70.6
+  kin_score: 70.8
   mcp: *id007
   name: Microsoft Outlook
   slug: microsoft-outlook
@@ -258,10 +258,10 @@ providers:
   tags: *id008
   url: /providers/microsoft-outlook/
 - agent_band: agent-ready
-  agent_readiness: 54.9
+  agent_readiness: 53.8
   band: exemplar
   in_catalog: true
-  kin_score: 69.2
+  kin_score: 70.5
   mcp: *id009
   name: Workato
   slug: workato

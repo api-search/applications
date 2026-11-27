@@ -54,22 +54,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id001
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id002
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Crashlytics / Analytics)
   provider: firebase
@@ -86,10 +86,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.9
+    agent_readiness: 26.8
     band: strong
     in_catalog: true
-    kin_score: 55.6
+    kin_score: 56.0
     mcp: &id003
       status: none
     slug: giphy
@@ -116,10 +116,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.6
+    agent_readiness: 36.9
     band: strong
     in_catalog: true
-    kin_score: 56.1
+    kin_score: 55.6
     mcp: &id005
       source: https://github.com/IABTechLab/agentic-real-time-framework
       status: verified
@@ -147,10 +147,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.4
+    agent_readiness: 34.7
     band: strong
     in_catalog: true
-    kin_score: 56.4
+    kin_score: 57.0
     mcp: &id007
       source: https://support.pendo.io/hc/en-us/articles/41102236924955
       status: verified
@@ -175,22 +175,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/payroll-hr/paylocity/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id001
-  name: Firebase (Crashlytics / Analytics)
-  slug: firebase
-  status: profiled
-  tags: *id002
-  url: /providers/firebase/
-- agent_band: agent-aware
-  agent_readiness: 21.9
+- agent_band: agent-ready
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 55.6
+  kin_score: 62.0
+  mcp: *id001
+  name: Firebase (Crashlytics / Analytics)
+  slug: google-firebase
+  status: profiled
+  tags: *id002
+  url: /providers/google-firebase/
+- agent_band: agent-aware
+  agent_readiness: 26.8
+  band: strong
+  in_catalog: true
+  kin_score: 56.0
   mcp: *id003
   name: GIPHY
   slug: giphy
@@ -198,10 +198,10 @@ providers:
   tags: *id004
   url: /providers/giphy/
 - agent_band: agent-ready
-  agent_readiness: 37.6
+  agent_readiness: 36.9
   band: strong
   in_catalog: true
-  kin_score: 56.1
+  kin_score: 55.6
   mcp: *id005
   name: IAB Open Measurement
   slug: iab-tech-lab
@@ -209,10 +209,10 @@ providers:
   tags: *id006
   url: /providers/iab-tech-lab/
 - agent_band: agent-ready
-  agent_readiness: 35.4
+  agent_readiness: 34.7
   band: strong
   in_catalog: true
-  kin_score: 56.4
+  kin_score: 57.0
   mcp: *id007
   name: Pendo
   slug: pendoio

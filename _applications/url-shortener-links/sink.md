@@ -73,10 +73,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-native
-    agent_readiness: 69.6
+    agent_readiness: 69.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.8
+    kin_score: 82.5
     mcp: &id002
       source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
       status: verified
@@ -162,10 +162,10 @@ noindex: false
 permalink: /applications/url-shortener-links/sink/
 providers:
 - agent_band: agent-native
-  agent_readiness: 69.6
+  agent_readiness: 69.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.8
+  kin_score: 82.5
   mcp: *id002
   name: Cloudflare Access
   slug: cloudflare

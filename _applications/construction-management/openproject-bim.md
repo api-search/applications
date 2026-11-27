@@ -75,10 +75,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id001
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -106,10 +106,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id003
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -137,10 +137,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id005
       status: none
     slug: nextcloud
@@ -167,10 +167,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.2
+    agent_readiness: 25.9
     band: developing
     in_catalog: true
-    kin_score: 48.3
+    kin_score: 50.9
     mcp: &id007
       status: none
     slug: microsoft-onedrive
@@ -197,10 +197,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.1
-    band: strong
+    agent_readiness: 46.0
+    band: exemplar
     in_catalog: true
-    kin_score: 60.3
+    kin_score: 72.3
     mcp: &id009
       source: https://github.com/autodesk-platform-services/aps-mcp-server-nodejs
       status: verified
@@ -228,10 +228,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.2
+    agent_readiness: 32.3
     band: strong
     in_catalog: true
-    kin_score: 58.5
+    kin_score: 60.9
     mcp: &id011
       source: https://github.com/microsoft/mcp
       status: verified
@@ -259,10 +259,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 10.8
-    band: minimal
+    agent_readiness: 10.6
+    band: emerging
     in_catalog: true
-    kin_score: 9.3
+    kin_score: 13.1
     mcp: &id013
       source: https://github.com/xwiki-contrib/ai-llm
       status: verified
@@ -288,10 +288,10 @@ noindex: false
 permalink: /applications/construction-management/openproject-bim/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id001
   name: GitHub
   slug: github
@@ -299,10 +299,10 @@ providers:
   tags: *id002
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id003
   name: GitLab
   slug: gitlab
@@ -310,10 +310,10 @@ providers:
   tags: *id004
   url: /providers/gitlab/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id005
   name: Nextcloud
   slug: nextcloud
@@ -321,10 +321,10 @@ providers:
   tags: *id006
   url: /providers/nextcloud/
 - agent_band: agent-aware
-  agent_readiness: 25.2
+  agent_readiness: 25.9
   band: developing
   in_catalog: true
-  kin_score: 48.3
+  kin_score: 50.9
   mcp: *id007
   name: OneDrive
   slug: microsoft-onedrive
@@ -332,10 +332,10 @@ providers:
   tags: *id008
   url: /providers/microsoft-onedrive/
 - agent_band: agent-ready
-  agent_readiness: 43.1
-  band: strong
+  agent_readiness: 46.0
+  band: exemplar
   in_catalog: true
-  kin_score: 60.3
+  kin_score: 72.3
   mcp: *id009
   name: Revit (add-in)
   slug: autodesk
@@ -343,10 +343,10 @@ providers:
   tags: *id010
   url: /providers/autodesk/
 - agent_band: agent-ready
-  agent_readiness: 35.2
+  agent_readiness: 32.3
   band: strong
   in_catalog: true
-  kin_score: 58.5
+  kin_score: 60.9
   mcp: *id011
   name: SharePoint
   slug: sharepoint
@@ -354,10 +354,10 @@ providers:
   tags: *id012
   url: /providers/sharepoint/
 - agent_band: agent-aware
-  agent_readiness: 10.8
-  band: minimal
+  agent_readiness: 10.6
+  band: emerging
   in_catalog: true
-  kin_score: 9.3
+  kin_score: 13.1
   mcp: *id013
   name: XWiki
   slug: xwiki

@@ -2039,8 +2039,8 @@ stack:
       url: /capabilities/audio-music/
       via_parent: Audio & Music
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 31.3
+    - agent_band: agent-aware
+      agent_readiness: 27.2
       apps:
       - Ampache
       - Funkwhale
@@ -2049,7 +2049,7 @@ stack:
       - beets
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 38.2
       mcp:
         status: none
       name: MusicBrainz
@@ -2067,15 +2067,15 @@ stack:
       tier: observed
       url: /providers/musicbrainz/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 25.9
       apps:
       - Koel
       - Lidarr
       - Navidrome
       - beets
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 54.2
+      kin_score: 54.4
       mcp: &id001
         status: none
       name: Last.fm
@@ -2093,14 +2093,14 @@ stack:
       tier: observed
       url: /providers/lastfm/
     - agent_band: agent-ready
-      agent_readiness: 33.3
+      agent_readiness: 32.7
       apps:
       - Koel
       - Lidarr
       - beets
       band: developing
       in_catalog: true
-      kin_score: 49.8
+      kin_score: 50.6
       mcp:
         status: none
       name: Spotify
@@ -2118,14 +2118,14 @@ stack:
       tier: observed
       url: /providers/spotify/
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 24.1
       apps:
       - Ampache
       - Navidrome
       - beets
       band: thin
       in_catalog: true
-      kin_score: 30.8
+      kin_score: 30.7
       mcp:
         status: none
       name: Deezer
@@ -2142,37 +2142,14 @@ stack:
       - Streaming
       tier: observed
       url: /providers/deezer/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Ampache
       - beets
       band: strong
       in_catalog: true
-      kin_score: 55.2
-      mcp:
-        status: none
-      name: Apple (iTunes)
-      slug: apple
-      sources:
-      - https://github.com/ampache/ampache/tree/develop/src/Plugin
-      - https://github.com/beetbox/beets/blob/master/beetsplug/fetchart.py
-      status: profiled
-      tags:
-      - Apple
-      - Developers
-      - iOS
-      - macOS
-      tier: observed
-      url: /providers/apple/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
-      apps:
-      - Ampache
-      - beets
-      band: developing
-      in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -2190,13 +2167,36 @@ stack:
       tier: observed
       url: /providers/amazon/
     - agent_band: agent-ready
-      agent_readiness: 32.9
+      agent_readiness: 36.5
+      apps:
+      - Ampache
+      - beets
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
+      mcp:
+        status: none
+      name: Apple (iTunes)
+      slug: apple
+      sources:
+      - https://github.com/ampache/ampache/tree/develop/src/Plugin
+      - https://github.com/beetbox/beets/blob/master/beetsplug/fetchart.py
+      status: profiled
+      tags:
+      - Apple
+      - Developers
+      - iOS
+      - macOS
+      tier: observed
+      url: /providers/apple/
+    - agent_band: agent-aware
+      agent_readiness: 27.6
       apps:
       - Ampache
       - beets
       band: thin
       in_catalog: true
-      kin_score: 36.6
+      kin_score: 38.1
       mcp:
         status: none
       name: Discogs
@@ -2213,12 +2213,12 @@ stack:
       tier: observed
       url: /providers/discogs/
     - agent_band: agent-ready
-      agent_readiness: 34.6
+      agent_readiness: 39.3
       apps:
       - beets
       band: developing
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 46.9
       mcp:
         status: none
       name: TIDAL
@@ -2234,12 +2234,33 @@ stack:
       tier: observed
       url: /providers/tidal/
     - agent_band: human-only
-      agent_readiness: 2.5
+      agent_readiness: 0.0
       apps:
       - beets
       band: minimal
       in_catalog: true
-      kin_score: 9.4
+      kin_score: 10.3
+      mcp:
+        status: unknown
+      name: Fanart.tv
+      slug: fanart-tv
+      sources:
+      - https://github.com/beetbox/beets/blob/master/beetsplug/fetchart.py
+      status: profiled
+      tags:
+      - Company
+      - Image
+      - Media
+      - Movies
+      tier: observed
+      url: /providers/fanart-tv/
+    - agent_band: human-only
+      agent_readiness: 3.5
+      apps:
+      - beets
+      band: minimal
+      in_catalog: true
+      kin_score: 8.5
       mcp:
         status: none
       name: Beatport
@@ -2260,28 +2281,7 @@ stack:
       - beets
       band: minimal
       in_catalog: true
-      kin_score: 7.8
-      mcp:
-        status: unknown
-      name: Fanart.tv
-      slug: fanart-tv
-      sources:
-      - https://github.com/beetbox/beets/blob/master/beetsplug/fetchart.py
-      status: profiled
-      tags:
-      - Company
-      - Image
-      - Media
-      - Movies
-      tier: observed
-      url: /providers/fanart-tv/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - beets
-      band: minimal
-      in_catalog: true
-      kin_score: 6.7
+      kin_score: 7.9
       mcp:
         status: none
       name: Cover Art Archive
@@ -2302,7 +2302,7 @@ stack:
       - Ampache
       band: minimal
       in_catalog: true
-      kin_score: 3.3
+      kin_score: 2.4
       mcp:
         status: none
       name: TheAudioDB
@@ -2321,7 +2321,7 @@ stack:
       - beets
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: AlbumArt.org
@@ -2349,9 +2349,9 @@ stack:
       - Koel
       - Navidrome
       - beets
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.7
+      kin_score: 11.6
       mcp:
         status: none
       name: ListenBrainz
@@ -2369,15 +2369,15 @@ stack:
       tier: observed
       url: /providers/listenbrainz/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 25.9
       apps:
       - Ampache
       - Funkwhale
       - Navidrome
       - beets
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 54.2
+      kin_score: 54.4
       mcp: *id001
       name: Last.fm
       slug: lastfm
@@ -2390,13 +2390,13 @@ stack:
       tier: observed
       url: /providers/lastfm/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 1.7
       apps:
       - Ampache
       - Funkwhale
       band: emerging
       in_catalog: true
-      kin_score: 14.8
+      kin_score: 25.4
       mcp:
         status: none
       name: Libre.fm
@@ -2413,12 +2413,12 @@ stack:
       tier: observed
       url: /providers/libre-fm/
     - agent_band: human-only
-      agent_readiness: 4.5
+      agent_readiness: 4.4
       apps:
       - Funkwhale
       band: emerging
       in_catalog: true
-      kin_score: 17.1
+      kin_score: 20.1
       mcp:
         status: unknown
       name: Maloja
@@ -2442,13 +2442,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 59.6
+      agent_readiness: 63.2
       apps:
       - Lidarr
       - beets
       band: strong
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 56.7
       mcp:
         status: none
       name: Plex
@@ -2471,7 +2471,7 @@ stack:
       - beets
       band: emerging
       in_catalog: true
-      kin_score: 14.1
+      kin_score: 21.4
       mcp:
         status: none
       name: Emby
@@ -2487,14 +2487,14 @@ stack:
       - Video Library
       tier: observed
       url: /providers/emby/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - Lidarr
       - beets
       band: emerging
       in_catalog: true
-      kin_score: 13.3
+      kin_score: 21.4
       mcp:
         status: none
       name: Kodi
@@ -2517,7 +2517,7 @@ stack:
       - Lidarr
       band: minimal
       in_catalog: true
-      kin_score: 3.5
+      kin_score: 4.5
       mcp:
         status: unknown
       name: Headphones
@@ -2533,12 +2533,12 @@ stack:
       tier: observed
       url: /providers/headphones/
     - agent_band: agent-aware
-      agent_readiness: 7.9
+      agent_readiness: 7.7
       apps:
       - Ampache
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.3
+      kin_score: 12.9
       mcp:
         status: unknown
       name: AudioMuse-AI
@@ -2554,12 +2554,12 @@ stack:
       tier: observed
       url: /providers/audiomuse/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 18.3
       apps:
       - Lidarr
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.5
+      kin_score: 12.0
       mcp:
         status: none
       name: Synology
@@ -2582,14 +2582,14 @@ stack:
       url: /capabilities/audio-music/
       via_parent: Audio & Music
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 5.8
+    - agent_band: human-only
+      agent_readiness: 2.8
       apps:
       - Ampache
       - beets
       band: minimal
       in_catalog: true
-      kin_score: 7.9
+      kin_score: 9.9
       mcp:
         status: unknown
       name: LRCLIB
@@ -2606,12 +2606,12 @@ stack:
       tier: observed
       url: /providers/lrclib/
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 25.9
       apps:
       - beets
       band: thin
       in_catalog: true
-      kin_score: 34.4
+      kin_score: 34.8
       mcp:
         status: none
       name: Genius
@@ -2627,12 +2627,12 @@ stack:
       tier: observed
       url: /providers/genius/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - beets
       band: thin
       in_catalog: true
-      kin_score: 34.2
+      kin_score: 33.2
       mcp:
         status: none
       name: Musixmatch
@@ -2647,12 +2647,12 @@ stack:
       tier: observed
       url: /providers/musixmatch/
     - agent_band: agent-aware
-      agent_readiness: 24.4
+      agent_readiness: 21.8
       apps:
       - beets
       band: emerging
       in_catalog: true
-      kin_score: 22.7
+      kin_score: 23.5
       mcp:
         status: unknown
       name: LRCMux
@@ -2673,7 +2673,7 @@ stack:
       - Ampache
       band: minimal
       in_catalog: true
-      kin_score: 4.2
+      kin_score: 7.7
       mcp:
         status: unknown
       name: Lyrist
@@ -2694,7 +2694,7 @@ stack:
       - beets
       band: minimal
       in_catalog: true
-      kin_score: 3.4
+      kin_score: 2.6
       mcp:
         status: unknown
       name: Tekstowo
@@ -2738,9 +2738,9 @@ stack:
       agent_readiness: 0.6
       apps:
       - beets
-      band: emerging
+      band: minimal
       in_catalog: true
-      kin_score: 12.7
+      kin_score: 10.9
       mcp:
         status: none
       name: AcoustID
@@ -2781,12 +2781,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 29.3
       apps:
       - beets
       band: developing
       in_catalog: true
-      kin_score: 43.0
+      kin_score: 41.8
       mcp:
         status: none
       name: Wikipedia
@@ -2807,7 +2807,7 @@ stack:
       - beets
       band: emerging
       in_catalog: true
-      kin_score: 13.2
+      kin_score: 12.7
       mcp:
         status: none
       name: DBpedia
@@ -2831,12 +2831,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - Koel
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.5
+      kin_score: 39.7
       mcp:
         status: none
       name: Ticketmaster
@@ -2860,12 +2860,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 25.1
       apps:
       - Ampache
       band: developing
       in_catalog: true
-      kin_score: 48.6
+      kin_score: 49.1
       mcp:
         status: none
       name: Flickr
@@ -2889,12 +2889,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.6
+      agent_readiness: 23.1
       apps:
       - beets
       band: thin
       in_catalog: true
-      kin_score: 34.2
+      kin_score: 33.0
       mcp:
         status: none
       name: Sonos
@@ -2918,12 +2918,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - Koel
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube
@@ -2949,12 +2949,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.5
+      agent_readiness: 33.6
       apps:
       - Lidarr
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 45.9
       mcp:
         status: unknown
       name: Pushcut
@@ -2970,12 +2970,12 @@ stack:
       tier: observed
       url: /providers/pushcut/
     - agent_band: agent-aware
-      agent_readiness: 24.9
+      agent_readiness: 24.4
       apps:
       - Lidarr
       band: thin
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 30.2
       mcp:
         status: none
       name: Pushbullet
@@ -2991,12 +2991,12 @@ stack:
       tier: observed
       url: /providers/pushbullet/
     - agent_band: agent-aware
-      agent_readiness: 22.0
+      agent_readiness: 21.6
       apps:
       - Lidarr
       band: thin
       in_catalog: true
-      kin_score: 29.2
+      kin_score: 28.1
       mcp:
         status: none
       name: Pushover
@@ -3015,9 +3015,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Lidarr
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.9
+      kin_score: 15.5
       mcp:
         status: none
       name: ntfy
@@ -3038,7 +3038,7 @@ stack:
       - Lidarr
       band: minimal
       in_catalog: true
-      kin_score: 7.8
+      kin_score: 10.9
       mcp:
         source: https://gotify.net/docs/mcp
         status: verified
@@ -3060,7 +3060,25 @@ stack:
       - Lidarr
       band: minimal
       in_catalog: true
-      kin_score: 6.3
+      kin_score: 10.8
+      mcp:
+        status: unknown
+      name: Join (joaoapps)
+      slug: joaoapps-join
+      sources:
+      - https://github.com/Lidarr/Lidarr/tree/develop/src/NzbDrone.Core/Notifications
+      status: profiled
+      tags:
+      - Company
+      tier: observed
+      url: /providers/joaoapps-join/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Lidarr
+      band: minimal
+      in_catalog: true
+      kin_score: 8.0
       mcp:
         status: unknown
       name: Prowl
@@ -3081,25 +3099,7 @@ stack:
       - Lidarr
       band: minimal
       in_catalog: true
-      kin_score: 6.2
-      mcp:
-        status: unknown
-      name: Join (joaoapps)
-      slug: joaoapps-join
-      sources:
-      - https://github.com/Lidarr/Lidarr/tree/develop/src/NzbDrone.Core/Notifications
-      status: profiled
-      tags:
-      - Company
-      tier: observed
-      url: /providers/joaoapps-join/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Lidarr
-      band: minimal
-      in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.2
       mcp:
         source: https://notifiarr.com/api/mcp
         status: documented
@@ -3141,13 +3141,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Ampache
       - Lidarr
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -3165,12 +3165,12 @@ stack:
       tier: observed
       url: /providers/x/
     - agent_band: agent-aware
-      agent_readiness: 26.2
+      agent_readiness: 25.7
       apps:
       - Ampache
       band: developing
       in_catalog: true
-      kin_score: 45.1
+      kin_score: 46.3
       mcp:
         status: none
       name: Bluesky
@@ -3186,12 +3186,12 @@ stack:
       tier: observed
       url: /providers/bluesky/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Ampache
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -3207,12 +3207,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 22.0
       apps:
       - Ampache
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 25.5
       mcp:
         status: none
       name: Mastodon
@@ -3242,7 +3242,7 @@ stack:
       - Koel
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -3260,12 +3260,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 39.6
+      agent_readiness: 44.9
       apps:
       - Koel
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/laravel/mcp
         status: verified
@@ -3281,28 +3281,28 @@ stack:
       - PHP
       tier: observed
       url: /providers/laravel/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Spotify
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id003
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/
       status: profiled
       tags: &id004
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-170.30.30
@@ -3312,13 +3312,13 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.3
+      agent_readiness: 32.7
       apps:
       - Ampache
       - Koel
       band: developing
       in_catalog: true
-      kin_score: 39.8
+      kin_score: 41.2
       mcp:
         source: https://github.com/Automattic/mcp-server-gravatar
         status: verified
@@ -3341,7 +3341,7 @@ stack:
       - Ampache
       band: emerging
       in_catalog: true
-      kin_score: 14.3
+      kin_score: 21.5
       mcp:
         status: none
       name: Libravatar
@@ -3365,12 +3365,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Ampache
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -3387,12 +3387,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 37.4
+      agent_readiness: 41.3
       apps:
       - Ampache
       band: exemplar
       in_catalog: true
-      kin_score: 72.2
+      kin_score: 70.7
       mcp:
         source: https://github.com/matomo-org/plugin-McpServer
         status: verified
@@ -3408,22 +3408,22 @@ stack:
       - Web Analytics
       tier: observed
       url: /providers/matomo/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Spotify
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-830.20.30
@@ -3433,12 +3433,12 @@ stack:
       via_parent: Knowledge Curation & Taxonomy Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 62.9
+      agent_readiness: 61.9
       apps:
       - Koel
       band: exemplar
       in_catalog: true
-      kin_score: 79.9
+      kin_score: 81.1
       mcp:
         status: none
       name: Algolia
@@ -3459,7 +3459,7 @@ stack:
       - Koel
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 52.5
       mcp:
         source: https://github.com/meilisearch/meilisearch-mcp
         status: verified
@@ -3476,12 +3476,12 @@ stack:
       tier: observed
       url: /providers/meilisearch/
     - agent_band: agent-ready
-      agent_readiness: 47.9
+      agent_readiness: 47.3
       apps:
       - Funkwhale
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 39.5
+      kin_score: 39.2
       mcp:
         source: https://typesense.org/docs/guide/typesense-cloud/mcp-server.html
         status: verified
@@ -3505,13 +3505,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Koel
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3528,12 +3528,12 @@ stack:
       tier: declared
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 44.1
       apps:
       - Koel
       band: developing
       in_catalog: true
-      kin_score: 45.0
+      kin_score: 47.4
       mcp:
         source: https://docs.digitalocean.com/reference/mcp/
         status: verified
@@ -3549,13 +3549,13 @@ stack:
       - Servers
       tier: declared
       url: /providers/digital-ocean/
-    - agent_band: agent-aware
-      agent_readiness: 27.7
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - Koel
       band: thin
       in_catalog: true
-      kin_score: 36.3
+      kin_score: 35.8
       mcp:
         source: https://raw.githubusercontent.com/cloudflare/mcp/main/README.md
         status: verified
@@ -3580,12 +3580,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 59.4
+      agent_readiness: 58.2
       apps:
       - Ampache
       band: exemplar
       in_catalog: true
-      kin_score: 73.7
+      kin_score: 73.0
       mcp:
         source: https://dev.bitly.com/bitly-mcp/
         status: verified
@@ -3607,7 +3607,7 @@ stack:
       - Ampache
       band: emerging
       in_catalog: true
-      kin_score: 14.8
+      kin_score: 20.4
       mcp:
         status: none
       name: YOURLS
@@ -3631,12 +3631,12 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Lidarr
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -3653,12 +3653,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Lidarr
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -3682,12 +3682,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Lidarr
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -3703,12 +3703,12 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - Lidarr
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -3733,12 +3733,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Lidarr
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -3754,12 +3754,12 @@ stack:
       tier: observed
       url: /providers/telegram/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.3
       apps:
       - Lidarr
       band: developing
       in_catalog: true
-      kin_score: 41.4
+      kin_score: 43.2
       mcp:
         status: none
       name: Signal
@@ -3783,12 +3783,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 12.2
+      agent_readiness: 12.0
       apps:
       - Spotify
       band: emerging
       in_catalog: true
-      kin_score: 16.9
+      kin_score: 17.9
       mcp:
         status: none
       name: Comscore
@@ -3812,12 +3812,12 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Ampache
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -3842,12 +3842,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Koel
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -3872,12 +3872,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.5
+      agent_readiness: 36.2
       apps:
       - beets
       band: thin
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 26.3
       mcp:
         status: none
       name: IPFS
@@ -3901,12 +3901,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 38.3
       apps:
       - Koel
       band: strong
       in_catalog: true
-      kin_score: 63.2
+      kin_score: 63.6
       mcp:
         source: https://github.com/ipinfo/mcp
         status: verified
@@ -3930,13 +3930,13 @@ stack:
       url: /capabilities/language-document-understanding/
       via_parent: Language & Document Understanding
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 17.9
+    - agent_band: agent-ready
+      agent_readiness: 32.2
       apps:
       - beets
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 62.4
       mcp:
         source: https://github.com/microsoft/azure-speech-mcp-server
         status: verified
@@ -3961,12 +3961,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Spotify
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -3987,12 +3987,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Ampache
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -4017,12 +4017,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - Koel
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -4045,13 +4045,13 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Koel
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -4074,13 +4074,13 @@ stack:
       url: /capabilities/web-data/
       via_parent: Web Data
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 21.8
+    - agent_band: agent-ready
+      agent_readiness: 38.6
       apps:
       - beets
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.1
+      kin_score: 61.6
       mcp:
         status: none
       name: Google Custom Search
@@ -4107,7 +4107,7 @@ summary:
     unchecked: 3
     verified: 22
   mcp_verified: 22
-  mean_kin_score: 35.9
+  mean_kin_score: 38.2
   observed: 75
   queued: 3
   reference_apps: 7

@@ -83,10 +83,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.8
+    agent_readiness: 35.8
     band: exemplar
     in_catalog: true
-    kin_score: 77.4
+    kin_score: 75.7
     mcp: &id001
       status: none
     slug: attentive
@@ -113,10 +113,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.4
+    agent_readiness: 21.9
     band: thin
     in_catalog: true
-    kin_score: 32.4
+    kin_score: 32.0
     mcp: &id003
       status: none
     slug: easypost
@@ -143,10 +143,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_readiness: 25.3
     band: developing
     in_catalog: true
-    kin_score: 43.6
+    kin_score: 42.5
     mcp: &id005
       source: https://github.com/gorgias/mcp-cookbook
       status: verified
@@ -174,10 +174,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 54.9
+    agent_readiness: 58.7
     band: exemplar
     in_catalog: true
-    kin_score: 77.6
+    kin_score: 78.1
     mcp: &id007
       source: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
       status: verified
@@ -204,11 +204,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.3
+    agent_band: agent-ready
+    agent_readiness: 31.0
     band: emerging
     in_catalog: true
-    kin_score: 16.6
+    kin_score: 17.4
     mcp: &id009
       status: unknown
     slug: rise-ai
@@ -232,10 +232,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 35.1
+    kin_score: 34.3
     mcp: &id011
       status: none
     slug: ryder-system
@@ -262,10 +262,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.7
+    agent_readiness: 29.1
     band: thin
     in_catalog: true
-    kin_score: 30.7
+    kin_score: 30.6
     mcp: &id013
       status: none
     slug: shiphero
@@ -291,11 +291,11 @@ integrations:
     via_parent: Logistics Operations Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.1
+    agent_band: agent-ready
+    agent_readiness: 29.2
     band: thin
     in_catalog: true
-    kin_score: 29.0
+    kin_score: 27.9
     mcp: &id015
       source: https://github.com/UPS-API/ups-mcp
       status: verified
@@ -322,11 +322,11 @@ integrations:
     via_parent: Logistics Operations Management
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.9
-    band: thin
+    agent_band: agent-native
+    agent_readiness: 51.8
+    band: developing
     in_catalog: true
-    kin_score: 33.2
+    kin_score: 52.0
     mcp: &id017
       status: none
     slug: usps
@@ -351,10 +351,10 @@ noindex: false
 permalink: /applications/shipping-fulfillment/loop-returns/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.8
+  agent_readiness: 35.8
   band: exemplar
   in_catalog: true
-  kin_score: 77.4
+  kin_score: 75.7
   mcp: *id001
   name: Attentive
   slug: attentive
@@ -362,10 +362,10 @@ providers:
   tags: *id002
   url: /providers/attentive/
 - agent_band: agent-aware
-  agent_readiness: 22.4
+  agent_readiness: 21.9
   band: thin
   in_catalog: true
-  kin_score: 32.4
+  kin_score: 32.0
   mcp: *id003
   name: EasyPost
   slug: easypost
@@ -373,10 +373,10 @@ providers:
   tags: *id004
   url: /providers/easypost/
 - agent_band: agent-aware
-  agent_readiness: 25.9
+  agent_readiness: 25.3
   band: developing
   in_catalog: true
-  kin_score: 43.6
+  kin_score: 42.5
   mcp: *id005
   name: Gorgias
   slug: gorgias
@@ -384,21 +384,21 @@ providers:
   tags: *id006
   url: /providers/gorgias/
 - agent_band: agent-native
-  agent_readiness: 54.9
+  agent_readiness: 58.7
   band: exemplar
   in_catalog: true
-  kin_score: 77.6
+  kin_score: 78.1
   mcp: *id007
   name: Klaviyo
   slug: klaviyo
   status: profiled
   tags: *id008
   url: /providers/klaviyo/
-- agent_band: agent-aware
-  agent_readiness: 27.3
+- agent_band: agent-ready
+  agent_readiness: 31.0
   band: emerging
   in_catalog: true
-  kin_score: 16.6
+  kin_score: 17.4
   mcp: *id009
   name: Rise.ai
   slug: rise-ai
@@ -406,10 +406,10 @@ providers:
   tags: *id010
   url: /providers/rise-ai/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 35.1
+  kin_score: 34.3
   mcp: *id011
   name: Ryder
   slug: ryder-system
@@ -417,32 +417,32 @@ providers:
   tags: *id012
   url: /providers/ryder-system/
 - agent_band: agent-ready
-  agent_readiness: 29.7
+  agent_readiness: 29.1
   band: thin
   in_catalog: true
-  kin_score: 30.7
+  kin_score: 30.6
   mcp: *id013
   name: ShipHero
   slug: shiphero
   status: profiled
   tags: *id014
   url: /providers/shiphero/
-- agent_band: agent-aware
-  agent_readiness: 24.1
+- agent_band: agent-ready
+  agent_readiness: 29.2
   band: thin
   in_catalog: true
-  kin_score: 29.0
+  kin_score: 27.9
   mcp: *id015
   name: UPS
   slug: ups
   status: profiled
   tags: *id016
   url: /providers/ups/
-- agent_band: agent-ready
-  agent_readiness: 31.9
-  band: thin
+- agent_band: agent-native
+  agent_readiness: 51.8
+  band: developing
   in_catalog: true
-  kin_score: 33.2
+  kin_score: 52.0
   mcp: *id017
   name: USPS
   slug: usps

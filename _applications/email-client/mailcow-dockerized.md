@@ -46,10 +46,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.2
+    agent_readiness: 16.8
     band: emerging
     in_catalog: true
-    kin_score: 24.3
+    kin_score: 23.7
     mcp: &id001
       status: none
     slug: lets-encrypt
@@ -76,10 +76,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.8
+    kin_score: 21.5
     mcp: &id003
       status: none
     slug: spamhaus
@@ -104,10 +104,10 @@ noindex: false
 permalink: /applications/email-client/mailcow-dockerized/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 17.2
+  agent_readiness: 16.8
   band: emerging
   in_catalog: true
-  kin_score: 24.3
+  kin_score: 23.7
   mcp: *id001
   name: Let's Encrypt
   slug: lets-encrypt
@@ -115,10 +115,10 @@ providers:
   tags: *id002
   url: /providers/lets-encrypt/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.8
+  kin_score: 21.5
   mcp: *id003
   name: Spamhaus
   slug: spamhaus

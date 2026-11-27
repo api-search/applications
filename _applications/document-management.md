@@ -1345,13 +1345,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Adobe Acrobat
       - Stirling-PDF
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1369,34 +1369,12 @@ stack:
       tier: observed
       url: /providers/google-drive/
     - agent_band: agent-ready
-      agent_readiness: 57.4
+      agent_readiness: 36.3
       apps:
       - Adobe Acrobat
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.5
-      mcp:
-        source: https://developer.box.com/guides/box-mcp/
-        status: verified
-      name: Box
-      slug: box
-      sources:
-      - https://www.adobe.com/acrobat/business/integrations.html
-      status: profiled
-      tags:
-      - Cloud Storage
-      - Collaboration
-      - Content Management
-      - Documents
-      tier: declared
-      url: /providers/box/
-    - agent_band: agent-ready
-      agent_readiness: 36.7
-      apps:
-      - Adobe Acrobat
-      band: strong
-      in_catalog: true
-      kin_score: 64.4
+      kin_score: 76.1
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1412,13 +1390,35 @@ stack:
       - Productivity
       tier: declared
       url: /providers/microsoft-365/
+    - agent_band: agent-ready
+      agent_readiness: 56.6
+      apps:
+      - Adobe Acrobat
+      band: strong
+      in_catalog: true
+      kin_score: 63.0
+      mcp:
+        source: https://developer.box.com/guides/box-mcp/
+        status: verified
+      name: Box
+      slug: box
+      sources:
+      - https://www.adobe.com/acrobat/business/integrations.html
+      status: profiled
+      tags:
+      - Cloud Storage
+      - Collaboration
+      - Content Management
+      - Documents
+      tier: declared
+      url: /providers/box/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - Adobe Acrobat
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: Microsoft OneDrive
@@ -1434,12 +1434,12 @@ stack:
       tier: declared
       url: /providers/microsoft-onedrive/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Adobe Acrobat
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -1456,12 +1456,12 @@ stack:
       tier: declared
       url: /providers/dropbox/
     - agent_band: agent-aware
-      agent_readiness: 27.0
+      agent_readiness: 26.4
       apps:
       - Adobe Acrobat
       band: thin
       in_catalog: true
-      kin_score: 29.9
+      kin_score: 29.5
       mcp:
         source: https://github.com/egnyte/egnyte-mcp-server
         status: verified
@@ -1483,7 +1483,7 @@ stack:
       - Adobe Acrobat
       band: emerging
       in_catalog: true
-      kin_score: 19.2
+      kin_score: 23.7
       mcp:
         source: https://www.zoho.com/workdrive/mcp.html
         status: verified
@@ -1508,14 +1508,14 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Paperless-ngx
       - Papra
       - paperless-gpt
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -1534,13 +1534,13 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Papra
       - paperless-gpt
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -1558,12 +1558,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - paperless-gpt
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google Gemini
@@ -1587,12 +1587,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.2
+      agent_readiness: 32.3
       apps:
       - Adobe Acrobat
       band: strong
       in_catalog: true
-      kin_score: 58.5
+      kin_score: 60.9
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1609,12 +1609,12 @@ stack:
       tier: declared
       url: /providers/sharepoint/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - Adobe Acrobat
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 48.3
       mcp:
         status: none
       name: Laser Fiche
@@ -1656,7 +1656,7 @@ stack:
       - paperless-gpt
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: none
       name: Paperless-ngx
@@ -1694,13 +1694,13 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 51.5
+      agent_readiness: 45.0
       apps:
       - Paperless-ngx
       - paperless-gpt
       band: exemplar
       in_catalog: true
-      kin_score: 78.4
+      kin_score: 76.0
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1717,13 +1717,13 @@ stack:
       - Microsoft Azure
       tier: observed
       url: /providers/microsoft-azure/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - paperless-gpt
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.3
+      kin_score: 64.3
       mcp:
         status: none
       name: Google Document AI
@@ -1738,13 +1738,13 @@ stack:
       - Google Cloud
       tier: observed
       url: /providers/google-cloud-document-ai/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - paperless-gpt
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: Mistral AI
@@ -1760,12 +1760,12 @@ stack:
       tier: declared
       url: /providers/mistral/
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 24.1
       apps:
       - paperless-gpt
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.9
       mcp:
         source: https://github.com/docling-project/docling-mcp
         status: verified
@@ -1790,12 +1790,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.3
+      agent_readiness: 35.0
       apps:
       - Adobe Acrobat
       band: developing
       in_catalog: true
-      kin_score: 53.5
+      kin_score: 52.3
       mcp:
         status: none
       name: Ironclad
@@ -1811,12 +1811,12 @@ stack:
       tier: declared
       url: /providers/ironclad/
     - agent_band: agent-ready
-      agent_readiness: 32.2
+      agent_readiness: 31.5
       apps:
       - Adobe Acrobat
       band: developing
       in_catalog: true
-      kin_score: 51.8
+      kin_score: 52.1
       mcp:
         status: none
       name: Agiloft
@@ -1837,7 +1837,7 @@ stack:
       - Adobe Acrobat
       band: emerging
       in_catalog: true
-      kin_score: 13.9
+      kin_score: 12.9
       mcp:
         status: none
       name: Icertis
@@ -1867,7 +1867,7 @@ stack:
       - paperless-gpt
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp:
         status: none
       name: Ollama
@@ -1884,12 +1884,12 @@ stack:
       tier: observed
       url: /providers/ollama/
     - agent_band: agent-aware
-      agent_readiness: 18.2
+      agent_readiness: 22.5
       apps:
       - paperless-gpt
       band: thin
       in_catalog: true
-      kin_score: 30.1
+      kin_score: 32.2
       mcp:
         status: none
       name: LM Studio
@@ -1912,13 +1912,13 @@ stack:
       url: /capabilities/model-inference/
       via_parent: Model Inference
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.4
+    - agent_band: agent-ready
+      agent_readiness: 29.9
       apps:
       - paperless-gpt
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.6
+      kin_score: 68.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -1935,12 +1935,12 @@ stack:
       tier: declared
       url: /providers/microsoft-azure-openai/
     - agent_band: agent-ready
-      agent_readiness: 40.4
+      agent_readiness: 40.0
       apps:
       - paperless-gpt
       band: thin
       in_catalog: true
-      kin_score: 34.6
+      kin_score: 34.4
       mcp:
         source: https://docs.together.ai/docs/mcp
         status: verified
@@ -1957,12 +1957,12 @@ stack:
       tier: declared
       url: /providers/together-ai/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 21.2
       apps:
       - paperless-gpt
       band: thin
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 32.3
       mcp:
         source: https://github.com/groq/groq-mcp-server
         status: verified
@@ -1987,12 +1987,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.2
+      agent_readiness: 16.8
       apps:
       - Paperless-ngx
       band: thin
       in_catalog: true
-      kin_score: 34.2
+      kin_score: 33.1
       mcp:
         status: none
       name: Apache Tika
@@ -2008,12 +2008,12 @@ stack:
       tier: observed
       url: /providers/apache-tika/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Paperless-ngx
       band: emerging
       in_catalog: true
-      kin_score: 20.2
+      kin_score: 23.4
       mcp:
         status: none
       name: Gotenberg
@@ -2037,12 +2037,12 @@ stack:
       via_parent: Retrieval & Embeddings
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - Paperless-ngx
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 69.1
       mcp:
         source: https://github.com/huggingface/hf-mcp-server
         status: verified
@@ -2067,12 +2067,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Papra
       band: emerging
       in_catalog: true
-      kin_score: 13.8
+      kin_score: 20.0
       mcp:
         status: none
       name: OwlRelay
@@ -2096,12 +2096,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 46.4
       apps:
       - paperless-gpt
       band: strong
       in_catalog: true
-      kin_score: 55.4
+      kin_score: 54.8
       mcp:
         source: https://openrouter.ai/docs/guides/overview/mcp-server
         status: verified
@@ -2126,12 +2126,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Stirling-PDF
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -2157,13 +2157,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Papra
       - Stirling-PDF
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -2181,12 +2181,12 @@ stack:
       tier: observed
       url: /providers/posthog/
     - agent_band: agent-ready
-      agent_readiness: 54.1
+      agent_readiness: 53.0
       apps:
       - Adobe Acrobat
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.1
       mcp:
         source: https://github.com/adobe/cq-quickstart-mcp-server
         status: verified
@@ -2202,35 +2202,35 @@ stack:
       - Personalization
       tier: observed
       url: /providers/adobe-experience-cloud/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Adobe Acrobat
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase (Crashlytics / Analytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.adobe.reader/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Adobe Acrobat
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id001
         status: none
       name: Facebook Analytics
@@ -2254,12 +2254,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.7
+      agent_readiness: 34.5
       apps:
       - Adobe Acrobat
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 71.0
       mcp:
         source: https://github.com/UiPath/uipath-mcp-python
         status: verified
@@ -2276,12 +2276,12 @@ stack:
       tier: declared
       url: /providers/uipath/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Adobe Acrobat
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -2297,13 +2297,13 @@ stack:
       - iPaaS
       tier: declared
       url: /providers/make/
-    - agent_band: agent-aware
-      agent_readiness: 24.7
+    - agent_band: agent-ready
+      agent_readiness: 29.5
       apps:
       - Adobe Acrobat
       band: thin
       in_catalog: true
-      kin_score: 30.3
+      kin_score: 28.9
       mcp:
         status: none
       name: ProcessMaker
@@ -2324,7 +2324,7 @@ stack:
       - Adobe Acrobat
       band: emerging
       in_catalog: true
-      kin_score: 12.9
+      kin_score: 19.9
       mcp:
         status: none
       name: Nintex Workflow Cloud
@@ -2348,12 +2348,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Adobe Acrobat
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2370,12 +2370,12 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 33.1
+      agent_readiness: 37.6
       apps:
       - Adobe Acrobat
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.9
+      kin_score: 67.7
       mcp:
         source: https://github.com/microsoft/Dataverse-MCP
         status: verified
@@ -2400,12 +2400,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - Paperless-ngx
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2421,13 +2421,13 @@ stack:
       - Enterprise
       tier: declared
       url: /providers/microsoft-outlook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Paperless-ngx
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -2452,13 +2452,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Papra
       - Stirling-PDF
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2484,12 +2484,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Adobe Acrobat
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -2514,12 +2514,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.4
+      agent_readiness: 38.3
       apps:
       - Adobe Acrobat
       band: strong
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 54.7
       mcp:
         status: none
       name: Workday
@@ -2543,12 +2543,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.2
+      agent_readiness: 42.3
       apps:
       - Adobe Acrobat
       band: strong
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 61.9
       mcp:
         status: none
       name: ServiceNow
@@ -2572,12 +2572,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Adobe Acrobat
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -2601,12 +2601,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 48.2
       apps:
       - Stirling-PDF
       band: developing
       in_catalog: true
-      kin_score: 49.1
+      kin_score: 49.4
       mcp:
         source: https://github.com/supabase/mcp
         status: verified
@@ -2631,12 +2631,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Adobe Acrobat
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -2662,7 +2662,7 @@ stack:
       - Mayan EDMS
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2687,12 +2687,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.8
+      agent_readiness: 37.0
       apps:
       - Adobe Acrobat
       band: developing
       in_catalog: true
-      kin_score: 44.5
+      kin_score: 45.7
       mcp:
         status: none
       name: SAP Ariba
@@ -2716,12 +2716,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Adobe Acrobat
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id001
       name: Facebook Login / Share
       slug: facebook
@@ -2740,12 +2740,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Papra
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2770,12 +2770,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - Adobe Acrobat
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -2800,12 +2800,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - Papra
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -2833,7 +2833,7 @@ summary:
     unchecked: 1
     verified: 32
   mcp_verified: 32
-  mean_kin_score: 51.0
+  mean_kin_score: 53.5
   observed: 23
   queued: 1
   reference_apps: 7

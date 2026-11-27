@@ -87,10 +87,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.0
+    agent_readiness: 53.6
     band: developing
     in_catalog: true
-    kin_score: 46.2
+    kin_score: 44.7
     mcp: &id001
       status: none
     slug: braintree
@@ -117,10 +117,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.2
+    agent_readiness: 19.7
     band: emerging
     in_catalog: true
-    kin_score: 14.7
+    kin_score: 17.7
     mcp: &id003
       status: unknown
     slug: chorus-pro
@@ -150,7 +150,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.9
+    kin_score: 4.0
     mcp: &id005
       status: none
     slug: dpd
@@ -177,10 +177,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.5
+    agent_readiness: 19.3
     band: thin
     in_catalog: true
-    kin_score: 28.1
+    kin_score: 30.0
     mcp: &id007
       status: none
     slug: eagle-doc
@@ -207,10 +207,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.2
+    agent_readiness: 28.6
     band: emerging
     in_catalog: true
-    kin_score: 23.5
+    kin_score: 25.8
     mcp: &id009
       status: none
     slug: gls-group
@@ -237,10 +237,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 4.3
+    agent_readiness: 4.2
     band: emerging
     in_catalog: true
-    kin_score: 16.9
+    kin_score: 21.2
     mcp: &id011
       status: unknown
     slug: peppyrus
@@ -249,7 +249,7 @@ integrations:
     - Company
     - E-Invoicing
     - Free
-    - PEPPOL
+    - Peppol
     url: /providers/peppyrus/
   layer: domain
   name: Peppyrus
@@ -267,10 +267,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.8
-    band: exemplar
+    agent_readiness: 48.2
+    band: strong
     in_catalog: true
-    kin_score: 68.9
+    kin_score: 65.6
     mcp: &id013
       status: none
     slug: sendcloud
@@ -297,10 +297,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.5
+    agent_readiness: 51.8
     band: exemplar
     in_catalog: true
-    kin_score: 84.6
+    kin_score: 83.8
     mcp: &id015
       source: https://shopify.dev/docs/apps/build/devmcp
       status: verified
@@ -328,10 +328,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id017
       source: https://docs.stripe.com/mcp
       status: verified
@@ -359,10 +359,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.8
+    kin_score: 18.4
     mcp: &id019
       status: none
     slug: typless
@@ -388,11 +388,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.1
+    agent_band: agent-ready
+    agent_readiness: 29.2
     band: thin
     in_catalog: true
-    kin_score: 29.0
+    kin_score: 27.9
     mcp: &id021
       source: https://github.com/UPS-API/ups-mcp
       status: verified
@@ -470,10 +470,10 @@ noindex: false
 permalink: /applications/erp-operations/tryton/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 52.0
+  agent_readiness: 53.6
   band: developing
   in_catalog: true
-  kin_score: 46.2
+  kin_score: 44.7
   mcp: *id001
   name: Braintree
   slug: braintree
@@ -481,10 +481,10 @@ providers:
   tags: *id002
   url: /providers/braintree/
 - agent_band: agent-aware
-  agent_readiness: 23.2
+  agent_readiness: 19.7
   band: emerging
   in_catalog: true
-  kin_score: 14.7
+  kin_score: 17.7
   mcp: *id003
   name: Chorus Pro
   slug: chorus-pro
@@ -495,7 +495,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.9
+  kin_score: 4.0
   mcp: *id005
   name: DPD
   slug: dpd
@@ -503,10 +503,10 @@ providers:
   tags: *id006
   url: /providers/dpd/
 - agent_band: agent-aware
-  agent_readiness: 22.5
+  agent_readiness: 19.3
   band: thin
   in_catalog: true
-  kin_score: 28.1
+  kin_score: 30.0
   mcp: *id007
   name: Eagle Doc
   slug: eagle-doc
@@ -514,10 +514,10 @@ providers:
   tags: *id008
   url: /providers/eagle-doc/
 - agent_band: agent-ready
-  agent_readiness: 29.2
+  agent_readiness: 28.6
   band: emerging
   in_catalog: true
-  kin_score: 23.5
+  kin_score: 25.8
   mcp: *id009
   name: GLS (MyGLS)
   slug: gls-group
@@ -525,10 +525,10 @@ providers:
   tags: *id010
   url: /providers/gls-group/
 - agent_band: human-only
-  agent_readiness: 4.3
+  agent_readiness: 4.2
   band: emerging
   in_catalog: true
-  kin_score: 16.9
+  kin_score: 21.2
   mcp: *id011
   name: Peppyrus
   slug: peppyrus
@@ -536,10 +536,10 @@ providers:
   tags: *id012
   url: /providers/peppyrus/
 - agent_band: agent-ready
-  agent_readiness: 48.8
-  band: exemplar
+  agent_readiness: 48.2
+  band: strong
   in_catalog: true
-  kin_score: 68.9
+  kin_score: 65.6
   mcp: *id013
   name: Sendcloud
   slug: sendcloud
@@ -547,10 +547,10 @@ providers:
   tags: *id014
   url: /providers/sendcloud/
 - agent_band: agent-ready
-  agent_readiness: 52.5
+  agent_readiness: 51.8
   band: exemplar
   in_catalog: true
-  kin_score: 84.6
+  kin_score: 83.8
   mcp: *id015
   name: Shopify
   slug: shopify
@@ -558,10 +558,10 @@ providers:
   tags: *id016
   url: /providers/shopify/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id017
   name: Stripe
   slug: stripe
@@ -569,21 +569,21 @@ providers:
   tags: *id018
   url: /providers/stripe/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.8
+  kin_score: 18.4
   mcp: *id019
   name: Typless
   slug: typless
   status: profiled
   tags: *id020
   url: /providers/typless/
-- agent_band: agent-aware
-  agent_readiness: 24.1
+- agent_band: agent-ready
+  agent_readiness: 29.2
   band: thin
   in_catalog: true
-  kin_score: 29.0
+  kin_score: 27.9
   mcp: *id021
   name: UPS
   slug: ups

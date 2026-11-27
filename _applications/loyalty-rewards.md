@@ -1733,40 +1733,15 @@ stack:
       url: /capabilities/email/
       via_parent: Email
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 42.3
-      apps:
-      - LoyaltyLion
-      - Smile.io
-      - Yotpo Loyalty & Referrals
-      band: exemplar
-      in_catalog: true
-      kin_score: 78.3
-      mcp:
-        status: none
-      name: Mailchimp
-      slug: mailchimp
-      sources:
-      - https://loyaltylion.com/integrations
-      - https://smile.io/integrations
-      - https://www.yotpo.com/integrations/
-      status: profiled
-      tags:
-      - Campaigns
-      - Email Marketing
-      - Marketing Automation
-      - Newsletters
-      tier: declared
-      url: /providers/mailchimp/
     - agent_band: agent-native
-      agent_readiness: 54.9
+      agent_readiness: 58.7
       apps:
       - LoyaltyLion
       - Smile.io
       - Yotpo Loyalty & Referrals
       band: exemplar
       in_catalog: true
-      kin_score: 77.6
+      kin_score: 78.1
       mcp:
         source: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
         status: verified
@@ -1785,14 +1760,39 @@ stack:
       tier: declared
       url: /providers/klaviyo/
     - agent_band: agent-ready
-      agent_readiness: 58.2
+      agent_readiness: 41.9
       apps:
       - LoyaltyLion
       - Smile.io
       - Yotpo Loyalty & Referrals
       band: exemplar
       in_catalog: true
-      kin_score: 76.8
+      kin_score: 77.7
+      mcp:
+        status: none
+      name: Mailchimp
+      slug: mailchimp
+      sources:
+      - https://loyaltylion.com/integrations
+      - https://smile.io/integrations
+      - https://www.yotpo.com/integrations/
+      status: profiled
+      tags:
+      - Campaigns
+      - Email Marketing
+      - Marketing Automation
+      - Newsletters
+      tier: declared
+      url: /providers/mailchimp/
+    - agent_band: agent-ready
+      agent_readiness: 57.0
+      apps:
+      - LoyaltyLion
+      - Smile.io
+      - Yotpo Loyalty & Referrals
+      band: exemplar
+      in_catalog: true
+      kin_score: 74.8
       mcp:
         status: none
       name: Omnisend
@@ -1810,13 +1810,13 @@ stack:
       tier: declared
       url: /providers/omnisend/
     - agent_band: agent-ready
-      agent_readiness: 38.9
+      agent_readiness: 38.2
       apps:
       - LoyaltyLion
       - Smile.io
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.4
+      kin_score: 69.8
       mcp:
         status: none
       name: Dotdigital
@@ -1833,12 +1833,12 @@ stack:
       tier: declared
       url: /providers/dotdigital/
     - agent_band: agent-ready
-      agent_readiness: 56.8
+      agent_readiness: 52.3
       apps:
       - Yotpo Loyalty & Referrals
       band: exemplar
       in_catalog: true
-      kin_score: 80.5
+      kin_score: 77.6
       mcp:
         status: none
       name: Salesforce Marketing Cloud
@@ -1854,12 +1854,12 @@ stack:
       tier: declared
       url: /providers/salesforce-marketing-cloud/
     - agent_band: agent-ready
-      agent_readiness: 35.9
+      agent_readiness: 35.2
       apps:
       - LoyaltyLion
       band: exemplar
       in_catalog: true
-      kin_score: 73.8
+      kin_score: 72.9
       mcp:
         status: none
       name: Listrak
@@ -1875,12 +1875,12 @@ stack:
       tier: declared
       url: /providers/listrak/
     - agent_band: agent-ready
-      agent_readiness: 35.9
+      agent_readiness: 35.2
       apps:
       - Yotpo Loyalty & Referrals
       band: exemplar
       in_catalog: true
-      kin_score: 68.3
+      kin_score: 69.3
       mcp:
         status: none
       name: SAP Emarsys
@@ -1896,12 +1896,12 @@ stack:
       tier: declared
       url: /providers/emarsys/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 30.0
       apps:
       - LoyaltyLion
       band: developing
       in_catalog: true
-      kin_score: 40.4
+      kin_score: 51.0
       mcp:
         status: none
       name: Ometria
@@ -1925,13 +1925,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 32.5
       apps:
       - LoyaltyLion
       - Yotpo Loyalty & Referrals
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.9
+      kin_score: 67.4
       mcp:
         status: none
       name: Bazaarvoice
@@ -1948,13 +1948,13 @@ stack:
       tier: declared
       url: /providers/bazaarvoice/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.2
       apps:
       - LoyaltyLion
       - Smile.io
       band: developing
       in_catalog: true
-      kin_score: 41.7
+      kin_score: 43.6
       mcp:
         status: none
       name: Okendo
@@ -1971,13 +1971,13 @@ stack:
       tier: declared
       url: /providers/okendo/
     - agent_band: agent-aware
-      agent_readiness: 26.3
+      agent_readiness: 25.8
       apps:
       - LoyaltyLion
       - Smile.io
       band: thin
       in_catalog: true
-      kin_score: 34.4
+      kin_score: 33.4
       mcp:
         status: none
       name: Stamped
@@ -1994,13 +1994,13 @@ stack:
       tier: declared
       url: /providers/stamped/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - LoyaltyLion
       - Smile.io
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 27.2
+      kin_score: 26.0
       mcp:
         status: none
       name: Judge.me
@@ -2017,13 +2017,13 @@ stack:
       tier: declared
       url: /providers/judge-me/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - LoyaltyLion
       - Smile.io
       band: emerging
       in_catalog: true
-      kin_score: 16.5
+      kin_score: 21.0
       mcp:
         status: none
       name: Loox
@@ -2040,12 +2040,12 @@ stack:
       tier: declared
       url: /providers/loox/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 20.3
       apps:
       - Smile.io
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 33.5
       mcp:
         source: https://core-api.yotpo.com/docs/connect-to-yotpo-mcp
         status: verified
@@ -2062,12 +2062,12 @@ stack:
       tier: declared
       url: /providers/yotpo/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Smile.io
       band: thin
       in_catalog: true
-      kin_score: 28.1
+      kin_score: 27.1
       mcp:
         status: none
       name: REVIEWS.io
@@ -2091,14 +2091,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.3
       apps:
       - LoyaltyLion
       - Smile.io
       - Yotpo Loyalty & Referrals
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 42.5
       mcp:
         source: https://github.com/gorgias/mcp-cookbook
         status: verified
@@ -2117,13 +2117,13 @@ stack:
       tier: declared
       url: /providers/gorgias/
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - LoyaltyLion
       - Yotpo Loyalty & Referrals
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -2140,13 +2140,13 @@ stack:
       tier: declared
       url: /providers/zendesk/
     - agent_band: agent-aware
-      agent_readiness: 12.9
+      agent_readiness: 12.7
       apps:
       - LoyaltyLion
       - Smile.io
       band: thin
       in_catalog: true
-      kin_score: 26.7
+      kin_score: 36.5
       mcp:
         status: none
       name: Re:amaze
@@ -2163,12 +2163,12 @@ stack:
       tier: declared
       url: /providers/reamaze/
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.3
       apps:
       - Yotpo Loyalty & Referrals
       band: developing
       in_catalog: true
-      kin_score: 50.8
+      kin_score: 52.0
       mcp:
         status: none
       name: Gladly
@@ -2184,12 +2184,12 @@ stack:
       tier: declared
       url: /providers/gladly/
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 30.3
       apps:
       - Yotpo Loyalty & Referrals
       band: developing
       in_catalog: true
-      kin_score: 46.4
+      kin_score: 43.6
       mcp:
         status: none
       name: Dixa
@@ -2213,13 +2213,13 @@ stack:
       via_parent: Storefront Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Points and Rewards for WooCommerce (WP Swings)
       - Yotpo Loyalty & Referrals
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 54.6
       mcp:
         source: https://developer.woocommerce.com/docs/features/mcp/
         status: verified
@@ -2237,13 +2237,13 @@ stack:
       tier: observed
       url: /providers/woocommerce/
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - LoyaltyLion
       - Yotpo Loyalty & Referrals
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -2261,12 +2261,12 @@ stack:
       tier: declared
       url: /providers/shopify/
     - agent_band: agent-ready
-      agent_readiness: 60.5
+      agent_readiness: 56.3
       apps:
       - Yotpo Loyalty & Referrals
       band: exemplar
       in_catalog: true
-      kin_score: 70.3
+      kin_score: 84.3
       mcp:
         source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
         status: verified
@@ -2283,12 +2283,12 @@ stack:
       tier: declared
       url: /providers/bigcommerce/
     - agent_band: agent-aware
-      agent_readiness: 22.2
+      agent_readiness: 21.7
       apps:
       - Yotpo Loyalty & Referrals
       band: thin
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 35.0
       mcp:
         source: https://github.com/SalesforceCommerceCloud/b2c-developer-tooling
         status: verified
@@ -2310,7 +2310,7 @@ stack:
       - Yotpo Loyalty & Referrals
       band: emerging
       in_catalog: true
-      kin_score: 18.6
+      kin_score: 18.0
       mcp:
         status: none
       name: Adobe Commerce
@@ -2334,13 +2334,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - LoyaltyLion
       - Smile.io
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -2358,12 +2358,12 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 56.9
+      agent_readiness: 58.4
       apps:
       - Yotpo Loyalty & Referrals
       band: exemplar
       in_catalog: true
-      kin_score: 75.2
+      kin_score: 74.4
       mcp:
         source: https://www.braze.com/docs/user_guide/brazeai/mcp_server
         status: verified
@@ -2380,7 +2380,7 @@ stack:
       tier: declared
       url: /providers/braze/
     - agent_band: agent-ready
-      agent_readiness: 64.4
+      agent_readiness: 63.1
       apps:
       - LoyaltyLion
       band: exemplar
@@ -2402,7 +2402,7 @@ stack:
       tier: declared
       url: /providers/bloomreach/
     - agent_band: agent-ready
-      agent_readiness: 52.6
+      agent_readiness: 54.3
       apps:
       - Yotpo Loyalty & Referrals
       band: strong
@@ -2431,13 +2431,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.8
+      agent_readiness: 35.8
       apps:
       - LoyaltyLion
       - Yotpo Loyalty & Referrals
       band: exemplar
       in_catalog: true
-      kin_score: 77.4
+      kin_score: 75.7
       mcp:
         status: none
       name: Attentive
@@ -2454,12 +2454,12 @@ stack:
       tier: declared
       url: /providers/attentive/
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Points and Rewards for WooCommerce (WP Swings)
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -2476,12 +2476,12 @@ stack:
       tier: observed
       url: /providers/twilio/
     - agent_band: agent-ready
-      agent_readiness: 42.8
+      agent_readiness: 41.9
       apps:
       - Yotpo Loyalty & Referrals
       band: exemplar
       in_catalog: true
-      kin_score: 69.0
+      kin_score: 68.2
       mcp:
         status: unknown
       name: Postscript
@@ -2505,13 +2505,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 26.4
       apps:
       - LoyaltyLion
       - Smile.io
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.4
+      kin_score: 25.9
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=rechargeapps
         status: verified
@@ -2529,12 +2529,12 @@ stack:
       tier: declared
       url: /providers/recharge-payments/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Smile.io
       band: thin
       in_catalog: true
-      kin_score: 32.0
+      kin_score: 31.6
       mcp:
         status: unknown
       name: Stay AI
@@ -2550,12 +2550,12 @@ stack:
       tier: declared
       url: /providers/stay-ai/
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 25.3
       apps:
       - LoyaltyLion
       band: emerging
       in_catalog: true
-      kin_score: 20.6
+      kin_score: 19.4
       mcp:
         source: https://mcp.skio.com/.well-known/oauth-protected-resource
         status: verified
@@ -2580,12 +2580,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 60.0
+      agent_readiness: 58.8
       apps:
       - Yotpo Loyalty & Referrals
       band: exemplar
       in_catalog: true
-      kin_score: 69.6
+      kin_score: 68.2
       mcp:
         status: none
       name: Triple Whale
@@ -2604,9 +2604,9 @@ stack:
       agent_readiness: 2.5
       apps:
       - Smile.io
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 19.0
+      kin_score: 27.0
       mcp:
         status: none
       name: Glew
@@ -2647,13 +2647,13 @@ stack:
       via_parent: Storefront Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.5
+      agent_readiness: 30.9
       apps:
       - LoyaltyLion
       - Smile.io
       band: strong
       in_catalog: true
-      kin_score: 64.3
+      kin_score: 63.9
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=tapcart
         status: verified
@@ -2679,13 +2679,13 @@ stack:
       via_parent: Post-Purchase
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.2
+      agent_readiness: 32.1
       apps:
       - LoyaltyLion
       - Smile.io
       band: developing
       in_catalog: true
-      kin_score: 50.0
+      kin_score: 48.9
       mcp:
         status: none
       name: Loop Returns
@@ -2735,12 +2735,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 62.9
+      agent_readiness: 61.6
       apps:
       - LoyaltyLion
       band: exemplar
       in_catalog: true
-      kin_score: 77.7
+      kin_score: 78.1
       mcp:
         source: https://support.optimizely.com/hc/en-us/articles/45320607594893
         status: documented
@@ -2765,12 +2765,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.9
+      agent_readiness: 38.0
       apps:
       - Yotpo Loyalty & Referrals
       band: strong
       in_catalog: true
-      kin_score: 63.7
+      kin_score: 61.4
       mcp:
         status: none
       name: Refersion
@@ -2794,12 +2794,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Points and Rewards for WooCommerce (WP Swings)
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp
@@ -2824,39 +2824,39 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Fetch
       - Honey
       - Ibotta
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id003
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.fetchrewards.fetchrewards.hop/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.ibotta.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.joinhoney.honeyandroid/latest/
       status: profiled
       tags: &id004
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Honey
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -2873,12 +2873,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - RefRef
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -2895,12 +2895,12 @@ stack:
       tier: observed
       url: /providers/posthog/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Ibotta
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id001
         status: none
       name: Facebook Analytics
@@ -2916,12 +2916,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-aware
-      agent_readiness: 24.1
+      agent_readiness: 20.8
       apps:
       - Fetch
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 16.4
+      kin_score: 26.3
       mcp:
         source: https://github.com/mozilla/firefox-devtools-mcp
         status: verified
@@ -2946,12 +2946,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Ibotta
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -2967,12 +2967,12 @@ stack:
       tier: observed
       url: /providers/google-admob/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Fetch
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.5
+      kin_score: 13.7
       mcp:
         status: none
       name: adjoe
@@ -3013,14 +3013,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Fetch
       - Honey
       - Ibotta
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3047,13 +3047,13 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Fetch
       - Ibotta
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id001
       name: Facebook Login
       slug: facebook
@@ -3064,13 +3064,13 @@ stack:
       tags: *id002
       tier: observed
       url: /providers/facebook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - RefRef
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -3093,24 +3093,24 @@ stack:
       url: /capabilities/observability-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Fetch
       - Honey
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Google CrashLytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.fetchrewards.fetchrewards.hop/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.joinhoney.honeyandroid/latest/
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-3760.30
@@ -3120,13 +3120,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - Fetch
       - Ibotta
       band: strong
       in_catalog: true
-      kin_score: 56.1
+      kin_score: 55.6
       mcp:
         source: https://github.com/IABTechLab/agentic-real-time-framework
         status: verified
@@ -3151,14 +3151,14 @@ stack:
       url: /capabilities/referral-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.7
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - Fetch
       - Ibotta
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 53.9
+      kin_score: 56.0
       mcp:
         status: unknown
       name: Button
@@ -3183,12 +3183,12 @@ stack:
       via_parent: Storage and Inventory Operations Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 6.1
+      agent_readiness: 7.0
       apps:
       - Ibotta
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 27.4
+      kin_score: 25.6
       mcp:
         source: https://ssl.scandit.com/mcp
         status: verified
@@ -3218,9 +3218,10 @@ stack:
       - Ibotta
       band: thin
       in_catalog: true
-      kin_score: 32.5
+      kin_score: 32.3
       mcp:
-        status: unchecked
+        source: https://mcp.radar.com/mcp
+        status: verified
       name: Radar
       slug: radar-io
       sources:
@@ -3267,12 +3268,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Honey
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -3296,12 +3297,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - RefRef
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -3326,12 +3327,12 @@ stack:
       via_parent: Content Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.9
+      agent_readiness: 46.9
       apps:
       - LoyaltyLion
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 33.3
       mcp:
         status: none
       name: Weglot
@@ -3355,10 +3356,10 @@ summary:
   mcp:
     documented: 2
     none: 31
-    unchecked: 5
-    verified: 21
-  mcp_verified: 21
-  mean_kin_score: 53.2
+    unchecked: 4
+    verified: 22
+  mcp_verified: 22
+  mean_kin_score: 54.8
   observed: 20
   queued: 4
   reference_apps: 8

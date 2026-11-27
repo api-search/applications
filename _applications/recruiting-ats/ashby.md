@@ -53,10 +53,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id001
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -84,10 +84,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.4
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 55.9
+    kin_score: 54.7
     mcp: &id003
       status: none
     slug: workday
@@ -114,10 +114,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id005
       source: https://zapier.com/mcp
       status: verified
@@ -143,10 +143,10 @@ noindex: false
 permalink: /applications/recruiting-ats/ashby/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id001
   name: Slack
   slug: slack
@@ -154,10 +154,10 @@ providers:
   tags: *id002
   url: /providers/slack/
 - agent_band: agent-ready
-  agent_readiness: 34.4
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 55.9
+  kin_score: 54.7
   mcp: *id003
   name: Workday
   slug: workday
@@ -165,10 +165,10 @@ providers:
   tags: *id004
   url: /providers/workday/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id005
   name: Zapier
   slug: zapier

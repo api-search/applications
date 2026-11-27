@@ -100,10 +100,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id003
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -131,10 +131,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id005
       status: none
     slug: google-gemini
@@ -161,10 +161,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
+    agent_readiness: 21.2
     band: thin
     in_catalog: true
-    kin_score: 32.9
+    kin_score: 32.3
     mcp: &id007
       source: https://github.com/groq/groq-mcp-server
       status: verified
@@ -195,7 +195,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id009
       status: none
     slug: ollama
@@ -222,10 +222,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id011
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -253,10 +253,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 25.8
+    band: strong
     in_catalog: true
-    kin_score: 32.9
+    kin_score: 57.9
     mcp: &id013
       source: https://github.com/microsoft/mcp
       status: verified
@@ -284,10 +284,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-ready
-    agent_readiness: 36.2
+    agent_readiness: 35.9
     band: developing
     in_catalog: true
-    kin_score: 50.4
+    kin_score: 48.2
     mcp: &id015
       source: https://github.com/deepgram/mcp
       status: verified
@@ -330,10 +330,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 60.4
     band: exemplar
     in_catalog: true
-    kin_score: 83.0
+    kin_score: 83.2
     mcp: &id017
       source: https://github.com/elevenlabs/elevenlabs-mcp
       status: verified
@@ -360,11 +360,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 33.8
+    band: exemplar
     in_catalog: true
-    kin_score: 51.5
+    kin_score: 68.9
     mcp: &id019
       status: none
     slug: google-cloud-speech-to-text
@@ -390,11 +390,11 @@ integrations:
     via_parent: Speech & Voice
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.9
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 35.8
+    band: exemplar
     in_catalog: true
-    kin_score: 51.3
+    kin_score: 68.6
     mcp: &id021
       status: none
     slug: google-cloud-text-to-speech
@@ -421,10 +421,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id023
       source: https://docs.stripe.com/mcp
       status: verified
@@ -452,10 +452,10 @@ integrations:
   credit: null
   facts: &id002
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id025
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -496,10 +496,10 @@ noindex: false
 permalink: /applications/voip-call-center/fonoster/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id003
   name: '@langchain/anthropic'
   slug: anthropic
@@ -507,10 +507,10 @@ providers:
   tags: *id004
   url: /providers/anthropic/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id005
   name: '@langchain/google-genai'
   slug: google-gemini
@@ -518,10 +518,10 @@ providers:
   tags: *id006
   url: /providers/google-gemini/
 - agent_band: agent-aware
-  agent_readiness: 21.6
+  agent_readiness: 21.2
   band: thin
   in_catalog: true
-  kin_score: 32.9
+  kin_score: 32.3
   mcp: *id007
   name: '@langchain/groq'
   slug: groq
@@ -532,7 +532,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id009
   name: '@langchain/ollama'
   slug: ollama
@@ -540,10 +540,10 @@ providers:
   tags: *id010
   url: /providers/ollama/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id011
   name: '@langchain/openai'
   slug: openai
@@ -551,10 +551,10 @@ providers:
   tags: *id012
   url: /providers/openai/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 25.8
+  band: strong
   in_catalog: true
-  kin_score: 32.9
+  kin_score: 57.9
   mcp: *id013
   name: Azure
   slug: azure-ai-speech
@@ -562,10 +562,10 @@ providers:
   tags: *id014
   url: /providers/azure-ai-speech/
 - agent_band: agent-ready
-  agent_readiness: 36.2
+  agent_readiness: 35.9
   band: developing
   in_catalog: true
-  kin_score: 50.4
+  kin_score: 48.2
   mcp: *id015
   name: Deepgram
   slug: deepgram
@@ -573,32 +573,32 @@ providers:
   tags: *id016
   url: /providers/deepgram/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 60.4
   band: exemplar
   in_catalog: true
-  kin_score: 83.0
+  kin_score: 83.2
   mcp: *id017
   name: ElevenLabs
   slug: elevenlabs
   status: profiled
   tags: *id018
   url: /providers/elevenlabs/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 33.8
+  band: exemplar
   in_catalog: true
-  kin_score: 51.5
+  kin_score: 68.9
   mcp: *id019
   name: Google
   slug: google-cloud-speech-to-text
   status: profiled
   tags: *id020
   url: /providers/google-cloud-speech-to-text/
-- agent_band: agent-aware
-  agent_readiness: 17.9
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 35.8
+  band: exemplar
   in_catalog: true
-  kin_score: 51.3
+  kin_score: 68.6
   mcp: *id021
   name: Google
   slug: google-cloud-text-to-speech
@@ -606,10 +606,10 @@ providers:
   tags: *id022
   url: /providers/google-cloud-text-to-speech/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id023
   name: Stripe
   slug: stripe
@@ -617,10 +617,10 @@ providers:
   tags: *id024
   url: /providers/stripe/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id025
   name: Twilio
   slug: twilio

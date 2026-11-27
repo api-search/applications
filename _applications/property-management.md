@@ -1555,14 +1555,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.3
+      agent_readiness: 21.8
       apps:
       - AppFolio
       - Buildium
       - DoorLoop
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.5
+      kin_score: 40.5
       mcp:
         status: none
       name: Zillow
@@ -1586,7 +1586,7 @@ stack:
       - DoorLoop
       band: emerging
       in_catalog: true
-      kin_score: 15.9
+      kin_score: 14.7
       mcp:
         status: none
       name: Trulia
@@ -1621,13 +1621,13 @@ stack:
       tags: []
       tier: declared
       url: null
-    - agent_band: agent-ready
-      agent_readiness: 29.1
+    - agent_band: agent-aware
+      agent_readiness: 25.7
       apps:
       - Buildium
       band: emerging
       in_catalog: true
-      kin_score: 20.6
+      kin_score: 23.6
       mcp:
         status: none
       name: Dwellsy
@@ -1645,7 +1645,7 @@ stack:
       - Buildium
       band: emerging
       in_catalog: true
-      kin_score: 17.6
+      kin_score: 15.7
       mcp:
         status: unknown
       name: Apartments.com
@@ -1685,9 +1685,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Buildium
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.3
+      kin_score: 11.5
       mcp:
         status: none
       name: Apartment List
@@ -1745,13 +1745,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.9
       apps:
       - Guesty
       - Hostaway
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.8
+      kin_score: 66.6
       mcp:
         status: none
       name: Booking.com
@@ -1768,13 +1768,13 @@ stack:
       tier: declared
       url: /providers/booking-com/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.4
       apps:
       - Guesty
       - Hostaway
       band: developing
       in_catalog: true
-      kin_score: 44.8
+      kin_score: 44.1
       mcp:
         status: none
       name: Airbnb
@@ -1790,14 +1790,14 @@ stack:
       - Travel
       tier: declared
       url: /providers/airbnb/
-    - agent_band: null
-      agent_readiness: null
+    - agent_band: human-only
+      agent_readiness: 3.0
       apps:
       - Guesty
       - Hostaway
-      band: null
-      in_catalog: false
-      kin_score: null
+      band: minimal
+      in_catalog: true
+      kin_score: 5.1
       mcp:
         status: unchecked
       name: Vrbo
@@ -1805,17 +1805,18 @@ stack:
       sources:
       - https://www.guesty.com/marketplace/
       - https://www.hostaway.com/marketplace/
-      status: queued for profiling
-      tags: []
+      status: profiled
+      tags:
+      - Company
       tier: declared
-      url: null
+      url: /providers/vrbo/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Hostaway
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1832,12 +1833,12 @@ stack:
       tier: declared
       url: /providers/google/
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 30.2
       apps:
       - Hostaway
       band: thin
       in_catalog: true
-      kin_score: 34.8
+      kin_score: 33.8
       mcp:
         source: https://github.com/ExpediaGroup/expedia-travel-recommendations-mcp
         status: verified
@@ -1862,12 +1863,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Hostaway
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -1883,13 +1884,34 @@ stack:
       - Payments
       tier: declared
       url: /providers/stripe/
+    - agent_band: agent-aware
+      agent_readiness: 27.2
+      apps:
+      - Buildium
+      band: developing
+      in_catalog: true
+      kin_score: 45.5
+      mcp:
+        status: none
+      name: Forte (CSG Forte)
+      slug: csg
+      sources:
+      - https://www.buildium.com/integrations/
+      status: profiled
+      tags:
+      - Billing
+      - Customer Engagement
+      - Payments
+      - Revenue Management
+      tier: declared
+      url: /providers/csg/
     - agent_band: agent-ready
-      agent_readiness: 52.0
+      agent_readiness: 53.6
       apps:
       - Hostaway
       band: developing
       in_catalog: true
-      kin_score: 46.2
+      kin_score: 44.7
       mcp:
         status: none
       name: Braintree
@@ -1905,33 +1927,12 @@ stack:
       tier: declared
       url: /providers/braintree/
     - agent_band: agent-aware
-      agent_readiness: 22.3
-      apps:
-      - Buildium
-      band: developing
-      in_catalog: true
-      kin_score: 46.0
-      mcp:
-        status: none
-      name: Forte (CSG Forte)
-      slug: csg
-      sources:
-      - https://www.buildium.com/integrations/
-      status: profiled
-      tags:
-      - Billing
-      - Customer Engagement
-      - Payments
-      - Revenue Management
-      tier: declared
-      url: /providers/csg/
-    - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 7.7
       apps:
       - Hostaway
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.3
+      kin_score: 39.4
       mcp:
         status: unknown
       name: ChargeAutomation
@@ -1947,12 +1948,12 @@ stack:
       tier: declared
       url: /providers/chargeautomation/
     - agent_band: agent-aware
-      agent_readiness: 14.0
+      agent_readiness: 13.7
       apps:
       - Buildium
       band: thin
       in_catalog: true
-      kin_score: 31.2
+      kin_score: 32.4
       mcp:
         status: unknown
       name: PayNearMe
@@ -1993,13 +1994,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.1
+      agent_readiness: 46.2
       apps:
       - Guesty
       - Hostaway
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 56.0
       mcp:
         status: none
       name: Beyond
@@ -2062,13 +2063,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.2
+      agent_readiness: 30.5
       apps:
       - Buildium
       - DoorLoop
       band: thin
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 28.0
       mcp:
         status: unknown
       name: TransUnion
@@ -2085,12 +2086,12 @@ stack:
       tier: declared
       url: /providers/transunion/
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 33.3
       apps:
       - Guesty
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 36.2
+      kin_score: 42.0
       mcp:
         source: https://docs.autohost.ai/docs/remote-mcp-server
         status: verified
@@ -2107,12 +2108,12 @@ stack:
       tier: declared
       url: /providers/autohost/
     - agent_band: agent-aware
-      agent_readiness: 13.3
+      agent_readiness: 13.0
       apps:
       - Buildium
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.3
+      kin_score: 33.5
       mcp:
         status: unknown
       name: Tenant Turner
@@ -2142,7 +2143,7 @@ stack:
       - Hostaway
       band: emerging
       in_catalog: true
-      kin_score: 16.3
+      kin_score: 24.1
       mcp:
         status: unknown
       name: Ximplifi
@@ -2158,13 +2159,13 @@ stack:
       - Vacation Rentals
       tier: declared
       url: /providers/ximplifi/
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - DoorLoop
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -2189,13 +2190,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.8
+      agent_readiness: 19.4
       apps:
       - Guesty
       - Hostaway
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 34.3
+      kin_score: 43.3
       mcp:
         status: unknown
       name: Breezeway
@@ -2236,34 +2237,13 @@ stack:
       url: /capabilities/property-data/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 39.7
+    - agent_band: agent-aware
+      agent_readiness: 17.6
       apps:
       - Guesty
       band: thin
       in_catalog: true
-      kin_score: 29.2
-      mcp:
-        status: none
-      name: AirDNA
-      slug: airdna
-      sources:
-      - https://www.guesty.com/marketplace/
-      status: profiled
-      tags:
-      - Market Data
-      - Real Estate
-      - Short-Term Rental
-      - Vacation Rentals
-      tier: declared
-      url: /providers/airdna/
-    - agent_band: agent-aware
-      agent_readiness: 20.8
-      apps:
-      - Guesty
-      band: emerging
-      in_catalog: true
-      kin_score: 22.1
+      kin_score: 30.7
       mcp:
         status: unknown
       name: Key Data
@@ -2278,6 +2258,27 @@ stack:
       - Short-Term Rental
       tier: declared
       url: /providers/key-data/
+    - agent_band: agent-ready
+      agent_readiness: 44.4
+      apps:
+      - Guesty
+      band: thin
+      in_catalog: true
+      kin_score: 28.7
+      mcp:
+        status: none
+      name: AirDNA
+      slug: airdna
+      sources:
+      - https://www.guesty.com/marketplace/
+      status: profiled
+      tags:
+      - Market Data
+      - Real Estate
+      - Short-Term Rental
+      - Vacation Rentals
+      tier: declared
+      url: /providers/airdna/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -2304,12 +2305,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 31.2
       apps:
       - DoorLoop
       band: developing
       in_catalog: true
-      kin_score: 43.7
+      kin_score: 45.2
       mcp:
         status: unknown
       name: Handy
@@ -2350,12 +2351,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.9
       apps:
       - DoorLoop
       band: emerging
       in_catalog: true
-      kin_score: 19.2
+      kin_score: 18.2
       mcp:
         source: https://www.sureapp.com/llms.txt
         status: documented
@@ -2377,7 +2378,7 @@ stack:
       - Hostaway
       band: emerging
       in_catalog: true
-      kin_score: 12.4
+      kin_score: 14.0
       mcp:
         status: unknown
       name: Safely
@@ -2406,7 +2407,7 @@ stack:
       - AppFolio
       band: emerging
       in_catalog: true
-      kin_score: 13.5
+      kin_score: 23.6
       mcp:
         status: unknown
       name: Lula (maintenance)
@@ -2447,12 +2448,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.5
+      agent_readiness: 25.0
       apps:
       - Hostaway
       band: emerging
       in_catalog: true
-      kin_score: 16.2
+      kin_score: 23.5
       mcp:
         status: none
       name: RemoteLock
@@ -2468,12 +2469,12 @@ stack:
       tier: declared
       url: /providers/remotelock/
     - agent_band: agent-aware
-      agent_readiness: 20.5
+      agent_readiness: 17.3
       apps:
       - Hostaway
       band: emerging
       in_catalog: true
-      kin_score: 13.4
+      kin_score: 20.0
       mcp:
         status: none
       name: Operto
@@ -2502,7 +2503,7 @@ stack:
       - AppFolio
       band: emerging
       in_catalog: true
-      kin_score: 18.0
+      kin_score: 19.3
       mcp:
         status: none
       name: AvidXchange
@@ -2526,12 +2527,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 25.5
       apps:
       - AppFolio
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.7
       mcp:
         status: none
       name: Column N.A.
@@ -2555,12 +2556,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.2
       apps:
       - Buildium
       band: developing
       in_catalog: true
-      kin_score: 46.1
+      kin_score: 46.7
       mcp:
         status: unknown
       name: HappyCo
@@ -2584,12 +2585,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.5
+      agent_readiness: 3.1
       apps:
       - Buildium
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.0
+      kin_score: 13.4
       mcp:
         status: unknown
       name: Nelco
@@ -2615,12 +2616,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 71.3
+      agent_readiness: 70.1
       apps:
       - Open Condo
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 76.8
       mcp:
         source: https://github.com/OneSignal/onesignal-ai-skills
         status: documented
@@ -2637,12 +2638,34 @@ stack:
       tier: observed
       url: /providers/onesignal/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 39.9
       apps:
       - Open Condo
       band: strong
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 62.0
+      mcp:
+        source: https://firebase.google.com/docs/ai-assistance/mcp-server
+        status: verified
+      name: Firebase Cloud Messaging
+      slug: google-firebase
+      sources:
+      - https://github.com/open-condo-software/condo/tree/main/apps/condo/domains/notification/adapters/firebaseAdapter.js
+      status: profiled
+      tags:
+      - Analytics
+      - Authentication
+      - Backend-as-a-Service
+      - Cloud Messaging
+      tier: observed
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 36.5
+      apps:
+      - Open Condo
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple Push / Sign in with Apple
@@ -2657,28 +2680,6 @@ stack:
       - macOS
       tier: observed
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - Open Condo
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp:
-        source: https://firebase.google.com/docs/ai-assistance/mcp-server
-        status: verified
-      name: Firebase Cloud Messaging
-      slug: firebase
-      sources:
-      - https://github.com/open-condo-software/condo/tree/main/apps/condo/domains/notification/adapters/firebaseAdapter.js
-      status: profiled
-      tags:
-      - Application Development
-      - Backend-as-a-Service
-      - Company
-      - Mobile
-      tier: observed
-      url: /providers/firebase/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -2722,13 +2723,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - DoorLoop
       - Open Condo
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -2746,12 +2747,12 @@ stack:
       tier: observed
       url: /providers/twilio/
     - agent_band: agent-ready
-      agent_readiness: 47.1
+      agent_readiness: 46.1
       apps:
       - Open Condo
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.5
+      kin_score: 60.6
       mcp:
         source: https://docs.instasent.com/a2p-messaging-api/http/reference/
         status: documented
@@ -2768,12 +2769,12 @@ stack:
       tier: observed
       url: /providers/instasent/
     - agent_band: agent-aware
-      agent_readiness: 22.8
+      agent_readiness: 19.3
       apps:
       - Open Condo
       band: emerging
       in_catalog: true
-      kin_score: 17.8
+      kin_score: 24.0
       mcp:
         status: unknown
       name: SMS.ru
@@ -2794,7 +2795,7 @@ stack:
       - Open Condo
       band: minimal
       in_catalog: true
-      kin_score: 5.8
+      kin_score: 6.0
       mcp:
         status: none
       name: SMSC.ru
@@ -2818,12 +2819,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 35.7
       apps:
       - Open Condo
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 67.7
       mcp:
         source: https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server/
         status: verified
@@ -2840,12 +2841,12 @@ stack:
       tier: observed
       url: /providers/n8n/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Open Condo
       band: thin
       in_catalog: true
-      kin_score: 37.1
+      kin_score: 36.2
       mcp:
         status: none
       name: Flowise
@@ -2861,12 +2862,12 @@ stack:
       tier: observed
       url: /providers/flowise/
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - DoorLoop
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2891,12 +2892,12 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.3
+      agent_readiness: 40.3
       apps:
       - Open Condo
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 62.4
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -2913,12 +2914,12 @@ stack:
       tier: observed
       url: /providers/google-places/
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 19.3
       apps:
       - Open Condo
       band: thin
       in_catalog: true
-      kin_score: 28.6
+      kin_score: 38.1
       mcp:
         source: https://dadata.ru/mcp/
         status: verified
@@ -2943,12 +2944,12 @@ stack:
       via_parent: Contract Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - DoorLoop
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 71.5
       mcp:
         source: https://www.docusign.com/products/mcp
         status: documented
@@ -2965,12 +2966,12 @@ stack:
       tier: declared
       url: /providers/docusign/
     - agent_band: agent-ready
-      agent_readiness: 48.8
+      agent_readiness: 48.1
       apps:
       - DoorLoop
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 71.1
       mcp:
         status: none
       name: Dropbox Sign
@@ -2993,35 +2994,13 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - DoorLoop
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 48.8
-      mcp:
-        source: https://github.com/google/mcp
-        status: verified
-      name: Google Calendar
-      slug: google-calendar
-      sources:
-      - https://www.doorloop.com/integrations
-      status: profiled
-      tags:
-      - Availability
-      - Calendar
-      - Event
-      - Google
-      tier: declared
-      url: /providers/google-calendar/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - DoorLoop
-      band: developing
-      in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -3037,6 +3016,28 @@ stack:
       - Google
       tier: declared
       url: /providers/google-gmail/
+    - agent_band: agent-ready
+      agent_readiness: 44.1
+      apps:
+      - DoorLoop
+      band: strong
+      in_catalog: true
+      kin_score: 64.6
+      mcp:
+        source: https://github.com/google/mcp
+        status: verified
+      name: Google Calendar
+      slug: google-calendar
+      sources:
+      - https://www.doorloop.com/integrations
+      status: profiled
+      tags:
+      - Availability
+      - Calendar
+      - Event
+      - Google
+      tier: declared
+      url: /providers/google-calendar/
   - capability:
       attribution: Turbo EA
       id: BC-3710.30
@@ -3045,13 +3046,13 @@ stack:
       url: /capabilities/asset-storage-tiering/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Open Condo
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3079,9 +3080,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Open Condo
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.6
+      kin_score: 14.8
       mcp:
         status: none
       name: Yandex Metrica
@@ -3105,12 +3106,12 @@ stack:
       via_parent: Voice & Telephony
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.0
+      agent_readiness: 31.4
       apps:
       - AppFolio
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 54.3
       mcp:
         status: unknown
       name: SimpleVoIP
@@ -3134,12 +3135,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.8
+      agent_readiness: 19.7
       apps:
       - Open Condo
       band: thin
       in_catalog: true
-      kin_score: 28.0
+      kin_score: 35.9
       mcp:
         status: unknown
       name: Sber ID / SberCloud
@@ -3163,12 +3164,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Open Condo
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -3192,12 +3193,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Open Condo
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -3214,19 +3215,19 @@ stack:
       url: /providers/telegram/
   layer: common
 summary:
-  coverage_pct: 81.2
+  coverage_pct: 82.6
   declared_only: 51
   distinct_providers: 69
-  in_catalog: 56
+  in_catalog: 57
   mcp:
     documented: 4
     none: 21
     unchecked: 13
     verified: 14
   mcp_verified: 14
-  mean_kin_score: 39.7
+  mean_kin_score: 42.4
   observed: 18
-  queued: 13
+  queued: 12
   reference_apps: 6
 title: 'Property & Rental Management: application blueprint'
 ---

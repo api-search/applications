@@ -81,10 +81,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id001
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -112,10 +112,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id003
       source: https://github.com/microsoft/mcp
       status: verified
@@ -143,10 +143,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id005
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -174,10 +174,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 13.8
+    kin_score: 20.0
     mcp: &id007
       status: none
     slug: owlrelay
@@ -204,10 +204,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id009
       source: https://github.com/PostHog/mcp
       status: verified
@@ -235,10 +235,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.4
+    agent_readiness: 49.8
     band: strong
     in_catalog: true
-    kin_score: 58.9
+    kin_score: 56.8
     mcp: &id011
       source: https://resend.com/docs/mcp-server
       status: verified
@@ -266,10 +266,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id013
       source: https://docs.stripe.com/mcp
       status: verified
@@ -295,10 +295,10 @@ noindex: false
 permalink: /applications/document-management/papra/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id001
   name: Anthropic
   slug: anthropic
@@ -306,10 +306,10 @@ providers:
   tags: *id002
   url: /providers/anthropic/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id003
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -317,10 +317,10 @@ providers:
   tags: *id004
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id005
   name: OpenAI
   slug: openai
@@ -328,10 +328,10 @@ providers:
   tags: *id006
   url: /providers/openai/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 13.8
+  kin_score: 20.0
   mcp: *id007
   name: OwlRelay
   slug: owlrelay
@@ -339,10 +339,10 @@ providers:
   tags: *id008
   url: /providers/owlrelay/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id009
   name: PostHog
   slug: posthog
@@ -350,10 +350,10 @@ providers:
   tags: *id010
   url: /providers/posthog/
 - agent_band: agent-ready
-  agent_readiness: 49.4
+  agent_readiness: 49.8
   band: strong
   in_catalog: true
-  kin_score: 58.9
+  kin_score: 56.8
   mcp: *id011
   name: Resend
   slug: resend
@@ -361,10 +361,10 @@ providers:
   tags: *id012
   url: /providers/resend/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id013
   name: Stripe
   slug: stripe

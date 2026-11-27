@@ -189,11 +189,11 @@ apps:
     source: https://github.com/odoo/odoo/tree/master/addons/payment_flutterwave
     tier: observed
   - capability:
-      attribution: Turbo EA
-      id: BC-520.40
-      key: order-fulfilment-management
-      name: Order Fulfilment Management
-      url: /capabilities/order-fulfilment-management/
+      attribution: API Evangelist extension
+      id: AE-140.120
+      key: AE-140.120
+      name: Print-on-Demand Fulfilment
+      url: /capabilities/print-on-demand-fulfilment/
       via_parent: null
     credit: null
     layer: domain
@@ -2594,6 +2594,16 @@ needs:
   fit: exact
   layer: agent
   why: Dolibarr AI module
+- capability:
+    attribution: API Evangelist extension
+    id: AE-140.120
+    key: AE-140.120
+    name: Print-on-Demand Fulfilment
+    url: /capabilities/print-on-demand-fulfilment/
+    via_parent: null
+  fit: exact
+  layer: domain
+  why: Gelato (Print-on-Demand Fulfilment)
 stack:
 - capabilities:
   - capability:
@@ -2605,7 +2615,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Dolibarr
       - ERPNext
@@ -2613,7 +2623,7 @@ stack:
       - Tryton
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: &id001
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2632,14 +2642,14 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Dolibarr
       - ERPNext
       - Odoo
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -2658,13 +2668,13 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-ready
-      agent_readiness: 46.8
+      agent_readiness: 45.9
       apps:
       - ERPNext
       - Odoo
       band: developing
       in_catalog: true
-      kin_score: 53.8
+      kin_score: 50.9
       mcp:
         source: https://github.com/PaymobAccept/Paymob-AI-Integration-Skill
         status: documented
@@ -2682,13 +2692,13 @@ stack:
       tier: observed
       url: /providers/paymob/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - ERPNext
       - Odoo
       band: developing
       in_catalog: true
-      kin_score: 52.4
+      kin_score: 50.6
       mcp: &id007
         source: https://github.com/razorpay/razorpay-mcp-server
         status: verified
@@ -2706,13 +2716,13 @@ stack:
       tier: observed
       url: /providers/razorpay/
     - agent_band: agent-ready
-      agent_readiness: 52.0
+      agent_readiness: 53.6
       apps:
       - ERPNext
       - Tryton
       band: developing
       in_catalog: true
-      kin_score: 46.2
+      kin_score: 44.7
       mcp:
         status: none
       name: Braintree
@@ -2729,13 +2739,13 @@ stack:
       tier: observed
       url: /providers/braintree/
     - agent_band: agent-aware
-      agent_readiness: 25.9
+      agent_readiness: 25.4
       apps:
       - Fishbowl
       - Odoo
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.5
       mcp:
         source: https://github.com/AuthorizeNet/authorize-net-mcp
         status: verified
@@ -2753,12 +2763,12 @@ stack:
       tier: observed
       url: /providers/authorizenet/
     - agent_band: agent-native
-      agent_readiness: 43.7
+      agent_readiness: 42.8
       apps:
       - Odoo
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 73.6
       mcp: &id003
         source: https://github.com/Adyen/adyen-mcp
         status: verified
@@ -2775,12 +2785,12 @@ stack:
       tier: observed
       url: /providers/adyen/
     - agent_band: agent-native
-      agent_readiness: 73.2
+      agent_readiness: 71.7
       apps:
       - Odoo
       band: exemplar
       in_catalog: true
-      kin_score: 68.2
+      kin_score: 68.1
       mcp: &id005
         source: https://docs.mollie.com/docs/mcp-server
         status: verified
@@ -2797,55 +2807,12 @@ stack:
       tier: observed
       url: /providers/mollie/
     - agent_band: agent-ready
-      agent_readiness: 33.4
+      agent_readiness: 41.5
       apps:
       - Odoo
       band: developing
       in_catalog: true
-      kin_score: 54.1
-      mcp:
-        status: none
-      name: Flutterwave
-      slug: flutterwave
-      sources:
-      - https://github.com/odoo/odoo/tree/master/addons/payment_flutterwave
-      status: profiled
-      tags:
-      - Cards
-      - Mobile Money
-      - Payments
-      - Payouts
-      tier: observed
-      url: /providers/flutterwave/
-    - agent_band: agent-ready
-      agent_readiness: 51.3
-      apps:
-      - ERPNext
-      band: developing
-      in_catalog: true
-      kin_score: 52.1
-      mcp:
-        source: https://developer.gocardless.com/mcp
-        status: verified
-      name: GoCardless
-      slug: gocardless
-      sources:
-      - https://github.com/frappe/payments/tree/develop/payments/payment_gateways/doctype/gocardless_settings
-      status: profiled
-      tags:
-      - Bank Debit
-      - Direct Debit
-      - Payments
-      - Recurring Payments
-      tier: observed
-      url: /providers/gocardless/
-    - agent_band: agent-ready
-      agent_readiness: 42.3
-      apps:
-      - Odoo
-      band: developing
-      in_catalog: true
-      kin_score: 49.1
+      kin_score: 54.0
       mcp:
         status: none
       name: Worldline
@@ -2861,12 +2828,76 @@ stack:
       tier: observed
       url: /providers/wordline/
     - agent_band: agent-ready
-      agent_readiness: 29.2
+      agent_readiness: 35.4
+      apps:
+      - Odoo
+      band: developing
+      in_catalog: true
+      kin_score: 53.3
+      mcp:
+        status: none
+      name: Flutterwave
+      slug: flutterwave
+      sources:
+      - https://github.com/odoo/odoo/tree/master/addons/payment_flutterwave
+      status: profiled
+      tags:
+      - Cards
+      - Mobile Money
+      - Payments
+      - Payouts
+      tier: observed
+      url: /providers/flutterwave/
+    - agent_band: agent-ready
+      agent_readiness: 50.3
       apps:
       - ERPNext
       band: developing
       in_catalog: true
-      kin_score: 49.0
+      kin_score: 50.0
+      mcp:
+        source: https://developer.gocardless.com/mcp
+        status: verified
+      name: GoCardless
+      slug: gocardless
+      sources:
+      - https://github.com/frappe/payments/tree/develop/payments/payment_gateways/doctype/gocardless_settings
+      status: profiled
+      tags:
+      - Bank Debit
+      - Direct Debit
+      - Payments
+      - Recurring Payments
+      tier: observed
+      url: /providers/gocardless/
+    - agent_band: agent-aware
+      agent_readiness: 24.6
+      apps:
+      - Odoo
+      band: developing
+      in_catalog: true
+      kin_score: 48.3
+      mcp:
+        status: none
+      name: iyzico
+      slug: iyzico
+      sources:
+      - https://github.com/odoo/odoo/tree/master/addons/payment_iyzico
+      status: profiled
+      tags:
+      - Company
+      - Fintech
+      - Payment Gateway
+      - Payments
+      tier: observed
+      url: /providers/iyzico/
+    - agent_band: agent-ready
+      agent_readiness: 28.6
+      apps:
+      - ERPNext
+      band: developing
+      in_catalog: true
+      kin_score: 48.0
       mcp: &id009
         status: none
       name: M-Pesa
@@ -2882,33 +2913,12 @@ stack:
       tier: observed
       url: /providers/mpesa/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 24.9
       apps:
       - Odoo
       band: developing
       in_catalog: true
-      kin_score: 48.8
-      mcp:
-        status: none
-      name: iyzico
-      slug: iyzico
-      sources:
-      - https://github.com/odoo/odoo/tree/master/addons/payment_iyzico
-      status: profiled
-      tags:
-      - Company
-      - Fintech
-      - Payment Gateway
-      - Payments
-      tier: observed
-      url: /providers/iyzico/
-    - agent_band: agent-aware
-      agent_readiness: 25.4
-      apps:
-      - Odoo
-      band: developing
-      in_catalog: true
-      kin_score: 41.8
+      kin_score: 40.4
       mcp: &id011
         source: https://www.mercadopago.com.br/developers/en/docs/mcp-server/overview
         status: verified
@@ -2924,13 +2934,34 @@ stack:
       - Subscription
       tier: observed
       url: /providers/mercado-pago/
-    - agent_band: agent-ready
-      agent_readiness: 30.8
+    - agent_band: agent-aware
+      agent_readiness: 21.7
       apps:
       - Odoo
       band: developing
       in_catalog: true
-      kin_score: 40.0
+      kin_score: 40.1
+      mcp:
+        status: none
+      name: Amazon Payment Services
+      slug: amazon-payment-services
+      sources:
+      - https://github.com/odoo/odoo/tree/master/addons/payment_aps
+      status: profiled
+      tags:
+      - Company
+      - E-Commerce
+      - Fintech
+      - Payments
+      tier: observed
+      url: /providers/amazon-payment-services/
+    - agent_band: agent-ready
+      agent_readiness: 30.2
+      apps:
+      - Odoo
+      band: thin
+      in_catalog: true
+      kin_score: 38.9
       mcp:
         source: https://github.com/payu-intrepos/payu-developer-mcp
         status: verified
@@ -2946,34 +2977,34 @@ stack:
       - Payments
       tier: observed
       url: /providers/payu/
-    - agent_band: agent-ready
-      agent_readiness: 30.3
+    - agent_band: agent-aware
+      agent_readiness: 14.8
       apps:
       - Odoo
       band: thin
       in_catalog: true
-      kin_score: 35.4
+      kin_score: 34.6
       mcp:
         status: none
-      name: Amazon Payment Services
-      slug: amazon-payment-services
+      name: Buckaroo
+      slug: buckaroo
       sources:
-      - https://github.com/odoo/odoo/tree/master/addons/payment_aps
+      - https://github.com/odoo/odoo/tree/master/addons/payment_buckaroo
       status: profiled
       tags:
-      - Company
-      - E-Commerce
-      - Fintech
+      - In-Store Payments
+      - Omnichannel
+      - Online Payments
       - Payments
       tier: observed
-      url: /providers/amazon-payment-services/
-    - agent_band: agent-aware
-      agent_readiness: 28.4
+      url: /providers/buckaroo/
+    - agent_band: agent-ready
+      agent_readiness: 33.2
       apps:
       - Odoo
       band: thin
       in_catalog: true
-      kin_score: 30.2
+      kin_score: 29.4
       mcp:
         status: none
       name: Xendit
@@ -2989,12 +3020,12 @@ stack:
       tier: observed
       url: /providers/xendit/
     - agent_band: agent-ready
-      agent_readiness: 30.1
+      agent_readiness: 34.8
       apps:
       - Odoo
       band: thin
       in_catalog: true
-      kin_score: 28.0
+      kin_score: 27.5
       mcp:
         status: none
       name: Toss Payments
@@ -3010,12 +3041,12 @@ stack:
       tier: observed
       url: /providers/toss-payments/
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 19.5
       apps:
       - Odoo
       band: thin
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 26.2
       mcp:
         status: none
       name: Nuvei
@@ -3031,33 +3062,12 @@ stack:
       tier: observed
       url: /providers/nuvei/
     - agent_band: agent-aware
-      agent_readiness: 18.0
-      apps:
-      - Odoo
-      band: emerging
-      in_catalog: true
-      kin_score: 26.0
-      mcp:
-        status: none
-      name: Buckaroo
-      slug: buckaroo
-      sources:
-      - https://github.com/odoo/odoo/tree/master/addons/payment_buckaroo
-      status: profiled
-      tags:
-      - In-Store Payments
-      - Omnichannel
-      - Online Payments
-      - Payments
-      tier: observed
-      url: /providers/buckaroo/
-    - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 23.3
       apps:
       - ERPNext
       band: emerging
       in_catalog: true
-      kin_score: 25.5
+      kin_score: 24.4
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=paytm
         status: verified
@@ -3079,7 +3089,7 @@ stack:
       - Odoo
       band: emerging
       in_catalog: true
-      kin_score: 12.0
+      kin_score: 19.9
       mcp:
         status: none
       name: Redsys
@@ -3098,9 +3108,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Odoo
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.7
+      kin_score: 13.7
       mcp: &id013
         status: none
       name: ECPay
@@ -3121,7 +3131,7 @@ stack:
       - Odoo
       band: minimal
       in_catalog: true
-      kin_score: 4.7
+      kin_score: 4.9
       mcp:
         status: unknown
       name: AsiaPay
@@ -3161,14 +3171,14 @@ stack:
       url: /capabilities/shipment-tracking-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.1
+    - agent_band: agent-ready
+      agent_readiness: 29.2
       apps:
       - Fishbowl
       - Tryton
       band: thin
       in_catalog: true
-      kin_score: 29.0
+      kin_score: 27.9
       mcp:
         source: https://github.com/UPS-API/ups-mcp
         status: verified
@@ -3186,13 +3196,13 @@ stack:
       tier: observed
       url: /providers/ups/
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 45.9
       apps:
       - Fishbowl
       - Katana
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 56.7
+      kin_score: 54.1
       mcp:
         status: none
       name: ShipStation
@@ -3209,12 +3219,12 @@ stack:
       tier: declared
       url: /providers/shipstation/
     - agent_band: agent-ready
-      agent_readiness: 48.8
+      agent_readiness: 48.2
       apps:
       - Tryton
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.9
+      kin_score: 65.6
       mcp:
         status: none
       name: Sendcloud
@@ -3230,12 +3240,12 @@ stack:
       tier: observed
       url: /providers/sendcloud/
     - agent_band: agent-ready
-      agent_readiness: 29.2
+      agent_readiness: 28.6
       apps:
       - Tryton
       band: emerging
       in_catalog: true
-      kin_score: 23.5
+      kin_score: 25.8
       mcp:
         status: none
       name: GLS (MyGLS)
@@ -3256,7 +3266,7 @@ stack:
       - Tryton
       band: minimal
       in_catalog: true
-      kin_score: 4.9
+      kin_score: 4.0
       mcp:
         status: none
       name: DPD
@@ -3272,12 +3282,12 @@ stack:
       tier: observed
       url: /providers/dpd/
     - agent_band: agent-ready
-      agent_readiness: 35.9
+      agent_readiness: 35.2
       apps:
       - Fishbowl
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 70.7
       mcp:
         status: none
       name: FedEx
@@ -3293,12 +3303,12 @@ stack:
       tier: declared
       url: /providers/fedex/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.8
       apps:
       - Katana
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.7
+      kin_score: 53.3
       mcp:
         source: https://github.com/goshippo/ai
         status: verified
@@ -3314,13 +3324,34 @@ stack:
       - Returns
       tier: declared
       url: /providers/shippo/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-native
+      agent_readiness: 39.5
       apps:
       - Fishbowl
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 52.3
+      mcp:
+        status: none
+      name: DHL
+      slug: dhl
+      sources:
+      - https://www.fishbowlinventory.com/integrations
+      status: profiled
+      tags:
+      - E-Commerce
+      - Freight
+      - Logistics
+      - Shipping
+      tier: declared
+      url: /providers/dhl/
+    - agent_band: agent-native
+      agent_readiness: 51.8
+      apps:
+      - Fishbowl
+      band: developing
+      in_catalog: true
+      kin_score: 52.0
       mcp:
         status: none
       name: USPS
@@ -3336,12 +3367,12 @@ stack:
       tier: declared
       url: /providers/usps/
     - agent_band: human-only
-      agent_readiness: 5.0
+      agent_readiness: 4.9
       apps:
       - Fishbowl
       band: thin
       in_catalog: true
-      kin_score: 28.2
+      kin_score: 38.2
       mcp:
         status: none
       name: ShipWorks
@@ -3356,34 +3387,13 @@ stack:
       - Software
       tier: declared
       url: /providers/shipworks/
-    - agent_band: agent-aware
-      agent_readiness: 24.1
-      apps:
-      - Fishbowl
-      band: emerging
-      in_catalog: true
-      kin_score: 26.1
-      mcp:
-        status: none
-      name: DHL
-      slug: dhl
-      sources:
-      - https://www.fishbowlinventory.com/integrations
-      status: profiled
-      tags:
-      - E-Commerce
-      - Freight
-      - Logistics
-      - Shipping
-      tier: declared
-      url: /providers/dhl/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Fishbowl
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.5
+      kin_score: 30.4
       mcp:
         status: unknown
       name: ShipRush
@@ -3399,12 +3409,12 @@ stack:
       tier: declared
       url: /providers/shiprush/
     - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 10.6
       apps:
       - Katana
       band: emerging
       in_catalog: true
-      kin_score: 14.6
+      kin_score: 23.7
       mcp:
         status: unknown
       name: 2Ship
@@ -3423,9 +3433,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Fishbowl
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.8
+      kin_score: 14.1
       mcp:
         status: none
       name: OnTrac
@@ -3444,9 +3454,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Fishbowl
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.3
+      kin_score: 12.8
       mcp:
         status: unknown
       name: StarShip
@@ -3466,7 +3476,7 @@ stack:
       - Katana
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: Jikko
@@ -3487,7 +3497,7 @@ stack:
       via_parent: Storefront Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 51.8
       apps:
       - ERPNext
       - Fishbowl
@@ -3495,7 +3505,7 @@ stack:
       - Tryton
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
+      kin_score: 83.8
       mcp:
         source: https://shopify.dev/docs/apps/build/devmcp
         status: verified
@@ -3514,13 +3524,13 @@ stack:
       tier: observed
       url: /providers/shopify/
     - agent_band: agent-ready
-      agent_readiness: 60.5
+      agent_readiness: 56.3
       apps:
       - Fishbowl
       - Katana
       band: exemplar
       in_catalog: true
-      kin_score: 70.3
+      kin_score: 84.3
       mcp:
         source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
         status: verified
@@ -3538,13 +3548,13 @@ stack:
       tier: declared
       url: /providers/bigcommerce/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Fishbowl
       - Katana
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 54.6
       mcp:
         source: https://developer.woocommerce.com/docs/features/mcp/
         status: verified
@@ -3578,13 +3588,13 @@ stack:
       tags: []
       tier: observed
       url: null
-    - agent_band: human-only
-      agent_readiness: 3.9
+    - agent_band: agent-aware
+      agent_readiness: 7.3
       apps:
       - Fishbowl
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 18.9
+      kin_score: 26.8
       mcp:
         status: unknown
       name: Zoey
@@ -3599,76 +3609,13 @@ stack:
       - Wholesale
       tier: declared
       url: /providers/zoey/
-    - agent_band: human-only
-      agent_readiness: 2.5
-      apps:
-      - Fishbowl
-      band: emerging
-      in_catalog: true
-      kin_score: 18.6
-      mcp:
-        status: none
-      name: Adobe Commerce
-      slug: adobe-commerce
-      sources:
-      - https://www.fishbowlinventory.com/integrations
-      status: profiled
-      tags:
-      - Adobe
-      - Commerce
-      - E-Commerce
-      - Magento
-      tier: declared
-      url: /providers/adobe-commerce/
-    - agent_band: human-only
-      agent_readiness: 3.1
-      apps:
-      - Fishbowl
-      band: emerging
-      in_catalog: true
-      kin_score: 18.0
-      mcp:
-        status: none
-      name: Shift4Shop
-      slug: shift4shop
-      sources:
-      - https://www.fishbowlinventory.com/integrations
-      status: profiled
-      tags:
-      - E-Commerce
-      - Order
-      - Product
-      - Shopping Cart
-      tier: declared
-      url: /providers/shift4shop/
-    - agent_band: human-only
-      agent_readiness: 3.1
-      apps:
-      - Fishbowl
-      band: emerging
-      in_catalog: true
-      kin_score: 17.3
-      mcp:
-        status: none
-      name: Volusion
-      slug: volusion
-      sources:
-      - https://www.fishbowlinventory.com/integrations
-      status: profiled
-      tags:
-      - E-Commerce
-      - Online Store
-      - Order
-      - Product
-      tier: declared
-      url: /providers/volusion/
     - agent_band: agent-aware
-      agent_readiness: 18.7
+      agent_readiness: 18.3
       apps:
       - Fishbowl
       band: emerging
       in_catalog: true
-      kin_score: 13.5
+      kin_score: 18.5
       mcp:
         status: none
       name: Web Shop Manager
@@ -3684,12 +3631,33 @@ stack:
       tier: declared
       url: /providers/web-shop-manager/
     - agent_band: human-only
+      agent_readiness: 2.5
+      apps:
+      - Fishbowl
+      band: emerging
+      in_catalog: true
+      kin_score: 18.0
+      mcp:
+        status: none
+      name: Adobe Commerce
+      slug: adobe-commerce
+      sources:
+      - https://www.fishbowlinventory.com/integrations
+      status: profiled
+      tags:
+      - Adobe
+      - Commerce
+      - E-Commerce
+      - Magento
+      tier: declared
+      url: /providers/adobe-commerce/
+    - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Fishbowl
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 16.6
       mcp:
         status: none
       name: Zen Cart
@@ -3704,6 +3672,48 @@ stack:
       - Shopping Cart
       tier: declared
       url: /providers/zen-cart/
+    - agent_band: human-only
+      agent_readiness: 3.1
+      apps:
+      - Fishbowl
+      band: emerging
+      in_catalog: true
+      kin_score: 16.1
+      mcp:
+        status: none
+      name: Shift4Shop
+      slug: shift4shop
+      sources:
+      - https://www.fishbowlinventory.com/integrations
+      status: profiled
+      tags:
+      - E-Commerce
+      - Order
+      - Product
+      - Shopping Cart
+      tier: declared
+      url: /providers/shift4shop/
+    - agent_band: human-only
+      agent_readiness: 3.8
+      apps:
+      - Fishbowl
+      band: emerging
+      in_catalog: true
+      kin_score: 15.4
+      mcp:
+        status: none
+      name: Volusion
+      slug: volusion
+      sources:
+      - https://www.fishbowlinventory.com/integrations
+      status: profiled
+      tags:
+      - E-Commerce
+      - Online Store
+      - Order
+      - Product
+      tier: declared
+      url: /providers/volusion/
   - capability:
       attribution: Turbo EA
       id: BC-2320.20
@@ -3713,12 +3723,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Odoo
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: *id001
       name: Stripe
       slug: stripe
@@ -3729,12 +3739,12 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-native
-      agent_readiness: 43.7
+      agent_readiness: 42.8
       apps:
       - Odoo
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 73.6
       mcp: *id003
       name: Adyen
       slug: adyen
@@ -3745,12 +3755,12 @@ stack:
       tier: observed
       url: /providers/adyen/
     - agent_band: agent-native
-      agent_readiness: 73.2
+      agent_readiness: 71.7
       apps:
       - Odoo
       band: exemplar
       in_catalog: true
-      kin_score: 68.2
+      kin_score: 68.1
       mcp: *id005
       name: Mollie
       slug: mollie
@@ -3761,12 +3771,12 @@ stack:
       tier: observed
       url: /providers/mollie/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Odoo
       band: developing
       in_catalog: true
-      kin_score: 52.4
+      kin_score: 50.6
       mcp: *id007
       name: Razorpay
       slug: razorpay
@@ -3777,12 +3787,12 @@ stack:
       tier: observed
       url: /providers/razorpay/
     - agent_band: agent-ready
-      agent_readiness: 29.2
+      agent_readiness: 28.6
       apps:
       - Odoo
       band: developing
       in_catalog: true
-      kin_score: 49.0
+      kin_score: 48.0
       mcp: *id009
       name: M-Pesa (Safaricom)
       slug: mpesa
@@ -3793,12 +3803,12 @@ stack:
       tier: observed
       url: /providers/mpesa/
     - agent_band: agent-ready
-      agent_readiness: 54.3
+      agent_readiness: 53.2
       apps:
       - Odoo
       band: developing
       in_catalog: true
-      kin_score: 46.3
+      kin_score: 44.0
       mcp:
         source: https://github.com/sumup/sumup-mcp
         status: verified
@@ -3815,12 +3825,12 @@ stack:
       tier: observed
       url: /providers/sumup/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 24.9
       apps:
       - Odoo
       band: developing
       in_catalog: true
-      kin_score: 41.8
+      kin_score: 40.4
       mcp: *id011
       name: Mercado Pago
       slug: mercado-pago
@@ -3834,9 +3844,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Odoo
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.1
+      kin_score: 11.8
       mcp:
         status: none
       name: Viva.com
@@ -3852,12 +3862,12 @@ stack:
       tier: observed
       url: /providers/viva-com/
     - agent_band: human-only
-      agent_readiness: 3.5
+      agent_readiness: 3.4
       apps:
       - Odoo
       band: minimal
       in_catalog: true
-      kin_score: 6.4
+      kin_score: 9.9
       mcp:
         status: none
       name: QFPay
@@ -3896,15 +3906,15 @@ stack:
       url: /capabilities/channel-sales-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - ERPNext
       - Fishbowl
       - Katana
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -3923,13 +3933,13 @@ stack:
       tier: observed
       url: /providers/amazon/
     - agent_band: agent-ready
-      agent_readiness: 32.0
+      agent_readiness: 31.3
       apps:
       - Fishbowl
       - Katana
       band: developing
       in_catalog: true
-      kin_score: 50.7
+      kin_score: 48.7
       mcp:
         source: https://github.com/eBay/npm-public-api-mcp
         status: verified
@@ -3947,12 +3957,12 @@ stack:
       tier: declared
       url: /providers/ebay/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.2
       apps:
       - ERPNext
       band: developing
       in_catalog: true
-      kin_score: 48.5
+      kin_score: 45.5
       mcp:
         status: none
       name: Zenoti
@@ -3968,12 +3978,12 @@ stack:
       tier: observed
       url: /providers/zenoti/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Fishbowl
       band: strong
       in_catalog: true
-      kin_score: 65.0
+      kin_score: 63.7
       mcp:
         status: none
       name: Walmart
@@ -3994,7 +4004,7 @@ stack:
       - Fishbowl
       band: thin
       in_catalog: true
-      kin_score: 29.8
+      kin_score: 29.5
       mcp:
         status: none
       name: Newegg
@@ -4009,13 +4019,13 @@ stack:
       - Marketplace
       tier: declared
       url: /providers/newegg/
-    - agent_band: agent-aware
-      agent_readiness: 5.4
+    - agent_band: human-only
+      agent_readiness: 2.5
       apps:
       - Fishbowl
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.7
+      kin_score: 27.8
       mcp:
         source: https://www.npmjs.com/package/@pepperi-addons/api-mcp
         status: verified
@@ -4040,13 +4050,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Fishbowl
       - Katana
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -4064,13 +4074,13 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Fishbowl
       - Katana
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp: &id015
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -4088,12 +4098,12 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 33.0
+      agent_readiness: 32.4
       apps:
       - Fishbowl
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 64.4
       mcp:
         source: https://www.zoho.com/mcp/
         status: verified
@@ -4110,12 +4120,12 @@ stack:
       tier: declared
       url: /providers/zoho/
     - agent_band: agent-ready
-      agent_readiness: 29.3
+      agent_readiness: 28.7
       apps:
       - Katana
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 55.3
       mcp:
         status: none
       name: Pipedrive
@@ -4131,12 +4141,12 @@ stack:
       tier: declared
       url: /providers/pipedrive/
     - agent_band: agent-aware
-      agent_readiness: 12.7
+      agent_readiness: 12.4
       apps:
       - Katana
       band: emerging
       in_catalog: true
-      kin_score: 15.2
+      kin_score: 19.9
       mcp:
         status: unknown
       name: Prospect CRM
@@ -4157,13 +4167,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Fishbowl
       - Katana
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -4180,14 +4190,14 @@ stack:
       - Financial Services
       tier: declared
       url: /providers/xero/
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Fishbowl
       - Katana
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -4222,12 +4232,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - Fishbowl
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 18.3
+      kin_score: 27.0
       mcp:
         status: unknown
       name: Reckon
@@ -4251,33 +4261,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.6
-      apps:
-      - Odoo
-      band: thin
-      in_catalog: true
-      kin_score: 30.1
-      mcp:
-        status: none
-      name: Gelato
-      slug: gelato
-      sources:
-      - https://github.com/odoo/odoo/tree/master/addons/sale_gelato
-      status: profiled
-      tags:
-      - Distributed Production
-      - E-Commerce
-      - Fulfillment
-      - Print on Demand
-      tier: observed
-      url: /providers/gelato/
-    - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - ERPNext
       band: emerging
       in_catalog: true
-      kin_score: 14.8
+      kin_score: 20.3
       mcp:
         status: unknown
       name: Unicommerce
@@ -4293,12 +4282,12 @@ stack:
       tier: observed
       url: /providers/unicommerce/
     - agent_band: agent-ready
-      agent_readiness: 40.4
+      agent_readiness: 40.0
       apps:
       - Katana
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 35.7
       mcp:
         source: https://developer.shipbob.com/mcp-server/overview
         status: verified
@@ -4315,12 +4304,12 @@ stack:
       tier: declared
       url: /providers/shipbob/
     - agent_band: agent-ready
-      agent_readiness: 29.7
+      agent_readiness: 29.1
       apps:
       - Katana
       band: thin
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 30.6
       mcp:
         status: none
       name: ShipHero
@@ -4336,12 +4325,12 @@ stack:
       tier: declared
       url: /providers/shiphero/
     - agent_band: agent-aware
-      agent_readiness: 12.2
+      agent_readiness: 9.1
       apps:
       - Katana
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.1
+      kin_score: 27.9
       mcp:
         status: unknown
       name: Mintsoft
@@ -4362,7 +4351,7 @@ stack:
       - Fishbowl
       band: emerging
       in_catalog: true
-      kin_score: 14.1
+      kin_score: 19.1
       mcp:
         status: none
       name: Spark Shipping
@@ -4386,12 +4375,12 @@ stack:
       via_parent: Indirect Tax Management
     providers:
     - agent_band: human-only
-      agent_readiness: 4.3
+      agent_readiness: 4.2
       apps:
       - Tryton
       band: emerging
       in_catalog: true
-      kin_score: 16.9
+      kin_score: 21.2
       mcp:
         status: unknown
       name: Peppyrus
@@ -4403,16 +4392,16 @@ stack:
       - Company
       - E-Invoicing
       - Free
-      - PEPPOL
+      - Peppol
       tier: observed
       url: /providers/peppyrus/
     - agent_band: agent-aware
-      agent_readiness: 23.2
+      agent_readiness: 19.7
       apps:
       - Tryton
       band: emerging
       in_catalog: true
-      kin_score: 14.7
+      kin_score: 17.7
       mcp:
         status: unknown
       name: Chorus Pro
@@ -4431,9 +4420,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Odoo
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.7
+      kin_score: 13.7
       mcp: *id013
       name: ECPay e-invoice
       slug: ecpay
@@ -4469,12 +4458,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 40.4
       apps:
       - Fishbowl
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.1
+      kin_score: 59.5
       mcp:
         status: none
       name: SPS Commerce
@@ -4490,12 +4479,12 @@ stack:
       tier: declared
       url: /providers/sps-commerce/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Fishbowl
       band: emerging
       in_catalog: true
-      kin_score: 12.2
+      kin_score: 17.7
       mcp:
         status: none
       name: TrueCommerce
@@ -4518,34 +4507,13 @@ stack:
       url: /capabilities/storage-and-inventory-operations-management/
       via_parent: Storage and Inventory Operations Management
     providers:
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Fishbowl
-      band: emerging
-      in_catalog: true
-      kin_score: 24.7
-      mcp:
-        status: none
-      name: Zebra
-      slug: zebra-technologies
-      sources:
-      - https://www.fishbowlinventory.com/integrations
-      status: profiled
-      tags:
-      - Barcodes
-      - Manufacturing
-      - RFID
-      - Warehouse Automation
-      tier: declared
-      url: /providers/zebra-technologies/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - Fishbowl
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 21.8
+      kin_score: 28.6
       mcp:
         status: none
       name: Wasp Barcode
@@ -4560,6 +4528,27 @@ stack:
       - Inventory
       tier: declared
       url: /providers/wasp-barcode/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Fishbowl
+      band: emerging
+      in_catalog: true
+      kin_score: 24.3
+      mcp:
+        status: none
+      name: Zebra
+      slug: zebra-technologies
+      sources:
+      - https://www.fishbowlinventory.com/integrations
+      status: profiled
+      tags:
+      - Barcodes
+      - Manufacturing
+      - RFID
+      - Warehouse Automation
+      tier: declared
+      url: /providers/zebra-technologies/
   - capability:
       attribution: Turbo EA
       id: BC-520.10
@@ -4574,7 +4563,7 @@ stack:
       - Fishbowl
       band: thin
       in_catalog: true
-      kin_score: 29.1
+      kin_score: 37.5
       mcp:
         status: unknown
       name: StockTrim
@@ -4590,12 +4579,12 @@ stack:
       tier: declared
       url: /providers/stocktrim/
     - agent_band: agent-aware
-      agent_readiness: 16.9
+      agent_readiness: 20.8
       apps:
       - Fishbowl
       band: emerging
       in_catalog: true
-      kin_score: 20.0
+      kin_score: 25.4
       mcp:
         status: none
       name: Netstock
@@ -4619,12 +4608,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 19.3
       apps:
       - Tryton
       band: thin
       in_catalog: true
-      kin_score: 28.1
+      kin_score: 30.0
       mcp:
         status: none
       name: Eagle Doc
@@ -4640,12 +4629,12 @@ stack:
       tier: observed
       url: /providers/eagle-doc/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Tryton
       band: emerging
       in_catalog: true
-      kin_score: 12.8
+      kin_score: 18.4
       mcp:
         status: none
       name: Typless
@@ -4694,12 +4683,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 52.1
+      agent_readiness: 51.1
       apps:
       - ERPNext
       band: exemplar
       in_catalog: true
-      kin_score: 83.4
+      kin_score: 86.3
       mcp:
         source: https://plaid.com/docs/resources/mcp/
         status: verified
@@ -4724,12 +4713,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Fishbowl
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -4753,13 +4742,13 @@ stack:
       url: /capabilities/market-financial-data/
       via_parent: Market & Financial Data
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.1
+    - agent_band: agent-ready
+      agent_readiness: 29.9
       apps:
       - Dolibarr
       band: strong
       in_catalog: true
-      kin_score: 57.0
+      kin_score: 56.1
       mcp:
         status: none
       name: currencylayer
@@ -4783,12 +4772,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 44.7
       apps:
       - Fishbowl
       band: exemplar
       in_catalog: true
-      kin_score: 70.5
+      kin_score: 69.3
       mcp:
         source: https://github.com/avadev/mcp
         status: verified
@@ -4812,12 +4801,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Fishbowl
       band: minimal
       in_catalog: true
-      kin_score: 5.9
+      kin_score: 6.9
       mcp:
         status: none
       name: Metrc
@@ -4841,12 +4830,12 @@ stack:
       via_parent: Logistics Operations Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 16.5
+      agent_readiness: 16.1
       apps:
       - Fishbowl
       band: thin
       in_catalog: true
-      kin_score: 26.4
+      kin_score: 37.0
       mcp:
         status: none
       name: Endicia
@@ -4863,6 +4852,35 @@ stack:
       url: /providers/stamps-com/
   - capability:
       attribution: API Evangelist extension
+      id: AE-140.120
+      key: AE-140.120
+      name: Print-on-Demand Fulfilment
+      url: /capabilities/print-on-demand-fulfilment/
+      via_parent: null
+    providers:
+    - agent_band: agent-aware
+      agent_readiness: 20.2
+      apps:
+      - Odoo
+      band: thin
+      in_catalog: true
+      kin_score: 29.6
+      mcp:
+        status: none
+      name: Gelato
+      slug: gelato
+      sources:
+      - https://github.com/odoo/odoo/tree/master/addons/sale_gelato
+      status: profiled
+      tags:
+      - Distributed Production
+      - E-Commerce
+      - Fulfillment
+      - Print on Demand
+      tier: observed
+      url: /providers/gelato/
+  - capability:
+      attribution: API Evangelist extension
       id: AE-910
       key: AE-910
       name: Workflow Automation & iPaaS
@@ -4870,12 +4888,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Katana
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp: &id017
         source: https://zapier.com/mcp
         status: verified
@@ -4902,13 +4920,13 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Dolibarr
       - ERPNext
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -4926,13 +4944,13 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Dolibarr
       - ERPNext
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Office 365 sign-in
@@ -4948,14 +4966,14 @@ stack:
       - Identity and Access Management
       tier: observed
       url: /providers/microsoft-entra/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Dolibarr
       - ERPNext
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -4972,12 +4990,12 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - ERPNext
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -5000,14 +5018,14 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - ERPNext
       - Odoo
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -5025,12 +5043,12 @@ stack:
       tier: observed
       url: /providers/google-calendar/
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - Odoo
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -5046,35 +5064,13 @@ stack:
       - Enterprise
       tier: observed
       url: /providers/microsoft-outlook/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
-      apps:
-      - ERPNext
-      band: developing
-      in_catalog: true
-      kin_score: 45.6
-      mcp:
-        source: https://docs.cloud.google.com/mcp/supported-products
-        status: verified
-      name: Google Contacts
-      slug: google-people
-      sources:
-      - https://github.com/frappe/frappe/tree/develop/frappe/integrations/doctype/google_contacts
-      status: profiled
-      tags:
-      - Address Book
-      - Contacts
-      - Google
-      - People
-      tier: observed
-      url: /providers/google-people/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Odoo
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -5090,6 +5086,28 @@ stack:
       - Google
       tier: observed
       url: /providers/google-gmail/
+    - agent_band: agent-ready
+      agent_readiness: 38.2
+      apps:
+      - ERPNext
+      band: strong
+      in_catalog: true
+      kin_score: 57.2
+      mcp:
+        source: https://docs.cloud.google.com/mcp/supported-products
+        status: verified
+      name: Google Contacts
+      slug: google-people
+      sources:
+      - https://github.com/frappe/frappe/tree/develop/frappe/integrations/doctype/google_contacts
+      status: profiled
+      tags:
+      - Address Book
+      - Contacts
+      - Google
+      - People
+      tier: observed
+      url: /providers/google-people/
   - capability:
       attribution: API Evangelist extension
       id: AE-120.10.10
@@ -5099,12 +5117,12 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-native
-      agent_readiness: 55.5
+      agent_readiness: 54.4
       apps:
       - ERPNext
       band: exemplar
       in_catalog: true
-      kin_score: 77.6
+      kin_score: 79.0
       mcp:
         status: none
       name: HERE
@@ -5120,12 +5138,12 @@ stack:
       tier: observed
       url: /providers/here/
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 40.8
       apps:
       - ERPNext
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 62.6
       mcp:
         status: none
       name: Geoapify
@@ -5141,12 +5159,12 @@ stack:
       tier: observed
       url: /providers/geoapify/
     - agent_band: agent-ready
-      agent_readiness: 32.3
+      agent_readiness: 40.3
       apps:
       - Odoo
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 62.4
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -5163,12 +5181,12 @@ stack:
       tier: observed
       url: /providers/google-places/
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 25.7
       apps:
       - ERPNext
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.7
       mcp:
         status: none
       name: Nominatim
@@ -5192,12 +5210,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - Odoo
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp:
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -5213,13 +5231,13 @@ stack:
       - CDN
       tier: observed
       url: /providers/cloudflare/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Odoo
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Google reCAPTCHA
@@ -5243,12 +5261,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Odoo
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -5265,12 +5283,12 @@ stack:
       tier: observed
       url: /providers/gcp-cloud-storage/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Odoo
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -5295,12 +5313,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - ERPNext
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp: *id015
       name: Salesforce sign-in
       slug: salesforce
@@ -5311,7 +5329,7 @@ stack:
       tier: observed
       url: /providers/salesforce/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.3
       apps:
       - ERPNext
       band: thin
@@ -5340,12 +5358,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Odoo
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -5370,12 +5388,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.1
+      agent_readiness: 52.6
       apps:
       - Odoo
       band: developing
       in_catalog: true
-      kin_score: 40.2
+      kin_score: 39.4
       mcp:
         status: none
       name: Unsplash
@@ -5399,12 +5417,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Odoo
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -5429,12 +5447,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Dolibarr
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp: *id017
       name: Zapier
       slug: zapier
@@ -5455,12 +5473,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Dolibarr
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -5477,12 +5495,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Dolibarr
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -5499,7 +5517,7 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-native
-      agent_readiness: 67.7
+      agent_readiness: 66.6
       apps:
       - Dolibarr
       band: strong
@@ -5521,12 +5539,12 @@ stack:
       tier: observed
       url: /providers/perplexity/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - Dolibarr
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google Gemini
@@ -5541,13 +5559,13 @@ stack:
       - Embeddings
       tier: observed
       url: /providers/google-gemini/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - Dolibarr
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: Mistral AI
@@ -5563,12 +5581,12 @@ stack:
       tier: observed
       url: /providers/mistral/
     - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 22.4
       apps:
       - Dolibarr
       band: developing
       in_catalog: true
-      kin_score: 43.3
+      kin_score: 41.2
       mcp:
         status: none
       name: DeepSeek
@@ -5595,7 +5613,7 @@ summary:
     unchecked: 6
     verified: 43
   mcp_verified: 43
-  mean_kin_score: 42.7
+  mean_kin_score: 45.6
   observed: 75
   queued: 6
   reference_apps: 6

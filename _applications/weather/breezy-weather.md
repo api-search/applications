@@ -114,10 +114,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.5
+    agent_readiness: 24.9
     band: developing
     in_catalog: true
-    kin_score: 42.6
+    kin_score: 39.8
     mcp: &id001
       status: none
     slug: accuweather
@@ -147,7 +147,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 4.3
     mcp: &id003
       status: unknown
     slug: aemet
@@ -172,10 +172,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.4
+    kin_score: 2.8
     mcp: &id005
       status: none
     slug: atmo-france
@@ -202,10 +202,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 6.0
+    agent_readiness: 5.8
     band: emerging
     in_catalog: true
-    kin_score: 18.5
+    kin_score: 17.4
     mcp: &id007
       source: https://github.com/baidu-maps/mcp
       status: verified
@@ -233,10 +233,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.1
+    kin_score: 5.7
     mcp: &id009
       status: unknown
     slug: bangladesh-meteorological-department
@@ -263,10 +263,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.8
+    kin_score: 5.9
     mcp: &id011
       status: unknown
     slug: bmkg
@@ -293,10 +293,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 25.0
     band: thin
     in_catalog: true
-    kin_score: 26.4
+    kin_score: 28.4
     mcp: &id013
       status: unknown
     slug: bright-sky
@@ -326,7 +326,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 2.2
     mcp: &id015
       status: unknown
     slug: climweb
@@ -356,7 +356,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.4
     mcp: &id017
       status: unknown
     slug: central-weather-administration
@@ -380,10 +380,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.1
     band: thin
     in_catalog: true
-    kin_score: 29.8
+    kin_score: 29.5
     mcp: &id019
       status: none
     slug: danish-meteorological-institutes
@@ -443,7 +443,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 2.2
     mcp: &id023
       status: unknown
     slug: ekuk
@@ -530,10 +530,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.5
+    agent_readiness: 15.1
     band: emerging
     in_catalog: true
-    kin_score: 17.9
+    kin_score: 19.4
     mcp: &id029
       status: unknown
     slug: foss-public-alert-server
@@ -563,7 +563,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 4.3
     mcp: &id031
       status: none
     slug: geonames
@@ -591,7 +591,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.1
+    kin_score: 4.4
     mcp: &id033
       status: unknown
     slug: geosphere-austria
@@ -621,7 +621,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 4.3
     mcp: &id035
       status: unknown
     slug: hong-kong-obervatory
@@ -649,7 +649,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.5
+    kin_score: 6.7
     mcp: &id037
       status: unknown
     slug: ilmateenistus
@@ -676,10 +676,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 7.9
+    agent_readiness: 7.7
     band: emerging
     in_catalog: true
-    kin_score: 14.7
+    kin_score: 17.7
     mcp: &id039
       status: unknown
     slug: india-meteorological-department
@@ -705,11 +705,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 4.3
     mcp: &id041
       status: unknown
     slug: israel-meteorological-service
@@ -735,11 +735,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 38.7
+    agent_band: agent-ready
+    agent_readiness: 37.7
     band: developing
     in_catalog: true
-    kin_score: 44.0
+    kin_score: 50.6
     mcp: &id043
       status: none
     slug: infoplaza
@@ -766,10 +766,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 18.0
     band: thin
     in_catalog: true
-    kin_score: 26.5
+    kin_score: 30.6
     mcp: &id045
       status: unknown
     slug: ip-sb
@@ -799,7 +799,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 4.3
     mcp: &id047
       status: unknown
     slug: ipma
@@ -880,10 +880,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.6
+    agent_readiness: 12.4
     band: emerging
     in_catalog: true
-    kin_score: 13.9
+    kin_score: 13.0
     mcp: &id053
       status: unknown
     slug: lhmt
@@ -913,7 +913,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.4
     mcp: &id055
       status: unknown
     slug: lvgmc
@@ -940,7 +940,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.7
+    kin_score: 9.5
     mcp: &id057
       status: unknown
     slug: met-eireann
@@ -970,7 +970,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.4
+    kin_score: 7.3
     mcp: &id059
       status: none
     slug: meteorologisk-institutt
@@ -995,10 +995,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
-    band: developing
+    agent_readiness: 33.4
+    band: strong
     in_catalog: true
-    kin_score: 52.9
+    kin_score: 64.3
     mcp: &id061
       status: none
     slug: met-office
@@ -1028,7 +1028,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.4
+    kin_score: 4.7
     mcp: &id063
       status: none
     slug: meteo-france
@@ -1058,7 +1058,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 8.0
+    kin_score: 10.6
     mcp: &id065
       status: unknown
     slug: meteolux
@@ -1088,7 +1088,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.4
+    kin_score: 2.6
     mcp: &id067
       status: unknown
     slug: mgm
@@ -1115,10 +1115,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.4
+    kin_score: 2.5
     mcp: &id069
       status: unknown
     slug: namem
@@ -1145,10 +1145,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_readiness: 22.8
     band: thin
     in_catalog: true
-    kin_score: 36.6
+    kin_score: 35.6
     mcp: &id071
       status: none
     slug: weather-gov
@@ -1175,10 +1175,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.4
+    kin_score: 2.5
     mcp: &id073
       status: unknown
     slug: ncdr
@@ -1208,7 +1208,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.4
     mcp: &id075
       status: unknown
     slug: nlsc
@@ -1231,11 +1231,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 26.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 32.1
+    band: thin
     in_catalog: true
-    kin_score: 40.5
+    kin_score: 38.9
     mcp: &id077
       status: unknown
     slug: noaa-gov
@@ -1262,10 +1262,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id079
       status: none
     slug: nominatim
@@ -1292,10 +1292,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.8
+    agent_readiness: 17.4
     band: thin
     in_catalog: true
-    kin_score: 29.6
+    kin_score: 28.3
     mcp: &id081
       status: none
     slug: open-meteo
@@ -1321,11 +1321,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 22.5
+    agent_band: agent-ready
+    agent_readiness: 30.0
     band: strong
     in_catalog: true
-    kin_score: 60.4
+    kin_score: 59.1
     mcp: &id083
       source: https://mcp.openweathermap.org/
       status: verified
@@ -1356,7 +1356,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.7
+    kin_score: 5.6
     mcp: &id085
       status: unknown
     slug: pagasa
@@ -1386,7 +1386,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.3
+    kin_score: 2.4
     mcp: &id087
       source: https://pirateweather.net/
       status: documented
@@ -1415,7 +1415,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.0
+    kin_score: 3.6
     mcp: &id089
       status: none
     slug: polleninfo
@@ -1469,9 +1469,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.0
+    kin_score: 12.1
     mcp: &id093
       status: unknown
     slug: meteoam
@@ -1501,7 +1501,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 2.2
+    kin_score: 1.3
     mcp: &id095
       status: unknown
     slug: smg-macao
@@ -1526,9 +1526,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.4
+    kin_score: 12.5
     mcp: &id097
       status: none
     slug: smhi
@@ -1558,7 +1558,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.4
+    kin_score: 2.9
     mcp: &id099
       status: unknown
     slug: vedur
@@ -1585,10 +1585,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 26.9
     band: thin
     in_catalog: true
-    kin_score: 31.3
+    kin_score: 31.8
     mcp: &id101
       status: unknown
     slug: wmo
@@ -1613,10 +1613,10 @@ noindex: false
 permalink: /applications/weather/breezy-weather/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 25.5
+  agent_readiness: 24.9
   band: developing
   in_catalog: true
-  kin_score: 42.6
+  kin_score: 39.8
   mcp: *id001
   name: AccuWeather
   slug: accuweather
@@ -1627,7 +1627,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 4.3
   mcp: *id003
   name: AEMET
   slug: aemet
@@ -1635,10 +1635,10 @@ providers:
   tags: *id004
   url: /providers/aemet/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.4
+  kin_score: 2.8
   mcp: *id005
   name: Atmo France
   slug: atmo-france
@@ -1646,10 +1646,10 @@ providers:
   tags: *id006
   url: /providers/atmo-france/
 - agent_band: agent-aware
-  agent_readiness: 6.0
+  agent_readiness: 5.8
   band: emerging
   in_catalog: true
-  kin_score: 18.5
+  kin_score: 17.4
   mcp: *id007
   name: Baidu IP location
   slug: baidu
@@ -1657,10 +1657,10 @@ providers:
   tags: *id008
   url: /providers/baidu/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.1
+  kin_score: 5.7
   mcp: *id009
   name: BMD
   slug: bangladesh-meteorological-department
@@ -1668,10 +1668,10 @@ providers:
   tags: *id010
   url: /providers/bangladesh-meteorological-department/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.8
+  kin_score: 5.9
   mcp: *id011
   name: BMKG
   slug: bmkg
@@ -1679,10 +1679,10 @@ providers:
   tags: *id012
   url: /providers/bmkg/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 25.0
   band: thin
   in_catalog: true
-  kin_score: 26.4
+  kin_score: 28.4
   mcp: *id013
   name: Bright Sky (DWD open data)
   slug: bright-sky
@@ -1693,7 +1693,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 2.2
   mcp: *id015
   name: ClimWeb (WMO NMHS sites)
   slug: climweb
@@ -1704,7 +1704,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.4
   mcp: *id017
   name: CWA (Taiwan)
   slug: central-weather-administration
@@ -1712,10 +1712,10 @@ providers:
   tags: *id018
   url: /providers/central-weather-administration/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.1
   band: thin
   in_catalog: true
-  kin_score: 29.8
+  kin_score: 29.5
   mcp: *id019
   name: DMI
   slug: danish-meteorological-institutes
@@ -1737,7 +1737,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 2.2
   mcp: *id023
   name: EKUK (Estonia)
   slug: ekuk
@@ -1767,10 +1767,10 @@ providers:
   tags: *id028
   url: /providers/finnish-meteorological-institute/
 - agent_band: agent-aware
-  agent_readiness: 15.5
+  agent_readiness: 15.1
   band: emerging
   in_catalog: true
-  kin_score: 17.9
+  kin_score: 19.4
   mcp: *id029
   name: FOSS Public Alert Server
   slug: foss-public-alert-server
@@ -1781,7 +1781,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 4.3
   mcp: *id031
   name: GeoNames
   slug: geonames
@@ -1792,7 +1792,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.1
+  kin_score: 4.4
   mcp: *id033
   name: GeoSphere Austria
   slug: geosphere-austria
@@ -1803,7 +1803,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 4.3
   mcp: *id035
   name: Hong Kong Observatory
   slug: hong-kong-obervatory
@@ -1814,7 +1814,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.5
+  kin_score: 6.7
   mcp: *id037
   name: Ilmateenistus (Estonia)
   slug: ilmateenistus
@@ -1822,32 +1822,32 @@ providers:
   tags: *id038
   url: /providers/ilmateenistus/
 - agent_band: agent-aware
-  agent_readiness: 7.9
+  agent_readiness: 7.7
   band: emerging
   in_catalog: true
-  kin_score: 14.7
+  kin_score: 17.7
   mcp: *id039
   name: IMD
   slug: india-meteorological-department
   status: profiled
   tags: *id040
   url: /providers/india-meteorological-department/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 4.3
   mcp: *id041
   name: IMS
   slug: israel-meteorological-service
   status: profiled
   tags: *id042
   url: /providers/israel-meteorological-service/
-- agent_band: agent-native
-  agent_readiness: 38.7
+- agent_band: agent-ready
+  agent_readiness: 37.7
   band: developing
   in_catalog: true
-  kin_score: 44.0
+  kin_score: 50.6
   mcp: *id043
   name: Infoplaza
   slug: infoplaza
@@ -1855,10 +1855,10 @@ providers:
   tags: *id044
   url: /providers/infoplaza/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 18.0
   band: thin
   in_catalog: true
-  kin_score: 26.5
+  kin_score: 30.6
   mcp: *id045
   name: IP.SB
   slug: ip-sb
@@ -1869,7 +1869,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 4.3
   mcp: *id047
   name: IPMA
   slug: ipma
@@ -1899,10 +1899,10 @@ providers:
   tags: *id052
   url: null
 - agent_band: agent-aware
-  agent_readiness: 14.6
+  agent_readiness: 12.4
   band: emerging
   in_catalog: true
-  kin_score: 13.9
+  kin_score: 13.0
   mcp: *id053
   name: LHMT (Lithuania)
   slug: lhmt
@@ -1913,7 +1913,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.4
   mcp: *id055
   name: LVGMC (Latvia)
   slug: lvgmc
@@ -1924,7 +1924,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.7
+  kin_score: 9.5
   mcp: *id057
   name: Met Eireann
   slug: met-eireann
@@ -1935,7 +1935,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.4
+  kin_score: 7.3
   mcp: *id059
   name: MET Norway
   slug: meteorologisk-institutt
@@ -1943,10 +1943,10 @@ providers:
   tags: *id060
   url: /providers/meteorologisk-institutt/
 - agent_band: agent-ready
-  agent_readiness: 34.2
-  band: developing
+  agent_readiness: 33.4
+  band: strong
   in_catalog: true
-  kin_score: 52.9
+  kin_score: 64.3
   mcp: *id061
   name: Met Office
   slug: met-office
@@ -1957,7 +1957,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.4
+  kin_score: 4.7
   mcp: *id063
   name: Meteo-France
   slug: meteo-france
@@ -1968,7 +1968,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 8.0
+  kin_score: 10.6
   mcp: *id065
   name: MeteoLux
   slug: meteolux
@@ -1979,7 +1979,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.4
+  kin_score: 2.6
   mcp: *id067
   name: Meteoroloji Genel Mudurlugu
   slug: mgm
@@ -1987,10 +1987,10 @@ providers:
   tags: *id068
   url: /providers/mgm/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.4
+  kin_score: 2.5
   mcp: *id069
   name: NAMEM (Mongolia)
   slug: namem
@@ -1998,10 +1998,10 @@ providers:
   tags: *id070
   url: /providers/namem/
 - agent_band: agent-aware
-  agent_readiness: 23.3
+  agent_readiness: 22.8
   band: thin
   in_catalog: true
-  kin_score: 36.6
+  kin_score: 35.6
   mcp: *id071
   name: National Weather Service
   slug: weather-gov
@@ -2009,10 +2009,10 @@ providers:
   tags: *id072
   url: /providers/weather-gov/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.4
+  kin_score: 2.5
   mcp: *id073
   name: NCDR (Taiwan)
   slug: ncdr
@@ -2023,18 +2023,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.4
   mcp: *id075
   name: NLSC (Taiwan)
   slug: nlsc
   status: profiled
   tags: *id076
   url: /providers/nlsc/
-- agent_band: agent-aware
-  agent_readiness: 26.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 32.1
+  band: thin
   in_catalog: true
-  kin_score: 40.5
+  kin_score: 38.9
   mcp: *id077
   name: NOAA NCEI
   slug: noaa-gov
@@ -2042,10 +2042,10 @@ providers:
   tags: *id078
   url: /providers/noaa-gov/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id079
   name: Nominatim
   slug: nominatim
@@ -2053,21 +2053,21 @@ providers:
   tags: *id080
   url: /providers/nominatim/
 - agent_band: agent-aware
-  agent_readiness: 17.8
+  agent_readiness: 17.4
   band: thin
   in_catalog: true
-  kin_score: 29.6
+  kin_score: 28.3
   mcp: *id081
   name: Open-Meteo
   slug: open-meteo
   status: profiled
   tags: *id082
   url: /providers/open-meteo/
-- agent_band: agent-aware
-  agent_readiness: 22.5
+- agent_band: agent-ready
+  agent_readiness: 30.0
   band: strong
   in_catalog: true
-  kin_score: 60.4
+  kin_score: 59.1
   mcp: *id083
   name: OpenWeather
   slug: openweathermap
@@ -2078,7 +2078,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.7
+  kin_score: 5.6
   mcp: *id085
   name: PAGASA
   slug: pagasa
@@ -2089,7 +2089,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.3
+  kin_score: 2.4
   mcp: *id087
   name: Pirate Weather
   slug: pirate-weather
@@ -2100,7 +2100,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.0
+  kin_score: 3.6
   mcp: *id089
   name: Polleninfo (EAN)
   slug: polleninfo
@@ -2120,9 +2120,9 @@ providers:
   url: null
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.0
+  kin_score: 12.1
   mcp: *id093
   name: Servizio Meteo AM
   slug: meteoam
@@ -2133,7 +2133,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 2.2
+  kin_score: 1.3
   mcp: *id095
   name: SMG (Macao)
   slug: smg-macao
@@ -2142,9 +2142,9 @@ providers:
   url: /providers/smg-macao/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.4
+  kin_score: 12.5
   mcp: *id097
   name: SMHI
   slug: smhi
@@ -2155,7 +2155,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.4
+  kin_score: 2.9
   mcp: *id099
   name: Vedurstofa Islands
   slug: vedur
@@ -2163,10 +2163,10 @@ providers:
   tags: *id100
   url: /providers/vedur/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 26.9
   band: thin
   in_catalog: true
-  kin_score: 31.3
+  kin_score: 31.8
   mcp: *id101
   name: WMO Severe Weather
   slug: wmo

@@ -50,7 +50,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.5
+    kin_score: 3.6
     mcp: &id001
       status: unknown
     slug: buienradar
@@ -137,10 +137,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.8
+    agent_readiness: 17.4
     band: thin
     in_catalog: true
-    kin_score: 29.6
+    kin_score: 28.3
     mcp: &id007
       status: none
     slug: open-meteo
@@ -166,11 +166,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 22.5
+    agent_band: agent-ready
+    agent_readiness: 30.0
     band: strong
     in_catalog: true
-    kin_score: 60.4
+    kin_score: 59.1
     mcp: &id009
       source: https://mcp.openweathermap.org/
       status: verified
@@ -201,7 +201,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.3
+    kin_score: 2.4
     mcp: &id011
       source: https://pirateweather.net/
       status: documented
@@ -228,9 +228,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.4
+    kin_score: 12.5
     mcp: &id013
       status: none
     slug: smhi
@@ -257,10 +257,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
-    band: developing
+    agent_readiness: 33.4
+    band: strong
     in_catalog: true
-    kin_score: 52.9
+    kin_score: 64.3
     mcp: &id015
       status: none
     slug: met-office
@@ -287,10 +287,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_readiness: 22.8
     band: thin
     in_catalog: true
-    kin_score: 36.6
+    kin_score: 35.6
     mcp: &id017
       status: none
     slug: weather-gov
@@ -317,10 +317,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
+    agent_readiness: 23.9
     band: strong
     in_catalog: true
-    kin_score: 55.6
+    kin_score: 56.5
     mcp: &id019
       status: unknown
     slug: weatherapi
@@ -347,10 +347,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.2
     band: thin
     in_catalog: true
-    kin_score: 39.1
+    kin_score: 38.8
     mcp: &id021
       status: none
     slug: weatherbit
@@ -380,7 +380,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.5
+    kin_score: 3.6
     mcp: &id023
       status: none
     slug: weatherflow
@@ -410,7 +410,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.4
+    kin_score: 7.3
     mcp: &id025
       status: none
     slug: meteorologisk-institutt
@@ -436,7 +436,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.5
+  kin_score: 3.6
   mcp: *id001
   name: Buienradar
   slug: buienradar
@@ -466,21 +466,21 @@ providers:
   tags: *id006
   url: /providers/finnish-meteorological-institute/
 - agent_band: agent-aware
-  agent_readiness: 17.8
+  agent_readiness: 17.4
   band: thin
   in_catalog: true
-  kin_score: 29.6
+  kin_score: 28.3
   mcp: *id007
   name: Open-Meteo
   slug: open-meteo
   status: profiled
   tags: *id008
   url: /providers/open-meteo/
-- agent_band: agent-aware
-  agent_readiness: 22.5
+- agent_band: agent-ready
+  agent_readiness: 30.0
   band: strong
   in_catalog: true
-  kin_score: 60.4
+  kin_score: 59.1
   mcp: *id009
   name: OpenWeatherMap
   slug: openweathermap
@@ -491,7 +491,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.3
+  kin_score: 2.4
   mcp: *id011
   name: Pirate Weather
   slug: pirate-weather
@@ -500,9 +500,9 @@ providers:
   url: /providers/pirate-weather/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.4
+  kin_score: 12.5
   mcp: *id013
   name: SMHI
   slug: smhi
@@ -510,10 +510,10 @@ providers:
   tags: *id014
   url: /providers/smhi/
 - agent_band: agent-ready
-  agent_readiness: 34.2
-  band: developing
+  agent_readiness: 33.4
+  band: strong
   in_catalog: true
-  kin_score: 52.9
+  kin_score: 64.3
   mcp: *id015
   name: UK Met Office DataHub
   slug: met-office
@@ -521,10 +521,10 @@ providers:
   tags: *id016
   url: /providers/met-office/
 - agent_band: agent-aware
-  agent_readiness: 23.3
+  agent_readiness: 22.8
   band: thin
   in_catalog: true
-  kin_score: 36.6
+  kin_score: 35.6
   mcp: *id017
   name: weather.gov (NWS)
   slug: weather-gov
@@ -532,10 +532,10 @@ providers:
   tags: *id018
   url: /providers/weather-gov/
 - agent_band: agent-aware
-  agent_readiness: 23.7
+  agent_readiness: 23.9
   band: strong
   in_catalog: true
-  kin_score: 55.6
+  kin_score: 56.5
   mcp: *id019
   name: WeatherAPI.com
   slug: weatherapi
@@ -543,10 +543,10 @@ providers:
   tags: *id020
   url: /providers/weatherapi/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.2
   band: thin
   in_catalog: true
-  kin_score: 39.1
+  kin_score: 38.8
   mcp: *id021
   name: Weatherbit
   slug: weatherbit
@@ -557,7 +557,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.5
+  kin_score: 3.6
   mcp: *id023
   name: WeatherFlow (Tempest)
   slug: weatherflow
@@ -568,7 +568,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.4
+  kin_score: 7.3
   mcp: *id025
   name: yr.no (MET Norway)
   slug: meteorologisk-institutt

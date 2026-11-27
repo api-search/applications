@@ -48,11 +48,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -83,7 +83,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 6.0
     mcp: &id003
       status: unknown
     slug: chhoto-url
@@ -110,10 +110,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id005
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -141,10 +141,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.2
+    agent_readiness: 28.6
     band: thin
     in_catalog: true
-    kin_score: 29.0
+    kin_score: 28.9
     mcp: &id007
       status: none
     slug: shlink
@@ -174,7 +174,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 14.8
+    kin_score: 20.4
     mcp: &id009
       status: none
     slug: yourls
@@ -198,11 +198,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/pastebin-file-drop/privatebin/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -213,7 +213,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 6.0
   mcp: *id003
   name: Chhoto URL
   slug: chhoto-url
@@ -221,10 +221,10 @@ providers:
   tags: *id004
   url: /providers/chhoto-url/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id005
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -232,10 +232,10 @@ providers:
   tags: *id006
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-ready
-  agent_readiness: 29.2
+  agent_readiness: 28.6
   band: thin
   in_catalog: true
-  kin_score: 29.0
+  kin_score: 28.9
   mcp: *id007
   name: Shlink
   slug: shlink
@@ -246,7 +246,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 14.8
+  kin_score: 20.4
   mcp: *id009
   name: YOURLS
   slug: yourls

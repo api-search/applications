@@ -50,10 +50,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 45.2
     band: developing
     in_catalog: true
-    kin_score: 49.3
+    kin_score: 50.7
     mcp: &id001
       source: https://github.com/mapbox/mcp-server
       status: verified
@@ -80,11 +80,11 @@ integrations:
     via_parent: Geocoding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 26.5
+    agent_band: agent-ready
+    agent_readiness: 32.5
     band: developing
     in_catalog: true
-    kin_score: 40.3
+    kin_score: 41.0
     mcp: &id003
       status: none
     slug: maptiler
@@ -111,10 +111,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id005
       status: none
     slug: nextcloud
@@ -141,10 +141,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id007
       status: none
     slug: nominatim
@@ -171,10 +171,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 1.7
     band: minimal
     in_catalog: true
-    kin_score: 7.9
+    kin_score: 8.5
     mcp: &id009
       source: https://github.com/OpenCageData/opencage-geocoding-mcp
       status: verified
@@ -201,7 +201,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.1
+    agent_readiness: 40.9
     band: developing
     in_catalog: true
     kin_score: 48.8
@@ -230,21 +230,21 @@ noindex: false
 permalink: /applications/photo-management/librephotos/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 45.2
   band: developing
   in_catalog: true
-  kin_score: 49.3
+  kin_score: 50.7
   mcp: *id001
   name: mapbox
   slug: mapbox
   status: profiled
   tags: *id002
   url: /providers/mapbox/
-- agent_band: agent-aware
-  agent_readiness: 26.5
+- agent_band: agent-ready
+  agent_readiness: 32.5
   band: developing
   in_catalog: true
-  kin_score: 40.3
+  kin_score: 41.0
   mcp: *id003
   name: maptiler
   slug: maptiler
@@ -252,10 +252,10 @@ providers:
   tags: *id004
   url: /providers/maptiler/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id005
   name: nextcloud
   slug: nextcloud
@@ -263,10 +263,10 @@ providers:
   tags: *id006
   url: /providers/nextcloud/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id007
   name: nominatim
   slug: nominatim
@@ -274,10 +274,10 @@ providers:
   tags: *id008
   url: /providers/nominatim/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 1.7
   band: minimal
   in_catalog: true
-  kin_score: 7.9
+  kin_score: 8.5
   mcp: *id009
   name: opencage
   slug: opencage
@@ -285,7 +285,7 @@ providers:
   tags: *id010
   url: /providers/opencage/
 - agent_band: agent-ready
-  agent_readiness: 36.1
+  agent_readiness: 40.9
   band: developing
   in_catalog: true
   kin_score: 48.8

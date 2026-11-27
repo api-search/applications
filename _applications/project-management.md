@@ -1660,36 +1660,8 @@ stack:
       url: /capabilities/software-construction-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 63.4
-      apps:
-      - Asana
-      - Leantime
-      - OpenProject
-      - Plane
-      - Taiga
-      band: exemplar
-      in_catalog: true
-      kin_score: 85.4
-      mcp:
-        source: https://github.com/github/github-mcp-server
-        status: verified
-      name: GitHub
-      slug: github
-      sources:
-      - https://asana.com/apps
-      - https://github.com/makeplane/plane/tree/preview/apps/api/plane/authentication/provider/oauth
-      - https://github.com/taigaio/taiga-back/tree/main/taiga/hooks
-      status: profiled
-      tags:
-      - Code
-      - Developer Tools
-      - Pipelines
-      - Platform
-      tier: observed
-      url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Asana
       - Leantime
@@ -1698,7 +1670,7 @@ stack:
       - Taiga
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -1717,13 +1689,41 @@ stack:
       tier: observed
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 62.4
+      apps:
+      - Asana
+      - Leantime
+      - OpenProject
+      - Plane
+      - Taiga
+      band: exemplar
+      in_catalog: true
+      kin_score: 85.0
+      mcp:
+        source: https://github.com/github/github-mcp-server
+        status: verified
+      name: GitHub
+      slug: github
+      sources:
+      - https://asana.com/apps
+      - https://github.com/makeplane/plane/tree/preview/apps/api/plane/authentication/provider/oauth
+      - https://github.com/taigaio/taiga-back/tree/main/taiga/hooks
+      status: profiled
+      tags:
+      - Code
+      - Developer Tools
+      - Pipelines
+      - Platform
+      tier: observed
+      url: /providers/github/
+    - agent_band: agent-ready
+      agent_readiness: 35.0
       apps:
       - Leantime
       - Plane
       band: exemplar
       in_catalog: true
-      kin_score: 69.8
+      kin_score: 68.1
       mcp:
         source: https://gitea.com/gitea/gitea-mcp
         status: verified
@@ -1741,12 +1741,12 @@ stack:
       tier: observed
       url: /providers/gitea/
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 35.3
       apps:
       - Taiga
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 71.9
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -1763,12 +1763,12 @@ stack:
       tier: observed
       url: /providers/bitbucket/
     - agent_band: agent-ready
-      agent_readiness: 29.0
+      agent_readiness: 32.1
       apps:
       - Taiga
       band: thin
       in_catalog: true
-      kin_score: 31.1
+      kin_score: 34.0
       mcp:
         status: none
       name: Gogs
@@ -1792,13 +1792,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - Asana
       - Taiga
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp:
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -1816,13 +1816,13 @@ stack:
       tier: observed
       url: /providers/jira/
     - agent_band: agent-ready
-      agent_readiness: 28.7
+      agent_readiness: 30.8
       apps:
       - Taiga
       - Vikunja
       band: exemplar
       in_catalog: true
-      kin_score: 75.6
+      kin_score: 74.8
       mcp:
         source: https://github.com/atlassian/trello-mcp-server
         status: verified
@@ -1840,12 +1840,12 @@ stack:
       tier: observed
       url: /providers/trello/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.3
       apps:
       - Taiga
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 72.5
       mcp:
         source: https://developers.asana.com/docs/using-asanas-mcp-server
         status: verified
@@ -1870,14 +1870,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Asana
       - Plane
       - Taiga
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -1904,12 +1904,33 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.6
+      agent_readiness: 25.9
       apps:
       - Vikunja
       band: strong
       in_catalog: true
-      kin_score: 55.7
+      kin_score: 58.2
+      mcp:
+        status: none
+      name: Microsoft To Do
+      slug: microsoft-to-do
+      sources:
+      - https://github.com/go-vikunja/vikunja/tree/main/pkg/modules/migration
+      status: profiled
+      tags:
+      - Microsoft
+      - Microsoft 365
+      - Productivity
+      - Task
+      tier: observed
+      url: /providers/microsoft-to-do/
+    - agent_band: agent-aware
+      agent_readiness: 22.2
+      apps:
+      - Vikunja
+      band: developing
+      in_catalog: true
+      kin_score: 53.8
       mcp:
         source: https://developer.todoist.com/api/v1/#tag/MCP
         status: verified
@@ -1926,33 +1947,12 @@ stack:
       tier: observed
       url: /providers/todoist/
     - agent_band: agent-aware
-      agent_readiness: 25.9
-      apps:
-      - Vikunja
-      band: developing
-      in_catalog: true
-      kin_score: 52.8
-      mcp:
-        status: none
-      name: Microsoft To Do
-      slug: microsoft-to-do
-      sources:
-      - https://github.com/go-vikunja/vikunja/tree/main/pkg/modules/migration
-      status: profiled
-      tags:
-      - Microsoft
-      - Microsoft 365
-      - Productivity
-      - Task
-      tier: observed
-      url: /providers/microsoft-to-do/
-    - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - Vikunja
       band: emerging
       in_catalog: true
-      kin_score: 17.6
+      kin_score: 25.5
       mcp:
         source: https://help.ticktick.com/articles/7438129581631995904
         status: verified
@@ -1977,12 +1977,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 10.8
+      agent_readiness: 10.6
       apps:
       - OpenProject
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 13.1
       mcp:
         source: https://github.com/xwiki-contrib/ai-llm
         status: verified
@@ -2007,12 +2007,12 @@ stack:
       via_parent: Content Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.8
+      agent_readiness: 59.2
       apps:
       - Asana
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.6
+      kin_score: 75.1
       mcp:
         source: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server
         status: verified
@@ -2037,12 +2037,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Asana
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2068,15 +2068,15 @@ stack:
       url: /capabilities/tenant-identity-federation/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Leantime
       - OpenProject
       - Plane
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -2094,13 +2094,13 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Leantime
       - OpenProject
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft Entra ID
@@ -2117,12 +2117,12 @@ stack:
       tier: observed
       url: /providers/microsoft-entra/
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - Leantime
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -2139,12 +2139,12 @@ stack:
       tier: observed
       url: /providers/okta/
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 37.2
       apps:
       - Leantime
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 73.1
       mcp:
         status: none
       name: authentik
@@ -2160,12 +2160,12 @@ stack:
       tier: observed
       url: /providers/authentik/
     - agent_band: agent-ready
-      agent_readiness: 39.9
+      agent_readiness: 39.5
       apps:
       - Leantime
       band: exemplar
       in_catalog: true
-      kin_score: 72.1
+      kin_score: 71.8
       mcp:
         source: https://auth0.com/docs/get-started/auth0-mcp-server
         status: verified
@@ -2182,12 +2182,12 @@ stack:
       tier: observed
       url: /providers/auth0/
     - agent_band: agent-aware
-      agent_readiness: 22.1
+      agent_readiness: 27.2
       apps:
       - Leantime
       band: strong
       in_catalog: true
-      kin_score: 61.2
+      kin_score: 58.7
       mcp:
         status: none
       name: PropelAuth
@@ -2203,7 +2203,7 @@ stack:
       tier: observed
       url: /providers/propelauth/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.3
       apps:
       - Leantime
       band: thin
@@ -2242,7 +2242,7 @@ stack:
       - monday.com (Android)
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2261,12 +2261,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 36.0
       apps:
       - OpenProject
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 39.1
+      kin_score: 51.6
       mcp:
         source: https://github.com/appsignal/appsignal-mcp
         status: verified
@@ -2283,12 +2283,12 @@ stack:
       tier: observed
       url: /providers/appsignal/
     - agent_band: agent-aware
-      agent_readiness: 22.2
+      agent_readiness: 21.7
       apps:
       - Plane
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.9
+      kin_score: 41.8
       mcp:
         source: https://github.com/scoutapp/scout-mcp-local
         status: verified
@@ -2305,12 +2305,12 @@ stack:
       tier: observed
       url: /providers/scout-apm/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - OpenProject
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 27.3
+      kin_score: 25.8
       mcp:
         status: none
       name: Airbrake
@@ -2333,40 +2333,40 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Asana
       - Trello (Android)
       - monday.com (Android)
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase (Analytics/Crashlytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.asana.app/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.monday.monday/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.trello/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Asana
       - Jira (Android)
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -2384,13 +2384,13 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Jira (Android)
       - Trello (Android)
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Twilio Segment
@@ -2407,12 +2407,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 58.1
+      agent_readiness: 56.9
       apps:
       - Taiga
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 79.1
       mcp:
         source: https://github.com/rudderlabs/rudderstack-mcp
         status: verified
@@ -2437,12 +2437,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.2
+      agent_readiness: 32.3
       apps:
       - OpenProject
       band: strong
       in_catalog: true
-      kin_score: 58.5
+      kin_score: 60.9
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2459,12 +2459,12 @@ stack:
       tier: observed
       url: /providers/sharepoint/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - OpenProject
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: Microsoft OneDrive
@@ -2480,12 +2480,12 @@ stack:
       tier: observed
       url: /providers/microsoft-onedrive/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - OpenProject
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp:
         status: none
       name: Nextcloud
@@ -2501,12 +2501,12 @@ stack:
       tier: observed
       url: /providers/nextcloud/
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Asana
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2523,12 +2523,12 @@ stack:
       tier: declared
       url: /providers/google-drive/
     - agent_band: agent-ready
-      agent_readiness: 57.4
+      agent_readiness: 56.6
       apps:
       - Asana
       band: strong
       in_catalog: true
-      kin_score: 65.5
+      kin_score: 63.0
       mcp:
         source: https://developer.box.com/guides/box-mcp/
         status: verified
@@ -2545,12 +2545,12 @@ stack:
       tier: declared
       url: /providers/box/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Asana
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -2574,13 +2574,13 @@ stack:
       url: /capabilities/bot-protection-captcha/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - OpenProject
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Google reCAPTCHA
@@ -2596,12 +2596,12 @@ stack:
       tier: observed
       url: /providers/google-recaptcha/
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 17.5
       apps:
       - OpenProject
       band: thin
       in_catalog: true
-      kin_score: 31.5
+      kin_score: 31.1
       mcp:
         status: none
       name: hCaptcha
@@ -2617,12 +2617,12 @@ stack:
       tier: observed
       url: /providers/hcaptcha/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 24.2
       apps:
       - OpenProject
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 28.8
       mcp:
         source: https://github.com/cloudflare/mcp
         status: verified
@@ -2646,13 +2646,13 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - OpenProject
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -2669,12 +2669,12 @@ stack:
       tier: observed
       url: /providers/google-gmail/
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - Asana
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2690,13 +2690,13 @@ stack:
       - Enterprise
       tier: declared
       url: /providers/microsoft-outlook/
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Asana
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2720,15 +2720,15 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Leantime
       - OpenProject
       - Vikunja
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2754,13 +2754,13 @@ stack:
       url: /capabilities/analytics-bi-management/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 30.6
+    - agent_band: agent-aware
+      agent_readiness: 28.3
       apps:
       - Asana
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 76.0
       mcp:
         source: https://github.com/microsoft/powerbi-modeling-mcp
         status: verified
@@ -2777,12 +2777,12 @@ stack:
       tier: declared
       url: /providers/power-bi/
     - agent_band: agent-ready
-      agent_readiness: 46.3
+      agent_readiness: 55.0
       apps:
       - Asana
       band: developing
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 49.9
       mcp:
         source: https://github.com/tableau/tableau-mcp
         status: verified
@@ -2807,12 +2807,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Asana
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -2829,12 +2829,12 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Asana
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2859,12 +2859,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.0
+      agent_readiness: 29.4
       apps:
       - Leantime
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 27.1
+      kin_score: 26.1
       mcp:
         status: none
       name: Crisp
@@ -2880,12 +2880,12 @@ stack:
       tier: observed
       url: /providers/crisp/
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Asana
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -2914,7 +2914,7 @@ stack:
       - Asana
       band: emerging
       in_catalog: true
-      kin_score: 19.7
+      kin_score: 18.4
       mcp:
         status: none
       name: Loom
@@ -2938,12 +2938,12 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.3
+      agent_readiness: 32.7
       apps:
       - Vikunja
       band: developing
       in_catalog: true
-      kin_score: 39.8
+      kin_score: 41.2
       mcp:
         source: https://github.com/Automattic/mcp-server-gravatar
         status: verified
@@ -2968,12 +2968,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 71.4
+      agent_readiness: 70.0
       apps:
       - Asana
       band: exemplar
       in_catalog: true
-      kin_score: 79.9
+      kin_score: 87.3
       mcp:
         source: https://www.canva.dev/docs/mcp/
         status: verified
@@ -2998,12 +2998,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.1
+      agent_readiness: 52.6
       apps:
       - Vikunja
       band: developing
       in_catalog: true
-      kin_score: 40.2
+      kin_score: 39.4
       mcp:
         status: none
       name: Unsplash
@@ -3027,12 +3027,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - monday.com (Android)
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3057,12 +3057,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Leantime
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3087,12 +3087,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 25.8
       apps:
       - monday.com (Android)
       band: thin
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 38.0
       mcp:
         status: none
       name: Pusher
@@ -3116,12 +3116,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Asana
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -3145,12 +3145,12 @@ stack:
       via_parent: Retrieval & Embeddings
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 30.6
       apps:
       - Leantime
       band: thin
       in_catalog: true
-      kin_score: 38.8
+      kin_score: 36.6
       mcp:
         source: https://github.com/qdrant/mcp-server-qdrant
         status: verified
@@ -3174,12 +3174,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Asana
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -3206,12 +3206,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Plane
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -3228,12 +3228,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Plane
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -3250,12 +3250,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - Plane
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google Gemini
@@ -3282,7 +3282,7 @@ summary:
     unchecked: 0
     verified: 42
   mcp_verified: 42
-  mean_kin_score: 58.2
+  mean_kin_score: 60.7
   observed: 46
   queued: 0
   reference_apps: 9

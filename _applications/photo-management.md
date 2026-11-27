@@ -953,12 +953,12 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 45.2
       apps:
       - LibrePhotos
       band: developing
       in_catalog: true
-      kin_score: 49.3
+      kin_score: 50.7
       mcp:
         source: https://github.com/mapbox/mcp-server
         status: verified
@@ -975,7 +975,7 @@ stack:
       tier: observed
       url: /providers/mapbox/
     - agent_band: agent-ready
-      agent_readiness: 36.1
+      agent_readiness: 40.9
       apps:
       - LibrePhotos
       band: developing
@@ -997,12 +997,12 @@ stack:
       tier: observed
       url: /providers/tomtom/
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 25.7
       apps:
       - LibrePhotos
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.7
       mcp: &id001
         status: none
       name: nominatim
@@ -1017,13 +1017,13 @@ stack:
       - OpenStreetMap
       tier: observed
       url: /providers/nominatim/
-    - agent_band: agent-aware
-      agent_readiness: 26.5
+    - agent_band: agent-ready
+      agent_readiness: 32.5
       apps:
       - LibrePhotos
       band: developing
       in_catalog: true
-      kin_score: 40.3
+      kin_score: 41.0
       mcp: &id003
         status: none
       name: maptiler
@@ -1039,12 +1039,12 @@ stack:
       tier: observed
       url: /providers/maptiler/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.7
       apps:
       - LibrePhotos
       band: minimal
       in_catalog: true
-      kin_score: 7.9
+      kin_score: 8.5
       mcp:
         source: https://github.com/OpenCageData/opencage-geocoding-mcp
         status: verified
@@ -1068,13 +1068,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - LibrePhotos
       - Nextcloud Memories
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp: &id005
         status: none
       name: nextcloud
@@ -1099,12 +1099,12 @@ stack:
       via_parent: Geocoding
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 25.7
       apps:
       - Lychee
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 43.7
       mcp: *id001
       name: nominatim
       slug: nominatim
@@ -1122,13 +1122,13 @@ stack:
       url: /capabilities/maps-tiles/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 26.5
+    - agent_band: agent-ready
+      agent_readiness: 32.5
       apps:
       - PhotoPrism
       band: developing
       in_catalog: true
-      kin_score: 40.3
+      kin_score: 41.0
       mcp: *id003
       name: maptiler
       slug: maptiler
@@ -1152,7 +1152,7 @@ stack:
       - Immich
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 4.3
       mcp:
         status: none
       name: geonames
@@ -1176,13 +1176,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Flickr
       - Lychee
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: facebook
@@ -1199,12 +1199,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Lychee
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -1221,12 +1221,12 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 37.2
       apps:
       - Lychee
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 73.1
       mcp:
         status: none
       name: authentik
@@ -1242,12 +1242,12 @@ stack:
       tier: observed
       url: /providers/authentik/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Lychee
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: microsoft-entra
@@ -1263,54 +1263,33 @@ stack:
       tier: observed
       url: /providers/microsoft-entra/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 33.7
       apps:
       - Lychee
       band: strong
       in_catalog: true
-      kin_score: 55.2
-      mcp: &id009
-        status: none
-      name: apple
-      slug: apple
-      sources:
-      - https://github.com/LycheeOrg/Lychee/blob/master/composer.json
-      status: profiled
-      tags: &id010
-      - Apple
-      - Developers
-      - iOS
-      - macOS
-      tier: observed
-      url: /providers/apple/
-    - agent_band: agent-ready
-      agent_readiness: 31.8
-      apps:
-      - Lychee
-      band: strong
-      in_catalog: true
-      kin_score: 54.6
+      kin_score: 58.8
       mcp:
         status: none
-      name: authelia
-      slug: authelia
+      name: google-identity-platform
+      slug: google-identity-platform
       sources:
       - https://github.com/LycheeOrg/Lychee/blob/master/composer.json
       status: profiled
       tags:
       - Authentication
-      - Authorization
-      - LDAP
-      - MFA
+      - Google Cloud
+      - Identity
+      - Multi-Tenancy
       tier: observed
-      url: /providers/authelia/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+      url: /providers/google-identity-platform/
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Lychee
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -1326,29 +1305,50 @@ stack:
       - E-Commerce
       tier: observed
       url: /providers/amazon/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 31.2
       apps:
       - Lychee
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 55.6
       mcp:
         status: none
-      name: google-identity-platform
-      slug: google-identity-platform
+      name: authelia
+      slug: authelia
       sources:
       - https://github.com/LycheeOrg/Lychee/blob/master/composer.json
       status: profiled
       tags:
       - Authentication
-      - Google Cloud
-      - Identity
-      - Multi-Tenancy
+      - Authorization
+      - LDAP
+      - MFA
       tier: observed
-      url: /providers/google-identity-platform/
+      url: /providers/authelia/
+    - agent_band: agent-ready
+      agent_readiness: 36.5
+      apps:
+      - Lychee
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
+      mcp: &id009
+        status: none
+      name: apple
+      slug: apple
+      sources:
+      - https://github.com/LycheeOrg/Lychee/blob/master/composer.json
+      status: profiled
+      tags: &id010
+      - Apple
+      - Developers
+      - iOS
+      - macOS
+      tier: observed
+      url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.3
       apps:
       - Lychee
       band: thin
@@ -1369,12 +1369,12 @@ stack:
       tier: observed
       url: /providers/keycloak/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Lychee
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp: *id005
       name: nextcloud
       slug: nextcloud
@@ -1385,12 +1385,12 @@ stack:
       tier: observed
       url: /providers/nextcloud/
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 22.0
       apps:
       - Lychee
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 25.5
       mcp:
         status: none
       name: mastodon
@@ -1406,12 +1406,12 @@ stack:
       tier: observed
       url: /providers/mastodon/
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 16.9
       apps:
       - Lychee
       band: emerging
       in_catalog: true
-      kin_score: 19.1
+      kin_score: 25.1
       mcp:
         status: none
       name: pocket-id
@@ -1432,7 +1432,7 @@ stack:
       - Lychee
       band: minimal
       in_catalog: true
-      kin_score: 7.5
+      kin_score: 9.5
       mcp:
         status: none
       name: kanidm
@@ -1456,12 +1456,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 66.2
+      agent_readiness: 65.1
       apps:
       - Amazon Photos
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 68.0
       mcp:
         status: none
       name: moengage
@@ -1476,35 +1476,35 @@ stack:
       - Push Notifications
       tier: observed
       url: /providers/moengage/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Ente Photos
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id007
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/ente-io/ente/blob/main/server/configurations/local.yaml
       status: profiled
       tags: &id008
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: declared
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - Lychee
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -1529,12 +1529,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Lychee
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: &id011
         source: https://docs.stripe.com/mcp
         status: verified
@@ -1551,12 +1551,12 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-native
-      agent_readiness: 73.2
+      agent_readiness: 71.7
       apps:
       - Lychee
       band: exemplar
       in_catalog: true
-      kin_score: 68.2
+      kin_score: 68.1
       mcp:
         source: https://docs.mollie.com/docs/mcp-server
         status: verified
@@ -1573,12 +1573,12 @@ stack:
       tier: observed
       url: /providers/mollie/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Lychee
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -1602,31 +1602,31 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Flickr
       - Google Photos
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id007
       name: firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.google.android.apps.photos/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.yahoo.mobile.client.android.flickr/latest/
       status: profiled
       tags: *id008
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Flickr
       band: emerging
       in_catalog: true
-      kin_score: 20.6
+      kin_score: 18.6
       mcp:
         status: none
       name: flurry
@@ -1649,13 +1649,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Lychee
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -1671,13 +1671,13 @@ stack:
       - Cloud Storage
       tier: observed
       url: /providers/amazon-s3/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-aware
+      agent_readiness: 27.4
       apps:
       - Ente Photos
       band: developing
       in_catalog: true
-      kin_score: 50.9
+      kin_score: 49.6
       mcp:
         source: https://github.com/backblaze-labs/b2-mcp
         status: verified
@@ -1699,7 +1699,7 @@ stack:
       - Ente Photos
       band: emerging
       in_catalog: true
-      kin_score: 24.0
+      kin_score: 23.4
       mcp:
         status: none
       name: wasabi
@@ -1723,12 +1723,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Ente Photos
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp: *id009
       name: apple
       slug: apple
@@ -1738,13 +1738,13 @@ stack:
       tags: *id010
       tier: observed
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Ente Photos
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: google-play
@@ -1768,12 +1768,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Flickr
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: google-admob
@@ -1797,12 +1797,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Ente Photos
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: discord
@@ -1826,12 +1826,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Amazon Photos
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: branch-io
@@ -1852,12 +1852,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Ente Photos
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: *id011
       name: stripe
       slug: stripe
@@ -1879,7 +1879,7 @@ summary:
     unchecked: 0
     verified: 12
   mcp_verified: 12
-  mean_kin_score: 44.6
+  mean_kin_score: 47.2
   observed: 28
   queued: 0
   reference_apps: 11

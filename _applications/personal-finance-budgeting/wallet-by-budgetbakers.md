@@ -66,10 +66,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id001
       status: none
     slug: facebook
@@ -95,22 +95,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id003
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id004
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase
   provider: firebase
@@ -127,10 +127,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.3
+    agent_readiness: 47.7
     band: strong
     in_catalog: true
-    kin_score: 60.3
+    kin_score: 60.8
     mcp: &id005
       source: https://docs.mixpanel.com/docs/features/mcp
       status: verified
@@ -158,10 +158,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-native
-    agent_readiness: 66.2
+    agent_readiness: 65.1
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 68.0
     mcp: &id007
       status: none
     slug: moengage
@@ -188,10 +188,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.4
-    band: thin
+    agent_readiness: 21.9
+    band: emerging
     in_catalog: true
-    kin_score: 26.9
+    kin_score: 26.1
     mcp: &id009
       status: none
     slug: salt-edge
@@ -216,32 +216,32 @@ noindex: false
 permalink: /applications/personal-finance-budgeting/wallet-by-budgetbakers/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id001
   name: Facebook
   slug: facebook
   status: profiled
   tags: *id002
   url: /providers/facebook/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id003
-  name: Firebase
-  slug: firebase
-  status: profiled
-  tags: *id004
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 48.3
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 60.3
+  kin_score: 62.0
+  mcp: *id003
+  name: Firebase
+  slug: google-firebase
+  status: profiled
+  tags: *id004
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 47.7
+  band: strong
+  in_catalog: true
+  kin_score: 60.8
   mcp: *id005
   name: Mixpanel
   slug: mixpanel
@@ -249,10 +249,10 @@ providers:
   tags: *id006
   url: /providers/mixpanel/
 - agent_band: agent-native
-  agent_readiness: 66.2
+  agent_readiness: 65.1
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 68.0
   mcp: *id007
   name: MoEngage
   slug: moengage
@@ -260,10 +260,10 @@ providers:
   tags: *id008
   url: /providers/moengage/
 - agent_band: agent-aware
-  agent_readiness: 22.4
-  band: thin
+  agent_readiness: 21.9
+  band: emerging
   in_catalog: true
-  kin_score: 26.9
+  kin_score: 26.1
   mcp: *id009
   name: Salt Edge
   slug: salt-edge

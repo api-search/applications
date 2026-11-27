@@ -1089,13 +1089,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 52.1
+      agent_readiness: 51.1
       apps:
       - Maybe
       - YNAB
       band: exemplar
       in_catalog: true
-      kin_score: 83.4
+      kin_score: 86.3
       mcp:
         source: https://plaid.com/docs/resources/mcp/
         status: verified
@@ -1113,13 +1113,13 @@ stack:
       tier: observed
       url: /providers/plaid/
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 33.1
       apps:
       - Actual Budget
       - Firefly III
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 47.6
+      kin_score: 56.0
       mcp:
         status: none
       name: Akahu
@@ -1136,13 +1136,13 @@ stack:
       tier: observed
       url: /providers/akahu/
     - agent_band: agent-aware
-      agent_readiness: 26.5
+      agent_readiness: 25.9
       apps:
       - Actual Budget
       - Firefly III
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 39.9
+      kin_score: 39.1
       mcp:
         status: none
       name: Enable Banking
@@ -1159,13 +1159,13 @@ stack:
       tier: observed
       url: /providers/enable-banking/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Actual Budget
       - Firefly III
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.9
+      kin_score: 14.7
       mcp:
         status: none
       name: SimpleFIN Bridge
@@ -1188,7 +1188,7 @@ stack:
       - Firefly III
       band: minimal
       in_catalog: true
-      kin_score: 5.1
+      kin_score: 4.2
       mcp:
         source: https://github.com/gocardless/gc-mcp
         status: verified
@@ -1204,12 +1204,12 @@ stack:
       tier: observed
       url: /providers/nordigen/
     - agent_band: agent-ready
-      agent_readiness: 59.4
+      agent_readiness: 60.9
       apps:
       - Actual Budget
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 61.7
+      kin_score: 75.3
       mcp:
         source: https://github.com/pluggyai/pluggy-mcp
         status: verified
@@ -1226,12 +1226,12 @@ stack:
       tier: observed
       url: /providers/pluggy/
     - agent_band: agent-ready
-      agent_readiness: 38.4
+      agent_readiness: 34.8
       apps:
       - Firefly III
       band: thin
       in_catalog: true
-      kin_score: 33.1
+      kin_score: 38.7
       mcp:
         source: https://www.lunchflow.app/docs/guides/destinations/mcp
         status: verified
@@ -1253,7 +1253,7 @@ stack:
       - Firefly III
       band: emerging
       in_catalog: true
-      kin_score: 15.3
+      kin_score: 24.3
       mcp:
         source: https://sophtron.com/mcp-server/
         status: verified
@@ -1270,12 +1270,12 @@ stack:
       tier: observed
       url: /providers/sophtron/
     - agent_band: agent-aware
-      agent_readiness: 26.7
+      agent_readiness: 26.6
       apps:
       - YNAB
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.0
+      kin_score: 66.7
       mcp:
         status: none
       name: MX
@@ -1291,12 +1291,12 @@ stack:
       tier: declared
       url: /providers/mx-technologies/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - YNAB
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple (Apple Wallet)
@@ -1312,12 +1312,12 @@ stack:
       tier: declared
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 21.9
       apps:
       - Wallet by BudgetBakers
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.9
+      kin_score: 26.1
       mcp:
         status: none
       name: Salt Edge
@@ -1341,12 +1341,12 @@ stack:
       via_parent: Market & Financial Data
     providers:
     - agent_band: agent-native
-      agent_readiness: 41.2
+      agent_readiness: 49.6
       apps:
       - Ghostfolio
       band: exemplar
       in_catalog: true
-      kin_score: 69.5
+      kin_score: 69.0
       mcp:
         status: none
       name: Financial Modeling Prep
@@ -1362,12 +1362,12 @@ stack:
       tier: observed
       url: /providers/financial-modeling-prep/
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Ghostfolio
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -1382,12 +1382,12 @@ stack:
       tier: observed
       url: /providers/google-sheets/
     - agent_band: agent-ready
-      agent_readiness: 58.3
+      agent_readiness: 53.1
       apps:
       - Ghostfolio
       band: strong
       in_catalog: true
-      kin_score: 62.2
+      kin_score: 60.7
       mcp:
         source: https://github.com/EodHistoricalData/EODHD-MCP-Server
         status: verified
@@ -1404,34 +1404,12 @@ stack:
       tier: observed
       url: /providers/eodhd/
     - agent_band: agent-ready
-      agent_readiness: 51.4
-      apps:
-      - Ghostfolio
-      band: strong
-      in_catalog: true
-      kin_score: 54.4
-      mcp:
-        source: https://github.com/alphavantage/alpha_vantage_mcp
-        status: verified
-      name: Alpha Vantage
-      slug: alpha-vantage
-      sources:
-      - https://github.com/ghostfolio/ghostfolio/tree/main/apps/api/src/services/data-provider
-      status: profiled
-      tags:
-      - Fintech
-      - Foreign Exchange
-      - Market Data
-      - Stocks
-      tier: observed
-      url: /providers/alpha-vantage/
-    - agent_band: agent-ready
-      agent_readiness: 46.2
+      agent_readiness: 47.4
       apps:
       - Ghostfolio
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 52.4
       mcp:
         source: https://docs.coingecko.com/reference/mcp-server
         status: verified
@@ -1447,13 +1425,35 @@ stack:
       - Cryptocurrency
       tier: observed
       url: /providers/coingecko/
-    - agent_band: agent-aware
-      agent_readiness: 16.2
+    - agent_band: agent-ready
+      agent_readiness: 50.5
       apps:
       - Ghostfolio
       band: developing
       in_catalog: true
-      kin_score: 41.4
+      kin_score: 50.6
+      mcp:
+        source: https://github.com/alphavantage/alpha_vantage_mcp
+        status: verified
+      name: Alpha Vantage
+      slug: alpha-vantage
+      sources:
+      - https://github.com/ghostfolio/ghostfolio/tree/main/apps/api/src/services/data-provider
+      status: profiled
+      tags:
+      - Fintech
+      - Foreign Exchange
+      - Market Data
+      - Stocks
+      tier: observed
+      url: /providers/alpha-vantage/
+    - agent_band: agent-aware
+      agent_readiness: 15.8
+      apps:
+      - Ghostfolio
+      band: developing
+      in_catalog: true
+      kin_score: 42.6
       mcp:
         status: none
       name: Yahoo Finance
@@ -1469,12 +1469,12 @@ stack:
       tier: observed
       url: /providers/yahoo/
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 32.6
       apps:
       - Ghostfolio
       band: developing
       in_catalog: true
-      kin_score: 41.3
+      kin_score: 39.5
       mcp:
         status: none
       name: RapidAPI
@@ -1490,12 +1490,12 @@ stack:
       tier: observed
       url: /providers/rapidapi/
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.9
       apps:
       - Ghostfolio
       band: thin
       in_catalog: true
-      kin_score: 33.7
+      kin_score: 32.2
       mcp:
         status: none
       name: OpenFIGI
@@ -1514,7 +1514,7 @@ stack:
       - Ghostfolio
       band: minimal
       in_catalog: true
-      kin_score: 2.0
+      kin_score: 1.1
       mcp:
         status: none
       name: Trackinsight
@@ -1561,40 +1561,40 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Monarch Money
       - Wallet by BudgetBakers
       - YNAB
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.droid4you.application.wallet/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.monarchmoney.mobile/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.youneedabudget.evergreen.app/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Monarch Money
       - YNAB
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -1612,12 +1612,12 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 47.7
       apps:
       - Wallet by BudgetBakers
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -1634,12 +1634,12 @@ stack:
       tier: observed
       url: /providers/mixpanel/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Monarch Money
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -1655,12 +1655,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 30.0
       apps:
       - Monarch Money
       band: thin
       in_catalog: true
-      kin_score: 37.1
+      kin_score: 37.4
       mcp:
         source: https://developer.fullstory.com/mcp/introduction/
         status: documented
@@ -1691,7 +1691,7 @@ stack:
       - Monarch Money
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1709,12 +1709,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - YNAB
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -1731,12 +1731,12 @@ stack:
       tier: observed
       url: /providers/bugsnag/
     - agent_band: agent-ready
-      agent_readiness: 58.0
+      agent_readiness: 57.8
       apps:
       - Maybe
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 70.7
       mcp:
         source: https://betterstack.com/docs/getting-started/integrations/mcp/
         status: documented
@@ -1756,9 +1756,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Maybe
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 17.8
+      kin_score: 26.8
       mcp:
         status: unknown
       name: Skylight
@@ -1782,13 +1782,13 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Monarch Money
       - Wallet by BudgetBakers
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp:
         status: none
       name: Facebook
@@ -1804,13 +1804,13 @@ stack:
       - Fortune 500
       tier: observed
       url: /providers/facebook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Ghostfolio
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -1834,13 +1834,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Ghostfolio
       - Maybe
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -1866,12 +1866,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Firefly III
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -1895,13 +1895,13 @@ stack:
       url: /capabilities/asset-storage-tiering/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Maybe
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -1926,12 +1926,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 66.2
+      agent_readiness: 65.1
       apps:
       - Wallet by BudgetBakers
       band: exemplar
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 68.0
       mcp:
         status: none
       name: MoEngage
@@ -1955,12 +1955,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.7
+      agent_readiness: 32.5
       apps:
       - Maybe
       band: developing
       in_catalog: true
-      kin_score: 52.5
+      kin_score: 51.0
       mcp:
         source: https://developers.intercom.com/docs/guides/mcp
         status: verified
@@ -1985,12 +1985,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 50.0
+      agent_readiness: 48.9
       apps:
       - Monarch Money
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.4
+      kin_score: 65.9
       mcp:
         status: none
       name: Singular
@@ -2014,12 +2014,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Maybe
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -2044,12 +2044,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 46.4
       apps:
       - Ghostfolio
       band: strong
       in_catalog: true
-      kin_score: 55.4
+      kin_score: 54.8
       mcp:
         source: https://openrouter.ai/docs/guides/overview/mcp-server
         status: verified
@@ -2074,12 +2074,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.0
+      agent_readiness: 21.6
       apps:
       - Firefly III
       band: thin
       in_catalog: true
-      kin_score: 29.2
+      kin_score: 28.1
       mcp:
         status: none
       name: Pushover
@@ -2103,12 +2103,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - Ghostfolio
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -2133,12 +2133,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Maybe
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -2163,12 +2163,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 56.5
       apps:
       - Firefly III
       band: strong
       in_catalog: true
-      kin_score: 59.5
+      kin_score: 57.5
       mcp:
         source: https://developers.mailersend.com/mcp-server.html
         status: verified
@@ -2193,12 +2193,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - YNAB
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2226,7 +2226,7 @@ summary:
     unchecked: 1
     verified: 23
   mcp_verified: 23
-  mean_kin_score: 52.7
+  mean_kin_score: 54.4
   observed: 41
   queued: 1
   reference_apps: 7

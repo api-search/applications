@@ -843,13 +843,13 @@ stack:
       tags: []
       tier: observed
       url: null
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Calibre-Web
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -865,13 +865,13 @@ stack:
       - E-Commerce
       tier: observed
       url: /providers/amazon/
-    - agent_band: agent-aware
-      agent_readiness: 25.4
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Calibre-Web
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 34.1
+      kin_score: 54.5
       mcp:
         status: none
       name: Google Books
@@ -887,12 +887,12 @@ stack:
       tier: observed
       url: /providers/google-books/
     - agent_band: agent-aware
-      agent_readiness: 6.5
+      agent_readiness: 6.3
       apps:
       - Calibre-Web
       band: emerging
       in_catalog: true
-      kin_score: 24.1
+      kin_score: 24.8
       mcp:
         status: none
       name: Goodreads
@@ -908,12 +908,12 @@ stack:
       tier: observed
       url: /providers/goodreads/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.1
       apps:
       - Calibre-Web
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: unknown
       name: Comic Vine
@@ -932,28 +932,7 @@ stack:
       - Calibre-Web
       band: minimal
       in_catalog: true
-      kin_score: 4.2
-      mcp:
-        status: unknown
-      name: LubimyCzytac
-      slug: lubimyczytac
-      sources:
-      - https://github.com/janeczku/calibre-web/tree/master/cps/metadata_provider
-      status: profiled
-      tags:
-      - Books
-      - Company
-      - Price Comparison
-      - Reviews
-      tier: observed
-      url: /providers/lubimyczytac/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Calibre-Web
-      band: minimal
-      in_catalog: true
-      kin_score: 4.0
+      kin_score: 3.7
       mcp:
         status: none
       name: Douban
@@ -968,6 +947,27 @@ stack:
       - Social
       tier: observed
       url: /providers/douban/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Calibre-Web
+      band: minimal
+      in_catalog: true
+      kin_score: 3.3
+      mcp:
+        status: unknown
+      name: LubimyCzytac
+      slug: lubimyczytac
+      sources:
+      - https://github.com/janeczku/calibre-web/tree/master/cps/metadata_provider
+      status: profiled
+      tags:
+      - Books
+      - Company
+      - Price Comparison
+      - Reviews
+      tier: observed
+      url: /providers/lubimyczytac/
   - capability:
       attribution: API Evangelist extension
       id: AE-110.40.10
@@ -977,12 +977,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 51.5
+      agent_readiness: 45.0
       apps:
       - Readest
       band: exemplar
       in_catalog: true
-      kin_score: 78.4
+      kin_score: 76.0
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -999,34 +999,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure/
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 33.9
       apps:
       - Readest
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.8
-      mcp:
-        source: https://github.com/DeepL/deepl-mcp-server
-        status: verified
-      name: DeepL
-      slug: deepl
-      sources:
-      - https://github.com/readest/readest/tree/main/apps/readest-app/src/services/translators/providers/deepl.ts
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Deep Learning
-      - Glossary
-      - Localization
-      tier: observed
-      url: /providers/deepl/
-    - agent_band: agent-aware
-      agent_readiness: 17.9
-      apps:
-      - Readest
-      band: developing
-      in_catalog: true
-      kin_score: 51.6
+      kin_score: 68.0
       mcp:
         status: none
       name: Google Translate
@@ -1042,12 +1020,34 @@ stack:
       tier: observed
       url: /providers/google-translate/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 36.1
+      apps:
+      - Readest
+      band: strong
+      in_catalog: true
+      kin_score: 61.4
+      mcp:
+        source: https://github.com/DeepL/deepl-mcp-server
+        status: verified
+      name: DeepL
+      slug: deepl
+      sources:
+      - https://github.com/readest/readest/tree/main/apps/readest-app/src/services/translators/providers/deepl.ts
+      status: profiled
+      tags:
+      - Artificial Intelligence
+      - Deep Learning
+      - Glossary
+      - Localization
+      tier: observed
+      url: /providers/deepl/
+    - agent_band: agent-ready
+      agent_readiness: 29.9
       apps:
       - Readest
       band: thin
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 36.5
       mcp:
         status: none
       name: Yandex Translate
@@ -1070,13 +1070,13 @@ stack:
       url: /capabilities/watch-listen-history-sync/
       via_parent: null
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 36.6
+    - agent_band: agent-aware
+      agent_readiness: 27.8
       apps:
       - Kavita
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 48.3
       mcp:
         status: none
       name: AniList
@@ -1092,12 +1092,12 @@ stack:
       tier: observed
       url: /providers/anilist/
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 30.3
       apps:
       - Kavita
       band: thin
       in_catalog: true
-      kin_score: 28.6
+      kin_score: 37.7
       mcp:
         status: none
       name: Hardcover
@@ -1118,7 +1118,7 @@ stack:
       - Kavita
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: none
       name: MyAnimeList
@@ -1140,12 +1140,12 @@ stack:
       via_parent: News & Publishing
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - KOReader
       band: emerging
       in_catalog: true
-      kin_score: 17.3
+      kin_score: 20.1
       mcp:
         status: none
       name: wallabag
@@ -1169,12 +1169,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.8
+      agent_readiness: 29.3
       apps:
       - KOReader
       band: developing
       in_catalog: true
-      kin_score: 43.0
+      kin_score: 41.8
       mcp:
         status: none
       name: Wikipedia
@@ -1225,13 +1225,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Calibre-Web
       - Readest
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1249,12 +1249,12 @@ stack:
       tier: observed
       url: /providers/google-drive/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Readest
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple (iCloud)
@@ -1270,12 +1270,12 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - Readest
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: OneDrive
@@ -1291,12 +1291,12 @@ stack:
       tier: observed
       url: /providers/microsoft-onedrive/
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - KOReader
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -1321,13 +1321,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Goodreads
       - Kindle
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -1350,7 +1350,7 @@ stack:
       - Readest
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1366,28 +1366,28 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Kindle
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.amazon.kindle/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-4280.30
@@ -1397,12 +1397,28 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 39.9
+      apps:
+      - Goodreads
+      band: strong
+      in_catalog: true
+      kin_score: 62.0
+      mcp: *id001
+      name: Firebase
+      slug: google-firebase
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.goodreads/latest/
+      status: profiled
+      tags: *id002
+      tier: observed
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 56.2
       apps:
       - Readest
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -1418,22 +1434,6 @@ stack:
       - Open Source
       tier: observed
       url: /providers/posthog/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
-      apps:
-      - Goodreads
-      band: developing
-      in_catalog: true
-      kin_score: 50.3
-      mcp: *id001
-      name: Firebase
-      slug: firebase
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.goodreads/latest/
-      status: profiled
-      tags: *id002
-      tier: observed
-      url: /providers/firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-160.10.30
@@ -1443,12 +1443,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Calibre-Web
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -1464,13 +1464,13 @@ stack:
       - Platform
       tier: observed
       url: /providers/github/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Calibre-Web
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -1494,12 +1494,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - Readest
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp:
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -1524,12 +1524,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Goodreads
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -1552,13 +1552,13 @@ stack:
       url: /capabilities/in-app-purchases-app-store-billing/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Readest
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: Google Play
@@ -1582,12 +1582,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 48.2
       apps:
       - Readest
       band: developing
       in_catalog: true
-      kin_score: 49.1
+      kin_score: 49.4
       mcp:
         source: https://github.com/supabase/mcp
         status: verified
@@ -1612,12 +1612,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Readest
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -1649,7 +1649,7 @@ stack:
       - Readest
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp:
         status: none
       name: Ollama
@@ -1676,7 +1676,7 @@ summary:
     unchecked: 2
     verified: 13
   mcp_verified: 13
-  mean_kin_score: 46.5
+  mean_kin_score: 50.2
   observed: 33
   queued: 2
   reference_apps: 7

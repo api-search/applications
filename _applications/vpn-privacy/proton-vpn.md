@@ -46,11 +46,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.7
+    band: developing
     in_catalog: true
-    kin_score: 31.6
+    kin_score: 51.3
     mcp: &id001
       status: none
     slug: google-play
@@ -80,7 +80,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id003
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -105,11 +105,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/vpn-privacy/proton-vpn/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.7
+  band: developing
   in_catalog: true
-  kin_score: 31.6
+  kin_score: 51.3
   mcp: *id001
   name: Google Play Install Referrer
   slug: google-play
@@ -120,7 +120,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id003
   name: Sentry
   slug: sentry-system

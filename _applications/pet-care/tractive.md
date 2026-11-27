@@ -85,22 +85,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id005
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id006
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics / Crashlytics
   provider: firebase
@@ -117,10 +117,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id009
       status: none
     slug: google-tag-manager
@@ -147,10 +147,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.8
+    agent_readiness: 34.5
     band: thin
     in_catalog: true
-    kin_score: 35.1
+    kin_score: 33.8
     mcp: &id001
       status: none
     slug: affirm
@@ -177,10 +177,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_readiness: 30.4
     band: developing
     in_catalog: true
-    kin_score: 43.6
+    kin_score: 43.0
     mcp: &id003
       status: none
     slug: apple-pay
@@ -207,10 +207,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 39.7
     band: strong
     in_catalog: true
-    kin_score: 66.2
+    kin_score: 65.2
     mcp: &id007
       status: none
     slug: google-pay
@@ -263,10 +263,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id013
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -292,10 +292,10 @@ noindex: false
 permalink: /applications/pet-care/tractive/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 29.8
+  agent_readiness: 34.5
   band: thin
   in_catalog: true
-  kin_score: 35.1
+  kin_score: 33.8
   mcp: *id001
   name: Affirm
   slug: affirm
@@ -303,32 +303,32 @@ providers:
   tags: *id002
   url: /providers/affirm/
 - agent_band: agent-ready
-  agent_readiness: 31.1
+  agent_readiness: 30.4
   band: developing
   in_catalog: true
-  kin_score: 43.6
+  kin_score: 43.0
   mcp: *id003
   name: Apple Pay
   slug: apple-pay
   status: profiled
   tags: *id004
   url: /providers/apple-pay/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id005
-  name: Google Firebase Analytics / Crashlytics
-  slug: firebase
-  status: profiled
-  tags: *id006
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 66.2
+  kin_score: 62.0
+  mcp: *id005
+  name: Google Firebase Analytics / Crashlytics
+  slug: google-firebase
+  status: profiled
+  tags: *id006
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 39.7
+  band: strong
+  in_catalog: true
+  kin_score: 65.2
   mcp: *id007
   name: Google Pay
   slug: google-pay
@@ -336,10 +336,10 @@ providers:
   tags: *id008
   url: /providers/google-pay/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 35.8
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 65.8
   mcp: *id009
   name: Google Tag Manager
   slug: google-tag-manager
@@ -358,10 +358,10 @@ providers:
   tags: *id012
   url: null
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id013
   name: PayPal
   slug: paypal

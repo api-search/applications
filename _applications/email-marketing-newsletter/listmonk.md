@@ -79,10 +79,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.4
+    agent_readiness: 38.0
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 83.8
     mcp: &id003
       status: none
     slug: amazon-ses
@@ -109,10 +109,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 73.7
     mcp: &id005
       status: none
     slug: microsoft-azure-communication-services
@@ -139,10 +139,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.2
-    band: developing
+    agent_readiness: 38.2
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 61.3
     mcp: &id009
       source: https://github.com/forwardemail/mcp-server
       status: verified
@@ -170,10 +170,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 31.5
+    kin_score: 31.1
     mcp: &id011
       status: none
     slug: hcaptcha
@@ -200,10 +200,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.0
+    agent_readiness: 24.1
     band: developing
     in_catalog: true
-    kin_score: 40.4
+    kin_score: 53.7
     mcp: &id013
       source: https://lettermint.co/docs/mcp
       status: verified
@@ -231,10 +231,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.7
+    agent_readiness: 43.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.3
+    kin_score: 70.5
     mcp: &id019
       source: https://github.com/ActiveCampaign/postmark-mcp
       status: verified
@@ -262,10 +262,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id023
       status: none
     slug: sendgrid
@@ -292,20 +292,21 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.7
+    agent_readiness: 37.9
     band: exemplar
     in_catalog: true
-    kin_score: 83.3
+    kin_score: 68.5
     mcp: &id001
-      status: none
-    slug: amazon-pinpoint
+      source: https://github.com/awslabs/mcp
+      status: verified
+    slug: amazon-web-services
     status: profiled
     tags: &id002
+    - Amazon
     - Amazon Web Services
-    - Campaigns
-    - Communications
-    - Email
-    url: /providers/amazon-pinpoint/
+    - Cloud
+    - Networks
+    url: /providers/amazon-web-services/
   layer: common
   name: Amazon Pinpoint (SMS)
   provider: amazon-pinpoint
@@ -321,22 +322,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id007
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id008
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase Cloud Messaging
   provider: firebase
@@ -353,10 +354,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 56.5
     band: strong
     in_catalog: true
-    kin_score: 59.5
+    kin_score: 57.5
     mcp: &id015
       source: https://developers.mailersend.com/mcp-server.html
       status: verified
@@ -387,7 +388,7 @@ integrations:
     agent_readiness: 61.2
     band: exemplar
     in_catalog: true
-    kin_score: 71.0
+    kin_score: 71.7
     mcp: &id017
       source: https://github.com/novuhq/novu-mcp-server
       status: verified
@@ -415,10 +416,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.4
+    agent_readiness: 49.8
     band: strong
     in_catalog: true
-    kin_score: 58.9
+    kin_score: 56.8
     mcp: &id021
       source: https://resend.com/docs/mcp-server
       status: verified
@@ -446,10 +447,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.4
+    agent_readiness: 25.2
     band: minimal
     in_catalog: true
-    kin_score: 6.6
+    kin_score: 8.9
     mcp: &id025
       status: none
     slug: verimor
@@ -472,21 +473,21 @@ noindex: false
 permalink: /applications/email-marketing-newsletter/listmonk/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 34.7
+  agent_readiness: 37.9
   band: exemplar
   in_catalog: true
-  kin_score: 83.3
+  kin_score: 68.5
   mcp: *id001
   name: Amazon Pinpoint (SMS)
-  slug: amazon-pinpoint
+  slug: amazon-web-services
   status: profiled
   tags: *id002
-  url: /providers/amazon-pinpoint/
+  url: /providers/amazon-web-services/
 - agent_band: agent-ready
-  agent_readiness: 39.4
+  agent_readiness: 38.0
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 83.8
   mcp: *id003
   name: Amazon SES
   slug: amazon-ses
@@ -494,32 +495,32 @@ providers:
   tags: *id004
   url: /providers/amazon-ses/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 73.7
   mcp: *id005
   name: Azure Communication Services
   slug: microsoft-azure-communication-services
   status: profiled
   tags: *id006
   url: /providers/microsoft-azure-communication-services/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id007
   name: Firebase Cloud Messaging
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id008
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 33.2
-  band: developing
+  agent_readiness: 38.2
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 61.3
   mcp: *id009
   name: Forward Email (forwardemail.net)
   slug: forward-email
@@ -527,10 +528,10 @@ providers:
   tags: *id010
   url: /providers/forward-email/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 31.5
+  kin_score: 31.1
   mcp: *id011
   name: hCaptcha
   slug: hcaptcha
@@ -538,10 +539,10 @@ providers:
   tags: *id012
   url: /providers/hcaptcha/
 - agent_band: agent-aware
-  agent_readiness: 23.0
+  agent_readiness: 24.1
   band: developing
   in_catalog: true
-  kin_score: 40.4
+  kin_score: 53.7
   mcp: *id013
   name: Lettermint
   slug: lettermint
@@ -549,10 +550,10 @@ providers:
   tags: *id014
   url: /providers/lettermint/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 56.5
   band: strong
   in_catalog: true
-  kin_score: 59.5
+  kin_score: 57.5
   mcp: *id015
   name: MailerSend
   slug: mailersend
@@ -563,7 +564,7 @@ providers:
   agent_readiness: 61.2
   band: exemplar
   in_catalog: true
-  kin_score: 71.0
+  kin_score: 71.7
   mcp: *id017
   name: Novu
   slug: novu
@@ -571,10 +572,10 @@ providers:
   tags: *id018
   url: /providers/novu/
 - agent_band: agent-ready
-  agent_readiness: 41.7
+  agent_readiness: 43.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.3
+  kin_score: 70.5
   mcp: *id019
   name: Postmark
   slug: postmark
@@ -582,10 +583,10 @@ providers:
   tags: *id020
   url: /providers/postmark/
 - agent_band: agent-ready
-  agent_readiness: 49.4
+  agent_readiness: 49.8
   band: strong
   in_catalog: true
-  kin_score: 58.9
+  kin_score: 56.8
   mcp: *id021
   name: Resend
   slug: resend
@@ -593,10 +594,10 @@ providers:
   tags: *id022
   url: /providers/resend/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id023
   name: SendGrid
   slug: sendgrid
@@ -604,10 +605,10 @@ providers:
   tags: *id024
   url: /providers/sendgrid/
 - agent_band: agent-aware
-  agent_readiness: 20.4
+  agent_readiness: 25.2
   band: minimal
   in_catalog: true
-  kin_score: 6.6
+  kin_score: 8.9
   mcp: *id025
   name: Verimor (SMS, Turkey)
   slug: verimor

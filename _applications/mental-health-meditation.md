@@ -1049,13 +1049,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Medito
       - Pixy Mood Tracker
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple HealthKit
@@ -1072,13 +1072,13 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - Medito
       - Sleep as Android
       band: emerging
       in_catalog: true
-      kin_score: 13.7
+      kin_score: 16.1
       mcp:
         status: none
       name: Google Health Connect
@@ -1095,12 +1095,12 @@ stack:
       tier: observed
       url: /providers/health-connect/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Sleep as Android
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1116,34 +1116,13 @@ stack:
       - Google
       tier: declared
       url: /providers/google/
-    - agent_band: agent-aware
-      agent_readiness: 25.4
+    - agent_band: agent-ready
+      agent_readiness: 33.1
       apps:
       - Sleep as Android
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 36.8
-      mcp:
-        status: none
-      name: Xiaomi Mi Band
-      slug: xiaomi
-      sources:
-      - https://sleep.urbandroid.org/docs/services/
-      status: profiled
-      tags:
-      - Consumer Electronics
-      - IoT
-      - Mobile
-      - Smart Home
-      tier: declared
-      url: /providers/xiaomi/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
-      apps:
-      - Sleep as Android
-      band: thin
-      in_catalog: true
-      kin_score: 36.2
+      kin_score: 51.4
       mcp:
         status: none
       name: Google Fit
@@ -1158,13 +1137,34 @@ stack:
       - Health
       tier: declared
       url: /providers/google-fitness/
-    - agent_band: agent-ready
-      agent_readiness: 37.3
+    - agent_band: agent-aware
+      agent_readiness: 24.9
       apps:
       - Sleep as Android
       band: thin
       in_catalog: true
-      kin_score: 34.1
+      kin_score: 35.6
+      mcp:
+        status: none
+      name: Xiaomi Mi Band
+      slug: xiaomi
+      sources:
+      - https://sleep.urbandroid.org/docs/services/
+      status: profiled
+      tags:
+      - Consumer Electronics
+      - IoT
+      - Mobile
+      - Smart Home
+      tier: declared
+      url: /providers/xiaomi/
+    - agent_band: agent-ready
+      agent_readiness: 36.6
+      apps:
+      - Sleep as Android
+      band: thin
+      in_catalog: true
+      kin_score: 33.2
       mcp:
         status: none
       name: Samsung Health
@@ -1179,34 +1179,13 @@ stack:
       - Mobile
       tier: declared
       url: /providers/samsung/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Sleep as Android
-      band: emerging
-      in_catalog: true
-      kin_score: 21.4
-      mcp:
-        status: none
-      name: Garmin
-      slug: garmin
-      sources:
-      - https://sleep.urbandroid.org/docs/services/
-      status: profiled
-      tags:
-      - Fitness
-      - GPS
-      - Outdoor
-      - Wearables
-      tier: declared
-      url: /providers/garmin/
     - agent_band: agent-aware
-      agent_readiness: 7.0
+      agent_readiness: 6.9
       apps:
       - Sleep as Android
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.3
+      kin_score: 29.7
       mcp:
         status: none
       name: Pebble smartwatch
@@ -1221,13 +1200,13 @@ stack:
       - Wearables
       tier: declared
       url: /providers/repebble/
-    - agent_band: agent-aware
-      agent_readiness: 7.4
+    - agent_band: human-only
+      agent_readiness: 4.4
       apps:
       - Sleep as Android
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 18.4
+      kin_score: 27.2
       mcp:
         status: unknown
       name: Amazfit (Zepp Health)
@@ -1242,6 +1221,27 @@ stack:
       - Wearables
       tier: declared
       url: /providers/zepp-health/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Sleep as Android
+      band: emerging
+      in_catalog: true
+      kin_score: 20.0
+      mcp:
+        status: none
+      name: Garmin
+      slug: garmin
+      sources:
+      - https://sleep.urbandroid.org/docs/services/
+      status: profiled
+      tags:
+      - Fitness
+      - GPS
+      - Outdoor
+      - Wearables
+      tier: declared
+      url: /providers/garmin/
   - capability:
       attribution: API Evangelist extension
       id: AE-170.20.10
@@ -1251,13 +1251,13 @@ stack:
       via_parent: Audio & Music
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.3
+      agent_readiness: 32.7
       apps:
       - Baseline
       - Sleep as Android
       band: developing
       in_catalog: true
-      kin_score: 49.8
+      kin_score: 50.6
       mcp:
         status: none
       name: Spotify embeds
@@ -1281,13 +1281,13 @@ stack:
       url: /capabilities/smart-home/
       via_parent: null
     providers:
-    - agent_band: human-only
-      agent_readiness: 5.0
+    - agent_band: agent-aware
+      agent_readiness: 5.6
       apps:
       - Sleep as Android
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.2
+      kin_score: 34.5
       mcp:
         source: https://www.home-assistant.io/integrations/mcp_server/
         status: verified
@@ -1304,12 +1304,12 @@ stack:
       tier: declared
       url: /providers/home-assistant/
     - agent_band: agent-aware
-      agent_readiness: 16.8
+      agent_readiness: 16.5
       apps:
       - Sleep as Android
       band: emerging
       in_catalog: true
-      kin_score: 16.0
+      kin_score: 15.4
       mcp:
         status: none
       name: MQTT
@@ -1332,13 +1332,13 @@ stack:
       url: /capabilities/smart-home/
       via_parent: Smart Home
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 17.2
+    - agent_band: agent-ready
+      agent_readiness: 29.5
       apps:
       - Sleep as Android
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 28.7
+      kin_score: 48.0
       mcp:
         status: unknown
       name: Google Assistant (App Actions)
@@ -1363,43 +1363,43 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Baseline
       - BetterHelp
       - Calm
       - Medito
       - Sleep as Android
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id001
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/meditohq/medito-app/blob/main/pubspec.yaml
       - https://github.com/nkalupahana/baseline/blob/main/package.json
       - https://reports.exodus-privacy.eu.org/en/reports/com.betterhelp/latest/
       status: profiled
       tags: &id002
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Calm
       - Headspace
       - Heylinda
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -1418,13 +1418,13 @@ stack:
       tier: observed
       url: /providers/amplitude/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Calm
       - Medito
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id003
         status: none
       name: Facebook App Events
@@ -1441,12 +1441,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Pixy Mood Tracker
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -1478,7 +1478,7 @@ stack:
       - Pixy Mood Tracker
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1496,18 +1496,18 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - BetterHelp
       - Calm
       - Medito
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/meditohq/medito-app/blob/main/pubspec.yaml
       - https://reports.exodus-privacy.eu.org/en/reports/com.betterhelp/latest/
@@ -1515,7 +1515,7 @@ stack:
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-902
@@ -1525,13 +1525,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - BetterHelp
       - Calm
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -1549,12 +1549,12 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Headspace
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -1575,12 +1575,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.3
+      agent_readiness: 42.4
       apps:
       - Sleep as Android
       band: emerging
       in_catalog: true
-      kin_score: 25.0
+      kin_score: 24.1
       mcp:
         source: https://github.com/IFTTT/ifttt-plugins
         status: verified
@@ -1602,7 +1602,7 @@ stack:
       - Sleep as Android
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 5.7
       mcp:
         status: none
       name: Automate (LlamaLab)
@@ -1643,12 +1643,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Sleep as Android
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -1664,12 +1664,12 @@ stack:
       tier: observed
       url: /providers/google-admob/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Sleep as Android
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook Ads
       slug: facebook
@@ -1687,13 +1687,13 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 43.2
       apps:
       - Baseline
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.1
+      kin_score: 66.8
       mcp:
         source: https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
         status: verified
@@ -1709,13 +1709,13 @@ stack:
       - Google
       tier: observed
       url: /providers/google-gmail/
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Sleep as Android
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -1739,24 +1739,24 @@ stack:
       url: /capabilities/push-notifications/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Baseline
       - Medito
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase Cloud Messaging
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/meditohq/medito-app/blob/main/pubspec.yaml
       - https://github.com/nkalupahana/baseline/blob/main/package.json
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-430.50
@@ -1766,12 +1766,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 19.6
       apps:
       - Headspace
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 45.7
       mcp:
         status: none
       name: Qualtrics
@@ -1794,22 +1794,22 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Baseline
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id001
       name: Firebase Authentication
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://github.com/nkalupahana/baseline/blob/main/package.json
       status: profiled
       tags: *id002
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-904
@@ -1819,12 +1819,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.3
+      agent_readiness: 34.4
       apps:
       - Pixy Mood Tracker
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 53.3
+      kin_score: 62.6
       mcp:
         source: https://superwall.com/docs/agents/mcp
         status: verified
@@ -1848,13 +1848,13 @@ stack:
       url: /capabilities/it-application-management/
       via_parent: IT Application Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 25.6
+    - agent_band: agent-ready
+      agent_readiness: 38.0
       apps:
       - Baseline
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 64.1
       mcp:
         source: https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp
         status: verified
@@ -1879,12 +1879,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Medito
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -1909,12 +1909,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Calm
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook Login
       slug: facebook
@@ -1933,12 +1933,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Baseline
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -1964,7 +1964,7 @@ summary:
     unchecked: 1
     verified: 13
   mcp_verified: 13
-  mean_kin_score: 42.7
+  mean_kin_score: 48.1
   observed: 17
   queued: 1
   reference_apps: 8

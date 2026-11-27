@@ -36,11 +36,11 @@ integrations:
     via_parent: Maps & Tiles
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.3
     band: developing
     in_catalog: true
-    kin_score: 44.4
+    kin_score: 45.5
     mcp: &id001
       status: none
     slug: openstreetmap
@@ -64,11 +64,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/fitness-nutrition/fittrackee/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: developing
   in_catalog: true
-  kin_score: 44.4
+  kin_score: 45.5
   mcp: *id001
   name: openstreetmap
   slug: openstreetmap

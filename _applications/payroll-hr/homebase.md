@@ -88,10 +88,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.7
+    agent_readiness: 56.9
     band: strong
     in_catalog: true
-    kin_score: 63.5
+    kin_score: 65.2
     mcp: &id003
       source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
       status: verified
@@ -119,10 +119,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id005
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -149,22 +149,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id011
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id012
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Crashlytics / Analytics)
   provider: firebase
@@ -181,10 +181,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.7
+    agent_readiness: 39.8
     band: developing
     in_catalog: true
-    kin_score: 43.7
+    kin_score: 45.6
     mcp: &id001
       status: none
     slug: adp
@@ -211,10 +211,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.8
+    agent_readiness: 29.2
     band: thin
     in_catalog: true
-    kin_score: 38.3
+    kin_score: 36.3
     mcp: &id007
       status: none
     slug: bank-of-america
@@ -241,10 +241,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.5
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 39.9
+    kin_score: 41.3
     mcp: &id009
       status: none
     slug: clover
@@ -271,10 +271,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.7
+    agent_readiness: 36.4
     band: thin
     in_catalog: true
-    kin_score: 31.7
+    kin_score: 30.4
     mcp: &id013
       source: https://developer.godaddy.com/mcp
       status: verified
@@ -302,10 +302,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 31.7
     band: developing
     in_catalog: true
-    kin_score: 42.0
+    kin_score: 44.9
     mcp: &id015
       status: none
     slug: gusto
@@ -335,7 +335,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 16.1
+    kin_score: 15.0
     mcp: &id017
       source: https://github.com/globalpayments/mcp-server
       status: verified
@@ -363,10 +363,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.0
+    agent_readiness: 42.1
     band: exemplar
     in_catalog: true
-    kin_score: 86.5
+    kin_score: 84.5
     mcp: &id019
       status: none
     slug: lightspeed
@@ -419,10 +419,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.5
+    agent_readiness: 37.6
     band: thin
     in_catalog: true
-    kin_score: 35.3
+    kin_score: 38.6
     mcp: &id023
       status: none
     slug: par-technology
@@ -448,11 +448,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.4
+    agent_band: agent-ready
+    agent_readiness: 29.3
     band: thin
     in_catalog: true
-    kin_score: 37.9
+    kin_score: 37.8
     mcp: &id025
       status: none
     slug: paychex-developer
@@ -478,11 +478,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id027
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -510,10 +510,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.5
+    agent_readiness: 51.8
     band: exemplar
     in_catalog: true
-    kin_score: 84.6
+    kin_score: 83.8
     mcp: &id029
       source: https://shopify.dev/docs/apps/build/devmcp
       status: verified
@@ -541,10 +541,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 62.8
+    agent_readiness: 61.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.1
+    kin_score: 78.2
     mcp: &id031
       source: https://developer.squareup.com/docs/mcp
       status: verified
@@ -572,10 +572,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.0
+    agent_readiness: 14.8
     band: emerging
     in_catalog: true
-    kin_score: 15.5
+    kin_score: 19.9
     mcp: &id033
       status: none
     slug: surepayroll
@@ -602,10 +602,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.6
+    agent_readiness: 38.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 68.3
     mcp: &id035
       status: none
     slug: toast
@@ -632,10 +632,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 24.8
     band: developing
     in_catalog: true
-    kin_score: 42.9
+    kin_score: 43.4
     mcp: &id037
       status: none
     slug: wells-fargo
@@ -659,10 +659,10 @@ noindex: false
 permalink: /applications/payroll-hr/homebase/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 35.7
+  agent_readiness: 39.8
   band: developing
   in_catalog: true
-  kin_score: 43.7
+  kin_score: 45.6
   mcp: *id001
   name: ADP
   slug: adp
@@ -670,10 +670,10 @@ providers:
   tags: *id002
   url: /providers/adp/
 - agent_band: agent-ready
-  agent_readiness: 56.7
+  agent_readiness: 56.9
   band: strong
   in_catalog: true
-  kin_score: 63.5
+  kin_score: 65.2
   mcp: *id003
   name: Amplitude
   slug: amplitude
@@ -681,10 +681,10 @@ providers:
   tags: *id004
   url: /providers/amplitude/
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id005
   name: AppsFlyer
   slug: appsflyer
@@ -692,10 +692,10 @@ providers:
   tags: *id006
   url: /providers/appsflyer/
 - agent_band: agent-ready
-  agent_readiness: 29.8
+  agent_readiness: 29.2
   band: thin
   in_catalog: true
-  kin_score: 38.3
+  kin_score: 36.3
   mcp: *id007
   name: Bank of America
   slug: bank-of-america
@@ -703,32 +703,32 @@ providers:
   tags: *id008
   url: /providers/bank-of-america/
 - agent_band: agent-ready
-  agent_readiness: 36.5
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 39.9
+  kin_score: 41.3
   mcp: *id009
   name: Clover
   slug: clover
   status: profiled
   tags: *id010
   url: /providers/clover/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id011
   name: Firebase (Crashlytics / Analytics)
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id012
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 36.7
+  agent_readiness: 36.4
   band: thin
   in_catalog: true
-  kin_score: 31.7
+  kin_score: 30.4
   mcp: *id013
   name: GoDaddy (POS)
   slug: godaddy
@@ -736,10 +736,10 @@ providers:
   tags: *id014
   url: /providers/godaddy/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 31.7
   band: developing
   in_catalog: true
-  kin_score: 42.0
+  kin_score: 44.9
   mcp: *id015
   name: Gusto
   slug: gusto
@@ -750,7 +750,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 16.1
+  kin_score: 15.0
   mcp: *id017
   name: Heartland
   slug: heartland-payment-systems
@@ -758,10 +758,10 @@ providers:
   tags: *id018
   url: /providers/heartland-payment-systems/
 - agent_band: agent-ready
-  agent_readiness: 43.0
+  agent_readiness: 42.1
   band: exemplar
   in_catalog: true
-  kin_score: 86.5
+  kin_score: 84.5
   mcp: *id019
   name: Lightspeed
   slug: lightspeed
@@ -780,32 +780,32 @@ providers:
   tags: *id022
   url: null
 - agent_band: agent-ready
-  agent_readiness: 41.5
+  agent_readiness: 37.6
   band: thin
   in_catalog: true
-  kin_score: 35.3
+  kin_score: 38.6
   mcp: *id023
   name: PAR
   slug: par-technology
   status: profiled
   tags: *id024
   url: /providers/par-technology/
-- agent_band: agent-aware
-  agent_readiness: 23.4
+- agent_band: agent-ready
+  agent_readiness: 29.3
   band: thin
   in_catalog: true
-  kin_score: 37.9
+  kin_score: 37.8
   mcp: *id025
   name: Paychex
   slug: paychex-developer
   status: profiled
   tags: *id026
   url: /providers/paychex-developer/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id027
   name: QuickBooks (Payroll)
   slug: quickbooks
@@ -813,10 +813,10 @@ providers:
   tags: *id028
   url: /providers/quickbooks/
 - agent_band: agent-ready
-  agent_readiness: 52.5
+  agent_readiness: 51.8
   band: exemplar
   in_catalog: true
-  kin_score: 84.6
+  kin_score: 83.8
   mcp: *id029
   name: Shopify POS
   slug: shopify
@@ -824,10 +824,10 @@ providers:
   tags: *id030
   url: /providers/shopify/
 - agent_band: agent-native
-  agent_readiness: 62.8
+  agent_readiness: 61.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.1
+  kin_score: 78.2
   mcp: *id031
   name: Square (POS + Square Payroll)
   slug: square
@@ -835,10 +835,10 @@ providers:
   tags: *id032
   url: /providers/square/
 - agent_band: agent-aware
-  agent_readiness: 18.0
+  agent_readiness: 14.8
   band: emerging
   in_catalog: true
-  kin_score: 15.5
+  kin_score: 19.9
   mcp: *id033
   name: SurePayroll
   slug: surepayroll
@@ -846,10 +846,10 @@ providers:
   tags: *id034
   url: /providers/surepayroll/
 - agent_band: agent-ready
-  agent_readiness: 39.6
+  agent_readiness: 38.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 68.3
   mcp: *id035
   name: Toast
   slug: toast
@@ -857,10 +857,10 @@ providers:
   tags: *id036
   url: /providers/toast/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 24.8
   band: developing
   in_catalog: true
-  kin_score: 42.9
+  kin_score: 43.4
   mcp: *id037
   name: Wells Fargo
   slug: wells-fargo

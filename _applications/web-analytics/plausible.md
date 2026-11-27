@@ -145,11 +145,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -177,10 +177,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id005
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -208,10 +208,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.9
+    agent_readiness: 30.7
     band: exemplar
     in_catalog: true
-    kin_score: 70.4
+    kin_score: 69.7
     mcp: &id007
       status: none
     slug: google-search-console
@@ -238,10 +238,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 24.8
     band: developing
     in_catalog: true
-    kin_score: 51.7
+    kin_score: 51.5
     mcp: &id011
       status: none
     slug: helpscout
@@ -268,10 +268,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.5
+    agent_readiness: 46.9
     band: thin
     in_catalog: true
-    kin_score: 28.7
+    kin_score: 28.6
     mcp: &id017
       source: https://github.com/PaddleHQ/paddle-mcp-server
       status: verified
@@ -299,10 +299,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.7
+    agent_readiness: 43.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.3
+    kin_score: 70.5
     mcp: &id019
       source: https://github.com/ActiveCampaign/postmark-mcp
       status: verified
@@ -333,7 +333,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id021
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -361,10 +361,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.3
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 79.4
+    kin_score: 79.0
     mcp: &id003
       status: none
     slug: ghost-org
@@ -391,10 +391,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id009
       status: none
     slug: google-tag-manager
@@ -421,10 +421,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id013
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -452,10 +452,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.2
+    agent_readiness: 34.0
     band: strong
     in_catalog: true
-    kin_score: 56.1
+    kin_score: 58.5
     mcp: &id015
       status: none
     slug: looker-studio
@@ -482,10 +482,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.5
+    agent_readiness: 51.8
     band: exemplar
     in_catalog: true
-    kin_score: 84.6
+    kin_score: 83.8
     mcp: &id023
       source: https://shopify.dev/docs/apps/build/devmcp
       status: verified
@@ -513,10 +513,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 49.5
+    agent_readiness: 48.5
     band: exemplar
     in_catalog: true
-    kin_score: 69.9
+    kin_score: 68.7
     mcp: &id025
       status: none
     slug: squarespace
@@ -546,7 +546,7 @@ integrations:
     agent_readiness: 62.5
     band: strong
     in_catalog: true
-    kin_score: 60.7
+    kin_score: 60.5
     mcp: &id027
       source: https://developers.webflow.com/mcp/reference/overview
       status: verified
@@ -574,10 +574,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.2
+    agent_readiness: 47.2
     band: thin
     in_catalog: true
-    kin_score: 35.6
+    kin_score: 35.5
     mcp: &id029
       source: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
       status: verified
@@ -605,10 +605,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.4
+    agent_readiness: 31.9
     band: developing
     in_catalog: true
-    kin_score: 46.0
+    kin_score: 46.6
     mcp: &id031
       source: https://github.com/WordPress/mcp-adapter
       status: verified
@@ -633,11 +633,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/web-analytics/plausible/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -645,10 +645,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 32.3
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 79.4
+  kin_score: 79.0
   mcp: *id003
   name: Ghost
   slug: ghost-org
@@ -656,10 +656,10 @@ providers:
   tags: *id004
   url: /providers/ghost-org/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id005
   name: Google Analytics
   slug: google-analytics
@@ -667,10 +667,10 @@ providers:
   tags: *id006
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 37.9
+  agent_readiness: 30.7
   band: exemplar
   in_catalog: true
-  kin_score: 70.4
+  kin_score: 69.7
   mcp: *id007
   name: Google Search Console
   slug: google-search-console
@@ -678,10 +678,10 @@ providers:
   tags: *id008
   url: /providers/google-search-console/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 35.8
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 65.8
   mcp: *id009
   name: Google Tag Manager
   slug: google-tag-manager
@@ -689,10 +689,10 @@ providers:
   tags: *id010
   url: /providers/google-tag-manager/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 24.8
   band: developing
   in_catalog: true
-  kin_score: 51.7
+  kin_score: 51.5
   mcp: *id011
   name: Help Scout
   slug: helpscout
@@ -700,10 +700,10 @@ providers:
   tags: *id012
   url: /providers/helpscout/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id013
   name: HubSpot
   slug: hubspot
@@ -711,10 +711,10 @@ providers:
   tags: *id014
   url: /providers/hubspot/
 - agent_band: agent-ready
-  agent_readiness: 36.2
+  agent_readiness: 34.0
   band: strong
   in_catalog: true
-  kin_score: 56.1
+  kin_score: 58.5
   mcp: *id015
   name: Looker Studio (Data Studio)
   slug: looker-studio
@@ -722,10 +722,10 @@ providers:
   tags: *id016
   url: /providers/looker-studio/
 - agent_band: agent-ready
-  agent_readiness: 47.5
+  agent_readiness: 46.9
   band: thin
   in_catalog: true
-  kin_score: 28.7
+  kin_score: 28.6
   mcp: *id017
   name: Paddle
   slug: paddle
@@ -733,10 +733,10 @@ providers:
   tags: *id018
   url: /providers/paddle/
 - agent_band: agent-ready
-  agent_readiness: 41.7
+  agent_readiness: 43.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.3
+  kin_score: 70.5
   mcp: *id019
   name: Postmark
   slug: postmark
@@ -747,7 +747,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id021
   name: Sentry
   slug: sentry-system
@@ -755,10 +755,10 @@ providers:
   tags: *id022
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 52.5
+  agent_readiness: 51.8
   band: exemplar
   in_catalog: true
-  kin_score: 84.6
+  kin_score: 83.8
   mcp: *id023
   name: Shopify
   slug: shopify
@@ -766,10 +766,10 @@ providers:
   tags: *id024
   url: /providers/shopify/
 - agent_band: agent-native
-  agent_readiness: 49.5
+  agent_readiness: 48.5
   band: exemplar
   in_catalog: true
-  kin_score: 69.9
+  kin_score: 68.7
   mcp: *id025
   name: Squarespace
   slug: squarespace
@@ -780,7 +780,7 @@ providers:
   agent_readiness: 62.5
   band: strong
   in_catalog: true
-  kin_score: 60.7
+  kin_score: 60.5
   mcp: *id027
   name: Webflow
   slug: webflow
@@ -788,10 +788,10 @@ providers:
   tags: *id028
   url: /providers/webflow/
 - agent_band: agent-ready
-  agent_readiness: 48.2
+  agent_readiness: 47.2
   band: thin
   in_catalog: true
-  kin_score: 35.6
+  kin_score: 35.5
   mcp: *id029
   name: Wix
   slug: wix
@@ -799,10 +799,10 @@ providers:
   tags: *id030
   url: /providers/wix/
 - agent_band: agent-ready
-  agent_readiness: 31.4
+  agent_readiness: 31.9
   band: developing
   in_catalog: true
-  kin_score: 46.0
+  kin_score: 46.6
   mcp: *id031
   name: WordPress
   slug: wordpress

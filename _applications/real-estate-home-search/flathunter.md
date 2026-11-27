@@ -54,8 +54,6 @@ capabilities:
   layer: common
   name: Web Scraping
   providers:
-  - 2captcha
-  - Capmonster
   - ImageTyperz
   url: /capabilities/web-data/
   via_parent: Web Data
@@ -74,7 +72,7 @@ category:
   url: /applications/real-estate-home-search/
 counts:
   declared: 1
-  observed: 15
+  observed: 13
 credits: []
 evidence:
 - route: dependency manifest
@@ -90,68 +88,6 @@ evidence:
 integrations:
 - capability:
     attribution: API Evangelist extension
-    id: AE-230.40.10
-    key: AE-230.40.10
-    name: Web Scraping
-    url: /capabilities/web-data/
-    via_parent: Web Data
-  credit: null
-  facts:
-    agent_band: agent-aware
-    agent_readiness: 12.9
-    band: thin
-    in_catalog: true
-    kin_score: 29.1
-    mcp: &id001
-      source: https://github.com/2captcha/2captcha-mcp
-      status: verified
-    slug: 2captcha
-    status: profiled
-    tags: &id002
-    - Automation
-    - CAPTCHA Solving
-    - Data Extraction
-    - Web Scraping
-    url: /providers/2captcha/
-  layer: common
-  name: 2captcha
-  provider: 2captcha
-  says: ships the 2captcha SDK or integration code
-  source: https://api.github.com/repos/flathunters/flathunter/contents/flathunter/captcha
-  tier: observed
-- capability:
-    attribution: API Evangelist extension
-    id: AE-230.40.10
-    key: AE-230.40.10
-    name: Web Scraping
-    url: /capabilities/web-data/
-    via_parent: Web Data
-  credit: null
-  facts:
-    agent_band: agent-aware
-    agent_readiness: 28.0
-    band: thin
-    in_catalog: true
-    kin_score: 27.3
-    mcp: &id003
-      source: https://github.com/CapMonsterCloud/capmonster-mcp-captcha-solver
-      status: verified
-    slug: capmonster
-    status: profiled
-    tags: &id004
-    - Artificial Intelligence
-    - Automation
-    - CAPTCHA
-    - Company
-    url: /providers/capmonster/
-  layer: common
-  name: Capmonster
-  provider: capmonster
-  says: ships the Capmonster SDK or integration code
-  source: https://api.github.com/repos/flathunters/flathunter/contents/flathunter/captcha
-  tier: observed
-- capability:
-    attribution: API Evangelist extension
     id: AE-915
     key: AE-915
     name: Managed Operational Databases
@@ -159,17 +95,17 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
+    agent_band: agent-ready
+    agent_readiness: 36.4
     band: strong
     in_catalog: true
-    kin_score: 54.4
-    mcp: &id005
+    kin_score: 64.4
+    mcp: &id001
       source: https://firebase.google.com/docs/cli/mcp-server
       status: verified
     slug: google-cloud-firestore
     status: profiled
-    tags: &id006
+    tags: &id002
     - Database
     - Documents
     - Google Cloud
@@ -195,11 +131,11 @@ integrations:
     band: null
     in_catalog: false
     kin_score: null
-    mcp: &id009
+    mcp: &id005
       status: unchecked
     slug: idealista
     status: queued for profiling
-    tags: &id010 []
+    tags: &id006 []
     url: null
   layer: domain
   name: idealista
@@ -217,15 +153,15 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 2.8
+    band: emerging
     in_catalog: true
-    kin_score: 9.9
-    mcp: &id011
+    kin_score: 13.6
+    mcp: &id007
       status: unknown
     slug: imagetyperz
     status: profiled
-    tags: &id012
+    tags: &id008
     - Automation
     - CAPTCHA
     - Company
@@ -247,15 +183,15 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 7.9
+    agent_readiness: 7.7
     band: emerging
     in_catalog: true
-    kin_score: 15.5
-    mcp: &id013
+    kin_score: 15.6
+    mcp: &id009
       status: none
     slug: immobiliare
     status: profiled
-    tags: &id014
+    tags: &id010
     - Company
     - Italy
     - Property Listings
@@ -277,15 +213,15 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_readiness: 21.3
+    band: strong
     in_catalog: true
-    kin_score: 47.9
-    mcp: &id015
+    kin_score: 57.8
+    mcp: &id011
       status: none
     slug: immobilienscout24
     status: profiled
-    tags: &id016
+    tags: &id012
     - Company
     - Germany
     - Marketplace
@@ -307,15 +243,15 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.9
+    agent_readiness: 15.7
     band: emerging
     in_catalog: true
-    kin_score: 23.1
-    mcp: &id017
+    kin_score: 23.9
+    mcp: &id013
       status: unknown
     slug: immowelt
     status: profiled
-    tags: &id018
+    tags: &id014
     - Austria
     - Germany
     - Marketplace
@@ -337,19 +273,19 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.9
-    band: emerging
+    agent_readiness: 20.4
+    band: thin
     in_catalog: true
-    kin_score: 22.9
-    mcp: &id019
+    kin_score: 29.7
+    mcp: &id015
       status: none
     slug: kleinanzeigen
     status: profiled
-    tags: &id020
+    tags: &id016
     - Classifieds
+    - FreeAds
     - Germany
     - Marketplace
-    - free-ads
     url: /providers/kleinanzeigen/
   layer: domain
   name: Kleinanzeigen
@@ -367,16 +303,16 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.7
+    agent_readiness: 25.2
     band: thin
     in_catalog: true
-    kin_score: 37.2
-    mcp: &id021
+    kin_score: 37.0
+    mcp: &id017
       source: https://github.com/mattermost/mmctl-mcp
       status: verified
     slug: mattermost
     status: profiled
-    tags: &id022
+    tags: &id018
     - Collaboration
     - Messaging
     - Open Source
@@ -398,16 +334,16 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
-    mcp: &id023
+    kin_score: 74.4
+    mcp: &id019
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
     slug: slack
     status: profiled
-    tags: &id024
+    tags: &id020
     - Bots
     - Chat
     - Collaboration
@@ -430,14 +366,14 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.0
-    mcp: &id025
+    kin_score: 13.2
+    mcp: &id021
       status: unknown
     slug: subito
     status: profiled
-    tags: &id026
+    tags: &id022
     - Classifieds
     - E-Commerce
     - Italy
@@ -459,15 +395,15 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
-    mcp: &id027
+    kin_score: 56.8
+    mcp: &id023
       status: none
     slug: telegram
     status: profiled
-    tags: &id028
+    tags: &id024
     - Bots
     - Chat
     - Messaging
@@ -492,12 +428,12 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.3
-    mcp: &id029
+    kin_score: 5.2
+    mcp: &id025
       status: unknown
     slug: vrm-immo
     status: profiled
-    tags: &id030
+    tags: &id026
     - Company
     - Germany
     - Marketplace
@@ -522,12 +458,12 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.4
-    mcp: &id031
+    kin_score: 2.6
+    mcp: &id027
       status: unknown
     slug: wg-gesucht
     status: profiled
-    tags: &id032
+    tags: &id028
     - Germany
     - Housing
     - Marketplace
@@ -549,16 +485,16 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
-    mcp: &id007
+    kin_score: 73.6
+    mcp: &id003
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
     slug: google-maps
     status: profiled
-    tags: &id008
+    tags: &id004
     - Environment
     - Geocoding
     - Geolocation
@@ -577,181 +513,159 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/real-estate-home-search/flathunter/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 12.9
-  band: thin
-  in_catalog: true
-  kin_score: 29.1
-  mcp: *id001
-  name: 2captcha
-  slug: 2captcha
-  status: profiled
-  tags: *id002
-  url: /providers/2captcha/
-- agent_band: agent-aware
-  agent_readiness: 28.0
-  band: thin
-  in_catalog: true
-  kin_score: 27.3
-  mcp: *id003
-  name: Capmonster
-  slug: capmonster
-  status: profiled
-  tags: *id004
-  url: /providers/capmonster/
-- agent_band: agent-aware
-  agent_readiness: 24.6
+- agent_band: agent-ready
+  agent_readiness: 36.4
   band: strong
   in_catalog: true
-  kin_score: 54.4
-  mcp: *id005
+  kin_score: 64.4
+  mcp: *id001
   name: Google Cloud Firestore
   slug: google-cloud-firestore
   status: profiled
-  tags: *id006
+  tags: *id002
   url: /providers/google-cloud-firestore/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
-  mcp: *id007
+  kin_score: 73.6
+  mcp: *id003
   name: Google Maps Distance Matrix API
   slug: google-maps
   status: profiled
-  tags: *id008
+  tags: *id004
   url: /providers/google-maps/
 - agent_band: null
   agent_readiness: null
   band: null
   in_catalog: false
   kin_score: null
-  mcp: *id009
+  mcp: *id005
   name: idealista
   slug: idealista
   status: queued for profiling
-  tags: *id010
+  tags: *id006
   url: null
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 2.8
+  band: emerging
   in_catalog: true
-  kin_score: 9.9
-  mcp: *id011
+  kin_score: 13.6
+  mcp: *id007
   name: ImageTyperz
   slug: imagetyperz
   status: profiled
-  tags: *id012
+  tags: *id008
   url: /providers/imagetyperz/
 - agent_band: agent-aware
-  agent_readiness: 7.9
+  agent_readiness: 7.7
   band: emerging
   in_catalog: true
-  kin_score: 15.5
-  mcp: *id013
+  kin_score: 15.6
+  mcp: *id009
   name: Immobiliare.it
   slug: immobiliare
   status: profiled
-  tags: *id014
+  tags: *id010
   url: /providers/immobiliare/
 - agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+  agent_readiness: 21.3
+  band: strong
   in_catalog: true
-  kin_score: 47.9
-  mcp: *id015
+  kin_score: 57.8
+  mcp: *id011
   name: ImmobilienScout24
   slug: immobilienscout24
   status: profiled
-  tags: *id016
+  tags: *id012
   url: /providers/immobilienscout24/
 - agent_band: agent-aware
-  agent_readiness: 18.9
+  agent_readiness: 15.7
   band: emerging
   in_catalog: true
-  kin_score: 23.1
-  mcp: *id017
+  kin_score: 23.9
+  mcp: *id013
   name: Immowelt
   slug: immowelt
   status: profiled
-  tags: *id018
+  tags: *id014
   url: /providers/immowelt/
 - agent_band: agent-aware
-  agent_readiness: 20.9
-  band: emerging
+  agent_readiness: 20.4
+  band: thin
   in_catalog: true
-  kin_score: 22.9
-  mcp: *id019
+  kin_score: 29.7
+  mcp: *id015
   name: Kleinanzeigen
   slug: kleinanzeigen
   status: profiled
-  tags: *id020
+  tags: *id016
   url: /providers/kleinanzeigen/
 - agent_band: agent-aware
-  agent_readiness: 25.7
+  agent_readiness: 25.2
   band: thin
   in_catalog: true
-  kin_score: 37.2
-  mcp: *id021
+  kin_score: 37.0
+  mcp: *id017
   name: Mattermost
   slug: mattermost
   status: profiled
-  tags: *id022
+  tags: *id018
   url: /providers/mattermost/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
-  mcp: *id023
+  kin_score: 74.4
+  mcp: *id019
   name: Slack
   slug: slack
   status: profiled
-  tags: *id024
+  tags: *id020
   url: /providers/slack/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.0
-  mcp: *id025
+  kin_score: 13.2
+  mcp: *id021
   name: Subito.it
   slug: subito
   status: profiled
-  tags: *id026
+  tags: *id022
   url: /providers/subito/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
-  mcp: *id027
+  kin_score: 56.8
+  mcp: *id023
   name: Telegram Bot API
   slug: telegram
   status: profiled
-  tags: *id028
+  tags: *id024
   url: /providers/telegram/
 - agent_band: human-only
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.3
-  mcp: *id029
+  kin_score: 5.2
+  mcp: *id025
   name: VRM Immo
   slug: vrm-immo
   status: profiled
-  tags: *id030
+  tags: *id026
   url: /providers/vrm-immo/
 - agent_band: human-only
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.4
-  mcp: *id031
+  kin_score: 2.6
+  mcp: *id027
   name: WG-Gesucht
   slug: wg-gesucht
   status: profiled
-  tags: *id032
+  tags: *id028
   url: /providers/wg-gesucht/
 siblings:
 - name: HomeHarvest

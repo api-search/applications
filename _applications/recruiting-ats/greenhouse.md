@@ -55,10 +55,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.1
+    agent_readiness: 47.6
     band: strong
     in_catalog: true
-    kin_score: 62.2
+    kin_score: 59.9
     mcp: &id001
       status: none
     slug: charthop
@@ -85,10 +85,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.1
+    agent_readiness: 52.8
     band: thin
     in_catalog: true
-    kin_score: 32.8
+    kin_score: 32.4
     mcp: &id003
       status: none
     slug: checkr
@@ -115,10 +115,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: emerging
+    agent_readiness: 0.0
+    band: thin
     in_catalog: true
-    kin_score: 16.4
+    kin_score: 27.0
     mcp: &id005
       status: unknown
     slug: criteria-corp
@@ -145,10 +145,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 51.7
+    agent_readiness: 52.0
     band: strong
     in_catalog: true
-    kin_score: 63.3
+    kin_score: 60.9
     mcp: &id007
       source: https://developer.deel.com/docs/mcp
       status: documented
@@ -176,10 +176,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.9
+    agent_readiness: 23.4
     band: thin
     in_catalog: true
-    kin_score: 31.4
+    kin_score: 32.4
     mcp: &id009
       status: none
     slug: paylocity
@@ -204,10 +204,10 @@ noindex: false
 permalink: /applications/recruiting-ats/greenhouse/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 44.1
+  agent_readiness: 47.6
   band: strong
   in_catalog: true
-  kin_score: 62.2
+  kin_score: 59.9
   mcp: *id001
   name: ChartHop
   slug: charthop
@@ -215,10 +215,10 @@ providers:
   tags: *id002
   url: /providers/charthop/
 - agent_band: agent-ready
-  agent_readiness: 48.1
+  agent_readiness: 52.8
   band: thin
   in_catalog: true
-  kin_score: 32.8
+  kin_score: 32.4
   mcp: *id003
   name: Checkr
   slug: checkr
@@ -226,10 +226,10 @@ providers:
   tags: *id004
   url: /providers/checkr/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: emerging
+  agent_readiness: 0.0
+  band: thin
   in_catalog: true
-  kin_score: 16.4
+  kin_score: 27.0
   mcp: *id005
   name: Criteria Corp
   slug: criteria-corp
@@ -237,10 +237,10 @@ providers:
   tags: *id006
   url: /providers/criteria-corp/
 - agent_band: agent-native
-  agent_readiness: 51.7
+  agent_readiness: 52.0
   band: strong
   in_catalog: true
-  kin_score: 63.3
+  kin_score: 60.9
   mcp: *id007
   name: Deel
   slug: deel-com
@@ -248,10 +248,10 @@ providers:
   tags: *id008
   url: /providers/deel-com/
 - agent_band: agent-aware
-  agent_readiness: 23.9
+  agent_readiness: 23.4
   band: thin
   in_catalog: true
-  kin_score: 31.4
+  kin_score: 32.4
   mcp: *id009
   name: Paylocity (Texting)
   slug: paylocity

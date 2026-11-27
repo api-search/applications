@@ -100,7 +100,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 12.3
+    kin_score: 12.5
     mcp: &id002
       source: https://abetterrouteplanner.com/mcp
       status: verified
@@ -128,10 +128,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.1
+    agent_readiness: 14.7
     band: thin
     in_catalog: true
-    kin_score: 34.0
+    kin_score: 35.2
     mcp: &id010
       status: none
     slug: mapquest
@@ -158,10 +158,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id012
       status: none
     slug: nominatim
@@ -188,10 +188,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 5.8
-    band: emerging
+    agent_readiness: 5.6
+    band: thin
     in_catalog: true
-    kin_score: 25.0
+    kin_score: 30.3
     mcp: &id014
       status: unknown
     slug: open-elevation
@@ -221,7 +221,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 8.1
+    kin_score: 9.9
     mcp: &id018
       status: unknown
     slug: scanmytesla
@@ -251,7 +251,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 2.2
     mcp: &id022
       status: unknown
     slug: supercharge-bingo
@@ -278,10 +278,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.3
     band: thin
     in_catalog: true
-    kin_score: 35.5
+    kin_score: 34.8
     mcp: &id024
       status: none
     slug: tesla
@@ -308,10 +308,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.4
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 10.6
+    kin_score: 15.0
     mcp: &id026
       source: https://teslafi.com
       status: documented
@@ -342,7 +342,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.0
+    kin_score: 4.1
     mcp: &id028
       status: none
     slug: teslamate
@@ -369,10 +369,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.2
-    band: thin
+    agent_readiness: 32.6
+    band: developing
     in_catalog: true
-    kin_score: 38.8
+    kin_score: 45.0
     mcp: &id004
       source: https://docs.evcc.io/en/integrations/mcp.md
       status: verified
@@ -403,7 +403,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 14.4
+    kin_score: 20.9
     mcp: &id006
       status: unknown
     slug: go-e
@@ -430,10 +430,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 10.4
+    agent_readiness: 7.4
     band: emerging
     in_catalog: true
-    kin_score: 19.9
+    kin_score: 25.7
     mcp: &id008
       status: unknown
     slug: keba
@@ -463,7 +463,7 @@ integrations:
     agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 7.0
+    kin_score: 6.8
     mcp: &id016
       status: unknown
     slug: openwb
@@ -490,10 +490,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 4.5
-    band: minimal
+    agent_readiness: 4.4
+    band: emerging
     in_catalog: true
-    kin_score: 9.7
+    kin_score: 11.6
     mcp: &id020
       source: https://shelly-api-docs.shelly.cloud/mcp
       status: verified
@@ -537,7 +537,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 12.3
+  kin_score: 12.5
   mcp: *id002
   name: A Better Route Planner (Iternio)
   slug: iternio
@@ -545,10 +545,10 @@ providers:
   tags: *id003
   url: /providers/iternio/
 - agent_band: agent-ready
-  agent_readiness: 31.2
-  band: thin
+  agent_readiness: 32.6
+  band: developing
   in_catalog: true
-  kin_score: 38.8
+  kin_score: 45.0
   mcp: *id004
   name: evcc (self-hosted)
   slug: evcc
@@ -559,7 +559,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 14.4
+  kin_score: 20.9
   mcp: *id006
   name: go-e
   slug: go-e
@@ -567,10 +567,10 @@ providers:
   tags: *id007
   url: /providers/go-e/
 - agent_band: agent-aware
-  agent_readiness: 10.4
+  agent_readiness: 7.4
   band: emerging
   in_catalog: true
-  kin_score: 19.9
+  kin_score: 25.7
   mcp: *id008
   name: KEBA
   slug: keba
@@ -578,10 +578,10 @@ providers:
   tags: *id009
   url: /providers/keba/
 - agent_band: agent-aware
-  agent_readiness: 15.1
+  agent_readiness: 14.7
   band: thin
   in_catalog: true
-  kin_score: 34.0
+  kin_score: 35.2
   mcp: *id010
   name: MapQuest
   slug: mapquest
@@ -589,10 +589,10 @@ providers:
   tags: *id011
   url: /providers/mapquest/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id012
   name: Nominatim
   slug: nominatim
@@ -600,10 +600,10 @@ providers:
   tags: *id013
   url: /providers/nominatim/
 - agent_band: agent-aware
-  agent_readiness: 5.8
-  band: emerging
+  agent_readiness: 5.6
+  band: thin
   in_catalog: true
-  kin_score: 25.0
+  kin_score: 30.3
   mcp: *id014
   name: Open-Elevation
   slug: open-elevation
@@ -614,7 +614,7 @@ providers:
   agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 7.0
+  kin_score: 6.8
   mcp: *id016
   name: openWB (self-hosted)
   slug: openwb
@@ -625,7 +625,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 8.1
+  kin_score: 9.9
   mcp: *id018
   name: Scan My Tesla
   slug: scanmytesla
@@ -633,10 +633,10 @@ providers:
   tags: *id019
   url: /providers/scanmytesla/
 - agent_band: human-only
-  agent_readiness: 4.5
-  band: minimal
+  agent_readiness: 4.4
+  band: emerging
   in_catalog: true
-  kin_score: 9.7
+  kin_score: 11.6
   mcp: *id020
   name: Shelly
   slug: shelly
@@ -647,7 +647,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 2.2
   mcp: *id022
   name: supercharge.bingo
   slug: supercharge-bingo
@@ -655,10 +655,10 @@ providers:
   tags: *id023
   url: /providers/supercharge-bingo/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.3
   band: thin
   in_catalog: true
-  kin_score: 35.5
+  kin_score: 34.8
   mcp: *id024
   name: Tesla
   slug: tesla
@@ -666,10 +666,10 @@ providers:
   tags: *id025
   url: /providers/tesla/
 - agent_band: agent-aware
-  agent_readiness: 14.4
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 10.6
+  kin_score: 15.0
   mcp: *id026
   name: TeslaFi
   slug: teslafi
@@ -680,7 +680,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.0
+  kin_score: 4.1
   mcp: *id028
   name: TeslaMate (self-hosted)
   slug: teslamate

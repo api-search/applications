@@ -4247,14 +4247,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 59.6
+      agent_readiness: 63.2
       apps:
       - Homarr
       - Homepage
       - Homer
       band: strong
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 56.7
       mcp:
         status: none
       name: Plex
@@ -4272,14 +4272,14 @@ stack:
       tier: observed
       url: /providers/plex/
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 25.3
       apps:
       - Homarr
       - Homepage
       - Homer
       band: thin
       in_catalog: true
-      kin_score: 28.5
+      kin_score: 32.5
       mcp:
         status: none
       name: Sonarr
@@ -4304,7 +4304,7 @@ stack:
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 14.1
+      kin_score: 21.4
       mcp:
         status: none
       name: Emby
@@ -4322,14 +4322,14 @@ stack:
       tier: observed
       url: /providers/emby/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Homarr
       - Homepage
       - Homer
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.0
+      kin_score: 11.8
       mcp:
         status: none
       name: Lidarr
@@ -4347,14 +4347,14 @@ stack:
       tier: observed
       url: /providers/lidarr/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Homarr
       - Homepage
       - Homer
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.2
+      kin_score: 11.0
       mcp:
         status: unknown
       name: Radarr
@@ -4379,7 +4379,7 @@ stack:
       - Homer
       band: minimal
       in_catalog: true
-      kin_score: 7.5
+      kin_score: 10.5
       mcp:
         status: unknown
       name: Jellystat
@@ -4397,14 +4397,14 @@ stack:
       tier: observed
       url: /providers/jellystat/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Homarr
       - Homepage
       - Homer
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 6.5
       mcp:
         status: unknown
       name: Tdarr
@@ -4443,13 +4443,13 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-ready
-      agent_readiness: 33.1
+      agent_readiness: 29.8
       apps:
       - Homarr
       - Homepage
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 37.3
+      kin_score: 41.0
       mcp:
         status: none
       name: RomM
@@ -4466,13 +4466,13 @@ stack:
       tier: observed
       url: /providers/romm/
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.8
       apps:
       - Homarr
       - Homepage
       band: thin
       in_catalog: true
-      kin_score: 30.5
+      kin_score: 33.5
       mcp:
         status: none
       name: Navidrome
@@ -4489,13 +4489,13 @@ stack:
       tier: observed
       url: /providers/navidrome/
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 12.4
       apps:
       - Homarr
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 16.7
+      kin_score: 20.7
       mcp:
         status: none
       name: Jellyfin
@@ -4512,13 +4512,13 @@ stack:
       tier: observed
       url: /providers/jellyfin/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 14.4
       apps:
       - Homarr
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 16.5
+      kin_score: 19.2
       mcp:
         status: none
       name: Audiobookshelf
@@ -4535,13 +4535,36 @@ stack:
       tier: observed
       url: /providers/audiobookshelf/
     - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Homarr
+      - Homepage
+      band: emerging
+      in_catalog: true
+      kin_score: 16.2
+      mcp:
+        status: unknown
+      name: Stash
+      slug: stashapp
+      sources:
+      - https://github.com/gethomepage/homepage/tree/main/src/widgets
+      - https://github.com/homarr-labs/homarr/tree/dev/packages/integrations/src/stats/providers
+      status: profiled
+      tags:
+      - Adult
+      - Company
+      - Media
+      - Open Source
+      tier: observed
+      url: /providers/stashapp/
+    - agent_band: human-only
       agent_readiness: 3.2
       apps:
       - Homepage
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 13.1
+      kin_score: 13.9
       mcp:
         status: none
       name: Medusa (TV)
@@ -4562,32 +4585,9 @@ stack:
       apps:
       - Homarr
       - Homepage
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.6
-      mcp:
-        status: unknown
-      name: Stash
-      slug: stashapp
-      sources:
-      - https://github.com/gethomepage/homepage/tree/main/src/widgets
-      - https://github.com/homarr-labs/homarr/tree/dev/packages/integrations/src/stats/providers
-      status: profiled
-      tags:
-      - Adult
-      - Company
-      - Media
-      - Open Source
-      tier: observed
-      url: /providers/stashapp/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Homarr
-      - Homepage
-      band: minimal
-      in_catalog: true
-      kin_score: 10.1
+      kin_score: 13.0
       mcp:
         status: unknown
       name: Komga
@@ -4604,13 +4604,13 @@ stack:
       tier: observed
       url: /providers/komga/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 2.8
       apps:
       - Homepage
       - Homer
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.9
+      kin_score: 12.4
       mcp:
         status: none
       name: Tautulli
@@ -4631,9 +4631,9 @@ stack:
       apps:
       - Homarr
       - Homepage
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.7
+      kin_score: 11.2
       mcp:
         status: none
       name: Bazarr
@@ -4669,12 +4669,12 @@ stack:
       tier: observed
       url: null
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Homepage
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.5
+      kin_score: 28.5
       mcp:
         status: none
       name: Kavita
@@ -4715,7 +4715,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Dashy
       - Glance
@@ -4724,7 +4724,7 @@ stack:
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 22.9
+      kin_score: 22.3
       mcp:
         status: none
       name: Pi-hole
@@ -4751,7 +4751,7 @@ stack:
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 19.9
       mcp:
         status: none
       name: AdGuard Home
@@ -4769,14 +4769,14 @@ stack:
       tier: observed
       url: /providers/adguard/
     - agent_band: agent-aware
-      agent_readiness: 24.5
+      agent_readiness: 24.0
       apps:
       - Homarr
       - Homepage
       - Homer
       band: strong
       in_catalog: true
-      kin_score: 57.9
+      kin_score: 61.1
       mcp:
         status: none
       name: Traefik
@@ -4799,9 +4799,9 @@ stack:
       - Dashy
       - Homarr
       - Homepage
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.7
+      kin_score: 14.9
       mcp:
         status: unknown
       name: Gluetun
@@ -4826,7 +4826,7 @@ stack:
       - Homepage
       band: minimal
       in_catalog: true
-      kin_score: 6.0
+      kin_score: 7.1
       mcp:
         status: none
       name: Technitium DNS Server
@@ -4843,14 +4843,14 @@ stack:
       - Privacy
       tier: observed
       url: /providers/technitium/
-    - agent_band: agent-aware
-      agent_readiness: 23.9
+    - agent_band: agent-ready
+      agent_readiness: 33.3
       apps:
       - Homarr
       - Homepage
       band: developing
       in_catalog: true
-      kin_score: 46.3
+      kin_score: 47.3
       mcp:
         status: none
       name: Ubiquiti UniFi
@@ -4867,13 +4867,13 @@ stack:
       tier: observed
       url: /providers/ubiquiti/
     - agent_band: agent-aware
-      agent_readiness: 18.2
+      agent_readiness: 17.8
       apps:
       - Homarr
       - Homepage
       band: thin
       in_catalog: true
-      kin_score: 27.3
+      kin_score: 26.9
       mcp:
         status: none
       name: Caddy
@@ -4890,13 +4890,13 @@ stack:
       tier: observed
       url: /providers/caddy/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 24.1
       apps:
       - Homarr
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 25.2
+      kin_score: 24.6
       mcp:
         status: none
       name: OPNsense
@@ -4913,12 +4913,12 @@ stack:
       tier: observed
       url: /providers/opnsense/
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - Homepage
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp:
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -4935,12 +4935,12 @@ stack:
       tier: observed
       url: /providers/cloudflare/
     - agent_band: agent-aware
-      agent_readiness: 21.5
+      agent_readiness: 21.0
       apps:
       - Homepage
       band: developing
       in_catalog: true
-      kin_score: 42.2
+      kin_score: 40.8
       mcp:
         status: none
       name: Tailscale
@@ -4956,12 +4956,12 @@ stack:
       tier: observed
       url: /providers/tailscale/
     - agent_band: agent-aware
-      agent_readiness: 28.4
+      agent_readiness: 27.9
       apps:
       - Homepage
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 34.7
       mcp:
         source: https://github.com/netbirdio/netbird-mcp
         status: verified
@@ -4978,12 +4978,12 @@ stack:
       tier: observed
       url: /providers/netbird/
     - agent_band: agent-aware
-      agent_readiness: 21.8
+      agent_readiness: 21.3
       apps:
       - Homepage
       band: thin
       in_catalog: true
-      kin_score: 33.6
+      kin_score: 33.2
       mcp:
         status: none
       name: pfSense
@@ -4999,12 +4999,12 @@ stack:
       tier: observed
       url: /providers/pfsense/
     - agent_band: agent-aware
-      agent_readiness: 15.0
+      agent_readiness: 12.7
       apps:
       - Dashy
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.9
+      kin_score: 31.8
       mcp:
         status: none
       name: Mullvad VPN
@@ -5019,34 +5019,13 @@ stack:
       - VPN
       tier: observed
       url: /providers/mullvad/
-    - agent_band: agent-aware
-      agent_readiness: 18.0
-      apps:
-      - Homepage
-      band: emerging
-      in_catalog: true
-      kin_score: 22.3
-      mcp:
-        status: none
-      name: Nginx Proxy Manager
-      slug: nginx-proxy-manager
-      sources:
-      - https://github.com/gethomepage/homepage/tree/main/src/widgets
-      status: profiled
-      tags:
-      - Company
-      - Docker
-      - NGINX
-      - Open Source
-      tier: observed
-      url: /providers/nginx-proxy-manager/
     - agent_band: human-only
       agent_readiness: 2.5
       apps:
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 16.9
+      kin_score: 25.0
       mcp:
         status: none
       name: OpenWrt
@@ -5062,12 +5041,33 @@ stack:
       tier: observed
       url: /providers/openwrt/
     - agent_band: agent-aware
-      agent_readiness: 13.7
+      agent_readiness: 17.6
       apps:
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 13.8
+      kin_score: 23.5
+      mcp:
+        status: none
+      name: Nginx Proxy Manager
+      slug: nginx-proxy-manager
+      sources:
+      - https://github.com/gethomepage/homepage/tree/main/src/widgets
+      status: profiled
+      tags:
+      - Company
+      - Docker
+      - NGINX
+      - Open Source
+      tier: observed
+      url: /providers/nginx-proxy-manager/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Homepage
+      band: emerging
+      in_catalog: true
+      kin_score: 17.8
       mcp:
         status: none
       name: NextDNS
@@ -5088,7 +5088,7 @@ stack:
       - Homepage
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.2
       mcp:
         status: unknown
       name: Headscale
@@ -5129,7 +5129,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Dashy
       - Homarr
@@ -5137,7 +5137,7 @@ stack:
       - Homer
       band: thin
       in_catalog: true
-      kin_score: 27.4
+      kin_score: 26.8
       mcp:
         status: none
       name: Proxmox VE
@@ -5154,15 +5154,15 @@ stack:
       - Virtualization
       tier: observed
       url: /providers/proxmox/
-    - agent_band: agent-aware
-      agent_readiness: 24.4
+    - agent_band: agent-ready
+      agent_readiness: 32.4
       apps:
       - Glance
       - Homepage
       - Homer
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 51.7
       mcp:
         source: https://github.com/docker/mcp-gateway
         status: verified
@@ -5181,39 +5181,14 @@ stack:
       tier: observed
       url: /providers/docker/
     - agent_band: agent-aware
-      agent_readiness: 6.5
+      agent_readiness: 18.3
       apps:
       - Homarr
       - Homepage
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 15.6
-      mcp:
-        status: none
-      name: What's Up Docker
-      slug: whats-up-docker
-      sources:
-      - https://github.com/bastienwirtz/homer/tree/main/src/components/services
-      - https://github.com/gethomepage/homepage/tree/main/src/widgets
-      - https://github.com/homarr-labs/homarr/tree/dev/packages/integrations/src
-      status: profiled
-      tags:
-      - Company
-      - Container Management
-      - Docker
-      - Kubernetes
-      tier: observed
-      url: /providers/whats-up-docker/
-    - agent_band: agent-aware
-      agent_readiness: 17.3
-      apps:
-      - Homarr
-      - Homepage
-      - Homer
-      band: emerging
-      in_catalog: true
-      kin_score: 14.1
+      kin_score: 22.1
       mcp:
         source: https://github.com/truenas/truenas-mcp
         status: verified
@@ -5232,14 +5207,39 @@ stack:
       tier: observed
       url: /providers/truenas/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 6.3
+      apps:
+      - Homarr
+      - Homepage
+      - Homer
+      band: emerging
+      in_catalog: true
+      kin_score: 17.9
+      mcp:
+        status: none
+      name: What's Up Docker
+      slug: whats-up-docker
+      sources:
+      - https://github.com/bastienwirtz/homer/tree/main/src/components/services
+      - https://github.com/gethomepage/homepage/tree/main/src/widgets
+      - https://github.com/homarr-labs/homarr/tree/dev/packages/integrations/src
+      status: profiled
+      tags:
+      - Company
+      - Container Management
+      - Docker
+      - Kubernetes
+      tier: observed
+      url: /providers/whats-up-docker/
+    - agent_band: agent-aware
+      agent_readiness: 18.3
       apps:
       - Dashy
       - Homarr
       - Homepage
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.5
+      kin_score: 12.0
       mcp:
         status: none
       name: Synology
@@ -5257,13 +5257,13 @@ stack:
       tier: observed
       url: /providers/synology/
     - agent_band: agent-ready
-      agent_readiness: 39.6
+      agent_readiness: 38.8
       apps:
       - Homepage
       - Homer
       band: strong
       in_catalog: true
-      kin_score: 56.0
+      kin_score: 57.1
       mcp:
         source: https://github.com/portainer/portainer-mcp
         status: verified
@@ -5281,13 +5281,13 @@ stack:
       tier: observed
       url: /providers/portainer/
     - agent_band: agent-aware
-      agent_readiness: 13.7
+      agent_readiness: 11.2
       apps:
       - Homarr
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 14.1
+      kin_score: 21.2
       mcp:
         status: none
       name: Unraid
@@ -5304,13 +5304,13 @@ stack:
       tier: observed
       url: /providers/unraid/
     - agent_band: human-only
-      agent_readiness: 2.5
+      agent_readiness: 4.2
       apps:
       - Homarr
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 12.5
+      kin_score: 16.7
       mcp:
         source: https://github.com/openmediavault/openmediavault-mcp
         status: verified
@@ -5327,13 +5327,13 @@ stack:
       - Open Source
       tier: observed
       url: /providers/openmediavault/
-    - agent_band: agent-aware
-      agent_readiness: 27.5
+    - agent_band: agent-ready
+      agent_readiness: 32.7
       apps:
       - Homarr
       band: developing
       in_catalog: true
-      kin_score: 51.6
+      kin_score: 49.6
       mcp:
         status: none
       name: Coolify
@@ -5348,13 +5348,13 @@ stack:
       - Self-Hosting
       tier: observed
       url: /providers/coolify/
-    - agent_band: agent-aware
-      agent_readiness: 28.5
+    - agent_band: agent-ready
+      agent_readiness: 32.6
       apps:
       - Homepage
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 48.7
       mcp:
         status: none
       name: Kubernetes
@@ -5370,12 +5370,12 @@ stack:
       tier: observed
       url: /providers/kubernetes/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 12.5
+      kin_score: 17.3
       mcp:
         source: https://www.qnap.com/en-us/software/mcp-assistant
         status: documented
@@ -5426,14 +5426,14 @@ stack:
       tier: observed
       url: /providers/glances/
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 25.1
       apps:
       - Dashy
       - Homarr
       - Homepage
       band: thin
       in_catalog: true
-      kin_score: 38.1
+      kin_score: 37.0
       mcp:
         source: https://raw.githubusercontent.com/netdata/netdata/master/src/web/mcp/README.md
         status: verified
@@ -5452,14 +5452,14 @@ stack:
       tier: observed
       url: /providers/netdata/
     - agent_band: agent-aware
-      agent_readiness: 18.7
+      agent_readiness: 23.7
       apps:
       - Homarr
       - Homepage
       - Homer
       band: thin
       in_catalog: true
-      kin_score: 35.4
+      kin_score: 35.9
       mcp:
         source: https://github.com/prometheus/prometheus-mcp
         status: verified
@@ -5478,14 +5478,14 @@ stack:
       tier: observed
       url: /providers/prometheus-io/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 22.4
       apps:
       - Homarr
       - Homepage
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 20.2
+      kin_score: 24.2
       mcp:
         status: unknown
       name: Speedtest Tracker
@@ -5503,14 +5503,14 @@ stack:
       tier: observed
       url: /providers/speedtest-tracker/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - Homarr
       - Homepage
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 14.5
+      kin_score: 17.2
       mcp:
         status: unknown
       name: Scrutiny
@@ -5528,13 +5528,13 @@ stack:
       tier: observed
       url: /providers/scrutiny/
     - agent_band: agent-aware
-      agent_readiness: 17.1
+      agent_readiness: 14.5
       apps:
       - Homarr
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 12.6
+      kin_score: 13.7
       mcp:
         status: unknown
       name: Beszel
@@ -5550,13 +5550,13 @@ stack:
       - Server Monitoring
       tier: observed
       url: /providers/beszel/
-    - agent_band: agent-ready
-      agent_readiness: 31.1
+    - agent_band: agent-aware
+      agent_readiness: 27.6
       apps:
       - Homepage
       band: strong
       in_catalog: true
-      kin_score: 60.6
+      kin_score: 66.0
       mcp:
         source: https://github.com/grafana/mcp-grafana
         status: verified
@@ -5573,12 +5573,12 @@ stack:
       tier: observed
       url: /providers/grafana-com/
     - agent_band: agent-aware
-      agent_readiness: 22.1
+      agent_readiness: 21.6
       apps:
       - Homepage
       band: thin
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 34.0
       mcp:
         status: none
       name: Zabbix
@@ -5602,7 +5602,7 @@ stack:
       via_parent: Self-Hosted Media Servers & Library Automation
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - Dashy
       - Homarr
@@ -5610,7 +5610,7 @@ stack:
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 19.1
+      kin_score: 22.6
       mcp:
         status: none
       name: SABnzbd
@@ -5628,14 +5628,14 @@ stack:
       tier: observed
       url: /providers/sabnzbd/
     - agent_band: agent-aware
-      agent_readiness: 24.4
+      agent_readiness: 21.3
       apps:
       - Homarr
       - Homepage
       - Homer
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 34.7
+      kin_score: 42.5
       mcp:
         status: none
       name: Prowlarr
@@ -5653,14 +5653,14 @@ stack:
       tier: observed
       url: /providers/prowlarr/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.1
       apps:
       - Homarr
       - Homepage
       - Homer
       band: minimal
       in_catalog: true
-      kin_score: 8.1
+      kin_score: 10.5
       mcp:
         status: none
       name: qBittorrent
@@ -5685,7 +5685,7 @@ stack:
       - Homer
       band: minimal
       in_catalog: true
-      kin_score: 4.4
+      kin_score: 4.7
       mcp:
         status: none
       name: Transmission
@@ -5709,7 +5709,7 @@ stack:
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 21.1
+      kin_score: 25.4
       mcp:
         status: none
       name: Deluge
@@ -5726,13 +5726,13 @@ stack:
       tier: observed
       url: /providers/deluge/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 23.2
       apps:
       - Homarr
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 17.2
+      kin_score: 22.9
       mcp:
         status: none
       name: Jackett
@@ -5755,7 +5755,7 @@ stack:
       - Homepage
       band: minimal
       in_catalog: true
-      kin_score: 7.1
+      kin_score: 9.8
       mcp:
         status: none
       name: NZBGet
@@ -5780,15 +5780,15 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.2
       apps:
       - Dashy
       - Homarr
       - Homepage
       - Homer
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 43.4
       mcp:
         status: none
       name: Healthchecks.io
@@ -5806,7 +5806,7 @@ stack:
       tier: observed
       url: /providers/healthchecks-io/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 15.1
       apps:
       - Dashy
       - Homarr
@@ -5814,7 +5814,7 @@ stack:
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 18.5
+      kin_score: 20.6
       mcp:
         status: none
       name: Uptime Kuma
@@ -5839,7 +5839,7 @@ stack:
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 18.1
       mcp:
         status: none
       name: changedetection.io
@@ -5862,9 +5862,9 @@ stack:
       - Homarr
       - Homepage
       - Homer
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.1
+      kin_score: 12.0
       mcp:
         status: unknown
       name: Gatus
@@ -5882,12 +5882,12 @@ stack:
       tier: observed
       url: /providers/gatus/
     - agent_band: agent-ready
-      agent_readiness: 50.9
+      agent_readiness: 59.1
       apps:
       - Homepage
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.1
+      kin_score: 62.9
       mcp:
         source: https://uptimerobot.com/mcp/
         status: documented
@@ -5912,14 +5912,14 @@ stack:
       via_parent: News & Publishing
     providers:
     - agent_band: agent-aware
-      agent_readiness: 15.0
+      agent_readiness: 14.7
       apps:
       - Homarr
       - Homepage
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 20.9
+      kin_score: 23.6
       mcp:
         status: none
       name: Miniflux
@@ -5936,14 +5936,14 @@ stack:
       - Self-Hosted
       tier: observed
       url: /providers/miniflux/
-    - agent_band: agent-aware
-      agent_readiness: 25.9
+    - agent_band: agent-ready
+      agent_readiness: 30.2
       apps:
       - Homarr
       - Homepage
       band: developing
       in_catalog: true
-      kin_score: 41.5
+      kin_score: 48.8
       mcp:
         status: none
       name: Linkwarden
@@ -5960,13 +5960,13 @@ stack:
       tier: observed
       url: /providers/linkwarden/
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 19.7
       apps:
       - Homarr
       - Homepage
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 30.8
+      kin_score: 40.9
       mcp:
         source: https://docs.karakeep.app/mcp
         status: verified
@@ -6013,7 +6013,7 @@ stack:
       - Homer
       band: minimal
       in_catalog: true
-      kin_score: 5.7
+      kin_score: 5.9
       mcp:
         status: none
       name: FreshRSS
@@ -6030,12 +6030,12 @@ stack:
       tier: observed
       url: /providers/freshrss/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 16.9
       apps:
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 17.3
+      kin_score: 20.1
       mcp:
         status: none
       name: wallabag
@@ -6059,7 +6059,7 @@ stack:
       via_parent: Software Construction Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - CasaOS
       - Dashy
@@ -6067,7 +6067,7 @@ stack:
       - Homarr
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -6086,13 +6086,13 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Glance
       - Homepage
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -6110,13 +6110,13 @@ stack:
       tier: observed
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 35.0
       apps:
       - Homepage
       - Homer
       band: exemplar
       in_catalog: true
-      kin_score: 69.8
+      kin_score: 68.1
       mcp:
         source: https://gitea.com/gitea/gitea-mcp
         status: verified
@@ -6134,12 +6134,12 @@ stack:
       tier: observed
       url: /providers/gitea/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 26.2
       apps:
       - Glance
       band: thin
       in_catalog: true
-      kin_score: 29.3
+      kin_score: 28.4
       mcp:
         status: unknown
       name: Codeberg
@@ -6163,7 +6163,7 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Dashy
       - Homarr
@@ -6171,7 +6171,7 @@ stack:
       - Homer
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp:
         status: none
       name: Nextcloud
@@ -6188,34 +6188,13 @@ stack:
       - Self-Hosted
       tier: observed
       url: /providers/nextcloud/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Homepage
-      band: emerging
-      in_catalog: true
-      kin_score: 16.1
-      mcp:
-        status: none
-      name: File Browser
-      slug: filebrowser
-      sources:
-      - https://github.com/gethomepage/homepage/tree/main/src/widgets
-      status: profiled
-      tags:
-      - Archived
-      - File Management
-      - Open Source
-      - Self-Hosted
-      tier: observed
-      url: /providers/filebrowser/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 15.9
       apps:
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 16.1
+      kin_score: 22.9
       mcp:
         status: none
       name: Syncthing
@@ -6230,6 +6209,27 @@ stack:
       - Open Source
       tier: observed
       url: /providers/syncthing/
+    - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Homepage
+      band: emerging
+      in_catalog: true
+      kin_score: 17.8
+      mcp:
+        status: none
+      name: File Browser
+      slug: filebrowser
+      sources:
+      - https://github.com/gethomepage/homepage/tree/main/src/widgets
+      status: profiled
+      tags:
+      - Archived
+      - File Management
+      - Open Source
+      - Self-Hosted
+      tier: observed
+      url: /providers/filebrowser/
   - capability:
       attribution: API Evangelist extension
       id: AE-150.30
@@ -6244,9 +6244,9 @@ stack:
       - Dashy
       - Homarr
       - Homepage
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.9
+      kin_score: 15.5
       mcp:
         status: none
       name: ntfy
@@ -6271,7 +6271,7 @@ stack:
       - Homer
       band: minimal
       in_catalog: true
-      kin_score: 7.8
+      kin_score: 10.9
       mcp:
         source: https://gotify.net/docs/mcp
         status: verified
@@ -6297,15 +6297,15 @@ stack:
       url: /capabilities/smart-home/
       via_parent: null
     providers:
-    - agent_band: human-only
-      agent_readiness: 5.0
+    - agent_band: agent-aware
+      agent_readiness: 5.6
       apps:
       - Homarr
       - Homepage
       - Homer
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.2
+      kin_score: 34.5
       mcp:
         source: https://www.home-assistant.io/integrations/mcp_server/
         status: verified
@@ -6324,12 +6324,12 @@ stack:
       tier: observed
       url: /providers/home-assistant/
     - agent_band: agent-aware
-      agent_readiness: 18.2
+      agent_readiness: 17.8
       apps:
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 18.3
+      kin_score: 24.8
       mcp:
         source: https://www.openhab.org/addons/integrations/mcp/
         status: verified
@@ -6346,12 +6346,12 @@ stack:
       tier: observed
       url: /providers/openhab/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.1
       apps:
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 11.1
+      kin_score: 15.8
       mcp:
         status: none
       name: ESPHome
@@ -6367,12 +6367,12 @@ stack:
       tier: observed
       url: /providers/esphome/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Homepage
       band: minimal
       in_catalog: true
-      kin_score: 4.9
+      kin_score: 5.0
       mcp:
         status: none
       name: Homebridge
@@ -6396,13 +6396,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 22.5
       apps:
       - Homepage
       - Homer
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.5
+      kin_score: 32.1
       mcp:
         status: none
       name: OctoPrint
@@ -6419,13 +6419,13 @@ stack:
       tier: observed
       url: /providers/octoprint/
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 36.9
       apps:
       - Homarr
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 16.4
+      kin_score: 20.0
       mcp:
         status: unknown
       name: Spoolman
@@ -6442,12 +6442,12 @@ stack:
       tier: observed
       url: /providers/spoolman/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - Homepage
       band: minimal
       in_catalog: true
-      kin_score: 8.2
+      kin_score: 10.9
       mcp:
         status: unknown
       name: Moonraker (Klipper)
@@ -6471,13 +6471,13 @@ stack:
       via_parent: Social Networks & Community
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Dashy
       - Glance
       band: thin
       in_catalog: true
-      kin_score: 28.3
+      kin_score: 27.3
       mcp:
         status: none
       name: Hacker News
@@ -6493,12 +6493,12 @@ stack:
       tier: observed
       url: /providers/hacker-news/
     - agent_band: agent-ready
-      agent_readiness: 39.1
+      agent_readiness: 43.0
       apps:
       - Glance
       band: strong
       in_catalog: true
-      kin_score: 63.0
+      kin_score: 64.4
       mcp:
         source: https://github.com/reddit/devvit-mcp
         status: verified
@@ -6515,12 +6515,12 @@ stack:
       tier: observed
       url: /providers/reddit/
     - agent_band: agent-aware
-      agent_readiness: 22.5
+      agent_readiness: 22.0
       apps:
       - Homepage
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 25.5
       mcp:
         status: none
       name: Mastodon
@@ -6536,12 +6536,12 @@ stack:
       tier: observed
       url: /providers/mastodon/
     - agent_band: agent-aware
-      agent_readiness: 23.0
+      agent_readiness: 22.5
       apps:
       - Glance
       band: emerging
       in_catalog: true
-      kin_score: 25.0
+      kin_score: 24.6
       mcp:
         status: none
       name: Lobsters
@@ -6565,14 +6565,14 @@ stack:
       via_parent: Nutrition & Food Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.7
+      agent_readiness: 29.1
       apps:
       - Homarr
       - Homepage
       - Homer
       band: developing
       in_catalog: true
-      kin_score: 41.5
+      kin_score: 41.7
       mcp:
         status: none
       name: Mealie
@@ -6590,13 +6590,13 @@ stack:
       tier: observed
       url: /providers/mealie/
     - agent_band: agent-aware
-      agent_readiness: 26.7
+      agent_readiness: 26.2
       apps:
       - Homarr
       - Homepage
       band: strong
       in_catalog: true
-      kin_score: 61.0
+      kin_score: 59.5
       mcp:
         status: none
       name: Tandoor Recipes
@@ -6620,13 +6620,35 @@ stack:
       url: /capabilities/device-ip-location/
       via_parent: Device & IP Location
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 34.4
+    - agent_band: agent-native
+      agent_readiness: 51.5
       apps:
       - Dashy
       band: strong
       in_catalog: true
-      kin_score: 63.2
+      kin_score: 63.6
+      mcp:
+        source: https://github.com/IPGeolocation/ipgeolocation-io-mcp
+        status: verified
+      name: IPGeolocation.io
+      slug: ipgeolocation
+      sources:
+      - https://github.com/Lissy93/dashy/blob/master/src/utils/config/defaults.js
+      status: profiled
+      tags:
+      - ASN Lookup
+      - IP Geolocation
+      - IP Intelligence
+      - IP Security
+      tier: observed
+      url: /providers/ipgeolocation/
+    - agent_band: agent-ready
+      agent_readiness: 38.3
+      apps:
+      - Dashy
+      band: strong
+      in_catalog: true
+      kin_score: 63.6
       mcp:
         source: https://github.com/ipinfo/mcp
         status: verified
@@ -6642,35 +6664,13 @@ stack:
       - Privacy Detection
       tier: observed
       url: /providers/ipinfo/
-    - agent_band: agent-ready
-      agent_readiness: 30.2
-      apps:
-      - Dashy
-      band: developing
-      in_catalog: true
-      kin_score: 50.8
-      mcp:
-        source: https://github.com/IPGeolocation/ipgeolocation-io-mcp
-        status: verified
-      name: IPGeolocation.io
-      slug: ipgeolocation
-      sources:
-      - https://github.com/Lissy93/dashy/blob/master/src/utils/config/defaults.js
-      status: profiled
-      tags:
-      - Geocoding
-      - IP Geolocation
-      - IP Intelligence
-      - IP Security
-      tier: observed
-      url: /providers/ipgeolocation/
     - agent_band: agent-aware
-      agent_readiness: 25.5
+      agent_readiness: 25.7
       apps:
       - Dashy
       band: thin
       in_catalog: true
-      kin_score: 31.4
+      kin_score: 29.1
       mcp:
         status: none
       name: ipify
@@ -6691,7 +6691,7 @@ stack:
       - Dashy
       band: minimal
       in_catalog: true
-      kin_score: 5.2
+      kin_score: 4.3
       mcp:
         status: none
       name: ip-api
@@ -6713,14 +6713,14 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 15.1
       apps:
       - Homarr
       - Homepage
       - Homer
       band: emerging
       in_catalog: true
-      kin_score: 22.3
+      kin_score: 25.5
       mcp:
         status: none
       name: Immich
@@ -6738,12 +6738,12 @@ stack:
       tier: observed
       url: /providers/immich/
     - agent_band: agent-ready
-      agent_readiness: 40.7
+      agent_readiness: 37.3
       apps:
       - Homepage
       band: developing
       in_catalog: true
-      kin_score: 42.5
+      kin_score: 52.5
       mcp:
         source: https://docs.photoprism.app/developer-guide/api/mcp/
         status: verified
@@ -6768,12 +6768,12 @@ stack:
       via_parent: Disaster Recovery Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.2
       apps:
       - Homepage
       band: thin
       in_catalog: true
-      kin_score: 28.0
+      kin_score: 34.0
       mcp:
         status: none
       name: Duplicati
@@ -6789,12 +6789,12 @@ stack:
       tier: observed
       url: /providers/duplicati/
     - agent_band: agent-aware
-      agent_readiness: 15.0
+      agent_readiness: 12.7
       apps:
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 17.3
+      kin_score: 20.1
       mcp:
         status: none
       name: Kopia
@@ -6810,12 +6810,12 @@ stack:
       tier: observed
       url: /providers/kopia/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 22.5
       apps:
       - Homepage
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.4
+      kin_score: 13.2
       mcp:
         status: unknown
       name: Backrest
@@ -6846,7 +6846,7 @@ stack:
       - Homer
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: none
       name: Paperless-ngx
@@ -6868,14 +6868,14 @@ stack:
       url: /capabilities/weather-environment/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 22.5
+    - agent_band: agent-ready
+      agent_readiness: 30.0
       apps:
       - Dashy
       - Homer
       band: strong
       in_catalog: true
-      kin_score: 60.4
+      kin_score: 59.1
       mcp:
         source: https://mcp.openweathermap.org/
         status: verified
@@ -6893,12 +6893,12 @@ stack:
       tier: observed
       url: /providers/openweathermap/
     - agent_band: agent-aware
-      agent_readiness: 17.8
+      agent_readiness: 17.4
       apps:
       - Glance
       band: thin
       in_catalog: true
-      kin_score: 29.6
+      kin_score: 28.3
       mcp:
         status: none
       name: Open-Meteo
@@ -6922,12 +6922,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.2
+      agent_readiness: 47.4
       apps:
       - Dashy
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 52.4
       mcp:
         source: https://docs.coingecko.com/reference/mcp-server
         status: verified
@@ -6944,12 +6944,12 @@ stack:
       tier: observed
       url: /providers/coingecko/
     - agent_band: agent-aware
-      agent_readiness: 9.3
+      agent_readiness: 10.1
       apps:
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 15.5
+      kin_score: 14.8
       mcp:
         source: https://coinmarketcap.com/api/mcp/
         status: verified
@@ -6974,13 +6974,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 16.9
       apps:
       - Homarr
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 20.5
+      kin_score: 24.1
       mcp:
         status: unknown
       name: Frigate NVR
@@ -7004,13 +7004,32 @@ stack:
       url: /capabilities/ground-transport/
       via_parent: Ground Transport
     providers:
+    - agent_band: agent-aware
+      agent_readiness: 15.3
+      apps:
+      - Dashy
+      band: emerging
+      in_catalog: true
+      kin_score: 20.2
+      mcp:
+        status: none
+      name: Transport for London
+      slug: transport-for-london-england
+      sources:
+      - https://github.com/Lissy93/dashy/blob/master/src/utils/config/defaults.js
+      status: profiled
+      tags:
+      - Public APIs
+      - Transportation
+      tier: observed
+      url: /providers/transport-for-london-england/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Dashy
       band: minimal
       in_catalog: true
-      kin_score: 8.1
+      kin_score: 9.1
       mcp:
         status: unknown
       name: MVG (Munich transit)
@@ -7025,25 +7044,6 @@ stack:
       - Transportation
       tier: observed
       url: /providers/mvg/
-    - agent_band: human-only
-      agent_readiness: 0.0
-      apps:
-      - Dashy
-      band: minimal
-      in_catalog: true
-      kin_score: 5.2
-      mcp:
-        status: none
-      name: Transport for London
-      slug: transport-for-london-england
-      sources:
-      - https://github.com/Lissy93/dashy/blob/master/src/utils/config/defaults.js
-      status: profiled
-      tags:
-      - Public APIs
-      - Transportation
-      tier: observed
-      url: /providers/transport-for-london-england/
   - capability:
       attribution: API Evangelist extension
       id: AE-230.20.20
@@ -7053,12 +7053,12 @@ stack:
       via_parent: Market & Financial Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 51.4
+      agent_readiness: 50.5
       apps:
       - Dashy
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 54.4
+      kin_score: 50.6
       mcp:
         source: https://github.com/alphavantage/alpha_vantage_mcp
         status: verified
@@ -7080,7 +7080,7 @@ stack:
       - Glance
       band: minimal
       in_catalog: true
-      kin_score: 4.2
+      kin_score: 3.3
       mcp:
         status: none
       name: Yahoo Finance
@@ -7102,12 +7102,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.4
+      agent_readiness: 36.7
       apps:
       - Homepage
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 44.7
       mcp:
         source: https://github.com/crowdsecurity/crowdsec-local-mcp
         status: verified
@@ -7124,12 +7124,12 @@ stack:
       tier: observed
       url: /providers/crowdsec/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Homarr
       band: emerging
       in_catalog: true
-      kin_score: 14.3
+      kin_score: 15.5
       mcp:
         status: none
       name: Wazuh
@@ -7153,12 +7153,12 @@ stack:
       via_parent: Video Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - Glance
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube
@@ -7174,12 +7174,12 @@ stack:
       tier: observed
       url: /providers/youtube/
     - agent_band: agent-ready
-      agent_readiness: 32.2
+      agent_readiness: 36.9
       apps:
       - Glance
       band: developing
       in_catalog: true
-      kin_score: 50.5
+      kin_score: 48.2
       mcp:
         status: none
       name: Twitch
@@ -7208,7 +7208,7 @@ stack:
       - Dashy
       band: emerging
       in_catalog: true
-      kin_score: 20.7
+      kin_score: 25.4
       mcp:
         status: none
       name: BlockCypher
@@ -7236,7 +7236,7 @@ stack:
       - Homepage
       band: minimal
       in_catalog: true
-      kin_score: 5.9
+      kin_score: 8.7
       mcp:
         status: none
       name: Firefly III
@@ -7265,7 +7265,7 @@ stack:
       - Dashy
       band: minimal
       in_catalog: true
-      kin_score: 6.3
+      kin_score: 8.5
       mcp:
         status: unknown
       name: Enrico holiday service
@@ -7288,13 +7288,13 @@ stack:
       url: /capabilities/package-registries-distribution/
       via_parent: Package Registries & Distribution
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 30.6
       apps:
       - Glance
       band: developing
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 48.7
       mcp:
         source: https://github.com/docker/hub-mcp
         status: verified
@@ -7319,12 +7319,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.3
+      agent_readiness: 22.4
       apps:
       - Homepage
       band: thin
       in_catalog: true
-      kin_score: 36.6
+      kin_score: 38.7
       mcp:
         source: https://github.com/argoproj-labs/mcp-for-argocd
         status: verified
@@ -7349,12 +7349,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.3
+      agent_readiness: 31.5
       apps:
       - Dashy
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 53.5
       mcp:
         status: none
       name: WhoAPI
@@ -7378,12 +7378,12 @@ stack:
       via_parent: Connected Vehicles
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.2
+      agent_readiness: 32.6
       apps:
       - Homepage
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.8
+      kin_score: 45.0
       mcp:
         source: https://docs.evcc.io/en/integrations/mcp.md
         status: verified
@@ -7408,12 +7408,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 31.3
       apps:
       - Dashy
       band: developing
       in_catalog: true
-      kin_score: 41.8
+      kin_score: 53.1
       mcp:
         status: none
       name: addy.io
@@ -7437,12 +7437,12 @@ stack:
       via_parent: Market & Financial Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.2
+      agent_readiness: 29.4
       apps:
       - Dashy
       band: developing
       in_catalog: true
-      kin_score: 52.9
+      kin_score: 51.7
       mcp:
         status: none
       name: ExchangeRate-API
@@ -7466,12 +7466,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 25.3
       apps:
       - Dashy
       band: thin
       in_catalog: true
-      kin_score: 37.8
+      kin_score: 36.1
       mcp:
         status: none
       name: AeroDataBox (via RapidAPI)
@@ -7495,12 +7495,12 @@ stack:
       via_parent: Game Backend Services
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 23.3
       apps:
       - Homepage
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 24.8
+      kin_score: 30.3
       mcp:
         status: none
       name: Pterodactyl
@@ -7524,12 +7524,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 37.2
       apps:
       - Homepage
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 73.1
       mcp:
         status: none
       name: Authentik
@@ -7553,12 +7553,12 @@ stack:
       via_parent: News & Publishing
     providers:
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.7
       apps:
       - Dashy
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 5.5
       mcp:
         source: https://github.com/currents-dev/currents-mcp
         status: verified
@@ -7581,12 +7581,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - Dashy
       band: emerging
       in_catalog: true
-      kin_score: 22.5
+      kin_score: 21.6
       mcp:
         status: none
       name: disease.sh
@@ -7610,12 +7610,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.4
+      agent_readiness: 38.6
       apps:
       - Homarr
       band: exemplar
       in_catalog: true
-      kin_score: 73.3
+      kin_score: 72.8
       mcp:
         status: none
       name: Umami
@@ -7639,12 +7639,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Homepage
       band: emerging
       in_catalog: true
-      kin_score: 15.0
+      kin_score: 24.4
       mcp:
         status: none
       name: Ghostfolio
@@ -7668,12 +7668,12 @@ stack:
       via_parent: Sports, Betting & Fantasy
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 23.9
       apps:
       - Dashy
       band: thin
       in_catalog: true
-      kin_score: 30.7
+      kin_score: 30.1
       mcp:
         status: none
       name: TheSportsDB
@@ -7697,12 +7697,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.5
+      agent_readiness: 31.7
       apps:
       - Dashy
       band: thin
       in_catalog: true
-      kin_score: 37.0
+      kin_score: 36.8
       mcp:
         status: none
       name: NVD
@@ -7726,12 +7726,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 18.3
       apps:
       - Homepage
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.5
+      kin_score: 12.4
       mcp:
         status: none
       name: mailcow
@@ -7758,7 +7758,7 @@ summary:
     unchecked: 4
     verified: 29
   mcp_verified: 29
-  mean_kin_score: 27.4
+  mean_kin_score: 30.1
   observed: 139
   queued: 4
   reference_apps: 6

@@ -84,10 +84,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.7
+    agent_readiness: 55.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.8
+    kin_score: 72.5
     mcp: &id001
       source: https://developers.asana.com/docs/using-asanas-mcp-server
       status: verified
@@ -115,10 +115,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 35.3
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 71.9
     mcp: &id003
       source: https://github.com/atlassian/atlassian-mcp-server
       status: verified
@@ -146,10 +146,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id005
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -177,10 +177,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id007
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -208,10 +208,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.0
+    agent_readiness: 32.1
     band: thin
     in_catalog: true
-    kin_score: 31.1
+    kin_score: 34.0
     mcp: &id009
       status: none
     slug: gogs
@@ -238,10 +238,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 65.7
+    agent_readiness: 64.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.6
+    kin_score: 82.4
     mcp: &id011
       source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
       status: verified
@@ -269,10 +269,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 58.1
+    agent_readiness: 56.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.5
+    kin_score: 79.1
     mcp: &id013
       source: https://github.com/rudderlabs/rudderstack-mcp
       status: verified
@@ -303,7 +303,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id015
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -331,10 +331,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id017
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -362,10 +362,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 28.7
+    agent_readiness: 30.8
     band: exemplar
     in_catalog: true
-    kin_score: 75.6
+    kin_score: 74.8
     mcp: &id019
       source: https://github.com/atlassian/trello-mcp-server
       status: verified
@@ -391,10 +391,10 @@ noindex: false
 permalink: /applications/project-management/taiga/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 53.7
+  agent_readiness: 55.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.8
+  kin_score: 72.5
   mcp: *id001
   name: Asana
   slug: asana
@@ -402,10 +402,10 @@ providers:
   tags: *id002
   url: /providers/asana/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 35.3
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 71.9
   mcp: *id003
   name: Bitbucket
   slug: bitbucket
@@ -413,10 +413,10 @@ providers:
   tags: *id004
   url: /providers/bitbucket/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id005
   name: GitHub
   slug: github
@@ -424,10 +424,10 @@ providers:
   tags: *id006
   url: /providers/github/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id007
   name: GitLab
   slug: gitlab
@@ -435,10 +435,10 @@ providers:
   tags: *id008
   url: /providers/gitlab/
 - agent_band: agent-ready
-  agent_readiness: 29.0
+  agent_readiness: 32.1
   band: thin
   in_catalog: true
-  kin_score: 31.1
+  kin_score: 34.0
   mcp: *id009
   name: Gogs
   slug: gogs
@@ -446,10 +446,10 @@ providers:
   tags: *id010
   url: /providers/gogs/
 - agent_band: agent-ready
-  agent_readiness: 65.7
+  agent_readiness: 64.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.6
+  kin_score: 82.4
   mcp: *id011
   name: Jira
   slug: jira
@@ -457,10 +457,10 @@ providers:
   tags: *id012
   url: /providers/jira/
 - agent_band: agent-ready
-  agent_readiness: 58.1
+  agent_readiness: 56.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.5
+  kin_score: 79.1
   mcp: *id013
   name: RudderStack
   slug: rudderstack
@@ -471,7 +471,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id015
   name: Sentry
   slug: sentry-system
@@ -479,10 +479,10 @@ providers:
   tags: *id016
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id017
   name: Slack
   slug: slack
@@ -490,10 +490,10 @@ providers:
   tags: *id018
   url: /providers/slack/
 - agent_band: agent-ready
-  agent_readiness: 28.7
+  agent_readiness: 30.8
   band: exemplar
   in_catalog: true
-  kin_score: 75.6
+  kin_score: 74.8
   mcp: *id019
   name: Trello
   slug: trello

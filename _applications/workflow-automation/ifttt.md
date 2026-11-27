@@ -45,22 +45,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id001
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id002
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase (Crashlytics + Analytics)
   provider: firebase
@@ -77,10 +77,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.3
+    agent_readiness: 47.7
     band: strong
     in_catalog: true
-    kin_score: 60.3
+    kin_score: 60.8
     mcp: &id003
       source: https://docs.mixpanel.com/docs/features/mcp
       status: verified
@@ -108,10 +108,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 43.8
+    kin_score: 42.9
     mcp: &id005
       status: none
     slug: segment
@@ -135,22 +135,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/workflow-automation/ifttt/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id001
-  name: Google Firebase (Crashlytics + Analytics)
-  slug: firebase
-  status: profiled
-  tags: *id002
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 48.3
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 60.3
+  kin_score: 62.0
+  mcp: *id001
+  name: Google Firebase (Crashlytics + Analytics)
+  slug: google-firebase
+  status: profiled
+  tags: *id002
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 47.7
+  band: strong
+  in_catalog: true
+  kin_score: 60.8
   mcp: *id003
   name: Mixpanel
   slug: mixpanel
@@ -158,10 +158,10 @@ providers:
   tags: *id004
   url: /providers/mixpanel/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 43.8
+  kin_score: 42.9
   mcp: *id005
   name: Segment
   slug: segment

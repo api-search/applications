@@ -70,10 +70,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.8
-    band: emerging
+    agent_readiness: 23.3
+    band: thin
     in_catalog: true
-    kin_score: 24.9
+    kin_score: 30.9
     mcp: &id001
       status: none
     slug: adjust
@@ -100,10 +100,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-native
-    agent_readiness: 66.2
+    agent_readiness: 65.1
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 68.0
     mcp: &id007
       status: none
     slug: moengage
@@ -133,7 +133,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id011
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -161,10 +161,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id003
       status: none
     slug: apple
@@ -194,7 +194,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 21.4
+    kin_score: 20.0
     mcp: &id005
       status: none
     slug: garmin
@@ -221,10 +221,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.1
+    agent_readiness: 27.5
     band: developing
     in_catalog: true
-    kin_score: 50.2
+    kin_score: 50.4
     mcp: &id009
       status: none
     slug: oura-ring
@@ -251,10 +251,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.0
+    agent_readiness: 34.3
     band: developing
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 49.1
     mcp: &id013
       status: none
     slug: whoop
@@ -279,10 +279,10 @@ noindex: false
 permalink: /applications/period-fertility-tracking/natural-cycles/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 23.8
-  band: emerging
+  agent_readiness: 23.3
+  band: thin
   in_catalog: true
-  kin_score: 24.9
+  kin_score: 30.9
   mcp: *id001
   name: Adjust
   slug: adjust
@@ -290,10 +290,10 @@ providers:
   tags: *id002
   url: /providers/adjust/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id003
   name: Apple
   slug: apple
@@ -304,7 +304,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 21.4
+  kin_score: 20.0
   mcp: *id005
   name: Garmin
   slug: garmin
@@ -312,10 +312,10 @@ providers:
   tags: *id006
   url: /providers/garmin/
 - agent_band: agent-native
-  agent_readiness: 66.2
+  agent_readiness: 65.1
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 68.0
   mcp: *id007
   name: MoEngage
   slug: moengage
@@ -323,10 +323,10 @@ providers:
   tags: *id008
   url: /providers/moengage/
 - agent_band: agent-aware
-  agent_readiness: 28.1
+  agent_readiness: 27.5
   band: developing
   in_catalog: true
-  kin_score: 50.2
+  kin_score: 50.4
   mcp: *id009
   name: Oura
   slug: oura-ring
@@ -337,7 +337,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id011
   name: Sentry
   slug: sentry-system
@@ -345,10 +345,10 @@ providers:
   tags: *id012
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 35.0
+  agent_readiness: 34.3
   band: developing
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 49.1
   mcp: *id013
   name: WHOOP
   slug: whoop

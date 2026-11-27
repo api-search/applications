@@ -1485,13 +1485,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 48.6
       apps:
       - 1Password
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -1508,14 +1508,14 @@ stack:
       - Visualization
       tier: declared
       url: /providers/datadog/
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - 1Password
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 78.4
       mcp:
         source: https://www.elastic.co/docs/solutions/search/mcp
         status: verified
@@ -1532,37 +1532,14 @@ stack:
       - Security
       tier: declared
       url: /providers/elastic/
-    - agent_band: agent-ready
-      agent_readiness: 53.5
-      apps:
-      - 1Password
-      - Bitwarden
-      band: strong
-      in_catalog: true
-      kin_score: 61.4
-      mcp:
-        status: none
-      name: Splunk
-      slug: splunk
-      sources:
-      - https://bitwarden.com/integrations/
-      - https://support.1password.com/events-reporting/
-      status: profiled
-      tags:
-      - Analytics
-      - Data Analysis
-      - Logging
-      - Machine Data
-      tier: declared
-      url: /providers/splunk/
     - agent_band: agent-aware
       agent_readiness: 27.2
       apps:
       - 1Password
       - Bitwarden
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 59.7
+      kin_score: 67.3
       mcp:
         source: https://github.com/microsoft/sentinel-data-exploration-mcp
         status: verified
@@ -1580,13 +1557,59 @@ stack:
       tier: declared
       url: /providers/microsoft-sentinel/
     - agent_band: agent-ready
-      agent_readiness: 34.5
+      agent_readiness: 54.4
       apps:
       - 1Password
       - Bitwarden
       band: strong
       in_catalog: true
-      kin_score: 57.1
+      kin_score: 63.1
+      mcp:
+        status: none
+      name: Splunk
+      slug: splunk
+      sources:
+      - https://bitwarden.com/integrations/
+      - https://support.1password.com/events-reporting/
+      status: profiled
+      tags:
+      - Analytics
+      - Data Analysis
+      - Logging
+      - Machine Data
+      tier: declared
+      url: /providers/splunk/
+    - agent_band: agent-ready
+      agent_readiness: 34.0
+      apps:
+      - 1Password
+      - Bitwarden
+      band: strong
+      in_catalog: true
+      kin_score: 61.3
+      mcp:
+        status: none
+      name: Blumira
+      slug: blumira
+      sources:
+      - https://bitwarden.com/integrations/
+      - https://support.1password.com/events-reporting/
+      status: profiled
+      tags:
+      - Cloud
+      - Company
+      - Security
+      - Software-as-a-Service
+      tier: declared
+      url: /providers/blumira/
+    - agent_band: agent-ready
+      agent_readiness: 34.8
+      apps:
+      - 1Password
+      - Bitwarden
+      band: strong
+      in_catalog: true
+      kin_score: 56.9
       mcp:
         source: https://github.com/panther-labs/mcp-panther
         status: verified
@@ -1604,36 +1627,13 @@ stack:
       tier: declared
       url: /providers/panther/
     - agent_band: agent-ready
-      agent_readiness: 34.7
+      agent_readiness: 48.2
       apps:
       - 1Password
       - Bitwarden
       band: developing
       in_catalog: true
-      kin_score: 51.7
-      mcp:
-        status: none
-      name: Blumira
-      slug: blumira
-      sources:
-      - https://bitwarden.com/integrations/
-      - https://support.1password.com/events-reporting/
-      status: profiled
-      tags:
-      - Cloud
-      - Company
-      - Security
-      - Software-as-a-Service
-      tier: declared
-      url: /providers/blumira/
-    - agent_band: agent-ready
-      agent_readiness: 45.1
-      apps:
-      - 1Password
-      - Bitwarden
-      band: developing
-      in_catalog: true
-      kin_score: 47.1
+      kin_score: 47.3
       mcp:
         source: https://docs.sumologic.com/docs/search/mobot/
         status: documented
@@ -1651,13 +1651,13 @@ stack:
       tier: declared
       url: /providers/sumo-logic/
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 28.8
       apps:
       - 1Password
       - Bitwarden
       band: thin
       in_catalog: true
-      kin_score: 36.9
+      kin_score: 35.9
       mcp:
         source: https://github.com/rapid7/rapid7-bulk-export-mcp
         status: verified
@@ -1675,7 +1675,7 @@ stack:
       tier: declared
       url: /providers/rapid7/
     - agent_band: agent-ready
-      agent_readiness: 35.1
+      agent_readiness: 34.4
       apps:
       - 1Password
       band: exemplar
@@ -1697,12 +1697,12 @@ stack:
       tier: declared
       url: /providers/crowdstrike/
     - agent_band: agent-ready
-      agent_readiness: 56.5
+      agent_readiness: 55.3
       apps:
       - Bitwarden
       band: strong
       in_catalog: true
-      kin_score: 65.0
+      kin_score: 63.5
       mcp:
         status: none
       name: Huntress
@@ -1726,13 +1726,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - 1Password
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -1750,13 +1750,13 @@ stack:
       tier: declared
       url: /providers/okta/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - 1Password
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft Entra ID
@@ -1772,14 +1772,14 @@ stack:
       - Identity and Access Management
       tier: declared
       url: /providers/microsoft-entra/
-    - agent_band: agent-aware
-      agent_readiness: 23.2
+    - agent_band: agent-ready
+      agent_readiness: 31.3
       apps:
       - 1Password
       - Bitwarden
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 33.6
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=jumpcloud
         status: verified
@@ -1797,13 +1797,13 @@ stack:
       tier: declared
       url: /providers/jumpcloud/
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 24.3
       apps:
       - 1Password
       - Bitwarden
       band: thin
       in_catalog: true
-      kin_score: 30.5
+      kin_score: 29.5
       mcp:
         source: https://github.com/onelogin/onelogin-mcp
         status: verified
@@ -1821,12 +1821,12 @@ stack:
       tier: declared
       url: /providers/onelogin/
     - agent_band: agent-ready
-      agent_readiness: 39.9
+      agent_readiness: 39.5
       apps:
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 72.1
+      kin_score: 71.8
       mcp:
         source: https://auth0.com/docs/get-started/auth0-mcp-server
         status: verified
@@ -1843,12 +1843,12 @@ stack:
       tier: declared
       url: /providers/auth0/
     - agent_band: agent-ready
-      agent_readiness: 37.9
+      agent_readiness: 43.0
       apps:
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 68.6
+      kin_score: 70.7
       mcp:
         source: https://github.com/gemini-cli-extensions/workspace
         status: verified
@@ -1865,7 +1865,7 @@ stack:
       tier: declared
       url: /providers/google-workspace/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.3
       apps:
       - Bitwarden
       band: thin
@@ -1886,12 +1886,12 @@ stack:
       tier: declared
       url: /providers/keycloak/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - 1Password
       band: thin
       in_catalog: true
-      kin_score: 31.8
+      kin_score: 34.7
       mcp: &id001
         status: none
       name: Duo Security
@@ -1915,7 +1915,7 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 25.0
       apps:
       - Bitwarden
       - Passbolt
@@ -1923,7 +1923,7 @@ stack:
       - Vaultwarden
       band: strong
       in_catalog: true
-      kin_score: 58.3
+      kin_score: 58.0
       mcp:
         status: none
       name: Yubico
@@ -1941,7 +1941,7 @@ stack:
       tier: observed
       url: /providers/yubico/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Bitwarden
       - Passbolt
@@ -1949,7 +1949,7 @@ stack:
       - Vaultwarden
       band: thin
       in_catalog: true
-      kin_score: 31.8
+      kin_score: 34.7
       mcp: *id001
       name: Duo Security
       slug: duo-security
@@ -1962,12 +1962,12 @@ stack:
       tier: observed
       url: /providers/duo-security/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.2
       apps:
       - Psono
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.5
+      kin_score: 31.3
       mcp:
         status: unknown
       name: iVALT
@@ -1991,13 +1991,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - 1Password
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -2015,13 +2015,13 @@ stack:
       tier: declared
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 30.3
+      agent_readiness: 29.7
       apps:
       - 1Password
       - Bitwarden
       band: developing
       in_catalog: true
-      kin_score: 43.6
+      kin_score: 42.5
       mcp:
         source: https://github.com/hashicorp/terraform-mcp-server
         status: verified
@@ -2039,12 +2039,12 @@ stack:
       tier: declared
       url: /providers/terraform/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -2061,12 +2061,12 @@ stack:
       tier: declared
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 56.1
+      agent_readiness: 56.3
       apps:
       - 1Password
       band: exemplar
       in_catalog: true
-      kin_score: 69.1
+      kin_score: 73.5
       mcp:
         source: https://github.com/CircleCI-Public/mcp-server-circleci
         status: verified
@@ -2091,14 +2091,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 31.8
       apps:
       - Bitwarden
       - KeePassXC
       - Vaultwarden
       band: developing
       in_catalog: true
-      kin_score: 48.4
+      kin_score: 49.5
       mcp:
         status: none
       name: Have I Been Pwned
@@ -2124,13 +2124,13 @@ stack:
       via_parent: Web Data
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.2
       apps:
       - KeePassXC
       - Vaultwarden
       band: developing
       in_catalog: true
-      kin_score: 39.8
+      kin_score: 39.4
       mcp:
         status: none
       name: DuckDuckGo
@@ -2147,12 +2147,12 @@ stack:
       tier: observed
       url: /providers/duckduckgo/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Vaultwarden
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2177,12 +2177,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 29.1
       apps:
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 68.1
       mcp:
         status: none
       name: Microsoft Intune
@@ -2206,12 +2206,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 28.5
       apps:
       - Bitwarden
       band: thin
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 32.8
       mcp:
         status: none
       name: Rippling
@@ -2237,13 +2237,13 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Bitwarden
       - Psono
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -2260,13 +2260,13 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - Bitwarden
       - Psono
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -2283,12 +2283,12 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 57.2
+      agent_readiness: 56.4
       apps:
       - Psono
       band: exemplar
       in_catalog: true
-      kin_score: 82.2
+      kin_score: 81.3
       mcp:
         source: https://developers.brevo.com/docs/mcp-protocol
         status: verified
@@ -2305,12 +2305,12 @@ stack:
       tier: observed
       url: /providers/brevo/
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Psono
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp (Mandrill)
@@ -2326,12 +2326,12 @@ stack:
       tier: observed
       url: /providers/mailchimp/
     - agent_band: agent-ready
-      agent_readiness: 41.7
+      agent_readiness: 43.0
       apps:
       - Psono
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 70.5
       mcp:
         source: https://github.com/ActiveCampaign/postmark-mcp
         status: verified
@@ -2348,12 +2348,12 @@ stack:
       tier: observed
       url: /providers/postmark/
     - agent_band: agent-aware
-      agent_readiness: 23.4
+      agent_readiness: 22.9
       apps:
       - Psono
       band: developing
       in_catalog: true
-      kin_score: 50.1
+      kin_score: 50.5
       mcp:
         source: https://github.com/mailgun/mailjet-mcp-server
         status: verified
@@ -2370,12 +2370,12 @@ stack:
       tier: observed
       url: /providers/mailjet/
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 25.6
       apps:
       - Psono
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 37.1
       mcp:
         status: none
       name: SparkPost
@@ -2391,12 +2391,12 @@ stack:
       tier: observed
       url: /providers/sparkpost/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - Psono
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -2421,34 +2421,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 51.5
+      agent_readiness: 35.0
       apps:
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 78.4
-      mcp:
-        source: https://github.com/microsoft/mcp
-        status: verified
-      name: Microsoft Azure
-      slug: microsoft-azure
-      sources:
-      - https://raw.githubusercontent.com/bitwarden/server/main/src/Core/Core.csproj
-      status: profiled
-      tags:
-      - Cloud
-      - Cloud Computing
-      - Enterprise
-      - Microsoft Azure
-      tier: observed
-      url: /providers/microsoft-azure/
-    - agent_band: agent-aware
-      agent_readiness: 25.6
-      apps:
-      - Bitwarden
-      band: exemplar
-      in_catalog: true
-      kin_score: 68.0
+      kin_score: 77.2
       mcp:
         source: https://raw.githubusercontent.com/microsoft/mcp/main/servers/Azure.Mcp.Server/README.md
         status: verified
@@ -2465,12 +2443,34 @@ stack:
       tier: observed
       url: /providers/azure-service-bus/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 45.0
       apps:
       - Bitwarden
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 59.8
+      kin_score: 76.0
+      mcp:
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Microsoft Azure
+      slug: microsoft-azure
+      sources:
+      - https://raw.githubusercontent.com/bitwarden/server/main/src/Core/Core.csproj
+      status: profiled
+      tags:
+      - Cloud
+      - Cloud Computing
+      - Enterprise
+      - Microsoft Azure
+      tier: observed
+      url: /providers/microsoft-azure/
+    - agent_band: agent-ready
+      agent_readiness: 34.4
+      apps:
+      - Bitwarden
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2501,7 +2501,7 @@ stack:
       - Psono
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2518,28 +2518,28 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Bitwarden
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp:
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase (Crashlytics)
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/
       status: profiled
       tags:
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-600.50.20
@@ -2549,13 +2549,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Bitwarden
       - Psono
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2573,12 +2573,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-blob-storage/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Psono
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -2603,12 +2603,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2625,12 +2625,12 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 52.0
+      agent_readiness: 53.6
       apps:
       - Bitwarden
       band: developing
       in_catalog: true
-      kin_score: 46.2
+      kin_score: 44.7
       mcp:
         status: none
       name: Braintree
@@ -2654,12 +2654,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 20.5
       apps:
       - Bitwarden
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 40.0
+      kin_score: 55.7
       mcp:
         status: unknown
       name: Azure Notification Hubs
@@ -2675,12 +2675,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-notification-hubs/
     - agent_band: agent-aware
-      agent_readiness: 27.1
+      agent_readiness: 26.6
       apps:
       - Vaultwarden
       band: thin
       in_catalog: true
-      kin_score: 34.9
+      kin_score: 35.2
       mcp:
         source: https://github.com/bitwarden/mcp-server
         status: verified
@@ -2705,12 +2705,12 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2727,12 +2727,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Bitwarden
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -2756,12 +2756,12 @@ stack:
       via_parent: Stablecoin Payments
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.6
+      agent_readiness: 35.9
       apps:
       - Bitwarden
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 33.9
       mcp:
         status: none
       name: BitPay
@@ -2785,12 +2785,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 60.6
+      agent_readiness: 59.7
       apps:
       - Bitwarden
       band: exemplar
       in_catalog: true
-      kin_score: 85.5
+      kin_score: 84.5
       mcp:
         source: https://launchdarkly.com/docs/home/getting-started/mcp
         status: verified
@@ -2815,12 +2815,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Bitwarden
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple
@@ -2843,13 +2843,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.0
+    - agent_band: agent-ready
+      agent_readiness: 30.9
       apps:
       - Bitwarden
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 40.9
+      kin_score: 69.4
       mcp:
         source: https://raw.githubusercontent.com/microsoft/mcp/main/servers/Azure.Mcp.Server/README.md
         status: verified
@@ -2877,7 +2877,7 @@ summary:
     unchecked: 0
     verified: 32
   mcp_verified: 32
-  mean_kin_score: 59.0
+  mean_kin_score: 61.2
   observed: 31
   queued: 0
   reference_apps: 6

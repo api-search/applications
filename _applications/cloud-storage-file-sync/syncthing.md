@@ -44,10 +44,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 31.5
     mcp: &id001
       status: none
     slug: maxmind
@@ -77,7 +77,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id003
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -103,10 +103,10 @@ noindex: false
 permalink: /applications/cloud-storage-file-sync/syncthing/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 31.5
   mcp: *id001
   name: MaxMind
   slug: maxmind
@@ -117,7 +117,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id003
   name: Sentry
   slug: sentry-system

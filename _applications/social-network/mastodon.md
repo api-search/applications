@@ -81,11 +81,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -113,10 +113,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id003
       source: https://github.com/microsoft/mcp
       status: verified
@@ -144,10 +144,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.4
+    agent_readiness: 36.1
     band: strong
     in_catalog: true
-    kin_score: 60.8
+    kin_score: 61.4
     mcp: &id005
       source: https://github.com/DeepL/deepl-mcp-server
       status: verified
@@ -174,11 +174,11 @@ integrations:
     via_parent: Knowledge Curation & Taxonomy Management
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.6
+    agent_band: agent-aware
+    agent_readiness: 28.5
     band: exemplar
     in_catalog: true
-    kin_score: 70.2
+    kin_score: 78.4
     mcp: &id007
       source: https://www.elastic.co/docs/solutions/search/mcp
       status: verified
@@ -206,10 +206,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 31.5
+    kin_score: 31.1
     mcp: &id009
       status: none
     slug: hcaptcha
@@ -236,10 +236,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.8
-    band: thin
+    agent_readiness: 23.3
+    band: emerging
     in_catalog: true
-    kin_score: 26.2
+    kin_score: 24.3
     mcp: &id011
       source: https://github.com/LibreTranslate/LibreTranslate-MCP
       status: verified
@@ -267,10 +267,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 36.1
+    kin_score: 34.5
     mcp: &id013
       status: none
     slug: openstack
@@ -300,7 +300,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 12.2
+    kin_score: 11.6
     mcp: &id015
       status: none
     slug: postgresql
@@ -326,11 +326,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 49.8
+    agent_band: agent-ready
+    agent_readiness: 41.5
     band: developing
     in_catalog: true
-    kin_score: 47.4
+    kin_score: 46.5
     mcp: &id017
       source: https://github.com/redis/mcp-redis
       status: verified
@@ -355,11 +355,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/social-network/mastodon/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -367,10 +367,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id003
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -378,21 +378,21 @@ providers:
   tags: *id004
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: agent-ready
-  agent_readiness: 36.4
+  agent_readiness: 36.1
   band: strong
   in_catalog: true
-  kin_score: 60.8
+  kin_score: 61.4
   mcp: *id005
   name: DeepL
   slug: deepl
   status: profiled
   tags: *id006
   url: /providers/deepl/
-- agent_band: agent-ready
-  agent_readiness: 28.6
+- agent_band: agent-aware
+  agent_readiness: 28.5
   band: exemplar
   in_catalog: true
-  kin_score: 70.2
+  kin_score: 78.4
   mcp: *id007
   name: Elasticsearch
   slug: elastic
@@ -400,10 +400,10 @@ providers:
   tags: *id008
   url: /providers/elastic/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 31.5
+  kin_score: 31.1
   mcp: *id009
   name: hCaptcha
   slug: hcaptcha
@@ -411,10 +411,10 @@ providers:
   tags: *id010
   url: /providers/hcaptcha/
 - agent_band: agent-aware
-  agent_readiness: 23.8
-  band: thin
+  agent_readiness: 23.3
+  band: emerging
   in_catalog: true
-  kin_score: 26.2
+  kin_score: 24.3
   mcp: *id011
   name: LibreTranslate
   slug: libre-translate
@@ -422,10 +422,10 @@ providers:
   tags: *id012
   url: /providers/libre-translate/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 36.1
+  kin_score: 34.5
   mcp: *id013
   name: OpenStack Swift
   slug: openstack
@@ -436,18 +436,18 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 12.2
+  kin_score: 11.6
   mcp: *id015
   name: PostgreSQL
   slug: postgresql
   status: profiled
   tags: *id016
   url: /providers/postgresql/
-- agent_band: agent-native
-  agent_readiness: 49.8
+- agent_band: agent-ready
+  agent_readiness: 41.5
   band: developing
   in_catalog: true
-  kin_score: 47.4
+  kin_score: 46.5
   mcp: *id017
   name: Redis
   slug: redis

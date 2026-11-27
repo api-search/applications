@@ -347,7 +347,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.6
+    kin_score: 19.9
     mcp: &id001
       status: none
     slug: adguard
@@ -374,10 +374,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.3
+    agent_readiness: 22.4
     band: thin
     in_catalog: true
-    kin_score: 36.6
+    kin_score: 38.7
     mcp: &id003
       source: https://github.com/argoproj-labs/mcp-for-argocd
       status: verified
@@ -405,10 +405,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
+    agent_readiness: 14.4
     band: emerging
     in_catalog: true
-    kin_score: 16.5
+    kin_score: 19.2
     mcp: &id005
       status: none
     slug: audiobookshelf
@@ -435,10 +435,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.2
+    agent_readiness: 37.2
     band: exemplar
     in_catalog: true
-    kin_score: 74.5
+    kin_score: 73.1
     mcp: &id007
       status: none
     slug: authentik
@@ -465,10 +465,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: minimal
+    agent_readiness: 22.5
+    band: emerging
     in_catalog: true
-    kin_score: 9.4
+    kin_score: 13.2
     mcp: &id009
       status: unknown
     slug: backrest
@@ -496,9 +496,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.7
+    kin_score: 11.2
     mcp: &id011
       status: none
     slug: bazarr
@@ -525,10 +525,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.1
+    agent_readiness: 14.5
     band: emerging
     in_catalog: true
-    kin_score: 12.6
+    kin_score: 13.7
     mcp: &id013
       status: unknown
     slug: beszel
@@ -555,10 +555,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.2
+    agent_readiness: 17.8
     band: thin
     in_catalog: true
-    kin_score: 27.3
+    kin_score: 26.9
     mcp: &id015
       status: none
     slug: caddy
@@ -588,7 +588,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.6
+    kin_score: 18.1
     mcp: &id017
       status: none
     slug: changedetection-io
@@ -615,10 +615,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 69.6
+    agent_readiness: 69.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.8
+    kin_score: 82.5
     mcp: &id019
       source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
       status: verified
@@ -646,10 +646,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 9.3
+    agent_readiness: 10.1
     band: emerging
     in_catalog: true
-    kin_score: 15.5
+    kin_score: 14.8
     mcp: &id021
       source: https://coinmarketcap.com/api/mcp/
       status: verified
@@ -677,10 +677,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.4
+    agent_readiness: 36.7
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 44.7
     mcp: &id023
       source: https://github.com/crowdsecurity/crowdsec-local-mcp
       status: verified
@@ -711,7 +711,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 21.1
+    kin_score: 25.4
     mcp: &id025
       status: none
     slug: deluge
@@ -737,11 +737,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.4
+    agent_band: agent-ready
+    agent_readiness: 32.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 51.7
     mcp: &id027
       source: https://github.com/docker/mcp-gateway
       status: verified
@@ -769,10 +769,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
+    agent_readiness: 17.2
     band: thin
     in_catalog: true
-    kin_score: 28.0
+    kin_score: 34.0
     mcp: &id029
       status: none
     slug: duplicati
@@ -802,7 +802,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 14.1
+    kin_score: 21.4
     mcp: &id031
       status: none
     slug: emby
@@ -829,10 +829,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 1.1
     band: emerging
     in_catalog: true
-    kin_score: 11.1
+    kin_score: 15.8
     mcp: &id033
       status: none
     slug: esphome
@@ -859,10 +859,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.2
-    band: thin
+    agent_readiness: 32.6
+    band: developing
     in_catalog: true
-    kin_score: 38.8
+    kin_score: 45.0
     mcp: &id035
       source: https://docs.evcc.io/en/integrations/mcp.md
       status: verified
@@ -893,7 +893,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 16.1
+    kin_score: 17.8
     mcp: &id037
       status: none
     slug: filebrowser
@@ -923,7 +923,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.9
+    kin_score: 8.7
     mcp: &id039
       status: none
     slug: firefly-iii
@@ -953,7 +953,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.7
+    kin_score: 5.9
     mcp: &id041
       status: none
     slug: freshrss
@@ -980,10 +980,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.1
+    agent_readiness: 16.9
     band: emerging
     in_catalog: true
-    kin_score: 20.5
+    kin_score: 24.1
     mcp: &id043
       status: unknown
     slug: frigate
@@ -1011,9 +1011,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.1
+    kin_score: 12.0
     mcp: &id045
       status: unknown
     slug: gatus
@@ -1040,10 +1040,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 15.0
+    kin_score: 24.4
     mcp: &id047
       status: none
     slug: ghostfolio
@@ -1070,10 +1070,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 35.0
     band: exemplar
     in_catalog: true
-    kin_score: 69.8
+    kin_score: 68.1
     mcp: &id049
       source: https://gitea.com/gitea/gitea-mcp
       status: verified
@@ -1101,10 +1101,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.6
+    agent_readiness: 54.5
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 86.3
     mcp: &id051
       source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
       status: verified
@@ -1163,9 +1163,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.7
+    kin_score: 14.9
     mcp: &id055
       status: unknown
     slug: gluetun
@@ -1195,7 +1195,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.8
+    kin_score: 10.9
     mcp: &id057
       source: https://gotify.net/docs/mcp
       status: verified
@@ -1222,11 +1222,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_band: agent-aware
+    agent_readiness: 27.6
     band: strong
     in_catalog: true
-    kin_score: 60.6
+    kin_score: 66.0
     mcp: &id059
       source: https://github.com/grafana/mcp-grafana
       status: verified
@@ -1257,7 +1257,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 2.2
     mcp: &id061
       status: unknown
     slug: headscale
@@ -1284,10 +1284,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: thin
+    agent_readiness: 17.2
+    band: developing
     in_catalog: true
-    kin_score: 32.9
+    kin_score: 43.4
     mcp: &id063
       status: none
     slug: healthchecks-io
@@ -1313,11 +1313,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: human-only
-    agent_readiness: 5.0
-    band: emerging
+    agent_band: agent-aware
+    agent_readiness: 5.6
+    band: thin
     in_catalog: true
-    kin_score: 22.2
+    kin_score: 34.5
     mcp: &id065
       source: https://www.home-assistant.io/integrations/mcp_server/
       status: verified
@@ -1345,10 +1345,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.9
+    kin_score: 5.0
     mcp: &id067
       status: none
     slug: homebridge
@@ -1375,10 +1375,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 15.1
     band: emerging
     in_catalog: true
-    kin_score: 22.3
+    kin_score: 25.5
     mcp: &id069
       status: none
     slug: immich
@@ -1405,10 +1405,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.7
+    agent_readiness: 23.2
     band: emerging
     in_catalog: true
-    kin_score: 17.2
+    kin_score: 22.9
     mcp: &id071
       status: none
     slug: jackett
@@ -1435,10 +1435,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 12.4
     band: emerging
     in_catalog: true
-    kin_score: 16.7
+    kin_score: 20.7
     mcp: &id073
       status: none
     slug: jellyfin
@@ -1468,7 +1468,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.5
+    kin_score: 10.5
     mcp: &id075
       status: unknown
     slug: jellystat
@@ -1495,10 +1495,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.1
-    band: thin
+    agent_readiness: 19.7
+    band: developing
     in_catalog: true
-    kin_score: 30.8
+    kin_score: 40.9
     mcp: &id077
       source: https://docs.karakeep.app/mcp
       status: verified
@@ -1526,10 +1526,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
-    band: emerging
+    agent_readiness: 18.6
+    band: thin
     in_catalog: true
-    kin_score: 25.5
+    kin_score: 28.5
     mcp: &id079
       status: none
     slug: kavita
@@ -1556,10 +1556,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 10.1
+    kin_score: 13.0
     mcp: &id081
       status: unknown
     slug: komga
@@ -1586,10 +1586,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.0
+    agent_readiness: 12.7
     band: emerging
     in_catalog: true
-    kin_score: 17.3
+    kin_score: 20.1
     mcp: &id083
       status: none
     slug: kopia
@@ -1615,11 +1615,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 28.5
+    agent_band: agent-ready
+    agent_readiness: 32.6
     band: developing
     in_catalog: true
-    kin_score: 48.3
+    kin_score: 48.7
     mcp: &id085
       status: none
     slug: kubernetes
@@ -1646,10 +1646,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 10.0
+    kin_score: 11.8
     mcp: &id087
       status: none
     slug: lidarr
@@ -1675,11 +1675,11 @@ integrations:
     via_parent: News & Publishing
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_band: agent-ready
+    agent_readiness: 30.2
     band: developing
     in_catalog: true
-    kin_score: 41.5
+    kin_score: 48.8
     mcp: &id089
       status: none
     slug: linkwarden
@@ -1706,10 +1706,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.4
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 8.5
+    kin_score: 12.4
     mcp: &id091
       status: none
     slug: mailcow
@@ -1736,10 +1736,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.5
-    band: thin
+    agent_readiness: 22.0
+    band: emerging
     in_catalog: true
-    kin_score: 26.5
+    kin_score: 25.5
     mcp: &id093
       status: none
     slug: mastodon
@@ -1766,10 +1766,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.7
+    agent_readiness: 29.1
     band: developing
     in_catalog: true
-    kin_score: 41.5
+    kin_score: 41.7
     mcp: &id095
       status: none
     slug: mealie
@@ -1799,7 +1799,7 @@ integrations:
     agent_readiness: 3.2
     band: emerging
     in_catalog: true
-    kin_score: 13.1
+    kin_score: 13.9
     mcp: &id097
       status: none
     slug: pymedusa
@@ -1852,10 +1852,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.0
+    agent_readiness: 14.7
     band: emerging
     in_catalog: true
-    kin_score: 20.9
+    kin_score: 23.6
     mcp: &id101
       status: none
     slug: miniflux
@@ -1882,10 +1882,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 0.7
     band: minimal
     in_catalog: true
-    kin_score: 8.2
+    kin_score: 10.9
     mcp: &id103
       status: unknown
     slug: moonraker
@@ -1912,10 +1912,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.4
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 30.5
+    kin_score: 33.5
     mcp: &id105
       status: none
     slug: navidrome
@@ -1942,10 +1942,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.4
+    agent_readiness: 27.9
     band: thin
     in_catalog: true
-    kin_score: 36.4
+    kin_score: 34.7
     mcp: &id107
       source: https://github.com/netbirdio/netbird-mcp
       status: verified
@@ -1973,10 +1973,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 25.1
     band: thin
     in_catalog: true
-    kin_score: 38.1
+    kin_score: 37.0
     mcp: &id109
       source: https://raw.githubusercontent.com/netdata/netdata/master/src/web/mcp/README.md
       status: verified
@@ -2004,10 +2004,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id111
       status: none
     slug: nextcloud
@@ -2033,11 +2033,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 13.7
+    agent_band: human-only
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 13.8
+    kin_score: 17.8
     mcp: &id113
       status: none
     slug: nextdns
@@ -2064,10 +2064,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.0
+    agent_readiness: 17.6
     band: emerging
     in_catalog: true
-    kin_score: 22.3
+    kin_score: 23.5
     mcp: &id115
       status: none
     slug: nginx-proxy-manager
@@ -2095,9 +2095,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.9
+    kin_score: 15.5
     mcp: &id117
       status: none
     slug: ntfy
@@ -2127,7 +2127,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.1
+    kin_score: 9.8
     mcp: &id119
       status: none
     slug: nzbget
@@ -2154,10 +2154,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.8
-    band: emerging
+    agent_readiness: 22.5
+    band: thin
     in_catalog: true
-    kin_score: 24.5
+    kin_score: 32.1
     mcp: &id121
       status: none
     slug: octoprint
@@ -2184,10 +2184,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.5
+    agent_readiness: 4.2
     band: emerging
     in_catalog: true
-    kin_score: 12.5
+    kin_score: 16.7
     mcp: &id123
       source: https://github.com/openmediavault/openmediavault-mcp
       status: verified
@@ -2218,7 +2218,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 16.9
+    kin_score: 25.0
     mcp: &id125
       status: none
     slug: openwrt
@@ -2245,10 +2245,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 24.1
     band: emerging
     in_catalog: true
-    kin_score: 25.2
+    kin_score: 24.6
     mcp: &id127
       status: none
     slug: opnsense
@@ -2304,7 +2304,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.4
     mcp: &id131
       status: none
     slug: paperless-ngx
@@ -2328,10 +2328,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.8
+    agent_readiness: 21.3
     band: thin
     in_catalog: true
-    kin_score: 33.6
+    kin_score: 33.2
     mcp: &id133
       status: none
     slug: pfsense
@@ -2358,10 +2358,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.7
+    agent_readiness: 37.3
     band: developing
     in_catalog: true
-    kin_score: 42.5
+    kin_score: 52.5
     mcp: &id135
       source: https://docs.photoprism.app/developer-guide/api/mcp/
       status: verified
@@ -2389,10 +2389,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: emerging
     in_catalog: true
-    kin_score: 22.9
+    kin_score: 22.3
     mcp: &id137
       status: none
     slug: pi-hole
@@ -2419,10 +2419,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 59.6
+    agent_readiness: 63.2
     band: strong
     in_catalog: true
-    kin_score: 55.9
+    kin_score: 56.7
     mcp: &id139
       status: none
     slug: plex
@@ -2449,10 +2449,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.6
+    agent_readiness: 38.8
     band: strong
     in_catalog: true
-    kin_score: 56.0
+    kin_score: 57.1
     mcp: &id141
       source: https://github.com/portainer/portainer-mcp
       status: verified
@@ -2480,10 +2480,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.7
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 35.4
+    kin_score: 35.9
     mcp: &id143
       source: https://github.com/prometheus/prometheus-mcp
       status: verified
@@ -2511,10 +2511,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.4
-    band: thin
+    agent_readiness: 21.3
+    band: developing
     in_catalog: true
-    kin_score: 34.7
+    kin_score: 42.5
     mcp: &id145
       status: none
     slug: prowlarr
@@ -2541,10 +2541,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 27.4
+    kin_score: 26.8
     mcp: &id147
       status: none
     slug: proxmox
@@ -2571,10 +2571,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.8
-    band: emerging
+    agent_readiness: 23.3
+    band: thin
     in_catalog: true
-    kin_score: 24.8
+    kin_score: 30.3
     mcp: &id149
       status: none
     slug: pterodactyl
@@ -2601,10 +2601,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 1.1
     band: minimal
     in_catalog: true
-    kin_score: 8.1
+    kin_score: 10.5
     mcp: &id151
       status: none
     slug: qbittorrent
@@ -2631,10 +2631,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.5
+    kin_score: 17.3
     mcp: &id153
       source: https://www.qnap.com/en-us/software/mcp-assistant
       status: documented
@@ -2662,10 +2662,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 8.2
+    kin_score: 11.0
     mcp: &id155
       status: unknown
     slug: radarr
@@ -2718,10 +2718,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.1
-    band: thin
+    agent_readiness: 29.8
+    band: developing
     in_catalog: true
-    kin_score: 37.3
+    kin_score: 41.0
     mcp: &id159
       status: none
     slug: romm
@@ -2748,10 +2748,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 16.9
     band: emerging
     in_catalog: true
-    kin_score: 19.1
+    kin_score: 22.6
     mcp: &id161
       status: none
     slug: sabnzbd
@@ -2778,10 +2778,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 16.9
     band: emerging
     in_catalog: true
-    kin_score: 14.5
+    kin_score: 17.2
     mcp: &id163
       status: unknown
     slug: scrutiny
@@ -2808,10 +2808,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.8
+    agent_readiness: 25.3
     band: thin
     in_catalog: true
-    kin_score: 28.5
+    kin_score: 32.5
     mcp: &id165
       status: none
     slug: sonarr
@@ -2838,10 +2838,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 22.4
     band: emerging
     in_catalog: true
-    kin_score: 20.2
+    kin_score: 24.2
     mcp: &id167
       status: unknown
     slug: speedtest-tracker
@@ -2868,10 +2868,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 36.9
     band: emerging
     in_catalog: true
-    kin_score: 16.4
+    kin_score: 20.0
     mcp: &id169
       status: unknown
     slug: spoolman
@@ -2899,9 +2899,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.6
+    kin_score: 16.2
     mcp: &id171
       status: unknown
     slug: stashapp
@@ -2928,10 +2928,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 15.9
     band: emerging
     in_catalog: true
-    kin_score: 16.1
+    kin_score: 22.9
     mcp: &id173
       status: none
     slug: syncthing
@@ -2958,10 +2958,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
-    band: minimal
+    agent_readiness: 18.3
+    band: emerging
     in_catalog: true
-    kin_score: 7.5
+    kin_score: 12.0
     mcp: &id175
       status: none
     slug: synology
@@ -2988,10 +2988,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.5
+    agent_readiness: 21.0
     band: developing
     in_catalog: true
-    kin_score: 42.2
+    kin_score: 40.8
     mcp: &id177
       status: none
     slug: tailscale
@@ -3018,10 +3018,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.7
+    agent_readiness: 26.2
     band: strong
     in_catalog: true
-    kin_score: 61.0
+    kin_score: 59.5
     mcp: &id179
       status: none
     slug: tandoor
@@ -3048,10 +3048,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
-    band: minimal
+    agent_readiness: 2.8
+    band: emerging
     in_catalog: true
-    kin_score: 8.9
+    kin_score: 12.4
     mcp: &id181
       status: none
     slug: tautulli
@@ -3078,10 +3078,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 6.5
     mcp: &id183
       status: unknown
     slug: tdarr
@@ -3111,7 +3111,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.0
+    kin_score: 7.1
     mcp: &id185
       status: none
     slug: technitium
@@ -3138,10 +3138,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.5
+    agent_readiness: 24.0
     band: strong
     in_catalog: true
-    kin_score: 57.9
+    kin_score: 61.1
     mcp: &id187
       status: none
     slug: traefik
@@ -3171,7 +3171,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.4
+    kin_score: 4.7
     mcp: &id189
       status: none
     slug: transmission-bt
@@ -3198,10 +3198,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 14.1
+    kin_score: 22.1
     mcp: &id191
       source: https://github.com/truenas/truenas-mcp
       status: verified
@@ -3228,11 +3228,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.9
+    agent_band: agent-ready
+    agent_readiness: 33.3
     band: developing
     in_catalog: true
-    kin_score: 46.3
+    kin_score: 47.3
     mcp: &id193
       status: none
     slug: ubiquiti
@@ -3259,10 +3259,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.7
+    agent_readiness: 11.2
     band: emerging
     in_catalog: true
-    kin_score: 14.1
+    kin_score: 21.2
     mcp: &id195
       status: none
     slug: unraid
@@ -3289,10 +3289,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 15.1
     band: emerging
     in_catalog: true
-    kin_score: 18.5
+    kin_score: 20.6
     mcp: &id197
       status: none
     slug: uptime-kuma
@@ -3319,10 +3319,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 50.9
-    band: developing
+    agent_readiness: 59.1
+    band: strong
     in_catalog: true
-    kin_score: 51.1
+    kin_score: 62.9
     mcp: &id199
       source: https://uptimerobot.com/mcp/
       status: documented
@@ -3350,10 +3350,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 6.5
+    agent_readiness: 6.3
     band: emerging
     in_catalog: true
-    kin_score: 15.6
+    kin_score: 17.9
     mcp: &id201
       status: none
     slug: whats-up-docker
@@ -3380,10 +3380,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.1
+    agent_readiness: 21.6
     band: thin
     in_catalog: true
-    kin_score: 35.1
+    kin_score: 34.0
     mcp: &id203
       status: none
     slug: zabbix
@@ -3411,7 +3411,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.6
+  kin_score: 19.9
   mcp: *id001
   name: AdGuard Home
   slug: adguard
@@ -3419,10 +3419,10 @@ providers:
   tags: *id002
   url: /providers/adguard/
 - agent_band: agent-aware
-  agent_readiness: 22.3
+  agent_readiness: 22.4
   band: thin
   in_catalog: true
-  kin_score: 36.6
+  kin_score: 38.7
   mcp: *id003
   name: Argo CD
   slug: argocd
@@ -3430,10 +3430,10 @@ providers:
   tags: *id004
   url: /providers/argocd/
 - agent_band: agent-aware
-  agent_readiness: 17.6
+  agent_readiness: 14.4
   band: emerging
   in_catalog: true
-  kin_score: 16.5
+  kin_score: 19.2
   mcp: *id005
   name: Audiobookshelf
   slug: audiobookshelf
@@ -3441,10 +3441,10 @@ providers:
   tags: *id006
   url: /providers/audiobookshelf/
 - agent_band: agent-ready
-  agent_readiness: 33.2
+  agent_readiness: 37.2
   band: exemplar
   in_catalog: true
-  kin_score: 74.5
+  kin_score: 73.1
   mcp: *id007
   name: Authentik
   slug: authentik
@@ -3452,10 +3452,10 @@ providers:
   tags: *id008
   url: /providers/authentik/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: minimal
+  agent_readiness: 22.5
+  band: emerging
   in_catalog: true
-  kin_score: 9.4
+  kin_score: 13.2
   mcp: *id009
   name: Backrest
   slug: backrest
@@ -3464,9 +3464,9 @@ providers:
   url: /providers/backrest/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.7
+  kin_score: 11.2
   mcp: *id011
   name: Bazarr
   slug: bazarr
@@ -3474,10 +3474,10 @@ providers:
   tags: *id012
   url: /providers/bazarr/
 - agent_band: agent-aware
-  agent_readiness: 17.1
+  agent_readiness: 14.5
   band: emerging
   in_catalog: true
-  kin_score: 12.6
+  kin_score: 13.7
   mcp: *id013
   name: Beszel
   slug: beszel
@@ -3485,10 +3485,10 @@ providers:
   tags: *id014
   url: /providers/beszel/
 - agent_band: agent-aware
-  agent_readiness: 18.2
+  agent_readiness: 17.8
   band: thin
   in_catalog: true
-  kin_score: 27.3
+  kin_score: 26.9
   mcp: *id015
   name: Caddy
   slug: caddy
@@ -3499,7 +3499,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.6
+  kin_score: 18.1
   mcp: *id017
   name: changedetection.io
   slug: changedetection-io
@@ -3507,10 +3507,10 @@ providers:
   tags: *id018
   url: /providers/changedetection-io/
 - agent_band: agent-native
-  agent_readiness: 69.6
+  agent_readiness: 69.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.8
+  kin_score: 82.5
   mcp: *id019
   name: Cloudflare (Tunnel)
   slug: cloudflare
@@ -3518,10 +3518,10 @@ providers:
   tags: *id020
   url: /providers/cloudflare/
 - agent_band: agent-aware
-  agent_readiness: 9.3
+  agent_readiness: 10.1
   band: emerging
   in_catalog: true
-  kin_score: 15.5
+  kin_score: 14.8
   mcp: *id021
   name: CoinMarketCap
   slug: coinmarketcap
@@ -3529,10 +3529,10 @@ providers:
   tags: *id022
   url: /providers/coinmarketcap/
 - agent_band: agent-ready
-  agent_readiness: 37.4
+  agent_readiness: 36.7
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 44.7
   mcp: *id023
   name: CrowdSec
   slug: crowdsec
@@ -3543,18 +3543,18 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 21.1
+  kin_score: 25.4
   mcp: *id025
   name: Deluge
   slug: deluge
   status: profiled
   tags: *id026
   url: /providers/deluge/
-- agent_band: agent-aware
-  agent_readiness: 24.4
+- agent_band: agent-ready
+  agent_readiness: 32.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 51.7
   mcp: *id027
   name: Docker
   slug: docker
@@ -3562,10 +3562,10 @@ providers:
   tags: *id028
   url: /providers/docker/
 - agent_band: agent-aware
-  agent_readiness: 17.6
+  agent_readiness: 17.2
   band: thin
   in_catalog: true
-  kin_score: 28.0
+  kin_score: 34.0
   mcp: *id029
   name: Duplicati
   slug: duplicati
@@ -3576,7 +3576,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 14.1
+  kin_score: 21.4
   mcp: *id031
   name: Emby
   slug: emby
@@ -3584,10 +3584,10 @@ providers:
   tags: *id032
   url: /providers/emby/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 1.1
   band: emerging
   in_catalog: true
-  kin_score: 11.1
+  kin_score: 15.8
   mcp: *id033
   name: ESPHome
   slug: esphome
@@ -3595,10 +3595,10 @@ providers:
   tags: *id034
   url: /providers/esphome/
 - agent_band: agent-ready
-  agent_readiness: 31.2
-  band: thin
+  agent_readiness: 32.6
+  band: developing
   in_catalog: true
-  kin_score: 38.8
+  kin_score: 45.0
   mcp: *id035
   name: evcc
   slug: evcc
@@ -3609,7 +3609,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 16.1
+  kin_score: 17.8
   mcp: *id037
   name: File Browser
   slug: filebrowser
@@ -3620,7 +3620,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.9
+  kin_score: 8.7
   mcp: *id039
   name: Firefly III
   slug: firefly-iii
@@ -3631,7 +3631,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.7
+  kin_score: 5.9
   mcp: *id041
   name: FreshRSS
   slug: freshrss
@@ -3639,10 +3639,10 @@ providers:
   tags: *id042
   url: /providers/freshrss/
 - agent_band: agent-aware
-  agent_readiness: 20.1
+  agent_readiness: 16.9
   band: emerging
   in_catalog: true
-  kin_score: 20.5
+  kin_score: 24.1
   mcp: *id043
   name: Frigate NVR
   slug: frigate
@@ -3651,9 +3651,9 @@ providers:
   url: /providers/frigate/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.1
+  kin_score: 12.0
   mcp: *id045
   name: Gatus
   slug: gatus
@@ -3661,10 +3661,10 @@ providers:
   tags: *id046
   url: /providers/gatus/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 15.0
+  kin_score: 24.4
   mcp: *id047
   name: Ghostfolio
   slug: ghostfolio
@@ -3672,10 +3672,10 @@ providers:
   tags: *id048
   url: /providers/ghostfolio/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 35.0
   band: exemplar
   in_catalog: true
-  kin_score: 69.8
+  kin_score: 68.1
   mcp: *id049
   name: Gitea
   slug: gitea
@@ -3683,10 +3683,10 @@ providers:
   tags: *id050
   url: /providers/gitea/
 - agent_band: agent-native
-  agent_readiness: 55.6
+  agent_readiness: 54.5
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 86.3
   mcp: *id051
   name: GitLab
   slug: gitlab
@@ -3706,9 +3706,9 @@ providers:
   url: /providers/glances/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.7
+  kin_score: 14.9
   mcp: *id055
   name: Gluetun
   slug: gluetun
@@ -3719,18 +3719,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.8
+  kin_score: 10.9
   mcp: *id057
   name: Gotify
   slug: gotify
   status: profiled
   tags: *id058
   url: /providers/gotify/
-- agent_band: agent-ready
-  agent_readiness: 31.1
+- agent_band: agent-aware
+  agent_readiness: 27.6
   band: strong
   in_catalog: true
-  kin_score: 60.6
+  kin_score: 66.0
   mcp: *id059
   name: Grafana
   slug: grafana-com
@@ -3741,7 +3741,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 2.2
   mcp: *id061
   name: Headscale
   slug: headscale
@@ -3749,21 +3749,21 @@ providers:
   tags: *id062
   url: /providers/headscale/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: thin
+  agent_readiness: 17.2
+  band: developing
   in_catalog: true
-  kin_score: 32.9
+  kin_score: 43.4
   mcp: *id063
   name: Healthchecks.io
   slug: healthchecks-io
   status: profiled
   tags: *id064
   url: /providers/healthchecks-io/
-- agent_band: human-only
-  agent_readiness: 5.0
-  band: emerging
+- agent_band: agent-aware
+  agent_readiness: 5.6
+  band: thin
   in_catalog: true
-  kin_score: 22.2
+  kin_score: 34.5
   mcp: *id065
   name: Home Assistant
   slug: home-assistant
@@ -3771,10 +3771,10 @@ providers:
   tags: *id066
   url: /providers/home-assistant/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.9
+  kin_score: 5.0
   mcp: *id067
   name: Homebridge
   slug: homebridge
@@ -3782,10 +3782,10 @@ providers:
   tags: *id068
   url: /providers/homebridge/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 15.1
   band: emerging
   in_catalog: true
-  kin_score: 22.3
+  kin_score: 25.5
   mcp: *id069
   name: Immich
   slug: immich
@@ -3793,10 +3793,10 @@ providers:
   tags: *id070
   url: /providers/immich/
 - agent_band: agent-aware
-  agent_readiness: 23.7
+  agent_readiness: 23.2
   band: emerging
   in_catalog: true
-  kin_score: 17.2
+  kin_score: 22.9
   mcp: *id071
   name: Jackett
   slug: jackett
@@ -3804,10 +3804,10 @@ providers:
   tags: *id072
   url: /providers/jackett/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 12.4
   band: emerging
   in_catalog: true
-  kin_score: 16.7
+  kin_score: 20.7
   mcp: *id073
   name: Jellyfin
   slug: jellyfin
@@ -3818,7 +3818,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.5
+  kin_score: 10.5
   mcp: *id075
   name: Jellystat
   slug: jellystat
@@ -3826,10 +3826,10 @@ providers:
   tags: *id076
   url: /providers/jellystat/
 - agent_band: agent-aware
-  agent_readiness: 20.1
-  band: thin
+  agent_readiness: 19.7
+  band: developing
   in_catalog: true
-  kin_score: 30.8
+  kin_score: 40.9
   mcp: *id077
   name: Karakeep
   slug: karakeep
@@ -3837,10 +3837,10 @@ providers:
   tags: *id078
   url: /providers/karakeep/
 - agent_band: agent-aware
-  agent_readiness: 19.0
-  band: emerging
+  agent_readiness: 18.6
+  band: thin
   in_catalog: true
-  kin_score: 25.5
+  kin_score: 28.5
   mcp: *id079
   name: Kavita
   slug: kavita
@@ -3848,10 +3848,10 @@ providers:
   tags: *id080
   url: /providers/kavita/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 10.1
+  kin_score: 13.0
   mcp: *id081
   name: Komga
   slug: komga
@@ -3859,21 +3859,21 @@ providers:
   tags: *id082
   url: /providers/komga/
 - agent_band: agent-aware
-  agent_readiness: 15.0
+  agent_readiness: 12.7
   band: emerging
   in_catalog: true
-  kin_score: 17.3
+  kin_score: 20.1
   mcp: *id083
   name: Kopia
   slug: kopia
   status: profiled
   tags: *id084
   url: /providers/kopia/
-- agent_band: agent-aware
-  agent_readiness: 28.5
+- agent_band: agent-ready
+  agent_readiness: 32.6
   band: developing
   in_catalog: true
-  kin_score: 48.3
+  kin_score: 48.7
   mcp: *id085
   name: Kubernetes
   slug: kubernetes
@@ -3881,21 +3881,21 @@ providers:
   tags: *id086
   url: /providers/kubernetes/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 10.0
+  kin_score: 11.8
   mcp: *id087
   name: Lidarr
   slug: lidarr
   status: profiled
   tags: *id088
   url: /providers/lidarr/
-- agent_band: agent-aware
-  agent_readiness: 25.9
+- agent_band: agent-ready
+  agent_readiness: 30.2
   band: developing
   in_catalog: true
-  kin_score: 41.5
+  kin_score: 48.8
   mcp: *id089
   name: Linkwarden
   slug: linkwarden
@@ -3903,10 +3903,10 @@ providers:
   tags: *id090
   url: /providers/linkwarden/
 - agent_band: agent-aware
-  agent_readiness: 14.4
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 8.5
+  kin_score: 12.4
   mcp: *id091
   name: mailcow
   slug: mailcow
@@ -3914,10 +3914,10 @@ providers:
   tags: *id092
   url: /providers/mailcow/
 - agent_band: agent-aware
-  agent_readiness: 22.5
-  band: thin
+  agent_readiness: 22.0
+  band: emerging
   in_catalog: true
-  kin_score: 26.5
+  kin_score: 25.5
   mcp: *id093
   name: Mastodon
   slug: mastodon
@@ -3925,10 +3925,10 @@ providers:
   tags: *id094
   url: /providers/mastodon/
 - agent_band: agent-ready
-  agent_readiness: 29.7
+  agent_readiness: 29.1
   band: developing
   in_catalog: true
-  kin_score: 41.5
+  kin_score: 41.7
   mcp: *id095
   name: Mealie
   slug: mealie
@@ -3939,7 +3939,7 @@ providers:
   agent_readiness: 3.2
   band: emerging
   in_catalog: true
-  kin_score: 13.1
+  kin_score: 13.9
   mcp: *id097
   name: Medusa (TV)
   slug: pymedusa
@@ -3958,10 +3958,10 @@ providers:
   tags: *id100
   url: null
 - agent_band: agent-aware
-  agent_readiness: 15.0
+  agent_readiness: 14.7
   band: emerging
   in_catalog: true
-  kin_score: 20.9
+  kin_score: 23.6
   mcp: *id101
   name: Miniflux
   slug: miniflux
@@ -3969,10 +3969,10 @@ providers:
   tags: *id102
   url: /providers/miniflux/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 0.7
   band: minimal
   in_catalog: true
-  kin_score: 8.2
+  kin_score: 10.9
   mcp: *id103
   name: Moonraker (Klipper)
   slug: moonraker
@@ -3980,10 +3980,10 @@ providers:
   tags: *id104
   url: /providers/moonraker/
 - agent_band: agent-aware
-  agent_readiness: 26.4
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 30.5
+  kin_score: 33.5
   mcp: *id105
   name: Navidrome
   slug: navidrome
@@ -3991,10 +3991,10 @@ providers:
   tags: *id106
   url: /providers/navidrome/
 - agent_band: agent-aware
-  agent_readiness: 28.4
+  agent_readiness: 27.9
   band: thin
   in_catalog: true
-  kin_score: 36.4
+  kin_score: 34.7
   mcp: *id107
   name: NetBird
   slug: netbird
@@ -4002,10 +4002,10 @@ providers:
   tags: *id108
   url: /providers/netbird/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 25.1
   band: thin
   in_catalog: true
-  kin_score: 38.1
+  kin_score: 37.0
   mcp: *id109
   name: Netdata
   slug: netdata
@@ -4013,21 +4013,21 @@ providers:
   tags: *id110
   url: /providers/netdata/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id111
   name: Nextcloud
   slug: nextcloud
   status: profiled
   tags: *id112
   url: /providers/nextcloud/
-- agent_band: agent-aware
-  agent_readiness: 13.7
+- agent_band: human-only
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 13.8
+  kin_score: 17.8
   mcp: *id113
   name: NextDNS
   slug: nextdns
@@ -4035,10 +4035,10 @@ providers:
   tags: *id114
   url: /providers/nextdns/
 - agent_band: agent-aware
-  agent_readiness: 18.0
+  agent_readiness: 17.6
   band: emerging
   in_catalog: true
-  kin_score: 22.3
+  kin_score: 23.5
   mcp: *id115
   name: Nginx Proxy Manager
   slug: nginx-proxy-manager
@@ -4047,9 +4047,9 @@ providers:
   url: /providers/nginx-proxy-manager/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.9
+  kin_score: 15.5
   mcp: *id117
   name: ntfy
   slug: ntfy
@@ -4060,7 +4060,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.1
+  kin_score: 9.8
   mcp: *id119
   name: NZBGet
   slug: nzbget
@@ -4068,10 +4068,10 @@ providers:
   tags: *id120
   url: /providers/nzbget/
 - agent_band: agent-aware
-  agent_readiness: 25.8
-  band: emerging
+  agent_readiness: 22.5
+  band: thin
   in_catalog: true
-  kin_score: 24.5
+  kin_score: 32.1
   mcp: *id121
   name: OctoPrint
   slug: octoprint
@@ -4079,10 +4079,10 @@ providers:
   tags: *id122
   url: /providers/octoprint/
 - agent_band: human-only
-  agent_readiness: 2.5
+  agent_readiness: 4.2
   band: emerging
   in_catalog: true
-  kin_score: 12.5
+  kin_score: 16.7
   mcp: *id123
   name: openmediavault
   slug: openmediavault
@@ -4093,7 +4093,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 16.9
+  kin_score: 25.0
   mcp: *id125
   name: OpenWrt
   slug: openwrt
@@ -4101,10 +4101,10 @@ providers:
   tags: *id126
   url: /providers/openwrt/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 24.1
   band: emerging
   in_catalog: true
-  kin_score: 25.2
+  kin_score: 24.6
   mcp: *id127
   name: OPNsense
   slug: opnsense
@@ -4126,7 +4126,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.4
   mcp: *id131
   name: Paperless-ngx
   slug: paperless-ngx
@@ -4134,10 +4134,10 @@ providers:
   tags: *id132
   url: /providers/paperless-ngx/
 - agent_band: agent-aware
-  agent_readiness: 21.8
+  agent_readiness: 21.3
   band: thin
   in_catalog: true
-  kin_score: 33.6
+  kin_score: 33.2
   mcp: *id133
   name: pfSense
   slug: pfsense
@@ -4145,10 +4145,10 @@ providers:
   tags: *id134
   url: /providers/pfsense/
 - agent_band: agent-ready
-  agent_readiness: 40.7
+  agent_readiness: 37.3
   band: developing
   in_catalog: true
-  kin_score: 42.5
+  kin_score: 52.5
   mcp: *id135
   name: PhotoPrism
   slug: photoprism
@@ -4156,10 +4156,10 @@ providers:
   tags: *id136
   url: /providers/photoprism/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: emerging
   in_catalog: true
-  kin_score: 22.9
+  kin_score: 22.3
   mcp: *id137
   name: Pi-hole
   slug: pi-hole
@@ -4167,10 +4167,10 @@ providers:
   tags: *id138
   url: /providers/pi-hole/
 - agent_band: agent-ready
-  agent_readiness: 59.6
+  agent_readiness: 63.2
   band: strong
   in_catalog: true
-  kin_score: 55.9
+  kin_score: 56.7
   mcp: *id139
   name: Plex
   slug: plex
@@ -4178,10 +4178,10 @@ providers:
   tags: *id140
   url: /providers/plex/
 - agent_band: agent-ready
-  agent_readiness: 39.6
+  agent_readiness: 38.8
   band: strong
   in_catalog: true
-  kin_score: 56.0
+  kin_score: 57.1
   mcp: *id141
   name: Portainer
   slug: portainer
@@ -4189,10 +4189,10 @@ providers:
   tags: *id142
   url: /providers/portainer/
 - agent_band: agent-aware
-  agent_readiness: 18.7
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 35.4
+  kin_score: 35.9
   mcp: *id143
   name: Prometheus
   slug: prometheus-io
@@ -4200,10 +4200,10 @@ providers:
   tags: *id144
   url: /providers/prometheus-io/
 - agent_band: agent-aware
-  agent_readiness: 24.4
-  band: thin
+  agent_readiness: 21.3
+  band: developing
   in_catalog: true
-  kin_score: 34.7
+  kin_score: 42.5
   mcp: *id145
   name: Prowlarr
   slug: prowlarr
@@ -4211,10 +4211,10 @@ providers:
   tags: *id146
   url: /providers/prowlarr/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 27.4
+  kin_score: 26.8
   mcp: *id147
   name: Proxmox VE
   slug: proxmox
@@ -4222,10 +4222,10 @@ providers:
   tags: *id148
   url: /providers/proxmox/
 - agent_band: agent-aware
-  agent_readiness: 23.8
-  band: emerging
+  agent_readiness: 23.3
+  band: thin
   in_catalog: true
-  kin_score: 24.8
+  kin_score: 30.3
   mcp: *id149
   name: Pterodactyl
   slug: pterodactyl
@@ -4233,10 +4233,10 @@ providers:
   tags: *id150
   url: /providers/pterodactyl/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 1.1
   band: minimal
   in_catalog: true
-  kin_score: 8.1
+  kin_score: 10.5
   mcp: *id151
   name: qBittorrent
   slug: qbittorrent
@@ -4244,10 +4244,10 @@ providers:
   tags: *id152
   url: /providers/qbittorrent/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.5
+  kin_score: 17.3
   mcp: *id153
   name: QNAP
   slug: qnap
@@ -4255,10 +4255,10 @@ providers:
   tags: *id154
   url: /providers/qnap/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 8.2
+  kin_score: 11.0
   mcp: *id155
   name: Radarr
   slug: radarr
@@ -4277,10 +4277,10 @@ providers:
   tags: *id158
   url: null
 - agent_band: agent-ready
-  agent_readiness: 33.1
-  band: thin
+  agent_readiness: 29.8
+  band: developing
   in_catalog: true
-  kin_score: 37.3
+  kin_score: 41.0
   mcp: *id159
   name: RomM
   slug: romm
@@ -4288,10 +4288,10 @@ providers:
   tags: *id160
   url: /providers/romm/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 16.9
   band: emerging
   in_catalog: true
-  kin_score: 19.1
+  kin_score: 22.6
   mcp: *id161
   name: SABnzbd
   slug: sabnzbd
@@ -4299,10 +4299,10 @@ providers:
   tags: *id162
   url: /providers/sabnzbd/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 16.9
   band: emerging
   in_catalog: true
-  kin_score: 14.5
+  kin_score: 17.2
   mcp: *id163
   name: Scrutiny
   slug: scrutiny
@@ -4310,10 +4310,10 @@ providers:
   tags: *id164
   url: /providers/scrutiny/
 - agent_band: agent-aware
-  agent_readiness: 25.8
+  agent_readiness: 25.3
   band: thin
   in_catalog: true
-  kin_score: 28.5
+  kin_score: 32.5
   mcp: *id165
   name: Sonarr
   slug: sonarr
@@ -4321,10 +4321,10 @@ providers:
   tags: *id166
   url: /providers/sonarr/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 22.4
   band: emerging
   in_catalog: true
-  kin_score: 20.2
+  kin_score: 24.2
   mcp: *id167
   name: Speedtest Tracker
   slug: speedtest-tracker
@@ -4332,10 +4332,10 @@ providers:
   tags: *id168
   url: /providers/speedtest-tracker/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 36.9
   band: emerging
   in_catalog: true
-  kin_score: 16.4
+  kin_score: 20.0
   mcp: *id169
   name: Spoolman
   slug: spoolman
@@ -4344,9 +4344,9 @@ providers:
   url: /providers/spoolman/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.6
+  kin_score: 16.2
   mcp: *id171
   name: Stash
   slug: stashapp
@@ -4354,10 +4354,10 @@ providers:
   tags: *id172
   url: /providers/stashapp/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 15.9
   band: emerging
   in_catalog: true
-  kin_score: 16.1
+  kin_score: 22.9
   mcp: *id173
   name: Syncthing
   slug: syncthing
@@ -4365,10 +4365,10 @@ providers:
   tags: *id174
   url: /providers/syncthing/
 - agent_band: agent-aware
-  agent_readiness: 21.6
-  band: minimal
+  agent_readiness: 18.3
+  band: emerging
   in_catalog: true
-  kin_score: 7.5
+  kin_score: 12.0
   mcp: *id175
   name: Synology
   slug: synology
@@ -4376,10 +4376,10 @@ providers:
   tags: *id176
   url: /providers/synology/
 - agent_band: agent-aware
-  agent_readiness: 21.5
+  agent_readiness: 21.0
   band: developing
   in_catalog: true
-  kin_score: 42.2
+  kin_score: 40.8
   mcp: *id177
   name: Tailscale
   slug: tailscale
@@ -4387,10 +4387,10 @@ providers:
   tags: *id178
   url: /providers/tailscale/
 - agent_band: agent-aware
-  agent_readiness: 26.7
+  agent_readiness: 26.2
   band: strong
   in_catalog: true
-  kin_score: 61.0
+  kin_score: 59.5
   mcp: *id179
   name: Tandoor Recipes
   slug: tandoor
@@ -4398,10 +4398,10 @@ providers:
   tags: *id180
   url: /providers/tandoor/
 - agent_band: human-only
-  agent_readiness: 0.0
-  band: minimal
+  agent_readiness: 2.8
+  band: emerging
   in_catalog: true
-  kin_score: 8.9
+  kin_score: 12.4
   mcp: *id181
   name: Tautulli
   slug: tautulli
@@ -4409,10 +4409,10 @@ providers:
   tags: *id182
   url: /providers/tautulli/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 6.5
   mcp: *id183
   name: Tdarr
   slug: tdarr
@@ -4423,7 +4423,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.0
+  kin_score: 7.1
   mcp: *id185
   name: Technitium DNS Server
   slug: technitium
@@ -4431,10 +4431,10 @@ providers:
   tags: *id186
   url: /providers/technitium/
 - agent_band: agent-aware
-  agent_readiness: 24.5
+  agent_readiness: 24.0
   band: strong
   in_catalog: true
-  kin_score: 57.9
+  kin_score: 61.1
   mcp: *id187
   name: Traefik
   slug: traefik
@@ -4445,7 +4445,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.4
+  kin_score: 4.7
   mcp: *id189
   name: Transmission
   slug: transmission-bt
@@ -4453,21 +4453,21 @@ providers:
   tags: *id190
   url: /providers/transmission-bt/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 14.1
+  kin_score: 22.1
   mcp: *id191
   name: TrueNAS
   slug: truenas
   status: profiled
   tags: *id192
   url: /providers/truenas/
-- agent_band: agent-aware
-  agent_readiness: 23.9
+- agent_band: agent-ready
+  agent_readiness: 33.3
   band: developing
   in_catalog: true
-  kin_score: 46.3
+  kin_score: 47.3
   mcp: *id193
   name: Ubiquiti UniFi
   slug: ubiquiti
@@ -4475,10 +4475,10 @@ providers:
   tags: *id194
   url: /providers/ubiquiti/
 - agent_band: agent-aware
-  agent_readiness: 13.7
+  agent_readiness: 11.2
   band: emerging
   in_catalog: true
-  kin_score: 14.1
+  kin_score: 21.2
   mcp: *id195
   name: Unraid
   slug: unraid
@@ -4486,10 +4486,10 @@ providers:
   tags: *id196
   url: /providers/unraid/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 15.1
   band: emerging
   in_catalog: true
-  kin_score: 18.5
+  kin_score: 20.6
   mcp: *id197
   name: Uptime Kuma
   slug: uptime-kuma
@@ -4497,10 +4497,10 @@ providers:
   tags: *id198
   url: /providers/uptime-kuma/
 - agent_band: agent-ready
-  agent_readiness: 50.9
-  band: developing
+  agent_readiness: 59.1
+  band: strong
   in_catalog: true
-  kin_score: 51.1
+  kin_score: 62.9
   mcp: *id199
   name: UptimeRobot
   slug: uptimerobot
@@ -4508,10 +4508,10 @@ providers:
   tags: *id200
   url: /providers/uptimerobot/
 - agent_band: agent-aware
-  agent_readiness: 6.5
+  agent_readiness: 6.3
   band: emerging
   in_catalog: true
-  kin_score: 15.6
+  kin_score: 17.9
   mcp: *id201
   name: What's Up Docker
   slug: whats-up-docker
@@ -4519,10 +4519,10 @@ providers:
   tags: *id202
   url: /providers/whats-up-docker/
 - agent_band: agent-aware
-  agent_readiness: 22.1
+  agent_readiness: 21.6
   band: thin
   in_catalog: true
-  kin_score: 35.1
+  kin_score: 34.0
   mcp: *id203
   name: Zabbix
   slug: zabbix

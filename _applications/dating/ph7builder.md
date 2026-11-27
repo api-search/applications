@@ -74,10 +74,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.8
-    band: strong
+    agent_readiness: 37.9
+    band: exemplar
     in_catalog: true
-    kin_score: 60.5
+    kin_score: 68.5
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -105,10 +105,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.0
+    agent_readiness: 53.6
     band: developing
     in_catalog: true
-    kin_score: 46.2
+    kin_score: 44.7
     mcp: &id003
       status: none
     slug: braintree
@@ -134,11 +134,11 @@ integrations:
     via_parent: SMS & Messaging Apps
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 26.7
+    agent_band: agent-ready
+    agent_readiness: 28.9
     band: thin
     in_catalog: true
-    kin_score: 33.2
+    kin_score: 38.8
     mcp: &id005
       status: none
     slug: clickatell
@@ -165,10 +165,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_readiness: 32.7
     band: developing
     in_catalog: true
-    kin_score: 39.8
+    kin_score: 41.2
     mcp: &id007
       source: https://github.com/Automattic/mcp-server-gravatar
       status: verified
@@ -196,10 +196,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 23.7
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 31.5
     mcp: &id009
       status: none
     slug: maxmind
@@ -252,10 +252,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id013
       source: https://docs.stripe.com/mcp
       status: verified
@@ -283,10 +283,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 56.4
+    agent_readiness: 56.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.3
+    kin_score: 90.8
     mcp: &id015
       source: https://www.twilio.com/docs/ai/mcp
       status: verified
@@ -312,10 +312,10 @@ noindex: false
 permalink: /applications/dating/ph7builder/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 40.8
-  band: strong
+  agent_readiness: 37.9
+  band: exemplar
   in_catalog: true
-  kin_score: 60.5
+  kin_score: 68.5
   mcp: *id001
   name: Amazon Web Services
   slug: amazon-web-services
@@ -323,21 +323,21 @@ providers:
   tags: *id002
   url: /providers/amazon-web-services/
 - agent_band: agent-ready
-  agent_readiness: 52.0
+  agent_readiness: 53.6
   band: developing
   in_catalog: true
-  kin_score: 46.2
+  kin_score: 44.7
   mcp: *id003
   name: Braintree
   slug: braintree
   status: profiled
   tags: *id004
   url: /providers/braintree/
-- agent_band: agent-aware
-  agent_readiness: 26.7
+- agent_band: agent-ready
+  agent_readiness: 28.9
   band: thin
   in_catalog: true
-  kin_score: 33.2
+  kin_score: 38.8
   mcp: *id005
   name: Clickatell
   slug: clickatell
@@ -345,10 +345,10 @@ providers:
   tags: *id006
   url: /providers/clickatell/
 - agent_band: agent-ready
-  agent_readiness: 33.3
+  agent_readiness: 32.7
   band: developing
   in_catalog: true
-  kin_score: 39.8
+  kin_score: 41.2
   mcp: *id007
   name: Gravatar
   slug: gravatar
@@ -356,10 +356,10 @@ providers:
   tags: *id008
   url: /providers/gravatar/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 23.7
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 31.5
   mcp: *id009
   name: MaxMind
   slug: maxmind
@@ -378,10 +378,10 @@ providers:
   tags: *id012
   url: null
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id013
   name: Stripe
   slug: stripe
@@ -389,10 +389,10 @@ providers:
   tags: *id014
   url: /providers/stripe/
 - agent_band: agent-native
-  agent_readiness: 56.4
+  agent_readiness: 56.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.3
+  kin_score: 90.8
   mcp: *id015
   name: Twilio
   slug: twilio

@@ -89,11 +89,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 34.8
+    band: strong
     in_catalog: true
-    kin_score: 49.3
+    kin_score: 64.3
     mcp: &id009
       status: none
     slug: google-cloud-document-ai
@@ -120,10 +120,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 35.0
     band: strong
     in_catalog: true
-    kin_score: 55.1
+    kin_score: 61.7
     mcp: &id011
       status: none
     slug: google-gemini
@@ -153,7 +153,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.7
     mcp: &id019
       status: none
     slug: ollama
@@ -180,10 +180,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id001
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -211,10 +211,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.5
+    agent_readiness: 45.0
     band: exemplar
     in_catalog: true
-    kin_score: 78.4
+    kin_score: 76.0
     mcp: &id003
       source: https://github.com/microsoft/mcp
       status: verified
@@ -241,11 +241,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.4
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 29.9
+    band: exemplar
     in_catalog: true
-    kin_score: 44.6
+    kin_score: 68.3
     mcp: &id005
       source: https://github.com/microsoft/mcp
       status: verified
@@ -273,10 +273,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.6
+    agent_readiness: 24.1
     band: thin
     in_catalog: true
-    kin_score: 38.0
+    kin_score: 37.9
     mcp: &id007
       source: https://github.com/docling-project/docling-mcp
       status: verified
@@ -304,10 +304,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
+    agent_readiness: 21.2
     band: thin
     in_catalog: true
-    kin_score: 32.9
+    kin_score: 32.3
     mcp: &id013
       source: https://github.com/groq/groq-mcp-server
       status: verified
@@ -335,10 +335,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.2
+    agent_readiness: 22.5
     band: thin
     in_catalog: true
-    kin_score: 30.1
+    kin_score: 32.2
     mcp: &id015
       status: none
     slug: lm-studio
@@ -364,11 +364,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.2
     band: developing
     in_catalog: true
-    kin_score: 47.7
+    kin_score: 47.3
     mcp: &id017
       status: none
     slug: mistral
@@ -395,10 +395,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id021
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -426,10 +426,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 46.4
     band: strong
     in_catalog: true
-    kin_score: 55.4
+    kin_score: 54.8
     mcp: &id023
       source: https://openrouter.ai/docs/guides/overview/mcp-server
       status: verified
@@ -460,7 +460,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.4
     mcp: &id025
       status: none
     slug: paperless-ngx
@@ -484,10 +484,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.4
+    agent_readiness: 40.0
     band: thin
     in_catalog: true
-    kin_score: 34.6
+    kin_score: 34.4
     mcp: &id027
       source: https://docs.together.ai/docs/mcp
       status: verified
@@ -513,10 +513,10 @@ noindex: false
 permalink: /applications/document-management/paperless-gpt/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id001
   name: Anthropic
   slug: anthropic
@@ -524,21 +524,21 @@ providers:
   tags: *id002
   url: /providers/anthropic/
 - agent_band: agent-ready
-  agent_readiness: 51.5
+  agent_readiness: 45.0
   band: exemplar
   in_catalog: true
-  kin_score: 78.4
+  kin_score: 76.0
   mcp: *id003
   name: Azure Document Intelligence
   slug: microsoft-azure
   status: profiled
   tags: *id004
   url: /providers/microsoft-azure/
-- agent_band: agent-aware
-  agent_readiness: 23.4
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 29.9
+  band: exemplar
   in_catalog: true
-  kin_score: 44.6
+  kin_score: 68.3
   mcp: *id005
   name: Azure OpenAI
   slug: microsoft-azure-openai
@@ -546,21 +546,21 @@ providers:
   tags: *id006
   url: /providers/microsoft-azure-openai/
 - agent_band: agent-aware
-  agent_readiness: 24.6
+  agent_readiness: 24.1
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.9
   mcp: *id007
   name: Docling Server
   slug: docling
   status: profiled
   tags: *id008
   url: /providers/docling/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 34.8
+  band: strong
   in_catalog: true
-  kin_score: 49.3
+  kin_score: 64.3
   mcp: *id009
   name: Google Document AI
   slug: google-cloud-document-ai
@@ -568,10 +568,10 @@ providers:
   tags: *id010
   url: /providers/google-cloud-document-ai/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 35.0
   band: strong
   in_catalog: true
-  kin_score: 55.1
+  kin_score: 61.7
   mcp: *id011
   name: Google Gemini
   slug: google-gemini
@@ -579,10 +579,10 @@ providers:
   tags: *id012
   url: /providers/google-gemini/
 - agent_band: agent-aware
-  agent_readiness: 21.6
+  agent_readiness: 21.2
   band: thin
   in_catalog: true
-  kin_score: 32.9
+  kin_score: 32.3
   mcp: *id013
   name: Groq
   slug: groq
@@ -590,21 +590,21 @@ providers:
   tags: *id014
   url: /providers/groq/
 - agent_band: agent-aware
-  agent_readiness: 18.2
+  agent_readiness: 22.5
   band: thin
   in_catalog: true
-  kin_score: 30.1
+  kin_score: 32.2
   mcp: *id015
   name: LM Studio
   slug: lm-studio
   status: profiled
   tags: *id016
   url: /providers/lm-studio/
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.2
   band: developing
   in_catalog: true
-  kin_score: 47.7
+  kin_score: 47.3
   mcp: *id017
   name: Mistral AI
   slug: mistral
@@ -615,7 +615,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 38.0
+  kin_score: 37.7
   mcp: *id019
   name: Ollama
   slug: ollama
@@ -623,10 +623,10 @@ providers:
   tags: *id020
   url: /providers/ollama/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id021
   name: OpenAI
   slug: openai
@@ -634,10 +634,10 @@ providers:
   tags: *id022
   url: /providers/openai/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 46.4
   band: strong
   in_catalog: true
-  kin_score: 55.4
+  kin_score: 54.8
   mcp: *id023
   name: OpenRouter
   slug: openrouter
@@ -648,7 +648,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.4
   mcp: *id025
   name: Paperless-ngx
   slug: paperless-ngx
@@ -656,10 +656,10 @@ providers:
   tags: *id026
   url: /providers/paperless-ngx/
 - agent_band: agent-ready
-  agent_readiness: 40.4
+  agent_readiness: 40.0
   band: thin
   in_catalog: true
-  kin_score: 34.6
+  kin_score: 34.4
   mcp: *id027
   name: Together
   slug: together-ai

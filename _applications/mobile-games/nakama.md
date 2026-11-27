@@ -66,10 +66,10 @@ integrations:
   credit: null
   facts: &id002
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id003
       status: none
     slug: apple
@@ -96,10 +96,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id005
       status: none
     slug: facebook
@@ -166,11 +166,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.7
+    band: developing
     in_catalog: true
-    kin_score: 31.6
+    kin_score: 51.3
     mcp: &id009
       status: none
     slug: google-play
@@ -196,11 +196,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id011
       status: none
     slug: google-identity-platform
@@ -253,10 +253,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.3
+    agent_readiness: 36.6
     band: thin
     in_catalog: true
-    kin_score: 34.1
+    kin_score: 33.2
     mcp: &id015
       status: none
     slug: samsung
@@ -298,10 +298,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.1
     band: thin
     in_catalog: true
-    kin_score: 34.4
+    kin_score: 34.5
     mcp: &id017
       status: none
     slug: steam
@@ -326,10 +326,10 @@ noindex: false
 permalink: /applications/mobile-games/nakama/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id003
   name: App Store receipt validation (verifyReceipt)
   slug: apple
@@ -337,10 +337,10 @@ providers:
   tags: *id004
   url: /providers/apple/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id005
   name: Facebook Instant Games purchases
   slug: facebook
@@ -358,22 +358,22 @@ providers:
   status: queued for profiling
   tags: *id008
   url: null
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.7
+  band: developing
   in_catalog: true
-  kin_score: 31.6
+  kin_score: 51.3
   mcp: *id009
   name: Google Play purchases/subscriptions validation (androidpublisher v3)
   slug: google-play
   status: profiled
   tags: *id010
   url: /providers/google-play/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id011
   name: Google sign-in (ID token check)
   slug: google-identity-platform
@@ -392,10 +392,10 @@ providers:
   tags: *id014
   url: null
 - agent_band: agent-ready
-  agent_readiness: 37.3
+  agent_readiness: 36.6
   band: thin
   in_catalog: true
-  kin_score: 34.1
+  kin_score: 33.2
   mcp: *id015
   name: Samsung IAP server API
   slug: samsung
@@ -403,10 +403,10 @@ providers:
   tags: *id016
   url: /providers/samsung/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.1
   band: thin
   in_catalog: true
-  kin_score: 34.4
+  kin_score: 34.5
   mcp: *id017
   name: 'Steam (Steamworks partner API: AuthenticateUserTicket, GetFriendList)'
   slug: steam

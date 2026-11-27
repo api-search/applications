@@ -55,11 +55,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -87,10 +87,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id003
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -121,7 +121,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id007
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -149,10 +149,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 9.4
+    agent_readiness: 6.3
     band: emerging
     in_catalog: true
-    kin_score: 17.7
+    kin_score: 22.9
     mcp: &id005
       status: none
     slug: mozilla-accounts
@@ -176,11 +176,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/pastebin-file-drop/send-timvisee-fork-of-firefox-send/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -188,10 +188,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id003
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -199,10 +199,10 @@ providers:
   tags: *id004
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-aware
-  agent_readiness: 9.4
+  agent_readiness: 6.3
   band: emerging
   in_catalog: true
-  kin_score: 17.7
+  kin_score: 22.9
   mcp: *id005
   name: Mozilla accounts (Firefox Accounts)
   slug: mozilla-accounts
@@ -213,7 +213,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id007
   name: Sentry
   slug: sentry-system

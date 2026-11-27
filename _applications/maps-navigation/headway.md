@@ -63,11 +63,11 @@ integrations:
     via_parent: Maps & Tiles
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.3
     band: developing
     in_catalog: true
-    kin_score: 44.4
+    kin_score: 45.5
     mcp: &id001
       status: none
     slug: openstreetmap
@@ -97,7 +97,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.9
+    kin_score: 5.2
     mcp: &id003
       status: none
     slug: opentripplanner
@@ -123,11 +123,11 @@ integrations:
     via_parent: Geocoding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.6
+    agent_band: agent-ready
+    agent_readiness: 33.3
     band: emerging
     in_catalog: true
-    kin_score: 23.8
+    kin_score: 22.9
     mcp: &id005
       status: none
     slug: pelias
@@ -153,11 +153,11 @@ integrations:
     via_parent: Routing & Navigation
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.9
+    agent_band: agent-ready
+    agent_readiness: 29.0
     band: emerging
     in_catalog: true
-    kin_score: 25.7
+    kin_score: 24.4
     mcp: &id007
       status: none
     slug: valhalla
@@ -181,11 +181,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/maps-navigation/headway/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: developing
   in_catalog: true
-  kin_score: 44.4
+  kin_score: 45.5
   mcp: *id001
   name: OpenStreetMap
   slug: openstreetmap
@@ -196,29 +196,29 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.9
+  kin_score: 5.2
   mcp: *id003
   name: OpenTripPlanner
   slug: opentripplanner
   status: profiled
   tags: *id004
   url: /providers/opentripplanner/
-- agent_band: agent-aware
-  agent_readiness: 27.6
+- agent_band: agent-ready
+  agent_readiness: 33.3
   band: emerging
   in_catalog: true
-  kin_score: 23.8
+  kin_score: 22.9
   mcp: *id005
   name: Pelias
   slug: pelias
   status: profiled
   tags: *id006
   url: /providers/pelias/
-- agent_band: agent-aware
-  agent_readiness: 23.9
+- agent_band: agent-ready
+  agent_readiness: 29.0
   band: emerging
   in_catalog: true
-  kin_score: 25.7
+  kin_score: 24.4
   mcp: *id007
   name: Valhalla
   slug: valhalla

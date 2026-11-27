@@ -95,11 +95,11 @@ integrations:
     via_parent: Model Inference
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 35.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 48.3
+    band: strong
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 64.3
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -126,11 +126,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -158,10 +158,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
-    band: strong
+    agent_readiness: 34.4
+    band: exemplar
     in_catalog: true
-    kin_score: 59.8
+    kin_score: 70.5
     mcp: &id005
       source: https://github.com/awslabs/mcp
       status: verified
@@ -188,11 +188,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.9
+    agent_band: agent-native
+    agent_readiness: 39.2
     band: exemplar
     in_catalog: true
-    kin_score: 70.3
+    kin_score: 77.5
     mcp: &id007
       status: none
     slug: amazon-secrets-manager
@@ -219,10 +219,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id009
       source: https://github.com/microsoft/mcp
       status: verified
@@ -250,10 +250,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.5
-    band: developing
+    agent_readiness: 40.8
+    band: strong
     in_catalog: true
-    kin_score: 49.7
+    kin_score: 57.1
     mcp: &id011
       source: https://cloud.google.com/bigquery/docs/use-bigquery-mcp
       status: verified
@@ -280,11 +280,11 @@ integrations:
     via_parent: IT Application Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.0
+    band: strong
     in_catalog: true
-    kin_score: 38.7
+    kin_score: 64.1
     mcp: &id013
       source: https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp
       status: verified
@@ -312,10 +312,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id015
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -343,10 +343,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 59.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.6
+    kin_score: 70.4
     mcp: &id017
       source: https://github.com/oracle/mcp
       status: verified
@@ -374,10 +374,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 45.8
+    agent_readiness: 44.9
     band: exemplar
     in_catalog: true
-    kin_score: 81.1
+    kin_score: 82.3
     mcp: &id019
       source: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
       status: verified
@@ -405,10 +405,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.1
+    agent_readiness: 31.9
     band: exemplar
     in_catalog: true
-    kin_score: 66.7
+    kin_score: 67.0
     mcp: &id021
       source: https://learn.microsoft.com/en-us/azure/data-api-builder/mcp/
       status: verified
@@ -436,10 +436,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id023
       source: https://docs.stripe.com/mcp
       status: verified
@@ -464,22 +464,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/workflow-automation/windmill/
 providers:
-- agent_band: agent-ready
-  agent_readiness: 35.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 48.3
+  band: strong
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 64.3
   mcp: *id001
   name: Amazon Bedrock (aws-sdk-bedrock)
   slug: amazon-bedrock
   status: profiled
   tags: *id002
   url: /providers/amazon-bedrock/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id003
   name: Amazon S3 (object_store aws)
   slug: amazon-s3
@@ -487,21 +487,21 @@ providers:
   tags: *id004
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 31.1
-  band: strong
+  agent_readiness: 34.4
+  band: exemplar
   in_catalog: true
-  kin_score: 59.8
+  kin_score: 70.5
   mcp: *id005
   name: Amazon SQS (sqs trigger)
   slug: amazon-sqs
   status: profiled
   tags: *id006
   url: /providers/amazon-sqs/
-- agent_band: agent-ready
-  agent_readiness: 31.9
+- agent_band: agent-native
+  agent_readiness: 39.2
   band: exemplar
   in_catalog: true
-  kin_score: 70.3
+  kin_score: 77.5
   mcp: *id007
   name: AWS Secrets Manager
   slug: amazon-secrets-manager
@@ -509,10 +509,10 @@ providers:
   tags: *id008
   url: /providers/amazon-secrets-manager/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id009
   name: Azure Blob Storage (object_store azure)
   slug: microsoft-azure-blob-storage
@@ -520,21 +520,21 @@ providers:
   tags: *id010
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: agent-ready
-  agent_readiness: 31.5
-  band: developing
+  agent_readiness: 40.8
+  band: strong
   in_catalog: true
-  kin_score: 49.7
+  kin_score: 57.1
   mcp: *id011
   name: BigQuery (bigquery feature)
   slug: google-bigquery
   status: profiled
   tags: *id012
   url: /providers/google-bigquery/
-- agent_band: agent-aware
-  agent_readiness: 25.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.0
+  band: strong
   in_catalog: true
-  kin_score: 38.7
+  kin_score: 64.1
   mcp: *id013
   name: Google Cloud Pub/Sub (gcp trigger)
   slug: google-cloud-pubsub
@@ -542,10 +542,10 @@ providers:
   tags: *id014
   url: /providers/google-cloud-pubsub/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id015
   name: Google Cloud Storage (object_store gcp)
   slug: gcp-cloud-storage
@@ -553,10 +553,10 @@ providers:
   tags: *id016
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 59.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.6
+  kin_score: 70.4
   mcp: *id017
   name: Oracle Database (oracle crate)
   slug: oracle
@@ -564,10 +564,10 @@ providers:
   tags: *id018
   url: /providers/oracle/
 - agent_band: agent-native
-  agent_readiness: 45.8
+  agent_readiness: 44.9
   band: exemplar
   in_catalog: true
-  kin_score: 81.1
+  kin_score: 82.3
   mcp: *id019
   name: Snowflake (snowflake feature)
   slug: snowflake
@@ -575,10 +575,10 @@ providers:
   tags: *id020
   url: /providers/snowflake/
 - agent_band: agent-ready
-  agent_readiness: 32.1
+  agent_readiness: 31.9
   band: exemplar
   in_catalog: true
-  kin_score: 66.7
+  kin_score: 67.0
   mcp: *id021
   name: SQL Server (tiberius)
   slug: microsoft-sql-server
@@ -586,10 +586,10 @@ providers:
   tags: *id022
   url: /providers/microsoft-sql-server/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id023
   name: Stripe (stripe feature)
   slug: stripe

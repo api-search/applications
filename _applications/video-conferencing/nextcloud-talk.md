@@ -49,10 +49,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 48.0
     mcp: &id001
       status: none
     slug: discord
@@ -79,10 +79,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.7
+    agent_readiness: 25.2
     band: thin
     in_catalog: true
-    kin_score: 37.2
+    kin_score: 37.0
     mcp: &id003
       source: https://github.com/mattermost/mmctl-mcp
       status: verified
@@ -110,10 +110,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id005
       status: none
     slug: microsoft-teams
@@ -143,7 +143,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 2.2
+    kin_score: 2.9
     mcp: &id007
       source: https://docs.rocket.chat/docs/mcp-server
       status: verified
@@ -171,10 +171,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id009
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -202,10 +202,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.1
     band: thin
     in_catalog: true
-    kin_score: 34.4
+    kin_score: 34.5
     mcp: &id011
       status: none
     slug: steam
@@ -232,10 +232,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id013
       status: none
     slug: telegram
@@ -262,10 +262,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 25.1
     band: thin
     in_catalog: true
-    kin_score: 33.2
+    kin_score: 33.1
     mcp: &id015
       source: https://github.com/zulip/zulipmcp
       status: verified
@@ -291,10 +291,10 @@ noindex: false
 permalink: /applications/video-conferencing/nextcloud-talk/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 30.6
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 48.0
   mcp: *id001
   name: Discord
   slug: discord
@@ -302,10 +302,10 @@ providers:
   tags: *id002
   url: /providers/discord/
 - agent_band: agent-aware
-  agent_readiness: 25.7
+  agent_readiness: 25.2
   band: thin
   in_catalog: true
-  kin_score: 37.2
+  kin_score: 37.0
   mcp: *id003
   name: Mattermost
   slug: mattermost
@@ -313,10 +313,10 @@ providers:
   tags: *id004
   url: /providers/mattermost/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 65.1
   mcp: *id005
   name: Microsoft Teams
   slug: microsoft-teams
@@ -327,7 +327,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 2.2
+  kin_score: 2.9
   mcp: *id007
   name: Rocket.Chat
   slug: rocketchat
@@ -335,10 +335,10 @@ providers:
   tags: *id008
   url: /providers/rocketchat/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id009
   name: Slack
   slug: slack
@@ -346,10 +346,10 @@ providers:
   tags: *id010
   url: /providers/slack/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.1
   band: thin
   in_catalog: true
-  kin_score: 34.4
+  kin_score: 34.5
   mcp: *id011
   name: Steam chat
   slug: steam
@@ -357,10 +357,10 @@ providers:
   tags: *id012
   url: /providers/steam/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id013
   name: Telegram
   slug: telegram
@@ -368,10 +368,10 @@ providers:
   tags: *id014
   url: /providers/telegram/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 25.1
   band: thin
   in_catalog: true
-  kin_score: 33.2
+  kin_score: 33.1
   mcp: *id015
   name: Zulip
   slug: zulip

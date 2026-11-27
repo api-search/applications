@@ -3251,7 +3251,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Datadog
       - Gatus
@@ -3262,7 +3262,7 @@ stack:
       - Uptime Kuma
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -3281,7 +3281,7 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Datadog
       - Gatus
@@ -3292,7 +3292,7 @@ stack:
       - Uptime Kuma
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -3310,7 +3310,7 @@ stack:
       tier: observed
       url: /providers/microsoft-teams/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Gatus
       - Grafana
@@ -3320,7 +3320,7 @@ stack:
       - Uptime Kuma
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -3338,7 +3338,7 @@ stack:
       tier: observed
       url: /providers/discord/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Gatus
       - Grafana
@@ -3347,7 +3347,7 @@ stack:
       - Uptime Kuma
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -3373,7 +3373,7 @@ stack:
       - Uptime Kuma
       band: minimal
       in_catalog: true
-      kin_score: 2.2
+      kin_score: 2.9
       mcp:
         source: https://docs.rocket.chat/docs/mcp-server
         status: verified
@@ -3392,14 +3392,14 @@ stack:
       tier: observed
       url: /providers/rocketchat/
     - agent_band: agent-native
-      agent_readiness: 47.9
+      agent_readiness: 47.0
       apps:
       - Gatus
       - Grafana
       - Uptime Kuma
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 71.3
       mcp:
         source: https://github.com/line/line-bot-mcp-server
         status: verified
@@ -3418,14 +3418,40 @@ stack:
       tier: observed
       url: /providers/line/
     - agent_band: agent-ready
-      agent_readiness: 61.1
+      agent_readiness: 41.0
+      apps:
+      - Gatus
+      - Grafana
+      - Uptime Kuma
+      band: exemplar
+      in_catalog: true
+      kin_score: 67.1
+      mcp:
+        source: https://github.com/google/mcp
+        status: verified
+      name: Google Chat
+      slug: google-chat
+      sources:
+      - https://github.com/TwiN/gatus/tree/master/alerting/provider
+      - https://github.com/grafana/alerting/tree/main/receivers
+      - https://github.com/louislam/uptime-kuma/tree/master/server/notification-providers
+      status: profiled
+      tags:
+      - Chat
+      - Collaboration
+      - Google
+      - Google Workspace
+      tier: observed
+      url: /providers/google-chat/
+    - agent_band: agent-ready
+      agent_readiness: 61.8
       apps:
       - Gatus
       - Grafana
       - Prometheus Alertmanager
       band: strong
       in_catalog: true
-      kin_score: 64.2
+      kin_score: 66.1
       mcp:
         source: https://github.com/WebexSamples/webex-messaging-mcp-server
         status: verified
@@ -3444,40 +3470,14 @@ stack:
       tier: observed
       url: /providers/webex/
     - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - Gatus
-      - Grafana
-      - Uptime Kuma
-      band: developing
-      in_catalog: true
-      kin_score: 51.6
-      mcp:
-        source: https://github.com/google/mcp
-        status: verified
-      name: Google Chat
-      slug: google-chat
-      sources:
-      - https://github.com/TwiN/gatus/tree/master/alerting/provider
-      - https://github.com/grafana/alerting/tree/main/receivers
-      - https://github.com/louislam/uptime-kuma/tree/master/server/notification-providers
-      status: profiled
-      tags:
-      - Chat
-      - Collaboration
-      - Google
-      - Google Workspace
-      tier: observed
-      url: /providers/google-chat/
-    - agent_band: agent-aware
-      agent_readiness: 24.2
+      agent_readiness: 23.6
       apps:
       - Grafana
       - Prometheus Alertmanager
       - Uptime Kuma
       band: developing
       in_catalog: true
-      kin_score: 50.5
+      kin_score: 45.1
       mcp:
         status: none
       name: WeCom
@@ -3495,14 +3495,14 @@ stack:
       tier: observed
       url: /providers/wechat/
     - agent_band: agent-aware
-      agent_readiness: 25.7
+      agent_readiness: 25.2
       apps:
       - Gatus
       - Prometheus Alertmanager
       - Uptime Kuma
       band: thin
       in_catalog: true
-      kin_score: 37.2
+      kin_score: 37.0
       mcp:
         source: https://github.com/mattermost/mmctl-mcp
         status: verified
@@ -3521,13 +3521,13 @@ stack:
       tier: observed
       url: /providers/mattermost/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.3
       apps:
       - Gatus
       - Uptime Kuma
       band: developing
       in_catalog: true
-      kin_score: 41.4
+      kin_score: 43.2
       mcp:
         status: none
       name: Signal
@@ -3544,13 +3544,13 @@ stack:
       tier: observed
       url: /providers/signal/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 2.8
       apps:
       - Grafana
       - Uptime Kuma
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.4
+      kin_score: 30.7
       mcp:
         status: none
       name: Threema
@@ -3567,13 +3567,13 @@ stack:
       tier: observed
       url: /providers/threema/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Grafana
       - Uptime Kuma
       band: minimal
       in_catalog: true
-      kin_score: 6.1
+      kin_score: 7.1
       mcp:
         source: https://github.com/open-dingtalk/dingtalk-mcp
         status: verified
@@ -3591,12 +3591,12 @@ stack:
       tier: observed
       url: /providers/dingtalk/
     - agent_band: agent-ready
-      agent_readiness: 35.6
+      agent_readiness: 34.9
       apps:
       - Uptime Kuma
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 46.7
       mcp:
         source: https://www.zoho.com/mcp/
         status: verified
@@ -3613,12 +3613,12 @@ stack:
       tier: observed
       url: /providers/zoho-cliq/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.5
       apps:
       - Uptime Kuma
       band: developing
       in_catalog: true
-      kin_score: 42.6
+      kin_score: 41.7
       mcp:
         source: https://github.com/bitrix24/mcp-rest-doc
         status: verified
@@ -3635,12 +3635,33 @@ stack:
       tier: observed
       url: /providers/bitrix24/
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 22.8
+      apps:
+      - Uptime Kuma
+      band: thin
+      in_catalog: true
+      kin_score: 33.7
+      mcp:
+        status: none
+      name: KOOK
+      slug: kook
+      sources:
+      - https://github.com/louislam/uptime-kuma/tree/master/server/notification-providers
+      status: profiled
+      tags:
+      - Community
+      - Company
+      - Gaming
+      - Voice Communication
+      tier: observed
+      url: /providers/kook/
+    - agent_band: agent-aware
+      agent_readiness: 25.1
       apps:
       - Gatus
       band: thin
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 33.1
       mcp:
         source: https://github.com/zulip/zulipmcp
         status: verified
@@ -3657,12 +3678,12 @@ stack:
       tier: observed
       url: /providers/zulip/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Uptime Kuma
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp:
         status: none
       name: Nextcloud Talk
@@ -3677,34 +3698,13 @@ stack:
       - Self-Hosted
       tier: observed
       url: /providers/nextcloud/
-    - agent_band: agent-aware
-      agent_readiness: 26.1
-      apps:
-      - Uptime Kuma
-      band: thin
-      in_catalog: true
-      kin_score: 27.1
-      mcp:
-        status: none
-      name: KOOK
-      slug: kook
-      sources:
-      - https://github.com/louislam/uptime-kuma/tree/master/server/notification-providers
-      status: profiled
-      tags:
-      - Community
-      - Company
-      - Gaming
-      - Voice Communication
-      tier: observed
-      url: /providers/kook/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Uptime Kuma
       band: emerging
       in_catalog: true
-      kin_score: 15.7
+      kin_score: 23.1
       mcp:
         source: https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/
         status: verified
@@ -3723,7 +3723,7 @@ stack:
       - Uptime Kuma
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: none
       name: VK
@@ -3742,7 +3742,7 @@ stack:
       - Netdata
       band: minimal
       in_catalog: true
-      kin_score: 3.9
+      kin_score: 3.4
       mcp:
         status: none
       name: Flock
@@ -3783,7 +3783,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.9
+      agent_readiness: 54.4
       apps:
       - Datadog
       - Gatus
@@ -3794,7 +3794,7 @@ stack:
       - Uptime Kuma
       band: developing
       in_catalog: true
-      kin_score: 51.2
+      kin_score: 52.1
       mcp:
         source: https://github.com/PagerDuty/pagerduty-mcp-server
         status: verified
@@ -3813,7 +3813,7 @@ stack:
       tier: observed
       url: /providers/pagerduty/
     - agent_band: agent-aware
-      agent_readiness: 27.1
+      agent_readiness: 26.5
       apps:
       - Datadog
       - Gatus
@@ -3824,7 +3824,7 @@ stack:
       - Uptime Kuma
       band: developing
       in_catalog: true
-      kin_score: 48.9
+      kin_score: 48.6
       mcp:
         status: none
       name: Opsgenie
@@ -3842,14 +3842,14 @@ stack:
       tier: observed
       url: /providers/opsgenie/
     - agent_band: agent-aware
-      agent_readiness: 18.5
+      agent_readiness: 18.1
       apps:
       - Gatus
       - Netdata
       - Uptime Kuma
       band: thin
       in_catalog: true
-      kin_score: 38.2
+      kin_score: 36.7
       mcp:
         status: none
       name: SIGNL4
@@ -3874,7 +3874,7 @@ stack:
       - Uptime Kuma
       band: emerging
       in_catalog: true
-      kin_score: 17.8
+      kin_score: 18.1
       mcp:
         status: none
       name: Splunk On-Call
@@ -3892,13 +3892,13 @@ stack:
       tier: observed
       url: /providers/victorops/
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 22.7
       apps:
       - Gatus
       - Netdata
       band: thin
       in_catalog: true
-      kin_score: 37.5
+      kin_score: 37.4
       mcp:
         source: https://github.com/iLert/mcp-ilert
         status: verified
@@ -3916,13 +3916,13 @@ stack:
       tier: observed
       url: /providers/ilert/
     - agent_band: agent-native
-      agent_readiness: 50.9
+      agent_readiness: 49.9
       apps:
       - Gatus
       - Prometheus Alertmanager
       band: thin
       in_catalog: true
-      kin_score: 33.8
+      kin_score: 34.1
       mcp:
         source: https://help.incident.io/
         status: documented
@@ -3940,13 +3940,13 @@ stack:
       tier: observed
       url: /providers/incident-io/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Gatus
       - Uptime Kuma
       band: thin
       in_catalog: true
-      kin_score: 28.1
+      kin_score: 26.6
       mcp:
         status: none
       name: Squadcast
@@ -3963,12 +3963,12 @@ stack:
       tier: observed
       url: /providers/squadcast/
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - Uptime Kuma
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp: &id005
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -3984,13 +3984,13 @@ stack:
       - Project Management
       tier: observed
       url: /providers/jira/
-    - agent_band: agent-ready
-      agent_readiness: 31.1
+    - agent_band: agent-aware
+      agent_readiness: 27.6
       apps:
       - Uptime Kuma
       band: strong
       in_catalog: true
-      kin_score: 60.6
+      kin_score: 66.0
       mcp:
         source: https://github.com/grafana/mcp-grafana
         status: verified
@@ -4007,12 +4007,12 @@ stack:
       tier: observed
       url: /providers/grafana-com/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 17.5
       apps:
       - Uptime Kuma
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 35.9
+      kin_score: 42.5
       mcp:
         source: https://github.com/flashcatcloud/flashduty-mcp-server
         status: verified
@@ -4034,7 +4034,7 @@ stack:
       - Uptime Kuma
       band: thin
       in_catalog: true
-      kin_score: 30.9
+      kin_score: 29.6
       mcp:
         status: none
       name: Keep
@@ -4053,9 +4053,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Uptime Kuma
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 17.8
+      kin_score: 28.7
       mcp:
         source: https://github.com/PagerTree/pagertree-mcp-server
         status: verified
@@ -4074,7 +4074,7 @@ stack:
       - Netdata
       band: emerging
       in_catalog: true
-      kin_score: 15.4
+      kin_score: 17.4
       mcp:
         status: none
       name: Alerta
@@ -4095,7 +4095,7 @@ stack:
       - Uptime Kuma
       band: minimal
       in_catalog: true
-      kin_score: 4.5
+      kin_score: 5.1
       mcp:
         status: unknown
       name: GoAlert
@@ -4119,13 +4119,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 48.6
       apps:
       - Gatus
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -4143,13 +4143,13 @@ stack:
       tier: observed
       url: /providers/datadog/
     - agent_band: agent-ready
-      agent_readiness: 53.5
+      agent_readiness: 54.4
       apps:
       - Gatus
       - Sentry
       band: strong
       in_catalog: true
-      kin_score: 61.4
+      kin_score: 63.1
       mcp:
         status: none
       name: Splunk
@@ -4166,12 +4166,12 @@ stack:
       tier: observed
       url: /providers/splunk/
     - agent_band: agent-ready
-      agent_readiness: 44.7
+      agent_readiness: 43.8
       apps:
       - Netdata
       band: exemplar
       in_catalog: true
-      kin_score: 84.1
+      kin_score: 85.6
       mcp:
         source: https://github.com/dynatrace-oss/dynatrace-mcp
         status: verified
@@ -4188,34 +4188,12 @@ stack:
       tier: observed
       url: /providers/dynatrace/
     - agent_band: agent-ready
-      agent_readiness: 45.7
-      apps:
-      - Gatus
-      band: exemplar
-      in_catalog: true
-      kin_score: 76.5
-      mcp:
-        source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
-        status: verified
-      name: New Relic
-      slug: new-relic
-      sources:
-      - https://github.com/TwiN/gatus/tree/master/alerting/provider
-      status: profiled
-      tags:
-      - APM
-      - Analysis
-      - Analytics
-      - DevOps
-      tier: observed
-      url: /providers/new-relic/
-    - agent_band: agent-ready
-      agent_readiness: 50.0
+      agent_readiness: 49.5
       apps:
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 74.1
+      kin_score: 76.2
       mcp:
         source: https://raw.githubusercontent.com/googleapis/gcloud-mcp/main/README.md
         status: verified
@@ -4232,12 +4210,34 @@ stack:
       tier: observed
       url: /providers/google-cloud-logging/
     - agent_band: agent-ready
-      agent_readiness: 50.7
+      agent_readiness: 44.8
+      apps:
+      - Gatus
+      band: exemplar
+      in_catalog: true
+      kin_score: 74.4
+      mcp:
+        source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
+        status: verified
+      name: New Relic
+      slug: new-relic
+      sources:
+      - https://github.com/TwiN/gatus/tree/master/alerting/provider
+      status: profiled
+      tags:
+      - APM
+      - Analysis
+      - Analytics
+      - DevOps
+      tier: observed
+      url: /providers/new-relic/
+    - agent_band: agent-ready
+      agent_readiness: 50.2
       apps:
       - Sentry
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.8
+      kin_score: 67.5
       mcp: &id001
         source: https://github.com/googleapis/mcp-toolbox
         status: verified
@@ -4253,35 +4253,13 @@ stack:
       - Platform-as-a-Service
       tier: observed
       url: /providers/google-cloud-platform/
-    - agent_band: agent-aware
-      agent_readiness: 27.1
+    - agent_band: agent-ready
+      agent_readiness: 37.2
       apps:
       - Grafana
       band: strong
       in_catalog: true
-      kin_score: 64.8
-      mcp:
-        source: https://github.com/microsoft/mcp
-        status: verified
-      name: Azure Monitor data source
-      slug: microsoft-azure-monitor
-      sources:
-      - https://github.com/grafana/grafana/tree/main/public/app/plugins/datasource
-      status: profiled
-      tags:
-      - Application Insights
-      - Cloud
-      - Logs
-      - Metrics
-      tier: observed
-      url: /providers/microsoft-azure-monitor/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - Grafana
-      band: developing
-      in_catalog: true
-      kin_score: 47.6
+      kin_score: 66.4
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -4297,13 +4275,35 @@ stack:
       - Metrics
       tier: observed
       url: /providers/google-cloud-monitoring/
+    - agent_band: agent-aware
+      agent_readiness: 26.8
+      apps:
+      - Grafana
+      band: strong
+      in_catalog: true
+      kin_score: 65.7
+      mcp:
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Azure Monitor data source
+      slug: microsoft-azure-monitor
+      sources:
+      - https://github.com/grafana/grafana/tree/main/public/app/plugins/datasource
+      status: profiled
+      tags:
+      - Application Insights
+      - Cloud
+      - Logs
+      - Metrics
+      tier: observed
+      url: /providers/microsoft-azure-monitor/
     - agent_band: human-only
       agent_readiness: 2.5
       apps:
       - Grafana
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 34.0
       mcp:
         status: none
       name: Sensu Go
@@ -4319,12 +4319,12 @@ stack:
       tier: observed
       url: /providers/sensu/
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Datadog
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: &id003
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -4341,12 +4341,12 @@ stack:
       tier: declared
       url: /providers/twilio/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Datadog
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp: &id017
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -4363,12 +4363,12 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Datadog
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp: &id007
         status: none
       name: SendGrid
@@ -4384,12 +4384,12 @@ stack:
       tier: declared
       url: /providers/sendgrid/
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - Datadog
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp:
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -4406,12 +4406,12 @@ stack:
       tier: declared
       url: /providers/cloudflare/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Datadog
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: &id019
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -4428,34 +4428,12 @@ stack:
       tier: declared
       url: /providers/openai/
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 44.9
       apps:
       - Datadog
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
-      mcp: &id015
-        source: https://docs.stripe.com/mcp
-        status: verified
-      name: Stripe
-      slug: stripe
-      sources:
-      - https://docs.datadoghq.com/integrations/stripe/
-      status: profiled
-      tags: &id016
-      - Commerce
-      - Financial Services
-      - Fintech
-      - Payments
-      tier: declared
-      url: /providers/stripe/
-    - agent_band: agent-native
-      agent_readiness: 45.8
-      apps:
-      - Datadog
-      band: exemplar
-      in_catalog: true
-      kin_score: 81.1
+      kin_score: 82.3
       mcp:
         source: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
         status: verified
@@ -4471,13 +4449,35 @@ stack:
       - Snowflake
       tier: declared
       url: /providers/snowflake/
-    - agent_band: agent-ready
-      agent_readiness: 53.8
+    - agent_band: agent-native
+      agent_readiness: 57.6
       apps:
       - Datadog
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 82.0
+      mcp: &id015
+        source: https://docs.stripe.com/mcp
+        status: verified
+      name: Stripe
+      slug: stripe
+      sources:
+      - https://docs.datadoghq.com/integrations/stripe/
+      status: profiled
+      tags: &id016
+      - Commerce
+      - Financial Services
+      - Fintech
+      - Payments
+      tier: declared
+      url: /providers/stripe/
+    - agent_band: agent-ready
+      agent_readiness: 47.1
+      apps:
+      - Datadog
+      band: exemplar
+      in_catalog: true
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -4494,12 +4494,12 @@ stack:
       tier: declared
       url: /providers/okta/
     - agent_band: agent-ready
-      agent_readiness: 56.0
+      agent_readiness: 59.1
       apps:
       - Datadog
       band: exemplar
       in_catalog: true
-      kin_score: 77.8
+      kin_score: 79.9
       mcp:
         source: https://github.com/mongodb-js/mongodb-mcp-server
         status: verified
@@ -4516,12 +4516,12 @@ stack:
       tier: declared
       url: /providers/mongodb/
     - agent_band: agent-aware
-      agent_readiness: 24.1
+      agent_readiness: 24.2
       apps:
       - Datadog
       band: strong
       in_catalog: true
-      kin_score: 65.3
+      kin_score: 66.0
       mcp:
         source: https://github.com/fastly/mcp
         status: verified
@@ -4551,7 +4551,7 @@ stack:
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 74.9
       mcp:
         source: https://github.com/awslabs/mcp/tree/main/src/lambda-tool-mcp-server
         status: verified
@@ -4567,13 +4567,13 @@ stack:
       - Serverless
       tier: observed
       url: /providers/aws-lambda/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 35.8
       apps:
       - Sentry
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 53.2
+      kin_score: 67.5
       mcp:
         status: none
       name: google-cloud-functions
@@ -4589,12 +4589,12 @@ stack:
       tier: observed
       url: /providers/google-cloud-functions/
     - agent_band: agent-ready
-      agent_readiness: 51.5
+      agent_readiness: 45.0
       apps:
       - Datadog
       band: exemplar
       in_catalog: true
-      kin_score: 78.4
+      kin_score: 76.0
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -4611,28 +4611,12 @@ stack:
       tier: declared
       url: /providers/microsoft-azure/
     - agent_band: agent-ready
-      agent_readiness: 50.7
+      agent_readiness: 37.9
       apps:
       - Datadog
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.8
-      mcp: *id001
-      name: Google Cloud
-      slug: google-cloud-platform
-      sources:
-      - https://docs.datadoghq.com/integrations/google_cloud_platform/
-      status: profiled
-      tags: *id002
-      tier: declared
-      url: /providers/google-cloud-platform/
-    - agent_band: agent-ready
-      agent_readiness: 40.8
-      apps:
-      - Datadog
-      band: strong
-      in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp: &id013
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4648,6 +4632,22 @@ stack:
       - Networks
       tier: declared
       url: /providers/amazon-web-services/
+    - agent_band: agent-ready
+      agent_readiness: 50.2
+      apps:
+      - Datadog
+      band: exemplar
+      in_catalog: true
+      kin_score: 67.5
+      mcp: *id001
+      name: Google Cloud
+      slug: google-cloud-platform
+      sources:
+      - https://docs.datadoghq.com/integrations/google_cloud_platform/
+      status: profiled
+      tags: *id002
+      tier: declared
+      url: /providers/google-cloud-platform/
   - capability:
       attribution: Turbo EA
       id: BC-600.30
@@ -4657,12 +4657,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Uptime Kuma
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 10.8
+      kin_score: 19.7
       mcp:
         status: unknown
       name: HaloPSA
@@ -4678,12 +4678,12 @@ stack:
       tier: observed
       url: /providers/halopsa/
     - agent_band: agent-ready
-      agent_readiness: 43.2
+      agent_readiness: 42.3
       apps:
       - Datadog
       band: strong
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 61.9
       mcp:
         status: none
       name: ServiceNow
@@ -4707,12 +4707,12 @@ stack:
       via_parent: Service Resilience Commitment Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 19.7
       apps:
       - Datadog
       band: thin
       in_catalog: true
-      kin_score: 35.1
+      kin_score: 36.0
       mcp:
         status: none
       name: Statuspage
@@ -4738,7 +4738,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.0
+      agent_readiness: 21.6
       apps:
       - Gatus
       - Grafana
@@ -4747,7 +4747,7 @@ stack:
       - Uptime Kuma
       band: thin
       in_catalog: true
-      kin_score: 29.2
+      kin_score: 28.1
       mcp:
         status: none
       name: Pushover
@@ -4765,14 +4765,14 @@ stack:
       tier: observed
       url: /providers/pushover/
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 41.7
       apps:
       - Grafana
       - Netdata
       - Prometheus Alertmanager
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 64.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4796,9 +4796,9 @@ stack:
       - Gatus
       - Netdata
       - Uptime Kuma
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.9
+      kin_score: 15.5
       mcp:
         status: none
       name: ntfy
@@ -4823,7 +4823,7 @@ stack:
       - Uptime Kuma
       band: minimal
       in_catalog: true
-      kin_score: 7.8
+      kin_score: 10.9
       mcp:
         source: https://gotify.net/docs/mcp
         status: verified
@@ -4842,13 +4842,13 @@ stack:
       tier: observed
       url: /providers/gotify/
     - agent_band: agent-aware
-      agent_readiness: 24.9
+      agent_readiness: 24.4
       apps:
       - Netdata
       - Uptime Kuma
       band: thin
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 30.2
       mcp:
         status: none
       name: Pushbullet
@@ -4870,7 +4870,7 @@ stack:
       - Netdata
       band: minimal
       in_catalog: true
-      kin_score: 6.3
+      kin_score: 8.0
       mcp:
         status: unknown
       name: Prowl
@@ -4894,14 +4894,14 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Gatus
       - Netdata
       - Uptime Kuma
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: *id003
       name: Twilio
       slug: twilio
@@ -4913,14 +4913,14 @@ stack:
       tags: *id004
       tier: observed
       url: /providers/twilio/
-    - agent_band: agent-ready
-      agent_readiness: 65.2
+    - agent_band: agent-native
+      agent_readiness: 70.3
       apps:
       - Gatus
       - Netdata
       band: developing
       in_catalog: true
-      kin_score: 48.6
+      kin_score: 50.0
       mcp:
         source: https://github.com/messagebird/bird-ai
         status: verified
@@ -4938,13 +4938,13 @@ stack:
       tier: observed
       url: /providers/bird/
     - agent_band: agent-aware
-      agent_readiness: 26.3
+      agent_readiness: 25.8
       apps:
       - Gatus
       - Uptime Kuma
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.9
+      kin_score: 39.3
       mcp:
         source: https://github.com/plivo/mcp
         status: verified
@@ -4961,14 +4961,14 @@ stack:
       - Voice
       tier: observed
       url: /providers/plivo/
-    - agent_band: agent-aware
-      agent_readiness: 7.5
+    - agent_band: human-only
+      agent_readiness: 3.8
       apps:
       - Netdata
       - Uptime Kuma
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 15.9
+      kin_score: 27.1
       mcp:
         status: none
       name: SMSEagle
@@ -4985,12 +4985,12 @@ stack:
       tier: observed
       url: /providers/smseagle/
     - agent_band: agent-native
-      agent_readiness: 79.5
+      agent_readiness: 80.0
       apps:
       - Uptime Kuma
       band: exemplar
       in_catalog: true
-      kin_score: 79.4
+      kin_score: 93.5
       mcp:
         source: https://github.com/team-telnyx/telnyx-mcp-server
         status: verified
@@ -5007,12 +5007,12 @@ stack:
       tier: observed
       url: /providers/telnyx/
     - agent_band: agent-ready
-      agent_readiness: 43.5
+      agent_readiness: 40.0
       apps:
       - Gatus
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 68.8
       mcp:
         source: https://github.com/Vonage/vonage-mcp-server-documentation
         status: verified
@@ -5029,12 +5029,12 @@ stack:
       tier: observed
       url: /providers/vonage/
     - agent_band: agent-aware
-      agent_readiness: 23.5
+      agent_readiness: 23.0
       apps:
       - Uptime Kuma
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 35.9
+      kin_score: 47.8
       mcp:
         source: https://github.com/seven-io/seven-mcp
         status: verified
@@ -5051,12 +5051,12 @@ stack:
       tier: observed
       url: /providers/seven-io/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Uptime Kuma
       band: thin
       in_catalog: true
-      kin_score: 28.6
+      kin_score: 28.2
       mcp:
         source: https://github.com/ClickSend/clicksend-mcp-server
         status: verified
@@ -5073,12 +5073,12 @@ stack:
       tier: observed
       url: /providers/clicksend/
     - agent_band: agent-aware
-      agent_readiness: 21.7
+      agent_readiness: 21.3
       apps:
       - Uptime Kuma
       band: thin
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 26.4
       mcp:
         status: none
       name: 46elks
@@ -5094,12 +5094,12 @@ stack:
       tier: observed
       url: /providers/46elks/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Uptime Kuma
       band: minimal
       in_catalog: true
-      kin_score: 8.2
+      kin_score: 10.5
       mcp:
         status: none
       name: Octopush
@@ -5120,7 +5120,7 @@ stack:
       - Netdata
       band: minimal
       in_catalog: true
-      kin_score: 7.6
+      kin_score: 8.3
       mcp:
         status: none
       name: Kavenegar
@@ -5138,7 +5138,7 @@ stack:
       - Uptime Kuma
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         source: https://github.com/aliyun/alibaba-cloud-ops-mcp-server
         status: verified
@@ -5160,7 +5160,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - Datadog
       - Grafana
@@ -5168,7 +5168,7 @@ stack:
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp: *id005
       name: Jira
       slug: jira
@@ -5181,13 +5181,13 @@ stack:
       tier: observed
       url: /providers/jira/
     - agent_band: agent-ready
-      agent_readiness: 57.0
+      agent_readiness: 55.8
       apps:
       - Gatus
       - Uptime Kuma
       band: exemplar
       in_catalog: true
-      kin_score: 73.7
+      kin_score: 72.6
       mcp:
         source: https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server
         status: verified
@@ -5204,35 +5204,13 @@ stack:
       - Work Management
       tier: observed
       url: /providers/clickup/
-    - agent_band: agent-ready
-      agent_readiness: 63.4
-      apps:
-      - Gatus
-      band: exemplar
-      in_catalog: true
-      kin_score: 85.4
-      mcp: &id009
-        source: https://github.com/github/github-mcp-server
-        status: verified
-      name: GitHub
-      slug: github
-      sources:
-      - https://github.com/TwiN/gatus/tree/master/alerting/provider
-      status: profiled
-      tags: &id010
-      - Code
-      - Developer Tools
-      - Pipelines
-      - Platform
-      tier: observed
-      url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Gatus
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp: &id011
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -5249,12 +5227,34 @@ stack:
       tier: observed
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 62.4
+      apps:
+      - Gatus
+      band: exemplar
+      in_catalog: true
+      kin_score: 85.0
+      mcp: &id009
+        source: https://github.com/github/github-mcp-server
+        status: verified
+      name: GitHub
+      slug: github
+      sources:
+      - https://github.com/TwiN/gatus/tree/master/alerting/provider
+      status: profiled
+      tags: &id010
+      - Code
+      - Developer Tools
+      - Pipelines
+      - Platform
+      tier: observed
+      url: /providers/github/
+    - agent_band: agent-ready
+      agent_readiness: 37.7
       apps:
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 76.8
+      kin_score: 81.9
       mcp:
         source: https://github.com/microsoft/azure-devops-mcp
         status: verified
@@ -5271,12 +5271,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-devops/
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 35.0
       apps:
       - Gatus
       band: exemplar
       in_catalog: true
-      kin_score: 69.8
+      kin_score: 68.1
       mcp:
         source: https://gitea.com/gitea/gitea-mcp
         status: verified
@@ -5300,14 +5300,14 @@ stack:
       url: /capabilities/configuration-secrets-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Grafana
       - Sentry
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 53.2
+      kin_score: 70.9
       mcp:
         status: none
       name: cloud.google.com/go/kms
@@ -5323,13 +5323,13 @@ stack:
       - Key Management
       tier: observed
       url: /providers/google-cloud-kms/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-native
+      agent_readiness: 39.2
       apps:
       - Grafana
       band: exemplar
       in_catalog: true
-      kin_score: 70.3
+      kin_score: 77.5
       mcp:
         status: none
       name: aws-sdk-go-v2/service/secretsmanager
@@ -5345,12 +5345,12 @@ stack:
       tier: observed
       url: /providers/amazon-secrets-manager/
     - agent_band: agent-ready
-      agent_readiness: 34.7
+      agent_readiness: 44.1
       apps:
       - Grafana
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 76.8
       mcp:
         status: none
       name: aws-sdk-go-v2/service/kms
@@ -5365,13 +5365,13 @@ stack:
       - Encryption
       tier: observed
       url: /providers/amazon-kms/
-    - agent_band: agent-aware
-      agent_readiness: 21.3
+    - agent_band: agent-ready
+      agent_readiness: 36.6
       apps:
       - Grafana
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 53.3
+      kin_score: 63.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -5388,14 +5388,15 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-key-vault/
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 20.9
       apps:
       - Grafana
       band: thin
       in_catalog: true
-      kin_score: 31.0
+      kin_score: 29.7
       mcp:
-        status: unchecked
+        source: https://github.com/hashicorp/vault-mcp-server
+        status: verified
       name: hashicorp/vault/api
       slug: hvault
       sources:
@@ -5417,13 +5418,13 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Gatus
       - Uptime Kuma
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp: *id007
       name: SendGrid
       slug: sendgrid
@@ -5435,13 +5436,13 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - Gatus
       - Uptime Kuma
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -5459,12 +5460,33 @@ stack:
       tier: observed
       url: /providers/resend/
     - agent_band: agent-ready
-      agent_readiness: 57.2
+      agent_readiness: 38.0
+      apps:
+      - Gatus
+      band: exemplar
+      in_catalog: true
+      kin_score: 83.8
+      mcp:
+        status: none
+      name: Amazon SES
+      slug: amazon-ses
+      sources:
+      - https://github.com/TwiN/gatus/tree/master/alerting/provider
+      status: profiled
+      tags:
+      - Amazon Web Services
+      - Email
+      - Email Deliverability
+      - Email Service
+      tier: observed
+      url: /providers/amazon-ses/
+    - agent_band: agent-ready
+      agent_readiness: 56.4
       apps:
       - Uptime Kuma
       band: exemplar
       in_catalog: true
-      kin_score: 82.2
+      kin_score: 81.3
       mcp:
         source: https://developers.brevo.com/docs/mcp-protocol
         status: verified
@@ -5480,27 +5502,6 @@ stack:
       - Transactional Email
       tier: observed
       url: /providers/brevo/
-    - agent_band: agent-ready
-      agent_readiness: 39.4
-      apps:
-      - Gatus
-      band: exemplar
-      in_catalog: true
-      kin_score: 80.6
-      mcp:
-        status: none
-      name: Amazon SES
-      slug: amazon-ses
-      sources:
-      - https://github.com/TwiN/gatus/tree/master/alerting/provider
-      status: profiled
-      tags:
-      - Amazon Web Services
-      - Email
-      - Email Deliverability
-      - Email Service
-      tier: observed
-      url: /providers/amazon-ses/
   - capability:
       attribution: Turbo EA
       id: BC-4200.40
@@ -5510,13 +5511,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Datadog
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp: *id009
       name: GitHub
       slug: github
@@ -5528,12 +5529,12 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp: *id011
       name: GitLab
       slug: gitlab
@@ -5544,12 +5545,12 @@ stack:
       tier: observed
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 35.3
       apps:
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 71.9
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -5566,12 +5567,12 @@ stack:
       tier: observed
       url: /providers/bitbucket/
     - agent_band: agent-ready
-      agent_readiness: 30.4
+      agent_readiness: 35.3
       apps:
       - Sentry
       band: developing
       in_catalog: true
-      kin_score: 46.8
+      kin_score: 45.5
       mcp:
         source: https://github.com/perforce/p4mcp-server
         status: verified
@@ -5596,13 +5597,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Grafana
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -5619,13 +5620,13 @@ stack:
       - Cloud Storage
       tier: observed
       url: /providers/gcp-cloud-storage/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Grafana
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5642,12 +5643,12 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Grafana
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -5672,12 +5673,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Gatus
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -5694,12 +5695,12 @@ stack:
       tier: observed
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 35.7
       apps:
       - Gatus
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 67.7
       mcp:
         source: https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server/
         status: verified
@@ -5716,12 +5717,12 @@ stack:
       tier: observed
       url: /providers/n8n/
     - agent_band: agent-ready
-      agent_readiness: 43.3
+      agent_readiness: 42.4
       apps:
       - Gatus
       band: emerging
       in_catalog: true
-      kin_score: 25.0
+      kin_score: 24.1
       mcp:
         source: https://github.com/IFTTT/ifttt-plugins
         status: verified
@@ -5745,14 +5746,14 @@ stack:
       url: /capabilities/home-device-consumer-iot/
       via_parent: null
     providers:
-    - agent_band: human-only
-      agent_readiness: 5.0
+    - agent_band: agent-aware
+      agent_readiness: 5.6
       apps:
       - Gatus
       - Uptime Kuma
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.2
+      kin_score: 34.5
       mcp:
         source: https://www.home-assistant.io/integrations/mcp_server/
         status: verified
@@ -5778,12 +5779,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Sentry
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp: *id013
       name: boto3
       slug: amazon-web-services
@@ -5793,13 +5794,13 @@ stack:
       tags: *id014
       tier: observed
       url: /providers/amazon-web-services/
-    - agent_band: agent-aware
-      agent_readiness: 26.3
+    - agent_band: agent-ready
+      agent_readiness: 39.3
       apps:
       - Sentry
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 66.7
       mcp:
         status: none
       name: google-cloud-build
@@ -5823,12 +5824,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 34.4
       apps:
       - Sentry
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 59.8
+      kin_score: 70.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5844,13 +5845,13 @@ stack:
       - Messaging
       tier: observed
       url: /providers/amazon-sqs/
-    - agent_band: agent-aware
-      agent_readiness: 25.6
+    - agent_band: agent-ready
+      agent_readiness: 38.0
       apps:
       - Sentry
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 64.1
       mcp:
         source: https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp
         status: verified
@@ -5874,13 +5875,13 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 37.3
       apps:
       - Sentry
       band: strong
       in_catalog: true
-      kin_score: 54.9
+      kin_score: 65.5
       mcp:
         source: https://docs.cloud.google.com/bigtable/docs/use-bigtable-mcp
         status: verified
@@ -5896,13 +5897,13 @@ stack:
       - NoSQL
       tier: observed
       url: /providers/google-cloud-bigtable/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 37.1
       apps:
       - Sentry
       band: strong
       in_catalog: true
-      kin_score: 54.8
+      kin_score: 64.4
       mcp:
         source: https://github.com/googleapis/mcp-toolbox
         status: verified
@@ -5927,12 +5928,12 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 23.7
       apps:
       - Sentry
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 31.5
       mcp:
         status: none
       name: maxminddb
@@ -5956,12 +5957,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp: *id015
       name: stripe
       slug: stripe
@@ -5980,12 +5981,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Sentry
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -6009,12 +6010,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Uptime Kuma
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -6039,12 +6040,12 @@ stack:
       via_parent: Vertical Agents
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp: *id017
       name: Claude Code
       slug: anthropic
@@ -6055,12 +6056,12 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-ready
-      agent_readiness: 49.0
+      agent_readiness: 52.4
       apps:
       - Sentry
       band: exemplar
       in_catalog: true
-      kin_score: 72.5
+      kin_score: 74.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -6076,13 +6077,13 @@ stack:
       - Code Review
       tier: observed
       url: /providers/github-copilot/
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Sentry
       band: strong
       in_catalog: true
-      kin_score: 54.9
+      kin_score: 60.0
       mcp:
         status: none
       name: Cursor
@@ -6106,12 +6107,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Grafana
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: *id019
       name: openai/openai-go/v3
       slug: openai
@@ -6121,13 +6122,13 @@ stack:
       tags: *id020
       tier: observed
       url: /providers/openai/
-    - agent_band: agent-ready
-      agent_readiness: 35.8
+    - agent_band: agent-native
+      agent_readiness: 48.3
       apps:
       - Grafana
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 64.3
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -6143,13 +6144,13 @@ stack:
       - Generative AI
       tier: observed
       url: /providers/amazon-bedrock/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 42.2
       apps:
       - Grafana
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.4
+      kin_score: 63.2
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -6174,10 +6175,10 @@ summary:
   mcp:
     documented: 1
     none: 38
-    unchecked: 2
-    verified: 69
-  mcp_verified: 69
-  mean_kin_score: 50.1
+    unchecked: 1
+    verified: 70
+  mcp_verified: 70
+  mean_kin_score: 53.1
   observed: 104
   queued: 1
   reference_apps: 7

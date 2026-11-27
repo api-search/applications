@@ -71,10 +71,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.0
-    band: thin
+    agent_readiness: 29.4
+    band: emerging
     in_catalog: true
-    kin_score: 27.1
+    kin_score: 26.1
     mcp: &id001
       status: none
     slug: crisp
@@ -101,10 +101,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id003
       source: https://github.com/PostHog/mcp
       status: verified
@@ -135,7 +135,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id005
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -163,10 +163,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id007
       source: https://docs.stripe.com/mcp
       status: verified
@@ -194,10 +194,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.1
+    agent_readiness: 48.2
     band: developing
     in_catalog: true
-    kin_score: 49.1
+    kin_score: 49.4
     mcp: &id009
       source: https://github.com/supabase/mcp
       status: verified
@@ -223,10 +223,10 @@ noindex: false
 permalink: /applications/inventory-warehouse/shelf/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 30.0
-  band: thin
+  agent_readiness: 29.4
+  band: emerging
   in_catalog: true
-  kin_score: 27.1
+  kin_score: 26.1
   mcp: *id001
   name: Crisp
   slug: crisp
@@ -234,10 +234,10 @@ providers:
   tags: *id002
   url: /providers/crisp/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id003
   name: PostHog
   slug: posthog
@@ -248,7 +248,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id005
   name: Sentry
   slug: sentry-system
@@ -256,10 +256,10 @@ providers:
   tags: *id006
   url: /providers/sentry-system/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id007
   name: Stripe
   slug: stripe
@@ -267,10 +267,10 @@ providers:
   tags: *id008
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 48.1
+  agent_readiness: 48.2
   band: developing
   in_catalog: true
-  kin_score: 49.1
+  kin_score: 49.4
   mcp: *id009
   name: Supabase
   slug: supabase

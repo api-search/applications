@@ -54,11 +54,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 41.0
+    band: exemplar
     in_catalog: true
-    kin_score: 51.6
+    kin_score: 67.1
     mcp: &id001
       source: https://github.com/google/mcp
       status: verified
@@ -86,10 +86,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.0
+    agent_readiness: 39.0
     band: exemplar
     in_catalog: true
-    kin_score: 70.1
+    kin_score: 69.7
     mcp: &id003
       source: https://github.com/microsoft/mcp
       status: verified
@@ -117,10 +117,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.2
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 59.0
+    kin_score: 65.1
     mcp: &id005
       status: none
     slug: microsoft-teams
@@ -147,10 +147,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.8
+    agent_readiness: 30.2
     band: developing
     in_catalog: true
-    kin_score: 49.4
+    kin_score: 48.1
     mcp: &id007
       source: https://github.com/rollbar/rollbar-mcp-server
       status: verified
@@ -178,10 +178,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.7
+    agent_readiness: 38.3
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 74.4
     mcp: &id009
       source: https://docs.slack.dev/ai/mcp-server/
       status: verified
@@ -206,11 +206,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/inventory-warehouse/snipe-it/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 41.0
+  band: exemplar
   in_catalog: true
-  kin_score: 51.6
+  kin_score: 67.1
   mcp: *id001
   name: Google Chat
   slug: google-chat
@@ -218,10 +218,10 @@ providers:
   tags: *id002
   url: /providers/google-chat/
 - agent_band: agent-ready
-  agent_readiness: 37.0
+  agent_readiness: 39.0
   band: exemplar
   in_catalog: true
-  kin_score: 70.1
+  kin_score: 69.7
   mcp: *id003
   name: Microsoft Graph
   slug: microsoft-graph
@@ -229,10 +229,10 @@ providers:
   tags: *id004
   url: /providers/microsoft-graph/
 - agent_band: agent-ready
-  agent_readiness: 34.2
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 59.0
+  kin_score: 65.1
   mcp: *id005
   name: Microsoft Teams
   slug: microsoft-teams
@@ -240,10 +240,10 @@ providers:
   tags: *id006
   url: /providers/microsoft-teams/
 - agent_band: agent-ready
-  agent_readiness: 30.8
+  agent_readiness: 30.2
   band: developing
   in_catalog: true
-  kin_score: 49.4
+  kin_score: 48.1
   mcp: *id007
   name: Rollbar
   slug: rollbar
@@ -251,10 +251,10 @@ providers:
   tags: *id008
   url: /providers/rollbar/
 - agent_band: agent-ready
-  agent_readiness: 38.7
+  agent_readiness: 38.3
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 74.4
   mcp: *id009
   name: Slack
   slug: slack

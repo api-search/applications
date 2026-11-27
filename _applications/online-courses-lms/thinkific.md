@@ -127,10 +127,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id001
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -158,10 +158,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.7
+    agent_readiness: 52.0
     band: exemplar
     in_catalog: true
-    kin_score: 94.6
+    kin_score: 91.9
     mcp: &id003
       source: https://developers.hubspot.com/mcp
       status: verified
@@ -189,10 +189,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.1
+    agent_readiness: 14.8
     band: emerging
     in_catalog: true
-    kin_score: 19.8
+    kin_score: 24.8
     mcp: &id005
       status: none
     slug: iorad
@@ -222,7 +222,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.3
+    kin_score: 22.4
     mcp: &id007
       status: none
     slug: jivochat
@@ -249,10 +249,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 64.4
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 79.6
+    kin_score: 80.4
     mcp: &id009
       status: none
     slug: convertkit
@@ -279,10 +279,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id011
       status: none
     slug: facebook
@@ -308,11 +308,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id013
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -340,10 +340,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 52.5
+    agent_readiness: 51.8
     band: exemplar
     in_catalog: true
-    kin_score: 84.6
+    kin_score: 83.8
     mcp: &id015
       source: https://shopify.dev/docs/apps/build/devmcp
       status: verified
@@ -374,7 +374,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 2.9
+    kin_score: 2.4
     mcp: &id017
       source: https://api-v2.smartarget.online/api/mcp/message
       status: verified
@@ -405,7 +405,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 18.4
+    kin_score: 19.0
     mcp: &id019
       status: none
     slug: thinglink
@@ -432,10 +432,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 1.1
     band: emerging
     in_catalog: true
-    kin_score: 19.7
+    kin_score: 25.6
     mcp: &id021
       status: none
     slug: wisernotify
@@ -462,10 +462,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id023
       source: https://zapier.com/mcp
       status: verified
@@ -493,10 +493,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 55.2
+    agent_readiness: 56.8
     band: strong
     in_catalog: true
-    kin_score: 56.2
+    kin_score: 57.1
     mcp: &id025
       source: https://developers.zoom.us/docs/mcp/
       status: verified
@@ -522,10 +522,10 @@ noindex: false
 permalink: /applications/online-courses-lms/thinkific/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id001
   name: Google Analytics (GA4)
   slug: google-analytics
@@ -533,10 +533,10 @@ providers:
   tags: *id002
   url: /providers/google-analytics/
 - agent_band: agent-ready
-  agent_readiness: 52.7
+  agent_readiness: 52.0
   band: exemplar
   in_catalog: true
-  kin_score: 94.6
+  kin_score: 91.9
   mcp: *id003
   name: HubSpot
   slug: hubspot
@@ -544,10 +544,10 @@ providers:
   tags: *id004
   url: /providers/hubspot/
 - agent_band: agent-aware
-  agent_readiness: 15.1
+  agent_readiness: 14.8
   band: emerging
   in_catalog: true
-  kin_score: 19.8
+  kin_score: 24.8
   mcp: *id005
   name: iorad
   slug: iorad
@@ -558,7 +558,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.3
+  kin_score: 22.4
   mcp: *id007
   name: JivoChat
   slug: jivochat
@@ -566,10 +566,10 @@ providers:
   tags: *id008
   url: /providers/jivochat/
 - agent_band: agent-ready
-  agent_readiness: 64.4
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 79.6
+  kin_score: 80.4
   mcp: *id009
   name: Kit
   slug: convertkit
@@ -577,21 +577,21 @@ providers:
   tags: *id010
   url: /providers/convertkit/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id011
   name: Meta Pixel
   slug: facebook
   status: profiled
   tags: *id012
   url: /providers/facebook/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id013
   name: QuickBooks Sync
   slug: quickbooks
@@ -599,10 +599,10 @@ providers:
   tags: *id014
   url: /providers/quickbooks/
 - agent_band: agent-ready
-  agent_readiness: 52.5
+  agent_readiness: 51.8
   band: exemplar
   in_catalog: true
-  kin_score: 84.6
+  kin_score: 83.8
   mcp: *id015
   name: Shopify
   slug: shopify
@@ -613,7 +613,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 2.9
+  kin_score: 2.4
   mcp: *id017
   name: Smartarget
   slug: smartarget
@@ -624,7 +624,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 18.4
+  kin_score: 19.0
   mcp: *id019
   name: ThingLink
   slug: thinglink
@@ -632,10 +632,10 @@ providers:
   tags: *id020
   url: /providers/thinglink/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 1.1
   band: emerging
   in_catalog: true
-  kin_score: 19.7
+  kin_score: 25.6
   mcp: *id021
   name: WiserNotify
   slug: wisernotify
@@ -643,10 +643,10 @@ providers:
   tags: *id022
   url: /providers/wisernotify/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id023
   name: Zapier
   slug: zapier
@@ -654,10 +654,10 @@ providers:
   tags: *id024
   url: /providers/zapier/
 - agent_band: agent-ready
-  agent_readiness: 55.2
+  agent_readiness: 56.8
   band: strong
   in_catalog: true
-  kin_score: 56.2
+  kin_score: 57.1
   mcp: *id025
   name: Zoom
   slug: zoom

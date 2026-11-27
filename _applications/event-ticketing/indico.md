@@ -97,10 +97,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id001
       status: none
     slug: apple
@@ -126,11 +126,11 @@ integrations:
     via_parent: Event Ticketing
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 40.5
+    band: strong
     in_catalog: true
-    kin_score: 41.1
+    kin_score: 61.3
     mcp: &id003
       source: https://developers.google.com/pay-wallet/ai-tools/mcp-server/mcp-server
       status: verified
@@ -158,10 +158,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 31.5
+    kin_score: 31.1
     mcp: &id005
       status: none
     slug: hcaptcha
@@ -188,10 +188,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.4
+    agent_readiness: 41.3
     band: exemplar
     in_catalog: true
-    kin_score: 72.2
+    kin_score: 70.7
     mcp: &id007
       source: https://github.com/matomo-org/plugin-McpServer
       status: verified
@@ -219,10 +219,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.5
-    band: thin
+    agent_readiness: 31.0
+    band: developing
     in_catalog: true
-    kin_score: 37.0
+    kin_score: 44.9
     mcp: &id009
       source: https://github.com/owncloud/ocis-mcp-server
       status: verified
@@ -250,10 +250,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id011
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -280,11 +280,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 34.9
+    band: strong
     in_catalog: true
-    kin_score: 48.1
+    kin_score: 65.1
     mcp: &id013
       status: none
     slug: google-recaptcha
@@ -314,7 +314,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id015
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -342,10 +342,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.5
     band: developing
     in_catalog: true
-    kin_score: 49.1
+    kin_score: 54.0
     mcp: &id017
       status: none
     slug: wordline
@@ -372,10 +372,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id019
       source: https://docs.stripe.com/mcp
       status: verified
@@ -403,10 +403,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 55.2
+    agent_readiness: 56.8
     band: strong
     in_catalog: true
-    kin_score: 56.2
+    kin_score: 57.1
     mcp: &id021
       source: https://developers.zoom.us/docs/mcp/
       status: verified
@@ -432,21 +432,21 @@ noindex: false
 permalink: /applications/event-ticketing/indico/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id001
   name: Apple Wallet
   slug: apple
   status: profiled
   tags: *id002
   url: /providers/apple/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 40.5
+  band: strong
   in_catalog: true
-  kin_score: 41.1
+  kin_score: 61.3
   mcp: *id003
   name: Google Wallet
   slug: google-wallet
@@ -454,10 +454,10 @@ providers:
   tags: *id004
   url: /providers/google-wallet/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 31.5
+  kin_score: 31.1
   mcp: *id005
   name: hCaptcha
   slug: hcaptcha
@@ -465,10 +465,10 @@ providers:
   tags: *id006
   url: /providers/hcaptcha/
 - agent_band: agent-ready
-  agent_readiness: 37.4
+  agent_readiness: 41.3
   band: exemplar
   in_catalog: true
-  kin_score: 72.2
+  kin_score: 70.7
   mcp: *id007
   name: Matomo (Piwik)
   slug: matomo
@@ -476,10 +476,10 @@ providers:
   tags: *id008
   url: /providers/matomo/
 - agent_band: agent-ready
-  agent_readiness: 34.5
-  band: thin
+  agent_readiness: 31.0
+  band: developing
   in_catalog: true
-  kin_score: 37.0
+  kin_score: 44.9
   mcp: *id009
   name: ownCloud
   slug: owncloud
@@ -487,21 +487,21 @@ providers:
   tags: *id010
   url: /providers/owncloud/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id011
   name: PayPal
   slug: paypal
   status: profiled
   tags: *id012
   url: /providers/paypal/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 34.9
+  band: strong
   in_catalog: true
-  kin_score: 48.1
+  kin_score: 65.1
   mcp: *id013
   name: reCAPTCHA
   slug: google-recaptcha
@@ -512,7 +512,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id015
   name: Sentry
   slug: sentry-system
@@ -520,10 +520,10 @@ providers:
   tags: *id016
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.5
   band: developing
   in_catalog: true
-  kin_score: 49.1
+  kin_score: 54.0
   mcp: *id017
   name: SIXPay Saferpay
   slug: wordline
@@ -531,10 +531,10 @@ providers:
   tags: *id018
   url: /providers/wordline/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id019
   name: Stripe
   slug: stripe
@@ -542,10 +542,10 @@ providers:
   tags: *id020
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 55.2
+  agent_readiness: 56.8
   band: strong
   in_catalog: true
-  kin_score: 56.2
+  kin_score: 57.1
   mcp: *id021
   name: Zoom
   slug: zoom

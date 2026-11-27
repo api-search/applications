@@ -35,10 +35,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id001
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -64,10 +64,10 @@ noindex: false
 permalink: /applications/field-service/oca-field-service-odoo/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id001
   name: Google Maps
   slug: google-maps

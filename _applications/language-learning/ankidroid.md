@@ -49,10 +49,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 0.7
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 7.3
     mcp: &id001
       status: unknown
     slug: ankiweb
@@ -76,10 +76,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id003
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -105,10 +105,10 @@ noindex: false
 permalink: /applications/language-learning/ankidroid/
 providers:
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 0.7
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 7.3
   mcp: *id001
   name: AnkiWeb (Ankitects)
   slug: ankiweb
@@ -116,10 +116,10 @@ providers:
   tags: *id002
   url: /providers/ankiweb/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id003
   name: Google Analytics
   slug: google-analytics

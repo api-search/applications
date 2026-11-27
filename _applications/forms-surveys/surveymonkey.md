@@ -94,10 +94,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id003
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -124,22 +124,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id005
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id006
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google CrashLytics
   provider: firebase
@@ -171,10 +171,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.3
+    agent_readiness: 47.7
     band: strong
     in_catalog: true
-    kin_score: 60.3
+    kin_score: 60.8
     mcp: &id009
       source: https://docs.mixpanel.com/docs/features/mcp
       status: verified
@@ -202,10 +202,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id002
     agent_band: agent-ready
-    agent_readiness: 54.7
+    agent_readiness: 53.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.6
+    kin_score: 88.0
     mcp: &id011
       source: https://github.com/salesforcecli/mcp
       status: verified
@@ -233,10 +233,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.8
+    agent_readiness: 52.3
     band: exemplar
     in_catalog: true
-    kin_score: 80.5
+    kin_score: 77.6
     mcp: &id013
       status: none
     slug: salesforce-marketing-cloud
@@ -262,11 +262,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 30.6
+    agent_band: agent-aware
+    agent_readiness: 28.3
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 76.0
     mcp: &id007
       source: https://github.com/microsoft/powerbi-modeling-mcp
       status: verified
@@ -309,10 +309,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.3
+    agent_readiness: 55.0
     band: developing
     in_catalog: true
-    kin_score: 51.4
+    kin_score: 49.9
     mcp: &id015
       source: https://github.com/tableau/tableau-mcp
       status: verified
@@ -338,32 +338,32 @@ noindex: false
 permalink: /applications/forms-surveys/surveymonkey/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id003
   name: AppsFlyer
   slug: appsflyer
   status: profiled
   tags: *id004
   url: /providers/appsflyer/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id005
   name: Google CrashLytics
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id006
-  url: /providers/firebase/
-- agent_band: agent-ready
-  agent_readiness: 30.6
+  url: /providers/google-firebase/
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 76.0
   mcp: *id007
   name: Microsoft Power BI
   slug: power-bi
@@ -371,10 +371,10 @@ providers:
   tags: *id008
   url: /providers/power-bi/
 - agent_band: agent-ready
-  agent_readiness: 48.3
+  agent_readiness: 47.7
   band: strong
   in_catalog: true
-  kin_score: 60.3
+  kin_score: 60.8
   mcp: *id009
   name: Mixpanel
   slug: mixpanel
@@ -382,10 +382,10 @@ providers:
   tags: *id010
   url: /providers/mixpanel/
 - agent_band: agent-ready
-  agent_readiness: 54.7
+  agent_readiness: 53.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.6
+  kin_score: 88.0
   mcp: *id011
   name: Salesforce Audience Studio (Krux)
   slug: salesforce
@@ -393,10 +393,10 @@ providers:
   tags: *id012
   url: /providers/salesforce/
 - agent_band: agent-ready
-  agent_readiness: 56.8
+  agent_readiness: 52.3
   band: exemplar
   in_catalog: true
-  kin_score: 80.5
+  kin_score: 77.6
   mcp: *id013
   name: Salesforce Marketing Cloud
   slug: salesforce-marketing-cloud
@@ -404,10 +404,10 @@ providers:
   tags: *id014
   url: /providers/salesforce-marketing-cloud/
 - agent_band: agent-ready
-  agent_readiness: 46.3
+  agent_readiness: 55.0
   band: developing
   in_catalog: true
-  kin_score: 51.4
+  kin_score: 49.9
   mcp: *id015
   name: tableau
   slug: tableau

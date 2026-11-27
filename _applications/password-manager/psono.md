@@ -74,10 +74,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.4
+    agent_readiness: 38.0
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 83.8
     mcp: &id001
       status: none
     slug: amazon-ses
@@ -104,10 +104,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.9
-    band: exemplar
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 66.3
     mcp: &id003
       source: https://github.com/microsoft/mcp
       status: verified
@@ -135,10 +135,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.2
+    agent_readiness: 56.4
     band: exemplar
     in_catalog: true
-    kin_score: 82.2
+    kin_score: 81.3
     mcp: &id005
       source: https://developers.brevo.com/docs/mcp-protocol
       status: verified
@@ -166,10 +166,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 20.9
     band: thin
     in_catalog: true
-    kin_score: 31.8
+    kin_score: 34.7
     mcp: &id007
       status: none
     slug: duo-security
@@ -196,10 +196,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.3
+    agent_readiness: 45.1
     band: exemplar
     in_catalog: true
-    kin_score: 71.7
+    kin_score: 74.1
     mcp: &id009
       source: https://github.com/googleapis/gcloud-mcp
       status: verified
@@ -227,10 +227,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.6
-    band: emerging
+    agent_readiness: 17.2
+    band: thin
     in_catalog: true
-    kin_score: 23.5
+    kin_score: 31.3
     mcp: &id011
       status: unknown
     slug: ivalt
@@ -257,10 +257,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id013
       status: none
     slug: mailchimp
@@ -287,10 +287,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 32.6
+    kin_score: 31.6
     mcp: &id015
       source: https://github.com/mailgun/mailgun-mcp-server
       status: verified
@@ -318,10 +318,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.4
+    agent_readiness: 22.9
     band: developing
     in_catalog: true
-    kin_score: 50.1
+    kin_score: 50.5
     mcp: &id017
       source: https://github.com/mailgun/mailjet-mcp-server
       status: verified
@@ -349,10 +349,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.7
+    agent_readiness: 43.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.3
+    kin_score: 70.5
     mcp: &id019
       source: https://github.com/ActiveCampaign/postmark-mcp
       status: verified
@@ -380,10 +380,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id021
       status: none
     slug: sendgrid
@@ -413,7 +413,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id023
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -441,10 +441,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.1
+    agent_readiness: 25.6
     band: thin
     in_catalog: true
-    kin_score: 37.9
+    kin_score: 37.1
     mcp: &id025
       status: none
     slug: sparkpost
@@ -471,10 +471,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 25.0
     band: strong
     in_catalog: true
-    kin_score: 58.3
+    kin_score: 58.0
     mcp: &id027
       status: none
     slug: yubico
@@ -499,10 +499,10 @@ noindex: false
 permalink: /applications/password-manager/psono/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 39.4
+  agent_readiness: 38.0
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 83.8
   mcp: *id001
   name: Amazon SES
   slug: amazon-ses
@@ -510,10 +510,10 @@ providers:
   tags: *id002
   url: /providers/amazon-ses/
 - agent_band: agent-ready
-  agent_readiness: 40.9
-  band: exemplar
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 66.3
   mcp: *id003
   name: Azure Blob Storage
   slug: microsoft-azure-blob-storage
@@ -521,10 +521,10 @@ providers:
   tags: *id004
   url: /providers/microsoft-azure-blob-storage/
 - agent_band: agent-ready
-  agent_readiness: 57.2
+  agent_readiness: 56.4
   band: exemplar
   in_catalog: true
-  kin_score: 82.2
+  kin_score: 81.3
   mcp: *id005
   name: Brevo
   slug: brevo
@@ -532,10 +532,10 @@ providers:
   tags: *id006
   url: /providers/brevo/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 20.9
   band: thin
   in_catalog: true
-  kin_score: 31.8
+  kin_score: 34.7
   mcp: *id007
   name: Duo Security
   slug: duo-security
@@ -543,10 +543,10 @@ providers:
   tags: *id008
   url: /providers/duo-security/
 - agent_band: agent-ready
-  agent_readiness: 45.3
+  agent_readiness: 45.1
   band: exemplar
   in_catalog: true
-  kin_score: 71.7
+  kin_score: 74.1
   mcp: *id009
   name: Google Cloud Storage
   slug: gcp-cloud-storage
@@ -554,10 +554,10 @@ providers:
   tags: *id010
   url: /providers/gcp-cloud-storage/
 - agent_band: agent-aware
-  agent_readiness: 17.6
-  band: emerging
+  agent_readiness: 17.2
+  band: thin
   in_catalog: true
-  kin_score: 23.5
+  kin_score: 31.3
   mcp: *id011
   name: iVALT
   slug: ivalt
@@ -565,10 +565,10 @@ providers:
   tags: *id012
   url: /providers/ivalt/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id013
   name: Mailchimp (Mandrill)
   slug: mailchimp
@@ -576,10 +576,10 @@ providers:
   tags: *id014
   url: /providers/mailchimp/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 32.6
+  kin_score: 31.6
   mcp: *id015
   name: Mailgun
   slug: mailgun
@@ -587,10 +587,10 @@ providers:
   tags: *id016
   url: /providers/mailgun/
 - agent_band: agent-aware
-  agent_readiness: 23.4
+  agent_readiness: 22.9
   band: developing
   in_catalog: true
-  kin_score: 50.1
+  kin_score: 50.5
   mcp: *id017
   name: Mailjet
   slug: mailjet
@@ -598,10 +598,10 @@ providers:
   tags: *id018
   url: /providers/mailjet/
 - agent_band: agent-ready
-  agent_readiness: 41.7
+  agent_readiness: 43.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.3
+  kin_score: 70.5
   mcp: *id019
   name: Postmark
   slug: postmark
@@ -609,10 +609,10 @@ providers:
   tags: *id020
   url: /providers/postmark/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id021
   name: SendGrid
   slug: sendgrid
@@ -623,7 +623,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id023
   name: Sentry
   slug: sentry-system
@@ -631,10 +631,10 @@ providers:
   tags: *id024
   url: /providers/sentry-system/
 - agent_band: agent-aware
-  agent_readiness: 26.1
+  agent_readiness: 25.6
   band: thin
   in_catalog: true
-  kin_score: 37.9
+  kin_score: 37.1
   mcp: *id025
   name: SparkPost
   slug: sparkpost
@@ -642,10 +642,10 @@ providers:
   tags: *id026
   url: /providers/sparkpost/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 25.0
   band: strong
   in_catalog: true
-  kin_score: 58.3
+  kin_score: 58.0
   mcp: *id027
   name: Yubico
   slug: yubico

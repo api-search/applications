@@ -119,10 +119,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.1
+    agent_readiness: 27.6
     band: developing
     in_catalog: true
-    kin_score: 49.4
+    kin_score: 49.3
     mcp: &id001
       status: none
     slug: 7shifts
@@ -152,7 +152,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.9
+    kin_score: 5.4
     mcp: &id003
       status: none
     slug: bentobox
@@ -182,7 +182,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.4
+    kin_score: 2.6
     mcp: &id005
       status: none
     slug: caviar
@@ -212,7 +212,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 9.8
+    kin_score: 8.5
     mcp: &id007
       status: none
     slug: chownow
@@ -242,7 +242,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.1
+    kin_score: 11.0
     mcp: &id009
       status: none
     slug: classpass
@@ -269,10 +269,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.5
+    agent_readiness: 33.1
     band: developing
     in_catalog: true
-    kin_score: 39.9
+    kin_score: 41.3
     mcp: &id011
       status: none
     slug: clover
@@ -299,10 +299,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.4
-    band: strong
+    agent_readiness: 30.3
+    band: exemplar
     in_catalog: true
-    kin_score: 66.2
+    kin_score: 67.1
     mcp: &id013
       status: none
     slug: deputy
@@ -329,10 +329,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.5
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 77.8
+    kin_score: 76.3
     mcp: &id015
       status: none
     slug: doordash
@@ -385,10 +385,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.4
+    agent_readiness: 27.3
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.4
     mcp: &id019
       status: none
     slug: epos-now
@@ -418,7 +418,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.0
+    kin_score: 13.1
     mcp: &id021
       status: none
     slug: ezcater
@@ -448,7 +448,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.1
+    kin_score: 2.2
     mcp: &id023
       status: unknown
     slug: fantuan
@@ -475,10 +475,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.7
+    agent_readiness: 40.2
     band: developing
     in_catalog: true
-    kin_score: 47.4
+    kin_score: 45.6
     mcp: &id025
       status: none
     slug: flipdish
@@ -505,10 +505,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.8
+    agent_readiness: 46.8
     band: strong
     in_catalog: true
-    kin_score: 62.1
+    kin_score: 61.3
     mcp: &id027
       status: none
     slug: grubhub
@@ -538,7 +538,7 @@ integrations:
     agent_readiness: 3.1
     band: emerging
     in_catalog: true
-    kin_score: 25.7
+    kin_score: 25.6
     mcp: &id029
       status: none
     slug: homebase
@@ -565,10 +565,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 7.9
+    agent_readiness: 7.7
     band: emerging
     in_catalog: true
-    kin_score: 15.9
+    kin_score: 16.6
     mcp: &id031
       status: none
     slug: hungrypanda
@@ -595,10 +595,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 27.0
+    agent_readiness: 26.4
     band: developing
     in_catalog: true
-    kin_score: 43.5
+    kin_score: 44.5
     mcp: &id033
       status: none
     slug: incentivio
@@ -625,10 +625,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.9
+    agent_readiness: 22.4
     band: emerging
     in_catalog: true
-    kin_score: 18.6
+    kin_score: 18.2
     mcp: &id035
       status: none
     slug: lavu
@@ -655,10 +655,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.0
+    agent_readiness: 42.1
     band: exemplar
     in_catalog: true
-    kin_score: 86.5
+    kin_score: 84.5
     mcp: &id037
       status: none
     slug: lightspeed
@@ -685,10 +685,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.7
+    agent_readiness: 26.8
     band: thin
     in_catalog: true
-    kin_score: 29.3
+    kin_score: 29.6
     mcp: &id039
       status: none
     slug: loyverse
@@ -715,10 +715,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.4
+    agent_readiness: 27.9
     band: thin
     in_catalog: true
-    kin_score: 36.7
+    kin_score: 35.6
     mcp: &id041
       status: none
     slug: lunchbox
@@ -745,10 +745,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: emerging
     in_catalog: true
-    kin_score: 25.8
+    kin_score: 25.2
     mcp: &id043
       status: none
     slug: marketman
@@ -775,10 +775,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 41.8
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 63.1
+    kin_score: 62.9
     mcp: &id045
       status: none
     slug: nash
@@ -805,10 +805,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 59.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.6
+    kin_score: 70.4
     mcp: &id047
       source: https://github.com/oracle/mcp
       status: verified
@@ -839,7 +839,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 20.2
+    kin_score: 18.2
     mcp: &id049
       status: none
     slug: postmates
@@ -866,10 +866,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.9
+    agent_readiness: 20.4
     band: thin
     in_catalog: true
-    kin_score: 38.4
+    kin_score: 36.7
     mcp: &id051
       status: none
     slug: restaurant365
@@ -896,10 +896,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.1
+    agent_readiness: 28.2
     band: emerging
     in_catalog: true
-    kin_score: 20.5
+    kin_score: 19.6
     mcp: &id053
       status: none
     slug: revel-systems
@@ -952,10 +952,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 52.4
+    agent_readiness: 54.1
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 50.8
     mcp: &id057
       status: none
     slug: shift4
@@ -982,10 +982,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 28.1
+    kin_score: 27.9
     mcp: &id059
       source: https://registry.modelcontextprotocol.io/v0/servers?search=com.shipday&limit=3
       status: verified
@@ -1043,10 +1043,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.9
     band: thin
     in_catalog: true
-    kin_score: 31.7
+    kin_score: 30.3
     mcp: &id063
       status: none
     slug: slice
@@ -1073,10 +1073,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 62.8
+    agent_readiness: 61.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.1
+    kin_score: 78.2
     mcp: &id065
       source: https://developer.squareup.com/docs/mcp
       status: verified
@@ -1104,10 +1104,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id067
       source: https://docs.stripe.com/mcp
       status: verified
@@ -1135,10 +1135,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.6
+    agent_readiness: 38.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.5
+    kin_score: 68.3
     mcp: &id069
       status: none
     slug: toast
@@ -1165,10 +1165,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.8
+    agent_readiness: 31.1
     band: developing
     in_catalog: true
-    kin_score: 46.9
+    kin_score: 45.5
     mcp: &id071
       status: none
     slug: uber-eats
@@ -1195,10 +1195,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.1
+    agent_readiness: 29.5
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 37.6
     mcp: &id073
       status: none
     slug: when-i-work
@@ -1223,10 +1223,10 @@ noindex: false
 permalink: /applications/food-delivery-ordering/otter/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 26.1
+  agent_readiness: 27.6
   band: developing
   in_catalog: true
-  kin_score: 49.4
+  kin_score: 49.3
   mcp: *id001
   name: 7shifts
   slug: 7shifts
@@ -1237,7 +1237,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.9
+  kin_score: 5.4
   mcp: *id003
   name: BentoBox
   slug: bentobox
@@ -1248,7 +1248,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.4
+  kin_score: 2.6
   mcp: *id005
   name: Caviar
   slug: caviar
@@ -1259,7 +1259,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 9.8
+  kin_score: 8.5
   mcp: *id007
   name: ChowNow
   slug: chownow
@@ -1270,7 +1270,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.1
+  kin_score: 11.0
   mcp: *id009
   name: ClassPass
   slug: classpass
@@ -1278,10 +1278,10 @@ providers:
   tags: *id010
   url: /providers/classpass/
 - agent_band: agent-ready
-  agent_readiness: 36.5
+  agent_readiness: 33.1
   band: developing
   in_catalog: true
-  kin_score: 39.9
+  kin_score: 41.3
   mcp: *id011
   name: Clover
   slug: clover
@@ -1289,10 +1289,10 @@ providers:
   tags: *id012
   url: /providers/clover/
 - agent_band: agent-ready
-  agent_readiness: 34.4
-  band: strong
+  agent_readiness: 30.3
+  band: exemplar
   in_catalog: true
-  kin_score: 66.2
+  kin_score: 67.1
   mcp: *id013
   name: Deputy
   slug: deputy
@@ -1300,10 +1300,10 @@ providers:
   tags: *id014
   url: /providers/deputy/
 - agent_band: agent-ready
-  agent_readiness: 35.5
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 77.8
+  kin_score: 76.3
   mcp: *id015
   name: DoorDash
   slug: doordash
@@ -1322,10 +1322,10 @@ providers:
   tags: *id018
   url: null
 - agent_band: agent-aware
-  agent_readiness: 22.4
+  agent_readiness: 27.3
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.4
   mcp: *id019
   name: Epos Now
   slug: epos-now
@@ -1336,7 +1336,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.0
+  kin_score: 13.1
   mcp: *id021
   name: ezCater
   slug: ezcater
@@ -1347,7 +1347,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.1
+  kin_score: 2.2
   mcp: *id023
   name: Fantuan
   slug: fantuan
@@ -1355,10 +1355,10 @@ providers:
   tags: *id024
   url: /providers/fantuan/
 - agent_band: agent-ready
-  agent_readiness: 42.7
+  agent_readiness: 40.2
   band: developing
   in_catalog: true
-  kin_score: 47.4
+  kin_score: 45.6
   mcp: *id025
   name: Flipdish
   slug: flipdish
@@ -1366,10 +1366,10 @@ providers:
   tags: *id026
   url: /providers/flipdish/
 - agent_band: agent-ready
-  agent_readiness: 47.8
+  agent_readiness: 46.8
   band: strong
   in_catalog: true
-  kin_score: 62.1
+  kin_score: 61.3
   mcp: *id027
   name: Grubhub
   slug: grubhub
@@ -1380,7 +1380,7 @@ providers:
   agent_readiness: 3.1
   band: emerging
   in_catalog: true
-  kin_score: 25.7
+  kin_score: 25.6
   mcp: *id029
   name: Homebase
   slug: homebase
@@ -1388,10 +1388,10 @@ providers:
   tags: *id030
   url: /providers/homebase/
 - agent_band: agent-aware
-  agent_readiness: 7.9
+  agent_readiness: 7.7
   band: emerging
   in_catalog: true
-  kin_score: 15.9
+  kin_score: 16.6
   mcp: *id031
   name: HungryPanda
   slug: hungrypanda
@@ -1399,10 +1399,10 @@ providers:
   tags: *id032
   url: /providers/hungrypanda/
 - agent_band: agent-aware
-  agent_readiness: 27.0
+  agent_readiness: 26.4
   band: developing
   in_catalog: true
-  kin_score: 43.5
+  kin_score: 44.5
   mcp: *id033
   name: Incentivio
   slug: incentivio
@@ -1410,10 +1410,10 @@ providers:
   tags: *id034
   url: /providers/incentivio/
 - agent_band: agent-aware
-  agent_readiness: 22.9
+  agent_readiness: 22.4
   band: emerging
   in_catalog: true
-  kin_score: 18.6
+  kin_score: 18.2
   mcp: *id035
   name: Lavu
   slug: lavu
@@ -1421,10 +1421,10 @@ providers:
   tags: *id036
   url: /providers/lavu/
 - agent_band: agent-ready
-  agent_readiness: 43.0
+  agent_readiness: 42.1
   band: exemplar
   in_catalog: true
-  kin_score: 86.5
+  kin_score: 84.5
   mcp: *id037
   name: Lightspeed
   slug: lightspeed
@@ -1432,10 +1432,10 @@ providers:
   tags: *id038
   url: /providers/lightspeed/
 - agent_band: agent-aware
-  agent_readiness: 21.7
+  agent_readiness: 26.8
   band: thin
   in_catalog: true
-  kin_score: 29.3
+  kin_score: 29.6
   mcp: *id039
   name: Loyverse
   slug: loyverse
@@ -1443,10 +1443,10 @@ providers:
   tags: *id040
   url: /providers/loyverse/
 - agent_band: agent-aware
-  agent_readiness: 28.4
+  agent_readiness: 27.9
   band: thin
   in_catalog: true
-  kin_score: 36.7
+  kin_score: 35.6
   mcp: *id041
   name: Lunchbox
   slug: lunchbox
@@ -1454,10 +1454,10 @@ providers:
   tags: *id042
   url: /providers/lunchbox/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: emerging
   in_catalog: true
-  kin_score: 25.8
+  kin_score: 25.2
   mcp: *id043
   name: MarketMan
   slug: marketman
@@ -1465,10 +1465,10 @@ providers:
   tags: *id044
   url: /providers/marketman/
 - agent_band: agent-native
-  agent_readiness: 41.8
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 63.1
+  kin_score: 62.9
   mcp: *id045
   name: Nash
   slug: nash
@@ -1476,10 +1476,10 @@ providers:
   tags: *id046
   url: /providers/nash/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 59.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.6
+  kin_score: 70.4
   mcp: *id047
   name: Oracle Micros
   slug: oracle
@@ -1490,7 +1490,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 20.2
+  kin_score: 18.2
   mcp: *id049
   name: Postmates
   slug: postmates
@@ -1498,10 +1498,10 @@ providers:
   tags: *id050
   url: /providers/postmates/
 - agent_band: agent-aware
-  agent_readiness: 20.9
+  agent_readiness: 20.4
   band: thin
   in_catalog: true
-  kin_score: 38.4
+  kin_score: 36.7
   mcp: *id051
   name: Restaurant365
   slug: restaurant365
@@ -1509,10 +1509,10 @@ providers:
   tags: *id052
   url: /providers/restaurant365/
 - agent_band: agent-aware
-  agent_readiness: 28.1
+  agent_readiness: 28.2
   band: emerging
   in_catalog: true
-  kin_score: 20.5
+  kin_score: 19.6
   mcp: *id053
   name: Revel
   slug: revel-systems
@@ -1531,10 +1531,10 @@ providers:
   tags: *id056
   url: null
 - agent_band: agent-native
-  agent_readiness: 52.4
+  agent_readiness: 54.1
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 50.8
   mcp: *id057
   name: Shift4
   slug: shift4
@@ -1542,10 +1542,10 @@ providers:
   tags: *id058
   url: /providers/shift4/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 28.1
+  kin_score: 27.9
   mcp: *id059
   name: Shipday
   slug: shipday
@@ -1564,10 +1564,10 @@ providers:
   tags: *id062
   url: /providers/skipthedishes/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.9
   band: thin
   in_catalog: true
-  kin_score: 31.7
+  kin_score: 30.3
   mcp: *id063
   name: Slice
   slug: slice
@@ -1575,10 +1575,10 @@ providers:
   tags: *id064
   url: /providers/slice/
 - agent_band: agent-native
-  agent_readiness: 62.8
+  agent_readiness: 61.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.1
+  kin_score: 78.2
   mcp: *id065
   name: Square
   slug: square
@@ -1586,10 +1586,10 @@ providers:
   tags: *id066
   url: /providers/square/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id067
   name: Stripe
   slug: stripe
@@ -1597,10 +1597,10 @@ providers:
   tags: *id068
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 39.6
+  agent_readiness: 38.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.5
+  kin_score: 68.3
   mcp: *id069
   name: Toast
   slug: toast
@@ -1608,10 +1608,10 @@ providers:
   tags: *id070
   url: /providers/toast/
 - agent_band: agent-ready
-  agent_readiness: 31.8
+  agent_readiness: 31.1
   band: developing
   in_catalog: true
-  kin_score: 46.9
+  kin_score: 45.5
   mcp: *id071
   name: Uber Eats
   slug: uber-eats
@@ -1619,10 +1619,10 @@ providers:
   tags: *id072
   url: /providers/uber-eats/
 - agent_band: agent-ready
-  agent_readiness: 30.1
+  agent_readiness: 29.5
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 37.6
   mcp: *id073
   name: When I Work
   slug: when-i-work

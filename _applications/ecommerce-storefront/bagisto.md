@@ -67,11 +67,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -99,10 +99,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.0
-    band: thin
+    agent_readiness: 31.8
+    band: developing
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 42.9
     mcp: &id003
       status: unknown
     slug: payglocal
@@ -129,10 +129,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id005
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -160,10 +160,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.8
-    band: developing
+    agent_readiness: 30.2
+    band: thin
     in_catalog: true
-    kin_score: 40.0
+    kin_score: 38.9
     mcp: &id007
       source: https://github.com/payu-intrepos/payu-developer-mcp
       status: verified
@@ -191,10 +191,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 20.9
     band: thin
     in_catalog: true
-    kin_score: 27.7
+    kin_score: 27.2
     mcp: &id009
       source: https://github.com/PhonePe/phonepe-pg-docs-mcp
       status: verified
@@ -222,10 +222,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 38.0
     mcp: &id011
       status: none
     slug: pusher
@@ -252,10 +252,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.8
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 52.4
+    kin_score: 50.6
     mcp: &id013
       source: https://github.com/razorpay/razorpay-mcp-server
       status: verified
@@ -283,10 +283,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id015
       source: https://docs.stripe.com/mcp
       status: verified
@@ -311,11 +311,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/ecommerce-storefront/bagisto/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
@@ -323,10 +323,10 @@ providers:
   tags: *id002
   url: /providers/amazon-s3/
 - agent_band: agent-ready
-  agent_readiness: 32.0
-  band: thin
+  agent_readiness: 31.8
+  band: developing
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 42.9
   mcp: *id003
   name: PayGlocal
   slug: payglocal
@@ -334,10 +334,10 @@ providers:
   tags: *id004
   url: /providers/payglocal/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id005
   name: PayPal
   slug: paypal
@@ -345,10 +345,10 @@ providers:
   tags: *id006
   url: /providers/paypal/
 - agent_band: agent-ready
-  agent_readiness: 30.8
-  band: developing
+  agent_readiness: 30.2
+  band: thin
   in_catalog: true
-  kin_score: 40.0
+  kin_score: 38.9
   mcp: *id007
   name: PayU
   slug: payu
@@ -356,10 +356,10 @@ providers:
   tags: *id008
   url: /providers/payu/
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 20.9
   band: thin
   in_catalog: true
-  kin_score: 27.7
+  kin_score: 27.2
   mcp: *id009
   name: PhonePe
   slug: phonepe
@@ -367,10 +367,10 @@ providers:
   tags: *id010
   url: /providers/phonepe/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 38.0
   mcp: *id011
   name: Pusher
   slug: pusher
@@ -378,10 +378,10 @@ providers:
   tags: *id012
   url: /providers/pusher/
 - agent_band: agent-aware
-  agent_readiness: 26.8
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 52.4
+  kin_score: 50.6
   mcp: *id013
   name: Razorpay
   slug: razorpay
@@ -389,10 +389,10 @@ providers:
   tags: *id014
   url: /providers/razorpay/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id015
   name: Stripe
   slug: stripe

@@ -50,10 +50,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.6
+    agent_readiness: 24.1
     band: thin
     in_catalog: true
-    kin_score: 30.8
+    kin_score: 30.7
     mcp: &id002
       status: none
     slug: deezer
@@ -80,10 +80,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-aware
-    agent_readiness: 23.7
-    band: developing
+    agent_readiness: 25.9
+    band: strong
     in_catalog: true
-    kin_score: 54.2
+    kin_score: 54.4
     mcp: &id004
       status: none
     slug: lastfm
@@ -126,9 +126,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.7
+    kin_score: 11.6
     mcp: &id006
       status: none
     slug: listenbrainz
@@ -153,10 +153,10 @@ noindex: false
 permalink: /applications/music-streaming/navidrome/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 24.6
+  agent_readiness: 24.1
   band: thin
   in_catalog: true
-  kin_score: 30.8
+  kin_score: 30.7
   mcp: *id002
   name: Deezer
   slug: deezer
@@ -164,10 +164,10 @@ providers:
   tags: *id003
   url: /providers/deezer/
 - agent_band: agent-aware
-  agent_readiness: 23.7
-  band: developing
+  agent_readiness: 25.9
+  band: strong
   in_catalog: true
-  kin_score: 54.2
+  kin_score: 54.4
   mcp: *id004
   name: Last.fm
   slug: lastfm
@@ -176,9 +176,9 @@ providers:
   url: /providers/lastfm/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.7
+  kin_score: 11.6
   mcp: *id006
   name: ListenBrainz
   slug: listenbrainz

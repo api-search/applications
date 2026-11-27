@@ -539,8 +539,8 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Pingvin Share
       - PrivateBin
@@ -548,7 +548,7 @@ stack:
       - Zipline
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -567,13 +567,13 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - PrivateBin
       - Send (timvisee fork of Firefox Send)
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -599,12 +599,12 @@ stack:
       via_parent: Digital Marketing Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.2
+      agent_readiness: 28.6
       apps:
       - PrivateBin
       band: thin
       in_catalog: true
-      kin_score: 29.0
+      kin_score: 28.9
       mcp:
         status: none
       name: Shlink
@@ -625,7 +625,7 @@ stack:
       - PrivateBin
       band: emerging
       in_catalog: true
-      kin_score: 14.8
+      kin_score: 20.4
       mcp:
         status: none
       name: YOURLS
@@ -646,7 +646,7 @@ stack:
       - PrivateBin
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 6.0
       mcp:
         status: unknown
       name: Chhoto URL
@@ -672,13 +672,13 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Pingvin Share
       - Zipline
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -696,36 +696,13 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.7
       apps:
       - Pingvin Share
       - Zipline
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.9
-      mcp: &id001
-        status: none
-      name: Discord
-      slug: discord
-      sources:
-      - https://github.com/diced/zipline/tree/trunk/src/server/routes/api/auth/oauth
-      - https://github.com/stonith404/pingvin-share/tree/main/backend/src/oauth/provider
-      status: profiled
-      tags: &id002
-      - Chat
-      - Communications
-      - Discord
-      - Gaming
-      tier: observed
-      url: /providers/discord/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - Pingvin Share
-      - Zipline
-      band: thin
-      in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -742,12 +719,35 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 33.1
+      apps:
+      - Pingvin Share
+      - Zipline
+      band: developing
+      in_catalog: true
+      kin_score: 48.0
+      mcp: &id001
+        status: none
+      name: Discord
+      slug: discord
+      sources:
+      - https://github.com/diced/zipline/tree/trunk/src/server/routes/api/auth/oauth
+      - https://github.com/stonith404/pingvin-share/tree/main/backend/src/oauth/provider
+      status: profiled
+      tags: &id002
+      - Chat
+      - Communications
+      - Discord
+      - Gaming
+      tier: observed
+      url: /providers/discord/
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - Pingvin Share
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft sign-in (Entra ID)
@@ -763,12 +763,12 @@ stack:
       tier: observed
       url: /providers/microsoft-entra/
     - agent_band: agent-aware
-      agent_readiness: 9.4
+      agent_readiness: 6.3
       apps:
       - Send (timvisee fork of Firefox Send)
       band: emerging
       in_catalog: true
-      kin_score: 17.7
+      kin_score: 22.9
       mcp:
         status: none
       name: Mozilla accounts (Firefox Accounts)
@@ -792,12 +792,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - LocalSend
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple App Store in-app purchase
@@ -812,13 +812,13 @@ stack:
       - macOS
       tier: observed
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - LocalSend
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: Google Play Billing
@@ -847,7 +847,7 @@ stack:
       - Send (timvisee fork of Firefox Send)
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -863,28 +863,28 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - WeTransfer
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id003
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google CrashLytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.wetransfer.app.live/latest/
       status: profiled
       tags: &id004
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-850.10
@@ -894,12 +894,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Zipline
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp: *id001
       name: Discord
       slug: discord
@@ -917,22 +917,22 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - WeTransfer
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.wetransfer.app.live/latest/
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   layer: common
 summary:
   coverage_pct: 100.0
@@ -945,7 +945,7 @@ summary:
     unchecked: 0
     verified: 5
   mcp_verified: 5
-  mean_kin_score: 47.9
+  mean_kin_score: 52.7
   observed: 10
   queued: 0
   reference_apps: 7

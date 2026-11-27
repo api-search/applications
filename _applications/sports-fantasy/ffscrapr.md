@@ -61,7 +61,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.0
+    kin_score: 5.6
     mcp: &id001
       status: none
     slug: dynastyprocess
@@ -91,7 +91,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.3
+    kin_score: 4.1
     mcp: &id003
       status: none
     slug: espn
@@ -119,9 +119,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 9.7
+    kin_score: 14.4
     mcp: &id005
       status: none
     slug: fleaflicker
@@ -148,10 +148,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 10.2
+    kin_score: 16.7
     mcp: &id007
       status: unknown
     slug: myfantasyleague
@@ -178,10 +178,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 0.7
     band: emerging
     in_catalog: true
-    kin_score: 16.6
+    kin_score: 18.3
     mcp: &id009
       status: none
     slug: nflverse
@@ -208,10 +208,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.9
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 30.2
+    kin_score: 30.6
     mcp: &id011
       status: unknown
     slug: sleeper
@@ -239,7 +239,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.0
+  kin_score: 5.6
   mcp: *id001
   name: DynastyProcess player-ID and values data files
   slug: dynastyprocess
@@ -250,7 +250,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.3
+  kin_score: 4.1
   mcp: *id003
   name: ESPN Fantasy league API (lm-api-reads.fantasy.espn.com)
   slug: espn
@@ -259,9 +259,9 @@ providers:
   url: /providers/espn/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 9.7
+  kin_score: 14.4
   mcp: *id005
   name: Fleaflicker API
   slug: fleaflicker
@@ -269,10 +269,10 @@ providers:
   tags: *id006
   url: /providers/fleaflicker/
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 10.2
+  kin_score: 16.7
   mcp: *id007
   name: MyFantasyLeague API (api.myfantasyleague.com)
   slug: myfantasyleague
@@ -280,10 +280,10 @@ providers:
   tags: *id008
   url: /providers/myfantasyleague/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 0.7
   band: emerging
   in_catalog: true
-  kin_score: 16.6
+  kin_score: 18.3
   mcp: *id009
   name: nflverse data via nflreadr
   slug: nflverse
@@ -291,10 +291,10 @@ providers:
   tags: *id010
   url: /providers/nflverse/
 - agent_band: agent-aware
-  agent_readiness: 20.9
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 30.2
+  kin_score: 30.6
   mcp: *id011
   name: Sleeper API (api.sleeper.app/v1)
   slug: sleeper

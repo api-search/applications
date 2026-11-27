@@ -40,9 +40,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 19.0
+    kin_score: 26.4
     mcp: &id001
       status: none
     slug: collabora-online
@@ -69,10 +69,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.8
+    agent_readiness: 31.6
     band: exemplar
     in_catalog: true
-    kin_score: 69.3
+    kin_score: 70.1
     mcp: &id003
       source: https://github.com/microsoft/mcp
       status: documented
@@ -125,9 +125,9 @@ permalink: /applications/cloud-storage-file-sync/owncloud-infinite-scale/
 providers:
 - agent_band: human-only
   agent_readiness: 0.0
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 19.0
+  kin_score: 26.4
   mcp: *id001
   name: Collabora Online
   slug: collabora-online
@@ -135,10 +135,10 @@ providers:
   tags: *id002
   url: /providers/collabora-online/
 - agent_band: agent-ready
-  agent_readiness: 31.8
+  agent_readiness: 31.6
   band: exemplar
   in_catalog: true
-  kin_score: 69.3
+  kin_score: 70.1
   mcp: *id003
   name: Microsoft Office (WOPI)
   slug: microsoft-office

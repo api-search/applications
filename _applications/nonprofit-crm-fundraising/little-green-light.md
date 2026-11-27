@@ -174,10 +174,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 50.3
+    agent_readiness: 52.3
     band: exemplar
     in_catalog: true
-    kin_score: 69.2
+    kin_score: 68.2
     mcp: &id001
       source: https://github.com/Airtable/airtable-mcp-cli
       status: verified
@@ -205,10 +205,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.6
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 18.4
+    kin_score: 24.6
     mcp: &id003
       status: none
     slug: auctria
@@ -235,10 +235,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 15.8
+    kin_score: 17.8
     mcp: &id005
       status: none
     slug: civic-champs
@@ -265,10 +265,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.1
+    agent_readiness: 31.4
     band: exemplar
     in_catalog: true
-    kin_score: 70.9
+    kin_score: 67.7
     mcp: &id007
       status: none
     slug: constant-contact
@@ -298,7 +298,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 16.1
+    kin_score: 17.5
     mcp: &id009
       status: none
     slug: coursestorm
@@ -325,10 +325,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.7
+    agent_readiness: 38.9
     band: thin
     in_catalog: true
-    kin_score: 29.7
+    kin_score: 30.7
     mcp: &id011
       status: none
     slug: donorbox
@@ -356,9 +356,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.1
+    kin_score: 16.1
     mcp: &id013
       status: none
     slug: donorsearch
@@ -385,10 +385,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 15.8
+    kin_score: 25.6
     mcp: &id015
       status: unknown
     slug: double-the-donation
@@ -415,10 +415,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.0
+    agent_readiness: 49.0
     band: thin
     in_catalog: true
-    kin_score: 27.5
+    kin_score: 27.1
     mcp: &id017
       status: none
     slug: fundraiseup
@@ -445,10 +445,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 13.5
+    kin_score: 19.5
     mcp: &id019
       status: none
     slug: fundraising-report-card
@@ -476,9 +476,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 19.8
+    kin_score: 33.1
     mcp: &id021
       status: none
     slug: give-lively
@@ -505,10 +505,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.9
+    agent_readiness: 58.7
     band: exemplar
     in_catalog: true
-    kin_score: 69.4
+    kin_score: 68.2
     mcp: &id023
       status: none
     slug: givebutter
@@ -535,10 +535,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.1
+    agent_readiness: 35.8
     band: developing
     in_catalog: true
-    kin_score: 50.8
+    kin_score: 53.1
     mcp: &id025
       status: none
     slug: google-forms
@@ -565,10 +565,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.9
+    kin_score: 34.1
     mcp: &id027
       status: none
     slug: gravity-forms
@@ -598,7 +598,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.7
+    kin_score: 19.5
     mcp: &id029
       status: none
     slug: harness-giving
@@ -625,10 +625,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.6
+    agent_readiness: 47.6
     band: exemplar
     in_catalog: true
-    kin_score: 70.6
+    kin_score: 70.2
     mcp: &id031
       source: https://github.com/jotform/mcp-server
       status: verified
@@ -656,10 +656,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.3
+    agent_readiness: 41.9
     band: exemplar
     in_catalog: true
-    kin_score: 78.3
+    kin_score: 77.7
     mcp: &id033
       status: none
     slug: mailchimp
@@ -712,10 +712,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id037
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -742,11 +742,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 41.2
+    agent_band: agent-ready
+    agent_readiness: 38.3
     band: strong
     in_catalog: true
-    kin_score: 61.1
+    kin_score: 59.8
     mcp: &id039
       source: https://github.com/intuit/quickbooks-online-mcp-server
       status: verified
@@ -775,9 +775,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: emerging
+    band: thin
     in_catalog: true
-    kin_score: 20.9
+    kin_score: 28.2
     mcp: &id041
       status: unknown
     slug: rallyup
@@ -804,10 +804,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.3
+    agent_readiness: 24.3
     band: thin
     in_catalog: true
-    kin_score: 38.9
+    kin_score: 37.1
     mcp: &id043
       source: https://www.smarty.com/docs/mcp
       status: verified
@@ -835,10 +835,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 62.8
+    agent_readiness: 61.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.1
+    kin_score: 78.2
     mcp: &id045
       source: https://developer.squareup.com/docs/mcp
       status: verified
@@ -866,10 +866,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id047
       source: https://docs.stripe.com/mcp
       status: verified
@@ -897,10 +897,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.4
+    agent_readiness: 18.3
     band: emerging
     in_catalog: true
-    kin_score: 14.4
+    kin_score: 22.3
     mcp: &id049
       status: none
     slug: wealthengine
@@ -927,10 +927,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.4
-    band: developing
+    agent_readiness: 34.7
+    band: strong
     in_catalog: true
-    kin_score: 50.4
+    kin_score: 54.6
     mcp: &id051
       source: https://developer.woocommerce.com/docs/features/mcp/
       status: verified
@@ -958,10 +958,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.4
+    agent_readiness: 21.9
     band: strong
     in_catalog: true
-    kin_score: 56.7
+    kin_score: 55.3
     mcp: &id053
       status: none
     slug: wufoo
@@ -988,10 +988,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 66.2
+    agent_readiness: 66.1
     band: exemplar
     in_catalog: true
-    kin_score: 72.0
+    kin_score: 72.9
     mcp: &id055
       source: https://zapier.com/mcp
       status: verified
@@ -1017,10 +1017,10 @@ noindex: false
 permalink: /applications/nonprofit-crm-fundraising/little-green-light/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 50.3
+  agent_readiness: 52.3
   band: exemplar
   in_catalog: true
-  kin_score: 69.2
+  kin_score: 68.2
   mcp: *id001
   name: Airtable
   slug: airtable
@@ -1028,10 +1028,10 @@ providers:
   tags: *id002
   url: /providers/airtable/
 - agent_band: agent-aware
-  agent_readiness: 21.6
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 18.4
+  kin_score: 24.6
   mcp: *id003
   name: Auctria
   slug: auctria
@@ -1039,10 +1039,10 @@ providers:
   tags: *id004
   url: /providers/auctria/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 15.8
+  kin_score: 17.8
   mcp: *id005
   name: Civic Champs
   slug: civic-champs
@@ -1050,10 +1050,10 @@ providers:
   tags: *id006
   url: /providers/civic-champs/
 - agent_band: agent-ready
-  agent_readiness: 32.1
+  agent_readiness: 31.4
   band: exemplar
   in_catalog: true
-  kin_score: 70.9
+  kin_score: 67.7
   mcp: *id007
   name: Constant Contact
   slug: constant-contact
@@ -1064,7 +1064,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 16.1
+  kin_score: 17.5
   mcp: *id009
   name: CourseStorm
   slug: coursestorm
@@ -1072,10 +1072,10 @@ providers:
   tags: *id010
   url: /providers/coursestorm/
 - agent_band: agent-ready
-  agent_readiness: 39.7
+  agent_readiness: 38.9
   band: thin
   in_catalog: true
-  kin_score: 29.7
+  kin_score: 30.7
   mcp: *id011
   name: Donorbox
   slug: donorbox
@@ -1084,9 +1084,9 @@ providers:
   url: /providers/donorbox/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.1
+  kin_score: 16.1
   mcp: *id013
   name: DonorSearch
   slug: donorsearch
@@ -1094,10 +1094,10 @@ providers:
   tags: *id014
   url: /providers/donorsearch/
 - agent_band: agent-aware
-  agent_readiness: 17.3
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 15.8
+  kin_score: 25.6
   mcp: *id015
   name: Double the Donation
   slug: double-the-donation
@@ -1105,10 +1105,10 @@ providers:
   tags: *id016
   url: /providers/double-the-donation/
 - agent_band: agent-ready
-  agent_readiness: 48.0
+  agent_readiness: 49.0
   band: thin
   in_catalog: true
-  kin_score: 27.5
+  kin_score: 27.1
   mcp: *id017
   name: Fundraise Up
   slug: fundraiseup
@@ -1116,10 +1116,10 @@ providers:
   tags: *id018
   url: /providers/fundraiseup/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 13.5
+  kin_score: 19.5
   mcp: *id019
   name: Fundraising Report Card
   slug: fundraising-report-card
@@ -1128,9 +1128,9 @@ providers:
   url: /providers/fundraising-report-card/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 19.8
+  kin_score: 33.1
   mcp: *id021
   name: Give Lively
   slug: give-lively
@@ -1138,10 +1138,10 @@ providers:
   tags: *id022
   url: /providers/give-lively/
 - agent_band: agent-ready
-  agent_readiness: 56.9
+  agent_readiness: 58.7
   band: exemplar
   in_catalog: true
-  kin_score: 69.4
+  kin_score: 68.2
   mcp: *id023
   name: Givebutter
   slug: givebutter
@@ -1149,10 +1149,10 @@ providers:
   tags: *id024
   url: /providers/givebutter/
 - agent_band: agent-ready
-  agent_readiness: 36.1
+  agent_readiness: 35.8
   band: developing
   in_catalog: true
-  kin_score: 50.8
+  kin_score: 53.1
   mcp: *id025
   name: Google Forms
   slug: google-forms
@@ -1160,10 +1160,10 @@ providers:
   tags: *id026
   url: /providers/google-forms/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.9
+  kin_score: 34.1
   mcp: *id027
   name: Gravity Forms
   slug: gravity-forms
@@ -1174,7 +1174,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.7
+  kin_score: 19.5
   mcp: *id029
   name: Harness (nonprofit giving app)
   slug: harness-giving
@@ -1182,10 +1182,10 @@ providers:
   tags: *id030
   url: /providers/harness-giving/
 - agent_band: agent-ready
-  agent_readiness: 48.6
+  agent_readiness: 47.6
   band: exemplar
   in_catalog: true
-  kin_score: 70.6
+  kin_score: 70.2
   mcp: *id031
   name: Jotform
   slug: jotform
@@ -1193,10 +1193,10 @@ providers:
   tags: *id032
   url: /providers/jotform/
 - agent_band: agent-ready
-  agent_readiness: 42.3
+  agent_readiness: 41.9
   band: exemplar
   in_catalog: true
-  kin_score: 78.3
+  kin_score: 77.7
   mcp: *id033
   name: Mailchimp
   slug: mailchimp
@@ -1215,21 +1215,21 @@ providers:
   tags: *id036
   url: null
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id037
   name: PayPal
   slug: paypal
   status: profiled
   tags: *id038
   url: /providers/paypal/
-- agent_band: agent-native
-  agent_readiness: 41.2
+- agent_band: agent-ready
+  agent_readiness: 38.3
   band: strong
   in_catalog: true
-  kin_score: 61.1
+  kin_score: 59.8
   mcp: *id039
   name: QuickBooks Online
   slug: quickbooks
@@ -1238,9 +1238,9 @@ providers:
   url: /providers/quickbooks/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: emerging
+  band: thin
   in_catalog: true
-  kin_score: 20.9
+  kin_score: 28.2
   mcp: *id041
   name: Rally Up
   slug: rallyup
@@ -1248,10 +1248,10 @@ providers:
   tags: *id042
   url: /providers/rallyup/
 - agent_band: agent-aware
-  agent_readiness: 19.3
+  agent_readiness: 24.3
   band: thin
   in_catalog: true
-  kin_score: 38.9
+  kin_score: 37.1
   mcp: *id043
   name: Smarty (SmartyStreets)
   slug: smarty
@@ -1259,10 +1259,10 @@ providers:
   tags: *id044
   url: /providers/smarty/
 - agent_band: agent-native
-  agent_readiness: 62.8
+  agent_readiness: 61.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.1
+  kin_score: 78.2
   mcp: *id045
   name: Square
   slug: square
@@ -1270,10 +1270,10 @@ providers:
   tags: *id046
   url: /providers/square/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id047
   name: Stripe
   slug: stripe
@@ -1281,10 +1281,10 @@ providers:
   tags: *id048
   url: /providers/stripe/
 - agent_band: agent-aware
-  agent_readiness: 14.4
+  agent_readiness: 18.3
   band: emerging
   in_catalog: true
-  kin_score: 14.4
+  kin_score: 22.3
   mcp: *id049
   name: Wealth Engine
   slug: wealthengine
@@ -1292,10 +1292,10 @@ providers:
   tags: *id050
   url: /providers/wealthengine/
 - agent_band: agent-ready
-  agent_readiness: 35.4
-  band: developing
+  agent_readiness: 34.7
+  band: strong
   in_catalog: true
-  kin_score: 50.4
+  kin_score: 54.6
   mcp: *id051
   name: WooCommerce
   slug: woocommerce
@@ -1303,10 +1303,10 @@ providers:
   tags: *id052
   url: /providers/woocommerce/
 - agent_band: agent-aware
-  agent_readiness: 22.4
+  agent_readiness: 21.9
   band: strong
   in_catalog: true
-  kin_score: 56.7
+  kin_score: 55.3
   mcp: *id053
   name: Wufoo
   slug: wufoo
@@ -1314,10 +1314,10 @@ providers:
   tags: *id054
   url: /providers/wufoo/
 - agent_band: agent-ready
-  agent_readiness: 66.2
+  agent_readiness: 66.1
   band: exemplar
   in_catalog: true
-  kin_score: 72.0
+  kin_score: 72.9
   mcp: *id055
   name: Zapier
   slug: zapier

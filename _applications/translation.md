@@ -1933,15 +1933,15 @@ stack:
       url: /capabilities/language-document-understanding/
       via_parent: Language & Document Understanding
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 17.9
+    - agent_band: agent-ready
+      agent_readiness: 33.9
       apps:
       - Pontoon
       - Tolgee
       - Weblate
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 51.6
+      kin_score: 68.0
       mcp:
         status: none
       name: Google Cloud Translation
@@ -1958,15 +1958,15 @@ stack:
       - Localization
       tier: observed
       url: /providers/google-translate/
-    - agent_band: agent-aware
-      agent_readiness: 17.9
+    - agent_band: agent-ready
+      agent_readiness: 32.2
       apps:
       - Pontoon
       - Tolgee
       - Weblate
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 38.6
+      kin_score: 62.4
       mcp:
         source: https://github.com/microsoft/azure-speech-mcp-server
         status: verified
@@ -1984,14 +1984,14 @@ stack:
       - Speech
       tier: observed
       url: /providers/microsoft-cognitive-services/
-    - agent_band: agent-aware
-      agent_readiness: 25.3
+    - agent_band: agent-ready
+      agent_readiness: 35.3
       apps:
       - Tolgee
       - Weblate
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.5
+      kin_score: 73.7
       mcp:
         source: https://api.github.com/repos/awslabs/mcp/contents/src
         status: verified
@@ -2009,13 +2009,13 @@ stack:
       tier: observed
       url: /providers/amazon-translate/
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 36.1
       apps:
       - Tolgee
       - Weblate
       band: strong
       in_catalog: true
-      kin_score: 60.8
+      kin_score: 61.4
       mcp:
         source: https://github.com/DeepL/deepl-mcp-server
         status: verified
@@ -2033,13 +2033,13 @@ stack:
       tier: observed
       url: /providers/deepl/
     - agent_band: agent-aware
-      agent_readiness: 6.0
+      agent_readiness: 5.8
       apps:
       - Tolgee
       - Weblate
       band: emerging
       in_catalog: true
-      kin_score: 18.5
+      kin_score: 17.4
       mcp:
         source: https://github.com/baidu-maps/mcp
         status: verified
@@ -2056,55 +2056,35 @@ stack:
       - Technology
       tier: observed
       url: /providers/baidu/
-    - agent_band: agent-aware
-      agent_readiness: 21.5
+    - agent_band: agent-ready
+      agent_readiness: 42.2
       apps:
       - Pontoon
       band: strong
       in_catalog: true
-      kin_score: 54.8
+      kin_score: 63.2
       mcp:
-        status: none
+        source: https://github.com/googleapis/gcloud-mcp
+        status: verified
       name: Google Cloud AutoML Translation
-      slug: google-cloud-automl
+      slug: google-vertex-ai
       sources:
       - https://github.com/mozilla/pontoon/blob/main/pontoon/settings/base.py
       status: profiled
       tags:
-      - AutoML
-      - Custom Models
+      - Artificial Intelligence
+      - Generative AI
       - Google Cloud
       - Machine Learning
       tier: observed
-      url: /providers/google-cloud-automl/
+      url: /providers/google-vertex-ai/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 42.9
       apps:
       - Weblate
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 36.8
-      mcp:
-        status: none
-      name: Yandex Translate
-      slug: yandex-translate
-      sources:
-      - https://github.com/WeblateOrg/weblate/tree/main/weblate/machinery
-      status: profiled
-      tags:
-      - Language Detection
-      - Machine Translation
-      - Natural Language Processing
-      - Translation Dictionary
-      tier: observed
-      url: /providers/yandex-translate/
-    - agent_band: agent-ready
-      agent_readiness: 43.4
-      apps:
-      - Weblate
-      band: thin
-      in_catalog: true
-      kin_score: 27.6
+      kin_score: 39.3
       mcp:
         status: unknown
       name: ModernMT
@@ -2119,13 +2099,34 @@ stack:
       - Translation
       tier: observed
       url: /providers/modernmt/
-    - agent_band: agent-aware
-      agent_readiness: 21.3
+    - agent_band: agent-ready
+      agent_readiness: 29.9
       apps:
       - Weblate
       band: thin
       in_catalog: true
-      kin_score: 26.5
+      kin_score: 36.5
+      mcp:
+        status: none
+      name: Yandex Translate
+      slug: yandex-translate
+      sources:
+      - https://github.com/WeblateOrg/weblate/tree/main/weblate/machinery
+      status: profiled
+      tags:
+      - Language Detection
+      - Machine Translation
+      - Natural Language Processing
+      - Translation Dictionary
+      tier: observed
+      url: /providers/yandex-translate/
+    - agent_band: agent-aware
+      agent_readiness: 20.9
+      apps:
+      - Weblate
+      band: emerging
+      in_catalog: true
+      kin_score: 25.5
       mcp:
         status: none
       name: SYSTRAN
@@ -2141,12 +2142,12 @@ stack:
       tier: observed
       url: /providers/systran/
     - agent_band: agent-aware
-      agent_readiness: 23.8
+      agent_readiness: 23.3
       apps:
       - Weblate
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.2
+      kin_score: 24.3
       mcp:
         source: https://github.com/LibreTranslate/LibreTranslate-MCP
         status: verified
@@ -2163,12 +2164,12 @@ stack:
       tier: observed
       url: /providers/libre-translate/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - Weblate
       band: emerging
       in_catalog: true
-      kin_score: 23.5
+      kin_score: 22.7
       mcp:
         status: none
       name: SAP Translation Hub
@@ -2184,12 +2185,12 @@ stack:
       tier: observed
       url: /providers/sap-btp/
     - agent_band: agent-aware
-      agent_readiness: 13.7
+      agent_readiness: 10.6
       apps:
       - Weblate
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 16.2
       mcp:
         status: unknown
       name: European Commission eTranslation
@@ -2204,27 +2205,6 @@ stack:
       - Translation
       tier: observed
       url: /providers/european-commission-etranslation/
-    - agent_band: agent-aware
-      agent_readiness: 10.8
-      apps:
-      - Weblate
-      band: minimal
-      in_catalog: true
-      kin_score: 5.1
-      mcp:
-        status: unknown
-      name: NetEase Youdao
-      slug: youdao
-      sources:
-      - https://github.com/WeblateOrg/weblate/tree/main/weblate/machinery
-      status: profiled
-      tags:
-      - Artificial Intelligence
-      - Company
-      - Education
-      - Language
-      tier: observed
-      url: /providers/youdao/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
@@ -2252,7 +2232,7 @@ stack:
       - Weblate
       band: minimal
       in_catalog: true
-      kin_score: 4.4
+      kin_score: 4.7
       mcp:
         status: none
       name: Apertium
@@ -2267,13 +2247,34 @@ stack:
       - Open Source
       tier: observed
       url: /providers/apertium/
+    - agent_band: agent-aware
+      agent_readiness: 10.6
+      apps:
+      - Weblate
+      band: minimal
+      in_catalog: true
+      kin_score: 4.3
+      mcp:
+        status: unknown
+      name: NetEase Youdao
+      slug: youdao
+      sources:
+      - https://github.com/WeblateOrg/weblate/tree/main/weblate/machinery
+      status: profiled
+      tags:
+      - Artificial Intelligence
+      - Company
+      - Education
+      - Language
+      tier: observed
+      url: /providers/youdao/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Weblate
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         source: https://github.com/aliyun/alibaba-cloud-ops-mcp-server
         status: verified
@@ -2287,12 +2288,12 @@ stack:
       tier: observed
       url: /providers/alibabacloud/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - DeepL
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn
@@ -2308,12 +2309,12 @@ stack:
       tier: declared
       url: /providers/linkedin/
     - agent_band: agent-native
-      agent_readiness: 61.2
+      agent_readiness: 59.9
       apps:
       - DeepL
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 75.0
       mcp:
         source: https://github.com/xdevplatform/xmcp
         status: verified
@@ -2330,12 +2331,12 @@ stack:
       tier: declared
       url: /providers/x/
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - DeepL
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp
@@ -2351,12 +2352,12 @@ stack:
       tier: declared
       url: /providers/whatsapp/
     - agent_band: human-only
-      agent_readiness: 3.6
+      agent_readiness: 0.0
       apps:
       - Crowdin
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.6
+      kin_score: 11.0
       mcp:
         status: none
       name: Opal by Welocalize
@@ -2380,15 +2381,15 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Crowdin
       - Lokalise
       - Weblate
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
-      mcp: &id003
+      kin_score: 85.0
+      mcp: &id005
         source: https://github.com/github/github-mcp-server
         status: verified
       name: GitHub
@@ -2398,7 +2399,7 @@ stack:
       - https://lokalise.com/integrations
       - https://store.crowdin.com/
       status: profiled
-      tags: &id004
+      tags: &id006
       - Code
       - Developer Tools
       - Pipelines
@@ -2406,14 +2407,14 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Lokalise
       - Weblate
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
-      mcp: &id005
+      kin_score: 86.3
+      mcp: &id003
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
       name: GitLab
@@ -2422,7 +2423,7 @@ stack:
       - https://github.com/WeblateOrg/weblate/blob/main/weblate/vcs/git.py
       - https://lokalise.com/integrations
       status: profiled
-      tags: &id006
+      tags: &id004
       - Code
       - Developer Tools
       - Platform
@@ -2430,13 +2431,13 @@ stack:
       tier: observed
       url: /providers/gitlab/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 37.7
       apps:
       - Lokalise
       - Weblate
       band: exemplar
       in_catalog: true
-      kin_score: 76.8
+      kin_score: 81.9
       mcp:
         source: https://github.com/microsoft/azure-devops-mcp
         status: verified
@@ -2454,13 +2455,13 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-devops/
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 35.3
       apps:
       - Lokalise
       - Weblate
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 71.9
       mcp:
         source: https://github.com/atlassian/atlassian-mcp-server
         status: verified
@@ -2478,12 +2479,12 @@ stack:
       tier: observed
       url: /providers/bitbucket/
     - agent_band: agent-ready
-      agent_readiness: 31.0
+      agent_readiness: 35.0
       apps:
       - Weblate
       band: exemplar
       in_catalog: true
-      kin_score: 69.8
+      kin_score: 68.1
       mcp:
         source: https://gitea.com/gitea/gitea-mcp
         status: verified
@@ -2505,7 +2506,7 @@ stack:
       - Weblate
       band: minimal
       in_catalog: true
-      kin_score: 6.4
+      kin_score: 7.9
       mcp:
         status: none
       name: Pagure
@@ -2526,7 +2527,7 @@ stack:
       - Weblate
       band: minimal
       in_catalog: true
-      kin_score: 5.4
+      kin_score: 6.8
       mcp:
         source: https://github.com/GerritCodeReview/gerrit-mcp-server
         status: verified
@@ -2551,7 +2552,7 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Crowdin
       - Pontoon
@@ -2559,7 +2560,7 @@ stack:
       - Weblate
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: &id011
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -2578,13 +2579,13 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Tolgee
       - Weblate
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp: &id009
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -2601,14 +2602,14 @@ stack:
       - LLM
       tier: observed
       url: /providers/anthropic/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
+    - agent_band: agent-ready
+      agent_readiness: 29.9
       apps:
       - Tolgee
       - Weblate
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.6
+      kin_score: 68.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2626,12 +2627,12 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - Tolgee
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google AI (Gemini)
@@ -2646,13 +2647,13 @@ stack:
       - Embeddings
       tier: observed
       url: /providers/google-gemini/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - Weblate
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: Mistral AI
@@ -2673,7 +2674,7 @@ stack:
       - Weblate
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp:
         status: none
       name: Ollama
@@ -2703,7 +2704,7 @@ stack:
       - Lokalise
       band: strong
       in_catalog: true
-      kin_score: 60.7
+      kin_score: 60.5
       mcp:
         source: https://developers.webflow.com/mcp/reference/overview
         status: verified
@@ -2721,13 +2722,13 @@ stack:
       tier: declared
       url: /providers/webflow/
     - agent_band: agent-ready
-      agent_readiness: 56.5
+      agent_readiness: 55.2
       apps:
       - Crowdin
       - Lokalise
       band: developing
       in_catalog: true
-      kin_score: 44.3
+      kin_score: 43.9
       mcp:
         source: https://github.com/contentful/contentful-mcp-server
         status: verified
@@ -2744,13 +2745,13 @@ stack:
       - Headless CMS
       tier: declared
       url: /providers/contentful/
-    - agent_band: agent-aware
-      agent_readiness: 26.6
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 75.2
+      kin_score: 73.6
       mcp:
         source: https://registry.npmjs.org/@contentstack/mcp
         status: verified
@@ -2767,12 +2768,12 @@ stack:
       tier: declared
       url: /providers/contentstack/
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 38.0
       apps:
       - Lokalise
       band: strong
       in_catalog: true
-      kin_score: 55.9
+      kin_score: 55.1
       mcp:
         source: https://github.com/storyblok/mcp-server
         status: verified
@@ -2789,12 +2790,12 @@ stack:
       tier: declared
       url: /providers/storyblok/
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 31.9
       apps:
       - Lokalise
       band: developing
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 46.6
       mcp:
         source: https://github.com/WordPress/mcp-adapter
         status: verified
@@ -2811,12 +2812,12 @@ stack:
       tier: declared
       url: /providers/wordpress/
     - agent_band: agent-aware
-      agent_readiness: 21.8
+      agent_readiness: 21.4
       apps:
       - Crowdin
       band: thin
       in_catalog: true
-      kin_score: 28.6
+      kin_score: 28.0
       mcp:
         source: https://github.com/adobe/cq-quickstart-mcp-server
         status: verified
@@ -2833,12 +2834,12 @@ stack:
       tier: declared
       url: /providers/adobe-experience-manager/
     - agent_band: agent-ready
-      agent_readiness: 42.8
+      agent_readiness: 41.9
       apps:
       - Lokalise
       band: emerging
       in_catalog: true
-      kin_score: 22.2
+      kin_score: 21.7
       mcp:
         status: none
       name: Hygraph
@@ -2862,12 +2863,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 69.9
+      agent_readiness: 70.1
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 86.9
+      kin_score: 85.9
       mcp:
         source: https://github.com/customerio/claude-plugin
         status: verified
@@ -2884,12 +2885,12 @@ stack:
       tier: declared
       url: /providers/customer-io/
     - agent_band: agent-ready
-      agent_readiness: 56.9
+      agent_readiness: 58.4
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 75.2
+      kin_score: 74.4
       mcp:
         source: https://www.braze.com/docs/user_guide/brazeai/mcp_server
         status: verified
@@ -2905,34 +2906,13 @@ stack:
       - Push Notifications
       tier: declared
       url: /providers/braze/
-    - agent_band: agent-native
-      agent_readiness: 66.2
-      apps:
-      - Lokalise
-      band: exemplar
-      in_catalog: true
-      kin_score: 68.5
-      mcp:
-        status: none
-      name: MoEngage
-      slug: moengage
-      sources:
-      - https://lokalise.com/integrations
-      status: profiled
-      tags:
-      - Customer Data Platform
-      - Customer Engagement
-      - Marketing Automation
-      - Push Notifications
-      tier: declared
-      url: /providers/moengage/
     - agent_band: agent-ready
-      agent_readiness: 34.5
+      agent_readiness: 33.8
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 67.9
+      kin_score: 68.3
       mcp:
         source: https://github.com/Iterable/mcp-server
         status: verified
@@ -2948,6 +2928,27 @@ stack:
       - Marketing Automation
       tier: declared
       url: /providers/iterable/
+    - agent_band: agent-native
+      agent_readiness: 65.1
+      apps:
+      - Lokalise
+      band: exemplar
+      in_catalog: true
+      kin_score: 68.0
+      mcp:
+        status: none
+      name: MoEngage
+      slug: moengage
+      sources:
+      - https://lokalise.com/integrations
+      status: profiled
+      tags:
+      - Customer Data Platform
+      - Customer Engagement
+      - Marketing Automation
+      - Push Notifications
+      tier: declared
+      url: /providers/moengage/
   - capability:
       attribution: Turbo EA
       id: BC-430
@@ -2957,13 +2958,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Crowdin
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk Guide
@@ -2980,13 +2981,13 @@ stack:
       tier: declared
       url: /providers/zendesk/
     - agent_band: agent-ready
-      agent_readiness: 31.7
+      agent_readiness: 32.5
       apps:
       - Crowdin
       - Lokalise
       band: developing
       in_catalog: true
-      kin_score: 52.5
+      kin_score: 51.0
       mcp: &id007
         source: https://developers.intercom.com/docs/guides/mcp
         status: verified
@@ -3012,13 +3013,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.8
+      agent_readiness: 59.2
       apps:
       - Crowdin
       - Lokalise
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 65.6
+      kin_score: 75.1
       mcp:
         source: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server
         status: verified
@@ -3036,12 +3037,12 @@ stack:
       tier: declared
       url: /providers/figma/
     - agent_band: agent-ready
-      agent_readiness: 42.2
+      agent_readiness: 41.7
       apps:
       - Lokalise
       band: developing
       in_catalog: true
-      kin_score: 46.6
+      kin_score: 52.8
       mcp:
         source: https://developer.dittowords.com/mcp-reference/overview
         status: verified
@@ -3058,12 +3059,12 @@ stack:
       tier: declared
       url: /providers/dittowords/
     - agent_band: human-only
-      agent_readiness: 2.5
+      agent_readiness: 3.5
       apps:
       - Lokalise
       band: emerging
       in_catalog: true
-      kin_score: 17.1
+      kin_score: 18.0
       mcp:
         source: https://github.com/sketch-hq/sketch-mcp-bundle
         status: verified
@@ -3093,7 +3094,7 @@ stack:
       - Weblate
       band: minimal
       in_catalog: true
-      kin_score: 7.0
+      kin_score: 10.9
       mcp:
         status: none
       name: MyMemory (Translated)
@@ -3114,7 +3115,7 @@ stack:
       - Weblate
       band: minimal
       in_catalog: true
-      kin_score: 5.5
+      kin_score: 7.0
       mcp:
         status: none
       name: Glosbe
@@ -3155,12 +3156,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp: &id001
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -3177,12 +3178,12 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -3207,34 +3208,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.9
+      agent_readiness: 36.3
       apps:
       - DeepL
       band: exemplar
       in_catalog: true
-      kin_score: 68.6
-      mcp:
-        source: https://github.com/gemini-cli-extensions/workspace
-        status: verified
-      name: Google Workspace
-      slug: google-workspace
-      sources:
-      - https://www.deepl.com/en/integrations
-      status: profiled
-      tags:
-      - Calendar
-      - Collaboration
-      - Email
-      - Productivity
-      tier: declared
-      url: /providers/google-workspace/
-    - agent_band: agent-ready
-      agent_readiness: 36.7
-      apps:
-      - DeepL
-      band: strong
-      in_catalog: true
-      kin_score: 64.4
+      kin_score: 76.1
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3250,6 +3229,28 @@ stack:
       - Productivity
       tier: declared
       url: /providers/microsoft-365/
+    - agent_band: agent-ready
+      agent_readiness: 43.0
+      apps:
+      - DeepL
+      band: exemplar
+      in_catalog: true
+      kin_score: 70.7
+      mcp:
+        source: https://github.com/gemini-cli-extensions/workspace
+        status: verified
+      name: Google Workspace
+      slug: google-workspace
+      sources:
+      - https://www.deepl.com/en/integrations
+      status: profiled
+      tags:
+      - Calendar
+      - Collaboration
+      - Email
+      - Productivity
+      tier: declared
+      url: /providers/google-workspace/
   - capability:
       attribution: Turbo EA
       id: BC-400.60
@@ -3259,12 +3260,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Crowdin
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp: *id001
       name: HubSpot Marketing Hub
       slug: hubspot
@@ -3283,12 +3284,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -3321,7 +3322,7 @@ stack:
       - Weblate
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -3340,12 +3341,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 45.7
+      agent_readiness: 44.8
       apps:
       - Pontoon
       band: exemplar
       in_catalog: true
-      kin_score: 76.5
+      kin_score: 74.4
       mcp:
         source: https://docs.newrelic.com/docs/agentic-ai/mcp/overview/
         status: verified
@@ -3362,34 +3363,12 @@ stack:
       tier: observed
       url: /providers/new-relic/
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 37.0
       apps:
       - Weblate
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.4
-      mcp:
-        source: https://github.com/rollbar/rollbar-mcp-server
-        status: verified
-      name: Rollbar
-      slug: rollbar
-      sources:
-      - https://github.com/WeblateOrg/weblate/blob/main/pyproject.toml
-      status: profiled
-      tags:
-      - Debugging
-      - DevOps
-      - Error Tracking
-      - Monitoring
-      tier: observed
-      url: /providers/rollbar/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - Weblate
-      band: thin
-      in_catalog: true
-      kin_score: 39.1
+      kin_score: 59.9
       mcp:
         status: none
       name: Google Cloud Error Reporting
@@ -3405,12 +3384,34 @@ stack:
       tier: observed
       url: /providers/google-cloud-error-reporting/
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 30.2
+      apps:
+      - Weblate
+      band: developing
+      in_catalog: true
+      kin_score: 48.1
+      mcp:
+        source: https://github.com/rollbar/rollbar-mcp-server
+        status: verified
+      name: Rollbar
+      slug: rollbar
+      sources:
+      - https://github.com/WeblateOrg/weblate/blob/main/pyproject.toml
+      status: profiled
+      tags:
+      - Debugging
+      - DevOps
+      - Error Tracking
+      - Monitoring
+      tier: observed
+      url: /providers/rollbar/
+    - agent_band: agent-ready
+      agent_readiness: 48.6
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -3434,15 +3435,15 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Lokalise
       - Tolgee
       - Weblate
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3461,13 +3462,13 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Lokalise
       - Weblate
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -3485,12 +3486,12 @@ stack:
       tier: observed
       url: /providers/gcp-cloud-storage/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Tolgee
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3515,12 +3516,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp:
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -3537,12 +3538,12 @@ stack:
       tier: declared
       url: /providers/jira/
     - agent_band: agent-ready
-      agent_readiness: 28.7
+      agent_readiness: 30.8
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 75.6
+      kin_score: 74.8
       mcp:
         source: https://github.com/atlassian/trello-mcp-server
         status: verified
@@ -3559,12 +3560,12 @@ stack:
       tier: declared
       url: /providers/trello/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.3
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 72.5
       mcp:
         source: https://developers.asana.com/docs/using-asanas-mcp-server
         status: verified
@@ -3581,12 +3582,12 @@ stack:
       tier: declared
       url: /providers/asana/
     - agent_band: agent-ready
-      agent_readiness: 50.5
+      agent_readiness: 49.9
       apps:
       - Lokalise
       band: thin
       in_catalog: true
-      kin_score: 32.0
+      kin_score: 31.0
       mcp:
         status: none
       name: TimeCamp
@@ -3609,45 +3610,45 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 63.4
-      apps:
-      - Pontoon
-      band: exemplar
-      in_catalog: true
-      kin_score: 85.4
-      mcp: *id003
-      name: GitHub
-      slug: github
-      sources:
-      - https://github.com/mozilla/pontoon/blob/main/pontoon/settings/base.py
-      status: profiled
-      tags: *id004
-      tier: observed
-      url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Pontoon
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
-      mcp: *id005
+      kin_score: 86.3
+      mcp: *id003
       name: GitLab
       slug: gitlab
       sources:
       - https://github.com/mozilla/pontoon/blob/main/pontoon/settings/base.py
       status: profiled
-      tags: *id006
+      tags: *id004
       tier: observed
       url: /providers/gitlab/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 62.4
       apps:
       - Pontoon
-      band: thin
+      band: exemplar
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 85.0
+      mcp: *id005
+      name: GitHub
+      slug: github
+      sources:
+      - https://github.com/mozilla/pontoon/blob/main/pontoon/settings/base.py
+      status: profiled
+      tags: *id006
+      tier: observed
+      url: /providers/github/
+    - agent_band: agent-ready
+      agent_readiness: 33.7
+      apps:
+      - Pontoon
+      band: strong
+      in_catalog: true
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -3663,12 +3664,12 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-aware
-      agent_readiness: 9.4
+      agent_readiness: 6.3
       apps:
       - Pontoon
       band: emerging
       in_catalog: true
-      kin_score: 17.7
+      kin_score: 22.9
       mcp:
         status: none
       name: Mozilla accounts
@@ -3692,14 +3693,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Crowdin
       - Lokalise
       - Tolgee
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -3726,12 +3727,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Pontoon
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -3748,12 +3749,12 @@ stack:
       tier: observed
       url: /providers/google-analytics/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Tolgee
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -3778,12 +3779,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Pontoon
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -3799,12 +3800,12 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-aware
-      agent_readiness: 23.4
+      agent_readiness: 22.9
       apps:
       - Tolgee
       band: developing
       in_catalog: true
-      kin_score: 50.1
+      kin_score: 50.5
       mcp:
         source: https://github.com/mailgun/mailjet-mcp-server
         status: verified
@@ -3829,12 +3830,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Lokalise
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -3851,12 +3852,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Lokalise
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -3880,13 +3881,13 @@ stack:
       url: /capabilities/bot-protection-captcha/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Tolgee
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Google reCAPTCHA
@@ -3910,12 +3911,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.7
+      agent_readiness: 32.5
       apps:
       - Tolgee
       band: developing
       in_catalog: true
-      kin_score: 52.5
+      kin_score: 51.0
       mcp: *id007
       name: Intercom
       slug: intercom
@@ -3934,12 +3935,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - DeepL
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3966,12 +3967,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - DeepL
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp: *id009
       name: Claude
       slug: anthropic
@@ -3982,12 +3983,12 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - DeepL
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: *id011
       name: ChatGPT
       slug: openai
@@ -4005,11 +4006,11 @@ summary:
   in_catalog: 79
   mcp:
     documented: 0
-    none: 25
+    none: 24
     unchecked: 1
-    verified: 50
-  mcp_verified: 50
-  mean_kin_score: 52.6
+    verified: 51
+  mcp_verified: 51
+  mean_kin_score: 55.3
   observed: 46
   queued: 1
   reference_apps: 7

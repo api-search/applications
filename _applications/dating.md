@@ -2488,7 +2488,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.9
+      agent_readiness: 38.6
       apps:
       - Bumble
       - Grindr
@@ -2496,7 +2496,7 @@ stack:
       - Tinder
       band: exemplar
       in_catalog: true
-      kin_score: 69.0
+      kin_score: 67.8
       mcp:
         status: none
       name: Instagram
@@ -2514,13 +2514,13 @@ stack:
       tier: declared
       url: /providers/instagram/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - Hinge
       - Tinder
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn
@@ -2545,14 +2545,14 @@ stack:
       via_parent: Audio & Music
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.3
+      agent_readiness: 32.7
       apps:
       - Bumble
       - Duolicious
       - Tinder
       band: developing
       in_catalog: true
-      kin_score: 49.8
+      kin_score: 50.6
       mcp:
         status: none
       name: Spotify
@@ -2578,12 +2578,12 @@ stack:
       via_parent: Identity Verification
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Bumble
       band: thin
       in_catalog: true
-      kin_score: 28.1
+      kin_score: 28.2
       mcp:
         status: none
       name: Veriff
@@ -2599,12 +2599,12 @@ stack:
       tier: declared
       url: /providers/veriff/
     - agent_band: agent-aware
-      agent_readiness: 14.7
+      agent_readiness: 14.3
       apps:
       - Hinge
       band: emerging
       in_catalog: true
-      kin_score: 24.5
+      kin_score: 23.8
       mcp:
         status: none
       name: Jumio
@@ -2628,12 +2628,12 @@ stack:
       via_parent: Identity Verification
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Hinge
       band: minimal
       in_catalog: true
-      kin_score: 6.9
+      kin_score: 10.6
       mcp:
         status: none
       name: FaceTec
@@ -2682,12 +2682,12 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.0
+      agent_readiness: 53.5
       apps:
       - Hinge
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 52.4
+      kin_score: 82.0
       mcp:
         source: https://cloudinary.com/documentation/cloudinary_llm_mcp
         status: verified
@@ -2711,13 +2711,13 @@ stack:
       url: /capabilities/in-app-chat/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 28.1
+    - agent_band: agent-ready
+      agent_readiness: 31.8
       apps:
       - Hinge
       band: developing
       in_catalog: true
-      kin_score: 51.9
+      kin_score: 52.1
       mcp:
         status: none
       name: Sendbird
@@ -2741,12 +2741,12 @@ stack:
       via_parent: Voice & Telephony
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 48.4
       apps:
       - Bumble
       band: developing
       in_catalog: true
-      kin_score: 45.6
+      kin_score: 54.0
       mcp:
         status: none
       name: Prove
@@ -2775,7 +2775,7 @@ stack:
       - Bumble
       band: minimal
       in_catalog: true
-      kin_score: 3.4
+      kin_score: 3.3
       mcp:
         status: unknown
       name: Cinder
@@ -2799,12 +2799,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.5
+      agent_readiness: 40.0
       apps:
       - Hinge
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 68.8
       mcp:
         source: https://github.com/Vonage/vonage-mcp-server-documentation
         status: verified
@@ -2831,70 +2831,16 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 33.7
       apps:
-      - Bumble
+      - Alovoa
       - Duolicious
       - Grindr
       - Hinge
       - Tinder
       band: strong
       in_catalog: true
-      kin_score: 55.2
-      mcp: &id001
-        status: none
-      name: Apple
-      slug: apple
-      sources:
-      - https://bumble.com/en/privacy
-      - https://github.com/duolicious/duolicious-frontend/blob/main/package.json
-      - https://hinge.co/privacy
-      status: profiled
-      tags: &id002
-      - Apple
-      - Developers
-      - iOS
-      - macOS
-      tier: observed
-      url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 28.2
-      apps:
-      - Alovoa
-      - Bumble
-      - Grindr
-      - Hinge
-      - Tinder
-      band: developing
-      in_catalog: true
-      kin_score: 42.7
-      mcp: &id003
-        status: none
-      name: Facebook
-      slug: facebook
-      sources:
-      - https://github.com/Alovoa/alovoa/blob/master/src/main/resources/application.properties
-      - https://hinge.co/privacy
-      - https://policies.tinder.com/privacy/intl/en/
-      status: profiled
-      tags: &id004
-      - Advertising
-      - Content Publishing
-      - Facebook
-      - Fortune 500
-      tier: observed
-      url: /providers/facebook/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - Alovoa
-      - Duolicious
-      - Grindr
-      - Hinge
-      - Tinder
-      band: thin
-      in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -2912,12 +2858,66 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 36.5
+      apps:
+      - Bumble
+      - Duolicious
+      - Grindr
+      - Hinge
+      - Tinder
+      band: developing
+      in_catalog: true
+      kin_score: 52.9
+      mcp: &id001
+        status: none
+      name: Apple
+      slug: apple
+      sources:
+      - https://bumble.com/en/privacy
+      - https://github.com/duolicious/duolicious-frontend/blob/main/package.json
+      - https://hinge.co/privacy
+      status: profiled
+      tags: &id002
+      - Apple
+      - Developers
+      - iOS
+      - macOS
+      tier: observed
+      url: /providers/apple/
+    - agent_band: agent-aware
+      agent_readiness: 28.1
+      apps:
+      - Alovoa
+      - Bumble
+      - Grindr
+      - Hinge
+      - Tinder
+      band: developing
+      in_catalog: true
+      kin_score: 43.7
+      mcp: &id003
+        status: none
+      name: Facebook
+      slug: facebook
+      sources:
+      - https://github.com/Alovoa/alovoa/blob/master/src/main/resources/application.properties
+      - https://hinge.co/privacy
+      - https://policies.tinder.com/privacy/intl/en/
+      status: profiled
+      tags: &id004
+      - Advertising
+      - Content Publishing
+      - Facebook
+      - Fortune 500
+      tier: observed
+      url: /providers/facebook/
+    - agent_band: agent-ready
+      agent_readiness: 33.1
       apps:
       - Duolicious
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -2941,14 +2941,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Bumble
       - Grindr
       - Tinder
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -2966,12 +2966,12 @@ stack:
       tier: observed
       url: /providers/google-admob/
     - agent_band: agent-aware
-      agent_readiness: 25.8
+      agent_readiness: 25.3
       apps:
       - Grindr
       band: exemplar
       in_catalog: true
-      kin_score: 66.7
+      kin_score: 66.5
       mcp:
         source: https://github.com/Unity-Technologies/industry-ai-workflows
         status: verified
@@ -2987,34 +2987,13 @@ stack:
       - Real-Time 3D
       tier: observed
       url: /providers/unity/
-    - agent_band: agent-aware
-      agent_readiness: 7.9
-      apps:
-      - Grindr
-      band: developing
-      in_catalog: true
-      kin_score: 49.9
-      mcp:
-        status: none
-      name: InMobi
-      slug: inmobi
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.grindrapp.android/latest/
-      status: profiled
-      tags:
-      - AdTech
-      - Advertising
-      - Company
-      - Enterprise
-      tier: observed
-      url: /providers/inmobi/
     - agent_band: agent-ready
-      agent_readiness: 31.6
+      agent_readiness: 31.0
       apps:
       - Grindr
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.2
+      kin_score: 60.3
       mcp:
         status: none
       name: BidMachine
@@ -3029,13 +3008,13 @@ stack:
       - Mobile Advertising
       tier: observed
       url: /providers/bidmachine-io/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Grindr
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -3051,34 +3030,34 @@ stack:
       - E-Commerce
       tier: observed
       url: /providers/amazon/
-    - agent_band: agent-ready
-      agent_readiness: 36.2
+    - agent_band: agent-aware
+      agent_readiness: 7.7
       apps:
       - Grindr
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 46.1
       mcp:
         status: none
-      name: AppLovin
-      slug: applovin
+      name: InMobi
+      slug: inmobi
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.grindrapp.android/latest/
       status: profiled
       tags:
       - AdTech
       - Advertising
-      - App Monetization
-      - Mobile
+      - Company
+      - Enterprise
       tier: observed
-      url: /providers/applovin/
+      url: /providers/inmobi/
     - agent_band: agent-aware
-      agent_readiness: 20.8
+      agent_readiness: 20.3
       apps:
       - Grindr
       band: thin
       in_catalog: true
-      kin_score: 32.0
+      kin_score: 38.0
       mcp:
         status: none
       name: Digital Turbine (Fyber)
@@ -3094,12 +3073,75 @@ stack:
       tier: observed
       url: /providers/digital-turbine/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 35.5
       apps:
       - Grindr
       band: thin
       in_catalog: true
-      kin_score: 26.7
+      kin_score: 37.6
+      mcp:
+        status: none
+      name: AppLovin
+      slug: applovin
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.grindrapp.android/latest/
+      status: profiled
+      tags:
+      - AdTech
+      - Advertising
+      - App Monetization
+      - Mobile
+      tier: observed
+      url: /providers/applovin/
+    - agent_band: agent-aware
+      agent_readiness: 28.5
+      apps:
+      - Grindr
+      band: thin
+      in_catalog: true
+      kin_score: 34.0
+      mcp:
+        status: none
+      name: Appodeal
+      slug: appodeal
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.grindrapp.android/latest/
+      status: profiled
+      tags:
+      - Advertising
+      - Company
+      - Mobile
+      - Monetization
+      tier: observed
+      url: /providers/appodeal/
+    - agent_band: agent-aware
+      agent_readiness: 14.8
+      apps:
+      - Grindr
+      band: thin
+      in_catalog: true
+      kin_score: 32.1
+      mcp:
+        status: unknown
+      name: PubNative
+      slug: pubnative
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.grindrapp.android/latest/
+      status: profiled
+      tags:
+      - AdTech
+      - Company
+      - Mobile
+      - Monetization
+      tier: observed
+      url: /providers/pubnative/
+    - agent_band: agent-ready
+      agent_readiness: 33.5
+      apps:
+      - Grindr
+      band: thin
+      in_catalog: true
+      kin_score: 28.1
       mcp:
         source: https://github.com/PubMatic/pubmatic-mcp-server
         status: verified
@@ -3115,55 +3157,13 @@ stack:
       - Supply Side Platform
       tier: observed
       url: /providers/pubmatic/
-    - agent_band: agent-aware
-      agent_readiness: 15.1
-      apps:
-      - Grindr
-      band: emerging
-      in_catalog: true
-      kin_score: 26.0
-      mcp:
-        status: unchecked
-      name: PubNative
-      slug: pubnative
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.grindrapp.android/latest/
-      status: profiled
-      tags:
-      - AdTech
-      - Company
-      - Mobile
-      - Monetization
-      tier: observed
-      url: /providers/pubnative/
-    - agent_band: agent-ready
-      agent_readiness: 29.1
-      apps:
-      - Grindr
-      band: emerging
-      in_catalog: true
-      kin_score: 24.7
-      mcp:
-        status: unchecked
-      name: Appodeal
-      slug: appodeal
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.grindrapp.android/latest/
-      status: profiled
-      tags:
-      - Advertising
-      - Company
-      - Mobile
-      - Monetization
-      tier: observed
-      url: /providers/appodeal/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Grindr
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 16.2
       mcp:
         status: unknown
       name: Mintegral
@@ -3182,9 +3182,9 @@ stack:
       agent_readiness: 2.5
       apps:
       - Grindr
-      band: emerging
+      band: minimal
       in_catalog: true
-      kin_score: 11.5
+      kin_score: 10.2
       mcp:
         status: none
       name: ironSource
@@ -3208,14 +3208,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Bumble
       - Hinge
       - Tinder
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp: *id001
       name: Apple
       slug: apple
@@ -3227,15 +3227,15 @@ stack:
       tags: *id002
       tier: declared
       url: /providers/apple/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.7
       apps:
       - Bumble
       - Hinge
       - Tinder
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 31.6
+      kin_score: 51.3
       mcp:
         status: none
       name: Google Play
@@ -3258,7 +3258,7 @@ stack:
       - Duolicious
       band: thin
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 27.4
       mcp:
         source: https://www.revenuecat.com/docs/tools/mcp
         status: verified
@@ -3283,13 +3283,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Grindr
       - Tinder
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook
       slug: facebook
@@ -3301,12 +3301,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 39.3
+      agent_readiness: 38.4
       apps:
       - Hinge
       band: strong
       in_catalog: true
-      kin_score: 57.5
+      kin_score: 58.7
       mcp:
         status: none
       name: Snap Inc.
@@ -3322,12 +3322,12 @@ stack:
       tier: declared
       url: /providers/snap/
     - agent_band: agent-ready
-      agent_readiness: 38.4
+      agent_readiness: 37.6
       apps:
       - Hinge
       band: developing
       in_catalog: true
-      kin_score: 49.4
+      kin_score: 47.7
       mcp:
         source: https://developers.pinterest.com/about-pinterest-mcp/
         status: verified
@@ -3344,12 +3344,12 @@ stack:
       tier: declared
       url: /providers/pinterest/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Hinge
       band: developing
       in_catalog: true
-      kin_score: 41.0
+      kin_score: 40.5
       mcp:
         status: none
       name: TikTok
@@ -3365,12 +3365,12 @@ stack:
       tier: declared
       url: /providers/tiktok/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 1.7
       apps:
       - Hinge
       band: emerging
       in_catalog: true
-      kin_score: 13.6
+      kin_score: 23.2
       mcp:
         source: https://thecirqle.com/mcp
         status: verified
@@ -3402,7 +3402,7 @@ stack:
       - Tinder
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -3420,37 +3420,37 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Grindr
       - Hinge
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id005
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/co.hinge.app/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.grindrapp.android/latest/
       status: profiled
       tags: &id006
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 16.1
+      agent_readiness: 15.8
       apps:
       - Hinge
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 26.3
+      kin_score: 25.2
       mcp:
         status: none
       name: ServiceNow Cloud Observability (Lightstep)
@@ -3474,13 +3474,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Hinge
       - pH7Builder
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -3498,13 +3498,13 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Bumble
       - Duolicious
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -3522,12 +3522,12 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-ready
-      agent_readiness: 52.0
+      agent_readiness: 53.6
       apps:
       - pH7Builder
       band: developing
       in_catalog: true
-      kin_score: 46.2
+      kin_score: 44.7
       mcp:
         status: none
       name: Braintree
@@ -3567,19 +3567,19 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Bumble
       - Grindr
       - Hinge
       - Tinder
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id005
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/co.hinge.app/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.bumble.app/latest/
@@ -3587,15 +3587,15 @@ stack:
       status: profiled
       tags: *id006
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Bumble
       - Grindr
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook
       slug: facebook
@@ -3615,7 +3615,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Bumble
       - Grindr
@@ -3623,7 +3623,7 @@ stack:
       - Tinder
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -3642,12 +3642,12 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Tinder
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -3668,12 +3668,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 53.9
+      agent_readiness: 52.7
       apps:
       - Hinge
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 63.9
       mcp:
         status: none
       name: UserTesting
@@ -3689,12 +3689,12 @@ stack:
       tier: declared
       url: /providers/usertesting/
     - agent_band: agent-ready
-      agent_readiness: 43.7
+      agent_readiness: 35.6
       apps:
       - Hinge
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 45.9
+      kin_score: 56.7
       mcp:
         source: https://heymarvin.com/mcp/
         status: verified
@@ -3711,12 +3711,12 @@ stack:
       tier: declared
       url: /providers/heymarvin/
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 30.7
       apps:
       - Hinge
       band: emerging
       in_catalog: true
-      kin_score: 21.0
+      kin_score: 25.3
       mcp:
         source: https://help.dscout.com/dscout-ai/dscout-mcp/set-up-the-dscout-mcp
         status: verified
@@ -3738,7 +3738,7 @@ stack:
       - Bumble
       band: emerging
       in_catalog: true
-      kin_score: 12.7
+      kin_score: 21.5
       mcp:
         status: unknown
       name: Kantar
@@ -3762,13 +3762,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.8
+      agent_readiness: 37.9
       apps:
       - Hinge
       - pH7Builder
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 60.5
+      kin_score: 68.5
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3786,12 +3786,12 @@ stack:
       tier: observed
       url: /providers/amazon-web-services/
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Hinge
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -3808,12 +3808,12 @@ stack:
       tier: declared
       url: /providers/google/
     - agent_band: agent-ready
-      agent_readiness: 50.7
+      agent_readiness: 50.2
       apps:
       - Bumble
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.8
+      kin_score: 67.5
       mcp:
         source: https://github.com/googleapis/mcp-toolbox
         status: verified
@@ -3838,13 +3838,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Bumble
       - Hinge
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -3861,12 +3861,12 @@ stack:
       tier: declared
       url: /providers/zendesk/
     - agent_band: agent-aware
-      agent_readiness: 27.3
+      agent_readiness: 26.8
       apps:
       - Hinge
       band: thin
       in_catalog: true
-      kin_score: 34.0
+      kin_score: 34.7
       mcp:
         source: https://helpcenter.enterpret.com/en/articles/12665166-wisdom-mcp-server
         status: verified
@@ -3891,13 +3891,13 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 23.7
       apps:
       - Hinge
       - pH7Builder
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 31.5
       mcp:
         status: none
       name: MaxMind
@@ -3914,12 +3914,12 @@ stack:
       tier: observed
       url: /providers/maxmind/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 14.3
       apps:
       - Duolicious
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 26.6
+      kin_score: 39.9
       mcp:
         status: none
       name: RIPE NCC (RIPEstat)
@@ -3943,13 +3943,13 @@ stack:
       via_parent: Customer Feedback Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.5
+      agent_readiness: 42.6
       apps:
       - Bumble
       - Hinge
       band: thin
       in_catalog: true
-      kin_score: 37.6
+      kin_score: 36.0
       mcp:
         source: https://www.typeform.com/developers/mcp
         status: verified
@@ -3967,12 +3967,12 @@ stack:
       tier: declared
       url: /providers/typeform/
     - agent_band: human-only
-      agent_readiness: 5.0
+      agent_readiness: 4.9
       apps:
       - Hinge
       band: emerging
       in_catalog: true
-      kin_score: 20.2
+      kin_score: 19.0
       mcp:
         status: unknown
       name: Alchemer
@@ -3996,12 +3996,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.9
+      agent_readiness: 55.1
       apps:
       - Hinge
       band: strong
       in_catalog: true
-      kin_score: 65.1
+      kin_score: 63.3
       mcp:
         source: https://learn.hex.tech/docs/administration/mcp-server
         status: documented
@@ -4017,13 +4017,13 @@ stack:
       - Notebooks
       tier: declared
       url: /providers/hex/
-    - agent_band: agent-ready
-      agent_readiness: 58.9
+    - agent_band: agent-native
+      agent_readiness: 65.5
       apps:
       - Hinge
       band: strong
       in_catalog: true
-      kin_score: 57.1
+      kin_score: 58.7
       mcp:
         source: https://docs.databricks.com/aws/en/generative-ai/mcp/
         status: verified
@@ -4048,12 +4048,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.9
+      agent_readiness: 23.4
       apps:
       - Hinge
       band: developing
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 49.0
       mcp:
         status: none
       name: TELUS (TELUS Digital)
@@ -4074,7 +4074,7 @@ stack:
       - Hinge
       band: minimal
       in_catalog: true
-      kin_score: 10.7
+      kin_score: 9.5
       mcp:
         status: none
       name: Accenture
@@ -4098,13 +4098,13 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Bumble
       - Hinge
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: &id007
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -4130,13 +4130,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - Grindr
       - Tinder
       band: strong
       in_catalog: true
-      kin_score: 56.1
+      kin_score: 55.6
       mcp:
         source: https://github.com/IABTechLab/agentic-real-time-framework
         status: verified
@@ -4162,12 +4162,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - pH7Builder
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp: *id007
       name: Twilio
       slug: twilio
@@ -4177,13 +4177,13 @@ stack:
       tags: *id008
       tier: observed
       url: /providers/twilio/
-    - agent_band: agent-aware
-      agent_readiness: 26.7
+    - agent_band: agent-ready
+      agent_readiness: 28.9
       apps:
       - pH7Builder
       band: thin
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 38.8
       mcp:
         status: none
       name: Clickatell
@@ -4212,7 +4212,7 @@ stack:
       - Hinge
       band: emerging
       in_catalog: true
-      kin_score: 19.7
+      kin_score: 18.4
       mcp:
         status: none
       name: Loom
@@ -4236,12 +4236,12 @@ stack:
       via_parent: Photo & Image Libraries
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.3
+      agent_readiness: 32.7
       apps:
       - pH7Builder
       band: developing
       in_catalog: true
-      kin_score: 39.8
+      kin_score: 41.2
       mcp:
         source: https://github.com/Automattic/mcp-server-gravatar
         status: verified
@@ -4266,12 +4266,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.2
+      agent_readiness: 16.8
       apps:
       - Grindr
       band: thin
       in_catalog: true
-      kin_score: 36.9
+      kin_score: 37.3
       mcp:
         status: none
       name: Ketch
@@ -4295,12 +4295,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.9
+      agent_readiness: 58.4
       apps:
       - Hinge
       band: exemplar
       in_catalog: true
-      kin_score: 75.2
+      kin_score: 74.4
       mcp:
         source: https://www.braze.com/docs/user_guide/brazeai/mcp_server
         status: verified
@@ -4330,7 +4330,7 @@ stack:
       - Duolicious
       band: emerging
       in_catalog: true
-      kin_score: 15.5
+      kin_score: 15.3
       mcp:
         status: none
       name: FireHOL IP lists
@@ -4354,7 +4354,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.0
+      agent_readiness: 27.9
       apps:
       - Hinge
       band: emerging
@@ -4384,12 +4384,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.4
+      agent_readiness: 25.9
       apps:
       - Hinge
       band: thin
       in_catalog: true
-      kin_score: 36.5
+      kin_score: 35.9
       mcp:
         status: none
       name: Split Software
@@ -4413,12 +4413,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.2
+      agent_readiness: 45.3
       apps:
       - Hinge
       band: exemplar
       in_catalog: true
-      kin_score: 88.0
+      kin_score: 87.2
       mcp:
         source: https://github.com/confluentinc/mcp-confluent
         status: verified
@@ -4443,12 +4443,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 56.8
       apps:
       - Hinge
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.3
       mcp:
         source: https://developers.notion.com/docs/mcp
         status: verified
@@ -4473,12 +4473,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 23.9
       apps:
       - Hinge
       band: thin
       in_catalog: true
-      kin_score: 31.9
+      kin_score: 32.1
       mcp:
         status: unknown
       name: Unbabel
@@ -4507,7 +4507,7 @@ stack:
       - Hinge
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.0
       mcp:
         status: none
       name: Reduct
@@ -4531,12 +4531,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.3
+      agent_readiness: 39.5
       apps:
       - Grindr
       band: strong
       in_catalog: true
-      kin_score: 55.8
+      kin_score: 57.8
       mcp:
         status: unknown
       name: TrustArc
@@ -4585,12 +4585,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 47.4
       apps:
       - Hinge
       band: developing
       in_catalog: true
-      kin_score: 45.0
+      kin_score: 47.5
       mcp:
         source: https://developer.calendly.com/calendly-mcp-server
         status: documented
@@ -4614,13 +4614,13 @@ stack:
       url: /capabilities/knowledge-curation-taxonomy-management/
       via_parent: Knowledge Curation & Taxonomy Management
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Hinge
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 78.4
       mcp:
         source: https://www.elastic.co/docs/solutions/search/mcp
         status: verified
@@ -4645,12 +4645,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Bumble
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id003
       name: Facebook
       slug: facebook
@@ -4669,12 +4669,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.7
+      agent_readiness: 42.8
       apps:
       - Hinge
       band: exemplar
       in_catalog: true
-      kin_score: 69.5
+      kin_score: 68.1
       mcp:
         source: https://github.com/browserstack/mcp-server
         status: verified
@@ -4699,12 +4699,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Hinge
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -4731,14 +4731,14 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Bumble
       - Duolicious
       - Hinge
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -4770,7 +4770,7 @@ stack:
       - Hinge
       band: thin
       in_catalog: true
-      kin_score: 36.0
+      kin_score: 36.6
       mcp:
         source: https://registry.npmjs.org/@arizeai/phoenix-mcp
         status: verified
@@ -4795,12 +4795,12 @@ stack:
       via_parent: Vertical Agents
     providers:
     - agent_band: agent-aware
-      agent_readiness: 9.3
+      agent_readiness: 9.1
       apps:
       - Bumble
       band: emerging
       in_catalog: true
-      kin_score: 17.8
+      kin_score: 17.9
       mcp:
         status: none
       name: Sierra
@@ -4823,11 +4823,11 @@ summary:
   in_catalog: 80
   mcp:
     documented: 2
-    none: 37
-    unchecked: 5
+    none: 38
+    unchecked: 3
     verified: 33
   mcp_verified: 33
-  mean_kin_score: 45.0
+  mean_kin_score: 47.7
   observed: 36
   queued: 3
   reference_apps: 7

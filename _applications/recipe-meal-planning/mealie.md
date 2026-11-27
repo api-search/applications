@@ -37,10 +37,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id001
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -66,10 +66,10 @@ noindex: false
 permalink: /applications/recipe-meal-planning/mealie/
 providers:
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id001
   name: openai
   slug: openai

@@ -52,10 +52,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 42.6
+    agent_readiness: 41.8
     band: exemplar
     in_catalog: true
-    kin_score: 79.9
+    kin_score: 79.8
     mcp: &id001
       source: https://github.com/atlassian/atlassian-mcp-server
       status: verified
@@ -83,10 +83,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id003
       source: https://github.com/google/mcp
       status: verified
@@ -113,11 +113,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 25.6
-    band: strong
+    agent_band: agent-ready
+    agent_readiness: 30.2
+    band: exemplar
     in_catalog: true
-    kin_score: 66.3
+    kin_score: 70.5
     mcp: &id005
       source: https://github.com/microsoft/mcp
       status: verified
@@ -145,10 +145,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 53.8
+    agent_readiness: 47.1
     band: exemplar
     in_catalog: true
-    kin_score: 78.0
+    kin_score: 81.8
     mcp: &id007
       source: https://developer.okta.com/docs/concepts/mcp-server/
       status: verified
@@ -176,10 +176,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 59.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.6
+    kin_score: 70.4
     mcp: &id009
       source: https://github.com/oracle/mcp
       status: verified
@@ -207,10 +207,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.7
+    agent_readiness: 53.6
     band: exemplar
     in_catalog: true
-    kin_score: 90.6
+    kin_score: 88.0
     mcp: &id011
       source: https://github.com/salesforcecli/mcp
       status: verified
@@ -238,10 +238,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.2
+    agent_readiness: 42.3
     band: strong
     in_catalog: true
-    kin_score: 64.1
+    kin_score: 61.9
     mcp: &id013
       status: none
     slug: servicenow
@@ -266,10 +266,10 @@ noindex: false
 permalink: /applications/video-conferencing/zoom/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 42.6
+  agent_readiness: 41.8
   band: exemplar
   in_catalog: true
-  kin_score: 79.9
+  kin_score: 79.8
   mcp: *id001
   name: Atlassian
   slug: atlassian
@@ -277,21 +277,21 @@ providers:
   tags: *id002
   url: /providers/atlassian/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id003
   name: Google
   slug: google
   status: profiled
   tags: *id004
   url: /providers/google/
-- agent_band: agent-aware
-  agent_readiness: 25.6
-  band: strong
+- agent_band: agent-ready
+  agent_readiness: 30.2
+  band: exemplar
   in_catalog: true
-  kin_score: 66.3
+  kin_score: 70.5
   mcp: *id005
   name: Microsoft
   slug: microsoft
@@ -299,10 +299,10 @@ providers:
   tags: *id006
   url: /providers/microsoft/
 - agent_band: agent-ready
-  agent_readiness: 53.8
+  agent_readiness: 47.1
   band: exemplar
   in_catalog: true
-  kin_score: 78.0
+  kin_score: 81.8
   mcp: *id007
   name: Okta
   slug: okta
@@ -310,10 +310,10 @@ providers:
   tags: *id008
   url: /providers/okta/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 59.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.6
+  kin_score: 70.4
   mcp: *id009
   name: Oracle
   slug: oracle
@@ -321,10 +321,10 @@ providers:
   tags: *id010
   url: /providers/oracle/
 - agent_band: agent-ready
-  agent_readiness: 54.7
+  agent_readiness: 53.6
   band: exemplar
   in_catalog: true
-  kin_score: 90.6
+  kin_score: 88.0
   mcp: *id011
   name: Salesforce
   slug: salesforce
@@ -332,10 +332,10 @@ providers:
   tags: *id012
   url: /providers/salesforce/
 - agent_band: agent-ready
-  agent_readiness: 43.2
+  agent_readiness: 42.3
   band: strong
   in_catalog: true
-  kin_score: 64.1
+  kin_score: 61.9
   mcp: *id013
   name: ServiceNow
   slug: servicenow

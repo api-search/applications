@@ -82,10 +82,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 32.6
+    kin_score: 31.6
     mcp: &id003
       source: https://github.com/mailgun/mailgun-mcp-server
       status: verified
@@ -113,10 +113,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.7
+    agent_readiness: 43.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.3
+    kin_score: 70.5
     mcp: &id005
       source: https://github.com/ActiveCampaign/postmark-mcp
       status: verified
@@ -144,10 +144,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 20.7
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 38.0
     mcp: &id007
       status: none
     slug: pusher
@@ -183,10 +183,10 @@ providers:
   tags: *id002
   url: null
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 32.6
+  kin_score: 31.6
   mcp: *id003
   name: Mailgun
   slug: mailgun
@@ -194,10 +194,10 @@ providers:
   tags: *id004
   url: /providers/mailgun/
 - agent_band: agent-ready
-  agent_readiness: 41.7
+  agent_readiness: 43.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.3
+  kin_score: 70.5
   mcp: *id005
   name: Postmark
   slug: postmark
@@ -205,10 +205,10 @@ providers:
   tags: *id006
   url: /providers/postmark/
 - agent_band: agent-aware
-  agent_readiness: 20.7
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 38.0
   mcp: *id007
   name: Pusher
   slug: pusher

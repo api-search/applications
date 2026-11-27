@@ -698,13 +698,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.7
+      agent_readiness: 21.3
       apps:
       - Jellyfin
       - Plex
       band: developing
       in_catalog: true
-      kin_score: 49.9
+      kin_score: 50.6
       mcp:
         status: none
       name: The Movie Database
@@ -721,13 +721,13 @@ stack:
       tier: observed
       url: /providers/tmdb/
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.3
       apps:
       - Jellyfin
       - Plex
       band: developing
       in_catalog: true
-      kin_score: 42.5
+      kin_score: 40.7
       mcp:
         status: unknown
       name: TheTVDB
@@ -743,13 +743,13 @@ stack:
       - Television
       tier: observed
       url: /providers/tvdb/
-    - agent_band: agent-ready
-      agent_readiness: 36.6
+    - agent_band: agent-aware
+      agent_readiness: 27.8
       apps:
       - Jellyfin
       band: developing
       in_catalog: true
-      kin_score: 47.3
+      kin_score: 48.3
       mcp:
         status: none
       name: AniList
@@ -765,12 +765,12 @@ stack:
       tier: observed
       url: /providers/anilist/
     - agent_band: agent-aware
-      agent_readiness: 26.6
+      agent_readiness: 25.9
       apps:
       - Jellyfin
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 34.3
       mcp:
         status: none
       name: OMDb
@@ -786,12 +786,12 @@ stack:
       tier: observed
       url: /providers/omdb/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.1
       apps:
       - Jellyfin
       band: minimal
       in_catalog: true
-      kin_score: 7.4
+      kin_score: 7.3
       mcp:
         status: unknown
       name: AniDB
@@ -805,12 +805,12 @@ stack:
       tier: observed
       url: /providers/anidb/
     - agent_band: agent-aware
-      agent_readiness: 8.6
+      agent_readiness: 5.6
       apps:
       - Plex
       band: emerging
       in_catalog: true
-      kin_score: 17.7
+      kin_score: 25.9
       mcp:
         status: none
       name: IMDb
@@ -840,7 +840,7 @@ stack:
       - Plex
       band: minimal
       in_catalog: true
-      kin_score: 7.8
+      kin_score: 10.3
       mcp:
         status: unknown
       name: Fanart.tv
@@ -862,7 +862,7 @@ stack:
       - Jellyfin
       band: minimal
       in_catalog: true
-      kin_score: 4.3
+      kin_score: 3.4
       mcp:
         source: https://mcp.opensubtitles.com
         status: verified
@@ -879,12 +879,12 @@ stack:
       tier: observed
       url: /providers/opensubtitles/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Plex
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.6
+      kin_score: 12.4
       mcp:
         status: unknown
       name: CineMaterial
@@ -924,14 +924,14 @@ stack:
       url: /capabilities/audio-music/
       via_parent: Audio & Music
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 31.3
+    - agent_band: agent-aware
+      agent_readiness: 27.2
       apps:
       - Jellyfin
       - Plex
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 38.2
       mcp:
         status: none
       name: MusicBrainz
@@ -953,7 +953,7 @@ stack:
       - Jellyfin
       band: minimal
       in_catalog: true
-      kin_score: 3.3
+      kin_score: 2.4
       mcp:
         status: none
       name: TheAudioDB
@@ -967,12 +967,12 @@ stack:
       tier: observed
       url: /providers/theaudiodb/
     - agent_band: agent-aware
-      agent_readiness: 23.7
+      agent_readiness: 25.9
       apps:
       - Plex
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 54.2
+      kin_score: 54.4
       mcp:
         status: none
       name: Last.fm
@@ -993,7 +993,7 @@ stack:
       - Plex
       band: minimal
       in_catalog: true
-      kin_score: 2.7
+      kin_score: 1.8
       mcp:
         status: unknown
       name: AllMusic
@@ -1014,13 +1014,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.9
+      agent_readiness: 22.4
       apps:
       - Emby
       - Jellyfin
       band: developing
       in_catalog: true
-      kin_score: 49.0
+      kin_score: 48.6
       mcp:
         status: none
       name: Trakt
@@ -1040,9 +1040,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Jellyfin
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.7
+      kin_score: 11.6
       mcp:
         status: none
       name: ListenBrainz
@@ -1069,9 +1069,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Emby
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 7.2
+      kin_score: 12.6
       mcp:
         status: unknown
       name: SiliconDust HDHomeRun
@@ -1095,12 +1095,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Emby
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.3
+      kin_score: 15.1
       mcp:
         status: unknown
       name: Schedules Direct
@@ -1124,12 +1124,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 0.6
+      agent_readiness: 1.7
       apps:
       - MediaCMS
-      band: emerging
+      band: minimal
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 10.6
       mcp:
         status: none
       name: Moodle
@@ -1153,12 +1153,12 @@ stack:
       via_parent: Video Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - PeerTube
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube
@@ -1183,13 +1183,35 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
+    - agent_band: agent-ready
+      agent_readiness: 34.8
+      apps:
+      - PeerTube
+      band: exemplar
+      in_catalog: true
+      kin_score: 76.6
+      mcp:
+        source: https://github.com/awslabs/mcp
+        status: verified
+      name: Amazon S3
+      slug: amazon-s3
+      sources:
+      - https://github.com/Chocobozzz/PeerTube/blob/develop/config/default.yaml
+      status: profiled
+      tags:
+      - Amazon Web Services
+      - Archives
+      - Backup
+      - Cloud Storage
+      tier: declared
+      url: /providers/amazon-s3/
     - agent_band: agent-native
-      agent_readiness: 52.1
+      agent_readiness: 53.7
       apps:
       - Owncast
       band: exemplar
       in_catalog: true
-      kin_score: 76.9
+      kin_score: 75.6
       mcp:
         source: https://github.com/oracle/mcp
         status: verified
@@ -1206,34 +1228,12 @@ stack:
       tier: declared
       url: /providers/oracle-cloud/
     - agent_band: agent-aware
-      agent_readiness: 23.3
-      apps:
-      - PeerTube
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.2
-      mcp:
-        source: https://github.com/awslabs/mcp
-        status: verified
-      name: Amazon S3
-      slug: amazon-s3
-      sources:
-      - https://github.com/Chocobozzz/PeerTube/blob/develop/config/default.yaml
-      status: profiled
-      tags:
-      - Amazon Web Services
-      - Archives
-      - Backup
-      - Cloud Storage
-      tier: declared
-      url: /providers/amazon-s3/
-    - agent_band: agent-aware
-      agent_readiness: 27.1
+      agent_readiness: 26.6
       apps:
       - PeerTube
       band: developing
       in_catalog: true
-      kin_score: 53.8
+      kin_score: 51.6
       mcp:
         source: https://github.com/scaleway/scaleway-cli
         status: verified
@@ -1258,13 +1258,13 @@ stack:
       via_parent: Device & IP Location
     providers:
     - agent_band: agent-aware
-      agent_readiness: 17.9
+      agent_readiness: 23.7
       apps:
       - Owncast
       - PeerTube
       band: thin
       in_catalog: true
-      kin_score: 33.3
+      kin_score: 31.5
       mcp:
         status: none
       name: MaxMind GeoIP
@@ -1295,7 +1295,7 @@ stack:
       - Plex
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -1321,12 +1321,12 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Owncast
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -1353,7 +1353,7 @@ summary:
     unchecked: 1
     verified: 5
   mcp_verified: 5
-  mean_kin_score: 33.2
+  mean_kin_score: 34.3
   observed: 15
   queued: 1
   reference_apps: 6

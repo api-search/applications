@@ -38,10 +38,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.3
+    agent_readiness: 20.9
     band: thin
     in_catalog: true
-    kin_score: 31.8
+    kin_score: 34.7
     mcp: &id001
       status: none
     slug: duo-security
@@ -68,10 +68,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.6
+    agent_readiness: 25.0
     band: strong
     in_catalog: true
-    kin_score: 58.3
+    kin_score: 58.0
     mcp: &id003
       status: none
     slug: yubico
@@ -96,10 +96,10 @@ noindex: false
 permalink: /applications/password-manager/passbolt/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 21.3
+  agent_readiness: 20.9
   band: thin
   in_catalog: true
-  kin_score: 31.8
+  kin_score: 34.7
   mcp: *id001
   name: Duo Security
   slug: duo-security
@@ -107,10 +107,10 @@ providers:
   tags: *id002
   url: /providers/duo-security/
 - agent_band: agent-aware
-  agent_readiness: 25.6
+  agent_readiness: 25.0
   band: strong
   in_catalog: true
-  kin_score: 58.3
+  kin_score: 58.0
   mcp: *id003
   name: Yubico
   slug: yubico

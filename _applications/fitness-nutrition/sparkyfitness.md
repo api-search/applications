@@ -112,10 +112,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.6
+    agent_readiness: 46.6
     band: exemplar
     in_catalog: true
-    kin_score: 87.5
+    kin_score: 86.4
     mcp: &id002
       source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
       status: verified
@@ -146,7 +146,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 21.4
+    kin_score: 20.0
     mcp: &id014
       status: none
     slug: garmin
@@ -173,10 +173,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-ready
-    agent_readiness: 48.5
+    agent_readiness: 47.8
     band: exemplar
     in_catalog: true
-    kin_score: 68.8
+    kin_score: 68.9
     mcp: &id016
       source: https://github.com/google/mcp
       status: verified
@@ -204,10 +204,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id032
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -235,10 +235,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id004
       status: none
     slug: apple
@@ -265,10 +265,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.3
+    agent_readiness: 27.7
     band: thin
     in_catalog: true
-    kin_score: 28.0
+    kin_score: 35.8
     mcp: &id006
       source: https://github.com/coroslab/COROS-MCP
       status: verified
@@ -296,10 +296,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
+    agent_readiness: 31.2
     band: developing
     in_catalog: true
-    kin_score: 53.6
+    kin_score: 52.9
     mcp: &id008
       status: none
     slug: fatsecret
@@ -326,10 +326,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 30.7
     band: strong
     in_catalog: true
-    kin_score: 61.6
+    kin_score: 61.5
     mcp: &id010
       status: none
     slug: fitbit
@@ -356,10 +356,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 6.3
+    agent_readiness: 6.2
     band: emerging
     in_catalog: true
-    kin_score: 22.4
+    kin_score: 23.6
     mcp: &id012
       status: none
     slug: free-exercise-db
@@ -404,7 +404,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.4
+    kin_score: 2.6
     mcp: &id018
       status: unknown
     slug: health-canada
@@ -431,10 +431,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.7
+    agent_readiness: 21.2
     band: developing
     in_catalog: true
-    kin_score: 47.3
+    kin_score: 45.7
     mcp: &id020
       status: none
     slug: hevy
@@ -461,10 +461,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.7
+    kin_score: 5.2
     mcp: &id022
       status: none
     slug: livsmedelsverket
@@ -491,10 +491,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.7
+    agent_readiness: 29.1
     band: developing
     in_catalog: true
-    kin_score: 41.5
+    kin_score: 41.7
     mcp: &id024
       status: none
     slug: mealie
@@ -521,10 +521,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 9.2
+    agent_readiness: 9.0
     band: emerging
     in_catalog: true
-    kin_score: 24.5
+    kin_score: 24.7
     mcp: &id026
       status: none
     slug: norish
@@ -551,10 +551,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.6
+    agent_readiness: 25.8
     band: thin
     in_catalog: true
-    kin_score: 34.3
+    kin_score: 32.6
     mcp: &id028
       status: none
     slug: nutritionix
@@ -581,10 +581,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.1
+    agent_readiness: 30.5
     band: strong
     in_catalog: true
-    kin_score: 65.1
+    kin_score: 66.2
     mcp: &id030
       status: none
     slug: open-food-facts
@@ -611,10 +611,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.1
+    agent_readiness: 27.5
     band: developing
     in_catalog: true
-    kin_score: 50.2
+    kin_score: 50.4
     mcp: &id034
       status: none
     slug: oura-ring
@@ -641,10 +641,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.0
-    band: emerging
+    agent_readiness: 12.7
+    band: thin
     in_catalog: true
-    kin_score: 18.8
+    kin_score: 27.4
     mcp: &id036
       status: none
     slug: pikapods
@@ -671,10 +671,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.0
+    agent_readiness: 30.3
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.9
     mcp: &id038
       status: unknown
     slug: polar
@@ -701,10 +701,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 51.3
     band: developing
     in_catalog: true
-    kin_score: 50.0
+    kin_score: 52.0
     mcp: &id040
       status: none
     slug: strava
@@ -731,10 +731,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.9
+    agent_readiness: 22.3
     band: developing
     in_catalog: true
-    kin_score: 39.5
+    kin_score: 39.7
     mcp: &id042
       status: none
     slug: swiss-food-composition-database
@@ -761,10 +761,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.7
+    agent_readiness: 26.2
     band: strong
     in_catalog: true
-    kin_score: 61.0
+    kin_score: 59.5
     mcp: &id044
       status: none
     slug: tandoor
@@ -791,10 +791,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.0
+    agent_readiness: 20.6
     band: thin
     in_catalog: true
-    kin_score: 32.4
+    kin_score: 30.8
     mcp: &id046
       status: none
     slug: usda
@@ -821,10 +821,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.1
+    agent_readiness: 34.4
     band: developing
     in_catalog: true
-    kin_score: 49.5
+    kin_score: 47.7
     mcp: &id048
       source: https://github.com/wger-project/mcp-server
       status: verified
@@ -852,10 +852,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_readiness: 25.4
     band: thin
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 36.4
     mcp: &id050
       status: none
     slug: withings
@@ -885,7 +885,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 13.3
+    kin_score: 14.3
     mcp: &id052
       status: none
     slug: yazio
@@ -912,10 +912,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 18.7
-    band: emerging
+    agent_readiness: 21.7
+    band: thin
     in_catalog: true
-    kin_score: 23.3
+    kin_score: 34.3
     mcp: &id054
       status: none
     slug: zenith-hosting
@@ -940,10 +940,10 @@ noindex: false
 permalink: /applications/fitness-nutrition/sparkyfitness/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 47.6
+  agent_readiness: 46.6
   band: exemplar
   in_catalog: true
-  kin_score: 87.5
+  kin_score: 86.4
   mcp: *id002
   name: anthropic
   slug: anthropic
@@ -951,10 +951,10 @@ providers:
   tags: *id003
   url: /providers/anthropic/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id004
   name: apple
   slug: apple
@@ -962,10 +962,10 @@ providers:
   tags: *id005
   url: /providers/apple/
 - agent_band: agent-aware
-  agent_readiness: 28.3
+  agent_readiness: 27.7
   band: thin
   in_catalog: true
-  kin_score: 28.0
+  kin_score: 35.8
   mcp: *id006
   name: coros
   slug: coros
@@ -973,10 +973,10 @@ providers:
   tags: *id007
   url: /providers/coros/
 - agent_band: agent-ready
-  agent_readiness: 31.9
+  agent_readiness: 31.2
   band: developing
   in_catalog: true
-  kin_score: 53.6
+  kin_score: 52.9
   mcp: *id008
   name: fatsecret
   slug: fatsecret
@@ -984,10 +984,10 @@ providers:
   tags: *id009
   url: /providers/fatsecret/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 30.7
   band: strong
   in_catalog: true
-  kin_score: 61.6
+  kin_score: 61.5
   mcp: *id010
   name: fitbit
   slug: fitbit
@@ -995,10 +995,10 @@ providers:
   tags: *id011
   url: /providers/fitbit/
 - agent_band: agent-aware
-  agent_readiness: 6.3
+  agent_readiness: 6.2
   band: emerging
   in_catalog: true
-  kin_score: 22.4
+  kin_score: 23.6
   mcp: *id012
   name: free-exercise-db
   slug: free-exercise-db
@@ -1009,7 +1009,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 21.4
+  kin_score: 20.0
   mcp: *id014
   name: garmin
   slug: garmin
@@ -1017,10 +1017,10 @@ providers:
   tags: *id015
   url: /providers/garmin/
 - agent_band: agent-ready
-  agent_readiness: 48.5
+  agent_readiness: 47.8
   band: exemplar
   in_catalog: true
-  kin_score: 68.8
+  kin_score: 68.9
   mcp: *id016
   name: google
   slug: google
@@ -1031,7 +1031,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.4
+  kin_score: 2.6
   mcp: *id018
   name: health-canada
   slug: health-canada
@@ -1039,10 +1039,10 @@ providers:
   tags: *id019
   url: /providers/health-canada/
 - agent_band: agent-aware
-  agent_readiness: 21.7
+  agent_readiness: 21.2
   band: developing
   in_catalog: true
-  kin_score: 47.3
+  kin_score: 45.7
   mcp: *id020
   name: hevy
   slug: hevy
@@ -1050,10 +1050,10 @@ providers:
   tags: *id021
   url: /providers/hevy/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.7
+  kin_score: 5.2
   mcp: *id022
   name: livsmedelsverket
   slug: livsmedelsverket
@@ -1061,10 +1061,10 @@ providers:
   tags: *id023
   url: /providers/livsmedelsverket/
 - agent_band: agent-ready
-  agent_readiness: 29.7
+  agent_readiness: 29.1
   band: developing
   in_catalog: true
-  kin_score: 41.5
+  kin_score: 41.7
   mcp: *id024
   name: mealie
   slug: mealie
@@ -1072,10 +1072,10 @@ providers:
   tags: *id025
   url: /providers/mealie/
 - agent_band: agent-aware
-  agent_readiness: 9.2
+  agent_readiness: 9.0
   band: emerging
   in_catalog: true
-  kin_score: 24.5
+  kin_score: 24.7
   mcp: *id026
   name: norish
   slug: norish
@@ -1083,10 +1083,10 @@ providers:
   tags: *id027
   url: /providers/norish/
 - agent_band: agent-aware
-  agent_readiness: 24.6
+  agent_readiness: 25.8
   band: thin
   in_catalog: true
-  kin_score: 34.3
+  kin_score: 32.6
   mcp: *id028
   name: nutritionix
   slug: nutritionix
@@ -1094,10 +1094,10 @@ providers:
   tags: *id029
   url: /providers/nutritionix/
 - agent_band: agent-ready
-  agent_readiness: 31.1
+  agent_readiness: 30.5
   band: strong
   in_catalog: true
-  kin_score: 65.1
+  kin_score: 66.2
   mcp: *id030
   name: open-food-facts
   slug: open-food-facts
@@ -1105,10 +1105,10 @@ providers:
   tags: *id031
   url: /providers/open-food-facts/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id032
   name: openai
   slug: openai
@@ -1116,10 +1116,10 @@ providers:
   tags: *id033
   url: /providers/openai/
 - agent_band: agent-aware
-  agent_readiness: 28.1
+  agent_readiness: 27.5
   band: developing
   in_catalog: true
-  kin_score: 50.2
+  kin_score: 50.4
   mcp: *id034
   name: oura-ring
   slug: oura-ring
@@ -1127,10 +1127,10 @@ providers:
   tags: *id035
   url: /providers/oura-ring/
 - agent_band: agent-aware
-  agent_readiness: 15.0
-  band: emerging
+  agent_readiness: 12.7
+  band: thin
   in_catalog: true
-  kin_score: 18.8
+  kin_score: 27.4
   mcp: *id036
   name: pikapods
   slug: pikapods
@@ -1138,10 +1138,10 @@ providers:
   tags: *id037
   url: /providers/pikapods/
 - agent_band: agent-ready
-  agent_readiness: 31.0
+  agent_readiness: 30.3
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.9
   mcp: *id038
   name: polar
   slug: polar
@@ -1149,10 +1149,10 @@ providers:
   tags: *id039
   url: /providers/polar/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 51.3
   band: developing
   in_catalog: true
-  kin_score: 50.0
+  kin_score: 52.0
   mcp: *id040
   name: strava
   slug: strava
@@ -1160,10 +1160,10 @@ providers:
   tags: *id041
   url: /providers/strava/
 - agent_band: agent-aware
-  agent_readiness: 22.9
+  agent_readiness: 22.3
   band: developing
   in_catalog: true
-  kin_score: 39.5
+  kin_score: 39.7
   mcp: *id042
   name: swiss-food-composition-database
   slug: swiss-food-composition-database
@@ -1171,10 +1171,10 @@ providers:
   tags: *id043
   url: /providers/swiss-food-composition-database/
 - agent_band: agent-aware
-  agent_readiness: 26.7
+  agent_readiness: 26.2
   band: strong
   in_catalog: true
-  kin_score: 61.0
+  kin_score: 59.5
   mcp: *id044
   name: tandoor
   slug: tandoor
@@ -1182,10 +1182,10 @@ providers:
   tags: *id045
   url: /providers/tandoor/
 - agent_band: agent-aware
-  agent_readiness: 21.0
+  agent_readiness: 20.6
   band: thin
   in_catalog: true
-  kin_score: 32.4
+  kin_score: 30.8
   mcp: *id046
   name: usda
   slug: usda
@@ -1193,10 +1193,10 @@ providers:
   tags: *id047
   url: /providers/usda/
 - agent_band: agent-ready
-  agent_readiness: 35.1
+  agent_readiness: 34.4
   band: developing
   in_catalog: true
-  kin_score: 49.5
+  kin_score: 47.7
   mcp: *id048
   name: wger
   slug: wger
@@ -1204,10 +1204,10 @@ providers:
   tags: *id049
   url: /providers/wger/
 - agent_band: agent-aware
-  agent_readiness: 25.9
+  agent_readiness: 25.4
   band: thin
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 36.4
   mcp: *id050
   name: withings
   slug: withings
@@ -1218,7 +1218,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 13.3
+  kin_score: 14.3
   mcp: *id052
   name: yazio
   slug: yazio
@@ -1226,10 +1226,10 @@ providers:
   tags: *id053
   url: /providers/yazio/
 - agent_band: agent-aware
-  agent_readiness: 18.7
-  band: emerging
+  agent_readiness: 21.7
+  band: thin
   in_catalog: true
-  kin_score: 23.3
+  kin_score: 34.3
   mcp: *id054
   name: zenith-hosting
   slug: zenith-hosting

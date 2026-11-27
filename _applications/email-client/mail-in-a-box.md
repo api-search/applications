@@ -66,11 +66,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id001
       source: https://github.com/awslabs/mcp
       status: verified
@@ -97,11 +97,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.9
+    agent_band: agent-aware
+    agent_readiness: 27.4
     band: developing
     in_catalog: true
-    kin_score: 50.9
+    kin_score: 49.6
     mcp: &id003
       source: https://github.com/backblaze-labs/b2-mcp
       status: verified
@@ -129,10 +129,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.2
+    agent_readiness: 16.8
     band: emerging
     in_catalog: true
-    kin_score: 24.3
+    kin_score: 23.7
     mcp: &id005
       status: none
     slug: lets-encrypt
@@ -159,10 +159,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id007
       status: none
     slug: nextcloud
@@ -189,10 +189,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.8
+    kin_score: 21.5
     mcp: &id009
       status: none
     slug: spamhaus
@@ -216,22 +216,22 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/email-client/mail-in-a-box/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id001
   name: Amazon S3
   slug: amazon-s3
   status: profiled
   tags: *id002
   url: /providers/amazon-s3/
-- agent_band: agent-ready
-  agent_readiness: 31.9
+- agent_band: agent-aware
+  agent_readiness: 27.4
   band: developing
   in_catalog: true
-  kin_score: 50.9
+  kin_score: 49.6
   mcp: *id003
   name: Backblaze B2
   slug: backblaze
@@ -239,10 +239,10 @@ providers:
   tags: *id004
   url: /providers/backblaze/
 - agent_band: agent-aware
-  agent_readiness: 17.2
+  agent_readiness: 16.8
   band: emerging
   in_catalog: true
-  kin_score: 24.3
+  kin_score: 23.7
   mcp: *id005
   name: Let's Encrypt
   slug: lets-encrypt
@@ -250,10 +250,10 @@ providers:
   tags: *id006
   url: /providers/lets-encrypt/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id007
   name: Nextcloud
   slug: nextcloud
@@ -261,10 +261,10 @@ providers:
   tags: *id008
   url: /providers/nextcloud/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.8
+  kin_score: 21.5
   mcp: *id009
   name: Spamhaus
   slug: spamhaus

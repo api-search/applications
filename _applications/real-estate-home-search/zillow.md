@@ -129,10 +129,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.8
-    band: emerging
+    agent_readiness: 23.3
+    band: thin
     in_catalog: true
-    kin_score: 24.9
+    kin_score: 30.9
     mcp: &id002
       status: none
     slug: adjust
@@ -159,10 +159,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 27.9
+    kin_score: 28.3
     mcp: &id004
       source: https://github.com/urbanairship/agent-tools
       status: verified
@@ -190,10 +190,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.0
+    agent_readiness: 25.5
     band: developing
     in_catalog: true
-    kin_score: 40.4
+    kin_score: 40.0
     mcp: &id006
       status: none
     slug: apptentive
@@ -220,10 +220,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.2
+    agent_readiness: 12.0
     band: emerging
     in_catalog: true
-    kin_score: 16.9
+    kin_score: 17.9
     mcp: &id008
       status: none
     slug: comscore
@@ -250,10 +250,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id010
       status: none
     slug: facebook
@@ -310,10 +310,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id012
       status: none
     slug: google-admob
@@ -340,10 +340,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id014
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -370,22 +370,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id016
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id017
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics
   provider: firebase
@@ -402,10 +402,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id018
       status: none
     slug: google-tag-manager
@@ -435,9 +435,10 @@ integrations:
     agent_readiness: 23.8
     band: thin
     in_catalog: true
-    kin_score: 32.5
+    kin_score: 32.3
     mcp: &id020
-      status: unchecked
+      source: https://mcp.radar.com/mcp
+      status: verified
     slug: radar-io
     status: profiled
     tags: &id021
@@ -465,7 +466,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id022
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -493,10 +494,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.4
+    agent_readiness: 25.9
     band: thin
     in_catalog: true
-    kin_score: 36.5
+    kin_score: 35.9
     mcp: &id024
       status: none
     slug: split
@@ -521,10 +522,10 @@ noindex: false
 permalink: /applications/real-estate-home-search/zillow/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 23.8
-  band: emerging
+  agent_readiness: 23.3
+  band: thin
   in_catalog: true
-  kin_score: 24.9
+  kin_score: 30.9
   mcp: *id002
   name: Adjust
   slug: adjust
@@ -532,10 +533,10 @@ providers:
   tags: *id003
   url: /providers/adjust/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 27.9
+  kin_score: 28.3
   mcp: *id004
   name: Airship (Urbanairship)
   slug: airship
@@ -543,10 +544,10 @@ providers:
   tags: *id005
   url: /providers/airship/
 - agent_band: agent-aware
-  agent_readiness: 26.0
+  agent_readiness: 25.5
   band: developing
   in_catalog: true
-  kin_score: 40.4
+  kin_score: 40.0
   mcp: *id006
   name: Apptentive (Alchemer Mobile)
   slug: apptentive
@@ -554,10 +555,10 @@ providers:
   tags: *id007
   url: /providers/apptentive/
 - agent_band: agent-aware
-  agent_readiness: 12.2
+  agent_readiness: 12.0
   band: emerging
   in_catalog: true
-  kin_score: 16.9
+  kin_score: 17.9
   mcp: *id008
   name: Comscore
   slug: comscore
@@ -565,10 +566,10 @@ providers:
   tags: *id009
   url: /providers/comscore/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id010
   name: Facebook Analytics
   slug: facebook
@@ -576,10 +577,10 @@ providers:
   tags: *id011
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 35.3
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 65.2
   mcp: *id012
   name: Google AdMob
   slug: google-admob
@@ -587,32 +588,32 @@ providers:
   tags: *id013
   url: /providers/google-admob/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id014
   name: Google Analytics
   slug: google-analytics
   status: profiled
   tags: *id015
   url: /providers/google-analytics/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id016
-  name: Google Firebase Analytics
-  slug: firebase
-  status: profiled
-  tags: *id017
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 62.0
+  mcp: *id016
+  name: Google Firebase Analytics
+  slug: google-firebase
+  status: profiled
+  tags: *id017
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 35.8
+  band: strong
+  in_catalog: true
+  kin_score: 65.8
   mcp: *id018
   name: Google Tag Manager
   slug: google-tag-manager
@@ -623,7 +624,7 @@ providers:
   agent_readiness: 23.8
   band: thin
   in_catalog: true
-  kin_score: 32.5
+  kin_score: 32.3
   mcp: *id020
   name: Radar
   slug: radar-io
@@ -634,7 +635,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id022
   name: Sentry
   slug: sentry-system
@@ -642,10 +643,10 @@ providers:
   tags: *id023
   url: /providers/sentry-system/
 - agent_band: agent-aware
-  agent_readiness: 26.4
+  agent_readiness: 25.9
   band: thin
   in_catalog: true
-  kin_score: 36.5
+  kin_score: 35.9
   mcp: *id024
   name: Split (Harness FME)
   slug: split
@@ -654,7 +655,7 @@ providers:
   url: /providers/split/
 siblings:
 - name: Flathunter
-  rows: 16
+  rows: 14
   url: /applications/real-estate-home-search/flathunter/
 - name: HomeHarvest
   rows: 1

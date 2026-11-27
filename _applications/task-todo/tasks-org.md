@@ -77,10 +77,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 17.9
+    kin_score: 22.7
     mcp: &id001
       status: none
     slug: etesync
@@ -106,22 +106,22 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id003
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id004
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase
   provider: firebase
@@ -138,10 +138,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.3
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 67.1
+    kin_score: 73.2
     mcp: &id005
       source: https://github.com/google/mcp
       status: verified
@@ -169,10 +169,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id007
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -199,11 +199,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 38.7
+    band: developing
     in_catalog: true
-    kin_score: 31.6
+    kin_score: 51.3
     mcp: &id009
       status: none
     slug: google-play
@@ -229,11 +229,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 27.1
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 37.9
+    band: strong
     in_catalog: true
-    kin_score: 47.0
+    kin_score: 59.8
     mcp: &id011
       status: none
     slug: google-tasks
@@ -261,9 +261,9 @@ integrations:
   facts:
     agent_band: agent-aware
     agent_readiness: 25.9
-    band: developing
+    band: strong
     in_catalog: true
-    kin_score: 52.8
+    kin_score: 58.2
     mcp: &id013
       status: none
     slug: microsoft-to-do
@@ -289,11 +289,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.3
     band: developing
     in_catalog: true
-    kin_score: 44.4
+    kin_score: 45.5
     mcp: &id015
       status: none
     slug: openstreetmap
@@ -318,32 +318,32 @@ noindex: false
 permalink: /applications/task-todo/tasks-org/
 providers:
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 17.9
+  kin_score: 22.7
   mcp: *id001
   name: EteSync
   slug: etesync
   status: profiled
   tags: *id002
   url: /providers/etesync/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 39.9
+  band: strong
   in_catalog: true
-  kin_score: 50.3
+  kin_score: 62.0
   mcp: *id003
   name: Firebase
-  slug: firebase
+  slug: google-firebase
   status: profiled
   tags: *id004
-  url: /providers/firebase/
+  url: /providers/google-firebase/
 - agent_band: agent-ready
-  agent_readiness: 44.3
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 67.1
+  kin_score: 73.2
   mcp: *id005
   name: Google Drive
   slug: google-drive
@@ -351,32 +351,32 @@ providers:
   tags: *id006
   url: /providers/google-drive/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id007
   name: Google Maps
   slug: google-maps
   status: profiled
   tags: *id008
   url: /providers/google-maps/
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 38.7
+  band: developing
   in_catalog: true
-  kin_score: 31.6
+  kin_score: 51.3
   mcp: *id009
   name: Google Play Billing
   slug: google-play
   status: profiled
   tags: *id010
   url: /providers/google-play/
-- agent_band: agent-aware
-  agent_readiness: 27.1
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 37.9
+  band: strong
   in_catalog: true
-  kin_score: 47.0
+  kin_score: 59.8
   mcp: *id011
   name: Google Tasks
   slug: google-tasks
@@ -385,20 +385,20 @@ providers:
   url: /providers/google-tasks/
 - agent_band: agent-aware
   agent_readiness: 25.9
-  band: developing
+  band: strong
   in_catalog: true
-  kin_score: 52.8
+  kin_score: 58.2
   mcp: *id013
   name: Microsoft To Do
   slug: microsoft-to-do
   status: profiled
   tags: *id014
   url: /providers/microsoft-to-do/
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: developing
   in_catalog: true
-  kin_score: 44.4
+  kin_score: 45.5
   mcp: *id015
   name: OpenStreetMap
   slug: openstreetmap

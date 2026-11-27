@@ -123,10 +123,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
-    band: minimal
+    agent_readiness: 0.0
+    band: emerging
     in_catalog: true
-    kin_score: 10.9
+    kin_score: 16.9
     mcp: &id001
       status: none
     slug: compgen
@@ -152,11 +152,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id003
       status: none
     slug: google-identity-platform
@@ -183,10 +183,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.9
+    agent_readiness: 59.8
     band: exemplar
     in_catalog: true
-    kin_score: 89.0
+    kin_score: 85.1
     mcp: &id005
       source: https://learn.microsoft.com/en-us/graph/mcp-server/overview
       status: verified
@@ -214,10 +214,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id007
       status: none
     slug: nominatim
@@ -244,10 +244,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.4
+    agent_readiness: 57.5
     band: exemplar
     in_catalog: true
-    kin_score: 81.8
+    kin_score: 82.5
     mcp: &id009
       source: https://platform.openai.com/docs/mcp
       status: verified
@@ -276,9 +276,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 7.9
+    kin_score: 12.7
     mcp: &id011
       status: none
     slug: openfreemap
@@ -305,10 +305,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 1.1
     band: minimal
     in_catalog: true
-    kin_score: 6.6
+    kin_score: 6.4
     mcp: &id013
       status: none
     slug: openhistoricalmap
@@ -334,11 +334,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-native
-    agent_readiness: 49.8
+    agent_band: agent-ready
+    agent_readiness: 41.5
     band: developing
     in_catalog: true
-    kin_score: 47.4
+    kin_score: 46.5
     mcp: &id015
       source: https://github.com/redis/mcp-redis
       status: verified
@@ -365,11 +365,11 @@ integrations:
     via_parent: IT Infrastructure Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 23.3
+    agent_band: agent-ready
+    agent_readiness: 34.8
     band: exemplar
     in_catalog: true
-    kin_score: 71.2
+    kin_score: 76.6
     mcp: &id017
       source: https://github.com/awslabs/mcp
       status: verified
@@ -400,7 +400,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id019
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -428,10 +428,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_readiness: 30.7
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 53.4
     mcp: &id021
       source: https://www.wikidata.org/wiki/Wikidata:MCP
       status: verified
@@ -457,21 +457,21 @@ noindex: false
 permalink: /applications/genealogy/gramps-web/
 providers:
 - agent_band: human-only
-  agent_readiness: 2.9
-  band: minimal
+  agent_readiness: 0.0
+  band: emerging
   in_catalog: true
-  kin_score: 10.9
+  kin_score: 16.9
   mcp: *id001
   name: CompGen DES / domus.genealogy.net historical building map
   slug: compgen
   status: profiled
   tags: *id002
   url: /providers/compgen/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id003
   name: Google OIDC sign-in (accounts.google.com)
   slug: google-identity-platform
@@ -479,10 +479,10 @@ providers:
   tags: *id004
   url: /providers/google-identity-platform/
 - agent_band: agent-ready
-  agent_readiness: 57.9
+  agent_readiness: 59.8
   band: exemplar
   in_catalog: true
-  kin_score: 89.0
+  kin_score: 85.1
   mcp: *id005
   name: Microsoft OIDC sign-in (login.microsoftonline.com)
   slug: azure-ad
@@ -490,10 +490,10 @@ providers:
   tags: *id006
   url: /providers/azure-ad/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id007
   name: Nominatim place search (nominatim.openstreetmap.org)
   slug: nominatim
@@ -501,10 +501,10 @@ providers:
   tags: *id008
   url: /providers/nominatim/
 - agent_band: agent-native
-  agent_readiness: 58.4
+  agent_readiness: 57.5
   band: exemplar
   in_catalog: true
-  kin_score: 81.8
+  kin_score: 82.5
   mcp: *id009
   name: OpenAI-compatible LLM via pydantic-ai[openai] (LLM_BASE_URL)
   slug: openai
@@ -513,9 +513,9 @@ providers:
   url: /providers/openai/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 7.9
+  kin_score: 12.7
   mcp: *id011
   name: OpenFreeMap vector styles (tiles.openfreemap.org)
   slug: openfreemap
@@ -523,32 +523,32 @@ providers:
   tags: *id012
   url: /providers/openfreemap/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 1.1
   band: minimal
   in_catalog: true
-  kin_score: 6.6
+  kin_score: 6.4
   mcp: *id013
   name: OpenHistoricalMap time-aware basemap style
   slug: openhistoricalmap
   status: profiled
   tags: *id014
   url: /providers/openhistoricalmap/
-- agent_band: agent-native
-  agent_readiness: 49.8
+- agent_band: agent-ready
+  agent_readiness: 41.5
   band: developing
   in_catalog: true
-  kin_score: 47.4
+  kin_score: 46.5
   mcp: *id015
   name: Redis as Celery broker (celery[redis])
   slug: redis
   status: profiled
   tags: *id016
   url: /providers/redis/
-- agent_band: agent-aware
-  agent_readiness: 23.3
+- agent_band: agent-ready
+  agent_readiness: 34.8
   band: exemplar
   in_catalog: true
-  kin_score: 71.2
+  kin_score: 76.6
   mcp: *id017
   name: S3 media storage (boto3, api/s3.py)
   slug: amazon-s3
@@ -559,7 +559,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id019
   name: Sentry error monitoring (sentry-sdk[flask])
   slug: sentry-system
@@ -567,10 +567,10 @@ providers:
   tags: *id020
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 31.3
+  agent_readiness: 30.7
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 53.4
   mcp: *id021
   name: Wikidata SPARQL buildings layer (query.wikidata.org)
   slug: wikidata

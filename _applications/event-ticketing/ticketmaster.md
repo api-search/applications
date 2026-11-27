@@ -63,10 +63,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id001
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -93,22 +93,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id003
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id004
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google Firebase Analytics / Crashlytics
   provider: firebase
@@ -125,10 +125,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.7
+    agent_readiness: 44.8
     band: strong
     in_catalog: true
-    kin_score: 58.7
+    kin_score: 59.5
     mcp: &id005
       status: none
     slug: mparticle
@@ -155,10 +155,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.8
+    agent_readiness: 52.3
     band: exemplar
     in_catalog: true
-    kin_score: 80.5
+    kin_score: 77.6
     mcp: &id007
       status: none
     slug: salesforce-marketing-cloud
@@ -183,32 +183,32 @@ noindex: false
 permalink: /applications/event-ticketing/ticketmaster/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id001
   name: AppsFlyer
   slug: appsflyer
   status: profiled
   tags: *id002
   url: /providers/appsflyer/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id003
-  name: Google Firebase Analytics / Crashlytics
-  slug: firebase
-  status: profiled
-  tags: *id004
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 45.7
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 58.7
+  kin_score: 62.0
+  mcp: *id003
+  name: Google Firebase Analytics / Crashlytics
+  slug: google-firebase
+  status: profiled
+  tags: *id004
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 44.8
+  band: strong
+  in_catalog: true
+  kin_score: 59.5
   mcp: *id005
   name: mParticle
   slug: mparticle
@@ -216,10 +216,10 @@ providers:
   tags: *id006
   url: /providers/mparticle/
 - agent_band: agent-ready
-  agent_readiness: 56.8
+  agent_readiness: 52.3
   band: exemplar
   in_catalog: true
-  kin_score: 80.5
+  kin_score: 77.6
   mcp: *id007
   name: Salesforce Marketing Cloud
   slug: salesforce-marketing-cloud

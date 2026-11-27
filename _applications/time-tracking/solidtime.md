@@ -43,10 +43,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.8
+    agent_readiness: 24.3
     band: thin
     in_catalog: true
-    kin_score: 34.7
+    kin_score: 33.6
     mcp: &id001
       status: none
     slug: clockify
@@ -73,10 +73,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.5
+    agent_readiness: 21.0
     band: developing
     in_catalog: true
-    kin_score: 47.3
+    kin_score: 45.1
     mcp: &id003
       status: none
     slug: harvest
@@ -103,10 +103,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.2
+    kin_score: 32.8
     mcp: &id005
       source: https://registry.modelcontextprotocol.io/v0/servers?search=toggl
       status: verified
@@ -132,10 +132,10 @@ noindex: false
 permalink: /applications/time-tracking/solidtime/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 24.8
+  agent_readiness: 24.3
   band: thin
   in_catalog: true
-  kin_score: 34.7
+  kin_score: 33.6
   mcp: *id001
   name: Clockify importer
   slug: clockify
@@ -143,10 +143,10 @@ providers:
   tags: *id002
   url: /providers/clockify/
 - agent_band: agent-aware
-  agent_readiness: 21.5
+  agent_readiness: 21.0
   band: developing
   in_catalog: true
-  kin_score: 47.3
+  kin_score: 45.1
   mcp: *id003
   name: Harvest importer
   slug: harvest
@@ -154,10 +154,10 @@ providers:
   tags: *id004
   url: /providers/harvest/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.2
+  kin_score: 32.8
   mcp: *id005
   name: Toggl Track importer
   slug: toggl

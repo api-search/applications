@@ -37,10 +37,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 33.0
+    kin_score: 32.7
     mcp: &id001
       status: none
     slug: nextcloud
@@ -65,10 +65,10 @@ noindex: false
 permalink: /applications/photo-management/nextcloud-memories/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 33.0
+  kin_score: 32.7
   mcp: *id001
   name: nextcloud
   slug: nextcloud

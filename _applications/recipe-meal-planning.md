@@ -533,12 +533,12 @@ stack:
       via_parent: Nutrition & Food Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.5
       apps:
       - Grocy
       band: strong
       in_catalog: true
-      kin_score: 65.1
+      kin_score: 66.2
       mcp:
         status: none
       name: open-food-facts
@@ -554,12 +554,12 @@ stack:
       tier: observed
       url: /providers/open-food-facts/
     - agent_band: agent-aware
-      agent_readiness: 21.0
+      agent_readiness: 20.6
       apps:
       - Tandoor Recipes
       band: thin
       in_catalog: true
-      kin_score: 32.4
+      kin_score: 30.8
       mcp:
         status: none
       name: usda
@@ -582,13 +582,13 @@ stack:
       url: /capabilities/smart-home/
       via_parent: null
     providers:
-    - agent_band: human-only
-      agent_readiness: 5.0
+    - agent_band: agent-aware
+      agent_readiness: 5.6
       apps:
       - Tandoor Recipes
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 22.2
+      kin_score: 34.5
       mcp:
         source: https://www.home-assistant.io/integrations/mcp_server/
         status: verified
@@ -614,14 +614,14 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - KitchenOwl
       - Tandoor Recipes
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: google-identity-platform
@@ -638,12 +638,12 @@ stack:
       tier: declared
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - KitchenOwl
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: apple
@@ -659,12 +659,12 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - Tandoor Recipes
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -681,12 +681,12 @@ stack:
       tier: declared
       url: /providers/github/
     - agent_band: agent-ready
-      agent_readiness: 33.2
+      agent_readiness: 37.2
       apps:
       - Tandoor Recipes
       band: exemplar
       in_catalog: true
-      kin_score: 74.5
+      kin_score: 73.1
       mcp:
         status: none
       name: authentik
@@ -702,7 +702,7 @@ stack:
       tier: declared
       url: /providers/authentik/
     - agent_band: agent-aware
-      agent_readiness: 17.6
+      agent_readiness: 17.3
       apps:
       - Tandoor Recipes
       band: thin
@@ -731,12 +731,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.8
+      agent_readiness: 44.8
       apps:
       - Tandoor Recipes
       band: developing
       in_catalog: true
-      kin_score: 47.9
+      kin_score: 45.9
       mcp:
         source: https://help.dropbox.com/integrations/connect-dropbox-mcp-server
         status: verified
@@ -753,12 +753,12 @@ stack:
       tier: observed
       url: /providers/dropbox/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 18.6
       apps:
       - Tandoor Recipes
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 32.7
       mcp:
         status: none
       name: nextcloud
@@ -787,7 +787,7 @@ stack:
       - Mealime
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -834,7 +834,7 @@ stack:
       - Paprika Recipe Manager
       band: emerging
       in_catalog: true
-      kin_score: 20.6
+      kin_score: 18.6
       mcp:
         status: none
       name: Flurry
@@ -874,12 +874,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Tandoor Recipes
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -904,12 +904,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Tandoor Recipes
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: telegram
@@ -935,13 +935,13 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Mealie
       - Tandoor Recipes
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -959,12 +959,12 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - Tandoor Recipes
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: google-gemini
@@ -988,12 +988,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 46.4
       apps:
       - Tandoor Recipes
       band: strong
       in_catalog: true
-      kin_score: 55.4
+      kin_score: 54.8
       mcp:
         source: https://openrouter.ai/docs/guides/overview/mcp-server
         status: verified
@@ -1021,7 +1021,7 @@ summary:
     unchecked: 1
     verified: 7
   mcp_verified: 7
-  mean_kin_score: 54.2
+  mean_kin_score: 56.0
   observed: 10
   queued: 1
   reference_apps: 6

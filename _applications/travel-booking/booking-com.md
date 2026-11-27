@@ -72,10 +72,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id002
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -103,10 +103,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id004
       status: none
     slug: google-admob
@@ -132,22 +132,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id006
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id007
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Google CrashLytics
   provider: firebase
@@ -179,10 +179,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 38.2
+    agent_readiness: 35.8
     band: strong
     in_catalog: true
-    kin_score: 65.2
+    kin_score: 65.8
     mcp: &id008
       status: none
     slug: google-tag-manager
@@ -207,10 +207,10 @@ noindex: false
 permalink: /applications/travel-booking/booking-com/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id002
   name: AppsFlyer
   slug: appsflyer
@@ -218,32 +218,32 @@ providers:
   tags: *id003
   url: /providers/appsflyer/
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 35.3
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 65.2
   mcp: *id004
   name: Google AdMob
   slug: google-admob
   status: profiled
   tags: *id005
   url: /providers/google-admob/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id006
-  name: Google CrashLytics
-  slug: firebase
-  status: profiled
-  tags: *id007
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 38.2
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 65.2
+  kin_score: 62.0
+  mcp: *id006
+  name: Google CrashLytics
+  slug: google-firebase
+  status: profiled
+  tags: *id007
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 35.8
+  band: strong
+  in_catalog: true
+  kin_score: 65.8
   mcp: *id008
   name: Google Tag Manager
   slug: google-tag-manager

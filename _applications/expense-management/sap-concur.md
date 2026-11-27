@@ -56,10 +56,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.1
-    band: exemplar
+    agent_readiness: 53.0
+    band: strong
     in_catalog: true
-    kin_score: 67.2
+    kin_score: 65.1
     mcp: &id001
       source: https://github.com/adobe/cq-quickstart-mcp-server
       status: verified
@@ -87,10 +87,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.0
+    agent_readiness: 25.5
     band: developing
     in_catalog: true
-    kin_score: 40.4
+    kin_score: 40.0
     mcp: &id003
       status: none
     slug: apptentive
@@ -117,10 +117,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.7
+    agent_readiness: 43.8
     band: exemplar
     in_catalog: true
-    kin_score: 84.1
+    kin_score: 85.6
     mcp: &id005
       source: https://github.com/dynatrace-oss/dynatrace-mcp
       status: verified
@@ -146,10 +146,10 @@ noindex: false
 permalink: /applications/expense-management/sap-concur/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 54.1
-  band: exemplar
+  agent_readiness: 53.0
+  band: strong
   in_catalog: true
-  kin_score: 67.2
+  kin_score: 65.1
   mcp: *id001
   name: Adobe Experience Cloud
   slug: adobe-experience-cloud
@@ -157,10 +157,10 @@ providers:
   tags: *id002
   url: /providers/adobe-experience-cloud/
 - agent_band: agent-aware
-  agent_readiness: 26.0
+  agent_readiness: 25.5
   band: developing
   in_catalog: true
-  kin_score: 40.4
+  kin_score: 40.0
   mcp: *id003
   name: Apptentive
   slug: apptentive
@@ -168,10 +168,10 @@ providers:
   tags: *id004
   url: /providers/apptentive/
 - agent_band: agent-ready
-  agent_readiness: 44.7
+  agent_readiness: 43.8
   band: exemplar
   in_catalog: true
-  kin_score: 84.1
+  kin_score: 85.6
   mcp: *id005
   name: Dynatrace
   slug: dynatrace

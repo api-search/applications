@@ -63,10 +63,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.4
+    agent_readiness: 38.0
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 83.8
     mcp: &id001
       status: none
     slug: amazon-ses
@@ -93,10 +93,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 28.3
+    kin_score: 27.9
     mcp: &id003
       status: none
     slug: friendly-captcha
@@ -123,10 +123,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 17.5
     band: thin
     in_catalog: true
-    kin_score: 31.5
+    kin_score: 31.1
     mcp: &id005
       status: none
     slug: hcaptcha
@@ -153,10 +153,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 32.6
+    kin_score: 31.6
     mcp: &id007
       source: https://github.com/mailgun/mailgun-mcp-server
       status: verified
@@ -184,10 +184,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 47.5
+    agent_readiness: 46.9
     band: thin
     in_catalog: true
-    kin_score: 28.7
+    kin_score: 28.6
     mcp: &id009
       source: https://github.com/PaddleHQ/paddle-mcp-server
       status: verified
@@ -215,10 +215,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.7
+    agent_readiness: 43.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.3
+    kin_score: 70.5
     mcp: &id011
       source: https://github.com/ActiveCampaign/postmark-mcp
       status: verified
@@ -246,10 +246,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 40.1
+    agent_readiness: 40.7
     band: exemplar
     in_catalog: true
-    kin_score: 87.3
+    kin_score: 84.0
     mcp: &id013
       status: none
     slug: sendgrid
@@ -274,10 +274,10 @@ noindex: false
 permalink: /applications/email-marketing-newsletter/keila/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 39.4
+  agent_readiness: 38.0
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 83.8
   mcp: *id001
   name: Amazon SES
   slug: amazon-ses
@@ -285,10 +285,10 @@ providers:
   tags: *id002
   url: /providers/amazon-ses/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 28.3
+  kin_score: 27.9
   mcp: *id003
   name: Friendly Captcha
   slug: friendly-captcha
@@ -296,10 +296,10 @@ providers:
   tags: *id004
   url: /providers/friendly-captcha/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 17.5
   band: thin
   in_catalog: true
-  kin_score: 31.5
+  kin_score: 31.1
   mcp: *id005
   name: hCaptcha
   slug: hcaptcha
@@ -307,10 +307,10 @@ providers:
   tags: *id006
   url: /providers/hcaptcha/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 32.6
+  kin_score: 31.6
   mcp: *id007
   name: Mailgun
   slug: mailgun
@@ -318,10 +318,10 @@ providers:
   tags: *id008
   url: /providers/mailgun/
 - agent_band: agent-ready
-  agent_readiness: 47.5
+  agent_readiness: 46.9
   band: thin
   in_catalog: true
-  kin_score: 28.7
+  kin_score: 28.6
   mcp: *id009
   name: Paddle
   slug: paddle
@@ -329,10 +329,10 @@ providers:
   tags: *id010
   url: /providers/paddle/
 - agent_band: agent-ready
-  agent_readiness: 41.7
+  agent_readiness: 43.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.3
+  kin_score: 70.5
   mcp: *id011
   name: Postmark
   slug: postmark
@@ -340,10 +340,10 @@ providers:
   tags: *id012
   url: /providers/postmark/
 - agent_band: agent-ready
-  agent_readiness: 40.1
+  agent_readiness: 40.7
   band: exemplar
   in_catalog: true
-  kin_score: 87.3
+  kin_score: 84.0
   mcp: *id013
   name: SendGrid
   slug: sendgrid

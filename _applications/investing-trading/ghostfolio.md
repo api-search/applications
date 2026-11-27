@@ -93,10 +93,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 51.4
-    band: strong
+    agent_readiness: 50.5
+    band: developing
     in_catalog: true
-    kin_score: 54.4
+    kin_score: 50.6
     mcp: &id001
       source: https://github.com/alphavantage/alpha_vantage_mcp
       status: verified
@@ -124,10 +124,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.2
+    agent_readiness: 47.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 52.4
     mcp: &id003
       source: https://docs.coingecko.com/reference/mcp-server
       status: verified
@@ -155,10 +155,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 58.3
+    agent_readiness: 53.1
     band: strong
     in_catalog: true
-    kin_score: 62.2
+    kin_score: 60.7
     mcp: &id005
       source: https://github.com/EodHistoricalData/EODHD-MCP-Server
       status: verified
@@ -186,10 +186,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 41.2
+    agent_readiness: 49.6
     band: exemplar
     in_catalog: true
-    kin_score: 69.5
+    kin_score: 69.0
     mcp: &id007
       status: none
     slug: financial-modeling-prep
@@ -216,10 +216,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.8
+    agent_readiness: 30.1
     band: strong
     in_catalog: true
-    kin_score: 64.5
+    kin_score: 63.8
     mcp: &id009
       status: none
     slug: google-sheets
@@ -244,11 +244,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 19.6
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 33.7
+    band: strong
     in_catalog: true
-    kin_score: 36.8
+    kin_score: 58.8
     mcp: &id011
       status: none
     slug: google-identity-platform
@@ -275,10 +275,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.4
+    agent_readiness: 25.9
     band: thin
     in_catalog: true
-    kin_score: 33.7
+    kin_score: 32.2
     mcp: &id013
       status: none
     slug: openfigi
@@ -303,10 +303,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.9
+    agent_readiness: 46.4
     band: strong
     in_catalog: true
-    kin_score: 55.4
+    kin_score: 54.8
     mcp: &id015
       source: https://openrouter.ai/docs/guides/overview/mcp-server
       status: verified
@@ -334,10 +334,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.2
+    agent_readiness: 32.6
     band: developing
     in_catalog: true
-    kin_score: 41.3
+    kin_score: 39.5
     mcp: &id017
       status: none
     slug: rapidapi
@@ -364,10 +364,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id019
       source: https://docs.stripe.com/mcp
       status: verified
@@ -398,7 +398,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 2.0
+    kin_score: 1.1
     mcp: &id021
       status: none
     slug: trackinsight
@@ -422,10 +422,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id023
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -453,10 +453,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.2
+    agent_readiness: 15.8
     band: developing
     in_catalog: true
-    kin_score: 41.4
+    kin_score: 42.6
     mcp: &id025
       status: none
     slug: yahoo
@@ -481,10 +481,10 @@ noindex: false
 permalink: /applications/investing-trading/ghostfolio/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 51.4
-  band: strong
+  agent_readiness: 50.5
+  band: developing
   in_catalog: true
-  kin_score: 54.4
+  kin_score: 50.6
   mcp: *id001
   name: Alpha Vantage
   slug: alpha-vantage
@@ -492,10 +492,10 @@ providers:
   tags: *id002
   url: /providers/alpha-vantage/
 - agent_band: agent-ready
-  agent_readiness: 46.2
+  agent_readiness: 47.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 52.4
   mcp: *id003
   name: CoinGecko
   slug: coingecko
@@ -503,10 +503,10 @@ providers:
   tags: *id004
   url: /providers/coingecko/
 - agent_band: agent-ready
-  agent_readiness: 58.3
+  agent_readiness: 53.1
   band: strong
   in_catalog: true
-  kin_score: 62.2
+  kin_score: 60.7
   mcp: *id005
   name: EODHD (EOD Historical Data)
   slug: eodhd
@@ -514,10 +514,10 @@ providers:
   tags: *id006
   url: /providers/eodhd/
 - agent_band: agent-native
-  agent_readiness: 41.2
+  agent_readiness: 49.6
   band: exemplar
   in_catalog: true
-  kin_score: 69.5
+  kin_score: 69.0
   mcp: *id007
   name: Financial Modeling Prep
   slug: financial-modeling-prep
@@ -525,21 +525,21 @@ providers:
   tags: *id008
   url: /providers/financial-modeling-prep/
 - agent_band: agent-ready
-  agent_readiness: 33.8
+  agent_readiness: 30.1
   band: strong
   in_catalog: true
-  kin_score: 64.5
+  kin_score: 63.8
   mcp: *id009
   name: Google Sheets
   slug: google-sheets
   status: profiled
   tags: *id010
   url: /providers/google-sheets/
-- agent_band: agent-aware
-  agent_readiness: 19.6
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 33.7
+  band: strong
   in_catalog: true
-  kin_score: 36.8
+  kin_score: 58.8
   mcp: *id011
   name: Google sign-in
   slug: google-identity-platform
@@ -547,10 +547,10 @@ providers:
   tags: *id012
   url: /providers/google-identity-platform/
 - agent_band: agent-aware
-  agent_readiness: 26.4
+  agent_readiness: 25.9
   band: thin
   in_catalog: true
-  kin_score: 33.7
+  kin_score: 32.2
   mcp: *id013
   name: OpenFIGI
   slug: openfigi
@@ -558,10 +558,10 @@ providers:
   tags: *id014
   url: /providers/openfigi/
 - agent_band: agent-ready
-  agent_readiness: 46.9
+  agent_readiness: 46.4
   band: strong
   in_catalog: true
-  kin_score: 55.4
+  kin_score: 54.8
   mcp: *id015
   name: OpenRouter
   slug: openrouter
@@ -569,10 +569,10 @@ providers:
   tags: *id016
   url: /providers/openrouter/
 - agent_band: agent-ready
-  agent_readiness: 33.2
+  agent_readiness: 32.6
   band: developing
   in_catalog: true
-  kin_score: 41.3
+  kin_score: 39.5
   mcp: *id017
   name: RapidAPI (Fear & Greed Index)
   slug: rapidapi
@@ -580,10 +580,10 @@ providers:
   tags: *id018
   url: /providers/rapidapi/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id019
   name: Stripe
   slug: stripe
@@ -594,7 +594,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 2.0
+  kin_score: 1.1
   mcp: *id021
   name: Trackinsight
   slug: trackinsight
@@ -602,10 +602,10 @@ providers:
   tags: *id022
   url: /providers/trackinsight/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id023
   name: X (Twitter)
   slug: x
@@ -613,10 +613,10 @@ providers:
   tags: *id024
   url: /providers/x/
 - agent_band: agent-aware
-  agent_readiness: 16.2
+  agent_readiness: 15.8
   band: developing
   in_catalog: true
-  kin_score: 41.4
+  kin_score: 42.6
   mcp: *id025
   name: Yahoo Finance
   slug: yahoo

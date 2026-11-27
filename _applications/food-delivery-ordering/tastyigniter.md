@@ -93,10 +93,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.9
+    agent_readiness: 25.4
     band: thin
     in_catalog: true
-    kin_score: 36.4
+    kin_score: 35.5
     mcp: &id002
       source: https://github.com/AuthorizeNet/authorize-net-mcp
       status: verified
@@ -124,10 +124,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id006
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -155,10 +155,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 73.2
+    agent_readiness: 71.7
     band: exemplar
     in_catalog: true
-    kin_score: 68.2
+    kin_score: 68.1
     mcp: &id008
       source: https://docs.mollie.com/docs/mcp-server
       status: verified
@@ -186,10 +186,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id010
       status: none
     slug: nominatim
@@ -216,10 +216,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id012
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -247,10 +247,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-native
-    agent_readiness: 62.8
+    agent_readiness: 61.5
     band: exemplar
     in_catalog: true
-    kin_score: 76.1
+    kin_score: 78.2
     mcp: &id016
       source: https://developer.squareup.com/docs/mcp
       status: verified
@@ -278,10 +278,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 58.5
+    agent_readiness: 57.6
     band: exemplar
     in_catalog: true
-    kin_score: 81.5
+    kin_score: 82.0
     mcp: &id020
       source: https://docs.stripe.com/mcp
       status: verified
@@ -309,10 +309,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.3
-    band: emerging
+    agent_readiness: 16.9
+    band: thin
     in_catalog: true
-    kin_score: 25.4
+    kin_score: 28.4
     mcp: &id004
       status: unknown
     slug: gift-up
@@ -339,10 +339,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.0
+    agent_readiness: 18.6
     band: thin
     in_catalog: true
-    kin_score: 28.1
+    kin_score: 27.9
     mcp: &id014
       source: https://registry.modelcontextprotocol.io/v0/servers?search=com.shipday&limit=3
       status: verified
@@ -385,10 +385,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 1.7
     band: emerging
     in_catalog: true
-    kin_score: 12.2
+    kin_score: 18.6
     mcp: &id018
       status: none
     slug: star-micronics
@@ -415,10 +415,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 54.3
+    agent_readiness: 53.2
     band: developing
     in_catalog: true
-    kin_score: 46.3
+    kin_score: 44.0
     mcp: &id022
       source: https://github.com/sumup/sumup-mcp
       status: verified
@@ -446,10 +446,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.1
+    agent_readiness: 24.6
     band: emerging
     in_catalog: true
-    kin_score: 25.3
+    kin_score: 24.4
     mcp: &id024
       status: none
     slug: uber-direct
@@ -474,10 +474,10 @@ noindex: false
 permalink: /applications/food-delivery-ordering/tastyigniter/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 25.9
+  agent_readiness: 25.4
   band: thin
   in_catalog: true
-  kin_score: 36.4
+  kin_score: 35.5
   mcp: *id002
   name: Authorize.Net
   slug: authorizenet
@@ -485,10 +485,10 @@ providers:
   tags: *id003
   url: /providers/authorizenet/
 - agent_band: agent-aware
-  agent_readiness: 17.3
-  band: emerging
+  agent_readiness: 16.9
+  band: thin
   in_catalog: true
-  kin_score: 25.4
+  kin_score: 28.4
   mcp: *id004
   name: Gift Up!
   slug: gift-up
@@ -496,10 +496,10 @@ providers:
   tags: *id005
   url: /providers/gift-up/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id006
   name: Google Maps Platform
   slug: google-maps
@@ -507,10 +507,10 @@ providers:
   tags: *id007
   url: /providers/google-maps/
 - agent_band: agent-native
-  agent_readiness: 73.2
+  agent_readiness: 71.7
   band: exemplar
   in_catalog: true
-  kin_score: 68.2
+  kin_score: 68.1
   mcp: *id008
   name: Mollie
   slug: mollie
@@ -518,10 +518,10 @@ providers:
   tags: *id009
   url: /providers/mollie/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id010
   name: Nominatim
   slug: nominatim
@@ -529,10 +529,10 @@ providers:
   tags: *id011
   url: /providers/nominatim/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id012
   name: PayPal
   slug: paypal
@@ -540,10 +540,10 @@ providers:
   tags: *id013
   url: /providers/paypal/
 - agent_band: agent-aware
-  agent_readiness: 19.0
+  agent_readiness: 18.6
   band: thin
   in_catalog: true
-  kin_score: 28.1
+  kin_score: 27.9
   mcp: *id014
   name: Shipday
   slug: shipday
@@ -551,10 +551,10 @@ providers:
   tags: *id015
   url: /providers/shipday/
 - agent_band: agent-native
-  agent_readiness: 62.8
+  agent_readiness: 61.5
   band: exemplar
   in_catalog: true
-  kin_score: 76.1
+  kin_score: 78.2
   mcp: *id016
   name: Square
   slug: square
@@ -562,10 +562,10 @@ providers:
   tags: *id017
   url: /providers/square/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 1.7
   band: emerging
   in_catalog: true
-  kin_score: 12.2
+  kin_score: 18.6
   mcp: *id018
   name: Star Micronics CloudPRNT
   slug: star-micronics
@@ -573,10 +573,10 @@ providers:
   tags: *id019
   url: /providers/star-micronics/
 - agent_band: agent-native
-  agent_readiness: 58.5
+  agent_readiness: 57.6
   band: exemplar
   in_catalog: true
-  kin_score: 81.5
+  kin_score: 82.0
   mcp: *id020
   name: Stripe
   slug: stripe
@@ -584,10 +584,10 @@ providers:
   tags: *id021
   url: /providers/stripe/
 - agent_band: agent-ready
-  agent_readiness: 54.3
+  agent_readiness: 53.2
   band: developing
   in_catalog: true
-  kin_score: 46.3
+  kin_score: 44.0
   mcp: *id022
   name: SumUp
   slug: sumup
@@ -595,10 +595,10 @@ providers:
   tags: *id023
   url: /providers/sumup/
 - agent_band: agent-aware
-  agent_readiness: 25.1
+  agent_readiness: 24.6
   band: emerging
   in_catalog: true
-  kin_score: 25.3
+  kin_score: 24.4
   mcp: *id024
   name: Uber Direct
   slug: uber-direct

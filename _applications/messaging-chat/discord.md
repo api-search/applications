@@ -84,10 +84,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.4
+    agent_readiness: 53.4
     band: exemplar
     in_catalog: true
-    kin_score: 72.9
+    kin_score: 72.1
     mcp: &id003
       source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
       status: verified
@@ -115,10 +115,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 41.8
+    agent_readiness: 42.9
     band: exemplar
     in_catalog: true
-    kin_score: 73.9
+    kin_score: 79.7
     mcp: &id019
       source: https://developers.google.com/analytics/devguides/MCP
       status: verified
@@ -149,7 +149,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id031
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -176,11 +176,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 10.8
+    agent_band: human-only
+    agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 16.1
+    kin_score: 22.9
     mcp: &id001
       status: none
     slug: amazon-music
@@ -207,10 +207,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.2
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 45.1
+    kin_score: 46.3
     mcp: &id005
       status: none
     slug: bluesky
@@ -240,7 +240,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.0
+    kin_score: 6.5
     mcp: &id007
       status: none
     slug: bungie
@@ -267,10 +267,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.1
+    agent_readiness: 14.8
     band: minimal
     in_catalog: true
-    kin_score: 6.4
+    kin_score: 7.6
     mcp: &id009
       status: none
     slug: crunchyroll
@@ -294,10 +294,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.0
+    agent_readiness: 31.3
     band: developing
     in_catalog: true
-    kin_score: 50.7
+    kin_score: 48.7
     mcp: &id011
       source: https://github.com/eBay/npm-public-api-mcp
       status: verified
@@ -325,10 +325,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.4
+    agent_readiness: 22.0
     band: developing
     in_catalog: true
-    kin_score: 42.5
+    kin_score: 44.9
     mcp: &id013
       status: none
     slug: epic-games
@@ -355,10 +355,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 28.2
+    agent_readiness: 28.1
     band: developing
     in_catalog: true
-    kin_score: 42.7
+    kin_score: 43.7
     mcp: &id015
       status: none
     slug: facebook
@@ -385,10 +385,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 63.4
+    agent_readiness: 62.4
     band: exemplar
     in_catalog: true
-    kin_score: 85.4
+    kin_score: 85.0
     mcp: &id017
       source: https://github.com/github/github-mcp-server
       status: verified
@@ -416,10 +416,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.5
-    band: thin
+    agent_readiness: 22.0
+    band: emerging
     in_catalog: true
-    kin_score: 26.5
+    kin_score: 25.5
     mcp: &id021
       status: none
     slug: mastodon
@@ -446,10 +446,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.1
+    agent_readiness: 36.3
     band: strong
     in_catalog: true
-    kin_score: 54.7
+    kin_score: 54.9
     mcp: &id023
       source: https://developer.paypal.com/tools/mcp-server/
       status: verified
@@ -480,7 +480,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 13.1
+    kin_score: 21.9
     mcp: &id025
       status: none
     slug: playstation
@@ -507,10 +507,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 39.1
+    agent_readiness: 43.0
     band: strong
     in_catalog: true
-    kin_score: 63.0
+    kin_score: 64.4
     mcp: &id027
       source: https://github.com/reddit/devvit-mcp
       status: verified
@@ -541,7 +541,7 @@ integrations:
     agent_readiness: 3.1
     band: thin
     in_catalog: true
-    kin_score: 29.5
+    kin_score: 31.3
     mcp: &id029
       source: https://github.com/Roblox/studio-rust-mcp-server
       status: verified
@@ -569,10 +569,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_readiness: 32.7
     band: developing
     in_catalog: true
-    kin_score: 49.8
+    kin_score: 50.6
     mcp: &id033
       status: none
     slug: spotify
@@ -599,10 +599,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.1
     band: thin
     in_catalog: true
-    kin_score: 34.4
+    kin_score: 34.5
     mcp: &id035
       status: none
     slug: steam
@@ -629,10 +629,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: developing
     in_catalog: true
-    kin_score: 41.0
+    kin_score: 40.5
     mcp: &id037
       status: none
     slug: tiktok
@@ -659,10 +659,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.2
+    agent_readiness: 36.9
     band: developing
     in_catalog: true
-    kin_score: 50.5
+    kin_score: 48.2
     mcp: &id039
       status: none
     slug: twitch
@@ -689,10 +689,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 61.2
+    agent_readiness: 59.9
     band: exemplar
     in_catalog: true
-    kin_score: 74.7
+    kin_score: 75.0
     mcp: &id041
       source: https://github.com/xdevplatform/xmcp
       status: verified
@@ -719,11 +719,11 @@ integrations:
     via_parent: Customer Sign-In
   credit: null
   facts:
-    agent_band: human-only
-    agent_readiness: 0.6
-    band: emerging
+    agent_band: agent-aware
+    agent_readiness: 8.9
+    band: strong
     in_catalog: true
-    kin_score: 21.8
+    kin_score: 65.0
     mcp: &id043
       status: none
     slug: microsoft-xbox
@@ -750,10 +750,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.4
+    agent_readiness: 41.4
     band: strong
     in_catalog: true
-    kin_score: 62.6
+    kin_score: 65.4
     mcp: &id045
       status: none
     slug: youtube
@@ -777,11 +777,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/messaging-chat/discord/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 10.8
+- agent_band: human-only
+  agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 16.1
+  kin_score: 22.9
   mcp: *id001
   name: Amazon Music
   slug: amazon-music
@@ -789,10 +789,10 @@ providers:
   tags: *id002
   url: /providers/amazon-music/
 - agent_band: agent-ready
-  agent_readiness: 46.4
+  agent_readiness: 53.4
   band: exemplar
   in_catalog: true
-  kin_score: 72.9
+  kin_score: 72.1
   mcp: *id003
   name: AppsFlyer
   slug: appsflyer
@@ -800,10 +800,10 @@ providers:
   tags: *id004
   url: /providers/appsflyer/
 - agent_band: agent-aware
-  agent_readiness: 26.2
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 45.1
+  kin_score: 46.3
   mcp: *id005
   name: Bluesky
   slug: bluesky
@@ -814,7 +814,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.0
+  kin_score: 6.5
   mcp: *id007
   name: Bungie.net
   slug: bungie
@@ -822,10 +822,10 @@ providers:
   tags: *id008
   url: /providers/bungie/
 - agent_band: agent-aware
-  agent_readiness: 15.1
+  agent_readiness: 14.8
   band: minimal
   in_catalog: true
-  kin_score: 6.4
+  kin_score: 7.6
   mcp: *id009
   name: Crunchyroll
   slug: crunchyroll
@@ -833,10 +833,10 @@ providers:
   tags: *id010
   url: /providers/crunchyroll/
 - agent_band: agent-ready
-  agent_readiness: 32.0
+  agent_readiness: 31.3
   band: developing
   in_catalog: true
-  kin_score: 50.7
+  kin_score: 48.7
   mcp: *id011
   name: eBay
   slug: ebay
@@ -844,10 +844,10 @@ providers:
   tags: *id012
   url: /providers/ebay/
 - agent_band: agent-aware
-  agent_readiness: 22.4
+  agent_readiness: 22.0
   band: developing
   in_catalog: true
-  kin_score: 42.5
+  kin_score: 44.9
   mcp: *id013
   name: Epic Games
   slug: epic-games
@@ -855,10 +855,10 @@ providers:
   tags: *id014
   url: /providers/epic-games/
 - agent_band: agent-aware
-  agent_readiness: 28.2
+  agent_readiness: 28.1
   band: developing
   in_catalog: true
-  kin_score: 42.7
+  kin_score: 43.7
   mcp: *id015
   name: Facebook
   slug: facebook
@@ -866,10 +866,10 @@ providers:
   tags: *id016
   url: /providers/facebook/
 - agent_band: agent-ready
-  agent_readiness: 63.4
+  agent_readiness: 62.4
   band: exemplar
   in_catalog: true
-  kin_score: 85.4
+  kin_score: 85.0
   mcp: *id017
   name: GitHub
   slug: github
@@ -877,10 +877,10 @@ providers:
   tags: *id018
   url: /providers/github/
 - agent_band: agent-ready
-  agent_readiness: 41.8
+  agent_readiness: 42.9
   band: exemplar
   in_catalog: true
-  kin_score: 73.9
+  kin_score: 79.7
   mcp: *id019
   name: Google Analytics
   slug: google-analytics
@@ -888,10 +888,10 @@ providers:
   tags: *id020
   url: /providers/google-analytics/
 - agent_band: agent-aware
-  agent_readiness: 22.5
-  band: thin
+  agent_readiness: 22.0
+  band: emerging
   in_catalog: true
-  kin_score: 26.5
+  kin_score: 25.5
   mcp: *id021
   name: Mastodon
   slug: mastodon
@@ -899,10 +899,10 @@ providers:
   tags: *id022
   url: /providers/mastodon/
 - agent_band: agent-ready
-  agent_readiness: 37.1
+  agent_readiness: 36.3
   band: strong
   in_catalog: true
-  kin_score: 54.7
+  kin_score: 54.9
   mcp: *id023
   name: PayPal
   slug: paypal
@@ -913,7 +913,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 13.1
+  kin_score: 21.9
   mcp: *id025
   name: PlayStation Network
   slug: playstation
@@ -921,10 +921,10 @@ providers:
   tags: *id026
   url: /providers/playstation/
 - agent_band: agent-ready
-  agent_readiness: 39.1
+  agent_readiness: 43.0
   band: strong
   in_catalog: true
-  kin_score: 63.0
+  kin_score: 64.4
   mcp: *id027
   name: Reddit
   slug: reddit
@@ -935,7 +935,7 @@ providers:
   agent_readiness: 3.1
   band: thin
   in_catalog: true
-  kin_score: 29.5
+  kin_score: 31.3
   mcp: *id029
   name: Roblox
   slug: roblox
@@ -946,7 +946,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id031
   name: Sentry
   slug: sentry-system
@@ -954,10 +954,10 @@ providers:
   tags: *id032
   url: /providers/sentry-system/
 - agent_band: agent-ready
-  agent_readiness: 33.3
+  agent_readiness: 32.7
   band: developing
   in_catalog: true
-  kin_score: 49.8
+  kin_score: 50.6
   mcp: *id033
   name: Spotify
   slug: spotify
@@ -965,10 +965,10 @@ providers:
   tags: *id034
   url: /providers/spotify/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.1
   band: thin
   in_catalog: true
-  kin_score: 34.4
+  kin_score: 34.5
   mcp: *id035
   name: Steam
   slug: steam
@@ -976,10 +976,10 @@ providers:
   tags: *id036
   url: /providers/steam/
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: developing
   in_catalog: true
-  kin_score: 41.0
+  kin_score: 40.5
   mcp: *id037
   name: TikTok
   slug: tiktok
@@ -987,10 +987,10 @@ providers:
   tags: *id038
   url: /providers/tiktok/
 - agent_band: agent-ready
-  agent_readiness: 32.2
+  agent_readiness: 36.9
   band: developing
   in_catalog: true
-  kin_score: 50.5
+  kin_score: 48.2
   mcp: *id039
   name: Twitch
   slug: twitch
@@ -998,21 +998,21 @@ providers:
   tags: *id040
   url: /providers/twitch/
 - agent_band: agent-native
-  agent_readiness: 61.2
+  agent_readiness: 59.9
   band: exemplar
   in_catalog: true
-  kin_score: 74.7
+  kin_score: 75.0
   mcp: *id041
   name: X (Twitter)
   slug: x
   status: profiled
   tags: *id042
   url: /providers/x/
-- agent_band: human-only
-  agent_readiness: 0.6
-  band: emerging
+- agent_band: agent-aware
+  agent_readiness: 8.9
+  band: strong
   in_catalog: true
-  kin_score: 21.8
+  kin_score: 65.0
   mcp: *id043
   name: Xbox
   slug: microsoft-xbox
@@ -1020,10 +1020,10 @@ providers:
   tags: *id044
   url: /providers/microsoft-xbox/
 - agent_band: agent-ready
-  agent_readiness: 43.4
+  agent_readiness: 41.4
   band: strong
   in_catalog: true
-  kin_score: 62.6
+  kin_score: 65.4
   mcp: *id045
   name: YouTube
   slug: youtube

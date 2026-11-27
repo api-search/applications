@@ -148,10 +148,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 43.2
+    agent_readiness: 37.9
     band: thin
     in_catalog: true
-    kin_score: 32.4
+    kin_score: 31.9
     mcp: &id001
       source: https://github.com/alchemyplatform/alchemy-mcp-server
       status: verified
@@ -182,7 +182,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.4
     mcp: &id003
       status: none
     slug: beaconcha-in
@@ -206,10 +206,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.5
+    agent_readiness: 29.9
     band: thin
     in_catalog: true
-    kin_score: 39.1
+    kin_score: 38.9
     mcp: &id005
       status: none
     slug: binance
@@ -235,11 +235,11 @@ integrations:
     via_parent: Market & Financial Data
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 29.6
-    band: emerging
+    agent_band: agent-aware
+    agent_readiness: 26.7
+    band: thin
     in_catalog: true
-    kin_score: 25.3
+    kin_score: 33.8
     mcp: &id007
       status: none
     slug: birdeye-so
@@ -266,10 +266,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 55.4
-    band: developing
+    agent_readiness: 52.6
+    band: strong
     in_catalog: true
-    kin_score: 48.0
+    kin_score: 61.9
     mcp: &id009
       source: https://api.bit2me.com/docs
       status: documented
@@ -300,7 +300,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 12.0
+    kin_score: 19.7
     mcp: &id011
       status: unknown
     slug: bitcoin-de
@@ -324,10 +324,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.0
+    agent_readiness: 13.7
     band: emerging
     in_catalog: true
-    kin_score: 17.4
+    kin_score: 17.3
     mcp: &id013
       status: none
     slug: bitfinex
@@ -353,10 +353,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 26.0
+    agent_readiness: 27.7
     band: developing
     in_catalog: true
-    kin_score: 47.5
+    kin_score: 46.0
     mcp: &id015
       source: https://github.com/bitpanda-labs/bitpanda-mcp
       status: verified
@@ -384,10 +384,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.1
+    agent_readiness: 29.4
     band: thin
     in_catalog: true
-    kin_score: 30.3
+    kin_score: 33.5
     mcp: &id017
       status: none
     slug: bitstamp
@@ -414,10 +414,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.6
+    agent_readiness: 33.4
     band: thin
     in_catalog: true
-    kin_score: 27.5
+    kin_score: 26.2
     mcp: &id019
       source: https://github.com/blockscout/mcp-server
       status: verified
@@ -445,7 +445,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.0
+    agent_readiness: 13.7
     band: emerging
     in_catalog: true
     kin_score: 15.0
@@ -475,10 +475,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 51.5
+    agent_readiness: 50.8
     band: strong
     in_catalog: true
-    kin_score: 56.6
+    kin_score: 57.2
     mcp: &id023
       source: https://github.com/coinbase/payments-mcp
       status: verified
@@ -506,10 +506,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 5.0
+    agent_readiness: 4.9
     band: emerging
     in_catalog: true
-    kin_score: 22.3
+    kin_score: 24.2
     mcp: &id025
       source: https://github.com/coinexcom/coinex_mcp_server
       status: verified
@@ -537,10 +537,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 46.2
+    agent_readiness: 47.4
     band: developing
     in_catalog: true
-    kin_score: 52.0
+    kin_score: 52.4
     mcp: &id027
       source: https://docs.coingecko.com/reference/mcp-server
       status: verified
@@ -568,10 +568,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.9
+    agent_readiness: 32.3
     band: thin
     in_catalog: true
-    kin_score: 35.1
+    kin_score: 38.3
     mcp: &id029
       status: none
     slug: cow-protocol
@@ -598,10 +598,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 46.3
-    band: exemplar
+    agent_readiness: 45.3
+    band: strong
     in_catalog: true
-    kin_score: 67.2
+    kin_score: 66.0
     mcp: &id031
       source: https://mcp.crypto.com/docs
       status: verified
@@ -629,10 +629,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 56.3
+    agent_readiness: 55.1
     band: developing
     in_catalog: true
-    kin_score: 46.2
+    kin_score: 44.2
     mcp: &id033
       status: none
     slug: cryptocompare
@@ -659,10 +659,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.7
+    agent_readiness: 47.6
     band: thin
     in_catalog: true
-    kin_score: 30.7
+    kin_score: 29.1
     mcp: &id035
       status: none
     slug: defillama
@@ -689,10 +689,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 30.7
+    agent_readiness: 30.0
     band: thin
     in_catalog: true
-    kin_score: 38.1
+    kin_score: 36.5
     mcp: &id037
       source: https://docs.etherscan.io/mcp
       status: verified
@@ -720,10 +720,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 13.6
-    band: thin
+    agent_readiness: 13.3
+    band: emerging
     in_catalog: true
-    kin_score: 26.5
+    kin_score: 25.1
     mcp: &id039
       source: https://github.com/gate/gate-mcp
       status: verified
@@ -751,10 +751,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 49.5
+    agent_readiness: 48.5
     band: exemplar
     in_catalog: true
-    kin_score: 69.2
+    kin_score: 68.6
     mcp: &id041
       status: none
     slug: gemini-trust
@@ -781,10 +781,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.8
+    agent_readiness: 34.8
     band: developing
     in_catalog: true
-    kin_score: 39.3
+    kin_score: 43.5
     mcp: &id043
       status: none
     slug: gnosis-pay
@@ -810,11 +810,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 20.7
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 44.1
+    band: strong
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 64.6
     mcp: &id045
       source: https://github.com/google/mcp
       status: verified
@@ -842,10 +842,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.8
+    agent_readiness: 33.6
     band: thin
     in_catalog: true
-    kin_score: 33.5
+    kin_score: 34.0
     mcp: &id047
       source: https://www.helius.dev/docs/agents/mcp
       status: verified
@@ -873,10 +873,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.9
+    agent_readiness: 21.5
     band: developing
     in_catalog: true
-    kin_score: 44.3
+    kin_score: 44.5
     mcp: &id049
       status: none
     slug: htx
@@ -906,7 +906,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 18.6
+    kin_score: 22.4
     mcp: &id051
       status: unknown
     slug: iconomi
@@ -933,10 +933,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.9
-    band: thin
+    agent_readiness: 24.4
+    band: developing
     in_catalog: true
-    kin_score: 27.2
+    kin_score: 40.9
     mcp: &id053
       status: none
     slug: independent-reserve
@@ -966,7 +966,7 @@ integrations:
     agent_readiness: 24.4
     band: thin
     in_catalog: true
-    kin_score: 27.6
+    kin_score: 27.1
     mcp: &id055
       source: https://developers.jup.ag/docs/ai/trading-mcp
       status: documented
@@ -994,10 +994,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 37.9
+    agent_readiness: 37.5
     band: strong
     in_catalog: true
-    kin_score: 64.3
+    kin_score: 63.1
     mcp: &id057
       source: https://github.com/krakenfx/kraken-cli
       status: verified
@@ -1025,10 +1025,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.0
+    agent_readiness: 13.7
     band: emerging
     in_catalog: true
-    kin_score: 15.5
+    kin_score: 14.6
     mcp: &id059
       status: none
     slug: kucoin
@@ -1054,10 +1054,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.8
-    band: thin
+    agent_readiness: 24.3
+    band: developing
     in_catalog: true
-    kin_score: 38.2
+    kin_score: 42.7
     mcp: &id061
       status: none
     slug: monerium
@@ -1087,7 +1087,7 @@ integrations:
     agent_readiness: 23.0
     band: thin
     in_catalog: true
-    kin_score: 29.4
+    kin_score: 29.0
     mcp: &id063
       source: https://api.github.com/orgs/MoralisWeb3/repos
       status: verified
@@ -1115,10 +1115,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 16.1
+    agent_readiness: 15.8
     band: thin
     in_catalog: true
-    kin_score: 30.3
+    kin_score: 28.9
     mcp: &id065
       source: https://github.com/okx/agent-trade-kit
       status: verified
@@ -1149,7 +1149,7 @@ integrations:
     agent_readiness: 37.5
     band: developing
     in_catalog: true
-    kin_score: 41.4
+    kin_score: 43.0
     mcp: &id067
       source: https://docs.opensea.io/docs/mcp
       status: verified
@@ -1177,10 +1177,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 14.0
+    agent_readiness: 13.7
     band: emerging
     in_catalog: true
-    kin_score: 16.3
+    kin_score: 15.4
     mcp: &id069
       status: none
     slug: poloniex
@@ -1205,11 +1205,11 @@ integrations:
     via_parent: On-Chain Data & Indexing
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 7.2
+    agent_band: human-only
+    agent_readiness: 4.2
     band: emerging
     in_catalog: true
-    kin_score: 15.5
+    kin_score: 20.4
     mcp: &id071
       status: none
     slug: routescan
@@ -1259,10 +1259,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.6
+    agent_readiness: 19.2
     band: thin
     in_catalog: true
-    kin_score: 28.3
+    kin_score: 27.8
     mcp: &id075
       source: https://github.com/graphprotocol/mcp-monorepo
       status: verified
@@ -1290,10 +1290,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.9
+    agent_readiness: 35.7
     band: developing
     in_catalog: true
-    kin_score: 39.3
+    kin_score: 49.0
     mcp: &id077
       status: none
     slug: woox
@@ -1323,7 +1323,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.9
+    kin_score: 8.9
     mcp: &id079
       status: unknown
     slug: xrates
@@ -1348,10 +1348,10 @@ noindex: false
 permalink: /applications/investing-trading/rotki/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 43.2
+  agent_readiness: 37.9
   band: thin
   in_catalog: true
-  kin_score: 32.4
+  kin_score: 31.9
   mcp: *id001
   name: Alchemy
   slug: alchemy
@@ -1362,7 +1362,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.4
   mcp: *id003
   name: beaconcha.in
   slug: beaconcha-in
@@ -1370,21 +1370,21 @@ providers:
   tags: *id004
   url: /providers/beaconcha-in/
 - agent_band: agent-ready
-  agent_readiness: 30.5
+  agent_readiness: 29.9
   band: thin
   in_catalog: true
-  kin_score: 39.1
+  kin_score: 38.9
   mcp: *id005
   name: Binance
   slug: binance
   status: profiled
   tags: *id006
   url: /providers/binance/
-- agent_band: agent-ready
-  agent_readiness: 29.6
-  band: emerging
+- agent_band: agent-aware
+  agent_readiness: 26.7
+  band: thin
   in_catalog: true
-  kin_score: 25.3
+  kin_score: 33.8
   mcp: *id007
   name: Birdeye (Solana data)
   slug: birdeye-so
@@ -1392,10 +1392,10 @@ providers:
   tags: *id008
   url: /providers/birdeye-so/
 - agent_band: agent-ready
-  agent_readiness: 55.4
-  band: developing
+  agent_readiness: 52.6
+  band: strong
   in_catalog: true
-  kin_score: 48.0
+  kin_score: 61.9
   mcp: *id009
   name: Bit2Me
   slug: bit2me
@@ -1406,7 +1406,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 12.0
+  kin_score: 19.7
   mcp: *id011
   name: Bitcoin.de
   slug: bitcoin-de
@@ -1414,10 +1414,10 @@ providers:
   tags: *id012
   url: /providers/bitcoin-de/
 - agent_band: agent-aware
-  agent_readiness: 14.0
+  agent_readiness: 13.7
   band: emerging
   in_catalog: true
-  kin_score: 17.4
+  kin_score: 17.3
   mcp: *id013
   name: Bitfinex
   slug: bitfinex
@@ -1425,10 +1425,10 @@ providers:
   tags: *id014
   url: /providers/bitfinex/
 - agent_band: agent-aware
-  agent_readiness: 26.0
+  agent_readiness: 27.7
   band: developing
   in_catalog: true
-  kin_score: 47.5
+  kin_score: 46.0
   mcp: *id015
   name: Bitpanda
   slug: bitpanda
@@ -1436,10 +1436,10 @@ providers:
   tags: *id016
   url: /providers/bitpanda/
 - agent_band: agent-ready
-  agent_readiness: 30.1
+  agent_readiness: 29.4
   band: thin
   in_catalog: true
-  kin_score: 30.3
+  kin_score: 33.5
   mcp: *id017
   name: Bitstamp
   slug: bitstamp
@@ -1447,10 +1447,10 @@ providers:
   tags: *id018
   url: /providers/bitstamp/
 - agent_band: agent-ready
-  agent_readiness: 33.6
+  agent_readiness: 33.4
   band: thin
   in_catalog: true
-  kin_score: 27.5
+  kin_score: 26.2
   mcp: *id019
   name: Blockscout
   slug: blockscout
@@ -1458,7 +1458,7 @@ providers:
   tags: *id020
   url: /providers/blockscout/
 - agent_band: agent-aware
-  agent_readiness: 14.0
+  agent_readiness: 13.7
   band: emerging
   in_catalog: true
   kin_score: 15.0
@@ -1469,10 +1469,10 @@ providers:
   tags: *id022
   url: /providers/bybit/
 - agent_band: agent-native
-  agent_readiness: 51.5
+  agent_readiness: 50.8
   band: strong
   in_catalog: true
-  kin_score: 56.6
+  kin_score: 57.2
   mcp: *id023
   name: Coinbase
   slug: coinbase
@@ -1480,10 +1480,10 @@ providers:
   tags: *id024
   url: /providers/coinbase/
 - agent_band: human-only
-  agent_readiness: 5.0
+  agent_readiness: 4.9
   band: emerging
   in_catalog: true
-  kin_score: 22.3
+  kin_score: 24.2
   mcp: *id025
   name: CoinEx
   slug: coinex
@@ -1491,10 +1491,10 @@ providers:
   tags: *id026
   url: /providers/coinex/
 - agent_band: agent-ready
-  agent_readiness: 46.2
+  agent_readiness: 47.4
   band: developing
   in_catalog: true
-  kin_score: 52.0
+  kin_score: 52.4
   mcp: *id027
   name: CoinGecko
   slug: coingecko
@@ -1502,10 +1502,10 @@ providers:
   tags: *id028
   url: /providers/coingecko/
 - agent_band: agent-ready
-  agent_readiness: 32.9
+  agent_readiness: 32.3
   band: thin
   in_catalog: true
-  kin_score: 35.1
+  kin_score: 38.3
   mcp: *id029
   name: CoW Swap
   slug: cow-protocol
@@ -1513,10 +1513,10 @@ providers:
   tags: *id030
   url: /providers/cow-protocol/
 - agent_band: agent-native
-  agent_readiness: 46.3
-  band: exemplar
+  agent_readiness: 45.3
+  band: strong
   in_catalog: true
-  kin_score: 67.2
+  kin_score: 66.0
   mcp: *id031
   name: Crypto.com
   slug: crypto-com
@@ -1524,10 +1524,10 @@ providers:
   tags: *id032
   url: /providers/crypto-com/
 - agent_band: agent-ready
-  agent_readiness: 56.3
+  agent_readiness: 55.1
   band: developing
   in_catalog: true
-  kin_score: 46.2
+  kin_score: 44.2
   mcp: *id033
   name: CryptoCompare
   slug: cryptocompare
@@ -1535,10 +1535,10 @@ providers:
   tags: *id034
   url: /providers/cryptocompare/
 - agent_band: agent-ready
-  agent_readiness: 48.7
+  agent_readiness: 47.6
   band: thin
   in_catalog: true
-  kin_score: 30.7
+  kin_score: 29.1
   mcp: *id035
   name: DefiLlama
   slug: defillama
@@ -1546,10 +1546,10 @@ providers:
   tags: *id036
   url: /providers/defillama/
 - agent_band: agent-ready
-  agent_readiness: 30.7
+  agent_readiness: 30.0
   band: thin
   in_catalog: true
-  kin_score: 38.1
+  kin_score: 36.5
   mcp: *id037
   name: Etherscan
   slug: etherscan
@@ -1557,10 +1557,10 @@ providers:
   tags: *id038
   url: /providers/etherscan/
 - agent_band: agent-aware
-  agent_readiness: 13.6
-  band: thin
+  agent_readiness: 13.3
+  band: emerging
   in_catalog: true
-  kin_score: 26.5
+  kin_score: 25.1
   mcp: *id039
   name: Gate.io
   slug: gate-io
@@ -1568,10 +1568,10 @@ providers:
   tags: *id040
   url: /providers/gate-io/
 - agent_band: agent-ready
-  agent_readiness: 49.5
+  agent_readiness: 48.5
   band: exemplar
   in_catalog: true
-  kin_score: 69.2
+  kin_score: 68.6
   mcp: *id041
   name: Gemini
   slug: gemini-trust
@@ -1579,21 +1579,21 @@ providers:
   tags: *id042
   url: /providers/gemini-trust/
 - agent_band: agent-ready
-  agent_readiness: 32.8
+  agent_readiness: 34.8
   band: developing
   in_catalog: true
-  kin_score: 39.3
+  kin_score: 43.5
   mcp: *id043
   name: Gnosis Pay
   slug: gnosis-pay
   status: profiled
   tags: *id044
   url: /providers/gnosis-pay/
-- agent_band: agent-aware
-  agent_readiness: 20.7
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 44.1
+  band: strong
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 64.6
   mcp: *id045
   name: Google Calendar
   slug: google-calendar
@@ -1601,10 +1601,10 @@ providers:
   tags: *id046
   url: /providers/google-calendar/
 - agent_band: agent-ready
-  agent_readiness: 32.8
+  agent_readiness: 33.6
   band: thin
   in_catalog: true
-  kin_score: 33.5
+  kin_score: 34.0
   mcp: *id047
   name: Helius
   slug: helius
@@ -1612,10 +1612,10 @@ providers:
   tags: *id048
   url: /providers/helius/
 - agent_band: agent-aware
-  agent_readiness: 21.9
+  agent_readiness: 21.5
   band: developing
   in_catalog: true
-  kin_score: 44.3
+  kin_score: 44.5
   mcp: *id049
   name: HTX
   slug: htx
@@ -1626,7 +1626,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 18.6
+  kin_score: 22.4
   mcp: *id051
   name: ICONOMI
   slug: iconomi
@@ -1634,10 +1634,10 @@ providers:
   tags: *id052
   url: /providers/iconomi/
 - agent_band: agent-aware
-  agent_readiness: 24.9
-  band: thin
+  agent_readiness: 24.4
+  band: developing
   in_catalog: true
-  kin_score: 27.2
+  kin_score: 40.9
   mcp: *id053
   name: Independent Reserve
   slug: independent-reserve
@@ -1648,7 +1648,7 @@ providers:
   agent_readiness: 24.4
   band: thin
   in_catalog: true
-  kin_score: 27.6
+  kin_score: 27.1
   mcp: *id055
   name: Jupiter
   slug: jupiter-ag
@@ -1656,10 +1656,10 @@ providers:
   tags: *id056
   url: /providers/jupiter-ag/
 - agent_band: agent-ready
-  agent_readiness: 37.9
+  agent_readiness: 37.5
   band: strong
   in_catalog: true
-  kin_score: 64.3
+  kin_score: 63.1
   mcp: *id057
   name: Kraken
   slug: kraken
@@ -1667,10 +1667,10 @@ providers:
   tags: *id058
   url: /providers/kraken/
 - agent_band: agent-aware
-  agent_readiness: 14.0
+  agent_readiness: 13.7
   band: emerging
   in_catalog: true
-  kin_score: 15.5
+  kin_score: 14.6
   mcp: *id059
   name: KuCoin
   slug: kucoin
@@ -1678,10 +1678,10 @@ providers:
   tags: *id060
   url: /providers/kucoin/
 - agent_band: agent-aware
-  agent_readiness: 24.8
-  band: thin
+  agent_readiness: 24.3
+  band: developing
   in_catalog: true
-  kin_score: 38.2
+  kin_score: 42.7
   mcp: *id061
   name: Monerium
   slug: monerium
@@ -1692,7 +1692,7 @@ providers:
   agent_readiness: 23.0
   band: thin
   in_catalog: true
-  kin_score: 29.4
+  kin_score: 29.0
   mcp: *id063
   name: Moralis
   slug: moralis
@@ -1700,10 +1700,10 @@ providers:
   tags: *id064
   url: /providers/moralis/
 - agent_band: agent-aware
-  agent_readiness: 16.1
+  agent_readiness: 15.8
   band: thin
   in_catalog: true
-  kin_score: 30.3
+  kin_score: 28.9
   mcp: *id065
   name: OKX
   slug: okx
@@ -1714,7 +1714,7 @@ providers:
   agent_readiness: 37.5
   band: developing
   in_catalog: true
-  kin_score: 41.4
+  kin_score: 43.0
   mcp: *id067
   name: OpenSea
   slug: opensea
@@ -1722,21 +1722,21 @@ providers:
   tags: *id068
   url: /providers/opensea/
 - agent_band: agent-aware
-  agent_readiness: 14.0
+  agent_readiness: 13.7
   band: emerging
   in_catalog: true
-  kin_score: 16.3
+  kin_score: 15.4
   mcp: *id069
   name: Poloniex
   slug: poloniex
   status: profiled
   tags: *id070
   url: /providers/poloniex/
-- agent_band: agent-aware
-  agent_readiness: 7.2
+- agent_band: human-only
+  agent_readiness: 4.2
   band: emerging
   in_catalog: true
-  kin_score: 15.5
+  kin_score: 20.4
   mcp: *id071
   name: Routescan
   slug: routescan
@@ -1755,10 +1755,10 @@ providers:
   tags: *id074
   url: null
 - agent_band: agent-aware
-  agent_readiness: 19.6
+  agent_readiness: 19.2
   band: thin
   in_catalog: true
-  kin_score: 28.3
+  kin_score: 27.8
   mcp: *id075
   name: The Graph
   slug: the-graph
@@ -1766,10 +1766,10 @@ providers:
   tags: *id076
   url: /providers/the-graph/
 - agent_band: agent-ready
-  agent_readiness: 35.9
+  agent_readiness: 35.7
   band: developing
   in_catalog: true
-  kin_score: 39.3
+  kin_score: 49.0
   mcp: *id077
   name: WOO X
   slug: woox
@@ -1780,7 +1780,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.9
+  kin_score: 8.9
   mcp: *id079
   name: X-Rates
   slug: xrates

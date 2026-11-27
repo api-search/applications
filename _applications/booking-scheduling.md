@@ -3222,7 +3222,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Acuity Scheduling
       - Cal.com
@@ -3230,7 +3230,7 @@ stack:
       - Rallly
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -3249,14 +3249,14 @@ stack:
       tier: observed
       url: /providers/zoom/
     - agent_band: agent-ready
-      agent_readiness: 61.1
+      agent_readiness: 61.8
       apps:
       - Cal.com
       - Calendly
       - Rallly
       band: strong
       in_catalog: true
-      kin_score: 64.2
+      kin_score: 66.1
       mcp:
         source: https://github.com/WebexSamples/webex-messaging-mcp-server
         status: verified
@@ -3274,15 +3274,15 @@ stack:
       - Enterprise
       tier: observed
       url: /providers/webex/
-    - agent_band: agent-aware
-      agent_readiness: 17.2
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Acuity Scheduling
       - Cal.com
       - Calendly
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 27.7
+      kin_score: 52.2
       mcp:
         status: none
       name: Google Meet
@@ -3300,13 +3300,13 @@ stack:
       tier: observed
       url: /providers/google-meet/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Cal.com
       - Calendly
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -3329,7 +3329,7 @@ stack:
       - Calendly
       band: minimal
       in_catalog: true
-      kin_score: 4.8
+      kin_score: 4.0
       mcp:
         status: none
       name: GoTo Meeting
@@ -3346,12 +3346,12 @@ stack:
       tier: declared
       url: /providers/goto/
     - agent_band: agent-native
-      agent_readiness: 41.0
+      agent_readiness: 40.2
       apps:
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 73.0
       mcp:
         status: none
       name: 8x8 Meet
@@ -3367,12 +3367,12 @@ stack:
       tier: observed
       url: /providers/8x8/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.3
       apps:
       - Cal.com
       band: developing
       in_catalog: true
-      kin_score: 53.1
+      kin_score: 52.0
       mcp:
         status: none
       name: Whereby
@@ -3387,13 +3387,13 @@ stack:
       - WebRTC
       tier: observed
       url: /providers/whereby/
-    - agent_band: agent-aware
-      agent_readiness: 24.4
+    - agent_band: agent-ready
+      agent_readiness: 29.7
       apps:
       - Cal.com
       band: developing
       in_catalog: true
-      kin_score: 49.8
+      kin_score: 48.5
       mcp:
         status: none
       name: Daily (Cal Video)
@@ -3409,12 +3409,12 @@ stack:
       tier: observed
       url: /providers/daily-co/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 24.4
       apps:
       - Cal.com
       band: developing
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 47.4
       mcp:
         source: https://github.com/riversidefm/riverside-mcp-public
         status: verified
@@ -3431,12 +3431,12 @@ stack:
       tier: observed
       url: /providers/riverside/
     - agent_band: agent-aware
-      agent_readiness: 24.4
+      agent_readiness: 23.9
       apps:
       - Calendly
       band: developing
       in_catalog: true
-      kin_score: 43.7
+      kin_score: 43.6
       mcp:
         status: none
       name: ON24
@@ -3457,7 +3457,7 @@ stack:
       - Calendly
       band: emerging
       in_catalog: true
-      kin_score: 19.7
+      kin_score: 18.4
       mcp:
         status: none
       name: Loom
@@ -3481,14 +3481,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Acuity Scheduling
       - Cal.com
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -3507,13 +3507,13 @@ stack:
       tier: observed
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Cal.com
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -3531,13 +3531,13 @@ stack:
       tier: observed
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 44.2
+      agent_readiness: 43.3
       apps:
       - Acuity Scheduling
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 86.0
+      kin_score: 85.4
       mcp:
         status: none
       name: Zoho CRM
@@ -3554,13 +3554,13 @@ stack:
       tier: observed
       url: /providers/zoho-crm/
     - agent_band: agent-ready
-      agent_readiness: 60.0
+      agent_readiness: 58.1
       apps:
       - Cal.com
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.2
       mcp:
         source: https://developer.close.com/mcp
         status: verified
@@ -3578,12 +3578,12 @@ stack:
       tier: observed
       url: /providers/close/
     - agent_band: agent-ready
-      agent_readiness: 29.3
+      agent_readiness: 28.7
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 55.3
       mcp:
         status: none
       name: Pipedrive
@@ -3599,12 +3599,12 @@ stack:
       tier: observed
       url: /providers/pipedrive/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 44.8
       apps:
       - Cal.com
       band: emerging
       in_catalog: true
-      kin_score: 21.9
+      kin_score: 20.0
       mcp:
         source: https://docs.attio.com/mcp/overview
         status: verified
@@ -3621,12 +3621,12 @@ stack:
       tier: observed
       url: /providers/attio/
     - agent_band: agent-ready
-      agent_readiness: 52.2
+      agent_readiness: 51.2
       apps:
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 68.1
       mcp:
         status: none
       name: Nutshell
@@ -3642,33 +3642,12 @@ stack:
       tier: declared
       url: /providers/nutshell/
     - agent_band: agent-ready
-      agent_readiness: 45.4
-      apps:
-      - Acuity Scheduling
-      band: exemplar
-      in_catalog: true
-      kin_score: 68.1
-      mcp:
-        status: none
-      name: Infusionsoft (Keap)
-      slug: keap
-      sources:
-      - https://acuityscheduling.com/integrations
-      status: profiled
-      tags:
-      - CRM
-      - Marketing Automation
-      - Sales
-      - Small Business
-      tier: declared
-      url: /providers/keap/
-    - agent_band: agent-ready
-      agent_readiness: 33.1
+      agent_readiness: 37.6
       apps:
       - Calendly
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.9
+      kin_score: 67.7
       mcp:
         source: https://github.com/microsoft/Dataverse-MCP
         status: verified
@@ -3684,13 +3663,34 @@ stack:
       - Enterprise
       tier: declared
       url: /providers/microsoft-dynamics-365/
-    - agent_band: agent-aware
-      agent_readiness: 21.8
+    - agent_band: agent-ready
+      agent_readiness: 44.5
       apps:
       - Acuity Scheduling
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.7
+      kin_score: 65.0
+      mcp:
+        status: none
+      name: Infusionsoft (Keap)
+      slug: keap
+      sources:
+      - https://acuityscheduling.com/integrations
+      status: profiled
+      tags:
+      - CRM
+      - Marketing Automation
+      - Sales
+      - Small Business
+      tier: declared
+      url: /providers/keap/
+    - agent_band: agent-aware
+      agent_readiness: 24.0
+      apps:
+      - Acuity Scheduling
+      band: developing
+      in_catalog: true
+      kin_score: 49.9
       mcp:
         status: unknown
       name: Daylite
@@ -3706,12 +3706,12 @@ stack:
       tier: declared
       url: /providers/daylite/
     - agent_band: agent-aware
-      agent_readiness: 27.5
+      agent_readiness: 26.9
       apps:
       - Calendly
       band: thin
       in_catalog: true
-      kin_score: 35.2
+      kin_score: 34.1
       mcp:
         status: none
       name: Streak
@@ -3734,17 +3734,17 @@ stack:
       url: /capabilities/mailbox-calendar-sync/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 20.7
+    - agent_band: agent-ready
+      agent_readiness: 44.1
       apps:
       - Acuity Scheduling
       - Cal.com
       - Calendly
       - Easy!Appointments
       - Rallly
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 64.6
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -3763,14 +3763,14 @@ stack:
       tier: observed
       url: /providers/google-calendar/
     - agent_band: agent-ready
-      agent_readiness: 49.5
+      agent_readiness: 42.9
       apps:
       - Acuity Scheduling
       - Cal.com
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.8
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -3789,13 +3789,13 @@ stack:
       tier: observed
       url: /providers/microsoft-outlook/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Acuity Scheduling
       - Cal.com
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Apple Calendar
@@ -3812,12 +3812,33 @@ stack:
       tier: observed
       url: /providers/apple/
     - agent_band: agent-ready
-      agent_readiness: 33.0
+      agent_readiness: 36.0
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 64.9
+      mcp:
+        status: none
+      name: Exchange Calendar
+      slug: microsoft-exchange
+      sources:
+      - https://github.com/calcom/cal.com/tree/main/packages/app-store
+      status: profiled
+      tags:
+      - Calendar
+      - Collaboration
+      - Contacts
+      - Email
+      tier: observed
+      url: /providers/microsoft-exchange/
+    - agent_band: agent-ready
+      agent_readiness: 32.4
+      apps:
+      - Cal.com
+      band: strong
+      in_catalog: true
+      kin_score: 64.4
       mcp: &id001
         source: https://www.zoho.com/mcp/
         status: verified
@@ -3834,33 +3855,12 @@ stack:
       tier: observed
       url: /providers/zoho/
     - agent_band: agent-ready
-      agent_readiness: 31.4
-      apps:
-      - Cal.com
-      band: strong
-      in_catalog: true
-      kin_score: 62.7
-      mcp:
-        status: none
-      name: Exchange Calendar
-      slug: microsoft-exchange
-      sources:
-      - https://github.com/calcom/cal.com/tree/main/packages/app-store
-      status: profiled
-      tags:
-      - Calendar
-      - Collaboration
-      - Contacts
-      - Email
-      tier: observed
-      url: /providers/microsoft-exchange/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 38.2
       apps:
       - Acuity Scheduling
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 45.6
+      kin_score: 57.2
       mcp:
         source: https://docs.cloud.google.com/mcp/supported-products
         status: verified
@@ -3885,13 +3885,13 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 51.0
       apps:
       - Acuity Scheduling
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 82.0
+      kin_score: 81.1
       mcp:
         source: https://developers.activecampaign.com/page/mcp
         status: documented
@@ -3909,13 +3909,13 @@ stack:
       tier: declared
       url: /providers/activecampaign/
     - agent_band: agent-ready
-      agent_readiness: 64.4
+      agent_readiness: 66.1
       apps:
       - Acuity Scheduling
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 80.4
       mcp:
         status: none
       name: Kit
@@ -3932,13 +3932,13 @@ stack:
       tier: declared
       url: /providers/convertkit/
     - agent_band: agent-ready
-      agent_readiness: 42.3
+      agent_readiness: 41.9
       apps:
       - Acuity Scheduling
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.7
       mcp:
         status: none
       name: Mailchimp
@@ -3955,13 +3955,13 @@ stack:
       tier: declared
       url: /providers/mailchimp/
     - agent_band: agent-ready
-      agent_readiness: 39.6
+      agent_readiness: 41.8
       apps:
       - Acuity Scheduling
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 72.2
+      kin_score: 71.7
       mcp:
         source: https://github.com/aweber/aweber-mcp
         status: verified
@@ -3979,12 +3979,12 @@ stack:
       tier: declared
       url: /providers/aweber/
     - agent_band: agent-ready
-      agent_readiness: 32.1
+      agent_readiness: 31.4
       apps:
       - Acuity Scheduling
       band: exemplar
       in_catalog: true
-      kin_score: 70.9
+      kin_score: 67.7
       mcp:
         status: none
       name: Constant Contact
@@ -4000,12 +4000,12 @@ stack:
       tier: declared
       url: /providers/constant-contact/
     - agent_band: agent-ready
-      agent_readiness: 48.6
+      agent_readiness: 47.6
       apps:
       - Acuity Scheduling
       band: strong
       in_catalog: true
-      kin_score: 62.9
+      kin_score: 63.9
       mcp:
         status: none
       name: Drip
@@ -4029,7 +4029,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Acuity Scheduling
       - Booksy Biz
@@ -4037,7 +4037,7 @@ stack:
       - Calendly
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id005
         status: none
       name: Meta Pixel
@@ -4055,12 +4055,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-aware
-      agent_readiness: 23.0
+      agent_readiness: 28.4
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 59.7
+      kin_score: 59.3
       mcp:
         source: https://dub.co/docs/mcp-server.md
         status: verified
@@ -4077,12 +4077,12 @@ stack:
       tier: observed
       url: /providers/dub/
     - agent_band: agent-ready
-      agent_readiness: 47.4
+      agent_readiness: 46.5
       apps:
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 76.4
+      kin_score: 77.8
       mcp:
         status: none
       name: LinkedIn Ads
@@ -4098,12 +4098,12 @@ stack:
       tier: declared
       url: /providers/linkedin/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Calendly
       band: developing
       in_catalog: true
-      kin_score: 41.0
+      kin_score: 40.5
       mcp:
         status: none
       name: TikTok
@@ -4119,12 +4119,12 @@ stack:
       tier: declared
       url: /providers/tiktok/
     - agent_band: agent-aware
-      agent_readiness: 15.8
+      agent_readiness: 12.7
       apps:
       - Acuity Scheduling
       band: thin
       in_catalog: true
-      kin_score: 28.3
+      kin_score: 36.5
       mcp:
         status: none
       name: ReferralCandy
@@ -4148,12 +4148,12 @@ stack:
       via_parent: Customer Feedback Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 23.9
       apps:
       - Cal.com
       band: thin
       in_catalog: true
-      kin_score: 32.4
+      kin_score: 31.4
       mcp:
         status: none
       name: Formbricks
@@ -4169,12 +4169,12 @@ stack:
       tier: observed
       url: /providers/formbricks/
     - agent_band: agent-ready
-      agent_readiness: 48.6
+      agent_readiness: 47.6
       apps:
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 70.6
+      kin_score: 70.2
       mcp:
         source: https://github.com/jotform/mcp-server
         status: verified
@@ -4191,12 +4191,12 @@ stack:
       tier: declared
       url: /providers/jotform/
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 21.9
       apps:
       - Acuity Scheduling
       band: strong
       in_catalog: true
-      kin_score: 56.7
+      kin_score: 55.3
       mcp:
         status: none
       name: Wufoo
@@ -4212,12 +4212,12 @@ stack:
       tier: declared
       url: /providers/wufoo/
     - agent_band: agent-ready
-      agent_readiness: 36.1
+      agent_readiness: 35.8
       apps:
       - Calendly
       band: developing
       in_catalog: true
-      kin_score: 50.8
+      kin_score: 53.1
       mcp:
         status: none
       name: Google Forms
@@ -4233,12 +4233,12 @@ stack:
       tier: declared
       url: /providers/google-forms/
     - agent_band: agent-ready
-      agent_readiness: 43.5
+      agent_readiness: 42.6
       apps:
       - Calendly
       band: thin
       in_catalog: true
-      kin_score: 37.6
+      kin_score: 36.0
       mcp:
         source: https://www.typeform.com/developers/mcp
         status: verified
@@ -4263,12 +4263,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.0
+      agent_readiness: 44.4
       apps:
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 68.0
+      kin_score: 72.3
       mcp:
         status: none
       name: WhatsApp
@@ -4284,12 +4284,12 @@ stack:
       tier: observed
       url: /providers/whatsapp/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 25.3
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 58.4
+      kin_score: 56.8
       mcp:
         status: none
       name: Telegram
@@ -4305,12 +4305,12 @@ stack:
       tier: observed
       url: /providers/telegram/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - Cal.com
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -4326,12 +4326,12 @@ stack:
       tier: observed
       url: /providers/discord/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 20.3
       apps:
       - Cal.com
       band: developing
       in_catalog: true
-      kin_score: 41.4
+      kin_score: 43.2
       mcp:
         status: none
       name: Signal
@@ -4355,12 +4355,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.4
+      agent_readiness: 31.9
       apps:
       - Cal.com
       band: developing
       in_catalog: true
-      kin_score: 46.0
+      kin_score: 46.6
       mcp:
         source: https://github.com/WordPress/mcp-adapter
         status: verified
@@ -4377,12 +4377,12 @@ stack:
       tier: observed
       url: /providers/wordpress/
     - agent_band: human-only
-      agent_readiness: 0.6
+      agent_readiness: 2.4
       apps:
       - Cal.com
       band: emerging
       in_catalog: true
-      kin_score: 19.1
+      kin_score: 18.8
       mcp:
         source: https://www.framer.com/developers/mcp
         status: verified
@@ -4399,12 +4399,12 @@ stack:
       tier: observed
       url: /providers/framer/
     - agent_band: agent-native
-      agent_readiness: 49.5
+      agent_readiness: 48.5
       apps:
       - Acuity Scheduling
       band: exemplar
       in_catalog: true
-      kin_score: 69.9
+      kin_score: 68.7
       mcp:
         status: none
       name: Squarespace
@@ -4428,12 +4428,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 58.8
+      agent_readiness: 60.3
       apps:
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 79.7
+      kin_score: 77.9
       mcp:
         status: none
       name: Greenhouse
@@ -4449,12 +4449,12 @@ stack:
       tier: declared
       url: /providers/greenhouse/
     - agent_band: agent-ready
-      agent_readiness: 33.0
+      agent_readiness: 32.4
       apps:
       - Calendly
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 64.4
       mcp: *id001
       name: Zoho Recruit
       slug: zoho
@@ -4468,9 +4468,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Calendly
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.3
+      kin_score: 27.4
       mcp:
         status: none
       name: JazzHR
@@ -4494,12 +4494,12 @@ stack:
       via_parent: Gift Cards, Gifting & Cashback
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 55.2
       apps:
       - Calendly
       band: strong
       in_catalog: true
-      kin_score: 61.6
+      kin_score: 62.0
       mcp:
         source: https://app.reachdesk.com/mcp
         status: verified
@@ -4515,13 +4515,13 @@ stack:
       - Swag
       tier: declared
       url: /providers/reachdesk/
-    - agent_band: agent-native
-      agent_readiness: 45.8
+    - agent_band: agent-ready
+      agent_readiness: 40.6
       apps:
       - Calendly
       band: strong
       in_catalog: true
-      kin_score: 58.1
+      kin_score: 59.0
       mcp:
         status: none
       name: Sendoso
@@ -4545,12 +4545,12 @@ stack:
       via_parent: Company & Contact Data
     providers:
     - agent_band: agent-ready
-      agent_readiness: 64.3
+      agent_readiness: 63.0
       apps:
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 87.2
+      kin_score: 86.8
       mcp:
         source: https://github.com/Zoominfo/zoominfo-mcp-plugin
         status: verified
@@ -4567,12 +4567,12 @@ stack:
       tier: declared
       url: /providers/zoominfo/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 24.6
       apps:
       - Calendly
       band: strong
       in_catalog: true
-      kin_score: 57.9
+      kin_score: 59.3
       mcp:
         status: none
       name: Clearbit
@@ -4595,13 +4595,13 @@ stack:
       url: /capabilities/invoice-generation-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Acuity Scheduling
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -4618,12 +4618,12 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-aware
-      agent_readiness: 20.1
+      agent_readiness: 19.7
       apps:
       - Acuity Scheduling
       band: thin
       in_catalog: true
-      kin_score: 31.2
+      kin_score: 31.0
       mcp:
         status: none
       name: FreshBooks
@@ -4647,12 +4647,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Calendly
       band: strong
       in_catalog: true
-      kin_score: 62.4
+      kin_score: 60.7
       mcp:
         status: none
       name: Pardot
@@ -4668,12 +4668,12 @@ stack:
       tier: declared
       url: /providers/pardot/
     - agent_band: agent-ready
-      agent_readiness: 31.1
+      agent_readiness: 30.4
       apps:
       - Calendly
       band: strong
       in_catalog: true
-      kin_score: 55.6
+      kin_score: 57.2
       mcp:
         status: none
       name: Marketo
@@ -4697,12 +4697,12 @@ stack:
       via_parent: Speech & Voice
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.2
+      agent_readiness: 59.8
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 60.5
       mcp:
         source: https://demodesk.ai/
         status: documented
@@ -4719,12 +4719,12 @@ stack:
       tier: observed
       url: /providers/demodesk/
     - agent_band: agent-ready
-      agent_readiness: 55.5
+      agent_readiness: 54.4
       apps:
       - Calendly
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 66.1
+      kin_score: 66.5
       mcp:
         status: none
       name: Gong
@@ -4748,12 +4748,12 @@ stack:
       via_parent: Voice & Telephony
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.4
+      agent_readiness: 24.0
       apps:
       - Cal.com
       band: thin
       in_catalog: true
-      kin_score: 31.7
+      kin_score: 31.2
       mcp:
         status: none
       name: Dialpad
@@ -4769,12 +4769,12 @@ stack:
       tier: observed
       url: /providers/dialpad/
     - agent_band: agent-ready
-      agent_readiness: 32.8
+      agent_readiness: 34.9
       apps:
       - Calendly
       band: developing
       in_catalog: true
-      kin_score: 53.9
+      kin_score: 54.1
       mcp:
         status: none
       name: CallRail
@@ -4798,12 +4798,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 53.4
+      agent_readiness: 46.7
       apps:
       - Calendly
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 64.1
+      kin_score: 68.2
       mcp:
         source: https://github.com/Yelp/yelp-mcp
         status: verified
@@ -4820,12 +4820,12 @@ stack:
       tier: declared
       url: /providers/yelp/
     - agent_band: agent-native
-      agent_readiness: 40.9
+      agent_readiness: 40.1
       apps:
       - Calendly
       band: strong
       in_catalog: true
-      kin_score: 57.5
+      kin_score: 59.1
       mcp:
         status: none
       name: Podium
@@ -4849,12 +4849,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.5
+      agent_readiness: 47.8
       apps:
       - Acuity Scheduling
       band: exemplar
       in_catalog: true
-      kin_score: 68.8
+      kin_score: 68.9
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -4876,7 +4876,7 @@ stack:
       - Acuity Scheduling
       band: emerging
       in_catalog: true
-      kin_score: 12.1
+      kin_score: 11.0
       mcp:
         status: none
       name: ClassPass
@@ -4900,12 +4900,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 53.0
+      agent_readiness: 51.9
       apps:
       - Calendly
       band: developing
       in_catalog: true
-      kin_score: 42.1
+      kin_score: 40.1
       mcp:
         source: https://help.kajabi.com/en/collections/19761100-mcp
         status: documented
@@ -4932,7 +4932,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Acuity Scheduling
       - Cal.com
@@ -4940,7 +4940,7 @@ stack:
       - LibreBooking
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -4958,40 +4958,40 @@ stack:
       - Metrics
       tier: observed
       url: /providers/google-analytics/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Acuity Scheduling
       - Booksy Biz
       - Calendly
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id003
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.acuityscheduling.app.android/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.calendly.app/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/net.booksy.business/latest/
       status: profiled
       tags: &id004
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Cal.com
       - Rallly
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -5009,13 +5009,13 @@ stack:
       tier: observed
       url: /providers/posthog/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Booksy Biz
       - Calendly
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Segment
@@ -5032,12 +5032,12 @@ stack:
       tier: observed
       url: /providers/segment/
     - agent_band: agent-ready
-      agent_readiness: 38.4
+      agent_readiness: 38.6
       apps:
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 73.3
+      kin_score: 72.8
       mcp:
         status: none
       name: Umami
@@ -5053,12 +5053,12 @@ stack:
       tier: observed
       url: /providers/umami/
     - agent_band: agent-ready
-      agent_readiness: 37.4
+      agent_readiness: 41.3
       apps:
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 72.2
+      kin_score: 70.7
       mcp:
         source: https://github.com/matomo-org/plugin-McpServer
         status: verified
@@ -5074,13 +5074,34 @@ stack:
       - Web Analytics
       tier: observed
       url: /providers/matomo/
+    - agent_band: agent-aware
+      agent_readiness: 22.6
+      apps:
+      - Cal.com
+      band: strong
+      in_catalog: true
+      kin_score: 65.3
+      mcp:
+        status: none
+      name: Plausible
+      slug: plausible
+      sources:
+      - https://github.com/calcom/cal.com/tree/main/packages/app-store
+      status: profiled
+      tags:
+      - Analytics
+      - Cookie-Free
+      - Event Tracking
+      - GDPR
+      tier: observed
+      url: /providers/plausible/
     - agent_band: agent-ready
-      agent_readiness: 56.7
+      agent_readiness: 56.9
       apps:
       - Acuity Scheduling
       band: strong
       in_catalog: true
-      kin_score: 63.5
+      kin_score: 65.2
       mcp:
         source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
         status: verified
@@ -5096,34 +5117,13 @@ stack:
       - Feature Flags
       tier: observed
       url: /providers/amplitude/
-    - agent_band: agent-aware
-      agent_readiness: 23.1
-      apps:
-      - Cal.com
-      band: strong
-      in_catalog: true
-      kin_score: 63.4
-      mcp:
-        status: none
-      name: Plausible
-      slug: plausible
-      sources:
-      - https://github.com/calcom/cal.com/tree/main/packages/app-store
-      status: profiled
-      tags:
-      - Analytics
-      - Cookie-Free
-      - Event Tracking
-      - GDPR
-      tier: observed
-      url: /providers/plausible/
-    - agent_band: agent-aware
-      agent_readiness: 25.4
+    - agent_band: agent-ready
+      agent_readiness: 30.3
       apps:
       - Cal.com
       band: developing
       in_catalog: true
-      kin_score: 49.7
+      kin_score: 47.7
       mcp:
         status: none
       name: Fathom Analytics
@@ -5139,12 +5139,12 @@ stack:
       tier: observed
       url: /providers/fathom/
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - Calendly
       band: strong
       in_catalog: true
-      kin_score: 56.4
+      kin_score: 57.0
       mcp:
         source: https://support.pendo.io/hc/en-us/articles/41102236924955
         status: verified
@@ -5169,14 +5169,14 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Acuity Scheduling
       - Cal.com
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -5195,13 +5195,13 @@ stack:
       tier: observed
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 31.1
       apps:
       - Cal.com
       - Calendly
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.3
+      kin_score: 65.5
       mcp:
         source: https://pipedream.com/docs/connect/mcp
         status: verified
@@ -5219,13 +5219,13 @@ stack:
       tier: observed
       url: /providers/pipedream/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Cal.com
       - Calendly
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -5243,12 +5243,12 @@ stack:
       tier: observed
       url: /providers/make/
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 35.7
       apps:
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 67.7
       mcp:
         source: https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server/
         status: verified
@@ -5265,12 +5265,12 @@ stack:
       tier: observed
       url: /providers/n8n/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - Cal.com
       band: emerging
       in_catalog: true
-      kin_score: 25.7
+      kin_score: 25.2
       mcp:
         status: none
       name: Raycast
@@ -5286,12 +5286,12 @@ stack:
       tier: observed
       url: /providers/raycast/
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 53.8
       apps:
       - Calendly
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 70.5
       mcp:
         source: https://docs.workato.com/mcp.html
         status: verified
@@ -5308,12 +5308,28 @@ stack:
       tier: declared
       url: /providers/workato/
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 32.4
       apps:
       - Acuity Scheduling
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 64.4
+      mcp: *id001
+      name: Zoho Flow
+      slug: zoho
+      sources:
+      - https://acuityscheduling.com/integrations
+      status: profiled
+      tags: *id002
+      tier: declared
+      url: /providers/zoho/
+    - agent_band: agent-ready
+      agent_readiness: 30.1
+      apps:
+      - Acuity Scheduling
+      band: strong
+      in_catalog: true
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -5328,12 +5344,12 @@ stack:
       tier: declared
       url: /providers/google-sheets/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 29.1
       apps:
       - Calendly
       band: strong
       in_catalog: true
-      kin_score: 64.2
+      kin_score: 62.1
       mcp:
         status: none
       name: Power Automate
@@ -5348,22 +5364,6 @@ stack:
       - Low-Code
       tier: declared
       url: /providers/microsoft-power-automate/
-    - agent_band: agent-ready
-      agent_readiness: 33.0
-      apps:
-      - Acuity Scheduling
-      band: strong
-      in_catalog: true
-      kin_score: 63.5
-      mcp: *id001
-      name: Zoho Flow
-      slug: zoho
-      sources:
-      - https://acuityscheduling.com/integrations
-      status: profiled
-      tags: *id002
-      tier: declared
-      url: /providers/zoho/
   - capability:
       attribution: Turbo EA
       id: BC-1340.20
@@ -5373,7 +5373,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Acuity Scheduling
       - Cal.com
@@ -5382,7 +5382,7 @@ stack:
       - Rallly
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -5401,7 +5401,7 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - Acuity Scheduling
       - Cal.com
@@ -5409,7 +5409,7 @@ stack:
       - LibreBooking
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -5428,12 +5428,12 @@ stack:
       tier: observed
       url: /providers/paypal/
     - agent_band: agent-ready
-      agent_readiness: 41.2
+      agent_readiness: 40.8
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 65.4
+      kin_score: 64.8
       mcp:
         status: none
       name: HitPay
@@ -5449,12 +5449,12 @@ stack:
       tier: observed
       url: /providers/hitpay/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - Acuity Scheduling
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp:
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -5485,7 +5485,7 @@ stack:
       - Rallly
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -5502,31 +5502,31 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Booksy Biz
       - Calendly
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Google Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.calendly.app/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/net.booksy.business/latest/
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-ready
-      agent_readiness: 53.1
+      agent_readiness: 52.0
       apps:
       - Acuity Scheduling
       band: exemplar
       in_catalog: true
-      kin_score: 78.5
+      kin_score: 76.3
       mcp:
         source: https://github.com/SmartBear/smartbear-mcp
         status: verified
@@ -5543,12 +5543,12 @@ stack:
       tier: observed
       url: /providers/bugsnag/
     - agent_band: agent-ready
-      agent_readiness: 59.5
+      agent_readiness: 61.2
       apps:
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 77.1
+      kin_score: 76.2
       mcp:
         source: https://www.checklyhq.com/docs/guides/communicate-availability.md
         status: documented
@@ -5565,12 +5565,12 @@ stack:
       tier: observed
       url: /providers/checkly/
     - agent_band: agent-ready
-      agent_readiness: 29.6
+      agent_readiness: 35.2
       apps:
       - Acuity Scheduling
       band: developing
       in_catalog: true
-      kin_score: 45.6
+      kin_score: 45.8
       mcp:
         source: https://docs.luciq.ai/product-guides-and-integrations/product-guides/ai-features.md
         status: documented
@@ -5594,15 +5594,15 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Cal.com
       - LibreBooking
       - Rallly
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -5620,13 +5620,13 @@ stack:
       tier: observed
       url: /providers/google-identity-platform/
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - LibreBooking
       - Rallly
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft sign-in
@@ -5643,12 +5643,12 @@ stack:
       tier: observed
       url: /providers/microsoft-entra/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - LibreBooking
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id005
       name: Facebook Login
       slug: facebook
@@ -5667,13 +5667,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.7
+      agent_readiness: 32.5
       apps:
       - Cal.com
       - Calendly
       band: developing
       in_catalog: true
-      kin_score: 52.5
+      kin_score: 51.0
       mcp:
         source: https://developers.intercom.com/docs/guides/mcp
         status: verified
@@ -5691,12 +5691,12 @@ stack:
       tier: observed
       url: /providers/intercom/
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -5712,12 +5712,12 @@ stack:
       tier: observed
       url: /providers/zendesk/
     - agent_band: agent-aware
-      agent_readiness: 25.4
+      agent_readiness: 24.8
       apps:
       - Cal.com
       band: developing
       in_catalog: true
-      kin_score: 51.7
+      kin_score: 51.5
       mcp:
         status: none
       name: Help Scout
@@ -5733,12 +5733,12 @@ stack:
       tier: observed
       url: /providers/helpscout/
     - agent_band: agent-aware
-      agent_readiness: 22.8
+      agent_readiness: 23.4
       apps:
       - Cal.com
       band: thin
       in_catalog: true
-      kin_score: 37.3
+      kin_score: 36.2
       mcp:
         status: none
       name: Freshchat
@@ -5762,13 +5762,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Calendly
       - LibreBooking
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -5786,12 +5786,12 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-aware
-      agent_readiness: 20.0
+      agent_readiness: 24.9
       apps:
       - Cal.com
       band: developing
       in_catalog: true
-      kin_score: 49.5
+      kin_score: 49.0
       mcp:
         source: https://github.com/basecamp/mcp
         status: verified
@@ -5808,12 +5808,12 @@ stack:
       tier: observed
       url: /providers/basecamp/
     - agent_band: agent-ready
-      agent_readiness: 35.5
+      agent_readiness: 35.2
       apps:
       - Cal.com
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.1
+      kin_score: 39.6
       mcp:
         source: https://linear.app/docs/mcp
         status: verified
@@ -5838,13 +5838,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 23.1
+      agent_readiness: 24.2
       apps:
       - Cal.com
       - Rallly
       band: thin
       in_catalog: true
-      kin_score: 28.9
+      kin_score: 28.8
       mcp:
         source: https://github.com/cloudflare/mcp
         status: verified
@@ -5861,13 +5861,13 @@ stack:
       - Turnstile
       tier: observed
       url: /providers/cloudflare-turnstile/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - LibreBooking
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Google reCAPTCHA
@@ -5891,12 +5891,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Booksy Biz
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -5913,12 +5913,12 @@ stack:
       tier: observed
       url: /providers/appsflyer/
     - agent_band: agent-aware
-      agent_readiness: 24.7
+      agent_readiness: 21.9
       apps:
       - Booksy Biz
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 23.0
+      kin_score: 33.8
       mcp:
         status: none
       name: Branch
@@ -5931,12 +5931,12 @@ stack:
       tier: observed
       url: /providers/branch-io/
     - agent_band: agent-aware
-      agent_readiness: 17.3
+      agent_readiness: 18.3
       apps:
       - Acuity Scheduling
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.6
+      kin_score: 13.7
       mcp:
         status: unknown
       name: Tune
@@ -5960,12 +5960,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -5981,12 +5981,12 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - Rallly
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -6002,12 +6002,12 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 49.4
+      agent_readiness: 49.8
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 58.9
+      kin_score: 56.8
       mcp:
         source: https://resend.com/docs/mcp-server
         status: verified
@@ -6032,13 +6032,13 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 46.7
       apps:
       - Cal.com
       - Rallly
       band: thin
       in_catalog: true
-      kin_score: 37.9
+      kin_score: 35.2
       mcp:
         source: https://github.com/upstash/mcp-server
         status: verified
@@ -6064,12 +6064,12 @@ stack:
       via_parent: Stablecoin Payments
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.2
+      agent_readiness: 28.6
       apps:
       - Cal.com
       band: thin
       in_catalog: true
-      kin_score: 38.3
+      kin_score: 38.0
       mcp:
         status: none
       name: BTCPay Server
@@ -6093,12 +6093,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 69.6
+      agent_readiness: 69.4
       apps:
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 82.8
+      kin_score: 82.5
       mcp:
         source: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
         status: verified
@@ -6123,12 +6123,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.2
+      agent_readiness: 50.0
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 63.8
+      kin_score: 63.1
       mcp: &id007
         source: https://vercel.com/docs/mcp/vercel-mcp
         status: verified
@@ -6153,12 +6153,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Rallly
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -6183,12 +6183,12 @@ stack:
       via_parent: IT Operations Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 27.9
+      agent_readiness: 27.8
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 58.6
+      kin_score: 56.7
       mcp:
         source: https://github.com/triggerdotdev/trigger.dev
         status: verified
@@ -6199,8 +6199,8 @@ stack:
       status: profiled
       tags:
       - Background Jobs
-      - Developer-First
       - Durable Execution
+      - TypeScript
       - Workflow Automation
       tier: observed
       url: /providers/trigger-dev/
@@ -6213,12 +6213,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - Acuity Scheduling
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -6242,12 +6242,12 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -6277,7 +6277,7 @@ stack:
       - Cal.com
       band: developing
       in_catalog: true
-      kin_score: 47.0
+      kin_score: 44.9
       mcp:
         status: none
       name: Unkey
@@ -6301,12 +6301,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.2
+      agent_readiness: 50.0
       apps:
       - Rallly
       band: strong
       in_catalog: true
-      kin_score: 63.8
+      kin_score: 63.1
       mcp: *id007
       name: Vercel
       slug: vercel
@@ -6325,12 +6325,12 @@ stack:
       via_parent: Product Telemetry Instrumentation
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.2
+      agent_readiness: 35.8
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 65.2
+      kin_score: 65.8
       mcp:
         status: none
       name: Google Tag Manager
@@ -6356,13 +6356,13 @@ stack:
       via_parent: Vertical Agents
     providers:
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 26.1
       apps:
       - Cal.com
       - Calendly
       band: thin
       in_catalog: true
-      kin_score: 37.2
+      kin_score: 38.0
       mcp:
         status: none
       name: Chatbase
@@ -6379,12 +6379,12 @@ stack:
       tier: observed
       url: /providers/chatbase/
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 60.4
       apps:
       - Cal.com
       band: exemplar
       in_catalog: true
-      kin_score: 83.0
+      kin_score: 83.2
       mcp:
         source: https://github.com/elevenlabs/elevenlabs-mcp
         status: verified
@@ -6401,12 +6401,12 @@ stack:
       tier: observed
       url: /providers/elevenlabs/
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 58.2
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 62.3
+      kin_score: 59.3
       mcp:
         source: https://docs.synthflow.ai/mcp-server
         status: verified
@@ -6423,12 +6423,12 @@ stack:
       tier: observed
       url: /providers/synthflow/
     - agent_band: agent-aware
-      agent_readiness: 28.1
+      agent_readiness: 28.0
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 58.8
+      kin_score: 58.5
       mcp:
         status: none
       name: Lindy
@@ -6444,12 +6444,12 @@ stack:
       tier: observed
       url: /providers/lindy/
     - agent_band: agent-ready
-      agent_readiness: 53.6
+      agent_readiness: 52.5
       apps:
       - Cal.com
       band: strong
       in_catalog: true
-      kin_score: 57.4
+      kin_score: 55.1
       mcp:
         source: https://github.com/bolna-ai/mcp
         status: verified
@@ -6466,12 +6466,12 @@ stack:
       tier: observed
       url: /providers/bolna/
     - agent_band: agent-ready
-      agent_readiness: 32.3
+      agent_readiness: 38.1
       apps:
       - Cal.com
       band: thin
       in_catalog: true
-      kin_score: 38.5
+      kin_score: 35.7
       mcp:
         source: https://docs.retellai.com/
         status: documented
@@ -6496,12 +6496,12 @@ stack:
       via_parent: Speech & Voice
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.8
+      agent_readiness: 54.0
       apps:
       - Cal.com
       band: thin
       in_catalog: true
-      kin_score: 32.2
+      kin_score: 33.0
       mcp:
         source: https://docs.granola.ai/help-center/sharing/integrations/mcp
         status: documented
@@ -6529,7 +6529,7 @@ summary:
     unchecked: 0
     verified: 55
   mcp_verified: 55
-  mean_kin_score: 56.9
+  mean_kin_score: 57.9
   observed: 84
   queued: 0
   reference_apps: 7

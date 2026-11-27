@@ -78,10 +78,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.2
-    band: emerging
+    agent_readiness: 16.8
+    band: thin
     in_catalog: true
-    kin_score: 25.2
+    kin_score: 28.1
     mcp: &id002
       status: none
     slug: asendia
@@ -108,10 +108,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.5
+    agent_readiness: 30.8
     band: strong
     in_catalog: true
-    kin_score: 56.9
+    kin_score: 62.7
     mcp: &id004
       status: none
     slug: australia-post
@@ -139,9 +139,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 10.0
+    kin_score: 15.4
     mcp: &id006
       status: unknown
     slug: austrian-post
@@ -168,10 +168,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.0
+    kin_score: 7.9
     mcp: &id008
       status: unknown
     slug: bpost
@@ -201,7 +201,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 18.0
+    kin_score: 17.1
     mcp: &id010
       status: none
     slug: canada-post
@@ -243,10 +243,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 12.9
-    band: emerging
+    agent_readiness: 12.7
+    band: thin
     in_catalog: true
-    kin_score: 20.4
+    kin_score: 27.8
     mcp: &id012
       status: none
     slug: chronopost
@@ -272,11 +272,11 @@ integrations:
     via_parent: Logistics Operations Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.1
-    band: emerging
+    agent_band: agent-native
+    agent_readiness: 39.5
+    band: developing
     in_catalog: true
-    kin_score: 26.1
+    kin_score: 52.3
     mcp: &id014
       status: none
     slug: dhl
@@ -306,7 +306,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.9
+    kin_score: 4.0
     mcp: &id016
       status: none
     slug: dpd
@@ -333,10 +333,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 35.9
+    agent_readiness: 35.2
     band: exemplar
     in_catalog: true
-    kin_score: 69.4
+    kin_score: 70.7
     mcp: &id018
       status: none
     slug: fedex
@@ -363,10 +363,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.2
+    agent_readiness: 28.6
     band: emerging
     in_catalog: true
-    kin_score: 23.5
+    kin_score: 25.8
     mcp: &id020
       status: none
     slug: gls-group
@@ -393,10 +393,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id022
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -423,11 +423,11 @@ integrations:
     via_parent: Logistics Operations Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: minimal
     in_catalog: true
-    kin_score: 4.6
+    kin_score: 3.7
     mcp: &id024
       status: unknown
     slug: hermes-germany
@@ -454,10 +454,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 21.5
+    agent_readiness: 21.0
     band: thin
     in_catalog: true
-    kin_score: 33.5
+    kin_score: 33.0
     mcp: &id026
       status: unknown
     slug: la-poste
@@ -487,7 +487,7 @@ integrations:
     agent_readiness: 0.0
     band: emerging
     in_catalog: true
-    kin_score: 11.0
+    kin_score: 16.8
     mcp: &id028
       status: none
     slug: landmark-global
@@ -514,10 +514,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.6
-    band: thin
+    agent_readiness: 33.9
+    band: developing
     in_catalog: true
-    kin_score: 35.2
+    kin_score: 39.9
     mcp: &id030
       status: unknown
     slug: parcelone
@@ -547,7 +547,7 @@ integrations:
     agent_readiness: 3.5
     band: emerging
     in_catalog: true
-    kin_score: 17.8
+    kin_score: 19.8
     mcp: &id032
       status: none
     slug: purolator
@@ -575,9 +575,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.4
+    kin_score: 11.6
     mcp: &id034
       status: none
     slug: seko-logistics
@@ -604,10 +604,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 32.6
+    agent_readiness: 36.6
     band: developing
     in_catalog: true
-    kin_score: 43.1
+    kin_score: 40.4
     mcp: &id036
       status: none
     slug: sendle
@@ -637,7 +637,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.0
+    kin_score: 9.8
     mcp: &id038
       status: unknown
     slug: smartkargo
@@ -663,11 +663,11 @@ integrations:
     via_parent: Logistics Operations Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 6.5
+    agent_band: human-only
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.0
+    kin_score: 8.5
     mcp: &id040
       status: unknown
     slug: spring-gds
@@ -694,10 +694,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.8
-    band: emerging
+    agent_readiness: 19.9
+    band: thin
     in_catalog: true
-    kin_score: 26.0
+    kin_score: 31.4
     mcp: &id042
       status: none
     slug: teleship
@@ -723,11 +723,11 @@ integrations:
     via_parent: Logistics Operations Management
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.1
+    agent_band: agent-ready
+    agent_readiness: 29.2
     band: thin
     in_catalog: true
-    kin_score: 29.0
+    kin_score: 27.9
     mcp: &id044
       source: https://github.com/UPS-API/ups-mcp
       status: verified
@@ -754,11 +754,11 @@ integrations:
     via_parent: Logistics Operations Management
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.9
-    band: thin
+    agent_band: agent-native
+    agent_readiness: 51.8
+    band: developing
     in_catalog: true
-    kin_score: 33.2
+    kin_score: 52.0
     mcp: &id046
       status: none
     slug: usps
@@ -783,10 +783,10 @@ noindex: false
 permalink: /applications/shipping-fulfillment/karrio/
 providers:
 - agent_band: agent-aware
-  agent_readiness: 17.2
-  band: emerging
+  agent_readiness: 16.8
+  band: thin
   in_catalog: true
-  kin_score: 25.2
+  kin_score: 28.1
   mcp: *id002
   name: Asendia
   slug: asendia
@@ -794,10 +794,10 @@ providers:
   tags: *id003
   url: /providers/asendia/
 - agent_band: agent-ready
-  agent_readiness: 31.5
+  agent_readiness: 30.8
   band: strong
   in_catalog: true
-  kin_score: 56.9
+  kin_score: 62.7
   mcp: *id004
   name: Australia Post
   slug: australia-post
@@ -806,9 +806,9 @@ providers:
   url: /providers/australia-post/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 10.0
+  kin_score: 15.4
   mcp: *id006
   name: Austrian Post (Post AG)
   slug: austrian-post
@@ -816,10 +816,10 @@ providers:
   tags: *id007
   url: /providers/austrian-post/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.0
+  kin_score: 7.9
   mcp: *id008
   name: bpost
   slug: bpost
@@ -830,7 +830,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 18.0
+  kin_score: 17.1
   mcp: *id010
   name: Canada Post
   slug: canada-post
@@ -838,21 +838,21 @@ providers:
   tags: *id011
   url: /providers/canada-post/
 - agent_band: agent-aware
-  agent_readiness: 12.9
-  band: emerging
+  agent_readiness: 12.7
+  band: thin
   in_catalog: true
-  kin_score: 20.4
+  kin_score: 27.8
   mcp: *id012
   name: Chronopost
   slug: chronopost
   status: profiled
   tags: *id013
   url: /providers/chronopost/
-- agent_band: agent-aware
-  agent_readiness: 24.1
-  band: emerging
+- agent_band: agent-native
+  agent_readiness: 39.5
+  band: developing
   in_catalog: true
-  kin_score: 26.1
+  kin_score: 52.3
   mcp: *id014
   name: DHL
   slug: dhl
@@ -863,7 +863,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.9
+  kin_score: 4.0
   mcp: *id016
   name: DPD
   slug: dpd
@@ -871,10 +871,10 @@ providers:
   tags: *id017
   url: /providers/dpd/
 - agent_band: agent-ready
-  agent_readiness: 35.9
+  agent_readiness: 35.2
   band: exemplar
   in_catalog: true
-  kin_score: 69.4
+  kin_score: 70.7
   mcp: *id018
   name: FedEx
   slug: fedex
@@ -882,10 +882,10 @@ providers:
   tags: *id019
   url: /providers/fedex/
 - agent_band: agent-ready
-  agent_readiness: 29.2
+  agent_readiness: 28.6
   band: emerging
   in_catalog: true
-  kin_score: 23.5
+  kin_score: 25.8
   mcp: *id020
   name: GLS
   slug: gls-group
@@ -893,21 +893,21 @@ providers:
   tags: *id021
   url: /providers/gls-group/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id022
   name: Google Maps Platform (Geocoding)
   slug: google-maps
   status: profiled
   tags: *id023
   url: /providers/google-maps/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: minimal
   in_catalog: true
-  kin_score: 4.6
+  kin_score: 3.7
   mcp: *id024
   name: Hermes Germany
   slug: hermes-germany
@@ -915,10 +915,10 @@ providers:
   tags: *id025
   url: /providers/hermes-germany/
 - agent_band: agent-aware
-  agent_readiness: 21.5
+  agent_readiness: 21.0
   band: thin
   in_catalog: true
-  kin_score: 33.5
+  kin_score: 33.0
   mcp: *id026
   name: La Poste
   slug: la-poste
@@ -929,7 +929,7 @@ providers:
   agent_readiness: 0.0
   band: emerging
   in_catalog: true
-  kin_score: 11.0
+  kin_score: 16.8
   mcp: *id028
   name: Landmark Global
   slug: landmark-global
@@ -937,10 +937,10 @@ providers:
   tags: *id029
   url: /providers/landmark-global/
 - agent_band: agent-ready
-  agent_readiness: 34.6
-  band: thin
+  agent_readiness: 33.9
+  band: developing
   in_catalog: true
-  kin_score: 35.2
+  kin_score: 39.9
   mcp: *id030
   name: ParcelOne
   slug: parcelone
@@ -951,7 +951,7 @@ providers:
   agent_readiness: 3.5
   band: emerging
   in_catalog: true
-  kin_score: 17.8
+  kin_score: 19.8
   mcp: *id032
   name: Purolator
   slug: purolator
@@ -960,9 +960,9 @@ providers:
   url: /providers/purolator/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.4
+  kin_score: 11.6
   mcp: *id034
   name: SEKO Logistics
   slug: seko-logistics
@@ -970,10 +970,10 @@ providers:
   tags: *id035
   url: /providers/seko-logistics/
 - agent_band: agent-ready
-  agent_readiness: 32.6
+  agent_readiness: 36.6
   band: developing
   in_catalog: true
-  kin_score: 43.1
+  kin_score: 40.4
   mcp: *id036
   name: Sendle
   slug: sendle
@@ -984,18 +984,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.0
+  kin_score: 9.8
   mcp: *id038
   name: SmartKargo
   slug: smartkargo
   status: profiled
   tags: *id039
   url: /providers/smartkargo/
-- agent_band: agent-aware
-  agent_readiness: 6.5
+- agent_band: human-only
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.0
+  kin_score: 8.5
   mcp: *id040
   name: Spring GDS
   slug: spring-gds
@@ -1003,32 +1003,32 @@ providers:
   tags: *id041
   url: /providers/spring-gds/
 - agent_band: agent-aware
-  agent_readiness: 19.8
-  band: emerging
+  agent_readiness: 19.9
+  band: thin
   in_catalog: true
-  kin_score: 26.0
+  kin_score: 31.4
   mcp: *id042
   name: Teleship
   slug: teleship
   status: profiled
   tags: *id043
   url: /providers/teleship/
-- agent_band: agent-aware
-  agent_readiness: 24.1
+- agent_band: agent-ready
+  agent_readiness: 29.2
   band: thin
   in_catalog: true
-  kin_score: 29.0
+  kin_score: 27.9
   mcp: *id044
   name: UPS
   slug: ups
   status: profiled
   tags: *id045
   url: /providers/ups/
-- agent_band: agent-ready
-  agent_readiness: 31.9
-  band: thin
+- agent_band: agent-native
+  agent_readiness: 51.8
+  band: developing
   in_catalog: true
-  kin_score: 33.2
+  kin_score: 52.0
   mcp: *id046
   name: USPS
   slug: usps

@@ -124,10 +124,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.4
+    agent_readiness: 41.7
     band: strong
     in_catalog: true
-    kin_score: 55.5
+    kin_score: 64.4
     mcp: &id003
       source: https://github.com/awslabs/mcp
       status: verified
@@ -154,17 +154,21 @@ integrations:
     via_parent: Geocoding
   credit: null
   facts:
-    agent_band: null
-    agent_readiness: null
-    band: null
-    in_catalog: false
-    kin_score: null
+    agent_band: human-only
+    agent_readiness: 3.0
+    band: emerging
+    in_catalog: true
+    kin_score: 19.0
     mcp: &id005
       status: unchecked
     slug: autonavi
-    status: queued for profiling
-    tags: &id006 []
-    url: null
+    status: profiled
+    tags: &id006
+    - China
+    - Company
+    - Location Services
+    - Mapping
+    url: /providers/autonavi/
   layer: domain
   name: AutoNavi (Amap)
   provider: autonavi
@@ -181,10 +185,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 6.0
+    agent_readiness: 5.8
     band: emerging
     in_catalog: true
-    kin_score: 18.5
+    kin_score: 17.4
     mcp: &id007
       source: https://github.com/baidu-maps/mcp
       status: verified
@@ -237,11 +241,11 @@ integrations:
     via_parent: Geocoding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.8
+    agent_band: human-only
+    agent_readiness: 3.5
     band: thin
     in_catalog: true
-    kin_score: 29.7
+    kin_score: 28.9
     mcp: &id011
       status: none
     slug: bing-maps
@@ -271,7 +275,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.2
+    kin_score: 4.6
     mcp: &id013
       status: none
     slug: factual
@@ -297,22 +301,22 @@ integrations:
     via_parent: null
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts: &id001
-    agent_band: agent-aware
-    agent_readiness: 14.2
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 39.9
+    band: strong
     in_catalog: true
-    kin_score: 50.3
+    kin_score: 62.0
     mcp: &id015
       source: https://firebase.google.com/docs/ai-assistance/mcp-server
       status: verified
-    slug: firebase
+    slug: google-firebase
     status: profiled
     tags: &id016
-    - Application Development
+    - Analytics
+    - Authentication
     - Backend-as-a-Service
-    - Company
-    - Mobile
-    url: /providers/firebase/
+    - Cloud Messaging
+    url: /providers/google-firebase/
   layer: common
   name: Firebase (Crashlytics / Analytics)
   provider: firebase
@@ -344,10 +348,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 44.3
+    agent_readiness: 40.8
     band: strong
     in_catalog: true
-    kin_score: 60.3
+    kin_score: 62.6
     mcp: &id017
       status: none
     slug: geoapify
@@ -373,11 +377,11 @@ integrations:
     via_parent: Geocoding
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.9
-    band: thin
+    agent_band: agent-aware
+    agent_readiness: 26.1
+    band: developing
     in_catalog: true
-    kin_score: 36.2
+    kin_score: 45.3
     mcp: &id019
       status: unknown
     slug: geocode-farm
@@ -407,7 +411,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 4.8
     mcp: &id021
       status: unknown
     slug: geocode-xyz
@@ -432,10 +436,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 17.9
+    agent_readiness: 15.1
     band: thin
     in_catalog: true
-    kin_score: 27.8
+    kin_score: 32.5
     mcp: &id023
       status: none
     slug: gisgraphy
@@ -462,10 +466,10 @@ integrations:
   credit: null
   facts: &id002
     agent_band: agent-ready
-    agent_readiness: 36.0
+    agent_readiness: 33.0
     band: exemplar
     in_catalog: true
-    kin_score: 71.4
+    kin_score: 73.6
     mcp: &id025
       source: https://developers.google.com/maps/ai/grounding-lite
       status: verified
@@ -508,10 +512,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-native
-    agent_readiness: 55.5
+    agent_readiness: 54.4
     band: exemplar
     in_catalog: true
-    kin_score: 77.6
+    kin_score: 79.0
     mcp: &id027
       status: none
     slug: here
@@ -541,7 +545,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 5.6
+    kin_score: 4.8
     mcp: &id029
       status: none
     slug: locationiq
@@ -567,10 +571,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 45.8
+    agent_readiness: 45.2
     band: developing
     in_catalog: true
-    kin_score: 49.3
+    kin_score: 50.7
     mcp: &id031
       source: https://github.com/mapbox/mcp-server
       status: verified
@@ -598,10 +602,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.9
+    agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.2
+    kin_score: 7.7
     mcp: &id033
       status: none
     slug: mappls
@@ -628,10 +632,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 15.1
+    agent_readiness: 14.7
     band: thin
     in_catalog: true
-    kin_score: 34.0
+    kin_score: 35.2
     mcp: &id035
       status: none
     slug: mapquest
@@ -657,11 +661,11 @@ integrations:
     via_parent: Geocoding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 26.5
+    agent_band: agent-ready
+    agent_readiness: 32.5
     band: developing
     in_catalog: true
-    kin_score: 40.3
+    kin_score: 41.0
     mcp: &id037
       status: none
     slug: maptiler
@@ -688,10 +692,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 19.9
+    agent_readiness: 25.7
     band: developing
     in_catalog: true
-    kin_score: 42.4
+    kin_score: 43.7
     mcp: &id039
       status: none
     slug: nominatim
@@ -718,10 +722,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 0.0
+    agent_readiness: 1.7
     band: minimal
     in_catalog: true
-    kin_score: 7.9
+    kin_score: 8.5
     mcp: &id041
       source: https://github.com/OpenCageData/opencage-geocoding-mcp
       status: verified
@@ -773,11 +777,11 @@ integrations:
     via_parent: Routing & Navigation
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 28.8
+    agent_band: agent-aware
+    agent_readiness: 28.3
     band: developing
     in_catalog: true
-    kin_score: 44.4
+    kin_score: 45.5
     mcp: &id045
       status: none
     slug: openstreetmap
@@ -804,10 +808,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.5
+    agent_readiness: 35.1
     band: strong
     in_catalog: true
-    kin_score: 60.4
+    kin_score: 57.6
     mcp: &id047
       status: none
     slug: positionstack
@@ -834,10 +838,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.0
+    agent_readiness: 21.6
     band: thin
     in_catalog: true
-    kin_score: 29.2
+    kin_score: 28.1
     mcp: &id049
       status: none
     slug: pushover
@@ -864,10 +868,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.4
+    agent_readiness: 25.3
     band: strong
     in_catalog: true
-    kin_score: 58.4
+    kin_score: 56.8
     mcp: &id051
       status: none
     slug: telegram
@@ -920,7 +924,7 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 36.1
+    agent_readiness: 40.9
     band: developing
     in_catalog: true
     kin_score: 48.8
@@ -951,10 +955,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.2
+    agent_readiness: 21.8
     band: developing
     in_catalog: true
-    kin_score: 39.6
+    kin_score: 46.0
     mcp: &id057
       status: none
     slug: unwired-labs
@@ -981,10 +985,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 48.0
+    agent_readiness: 44.4
     band: exemplar
     in_catalog: true
-    kin_score: 68.0
+    kin_score: 72.3
     mcp: &id059
       status: none
     slug: whatsapp
@@ -1009,32 +1013,32 @@ noindex: false
 permalink: /applications/maps-navigation/traccar/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 29.4
+  agent_readiness: 41.7
   band: strong
   in_catalog: true
-  kin_score: 55.5
+  kin_score: 64.4
   mcp: *id003
   name: Amazon SNS
   slug: amazon-sns
   status: profiled
   tags: *id004
   url: /providers/amazon-sns/
-- agent_band: null
-  agent_readiness: null
-  band: null
-  in_catalog: false
-  kin_score: null
+- agent_band: human-only
+  agent_readiness: 3.0
+  band: emerging
+  in_catalog: true
+  kin_score: 19.0
   mcp: *id005
   name: AutoNavi (Amap)
   slug: autonavi
-  status: queued for profiling
+  status: profiled
   tags: *id006
-  url: null
+  url: /providers/autonavi/
 - agent_band: agent-aware
-  agent_readiness: 6.0
+  agent_readiness: 5.8
   band: emerging
   in_catalog: true
-  kin_score: 18.5
+  kin_score: 17.4
   mcp: *id007
   name: Baidu Maps
   slug: baidu
@@ -1052,11 +1056,11 @@ providers:
   status: queued for profiling
   tags: *id010
   url: null
-- agent_band: agent-aware
-  agent_readiness: 5.8
+- agent_band: human-only
+  agent_readiness: 3.5
   band: thin
   in_catalog: true
-  kin_score: 29.7
+  kin_score: 28.9
   mcp: *id011
   name: Bing Maps
   slug: bing-maps
@@ -1067,40 +1071,40 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.2
+  kin_score: 4.6
   mcp: *id013
   name: Factual
   slug: factual
   status: profiled
   tags: *id014
   url: /providers/factual/
-- agent_band: agent-aware
-  agent_readiness: 14.2
-  band: developing
-  in_catalog: true
-  kin_score: 50.3
-  mcp: *id015
-  name: Firebase (Crashlytics / Analytics)
-  slug: firebase
-  status: profiled
-  tags: *id016
-  url: /providers/firebase/
 - agent_band: agent-ready
-  agent_readiness: 44.3
+  agent_readiness: 39.9
   band: strong
   in_catalog: true
-  kin_score: 60.3
+  kin_score: 62.0
+  mcp: *id015
+  name: Firebase (Crashlytics / Analytics)
+  slug: google-firebase
+  status: profiled
+  tags: *id016
+  url: /providers/google-firebase/
+- agent_band: agent-ready
+  agent_readiness: 40.8
+  band: strong
+  in_catalog: true
+  kin_score: 62.6
   mcp: *id017
   name: Geoapify
   slug: geoapify
   status: profiled
   tags: *id018
   url: /providers/geoapify/
-- agent_band: agent-ready
-  agent_readiness: 28.9
-  band: thin
+- agent_band: agent-aware
+  agent_readiness: 26.1
+  band: developing
   in_catalog: true
-  kin_score: 36.2
+  kin_score: 45.3
   mcp: *id019
   name: Geocode.Farm
   slug: geocode-farm
@@ -1111,7 +1115,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 4.8
   mcp: *id021
   name: Geocode.xyz
   slug: geocode-xyz
@@ -1119,10 +1123,10 @@ providers:
   tags: *id022
   url: /providers/geocode-xyz/
 - agent_band: agent-aware
-  agent_readiness: 17.9
+  agent_readiness: 15.1
   band: thin
   in_catalog: true
-  kin_score: 27.8
+  kin_score: 32.5
   mcp: *id023
   name: Gisgraphy
   slug: gisgraphy
@@ -1130,10 +1134,10 @@ providers:
   tags: *id024
   url: /providers/gisgraphy/
 - agent_band: agent-ready
-  agent_readiness: 36.0
+  agent_readiness: 33.0
   band: exemplar
   in_catalog: true
-  kin_score: 71.4
+  kin_score: 73.6
   mcp: *id025
   name: Google Maps Platform
   slug: google-maps
@@ -1141,10 +1145,10 @@ providers:
   tags: *id026
   url: /providers/google-maps/
 - agent_band: agent-native
-  agent_readiness: 55.5
+  agent_readiness: 54.4
   band: exemplar
   in_catalog: true
-  kin_score: 77.6
+  kin_score: 79.0
   mcp: *id027
   name: HERE
   slug: here
@@ -1155,7 +1159,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 5.6
+  kin_score: 4.8
   mcp: *id029
   name: LocationIQ
   slug: locationiq
@@ -1163,10 +1167,10 @@ providers:
   tags: *id030
   url: /providers/locationiq/
 - agent_band: agent-ready
-  agent_readiness: 45.8
+  agent_readiness: 45.2
   band: developing
   in_catalog: true
-  kin_score: 49.3
+  kin_score: 50.7
   mcp: *id031
   name: Mapbox
   slug: mapbox
@@ -1174,10 +1178,10 @@ providers:
   tags: *id032
   url: /providers/mapbox/
 - agent_band: human-only
-  agent_readiness: 2.9
+  agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.2
+  kin_score: 7.7
   mcp: *id033
   name: MapmyIndia (Mappls)
   slug: mappls
@@ -1185,21 +1189,21 @@ providers:
   tags: *id034
   url: /providers/mappls/
 - agent_band: agent-aware
-  agent_readiness: 15.1
+  agent_readiness: 14.7
   band: thin
   in_catalog: true
-  kin_score: 34.0
+  kin_score: 35.2
   mcp: *id035
   name: MapQuest
   slug: mapquest
   status: profiled
   tags: *id036
   url: /providers/mapquest/
-- agent_band: agent-aware
-  agent_readiness: 26.5
+- agent_band: agent-ready
+  agent_readiness: 32.5
   band: developing
   in_catalog: true
-  kin_score: 40.3
+  kin_score: 41.0
   mcp: *id037
   name: MapTiler
   slug: maptiler
@@ -1207,10 +1211,10 @@ providers:
   tags: *id038
   url: /providers/maptiler/
 - agent_band: agent-aware
-  agent_readiness: 19.9
+  agent_readiness: 25.7
   band: developing
   in_catalog: true
-  kin_score: 42.4
+  kin_score: 43.7
   mcp: *id039
   name: Nominatim
   slug: nominatim
@@ -1218,10 +1222,10 @@ providers:
   tags: *id040
   url: /providers/nominatim/
 - agent_band: human-only
-  agent_readiness: 0.0
+  agent_readiness: 1.7
   band: minimal
   in_catalog: true
-  kin_score: 7.9
+  kin_score: 8.5
   mcp: *id041
   name: OpenCage
   slug: opencage
@@ -1239,11 +1243,11 @@ providers:
   status: queued for profiling
   tags: *id044
   url: null
-- agent_band: agent-ready
-  agent_readiness: 28.8
+- agent_band: agent-aware
+  agent_readiness: 28.3
   band: developing
   in_catalog: true
-  kin_score: 44.4
+  kin_score: 45.5
   mcp: *id045
   name: OpenStreetMap (Overpass API)
   slug: openstreetmap
@@ -1251,10 +1255,10 @@ providers:
   tags: *id046
   url: /providers/openstreetmap/
 - agent_band: agent-ready
-  agent_readiness: 29.5
+  agent_readiness: 35.1
   band: strong
   in_catalog: true
-  kin_score: 60.4
+  kin_score: 57.6
   mcp: *id047
   name: positionstack
   slug: positionstack
@@ -1262,10 +1266,10 @@ providers:
   tags: *id048
   url: /providers/positionstack/
 - agent_band: agent-aware
-  agent_readiness: 22.0
+  agent_readiness: 21.6
   band: thin
   in_catalog: true
-  kin_score: 29.2
+  kin_score: 28.1
   mcp: *id049
   name: Pushover
   slug: pushover
@@ -1273,10 +1277,10 @@ providers:
   tags: *id050
   url: /providers/pushover/
 - agent_band: agent-aware
-  agent_readiness: 25.4
+  agent_readiness: 25.3
   band: strong
   in_catalog: true
-  kin_score: 58.4
+  kin_score: 56.8
   mcp: *id051
   name: Telegram
   slug: telegram
@@ -1295,7 +1299,7 @@ providers:
   tags: *id054
   url: null
 - agent_band: agent-ready
-  agent_readiness: 36.1
+  agent_readiness: 40.9
   band: developing
   in_catalog: true
   kin_score: 48.8
@@ -1306,10 +1310,10 @@ providers:
   tags: *id056
   url: /providers/tomtom/
 - agent_band: agent-aware
-  agent_readiness: 22.2
+  agent_readiness: 21.8
   band: developing
   in_catalog: true
-  kin_score: 39.6
+  kin_score: 46.0
   mcp: *id057
   name: Unwired Labs
   slug: unwired-labs
@@ -1317,10 +1321,10 @@ providers:
   tags: *id058
   url: /providers/unwired-labs/
 - agent_band: agent-ready
-  agent_readiness: 48.0
+  agent_readiness: 44.4
   band: exemplar
   in_catalog: true
-  kin_score: 68.0
+  kin_score: 72.3
   mcp: *id059
   name: WhatsApp
   slug: whatsapp

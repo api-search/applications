@@ -1279,12 +1279,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 0.7
       apps:
       - Remotion
       band: emerging
       in_catalog: true
-      kin_score: 22.5
+      kin_score: 23.6
       mcp:
         status: none
       name: Rive
@@ -1300,12 +1300,12 @@ stack:
       tier: observed
       url: /providers/rive/
     - agent_band: agent-ready
-      agent_readiness: 65.9
+      agent_readiness: 62.9
       apps:
       - Descript
       band: exemplar
       in_catalog: true
-      kin_score: 76.2
+      kin_score: 76.1
       mcp:
         source: https://github.com/adobe/cq-quickstart-mcp-server
         status: verified
@@ -1322,12 +1322,12 @@ stack:
       tier: declared
       url: /providers/adobe/
     - agent_band: agent-ready
-      agent_readiness: 38.5
+      agent_readiness: 36.8
       apps:
       - Descript
       band: strong
       in_catalog: true
-      kin_score: 58.0
+      kin_score: 58.6
       mcp:
         status: none
       name: Adobe Premiere
@@ -1343,12 +1343,12 @@ stack:
       tier: declared
       url: /providers/adobe-premiere/
     - agent_band: agent-ready
-      agent_readiness: 31.9
+      agent_readiness: 36.5
       apps:
       - Descript
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 55.2
+      kin_score: 52.9
       mcp:
         status: none
       name: Final Cut Pro / Apple Logic
@@ -1367,9 +1367,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - Descript
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 18.4
+      kin_score: 28.4
       mcp:
         status: unknown
       name: Ecamm
@@ -1385,12 +1385,12 @@ stack:
       tier: declared
       url: /providers/ecamm/
     - agent_band: agent-aware
-      agent_readiness: 15.1
+      agent_readiness: 14.8
       apps:
       - Descript
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 16.5
+      kin_score: 27.8
       mcp:
         status: unknown
       name: Avid Pro Tools
@@ -1406,12 +1406,12 @@ stack:
       tier: declared
       url: /providers/avid/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Descript
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.0
+      kin_score: 11.6
       mcp:
         status: none
       name: DaVinci Resolve
@@ -1432,7 +1432,7 @@ stack:
       - Descript
       band: minimal
       in_catalog: true
-      kin_score: 7.0
+      kin_score: 9.6
       mcp:
         status: unknown
       name: REAPER
@@ -1448,12 +1448,12 @@ stack:
       tier: declared
       url: /providers/cockos-reaper/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 0.0
       apps:
       - Descript
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.2
       mcp:
         status: unknown
       name: Headliner
@@ -1477,12 +1477,12 @@ stack:
       via_parent: Audio & Music
     providers:
     - agent_band: agent-ready
-      agent_readiness: 32.8
+      agent_readiness: 36.8
       apps:
       - Descript
       band: strong
       in_catalog: true
-      kin_score: 58.1
+      kin_score: 57.0
       mcp:
         status: unknown
       name: Blubrry
@@ -1498,34 +1498,12 @@ stack:
       tier: declared
       url: /providers/blubrry-api-restful-api-for-podcast-publishing-statistics/
     - agent_band: agent-ready
-      agent_readiness: 45.6
+      agent_readiness: 37.4
       apps:
       - Descript
       band: developing
       in_catalog: true
-      kin_score: 41.1
-      mcp:
-        source: https://mcp.transistor.fm/
-        status: verified
-      name: Transistor
-      slug: transistor
-      sources:
-      - https://www.descript.com/integrations
-      status: profiled
-      tags:
-      - Analytics
-      - Media
-      - Podcast Hosting
-      - Podcasts
-      tier: declared
-      url: /providers/transistor/
-    - agent_band: agent-ready
-      agent_readiness: 35.9
-      apps:
-      - Descript
-      band: thin
-      in_catalog: true
-      kin_score: 37.8
+      kin_score: 48.7
       mcp:
         status: unknown
       name: Podcast.co
@@ -1541,12 +1519,12 @@ stack:
       tier: declared
       url: /providers/podcast-co/
     - agent_band: agent-aware
-      agent_readiness: 11.5
+      agent_readiness: 11.3
       apps:
       - Descript
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 35.6
+      kin_score: 45.1
       mcp:
         status: none
       name: Hello Audio
@@ -1562,12 +1540,55 @@ stack:
       tier: declared
       url: /providers/hello-audio/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 50.0
+      apps:
+      - Descript
+      band: developing
+      in_catalog: true
+      kin_score: 39.8
+      mcp:
+        source: https://mcp.transistor.fm/
+        status: verified
+      name: Transistor
+      slug: transistor
+      sources:
+      - https://www.descript.com/integrations
+      status: profiled
+      tags:
+      - Analytics
+      - Media
+      - Podcast Hosting
+      - Podcasts
+      tier: declared
+      url: /providers/transistor/
+    - agent_band: human-only
+      agent_readiness: 4.5
       apps:
       - Descript
       band: thin
       in_catalog: true
-      kin_score: 33.0
+      kin_score: 33.8
+      mcp:
+        status: unknown
+      name: Castos
+      slug: castos
+      sources:
+      - https://www.descript.com/integrations
+      status: profiled
+      tags:
+      - Analytics
+      - Hosting
+      - Media
+      - Podcasts
+      tier: declared
+      url: /providers/castos/
+    - agent_band: agent-ready
+      agent_readiness: 48.5
+      apps:
+      - Descript
+      band: thin
+      in_catalog: true
+      kin_score: 31.4
       mcp:
         status: none
       name: Podbean
@@ -1583,12 +1604,12 @@ stack:
       tier: declared
       url: /providers/podbean/
     - agent_band: agent-aware
-      agent_readiness: 22.1
+      agent_readiness: 27.2
       apps:
       - Descript
       band: thin
       in_catalog: true
-      kin_score: 31.1
+      kin_score: 29.6
       mcp:
         status: none
       name: Captivate
@@ -1604,12 +1625,12 @@ stack:
       tier: declared
       url: /providers/captivate-fm/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 23.9
       apps:
       - Descript
       band: thin
       in_catalog: true
-      kin_score: 28.6
+      kin_score: 27.6
       mcp:
         status: unknown
       name: Buzzsprout
@@ -1624,27 +1645,6 @@ stack:
       - Podcasts
       tier: declared
       url: /providers/buzzsprout/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Descript
-      band: emerging
-      in_catalog: true
-      kin_score: 23.2
-      mcp:
-        status: unknown
-      name: Castos
-      slug: castos
-      sources:
-      - https://www.descript.com/integrations
-      status: profiled
-      tags:
-      - Analytics
-      - Hosting
-      - Media
-      - Podcasts
-      tier: declared
-      url: /providers/castos/
   - capability:
       attribution: API Evangelist extension
       id: AE-170.10.10
@@ -1654,12 +1654,12 @@ stack:
       via_parent: Video Platforms
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Descript
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -1676,12 +1676,12 @@ stack:
       tier: declared
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 35.7
+      agent_readiness: 40.6
       apps:
       - Descript
       band: exemplar
       in_catalog: true
-      kin_score: 75.8
+      kin_score: 75.5
       mcp:
         source: https://docs.wistia.com/docs/mcp-server-guide
         status: documented
@@ -1698,12 +1698,12 @@ stack:
       tier: declared
       url: /providers/wistia/
     - agent_band: agent-ready
-      agent_readiness: 43.4
+      agent_readiness: 41.4
       apps:
       - Descript
       band: strong
       in_catalog: true
-      kin_score: 62.6
+      kin_score: 65.4
       mcp:
         status: none
       name: YouTube
@@ -1719,12 +1719,12 @@ stack:
       tier: declared
       url: /providers/youtube/
     - agent_band: agent-ready
-      agent_readiness: 35.3
+      agent_readiness: 39.9
       apps:
       - Descript
       band: thin
       in_catalog: true
-      kin_score: 35.0
+      kin_score: 34.4
       mcp:
         source: https://github.com/restreamio/cursor-mcp-plugin
         status: verified
@@ -1741,12 +1741,12 @@ stack:
       tier: declared
       url: /providers/restream/
     - agent_band: agent-aware
-      agent_readiness: 22.6
+      agent_readiness: 22.1
       apps:
       - Descript
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 20.6
+      kin_score: 30.1
       mcp:
         status: none
       name: eWebinar
@@ -1769,35 +1769,13 @@ stack:
       url: /capabilities/customer-sign-in/
       via_parent: Customer Sign-In
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 63.4
-      apps:
-      - Penpot
-      band: exemplar
-      in_catalog: true
-      kin_score: 85.4
-      mcp:
-        source: https://github.com/github/github-mcp-server
-        status: verified
-      name: GitHub
-      slug: github
-      sources:
-      - https://raw.githubusercontent.com/penpot/penpot/develop/backend/src/app/config.clj
-      status: profiled
-      tags:
-      - Code
-      - Developer Tools
-      - Pipelines
-      - Platform
-      tier: observed
-      url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - Penpot
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -1813,13 +1791,35 @@ stack:
       - Software Development
       tier: observed
       url: /providers/gitlab/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 62.4
       apps:
       - Penpot
-      band: thin
+      band: exemplar
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 85.0
+      mcp:
+        source: https://github.com/github/github-mcp-server
+        status: verified
+      name: GitHub
+      slug: github
+      sources:
+      - https://raw.githubusercontent.com/penpot/penpot/develop/backend/src/app/config.clj
+      status: profiled
+      tags:
+      - Code
+      - Developer Tools
+      - Pipelines
+      - Platform
+      tier: observed
+      url: /providers/github/
+    - agent_band: agent-ready
+      agent_readiness: 33.7
+      apps:
+      - Penpot
+      band: strong
+      in_catalog: true
+      kin_score: 58.8
       mcp:
         status: none
       name: Google sign-in
@@ -1843,12 +1843,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 55.2
+      agent_readiness: 56.8
       apps:
       - Descript
       band: strong
       in_catalog: true
-      kin_score: 56.2
+      kin_score: 57.1
       mcp:
         source: https://developers.zoom.us/docs/mcp/
         status: verified
@@ -1865,12 +1865,12 @@ stack:
       tier: declared
       url: /providers/zoom/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 24.4
       apps:
       - Descript
       band: developing
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 47.4
       mcp:
         source: https://github.com/riversidefm/riverside-mcp-public
         status: verified
@@ -1912,12 +1912,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.7
+      agent_readiness: 22.1
       apps:
       - Kdenlive
       band: thin
       in_catalog: true
-      kin_score: 37.7
+      kin_score: 38.4
       mcp:
         status: none
       name: Pexels
@@ -1937,7 +1937,7 @@ stack:
       - Kdenlive
       band: emerging
       in_catalog: true
-      kin_score: 13.8
+      kin_score: 13.7
       mcp:
         status: none
       name: Pixabay
@@ -1966,7 +1966,7 @@ stack:
       - Remotion
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 74.9
       mcp:
         source: https://github.com/awslabs/mcp/tree/main/src/lambda-tool-mcp-server
         status: verified
@@ -1982,13 +1982,13 @@ stack:
       - Serverless
       tier: observed
       url: /providers/aws-lambda/
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 38.9
       apps:
       - Remotion
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 53.2
+      kin_score: 67.0
       mcp:
         source: https://github.com/GoogleCloudPlatform/cloud-run-mcp
         status: verified
@@ -2013,12 +2013,12 @@ stack:
       via_parent: Speech & Voice
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 60.4
       apps:
       - Remotion
       band: exemplar
       in_catalog: true
-      kin_score: 83.0
+      kin_score: 83.2
       mcp:
         source: https://github.com/elevenlabs/elevenlabs-mcp
         status: verified
@@ -2035,12 +2035,12 @@ stack:
       tier: observed
       url: /providers/elevenlabs/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Remotion
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: &id005
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -2070,7 +2070,7 @@ stack:
       - Kdenlive
       band: minimal
       in_catalog: true
-      kin_score: 5.6
+      kin_score: 4.8
       mcp:
         status: none
       name: Freesound
@@ -2089,7 +2089,7 @@ stack:
       - Kdenlive
       band: minimal
       in_catalog: true
-      kin_score: 4.9
+      kin_score: 4.0
       mcp:
         status: none
       name: Internet Archive
@@ -2112,13 +2112,13 @@ stack:
       url: /capabilities/maps-tiles/
       via_parent: Maps & Tiles
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 26.5
+    - agent_band: agent-ready
+      agent_readiness: 32.5
       apps:
       - Remotion
       band: developing
       in_catalog: true
-      kin_score: 40.3
+      kin_score: 41.0
       mcp:
         status: none
       name: MapTiler
@@ -2142,12 +2142,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Descript
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2172,12 +2172,12 @@ stack:
       via_parent: Engineering Productivity Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.2
+      agent_readiness: 50.0
       apps:
       - Remotion
       band: strong
       in_catalog: true
-      kin_score: 63.8
+      kin_score: 63.1
       mcp:
         source: https://vercel.com/docs/mcp/vercel-mcp
         status: verified
@@ -2202,12 +2202,12 @@ stack:
       via_parent: Customer Feedback Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 43.5
+      agent_readiness: 42.6
       apps:
       - Descript
       band: thin
       in_catalog: true
-      kin_score: 37.6
+      kin_score: 36.0
       mcp:
         source: https://www.typeform.com/developers/mcp
         status: verified
@@ -2231,13 +2231,13 @@ stack:
       url: /capabilities/design-creative-editing/
       via_parent: Design & Creative Editing
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 19.9
+    - agent_band: agent-ready
+      agent_readiness: 29.7
       apps:
       - Remotion
       band: developing
       in_catalog: true
-      kin_score: 42.4
+      kin_score: 54.2
       mcp:
         status: none
       name: Google Fonts
@@ -2263,12 +2263,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 35.3
       apps:
       - CapCut
       band: strong
       in_catalog: true
-      kin_score: 61.5
+      kin_score: 65.2
       mcp:
         status: none
       name: Google AdMob
@@ -2283,13 +2283,13 @@ stack:
       - App Monetization
       tier: observed
       url: /providers/google-admob/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - CapCut
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -2306,12 +2306,12 @@ stack:
       tier: observed
       url: /providers/amazon/
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - CapCut
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: &id001
         status: none
       name: Facebook Ads
@@ -2327,12 +2327,12 @@ stack:
       tier: observed
       url: /providers/facebook/
     - agent_band: agent-ready
-      agent_readiness: 36.2
+      agent_readiness: 35.5
       apps:
       - CapCut
       band: thin
       in_catalog: true
-      kin_score: 38.7
+      kin_score: 37.6
       mcp:
         status: none
       name: AppLovin
@@ -2353,7 +2353,7 @@ stack:
       - CapCut
       band: emerging
       in_catalog: true
-      kin_score: 11.6
+      kin_score: 16.2
       mcp:
         status: unknown
       name: Mintegral
@@ -2372,9 +2372,9 @@ stack:
       agent_readiness: 0.0
       apps:
       - CapCut
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 14.1
       mcp:
         status: none
       name: Pangle
@@ -2397,37 +2397,53 @@ stack:
       url: /capabilities/product-usage-analytics/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Canva
       - CapCut
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: &id003
         source: https://firebase.google.com/docs/ai-assistance/mcp-server
         status: verified
       name: Google Firebase Analytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.canva.editor/latest/
       - https://reports.exodus-privacy.eu.org/en/reports/com.lemon.lvoverseas/latest/
       status: profiled
       tags: &id004
-      - Application Development
+      - Analytics
+      - Authentication
       - Backend-as-a-Service
-      - Company
-      - Mobile
+      - Cloud Messaging
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 28.1
+      apps:
+      - CapCut
+      band: developing
+      in_catalog: true
+      kin_score: 43.7
+      mcp: *id001
+      name: Facebook Analytics
+      slug: facebook
+      sources:
+      - https://reports.exodus-privacy.eu.org/en/reports/com.lemon.lvoverseas/latest/
+      status: profiled
+      tags: *id002
+      tier: observed
+      url: /providers/facebook/
+    - agent_band: agent-aware
+      agent_readiness: 27.7
       apps:
       - Canva
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Twilio Segment
@@ -2442,22 +2458,6 @@ stack:
       - Identity Resolution
       tier: observed
       url: /providers/segment/
-    - agent_band: agent-aware
-      agent_readiness: 28.2
-      apps:
-      - CapCut
-      band: developing
-      in_catalog: true
-      kin_score: 42.7
-      mcp: *id001
-      name: Facebook Analytics
-      slug: facebook
-      sources:
-      - https://reports.exodus-privacy.eu.org/en/reports/com.lemon.lvoverseas/latest/
-      status: profiled
-      tags: *id002
-      tier: observed
-      url: /providers/facebook/
   - capability:
       attribution: Turbo EA
       id: BC-4220.20
@@ -2473,7 +2473,7 @@ stack:
       - Excalidraw
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2490,22 +2490,22 @@ stack:
       - Developer Tools
       tier: observed
       url: /providers/sentry-system/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Canva
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Firebase Crashlytics
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://reports.exodus-privacy.eu.org/en/reports/com.canva.editor/latest/
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: API Evangelist extension
       id: AE-902
@@ -2515,13 +2515,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.4
+      agent_readiness: 53.4
       apps:
       - Canva
       - CapCut
       band: exemplar
       in_catalog: true
-      kin_score: 72.9
+      kin_score: 72.1
       mcp:
         source: https://registry.modelcontextprotocol.io/v0/servers?search=appsflyer
         status: verified
@@ -2547,13 +2547,13 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.2
+      agent_readiness: 28.1
       apps:
       - Canva
       - CapCut
       band: developing
       in_catalog: true
-      kin_score: 42.7
+      kin_score: 43.7
       mcp: *id001
       name: Facebook Login
       slug: facebook
@@ -2573,34 +2573,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 34.8
       apps:
       - Remotion
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
-      mcp:
-        source: https://github.com/googleapis/gcloud-mcp
-        status: verified
-      name: Google Cloud Storage
-      slug: gcp-cloud-storage
-      sources:
-      - https://raw.githubusercontent.com/remotion-dev/remotion/main/packages/cloudrun/package.json
-      status: profiled
-      tags:
-      - Archival
-      - Backup
-      - Blob Storage
-      - Cloud Storage
-      tier: observed
-      url: /providers/gcp-cloud-storage/
-    - agent_band: agent-aware
-      agent_readiness: 23.3
-      apps:
-      - Remotion
-      band: exemplar
-      in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -2616,6 +2594,28 @@ stack:
       - Cloud Storage
       tier: observed
       url: /providers/amazon-s3/
+    - agent_band: agent-ready
+      agent_readiness: 45.1
+      apps:
+      - Remotion
+      band: exemplar
+      in_catalog: true
+      kin_score: 74.1
+      mcp:
+        source: https://github.com/googleapis/gcloud-mcp
+        status: verified
+      name: Google Cloud Storage
+      slug: gcp-cloud-storage
+      sources:
+      - https://raw.githubusercontent.com/remotion-dev/remotion/main/packages/cloudrun/package.json
+      status: profiled
+      tags:
+      - Archival
+      - Backup
+      - Blob Storage
+      - Cloud Storage
+      tier: observed
+      url: /providers/gcp-cloud-storage/
   - capability:
       attribution: API Evangelist extension
       id: AE-910
@@ -2625,12 +2625,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - Descript
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2647,12 +2647,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-aware
-      agent_readiness: 13.6
+      agent_readiness: 13.3
       apps:
       - Descript
       band: emerging
       in_catalog: true
-      kin_score: 25.7
+      kin_score: 25.2
       mcp:
         status: none
       name: Raycast
@@ -2675,22 +2675,22 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
       apps:
       - Excalidraw
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 62.0
       mcp: *id003
       name: Firebase
-      slug: firebase
+      slug: google-firebase
       sources:
       - https://raw.githubusercontent.com/excalidraw/excalidraw/master/excalidraw-app/package.json
       status: profiled
       tags: *id004
       tier: observed
-      url: /providers/firebase/
+      url: /providers/google-firebase/
   - capability:
       attribution: Turbo EA
       id: BC-3760.30
@@ -2700,12 +2700,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.6
+      agent_readiness: 36.9
       apps:
       - CapCut
       band: strong
       in_catalog: true
-      kin_score: 56.1
+      kin_score: 55.6
       mcp:
         source: https://github.com/IABTechLab/agentic-real-time-framework
         status: verified
@@ -2732,12 +2732,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Descript
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -2754,12 +2754,12 @@ stack:
       tier: declared
       url: /providers/anthropic/
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Descript
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp: *id005
       name: ChatGPT
       slug: openai
@@ -2781,7 +2781,7 @@ summary:
     unchecked: 1
     verified: 24
   mcp_verified: 24
-  mean_kin_score: 46.3
+  mean_kin_score: 49.2
   observed: 27
   queued: 1
   reference_apps: 7

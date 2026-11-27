@@ -40,7 +40,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 4.2
+    kin_score: 5.0
     mcp: &id001
       status: none
     slug: exchangerate-host
@@ -67,7 +67,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 4.2
+  kin_score: 5.0
   mcp: *id001
   name: exchangerate.host
   slug: exchangerate-host

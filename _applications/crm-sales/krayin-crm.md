@@ -36,11 +36,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 24.6
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 38.2
+    band: strong
     in_catalog: true
-    kin_score: 45.6
+    kin_score: 57.2
     mcp: &id001
       source: https://docs.cloud.google.com/mcp/supported-products
       status: verified
@@ -65,11 +65,11 @@ no_rows_reason: null
 noindex: false
 permalink: /applications/crm-sales/krayin-crm/
 providers:
-- agent_band: agent-aware
-  agent_readiness: 24.6
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 38.2
+  band: strong
   in_catalog: true
-  kin_score: 45.6
+  kin_score: 57.2
   mcp: *id001
   name: Google Contacts
   slug: google-people

@@ -69,10 +69,10 @@ integrations:
   credit: Exodus Privacy (reports.exodus-privacy.eu.org)
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.0
+    agent_readiness: 35.3
     band: strong
     in_catalog: true
-    kin_score: 61.5
+    kin_score: 65.2
     mcp: &id001
       status: none
     slug: google-admob
@@ -99,10 +99,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 3.8
+    agent_readiness: 3.7
     band: thin
     in_catalog: true
-    kin_score: 33.3
+    kin_score: 33.2
     mcp: &id003
       status: none
     slug: jitsi-org
@@ -129,10 +129,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 57.3
+    agent_readiness: 56.2
     band: strong
     in_catalog: true
-    kin_score: 57.7
+    kin_score: 57.9
     mcp: &id005
       source: https://github.com/PostHog/mcp
       status: verified
@@ -163,7 +163,7 @@ integrations:
     agent_readiness: 50.2
     band: exemplar
     in_catalog: true
-    kin_score: 80.6
+    kin_score: 80.7
     mcp: &id007
       source: https://docs.sentry.io/product/sentry-mcp/
       status: verified
@@ -189,10 +189,10 @@ noindex: false
 permalink: /applications/messaging-chat/element-matrix-synapse/
 providers:
 - agent_band: agent-ready
-  agent_readiness: 34.0
+  agent_readiness: 35.3
   band: strong
   in_catalog: true
-  kin_score: 61.5
+  kin_score: 65.2
   mcp: *id001
   name: Google AdMob
   slug: google-admob
@@ -200,10 +200,10 @@ providers:
   tags: *id002
   url: /providers/google-admob/
 - agent_band: human-only
-  agent_readiness: 3.8
+  agent_readiness: 3.7
   band: thin
   in_catalog: true
-  kin_score: 33.3
+  kin_score: 33.2
   mcp: *id003
   name: Jitsi
   slug: jitsi-org
@@ -211,10 +211,10 @@ providers:
   tags: *id004
   url: /providers/jitsi-org/
 - agent_band: agent-ready
-  agent_readiness: 57.3
+  agent_readiness: 56.2
   band: strong
   in_catalog: true
-  kin_score: 57.7
+  kin_score: 57.9
   mcp: *id005
   name: PostHog
   slug: posthog
@@ -225,7 +225,7 @@ providers:
   agent_readiness: 50.2
   band: exemplar
   in_catalog: true
-  kin_score: 80.6
+  kin_score: 80.7
   mcp: *id007
   name: Sentry
   slug: sentry-system

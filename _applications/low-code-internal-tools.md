@@ -3370,7 +3370,7 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-native
-      agent_readiness: 41.9
+      agent_readiness: 41.0
       apps:
       - Appsmith
       - Budibase
@@ -3378,7 +3378,7 @@ stack:
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 80.9
+      kin_score: 82.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -3397,7 +3397,7 @@ stack:
       tier: observed
       url: /providers/amazon-dynamodb/
     - agent_band: agent-ready
-      agent_readiness: 56.0
+      agent_readiness: 59.1
       apps:
       - Appsmith
       - Budibase
@@ -3405,7 +3405,7 @@ stack:
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 77.8
+      kin_score: 79.9
       mcp:
         source: https://github.com/mongodb-js/mongodb-mcp-server
         status: verified
@@ -3424,7 +3424,7 @@ stack:
       tier: observed
       url: /providers/mongodb/
     - agent_band: agent-ready
-      agent_readiness: 32.1
+      agent_readiness: 31.9
       apps:
       - Appsmith
       - Budibase
@@ -3432,7 +3432,7 @@ stack:
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 66.7
+      kin_score: 67.0
       mcp:
         source: https://learn.microsoft.com/en-us/azure/data-api-builder/mcp/
         status: verified
@@ -3450,8 +3450,35 @@ stack:
       - Enterprise
       tier: observed
       url: /providers/microsoft-sql-server/
-    - agent_band: agent-aware
-      agent_readiness: 14.2
+    - agent_band: agent-ready
+      agent_readiness: 39.9
+      apps:
+      - Appsmith
+      - Budibase
+      - Retool
+      - ToolJet
+      band: strong
+      in_catalog: true
+      kin_score: 62.0
+      mcp:
+        source: https://firebase.google.com/docs/ai-assistance/mcp-server
+        status: verified
+      name: Firestore
+      slug: google-firebase
+      sources:
+      - https://github.com/Budibase/budibase/tree/master/packages/server/src/integrations
+      - https://github.com/ToolJet/ToolJet/tree/develop/plugins/packages
+      - https://github.com/appsmithorg/appsmith/tree/release/app/server/appsmith-plugins
+      status: profiled
+      tags:
+      - Analytics
+      - Authentication
+      - Backend-as-a-Service
+      - Cloud Messaging
+      tier: observed
+      url: /providers/google-firebase/
+    - agent_band: agent-ready
+      agent_readiness: 34.2
       apps:
       - Appsmith
       - Budibase
@@ -3460,33 +3487,6 @@ stack:
       band: developing
       in_catalog: true
       kin_score: 50.3
-      mcp:
-        source: https://firebase.google.com/docs/ai-assistance/mcp-server
-        status: verified
-      name: Firestore
-      slug: firebase
-      sources:
-      - https://github.com/Budibase/budibase/tree/master/packages/server/src/integrations
-      - https://github.com/ToolJet/ToolJet/tree/develop/plugins/packages
-      - https://github.com/appsmithorg/appsmith/tree/release/app/server/appsmith-plugins
-      status: profiled
-      tags:
-      - Application Development
-      - Backend-as-a-Service
-      - Company
-      - Mobile
-      tier: observed
-      url: /providers/firebase/
-    - agent_band: agent-ready
-      agent_readiness: 34.9
-      apps:
-      - Appsmith
-      - Budibase
-      - Retool
-      - ToolJet
-      band: developing
-      in_catalog: true
-      kin_score: 49.8
       mcp:
         source: https://github.com/oracle/mcp
         status: verified
@@ -3504,8 +3504,8 @@ stack:
       - Oracle
       tier: observed
       url: /providers/oracle-database/
-    - agent_band: agent-native
-      agent_readiness: 49.8
+    - agent_band: agent-ready
+      agent_readiness: 41.5
       apps:
       - Appsmith
       - Budibase
@@ -3513,7 +3513,7 @@ stack:
       - ToolJet
       band: developing
       in_catalog: true
-      kin_score: 47.4
+      kin_score: 46.5
       mcp:
         source: https://github.com/redis/mcp-redis
         status: verified
@@ -3532,7 +3532,7 @@ stack:
       tier: observed
       url: /providers/redis/
     - agent_band: agent-aware
-      agent_readiness: 19.6
+      agent_readiness: 19.2
       apps:
       - Appsmith
       - Budibase
@@ -3540,7 +3540,7 @@ stack:
       - ToolJet
       band: thin
       in_catalog: true
-      kin_score: 31.8
+      kin_score: 30.5
       mcp:
         status: none
       name: MySQL
@@ -3566,7 +3566,7 @@ stack:
       - ToolJet
       band: emerging
       in_catalog: true
-      kin_score: 12.2
+      kin_score: 11.6
       mcp:
         status: none
       name: PostgreSQL
@@ -3583,8 +3583,8 @@ stack:
       - SQL
       tier: observed
       url: /providers/postgresql/
-    - agent_band: agent-ready
-      agent_readiness: 33.6
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - Budibase
       - Retool
@@ -3608,60 +3608,14 @@ stack:
       - JSON
       tier: observed
       url: /providers/apache-couchdb/
-    - agent_band: agent-aware
-      agent_readiness: 28.3
-      apps:
-      - Appsmith
-      - Budibase
-      band: strong
-      in_catalog: true
-      kin_score: 54.4
-      mcp:
-        status: none
-      name: ArangoDB
-      slug: arangodb
-      sources:
-      - https://github.com/Budibase/budibase/tree/master/packages/server/src/integrations
-      - https://github.com/appsmithorg/appsmith/tree/release/app/server/appsmith-plugins
-      status: profiled
-      tags:
-      - Company
-      - Database
-      - Graph Database
-      - Multi-Model Database
-      tier: observed
-      url: /providers/arangodb/
-    - agent_band: agent-aware
-      agent_readiness: 26.4
+    - agent_band: agent-ready
+      agent_readiness: 30.9
       apps:
       - Retool
       - ToolJet
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 45.2
-      mcp:
-        status: none
-      name: SAP HANA
-      slug: sap-hana
-      sources:
-      - https://github.com/ToolJet/ToolJet/tree/develop/plugins/packages
-      - https://retool.com/integrations
-      status: profiled
-      tags:
-      - Analytics
-      - Cloud
-      - Database
-      - Enterprise
-      tier: observed
-      url: /providers/sap-hana/
-    - agent_band: agent-aware
-      agent_readiness: 19.0
-      apps:
-      - Retool
-      - ToolJet
-      band: developing
-      in_catalog: true
-      kin_score: 40.9
+      kin_score: 69.4
       mcp:
         source: https://raw.githubusercontent.com/microsoft/mcp/main/servers/Azure.Mcp.Server/README.md
         status: verified
@@ -3678,6 +3632,52 @@ stack:
       - Vector Search
       tier: observed
       url: /providers/azure-cosmos-db/
+    - agent_band: agent-aware
+      agent_readiness: 27.8
+      apps:
+      - Appsmith
+      - Budibase
+      band: developing
+      in_catalog: true
+      kin_score: 52.3
+      mcp:
+        status: none
+      name: ArangoDB
+      slug: arangodb
+      sources:
+      - https://github.com/Budibase/budibase/tree/master/packages/server/src/integrations
+      - https://github.com/appsmithorg/appsmith/tree/release/app/server/appsmith-plugins
+      status: profiled
+      tags:
+      - Company
+      - Database
+      - Graph Database
+      - Multi-Model Database
+      tier: observed
+      url: /providers/arangodb/
+    - agent_band: agent-ready
+      agent_readiness: 31.3
+      apps:
+      - Retool
+      - ToolJet
+      band: developing
+      in_catalog: true
+      kin_score: 44.8
+      mcp:
+        status: none
+      name: SAP HANA
+      slug: sap-hana
+      sources:
+      - https://github.com/ToolJet/ToolJet/tree/develop/plugins/packages
+      - https://retool.com/integrations
+      status: profiled
+      tags:
+      - Analytics
+      - Cloud
+      - Database
+      - Enterprise
+      tier: observed
+      url: /providers/sap-hana/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
@@ -3685,7 +3685,7 @@ stack:
       - ToolJet
       band: minimal
       in_catalog: true
-      kin_score: 9.1
+      kin_score: 10.3
       mcp:
         status: none
       name: RethinkDB
@@ -3702,7 +3702,7 @@ stack:
       tier: observed
       url: /providers/rethinkdb/
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 57.8
       apps:
       - ToolJet
       band: exemplar
@@ -3724,12 +3724,34 @@ stack:
       tier: observed
       url: /providers/appwrite/
     - agent_band: agent-ready
-      agent_readiness: 35.1
+      agent_readiness: 37.1
       apps:
       - ToolJet
       band: strong
       in_catalog: true
-      kin_score: 64.0
+      kin_score: 64.4
+      mcp:
+        source: https://github.com/googleapis/mcp-toolbox
+        status: verified
+      name: Google Cloud Spanner
+      slug: google-cloud-spanner
+      sources:
+      - https://github.com/ToolJet/ToolJet/blob/develop/server/package.json
+      status: profiled
+      tags:
+      - Database
+      - Distributed
+      - Google Cloud
+      - Relational
+      tier: observed
+      url: /providers/google-cloud-spanner/
+    - agent_band: agent-ready
+      agent_readiness: 34.4
+      apps:
+      - ToolJet
+      band: strong
+      in_catalog: true
+      kin_score: 63.3
       mcp:
         source: https://github.com/influxdata/influxdb3_mcp_server
         status: verified
@@ -3746,34 +3768,33 @@ stack:
       tier: observed
       url: /providers/influxdata/
     - agent_band: agent-aware
-      agent_readiness: 24.6
+      agent_readiness: 24.8
       apps:
       - ToolJet
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 54.8
+      kin_score: 41.2
       mcp:
-        source: https://github.com/googleapis/mcp-toolbox
-        status: verified
-      name: Google Cloud Spanner
-      slug: google-cloud-spanner
+        status: unchecked
+      name: MariaDB
+      slug: mariadb
       sources:
-      - https://github.com/ToolJet/ToolJet/blob/develop/server/package.json
+      - https://github.com/ToolJet/ToolJet/tree/develop/plugins/packages
       status: profiled
       tags:
+      - Cloud
       - Database
-      - Distributed
-      - Google Cloud
-      - Relational
+      - Enterprise
+      - Open Source
       tier: observed
-      url: /providers/google-cloud-spanner/
+      url: /providers/mariadb/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - ToolJet
       band: emerging
       in_catalog: true
-      kin_score: 15.1
+      kin_score: 14.0
       mcp:
         status: none
       name: IBM Db2
@@ -3788,51 +3809,13 @@ stack:
       - SQL
       tier: observed
       url: /providers/ibm-db2/
-    - agent_band: null
-      agent_readiness: null
-      apps:
-      - ToolJet
-      band: null
-      in_catalog: false
-      kin_score: null
-      mcp:
-        status: unchecked
-      name: MariaDB
-      slug: mariadb
-      sources:
-      - https://github.com/ToolJet/ToolJet/tree/develop/plugins/packages
-      status: queued for profiling
-      tags: []
-      tier: observed
-      url: null
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 36.6
       apps:
       - Retool
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 38.2
-      mcp:
-        status: none
-      name: Apache Cassandra
-      slug: cassandra
-      sources:
-      - https://retool.com/integrations
-      status: profiled
-      tags:
-      - Apache
-      - Big Data
-      - Database
-      - Distributed
-      tier: declared
-      url: /providers/cassandra/
-    - agent_band: agent-aware
-      agent_readiness: 25.6
-      apps:
-      - Retool
-      band: thin
-      in_catalog: true
-      kin_score: 34.0
+      kin_score: 64.1
       mcp:
         status: none
       name: Google Cloud Datastore
@@ -3847,6 +3830,27 @@ stack:
       - NoSQL
       tier: declared
       url: /providers/google-cloud-datastore/
+    - agent_band: agent-aware
+      agent_readiness: 19.2
+      apps:
+      - Retool
+      band: thin
+      in_catalog: true
+      kin_score: 37.7
+      mcp:
+        status: none
+      name: Apache Cassandra
+      slug: cassandra
+      sources:
+      - https://retool.com/integrations
+      status: profiled
+      tags:
+      - Apache
+      - Big Data
+      - Database
+      - Distributed
+      tier: declared
+      url: /providers/cassandra/
     - agent_band: null
       agent_readiness: null
       apps:
@@ -3873,7 +3877,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 45.8
+      agent_readiness: 44.9
       apps:
       - Appsmith
       - Budibase
@@ -3882,7 +3886,7 @@ stack:
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 81.1
+      kin_score: 82.3
       mcp:
         source: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
         status: verified
@@ -3900,8 +3904,8 @@ stack:
       - Snowflake
       tier: observed
       url: /providers/snowflake/
-    - agent_band: agent-ready
-      agent_readiness: 58.9
+    - agent_band: agent-native
+      agent_readiness: 65.5
       apps:
       - Appsmith
       - NocoDB
@@ -3909,7 +3913,7 @@ stack:
       - ToolJet
       band: strong
       in_catalog: true
-      kin_score: 57.1
+      kin_score: 58.7
       mcp:
         source: https://docs.databricks.com/aws/en/generative-ai/mcp/
         status: verified
@@ -3928,13 +3932,13 @@ stack:
       tier: observed
       url: /providers/databricks/
     - agent_band: agent-ready
-      agent_readiness: 58.4
+      agent_readiness: 58.5
       apps:
       - NocoDB
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 76.9
+      kin_score: 77.1
       mcp:
         source: https://github.com/ClickHouse/mcp-clickhouse
         status: verified
@@ -3951,14 +3955,14 @@ stack:
       - Column-Oriented
       tier: observed
       url: /providers/clickhouse/
-    - agent_band: agent-ready
-      agent_readiness: 36.1
+    - agent_band: agent-native
+      agent_readiness: 44.5
       apps:
       - Appsmith
       - Retool
-      band: strong
+      band: exemplar
       in_catalog: true
-      kin_score: 63.6
+      kin_score: 75.1
       mcp:
         source: https://github.com/awslabs/mcp/tree/main/src/redshift-mcp-server
         status: verified
@@ -3975,38 +3979,14 @@ stack:
       - Data Lake
       tier: observed
       url: /providers/amazon-redshift/
-    - agent_band: agent-ready
-      agent_readiness: 31.5
+    - agent_band: agent-native
+      agent_readiness: 44.8
       apps:
       - Retool
       - ToolJet
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 49.7
-      mcp:
-        source: https://cloud.google.com/bigquery/docs/use-bigquery-mcp
-        status: verified
-      name: Google BigQuery
-      slug: google-bigquery
-      sources:
-      - https://github.com/ToolJet/ToolJet/tree/develop/plugins/packages
-      - https://retool.com/integrations
-      status: profiled
-      tags:
-      - Analytics
-      - Big Data
-      - Cloud
-      - Data Warehouse
-      tier: observed
-      url: /providers/google-bigquery/
-    - agent_band: agent-ready
-      agent_readiness: 35.8
-      apps:
-      - Retool
-      - ToolJet
-      band: thin
-      in_catalog: true
-      kin_score: 34.1
+      kin_score: 65.3
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4023,13 +4003,37 @@ stack:
       - Serverless
       tier: observed
       url: /providers/amazon-athena/
+    - agent_band: agent-ready
+      agent_readiness: 40.8
+      apps:
+      - Retool
+      - ToolJet
+      band: strong
+      in_catalog: true
+      kin_score: 57.1
+      mcp:
+        source: https://cloud.google.com/bigquery/docs/use-bigquery-mcp
+        status: verified
+      name: Google BigQuery
+      slug: google-bigquery
+      sources:
+      - https://github.com/ToolJet/ToolJet/tree/develop/plugins/packages
+      - https://retool.com/integrations
+      status: profiled
+      tags:
+      - Analytics
+      - Big Data
+      - Cloud
+      - Data Warehouse
+      tier: observed
+      url: /providers/google-bigquery/
     - agent_band: agent-aware
-      agent_readiness: 27.0
+      agent_readiness: 26.4
       apps:
       - Retool
       band: emerging
       in_catalog: true
-      kin_score: 23.5
+      kin_score: 22.9
       mcp:
         status: none
       name: Vertica
@@ -4070,7 +4074,7 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.8
+      agent_readiness: 30.1
       apps:
       - Appsmith
       - Budibase
@@ -4078,7 +4082,7 @@ stack:
       - ToolJet
       band: strong
       in_catalog: true
-      kin_score: 64.5
+      kin_score: 63.8
       mcp:
         status: none
       name: Google Sheets
@@ -4095,14 +4099,14 @@ stack:
       tier: observed
       url: /providers/google-sheets/
     - agent_band: agent-ready
-      agent_readiness: 50.3
+      agent_readiness: 52.3
       apps:
       - Budibase
       - NocoDB
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 69.2
+      kin_score: 68.2
       mcp:
         source: https://github.com/Airtable/airtable-mcp-cli
         status: verified
@@ -4121,13 +4125,13 @@ stack:
       tier: observed
       url: /providers/airtable/
     - agent_band: agent-ready
-      agent_readiness: 54.9
+      agent_readiness: 56.8
       apps:
       - Retool
       - ToolJet
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 67.2
+      kin_score: 65.3
       mcp:
         source: https://developers.notion.com/docs/mcp
         status: verified
@@ -4145,12 +4149,12 @@ stack:
       tier: observed
       url: /providers/notion/
     - agent_band: agent-aware
-      agent_readiness: 27.5
+      agent_readiness: 26.9
       apps:
       - ToolJet
       band: developing
       in_catalog: true
-      kin_score: 48.8
+      kin_score: 48.1
       mcp:
         source: https://baserow.io/user-docs/mcp-server
         status: verified
@@ -4167,12 +4171,12 @@ stack:
       tier: observed
       url: /providers/baserow/
     - agent_band: agent-aware
-      agent_readiness: 20.7
+      agent_readiness: 26.2
       apps:
       - ToolJet
       band: developing
       in_catalog: true
-      kin_score: 45.8
+      kin_score: 43.6
       mcp:
         source: https://nocodb.com/docs/product-docs/mcp
         status: verified
@@ -4197,14 +4201,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 65.7
+      agent_readiness: 64.4
       apps:
       - Baserow
       - NocoDB
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 82.6
+      kin_score: 82.4
       mcp:
         source: https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
         status: verified
@@ -4223,12 +4227,12 @@ stack:
       tier: observed
       url: /providers/jira/
     - agent_band: agent-ready
-      agent_readiness: 35.5
+      agent_readiness: 35.2
       apps:
       - NocoDB
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 38.1
+      kin_score: 39.6
       mcp:
         source: https://linear.app/docs/mcp
         status: verified
@@ -4245,12 +4249,12 @@ stack:
       tier: observed
       url: /providers/linear-app/
     - agent_band: agent-ready
-      agent_readiness: 53.7
+      agent_readiness: 55.3
       apps:
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 74.8
+      kin_score: 72.5
       mcp:
         source: https://developers.asana.com/docs/using-asanas-mcp-server
         status: verified
@@ -4274,8 +4278,8 @@ stack:
       url: /capabilities/knowledge-curation-taxonomy-management/
       via_parent: Knowledge Curation & Taxonomy Management
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 28.6
+    - agent_band: agent-aware
+      agent_readiness: 28.5
       apps:
       - Appsmith
       - Budibase
@@ -4283,7 +4287,7 @@ stack:
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 70.2
+      kin_score: 78.4
       mcp:
         source: https://www.elastic.co/docs/solutions/search/mcp
         status: verified
@@ -4302,12 +4306,12 @@ stack:
       tier: observed
       url: /providers/elastic/
     - agent_band: agent-ready
-      agent_readiness: 47.9
+      agent_readiness: 47.3
       apps:
       - ToolJet
-      band: developing
+      band: thin
       in_catalog: true
-      kin_score: 39.5
+      kin_score: 39.2
       mcp:
         source: https://typesense.org/docs/guide/typesense-cloud/mcp-server.html
         status: verified
@@ -4332,13 +4336,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.7
+      agent_readiness: 52.0
       apps:
       - Retool
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 94.6
+      kin_score: 91.9
       mcp:
         source: https://developers.hubspot.com/mcp
         status: verified
@@ -4356,12 +4360,12 @@ stack:
       tier: observed
       url: /providers/hubspot/
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -4378,12 +4382,12 @@ stack:
       tier: declared
       url: /providers/salesforce/
     - agent_band: agent-ready
-      agent_readiness: 60.0
+      agent_readiness: 58.1
       apps:
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 78.3
+      kin_score: 77.2
       mcp:
         source: https://developer.close.com/mcp
         status: verified
@@ -4408,13 +4412,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.0
+      agent_readiness: 34.7
       apps:
       - Retool
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 72.8
+      kin_score: 72.4
       mcp:
         status: none
       name: Zendesk
@@ -4431,12 +4435,12 @@ stack:
       tier: observed
       url: /providers/zendesk/
     - agent_band: agent-aware
-      agent_readiness: 27.0
+      agent_readiness: 26.4
       apps:
       - Retool
       band: developing
       in_catalog: true
-      kin_score: 54.2
+      kin_score: 53.6
       mcp:
         source: https://dev.frontapp.com/docs/mcp
         status: documented
@@ -4461,14 +4465,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - NocoDB
       - Retool
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -4495,12 +4499,12 @@ stack:
       via_parent: IT Application Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 44.6
       apps:
       - NocoDB
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 49.3
+      kin_score: 70.7
       mcp:
         status: none
       name: AWS Kinesis
@@ -4516,12 +4520,12 @@ stack:
       tier: observed
       url: /providers/kinesis/
     - agent_band: agent-aware
-      agent_readiness: 28.4
+      agent_readiness: 27.8
       apps:
       - Retool
       band: developing
       in_catalog: true
-      kin_score: 51.3
+      kin_score: 51.4
       mcp:
         status: none
       name: Kafka
@@ -4551,7 +4555,7 @@ stack:
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 74.9
       mcp:
         source: https://github.com/awslabs/mcp/tree/main/src/lambda-tool-mcp-server
         status: verified
@@ -4577,12 +4581,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 56.1
+      agent_readiness: 56.3
       apps:
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 69.1
+      kin_score: 73.5
       mcp:
         source: https://github.com/CircleCI-Public/mcp-server-circleci
         status: verified
@@ -4607,12 +4611,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.9
+      agent_readiness: 30.7
       apps:
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 70.4
+      kin_score: 69.7
       mcp:
         status: none
       name: Google Search Console
@@ -4636,12 +4640,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 60.6
+      agent_readiness: 59.7
       apps:
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 85.5
+      kin_score: 84.5
       mcp:
         source: https://launchdarkly.com/docs/home/getting-started/mcp
         status: verified
@@ -4666,12 +4670,12 @@ stack:
       via_parent: IT Operations Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 21.3
+      agent_readiness: 27.9
       apps:
       - ToolJet
       band: thin
       in_catalog: true
-      kin_score: 31.8
+      kin_score: 32.8
       mcp:
         source: https://github.com/temporalio/temporal-mcp
         status: verified
@@ -4696,12 +4700,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 31.8
+      agent_readiness: 31.2
       apps:
       - Retool
       band: developing
       in_catalog: true
-      kin_score: 52.0
+      kin_score: 53.5
       mcp:
         status: unknown
       name: BigID
@@ -4725,12 +4729,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.4
+      agent_readiness: 34.7
       apps:
       - ToolJet
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.4
+      kin_score: 54.6
       mcp:
         source: https://developer.woocommerce.com/docs/features/mcp/
         status: verified
@@ -4755,12 +4759,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.4
+      agent_readiness: 35.7
       apps:
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 71.3
+      kin_score: 67.7
       mcp:
         source: https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server/
         status: verified
@@ -4786,8 +4790,8 @@ stack:
       url: /capabilities/it-infrastructure-management/
       via_parent: IT Infrastructure Management
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 23.3
+    - agent_band: agent-ready
+      agent_readiness: 34.8
       apps:
       - Appsmith
       - Baserow
@@ -4797,7 +4801,7 @@ stack:
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 71.2
+      kin_score: 76.6
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -4816,7 +4820,7 @@ stack:
       tier: observed
       url: /providers/amazon-s3/
     - agent_band: agent-ready
-      agent_readiness: 45.3
+      agent_readiness: 45.1
       apps:
       - Baserow
       - NocoDB
@@ -4824,7 +4828,7 @@ stack:
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 71.7
+      kin_score: 74.1
       mcp:
         source: https://github.com/googleapis/gcloud-mcp
         status: verified
@@ -4843,13 +4847,13 @@ stack:
       tier: observed
       url: /providers/gcp-cloud-storage/
     - agent_band: agent-ready
-      agent_readiness: 40.9
+      agent_readiness: 37.9
       apps:
       - Baserow
       - ToolJet
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 68.5
+      kin_score: 66.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -4867,13 +4871,13 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-blob-storage/
     - agent_band: agent-aware
-      agent_readiness: 26.1
+      agent_readiness: 25.6
       apps:
       - NocoDB
       - ToolJet
       band: strong
       in_catalog: true
-      kin_score: 57.3
+      kin_score: 56.7
       mcp:
         source: https://github.com/minio/mcp-server-aistor
         status: verified
@@ -4891,12 +4895,12 @@ stack:
       tier: observed
       url: /providers/minio/
     - agent_band: agent-ready
-      agent_readiness: 42.1
+      agent_readiness: 41.7
       apps:
       - NocoDB
-      band: exemplar
+      band: strong
       in_catalog: true
-      kin_score: 66.9
+      kin_score: 65.8
       mcp:
         source: https://github.com/linode/mcp-cluster-api
         status: verified
@@ -4912,13 +4916,34 @@ stack:
       - Virtual Machines
       tier: observed
       url: /providers/linode/
+    - agent_band: agent-ready
+      agent_readiness: 39.9
+      apps:
+      - NocoDB
+      band: strong
+      in_catalog: true
+      kin_score: 63.4
+      mcp:
+        status: none
+      name: UpCloud
+      slug: upcloud
+      sources:
+      - https://github.com/nocodb/nocodb/tree/develop/packages/nocodb/src/plugins
+      status: profiled
+      tags:
+      - Cloud
+      - Company
+      - Infrastructure
+      - Object Storage
+      tier: observed
+      url: /providers/upcloud/
     - agent_band: agent-aware
-      agent_readiness: 27.1
+      agent_readiness: 26.6
       apps:
       - NocoDB
       band: developing
       in_catalog: true
-      kin_score: 53.8
+      kin_score: 51.6
       mcp:
         source: https://github.com/scaleway/scaleway-cli
         status: verified
@@ -4934,34 +4959,13 @@ stack:
       - Database
       tier: observed
       url: /providers/scaleway/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-aware
+      agent_readiness: 27.4
       apps:
       - NocoDB
       band: developing
       in_catalog: true
-      kin_score: 51.8
-      mcp:
-        status: none
-      name: UpCloud
-      slug: upcloud
-      sources:
-      - https://github.com/nocodb/nocodb/tree/develop/packages/nocodb/src/plugins
-      status: profiled
-      tags:
-      - Cloud
-      - Company
-      - Infrastructure
-      - Object Storage
-      tier: observed
-      url: /providers/upcloud/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
-      apps:
-      - NocoDB
-      band: developing
-      in_catalog: true
-      kin_score: 50.9
+      kin_score: 49.6
       mcp:
         source: https://github.com/backblaze-labs/b2-mcp
         status: verified
@@ -4978,12 +4982,12 @@ stack:
       tier: observed
       url: /providers/backblaze/
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 44.1
       apps:
       - NocoDB
       band: developing
       in_catalog: true
-      kin_score: 45.0
+      kin_score: 47.4
       mcp:
         source: https://docs.digitalocean.com/reference/mcp/
         status: verified
@@ -4999,35 +5003,13 @@ stack:
       - Servers
       tier: observed
       url: /providers/digital-ocean/
-    - agent_band: agent-aware
-      agent_readiness: 28.1
-      apps:
-      - NocoDB
-      band: developing
-      in_catalog: true
-      kin_score: 41.9
-      mcp:
-        source: https://mcp.eu.ovhcloud.com/mcp
-        status: verified
-      name: OVHcloud
-      slug: ovh-cloud
-      sources:
-      - https://github.com/nocodb/nocodb/tree/develop/packages/nocodb/src/plugins
-      status: profiled
-      tags:
-      - Cloud
-      - Compute
-      - Hosting
-      - Servers
-      tier: observed
-      url: /providers/ovh-cloud/
     - agent_band: agent-ready
-      agent_readiness: 49.8
+      agent_readiness: 53.5
       apps:
       - NocoDB
       band: developing
       in_catalog: true
-      kin_score: 40.2
+      kin_score: 43.3
       mcp:
         source: https://github.com/vultr/vultr-mcp
         status: verified
@@ -5044,12 +5026,34 @@ stack:
       tier: observed
       url: /providers/vultr/
     - agent_band: agent-aware
-      agent_readiness: 27.7
+      agent_readiness: 27.5
+      apps:
+      - NocoDB
+      band: developing
+      in_catalog: true
+      kin_score: 43.2
+      mcp:
+        source: https://mcp.eu.ovhcloud.com/mcp
+        status: verified
+      name: OVHcloud
+      slug: ovh-cloud
+      sources:
+      - https://github.com/nocodb/nocodb/tree/develop/packages/nocodb/src/plugins
+      status: profiled
+      tags:
+      - Cloud
+      - Compute
+      - Hosting
+      - Servers
+      tier: observed
+      url: /providers/ovh-cloud/
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - NocoDB
       band: thin
       in_catalog: true
-      kin_score: 36.3
+      kin_score: 35.8
       mcp:
         source: https://raw.githubusercontent.com/cloudflare/mcp/main/README.md
         status: verified
@@ -5074,7 +5078,7 @@ stack:
       via_parent: In-App Chat
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Budibase
       - NocoDB
@@ -5082,7 +5086,7 @@ stack:
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -5101,14 +5105,14 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Budibase
       - NocoDB
       - Retool
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -5126,12 +5130,12 @@ stack:
       tier: observed
       url: /providers/microsoft-teams/
     - agent_band: agent-ready
-      agent_readiness: 30.6
+      agent_readiness: 33.1
       apps:
       - NocoDB
       band: developing
       in_catalog: true
-      kin_score: 46.9
+      kin_score: 48.0
       mcp:
         status: none
       name: Discord
@@ -5147,12 +5151,12 @@ stack:
       tier: observed
       url: /providers/discord/
     - agent_band: agent-aware
-      agent_readiness: 25.7
+      agent_readiness: 25.2
       apps:
       - NocoDB
       band: thin
       in_catalog: true
-      kin_score: 37.2
+      kin_score: 37.0
       mcp:
         source: https://github.com/mattermost/mmctl-mcp
         status: verified
@@ -5185,7 +5189,7 @@ stack:
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -5204,13 +5208,13 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 49.6
+      agent_readiness: 48.6
       apps:
       - Budibase
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 79.2
+      kin_score: 80.0
       mcp:
         source: https://github.com/datadog-labs/mcp-server
         status: verified
@@ -5227,13 +5231,13 @@ stack:
       - Visualization
       tier: observed
       url: /providers/datadog/
-    - agent_band: agent-ready
-      agent_readiness: 31.1
+    - agent_band: agent-aware
+      agent_readiness: 27.6
       apps:
       - Appsmith
       band: strong
       in_catalog: true
-      kin_score: 60.6
+      kin_score: 66.0
       mcp:
         source: https://github.com/grafana/mcp-grafana
         status: verified
@@ -5250,12 +5254,12 @@ stack:
       tier: observed
       url: /providers/grafana-com/
     - agent_band: human-only
-      agent_readiness: 2.9
+      agent_readiness: 2.8
       apps:
       - Appsmith
       band: emerging
       in_catalog: true
-      kin_score: 14.8
+      kin_score: 25.6
       mcp:
         source: https://github.com/betterbugs/mcp
         status: verified
@@ -5280,7 +5284,7 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Baserow
       - Budibase
@@ -5288,7 +5292,7 @@ stack:
       - ToolJet
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -5307,12 +5311,12 @@ stack:
       tier: observed
       url: /providers/posthog/
     - agent_band: agent-ready
-      agent_readiness: 48.3
+      agent_readiness: 47.7
       apps:
       - Appsmith
       band: strong
       in_catalog: true
-      kin_score: 60.3
+      kin_score: 60.8
       mcp:
         source: https://docs.mixpanel.com/docs/features/mcp
         status: verified
@@ -5329,12 +5333,12 @@ stack:
       tier: observed
       url: /providers/mixpanel/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.1
       apps:
       - Appsmith
       band: thin
       in_catalog: true
-      kin_score: 31.8
+      kin_score: 30.3
       mcp:
         source: https://help.smartlook.com/mcp
         status: verified
@@ -5351,12 +5355,12 @@ stack:
       tier: observed
       url: /providers/smartlook/
     - agent_band: agent-ready
-      agent_readiness: 41.8
+      agent_readiness: 42.9
       apps:
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 79.7
       mcp:
         source: https://developers.google.com/analytics/devguides/MCP
         status: verified
@@ -5381,13 +5385,13 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 40.1
+      agent_readiness: 40.7
       apps:
       - Retool
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 87.3
+      kin_score: 84.0
       mcp:
         status: none
       name: SendGrid
@@ -5404,13 +5408,13 @@ stack:
       tier: observed
       url: /providers/sendgrid/
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - NocoDB
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -5427,12 +5431,12 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 56.3
+      agent_readiness: 56.5
       apps:
       - NocoDB
       band: strong
       in_catalog: true
-      kin_score: 59.5
+      kin_score: 57.5
       mcp:
         source: https://developers.mailersend.com/mcp-server.html
         status: verified
@@ -5449,12 +5453,12 @@ stack:
       tier: observed
       url: /providers/mailersend/
     - agent_band: agent-aware
-      agent_readiness: 19.0
+      agent_readiness: 19.2
       apps:
       - ToolJet
       band: thin
       in_catalog: true
-      kin_score: 32.6
+      kin_score: 31.6
       mcp:
         source: https://github.com/mailgun/mailgun-mcp-server
         status: verified
@@ -5479,14 +5483,14 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 63.4
+      agent_readiness: 62.4
       apps:
       - NocoDB
       - Retool
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 85.4
+      kin_score: 85.0
       mcp:
         source: https://github.com/github/github-mcp-server
         status: verified
@@ -5505,12 +5509,12 @@ stack:
       tier: observed
       url: /providers/github/
     - agent_band: agent-native
-      agent_readiness: 55.6
+      agent_readiness: 54.5
       apps:
       - NocoDB
       band: exemplar
       in_catalog: true
-      kin_score: 79.6
+      kin_score: 86.3
       mcp:
         source: https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/
         status: verified
@@ -5535,14 +5539,14 @@ stack:
       via_parent: Maps & Tiles
     providers:
     - agent_band: agent-ready
-      agent_readiness: 36.0
+      agent_readiness: 33.0
       apps:
       - Appsmith
       - Retool
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 71.4
+      kin_score: 73.6
       mcp:
         source: https://developers.google.com/maps/ai/grounding-lite
         status: verified
@@ -5569,34 +5573,12 @@ stack:
       via_parent: IT Infrastructure Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 37.0
-      apps:
-      - NocoDB
-      band: exemplar
-      in_catalog: true
-      kin_score: 70.1
-      mcp:
-        source: https://github.com/microsoft/mcp
-        status: verified
-      name: Microsoft Graph
-      slug: microsoft-graph
-      sources:
-      - https://github.com/nocodb/nocodb/blob/develop/packages/nocodb/package.json
-      status: profiled
-      tags:
-      - Azure AD
-      - Collaboration
-      - Contacts
-      - Microsoft Graph
-      tier: observed
-      url: /providers/microsoft-graph/
-    - agent_band: agent-ready
-      agent_readiness: 44.3
+      agent_readiness: 44.4
       apps:
       - Appsmith
       band: exemplar
       in_catalog: true
-      kin_score: 67.1
+      kin_score: 73.2
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -5612,13 +5594,35 @@ stack:
       - Drives
       tier: observed
       url: /providers/google-drive/
+    - agent_band: agent-ready
+      agent_readiness: 39.0
+      apps:
+      - NocoDB
+      band: exemplar
+      in_catalog: true
+      kin_score: 69.7
+      mcp:
+        source: https://github.com/microsoft/mcp
+        status: verified
+      name: Microsoft Graph
+      slug: microsoft-graph
+      sources:
+      - https://github.com/nocodb/nocodb/blob/develop/packages/nocodb/package.json
+      status: profiled
+      tags:
+      - Azure AD
+      - Collaboration
+      - Contacts
+      - Microsoft Graph
+      tier: observed
+      url: /providers/microsoft-graph/
     - agent_band: agent-aware
-      agent_readiness: 25.2
+      agent_readiness: 25.9
       apps:
       - Appsmith
       band: developing
       in_catalog: true
-      kin_score: 48.3
+      kin_score: 50.9
       mcp:
         status: none
       name: Microsoft OneDrive
@@ -5642,14 +5646,14 @@ stack:
       via_parent: SMS & Messaging Apps
     providers:
     - agent_band: agent-native
-      agent_readiness: 56.4
+      agent_readiness: 56.6
       apps:
       - NocoDB
       - Retool
       - ToolJet
       band: exemplar
       in_catalog: true
-      kin_score: 90.3
+      kin_score: 90.8
       mcp:
         source: https://www.twilio.com/docs/ai/mcp
         status: verified
@@ -5676,12 +5680,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.4
+      agent_readiness: 41.7
       apps:
       - NocoDB
       band: strong
       in_catalog: true
-      kin_score: 55.5
+      kin_score: 64.4
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5698,12 +5702,12 @@ stack:
       tier: observed
       url: /providers/amazon-sns/
     - agent_band: agent-native
-      agent_readiness: 71.3
+      agent_readiness: 70.1
       apps:
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 76.8
       mcp:
         source: https://github.com/OneSignal/onesignal-ai-skills
         status: documented
@@ -5728,12 +5732,12 @@ stack:
       via_parent: Customer Sign-In
     providers:
     - agent_band: agent-ready
-      agent_readiness: 33.5
+      agent_readiness: 28.7
       apps:
       - Budibase
       band: exemplar
       in_catalog: true
-      kin_score: 73.9
+      kin_score: 70.3
       mcp:
         status: none
       name: Microsoft Entra
@@ -5748,13 +5752,13 @@ stack:
       - Identity and Access Management
       tier: observed
       url: /providers/microsoft-entra/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 33.7
       apps:
       - Budibase
-      band: thin
+      band: strong
       in_catalog: true
-      kin_score: 36.8
+      kin_score: 58.8
       mcp:
         status: none
       name: Google Identity Platform
@@ -5777,13 +5781,13 @@ stack:
       url: /capabilities/bot-protection-captcha/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 24.6
+    - agent_band: agent-ready
+      agent_readiness: 34.9
       apps:
       - Appsmith
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 48.1
+      kin_score: 65.1
       mcp:
         status: none
       name: Google reCAPTCHA
@@ -5807,12 +5811,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 26.8
+      agent_readiness: 27.7
       apps:
       - Appsmith
       band: developing
       in_catalog: true
-      kin_score: 43.8
+      kin_score: 42.9
       mcp:
         status: none
       name: Twilio Segment
@@ -5835,13 +5839,13 @@ stack:
       url: /capabilities/identity-access-management/
       via_parent: null
     providers:
-    - agent_band: agent-aware
-      agent_readiness: 27.7
+    - agent_band: agent-ready
+      agent_readiness: 37.3
       apps:
       - NocoDB
       band: exemplar
       in_catalog: true
-      kin_score: 67.7
+      kin_score: 74.5
       mcp:
         status: none
       name: Amazon Cognito
@@ -5853,7 +5857,7 @@ stack:
       - Amazon Web Services
       - Authentication
       - Identity
-      - OAuth
+      - OpenID Connect
       tier: observed
       url: /providers/amazon-cognito/
   layer: common
@@ -5867,7 +5871,7 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.4
+      agent_readiness: 57.5
       apps:
       - Appsmith
       - Baserow
@@ -5876,7 +5880,7 @@ stack:
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 81.8
+      kin_score: 82.5
       mcp:
         source: https://platform.openai.com/docs/mcp
         status: verified
@@ -5895,7 +5899,7 @@ stack:
       tier: observed
       url: /providers/openai/
     - agent_band: agent-ready
-      agent_readiness: 47.6
+      agent_readiness: 46.6
       apps:
       - Appsmith
       - Baserow
@@ -5903,7 +5907,7 @@ stack:
       - Retool
       band: exemplar
       in_catalog: true
-      kin_score: 87.5
+      kin_score: 86.4
       mcp:
         source: https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
         status: verified
@@ -5922,7 +5926,7 @@ stack:
       tier: observed
       url: /providers/anthropic/
     - agent_band: agent-ready
-      agent_readiness: 31.3
+      agent_readiness: 35.0
       apps:
       - Appsmith
       - Baserow
@@ -5930,7 +5934,7 @@ stack:
       - Retool
       band: strong
       in_catalog: true
-      kin_score: 55.1
+      kin_score: 61.7
       mcp:
         status: none
       name: Google AI (googleAiPlugin)
@@ -5947,15 +5951,15 @@ stack:
       - Embeddings
       tier: observed
       url: /providers/google-gemini/
-    - agent_band: agent-ready
-      agent_readiness: 35.8
+    - agent_band: agent-native
+      agent_readiness: 48.3
       apps:
       - Baserow
       - NocoDB
       - Retool
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 51.4
+      kin_score: 64.3
       mcp:
         source: https://github.com/awslabs/mcp
         status: verified
@@ -5973,14 +5977,14 @@ stack:
       - Generative AI
       tier: observed
       url: /providers/amazon-bedrock/
-    - agent_band: agent-aware
-      agent_readiness: 23.4
+    - agent_band: agent-ready
+      agent_readiness: 29.9
       apps:
       - NocoDB
       - Retool
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 44.6
+      kin_score: 68.3
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -5998,13 +6002,13 @@ stack:
       tier: observed
       url: /providers/microsoft-azure-openai/
     - agent_band: agent-aware
-      agent_readiness: 21.6
+      agent_readiness: 21.2
       apps:
       - Baserow
       - NocoDB
       band: thin
       in_catalog: true
-      kin_score: 32.9
+      kin_score: 32.3
       mcp:
         source: https://github.com/groq/groq-mcp-server
         status: verified
@@ -6021,13 +6025,13 @@ stack:
       - LPU
       tier: observed
       url: /providers/groq/
-    - agent_band: agent-ready
-      agent_readiness: 28.8
+    - agent_band: agent-aware
+      agent_readiness: 28.2
       apps:
       - Baserow
       band: developing
       in_catalog: true
-      kin_score: 47.7
+      kin_score: 47.3
       mcp:
         status: none
       name: Mistral AI
@@ -6043,12 +6047,12 @@ stack:
       tier: observed
       url: /providers/mistral/
     - agent_band: agent-aware
-      agent_readiness: 22.9
+      agent_readiness: 22.4
       apps:
       - NocoDB
       band: developing
       in_catalog: true
-      kin_score: 43.3
+      kin_score: 41.2
       mcp:
         status: none
       name: DeepSeek
@@ -6064,12 +6068,12 @@ stack:
       tier: observed
       url: /providers/deepseek/
     - agent_band: agent-ready
-      agent_readiness: 41.4
+      agent_readiness: 40.6
       apps:
       - Retool
       band: thin
       in_catalog: true
-      kin_score: 36.4
+      kin_score: 35.2
       mcp:
         status: none
       name: Cohere
@@ -6093,12 +6097,12 @@ stack:
       via_parent: Language & Document Understanding
     providers:
     - agent_band: agent-ready
-      agent_readiness: 29.0
+      agent_readiness: 28.9
       apps:
       - NocoDB
       band: thin
       in_catalog: true
-      kin_score: 35.5
+      kin_score: 33.9
       mcp:
         source: https://github.com/Unstructured-IO/UNS-MCP
         status: verified
@@ -6116,19 +6120,19 @@ stack:
       url: /providers/unstructured/
   layer: agent
 summary:
-  coverage_pct: 97.2
+  coverage_pct: 98.1
   declared_only: 17
   distinct_providers: 107
-  in_catalog: 104
+  in_catalog: 105
   mcp:
     documented: 2
     none: 30
     unchecked: 3
     verified: 71
   mcp_verified: 71
-  mean_kin_score: 57.5
+  mean_kin_score: 60.3
   observed: 90
-  queued: 3
+  queued: 2
   reference_apps: 6
 title: 'Low-code & Internal Tools: application blueprint'
 ---

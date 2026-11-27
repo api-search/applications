@@ -1441,13 +1441,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-aware
-      agent_readiness: 28.1
+      agent_readiness: 27.5
       apps:
       - InvenTree
       - Part-DB
       band: developing
       in_catalog: true
-      kin_score: 47.2
+      kin_score: 53.9
       mcp:
         status: none
       name: Digi-Key
@@ -1464,13 +1464,13 @@ stack:
       tier: observed
       url: /providers/digi-key/
     - agent_band: agent-aware
-      agent_readiness: 25.6
+      agent_readiness: 21.7
       apps:
       - InvenTree
       - Part-DB
       band: emerging
       in_catalog: true
-      kin_score: 15.2
+      kin_score: 17.0
       mcp:
         status: unknown
       name: TME (Transfer Multisort Elektronik)
@@ -1490,7 +1490,7 @@ stack:
       - Part-DB
       band: minimal
       in_catalog: true
-      kin_score: 4.7
+      kin_score: 3.8
       mcp:
         status: unknown
       name: LCSC Electronics
@@ -1513,7 +1513,7 @@ stack:
       - Part-DB
       band: minimal
       in_catalog: true
-      kin_score: 2.7
+      kin_score: 1.8
       mcp:
         status: none
       name: Mouser Electronics
@@ -1532,7 +1532,7 @@ stack:
       - Part-DB
       band: emerging
       in_catalog: true
-      kin_score: 18.8
+      kin_score: 19.3
       mcp:
         status: none
       name: Bambu Lab
@@ -1548,12 +1548,33 @@ stack:
       tier: observed
       url: /providers/bambu-lab/
     - agent_band: human-only
+      agent_readiness: 0.0
+      apps:
+      - Part-DB
+      band: emerging
+      in_catalog: true
+      kin_score: 14.6
+      mcp:
+        status: none
+      name: SparkFun Electronics
+      slug: sparkfun
+      sources:
+      - https://github.com/Part-DB/Part-DB-server/tree/master/src/Services/InfoProviderSystem/Providers
+      status: profiled
+      tags:
+      - Education
+      - Electronics
+      - Maker
+      - Retail
+      tier: observed
+      url: /providers/sparkfun/
+    - agent_band: human-only
       agent_readiness: 2.5
       apps:
       - Part-DB
-      band: minimal
+      band: emerging
       in_catalog: true
-      kin_score: 9.4
+      kin_score: 13.8
       mcp:
         status: unknown
       name: Pollin Electronic
@@ -1574,28 +1595,28 @@ stack:
       - Part-DB
       band: minimal
       in_catalog: true
-      kin_score: 8.4
+      kin_score: 7.9
       mcp:
         status: none
-      name: SparkFun Electronics
-      slug: sparkfun
+      name: Pololu
+      slug: pololu
       sources:
       - https://github.com/Part-DB/Part-DB-server/tree/master/src/Services/InfoProviderSystem/Providers
       status: profiled
       tags:
-      - Education
+      - Company
       - Electronics
-      - Maker
-      - Retail
+      - Hobbyist
+      - Robotics
       tier: observed
-      url: /providers/sparkfun/
+      url: /providers/pololu/
     - agent_band: human-only
       agent_readiness: 0.0
       apps:
       - Part-DB
       band: minimal
       in_catalog: true
-      kin_score: 7.8
+      kin_score: 7.2
       mcp:
         status: none
       name: Octopart
@@ -1614,28 +1635,7 @@ stack:
       - Part-DB
       band: minimal
       in_catalog: true
-      kin_score: 6.9
-      mcp:
-        status: none
-      name: Pololu
-      slug: pololu
-      sources:
-      - https://github.com/Part-DB/Part-DB-server/tree/master/src/Services/InfoProviderSystem/Providers
-      status: profiled
-      tags:
-      - Company
-      - Electronics
-      - Hobbyist
-      - Robotics
-      tier: observed
-      url: /providers/pololu/
-    - agent_band: human-only
-      agent_readiness: 2.9
-      apps:
-      - Part-DB
-      band: minimal
-      in_catalog: true
-      kin_score: 4.4
+      kin_score: 4.5
       mcp:
         status: unknown
       name: Conrad Electronic
@@ -1651,12 +1651,12 @@ stack:
       tier: observed
       url: /providers/conrad/
     - agent_band: agent-aware
-      agent_readiness: 14.4
+      agent_readiness: 14.1
       apps:
       - Part-DB
       band: minimal
       in_catalog: true
-      kin_score: 4.3
+      kin_score: 3.7
       mcp:
         status: none
       name: TrustedParts
@@ -1677,7 +1677,7 @@ stack:
       - Part-DB
       band: minimal
       in_catalog: true
-      kin_score: 4.1
+      kin_score: 3.5
       mcp:
         status: none
       name: element14 / Farnell
@@ -1698,7 +1698,7 @@ stack:
       - Part-DB
       band: minimal
       in_catalog: true
-      kin_score: 3.1
+      kin_score: 2.2
       mcp:
         status: unknown
       name: Reichelt Elektronik
@@ -1719,7 +1719,7 @@ stack:
       - Part-DB
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: Buerklin
@@ -1732,12 +1732,12 @@ stack:
       tier: observed
       url: /providers/buerklin/
     - agent_band: human-only
-      agent_readiness: 0.0
+      agent_readiness: 1.1
       apps:
       - Part-DB
       band: minimal
       in_catalog: true
-      kin_score: 1.3
+      kin_score: 0.4
       mcp:
         status: unknown
       name: OEMsecrets
@@ -1792,37 +1792,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 52.5
+      agent_readiness: 56.3
       apps:
       - Cin7
       - inFlow Inventory
       band: exemplar
       in_catalog: true
-      kin_score: 84.6
-      mcp:
-        source: https://shopify.dev/docs/apps/build/devmcp
-        status: verified
-      name: Shopify
-      slug: shopify
-      sources:
-      - https://www.cin7.com/integrations/
-      - https://www.inflowinventory.com/integrations
-      status: profiled
-      tags:
-      - Commerce
-      - E-Commerce
-      - Payments
-      - Retail
-      tier: declared
-      url: /providers/shopify/
-    - agent_band: agent-ready
-      agent_readiness: 60.5
-      apps:
-      - Cin7
-      - inFlow Inventory
-      band: exemplar
-      in_catalog: true
-      kin_score: 70.3
+      kin_score: 84.3
       mcp:
         source: https://developer.bigcommerce.com/developer/docs/beta/store-management-mcp
         status: verified
@@ -1840,13 +1816,37 @@ stack:
       tier: declared
       url: /providers/bigcommerce/
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 51.8
+      apps:
+      - Cin7
+      - inFlow Inventory
+      band: exemplar
+      in_catalog: true
+      kin_score: 83.8
+      mcp:
+        source: https://shopify.dev/docs/apps/build/devmcp
+        status: verified
+      name: Shopify
+      slug: shopify
+      sources:
+      - https://www.cin7.com/integrations/
+      - https://www.inflowinventory.com/integrations
+      status: profiled
+      tags:
+      - Commerce
+      - E-Commerce
+      - Payments
+      - Retail
+      tier: declared
+      url: /providers/shopify/
+    - agent_band: agent-ready
+      agent_readiness: 56.2
       apps:
       - Cin7
       - inFlow Inventory
       band: strong
       in_catalog: true
-      kin_score: 65.0
+      kin_score: 63.7
       mcp:
         status: none
       name: Walmart
@@ -1862,62 +1862,14 @@ stack:
       - Walmart
       tier: declared
       url: /providers/walmart/
-    - agent_band: agent-ready
-      agent_readiness: 32.0
+    - agent_band: agent-native
+      agent_readiness: 53.6
       apps:
       - Cin7
       - inFlow Inventory
-      band: developing
+      band: strong
       in_catalog: true
-      kin_score: 50.7
-      mcp:
-        source: https://github.com/eBay/npm-public-api-mcp
-        status: verified
-      name: eBay
-      slug: ebay
-      sources:
-      - https://www.cin7.com/integrations/
-      - https://www.inflowinventory.com/integrations
-      status: profiled
-      tags:
-      - Auctions
-      - Commerce
-      - Marketplace
-      - Product
-      tier: declared
-      url: /providers/ebay/
-    - agent_band: agent-ready
-      agent_readiness: 35.4
-      apps:
-      - Cin7
-      - inFlow Inventory
-      band: developing
-      in_catalog: true
-      kin_score: 50.4
-      mcp:
-        source: https://developer.woocommerce.com/docs/features/mcp/
-        status: verified
-      name: WooCommerce
-      slug: woocommerce
-      sources:
-      - https://www.cin7.com/integrations/
-      - https://www.inflowinventory.com/integrations
-      status: profiled
-      tags:
-      - E-Commerce
-      - Open Source
-      - Order
-      - WooCommerce
-      tier: declared
-      url: /providers/woocommerce/
-    - agent_band: agent-ready
-      agent_readiness: 46.8
-      apps:
-      - Cin7
-      - inFlow Inventory
-      band: developing
-      in_catalog: true
-      kin_score: 46.7
+      kin_score: 58.4
       mcp:
         source: https://github.com/amzn/selling-partner-agentic-toolkit
         status: verified
@@ -1935,12 +1887,60 @@ stack:
       tier: declared
       url: /providers/amazon/
     - agent_band: agent-ready
-      agent_readiness: 43.0
+      agent_readiness: 34.7
+      apps:
+      - Cin7
+      - inFlow Inventory
+      band: strong
+      in_catalog: true
+      kin_score: 54.6
+      mcp:
+        source: https://developer.woocommerce.com/docs/features/mcp/
+        status: verified
+      name: WooCommerce
+      slug: woocommerce
+      sources:
+      - https://www.cin7.com/integrations/
+      - https://www.inflowinventory.com/integrations
+      status: profiled
+      tags:
+      - E-Commerce
+      - Open Source
+      - Order
+      - WooCommerce
+      tier: declared
+      url: /providers/woocommerce/
+    - agent_band: agent-ready
+      agent_readiness: 31.3
+      apps:
+      - Cin7
+      - inFlow Inventory
+      band: developing
+      in_catalog: true
+      kin_score: 48.7
+      mcp:
+        source: https://github.com/eBay/npm-public-api-mcp
+        status: verified
+      name: eBay
+      slug: ebay
+      sources:
+      - https://www.cin7.com/integrations/
+      - https://www.inflowinventory.com/integrations
+      status: profiled
+      tags:
+      - Auctions
+      - Commerce
+      - Marketplace
+      - Product
+      tier: declared
+      url: /providers/ebay/
+    - agent_band: agent-ready
+      agent_readiness: 42.1
       apps:
       - inFlow Inventory
       band: exemplar
       in_catalog: true
-      kin_score: 86.5
+      kin_score: 84.5
       mcp:
         status: none
       name: Lightspeed Commerce
@@ -1956,12 +1956,12 @@ stack:
       tier: declared
       url: /providers/lightspeed/
     - agent_band: agent-native
-      agent_readiness: 62.8
+      agent_readiness: 61.5
       apps:
       - inFlow Inventory
       band: exemplar
       in_catalog: true
-      kin_score: 76.1
+      kin_score: 78.2
       mcp:
         source: https://developer.squareup.com/docs/mcp
         status: verified
@@ -1978,12 +1978,12 @@ stack:
       tier: declared
       url: /providers/square/
     - agent_band: agent-native
-      agent_readiness: 49.5
+      agent_readiness: 48.5
       apps:
       - inFlow Inventory
       band: exemplar
       in_catalog: true
-      kin_score: 69.9
+      kin_score: 68.7
       mcp:
         status: none
       name: Squarespace
@@ -1999,12 +1999,33 @@ stack:
       tier: declared
       url: /providers/squarespace/
     - agent_band: agent-ready
-      agent_readiness: 34.0
+      agent_readiness: 33.1
+      apps:
+      - inFlow Inventory
+      band: strong
+      in_catalog: true
+      kin_score: 54.8
+      mcp:
+        status: none
+      name: Google Shopping
+      slug: google-shopping
+      sources:
+      - https://www.inflowinventory.com/integrations
+      status: profiled
+      tags:
+      - E-Commerce
+      - Google Shopping
+      - Merchant Center
+      - Product Listings
+      tier: declared
+      url: /providers/google-shopping/
+    - agent_band: agent-ready
+      agent_readiness: 28.7
       apps:
       - inFlow Inventory
       band: developing
       in_catalog: true
-      kin_score: 50.3
+      kin_score: 53.2
       mcp:
         source: https://developers.etsy.com/documentation/mcp_server/devmcpserver
         status: verified
@@ -2020,34 +2041,13 @@ stack:
       - Marketplace
       tier: declared
       url: /providers/etsy/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
-      apps:
-      - inFlow Inventory
-      band: developing
-      in_catalog: true
-      kin_score: 43.4
-      mcp:
-        status: none
-      name: Google Shopping
-      slug: google-shopping
-      sources:
-      - https://www.inflowinventory.com/integrations
-      status: profiled
-      tags:
-      - E-Commerce
-      - Google Shopping
-      - Merchant Center
-      - Product Listings
-      tier: declared
-      url: /providers/google-shopping/
-    - agent_band: agent-aware
-      agent_readiness: 24.0
+    - agent_band: agent-ready
+      agent_readiness: 28.9
       apps:
       - inFlow Inventory
       band: thin
       in_catalog: true
-      kin_score: 30.6
+      kin_score: 30.3
       mcp:
         status: none
       name: Magento
@@ -2063,12 +2063,12 @@ stack:
       tier: declared
       url: /providers/magento/
     - agent_band: agent-aware
-      agent_readiness: 24.1
+      agent_readiness: 20.8
       apps:
       - Cin7
       band: emerging
       in_catalog: true
-      kin_score: 14.6
+      kin_score: 21.7
       mcp:
         status: none
       name: Brightpearl
@@ -2089,7 +2089,7 @@ stack:
       - inFlow Inventory
       band: minimal
       in_catalog: true
-      kin_score: 10.2
+      kin_score: 10.0
       mcp:
         status: none
       name: Faire
@@ -2112,15 +2112,15 @@ stack:
       url: /capabilities/general-ledger-management/
       via_parent: null
     providers:
-    - agent_band: agent-native
-      agent_readiness: 41.2
+    - agent_band: agent-ready
+      agent_readiness: 38.3
       apps:
       - Cin7
       - Sortly
       - inFlow Inventory
       band: strong
       in_catalog: true
-      kin_score: 61.1
+      kin_score: 59.8
       mcp:
         source: https://github.com/intuit/quickbooks-online-mcp-server
         status: verified
@@ -2139,13 +2139,13 @@ stack:
       tier: declared
       url: /providers/quickbooks/
     - agent_band: agent-native
-      agent_readiness: 61.3
+      agent_readiness: 60.0
       apps:
       - Cin7
       - inFlow Inventory
       band: exemplar
       in_catalog: true
-      kin_score: 82.4
+      kin_score: 87.1
       mcp:
         source: https://github.com/XeroAPI/xero-mcp-server
         status: verified
@@ -2168,7 +2168,7 @@ stack:
       - Cin7
       band: emerging
       in_catalog: true
-      kin_score: 12.5
+      kin_score: 11.4
       mcp:
         status: none
       name: Oracle NetSuite
@@ -2192,13 +2192,13 @@ stack:
       via_parent: Logistics Operations Management
     providers:
     - agent_band: agent-aware
-      agent_readiness: 22.4
+      agent_readiness: 21.9
       apps:
       - Cin7
       - inFlow Inventory
       band: thin
       in_catalog: true
-      kin_score: 32.4
+      kin_score: 32.0
       mcp:
         status: none
       name: EasyPost
@@ -2215,12 +2215,12 @@ stack:
       tier: declared
       url: /providers/easypost/
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 45.9
       apps:
       - Cin7
-      band: strong
+      band: developing
       in_catalog: true
-      kin_score: 56.7
+      kin_score: 54.1
       mcp:
         status: none
       name: ShipStation
@@ -2236,12 +2236,12 @@ stack:
       tier: declared
       url: /providers/shipstation/
     - agent_band: agent-aware
-      agent_readiness: 21.4
+      agent_readiness: 18.7
       apps:
       - Cin7
       band: emerging
       in_catalog: true
-      kin_score: 16.1
+      kin_score: 24.8
       mcp:
         status: unknown
       name: Starshipit
@@ -2265,12 +2265,12 @@ stack:
       via_parent: Logistics Operations Management
     providers:
     - agent_band: agent-ready
-      agent_readiness: 35.9
+      agent_readiness: 35.2
       apps:
       - inFlow Inventory
       band: exemplar
       in_catalog: true
-      kin_score: 69.4
+      kin_score: 70.7
       mcp:
         status: none
       name: FedEx
@@ -2285,13 +2285,34 @@ stack:
       - Pickup
       tier: declared
       url: /providers/fedex/
-    - agent_band: agent-ready
-      agent_readiness: 31.9
+    - agent_band: agent-native
+      agent_readiness: 39.5
       apps:
       - inFlow Inventory
-      band: thin
+      band: developing
       in_catalog: true
-      kin_score: 33.2
+      kin_score: 52.3
+      mcp:
+        status: none
+      name: DHL
+      slug: dhl
+      sources:
+      - https://www.inflowinventory.com/integrations
+      status: profiled
+      tags:
+      - E-Commerce
+      - Freight
+      - Logistics
+      - Shipping
+      tier: declared
+      url: /providers/dhl/
+    - agent_band: agent-native
+      agent_readiness: 51.8
+      apps:
+      - inFlow Inventory
+      band: developing
+      in_catalog: true
+      kin_score: 52.0
       mcp:
         status: none
       name: USPS
@@ -2306,13 +2327,13 @@ stack:
       - Shipping
       tier: declared
       url: /providers/usps/
-    - agent_band: agent-aware
-      agent_readiness: 24.1
+    - agent_band: agent-ready
+      agent_readiness: 29.2
       apps:
       - inFlow Inventory
       band: thin
       in_catalog: true
-      kin_score: 29.0
+      kin_score: 27.9
       mcp:
         source: https://github.com/UPS-API/ups-mcp
         status: verified
@@ -2328,27 +2349,6 @@ stack:
       - Supply Chain
       tier: declared
       url: /providers/ups/
-    - agent_band: agent-aware
-      agent_readiness: 24.1
-      apps:
-      - inFlow Inventory
-      band: emerging
-      in_catalog: true
-      kin_score: 26.1
-      mcp:
-        status: none
-      name: DHL
-      slug: dhl
-      sources:
-      - https://www.inflowinventory.com/integrations
-      status: profiled
-      tags:
-      - E-Commerce
-      - Freight
-      - Logistics
-      - Shipping
-      tier: declared
-      url: /providers/dhl/
   - capability:
       attribution: API Evangelist extension
       id: AE-230.20.10
@@ -2357,13 +2357,13 @@ stack:
       url: /capabilities/market-financial-data/
       via_parent: Market & Financial Data
     providers:
-    - agent_band: agent-ready
-      agent_readiness: 41.4
+    - agent_band: agent-native
+      agent_readiness: 46.7
       apps:
       - InvenTree
       band: thin
       in_catalog: true
-      kin_score: 33.5
+      kin_score: 33.2
       mcp:
         source: https://github.com/lineofflight/frankfurter-mcp
         status: verified
@@ -2388,12 +2388,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 44.6
+      agent_readiness: 44.7
       apps:
       - Cin7
       band: exemplar
       in_catalog: true
-      kin_score: 70.5
+      kin_score: 69.3
       mcp:
         source: https://github.com/avadev/mcp
         status: verified
@@ -2419,13 +2419,13 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 38.7
+      agent_readiness: 38.3
       apps:
       - Snipe-IT
       - Sortly
       band: exemplar
       in_catalog: true
-      kin_score: 74.7
+      kin_score: 74.4
       mcp:
         source: https://docs.slack.dev/ai/mcp-server/
         status: verified
@@ -2443,13 +2443,13 @@ stack:
       tier: observed
       url: /providers/slack/
     - agent_band: agent-ready
-      agent_readiness: 34.2
+      agent_readiness: 30.5
       apps:
       - Snipe-IT
       - Sortly
       band: strong
       in_catalog: true
-      kin_score: 59.0
+      kin_score: 65.1
       mcp:
         status: none
       name: Microsoft Teams
@@ -2465,13 +2465,13 @@ stack:
       - Microsoft Teams
       tier: observed
       url: /providers/microsoft-teams/
-    - agent_band: agent-aware
-      agent_readiness: 19.6
+    - agent_band: agent-ready
+      agent_readiness: 41.0
       apps:
       - Snipe-IT
-      band: developing
+      band: exemplar
       in_catalog: true
-      kin_score: 51.6
+      kin_score: 67.1
       mcp:
         source: https://github.com/google/mcp
         status: verified
@@ -2502,7 +2502,7 @@ stack:
       - Shelf
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 80.7
       mcp:
         source: https://docs.sentry.io/product/sentry-mcp/
         status: verified
@@ -2520,12 +2520,12 @@ stack:
       tier: observed
       url: /providers/sentry-system/
     - agent_band: agent-ready
-      agent_readiness: 30.8
+      agent_readiness: 30.2
       apps:
       - Snipe-IT
       band: developing
       in_catalog: true
-      kin_score: 49.4
+      kin_score: 48.1
       mcp:
         source: https://github.com/rollbar/rollbar-mcp-server
         status: verified
@@ -2550,12 +2550,12 @@ stack:
       via_parent: Email
     providers:
     - agent_band: agent-ready
-      agent_readiness: 39.4
+      agent_readiness: 38.0
       apps:
       - InvenTree
       band: exemplar
       in_catalog: true
-      kin_score: 80.6
+      kin_score: 83.8
       mcp:
         status: none
       name: Amazon SES
@@ -2571,12 +2571,12 @@ stack:
       tier: observed
       url: /providers/amazon-ses/
     - agent_band: agent-ready
-      agent_readiness: 37.0
+      agent_readiness: 39.0
       apps:
       - Snipe-IT
       band: exemplar
       in_catalog: true
-      kin_score: 70.1
+      kin_score: 69.7
       mcp:
         source: https://github.com/microsoft/mcp
         status: verified
@@ -2593,12 +2593,12 @@ stack:
       tier: observed
       url: /providers/microsoft-graph/
     - agent_band: agent-aware
-      agent_readiness: 19.9
+      agent_readiness: 16.9
       apps:
       - InvenTree
-      band: emerging
+      band: thin
       in_catalog: true
-      kin_score: 25.5
+      kin_score: 28.1
       mcp:
         status: none
       name: Postal (postalserver.io)
@@ -2622,12 +2622,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 48.1
+      agent_readiness: 48.2
       apps:
       - Shelf
       band: developing
       in_catalog: true
-      kin_score: 49.1
+      kin_score: 49.4
       mcp:
         source: https://github.com/supabase/mcp
         status: verified
@@ -2644,12 +2644,12 @@ stack:
       tier: observed
       url: /providers/supabase/
     - agent_band: agent-ready
-      agent_readiness: 53.8
+      agent_readiness: 47.1
       apps:
       - inFlow Inventory
       band: exemplar
       in_catalog: true
-      kin_score: 78.0
+      kin_score: 81.8
       mcp:
         source: https://developer.okta.com/docs/concepts/mcp-server/
         status: verified
@@ -2674,12 +2674,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-native
-      agent_readiness: 58.5
+      agent_readiness: 57.6
       apps:
       - Shelf
       band: exemplar
       in_catalog: true
-      kin_score: 81.5
+      kin_score: 82.0
       mcp:
         source: https://docs.stripe.com/mcp
         status: verified
@@ -2696,12 +2696,12 @@ stack:
       tier: observed
       url: /providers/stripe/
     - agent_band: agent-ready
-      agent_readiness: 37.1
+      agent_readiness: 36.3
       apps:
       - inFlow Inventory
       band: strong
       in_catalog: true
-      kin_score: 54.7
+      kin_score: 54.9
       mcp:
         source: https://developer.paypal.com/tools/mcp-server/
         status: verified
@@ -2726,12 +2726,12 @@ stack:
       via_parent: Process Automation Governance
     providers:
     - agent_band: agent-ready
-      agent_readiness: 66.2
+      agent_readiness: 66.1
       apps:
       - inFlow Inventory
       band: exemplar
       in_catalog: true
-      kin_score: 72.0
+      kin_score: 72.9
       mcp:
         source: https://zapier.com/mcp
         status: verified
@@ -2748,12 +2748,12 @@ stack:
       tier: declared
       url: /providers/zapier/
     - agent_band: agent-ready
-      agent_readiness: 43.9
+      agent_readiness: 43.0
       apps:
       - Cin7
       band: developing
       in_catalog: true
-      kin_score: 43.5
+      kin_score: 43.4
       mcp:
         source: https://github.com/integromat/make-mcp-server
         status: verified
@@ -2778,12 +2778,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 54.7
+      agent_readiness: 53.6
       apps:
       - inFlow Inventory
       band: exemplar
       in_catalog: true
-      kin_score: 90.6
+      kin_score: 88.0
       mcp:
         source: https://github.com/salesforcecli/mcp
         status: verified
@@ -2808,12 +2808,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 30.0
+      agent_readiness: 29.4
       apps:
       - Shelf
-      band: thin
+      band: emerging
       in_catalog: true
-      kin_score: 27.1
+      kin_score: 26.1
       mcp:
         status: none
       name: Crisp
@@ -2837,12 +2837,12 @@ stack:
       via_parent: null
     providers:
     - agent_band: agent-ready
-      agent_readiness: 57.3
+      agent_readiness: 56.2
       apps:
       - Shelf
       band: strong
       in_catalog: true
-      kin_score: 57.7
+      kin_score: 57.9
       mcp:
         source: https://github.com/PostHog/mcp
         status: verified
@@ -2874,7 +2874,7 @@ stack:
       - Part-DB
       band: thin
       in_catalog: true
-      kin_score: 38.0
+      kin_score: 37.7
       mcp:
         status: none
       name: Ollama
@@ -2890,12 +2890,12 @@ stack:
       tier: observed
       url: /providers/ollama/
     - agent_band: agent-aware
-      agent_readiness: 18.2
+      agent_readiness: 22.5
       apps:
       - Part-DB
       band: thin
       in_catalog: true
-      kin_score: 30.1
+      kin_score: 32.2
       mcp:
         status: none
       name: LM Studio
@@ -2919,12 +2919,12 @@ stack:
       via_parent: Model Inference
     providers:
     - agent_band: agent-ready
-      agent_readiness: 46.9
+      agent_readiness: 46.4
       apps:
       - Part-DB
       band: strong
       in_catalog: true
-      kin_score: 55.4
+      kin_score: 54.8
       mcp:
         source: https://openrouter.ai/docs/guides/overview/mcp-server
         status: verified
@@ -2952,7 +2952,7 @@ summary:
     unchecked: 2
     verified: 26
   mcp_verified: 26
-  mean_kin_score: 42.3
+  mean_kin_score: 44.6
   observed: 33
   queued: 2
   reference_apps: 8

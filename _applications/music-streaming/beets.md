@@ -167,9 +167,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.6
-    band: emerging
+    band: minimal
     in_catalog: true
-    kin_score: 12.7
+    kin_score: 10.9
     mcp: &id004
       status: none
     slug: acoustid
@@ -199,7 +199,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 1.3
+    kin_score: 0.4
     mcp: &id006
       status: unknown
     slug: albumart-org
@@ -222,11 +222,11 @@ integrations:
     via_parent: Audio & Music
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 46.8
-    band: developing
+    agent_band: agent-native
+    agent_readiness: 53.6
+    band: strong
     in_catalog: true
-    kin_score: 46.7
+    kin_score: 58.4
     mcp: &id008
       source: https://github.com/amzn/selling-partner-agentic-toolkit
       status: verified
@@ -254,10 +254,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.9
-    band: strong
+    agent_readiness: 36.5
+    band: developing
     in_catalog: true
-    kin_score: 55.2
+    kin_score: 52.9
     mcp: &id010
       status: none
     slug: apple
@@ -283,11 +283,11 @@ integrations:
     via_parent: Language & Document Understanding
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 17.9
-    band: thin
+    agent_band: agent-ready
+    agent_readiness: 32.2
+    band: strong
     in_catalog: true
-    kin_score: 38.6
+    kin_score: 62.4
     mcp: &id012
       source: https://github.com/microsoft/azure-speech-mcp-server
       status: verified
@@ -315,10 +315,10 @@ integrations:
   credit: null
   facts:
     agent_band: human-only
-    agent_readiness: 2.5
+    agent_readiness: 3.5
     band: minimal
     in_catalog: true
-    kin_score: 9.4
+    kin_score: 8.5
     mcp: &id014
       status: none
     slug: beatport
@@ -348,7 +348,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 6.7
+    kin_score: 7.9
     mcp: &id016
       status: none
     slug: cover-art-archive
@@ -378,7 +378,7 @@ integrations:
     agent_readiness: 0.6
     band: emerging
     in_catalog: true
-    kin_score: 13.2
+    kin_score: 12.7
     mcp: &id018
       status: none
     slug: dbpedia
@@ -405,10 +405,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.6
+    agent_readiness: 24.1
     band: thin
     in_catalog: true
-    kin_score: 30.8
+    kin_score: 30.7
     mcp: &id020
       status: none
     slug: deezer
@@ -434,11 +434,11 @@ integrations:
     via_parent: Audio & Music
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 32.9
+    agent_band: agent-aware
+    agent_readiness: 27.6
     band: thin
     in_catalog: true
-    kin_score: 36.6
+    kin_score: 38.1
     mcp: &id022
       status: none
     slug: discogs
@@ -468,7 +468,7 @@ integrations:
     agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 14.1
+    kin_score: 21.4
     mcp: &id024
       status: none
     slug: emby
@@ -498,7 +498,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 7.8
+    kin_score: 10.3
     mcp: &id026
       status: unknown
     slug: fanart-tv
@@ -525,10 +525,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 25.8
+    agent_readiness: 25.9
     band: thin
     in_catalog: true
-    kin_score: 34.4
+    kin_score: 34.8
     mcp: &id028
       status: none
     slug: genius
@@ -554,11 +554,11 @@ integrations:
     via_parent: Web Data
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 21.8
-    band: developing
+    agent_band: agent-ready
+    agent_readiness: 38.6
+    band: strong
     in_catalog: true
-    kin_score: 51.1
+    kin_score: 61.6
     mcp: &id030
       status: none
     slug: google-custom-search
@@ -585,10 +585,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 31.5
+    agent_readiness: 36.2
     band: thin
     in_catalog: true
-    kin_score: 26.5
+    kin_score: 26.3
     mcp: &id032
       status: none
     slug: ipfs
@@ -614,11 +614,11 @@ integrations:
     via_parent: null
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.4
+    agent_band: human-only
+    agent_readiness: 2.5
     band: emerging
     in_catalog: true
-    kin_score: 13.3
+    kin_score: 21.4
     mcp: &id034
       status: none
     slug: kodi
@@ -645,10 +645,10 @@ integrations:
   credit: null
   facts: &id001
     agent_band: agent-aware
-    agent_readiness: 23.7
-    band: developing
+    agent_readiness: 25.9
+    band: strong
     in_catalog: true
-    kin_score: 54.2
+    kin_score: 54.4
     mcp: &id036
       status: none
     slug: lastfm
@@ -691,9 +691,9 @@ integrations:
   facts:
     agent_band: human-only
     agent_readiness: 0.0
-    band: minimal
+    band: emerging
     in_catalog: true
-    kin_score: 8.7
+    kin_score: 11.6
     mcp: &id038
       status: none
     slug: listenbrainz
@@ -719,11 +719,11 @@ integrations:
     via_parent: Audio & Music
   credit: null
   facts:
-    agent_band: agent-aware
-    agent_readiness: 5.8
+    agent_band: human-only
+    agent_readiness: 2.8
     band: minimal
     in_catalog: true
-    kin_score: 7.9
+    kin_score: 9.9
     mcp: &id040
       status: unknown
     slug: lrclib
@@ -750,10 +750,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 24.4
+    agent_readiness: 21.8
     band: emerging
     in_catalog: true
-    kin_score: 22.7
+    kin_score: 23.5
     mcp: &id042
       status: unknown
     slug: lrcmux
@@ -779,11 +779,11 @@ integrations:
     via_parent: Audio & Music
   credit: null
   facts:
-    agent_band: agent-ready
-    agent_readiness: 31.3
+    agent_band: agent-aware
+    agent_readiness: 27.2
     band: thin
     in_catalog: true
-    kin_score: 37.9
+    kin_score: 38.2
     mcp: &id044
       status: none
     slug: musicbrainz
@@ -810,10 +810,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 22.7
+    agent_readiness: 22.1
     band: thin
     in_catalog: true
-    kin_score: 34.2
+    kin_score: 33.2
     mcp: &id046
       status: none
     slug: musixmatch
@@ -839,10 +839,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 59.6
+    agent_readiness: 63.2
     band: strong
     in_catalog: true
-    kin_score: 55.9
+    kin_score: 56.7
     mcp: &id048
       status: none
     slug: plex
@@ -869,10 +869,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-aware
-    agent_readiness: 23.6
+    agent_readiness: 23.1
     band: thin
     in_catalog: true
-    kin_score: 34.2
+    kin_score: 33.0
     mcp: &id050
       status: none
     slug: sonos
@@ -899,10 +899,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 33.3
+    agent_readiness: 32.7
     band: developing
     in_catalog: true
-    kin_score: 49.8
+    kin_score: 50.6
     mcp: &id052
       status: none
     slug: spotify
@@ -932,7 +932,7 @@ integrations:
     agent_readiness: 0.0
     band: minimal
     in_catalog: true
-    kin_score: 3.4
+    kin_score: 2.6
     mcp: &id054
       status: unknown
     slug: tekstowo
@@ -959,10 +959,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 34.6
+    agent_readiness: 39.3
     band: developing
     in_catalog: true
-    kin_score: 48.8
+    kin_score: 46.9
     mcp: &id056
       status: none
     slug: tidal
@@ -989,10 +989,10 @@ integrations:
   credit: null
   facts:
     agent_band: agent-ready
-    agent_readiness: 29.8
+    agent_readiness: 29.3
     band: developing
     in_catalog: true
-    kin_score: 43.0
+    kin_score: 41.8
     mcp: &id058
       status: none
     slug: wikipedia
@@ -1029,9 +1029,9 @@ providers:
   url: null
 - agent_band: human-only
   agent_readiness: 0.6
-  band: emerging
+  band: minimal
   in_catalog: true
-  kin_score: 12.7
+  kin_score: 10.9
   mcp: *id004
   name: AcoustID
   slug: acoustid
@@ -1042,18 +1042,18 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 1.3
+  kin_score: 0.4
   mcp: *id006
   name: AlbumArt.org
   slug: albumart-org
   status: profiled
   tags: *id007
   url: /providers/albumart-org/
-- agent_band: agent-ready
-  agent_readiness: 46.8
-  band: developing
+- agent_band: agent-native
+  agent_readiness: 53.6
+  band: strong
   in_catalog: true
-  kin_score: 46.7
+  kin_score: 58.4
   mcp: *id008
   name: Amazon
   slug: amazon
@@ -1061,21 +1061,21 @@ providers:
   tags: *id009
   url: /providers/amazon/
 - agent_band: agent-ready
-  agent_readiness: 31.9
-  band: strong
+  agent_readiness: 36.5
+  band: developing
   in_catalog: true
-  kin_score: 55.2
+  kin_score: 52.9
   mcp: *id010
   name: Apple (iTunes Search API)
   slug: apple
   status: profiled
   tags: *id011
   url: /providers/apple/
-- agent_band: agent-aware
-  agent_readiness: 17.9
-  band: thin
+- agent_band: agent-ready
+  agent_readiness: 32.2
+  band: strong
   in_catalog: true
-  kin_score: 38.6
+  kin_score: 62.4
   mcp: *id012
   name: Azure AI Translator
   slug: microsoft-cognitive-services
@@ -1083,10 +1083,10 @@ providers:
   tags: *id013
   url: /providers/microsoft-cognitive-services/
 - agent_band: human-only
-  agent_readiness: 2.5
+  agent_readiness: 3.5
   band: minimal
   in_catalog: true
-  kin_score: 9.4
+  kin_score: 8.5
   mcp: *id014
   name: Beatport
   slug: beatport
@@ -1097,7 +1097,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 6.7
+  kin_score: 7.9
   mcp: *id016
   name: Cover Art Archive
   slug: cover-art-archive
@@ -1108,7 +1108,7 @@ providers:
   agent_readiness: 0.6
   band: emerging
   in_catalog: true
-  kin_score: 13.2
+  kin_score: 12.7
   mcp: *id018
   name: DBpedia
   slug: dbpedia
@@ -1116,21 +1116,21 @@ providers:
   tags: *id019
   url: /providers/dbpedia/
 - agent_band: agent-aware
-  agent_readiness: 24.6
+  agent_readiness: 24.1
   band: thin
   in_catalog: true
-  kin_score: 30.8
+  kin_score: 30.7
   mcp: *id020
   name: Deezer
   slug: deezer
   status: profiled
   tags: *id021
   url: /providers/deezer/
-- agent_band: agent-ready
-  agent_readiness: 32.9
+- agent_band: agent-aware
+  agent_readiness: 27.6
   band: thin
   in_catalog: true
-  kin_score: 36.6
+  kin_score: 38.1
   mcp: *id022
   name: Discogs
   slug: discogs
@@ -1141,7 +1141,7 @@ providers:
   agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 14.1
+  kin_score: 21.4
   mcp: *id024
   name: Emby
   slug: emby
@@ -1152,7 +1152,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 7.8
+  kin_score: 10.3
   mcp: *id026
   name: Fanart.tv
   slug: fanart-tv
@@ -1160,21 +1160,21 @@ providers:
   tags: *id027
   url: /providers/fanart-tv/
 - agent_band: agent-aware
-  agent_readiness: 25.8
+  agent_readiness: 25.9
   band: thin
   in_catalog: true
-  kin_score: 34.4
+  kin_score: 34.8
   mcp: *id028
   name: Genius
   slug: genius
   status: profiled
   tags: *id029
   url: /providers/genius/
-- agent_band: agent-aware
-  agent_readiness: 21.8
-  band: developing
+- agent_band: agent-ready
+  agent_readiness: 38.6
+  band: strong
   in_catalog: true
-  kin_score: 51.1
+  kin_score: 61.6
   mcp: *id030
   name: Google Custom Search
   slug: google-custom-search
@@ -1182,21 +1182,21 @@ providers:
   tags: *id031
   url: /providers/google-custom-search/
 - agent_band: agent-ready
-  agent_readiness: 31.5
+  agent_readiness: 36.2
   band: thin
   in_catalog: true
-  kin_score: 26.5
+  kin_score: 26.3
   mcp: *id032
   name: IPFS
   slug: ipfs
   status: profiled
   tags: *id033
   url: /providers/ipfs/
-- agent_band: agent-aware
-  agent_readiness: 5.4
+- agent_band: human-only
+  agent_readiness: 2.5
   band: emerging
   in_catalog: true
-  kin_score: 13.3
+  kin_score: 21.4
   mcp: *id034
   name: Kodi
   slug: kodi
@@ -1204,10 +1204,10 @@ providers:
   tags: *id035
   url: /providers/kodi/
 - agent_band: agent-aware
-  agent_readiness: 23.7
-  band: developing
+  agent_readiness: 25.9
+  band: strong
   in_catalog: true
-  kin_score: 54.2
+  kin_score: 54.4
   mcp: *id036
   name: Last.fm
   slug: lastfm
@@ -1216,20 +1216,20 @@ providers:
   url: /providers/lastfm/
 - agent_band: human-only
   agent_readiness: 0.0
-  band: minimal
+  band: emerging
   in_catalog: true
-  kin_score: 8.7
+  kin_score: 11.6
   mcp: *id038
   name: ListenBrainz
   slug: listenbrainz
   status: profiled
   tags: *id039
   url: /providers/listenbrainz/
-- agent_band: agent-aware
-  agent_readiness: 5.8
+- agent_band: human-only
+  agent_readiness: 2.8
   band: minimal
   in_catalog: true
-  kin_score: 7.9
+  kin_score: 9.9
   mcp: *id040
   name: LRCLIB
   slug: lrclib
@@ -1237,21 +1237,21 @@ providers:
   tags: *id041
   url: /providers/lrclib/
 - agent_band: agent-aware
-  agent_readiness: 24.4
+  agent_readiness: 21.8
   band: emerging
   in_catalog: true
-  kin_score: 22.7
+  kin_score: 23.5
   mcp: *id042
   name: LRCMux
   slug: lrcmux
   status: profiled
   tags: *id043
   url: /providers/lrcmux/
-- agent_band: agent-ready
-  agent_readiness: 31.3
+- agent_band: agent-aware
+  agent_readiness: 27.2
   band: thin
   in_catalog: true
-  kin_score: 37.9
+  kin_score: 38.2
   mcp: *id044
   name: MusicBrainz
   slug: musicbrainz
@@ -1259,10 +1259,10 @@ providers:
   tags: *id045
   url: /providers/musicbrainz/
 - agent_band: agent-aware
-  agent_readiness: 22.7
+  agent_readiness: 22.1
   band: thin
   in_catalog: true
-  kin_score: 34.2
+  kin_score: 33.2
   mcp: *id046
   name: Musixmatch
   slug: musixmatch
@@ -1270,10 +1270,10 @@ providers:
   tags: *id047
   url: /providers/musixmatch/
 - agent_band: agent-ready
-  agent_readiness: 59.6
+  agent_readiness: 63.2
   band: strong
   in_catalog: true
-  kin_score: 55.9
+  kin_score: 56.7
   mcp: *id048
   name: Plex
   slug: plex
@@ -1281,10 +1281,10 @@ providers:
   tags: *id049
   url: /providers/plex/
 - agent_band: agent-aware
-  agent_readiness: 23.6
+  agent_readiness: 23.1
   band: thin
   in_catalog: true
-  kin_score: 34.2
+  kin_score: 33.0
   mcp: *id050
   name: Sonos
   slug: sonos
@@ -1292,10 +1292,10 @@ providers:
   tags: *id051
   url: /providers/sonos/
 - agent_band: agent-ready
-  agent_readiness: 33.3
+  agent_readiness: 32.7
   band: developing
   in_catalog: true
-  kin_score: 49.8
+  kin_score: 50.6
   mcp: *id052
   name: Spotify
   slug: spotify
@@ -1306,7 +1306,7 @@ providers:
   agent_readiness: 0.0
   band: minimal
   in_catalog: true
-  kin_score: 3.4
+  kin_score: 2.6
   mcp: *id054
   name: Tekstowo
   slug: tekstowo
@@ -1314,10 +1314,10 @@ providers:
   tags: *id055
   url: /providers/tekstowo/
 - agent_band: agent-ready
-  agent_readiness: 34.6
+  agent_readiness: 39.3
   band: developing
   in_catalog: true
-  kin_score: 48.8
+  kin_score: 46.9
   mcp: *id056
   name: TIDAL
   slug: tidal
@@ -1325,10 +1325,10 @@ providers:
   tags: *id057
   url: /providers/tidal/
 - agent_band: agent-ready
-  agent_readiness: 29.8
+  agent_readiness: 29.3
   band: developing
   in_catalog: true
-  kin_score: 43.0
+  kin_score: 41.8
   mcp: *id058
   name: Wikipedia
   slug: wikipedia
